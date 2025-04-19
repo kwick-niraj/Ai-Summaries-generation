@@ -1,0 +1,92 @@
+Here are the strategy list for generating summaries as JSON below: here the strategy_name is the name of the strategy, description is the meta about the strategy and the "prompt_addition" is the prompt for that strategy.
+
+[
+  {
+    "strategy_name": "story_wisdom",
+    "description": "Narrative-style walkthrough with storytelling and personal insights",
+    "prompt_addition": "Structure the summary as a story-driven walkthrough. Emphasize the author’s journey, key experiences, and lessons. Use a personal, reflective tone. Use all the important examples used by the Author."
+  },
+  {
+    "strategy_name": "framework_stepwise",
+    "description": "Step-by-step process or structured method explanations",
+    "prompt_addition": "Summarize using a clear step-by-step structure. Highlight each phase, principle, or rule in the order the book presents it. Name and explain each step thoroughly."
+  },
+  {
+    "strategy_name": "insight_listing",
+    "description": "List of deep insights or ideas, like condensed wisdom",
+    "prompt_addition": "Create a themed list of core insights. Introduce each one with a short narrative or metaphor. The summary should feel like distilled wisdom."
+  },
+  {
+    "strategy_name": "comparison_reflection",
+    "description": "Reflective summaries that compare ideas (e.g., old vs new mindsets)",
+    "prompt_addition": "Use a compare-and-contrast tone or style. Reflect on contrasting mindsets or approaches. Frame ideas as old vs new, traditional vs evolved, etc."
+  },
+  {
+    "strategy_name": "tactical_breakdown",
+    "description": "Actionable, tactical guide with implementation-ready tips",
+    "prompt_addition": "Break the summary into tactical sections. Focus on what the reader should do or apply. Use practical language and highlight real-world utility."
+  },
+  {
+    "strategy_name": "philosophical_reflection",
+    "description": "Thoughtful and interpretive — often abstract, idea-focused narratives",
+    "prompt_addition": "Focus on big ideas and thoughtful interpretation. Allow for slower pacing, abstract thinking, and deeper reflections. Avoid bullet points."
+  },
+  {
+    "strategy_name": "case_study",
+    "description": "Uses stories/examples to illustrate ideas — usually research-based or narrative-driven",
+    "prompt_addition": "Highlight key examples and real-life stories. Each section should focus on a different case or story that teaches a broader idea."
+  },
+  {
+    "strategy_name": "visual_framework",
+    "description": "Emphasizes mental models, diagrams, or structural frameworks",
+    "prompt_addition": "Frame the summary around visual or mental models. Even though images aren’t available, describe frameworks clearly with analogies."
+  },
+  {
+    "strategy_name": "motivational_manifesto",
+    "description": "Persuasive, uplifting summaries that motivate the reader — more about mindset than how-to",
+    "prompt_addition": "Make the tone inspirational and energizing. Summarize ideas with emotional power and persuasive rhythm, like a rallying call."
+  },
+  {
+    "strategy_name": "interview_or_collation",
+    "description": "Built around interviews, multi-author entries, or curated wisdom from others",
+    "prompt_addition": "Summarize each major contributor’s insight or story. Clearly attribute ideas if names are mentioned. Keep the format modular and digestible."
+  }
+]
+
+Requirements:
+1. Length & Readability
+	•	The summary should take 20 to 30 minutes to read
+	•	Target word count: 18,000 to 22,000 characters
+	•	Use simple, natural language that’s easy to understand
+	•	Avoid complex vocabulary, overly poetic phrasing, or academic tone
+  •	Make length and chapter's content dynamic, if you think any chapters of the book is more important then you can increase the length of that section.
+  •	categorize the chapters into their respective themes. If all the concepts of summary are concluded in 8 chapter, then there is no need to be redundant and increase the length. If the necessary information or concept it missing then you can increase the number of chapters to up to 12 in total.
+
+
+2. Originality & Clarity
+	•	Do not copy phrases, chapter titles, or structures from the original book
+	•	Paraphrase deeply and present all ideas in your own words
+	•	Create a fresh and engaging interpretation that’s true to the spirit of the book
+
+3. Content Coverage
+	•	Cover all key insights, principles, and takeaways
+	•	Include generalized references to examples or stories, but do not retell them in full
+	•	Ensure the summary can stand alone and provide full value even to someone who hasn’t read the book(do not mention "readers" or similar keywords while generating summaries)
+  • Do not use Author's name for generating summaries like: "Author's name" says that, or believes that or wanted to say this.
+  • Add Introduction and the title you should use is "What You’ll Learn?". The content of the Introduction should be a quick overview of the book and use 800 to 1200 characters.
+  • Add conclusion section at last. The content of the Conclusion should be key takeaway of the summaries and use bullet points if needed, the length of the conclusion section should be 800 to 1200 characters.
+  • Avoid repetitive use of the same subject nouns (e.g., “the boy”, “the author”, “the reader”).Use pronouns like he, she, or they where the subject is already clear.
+
+4. Tone & Style
+	•	Maintain a neutral, clear, and reflective tone
+	•	Avoid jargon unless explained simply
+	•	Write like a helpful guide — friendly, and easy to follow.
+  • Important: Humanize the summaries. Ask a question and then answer when needed, that is the right way to convey a message.
+  • Write in a third-person perspective. Use pronouns like "He/Him/His", "She/Her", "It", or "They/Them/Their" whenever required.
+
+5. Flexibility in Layout
+  • Name each chapter with concise, clear, and concrete titles, Avoid poetic, abstract, or overly dramatic names
+	•	You may combine, or rename ideas as needed
+	•	Structure the summary as a natural progression of understanding, leading the reader from foundational concepts to deeper insights
+  •	Reflect the original concepts of the books and set the length of the chapters accordingly, if believe the chapter is important and long in the original book then generate more summary for that chapter.
+  •	Add a hook at the end of each chapters which is continued in the next chapter

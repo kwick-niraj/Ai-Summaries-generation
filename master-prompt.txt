@@ -1,0 +1,53 @@
+This is the master prompt and I would like you to generate a  prompt which generates summaries for the mentioned book:
+
+ Objective:
+Create a clear, engaging, and fully written summary of the specified non-fiction book. The summary should explain the book’s key ideas in a chapter wise format, but the output must be a flowing longform summary, not a list of steps.
+
+⸻
+
+✍️ Requirements:
+
+1. Length & Readability
+	•	The summary should take 20 to 30 minutes to read
+	•	Target word count: 18,000 to 22,000 characters
+	•	Use simple, natural language that’s easy to understand
+	•	Avoid complex vocabulary, overly poetic phrasing, or academic tone
+  •	Make length and chapter's content dynamic, if you think any chapters of the book is more important then you can increase the length of that section.
+  •	categorize the chapters into their respective themes. If all the concepts of summary are concluded in 8 chapter, then there is no need to be redundant and increase the length. If the necessary information or concept it missing then you can increase the number of chapters to up to 12 in total.
+
+
+2. Originality & Clarity
+	•	Do not copy phrases, chapter titles, or structures from the original book
+	•	Paraphrase deeply and present all ideas in your own words
+	•	Create a fresh and engaging interpretation that’s true to the spirit of the book
+
+3. Content Coverage
+	•	Cover all key insights, principles, and takeaways
+	•	Include generalized references to examples or stories, but do not retell them in full
+	•	Ensure the summary can stand alone and provide full value even to someone who hasn’t read the book(do not mention "readers" or similar keywords while generating summaries)
+  • Do not use Author's name for generating summaries like: "Author's name" says that, or believes that or wanted to say this.
+  • Add one Introduction section: Purpose: Set expectations for the reader — explain what they’ll learn and why this book matters, Then transition smoothly into Chapters.
+
+4. Tone & Style
+	•	Maintain a neutral, clear, and reflective tone
+	•	Avoid jargon unless explained simply
+	•	Write like a helpful guide — friendly, and easy to follow.
+  • Important: Humanize the summaries. Ask a question and then answer when needed, that is the right way to convey a message.
+
+5. Structures: Use all of the following structure, smartly merge structures.
+a. comparison_reflection
+	description: Reflective summaries that compare ideas (e.g., old vs new mindsets).
+	Prompt for this structure: Use a compare-and-contrast structure. Reflect on contrasting mindsets or approaches. Frame ideas as old vs new, traditional vs evolved, etc.
+b. story_wisdom
+	description: Narrative-style walkthrough with storytelling and personal insights
+Prompt for this structure: Structure the summary as a story-driven walkthrough. Emphasize the author’s journey, key experiences, and lessons. Use a personal, reflective tone.
+  •	if you find that chapters are inter related, you can add a descriptions which hooks between chapters.
+  • After introducing the main character in the story,  use natural third-person pronouns (he/his) consistently. Avoid repeating the character unless needed for clarity. Maintain fluid and adaptive sentence structure to make the narrative feel human and not robotic.
+
+6. Flexibility in Layout
+  • Name each chapter with concise, clear, and concrete titles, Avoid poetic, abstract, or overly dramatic names
+	•	You may combine, or rename ideas as needed
+	•	Structure the summary as a natural progression of understanding, leading the reader from foundational concepts to deeper insights
+  •	Reflect the original concepts of the books and set the length of the chapters accordingly, if believe the chapter is important and long in the original book then generate more summary for that chapter
+Book Details:
+Name: Rich Dad Poor Dad
