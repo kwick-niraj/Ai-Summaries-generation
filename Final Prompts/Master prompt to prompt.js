@@ -60,9 +60,7 @@ const response = await openai.responses.create({
 
 // ✍️ Requirements:
 
-
-// Requirements:
-/ 1. Length & Readability
+// 1. Length & Readability
 // 	•	Target word count: 18,000 to 22,000 characters
 // 	•	Use simple, natural language that’s easy to understand
 // 	•	Avoid complex vocabulary, overly poetic phrasing, or academic tone
