@@ -12,75 +12,73 @@ const openai = new OpenAI({
 });
 
 const metaOfBook = {
-  "Title": "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships",
-  "Author": "Leil Lowndes",
-  "Publication Date": "2003",
-  "Edition Analyzed": "Most recent standard edition",
-  "Genre": [
+  "title": "The 1% Rule: How to Fall in Love with the Process and Achieve Your Wildest Dreams",
+  "author": "Tommy Baker",
+  "publication_date": "2018",
+  "edition_analyzed": "Most recent standard edition",
+  "genre": [
     "Self-Help",
-    "Communication",
-    "Personal Development"
+    "Personal Development",
+    "Productivity"
   ],
-  "Target Audience": [
-    "Young adults and adults",
-    "Professionals seeking to improve social skills",
-    "Individuals interested in networking",
-    "Anyone wishing to build confidence in social situations"
+  "target_audience": [
+    "Entrepreneurs",
+    "Professionals seeking personal growth",
+    "Individuals interested in goal achievement",
+    "Readers of motivational and productivity literature"
   ],
-  "Core Themes": [
-    "Effective communication",
-    "Building rapport and likability",
-    "Social confidence",
-    "Non-verbal communication",
-    "Relationship-building in personal and professional life"
+  "core_themes": [
+    "Consistent, incremental progress",
+    "Focusing on process over outcome",
+    "Overcoming overwhelm and procrastination",
+    "Building sustainable habits",
+    "Long-term vision and persistence"
   ],
-  "Primary Purpose": "To provide practical, actionable tips for improving social interactions, making a positive impression, and building meaningful relationships in both personal and professional settings.",
-  "Structure & Format": {
-    "Organization": "Divided into 92 short, standalone chapters—each presenting one specific tip or technique.",
-    "Style": "Conversational, anecdotal, and direct.",
-    "Features": [
-      "Real-life examples",
-      "Step-by-step strategies",
-      "Memorable names for techniques"
+  "primary_purpose": "To encourage readers to pursue their goals through small, daily improvements, emphasizing the power of the process over the pursuit of perfection or instant results.",
+  "structure_format": {
+    "narrative_style": "Conversational, motivational",
+    "organization": "Thematic chapters with actionable steps and exercises",
+    "features": [
+      "Step-by-step frameworks",
+      "Personal anecdotes",
+      "Practical exercises"
     ]
   },
-  "Key Concepts / Lessons": [
-    "First impressions matter—master your body language and smile.",
-    "Use small talk strategically to build rapport.",
-    "Mirror others' communication styles to foster connection.",
-    "Remember and use people’s names effectively.",
-    "Ask open-ended questions to keep conversations flowing.",
-    "Subtly compliment and show genuine interest.",
-    "Handle awkward silences and social anxiety gracefully.",
-    "Techniques for networking and making lasting professional contacts."
+  "key_concepts_lessons": [
+    "Pursuing 1% daily improvement leads to significant long-term results.",
+    "Focusing on the process helps avoid overwhelm and builds momentum.",
+    "Clarity of vision is essential, but action is what creates change.",
+    "Sustainable success comes from consistency, not intensity.",
+    "Small wins compound over time, creating exponential growth.",
+    "Cultivating patience and embracing discomfort are key to progress."
   ],
-  "Style & Tone": [
-    "Friendly",
-    "Encouraging",
-    "Accessible"
+  "style_tone": [
+    "Inspirational",
+    "Practical",
+    "Encouraging"
   ],
-  "Notable Features": [
-    "Easy-to-implement tips",
-    "Memorable technique names (e.g., 'Sticky Eyes,' 'The Big-Baby Pivot')",
-    "Focus on both verbal and non-verbal communication"
+  "notable_features": [
+    "Emphasis on actionable daily steps",
+    "Exercises to clarify vision and track progress",
+    "Focus on mindset shifts for long-term achievement"
   ],
-  "Cultural/Historical Context": "Published in the early 2000s, responding to growing demand for personal development and networking skills in a rapidly changing, interconnected world.",
-  "Reception & Impact": [
-    "Consistently popular among readers seeking practical communication advice.",
-    "Praised for its straightforward, actionable tips.",
-    "Criticized by some for being formulaic or oversimplified."
+  "cultural_historical_context": "Emerging from the late-2010s trend toward process-oriented self-improvement, the book responds to the culture of instant gratification and the popularity of productivity hacks.",
+  "reception_impact": [
+    "Well-received in personal development circles",
+    "Praised for its actionable advice and motivational style",
+    "Referenced in productivity and coaching communities"
   ],
-  "Comparable Titles": [
-    "How to Win Friends and Influence People by Dale Carnegie",
-    "The Fine Art of Small Talk by Debra Fine",
-    "Crucial Conversations by Kerry Patterson et al."
+  "comparable_titles": [
+    "Atomic Habits by James Clear",
+    "The Slight Edge by Jeff Olson",
+    "The Compound Effect by Darren Hardy"
   ]
-};
+}
 
-const toneAndStructure = {
-  "structure_type": "story_wisdom",
-  "description": "Narrative-style walkthrough using emotional, reflective storytelling to explain key ideas.",
-  "structure": "Structure the summary as a flowing narrative that uses emotionally engaging storytelling to deliver key insights. Use broad, relatable scenarios to illustrate each key idea. You may use generalized, non-specific archetypes (e.g., 'a manager', 'a shy student'), but avoid creating named characters or detailed fictional backstories. Include clear, paraphrased examples or everyday situations to support key concepts and make them more relatable. Avoid full retellings or fictional anecdotes. Use natural, third-person narration and keep the tone reflective, warm, and human."
+const toneAndStructure =  {
+  "structure_type": "framework_stepwise",
+  "description": "Sequential summary of principles, rules, or habits using a clear, logical structure.",
+  "structure": "Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Begin with a clear theme, then explain the concept using metaphors or simplified explanations. Maintain a logical order and use a calm, instructive tone written in third person."
 };
 const isFirstHalf = true
 const userPrompt = generateUserPrompt(metaOfBook, toneAndStructure, isFirstHalf)

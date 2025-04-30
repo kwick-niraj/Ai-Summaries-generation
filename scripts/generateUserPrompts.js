@@ -1,16 +1,16 @@
 function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   const {
-    Title,
-    Author,
-    PublicationDate,
-    Genre = [],
-    TargetAudience = [],
-    "Core Themes": CoreThemes = [],
-    "Key Concepts / Lessons": KeyConcepts = [],
-    "Primary Purpose": PrimaryPurpose = '',
-    "Structure & Format": StructureFormat = {},
-    "Style & Tone": StyleTone = [],
-    "Notable Features": NotableFeatures = []
+    title,
+    author,
+    publication_date,
+    genre = [],
+    target_audience = [],
+    "core_themes": CoreThemes = [],
+    "key_concepts_lessons": KeyConcepts = [],
+    "primary_purpose": PrimaryPurpose = '',
+    "structure_format": StructureFormat = {},
+    "style_tone": StyleTone = [],
+    "notable_features": NotableFeatures = []
   } = meta;
 
   // 🧱 Structure
@@ -24,7 +24,7 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "neutral, clear, and accessible";
   const toneAndStructure = summaryToneAndStructure;
 
-  const tone = `${toneAndStructure.structure_type}, tactical_breakdown, ${metaTone}`
+  const tone = `${toneAndStructure.structure_type}, story_wisdom, tactical_breakdown, ${metaTone}`
 
 
   // 🧱 Bullet rules
@@ -33,21 +33,24 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   // 🧱 Summary Strategy (flexible, genre-agnostic)
   // const summaryStrategy = `Summary Type: ${toneAndStructure.structure_type}.\nDescription: ${toneAndStructure.description} ${toneAndStructure.structure}`;
 
-  const summaryStrategy = `Structure Type: Mixed (story_wisdom 70% + tactical_breakdown 30%)
+  const summaryStrategy = ` Mixed: framework_stepwise 60% + story_wisdom 25% + tactical_breakdown 15%
+
 Description:
 Use the following structure configuration to guide the summary writing process. Apply each style proportionally based on its weight and purpose, blending them seamlessly throughout the chapters.
 
-• 70% of the summary should follow the **“story_wisdom”** structure — deliver key ideas through emotionally engaging, reflective storytelling. Use broad, relatable scenarios to illustrate insights, and include paraphrased examples or everyday situations. You may use generalized archetypes (e.g., “a manager,” “a shy student”), but avoid named characters or fictional backstories. Keep the tone warm, natural, and human — like a guided reflection.
+• 60% of the summary should follow the **“framework_stepwise”** structure — Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Begin with a clear theme, then explain the concept using metaphors or simplified explanations. Maintain a logical order and use a calm, instructive tone written in third person.
 
-• 30% of the summary should follow the **“tactical_breakdown”** structure — embed practical takeaways or techniques derived from the concepts. Where appropriate, use brief bullet points to present grouped tools or actionable tips. Maintain a clear, helpful tone, and ensure these tactics support the narrative flow without disrupting it.
+• 25% of the summary should follow the **“story_wisdom”** structure — Structure the summary as a flowing narrative that uses emotionally engaging storytelling to deliver key insights. Use broad, relatable scenarios to illustrate each key idea. You may use generalized, non-specific archetypes (e.g., “a manager”, “a shy student”), but avoid creating named characters or detailed fictional backstories. Include clear, paraphrased examples or everyday situations to support key concepts and make them more relatable. Avoid full retellings or fictional anecdotes. Use natural, third-person narration and keep the tone reflective, warm, and human.
 
-Avoid dividing the two styles into separate sections. Instead, let storytelling lead, and let tactical clarity appear organically when reinforcing a key idea. The final output should feel cohesive, clear, and human in both form and tone.
+• 15% of the summary should follow the **“tactical_breakdown”** structure — Structure the summary as a clear, practical walkthrough of the book’s strategies. Each chapter should cover a core idea or principle and explain how it works in real-life situations. Write in a clear, third-person, instructional tone. While the summary itself should flow in paragraphs, any actionable steps, techniques, or tools mentioned within a chapter should be listed using bullet points for clarity. Avoid second-person language (“you”), and use general, relatable examples to ground the advice. Keep the language simple, direct, and helpful.
+
+Avoid dividing the three styles into separate sections. Instead, let the structured progression lead, enrich it with brief storytelling, and reinforce it with concise tactics where appropriate. The final summary should feel purposeful, practical, and human in tone and flow.
 `
 
   // 🧱 Avoid list (dynamic + generic)
   const avoid = [
     "Second-person language (e.g., 'you', 'your')",
-    `Mentioning the author directly (e.g., '${Author} says...', '${Author} believes...')`,
+    `Mentioning the author directly (e.g., '${author} says...', '${author} believes...')`,
     "Overuse of bullet points or generic list formatting",
     "Reusing original chapter titles or structure from the book",
     "Copying or closely imitating the book’s own phrasing or section names"
@@ -62,11 +65,11 @@ Your job is to generate a flowing, clear, deeply paraphrased summary of the foll
 ⸻
 
 📘 Book Metadata:
-• Title: ${Title}
-• Author: ${Author}
-• Genre: ${Genre.join(', ')}
-• First Published: ${PublicationDate}
-• Target Audience: ${TargetAudience.join(', ')}
+• Title: ${title}
+• Author: ${author}
+• Genre: ${genre.join(', ')}
+• First Published: ${publication_date}
+• Target Audience: ${target_audience.join(', ')}
 
 🎯 Primary Purpose:
 ${PrimaryPurpose}
