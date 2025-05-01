@@ -24,7 +24,8 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "neutral, clear, and accessible";
   const toneAndStructure = summaryToneAndStructure;
 
-  const tone = `${toneAndStructure.structure_type}, story_wisdom, tactical_breakdown, ${metaTone}`
+  // const tone = `story_wisdom, tactical_breakdown, ${metaTone}`
+  const tone = metaTone;
 
 
   // 🧱 Bullet rules
@@ -33,23 +34,19 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   // 🧱 Summary Strategy (flexible, genre-agnostic)
   // const summaryStrategy = `Summary Type: ${toneAndStructure.structure_type}.\nDescription: ${toneAndStructure.description} ${toneAndStructure.structure}`;
 
-  const summaryStrategy = ` Mixed: framework_stepwise 60% + story_wisdom 25% + tactical_breakdown 15%
+  const summaryStrategy = `
+  structure_type: Mixed- philosophical_reflection 50% + story_wisdom 30% + framework_stepwise 20%"
+  description: Use the following structure configuration to guide the summary writing process. Apply each style proportionally based on its weight and purpose, blending them seamlessly throughout the chapters. 
+  • 50% of the summary should follow the **“philosophical_reflection”** structure — Write the summary as a calm, thoughtful reflection on the book’s core psychological and spiritual ideas. Each chapter should explore one theme using metaphor, analogy, or simplified interpretation. Avoid poetic language unless essential. Maintain a neutral, meditative tone with smooth, idea-driven flow.\n\n• 30% of the summary should follow the **“story_wisdom”** structure — Structure the summary as a flowing narrative that uses emotionally engaging storytelling to explain key insights. Use broad, relatable life scenarios (e.g., 'a person overcoming chronic fear' or 'someone healing through belief') to illustrate how subconscious influence works. Use simple archetypes (e.g., 'a patient', 'a believer', 'a skeptical student') without names or fictional detail. Keep the narration natural and warm, using third-person voice.\n\n• 20% of the summary should follow the **“framework_stepwise”** structure — Present key principles or recurring spiritual laws in a clear, progressive flow. For example: belief → imagination → repetition → results. Use simplified logic to break abstract ideas into digestible stages or mental habits. Maintain a structured but gentle instructional tone.\n\nAvoid splitting these styles into separate blocks. Let reflective passages lead, enrich them with relatable human experiences, and reinforce key ideas through simple structures or mental models. The final summary should feel spiritually thoughtful, emotionally resonant, and intellectually clear.
 
-Description:
-Use the following structure configuration to guide the summary writing process. Apply each style proportionally based on its weight and purpose, blending them seamlessly throughout the chapters.
-
-• 60% of the summary should follow the **“framework_stepwise”** structure — Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Begin with a clear theme, then explain the concept using metaphors or simplified explanations. Maintain a logical order and use a calm, instructive tone written in third person.
-
-• 25% of the summary should follow the **“story_wisdom”** structure — Structure the summary as a flowing narrative that uses emotionally engaging storytelling to deliver key insights. Use broad, relatable scenarios to illustrate each key idea. You may use generalized, non-specific archetypes (e.g., “a manager”, “a shy student”), but avoid creating named characters or detailed fictional backstories. Include clear, paraphrased examples or everyday situations to support key concepts and make them more relatable. Avoid full retellings or fictional anecdotes. Use natural, third-person narration and keep the tone reflective, warm, and human.
-
-• 15% of the summary should follow the **“tactical_breakdown”** structure — Structure the summary as a clear, practical walkthrough of the book’s strategies. Each chapter should cover a core idea or principle and explain how it works in real-life situations. Write in a clear, third-person, instructional tone. While the summary itself should flow in paragraphs, any actionable steps, techniques, or tools mentioned within a chapter should be listed using bullet points for clarity. Avoid second-person language (“you”), and use general, relatable examples to ground the advice. Keep the language simple, direct, and helpful.
-
-Avoid dividing the three styles into separate sections. Instead, let the structured progression lead, enrich it with brief storytelling, and reinforce it with concise tactics where appropriate. The final summary should feel purposeful, practical, and human in tone and flow.
 `
+// • 5% of the summary should follow the **“tactical_breakdown”** structure — Structure the summary as a clear, practical walkthrough of the book’s strategies. Each chapter should cover a core idea or principle and explain how it works in real-life situations. Write in a clear, third-person, instructional tone. While the summary itself should flow in paragraphs, any actionable steps, techniques, or tools mentioned within a chapter should be listed using bullet points for clarity. Avoid second-person language (“you”), and use general, relatable examples to ground the advice. Keep the language simple, direct, and helpful.
+
+// Avoid treating the styles as separate sections. Let them blend naturally within each chapter.
 
   // 🧱 Avoid list (dynamic + generic)
   const avoid = [
-    "Second-person language (e.g., 'you', 'your')",
+    "Using words like (e.g., 'you', 'your')",
     `Mentioning the author directly (e.g., '${author} says...', '${author} believes...')`,
     "Overuse of bullet points or generic list formatting",
     "Reusing original chapter titles or structure from the book",
@@ -87,9 +84,7 @@ ${structureLine}
 ${summaryStrategy}
 
 🎯 Writing Guidelines:
-• Tone: ${tone}
-• Voice: third-person only
-• Style: conversational, simple, and practical
+• Voice: Second-person and/or third-person
 • Bullet Points: ${bulletRule}
 • Target Length: 22,000–25,000 characters
 
