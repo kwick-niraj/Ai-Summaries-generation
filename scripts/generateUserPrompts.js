@@ -36,9 +36,17 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
 
   const summaryStrategy = `
   {
+
+  "structure_type": "framework_stepwise",
   
-  "structure_type": "story_wisdom",
-  "description": "Use the following structure configuration to guide the summary writing process.\n\n• The summary should follow the **story_wisdom** structure — Build the summary around emotionally engaging, narrative-style writing that reflects the entrepreneurial insights and mindset shifts presented in *The Millionaire Fastlane*. Maintain the original chapter flow for at least 80% of the structure. Paraphrase the stories, analogies, and thought experiments provided by the author to convey their lessons naturally.\n\nUse a hybrid tone across the summary that seamlessly blends narrative, reflection, and applied insight in the following way:\n\n1. Begin each chapter with a **compelling, real-world setup** that introduces the theme using reflective, human-centered language. Avoid generalities—ground the idea in emotional relevance or common life situations that echo the book's themes of dissatisfaction, financial pressure, or restless ambition.\n\n2. When referencing examples, analogies, or illustrative concepts (like the 'slowlane' and 'fastlane'), use **immersive storytelling** to bring them to life. Describe scenarios through paraphrased experiences using unnamed, relatable characters. Focus on emotional realism and mental turning points. Keep scenes grounded, concise, and avoid exaggerated dramatization.\n\n3. Throughout the narration, **weave in core lessons through a natural conversational tone**. Speak to the reader as if offering clarity in the moment. Avoid labeling lessons or listing takeaways directly. Instead, embed them through reflection, cause-effect realization, or subtle shifts in perspective. The insight should feel earned by the reader, not presented as a bullet point.\n\nMaintain a tone that is direct, motivational, and thought-provoking — consistent with DeMarco’s no-nonsense voice, but softened for smooth narrative flow. Avoid formal structure, instructional headings, or repetitive phrasing. Let the writing feel like a persuasive conversation backed by personal reflection and entrepreneurial storytelling."
+  "description": "Use this strategy to summarize books that present a structured methodology, system, or set of principles. The summary should progress step-by-step in a clear, logical flow that mirrors the original framework or sequential argument of the book. This structure is ideal for books about productivity, business, health, learning, or behavioral change.",
+  
+  "prompt": "Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Start by clearly defining the theme or principle of that chapter. Then, explain the concept in simplified, logical terms using analogies, metaphors, or relatable thought experiments when needed. Use short, real-life examples to demonstrate how the principle works in action — these can be paraphrased or generalized but must be relevant.\n\nEnsure the summary maintains a logical progression: early chapters should introduce foundational ideas, while later ones build complexity or deepen practical understanding. Link concepts where appropriate to show interdependence.\nEmphasize practical understanding over literary style. Avoid fragmenting insights — keep the flow continuous.\n\nWhen the original book presents visual or conceptual frameworks (e.g., loops, matrices, pyramids), describe them simply so they are mentally visualizable. Summarize tools, models, or checklists naturally within the paragraph flow or as short bullet lists where necessary.\n\nThe overall goal is to teach the core logic and usability of the framework clearly and sequentially — as if helping someone implement the method in real life, step by step.",
+
+  "tone": "Use a story-driven tone that feels like each principle is being uncovered through meaningful experience. Begin sections with real-world moments or reflective situations where the need for a given principle becomes obvious. Rather than a detached mentor, the voice should feel like someone walking through the lessons from lived trial-and-error — learning alongside the reader. Blend instruction with light storytelling and internal realizations. Prioritize relatability, transformation, and natural clarity over formal exposition or motivation. Let the structure emerge as the path someone walked to find what works.",
+
+  "technique_integration": "If there are clearly named or structured techniques (e.g., rules, steps, methods, or frameworks), include them as brief, well-placed bullet points at the moment they emerge naturally in the narrative. Do not isolate them into a separate section. Introduce them gently with transitions. Paraphrase both the language and any original metaphors to keep the expression fresh and natural. Keep each point concise (2–5 lines max) and use accessible, human-centered wording. The goal is to blend clarity with emotional and conceptual flow, without referring to the book or its author directly."
+
 
 }
 
@@ -58,6 +66,7 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
     "over-fictionalizing or introducing narrative embellishments that misrepresent real events or teachings. When describing characters (e.g., mentors, parents, friends), refer to their roles based on how they function in the author’s life, not how they could be dramatized."
   ];
 
+//  • Bullet Points: ${bulletRule}
 
   return `
 You are a professional nonfiction book summarizer.
@@ -90,7 +99,6 @@ ${summaryStrategy}
 
 🎯 Writing Guidelines:
 • Voice: Use a combination of second-person and  third-person voice
-• Bullet Points: ${bulletRule}
 • Target Length: 22,000–25,000 characters
 
 🚫 Avoid:

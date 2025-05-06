@@ -13,64 +13,67 @@ const openai = new OpenAI({
 
 const metaOfBook = {
   
-    "title": "Rich Dad Poor Dad",
-    "author": "Robert T. Kiyosaki",
-    "publication_date": "1997",
+  
+    "title": "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships",
+    "author": "Leil Lowndes",
+    "publication_date": "2003",
     "edition_analyzed": "Most recent standard edition",
     "genre": [
-      "Personal Finance",
       "Self-Help",
-      "Business"
+      "Communication",
+      "Personal Development",
+      "Social Skills"
     ],
     "target_audience": [
-      "Young adults and adults",
-      "Individuals seeking financial education",
-      "Aspiring entrepreneurs",
-      "Those interested in wealth-building and personal development"
+      "Adults seeking to improve social and communication skills",
+      "Professionals aiming to network and build relationships",
+      "Introverts and shy individuals",
+      "Anyone interested in personal development and effective communication"
     ],
     "core_themes": [
-      "Financial literacy",
-      "The difference between assets and liabilities",
-      "The importance of financial education",
-      "Mindset differences between the wealthy and the poor",
-      "Breaking free from the 'rat race'",
-      "Entrepreneurship versus traditional employment"
+      "Building rapport and likability",
+      "Mastering verbal and non-verbal communication",
+      "Confidence in social situations",
+      "Networking and relationship-building",
+      "Practical conversation techniques"
     ],
-    "primary_purpose": "To challenge conventional beliefs about money, advocate for financial education, and provide foundational principles for building wealth.",
+    "primary_purpose": "To provide readers with practical, easy-to-implement tips and techniques for making a positive impression, enhancing communication, and building successful relationships in both personal and professional settings.",
     "structure_format": {
-      "narrative_style": "Conversational, anecdotal",
-      "organization": "Core lessons presented as chapters, contrasting two father figures ('Rich Dad' and 'Poor Dad')",
+      "narrative_style": "Conversational, accessible, and tip-based",
+      "organization": "Divided into 92 short, actionable chapters, each focusing on a specific technique",
       "features": [
-        "Personal stories",
-        "Simple, accessible language",
-        "Actionable mindset principles"
+        "Real-life examples and scenarios",
+        "Step-by-step instructions",
+        "Quick-reference summaries"
       ]
     },
     "key_concepts_lessons": [
-      "The rich don't work for money: focus on acquiring assets rather than earning a salary.",
-      "Understanding the difference between assets and liabilities is crucial for financial success.",
-      "Mind your own business: build and own income-generating assets.",
-      "The wealthy use corporations and tax laws to their advantage.",
-      "Financial education and risk-taking open up opportunities to invent money.",
-      "Value learning and skill development over job security."
+      "First impressions are powerful and can be managed with specific behaviors.",
+      "Non-verbal cues—such as eye contact, body language, and gestures—are critical to effective communication.",
+      "Small talk can be a gateway to deeper connections.",
+      "Listening actively and showing genuine interest builds trust and rapport.",
+      "Adapting your communication style to the context and audience increases effectiveness.",
+      "Confidence and warmth make interactions more memorable and successful."
     ],
     "style_tone": [
     ],
     "notable_features": [
-      "Repetitive reinforcement of core principles",
-      "Exercises and reflection questions for readers",
-      "Focuses on mindset rather than specific investment advice"
+      "92 concise, actionable tips",
+      "Focus on both business and social situations",
+      "Emphasis on non-verbal as well as verbal communication",
+      "Widely used by professionals, students, and anyone looking to enhance social skills"
     ],
-    "cultural_historical_context": "Published during a period of economic growth in the late 1990s, the book resonated with a growing audience interested in entrepreneurship and financial independence.",
+    "cultural_historical_context": "Published in the early 2000s, the book responded to a growing demand for practical communication advice in an increasingly networked and socially dynamic world.",
     "reception_impact": [
-      "Bestseller status; over 32 million copies sold worldwide",
-      "Spawned a series of follow-up books, seminars, and a financial education brand",
-      "Celebrated for its simple, motivational message; criticized for oversimplification and lack of concrete financial guidance"
+      "Bestseller status, widely recommended in business and self-help circles",
+      "Praised for its actionable, easy-to-follow advice",
+      "Popular among professionals, students, and those seeking social confidence",
+      "Some critics note the tips may feel formulaic or simplistic for advanced communicators"
     ],
     "comparable_titles": [
-      "The Millionaire Next Door by Thomas J. Stanley & William D. Danko",
-      "Think and Grow Rich by Napoleon Hill",
-      "The Total Money Makeover by Dave Ramsey"
+      "How to Win Friends and Influence People by Dale Carnegie",
+      "Crucial Conversations by Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler",
+      "The Fine Art of Small Talk by Debra Fine"
     ]
   
 }
