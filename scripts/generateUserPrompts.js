@@ -1,4 +1,4 @@
-function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
+function generateUserPrompt(meta, isFirstHalf = true) {
   const {
     title,
     author,
@@ -22,7 +22,7 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
 
   // 🧱 Tone
   // const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "natural, clear, and accessible";
-  const toneAndStructure = summaryToneAndStructure;
+  // const toneAndStructure = summaryToneAndStructure;
 
   // const tone = `story_wisdom, tactical_breakdown, ${metaTone}`
   // const tone = metaTone;

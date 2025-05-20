@@ -78,13 +78,8 @@ const metaOfBook = {
   
 }
 
-const toneAndStructure =  {
-  "structure_type": "story_wisdom",
-  "description": "Narrative-style walkthrough using emotional, reflective storytelling to explain key ideas.",
-  "structure": "Structure the summary as a flowing narrative that uses emotionally engaging storytelling to deliver key insights. Use broad, relatable scenarios to illustrate each key idea. You may use generalized, non-specific archetypes (e.g., “a manager,” “a shy student”), but avoid creating named characters or detailed fictional backstories. Include clear, paraphrased examples or everyday situations to support key concepts and make them more relatable. When the original book includes personal journeys or character-driven learning (e.g., through mentors, parents, or contrasting figures), anchor the narrative around an unnamed persona (e.g., 'a young boy', 'an early-career professional') and refer to other figures using relational roles (e.g., 'a mentor', 'a friend's father') instead of names. Avoid full retellings or fictional anecdotes. Use natural, third-person narration and keep the tone reflective, warm, and human."
-};
 const isFirstHalf = true
-const userPrompt = generateUserPrompt(metaOfBook, toneAndStructure, isFirstHalf)
+const userPrompt = generateUserPrompt(metaOfBook, isFirstHalf)
 
 console.log('user prompt', userPrompt)
 
