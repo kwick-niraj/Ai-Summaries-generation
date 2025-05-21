@@ -12,8 +12,8 @@ const openai = new OpenAI({
 });
 
 // Generate a deterministic seed based on book metadata
-function generateSeedFromMetadata(meta, isFirstHalf) {
-  const seedString = `${meta.title}${meta.author}${meta.publication_date}${isFirstHalf ? 'first' : 'second'}`;
+function generateSeedFromMetadata(meta, isFirstHalf, version = '1.0') {
+  const seedString = `${meta.title}${meta.author}${meta.publication_date}${isFirstHalf ? 'first' : 'second'}${version}`;
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
     const char = seedString.charCodeAt(i);
@@ -26,7 +26,7 @@ function generateSeedFromMetadata(meta, isFirstHalf) {
 const metaOfBook = {
   "title": "The Art of Seduction",
   "author": "Robert Greene",
-  "publication_date": "2002",
+  "publication_date": "2001",
   "edition_analyzed": "Most recent standard edition",
   "genre": [
     "Self-Help",

@@ -18,7 +18,7 @@ function generateUserPrompt(meta, isFirstHalf = true) {
   if (StructureFormat?.Organization?.toLowerCase().includes("chapter") || StructureFormat?.Organization?.toLowerCase().includes("tip")) {
     structureLine += " Group related chapters, tips, or ideas into cohesive themes.";
   }
-  structureLine += " Include a short Introduction (~800–1000 characters). Include a Conclusion (~800–1000 characters).";
+  structureLine += " Include a short Introduction (~800–1000 characters). Conclusion: Write a 1800-character instructional-style conclusion for a nonfiction book summary using a mentor-like tone, including a short list of bullet-point takeaways (each 10–12 words long) based on the book’s original content, followed by a longer, emotionally intelligent final paragraph that offers reassurance and encourages real-world action.";
 
   // 🧱 Tone
   // const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "natural, clear, and accessible";
