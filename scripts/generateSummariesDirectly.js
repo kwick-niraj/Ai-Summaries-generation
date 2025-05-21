@@ -12,8 +12,8 @@ const openai = new OpenAI({
 });
 
 // Generate a deterministic seed based on book metadata
-function generateSeedFromMetadata(meta, isFirstHalf, version = '1.0') {
-  const seedString = `${meta.title}${meta.author}${meta.publication_date}${isFirstHalf ? 'first' : 'second'}${version}`;
+function generateSeedFromMetadata(meta, version = '1.1') {
+  const seedString = `${meta.title}${meta.author}${meta.publication_date}${version}`;
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
     const char = seedString.charCodeAt(i);
@@ -24,74 +24,76 @@ function generateSeedFromMetadata(meta, isFirstHalf, version = '1.0') {
 }
 
 const metaOfBook = {
-  "title": "The Art of Seduction",
-  "author": "Robert Greene",
-  "publication_date": "2001",
+  "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+  "author": "Robert T. Kiyosaki",
+  "publication_date": "1997",
   "edition_analyzed": "Most recent standard edition",
   "genre": [
+    "Personal Finance",
     "Self-Help",
-    "Psychology",
-    "Strategy",
-    "Interpersonal Relationships"
+    "Business",
+    "Motivational"
   ],
   "target_audience": [
-    "Adults interested in power dynamics and human behavior",
-    "Readers of self-help and personal development",
-    "Professionals seeking insight into persuasion and influence",
-    "Fans of Robert Greene's work"
+    "Individuals seeking financial literacy",
+    "Young adults and recent graduates",
+    "Entrepreneurs and aspiring business owners",
+    "People interested in building wealth or escaping the cycle of living paycheck to paycheck",
+    "Anyone new to personal finance concepts"
   ],
   "core_themes": [
-    "The psychology of seduction",
-    "Manipulation and persuasion in relationships",
-    "Types of seducers and their strategies",
-    "Historical and literary analysis of seduction",
-    "Human desires, vulnerabilities, and social power dynamics"
+    "Financial literacy and education",
+    "Differences in mindset between the wealthy and the poor/middle class",
+    "Assets vs. liabilities",
+    "The importance of entrepreneurship and investment",
+    "Self-empowerment through financial knowledge",
+    "Learning by doing and challenging traditional beliefs about money"
   ],
-  "primary_purpose": "To examine and decode the timeless techniques and strategies of seduction, drawing on historical figures, psychological insight, and storytelling to show readers how seduction operates in personal and social contexts—and how it can be wielded as both an art and instrument of power.",
+  "primary_purpose": "To challenge conventional views about money and personal finance by emphasizing financial education, encouraging entrepreneurship, and highlighting the differences in thinking and decision-making between the wealthy and the non-wealthy. The book aims to inspire and guide readers to achieve financial independence through smart investing and understanding how money works.",
   "structure_format": {
-    "narrative_style": "Narrative, analytical, often anecdotal and historical; aphoristic and occasionally provocative",
-    "organization": "Divided into two main parts: character studies of the nine seducer archetypes and the 18 stages of seduction, interspersed with historical case studies, anecdotes, and 'seduction strategies'",
+    "narrative_style": "Conversational, personal anecdotes, and motivational",
+    "organization": "Organized into ten chapters, each focusing on a key lesson or principle learned from the author's 'rich dad' and 'poor dad'. Includes summaries and actionable advice at the end of key sections.",
     "features": [
-      "In-depth character portraits and archetypes",
-      "Case studies from history, literature, and myth",
-      "Summaries of tactics and laws of seduction",
-      "Interpretive side-bars and aphorisms"
+      "First-person storytelling based on the author’s childhood and lessons from two father figures",
+      "Simple diagrams and definitions (assets vs. liabilities)",
+      "Chapter summaries and practical action points",
+      "Motivational tone, encouraging self-education"
     ]
   },
   "key_concepts_lessons": [
-    "Seduction is not strictly sexual; it is a form of social power that can be harnessed in many contexts.",
-    "Recognizing the different types of seducers (and anti-seducers) allows one to understand and anticipate others’ behavior.",
-    "The process of seduction involves subtle manipulation, psychological tactics, and a deep attunement to social cues.",
-    "Historical examples (e.g., Casanova, Cleopatra, Rasputin) serve as archetypes for various seductive strategies.",
-    "Vulnerability, mystery, and creating emotional highs and lows are all instrumental tools in seduction.",
-    "Being aware of seduction’s risks and ethical boundaries is critical."
+    "The importance of financial literacy is often overlooked in traditional education.",
+    "The wealthy focus on acquiring assets, while the non-wealthy accumulate liabilities they think are assets.",
+    "Working for money versus having money work for you.",
+    "Entrepreneurship, investing, and taking calculated risks are essential for building long-term wealth.",
+    "Mindset and attitude toward money matter as much as practical skills.",
+    "Continuous self-education and decision-making are vital to financial success."
   ],
   "style_tone": [
-    "Evocative",
-    "Provocative",
-    "Cautionary",
-    "Analytical",
-    "Lush, occasionally theatrical language"
+    "Encouraging",
+    "Accessible",
+    "Story-driven",
+    "Motivational"
   ],
   "notable_features": [
-    "Combines psychological theory with storytelling and history",
-    "Embeds cautionary tales and 'anti-seducer' warnings",
-    "Controversial approach to manipulation and consent",
-    "Elaborate, almost literary presentation—typical of Greene’s narrative style"
+    "Uses contrasting stories of two father figures to illustrate financial lessons",
+    "Introduced simple, memorable definitions (particularly 'assets' and 'liabilities')",
+    "Has inspired a global franchise, including workshops, games, and follow-up books",
+    "Emphasis on lifelong learning and challenging conventional wisdom"
   ],
-  "cultural_historical_context": "Published in the early 2000s, 'The Art of Seduction' aligns with a turn-of-the-century fascination with power, charisma, and the darker sides of human nature, following Greene’s prior success with 'The 48 Laws of Power.' Its themes draw on both modern psychology and classical stories, reflecting a postmodern appetite for self-mastery and influence.",
+  "cultural_historical_context": "Published during a period of increasing awareness of personal finance in the late 1990s, 'Rich Dad Poor Dad' tapped into a widespread sense of economic uncertainty and dissatisfaction with traditional financial advice and formal education. The book contributed to the popularization of financial literacy as a movement, especially aimed at those outside traditional financial circles.",
   "reception_impact": [
-    "Became widely popular among readers interested in strategy, persuasion, and self-help",
-    "Critically noted for its breadth of research and engaging narrative style",
-    "Frequently criticized for its morally ambiguous stance on manipulation",
-    "Has influenced discussions around pick-up culture, dating, and social influence; recommended and reviled in equal measure for its approach"
+    "Consistently ranked among the best-selling finance books worldwide",
+    "Credited with starting a cultural conversation about 'financial literacy'",
+    "Widely used as an entry point for those new to personal finance and investing",
+    "Some critics question the accuracy of its stories and note the lack of specific investment guidance, but praise its motivational impact",
+    "Spawned a large number of seminars, courses, and follow-up publications"
   ],
   "comparable_titles": [
-    "The 48 Laws of Power by Robert Greene",
-    "Influence: The Psychology of Persuasion by Robert B. Cialdini",
-    "The Power of Seduction by Robert Greene (companion work/audiobook)",
-    "Dangerous Liaisons by Pierre Choderlos de Laclos (literary precedent)",
-    "The Art of War by Sun Tzu (in its strategic, non-literal sense)"
+    "The Millionaire Next Door by Thomas J. Stanley and William D. Danko",
+    "Think and Grow Rich by Napoleon Hill",
+    "The Richest Man in Babylon by George S. Clason",
+    "Your Money or Your Life by Vicki Robin and Joe Dominguez",
+    "I Will Teach You to Be Rich by Ramit Sethi"
   ]
 }
 
@@ -119,7 +121,8 @@ async function generateBookSummary(metaOfBook, options = {}) {
 
     // Generate prompt and seed for specific half
     const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf);
-    const seed = generateSeedFromMetadata(metaOfBook, generateFirstHalf);
+    const seed = generateSeedFromMetadata(metaOfBook);
+    console.log('seed', seed)
 
     // Generate summary
     const completion = await openai.chat.completions.create({
