@@ -36,17 +36,23 @@ function generateUserPrompt(meta, isFirstHalf = true) {
 
   const summaryStrategy = `
   {
-
   "structure_type": "framework_stepwise",
   
   "description": "Use this strategy to summarize books that present a structured methodology, system, or set of principles. The summary should progress step-by-step in a clear, logical flow that mirrors the original framework or sequential argument of the book. This structure is ideal for books about productivity, business, health, learning, or behavioral change.",
   
-  "prompt": "Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Start by clearly defining the theme or principle of that chapter. Then, explain the concept in simplified, logical terms using analogies, metaphors, or relatable thought experiments when needed. Use short, real-life examples to demonstrate how the principle works in action — these can be paraphrased or generalized but must be relevant.\n\nEnsure the summary maintains a logical progression: early chapters should introduce foundational ideas, while later ones build complexity or deepen practical understanding. Link concepts where appropriate to show interdependence.\nEmphasize practical understanding over literary style. Avoid fragmenting insights — keep the flow continuous.\n\nWhen the original book presents visual or conceptual frameworks (e.g., loops, matrices, pyramids), describe them simply so they are mentally visualizable. Summarize tools, models, or checklists naturally within the paragraph flow or as short bullet lists where necessary.\n\nThe overall goal is to teach the core logic and usability of the framework clearly and sequentially — as if helping someone implement the method in real life, step by step.",
+  "prompt": "Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Start by clearly defining the theme or principle of that chapter. Then, explain the concept in simplified, logical terms using analogies, metaphors, or relatable thought experiments when needed. Use short, real-life examples to demonstrate how the principle works in action — these can be paraphrased or generalized but must be relevant.\n\n
+  
+  Ensure the summary maintains a logical progression: early chapters should introduce foundational ideas, while later ones build complexity or deepen practical understanding. Link concepts where appropriate to show interdependence.\n
+  Emphasize practical understanding over literary style. Avoid fragmenting insights — keep the flow continuous.\n\n
+  
+  When the original book presents visual or conceptual frameworks (e.g., loops, matrices, pyramids), describe them simply so they are mentally visualizable. Summarize tools, models, or checklists naturally within the paragraph flow or as short bullet lists where necessary.\n\n
+  
+  The overall goal is to teach the core logic and usability of the framework clearly and sequentially — as if helping someone implement the method in real life, step by step.",
 
-  "tone": "Use a story-driven tone that feels like each principle is being uncovered through meaningful experience. Begin sections with real-world moments or reflective situations where the need for a given principle becomes obvious. Rather than a detached mentor, the voice should feel like someone walking through the lessons from lived trial-and-error — learning alongside the reader. Blend instruction with light storytelling and internal realizations. Prioritize relatability, transformation, and natural clarity over formal exposition or motivation. Let the structure emerge as the path someone walked to find what works.",
-
+  "tone": "Use a warm, thoughtful tone that feels like a calm mentor guiding the reader. Maintain emotional clarity without sounding formal or academic. Blend in human-centered metaphors, light scene-setting, and relatable analogies to explain abstract ideas — similar to a quiet conversation or reflective personal essay. Prioritize ease of reading and psychological depth. Avoid dramatization or persuasive flair — the value should come from clarity and resonance.",
+    
   "technique_integration": "If there are clearly named or structured techniques (e.g., rules, steps, methods, or frameworks), include them as brief, well-placed bullet points at the moment they emerge naturally in the narrative. Do not isolate them into a separate section. Introduce them gently with transitions. Paraphrase both the language and any original metaphors to keep the expression fresh and natural. Keep each point concise (2–5 lines max) and use accessible, human-centered wording. The goal is to blend clarity with emotional and conceptual flow, without referring to the book or its author directly."
-
+  
 
 }
 
@@ -99,7 +105,7 @@ ${summaryStrategy}
 
 🎯 Writing Guidelines:
 • Voice: Use a combination of second-person and  third-person voice
-• Target Length: 22,000–25,000 characters
+• Target Length: 25,000–30,000 characters
 
 🚫 Avoid:
 • ${avoid.join('\n• ')}
@@ -112,7 +118,7 @@ ${summaryStrategy}
 •	Preserve the 80% logical flow of concepts as in the original book.
 •	Maintain factual alignment with the book’s original structure and narrative. Do not invent or exaggerate relationships, story setups, or character roles.s
 
-You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 22,000–25,000 characters across 4-5 chapters.
+You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 25,000–30,000 characters across 4-5 chapters.
 
 In this half, include only 4–5 chapters, adjusted to match the same level of depth, detail, and character count as you would in a full-length summary. Do not shorten content — only reduce the number of chapters. The tone, structure, and pacing must remain consistent.
 
