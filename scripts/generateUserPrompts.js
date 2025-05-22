@@ -18,7 +18,7 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   if (StructureFormat?.Organization?.toLowerCase().includes("chapter") || StructureFormat?.Organization?.toLowerCase().includes("tip")) {
     structureLine += " Group related chapters, tips, or ideas into cohesive themes.";
   }
-  structureLine += " Include a short Introduction (~800–1000 characters). Include a Conclusion (~800–1000 characters).";
+  // structureLine += "";
 
   // 🧱 Tone
   // const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "natural, clear, and accessible";
@@ -99,7 +99,7 @@ ${summaryStrategy}
 
 🎯 Writing Guidelines:
 • Voice: Use a combination of second-person and  third-person voice
-• Target Length: 22,000–25,000 characters
+• Target Length: 28,000–35,000 characters
 
 🚫 Avoid:
 • ${avoid.join('\n• ')}
@@ -112,7 +112,7 @@ ${summaryStrategy}
 •	Preserve the 80% logical flow of concepts as in the original book.
 •	Maintain factual alignment with the book’s original structure and narrative. Do not invent or exaggerate relationships, story setups, or character roles.s
 
-You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 22,000–25,000 characters across 4-5 chapters.
+You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 28,000–35,000 characters across 4-5 chapters.
 
 In this half, include only 4–5 chapters, adjusted to match the same level of depth, detail, and character count as you would in a full-length summary. Do not shorten content — only reduce the number of chapters. The tone, structure, and pacing must remain consistent.
 
