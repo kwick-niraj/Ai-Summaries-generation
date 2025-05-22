@@ -12,7 +12,7 @@ const openai = new OpenAI({
 });
 
 // Generate a deterministic seed based on book metadata
-function generateSeedFromMetadata(meta, version = '1.1') {
+function generateSeedFromMetadata(meta, version = '1.0') {
   const seedString = `${meta.title}${meta.author}${meta.publication_date}${version}`;
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
@@ -24,76 +24,75 @@ function generateSeedFromMetadata(meta, version = '1.1') {
 }
 
 const metaOfBook = {
-  "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
-  "author": "Robert T. Kiyosaki",
-  "publication_date": "1997",
+  "title": "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships",
+  "author": "Leil Lowndes",
+  "publication_date": "2003",
   "edition_analyzed": "Most recent standard edition",
   "genre": [
-    "Personal Finance",
     "Self-Help",
-    "Business",
-    "Motivational"
+    "Communication",
+    "Personal Development",
+    "Social Skills"
   ],
   "target_audience": [
-    "Individuals seeking financial literacy",
-    "Young adults and recent graduates",
-    "Entrepreneurs and aspiring business owners",
-    "People interested in building wealth or escaping the cycle of living paycheck to paycheck",
-    "Anyone new to personal finance concepts"
+    "Adults seeking to improve social and communication skills",
+    "Young professionals and job seekers",
+    "Introverts or shy individuals looking to gain confidence",
+    "Businesspeople and networkers",
+    "Anyone interested in building stronger relationships"
   ],
   "core_themes": [
-    "Financial literacy and education",
-    "Differences in mindset between the wealthy and the poor/middle class",
-    "Assets vs. liabilities",
-    "The importance of entrepreneurship and investment",
-    "Self-empowerment through financial knowledge",
-    "Learning by doing and challenging traditional beliefs about money"
+    "Effective verbal and non-verbal communication",
+    "Confidence in social situations",
+    "Building rapport and likability",
+    "Small talk as a foundation for deeper conversations",
+    "Networking and relationship-building strategies"
   ],
-  "primary_purpose": "To challenge conventional views about money and personal finance by emphasizing financial education, encouraging entrepreneurship, and highlighting the differences in thinking and decision-making between the wealthy and the non-wealthy. The book aims to inspire and guide readers to achieve financial independence through smart investing and understanding how money works.",
+  "primary_purpose": "To equip readers with a toolkit of practical, easy-to-use techniques for making positive impressions, communicating confidently, and building relationships in any social or professional context.",
   "structure_format": {
-    "narrative_style": "Conversational, personal anecdotes, and motivational",
-    "organization": "Organized into ten chapters, each focusing on a key lesson or principle learned from the author's 'rich dad' and 'poor dad'. Includes summaries and actionable advice at the end of key sections.",
+    "narrative_style": "Conversational, encouraging, and tip-oriented",
+    "organization": "Divided into 92 brief chapters, each highlighting a single actionable technique or insight",
     "features": [
-      "First-person storytelling based on the author’s childhood and lessons from two father figures",
-      "Simple diagrams and definitions (assets vs. liabilities)",
-      "Chapter summaries and practical action points",
-      "Motivational tone, encouraging self-education"
+      "Step-by-step tips and strategies",
+      "Real-life anecdotes and illustrative examples",
+      "Clear summaries and takeaways"
     ]
   },
   "key_concepts_lessons": [
-    "The importance of financial literacy is often overlooked in traditional education.",
-    "The wealthy focus on acquiring assets, while the non-wealthy accumulate liabilities they think are assets.",
-    "Working for money versus having money work for you.",
-    "Entrepreneurship, investing, and taking calculated risks are essential for building long-term wealth.",
-    "Mindset and attitude toward money matter as much as practical skills.",
-    "Continuous self-education and decision-making are vital to financial success."
+    "First impressions can be greatly improved with simple behavioral tweaks.",
+    "Non-verbal communication (posture, eye contact, gestures) is as important as words.",
+    "Small talk paves the way for connection—and can be learned.",
+    "Actively listening and showing authentic interest strengthens relationships.",
+    "Mirroring body language and tone builds rapport.",
+    "Adapting your approach depending on context (social, professional, networking, etc.) succeeds more often.",
+    "Practicing confidence and warmth is a catalyst for memorable interactions."
   ],
   "style_tone": [
+    "Friendly",
     "Encouraging",
     "Accessible",
-    "Story-driven",
-    "Motivational"
+    "Practical",
+    "Optimistic"
   ],
   "notable_features": [
-    "Uses contrasting stories of two father figures to illustrate financial lessons",
-    "Introduced simple, memorable definitions (particularly 'assets' and 'liabilities')",
-    "Has inspired a global franchise, including workshops, games, and follow-up books",
-    "Emphasis on lifelong learning and challenging conventional wisdom"
+    "92 stand-alone tips make the book easy to dip into or reference",
+    "Coverage of both professional and personal communication",
+    "Focus on both spoken and non-spoken signals",
+    "Mixes psychological insight with actionable advice",
+    "Widely used in sales, networking, and self-improvement communities"
   ],
-  "cultural_historical_context": "Published during a period of increasing awareness of personal finance in the late 1990s, 'Rich Dad Poor Dad' tapped into a widespread sense of economic uncertainty and dissatisfaction with traditional financial advice and formal education. The book contributed to the popularization of financial literacy as a movement, especially aimed at those outside traditional financial circles.",
+  "cultural_historical_context": "Published in the early 2000s, reflecting a period of rising focus on networking, self-presentation, and social mobility linked to business culture and increased emphasis on soft skills.",
   "reception_impact": [
-    "Consistently ranked among the best-selling finance books worldwide",
-    "Credited with starting a cultural conversation about 'financial literacy'",
-    "Widely used as an entry point for those new to personal finance and investing",
-    "Some critics question the accuracy of its stories and note the lack of specific investment guidance, but praise its motivational impact",
-    "Spawned a large number of seminars, courses, and follow-up publications"
+    "Popular bestseller and mainstay in self-help communication",
+    "Frequently recommended in corporate, sales, and self-improvement settings",
+    "Praised for its straightforward, actionable advice",
+    "Occasional criticism for formulaic or surface-level tips, but lauded for accessibility and breadth"
   ],
   "comparable_titles": [
-    "The Millionaire Next Door by Thomas J. Stanley and William D. Danko",
-    "Think and Grow Rich by Napoleon Hill",
-    "The Richest Man in Babylon by George S. Clason",
-    "Your Money or Your Life by Vicki Robin and Joe Dominguez",
-    "I Will Teach You to Be Rich by Ramit Sethi"
+    "How to Win Friends and Influence People by Dale Carnegie",
+    "The Fine Art of Small Talk by Debra Fine",
+    "Crucial Conversations by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler",
+    "Never Eat Alone by Keith Ferrazzi"
   ]
 }
 
@@ -118,7 +117,8 @@ async function generateBookSummary(metaOfBook, options = {}) {
           }
         ]
       : [];
-
+      
+    console.log('context Messages, ', contextMessages)
     // Generate prompt and seed for specific half
     const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf);
     const seed = generateSeedFromMetadata(metaOfBook);
@@ -128,13 +128,13 @@ async function generateBookSummary(metaOfBook, options = {}) {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4.1',
       temperature: 0.5,
-      top_p: 0,
+      top_p: 0.7,
       max_tokens: 32000,
-      seed: seed,
+      seed: 2,
       messages: [
         {
           role: 'system',
-          content: `You are an expert nonfiction book summarizer.`
+          content: `You are a professional nonfiction book summarizer.`
         },
         ...contextMessages,
         {
@@ -167,9 +167,13 @@ async function generateBookSummary(metaOfBook, options = {}) {
   }
 }
 
+function sanitizeFilename(title) {
+  return title.replace(/[\/\\?%*:|"<>]/g, '').replace(/\s+/g, '_');
+}
+
 async function generateFullBookSummary(metaOfBook, options = {}) {
   const {
-    outputPath = './full-summary.md'
+    outputPath = `./Final Summaries/${sanitizeFilename(metaOfBook.title)}.md`
   } = options;
 
   try {
@@ -187,7 +191,7 @@ async function generateFullBookSummary(metaOfBook, options = {}) {
     });
 
     // Combine summaries
-    const fullSummary = `--- First Half ---\n\n${firstHalfResult}\n\n--- Second Half ---\n\n${secondHalfResult}`;
+    const fullSummary = `${firstHalfResult}\n\n${secondHalfResult}`;
 
     // Write full summary to file
     const fullOutputPath = path.join(process.cwd(), outputPath);
