@@ -12,75 +12,71 @@ const openai = new OpenAI({
 });
 
 const metaOfBook = {
-  "title": "How to Win Friends and Influence People",
-  "author": "Dale Carnegie",
-  "publication_date": "1936",
-  "edition_analyzed": "Updated edition (latest standard reprint, unless specified otherwise)",
+  "title": "The 1% Rule: How to Fall in Love with the Process and Achieve Your Wildest Dreams",
+  "author": "Tommy Baker",
+  "publication_date": "2018",
+  "edition_analyzed": "2018 first edition",
   "genre": [
     "Self-Help",
     "Personal Development",
-    "Business",
-    "Communication Skills"
+    "Productivity",
+    "Goal-Setting"
   ],
   "target_audience": [
-    "Professionals aiming to improve workplace relationships and leadership",
-    "Individuals seeking to enhance personal and social interactions",
-    "Students of business and communication",
-    "Anyone interested in personal development and influence"
+    "Entrepreneurs and professionals seeking sustainable growth",
+    "Individuals aiming for personal or career transformation",
+    "People overwhelmed by big goals or discouraged by slow progress",
+    "Readers interested in mindset and behavioral psychology"
   ],
   "core_themes": [
-    "The power of positive relationships",
-    "Effective communication techniques",
-    "Building rapport and trust",
-    "Influence through empathy and understanding",
-    "Leadership through encouragement rather than authority"
+    "The power of incremental daily improvement",
+    "Process-oriented thinking versus results obsession",
+    "Overcoming overwhelm by focusing on small, consistent actions",
+    "Building momentum through compounding progress",
+    "Letting go of perfection and embracing consistency"
   ],
-  "primary_purpose": "To teach readers timeless principles of effective human relations—showing how to make people like you, win others over to your way of thinking, and become a more influential, likable, and effective person in both personal and professional settings.",
+  "primary_purpose": "To help readers achieve significant long-term results by breaking down lofty goals into daily, manageable 1% improvements, and to encourage a mindset shift towards embracing the process rather than fixating on outcomes.",
   "structure_format": {
-    "narrative_style": "Conversational, anecdotal, instructional",
-    "organization": "Divided into four major parts, each with several principles explained through stories and practical examples",
+    "narrative_style": "Motivational, conversational, and practical",
+    "organization": "Divided into thematic chapters introducing concepts, actionable frameworks, examples, and exercises",
     "features": [
-      "Real-life anecdotes and case studies",
-      "Principles summarized at the end of each section",
-      "Direct, actionable guidance for readers"
+      "Step-by-step strategies for implementing the 1% Rule",
+      "Case studies and anecdotes",
+      "End-of-chapter action steps and reflection prompts"
     ]
   },
   "key_concepts_lessons": [
-    "Don't criticize, condemn, or complain.",
-    "Give honest and sincere appreciation.",
-    "Arouse in the other person an eager want.",
-    "Become genuinely interested in other people.",
-    "Smile and use people's names.",
-    "Be a good listener and encourage others to talk about themselves.",
-    "Talk in terms of the other person's interests.",
-    "Make the other person feel important—and do it sincerely.",
-    "Win others to your way of thinking by showing respect and seeing things from their perspective.",
-    "Admit when you're wrong and allow others to save face."
+    "Small, consistent improvements lead to significant results through compounding over time.",
+    "Focusing on just 1% progress each day makes big goals approachable and less overwhelming.",
+    "Value lies in commitment to daily processes rather than fixating on distant outcomes.",
+    "Taking imperfect action regularly is more powerful than waiting for perfect conditions.",
+    "Sustainable routines and habits are the foundation for personal and professional success.",
+    "Celebrating incremental progress builds self-trust and inner motivation."
   ],
   "style_tone": [
-    "Warm",
     "Encouraging",
-    "Story-driven",
-    "Direct and approachable"
+    "Relatable",
+    "Direct",
+    "Inspiring"
   ],
   "notable_features": [
-    "Timeless, principle-based approach",
-    "Heavy use of illustrative stories",
-    "Clear and memorable summaries",
-    "Emphasis on foundational social dynamics rather than one-off tricks"
+    "Emphasis on transforming goals into process-oriented behaviors",
+    "Tangible, actionable steps for readers at any stage of a journey",
+    "Blends personal stories, real-world examples, and research-backed insights",
+    "Includes exercises and implementation questions"
   ],
-  "cultural_historical_context": "Published during the Great Depression, the book addressed a growing need for effective people skills in business and social life. Its techniques resonated with an audience seeking to adapt to a rapidly modernizing, competitive, and network-driven society. The book remains one of the foundational texts of self-help and communication literature.",
+  "cultural_historical_context": "Published during an era of productivity culture and 'hustle' mentality, the book offers an alternative path that rejects quick fixes and burnout for sustainable, process-driven growth. It aligns with trends in behavioral psychology that highlight the power of habits and marginal gains.",
   "reception_impact": [
-    "One of the best-selling self-help books of all time, with over 30 million copies sold worldwide.",
-    "Widely acclaimed for its practical, actionable advice.",
-    "Endorsed by business leaders, educators, and public figures for decades.",
-    "Occasional criticism for being rooted in early-20th-century American business norms; celebrated for its continued relevance."
+    "Positive reception among entrepreneurs and self-improvement enthusiasts",
+    "Praised for demystifying the achievement process and making transformation approachable",
+    "Utilized in workshops, coaching, and productivity training",
+    "Some readers find the repetition of concepts heavy-handed or wanting more scientific depth"
   ],
   "comparable_titles": [
-    "How to Talk to Anyone by Leil Lowndes",
-    "Influence: The Psychology of Persuasion by Robert Cialdini",
-    "Crucial Conversations by Kerry Patterson et al.",
-    "Never Split the Difference by Chris Voss"
+    "Atomic Habits by James Clear",
+    "The Slight Edge by Jeff Olson",
+    "The Compound Effect by Darren Hardy",
+    "Make Your Bed by Admiral William H. McRaven"
   ]
 }
 
@@ -251,6 +247,9 @@ async function generateFullBookSummary(metaOfBook, options = {}) {
       outputPath: './first-half-summary.txt'
     });
 
+    await delayWithCountdown(90); // 5-second countdown
+    console.log('▶️ Continue execution...');
+  
     // Generate second half with first half as context
     const secondHalfResult = await generateSecondHalfBookSummary(metaOfBook, {
       generateFirstHalf: false,
@@ -271,6 +270,14 @@ async function generateFullBookSummary(metaOfBook, options = {}) {
     console.error('❌ Error generating full summary:', err);
     throw err;
   }
+}
+
+async function delayWithCountdown(seconds) {
+  for (let i = seconds; i > 0; i--) {
+    console.log(`⏳ Waiting... ${i} second${i !== 1 ? 's' : ''} remaining`);
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  console.log('✅ Done!');
 }
 
 generateFullBookSummary(metaOfBook);
