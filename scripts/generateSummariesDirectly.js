@@ -12,70 +12,76 @@ const openai = new OpenAI({
 });
 
 const metaOfBook = {
-
-
-  "title": "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships",
-  "author": "Leil Lowndes",
-  "publication_date": "2003",
-  "edition_analyzed": "Most recent standard edition",
+  "title": "How to Win Friends and Influence People",
+  "author": "Dale Carnegie",
+  "publication_date": "1936",
+  "edition_analyzed": "Updated edition (latest standard reprint, unless specified otherwise)",
   "genre": [
     "Self-Help",
-    "Communication",
     "Personal Development",
-    "Social Skills"
+    "Business",
+    "Communication Skills"
   ],
   "target_audience": [
-    "Adults seeking to improve social and communication skills",
-    "Professionals aiming to network and build relationships",
-    "Introverts and shy individuals",
-    "Anyone interested in personal development and effective communication"
+    "Professionals aiming to improve workplace relationships and leadership",
+    "Individuals seeking to enhance personal and social interactions",
+    "Students of business and communication",
+    "Anyone interested in personal development and influence"
   ],
   "core_themes": [
-    "Building rapport and likability",
-    "Mastering verbal and non-verbal communication",
-    "Confidence in social situations",
-    "Networking and relationship-building",
-    "Practical conversation techniques"
+    "The power of positive relationships",
+    "Effective communication techniques",
+    "Building rapport and trust",
+    "Influence through empathy and understanding",
+    "Leadership through encouragement rather than authority"
   ],
-  "primary_purpose": "To provide readers with practical, easy-to-implement tips and techniques for making a positive impression, enhancing communication, and building successful relationships in both personal and professional settings.",
+  "primary_purpose": "To teach readers timeless principles of effective human relations—showing how to make people like you, win others over to your way of thinking, and become a more influential, likable, and effective person in both personal and professional settings.",
   "structure_format": {
-    "narrative_style": "Conversational, accessible, and tip-based",
-    "organization": "Divided into 92 short, actionable chapters, each focusing on a specific technique",
+    "narrative_style": "Conversational, anecdotal, instructional",
+    "organization": "Divided into four major parts, each with several principles explained through stories and practical examples",
     "features": [
-      "Real-life examples and scenarios",
-      "Step-by-step instructions",
-      "Quick-reference summaries"
+      "Real-life anecdotes and case studies",
+      "Principles summarized at the end of each section",
+      "Direct, actionable guidance for readers"
     ]
   },
   "key_concepts_lessons": [
-    "First impressions are powerful and can be managed with specific behaviors.",
-    "Non-verbal cues—such as eye contact, body language, and gestures—are critical to effective communication.",
-    "Small talk can be a gateway to deeper connections.",
-    "Listening actively and showing genuine interest builds trust and rapport.",
-    "Adapting your communication style to the context and audience increases effectiveness.",
-    "Confidence and warmth make interactions more memorable and successful."
+    "Don't criticize, condemn, or complain.",
+    "Give honest and sincere appreciation.",
+    "Arouse in the other person an eager want.",
+    "Become genuinely interested in other people.",
+    "Smile and use people's names.",
+    "Be a good listener and encourage others to talk about themselves.",
+    "Talk in terms of the other person's interests.",
+    "Make the other person feel important—and do it sincerely.",
+    "Win others to your way of thinking by showing respect and seeing things from their perspective.",
+    "Admit when you're wrong and allow others to save face."
   ],
   "style_tone": [
+    "Warm",
+    "Encouraging",
+    "Story-driven",
+    "Direct and approachable"
   ],
   "notable_features": [
-    "92 concise, actionable tips",
-    "Focus on both business and social situations",
-    "Emphasis on non-verbal as well as verbal communication",
-    "Widely used by professionals, students, and anyone looking to enhance social skills"
+    "Timeless, principle-based approach",
+    "Heavy use of illustrative stories",
+    "Clear and memorable summaries",
+    "Emphasis on foundational social dynamics rather than one-off tricks"
   ],
-  "cultural_historical_context": "Published in the early 2000s, the book responded to a growing demand for practical communication advice in an increasingly networked and socially dynamic world.",
+  "cultural_historical_context": "Published during the Great Depression, the book addressed a growing need for effective people skills in business and social life. Its techniques resonated with an audience seeking to adapt to a rapidly modernizing, competitive, and network-driven society. The book remains one of the foundational texts of self-help and communication literature.",
   "reception_impact": [
-    "Bestseller status, widely recommended in business and self-help circles",
-    "Praised for its actionable, easy-to-follow advice",
-    "Popular among professionals, students, and those seeking social confidence",
-    "Some critics note the tips may feel formulaic or simplistic for advanced communicators"
+    "One of the best-selling self-help books of all time, with over 30 million copies sold worldwide.",
+    "Widely acclaimed for its practical, actionable advice.",
+    "Endorsed by business leaders, educators, and public figures for decades.",
+    "Occasional criticism for being rooted in early-20th-century American business norms; celebrated for its continued relevance."
   ],
   "comparable_titles": [
-    "How to Win Friends and Influence People by Dale Carnegie",
-    "Crucial Conversations by Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler",
-    "The Fine Art of Small Talk by Debra Fine"
+    "How to Talk to Anyone by Leil Lowndes",
+    "Influence: The Psychology of Persuasion by Robert Cialdini",
+    "Crucial Conversations by Kerry Patterson et al.",
+    "Never Split the Difference by Chris Voss"
   ]
-
 }
 
 const toneAndStructure = {
@@ -178,7 +184,7 @@ async function generateSecondHalfBookSummary(metaOfBook, options = {}) {
       temperature: 0.5,
       top_p: 0.7,
       max_tokens: 32000,
-      seed: 3,
+      // seed: 10,
       messages: [
         {
           role: 'system',
@@ -194,12 +200,14 @@ async function generateSecondHalfBookSummary(metaOfBook, options = {}) {
 
           "technique_integration": "If there are clearly named or structured techniques (e.g., rules, steps, methods, or frameworks), include them as brief, well-placed bullet points at the moment they emerge naturally in the narrative. Do not isolate them into a separate section. Introduce them gently with transitions. Paraphrase both the language and any original metaphors to keep the expression fresh and natural. Keep each point concise (2–5 lines max) and use accessible, human-centered wording. The goal is to blend clarity with emotional and conceptual flow, without referring to the book or its author directly."
 
+          Generate 4 to 5 chapters only in this half.
+
           Also, Add a Conclusion At End of the Summary: Write a 1800-character instructional-style conclusion using a mentor-like tone, including a short list of bullet-point takeaways (each 10–12 words long). followed by a longer, emotionally intelligent final paragraph that offers reassurance and encourages real-world action.`
         },
         ...contextMessages,
         {
           role: 'user',
-          content: 'Generate second half of the full summary.'
+          content: 'Generate second half of the full summary. The summary should be approximately 28,000–35,000.'
         }
       ],
     });
