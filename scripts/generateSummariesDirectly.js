@@ -12,71 +12,78 @@ const openai = new OpenAI({
 });
 
 const metaOfBook = {
-  "title": "The 1% Rule: How to Fall in Love with the Process and Achieve Your Wildest Dreams",
-  "author": "Tommy Baker",
-  "publication_date": "2018",
-  "edition_analyzed": "First edition (2018)",
+  "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+  "author": "Stephen R. Covey",
+  "publication_date": "1989",
+  "edition_analyzed": "25th Anniversary Edition (2013; core content unchanged)",
   "genre": [
     "Self-Help",
     "Personal Development",
+    "Leadership",
     "Productivity",
-    "Motivation"
+    "Business"
   ],
   "target_audience": [
-    "Individuals seeking sustainable personal or professional growth",
-    "Readers struggling with consistency and follow-through",
-    "Entrepreneurs, creatives, and high-performers",
-    "Anyone interested in goal setting and achievement through process"
+    "Professionals seeking personal and organizational effectiveness",
+    "Leaders and managers",
+    "Students and lifelong learners",
+    "Individuals interested in self-improvement and personal growth",
+    "Anyone aiming for a principled, purpose-driven life"
   ],
   "core_themes": [
-    "The power of small, consistent daily improvements",
-    "Focusing on the process rather than only outcomes",
-    "Overcoming overwhelm and perfectionism",
-    "Building momentum through incremental habits",
-    "Cultivating patience and resilience"
+    "Personal responsibility and proactive living",
+    "Values-driven decision-making",
+    "Interpersonal effectiveness and collaboration",
+    "Continuous self-renewal and balanced living",
+    "Principle-centered leadership"
   ],
-  "primary_purpose": "To teach readers how to achieve ambitious dreams by committing to steady, incremental progress, using the principle of improving by just 1% each day, and to promote a mindset shift from instant results to long-term, process-oriented growth.",
+  "primary_purpose": "To present a holistic, principle-centered framework for achieving personal and professional effectiveness through internal transformation, character development, and positive relationships.",
   "structure_format": {
-    "narrative_style": "Encouraging, practical, and motivational with personal anecdotes",
-    "organization": "Thematic chapters introducing core concepts, followed by strategies and application exercises",
+    "narrative_style": "Didactic, narrative-driven, and reflective, with exercises and anecdotes",
+    "organization": "Divided into individual chapters for each habit, with supporting sections on paradigm shifts and growth processes",
     "features": [
-      "Case studies and real-life examples",
-      "Action steps and journal prompts",
-      "Summaries at the end of chapters"
+      "Step-by-step lessons and self-assessment tools",
+      "Real-life stories and examples",
+      "Diagrams explaining concepts (e.g., Time Management Matrix)",
+      "Reflections and application exercises"
     ]
   },
   "key_concepts_lessons": [
-    "Exponential impact comes from small, repeated daily actions.",
-    "Focusing on the journey (process) makes goals less overwhelming and more sustainable.",
-    "Taking imperfect action daily is more powerful than waiting for the perfect time or plan.",
-    "Habits compound over time to produce significant transformation.",
-    "Celebrating small wins builds momentum and confidence.",
-    "Clarity, consistency, and courage are essential for long-term success."
+    "The importance of a paradigm shift: Success starts with changing how we perceive and interpret the world.",
+    "Habit 1: Be Proactive – Take responsibility for your life and choices.",
+    "Habit 2: Begin with the End in Mind – Define a clear personal vision and life goals.",
+    "Habit 3: Put First Things First – Prioritize tasks by importance, not urgency.",
+    "Habit 4: Think Win-Win – Cultivate an abundance mindset and seek mutual benefit in interactions.",
+    "Habit 5: Seek First to Understand, Then to Be Understood – Practice empathic listening and clear communication.",
+    "Habit 6: Synergize – Value differences and collaborate creatively for better results.",
+    "Habit 7: Sharpen the Saw – Invest in balanced, ongoing self-renewal across physical, mental, social/emotional, and spiritual dimensions."
   ],
   "style_tone": [
-    "Inspiring",
-    "Direct",
-    "Supportive",
-    "Action-oriented"
+    "Inspirational",
+    "Practical",
+    "Reflective",
+    "Systematic",
+    "Accessible"
   ],
   "notable_features": [
-    "Framework for sustainable personal growth",
-    "Emphasis on behavioral psychology and neuroscience principles",
-    "Practical exercises and reflection prompts",
-    "Advice for overcoming modern distractions and instant gratification tendencies"
+    "Global bestseller, translated into over 40 languages",
+    "Widely used in corporate, educational, and personal settings",
+    "Principle-centered rather than personality-focused approach",
+    "Diagonal focus: personal, interpersonal, and organizational effectiveness"
   ],
-  "cultural_historical_context": "Written during a period of increased focus on productivity and self-improvement, the book responds to growing frustration with quick-fix solutions and societal impatience for results, advocating a return to process-oriented achievement in the face of digital-age distractions.",
+  "cultural_historical_context": "Published at the close of the 1980s, when self-help books were booming and the business world was shifting focus to leadership, accountability, and work-life balance. The book’s enduring influence reflects its integration of timeless wisdom and practical models for a rapidly changing world.",
   "reception_impact": [
-    "Positively received by productivity and self-improvement communities",
-    "Appreciated for its actionable guidance and easy-to-apply philosophy",
-    "Praised for demystifying achievement by breaking it into accessible daily steps",
-    "Some critics find the core idea repetitive, noting it appeals most to those seeking motivation or struggling with consistency"
+    "Over 40 million copies sold worldwide; consistently recommended for personal and professional growth",
+    "Foundational text for many leadership and development programs",
+    "Praised for its clarity, applicability, and depth",
+    "Criticized in some circles as too idealistic or time-intensive for immediate results",
+    "Influence extended to sequels, workbooks, and a broader '7 Habits' franchise"
   ],
   "comparable_titles": [
+    "How to Win Friends and Influence People by Dale Carnegie",
     "Atomic Habits by James Clear",
-    "The Slight Edge by Jeff Olson",
-    "The Compound Effect by Darren Hardy",
-    "Deep Work by Cal Newport"
+    "Principles: Life and Work by Ray Dalio",
+    "Drive: The Surprising Truth About What Motivates Us by Daniel H. Pink"
   ]
 }
 const isFirstHalf = true
