@@ -15,68 +15,68 @@ const metaOfBook = {
   "title": "The 1% Rule: How to Fall in Love with the Process and Achieve Your Wildest Dreams",
   "author": "Tommy Baker",
   "publication_date": "2018",
-  "edition_analyzed": "2018 first edition",
+  "edition_analyzed": "First edition (2018)",
   "genre": [
     "Self-Help",
     "Personal Development",
     "Productivity",
-    "Goal-Setting"
+    "Motivation"
   ],
   "target_audience": [
-    "Entrepreneurs and professionals seeking sustainable growth",
-    "Individuals aiming for personal or career transformation",
-    "People overwhelmed by big goals or discouraged by slow progress",
-    "Readers interested in mindset and behavioral psychology"
+    "Individuals seeking sustainable personal or professional growth",
+    "Readers struggling with consistency and follow-through",
+    "Entrepreneurs, creatives, and high-performers",
+    "Anyone interested in goal setting and achievement through process"
   ],
   "core_themes": [
-    "The power of incremental daily improvement",
-    "Process-oriented thinking versus results obsession",
-    "Overcoming overwhelm by focusing on small, consistent actions",
-    "Building momentum through compounding progress",
-    "Letting go of perfection and embracing consistency"
+    "The power of small, consistent daily improvements",
+    "Focusing on the process rather than only outcomes",
+    "Overcoming overwhelm and perfectionism",
+    "Building momentum through incremental habits",
+    "Cultivating patience and resilience"
   ],
-  "primary_purpose": "To help readers achieve significant long-term results by breaking down lofty goals into daily, manageable 1% improvements, and to encourage a mindset shift towards embracing the process rather than fixating on outcomes.",
+  "primary_purpose": "To teach readers how to achieve ambitious dreams by committing to steady, incremental progress, using the principle of improving by just 1% each day, and to promote a mindset shift from instant results to long-term, process-oriented growth.",
   "structure_format": {
-    "narrative_style": "Motivational, conversational, and practical",
-    "organization": "Divided into thematic chapters introducing concepts, actionable frameworks, examples, and exercises",
+    "narrative_style": "Encouraging, practical, and motivational with personal anecdotes",
+    "organization": "Thematic chapters introducing core concepts, followed by strategies and application exercises",
     "features": [
-      "Step-by-step strategies for implementing the 1% Rule",
-      "Case studies and anecdotes",
-      "End-of-chapter action steps and reflection prompts"
+      "Case studies and real-life examples",
+      "Action steps and journal prompts",
+      "Summaries at the end of chapters"
     ]
   },
   "key_concepts_lessons": [
-    "Small, consistent improvements lead to significant results through compounding over time.",
-    "Focusing on just 1% progress each day makes big goals approachable and less overwhelming.",
-    "Value lies in commitment to daily processes rather than fixating on distant outcomes.",
-    "Taking imperfect action regularly is more powerful than waiting for perfect conditions.",
-    "Sustainable routines and habits are the foundation for personal and professional success.",
-    "Celebrating incremental progress builds self-trust and inner motivation."
+    "Exponential impact comes from small, repeated daily actions.",
+    "Focusing on the journey (process) makes goals less overwhelming and more sustainable.",
+    "Taking imperfect action daily is more powerful than waiting for the perfect time or plan.",
+    "Habits compound over time to produce significant transformation.",
+    "Celebrating small wins builds momentum and confidence.",
+    "Clarity, consistency, and courage are essential for long-term success."
   ],
   "style_tone": [
-    "Encouraging",
-    "Relatable",
+    "Inspiring",
     "Direct",
-    "Inspiring"
+    "Supportive",
+    "Action-oriented"
   ],
   "notable_features": [
-    "Emphasis on transforming goals into process-oriented behaviors",
-    "Tangible, actionable steps for readers at any stage of a journey",
-    "Blends personal stories, real-world examples, and research-backed insights",
-    "Includes exercises and implementation questions"
+    "Framework for sustainable personal growth",
+    "Emphasis on behavioral psychology and neuroscience principles",
+    "Practical exercises and reflection prompts",
+    "Advice for overcoming modern distractions and instant gratification tendencies"
   ],
-  "cultural_historical_context": "Published during an era of productivity culture and 'hustle' mentality, the book offers an alternative path that rejects quick fixes and burnout for sustainable, process-driven growth. It aligns with trends in behavioral psychology that highlight the power of habits and marginal gains.",
+  "cultural_historical_context": "Written during a period of increased focus on productivity and self-improvement, the book responds to growing frustration with quick-fix solutions and societal impatience for results, advocating a return to process-oriented achievement in the face of digital-age distractions.",
   "reception_impact": [
-    "Positive reception among entrepreneurs and self-improvement enthusiasts",
-    "Praised for demystifying the achievement process and making transformation approachable",
-    "Utilized in workshops, coaching, and productivity training",
-    "Some readers find the repetition of concepts heavy-handed or wanting more scientific depth"
+    "Positively received by productivity and self-improvement communities",
+    "Appreciated for its actionable guidance and easy-to-apply philosophy",
+    "Praised for demystifying achievement by breaking it into accessible daily steps",
+    "Some critics find the core idea repetitive, noting it appeals most to those seeking motivation or struggling with consistency"
   ],
   "comparable_titles": [
     "Atomic Habits by James Clear",
     "The Slight Edge by Jeff Olson",
     "The Compound Effect by Darren Hardy",
-    "Make Your Bed by Admiral William H. McRaven"
+    "Deep Work by Cal Newport"
   ]
 }
 const isFirstHalf = true
@@ -102,7 +102,7 @@ async function generateFirstHalfBookSummary(metaOfBook, options = {}) {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4.1',
       temperature: 0.5,
-      top_p: 0.7,
+      top_p: 0,
       max_tokens: 32000,
       // seed: 30,
       messages: [
@@ -172,7 +172,7 @@ async function generateSecondHalfBookSummary(metaOfBook, options = {}) {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4.1',
       temperature: 0.5,
-      top_p: 0.7,
+      top_p: 0,
       max_tokens: 32000,
       // seed: 30,
       messages: [
