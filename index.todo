@@ -1,0 +1,30 @@
+Summaries Generating process:
+  Generate Meta of The Book:
+    ☐ Important Details are:
+    ☐ Genre
+    ☐ Comparable Titles: Similar Books.
+  ☐ Save Meta as JSON with book's id as the file name
+  ☐ Once all meta extracted then save raw JSON in the aws S3 for future use.
+
+  extract strategy correctly:
+    "structure_type": "story_wisdom":
+      ☐ How to Classify? 
+    "structure_type": "framework_stepwise":
+      ☐ How to Classify?
+  ☐ Set Meta Data in the script.
+  ☐ Set the right summary strategy as derived.
+
+  Post Process of Generated Summary:
+    Trimming at front and end of both parts required. What to trim? :
+      ☐ if comments added at first & end of both parts.
+      ☐ "part 1 or something"(Maybe trimming all before the chapter 1 is found or something in bold found **Title**)
+      ☐ End of part 1 and any other additional details in the end of part 1
+    
+    Maybe changing the formatting:
+      ☐ Bold titles will be replaced with h1/h2
+      ☐ Bullet points will be marked as bold if not already.
+
+  ☐ Run: output is book title.md instead use book_id.md.
+  ☐ Store the summary in the DB.
+    
+  

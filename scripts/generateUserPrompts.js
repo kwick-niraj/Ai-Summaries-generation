@@ -1,4 +1,4 @@
-function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
+function generateUserPrompt(meta, isFirstHalf = true) {
   const {
     title,
     author,
@@ -18,14 +18,14 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   if (StructureFormat?.Organization?.toLowerCase().includes("chapter") || StructureFormat?.Organization?.toLowerCase().includes("tip")) {
     structureLine += " Group related chapters, tips, or ideas into cohesive themes.";
   }
-  structureLine += " Include a short Introduction (~800–1000 characters). Include a Conclusion (~800–1000 characters).";
+  // structureLine += "";
 
   // 🧱 Tone
-  const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "neutral, clear, and accessible";
-  const toneAndStructure = summaryToneAndStructure;
+  // const metaTone = StyleTone.length > 0 ? StyleTone.join(', ') : "natural, clear, and accessible";
+  // const toneAndStructure = summaryToneAndStructure;
 
   // const tone = `story_wisdom, tactical_breakdown, ${metaTone}`
-  const tone = metaTone;
+  // const tone = metaTone;
 
 
   // 🧱 Bullet rules
@@ -35,9 +35,24 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
   // const summaryStrategy = `Summary Type: ${toneAndStructure.structure_type}.\nDescription: ${toneAndStructure.description} ${toneAndStructure.structure}`;
 
   const summaryStrategy = `
-  structure_type: Mixed- philosophical_reflection 50% + story_wisdom 30% + framework_stepwise 20%"
-  description: Use the following structure configuration to guide the summary writing process. Apply each style proportionally based on its weight and purpose, blending them seamlessly throughout the chapters. 
-  • 50% of the summary should follow the **“philosophical_reflection”** structure — Write the summary as a calm, thoughtful reflection on the book’s core psychological and spiritual ideas. Each chapter should explore one theme using metaphor, analogy, or simplified interpretation. Avoid poetic language unless essential. Maintain a neutral, meditative tone with smooth, idea-driven flow.\n\n• 30% of the summary should follow the **“story_wisdom”** structure — Structure the summary as a flowing narrative that uses emotionally engaging storytelling to explain key insights. Use broad, relatable life scenarios (e.g., 'a person overcoming chronic fear' or 'someone healing through belief') to illustrate how subconscious influence works. Use simple archetypes (e.g., 'a patient', 'a believer', 'a skeptical student') without names or fictional detail. Keep the narration natural and warm, using third-person voice.\n\n• 20% of the summary should follow the **“framework_stepwise”** structure — Present key principles or recurring spiritual laws in a clear, progressive flow. For example: belief → imagination → repetition → results. Use simplified logic to break abstract ideas into digestible stages or mental habits. Maintain a structured but gentle instructional tone.\n\nAvoid splitting these styles into separate blocks. Let reflective passages lead, enrich them with relatable human experiences, and reinforce key ideas through simple structures or mental models. The final summary should feel spiritually thoughtful, emotionally resonant, and intellectually clear.
+  {
+  "structure_type": "framework_stepwise",
+
+  "description": "Use this strategy to summarize books that present a structured methodology, system, or set of principles. The summary should progress step-by-step in a clear, logical flow that mirrors the original framework or sequential argument of the book. This structure is ideal for books about productivity, business, health, learning, or behavioral change.",
+  
+  "prompt": "Summarize the book using a structured, principle-by-principle flow. Each chapter should cover one or more related steps, ideas, or habits. Start by clearly defining the theme or principle of that chapter. Then, explain the concept in simplified, logical terms using analogies, metaphors, or relatable thought experiments when needed. Use short, real-life examples to demonstrate how the principle works in action — these can be paraphrased or generalized but must be relevant.\n\n
+  
+  Ensure the summary maintains a logical progression: early chapters should introduce foundational ideas, while later ones build complexity or deepen practical understanding. Link concepts where appropriate to show interdependence.\n
+  Emphasize practical understanding over literary style. Avoid fragmenting insights — keep the flow continuous.\n\n
+  
+  When the original book presents visual or conceptual frameworks (e.g., loops, matrices, pyramids), describe them simply so they are mentally visualizable. Summarize tools, models, or checklists naturally within the paragraph flow or as short bullet lists where necessary.\n\n
+  
+  The overall goal is to teach the core logic and usability of the framework clearly and sequentially — as if helping someone implement the method in real life, step by step.",
+
+  "tone": "Use a warm, thoughtful tone that feels like a calm mentor guiding the reader. Maintain emotional clarity without sounding formal or academic. Blend in human-centered metaphors, light scene-setting, and relatable analogies to explain abstract ideas — similar to a quiet conversation or reflective personal essay. Prioritize ease of reading and psychological depth. Avoid dramatization or persuasive flair — the value should come from clarity and resonance.",
+    
+  "technique_integration": "If there are clearly named or structured techniques (e.g., rules, steps, methods, or frameworks), include them as brief, well-placed bullet points at the moment they emerge naturally in the narrative. Do not isolate them into a separate section. Introduce them gently with transitions. Paraphrase both the language and any original metaphors to keep the expression fresh and natural. Keep each point concise (2–5 lines max) and use accessible, human-centered wording. The goal is to blend clarity with emotional and conceptual flow, without referring to the book or its author directly."
+}
 
 `
 // • 5% of the summary should follow the **“tactical_breakdown”** structure — Structure the summary as a clear, practical walkthrough of the book’s strategies. Each chapter should cover a core idea or principle and explain how it works in real-life situations. Write in a clear, third-person, instructional tone. While the summary itself should flow in paragraphs, any actionable steps, techniques, or tools mentioned within a chapter should be listed using bullet points for clarity. Avoid second-person language (“you”), and use general, relatable examples to ground the advice. Keep the language simple, direct, and helpful.
@@ -49,15 +64,18 @@ function generateUserPrompt(meta, summaryToneAndStructure, isFirstHalf = true) {
     "Using words like (e.g., 'you', 'your')",
     `Mentioning the author directly (e.g., '${author} says...', '${author} believes...')`,
     "Overuse of bullet points or generic list formatting",
-    "Reusing original chapter titles or structure from the book",
-    "Copying or closely imitating the book’s own phrasing or section names"
+    "Reusing original chapter titles from the book",
+    "Copying or closely imitating the book’s own phrasing or section names",
+    "Jargon or complex vocabulary",
+    "over-fictionalizing or introducing narrative embellishments that misrepresent real events or teachings. When describing characters (e.g., mentors, parents, friends), refer to their roles based on how they function in the author’s life, not how they could be dramatized."
   ];
 
+//  • Bullet Points: ${bulletRule}
 
   return `
 You are a professional nonfiction book summarizer.
 
-Your job is to generate a flowing, clear, deeply paraphrased summary of the following nonfiction book using the metadata and the formatting rules provided.
+Your job is to generate a natural, flowing, clear, engaging and deeply paraphrased summary of the following nonfiction book using the metadata and the formatting rules provided.
 
 ⸻
 
@@ -84,20 +102,21 @@ ${structureLine}
 ${summaryStrategy}
 
 🎯 Writing Guidelines:
-• Voice: Second-person and/or third-person
-• Bullet Points: ${bulletRule}
-• Target Length: 22,000–25,000 characters
+• Voice: Use a combination of second-person and  third-person voice
+• Target Length: 28,000–35,000 characters
 
 🚫 Avoid:
 • ${avoid.join('\n• ')}
 
 ⚠️ Additional Instructions:
-• Create concise, simple, and clear section titles. Each title should describe the core theme of the section using plain language (10-15 words max). Avoid poetic phrases, vague abstractions, or metaphors. Do not reuse or quote original chapter titles from the book.
+• Create concise, simple, and clear section titles. Each title should describe the core theme of the section using plain language (10-15 words max). Avoid poetic phrases, vague abstractions, or metaphors.
 • Paraphrase deeply — no direct quotes
 • Use metadata to guide summary focus, tone, and order — do not invent structure
 • Ensure smooth transitions between sections and avoid isolated blocks
+•	Preserve the 80% logical flow of concepts as in the original book.
+•	Maintain factual alignment with the book’s original structure and narrative. Do not invent or exaggerate relationships, story setups, or character roles.s
 
-You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 22,000–25,000 characters across 4-5 chapters.
+You are generating the ${isFirstHalf ? 'first' : 'second'} half of a complete longform summary. The half summary will be approximately 28,000–35,000 characters across 4-5 chapters.
 
 In this half, include only 4–5 chapters, adjusted to match the same level of depth, detail, and character count as you would in a full-length summary. Do not shorten content — only reduce the number of chapters. The tone, structure, and pacing must remain consistent.
 

@@ -19,8 +19,8 @@ async function generateSummaryFromPrompt() {
     // Generate the summary using GPT
     const completion = await openai.chat.completions.create({
       model: 'gpt-4.1', // or 'gpt-4.1'
-      temperature: 0.55,
-      top_p: 0.7,
+      temperature: 0,
+      top_p: 0.5,
       max_tokens: 25000,
       messages: [
         {
