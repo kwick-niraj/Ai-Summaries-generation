@@ -6,6 +6,8 @@ import fs from 'fs';
 import path from 'path';
 import { generateUserPrompt } from './generateUserPrompts.js';
 import dbServices from './db-services/services.js'
+import dbClient from './db-services/db.js';
+import formattingService from './utils/format-summaries.js'
 
 dotenv.config();
 
@@ -22,83 +24,21 @@ const azureADTokenProvider = getBearerTokenProvider(credential, scope);
 // Initialize Azure OpenAI Client
 const client = new AzureOpenAI({ endpoint, azureADTokenProvider, apiVersion, deployment });
 
-const metaOfBook = {
-  "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
-  "author": "Stephen R. Covey",
-  "publication_date": "1989",
-  "edition_analyzed": "25th Anniversary Edition (2013; core content unchanged)",
-  "genre": [
-    "Self-Help",
-    "Personal Development",
-    "Leadership",
-    "Productivity",
-    "Business"
-  ],
-  "target_audience": [
-    "Professionals seeking personal and organizational effectiveness",
-    "Leaders and managers",
-    "Students and lifelong learners",
-    "Individuals interested in self-improvement and personal growth",
-    "Anyone aiming for a principled, purpose-driven life"
-  ],
-  "core_themes": [
-    "Personal responsibility and proactive living",
-    "Values-driven decision-making",
-    "Interpersonal effectiveness and collaboration",
-    "Continuous self-renewal and balanced living",
-    "Principle-centered leadership"
-  ],
-  "primary_purpose": "To present a holistic, principle-centered framework for achieving personal and professional effectiveness through internal transformation, character development, and positive relationships.",
-  "structure_format": {
-    "narrative_style": "Didactic, narrative-driven, and reflective, with exercises and anecdotes",
-    "organization": "Divided into individual chapters for each habit, with supporting sections on paradigm shifts and growth processes",
-    "features": [
-      "Step-by-step lessons and self-assessment tools",
-      "Real-life stories and examples",
-      "Diagrams explaining concepts (e.g., Time Management Matrix)",
-      "Reflections and application exercises"
-    ]
-  },
-  "key_concepts_lessons": [
-    "The importance of a paradigm shift: Success starts with changing how we perceive and interpret the world.",
-    "Habit 1: Be Proactive – Take responsibility for your life and choices.",
-    "Habit 2: Begin with the End in Mind – Define a clear personal vision and life goals.",
-    "Habit 3: Put First Things First – Prioritize tasks by importance, not urgency.",
-    "Habit 4: Think Win-Win – Cultivate an abundance mindset and seek mutual benefit in interactions.",
-    "Habit 5: Seek First to Understand, Then to Be Understood – Practice empathic listening and clear communication.",
-    "Habit 6: Synergize – Value differences and collaborate creatively for better results.",
-    "Habit 7: Sharpen the Saw – Invest in balanced, ongoing self-renewal across physical, mental, social/emotional, and spiritual dimensions."
-  ],
-  "style_tone": [
-    "Inspirational",
-    "Practical",
-    "Reflective",
-    "Systematic",
-    "Accessible"
-  ],
-  "notable_features": [
-    "Global bestseller, translated into over 40 languages",
-    "Widely used in corporate, educational, and personal settings",
-    "Principle-centered rather than personality-focused approach",
-    "Diagonal focus: personal, interpersonal, and organizational effectiveness"
-  ],
-  "cultural_historical_context": "Published at the close of the 1980s, when self-help books were booming and the business world was shifting focus to leadership, accountability, and work-life balance. The book’s enduring influence reflects its integration of timeless wisdom and practical models for a rapidly changing world.",
-  "reception_impact": [
-    "Over 40 million copies sold worldwide; consistently recommended for personal and professional growth",
-    "Foundational text for many leadership and development programs",
-    "Praised for its clarity, applicability, and depth",
-    "Criticized in some circles as too idealistic or time-intensive for immediate results",
-    "Influence extended to sequels, workbooks, and a broader '7 Habits' franchise"
-  ],
-  "comparable_titles": [
-    "How to Win Friends and Influence People by Dale Carnegie",
-    "Atomic Habits by James Clear",
-    "Principles: Life and Work by Ray Dalio",
-    "Drive: The Surprising Truth About What Motivates Us by Daniel H. Pink"
-  ]
+const meta = await getBookMeta();
+
+let metaOfBook;
+let summary_strategy;
+
+
+if (meta) {
+  metaOfBook = meta.bookMetaJson;
+  summary_strategy = meta.summaryStrategy;
+} else {
+  throw new Error('STOPPED EXECUTION, NO META FOUND!')
 }
+
 const isFirstHalf = true
-const summary_strategy = 'story_wisdom'
+console.log('Meta', meta);
 const userPrompt = generateUserPrompt(metaOfBook, isFirstHalf, summary_strategy)
 
 console.log('user prompt', userPrompt)
@@ -295,8 +235,13 @@ async function generateFullBookSummary(metaOfBook, options = {}) {
       outputPath: './second-half-summary.txt'
     });
 
+    const cleanedFirstHalf = formattingService.cleanSummaryText(firstHalfResult);
+    const cleanedSecondHalf = formattingService.cleanSummaryText(secondHalfResult);
+
     // Combine summaries
-    const fullSummary = `${firstHalfResult}\n\n${secondHalfResult}`;
+    let fullSummary = `${cleanedFirstHalf}\n\n${cleanedSecondHalf}`;
+
+    fullSummary = formattingService.formatChapterHeaders(fullSummary)
 
     // Write full summary to file
     const fullOutputPath = path.join(process.cwd(), outputPath);
@@ -319,3 +264,66 @@ async function delayWithCountdown(seconds) {
 }
 
 generateFullBookSummary(metaOfBook);
+
+// // Define input and output file paths
+// const inputFilePath = path.join(process.cwd(), 'first-half-summary.txt');
+// const outputFilePath = path.join(process.cwd(), 'first-half-summary-cleaned.txt');
+
+// try {
+//   // Read the original file
+//   const fileContent = fs.readFileSync(inputFilePath, 'utf-8');
+
+//   // Clean the content
+//   const cleanedContent = formattingService.cleanSummaryText(fileContent);
+
+//   // Write the cleaned content to a new file
+//   fs.writeFileSync(outputFilePath, cleanedContent, 'utf-8');
+
+//   console.log(`✅ Cleaned summary saved to: ${outputFilePath}`);
+// } catch (err) {
+//   console.error('❌ Error reading or writing file:', err);
+// }
+
+async function getBookMeta(){
+  try {
+    await dbClient.connect();
+    console.log('✅ Connected to PostgreSQL');
+  
+    const book = await dbServices.getBookMetadata();
+    const bookDetails = {}
+    if (book) {
+      bookDetails.bookId = book.book_id;
+      bookDetails.summaryStrategy = book.summary_structure;
+      bookDetails.bookTitleFromMetaTable = book.title;
+    }
+    console.log('📚 Book metadata:', book);
+  
+    await dbClient.end();
+    console.log('✅ PostgreSQL connection closed');
+
+    bookDetails.bookMetaJson = getBookMetaJSONById(bookDetails.bookId)
+    
+    if(!!bookDetails.bookMetaJson) {
+      console.log('Ready Book Details OBJ: ', bookDetails)
+      return bookDetails
+    }
+    throw new Error('Can\'t able to get metaOfBook JSON')
+  } catch (error) {
+    console.error('❌ Error:', error.message);
+  }
+  
+}
+
+function getBookMetaJSONById(bookId) {
+  const metaFolderPath = path.join(process.cwd(), '..', 'Meta of All Books DB');
+  const filePath = path.join(metaFolderPath, `${bookId}.json`);
+
+  try {
+    const rawContent = fs.readFileSync(filePath, 'utf-8');
+    const jsonData = JSON.parse(rawContent);
+    return jsonData[0];
+  } catch (err) {
+    console.error(`❌ Could not load metadata for book ID ${bookId}:`, err.message);
+    return null;
+  }
+}

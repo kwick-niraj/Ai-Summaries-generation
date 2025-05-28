@@ -14,21 +14,6 @@ async function getBookMetadata() {
   return res.rows[0];
 }
 
-(async () => {
-  try {
-    await dbClient.connect();
-    console.log('✅ Connected to PostgreSQL');
-
-    const book = await getBookMetadata(12);
-    console.log('📚 Book metadata:', book);
-
-    await dbClient.end();
-    console.log('✅ PostgreSQL connection closed');
-  } catch (error) {
-    console.error('❌ Error:', error.message);
-  }
-})();
-
 export default {
   updateMetaOfBook,
   getBookMetadata,
