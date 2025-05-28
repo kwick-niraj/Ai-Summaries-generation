@@ -5,6 +5,7 @@ import { DefaultAzureCredential, getBearerTokenProvider } from '@azure/identity'
 import fs from 'fs';
 import path from 'path';
 import { generateUserPrompt } from './generateUserPrompts.js';
+import dbServices from './db-services/services.js'
 
 dotenv.config();
 
