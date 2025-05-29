@@ -1,104 +1,29 @@
-// Requires: npm install openai dotenv
+// generateSummariesAzureOpenAi.js
+
 import dotenv from 'dotenv';
 import { AzureOpenAI } from 'openai';
 import { DefaultAzureCredential, getBearerTokenProvider } from '@azure/identity';
 import fs from 'fs';
 import path from 'path';
+import formattingService from './utils/format-summaries.js';
 import { generateUserPrompt } from './generateUserPrompts.js';
-import dbServices from './db-services/services.js'
-import dbClient from './db-services/db.js';
-import formattingService from './utils/format-summaries.js'
 
 dotenv.config();
 
 // Azure OpenAI Config
-const endpoint = process.env.AZURE_OPENAI_ENDPOINT; // e.g., https://kwickin.openai.azure.com/
-const apiVersion = '2025-01-01-preview'; // Match your API version
-const deployment = 'gpt-4.1';// e.g., gpt-4.1
+const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
+const apiVersion = '2025-01-01-preview';
+const deployment = 'gpt-4.1';
 
-// Initialize Azure Credential (Entra ID/Managed Identity)
+// Initialize Azure Credential
 const credential = new DefaultAzureCredential();
 const scope = 'https://cognitiveservices.azure.com/.default';
 const azureADTokenProvider = getBearerTokenProvider(credential, scope);
 
-// Initialize Azure OpenAI Client
+// Azure OpenAI Client
 const client = new AzureOpenAI({ endpoint, azureADTokenProvider, apiVersion, deployment });
 
-const meta = await getBookMeta();
-
-let metaOfBook;
-let summary_strategy;
-
-
-if (meta) {
-  metaOfBook = meta.bookMetaJson;
-  summary_strategy = meta.summaryStrategy;
-} else {
-  throw new Error('STOPPED EXECUTION, NO META FOUND!')
-}
-
-const isFirstHalf = true
-console.log('Meta', meta);
-const userPrompt = generateUserPrompt(metaOfBook, isFirstHalf, summary_strategy)
-
-console.log('user prompt', userPrompt)
-
-async function generateFirstHalfBookSummary(metaOfBook, options = {}) {
-  const {
-    generateFirstHalf = true,
-    previousSummaryContext = null,
-    outputPath = './first-half.txt'
-  } = options;
-
-  try {
-    // Prepare messages with context if second half
-    // Generate prompt and seed for specific half
-    // const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf, );
-    // const seed = generateSeedFromMetadata(metaOfBook);
-    // console.log('seed', seed)
-
-    // Generate summary
-    const completion = await client.chat.completions.create({
-      model: 'gpt-4.1',
-      temperature: 0.5,
-      top_p: 0,
-      max_tokens: 32000,
-      // seed: 30,
-      messages: [
-        {
-          role: 'system',
-          content: `You are a professional nonfiction book summarizer. The summary should be approximately 28,000–35,000 characters across 4-5 chapters.`
-        },
-        {
-          role: 'user',
-          content: userPrompt
-        }
-      ],
-    });
-
-    const result = completion.choices[0].message.content;
-
-    // Ensure output directory exists
-    const fullOutputPath = path.join(process.cwd(), outputPath);
-    const outputDir = path.dirname(fullOutputPath);
-
-    // Create directory if it doesn't exist
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    // Write summary to file
-    fs.writeFileSync(fullOutputPath, result, 'utf-8');
-
-    console.log(`✅ ${generateFirstHalf ? 'First' : 'Second'} half summary saved to: ${fullOutputPath}`);
-
-    return result;
-  } catch (err) {
-    console.error('❌ Error generating summary:', err);
-    throw err;
-  }
-}
-
+// Summary strategy map
 const summaryStrategyForPart2 = {
   "story_wisdom": `You are a professional nonfiction book summarizer. You're Generating the Second Half of a summary. Match the tone and structure from the first half of the summary.
   Instruction:
@@ -140,120 +65,97 @@ const summaryStrategyForPart2 = {
     Also, Add a Conclusion At End of the Summary: Write a 1800-character instructional-style conclusion using a mentor-like tone, including a short list of bullet-point takeaways (each 10–12 words long). followed by a longer, emotionally intelligent final paragraph that offers reassurance and encourages real-world action.`
 }
 
-const systemContent2ndPart = summaryStrategyForPart2[summary_strategy];
-
-async function generateSecondHalfBookSummary(metaOfBook, options = {}) {
-  const {
-    generateFirstHalf = true,
-    previousSummaryContext = null,
-    outputPath = './second-half.txt'
-
-  } = options; const contextMessages = previousSummaryContext
-    ? [
-      {
-        role: 'system',
-        content: 'The following is the first half of the summary.'
-      },
-      {
-        role: 'user',
-        content: previousSummaryContext
-      }
-    ]
-    : [];
-
-  console.log('context Messages, ', contextMessages)
+// Generate first half
+async function generateFirstHalfBookSummary(metaOfBook, summaryStrategy, options = {}) {
+  const { outputPath = './first-half.txt' } = options;
 
   try {
-    // Prepare messages with context if second half
-    // Generate prompt and seed for specific half
-    // const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf);
-    // const seed = generateSeedFromMetadata(metaOfBook);
-    // console.log('seed', seed)
-
-    // Generate summary
+    const userPrompt = generateUserPrompt(metaOfBook, true, summaryStrategy);
     const completion = await client.chat.completions.create({
-      model: 'gpt-4.1',
+      model: deployment,
       temperature: 0.5,
       top_p: 0,
       max_tokens: 32000,
-      // seed: 30,
       messages: [
-        {
-          role: 'system',
-          content: systemContent2ndPart,
-        },
-        ...contextMessages,
-        {
-          role: 'user',
-          content: 'Generate second half of the full summary. The summary should be approximately 28,000–35,000.'
-        }
+        { role: 'system', content: `You are a professional nonfiction book summarizer. The summary should be approximately 28,000–35,000 characters across 4-5 chapters.` },
+        { role: 'user', content: userPrompt },
       ],
     });
 
     const result = completion.choices[0].message.content;
 
-    // Ensure output directory exists
-    const fullOutputPath = path.join(process.cwd(), outputPath);
-    const outputDir = path.dirname(fullOutputPath);
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, result, 'utf-8');
 
-    // Create directory if it doesn't exist
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    // Write summary to file
-    fs.writeFileSync(fullOutputPath, result, 'utf-8');
-
-    console.log(`✅ ${generateFirstHalf ? 'First' : 'Second'} half summary saved to: ${fullOutputPath}`);
-
+    console.log(`✅ First half summary saved to: ${outputPath}`);
     return result;
   } catch (err) {
-    console.error('❌ Error generating summary:', err);
+    console.error('❌ Error generating first half summary:', err);
     throw err;
   }
 }
 
-function sanitizeFilename(title) {
-  return title.replace(/[\/\\?%*:|"<>]/g, '').replace(/\s+/g, '_');
-}
+// Generate second half
+async function generateSecondHalfBookSummary(metaOfBook, summaryStrategy, previousSummaryContext, options = {}) {
+  const { outputPath = './second-half.txt' } = options;
+  const systemContent2ndPart = summaryStrategyForPart2[summaryStrategy];
 
-async function generateFullBookSummary(metaOfBook, meta) {
-  // const {
-  //   outputPath = `./Final Summaries/${sanitizeFilename(metaOfBook.title)}.md`
-  // } = options;
-
-  const outputPath = `./Final Summaries/${meta.bookId}.md`
+  const contextMessages = previousSummaryContext
+    ? [
+        { role: 'system', content: 'The following is the first half of the summary.' },
+        { role: 'user', content: previousSummaryContext },
+      ]
+    : [];
 
   try {
-    // Generate first half
-    const firstHalfResult = await generateFirstHalfBookSummary(metaOfBook, {
-      generateFirstHalf: true,
-      outputPath: './first-half-summary.txt'
+    const completion = await client.chat.completions.create({
+      model: deployment,
+      temperature: 0.5,
+      top_p: 0,
+      max_tokens: 32000,
+      messages: [
+        { role: 'system', content: systemContent2ndPart },
+        ...contextMessages,
+        { role: 'user', content: 'Generate second half of the full summary. The summary should be approximately 28,000–35,000.' },
+      ],
     });
 
-    await delayWithCountdown(60); // 5-second countdown
-    console.log('▶️ Continue execution...');
-  
-    // Generate second half with first half as context
-    const secondHalfResult = await generateSecondHalfBookSummary(metaOfBook, {
-      generateFirstHalf: false,
-      previousSummaryContext: firstHalfResult,
-      outputPath: './second-half-summary.txt'
+    const result = completion.choices[0].message.content;
+
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, result, 'utf-8');
+
+    console.log(`✅ Second half summary saved to: ${outputPath}`);
+    return result;
+  } catch (err) {
+    console.error('❌ Error generating second half summary:', err);
+    throw err;
+  }
+}
+
+// Full summary generation
+async function generateFullBookSummary(metaOfBook, summaryStrategy, meta) {
+  const outputPath = `./Final Summaries/${meta.bookId}.md`;
+
+  try {
+    const firstHalf = await generateFirstHalfBookSummary(metaOfBook, summaryStrategy, {
+      outputPath: './first-half-summary.txt',
     });
 
-    const cleanedFirstHalf = formattingService.cleanSummaryText(firstHalfResult);
-    // const cleanedSecondHalf = formattingService.cleanSummaryText(secondHalfResult);
-    // No need to clean second half, it's already clean always.
-    // Combine summaries
-    let fullSummary = `${cleanedFirstHalf}\n\n${secondHalfResult}`;
+    await delayWithCountdown(60);
 
-    fullSummary = formattingService.formatChapterHeaders(fullSummary)
+    const secondHalf = await generateSecondHalfBookSummary(metaOfBook, summaryStrategy, firstHalf, {
+      outputPath: './second-half-summary.txt',
+    });
 
-    // Write full summary to file
-    const fullOutputPath = path.join(process.cwd(), outputPath);
-    fs.writeFileSync(fullOutputPath, fullSummary, 'utf-8');
+    const cleanedFirstHalf = formattingService.cleanSummaryText(firstHalf);
+    let fullSummary = `${cleanedFirstHalf}\n\n${secondHalf}`;
+    fullSummary = formattingService.formatChapterHeaders(fullSummary);
 
-    console.log(`✅ Full summary saved to: ${fullOutputPath}`);
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, fullSummary, 'utf-8');
+
+    console.log(`✅ Full summary saved to: ${outputPath}`);
     return fullSummary;
   } catch (err) {
     console.error('❌ Error generating full summary:', err);
@@ -264,73 +166,9 @@ async function generateFullBookSummary(metaOfBook, meta) {
 async function delayWithCountdown(seconds) {
   for (let i = seconds; i > 0; i--) {
     console.log(`⏳ Waiting... ${i} second${i !== 1 ? 's' : ''} remaining`);
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
   }
   console.log('✅ Done!');
 }
 
-console.log('MetaOfBook: ', metaOfBook)
-generateFullBookSummary(metaOfBook, meta);
-
-// // Define input and output file paths
-// const inputFilePath = path.join(process.cwd(), 'first-half-summary.txt');
-// const outputFilePath = path.join(process.cwd(), 'first-half-summary-cleaned.txt');
-
-// try {
-//   // Read the original file
-//   const fileContent = fs.readFileSync(inputFilePath, 'utf-8');
-
-//   // Clean the content
-//   const cleanedContent = formattingService.cleanSummaryText(fileContent);
-
-//   // Write the cleaned content to a new file
-//   fs.writeFileSync(outputFilePath, cleanedContent, 'utf-8');
-
-//   console.log(`✅ Cleaned summary saved to: ${outputFilePath}`);
-// } catch (err) {
-//   console.error('❌ Error reading or writing file:', err);
-// }
-
-async function getBookMeta(){
-  try {
-    await dbClient.connect();
-    console.log('✅ Connected to PostgreSQL');
-  
-    const book = await dbServices.getBookMetadata();
-    const bookDetails = {}
-    if (book) {
-      bookDetails.bookId = book.book_id;
-      bookDetails.summaryStrategy = book.summary_structure;
-      bookDetails.bookTitleFromMetaTable = book.title;
-    }
-    console.log('📚 Book metadata:', book);
-  
-    await dbClient.end();
-    console.log('✅ PostgreSQL connection closed');
-
-    bookDetails.bookMetaJson = getBookMetaJSONById(bookDetails.bookId)
-    
-    if(!!bookDetails.bookMetaJson) {
-      console.log('Ready Book Details OBJ: ', bookDetails)
-      return bookDetails
-    }
-    throw new Error('Can\'t able to get metaOfBook JSON')
-  } catch (error) {
-    console.error('❌ Error:', error.message);
-  }
-  
-}
-
-function getBookMetaJSONById(bookId) {
-  const metaFolderPath = path.join(process.cwd(), '..', 'Meta of All Books DB');
-  const filePath = path.join(metaFolderPath, `${bookId}.json`);
-
-  try {
-    const rawContent = fs.readFileSync(filePath, 'utf-8');
-    const jsonData = JSON.parse(rawContent);
-    return jsonData[0];
-  } catch (err) {
-    console.error(`❌ Could not load metadata for book ID ${bookId}:`, err.message);
-    return null;
-  }
-}
+export default generateFullBookSummary;
