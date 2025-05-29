@@ -53,7 +53,7 @@ async function generateFirstHalfBookSummary(metaOfBook, options = {}) {
   try {
     // Prepare messages with context if second half
     // Generate prompt and seed for specific half
-    const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf);
+    // const userPrompt = generateUserPrompt(metaOfBook, generateFirstHalf, );
     // const seed = generateSeedFromMetadata(metaOfBook);
     // console.log('seed', seed)
 
@@ -111,6 +111,10 @@ const summaryStrategyForPart2 = {
   2.  When referencing real-life stories or examples from the book, shift into immersive storytelling. Retell these moments in a vivid but grounded way, using unnamed, relatable characters (e.g., “a kid frustrated with work,” “a parent chasing security”) to preserve emotional closeness. Keep scenes concise and emotionally believable — include small actions, reactions, and emotional turning points to make the lesson feel lived, not just told. Avoid dramatization or overly literary flair. The pacing should feel like a memory being naturally shared, not a scene from fiction.
   3. As you explain core ideas, **embed insights subtly within the narration** using a natural **conversational tone**. Speak directly to the reader without announcing lessons. Let takeaways emerge through phrases like “it became clear,” “most people don’t notice this,” or “many fall into the same habit.” Avoid any list-like phrasing or labeled takeaways. Let the insight feel discovered — not pointed out.
   4. Avoid repeating the same phrases like “a young person” or similar generic identities — vary the narrative by using situational framing and emotional context instead.
+
+  Generate 4 to 5 chapters only in this half.
+
+  Also, Add a Conclusion At End of the Summary: Write a 1800-character instructional-style conclusion using a mentor-like tone, including a short list of bullet-point takeaways (each 10–12 words long). followed by a longer, emotionally intelligent final paragraph that offers reassurance and encourages real-world action.
     `,
   "framework_stepwise": `You are a professional nonfiction book summarizer. You're Generating the Second Half of a summary. Match the tone and structure from the first half of the summary.
     Instruction:
@@ -213,10 +217,12 @@ function sanitizeFilename(title) {
   return title.replace(/[\/\\?%*:|"<>]/g, '').replace(/\s+/g, '_');
 }
 
-async function generateFullBookSummary(metaOfBook, options = {}) {
-  const {
-    outputPath = `./Final Summaries/${sanitizeFilename(metaOfBook.title)}.md`
-  } = options;
+async function generateFullBookSummary(metaOfBook, meta) {
+  // const {
+  //   outputPath = `./Final Summaries/${sanitizeFilename(metaOfBook.title)}.md`
+  // } = options;
+
+  const outputPath = `./Final Summaries/${meta.bookId}.md`
 
   try {
     // Generate first half
@@ -236,10 +242,10 @@ async function generateFullBookSummary(metaOfBook, options = {}) {
     });
 
     const cleanedFirstHalf = formattingService.cleanSummaryText(firstHalfResult);
-    const cleanedSecondHalf = formattingService.cleanSummaryText(secondHalfResult);
-
+    // const cleanedSecondHalf = formattingService.cleanSummaryText(secondHalfResult);
+    // No need to clean second half, it's already clean always.
     // Combine summaries
-    let fullSummary = `${cleanedFirstHalf}\n\n${cleanedSecondHalf}`;
+    let fullSummary = `${cleanedFirstHalf}\n\n${secondHalfResult}`;
 
     fullSummary = formattingService.formatChapterHeaders(fullSummary)
 
@@ -263,7 +269,8 @@ async function delayWithCountdown(seconds) {
   console.log('✅ Done!');
 }
 
-generateFullBookSummary(metaOfBook);
+console.log('MetaOfBook: ', metaOfBook)
+generateFullBookSummary(metaOfBook, meta);
 
 // // Define input and output file paths
 // const inputFilePath = path.join(process.cwd(), 'first-half-summary.txt');
