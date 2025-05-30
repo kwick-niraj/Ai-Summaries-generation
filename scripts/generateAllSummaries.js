@@ -37,7 +37,7 @@ async function runAllBooks() {
       await dbServices.updateMetaOfBook(client, meta.bookId, true)
       bookCount++;
       console.log(`✅ Completed book ${bookCount}. Waiting before next...`);
-      await delayWithCountdown(60);
+      await delayWithCountdown(30);
     } catch (err) {
       console.error('❌ Fatal error. Stopping execution:', err.message);
       break;

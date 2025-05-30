@@ -142,7 +142,7 @@ async function generateFullBookSummary(metaOfBook, summaryStrategy, meta) {
       outputPath: './first-half-summary.txt',
     });
 
-    await delayWithCountdown(60);
+    await delayWithCountdown(30);
 
     const secondHalf = await generateSecondHalfBookSummary(metaOfBook, summaryStrategy, firstHalf, {
       outputPath: './second-half-summary.txt',
