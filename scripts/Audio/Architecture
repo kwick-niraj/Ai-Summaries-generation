@@ -1,0 +1,21 @@
+graph TD
+    A[Scan FinalAllSummaries/] --> B[Parse Markdown Structure]
+    B --> C[Extract Introduction]
+    B --> D[Extract Chapters]
+    B --> E[Extract Conclusion]
+    
+    C --> F[Optimize for Audio]
+    D --> F
+    E --> F
+    
+    F --> G[Add SSML Formatting]
+    G --> H[Generate TTS via Azure OpenAI]
+    
+    H --> I[Save Individual Audio Files]
+    I --> J[Combine All Sections]
+    J --> K[Generate Final Book Audio]
+    
+    K --> L[Update Progress Log]
+    L --> M{More Books?}
+    M -->|Yes| A
+    M -->|No| N[Complete]
