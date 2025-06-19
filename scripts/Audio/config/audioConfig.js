@@ -29,7 +29,7 @@ export const audioConfig = {
   generateSSML: false,      // Generate SSML markup (experimental)
   
   // Enhanced Features
-  enableSSML: true,         // Enable SSML generation for expressive speech
+  enableSSML: false,         // Enable SSML generation for expressive speech
   intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
   metadataDir: 'Meta of All Books DB', // Directory containing book metadata for voice selection
   
@@ -106,7 +106,7 @@ export const processingPresets = {
   balanced: {
     ...audioConfig,
     optimizeText: true,
-    enableSSML: true,
+    enableSSML: false,
     intelligentVoiceSelection: true,
     maxChunkLength: 4000,
     concurrency: 1,
@@ -135,7 +135,7 @@ export const processingPresets = {
     inputDir: './FinalAllSummaries',
     outputDir: './Audio/test_output',
     optimizeText: true,
-    enableSSML: true,
+    enableSSML: false,
     intelligentVoiceSelection: true,
     combineAudio: false,
     skipExisting: false,
