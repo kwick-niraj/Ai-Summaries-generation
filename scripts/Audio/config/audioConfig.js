@@ -10,7 +10,7 @@ export const audioConfig = {
   // TTS Settings
   voice: 'nova', // Options: alloy, echo, fable, nova, onyx, shimmer
   speed: 1.0,    // Speed: 0.25 to 4.0
-  format: 'mp3', // Format: mp3, opus, aac, flac
+  format: 'wav', // Format: mp3, opus, aac, flac, wav.
 
   // Processing Settings
   maxChunkLength: 4000,     // Maximum characters per TTS request
@@ -179,7 +179,7 @@ export function validateConfig(config) {
   }
 
   // Format validation
-  const validFormats = ['mp3', 'opus', 'aac', 'flac'];
+  const validFormats = ['mp3', 'opus', 'aac', 'flac', 'wav'];
   if (!validFormats.includes(config.format)) {
     errors.push(`format must be one of: ${validFormats.join(', ')}`);
   }
