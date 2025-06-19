@@ -1,0 +1,85 @@
+{
+  "bookId": "746",
+  "timestamp": "2025-06-19T15:23:38.064Z",
+  "success": false,
+  "processingTime": -1750346291055,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3127,
+    "totalAudioFiles": 12,
+    "totalDuration": 1458.7250000000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1458.7250000000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/746/optimized_text/746.md",
+    "fileSize": 24834,
+    "wordCount": 3845,
+    "format": "markdown",
+    "filename": "746.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/746/metadata/746_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1458.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/746/metadata/746_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/746/metadata/746_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/746/746_complete.wav",
+    "inputCount": 12,
+    "fileSize": 23340776,
+    "duration": 1458.792
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true
+  }
+}

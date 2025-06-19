@@ -40,14 +40,20 @@ export class TextOptimizer {
    */
   async optimizeForAudio(text, sectionType = 'chapter', options = {}) {
     try {
+      // Extract chapter headers before optimization
+      const extractedHeaders = this.extractChapterHeaders(text);
+      
       // First, clean and prepare the text
       const cleanedText = this.cleanMarkdownText(text);
       
       // Apply AI-based optimization for natural speech
       const optimizedText = await this.applyAIOptimization(cleanedText, sectionType);
       
+      // Verify and restore headers if needed
+      const verifiedText = this.verifyAndRestoreHeaders(optimizedText, extractedHeaders);
+      
       // Apply final audio-specific formatting
-      const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
+      const audioReadyText = this.applyAudioFormatting(verifiedText, sectionType);
       
       return audioReadyText;
     } catch (error) {
@@ -64,8 +70,8 @@ export class TextOptimizer {
    */
   cleanMarkdownText(text) {
     return text
-      // Remove markdown headers but keep the text
-      .replace(/^#{1,6}\s+/gm, '')
+      // Convert markdown headers to plain text but preserve them
+      .replace(/^#{1,6}\s+(.+)$/gm, '$1')
       // Remove bold/italic formatting
       .replace(/\*\*(.*?)\*\*/g, '$1')
       .replace(/\*(.*?)\*/g, '$1')
@@ -119,7 +125,10 @@ export class TextOptimizer {
   getSystemPrompt(sectionType) {
     const basePrompt = `You are an expert audio script editor. Transform the given text for natural audio narration. Make it conversational, engaging, and easy to listen to.
 
+CRITICAL: Always preserve chapter titles and section headers exactly as they appear. These are essential for navigation and structure.
+
 Guidelines:
+- PRESERVE all chapter titles and section headers exactly as provided
 - Use natural, flowing language that sounds good when spoken aloud
 - Break up long sentences into shorter, more digestible ones
 - Add transitional phrases where appropriate
@@ -127,7 +136,8 @@ Guidelines:
 - Convert abbreviations to full words (e.g., "e.g." → "for example")
 - Make the tone warm and engaging
 - Remove meta-commentary like "this chapter discusses" or "in this section"
-- Ensure smooth flow between ideas`;
+- Ensure smooth flow between ideas
+- Keep chapter titles at the beginning of each section for audio navigation`;
 
     const sectionSpecific = {
       introduction: `
@@ -342,6 +352,204 @@ ${formattedText}
     }
 
     return chunks;
+  }
+
+  /**
+   * Extract chapter headers from text before optimization
+   * @param {string} text - Original text
+   * @returns {Array} Array of extracted headers
+   */
+  extractChapterHeaders(text) {
+    const headers = [];
+    const headerRegex = /^#{1,6}\s+(.+)$/gm;
+    let match;
+
+    while ((match = headerRegex.exec(text)) !== null) {
+      headers.push({
+        original: match[0],
+        title: match[1].trim(),
+        level: match[0].match(/^#+/)[0].length
+      });
+    }
+
+    // Also look for common chapter patterns
+    const chapterPatterns = [
+      /^(Chapter\s+\d+[:\-\s]*.*?)$/gmi,
+      /^(Introduction)$/gmi,
+      /^(Conclusion)$/gmi,
+      /^(Summary)$/gmi,
+      /^(Overview)$/gmi
+    ];
+
+    chapterPatterns.forEach(pattern => {
+      let match;
+      while ((match = pattern.exec(text)) !== null) {
+        const title = match[1].trim();
+        // Avoid duplicates
+        if (!headers.some(h => h.title.toLowerCase() === title.toLowerCase())) {
+          headers.push({
+            original: match[0],
+            title: title,
+            level: 1,
+            isPattern: true
+          });
+        }
+      }
+    });
+
+    console.log(`📋 Extracted ${headers.length} headers:`, headers.map(h => h.title));
+    return headers;
+  }
+
+  /**
+   * Verify headers are preserved and restore if missing
+   * @param {string} optimizedText - AI-optimized text
+   * @param {Array} originalHeaders - Original extracted headers
+   * @returns {string} Text with verified/restored headers
+   */
+  verifyAndRestoreHeaders(optimizedText, originalHeaders) {
+    if (!originalHeaders || originalHeaders.length === 0) {
+      return optimizedText;
+    }
+
+    let verifiedText = optimizedText;
+    const missingHeaders = [];
+
+    // Check each original header
+    originalHeaders.forEach(header => {
+      const headerExists = this.checkHeaderExists(verifiedText, header.title);
+      
+      if (!headerExists) {
+        missingHeaders.push(header);
+        console.warn(`⚠️  Missing header after optimization: "${header.title}"`);
+      }
+    });
+
+    // Restore missing headers
+    if (missingHeaders.length > 0) {
+      console.log(`🔧 Restoring ${missingHeaders.length} missing headers...`);
+      verifiedText = this.restoreMissingHeaders(verifiedText, missingHeaders, originalHeaders);
+    }
+
+    return verifiedText;
+  }
+
+  /**
+   * Check if a header exists in the text
+   * @param {string} text - Text to search
+   * @param {string} headerTitle - Header title to find
+   * @returns {boolean} Whether header exists
+   */
+  checkHeaderExists(text, headerTitle) {
+    // Check for exact title match (case insensitive)
+    const exactMatch = new RegExp(`\\b${this.escapeRegex(headerTitle)}\\b`, 'i');
+    if (exactMatch.test(text)) {
+      return true;
+    }
+
+    // Check for partial matches for chapter numbers
+    if (headerTitle.toLowerCase().includes('chapter')) {
+      const chapterMatch = /chapter\s+(\d+)/i.exec(headerTitle);
+      if (chapterMatch) {
+        const chapterNum = chapterMatch[1];
+        const chapterPattern = new RegExp(`chapter\\s+${chapterNum}`, 'i');
+        if (chapterPattern.test(text)) {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Restore missing headers to the text
+   * @param {string} text - Text to restore headers to
+   * @param {Array} missingHeaders - Headers that need to be restored
+   * @param {Array} allHeaders - All original headers for context
+   * @returns {string} Text with restored headers
+   */
+  restoreMissingHeaders(text, missingHeaders, allHeaders) {
+    let restoredText = text;
+
+    // For each missing header, try to find the best insertion point
+    missingHeaders.forEach(header => {
+      const insertionPoint = this.findHeaderInsertionPoint(restoredText, header, allHeaders);
+      
+      if (insertionPoint !== -1) {
+        // Insert the header at the found position
+        const beforeText = restoredText.substring(0, insertionPoint);
+        const afterText = restoredText.substring(insertionPoint);
+        
+        // Add proper spacing
+        const headerText = `${header.title}\n\n`;
+        restoredText = beforeText + headerText + afterText;
+        
+        console.log(`✅ Restored header: "${header.title}"`);
+      } else {
+        console.warn(`❌ Could not find insertion point for header: "${header.title}"`);
+      }
+    });
+
+    return restoredText;
+  }
+
+  /**
+   * Find the best insertion point for a missing header
+   * @param {string} text - Text to search
+   * @param {Object} header - Header to insert
+   * @param {Array} allHeaders - All original headers
+   * @returns {number} Insertion point index, -1 if not found
+   */
+  findHeaderInsertionPoint(text, header, allHeaders) {
+    // Find the index of this header in the original list
+    const headerIndex = allHeaders.findIndex(h => h.title === header.title);
+    
+    if (headerIndex === -1) return -1;
+
+    // Look for content that might belong to this section
+    const lines = text.split('\n');
+    
+    // Try to find contextual clues based on header type
+    if (header.title.toLowerCase().includes('introduction')) {
+      // Introduction should be at the beginning
+      return 0;
+    }
+    
+    if (header.title.toLowerCase().includes('conclusion')) {
+      // Conclusion should be near the end
+      return Math.max(0, text.length - 100);
+    }
+    
+    if (header.title.toLowerCase().includes('chapter')) {
+      // For chapters, try to find content that might belong to this chapter
+      const chapterMatch = /chapter\s+(\d+)/i.exec(header.title);
+      if (chapterMatch) {
+        const chapterNum = parseInt(chapterMatch[1]);
+        
+        // Look for references to this chapter number in the text
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i].toLowerCase();
+          if (line.includes(`chapter ${chapterNum}`) || 
+              line.includes(`${chapterNum}.`) ||
+              line.includes(`${chapterNum}:`)) {
+            return text.indexOf(lines[i]);
+          }
+        }
+      }
+    }
+
+    // Default: insert at the beginning of a paragraph that seems relevant
+    return 0;
+  }
+
+  /**
+   * Escape special regex characters
+   * @param {string} string - String to escape
+   * @returns {string} Escaped string
+   */
+  escapeRegex(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 }
 
