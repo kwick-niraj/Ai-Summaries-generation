@@ -66,7 +66,7 @@ export class OptimizedTextSaver {
 
     // Add introduction
     if (sections.introduction) {
-      content += `# Introduction\n\n`;
+      content += `## Introduction\n\n`;
       content += `${sections.introduction.content}\n\n`;
     }
 
@@ -74,14 +74,14 @@ export class OptimizedTextSaver {
     if (sections.chapters && sections.chapters.length > 0) {
       sections.chapters.forEach((chapter, index) => {
         const chapterTitle = chapter.title || `Chapter ${chapter.number || index + 1}`;
-        content += `# ${chapterTitle}\n\n`;
+        content += `## ${chapterTitle}\n\n`;
         content += `${chapter.content}\n\n`;
       });
     }
 
     // Add conclusion
     if (sections.conclusion) {
-      content += `# Conclusion\n\n`;
+      content += `## Conclusion\n\n`;
       content += `${sections.conclusion.content}\n\n`;
     }
 
