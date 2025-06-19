@@ -5,6 +5,8 @@ import { TextOptimizer } from './textOptimizer.js';
 import { AudioGenerator } from './audioGenerator.js';
 import { OptimizedTextSaver } from './optimizedTextSaver.js';
 import { ChapterTimestampGenerator } from './chapterTimestampGenerator.js';
+import { AudioMerger } from './audioMerger.js';
+import { FormatConverter } from './formatConverter.js';
 
 /**
  * Main book processor that orchestrates the entire audio generation pipeline
@@ -16,6 +18,8 @@ export class BookProcessor {
     this.audioGenerator = new AudioGenerator();
     this.textSaver = new OptimizedTextSaver();
     this.timestampGenerator = new ChapterTimestampGenerator();
+    this.audioMerger = new AudioMerger();
+    this.formatConverter = new FormatConverter();
     
     this.config = {
       inputDir: options.inputDir || './FinalAllSummaries',
@@ -207,7 +211,7 @@ export class BookProcessor {
       // Step 7: Combine audio files if requested
       if (this.config.combineAudio && audioResults.successfulFiles > 0) {
         console.log('🔗 Combining audio files...');
-        const combinedResult = await this.combineBookAudio(audioResults, bookId, outputDir);
+        const combinedResult = await this.combineBookAudio(audioResults, result, bookId, outputDir);
         result.combinedAudio = combinedResult;
       }
 
@@ -312,49 +316,88 @@ export class BookProcessor {
   }
 
   /**
-   * Combine all audio files for a book
+   * Combine all audio files for a book with enhanced chapter alignment
    * @param {Object} audioResults - Audio generation results
+   * @param {Object} result - Book processing result object
    * @param {string} bookId - Book identifier
    * @param {string} outputDir - Output directory
    * @returns {Promise<Object>} Combination result
    */
-  async combineBookAudio(audioResults, bookId, outputDir) {
-    const audioFiles = [];
-    
-    // Collect all successful audio files in order
-    if (audioResults.sections.introduction?.files) {
-      audioFiles.push(...audioResults.sections.introduction.files
-        .filter(f => f.success)
-        .map(f => f.outputPath));
-    }
-    
-    if (audioResults.sections.chapters) {
-      for (const chapter of audioResults.sections.chapters) {
-        if (chapter.files) {
-          audioFiles.push(...chapter.files
-            .filter(f => f.success)
-            .map(f => f.outputPath));
+  async combineBookAudio(audioResults, result, bookId, outputDir) {
+    try {
+      // Get chapter metadata for precise alignment
+      const chapterMetadata = result?.chapterTimestamps?.chapterData;
+      
+      // Configure audio merger
+      this.audioMerger.config.outputFormat = this.config.format;
+      this.audioMerger.config.chapterGap = 1.5;
+      this.audioMerger.config.fadeIn = 0.2;
+      this.audioMerger.config.fadeOut = 0.2;
+      
+      // Use enhanced merger with chapter alignment
+      const mergeResult = await this.audioMerger.mergeBookAudio(
+        audioResults,
+        chapterMetadata,
+        bookId,
+        outputDir
+      );
+      
+      // If enhanced merge succeeds and we want M4A conversion
+      if (mergeResult.success && this.config.convertToM4A) {
+        console.log('🔄 Converting merged audio to M4A...');
+        
+        const conversionResult = await this.formatConverter.convertBookAudio(
+          mergeResult.outputPath,
+          chapterMetadata,
+          outputDir
+        );
+        
+        mergeResult.m4aConversion = conversionResult;
+      }
+      
+      return mergeResult;
+      
+    } catch (error) {
+      console.error(`❌ Enhanced audio merging failed, falling back to basic merge:`, error);
+      
+      // Fallback to basic merge
+      const audioFiles = [];
+      
+      // Collect all successful audio files in order
+      if (audioResults.sections.introduction?.files) {
+        audioFiles.push(...audioResults.sections.introduction.files
+          .filter(f => f.success)
+          .map(f => f.outputPath));
+      }
+      
+      if (audioResults.sections.chapters) {
+        for (const chapter of audioResults.sections.chapters) {
+          if (chapter.files) {
+            audioFiles.push(...chapter.files
+              .filter(f => f.success)
+              .map(f => f.outputPath));
+          }
         }
       }
-    }
-    
-    if (audioResults.sections.conclusion?.files) {
-      audioFiles.push(...audioResults.sections.conclusion.files
-        .filter(f => f.success)
-        .map(f => f.outputPath));
-    }
+      
+      if (audioResults.sections.conclusion?.files) {
+        audioFiles.push(...audioResults.sections.conclusion.files
+          .filter(f => f.success)
+          .map(f => f.outputPath));
+      }
 
-    if (audioFiles.length === 0) {
-      return { success: false, error: 'No audio files to combine' };
-    }
+      if (audioFiles.length === 0) {
+        return { success: false, error: 'No audio files to combine' };
+      }
 
-    const combinedPath = path.join(outputDir, `${bookId}_complete.${this.config.format}`);
-    
-    return await this.audioGenerator.combineAudioFiles(audioFiles, combinedPath, {
-      addSilence: 1.5, // 1.5 second pause between sections
-      fadeIn: 0.2,
-      fadeOut: 0.2
-    });
+      const combinedPath = path.join(outputDir, `${bookId}_complete.${this.config.format}`);
+      
+      return await this.audioGenerator.combineAudioFiles(audioFiles, combinedPath, {
+        addSilence: 1.5, // 1.5 second pause between sections
+        fadeIn: 0.2,
+        fadeOut: 0.2
+      });
+    }
   }
 
   /**
