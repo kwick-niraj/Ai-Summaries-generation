@@ -28,6 +28,11 @@ export const audioConfig = {
   optimizeText: true,       // Use AI to optimize text for audio
   generateSSML: false,      // Generate SSML markup (experimental)
   
+  // Enhanced Features
+  enableSSML: true,         // Enable SSML generation for expressive speech
+  intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
+  metadataDir: 'Meta of All Books DB', // Directory containing book metadata for voice selection
+  
   // Rate Limiting
   delayBetweenRequests: 1000,    // Milliseconds between TTS requests
   delayBetweenChapters: 2000,    // Milliseconds between chapters
@@ -89,6 +94,8 @@ export const processingPresets = {
   fast: {
     ...audioConfig,
     optimizeText: false,
+    enableSSML: false,
+    intelligentVoiceSelection: false,
     maxChunkLength: 3000,
     concurrency: 2,
     delayBetweenRequests: 500,
@@ -99,6 +106,8 @@ export const processingPresets = {
   balanced: {
     ...audioConfig,
     optimizeText: true,
+    enableSSML: true,
+    intelligentVoiceSelection: true,
     maxChunkLength: 4000,
     concurrency: 1,
     delayBetweenRequests: 1000,
@@ -109,6 +118,8 @@ export const processingPresets = {
   premium: {
     ...audioConfig,
     optimizeText: true,
+    enableSSML: true,
+    intelligentVoiceSelection: true,
     generateSSML: true,
     maxChunkLength: 3500,
     concurrency: 1,
@@ -123,7 +134,9 @@ export const processingPresets = {
     ...audioConfig,
     inputDir: './FinalAllSummaries',
     outputDir: './Audio/test_output',
-    optimizeText: false,
+    optimizeText: true,
+    enableSSML: true,
+    intelligentVoiceSelection: true,
     combineAudio: false,
     skipExisting: false,
     maxChunkLength: 2000,
@@ -215,8 +228,14 @@ export function printConfigSummary(config) {
   console.log(`🎵 Format: ${config.format}`);
   console.log(`📊 Concurrency: ${config.concurrency}`);
   console.log(`✨ Text Optimization: ${config.optimizeText ? 'Enabled' : 'Disabled'}`);
+  console.log(`🎵 SSML Generation: ${config.enableSSML ? 'Enabled' : 'Disabled'}`);
+  console.log(`🎭 Intelligent Voice Selection: ${config.intelligentVoiceSelection ? 'Enabled' : 'Disabled'}`);
   console.log(`🔗 Combine Audio: ${config.combineAudio ? 'Enabled' : 'Disabled'}`);
   console.log(`⏭️  Skip Existing: ${config.skipExisting ? 'Enabled' : 'Disabled'}`);
+  
+  if (config.intelligentVoiceSelection && config.metadataDir) {
+    console.log(`📚 Metadata Directory: ${config.metadataDir}`);
+  }
   
   if (config.audioQuality) {
     console.log(`🎧 Quality: ${config.audioQuality.bitrate} @ ${config.audioQuality.sampleRate}Hz`);

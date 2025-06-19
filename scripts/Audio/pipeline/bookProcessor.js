@@ -7,6 +7,7 @@ import { OptimizedTextSaver } from './optimizedTextSaver.js';
 import { ChapterTimestampGenerator } from './chapterTimestampGenerator.js';
 import { AudioMerger } from './audioMerger.js';
 import { FormatConverter } from './formatConverter.js';
+import { VoiceSelector } from './voiceSelector.js';
 
 /**
  * Main book processor that orchestrates the entire audio generation pipeline
@@ -20,18 +21,22 @@ export class BookProcessor {
     this.timestampGenerator = new ChapterTimestampGenerator();
     this.audioMerger = new AudioMerger();
     this.formatConverter = new FormatConverter();
+    this.voiceSelector = new VoiceSelector();
     
     this.config = {
       inputDir: options.inputDir || './FinalAllSummaries',
       outputDir: options.outputDir || 'scripts/Audio/output',
       logDir: options.logDir || 'scripts/Audio/logs',
-      voice: options.voice || 'nova',
+      metadataDir: options.metadataDir || 'Meta of All Books DB',
+      voice: options.voice || null, // Will be auto-selected if null
       speed: options.speed || 1.0,
       format: options.format || 'mp3',
       maxChunkLength: options.maxChunkLength || 4000,
       combineAudio: options.combineAudio !== false, // Default true
       skipExisting: options.skipExisting !== false, // Default true
       concurrency: options.concurrency || 1, // Process books one at a time by default
+      enableSSML: options.enableSSML !== false, // Default true
+      intelligentVoiceSelection: options.intelligentVoiceSelection !== false, // Default true
       ...options
     };
 
@@ -163,21 +168,31 @@ export class BookProcessor {
       console.log(`📊 Structure: ${summary.totalSections} sections, ${summary.totalWords} words`);
       console.log(`📈 Estimated chunks: ${summary.estimatedTotalChunks}`);
 
-      // Step 2: Optimize text for audio
-      console.log('✨ Optimizing text for audio...');
-      const optimizedSections = await this.optimizeBookSections(sections);
+      // Step 2: Select optimal voice for this book
+      let voiceConfig = null;
+      if (this.config.intelligentVoiceSelection) {
+        console.log('🎤 Selecting optimal voice...');
+        voiceConfig = await this.voiceSelector.selectVoiceForBook(bookId, this.config.metadataDir);
+        result.voiceSelection = voiceConfig;
+      }
 
-      // Step 3: Generate audio files
+      // Step 3: Optimize text for audio with SSML
+      console.log('✨ Optimizing text for audio...');
+      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig);
+
+      // Step 4: Generate audio files with selected voice and SSML
       console.log('🎵 Generating audio files...');
+      const selectedVoice = voiceConfig?.selectedVoice || this.config.voice || 'nova';
       const audioResults = await this.audioGenerator.generateBookAudio(
         optimizedSections,
         bookId,
         outputDir,
         {
-          voice: this.config.voice,
+          voice: selectedVoice,
           speed: this.config.speed,
           format: this.config.format,
-          maxChunkLength: this.config.maxChunkLength
+          maxChunkLength: this.config.maxChunkLength,
+          ssmlConfig: voiceConfig?.ssmlConfig
         }
       );
       
@@ -185,9 +200,9 @@ export class BookProcessor {
       result.stats.totalAudioFiles = audioResults.totalFiles;
       result.stats.totalDuration = audioResults.totalDuration;
 
-      // Step 4: Save optimized text
+      // Step 5: Save optimized text (including SSML if available)
       console.log('💾 Saving optimized text...');
-      const textSaveResult = await this.textSaver.saveOptimizedBook(optimizedSections, bookId, outputDir);
+      const textSaveResult = await this.textSaver.saveOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
       result.optimizedTextSaved = textSaveResult;
 
       // Step 5: Generate chapter timestamps
@@ -254,11 +269,12 @@ export class BookProcessor {
   }
 
   /**
-   * Optimize all sections of a book for audio
+   * Optimize all sections of a book for audio with SSML generation
    * @param {Object} sections - Book sections
-   * @returns {Promise<Object>} Optimized sections
+   * @param {Object} voiceConfig - Voice configuration from voice selector
+   * @returns {Promise<Object>} Optimized sections with SSML
    */
-  async optimizeBookSections(sections) {
+  async optimizeBookSections(sections, voiceConfig = null) {
     const optimized = {
       introduction: null,
       chapters: [],
@@ -271,9 +287,16 @@ export class BookProcessor {
         console.log('  📖 Optimizing introduction...');
         const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
         const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'introduction');
+        const optimizedText = optimizedChunks.join(' ');
+        
+        // Generate SSML if enabled
+        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+          ? this.optimizer.generateSSML(optimizedText, 'introduction', voiceConfig.ssmlConfig)
+          : optimizedText;
+        
         optimized.introduction = {
           ...sections.introduction,
-          content: optimizedChunks.join(' ')
+          content: finalContent
         };
       }
 
@@ -284,10 +307,16 @@ export class BookProcessor {
         for (const chapter of sections.chapters) {
           const chunks = this.parser.splitIntoChunks(chapter.content, 400);
           const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'chapter');
+          const optimizedText = optimizedChunks.join(' ');
+          
+          // Generate SSML if enabled
+          const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+            ? this.optimizer.generateSSML(optimizedText, 'chapter', voiceConfig.ssmlConfig)
+            : optimizedText;
           
           optimized.chapters.push({
             ...chapter,
-            content: optimizedChunks.join(' ')
+            content: finalContent
           });
           
           // Small delay between chapters
@@ -300,9 +329,16 @@ export class BookProcessor {
         console.log('  🎯 Optimizing conclusion...');
         const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
         const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'conclusion');
+        const optimizedText = optimizedChunks.join(' ');
+        
+        // Generate SSML if enabled
+        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+          ? this.optimizer.generateSSML(optimizedText, 'conclusion', voiceConfig.ssmlConfig)
+          : optimizedText;
+        
         optimized.conclusion = {
           ...sections.conclusion,
-          content: optimizedChunks.join(' ')
+          content: finalContent
         };
       }
 
@@ -620,6 +656,14 @@ export class BookProcessor {
           chapterCount: result.chapterTimestamps.chapterData?.navigation?.chapterCount || 0
         } : null
       },
+      voiceSelection: result.voiceSelection ? {
+        selectedVoice: result.voiceSelection.selectedVoice,
+        confidence: result.voiceSelection.confidence,
+        reasoning: result.voiceSelection.reasoning,
+        analysis: result.voiceSelection.analysis,
+        ssmlEnabled: this.config.enableSSML,
+        intelligentSelection: this.config.intelligentVoiceSelection
+      } : null,
       combinedAudio: result.combinedAudio,
       errors: result.errors,
       features: {
@@ -627,7 +671,10 @@ export class BookProcessor {
         chapterHeaderPreservation: true,
         enhancedChapterTimestamps: true,
         audioNavigationSupport: true,
-        seekingBarCompatible: true
+        seekingBarCompatible: true,
+        intelligentVoiceSelection: this.config.intelligentVoiceSelection,
+        ssmlGeneration: this.config.enableSSML,
+        expressiveAudio: this.config.enableSSML && result.voiceSelection
       }
     };
     

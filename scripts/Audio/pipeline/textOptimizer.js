@@ -198,41 +198,51 @@ Guidelines:
   }
 
   /**
-   * Generate SSML markup for OpenAI TTS
+   * Generate advanced SSML markup for OpenAI TTS with strategic breaks and emphasis
    * @param {string} text - Audio-ready text
    * @param {string} sectionType - Section type
-   * @param {Object} options - SSML options
+   * @param {Object} ssmlConfig - SSML configuration from voice selector
    * @returns {string} SSML formatted text
    */
-  generateSSML(text, sectionType = 'chapter', options = {}) {
-    const {
-      voice = 'nova',
-      speed = '1.0',
-      addPauses = true,
-      emphasizeTitle = true
-    } = options;
+  generateSSML(text, sectionType = 'chapter', ssmlConfig = {}) {
+    try {
+      // Validate and prepare text
+      if (!text || typeof text !== 'string') {
+        console.warn('Invalid text provided for SSML generation');
+        return text || '';
+      }
 
-    // Escape XML characters
-    const escapedText = this.escapeXML(text);
-    
-    // Add section-specific formatting
-    let formattedText = escapedText;
-    
-    if (addPauses) {
-      // Add pauses after sentences
-      formattedText = formattedText
-        .replace(/([.!?])\s+/g, '$1<break time="0.5s"/> ')
-        .replace(/([,;])\s+/g, '$1<break time="0.3s"/> ');
+      // Get section-specific settings
+      const sectionSettings = ssmlConfig.sectionSettings?.[sectionType] || {
+        rate: '1.0',
+        emphasis: 'moderate',
+        pauseAfter: '1.0s'
+      };
+
+      // Escape XML characters first
+      const escapedText = this.escapeXML(text.trim());
+      
+      // Apply content-aware SSML formatting
+      const formattedText = this.applyContentAwareSSML(
+        escapedText, 
+        sectionType, 
+        ssmlConfig
+      );
+
+      // Validate SSML before returning
+      const ssmlOutput = this.buildSSMLDocument(formattedText, sectionSettings);
+      
+      if (!this.validateSSML(ssmlOutput)) {
+        console.warn('SSML validation failed, returning plain text');
+        return text;
+      }
+
+      return ssmlOutput;
+
+    } catch (error) {
+      console.error('SSML generation failed:', error);
+      return text; // Fallback to plain text
     }
-
-    // Add section-specific intro pause
-    const introPause = this.getSectionIntroPause(sectionType);
-    
-    return `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
-${introPause}
-${formattedText}
-<break time="1s"/>
-</speak>`;
   }
 
   /**
@@ -550,6 +560,216 @@ ${formattedText}
    */
   escapeRegex(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  /**
+   * Apply content-aware SSML formatting with strategic breaks and emphasis
+   * @param {string} text - Escaped text
+   * @param {string} sectionType - Section type
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Formatted SSML content
+   */
+  applyContentAwareSSML(text, sectionType, ssmlConfig = {}) {
+    let formattedText = text;
+
+    // Apply section-specific formatting
+    switch (sectionType) {
+      case 'introduction':
+        formattedText = this.formatIntroductionSSML(formattedText, ssmlConfig);
+        break;
+      case 'chapter':
+        formattedText = this.formatChapterSSML(formattedText, ssmlConfig);
+        break;
+      case 'conclusion':
+        formattedText = this.formatConclusionSSML(formattedText, ssmlConfig);
+        break;
+      default:
+        formattedText = this.formatDefaultSSML(formattedText, ssmlConfig);
+    }
+
+    // Apply emphasis to key terms and concepts
+    formattedText = this.addKeyTermEmphasis(formattedText, ssmlConfig);
+    
+    // Add strategic paragraph breaks (minimal, only between major concepts)
+    formattedText = this.addStrategicBreaks(formattedText);
+
+    return formattedText;
+  }
+
+  /**
+   * Format introduction with welcoming tone and slower pace
+   * @param {string} text - Text to format
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Formatted introduction
+   */
+  formatIntroductionSSML(text, ssmlConfig) {
+    const settings = ssmlConfig.sectionSettings?.introduction || {};
+    const rate = settings.rate || '0.95';
+    
+    // Wrap introduction in prosody for welcoming tone
+    return `<prosody rate="${rate}" pitch="medium">
+${text}
+</prosody>`;
+  }
+
+  /**
+   * Format chapter with balanced pace and emphasis
+   * @param {string} text - Text to format
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Formatted chapter
+   */
+  formatChapterSSML(text, ssmlConfig) {
+    const settings = ssmlConfig.sectionSettings?.chapter || {};
+    const rate = settings.rate || '1.0';
+    
+    // Apply balanced formatting for chapters
+    return `<prosody rate="${rate}" pitch="medium">
+${text}
+</prosody>`;
+  }
+
+  /**
+   * Format conclusion with authoritative, inspiring tone
+   * @param {string} text - Text to format
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Formatted conclusion
+   */
+  formatConclusionSSML(text, ssmlConfig) {
+    const settings = ssmlConfig.sectionSettings?.conclusion || {};
+    const rate = settings.rate || '0.98';
+    
+    // Slightly slower and more emphatic for conclusions
+    return `<prosody rate="${rate}" pitch="medium">
+${text}
+</prosody>`;
+  }
+
+  /**
+   * Format default content with standard settings
+   * @param {string} text - Text to format
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Formatted content
+   */
+  formatDefaultSSML(text, ssmlConfig) {
+    const rate = ssmlConfig.baseSettings?.rate || '1.0';
+    
+    return `<prosody rate="${rate}" pitch="medium">
+${text}
+</prosody>`;
+  }
+
+  /**
+   * Add emphasis to key terms and concepts
+   * @param {string} text - Text to process
+   * @param {Object} ssmlConfig - SSML configuration
+   * @returns {string} Text with emphasis added
+   */
+  addKeyTermEmphasis(text, ssmlConfig) {
+    const emphasisSettings = ssmlConfig.emphasisSettings?.keyTerms || {};
+    const emphasisLevel = emphasisSettings.level || 'moderate';
+
+    // Key financial and business terms that should be emphasized
+    const keyTerms = [
+      'assets', 'liabilities', 'cash flow', 'passive income', 'financial freedom',
+      'investment', 'entrepreneur', 'mindset', 'wealth building', 'financial education',
+      'rich dad', 'poor dad', 'financial literacy', 'money management', 'business owner',
+      'employee', 'self-employed', 'investor', 'quadrant', 'leverage'
+    ];
+
+    let processedText = text;
+
+    // Add emphasis to key terms (but not too many to avoid over-emphasis)
+    keyTerms.forEach(term => {
+      const regex = new RegExp(`\\b(${term})\\b`, 'gi');
+      processedText = processedText.replace(regex, (match) => {
+        // Only emphasize if not already in SSML tags
+        if (processedText.indexOf(`<emphasis`) > -1 && 
+            processedText.indexOf(match) > processedText.lastIndexOf(`<emphasis`)) {
+          return match; // Already emphasized
+        }
+        return `<emphasis level="${emphasisLevel}">${match}</emphasis>`;
+      });
+    });
+
+    return processedText;
+  }
+
+  /**
+   * Add strategic breaks only between major concepts/paragraphs
+   * @param {string} text - Text to process
+   * @returns {string} Text with strategic breaks
+   */
+  addStrategicBreaks(text) {
+    // Only add breaks between paragraphs (double newlines) and after major statements
+    let processedText = text;
+
+    // Add breaks between paragraphs (major concept transitions)
+    processedText = processedText.replace(/\n\n+/g, '\n<break time="1.2s"/>\n');
+    
+    // Add strategic breaks after key statements (but minimal)
+    const keyStatementPatterns = [
+      /(\. This is (?:the )?(?:key|important|crucial|fundamental))/gi,
+      /(\. (?:Remember|Understand|The point is))/gi,
+      /(\. Here's (?:the|what|why))/gi
+    ];
+
+    keyStatementPatterns.forEach(pattern => {
+      processedText = processedText.replace(pattern, '$1<break time="0.8s"/>');
+    });
+
+    return processedText;
+  }
+
+  /**
+   * Build complete SSML document with proper structure
+   * @param {string} content - Formatted SSML content
+   * @param {Object} sectionSettings - Section-specific settings
+   * @returns {string} Complete SSML document
+   */
+  buildSSMLDocument(content, sectionSettings) {
+    const pauseAfter = sectionSettings.pauseAfter || '1.0s';
+    
+    return `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+${content}
+<break time="${pauseAfter}"/>
+</speak>`;
+  }
+
+  /**
+   * Validate SSML structure and syntax
+   * @param {string} ssml - SSML to validate
+   * @returns {boolean} Whether SSML is valid
+   */
+  validateSSML(ssml) {
+    try {
+      // Basic validation checks
+      if (!ssml.includes('<speak') || !ssml.includes('</speak>')) {
+        return false;
+      }
+
+      // Check for balanced tags
+      const openTags = (ssml.match(/<[^/][^>]*>/g) || []).length;
+      const closeTags = (ssml.match(/<\/[^>]*>/g) || []).length;
+      const selfClosingTags = (ssml.match(/<[^>]*\/>/g) || []).length;
+      
+      // Should have balanced tags (accounting for self-closing tags)
+      if (openTags - selfClosingTags !== closeTags) {
+        console.warn('SSML validation failed: unbalanced tags');
+        return false;
+      }
+
+      // Check for invalid characters that might cause TTS to speak the tags
+      if (ssml.includes('&lt;') || ssml.includes('&gt;')) {
+        console.warn('SSML validation failed: double-escaped characters');
+        return false;
+      }
+
+      return true;
+
+    } catch (error) {
+      console.error('SSML validation error:', error);
+      return false;
+    }
   }
 }
 

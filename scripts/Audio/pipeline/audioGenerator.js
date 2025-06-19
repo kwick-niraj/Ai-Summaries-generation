@@ -29,8 +29,8 @@ export class AudioGenerator {
   }
 
   /**
-   * Generate TTS audio for a single text chunk
-   * @param {string} text - Text to convert to speech
+   * Generate TTS audio for a single text chunk with SSML support
+   * @param {string} text - Text or SSML to convert to speech
    * @param {string} outputPath - Path to save the audio file
    * @param {Object} options - TTS options
    * @returns {Promise<Object>} Generation result
@@ -45,15 +45,21 @@ export class AudioGenerator {
       'api-key': this.azureKey
     };
 
+    // Determine if input is SSML or plain text
+    const isSSML = this.isSSMLInput(text);
+    const inputText = isSSML ? text : text;
+
     const body = {
-      input: text,
+      input: inputText,
       voice: settings.voice,
       response_format: settings.format,
       speed: settings.speed
     };
 
     try {
-      console.log(`🎵 Generating TTS for: ${path.basename(outputPath)}`);
+      const voiceInfo = settings.voice ? ` (${settings.voice})` : '';
+      const ssmlInfo = isSSML ? ' [SSML]' : '';
+      console.log(`🎵 Generating TTS for: ${path.basename(outputPath)}${voiceInfo}${ssmlInfo}`);
       
       const response = await axios.post(url, body, {
         headers,
@@ -76,17 +82,62 @@ export class AudioGenerator {
         success: true,
         outputPath,
         fileSize: stats.size,
-        duration: await this.getAudioDuration(outputPath)
+        duration: await this.getAudioDuration(outputPath),
+        isSSML,
+        voice: settings.voice
       };
       
     } catch (error) {
       console.error(`❌ TTS generation failed for ${outputPath}:`, error?.response?.data || error.message);
       
+      // If SSML failed, try with plain text as fallback
+      if (isSSML && !options.isRetry) {
+        console.log(`🔄 SSML failed, retrying with plain text...`);
+        const plainText = this.extractTextFromSSML(text);
+        return await this.generateTTS(plainText, outputPath, { ...options, isRetry: true });
+      }
+      
       return {
         success: false,
         error: error.message,
-        outputPath
+        outputPath,
+        isSSML,
+        voice: settings.voice
       };
+    }
+  }
+
+  /**
+   * Check if input text is SSML
+   * @param {string} text - Input text
+   * @returns {boolean} Whether text is SSML
+   */
+  isSSMLInput(text) {
+    return text && text.includes('<speak') && text.includes('</speak>');
+  }
+
+  /**
+   * Extract plain text from SSML for fallback
+   * @param {string} ssml - SSML text
+   * @returns {string} Plain text
+   */
+  extractTextFromSSML(ssml) {
+    try {
+      // Remove all SSML tags but keep the text content
+      return ssml
+        .replace(/<speak[^>]*>/gi, '')
+        .replace(/<\/speak>/gi, '')
+        .replace(/<prosody[^>]*>/gi, '')
+        .replace(/<\/prosody>/gi, '')
+        .replace(/<emphasis[^>]*>/gi, '')
+        .replace(/<\/emphasis>/gi, '')
+        .replace(/<break[^>]*\/>/gi, ' ')
+        .replace(/<[^>]*>/g, '') // Remove any remaining tags
+        .replace(/\s+/g, ' ')
+        .trim();
+    } catch (error) {
+      console.warn('Failed to extract text from SSML:', error);
+      return ssml;
     }
   }
 
