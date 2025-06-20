@@ -27,7 +27,7 @@ export class BookProcessor {
       inputDir: options.inputDir || './FinalAllSummaries',
       outputDir: options.outputDir || 'scripts/Audio/output',
       logDir: options.logDir || 'scripts/Audio/logs',
-      metadataDir: options.metadataDir || 'Meta of All Books DB',
+      metadataDir: options.metadataDir || '../Meta of All Books DB',
       voice: options.voice || null, // Will be auto-selected if null
       speed: options.speed || 1.0,
       format: options.format || 'mp3',
