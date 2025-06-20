@@ -33,6 +33,23 @@ export const audioConfig = {
   intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
   metadataDir: 'Meta of All Books DB', // Directory containing book metadata for voice selection
   
+  // Voice Selection Provider Configuration
+  voiceSelection: {
+    provider: 'azure',       // Options: 'azure', 'ollama', 'rule-based'
+    fallbackProvider: 'rule-based', // Fallback if primary provider fails
+    azure: {
+      endpoint: process.env.AZURE_OPENAI_ENDPOINT,
+      apiKey: process.env.AZURE_OPENAI_KEY,
+      deploymentId: process.env.AZURE_OPENAI_CHAT_DEPLOYMENT_ID,
+      apiVersion: '2024-02-15-preview'
+    },
+    ollama: {
+      endpoint: process.env.OLLAMA_ENDPOINT || 'http://localhost:11434',
+      model: process.env.OLLAMA_MODEL || 'llama2',
+      timeout: 30000
+    }
+  },
+  
   // Rate Limiting
   delayBetweenRequests: 1000,    // Milliseconds between TTS requests
   delayBetweenChapters: 2000,    // Milliseconds between chapters

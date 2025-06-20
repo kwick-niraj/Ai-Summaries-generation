@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-06-19T22:52:52.266Z",
+  "event": "batch_start",
+  "config": {
+    "inputDir": "./FinalAllSummaries",
+    "outputDir": "./Audio/output",
+    "logDir": "./Audio/logs",
+    "metadataDir": "Meta of All Books DB",
+    "voice": "nova",
+    "speed": 1,
+    "format": "wav",
+    "maxChunkLength": 4000,
+    "combineAudio": true,
+    "skipExisting": true,
+    "concurrency": 1,
+    "enableSSML": false,
+    "intelligentVoiceSelection": true,
+    "maxWordsPerChunk": 400,
+    "addSilenceBetweenSections": 1.5,
+    "fadeIn": 0.2,
+    "fadeOut": 0.2,
+    "optimizeText": true,
+    "generateSSML": false,
+    "voiceSelection": {
+      "provider": "azure",
+      "fallbackProvider": "rule-based",
+      "azure": {
+        "endpoint": "https://kwickin.openai.azure.com",
+        "deploymentId": "gpt-4.1",
+        "apiVersion": "2024-02-15-preview"
+      },
+      "ollama": {
+        "endpoint": "http://localhost:11434",
+        "model": "llama2",
+        "timeout": 30000
+      }
+    },
+    "delayBetweenRequests": 1000,
+    "delayBetweenChapters": 2000,
+    "delayBetweenBooks": 5000,
+    "batchOptimizationConcurrency": 3,
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "continueOnError": true,
+    "verboseLogging": true,
+    "saveProcessingReports": true,
+    "audioQuality": {
+      "bitrate": "128k",
+      "sampleRate": 22050,
+      "channels": 1
+    }
+  },
+  "totalBooks": 1928
+}
