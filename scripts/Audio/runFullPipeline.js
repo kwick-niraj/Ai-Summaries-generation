@@ -21,6 +21,7 @@ async function main() {
 
     // Get configuration
     const config = getConfig(options.preset || 'balanced');
+    console.log('Config', config);
     
     // Apply command line overrides
     if (options.voice) config.voice = options.voice;

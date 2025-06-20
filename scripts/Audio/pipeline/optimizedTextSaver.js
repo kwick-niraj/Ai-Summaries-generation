@@ -66,6 +66,87 @@ export class OptimizedTextSaver {
   }
 
   /**
+   * Save both audio and reading optimized versions
+   * @param {Object} dualTrackSections - Object with audio and reading versions
+   * @param {string} bookId - Book identifier
+   * @param {string} outputDir - Base output directory
+   * @param {Object} voiceConfig - Voice configuration (optional)
+   * @returns {Promise<Object>} Save result
+   */
+  async saveDualTrackOptimizedBook(dualTrackSections, bookId, outputDir, voiceConfig = null) {
+    try {
+      console.log(`💾 Saving dual-track optimized text for book ${bookId}...`);
+      
+      // Create optimized text directory
+      const optimizedDir = path.join(outputDir, this.outputSubDir);
+      if (!fs.existsSync(optimizedDir)) {
+        fs.mkdirSync(optimizedDir, { recursive: true });
+      }
+
+      const results = {
+        success: true,
+        reading: null,
+        audio: null
+      };
+
+      // Save reading version (formal, structured)
+      if (dualTrackSections.reading) {
+        const readingContent = this.generateMarkdownContent(dualTrackSections.reading, bookId);
+        const readingPath = path.join(optimizedDir, `${bookId}.md`);
+        fs.writeFileSync(readingPath, readingContent, 'utf-8');
+        
+        const readingStats = fs.statSync(readingPath);
+        results.reading = {
+          outputPath: readingPath,
+          fileSize: readingStats.size,
+          wordCount: this.countWords(readingContent),
+          type: 'reading'
+        };
+        
+        console.log(`✅ Reading version saved: ${readingPath} (${(readingStats.size / 1024).toFixed(1)} KB)`);
+      }
+
+      // Save audio version (conversational, podcast-style)
+      if (dualTrackSections.audio) {
+        const audioContent = this.generateAudioMarkdownContent(dualTrackSections.audio, bookId);
+        const audioPath = path.join(optimizedDir, `${bookId}_audio.md`);
+        fs.writeFileSync(audioPath, audioContent, 'utf-8');
+        
+        const audioStats = fs.statSync(audioPath);
+        results.audio = {
+          outputPath: audioPath,
+          fileSize: audioStats.size,
+          wordCount: this.countWords(audioContent),
+          type: 'audio'
+        };
+        
+        console.log(`🎧 Audio version saved: ${audioPath} (${(audioStats.size / 1024).toFixed(1)} KB)`);
+      }
+
+      // Save SSML versions if available
+      if (voiceConfig && dualTrackSections.audio && this.hasSSMLContent(dualTrackSections.audio)) {
+        console.log(`🎵 Saving SSML versions for book ${bookId}...`);
+        const ssmlResult = await this.saveSSMLBook(dualTrackSections.audio, bookId, outputDir, voiceConfig);
+        results.ssmlSaved = ssmlResult;
+      }
+
+      // Set primary result to reading version for backward compatibility
+      results.outputPath = results.reading?.outputPath;
+      results.fileSize = results.reading?.fileSize;
+      results.wordCount = results.reading?.wordCount;
+      
+      return results;
+      
+    } catch (error) {
+      console.error(`❌ Failed to save dual-track optimized text for ${bookId}:`, error);
+      return {
+        success: false,
+        error: error.message
+      };
+    }
+  }
+
+  /**
    * Save SSML versions of optimized sections
    * @param {Object} optimizedSections - Optimized book sections (may contain SSML)
    * @param {string} bookId - Book identifier
@@ -178,26 +259,175 @@ export class OptimizedTextSaver {
 
     // Add introduction
     if (sections.introduction) {
-      content += `## Introduction\n\n`;
-      content += `${sections.introduction.content}\n\n`;
+      // Check if content already starts with "Introduction" header
+      const introContent = sections.introduction.content;
+      if (this.contentStartsWithHeader(introContent, 'introduction')) {
+        content += `${introContent}\n\n`;
+      } else {
+        content += `## Introduction\n\n`;
+        content += `${introContent}\n\n`;
+      }
     }
 
     // Add chapters
     if (sections.chapters && sections.chapters.length > 0) {
       sections.chapters.forEach((chapter, index) => {
         const chapterTitle = chapter.title || `Chapter ${chapter.number || index + 1}`;
-        content += `## ${chapterTitle}\n\n`;
-        content += `${chapter.content}\n\n`;
+        const chapterContent = chapter.content;
+        
+        // Check if content already starts with the chapter title
+        if (this.contentStartsWithChapterHeader(chapterContent, chapterTitle)) {
+          content += `${chapterContent}\n\n`;
+        } else {
+          content += `## ${chapterTitle}\n\n`;
+          content += `${chapterContent}\n\n`;
+        }
       });
     }
 
     // Add conclusion
     if (sections.conclusion) {
-      content += `## Conclusion\n\n`;
-      content += `${sections.conclusion.content}\n\n`;
+      // Check if content already starts with "Conclusion" header
+      const conclusionContent = sections.conclusion.content;
+      if (this.contentStartsWithHeader(conclusionContent, 'conclusion')) {
+        content += `${conclusionContent}\n\n`;
+      } else {
+        content += `## Conclusion\n\n`;
+        content += `${conclusionContent}\n\n`;
+      }
     }
 
     return content.trim();
+  }
+
+  /**
+   * Generate audio-optimized markdown content (includes SSML and conversational text)
+   * @param {Object} sections - Audio-optimized sections
+   * @param {string} bookId - Book identifier
+   * @returns {string} Audio markdown content
+   */
+  generateAudioMarkdownContent(sections, bookId) {
+    let content = `# Audio Script for Book ${bookId}\n\n`;
+    content += `*This is the conversational, audio-optimized version used for TTS generation.*\n\n`;
+    content += `---\n\n`;
+
+    // Add introduction
+    if (sections.introduction) {
+      content += `## Audio Introduction\n\n`;
+      const introContent = this.cleanSSMLForDisplay(sections.introduction.content);
+      content += `${introContent}\n\n`;
+    }
+
+    // Add chapters
+    if (sections.chapters && sections.chapters.length > 0) {
+      sections.chapters.forEach((chapter, index) => {
+        const chapterTitle = chapter.title || `Chapter ${chapter.number || index + 1}`;
+        content += `## Audio ${chapterTitle}\n\n`;
+        const chapterContent = this.cleanSSMLForDisplay(chapter.content);
+        content += `${chapterContent}\n\n`;
+      });
+    }
+
+    // Add conclusion
+    if (sections.conclusion) {
+      content += `## Audio Conclusion\n\n`;
+      const conclusionContent = this.cleanSSMLForDisplay(sections.conclusion.content);
+      content += `${conclusionContent}\n\n`;
+    }
+
+    content += `---\n\n`;
+    content += `*Generated: ${new Date().toISOString()}*\n`;
+    content += `*Type: Audio-optimized conversational script*\n`;
+
+    return content.trim();
+  }
+
+  /**
+   * Clean SSML tags for display in markdown while preserving readability
+   * @param {string} content - Content that may contain SSML
+   * @returns {string} Cleaned content for display
+   */
+  cleanSSMLForDisplay(content) {
+    if (!content) return '';
+
+    // If it's SSML content, extract the text but preserve some formatting cues
+    if (this.isSSMLContent(content)) {
+      return content
+        .replace(/<speak[^>]*>/gi, '')
+        .replace(/<\/speak>/gi, '')
+        .replace(/<prosody[^>]*>/gi, '')
+        .replace(/<\/prosody>/gi, '')
+        .replace(/<emphasis[^>]*>/gi, '**')
+        .replace(/<\/emphasis>/gi, '**')
+        .replace(/<break\s+time="([^"]*)"[^>]*\/>/gi, ' *(pause $1)* ')
+        .replace(/<break[^>]*\/>/gi, ' *(pause)* ')
+        .replace(/<[^>]*>/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    // Return regular content as-is
+    return content;
+  }
+
+  /**
+   * Check if content already starts with a specific header
+   * @param {string} content - Content to check
+   * @param {string} headerType - Type of header (introduction, conclusion)
+   * @returns {boolean} Whether content starts with the header
+   */
+  contentStartsWithHeader(content, headerType) {
+    if (!content || typeof content !== 'string') return false;
+    
+    const trimmedContent = content.trim();
+    const headerPattern = new RegExp(`^#{1,6}\\s*${headerType}`, 'i');
+    
+    return headerPattern.test(trimmedContent);
+  }
+
+  /**
+   * Check if content already starts with a chapter header
+   * @param {string} content - Content to check
+   * @param {string} chapterTitle - Expected chapter title
+   * @returns {boolean} Whether content starts with the chapter header
+   */
+  contentStartsWithChapterHeader(content, chapterTitle) {
+    if (!content || typeof content !== 'string' || !chapterTitle) return false;
+    
+    const trimmedContent = content.trim();
+    
+    // Check for markdown header format
+    const markdownHeaderPattern = new RegExp(`^#{1,6}\\s*${this.escapeRegex(chapterTitle)}`, 'i');
+    if (markdownHeaderPattern.test(trimmedContent)) {
+      return true;
+    }
+    
+    // Check for plain text chapter title at the beginning
+    const plainTitlePattern = new RegExp(`^${this.escapeRegex(chapterTitle)}\\s*\n`, 'i');
+    if (plainTitlePattern.test(trimmedContent)) {
+      return true;
+    }
+    
+    // Check for chapter number patterns
+    const chapterMatch = /chapter\s+(\d+)/i.exec(chapterTitle);
+    if (chapterMatch) {
+      const chapterNum = chapterMatch[1];
+      const chapterNumPattern = new RegExp(`^(#{1,6}\\s*)?chapter\\s+${chapterNum}`, 'i');
+      if (chapterNumPattern.test(trimmedContent)) {
+        return true;
+      }
+    }
+    
+    return false;
+  }
+
+  /**
+   * Escape special regex characters
+   * @param {string} string - String to escape
+   * @returns {string} Escaped string
+   */
+  escapeRegex(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   /**

@@ -8,6 +8,7 @@ import { ChapterTimestampGenerator } from './chapterTimestampGenerator.js';
 import { AudioMerger } from './audioMerger.js';
 import { FormatConverter } from './formatConverter.js';
 import { VoiceSelector } from './voiceSelector.js';
+import { TextCacheManager } from './textCacheManager.js';
 
 /**
  * Main book processor that orchestrates the entire audio generation pipeline
@@ -31,7 +32,7 @@ export class BookProcessor {
       voice: options.voice || null, // Will be auto-selected if null
       speed: options.speed || 1.0,
       format: options.format || 'mp3',
-      maxChunkLength: options.maxChunkLength || 4000,
+      maxChunkLength: options.maxChunkLength || 3000,
       combineAudio: options.combineAudio !== false, // Default true
       skipExisting: options.skipExisting !== false, // Default true
       concurrency: options.concurrency || 1, // Process books one at a time by default
@@ -39,6 +40,9 @@ export class BookProcessor {
       intelligentVoiceSelection: options.intelligentVoiceSelection !== false, // Default true
       ...options
     };
+
+    // Initialize text cache manager with configuration
+    this.cacheManager = new TextCacheManager(this.config);
 
     this.stats = {
       totalBooks: 0,
@@ -176,15 +180,15 @@ export class BookProcessor {
         result.voiceSelection = voiceConfig;
       }
 
-      // Step 3: Optimize text for audio with SSML
-      console.log('✨ Optimizing text for audio...');
-      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig);
+      // Step 3: Optimize text with dual-track processing (audio + reading)
+      console.log('✨ Dual-track optimizing text for audio and reading...');
+      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath);
 
-      // Step 4: Generate audio files with selected voice and SSML
+      // Step 4: Generate audio files with selected voice and SSML (using audio version)
       console.log('🎵 Generating audio files...');
       const selectedVoice = voiceConfig?.selectedVoice || this.config.voice || 'nova';
       const audioResults = await this.audioGenerator.generateBookAudio(
-        optimizedSections,
+        optimizedSections.audio,
         bookId,
         outputDir,
         {
@@ -200,10 +204,13 @@ export class BookProcessor {
       result.stats.totalAudioFiles = audioResults.totalFiles;
       result.stats.totalDuration = audioResults.totalDuration;
 
-      // Step 5: Save optimized text (including SSML if available)
-      console.log('💾 Saving optimized text...');
-      const textSaveResult = await this.textSaver.saveOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
+      // Step 5: Save both audio and reading optimized text versions
+      console.log('💾 Saving dual-track optimized text...');
+      const textSaveResult = await this.textSaver.saveDualTrackOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
       result.optimizedTextSaved = textSaveResult;
+
+      // Store both versions in result for reference
+      result.optimizedSections = optimizedSections;
 
       // Step 5: Generate chapter timestamps
       console.log('⏱️  Generating chapter timestamps...');
@@ -269,13 +276,74 @@ export class BookProcessor {
   }
 
   /**
-   * Optimize all sections of a book for audio with SSML generation
+   * Optimize all sections of a book with dual-track processing (audio + reading)
+   * Uses intelligent caching to avoid re-optimization when possible
    * @param {Object} sections - Book sections
    * @param {Object} voiceConfig - Voice configuration from voice selector
-   * @returns {Promise<Object>} Optimized sections with SSML
+   * @param {string} bookId - Book identifier for caching
+   * @param {string} outputDir - Output directory for caching
+   * @param {string} inputPath - Input file path for cache freshness check
+   * @returns {Promise<Object>} Optimized sections with both audio and reading versions
    */
-  async optimizeBookSections(sections, voiceConfig = null) {
-    const optimized = {
+  async optimizeBookSections(sections, voiceConfig = null, bookId = null, outputDir = null, inputPath = null) {
+    // Step 1: Check cache first
+    if (bookId && outputDir) {
+      console.log('💾 Checking optimized text cache...');
+      const cacheCheck = await this.cacheManager.checkCache(bookId, outputDir, inputPath);
+      
+      if (cacheCheck.valid) {
+        // Load cached optimized text
+        const cachedResult = await this.cacheManager.loadCachedText(bookId, outputDir);
+        
+        if (cachedResult.success) {
+          // Handle partial cache (missing one version)
+          if (cachedResult.partialCache) {
+            console.log(`⚠️  Partial cache found for ${bookId}, generating missing versions: ${cachedResult.missingVersions.join(', ')}`);
+            
+            // Generate missing versions
+            const missingOptimized = await this.generateMissingOptimizedVersions(
+              sections, 
+              cachedResult, 
+              voiceConfig
+            );
+            
+            return {
+              audio: missingOptimized.audio || cachedResult.audio,
+              reading: missingOptimized.reading || cachedResult.reading,
+              loadedFrom: 'partial_cache',
+              cacheInfo: cacheCheck
+            };
+          }
+          
+          // Full cache hit - apply SSML if needed
+          if (cachedResult.audio && this.config.enableSSML && voiceConfig?.ssmlConfig) {
+            console.log('🎵 Applying SSML to cached audio content...');
+            cachedResult.audio = this.applySSMLToSections(cachedResult.audio, voiceConfig);
+          }
+          
+          return {
+            audio: cachedResult.audio,
+            reading: cachedResult.reading,
+            loadedFrom: 'cache',
+            cacheInfo: cacheCheck
+          };
+        }
+      }
+      
+      // Cache miss - log reason
+      console.log(`💾 Cache miss: ${cacheCheck.reason}`);
+    }
+
+    // Step 2: Perform fresh optimization
+    console.log('✨ Performing fresh dual-track optimization...');
+    
+    const optimizedAudio = {
+      introduction: null,
+      chapters: [],
+      conclusion: null
+    };
+
+    const optimizedReading = {
       introduction: null,
       chapters: [],
       conclusion: null
@@ -284,39 +352,71 @@ export class BookProcessor {
     try {
       // Optimize introduction
       if (sections.introduction) {
-        console.log('  📖 Optimizing introduction...');
+        console.log('  📖 Dual-track optimizing introduction...');
         const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
-        const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'introduction');
-        const optimizedText = optimizedChunks.join(' ');
         
-        // Generate SSML if enabled
-        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-          ? this.optimizer.generateSSML(optimizedText, 'introduction', voiceConfig.ssmlConfig)
-          : optimizedText;
+        // Process chunks for both audio and reading
+        const audioChunks = [];
+        const readingChunks = [];
         
-        optimized.introduction = {
+        for (const chunk of chunks) {
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'introduction');
+          audioChunks.push(dualResult.audio);
+          readingChunks.push(dualResult.reading);
+        }
+        
+        const audioText = audioChunks.join(' ');
+        const readingText = readingChunks.join(' ');
+        
+        // Generate SSML for audio version if enabled
+        const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+          ? this.optimizer.generateSSML(audioText, 'introduction', voiceConfig.ssmlConfig)
+          : audioText;
+        
+        optimizedAudio.introduction = {
           ...sections.introduction,
-          content: finalContent
+          content: finalAudioContent
+        };
+
+        optimizedReading.introduction = {
+          ...sections.introduction,
+          content: readingText
         };
       }
 
       // Optimize chapters
       if (sections.chapters && sections.chapters.length > 0) {
-        console.log(`  📚 Optimizing ${sections.chapters.length} chapters...`);
+        console.log(`  📚 Dual-track optimizing ${sections.chapters.length} chapters...`);
         
         for (const chapter of sections.chapters) {
           const chunks = this.parser.splitIntoChunks(chapter.content, 400);
-          const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'chapter');
-          const optimizedText = optimizedChunks.join(' ');
           
-          // Generate SSML if enabled
-          const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-            ? this.optimizer.generateSSML(optimizedText, 'chapter', voiceConfig.ssmlConfig)
-            : optimizedText;
+          // Process chunks for both audio and reading
+          const audioChunks = [];
+          const readingChunks = [];
           
-          optimized.chapters.push({
+          for (const chunk of chunks) {
+            const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'chapter');
+            audioChunks.push(dualResult.audio);
+            readingChunks.push(dualResult.reading);
+          }
+          
+          const audioText = audioChunks.join(' ');
+          const readingText = readingChunks.join(' ');
+          
+          // Generate SSML for audio version if enabled
+          const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+            ? this.optimizer.generateSSML(audioText, 'chapter', voiceConfig.ssmlConfig)
+            : audioText;
+          
+          optimizedAudio.chapters.push({
             ...chapter,
-            content: finalContent
+            content: finalAudioContent
+          });
+
+          optimizedReading.chapters.push({
+            ...chapter,
+            content: readingText
           });
           
           // Small delay between chapters
@@ -326,29 +426,267 @@ export class BookProcessor {
 
       // Optimize conclusion
       if (sections.conclusion) {
-        console.log('  🎯 Optimizing conclusion...');
+        console.log('  🎯 Dual-track optimizing conclusion...');
         const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
-        const optimizedChunks = await this.optimizer.batchOptimize(chunks, 'conclusion');
-        const optimizedText = optimizedChunks.join(' ');
         
-        // Generate SSML if enabled
-        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-          ? this.optimizer.generateSSML(optimizedText, 'conclusion', voiceConfig.ssmlConfig)
-          : optimizedText;
+        // Process chunks for both audio and reading
+        const audioChunks = [];
+        const readingChunks = [];
         
-        optimized.conclusion = {
+        for (const chunk of chunks) {
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'conclusion');
+          audioChunks.push(dualResult.audio);
+          readingChunks.push(dualResult.reading);
+        }
+        
+        const audioText = audioChunks.join(' ');
+        const readingText = readingChunks.join(' ');
+        
+        // Generate SSML for audio version if enabled
+        const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+          ? this.optimizer.generateSSML(audioText, 'conclusion', voiceConfig.ssmlConfig)
+          : audioText;
+        
+        optimizedAudio.conclusion = {
           ...sections.conclusion,
-          content: finalContent
+          content: finalAudioContent
+        };
+
+        optimizedReading.conclusion = {
+          ...sections.conclusion,
+          content: readingText
         };
       }
 
-      return optimized;
+      // Return both versions
+      return {
+        audio: optimizedAudio,
+        reading: optimizedReading,
+        loadedFrom: 'fresh_optimization'
+      };
 
     } catch (error) {
-      console.error('Text optimization failed:', error);
-      // Return original sections as fallback
-      return sections;
+      console.error('Dual-track optimization failed:', error);
+      // Return original sections as fallback for both tracks
+      return {
+        audio: sections,
+        reading: sections,
+        loadedFrom: 'fallback_original'
+      };
     }
+  }
+
+  /**
+   * Generate missing optimized versions when partial cache is found
+   * @param {Object} originalSections - Original sections
+   * @param {Object} cachedResult - Cached result with partial data
+   * @param {Object} voiceConfig - Voice configuration
+   * @returns {Promise<Object>} Missing optimized versions
+   */
+  async generateMissingOptimizedVersions(originalSections, cachedResult, voiceConfig) {
+    const result = {
+      audio: null,
+      reading: null
+    };
+
+    try {
+      // Generate missing audio version
+      if (cachedResult.missingVersions.includes('audio')) {
+        console.log('  🎧 Generating missing audio version...');
+        result.audio = await this.generateAudioOptimizedSections(originalSections, voiceConfig);
+      }
+
+      // Generate missing reading version
+      if (cachedResult.missingVersions.includes('reading')) {
+        console.log('  📖 Generating missing reading version...');
+        result.reading = await this.generateReadingOptimizedSections(originalSections);
+      }
+
+      return result;
+
+    } catch (error) {
+      console.error('Failed to generate missing optimized versions:', error);
+      return result;
+    }
+  }
+
+  /**
+   * Generate audio-optimized sections
+   * @param {Object} sections - Original sections
+   * @param {Object} voiceConfig - Voice configuration
+   * @returns {Promise<Object>} Audio-optimized sections
+   */
+  async generateAudioOptimizedSections(sections, voiceConfig) {
+    const optimized = {
+      introduction: null,
+      chapters: [],
+      conclusion: null
+    };
+
+    // Process each section for audio optimization
+    if (sections.introduction) {
+      const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
+      const audioChunks = [];
+      
+      for (const chunk of chunks) {
+        const result = await this.optimizer.optimizeForListening(chunk, 'introduction');
+        audioChunks.push(result);
+      }
+      
+      const audioText = audioChunks.join(' ');
+      const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+        ? this.optimizer.generateSSML(audioText, 'introduction', voiceConfig.ssmlConfig)
+        : audioText;
+      
+      optimized.introduction = {
+        ...sections.introduction,
+        content: finalContent
+      };
+    }
+
+    if (sections.chapters) {
+      for (const chapter of sections.chapters) {
+        const chunks = this.parser.splitIntoChunks(chapter.content, 400);
+        const audioChunks = [];
+        
+        for (const chunk of chunks) {
+          const result = await this.optimizer.optimizeForListening(chunk, 'chapter');
+          audioChunks.push(result);
+        }
+        
+        const audioText = audioChunks.join(' ');
+        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+          ? this.optimizer.generateSSML(audioText, 'chapter', voiceConfig.ssmlConfig)
+          : audioText;
+        
+        optimized.chapters.push({
+          ...chapter,
+          content: finalContent
+        });
+      }
+    }
+
+    if (sections.conclusion) {
+      const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
+      const audioChunks = [];
+      
+      for (const chunk of chunks) {
+        const result = await this.optimizer.optimizeForListening(chunk, 'conclusion');
+        audioChunks.push(result);
+      }
+      
+      const audioText = audioChunks.join(' ');
+      const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
+        ? this.optimizer.generateSSML(audioText, 'conclusion', voiceConfig.ssmlConfig)
+        : audioText;
+      
+      optimized.conclusion = {
+        ...sections.conclusion,
+        content: finalContent
+      };
+    }
+
+    return optimized;
+  }
+
+  /**
+   * Generate reading-optimized sections
+   * @param {Object} sections - Original sections
+   * @returns {Promise<Object>} Reading-optimized sections
+   */
+  async generateReadingOptimizedSections(sections) {
+    const optimized = {
+      introduction: null,
+      chapters: [],
+      conclusion: null
+    };
+
+    // Process each section for reading optimization
+    if (sections.introduction) {
+      const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
+      const readingChunks = [];
+      
+      for (const chunk of chunks) {
+        const result = await this.optimizer.optimizeForReading(chunk, 'introduction');
+        readingChunks.push(result);
+      }
+      
+      optimized.introduction = {
+        ...sections.introduction,
+        content: readingChunks.join(' ')
+      };
+    }
+
+    if (sections.chapters) {
+      for (const chapter of sections.chapters) {
+        const chunks = this.parser.splitIntoChunks(chapter.content, 400);
+        const readingChunks = [];
+        
+        for (const chunk of chunks) {
+          const result = await this.optimizer.optimizeForReading(chunk, 'chapter');
+          readingChunks.push(result);
+        }
+        
+        optimized.chapters.push({
+          ...chapter,
+          content: readingChunks.join(' ')
+        });
+      }
+    }
+
+    if (sections.conclusion) {
+      const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
+      const readingChunks = [];
+      
+      for (const chunk of chunks) {
+        const result = await this.optimizer.optimizeForReading(chunk, 'conclusion');
+        readingChunks.push(result);
+      }
+      
+      optimized.conclusion = {
+        ...sections.conclusion,
+        content: readingChunks.join(' ')
+      };
+    }
+
+    return optimized;
+  }
+
+  /**
+   * Apply SSML to cached sections
+   * @param {Object} sections - Cached sections
+   * @param {Object} voiceConfig - Voice configuration
+   * @returns {Object} Sections with SSML applied
+   */
+  applySSMLToSections(sections, voiceConfig) {
+    const withSSML = {
+      introduction: null,
+      chapters: [],
+      conclusion: null
+    };
+
+    if (sections.introduction) {
+      withSSML.introduction = {
+        ...sections.introduction,
+        content: this.optimizer.generateSSML(sections.introduction.content, 'introduction', voiceConfig.ssmlConfig)
+      };
+    }
+
+    if (sections.chapters) {
+      withSSML.chapters = sections.chapters.map(chapter => ({
+        ...chapter,
+        content: this.optimizer.generateSSML(chapter.content, 'chapter', voiceConfig.ssmlConfig)
+      }));
+    }
+
+    if (sections.conclusion) {
+      withSSML.conclusion = {
+        ...sections.conclusion,
+        content: this.optimizer.generateSSML(sections.conclusion.content, 'conclusion', voiceConfig.ssmlConfig)
+      };
+    }
+
+    return withSSML;
   }
 
   /**
@@ -693,6 +1031,7 @@ export class BookProcessor {
       processingTime: this.stats.endTime - this.stats.startTime,
       config: this.config,
       stats: this.stats,
+      cacheStats: this.cacheManager ? this.cacheManager.getStats() : null,
       summary: {
         successRate: this.stats.totalBooks > 0 ? (this.stats.successfulBooks / this.stats.totalBooks * 100).toFixed(1) + '%' : '0%',
         averageProcessingTime: this.stats.processedBooks > 0 ? 
@@ -713,7 +1052,7 @@ export class BookProcessor {
     const hours = Math.floor(duration / (1000 * 60 * 60));
     const minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
     
-    console.log('\n FINAL STATISTICS');
+    console.log('\n📊 FINAL STATISTICS');
     console.log('==================');
     console.log(`Total books: ${this.stats.totalBooks}`);
     console.log(`✅ Successful: ${this.stats.successfulBooks}`);
@@ -723,6 +1062,11 @@ export class BookProcessor {
     console.log(`⏱️  Total audio: ${this.audioGenerator.formatDuration(this.stats.totalDuration)}`);
     console.log(`⏰ Processing time: ${hours}h ${minutes}m`);
     console.log(`📈 Success rate: ${this.stats.totalBooks > 0 ? (this.stats.successfulBooks / this.stats.totalBooks * 100).toFixed(1) : 0}%`);
+    
+    // Print cache statistics
+    if (this.cacheManager) {
+      this.cacheManager.printStats();
+    }
   }
 
   /**

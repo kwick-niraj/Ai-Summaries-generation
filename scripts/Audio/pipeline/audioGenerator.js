@@ -18,7 +18,7 @@ export class AudioGenerator {
     this.azureEndpoint = process.env.AZURE_TTS_ENDPOINT;
     this.azureKey = process.env.AZURE_TTS_KEY;
     this.deploymentId = process.env.AZURE_TTS_DEPLOYMENT_ID;
-    this.apiVersion = '2024-02-15-preview';
+    this.apiVersion = '2025-03-01-preview';
     
     // Default TTS settings
     this.defaultSettings = {
@@ -53,7 +53,8 @@ export class AudioGenerator {
       input: inputText,
       voice: settings.voice,
       response_format: settings.format,
-      speed: settings.speed
+      speed: settings.speed,
+      model: this.deploymentId,
     };
 
     try {
@@ -88,6 +89,7 @@ export class AudioGenerator {
       };
       
     } catch (error) {
+      console.log('TTS ERROR', error?.message);
       console.error(`❌ TTS generation failed for ${outputPath}:`, error?.response?.data || error.message);
       
       // If SSML failed, try with plain text as fallback
@@ -261,7 +263,7 @@ export class AudioGenerator {
 
     try {
       // Split section into chunks if needed
-      const chunks = this.splitSectionForTTS(section.content, options.maxChunkLength || 4000);
+      const chunks = this.splitSectionForTTS(section.content, options.maxChunkLength || 3000);
       
       for (let i = 0; i < chunks.length; i++) {
         const chunk = chunks[i];

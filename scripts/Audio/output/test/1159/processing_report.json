@@ -1,0 +1,447 @@
+{
+  "bookId": "1159",
+  "timestamp": "2025-06-20T20:16:32.362Z",
+  "success": false,
+  "processingTime": -1750450192408,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4053,
+    "totalAudioFiles": 17,
+    "totalDuration": 2266.55
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2266.55
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/1159/optimized_text/1159.md",
+    "fileSize": 31102,
+    "wordCount": 4640,
+    "format": "markdown",
+    "filename": "1159.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/1159/metadata/1159_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2266.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/1159/metadata/1159_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/1159/metadata/1159_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "ash",
+    "confidence": 92,
+    "reasoning": "Ash's male, crisp, and confident tone aligns with the male author and the authoritative, practical content of the book. The business, leadership, and professional style matches the personal finance and entrepreneurship themes, while also appealing to the target audience of aspiring entrepreneurs and professionals seeking financial literacy. Ash's delivery will enhance the book's credibility and motivational impact.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": false,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/1159/1159_complete.wav",
+    "duration": 2266.55,
+    "fileSize": 108794478,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/1159/introduction.wav",
+          "duration": 108.5,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.5,
+          "startTime": 0,
+          "endTime": 108.5
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_01_part1.wav",
+          "duration": 190.2,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Audio Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs",
+          "actualDuration": 190.2,
+          "startTime": 110,
+          "endTime": 300.2
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_01_part2.wav",
+          "duration": 28.85,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Audio Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs",
+          "actualDuration": 28.85,
+          "startTime": 300.2,
+          "endTime": 329.05
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_02_part1.wav",
+          "duration": 182.1,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Audio Chapter 2 The First Lessons—Learning About Money Outside the Classroom",
+          "actualDuration": 182.1,
+          "startTime": 330.55,
+          "endTime": 512.65
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_02_part2.wav",
+          "duration": 61.75,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Audio Chapter 2 The First Lessons—Learning About Money Outside the Classroom",
+          "actualDuration": 61.75,
+          "startTime": 512.65,
+          "endTime": 574.4
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_03_part1.wav",
+          "duration": 188,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Audio Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On",
+          "actualDuration": 188,
+          "startTime": 575.9,
+          "endTime": 763.9
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_03_part2.wav",
+          "duration": 29.15,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Audio Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On",
+          "actualDuration": 29.15,
+          "startTime": 763.9,
+          "endTime": 793.05
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_04_part1.wav",
+          "duration": 190.35,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Audio Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially",
+          "actualDuration": 190.35,
+          "startTime": 794.55,
+          "endTime": 984.9
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_04_part2.wav",
+          "duration": 40.6,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Audio Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially",
+          "actualDuration": 40.6,
+          "startTime": 984.9,
+          "endTime": 1025.5
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_05.wav",
+          "duration": 192.65,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Audio Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills",
+          "actualDuration": 192.65,
+          "startTime": 1027,
+          "endTime": 1219.65
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_06_part1.wav",
+          "duration": 182.4,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Audio Chapter 6 The Rich Invent Money—Opportunity in the Everyday",
+          "actualDuration": 182.4,
+          "startTime": 1221.15,
+          "endTime": 1403.5500000000002
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_06_part2.wav",
+          "duration": 22.4,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Audio Chapter 6 The Rich Invent Money—Opportunity in the Everyday",
+          "actualDuration": 22.4,
+          "startTime": 1403.5500000000002,
+          "endTime": 1425.9500000000003
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_07.wav",
+          "duration": 190.4,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Audio Chapter 7 Work to Learn—Don’t Work for Money",
+          "actualDuration": 190.4,
+          "startTime": 1427.4500000000003,
+          "endTime": 1617.8500000000004
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_08.wav",
+          "duration": 193.1,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Audio Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism",
+          "actualDuration": 193.1,
+          "startTime": 1619.3500000000004,
+          "endTime": 1812.4500000000003
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_09.wav",
+          "duration": 169.8,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Audio Chapter 9 Getting Started—Turning Knowledge into Action",
+          "actualDuration": 169.8,
+          "startTime": 1813.9500000000003,
+          "endTime": 1983.7500000000002
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_10.wav",
+          "duration": 148.8,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Audio Chapter 10 Still Growing—The Lifelong Journey of Financial Independence",
+          "actualDuration": 148.8,
+          "startTime": 1985.2500000000002,
+          "endTime": 2134.05
+        },
+        {
+          "path": "Audio/output/test/1159/conclusion.wav",
+          "duration": 147.5,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 147.5,
+          "startTime": 2135.55,
+          "endTime": 2283.05
+        }
+      ],
+      "totalDuration": 2283.05,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.5,
+          "actualStart": 0,
+          "actualEnd": 108.5,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Audio Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs",
+          "expectedStart": 108.5,
+          "expectedEnd": 327.55,
+          "actualStart": 110,
+          "actualEnd": 300.2,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Audio Chapter 2 The First Lessons—Learning About Money Outside the Classroom",
+          "expectedStart": 327.55,
+          "expectedEnd": 571.4,
+          "actualStart": 330.55,
+          "actualEnd": 512.65,
+          "timeDifference": 3
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Audio Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On",
+          "expectedStart": 571.4,
+          "expectedEnd": 788.55,
+          "actualStart": 575.9,
+          "actualEnd": 763.9,
+          "timeDifference": 4.5
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Audio Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially",
+          "expectedStart": 788.55,
+          "expectedEnd": 1019.5,
+          "actualStart": 794.55,
+          "actualEnd": 984.9,
+          "timeDifference": 6
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Audio Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills",
+          "expectedStart": 1019.5,
+          "expectedEnd": 1212.15,
+          "actualStart": 1027,
+          "actualEnd": 1219.65,
+          "timeDifference": 7.5
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Audio Chapter 6 The Rich Invent Money—Opportunity in the Everyday",
+          "expectedStart": 1212.15,
+          "expectedEnd": 1416.95,
+          "actualStart": 1221.15,
+          "actualEnd": 1403.5500000000002,
+          "timeDifference": 9
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Audio Chapter 7 Work to Learn—Don’t Work for Money",
+          "expectedStart": 1416.95,
+          "expectedEnd": 1607.35,
+          "actualStart": 1427.4500000000003,
+          "actualEnd": 1617.8500000000004,
+          "timeDifference": 10.500000000000227
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Audio Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism",
+          "expectedStart": 1607.35,
+          "expectedEnd": 1800.45,
+          "actualStart": 1619.3500000000004,
+          "actualEnd": 1812.4500000000003,
+          "timeDifference": 12.000000000000455
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Audio Chapter 9 Getting Started—Turning Knowledge into Action",
+          "expectedStart": 1800.45,
+          "expectedEnd": 1970.25,
+          "actualStart": 1813.9500000000003,
+          "actualEnd": 1983.7500000000002,
+          "timeDifference": 13.500000000000227
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Audio Chapter 10 Still Growing—The Lifelong Journey of Financial Independence",
+          "expectedStart": 1970.25,
+          "expectedEnd": 2119.05,
+          "actualStart": 1985.2500000000002,
+          "actualEnd": 2134.05,
+          "timeDifference": 15.000000000000227
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2119.05,
+          "expectedEnd": 2266.55,
+          "actualStart": 2135.55,
+          "actualEnd": 2283.05,
+          "timeDifference": 16.5
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.5,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Audio Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs"
+        },
+        {
+          "startTime": 329.05,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs and Audio Chapter 2 The First Lessons—Learning About Money Outside the Classroom"
+        },
+        {
+          "startTime": 574.4,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 2 The First Lessons—Learning About Money Outside the Classroom and Audio Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On"
+        },
+        {
+          "startTime": 793.05,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On and Audio Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially"
+        },
+        {
+          "startTime": 1025.5,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially and Audio Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills"
+        },
+        {
+          "startTime": 1219.65,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills and Audio Chapter 6 The Rich Invent Money—Opportunity in the Everyday"
+        },
+        {
+          "startTime": 1425.9500000000003,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 6 The Rich Invent Money—Opportunity in the Everyday and Audio Chapter 7 Work to Learn—Don’t Work for Money"
+        },
+        {
+          "startTime": 1617.8500000000004,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 7 Work to Learn—Don’t Work for Money and Audio Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism"
+        },
+        {
+          "startTime": 1812.4500000000003,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism and Audio Chapter 9 Getting Started—Turning Knowledge into Action"
+        },
+        {
+          "startTime": 1983.7500000000002,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 9 Getting Started—Turning Knowledge into Action and Audio Chapter 10 Still Growing—The Lifelong Journey of Financial Independence"
+        },
+        {
+          "startTime": 2134.05,
+          "duration": 1.5,
+          "reason": "Gap between Audio Chapter 10 Still Growing—The Lifelong Journey of Financial Independence and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": false,
+    "expressiveAudio": false
+  }
+}

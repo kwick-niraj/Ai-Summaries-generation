@@ -73,13 +73,20 @@ export class VoiceSelectionProvider {
    */
   getVoiceCharacteristics() {
     return {
-      // Female Voices
+      // Male/Female (confirmed ones)
       alloy: {
         gender: 'female',
         tone: 'warm',
         style: 'grounded',
         personality: 'conversational',
         bestFor: ['self-help', 'personal-development', 'wellness', 'general-audience']
+      },
+      ash: {
+        gender: 'male',
+        tone: 'crisp',
+        style: 'confident',
+        personality: 'articulate',
+        bestFor: ['business', 'leadership', 'professional', 'corporate', 'finance']
       },
       coral: {
         gender: 'female',
@@ -109,22 +116,6 @@ export class VoiceSelectionProvider {
         personality: 'approachable',
         bestFor: ['general-audience', 'accessible', 'educational', 'popular']
       },
-      shimmer: {
-        gender: 'female',
-        tone: 'clear',
-        style: 'futuristic',
-        personality: 'smooth',
-        bestFor: ['technology', 'innovation', 'modern-business', 'science']
-      },
-      
-      // Male Voices
-      ash: {
-        gender: 'male',
-        tone: 'crisp',
-        style: 'confident',
-        personality: 'articulate',
-        bestFor: ['business', 'leadership', 'professional', 'corporate', 'finance']
-      },
       onyx: {
         gender: 'male',
         tone: 'deep',
@@ -138,9 +129,31 @@ export class VoiceSelectionProvider {
         style: 'wise',
         personality: 'experienced',
         bestFor: ['philosophy', 'wisdom', 'academic', 'intellectual', 'mentorship']
+      },
+      shimmer: {
+        gender: 'female',
+        tone: 'clear',
+        style: 'futuristic',
+        personality: 'smooth',
+        bestFor: ['technology', 'innovation', 'modern-business', 'science']
+      },
+  
+      // New Additions (inferred)
+      ballad: {
+        gender: 'female',
+        tone: 'musical',
+        style: 'poetic',
+        personality: 'lyrical',
+        bestFor: ['emotive-fiction', 'poetry', 'narrative', 'audiobooks']
+      },
+      verse: {
+        gender: 'male',
+        tone: 'lyrical',
+        style: 'dramatic',
+        personality: 'performative',
+        bestFor: ['storytelling', 'spiritual', 'theatrical', 'fiction']
       }
     };
   }
-}
-
+};
 export default VoiceSelectionProvider;

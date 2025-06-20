@@ -28,6 +28,12 @@ export const audioConfig = {
   optimizeText: true,       // Use AI to optimize text for audio
   generateSSML: false,      // Generate SSML markup (experimental)
   
+  // Text Optimization Caching
+  useOptimizedTextCache: true,        // Enable/disable caching of optimized text
+  cacheValidityDays: 30,              // How long cached text is valid (days)
+  forceReoptimization: false,         // Force re-optimization even if cache exists
+  cacheStrategy: 'smart',             // 'smart', 'always', 'never'
+  
   // Enhanced Features
   enableSSML: false,         // Enable SSML generation for expressive speech
   intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
@@ -113,6 +119,9 @@ export const processingPresets = {
     optimizeText: false,
     enableSSML: false,
     intelligentVoiceSelection: false,
+    useOptimizedTextCache: true,
+    cacheStrategy: 'always',
+    cacheValidityDays: 90,
     maxChunkLength: 3000,
     concurrency: 2,
     delayBetweenRequests: 500,
@@ -125,7 +134,10 @@ export const processingPresets = {
     optimizeText: true,
     enableSSML: false,
     intelligentVoiceSelection: true,
-    maxChunkLength: 4000,
+    useOptimizedTextCache: true,
+    cacheStrategy: 'smart',
+    cacheValidityDays: 30,
+    maxChunkLength: 3000,
     concurrency: 1,
     delayBetweenRequests: 1000,
     audioQuality: { bitrate: '128k', sampleRate: 22050, channels: 1 }
@@ -138,6 +150,9 @@ export const processingPresets = {
     enableSSML: true,
     intelligentVoiceSelection: true,
     generateSSML: true,
+    useOptimizedTextCache: true,
+    cacheStrategy: 'smart',
+    cacheValidityDays: 14,
     maxChunkLength: 3500,
     concurrency: 1,
     delayBetweenRequests: 1500,
@@ -154,6 +169,9 @@ export const processingPresets = {
     optimizeText: true,
     enableSSML: false,
     intelligentVoiceSelection: true,
+    useOptimizedTextCache: false,
+    forceReoptimization: true,
+    cacheStrategy: 'never',
     combineAudio: false,
     skipExisting: false,
     maxChunkLength: 2000,
@@ -249,6 +267,16 @@ export function printConfigSummary(config) {
   console.log(`🎭 Intelligent Voice Selection: ${config.intelligentVoiceSelection ? 'Enabled' : 'Disabled'}`);
   console.log(`🔗 Combine Audio: ${config.combineAudio ? 'Enabled' : 'Disabled'}`);
   console.log(`⏭️  Skip Existing: ${config.skipExisting ? 'Enabled' : 'Disabled'}`);
+  
+  // Text optimization caching info
+  if (config.useOptimizedTextCache) {
+    console.log(`💾 Text Cache: ${config.cacheStrategy} strategy (${config.cacheValidityDays} days)`);
+    if (config.forceReoptimization) {
+      console.log(`🔄 Force Reoptimization: Enabled`);
+    }
+  } else {
+    console.log(`💾 Text Cache: Disabled`);
+  }
   
   if (config.intelligentVoiceSelection && config.metadataDir) {
     console.log(`📚 Metadata Directory: ${config.metadataDir}`);

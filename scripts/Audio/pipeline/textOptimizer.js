@@ -32,34 +32,110 @@ export class TextOptimizer {
   }
 
   /**
-   * Optimize text for audio narration
+   * Optimize text for audio narration (legacy method - now calls optimizeForListening)
    * @param {string} text - Raw text content
    * @param {string} sectionType - Type of section (introduction, chapter, conclusion)
    * @param {Object} options - Optimization options
    * @returns {Promise<string>} Optimized text
    */
   async optimizeForAudio(text, sectionType = 'chapter', options = {}) {
+    return this.optimizeForListening(text, sectionType, options);
+  }
+
+  /**
+   * Optimize text specifically for audio/listening experience
+   * @param {string} text - Raw text content
+   * @param {string} sectionType - Type of section (introduction, chapter, conclusion)
+   * @param {Object} options - Optimization options
+   * @returns {Promise<string>} Audio-optimized text
+   */
+  async optimizeForListening(text, sectionType = 'chapter', options = {}) {
     try {
+      console.log(`🎧 Optimizing for audio: ${sectionType}`);
+      
+      // Clean and prepare the text
+      const cleanedText = this.cleanMarkdownText(text);
+      
+      // Apply AI-based optimization for conversational audio
+      const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType);
+      
+      // Apply final audio-specific formatting
+      const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
+      
+      return audioReadyText;
+    } catch (error) {
+      console.error('Audio optimization failed:', error);
+      // Fallback to basic cleaning if AI optimization fails
+      return this.applyAudioFormatting(this.cleanMarkdownText(text), sectionType);
+    }
+  }
+
+  /**
+   * Optimize text for markdown/reading experience
+   * @param {string} text - Raw text content
+   * @param {string} sectionType - Type of section (introduction, chapter, conclusion)
+   * @param {Object} options - Optimization options
+   * @returns {Promise<string>} Reading-optimized text
+   */
+  async optimizeForReading(text, sectionType = 'chapter', options = {}) {
+    try {
+      console.log(`📖 Optimizing for reading: ${sectionType}`);
+      
       // Extract chapter headers before optimization
       const extractedHeaders = this.extractChapterHeaders(text);
       
-      // First, clean and prepare the text
+      // Clean and prepare the text
       const cleanedText = this.cleanMarkdownText(text);
       
-      // Apply AI-based optimization for natural speech
-      const optimizedText = await this.applyAIOptimization(cleanedText, sectionType);
+      // Apply AI-based optimization for reading
+      const optimizedText = await this.applyReadingAIOptimization(cleanedText, sectionType);
       
       // Verify and restore headers if needed
       const verifiedText = this.verifyAndRestoreHeaders(optimizedText, extractedHeaders);
       
-      // Apply final audio-specific formatting
-      const audioReadyText = this.applyAudioFormatting(verifiedText, sectionType);
+      // Apply final reading-specific formatting
+      const readingReadyText = this.applyReadingFormatting(verifiedText, sectionType);
       
-      return audioReadyText;
+      return readingReadyText;
     } catch (error) {
-      console.error('Text optimization failed:', error);
+      console.error('Reading optimization failed:', error);
       // Fallback to basic cleaning if AI optimization fails
-      return this.applyAudioFormatting(this.cleanMarkdownText(text), sectionType);
+      return this.applyReadingFormatting(this.cleanMarkdownText(text), sectionType);
+    }
+  }
+
+  /**
+   * Generate both audio and reading optimized versions
+   * @param {string} text - Raw text content
+   * @param {string} sectionType - Type of section (introduction, chapter, conclusion)
+   * @param {Object} options - Optimization options
+   * @returns {Promise<Object>} Both versions
+   */
+  async optimizeDualTrack(text, sectionType = 'chapter', options = {}) {
+    try {
+      console.log(`🔄 Dual-track optimization: ${sectionType}`);
+      
+      const [audioVersion, readingVersion] = await Promise.all([
+        this.optimizeForListening(text, sectionType, options),
+        this.optimizeForReading(text, sectionType, options)
+      ]);
+
+      return {
+        audio: audioVersion,
+        reading: readingVersion,
+        sectionType,
+        success: true
+      };
+    } catch (error) {
+      console.error('Dual-track optimization failed:', error);
+      const fallback = this.applyAudioFormatting(this.cleanMarkdownText(text), sectionType);
+      return {
+        audio: fallback,
+        reading: fallback,
+        sectionType,
+        success: false,
+        error: error.message
+      };
     }
   }
 
@@ -91,13 +167,23 @@ export class TextOptimizer {
   }
 
   /**
-   * Apply AI-based optimization for natural speech
+   * Apply AI-based optimization for natural speech (legacy method)
    * @param {string} text - Cleaned text
    * @param {string} sectionType - Section type
    * @returns {Promise<string>} AI-optimized text
    */
   async applyAIOptimization(text, sectionType) {
-    const systemPrompt = this.getSystemPrompt(sectionType);
+    return this.applyAudioAIOptimization(text, sectionType);
+  }
+
+  /**
+   * Apply AI-based optimization specifically for audio/listening
+   * @param {string} text - Cleaned text
+   * @param {string} sectionType - Section type
+   * @returns {Promise<string>} Audio-optimized text
+   */
+  async applyAudioAIOptimization(text, sectionType) {
+    const systemPrompt = this.getAudioSystemPrompt(sectionType);
     
     try {
       const response = await this.client.chat.completions.create({
@@ -112,51 +198,214 @@ export class TextOptimizer {
 
       return response.choices[0].message.content.trim();
     } catch (error) {
-      console.error('AI optimization failed:', error);
+      console.error('Audio AI optimization failed:', error);
       throw error;
     }
   }
 
   /**
-   * Get system prompt based on section type
+   * Apply AI-based optimization specifically for reading/markdown
+   * @param {string} text - Cleaned text
+   * @param {string} sectionType - Section type
+   * @returns {Promise<string>} Reading-optimized text
+   */
+  async applyReadingAIOptimization(text, sectionType) {
+    const systemPrompt = this.getReadingSystemPrompt(sectionType);
+    
+    try {
+      const response = await this.client.chat.completions.create({
+        model: this.deployment,
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: text }
+        ],
+        temperature: 0.5,
+        max_tokens: 2000,
+      });
+
+      return response.choices[0].message.content.trim();
+    } catch (error) {
+      console.error('Reading AI optimization failed:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * Get system prompt based on section type (legacy method)
    * @param {string} sectionType - Section type
    * @returns {string} System prompt
    */
   getSystemPrompt(sectionType) {
-    const basePrompt = `You are an expert audio script editor. Transform the given text for natural audio narration. Make it conversational, engaging, and easy to listen to.
+    return this.getAudioSystemPrompt(sectionType);
+  }
 
-CRITICAL: Always preserve chapter titles and section headers exactly as they appear. These are essential for navigation and structure.
+  /**
+   * Get audio-specific system prompt based on section type
+   * @param {string} sectionType - Section type
+   * @returns {string} Audio system prompt
+   */
+  getAudioSystemPrompt(sectionType) {
+    const basePrompt = `You are an expert podcast script writer and audio content creator. Transform the given text into engaging, conversational audio that feels like listening to a knowledgeable friend sharing insights.
 
-Guidelines:
-- PRESERVE all chapter titles and section headers exactly as provided
-- Use natural, flowing language that sounds good when spoken aloud
-- Break up long sentences into shorter, more digestible ones
-- Add transitional phrases where appropriate
-- Replace complex punctuation with natural pauses
-- Convert abbreviations to full words (e.g., "e.g." → "for example")
-- Make the tone warm and engaging
-- Remove meta-commentary like "this chapter discusses" or "in this section"
-- Ensure smooth flow between ideas
-- Keep chapter titles at the beginning of each section for audio navigation`;
+CORE PRINCIPLES:
+- Write for the EAR, not the eye - use natural speech patterns
+- Create an intimate, conversational tone as if speaking directly to one listener
+- Use storytelling techniques to maintain engagement
+- Replace formal language with warm, accessible explanations
+- Add natural transitions and connective phrases
+- Remove any text that sounds awkward when spoken aloud
+- Eliminate meta-commentary like "this chapter discusses" or "in this section"
+
+AUDIO-SPECIFIC TECHNIQUES:
+- Use contractions naturally (you'll, we're, it's, that's)
+- Break up long sentences into shorter, digestible thoughts
+- Add verbal signposts ("Here's the thing...", "Now...", "You know what's interesting?")
+- Use rhetorical questions to engage the listener
+- Include brief pauses for emphasis (indicate with "...")
+- Replace bullet points with flowing narrative
+- Convert lists into conversational explanations
+- Use ellipses (...) for natural pauses and dramatic effect`;
 
     const sectionSpecific = {
       introduction: `
-- Create an inviting opening that draws listeners in
-- Set the tone for the entire audiobook
-- Use welcoming, inclusive language`,
-      
+INTRODUCTION-SPECIFIC GUIDELINES:
+- Create a warm, welcoming opening that draws listeners in immediately
+- Replace formal "Introduction" language with engaging hooks
+- Use phrases like "Welcome to this journey", "Let's explore together", "Here's what we're going to discover"
+- Set expectations in a conversational way
+- Build curiosity and anticipation
+- Make the listener feel they're about to learn something valuable
+- Use inclusive language ("we", "us", "together")
+
+OPENING STYLE: Warm, inviting, curiosity-building`,
+
       chapter: `
-- Maintain narrative flow and engagement
-- Use natural transitions between concepts
-- Keep the listener engaged with varied sentence structure`,
-      
+CHAPTER-SPECIFIC GUIDELINES:
+- Keep chapter titles but integrate them naturally into the flow
+- Create smooth transitions from previous content
+- Use natural section breaks with conversational bridges
+- Explain concepts as if teaching a friend
+- Include real-world applications and relatable examples
+- Maintain energy and engagement throughout
+- Use varied sentence structure to avoid monotony
+- Add emphasis to key points naturally
+
+CHAPTER STYLE: Informative, engaging, conversational teaching`,
+
       conclusion: `
-- Create a satisfying sense of closure
-- Summarize key insights naturally
-- End with inspiration or actionable takeaways`
+CONCLUSION-SPECIFIC GUIDELINES:
+- Replace formal "Conclusion" language with natural wrap-up phrases
+- Use phrases like "As we wrap up", "To bring this all together", "Here's what this means for you"
+- Create a sense of completion and satisfaction
+- Summarize key insights in a memorable way
+- End with inspiration or actionable next steps
+- Make the listener feel empowered and motivated
+- Use forward-looking language about applying the insights
+
+CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
     };
 
-    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter);
+    const additionalGuidelines = `
+TRANSFORMATION EXAMPLES:
+- "The key components are:" → "Here are the things that really matter:"
+- "It is important to note that:" → "Here's something crucial to understand:"
+- "Furthermore:" → "And here's another thing:"
+- "In conclusion:" → "So here's what this all means:"
+- "Research indicates:" → "Studies show us something fascinating:"
+
+ENGAGEMENT TECHNIQUES:
+- Use "you" to speak directly to the listener
+- Ask rhetorical questions: "Ever wonder why...?", "What if I told you...?"
+- Share insights as discoveries: "Here's what's fascinating...", "This is where it gets interesting..."
+- Create anticipation: "Wait until you hear this...", "This next part is crucial..."
+- Use emphasis naturally: "This is REALLY important", "Here's the key thing to remember"
+
+AVOID:
+- Academic jargon without explanation
+- Overly formal sentence structures
+- Reading-focused formatting cues
+- Meta-references to the text itself
+- Awkward transitions between topics
+- Repetitive sentence patterns`;
+
+    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + additionalGuidelines;
+  }
+
+  /**
+   * Get reading-specific system prompt based on section type
+   * @param {string} sectionType - Section type
+   * @returns {string} Reading system prompt
+   */
+  getReadingSystemPrompt(sectionType) {
+    const basePrompt = `You are an expert content editor specializing in creating clear, well-structured text for reading and reference. Transform the given text into polished, professional content that maintains clarity and accessibility.
+
+CORE PRINCIPLES:
+- Preserve formal structure while improving readability
+- Maintain professional tone suitable for study and reference
+- Ensure logical flow and clear organization
+- Keep chapter titles and section headers intact
+- Create content that works well for both casual reading and detailed study
+
+READING-SPECIFIC TECHNIQUES:
+- Use clear, concise language without being overly casual
+- Maintain paragraph structure for easy scanning
+- Preserve important formatting cues
+- Keep technical terms but ensure they're well-explained
+- Use transitional phrases that work in written form
+- Maintain bullet points and lists where appropriate`;
+
+    const sectionSpecific = {
+      introduction: `
+INTRODUCTION-SPECIFIC GUIDELINES:
+- Create a compelling opening that sets context
+- Maintain formal "Introduction" structure for navigation
+- Provide clear overview of what's to come
+- Use professional but engaging language
+- Set appropriate expectations for the content
+
+READING STYLE: Professional, clear, contextual`,
+
+      chapter: `
+CHAPTER-SPECIFIC GUIDELINES:
+- Preserve chapter titles and structure
+- Maintain logical flow between concepts
+- Use clear headings and subheadings where appropriate
+- Ensure concepts are well-explained and accessible
+- Keep professional tone throughout
+
+READING STYLE: Informative, structured, accessible`,
+
+      conclusion: `
+CONCLUSION-SPECIFIC GUIDELINES:
+- Maintain formal "Conclusion" structure
+- Provide clear summary of key points
+- Offer actionable insights and next steps
+- Create satisfying closure
+- Use professional summarizing language
+
+READING STYLE: Authoritative, summarizing, actionable`
+    };
+
+    const additionalGuidelines = `
+FORMATTING PRESERVATION:
+- Keep bullet points and numbered lists
+- Maintain paragraph breaks for readability
+- Preserve emphasis through formatting rather than conversational cues
+- Keep technical terms with clear explanations
+
+TONE GUIDELINES:
+- Professional but accessible
+- Clear and direct
+- Informative without being dry
+- Suitable for reference and study
+
+AVOID:
+- Overly casual conversational elements
+- Excessive use of rhetorical questions
+- Audio-specific cues like "listen to this"
+- Informal contractions in formal contexts`;
+
+    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + additionalGuidelines;
   }
 
   /**
@@ -192,6 +441,34 @@ Guidelines:
       
       // Clean up spacing
       .replace(/\s{2,}/g, ' ')
+      .trim();
+
+    return formatted;
+  }
+
+  /**
+   * Apply final reading-specific formatting
+   * @param {string} text - AI-optimized text
+   * @param {string} sectionType - Section type
+   * @returns {string} Reading-ready text
+   */
+  applyReadingFormatting(text, sectionType) {
+    let formatted = text
+      // Keep some abbreviations for formal reading
+      .replace(/\be\.g\./gi, 'e.g.')
+      .replace(/\bi\.e\./gi, 'i.e.')
+      .replace(/\betc\./gi, 'etc.')
+      
+      // Preserve formal punctuation
+      .replace(/([.!?])\s*(?=[A-Z])/g, '$1 ')
+      .replace(/:\s*([A-Z])/g, ': $1')
+      
+      // Keep quotes for reading
+      .replace(/'/g, "'")
+      
+      // Clean up spacing but preserve paragraph structure
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n{3,}/g, '\n\n')
       .trim();
 
     return formatted;
