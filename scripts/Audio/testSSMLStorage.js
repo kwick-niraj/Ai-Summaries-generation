@@ -13,7 +13,7 @@ async function testSSMLStorage() {
     const processor = new BookProcessor({
       intelligentVoiceSelection: true,
       enableSSML: true,
-      metadataDir: 'Meta of All Books DB',
+      metadataDir: '../Meta of All Books DB',
       outputDir: 'scripts/Audio/output/test_ssml',
       skipExisting: false // Force reprocessing for testing
     });

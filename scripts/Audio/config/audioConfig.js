@@ -31,7 +31,7 @@ export const audioConfig = {
   // Enhanced Features
   enableSSML: false,         // Enable SSML generation for expressive speech
   intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
-  metadataDir: 'Meta of All Books DB', // Directory containing book metadata for voice selection
+  metadataDir: '../Meta of All Books DB', // Directory containing book metadata for voice selection
   
   // Voice Selection Provider Configuration
   voiceSelection: {

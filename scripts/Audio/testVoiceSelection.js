@@ -14,7 +14,7 @@ async function testVoiceSelection() {
   console.log('📖 Testing voice selection for "Rich Dad Poor Dad" (Book ID: 1159)...');
   
   try {
-    const voiceConfig = await voiceSelector.selectVoiceForBook('1159', 'Meta of All Books DB');
+    const voiceConfig = await voiceSelector.selectVoiceForBook('1159', '../Meta of All Books DB');
     
     console.log('\n🎯 Voice Selection Results:');
     console.log(`Selected Voice: ${voiceConfig.selectedVoice}`);
@@ -69,7 +69,7 @@ async function testBatchVoiceSelection() {
   const testBookIds = ['1159', '746', '101']; // Test with a few book IDs
   
   try {
-    const batchResults = await voiceSelector.batchSelectVoices(testBookIds, 'Meta of All Books DB');
+    const batchResults = await voiceSelector.batchSelectVoices(testBookIds, '../Meta of All Books DB');
     
     console.log('\n📊 Batch Selection Results:');
     console.log(`Total: ${batchResults.summary.total}`);

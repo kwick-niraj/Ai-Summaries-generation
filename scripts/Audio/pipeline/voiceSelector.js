@@ -47,7 +47,8 @@ export class VoiceSelector {
    * @param {string} metadataPath - Path to book metadata directory
    * @returns {Promise<Object>} Voice selection result
    */
-  async selectVoiceForBook(bookId, metadataPath = 'Meta of All Books DB') {
+  async selectVoiceForBook(bookId, metadataPath = '../Meta of All Books DB') {
+    console.log('niraj Metapath', metadataPath)
     try {
       // Load book metadata
       const metadata = await this.loadBookMetadata(bookId, metadataPath);
@@ -375,7 +376,7 @@ export class VoiceSelector {
    * @param {string} metadataPath - Path to metadata directory
    * @returns {Promise<Object>} Batch selection results
    */
-  async batchSelectVoices(bookIds, metadataPath = 'Meta of All Books DB') {
+  async batchSelectVoices(bookIds, metadataPath = '../Meta of All Books DB') {
     const results = {};
     const errors = [];
 
