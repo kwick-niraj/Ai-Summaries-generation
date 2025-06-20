@@ -18,8 +18,8 @@ export async function convertTextToAudioOptimized(chunk, sectionType = 'chapter'
       { role: 'system', content: systemPrompt },
       { role: 'user', content: chunk }
     ],
-    temperature: 0.7,
-    max_tokens: 2000,
+    temperature: 0.5,
+    max_tokens: 10000,
   });
 
   return response.choices[0].message.content.trim();
@@ -31,60 +31,15 @@ export async function convertTextToAudioOptimized(chunk, sectionType = 'chapter'
  * @param {Object} options - Additional options for customization
  * @returns {string} Optimized system prompt
  */
-function getAudioOptimizationPrompt(sectionType, options = {}) {
-  const basePrompt = `You are a professional audio script editor specializing in transforming written nonfiction into smooth, natural narration for spoken audio (such as book summaries or guided audio articles).
+function getAudioOptimizationPrompt(sectionType) {
+  const basePrompt = `You're a voice script editor. Rewrite the given summary text for audio narration. 
+  Keep it warm, flowing, and easy to listen to. Do not use meta phrases like “this chapter discusses. Maintain the length of the input as same length of output, do not make it too much lengthy.`;
 
-Your goal is to make the content sound natural and pleasant to listen to — as if a calm, friendly narrator is reading it aloud to an engaged listener.
-
-GUIDELINES:
-- Rewrite for the EAR, not the eye — use clear, natural phrasing
-- Keep the tone friendly, inviting, and grounded — never over-the-top
-- Preserve the structure and flow of the original content
-- Break up long sentences into shorter, easier-to-follow phrases
-- Use natural transitions where needed, but avoid filler like “you won’t believe this”
-- Remove any phrases that sound overly formal or written
-- Avoid meta phrases like “this chapter talks about” or “in this section”
-- Maintain the original insights and ideas — just rephrase them for audio
-
-FORMATTING RULES:
-- Do NOT use any SSML or markup
-- Output must be plain text — ready for direct TTS narration
-- Use ellipses (...) or dashes (—) only to guide light pauses or changes in tone
-- Convert bullet points into flowing narrative (e.g., “One way is... Another useful technique is...”)
-
-TONE:
-- Calm, clear, and warm
-- Confident but not overly excited
-- Conversational, but not chatty or informal
-- Think of a professional narrator explaining something helpfully and pleasantly
-
-EXAMPLES OF CHANGES:
-- "The key points are:" → "Some of the most useful things to remember include..."
-- "Additionally," → "Another thing to keep in mind is..."
-- "Research shows" → "Studies suggest..." or "Experts have found that..."
-
-Do not add rhetorical questions, dramatic build-up, or unnecessary commentary. Just keep it smooth, smart, and engaging to listen to.`;
-
-  const sectionSpecific = {
-    introduction: `
-INTRODUCTION STYLE:
-- Start with a natural, inviting opener — no need to announce "Introduction"
-- Set the tone with curiosity, warmth, and light anticipation
-- Make the listener feel like they’re about to hear something valuable
-- Use inclusive language ("let's explore", "we’ll look at") if needed, but keep it minimal`,
-
-    chapter: `
-CHAPTER STYLE:
-- Begin cleanly without saying the chapter number unless it is part of the content
-- Use natural paragraph breaks and tone shifts to pace the narration
-- Explain ideas as if walking someone through them, clearly and confidently
-- If lists are present, weave them into the flow like natural advice`,
-
-    conclusion: `
-CONCLUSION STYLE:
-- Wrap up clearly and calmly, summarizing the key ideas without fanfare
-- Avoid phrases like “in conclusion” — use natural closings like “Overall,” or “The main takeaway is...”`
+  const sectionNotes = {
+    introduction: `Intro: Keep it clean and light. No need to add attention hooks.`,
+    chapter: `Chapter: Follow the flow and structure closely. Make small adjustments only when needed.`,
+    conclusion: `Conclusion: End clearly and smoothly, but don't insert summaries or wrap-up phrases.`,
   };
 
-  return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter);
-}
+  return `${basePrompt}\n\n${sectionNotes[sectionType] || sectionNotes.chapter}`;
+};

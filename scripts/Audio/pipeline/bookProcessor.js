@@ -184,7 +184,15 @@ export class BookProcessor {
       console.log('✨ Dual-track optimizing text for audio and reading...');
       const optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath);
 
-      // Step 4: Generate audio files with selected voice and SSML (using audio version)
+      // Step 4: Save both audio and reading optimized text versions (BEFORE audio generation)
+      console.log('💾 Saving dual-track optimized text...');
+      const textSaveResult = await this.textSaver.saveDualTrackOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
+      result.optimizedTextSaved = textSaveResult;
+
+      // Store both versions in result for reference
+      result.optimizedSections = optimizedSections;
+
+      // Step 5: Generate audio files with selected voice and SSML (using audio version)
       console.log('🎵 Generating audio files...');
       const selectedVoice = voiceConfig?.selectedVoice || this.config.voice || 'nova';
       const audioResults = await this.audioGenerator.generateBookAudio(
@@ -204,20 +212,12 @@ export class BookProcessor {
       result.stats.totalAudioFiles = audioResults.totalFiles;
       result.stats.totalDuration = audioResults.totalDuration;
 
-      // Step 5: Save both audio and reading optimized text versions
-      console.log('💾 Saving dual-track optimized text...');
-      const textSaveResult = await this.textSaver.saveDualTrackOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
-      result.optimizedTextSaved = textSaveResult;
-
-      // Store both versions in result for reference
-      result.optimizedSections = optimizedSections;
-
-      // Step 5: Generate chapter timestamps
+      // Step 6: Generate chapter timestamps
       console.log('⏱️  Generating chapter timestamps...');
       const timestampResult = await this.timestampGenerator.generateChapterTimestamps(audioResults, bookId, outputDir);
       result.chapterTimestamps = timestampResult;
 
-      // Step 6: Generate additional metadata files
+      // Step 7: Generate additional metadata files
       if (timestampResult.success) {
         console.log('📝 Generating additional metadata...');
         
@@ -230,14 +230,14 @@ export class BookProcessor {
         result.webvttChapters = vttResult;
       }
 
-      // Step 7: Combine audio files if requested
+      // Step 8: Combine audio files if requested
       if (this.config.combineAudio && audioResults.successfulFiles > 0) {
         console.log('🔗 Combining audio files...');
         const combinedResult = await this.combineBookAudio(audioResults, result, bookId, outputDir);
         result.combinedAudio = combinedResult;
       }
 
-      // Step 8: Generate book report
+      // Step 9: Generate book report
       await this.generateBookReport(result);
 
       result.success = audioResults.successfulFiles > 0;
