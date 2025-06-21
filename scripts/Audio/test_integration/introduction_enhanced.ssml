@@ -1,0 +1,23 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
+  <voice name="en-GB-EmmaMultilingualNeural">
+    <mstts:express-as style="friendly">
+      <prosody rate="0.9" pitch="medium">
+        <mstts:silence type="Leading" value="800ms"/>
+        <emphasis level="moderate">Welcome</emphasis> to 
+        <emphasis level="strong">"Rich Dad Poor Dad"</emphasis> by Robert Kiyosaki.
+        <break time="500ms" strength="medium"/>
+        <prosody pitch="+10 percent">This transformative book</prosody> will challenge everything you thought you knew about <emphasis level="moderate">money</emphasis> and wealth building.
+        <break time="500ms" strength="medium"/>
+        Through the contrasting lessons from his two father figures, Kiyosaki gently reveals the mindset that separates the financially successful, from those who struggle with money.
+        <break time="500ms" strength="medium"/>
+        Are you ready to discover the principles that <emphasis level="moderate">can change your financial future forever</emphasis>?
+        <mstts:express-as style="hopeful">
+          <prosody pitch="+8 percent">
+            Let's begin this journey together.
+          </prosody>
+        </mstts:express-as>
+        <mstts:silence type="Tailing" value="1200ms"/>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+</speak>

@@ -7,10 +7,145 @@ export const audioConfig = {
   outputDir: './Audio/output',
   logDir: './Audio/logs',
 
-  // TTS Settings
-  voice: 'nova', // Options: alloy, echo, fable, nova, onyx, shimmer
+  // TTS Provider Configuration
+  tts: {
+    provider: 'azure-speech',        // Primary: Azure Speech Services
+    fallbackProvider: 'azure-openai', // Fallback: Azure OpenAI TTS
+    
+    azureSpeech: {
+      endpoint: process.env.AZURE_SPEECH_ENDPOINT,
+      apiKey: process.env.AZURE_SPEECH_KEY,
+      region: process.env.AZURE_SPEECH_REGION,
+      
+      // Language preferences
+      preferredLocale: 'en-GB',      // UK English first
+      fallbackLocale: 'en-US',       // US English fallback
+      
+      // Default voice and format
+      defaultVoice: 'andrew-multilingual',
+      outputFormat: 'audio-24khz-48kbitrate-mono-mp3',
+      
+      // Your 14 favorite voices from Speech Playground
+      favoriteVoices: {
+        'alloy-turbo-multilingual': {
+          primary: 'en-US-AlloyTurboMultilingualNeural',
+          fallback: 'en-US-AlloyTurboMultilingualNeural',
+          description: 'Clear, versatile multilingual voice',
+          recommended: ['general', 'educational']
+        },
+        'andrew-multilingual': {
+          primary: 'en-US-AndrewMultilingualNeural',
+          fallback: 'en-US-AndrewMultilingualNeural', 
+          description: 'Professional, authoritative multilingual voice',
+          recommended: ['business', 'professional', 'educational']
+        },
+        'nova-turbo-multilingual': {
+          primary: 'en-US-NovaTurboMultilingualNeural',
+          fallback: 'en-US-NovaTurboMultilingualNeural',
+          description: 'Energetic, engaging multilingual voice',
+          recommended: ['motivational', 'dynamic']
+        },
+        'brandon-multilingual': {
+          primary: 'en-US-BrandonMultilingualNeural',
+          fallback: 'en-US-BrandonMultilingualNeural',
+          description: 'Warm, friendly multilingual voice',
+          recommended: ['storytelling', 'casual']
+        },
+        'steffan-multilingual': {
+          primary: 'en-US-SteffanMultilingualNeural',
+          fallback: 'en-US-SteffanMultilingualNeural',
+          description: 'Smooth, conversational multilingual voice',
+          recommended: ['audiobooks', 'narration']
+        },
+        'adam-multilingual': {
+          primary: 'en-US-AdamMultilingualNeural',
+          fallback: 'en-US-AdamMultilingualNeural',
+          description: 'Deep, authoritative multilingual voice',
+          recommended: ['serious', 'documentary']
+        },
+        'amanda-multilingual': {
+          primary: 'en-US-AmandaMultilingualNeural',
+          fallback: 'en-US-AmandaMultilingualNeural',
+          description: 'Clear, professional female multilingual voice',
+          recommended: ['business', 'educational']
+        },
+        'derek-multilingual': {
+          primary: 'en-US-DerekMultilingualNeural',
+          fallback: 'en-US-DerekMultilingualNeural',
+          description: 'Confident, engaging multilingual voice',
+          recommended: ['presentations', 'training']
+        },
+        'andrew-dragon-hd': {
+          primary: 'en-US-AndrewDragonHDNeural',
+          fallback: 'en-US-AndrewDragonHDNeural',
+          description: 'High-definition Andrew voice variant',
+          recommended: ['premium', 'high-quality']
+        },
+        'emma-multilingual': {
+          primary: 'en-US-EmmaMultilingualNeural',
+          fallback: 'en-US-EmmaMultilingualNeural',
+          description: 'Warm, empathetic female multilingual voice',
+          recommended: ['storytelling', 'emotional']
+        },
+        'aria': {
+          primary: 'en-US-AriaNeural',
+          fallback: 'en-US-AriaNeural',
+          description: 'Cheerful, engaging female voice',
+          recommended: ['upbeat', 'positive']
+        },
+        'jane': {
+          primary: 'en-US-JaneNeural',
+          fallback: 'en-US-JaneNeural',
+          description: 'Clear, professional female voice',
+          recommended: ['business', 'formal']
+        },
+        'jason': {
+          primary: 'en-US-JasonNeural', // US only
+          fallback: 'en-US-JasonNeural',
+          description: 'Casual, friendly male voice',
+          recommended: ['conversational', 'casual']
+        },
+        'davis': {
+          primary: 'en-US-DavisNeural', // US only
+          fallback: 'en-US-DavisNeural',
+          description: 'Deep, authoritative male voice',
+          recommended: ['serious', 'authoritative']
+        }
+      },
+      
+      // Voice styles for different content types
+      voiceStyles: {
+        introduction: 'friendly',
+        chapter: 'conversational',
+        conclusion: 'hopeful',
+        motivational: 'cheerful',
+        serious: 'calm',
+        emotional: 'empathetic'
+      },
+      
+      // SSML settings
+      ssmlSettings: {
+        enableAdvancedSSML: true,
+        useVoiceStyles: true,
+        enableProsodyControl: true,
+        enableEmphasis: true,
+        enableBreaks: true
+      }
+    },
+    
+    // Legacy Azure OpenAI TTS settings (fallback)
+    azureOpenAI: {
+      endpoint: process.env.AZURE_TTS_ENDPOINT,
+      apiKey: process.env.AZURE_TTS_KEY,
+      deploymentId: process.env.AZURE_TTS_DEPLOYMENT_ID,
+      apiVersion: '2025-03-01-preview'
+    }
+  },
+
+  // Legacy TTS Settings (for backward compatibility)
+  voice: 'andrew-multilingual', // Default to Andrew Multilingual
   speed: 1.0,    // Speed: 0.25 to 4.0
-  format: 'wav', // Format: mp3, opus, aac, flac, wav.
+  format: 'mp3', // Format: mp3, opus, aac, flac, wav.
 
   // Processing Settings
   maxChunkLength: 4000,     // Maximum characters per TTS request

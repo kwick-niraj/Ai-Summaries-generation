@@ -189,7 +189,13 @@ export class TextOptimizer {
    */
   async applyAudioAIOptimization(text, sectionType, options = {}) {
     const enableSSML = options.enableSSML || false;
-    const systemPrompt = this.getAudioSystemPrompt(sectionType, enableSSML);
+    const provider = options.provider || 'azure-openai';
+    const voiceName = options.voice || 'andrew-multilingual';
+    
+    // Use Azure Speech-specific prompt if provider is azure-speech
+    const systemPrompt = provider === 'azure-speech' 
+      ? this.getAzureSpeechSystemPrompt(sectionType, voiceName, enableSSML)
+      : this.getAudioSystemPrompt(sectionType, enableSSML);
     
     try {
       const response = await this.client.chat.completions.create({
@@ -204,7 +210,9 @@ export class TextOptimizer {
 
       const optimizedContent = response.choices[0].message.content.trim();
       
-      if (enableSSML) {
+      if (enableSSML && provider === 'azure-speech') {
+        console.log('🎵 Generated Azure Speech SSML content for:', sectionType, `(${voiceName})`);
+      } else if (enableSSML) {
         console.log('🎵 Generated SSML-enhanced content for:', sectionType);
       } else {
         console.log('📝 Generated optimized content for:', sectionType);
@@ -365,7 +373,209 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
   - Focus only on improving pacing, tone, structure, and listener experience`;
   
     return basePrompt + ssmlInstructions + (sectionSpecific[sectionType] || sectionSpecific.chapter) + styleAddendum;
-  };
+  }
+
+  /**
+   * Get Azure Speech-specific system prompt with advanced SSML features
+   * @param {string} sectionType - Section type
+   * @param {string} voiceName - Voice name (e.g., 'andrew-multilingual')
+   * @param {boolean} enableAdvancedSSML - Whether to include advanced SSML generation
+   * @returns {string} Azure Speech system prompt
+   */
+  getAzureSpeechSystemPrompt(sectionType, voiceName, enableAdvancedSSML = true) {
+    const basePrompt = `You are an expert Azure Speech Services SSML content creator. Transform the given text into rich, expressive speech markup that leverages the full power of Azure Speech neural voices.
+
+CORE PRINCIPLES:
+- Create natural, engaging spoken-style narration with advanced emotional expression
+- Use Azure Speech's voice styles and prosody for immersive audio experience  
+- Leverage the selected voice's unique characteristics: ${voiceName}
+- Generate complete SSML documents with proper namespace declarations
+- Keep the total length approximately the same as the input (±10%)
+
+VOICE-SPECIFIC OPTIMIZATION:
+${this.getVoiceSpecificGuidelines(voiceName)}
+
+SECTION-SPECIFIC STYLING:
+${this.getSectionSpecificSSML(sectionType)}`;
+
+    const azureSpeechSSML = enableAdvancedSSML ? `
+
+AZURE SPEECH SSML FEATURES:
+Use these advanced Azure Speech Services tags for rich expression:
+
+VOICE STYLES (Primary Feature):
+- <mstts:express-as style="conversational">natural, friendly conversation</mstts:express-as>
+- <mstts:express-as style="friendly">warm, welcoming tone</mstts:express-as>  
+- <mstts:express-as style="hopeful">optimistic, inspiring delivery</mstts:express-as>
+- <mstts:express-as style="cheerful">upbeat, positive energy</mstts:express-as>
+- <mstts:express-as style="empathetic">understanding, compassionate tone</mstts:express-as>
+- <mstts:express-as style="calm">peaceful, relaxed delivery</mstts:express-as>
+
+VOICE SELECTION:
+- <voice name="${this.getAzureVoiceId(voiceName)}">content</voice> for voice consistency
+
+ENHANCED PROSODY:
+- <prosody rate="slow|medium|fast|0.9" pitch="low|medium|high|+10%" volume="soft|medium|loud">enhanced speech control</prosody>
+- <prosody contour="(10%,+20%) (50%,-10%)">pitch contour patterns</prosody>
+
+STRATEGIC BREAKS:
+- <break time="500ms" strength="medium"/> for contextual pauses
+- <mstts:silence type="Leading" value="800ms"/> before important points
+- <mstts:silence type="Tailing" value="1200ms"/> after conclusions
+
+EMPHASIS & EXPRESSION:
+- <emphasis level="reduced|moderate|strong">key term highlighting</emphasis>
+- <phoneme alphabet="ipa" ph="təˈmeɪtoʊ">pronunciation control</phoneme>
+
+COMPLETE SSML STRUCTURE:
+Generate full SSML documents with proper namespaces:
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
+  <voice name="${this.getAzureVoiceId(voiceName)}">
+    <mstts:express-as style="conversational">
+      <prosody rate="0.95" pitch="medium">
+        Your optimized content here...
+      </prosody>
+    </mstts:express-as>
+  </voice>
+</speak>
+
+USAGE GUIDELINES:
+- Use voice styles strategically based on content emotion and section type
+- Apply prosody for section-level changes (introduction slower, conclusion inspiring)
+- Add strategic breaks only between major concepts (not every sentence)
+- Use emphasis sparingly on 1-2 key terms per paragraph
+- Keep SSML markup under 10% of total text
+- Ensure all tags are properly closed and nested` : '';
+
+    const styleAddendum = `
+
+CONTENT TRANSFORMATION:
+- Write for the EAR, not the eye – favor natural speech patterns
+- Use conversational tone with smooth pacing and rhythm
+- Eliminate meta-commentary like "this chapter discusses"
+- Convert lists into conversational sequences
+- Use contractions naturally (you'll, we're, that's)
+- Add rhetorical questions to maintain engagement
+
+SPEECH FORMATTING:
+- Structure content in spoken paragraphs (3-5 sentences each)
+- Use strategic pauses and emphasis for key concepts
+- Maintain energy and engagement throughout
+- Create smooth transitions between ideas
+
+LENGTH RULE:
+- Keep final output within ±10% of input character count
+- Focus on improving expression, pacing, and emotional delivery
+- Do not add new examples or expand content`;
+
+    return basePrompt + azureSpeechSSML + styleAddendum;
+  }
+
+  /**
+   * Get voice-specific guidelines for Azure Speech voices
+   * @param {string} voiceName - Voice name
+   * @returns {string} Voice-specific guidelines
+   */
+  getVoiceSpecificGuidelines(voiceName) {
+    const guidelines = {
+      'andrew-multilingual': `
+- Use "conversational" style for professional authority
+- Apply moderate emphasis to key business terms
+- Use slower rate (0.9) for complex concepts
+- Leverage deep, authoritative tone for serious content`,
+      
+      'nova-turbo-multilingual': `
+- Use "cheerful" style for motivational content
+- Apply strong emphasis for action items
+- Use faster rate (1.1) for energetic delivery
+- Perfect for upbeat, dynamic sections`,
+      
+      'emma-multilingual': `
+- Use "friendly" style for warm storytelling
+- Apply gentle emphasis with empathetic tone
+- Use medium rate with expressive pitch variations
+- Ideal for emotional and personal content`,
+
+      'aria': `
+- Use "cheerful" style for positive, engaging content
+- Apply moderate emphasis with upbeat delivery
+- Use standard rate with bright, clear articulation
+- Great for motivational and inspiring sections`,
+
+      'adam-multilingual': `
+- Use "calm" style for serious, authoritative content
+- Apply strong emphasis for important concepts
+- Use slower rate (0.9) for gravitas
+- Perfect for documentary-style delivery`,
+
+      'brandon-multilingual': `
+- Use "friendly" style for casual, approachable content
+- Apply moderate emphasis with warm delivery
+- Use standard rate with conversational flow
+- Ideal for storytelling and casual explanations`
+    };
+    
+    return guidelines[voiceName] || guidelines['andrew-multilingual'];
+  }
+
+  /**
+   * Get section-specific SSML styling
+   * @param {string} sectionType - Section type
+   * @returns {string} Section-specific guidelines
+   */
+  getSectionSpecificSSML(sectionType) {
+    const sectionStyles = {
+      introduction: `
+- Primary style: "friendly" for welcoming tone
+- Use slower rate (0.9) and leading silence (800ms)
+- Add emphasis to book title and key concepts
+- Create anticipation with strategic pauses
+- End with hopeful, forward-looking delivery`,
+
+      chapter: `
+- Primary style: "conversational" for natural teaching
+- Use standard rate (1.0) with balanced prosody
+- Add emphasis to key terms and concepts (2-3 per paragraph)
+- Use strategic breaks between major ideas
+- Maintain engagement with varied pitch and pace`,
+
+      conclusion: `
+- Primary style: "hopeful" for inspiring finish
+- Use slightly slower rate (0.95) for emphasis
+- Add strong emphasis to key takeaways
+- Use tailing silence (1200ms) for impact
+- End with motivational, empowering tone`
+    };
+
+    return sectionStyles[sectionType] || sectionStyles.chapter;
+  }
+
+  /**
+   * Get Azure Speech voice identifier from friendly name
+   * @param {string} voiceName - Friendly voice name
+   * @returns {string} Azure Speech voice ID
+   */
+  getAzureVoiceId(voiceName) {
+    const voiceMapping = {
+      'andrew-multilingual': 'en-GB-AndrewMultilingualNeural',
+      'nova-turbo-multilingual': 'en-GB-NovaTurboMultilingualNeural',
+      'emma-multilingual': 'en-GB-EmmaMultilingualNeural',
+      'aria': 'en-GB-AriaNeural',
+      'adam-multilingual': 'en-GB-AdamMultilingualNeural',
+      'brandon-multilingual': 'en-GB-BrandonMultilingualNeural',
+      'alloy-turbo-multilingual': 'en-GB-AlloyTurboMultilingualNeural',
+      'steffan-multilingual': 'en-GB-SteffanMultilingualNeural',
+      'amanda-multilingual': 'en-GB-AmandaMultilingualNeural',
+      'derek-multilingual': 'en-GB-DerekMultilingualNeural',
+      'andrew-dragon-hd': 'en-GB-AndrewDragonHDNeural',
+      'jane': 'en-GB-JaneNeural',
+      'jason': 'en-US-JasonNeural',
+      'davis': 'en-US-DavisNeural'
+    };
+    
+    return voiceMapping[voiceName] || 'en-GB-AndrewMultilingualNeural';
+  }
+
   /**
    * Get reading-specific system prompt based on section type
    * @param {string} sectionType - Section type

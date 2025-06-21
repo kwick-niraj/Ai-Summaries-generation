@@ -1,31 +1,29 @@
-import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import dotenv from 'dotenv';
 import { formatForTTS } from '../utils/helpers.js';
+import { TTSProviderFactory } from './providers/TTSProviderFactory.js';
 
 dotenv.config();
 
 const execAsync = promisify(exec);
 
 /**
- * Enhanced audio generator with TTS and audio combination capabilities
+ * Enhanced audio generator with TTS Provider Factory and audio combination capabilities
  */
 export class AudioGenerator {
-  constructor() {
-    // Use the TTS-specific endpoint and credentials
-    this.azureEndpoint = process.env.AZURE_TTS_ENDPOINT;
-    this.azureKey = process.env.AZURE_TTS_KEY;
-    this.deploymentId = process.env.AZURE_TTS_DEPLOYMENT_ID;
-    this.apiVersion = '2025-03-01-preview';
+  constructor(config = {}) {
+    // Initialize TTS Provider Factory
+    this.ttsFactory = new TTSProviderFactory(config);
     
-    // Default TTS settings
+    // Default TTS settings (legacy compatibility)
     this.defaultSettings = {
-      voice: 'nova',
-      format: 'mp3',
-      speed: 1.0
+      voice: config.voice || 'andrew-multilingual',
+      format: config.format || 'mp3',
+      speed: config.speed || 1.0,
+      provider: config.tts?.provider || 'azure-speech'
     };
   }
 
@@ -39,73 +37,21 @@ export class AudioGenerator {
   async generateTTS(text, outputPath, options = {}) {
     const settings = { ...this.defaultSettings, ...options };
     
-    const url = `${this.azureEndpoint}/openai/deployments/${this.deploymentId}/audio/speech?api-version=${this.apiVersion}`;
-    
-    const headers = {
-      'Content-Type': 'application/json',
-      'api-key': this.azureKey
-    };
-
-    // Determine if input is SSML or plain text
-    const isSSML = this.isSSMLInput(text);
-    const inputText = isSSML ? text : text;
-
-    const body = {
-      input: inputText,
-      voice: settings.voice,
-      response_format: settings.format,
-      speed: settings.speed,
-      model: this.deploymentId,
-    };
-
     try {
-      const voiceInfo = settings.voice ? ` (${settings.voice})` : '';
-      const ssmlInfo = isSSML ? ' [SSML]' : '';
-      console.log(`🎵 Generating TTS for: ${path.basename(outputPath)}${voiceInfo}${ssmlInfo}`);
+      // Use TTS Provider Factory for generation
+      const result = await this.ttsFactory.generateTTS(text, outputPath, settings);
       
-      const response = await axios.post(url, body, {
-        headers,
-        responseType: 'arraybuffer',
-        timeout: 60000 // 60 second timeout
-      });
-
-      // Ensure output directory exists
-      fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-      
-      // Write audio file
-      fs.writeFileSync(outputPath, response.data);
-      
-      // Get file stats
-      const stats = fs.statSync(outputPath);
-      
-      console.log(`✅ Audio saved: ${outputPath} (${(stats.size / 1024).toFixed(1)} KB)`);
-      
-      return {
-        success: true,
-        outputPath,
-        fileSize: stats.size,
-        duration: await this.getAudioDuration(outputPath),
-        isSSML,
-        voice: settings.voice
-      };
+      return result;
       
     } catch (error) {
-      console.log('TTS ERROR', error?.message);
-      console.error(`❌ TTS generation failed for ${outputPath}:`, error?.response?.data || error.message);
-      
-      // If SSML failed, try with plain text as fallback
-      if (isSSML && !options.isRetry) {
-        console.log(`🔄 SSML failed, retrying with plain text...`);
-        const plainText = this.extractTextFromSSML(text);
-        return await this.generateTTS(plainText, outputPath, { ...options, isRetry: true });
-      }
+      console.error(`❌ TTS generation failed for ${outputPath}:`, error.message);
       
       return {
         success: false,
         error: error.message,
         outputPath,
-        isSSML,
-        voice: settings.voice
+        voice: settings.voice,
+        provider: settings.provider
       };
     }
   }

@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-06-21T23:06:27.093Z",
+  "region": "eastus",
+  "summary": {
+    "total": 14,
+    "successful": 3,
+    "failed": 11,
+    "successRate": "21.4%"
+  },
+  "results": {
+    "alloy-turbo-multilingual": {
+      "voice": "alloy-turbo-multilingual",
+      "success": true,
+      "tests": [
+        {
+          "style": "conversational",
+          "success": true,
+          "fileSize": 56448,
+          "duration": 9.408,
+          "outputPath": "Audio/test_voices/alloy-turbo-multilingual_conversational.mp3"
+        },
+        {
+          "style": "friendly",
+          "success": true,
+          "fileSize": 55728,
+          "duration": 9.288,
+          "outputPath": "Audio/test_voices/alloy-turbo-multilingual_friendly.mp3"
+        },
+        {
+          "style": "hopeful",
+          "success": true,
+          "fileSize": 108000,
+          "duration": 18,
+          "outputPath": "Audio/test_voices/alloy-turbo-multilingual_hopeful.mp3"
+        }
+      ],
+      "errors": []
+    },
+    "andrew-multilingual": {
+      "voice": "andrew-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "nova-turbo-multilingual": {
+      "voice": "nova-turbo-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "brandon-multilingual": {
+      "voice": "brandon-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "steffan-multilingual": {
+      "voice": "steffan-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "adam-multilingual": {
+      "voice": "adam-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "amanda-multilingual": {
+      "voice": "amanda-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "derek-multilingual": {
+      "voice": "derek-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "andrew-dragon-hd": {
+      "voice": "andrew-dragon-hd",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "emma-multilingual": {
+      "voice": "emma-multilingual",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "aria": {
+      "voice": "aria",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "jane": {
+      "voice": "jane",
+      "success": false,
+      "error": "settings is not defined",
+      "tests": []
+    },
+    "jason": {
+      "voice": "jason",
+      "success": true,
+      "tests": [
+        {
+          "style": "conversational",
+          "success": true,
+          "fileSize": 60192,
+          "duration": 10.032,
+          "outputPath": "Audio/test_voices/jason_conversational.mp3"
+        },
+        {
+          "style": "friendly",
+          "success": true,
+          "fileSize": 57024,
+          "duration": 9.504,
+          "outputPath": "Audio/test_voices/jason_friendly.mp3"
+        },
+        {
+          "style": "hopeful",
+          "success": true,
+          "fileSize": 123696,
+          "duration": 20.616,
+          "outputPath": "Audio/test_voices/jason_hopeful.mp3"
+        }
+      ],
+      "errors": []
+    },
+    "davis": {
+      "voice": "davis",
+      "success": true,
+      "tests": [
+        {
+          "style": "conversational",
+          "success": true,
+          "fileSize": 61200,
+          "duration": 10.2,
+          "outputPath": "Audio/test_voices/davis_conversational.mp3"
+        },
+        {
+          "style": "friendly",
+          "success": true,
+          "fileSize": 57312,
+          "duration": 9.552,
+          "outputPath": "Audio/test_voices/davis_friendly.mp3"
+        },
+        {
+          "style": "hopeful",
+          "success": true,
+          "fileSize": 124704,
+          "duration": 20.784,
+          "outputPath": "Audio/test_voices/davis_hopeful.mp3"
+        }
+      ],
+      "errors": []
+    }
+  },
+  "recommendations": [
+    {
+      "name": "alloy-turbo-multilingual",
+      "successRate": 1,
+      "config": {
+        "primary": "en-US-AlloyTurboMultilingualNeural",
+        "fallback": "en-GB-AlloyTurboMultilingualNeural",
+        "description": "Clear, versatile multilingual voice",
+        "recommended": [
+          "general",
+          "educational"
+        ]
+      }
+    },
+    {
+      "name": "jason",
+      "successRate": 1,
+      "config": {
+        "primary": "en-US-JasonNeural",
+        "fallback": "en-US-JasonNeural",
+        "description": "Casual, friendly male voice",
+        "recommended": [
+          "conversational",
+          "casual"
+        ]
+      }
+    },
+    {
+      "name": "davis",
+      "successRate": 1,
+      "config": {
+        "primary": "en-US-DavisNeural",
+        "fallback": "en-US-DavisNeural",
+        "description": "Deep, authoritative male voice",
+        "recommended": [
+          "serious",
+          "authoritative"
+        ]
+      }
+    }
+  ]
+}
