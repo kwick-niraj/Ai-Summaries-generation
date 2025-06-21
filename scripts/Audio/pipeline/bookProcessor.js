@@ -368,10 +368,8 @@ export class BookProcessor {
         const audioText = audioChunks.join(' ');
         const readingText = readingChunks.join(' ');
         
-        // Generate SSML for audio version if enabled
-        const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-          ? this.optimizer.generateSSML(audioText, 'introduction', voiceConfig.ssmlConfig)
-          : audioText;
+        // Use LLM-generated SSML directly (no additional wrapping needed)
+        const finalAudioContent = audioText;
         
         optimizedAudio.introduction = {
           ...sections.introduction,
@@ -404,10 +402,8 @@ export class BookProcessor {
           const audioText = audioChunks.join(' ');
           const readingText = readingChunks.join(' ');
           
-          // Generate SSML for audio version if enabled
-          const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-            ? this.optimizer.generateSSML(audioText, 'chapter', voiceConfig.ssmlConfig)
-            : audioText;
+          // Use LLM-generated SSML directly (no additional wrapping needed)
+          const finalAudioContent = audioText;
           
           optimizedAudio.chapters.push({
             ...chapter,
@@ -442,10 +438,8 @@ export class BookProcessor {
         const audioText = audioChunks.join(' ');
         const readingText = readingChunks.join(' ');
         
-        // Generate SSML for audio version if enabled
-        const finalAudioContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-          ? this.optimizer.generateSSML(audioText, 'conclusion', voiceConfig.ssmlConfig)
-          : audioText;
+        // Use LLM-generated SSML directly (no additional wrapping needed)
+        const finalAudioContent = audioText;
         
         optimizedAudio.conclusion = {
           ...sections.conclusion,
@@ -528,16 +522,15 @@ export class BookProcessor {
       const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
       const audioChunks = [];
       
-      for (const chunk of chunks) {
-        const result = await this.optimizer.optimizeForListening(chunk, 'introduction');
-        console.log('result of otimizeforListening', result)
-        audioChunks.push(result);
-      }
+        for (const chunk of chunks) {
+          const result = await this.optimizer.optimizeForListening(chunk, 'introduction', { enableSSML: this.config.enableSSML });
+          console.log('result of otimizeforListening', result)
+          audioChunks.push(result);
+        }
       
       const audioText = audioChunks.join(' ');
-      const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-        ? this.optimizer.generateSSML(audioText, 'introduction', voiceConfig.ssmlConfig)
-        : audioText;
+      // Use LLM-generated SSML directly (no additional wrapping needed)
+      const finalContent = audioText;
       
       optimized.introduction = {
         ...sections.introduction,
@@ -551,14 +544,13 @@ export class BookProcessor {
         const audioChunks = [];
         
         for (const chunk of chunks) {
-          const result = await this.optimizer.optimizeForListening(chunk, 'chapter');
+          const result = await this.optimizer.optimizeForListening(chunk, 'chapter', { enableSSML: this.config.enableSSML });
           audioChunks.push(result);
         }
         
         const audioText = audioChunks.join(' ');
-        const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-          ? this.optimizer.generateSSML(audioText, 'chapter', voiceConfig.ssmlConfig)
-          : audioText;
+        // Use LLM-generated SSML directly (no additional wrapping needed)
+        const finalContent = audioText;
         
         optimized.chapters.push({
           ...chapter,
@@ -572,14 +564,13 @@ export class BookProcessor {
       const audioChunks = [];
       
       for (const chunk of chunks) {
-        const result = await this.optimizer.optimizeForListening(chunk, 'conclusion');
+        const result = await this.optimizer.optimizeForListening(chunk, 'conclusion', { enableSSML: this.config.enableSSML });
         audioChunks.push(result);
       }
       
       const audioText = audioChunks.join(' ');
-      const finalContent = this.config.enableSSML && voiceConfig?.ssmlConfig
-        ? this.optimizer.generateSSML(audioText, 'conclusion', voiceConfig.ssmlConfig)
-        : audioText;
+      // Use LLM-generated SSML directly (no additional wrapping needed)
+      const finalContent = audioText;
       
       optimized.conclusion = {
         ...sections.conclusion,

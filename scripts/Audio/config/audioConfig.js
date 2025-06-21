@@ -26,7 +26,7 @@ export const audioConfig = {
   // Processing Options
   skipExisting: true,       // Skip books that already have audio files
   optimizeText: true,       // Use AI to optimize text for audio
-  generateSSML: false,      // Generate SSML markup (experimental)
+  generateSSML: true,       // Generate SSML markup for enhanced emotional expression
   
   // Text Optimization Caching
   useOptimizedTextCache: true,        // Enable/disable caching of optimized text
@@ -132,8 +132,9 @@ export const processingPresets = {
   balanced: {
     ...audioConfig,
     optimizeText: true,
-    enableSSML: false,
+    enableSSML: true,
     intelligentVoiceSelection: true,
+    generateSSML: true,
     useOptimizedTextCache: true,
     cacheStrategy: 'smart',
     cacheValidityDays: 30,

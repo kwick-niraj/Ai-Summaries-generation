@@ -51,13 +51,13 @@ export class TextOptimizer {
    */
   async optimizeForListening(text, sectionType = 'chapter', options = {}) {
     try {
-      console.log(`🎧 Optimizing for audio: ${sectionType}`);
+      console.log(`🎧 Optimizing for audio: ${sectionType}${options.enableSSML ? ' (with SSML)' : ''}`);
       
       // Clean and prepare the text
       const cleanedText = this.cleanMarkdownText(text);
       
       // Apply AI-based optimization for conversational audio
-      const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType);
+      const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType, options);
 
       console.log('niraj optimizedText', optimizedText);
       
@@ -184,10 +184,12 @@ export class TextOptimizer {
    * Apply AI-based optimization specifically for audio/listening
    * @param {string} text - Cleaned text
    * @param {string} sectionType - Section type
+   * @param {Object} options - Optimization options
    * @returns {Promise<string>} Audio-optimized text
    */
-  async applyAudioAIOptimization(text, sectionType) {
-    const systemPrompt = this.getAudioSystemPrompt(sectionType);
+  async applyAudioAIOptimization(text, sectionType, options = {}) {
+    const enableSSML = options.enableSSML || false;
+    const systemPrompt = this.getAudioSystemPrompt(sectionType, enableSSML);
     
     try {
       const response = await this.client.chat.completions.create({
@@ -200,9 +202,15 @@ export class TextOptimizer {
         max_tokens: 2000,
       });
 
-      console.log('Listening response AI Text', sectionType, '\n:', response.choices[0].message.content)
+      const optimizedContent = response.choices[0].message.content.trim();
+      
+      if (enableSSML) {
+        console.log('🎵 Generated SSML-enhanced content for:', sectionType);
+      } else {
+        console.log('📝 Generated optimized content for:', sectionType);
+      }
 
-      return response.choices[0].message.content.trim();
+      return optimizedContent;
     } catch (error) {
       console.error('Audio AI optimization failed:', error);
       throw error;
@@ -250,12 +258,13 @@ export class TextOptimizer {
   /**
    * Get audio-specific system prompt based on section type
    * @param {string} sectionType - Section type
+   * @param {boolean} enableSSML - Whether to include SSML generation instructions
    * @returns {string} Audio system prompt
    */
-  getAudioSystemPrompt(sectionType) {
+  getAudioSystemPrompt(sectionType, enableSSML = false) {
     const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
   
-  Speak as if you’re talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
+  Speak as if you're talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
   
   CORE PRINCIPLES:
   - Write for the EAR, not the eye – favor natural, speech-based sentence structure
@@ -264,6 +273,28 @@ export class TextOptimizer {
   - Use ellipses (...) to mark short pauses and verbal rhythm
   - Never expand with new examples or add content not in the original
   - Eliminate meta-commentary like "this chapter discusses" or "in this section"`;
+
+    const ssmlInstructions = enableSSML ? `
+
+  SIMPLIFIED SSML ENHANCEMENT:
+  Add minimal, strategic SSML markup for natural speech flow (NO XML declarations):
+
+  SUPPORTED TAGS (OpenAI Compatible):
+  - <break time="0.3s"/> to <break time="0.8s"/> for brief pauses
+  - <emphasis level="moderate"> for key terms only
+  - <prosody rate="0.95"> to <prosody rate="1.05"> for subtle pace changes
+
+  CONSERVATIVE USAGE GUIDELINES:
+  - Use <break time="0.5s"/> ONLY between major concepts (not every sentence)
+  - Add <emphasis level="moderate"> to 1-2 most important terms per paragraph
+  - Apply prosody sparingly for section-level changes only
+  - Keep SSML markup under 5% of total text
+  - NO XML declarations, NO <speak> wrapper tags
+  - Output plain text with embedded SSML tags only
+
+  EXAMPLES:
+  "Welcome to this transformative journey. <break time="0.5s"/> The key concept is <emphasis level="moderate">financial literacy</emphasis>."
+  "Let's explore this together... <break time="0.3s"/> Here's what you need to know."` : '';
 
     const sectionSpecific = {
       introduction: `
@@ -439,6 +470,9 @@ AVOID:
       // Remove quotes
       .replace(/"/g, '')
       .replace(/'/g, "'");
+
+    // Remove duplicate sentences to prevent repetition in audio
+    formatted = this.removeDuplicateSentences(formatted);
   
     return formatted;
   }
@@ -825,6 +859,42 @@ AVOID:
 
     // Default: insert at the beginning of a paragraph that seems relevant
     return 0;
+  }
+
+  /**
+   * Remove duplicate sentences to prevent repetition in audio
+   * @param {string} text - Text to process
+   * @returns {string} Text with duplicates removed
+   */
+  removeDuplicateSentences(text) {
+    try {
+      // Split text into sentences
+      const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+      const uniqueSentences = [];
+      const seenSentences = new Set();
+
+      for (const sentence of sentences) {
+        const cleanSentence = sentence.trim().toLowerCase()
+          // Remove SSML tags for comparison
+          .replace(/<[^>]*>/g, '')
+          // Normalize whitespace
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        // Only add if we haven't seen this sentence before
+        if (cleanSentence && !seenSentences.has(cleanSentence)) {
+          seenSentences.add(cleanSentence);
+          uniqueSentences.push(sentence.trim());
+        } else if (cleanSentence) {
+          console.log(`🔄 Removed duplicate sentence: "${sentence.trim().substring(0, 50)}..."`);
+        }
+      }
+
+      return uniqueSentences.join(' ');
+    } catch (error) {
+      console.warn('Failed to remove duplicate sentences:', error);
+      return text; // Return original text if deduplication fails
+    }
   }
 
   /**
