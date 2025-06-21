@@ -4,6 +4,7 @@ import path from 'path';
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import dotenv from 'dotenv';
+import { formatForTTS } from '../utils/helpers.js';
 
 dotenv.config();
 
@@ -172,7 +173,7 @@ export class AudioGenerator {
       if (sections.introduction) {
         console.log('\n📖 Processing Introduction...');
         const introResult = await this.generateSectionAudio(
-          sections.introduction,
+          formatForTTS(sections.introduction),
           'introduction',
           bookId,
           outputDir,
@@ -192,7 +193,7 @@ export class AudioGenerator {
           console.log(`\n📄 Processing Chapter ${chapter.number}: ${chapter.title}`);
           
           const chapterResult = await this.generateSectionAudio(
-            chapter,
+            formatForTTS(chapter),
             'chapter',
             bookId,
             outputDir,
@@ -213,7 +214,7 @@ export class AudioGenerator {
       if (sections.conclusion) {
         console.log('\n🎯 Processing Conclusion...');
         const conclusionResult = await this.generateSectionAudio(
-          sections.conclusion,
+          formatForTTS(sections.conclusion),
           'conclusion',
           bookId,
           outputDir,

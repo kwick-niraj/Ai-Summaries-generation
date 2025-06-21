@@ -262,18 +262,20 @@ export class TextOptimizer {
   - Use a warm, conversational tone with smooth pacing
   - Keep the listener engaged with rhetorical devices and real-world language
   - Use ellipses (...) to mark short pauses and verbal rhythm
-  - Never expand with new examples or add content not in the original`;
-    
+  - Never expand with new examples or add content not in the original
+  - Eliminate meta-commentary like "this chapter discusses" or "in this section"`;
+
     const sectionSpecific = {
       introduction: `
 INTRODUCTION-SPECIFIC GUIDELINES:
 - Create a warm, welcoming opening that draws listeners in immediately
 - Replace formal "Introduction" language with engaging hooks
-- Use phrases like "Welcome to this journey", "Let's explore together", "Here's what we're going to discover"
+- Use phrases like for example: "Welcome to this journey", "Let's explore together", "Here's what we're going to discover", these are just example, you can explore new phrases like this.
 - Set expectations in a conversational way
 - Build curiosity and anticipation
 - Make the listener feel they're about to learn something valuable
 - Use inclusive language ("we", "us", "together")
+- Add a welcoming, inviting sentence with book title and author name.
 
 OPENING STYLE: Warm, inviting, curiosity-building`,
 
@@ -318,10 +320,7 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
   - Use ellipses (...) for natural pauses within sentences
   
   ⚠️ AVOID:
-  - Meta-references like:
-    • "In this book..."
-    • "The author says..."
-    • "This chapter explores..."
+  - Meta-references to the text itself
   - Academic or formal language
   - Dense, unbroken text blocks (NEVER!)
   - Paragraphs longer than 5 sentences

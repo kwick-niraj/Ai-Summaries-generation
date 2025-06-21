@@ -50,7 +50,20 @@ export function splitIntoAudioChunks(fullText, limit = 2000) {
   return chunks;
 }
 
+export function formatForTTS(content) {
+  const contentObj = content;
+  const cont = contentObj.content
+    // Replace single line breaks within paragraphs with ellipses
+    .replace(/([^\n])\n([^\n])/g, '$1 ... $2')
+    // Normalize any multiple newlines to double breaks (optional)
+    .replace(/\n{2,}/g, '\n\n');
+    contentObj.content = cont;
+  console.log('cont', cont, 'contObj', contentObj);
+  return contentObj
+};
+
 export default {
   prepareAudioSAML,
-  splitIntoAudioChunks
+  splitIntoAudioChunks,
+  formatForTTS
 }

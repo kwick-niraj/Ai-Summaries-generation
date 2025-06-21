@@ -1,0 +1,417 @@
+{
+  "bookId": "2621",
+  "timestamp": "2025-06-21T13:41:20.432Z",
+  "success": false,
+  "processingTime": -1750512958227,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3588,
+    "totalAudioFiles": 14,
+    "totalDuration": 1744.0499999999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 1744.0499999999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/2621/optimized_text/2621.md",
+    "fileSize": 29274,
+    "wordCount": 4084,
+    "format": "markdown",
+    "filename": "2621.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/2621/metadata/2621_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1744.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova",
+    "confidence": 92,
+    "reasoning": "Nova's friendly, expressive, and accessible tone is ideal for a conversational, tip-based self-help book aimed at a broad adult audience. The book's practical, encouraging style and focus on relatable, actionable advice align well with Nova's ability to engage listeners and make complex ideas feel approachable. Nova also balances clarity and warmth, making her well-suited to narrate both the instructional and anecdotal elements of the book.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": false,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/2621/2621_complete.wav",
+    "duration": 1744.05,
+    "fileSize": 83714478,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/2621/introduction.wav",
+          "duration": 72,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72,
+          "startTime": 0,
+          "endTime": 72
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_01_part1.wav",
+          "duration": 175.1,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 1 The Power of First Impressions and Nonverbal Cues",
+          "actualDuration": 175.1,
+          "startTime": 73.5,
+          "endTime": 248.6
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_01_part2.wav",
+          "duration": 23.6,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 1 The Power of First Impressions and Nonverbal Cues",
+          "actualDuration": 23.6,
+          "startTime": 248.6,
+          "endTime": 272.2
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_02.wav",
+          "duration": 174.95,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 2 Building Rapport Through Listening and Subtle Mimicry",
+          "actualDuration": 174.95,
+          "startTime": 273.7,
+          "endTime": 448.65
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_03.wav",
+          "duration": 157.65,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation",
+          "actualDuration": 157.65,
+          "startTime": 450.15,
+          "endTime": 607.8
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_04_part1.wav",
+          "duration": 169.45,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 4 Adapting Communication to Social and Professional Contexts",
+          "actualDuration": 169.45,
+          "startTime": 609.3,
+          "endTime": 778.75
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_04_part2.wav",
+          "duration": 10.05,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 4 Adapting Communication to Social and Professional Contexts",
+          "actualDuration": 10.05,
+          "startTime": 778.75,
+          "endTime": 788.8
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_05.wav",
+          "duration": 143.15,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 5 Practicing Confidence and Warmth for Lasting Impressions",
+          "actualDuration": 143.15,
+          "startTime": 790.3,
+          "endTime": 933.4499999999999
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_06.wav",
+          "duration": 157.2,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 6 Deepening Connections Through Vulnerability and Shared Experience",
+          "actualDuration": 157.2,
+          "startTime": 934.9499999999999,
+          "endTime": 1092.1499999999999
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_07.wav",
+          "duration": 152.8,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 7 Navigating Difficult Conversations with Grace and Clarity",
+          "actualDuration": 152.8,
+          "startTime": 1093.6499999999999,
+          "endTime": 1246.4499999999998
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_08.wav",
+          "duration": 117.75,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 8 Sustaining Relationships Through Consistency and Follow-Through",
+          "actualDuration": 117.75,
+          "startTime": 1247.9499999999998,
+          "endTime": 1365.6999999999998
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_09.wav",
+          "duration": 132.55,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies",
+          "actualDuration": 132.55,
+          "startTime": 1367.1999999999998,
+          "endTime": 1499.7499999999998
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_10.wav",
+          "duration": 117.3,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Audio Audio Audio Audio Audio Audio Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life",
+          "actualDuration": 117.3,
+          "startTime": 1501.2499999999998,
+          "endTime": 1618.5499999999997
+        },
+        {
+          "path": "Audio/output/test/2621/conclusion.wav",
+          "duration": 140.5,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.5,
+          "startTime": 1620.0499999999997,
+          "endTime": 1760.5499999999997
+        }
+      ],
+      "totalDuration": 1760.5499999999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72,
+          "actualStart": 0,
+          "actualEnd": 72,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 1 The Power of First Impressions and Nonverbal Cues",
+          "expectedStart": 72,
+          "expectedEnd": 270.7,
+          "actualStart": 73.5,
+          "actualEnd": 248.6,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 2 Building Rapport Through Listening and Subtle Mimicry",
+          "expectedStart": 270.7,
+          "expectedEnd": 445.65,
+          "actualStart": 273.7,
+          "actualEnd": 448.65,
+          "timeDifference": 3
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation",
+          "expectedStart": 445.65,
+          "expectedEnd": 603.3,
+          "actualStart": 450.15,
+          "actualEnd": 607.8,
+          "timeDifference": 4.5
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 4 Adapting Communication to Social and Professional Contexts",
+          "expectedStart": 603.3,
+          "expectedEnd": 782.8,
+          "actualStart": 609.3,
+          "actualEnd": 778.75,
+          "timeDifference": 6
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 5 Practicing Confidence and Warmth for Lasting Impressions",
+          "expectedStart": 782.8,
+          "expectedEnd": 925.95,
+          "actualStart": 790.3,
+          "actualEnd": 933.4499999999999,
+          "timeDifference": 7.5
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 6 Deepening Connections Through Vulnerability and Shared Experience",
+          "expectedStart": 925.95,
+          "expectedEnd": 1083.15,
+          "actualStart": 934.9499999999999,
+          "actualEnd": 1092.1499999999999,
+          "timeDifference": 8.999999999999886
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 7 Navigating Difficult Conversations with Grace and Clarity",
+          "expectedStart": 1083.15,
+          "expectedEnd": 1235.95,
+          "actualStart": 1093.6499999999999,
+          "actualEnd": 1246.4499999999998,
+          "timeDifference": 10.499999999999773
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 8 Sustaining Relationships Through Consistency and Follow-Through",
+          "expectedStart": 1235.95,
+          "expectedEnd": 1353.7,
+          "actualStart": 1247.9499999999998,
+          "actualEnd": 1365.6999999999998,
+          "timeDifference": 11.999999999999773
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies",
+          "expectedStart": 1353.7,
+          "expectedEnd": 1486.25,
+          "actualStart": 1367.1999999999998,
+          "actualEnd": 1499.7499999999998,
+          "timeDifference": 13.499999999999773
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Audio Audio Audio Audio Audio Audio Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life",
+          "expectedStart": 1486.25,
+          "expectedEnd": 1603.55,
+          "actualStart": 1501.2499999999998,
+          "actualEnd": 1618.5499999999997,
+          "timeDifference": 14.999999999999773
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1603.55,
+          "expectedEnd": 1744.05,
+          "actualStart": 1620.0499999999997,
+          "actualEnd": 1760.5499999999997,
+          "timeDifference": 16.499999999999773
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Audio Audio Audio Audio Audio Audio Chapter 1 The Power of First Impressions and Nonverbal Cues"
+        },
+        {
+          "startTime": 272.2,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 1 The Power of First Impressions and Nonverbal Cues and Audio Audio Audio Audio Audio Audio Chapter 2 Building Rapport Through Listening and Subtle Mimicry"
+        },
+        {
+          "startTime": 448.65,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 2 Building Rapport Through Listening and Subtle Mimicry and Audio Audio Audio Audio Audio Audio Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation"
+        },
+        {
+          "startTime": 607.8,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation and Audio Audio Audio Audio Audio Audio Chapter 4 Adapting Communication to Social and Professional Contexts"
+        },
+        {
+          "startTime": 788.8,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 4 Adapting Communication to Social and Professional Contexts and Audio Audio Audio Audio Audio Audio Chapter 5 Practicing Confidence and Warmth for Lasting Impressions"
+        },
+        {
+          "startTime": 933.4499999999999,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 5 Practicing Confidence and Warmth for Lasting Impressions and Audio Audio Audio Audio Audio Audio Chapter 6 Deepening Connections Through Vulnerability and Shared Experience"
+        },
+        {
+          "startTime": 1092.1499999999999,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 6 Deepening Connections Through Vulnerability and Shared Experience and Audio Audio Audio Audio Audio Audio Chapter 7 Navigating Difficult Conversations with Grace and Clarity"
+        },
+        {
+          "startTime": 1246.4499999999998,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 7 Navigating Difficult Conversations with Grace and Clarity and Audio Audio Audio Audio Audio Audio Chapter 8 Sustaining Relationships Through Consistency and Follow-Through"
+        },
+        {
+          "startTime": 1365.6999999999998,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 8 Sustaining Relationships Through Consistency and Follow-Through and Audio Audio Audio Audio Audio Audio Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies"
+        },
+        {
+          "startTime": 1499.7499999999998,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies and Audio Audio Audio Audio Audio Audio Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life"
+        },
+        {
+          "startTime": 1618.5499999999997,
+          "duration": 1.5,
+          "reason": "Gap between Audio Audio Audio Audio Audio Audio Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": false,
+    "expressiveAudio": false
+  }
+}

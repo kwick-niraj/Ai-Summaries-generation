@@ -59,11 +59,7 @@ export class VoiceSelectionProvider {
       reasoning,
       provider: this.getName(),
       timestamp: new Date().toISOString(),
-      metadata: {
-        title: metadata.title,
-        author: metadata.author,
-        genre: metadata.genre
-      }
+      metadata,
     };
   }
 
@@ -75,26 +71,26 @@ export class VoiceSelectionProvider {
     return {
       // Male/Female (confirmed ones)
       alloy: {
-        gender: 'female',
+        gender: 'male',
         tone: 'warm',
         style: 'grounded',
         personality: 'conversational',
         bestFor: ['self-help', 'personal-development', 'wellness', 'general-audience']
       },
-      ash: {
-        gender: 'male',
-        tone: 'crisp',
-        style: 'confident',
-        personality: 'articulate',
-        bestFor: ['business', 'leadership', 'professional', 'corporate', 'finance']
-      },
-      coral: {
-        gender: 'female',
-        tone: 'bright',
-        style: 'young',
-        personality: 'emotional',
-        bestFor: ['motivational', 'lifestyle', 'youth-oriented', 'inspirational']
-      },
+      // ash: {
+      //   gender: 'male',
+      //   tone: 'crisp',
+      //   style: 'confident',
+      //   personality: 'articulate',
+      //   bestFor: ['business', 'leadership', 'professional', 'corporate', 'finance']
+      // },
+      // coral: {
+      //   gender: 'female',
+      //   tone: 'bright',
+      //   style: 'young',
+      //   personality: 'emotional',
+      //   bestFor: ['motivational', 'lifestyle', 'youth-oriented', 'inspirational']
+      // },
       echo: {
         gender: 'female',
         tone: 'soft',
@@ -123,13 +119,13 @@ export class VoiceSelectionProvider {
         personality: 'cinematic',
         bestFor: ['authoritative', 'biography', 'history', 'heavy-topics', 'dramatic']
       },
-      sage: {
-        gender: 'male',
-        tone: 'mature',
-        style: 'wise',
-        personality: 'experienced',
-        bestFor: ['philosophy', 'wisdom', 'academic', 'intellectual', 'mentorship']
-      },
+      // sage: {
+      //   gender: 'male',
+      //   tone: 'mature',
+      //   style: 'wise',
+      //   personality: 'experienced',
+      //   bestFor: ['philosophy', 'wisdom', 'academic', 'intellectual', 'mentorship']
+      // },
       shimmer: {
         gender: 'female',
         tone: 'clear',
@@ -139,20 +135,20 @@ export class VoiceSelectionProvider {
       },
   
       // New Additions (inferred)
-      ballad: {
-        gender: 'female',
-        tone: 'musical',
-        style: 'poetic',
-        personality: 'lyrical',
-        bestFor: ['emotive-fiction', 'poetry', 'narrative', 'audiobooks']
-      },
-      verse: {
-        gender: 'male',
-        tone: 'lyrical',
-        style: 'dramatic',
-        personality: 'performative',
-        bestFor: ['storytelling', 'spiritual', 'theatrical', 'fiction']
-      }
+      // ballad: {
+      //   gender: 'female',
+      //   tone: 'musical',
+      //   style: 'poetic',
+      //   personality: 'lyrical',
+      //   bestFor: ['emotive-fiction', 'poetry', 'narrative', 'audiobooks']
+      // },
+      // verse: {
+      //   gender: 'male',
+      //   tone: 'lyrical',
+      //   style: 'dramatic',
+      //   personality: 'performative',
+      //   bestFor: ['storytelling', 'spiritual', 'theatrical', 'fiction']
+      // }
     };
   }
 };
