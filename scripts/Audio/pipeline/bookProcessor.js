@@ -318,7 +318,7 @@ export class BookProcessor {
           // Full cache hit - apply SSML if needed
           if (cachedResult.audio && this.config.enableSSML && voiceConfig?.ssmlConfig) {
             console.log('🎵 Applying SSML to cached audio content...');
-            cachedResult.audio = this.applySSMLToSections(cachedResult.audio, voiceConfig);
+            // cachedResult.audio = this.applySSMLToSections(cachedResult.audio, voiceConfig);
           }
           
           return {
@@ -360,7 +360,7 @@ export class BookProcessor {
         const readingChunks = [];
         
         for (const chunk of chunks) {
-          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'introduction');
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'introduction', this.config);
           audioChunks.push(dualResult.audio);
           readingChunks.push(dualResult.reading);
         }
@@ -394,7 +394,7 @@ export class BookProcessor {
           const readingChunks = [];
           
           for (const chunk of chunks) {
-            const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'chapter');
+            const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'chapter', this.config);
             audioChunks.push(dualResult.audio);
             readingChunks.push(dualResult.reading);
           }
@@ -430,7 +430,7 @@ export class BookProcessor {
         const readingChunks = [];
         
         for (const chunk of chunks) {
-          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'conclusion');
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'conclusion', this.config);
           audioChunks.push(dualResult.audio);
           readingChunks.push(dualResult.reading);
         }

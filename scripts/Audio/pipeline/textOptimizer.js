@@ -279,13 +279,15 @@ export class TextOptimizer {
   SIMPLIFIED SSML ENHANCEMENT:
   Add minimal, strategic SSML markup for natural speech flow (NO XML declarations):
 
-  SUPPORTED TAGS (OpenAI Compatible):
-  - <break time="0.3s"/> to <break time="0.8s"/> for brief pauses
-  - <emphasis level="moderate"> for key terms only
-  - <prosody rate="0.95"> to <prosody rate="1.05"> for subtle pace changes
+  SUPPORTED TAGS (OpenAI TTS Compatible):
+  - <break time="300ms"/> to <break time="800ms"/> — for inserting brief pauses between phrases.
+  - <emphasis level="moderate" | "strong" | "reduced">important phrase</emphasis> — for emphasizing key terms (avoid overuse).
+  - <prosody rate="90%" | "slow" pitch="+10%" | "-5%" volume="loud">subtle pacing or tone change</prosody> — for modulating speech speed, pitch, or volume.
+
+  Note: Inside each tag, values separated by "|" indicate alternatives — use only one per attribute.
 
   CONSERVATIVE USAGE GUIDELINES:
-  - Use <break time="0.5s"/> ONLY between major concepts (not every sentence)
+  - Use <break time="500ms"/> ONLY between major concepts (not every sentence)
   - Add <emphasis level="moderate"> to 1-2 most important terms per paragraph
   - Apply prosody sparingly for section-level changes only
   - Keep SSML markup under 5% of total text
@@ -362,7 +364,7 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
   - Do not add examples or side-notes
   - Focus only on improving pacing, tone, structure, and listener experience`;
   
-    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + styleAddendum;
+    return basePrompt + ssmlInstructions + (sectionSpecific[sectionType] || sectionSpecific.chapter) + styleAddendum;
   };
   /**
    * Get reading-specific system prompt based on section type
@@ -468,11 +470,11 @@ AVOID:
       .replace(/:\s*([A-Z])/g, ': $1')
   
       // Remove quotes
-      .replace(/"/g, '')
-      .replace(/'/g, "'");
+      // .replace(/"/g, '')
+      // .replace(/'/g, "'");
 
     // Remove duplicate sentences to prevent repetition in audio
-    formatted = this.removeDuplicateSentences(formatted);
+    // formatted = this.removeDuplicateSentences(formatted);
   
     return formatted;
   }
