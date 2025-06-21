@@ -1,0 +1,152 @@
+{
+  "bookId": "2621",
+  "timestamp": "2025-06-21T23:15:55.814Z",
+  "success": false,
+  "processingTime": -1750547663443,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3588,
+    "totalAudioFiles": 22,
+    "totalDuration": 0
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 22,
+    "successful": 0,
+    "failed": 22,
+    "duration": 0
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/2621/optimized_text/2621.md",
+    "fileSize": 30090,
+    "wordCount": 4165,
+    "format": "markdown",
+    "filename": "2621.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/2621/metadata/2621_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 0,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova",
+    "confidence": 92,
+    "reasoning": "Nova's friendly, expressive, and accessible style aligns perfectly with the book's conversational, encouraging, and practical tone. The content is designed to be approachable and motivating for a wide adult audience, requiring a narrator who can engage listeners, make tips memorable, and maintain a positive, relatable energy throughout. Nova's voice best supports the book's goal of making social skills feel attainable and enjoyable, without being overly formal or detached.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": null,
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2621",
+      "selectedVoice": "nova",
+      "voiceCharacteristics": {
+        "gender": "female",
+        "tone": "friendly",
+        "style": "expressive",
+        "personality": "approachable",
+        "bestFor": [
+          "general-audience",
+          "accessible",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "Nova's friendly, expressive, and accessible style aligns perfectly with the book's conversational, encouraging, and practical tone. The content is designed to be approachable and motivating for a wide adult audience, requiring a narrator who can engage listeners, make tips memorable, and maintain a positive, relatable energy throughout. Nova's voice best supports the book's goal of making social skills feel attainable and enjoyable, without being overly formal or detached.",
+      "provider": "azure",
+      "timestamp": "2025-06-21T23:14:25.747Z",
+      "ssmlConfig": {
+        "voice": "nova",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "0.95",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "0.98",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

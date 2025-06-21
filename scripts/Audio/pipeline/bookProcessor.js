@@ -15,15 +15,6 @@ import { TextCacheManager } from './textCacheManager.js';
  */
 export class BookProcessor {
   constructor(options = {}) {
-    this.parser = new MarkdownParser();
-    this.optimizer = new TextOptimizer();
-    this.audioGenerator = new AudioGenerator();
-    this.textSaver = new OptimizedTextSaver();
-    this.timestampGenerator = new ChapterTimestampGenerator();
-    this.audioMerger = new AudioMerger();
-    this.formatConverter = new FormatConverter();
-    this.voiceSelector = new VoiceSelector();
-    
     this.config = {
       inputDir: options.inputDir || './FinalAllSummaries',
       outputDir: options.outputDir || 'scripts/Audio/output',
@@ -40,6 +31,16 @@ export class BookProcessor {
       intelligentVoiceSelection: options.intelligentVoiceSelection !== false, // Default true
       ...options
     };
+
+    // Initialize components with configuration
+    this.parser = new MarkdownParser();
+    this.optimizer = new TextOptimizer();
+    this.audioGenerator = new AudioGenerator(this.config);
+    this.textSaver = new OptimizedTextSaver();
+    this.timestampGenerator = new ChapterTimestampGenerator();
+    this.audioMerger = new AudioMerger();
+    this.formatConverter = new FormatConverter();
+    this.voiceSelector = new VoiceSelector();
 
     // Initialize text cache manager with configuration
     this.cacheManager = new TextCacheManager(this.config);

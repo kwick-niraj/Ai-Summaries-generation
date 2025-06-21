@@ -15,7 +15,7 @@ const execAsync = promisify(exec);
  */
 export class AudioGenerator {
   constructor(config = {}) {
-    // Initialize TTS Provider Factory
+    // Initialize TTS Provider Factory with proper config structure
     this.ttsFactory = new TTSProviderFactory(config);
     
     // Default TTS settings (legacy compatibility)

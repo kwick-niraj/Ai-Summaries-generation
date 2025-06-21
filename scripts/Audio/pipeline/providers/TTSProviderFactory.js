@@ -1,5 +1,5 @@
 import { AzureSpeechTTSProvider } from './AzureSpeechTTSProvider.js';
-import { AudioGenerator } from '../audioGenerator.js';
+import { AzureOpenAITTSProvider } from './AzureOpenAITTSProvider.js';
 
 /**
  * TTS Provider Factory
@@ -21,11 +21,14 @@ export class TTSProviderFactory {
    */
   initializeProviders() {
     try {
+
       // Initialize Azure Speech Services provider
       if (this.config.tts?.azureSpeech) {
         const azureSpeechProvider = new AzureSpeechTTSProvider(this.config.tts.azureSpeech);
         this.providers.set('azure-speech', azureSpeechProvider);
         console.log('✅ Azure Speech Services provider initialized');
+      } else {
+        console.warn('⚠️  Azure Speech configuration not found in config.tts.azureSpeech');
       }
 
       // Initialize Azure OpenAI provider (legacy/fallback)
@@ -33,10 +36,16 @@ export class TTSProviderFactory {
         const azureOpenAIProvider = new AzureOpenAITTSProvider(this.config.tts.azureOpenAI);
         this.providers.set('azure-openai', azureOpenAIProvider);
         console.log('✅ Azure OpenAI TTS provider initialized (fallback)');
+      } else {
+        console.warn('⚠️  Azure OpenAI configuration not found in config.tts.azureOpenAI');
       }
 
       console.log(`🔧 TTS Factory: ${this.providers.size} providers available`);
       console.log(`🎯 Primary: ${this.primaryProvider}, Fallback: ${this.fallbackProvider}`);
+
+      if (this.providers.size === 0) {
+        throw new Error('No TTS providers could be initialized. Check your configuration.');
+      }
 
     } catch (error) {
       console.error('❌ Failed to initialize TTS providers:', error.message);
@@ -253,77 +262,5 @@ export class TTSProviderFactory {
   }
 }
 
-/**
- * Azure OpenAI TTS Provider (Legacy/Fallback)
- * Wrapper around existing AudioGenerator for compatibility
- */
-class AzureOpenAITTSProvider {
-  constructor(config = {}) {
-    this.config = config;
-    this.audioGenerator = new AudioGenerator();
-  }
-
-  /**
-   * Generate TTS using Azure OpenAI (legacy method)
-   * @param {string} text - Text to convert
-   * @param {string} outputPath - Output path
-   * @param {Object} options - Options
-   * @returns {Promise<Object>} Result
-   */
-  async generateTTS(text, outputPath, options = {}) {
-    try {
-      // Map new options to legacy format
-      const legacyOptions = {
-        voice: options.voice || 'nova',
-        format: options.format || 'mp3',
-        speed: options.speed || 1.0
-      };
-      
-      const result = await this.audioGenerator.generateTTS(text, outputPath, legacyOptions);
-      
-      return {
-        ...result,
-        provider: 'azure-openai'
-      };
-      
-    } catch (error) {
-      return {
-        success: false,
-        error: error.message,
-        outputPath,
-        provider: 'azure-openai'
-      };
-    }
-  }
-
-  /**
-   * Get provider information
-   * @returns {Object} Provider details
-   */
-  getProviderInfo() {
-    return {
-      name: 'Azure OpenAI TTS',
-      type: 'azure-openai',
-      supportsSSML: false,
-      supportsVoiceStyles: false,
-      supportedVoices: ['alloy', 'echo', 'fable', 'nova', 'onyx', 'shimmer']
-    };
-  }
-
-  /**
-   * Get available voices
-   * @returns {Array} Available voices
-   */
-  getAvailableVoices() {
-    return [
-      { id: 'alloy', name: 'alloy', description: 'Neutral, balanced voice' },
-      { id: 'echo', name: 'echo', description: 'Clear, professional voice' },
-      { id: 'fable', name: 'fable', description: 'Warm, storytelling voice' },
-      { id: 'nova', name: 'nova', description: 'Friendly, conversational voice' },
-      { id: 'onyx', name: 'onyx', description: 'Deep, authoritative voice' },
-      { id: 'shimmer', name: 'shimmer', description: 'Expressive, engaging voice' }
-    ];
-  }
-}
 
 export default TTSProviderFactory;
