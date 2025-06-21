@@ -58,9 +58,13 @@ export class TextOptimizer {
       
       // Apply AI-based optimization for conversational audio
       const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType);
+
+      console.log('niraj optimizedText', optimizedText);
       
       // Apply final audio-specific formatting
       const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
+
+      console.log('AudioReady Text', audioReadyText);
       
       return audioReadyText;
     } catch (error) {
@@ -196,6 +200,8 @@ export class TextOptimizer {
         max_tokens: 2000,
       });
 
+      console.log('Listening response AI Text', sectionType, '\n:', response.choices[0].message.content)
+
       return response.choices[0].message.content.trim();
     } catch (error) {
       console.error('Audio AI optimization failed:', error);
@@ -223,6 +229,8 @@ export class TextOptimizer {
         max_tokens: 2000,
       });
 
+      // console.log('Reading response AI Text', sectionType, '\n:', response.choices[0].message.content)
+
       return response.choices[0].message.content.trim();
     } catch (error) {
       console.error('Reading AI optimization failed:', error);
@@ -245,27 +253,17 @@ export class TextOptimizer {
    * @returns {string} Audio system prompt
    */
   getAudioSystemPrompt(sectionType) {
-    const basePrompt = `You are an expert podcast script writer and audio content creator. Transform the given text into engaging, conversational audio that feels like listening to a knowledgeable friend sharing insights.
-
-CORE PRINCIPLES:
-- Write for the EAR, not the eye - use natural speech patterns
-- Create an intimate, conversational tone as if speaking directly to one listener
-- Use storytelling techniques to maintain engagement
-- Replace formal language with warm, accessible explanations
-- Add natural transitions and connective phrases
-- Remove any text that sounds awkward when spoken aloud
-- Eliminate meta-commentary like "this chapter discusses" or "in this section"
-
-AUDIO-SPECIFIC TECHNIQUES:
-- Use contractions naturally (you'll, we're, it's, that's)
-- Break up long sentences into shorter, digestible thoughts
-- Add verbal signposts ("Here's the thing...", "Now...", "You know what's interesting?")
-- Use rhetorical questions to engage the listener
-- Include brief pauses for emphasis (indicate with "...")
-- Replace bullet points with flowing narrative
-- Convert lists into conversational explanations
-- Use ellipses (...) for natural pauses and dramatic effect`;
-
+    const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
+  
+  Speak as if you’re talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
+  
+  CORE PRINCIPLES:
+  - Write for the EAR, not the eye – favor natural, speech-based sentence structure
+  - Use a warm, conversational tone with smooth pacing
+  - Keep the listener engaged with rhetorical devices and real-world language
+  - Use ellipses (...) to mark short pauses and verbal rhythm
+  - Never expand with new examples or add content not in the original`;
+    
     const sectionSpecific = {
       introduction: `
 INTRODUCTION-SPECIFIC GUIDELINES:
@@ -304,33 +302,38 @@ CONCLUSION-SPECIFIC GUIDELINES:
 
 CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
     };
-
-    const additionalGuidelines = `
-TRANSFORMATION EXAMPLES:
-- "The key components are:" → "Here are the things that really matter:"
-- "It is important to note that:" → "Here's something crucial to understand:"
-- "Furthermore:" → "And here's another thing:"
-- "In conclusion:" → "So here's what this all means:"
-- "Research indicates:" → "Studies show us something fascinating:"
-
-ENGAGEMENT TECHNIQUES:
-- Use "you" to speak directly to the listener
-- Ask rhetorical questions: "Ever wonder why...?", "What if I told you...?"
-- Share insights as discoveries: "Here's what's fascinating...", "This is where it gets interesting..."
-- Create anticipation: "Wait until you hear this...", "This next part is crucial..."
-- Use emphasis naturally: "This is REALLY important", "Here's the key thing to remember"
-
-AVOID:
-- Academic jargon without explanation
-- Overly formal sentence structures
-- Reading-focused formatting cues
-- Meta-references to the text itself
-- Awkward transitions between topics
-- Repetitive sentence patterns`;
-
-    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + additionalGuidelines;
-  }
-
+  
+    const styleAddendum = `
+  SPEECH FORMATTING:
+  - Insert line breaks between spoken paragraphs — each ~3–5 sentences long
+  - Each paragraph should express **one idea or theme** clearly
+  - Use ellipses (...) for natural pauses
+  - Do not cram multiple ideas into long blocks
+  
+  SPEAKING TECHNIQUES:
+  - Use contractions naturally (you’ll, we’re, that’s)
+  - Ask rhetorical questions to maintain engagement
+  - Avoid bullet points — convert lists into conversational sequences
+  - Use "you" to speak directly to the listener
+  - Use ellipses (...) for natural pauses within sentences
+  
+  ⚠️ AVOID:
+  - Meta-references like:
+    • "In this book..."
+    • "The author says..."
+    • "This chapter explores..."
+  - Academic or formal language
+  - Dense, unbroken text blocks (NEVER!)
+  - Paragraphs longer than 5 sentences
+  - Breaking sentences in the middle
+  
+  LENGTH RULE:
+  - Keep final output within ±10% of input character count
+  - Do not add examples or side-notes
+  - Focus only on improving pacing, tone, structure, and listener experience`;
+  
+    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + styleAddendum;
+  };
   /**
    * Get reading-specific system prompt based on section type
    * @param {string} sectionType - Section type
@@ -425,24 +428,19 @@ AVOID:
       .replace(/\bMr\./gi, 'Mister')
       .replace(/\bMrs\./gi, 'Missus')
       .replace(/\bMs\./gi, 'Miss')
-      
+  
       // Handle numbers and dates
       .replace(/\b(\d+)%/g, '$1 percent')
       .replace(/\$(\d+)/g, '$1 dollars')
-      
-      // Improve punctuation for speech
-      .replace(/([.!?])\s*(?=[A-Z])/g, '$1 ')
+  
+      // Improve punctuation for speech (non-destructive to newlines)
       .replace(/;\s*/g, '. ')
       .replace(/:\s*([A-Z])/g, ': $1')
-      
-      // Handle quotes for speech
+  
+      // Remove quotes
       .replace(/"/g, '')
-      .replace(/'/g, "'")
-      
-      // Clean up spacing
-      .replace(/\s{2,}/g, ' ')
-      .trim();
-
+      .replace(/'/g, "'");
+  
     return formatted;
   }
 

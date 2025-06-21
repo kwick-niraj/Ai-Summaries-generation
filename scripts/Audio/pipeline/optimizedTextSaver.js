@@ -362,7 +362,8 @@ export class OptimizedTextSaver {
         .replace(/<break\s+time="([^"]*)"[^>]*\/>/gi, ' *(pause $1)* ')
         .replace(/<break[^>]*\/>/gi, ' *(pause)* ')
         .replace(/<[^>]*>/g, '')
-        .replace(/\s+/g, ' ')
+        .replace(/[ \t]+/g, ' ')  // Only clean horizontal whitespace, preserve line breaks
+        .replace(/\n{3,}/g, '\n\n')  // Limit to max 2 newlines but preserve paragraph breaks
         .trim();
     }
 

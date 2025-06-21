@@ -168,6 +168,7 @@ export class AudioGenerator {
 
     try {
       // Generate introduction
+      console.log('niraj section for audio', sections)
       if (sections.introduction) {
         console.log('\n📖 Processing Introduction...');
         const introResult = await this.generateSectionAudio(

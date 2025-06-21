@@ -530,6 +530,7 @@ export class BookProcessor {
       
       for (const chunk of chunks) {
         const result = await this.optimizer.optimizeForListening(chunk, 'introduction');
+        console.log('result of otimizeforListening', result)
         audioChunks.push(result);
       }
       
