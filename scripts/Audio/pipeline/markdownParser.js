@@ -49,6 +49,7 @@ export class MarkdownParser {
       
       // Check for section headers
       if (line.startsWith('## ') || line.startsWith('**Conclusion')) {
+        console.log('Niraj Inline on sectionType', line)
         // Save previous section if exists
         if (currentSection && currentContent.length > 0) {
           this.saveSection(sections, currentSection, currentContent.join('\n').trim(), chapterNumber);
@@ -74,7 +75,7 @@ export class MarkdownParser {
     if (currentSection && currentContent.length > 0) {
       this.saveSection(sections, currentSection, currentContent.join('\n').trim(), chapterNumber);
     }
-    console.log('niraj sections', sections);
+    // console.log('niraj sections', sections);
     return sections;
   }
 

@@ -69,7 +69,22 @@ export class VoiceSelectionProvider {
    */
   getVoiceCharacteristics() {
     return {
-      // Azure Speech voices mapped from Azure OpenAI equivalents
+      'alloy-turbo-multilingual': {
+      azureVoiceId: 'en-US-AlloyTurboMultilingualNeural',
+      gender: 'female',
+      tone: 'versatile',
+      style: 'adaptive',
+      personality: 'flexible',
+      bestFor: ['general-purpose', 'chat', 'multilingual', 'educational']
+    },
+    'andrew-dragon-hd-latest': {
+        azureVoiceId: 'en-US-AndrewDragonHDNeural',
+        gender: 'male',
+        tone: 'natural',
+        style: 'authentic',
+        personality: 'engaging',
+        bestFor: ['chat', 'podcasts', 'audiobooks', 'general']
+      },
       'andrew-multilingual': {
         azureVoiceId: 'en-US-AndrewMultilingualNeural',
         gender: 'male',
@@ -77,14 +92,6 @@ export class VoiceSelectionProvider {
         style: 'authoritative',
         personality: 'confident',
         bestFor: ['business', 'professional', 'educational', 'leadership']
-      },
-      'aria': {
-        azureVoiceId: 'en-US-AriaNeural',
-        gender: 'female',
-        tone: 'cheerful',
-        style: 'engaging',
-        personality: 'upbeat',
-        bestFor: ['motivational', 'positive', 'general-audience', 'accessible']
       },
       'brandon-multilingual': {
         azureVoiceId: 'en-US-BrandonMultilingualNeural',
@@ -142,30 +149,6 @@ export class VoiceSelectionProvider {
         personality: 'presenter',
         bestFor: ['presentations', 'training', 'business', 'leadership']
       },
-      'jane': {
-        azureVoiceId: 'en-US-JaneNeural',
-        gender: 'female',
-        tone: 'clear',
-        style: 'professional',
-        personality: 'formal',
-        bestFor: ['business', 'formal', 'corporate', 'professional']
-      },
-      'jason': {
-        azureVoiceId: 'en-US-JasonNeural',
-        gender: 'male',
-        tone: 'casual',
-        style: 'friendly',
-        personality: 'relaxed',
-        bestFor: ['conversational', 'casual', 'accessible', 'general-audience']
-      },
-      'davis': {
-        azureVoiceId: 'en-US-DavisNeural',
-        gender: 'male',
-        tone: 'deep',
-        style: 'authoritative',
-        personality: 'commanding',
-        bestFor: ['serious', 'authoritative', 'documentary', 'leadership']
-      }
     };
   }
 

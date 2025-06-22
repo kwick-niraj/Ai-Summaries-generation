@@ -69,7 +69,6 @@ export class AzureSpeechTTSProvider {
   async generateTTS(text, outputPath, options = {}) {
     try {
       const settings = { ...this.defaultSettings, ...options };
-      console.log('niraj settings generateTTS', settings)
       
       // Resolve voice name to Azure Speech voice identifier
       const voiceInfo = this.resolveVoice(settings.voice);

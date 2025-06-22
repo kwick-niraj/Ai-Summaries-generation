@@ -48,7 +48,6 @@ export class VoiceSelector {
    * @returns {Promise<Object>} Voice selection result
    */
   async selectVoiceForBook(bookId, metadataPath = '../Meta of All Books DB') {
-    console.log('niraj Metapath', metadataPath)
     try {
       // Load book metadata
       const metadata = await this.loadBookMetadata(bookId, metadataPath);
@@ -123,7 +122,7 @@ export class VoiceSelector {
       const result = await provider.selectVoice(metadata);
       
       if (result && result.selectedVoice) {
-        console.log(`✅ Voice selected by ${providerName}: ${result.selectedVoice} (${result.confidence}% confidence)`);
+        console.log(`✅ Niraj Voice selected by ${providerName}: ${result.selectedVoice} (${result.confidence}% confidence)`);
         return result;
       }
 

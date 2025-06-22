@@ -161,10 +161,10 @@ export class AzureVoiceSelector extends VoiceSelectionProvider {
     const voices = this.getVoiceCharacteristics();
 
     const voiceDescriptions = Object.entries(voices).map(([name, char]) => {
-      return `- ${name}: ${char.gender}, ${char.tone} tone, ${char.style} style (${char.bestFor.join(', ')})`;
+      return `- ${name} Gender: ${char.gender}, ${char.tone} tone, ${char.style} style (${char.bestFor.join(', ')})`;
     }).join('\n');
 
-    return `You are an expert voice selection AI for audiobook production. Choose the most appropriate voice from the list below to narrate the following book based on its content, emotional tone, style, audience, and purpose.
+    return `You are an expert voice selection AI for audiobook production. Choose the most appropriate voice from the list below to narrate the following book based on its Meta available.
   
   Available Voices:
   ${voiceDescriptions}
@@ -172,27 +172,15 @@ export class AzureVoiceSelector extends VoiceSelectionProvider {
   Book Metadata:
   - Title: "${metadata.title || 'Unknown'}"
   - Author: "${metadata.author || 'Unknown'}"
-  - Publication Date: ${metadata.publication_date || 'Unknown'}
   - Genre: ${Array.isArray(metadata.genre) ? metadata.genre.join(', ') : metadata.genre || 'Unknown'}
-  - Target Audience: ${Array.isArray(metadata.target_audience) ? metadata.target_audience.join(', ') : metadata.target_audience || 'General'}
-  - Core Themes: ${Array.isArray(metadata.core_themes) ? metadata.core_themes.join(', ') : metadata.core_themes || 'Not specified'}
-  - Primary Purpose: ${metadata.primary_purpose || 'Unknown'}
-  - Structure: ${metadata.structure_format?.narrative_style || 'Unknown'}, ${metadata.structure_format?.organization || 'Unknown'}
   - Style & Tone: ${Array.isArray(metadata.style_tone) ? metadata.style_tone.join(', ') : metadata.style_tone || 'Unknown'}
   
   Guidelines:
   
   1. Focus on the tone, teaching style, and emotional depth of the book — not just the subject matter.
-  2. Use:
-     - Friendly or motivational voices (e.g., **aria**, **nova-turbo-multilingual**) for engaging, story-driven teaching with wide appeal.
-     - Calm or grounded voices (e.g., **brandon-multilingual**, **emma-multilingual**) for reflection, clarity, and balance.
-     - Deep or serious voices (e.g., **adam-multilingual**, **davis**) only for mature, intense, or authoritative topics.
-     - Professional voices (e.g., **andrew-multilingual**, **amanda-multilingual**) for business and educational content.
-  
-  3. Consider the author's gender and book's emotional tone when selecting between male and female voices.
-  
-  4. Prefer multilingual voices for their superior quality and expressiveness.
-  
+
+  2. Consider the author's gender and book's emotional tone when selecting between male and female voices. select male voices only when author's gender is "male" otherwise select voices from "female".
+    
   Respond with ONLY a JSON object in this exact format:
   {
     "voice": "[selected_voice_name]",

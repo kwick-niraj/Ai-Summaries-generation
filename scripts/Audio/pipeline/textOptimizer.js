@@ -60,7 +60,7 @@ export class TextOptimizer {
       // Apply AI-based optimization for conversational audio
       const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType, options);
 
-      console.log('niraj optimizedText', optimizedText);
+      // console.log('niraj optimizedText', optimizedText);
       
       // Apply final audio-specific formatting
       // const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
@@ -213,8 +213,8 @@ export class TextOptimizer {
       });
 
       const optimizedContent = response.choices[0].message.content.trim();
-      console.log('niraj input for Ai Chat Generation', 'section type:', sectionType, 'text:', text);
-      console.log('niraj output from ai chat', optimizedContent);
+      // console.log('niraj input for Ai Chat Generation', 'section type:', sectionType, 'text:', text);
+      // console.log('niraj output from ai chat', optimizedContent);
       
       if (enableSSML && provider === 'azure-speech') {
         console.log('🎵 Generated Azure Speech SSML content for:', sectionType, `(${voiceName})`);
@@ -389,7 +389,7 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
    * @returns {string} Azure Speech system prompt
    */
   getAzureSpeechSystemPrompt(sectionType, voiceName, enableAdvancedSSML = true) {
-    console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML);
+    // console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML);
   
     const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
   

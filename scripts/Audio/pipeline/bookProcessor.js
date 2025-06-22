@@ -299,7 +299,7 @@ export class BookProcessor {
         // Load cached optimized text
         const cachedResult = await this.cacheManager.loadCachedText(bookId, outputDir, enableSSML);
 
-        console.log('niraj cachedResult', cachedResult.audio.chapters)
+        // console.log('niraj cachedResult', cachedResult.audio.chapters)
         
         if (cachedResult.success) {
           // Handle partial cache (missing one version)
