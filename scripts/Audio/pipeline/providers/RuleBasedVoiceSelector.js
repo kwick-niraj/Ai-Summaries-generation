@@ -63,8 +63,8 @@ export class RuleBasedVoiceSelector extends VoiceSelectionProvider {
 
     } catch (error) {
       console.error('Rule-based voice selection failed:', error);
-      // Ultimate fallback
-      return this.formatResult('nova', metadata, 60, 'Ultimate fallback selection');
+      // Ultimate fallback - use Azure Speech voice
+      return this.formatResult('aria', metadata, 60, 'Ultimate fallback selection');
     }
   }
 

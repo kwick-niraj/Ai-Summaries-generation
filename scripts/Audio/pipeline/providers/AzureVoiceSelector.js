@@ -128,14 +128,23 @@ export class AzureVoiceSelector extends VoiceSelectionProvider {
       const reasoning = result.reasoning || 'Selected by Azure OpenAI';
       const confidence = result.confidence || 85;
 
-      // Validate selected voice
+      // Map Azure OpenAI voice to Azure Speech equivalent if needed
+      let mappedVoice = selectedVoice;
       const voices = this.getVoiceCharacteristics();
+      
+      // If it's an old Azure OpenAI voice name, map it to Azure Speech
       if (!voices[selectedVoice]) {
-        console.warn(`Invalid voice selected: ${selectedVoice}, falling back to nova`);
-        return this.formatResult('nova', metadata, 60, 'Fallback due to invalid voice selection');
+        mappedVoice = this.mapToAzureSpeechVoice(selectedVoice);
+        console.log(`🔄 Mapped ${selectedVoice} → ${mappedVoice}`);
+      }
+      
+      // Final validation
+      if (!voices[mappedVoice]) {
+        console.warn(`Invalid voice selected: ${selectedVoice}, falling back to aria`);
+        return this.formatResult('aria', metadata, 60, 'Fallback due to invalid voice selection');
       }
 
-      return this.formatResult(selectedVoice, metadata, confidence, reasoning);
+      return this.formatResult(mappedVoice, metadata, confidence, reasoning);
 
     } catch (error) {
       console.error('Azure voice selection failed:', error);
@@ -175,14 +184,14 @@ export class AzureVoiceSelector extends VoiceSelectionProvider {
   
   1. Focus on the tone, teaching style, and emotional depth of the book — not just the subject matter.
   2. Use:
-     - Friendly or motivational voices (e.g., **nova**, **coral**) for engaging, story-driven teaching with wide appeal.
-     - Calm or grounded voices (e.g., **alloy**, **echo**) for reflection, clarity, and balance.
-     - Deep or serious voices (e.g., **onyx**, **sage**) only for mature, intense, or authoritative topics.
-     - Playful or expressive voices (e.g., **fable**, **verse**, **ballad**) if the structure or storytelling is vivid and anecdotal.
+     - Friendly or motivational voices (e.g., **aria**, **nova-turbo-multilingual**) for engaging, story-driven teaching with wide appeal.
+     - Calm or grounded voices (e.g., **brandon-multilingual**, **emma-multilingual**) for reflection, clarity, and balance.
+     - Deep or serious voices (e.g., **adam-multilingual**, **davis**) only for mature, intense, or authoritative topics.
+     - Professional voices (e.g., **andrew-multilingual**, **amanda-multilingual**) for business and educational content.
   
-  3. This book uses two contrasting father figures, storytelling, and emotional comparisons — consider a voice that reflects both relatability and clarity.
+  3. Consider the author's gender and book's emotional tone when selecting between male and female voices.
   
-  4. Avoid defaulting to commonly used voices like **ash** or **alloy** unless they clearly match the content better than others.
+  4. Prefer multilingual voices for their superior quality and expressiveness.
   
   Respond with ONLY a JSON object in this exact format:
   {

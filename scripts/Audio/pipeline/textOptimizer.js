@@ -189,7 +189,7 @@ export class TextOptimizer {
    */
   async applyAudioAIOptimization(text, sectionType, options = {}) {
     const enableSSML = options.enableSSML || false;
-    const provider = options.provider || 'azure-openai';
+    const provider = options.provider || 'azure-speech'; // Default to Azure Speech now
     const voiceName = options.voice || 'andrew-multilingual';
     
     // Use Azure Speech-specific prompt if provider is azure-speech

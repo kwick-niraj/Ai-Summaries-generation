@@ -361,7 +361,11 @@ export class BookProcessor {
         const readingChunks = [];
         
         for (const chunk of chunks) {
-          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'introduction', this.config);
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'introduction', {
+            ...this.config,
+            provider: 'azure-speech',
+            enableSSML: this.config.enableSSML
+          });
           audioChunks.push(dualResult.audio);
           readingChunks.push(dualResult.reading);
         }
@@ -395,7 +399,11 @@ export class BookProcessor {
           const readingChunks = [];
           
           for (const chunk of chunks) {
-            const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'chapter', this.config);
+            const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'chapter', {
+              ...this.config,
+              provider: 'azure-speech',
+              enableSSML: this.config.enableSSML
+            });
             audioChunks.push(dualResult.audio);
             readingChunks.push(dualResult.reading);
           }
@@ -431,7 +439,11 @@ export class BookProcessor {
         const readingChunks = [];
         
         for (const chunk of chunks) {
-          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'conclusion', this.config);
+          const dualResult = await this.optimizer.optimizeDualTrack(chunk, 'conclusion', {
+            ...this.config,
+            provider: 'azure-speech',
+            enableSSML: this.config.enableSSML
+          });
           audioChunks.push(dualResult.audio);
           readingChunks.push(dualResult.reading);
         }

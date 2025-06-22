@@ -170,7 +170,7 @@ export const audioConfig = {
   cacheStrategy: 'smart',             // 'smart', 'always', 'never'
   
   // Enhanced Features
-  enableSSML: false,         // Enable SSML generation for expressive speech
+  enableSSML: true,          // Enable SSML generation for expressive speech
   intelligentVoiceSelection: true, // Enable intelligent voice selection based on book metadata
   metadataDir: '../Meta of All Books DB', // Directory containing book metadata for voice selection
   
@@ -215,32 +215,89 @@ export const audioConfig = {
 };
 
 /**
- * Voice configuration options
+ * Voice configuration options (Azure Speech compatible)
  */
 export const voiceOptions = {
+  // Azure Speech voices
+  'andrew-multilingual': {
+    description: 'Professional, authoritative multilingual voice',
+    recommended: ['business', 'professional', 'educational']
+  },
+  'aria': {
+    description: 'Cheerful, engaging female voice',
+    recommended: ['upbeat', 'positive', 'general-audience']
+  },
+  'brandon-multilingual': {
+    description: 'Warm, friendly multilingual voice',
+    recommended: ['storytelling', 'casual', 'self-help']
+  },
+  'emma-multilingual': {
+    description: 'Warm, empathetic female multilingual voice',
+    recommended: ['emotional', 'wellness', 'mindfulness']
+  },
+  'nova-turbo-multilingual': {
+    description: 'Energetic, engaging multilingual voice',
+    recommended: ['motivational', 'dynamic', 'educational']
+  },
+  'adam-multilingual': {
+    description: 'Deep, authoritative multilingual voice',
+    recommended: ['documentary', 'serious', 'biography']
+  },
+  'amanda-multilingual': {
+    description: 'Clear, professional female multilingual voice',
+    recommended: ['business', 'educational', 'professional']
+  },
+  'steffan-multilingual': {
+    description: 'Smooth, conversational multilingual voice',
+    recommended: ['audiobooks', 'narration', 'storytelling']
+  },
+  'derek-multilingual': {
+    description: 'Confident, engaging multilingual voice',
+    recommended: ['presentations', 'training', 'business']
+  },
+  'jane': {
+    description: 'Clear, professional female voice',
+    recommended: ['business', 'formal', 'corporate']
+  },
+  'jason': {
+    description: 'Casual, friendly male voice',
+    recommended: ['conversational', 'casual', 'accessible']
+  },
+  'davis': {
+    description: 'Deep, authoritative male voice',
+    recommended: ['serious', 'authoritative', 'documentary']
+  },
+  
+  // Legacy Azure OpenAI voices (mapped to Azure Speech equivalents)
   alloy: {
-    description: 'Neutral, balanced voice',
-    recommended: ['general', 'business', 'educational']
+    description: 'Neutral, balanced voice (mapped to brandon-multilingual)',
+    recommended: ['general', 'business', 'educational'],
+    azureSpeechEquivalent: 'brandon-multilingual'
   },
   echo: {
-    description: 'Clear, professional voice',
-    recommended: ['presentations', 'formal content']
+    description: 'Clear, professional voice (mapped to emma-multilingual)',
+    recommended: ['presentations', 'formal content'],
+    azureSpeechEquivalent: 'emma-multilingual'
   },
   fable: {
-    description: 'Warm, storytelling voice',
-    recommended: ['narratives', 'fiction', 'children\'s content']
+    description: 'Warm, storytelling voice (mapped to nova-turbo-multilingual)',
+    recommended: ['narratives', 'fiction', 'children\'s content'],
+    azureSpeechEquivalent: 'nova-turbo-multilingual'
   },
   nova: {
-    description: 'Friendly, conversational voice',
-    recommended: ['audiobooks', 'casual content', 'tutorials']
+    description: 'Friendly, conversational voice (mapped to aria)',
+    recommended: ['audiobooks', 'casual content', 'tutorials'],
+    azureSpeechEquivalent: 'aria'
   },
   onyx: {
-    description: 'Deep, authoritative voice',
-    recommended: ['documentaries', 'serious content']
+    description: 'Deep, authoritative voice (mapped to adam-multilingual)',
+    recommended: ['documentaries', 'serious content'],
+    azureSpeechEquivalent: 'adam-multilingual'
   },
   shimmer: {
-    description: 'Expressive, engaging voice',
-    recommended: ['entertainment', 'dynamic content']
+    description: 'Expressive, engaging voice (mapped to amanda-multilingual)',
+    recommended: ['entertainment', 'dynamic content'],
+    azureSpeechEquivalent: 'amanda-multilingual'
   }
 };
 

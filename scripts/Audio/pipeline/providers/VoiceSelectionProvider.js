@@ -64,92 +64,127 @@ export class VoiceSelectionProvider {
   }
 
   /**
-   * Get available voices with their characteristics
+   * Get available voices with their characteristics (Azure Speech compatible)
    * @returns {Object} Voice characteristics mapping
    */
   getVoiceCharacteristics() {
     return {
-      // Male/Female (confirmed ones)
-      alloy: {
+      // Azure Speech voices mapped from Azure OpenAI equivalents
+      'andrew-multilingual': {
+        azureVoiceId: 'en-US-AndrewMultilingualNeural',
+        gender: 'male',
+        tone: 'professional',
+        style: 'authoritative',
+        personality: 'confident',
+        bestFor: ['business', 'professional', 'educational', 'leadership']
+      },
+      'aria': {
+        azureVoiceId: 'en-US-AriaNeural',
+        gender: 'female',
+        tone: 'cheerful',
+        style: 'engaging',
+        personality: 'upbeat',
+        bestFor: ['motivational', 'positive', 'general-audience', 'accessible']
+      },
+      'brandon-multilingual': {
+        azureVoiceId: 'en-US-BrandonMultilingualNeural',
         gender: 'male',
         tone: 'warm',
-        style: 'grounded',
+        style: 'friendly',
         personality: 'conversational',
-        bestFor: ['self-help', 'personal-development', 'wellness', 'general-audience']
+        bestFor: ['storytelling', 'casual', 'self-help', 'personal-development']
       },
-      // ash: {
-      //   gender: 'male',
-      //   tone: 'crisp',
-      //   style: 'confident',
-      //   personality: 'articulate',
-      //   bestFor: ['business', 'leadership', 'professional', 'corporate', 'finance']
-      // },
-      // coral: {
-      //   gender: 'female',
-      //   tone: 'bright',
-      //   style: 'young',
-      //   personality: 'emotional',
-      //   bestFor: ['motivational', 'lifestyle', 'youth-oriented', 'inspirational']
-      // },
-      echo: {
+      'emma-multilingual': {
+        azureVoiceId: 'en-US-EmmaMultilingualNeural',
         gender: 'female',
-        tone: 'soft',
-        style: 'calm',
-        personality: 'gentle',
-        bestFor: ['mindfulness', 'wellness', 'spiritual', 'meditation', 'healing']
+        tone: 'empathetic',
+        style: 'warm',
+        personality: 'caring',
+        bestFor: ['emotional', 'wellness', 'mindfulness', 'healing']
       },
-      fable: {
+      'nova-turbo-multilingual': {
+        azureVoiceId: 'en-US-NovaTurboMultilingualNeural',
         gender: 'female',
-        tone: 'playful',
-        style: 'storybook',
-        personality: 'creative',
-        bestFor: ['narrative', 'creative', 'storytelling', 'fiction-like']
+        tone: 'energetic',
+        style: 'dynamic',
+        personality: 'engaging',
+        bestFor: ['motivational', 'dynamic', 'educational', 'popular']
       },
-      nova: {
-        gender: 'female',
-        tone: 'friendly',
-        style: 'expressive',
-        personality: 'approachable',
-        bestFor: ['general-audience', 'accessible', 'educational', 'popular']
-      },
-      onyx: {
+      'adam-multilingual': {
+        azureVoiceId: 'en-US-AdamMultilingualNeural',
         gender: 'male',
         tone: 'deep',
         style: 'serious',
-        personality: 'cinematic',
-        bestFor: ['authoritative', 'biography', 'history', 'heavy-topics', 'dramatic']
+        personality: 'authoritative',
+        bestFor: ['documentary', 'serious', 'biography', 'history']
       },
-      // sage: {
-      //   gender: 'male',
-      //   tone: 'mature',
-      //   style: 'wise',
-      //   personality: 'experienced',
-      //   bestFor: ['philosophy', 'wisdom', 'academic', 'intellectual', 'mentorship']
-      // },
-      shimmer: {
+      'amanda-multilingual': {
+        azureVoiceId: 'en-US-AmandaMultilingualNeural',
+        gender: 'female',
+        tone: 'professional',
+        style: 'clear',
+        personality: 'articulate',
+        bestFor: ['business', 'educational', 'professional', 'corporate']
+      },
+      'steffan-multilingual': {
+        azureVoiceId: 'en-US-SteffanMultilingualNeural',
+        gender: 'male',
+        tone: 'smooth',
+        style: 'conversational',
+        personality: 'narrator',
+        bestFor: ['audiobooks', 'narration', 'storytelling', 'general']
+      },
+      'derek-multilingual': {
+        azureVoiceId: 'en-US-DerekMultilingualNeural',
+        gender: 'male',
+        tone: 'confident',
+        style: 'engaging',
+        personality: 'presenter',
+        bestFor: ['presentations', 'training', 'business', 'leadership']
+      },
+      'jane': {
+        azureVoiceId: 'en-US-JaneNeural',
         gender: 'female',
         tone: 'clear',
-        style: 'futuristic',
-        personality: 'smooth',
-        bestFor: ['technology', 'innovation', 'modern-business', 'science']
+        style: 'professional',
+        personality: 'formal',
+        bestFor: ['business', 'formal', 'corporate', 'professional']
       },
-  
-      // New Additions (inferred)
-      // ballad: {
-      //   gender: 'female',
-      //   tone: 'musical',
-      //   style: 'poetic',
-      //   personality: 'lyrical',
-      //   bestFor: ['emotive-fiction', 'poetry', 'narrative', 'audiobooks']
-      // },
-      // verse: {
-      //   gender: 'male',
-      //   tone: 'lyrical',
-      //   style: 'dramatic',
-      //   personality: 'performative',
-      //   bestFor: ['storytelling', 'spiritual', 'theatrical', 'fiction']
-      // }
+      'jason': {
+        azureVoiceId: 'en-US-JasonNeural',
+        gender: 'male',
+        tone: 'casual',
+        style: 'friendly',
+        personality: 'relaxed',
+        bestFor: ['conversational', 'casual', 'accessible', 'general-audience']
+      },
+      'davis': {
+        azureVoiceId: 'en-US-DavisNeural',
+        gender: 'male',
+        tone: 'deep',
+        style: 'authoritative',
+        personality: 'commanding',
+        bestFor: ['serious', 'authoritative', 'documentary', 'leadership']
+      }
     };
+  }
+
+  /**
+   * Map Azure OpenAI voice names to Azure Speech equivalents
+   * @param {string} openAIVoice - Azure OpenAI voice name
+   * @returns {string} Azure Speech voice name
+   */
+  mapToAzureSpeechVoice(openAIVoice) {
+    const mapping = {
+      'alloy': 'brandon-multilingual',      // Warm, conversational male
+      'echo': 'emma-multilingual',          // Soft, gentle female  
+      'fable': 'nova-turbo-multilingual',   // Playful, creative female
+      'nova': 'aria',                       // Friendly, approachable female
+      'onyx': 'adam-multilingual',          // Deep, serious male
+      'shimmer': 'amanda-multilingual'      // Clear, professional female
+    };
+    
+    return mapping[openAIVoice] || 'andrew-multilingual'; // Default fallback
   }
 };
 export default VoiceSelectionProvider;
