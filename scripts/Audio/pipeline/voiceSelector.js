@@ -209,7 +209,7 @@ export class VoiceSelector {
       },
       sectionSettings: {
         introduction: {
-          rate: '0.95',
+          rate: '1',
           emphasis: 'moderate',
           pauseAfter: '1.5s'
         },
@@ -219,7 +219,7 @@ export class VoiceSelector {
           pauseAfter: '1.0s'
         },
         conclusion: {
-          rate: '0.98',
+          rate: '1',
           emphasis: 'strong',
           pauseAfter: '2.0s'
         }

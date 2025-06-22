@@ -32,6 +32,8 @@ export class BookProcessor {
       ...options
     };
 
+    console.log('Niraj Book Processing Configs', this.config);
+
     // Initialize components with configuration
     this.parser = new MarkdownParser();
     this.optimizer = new TextOptimizer();
@@ -297,7 +299,7 @@ export class BookProcessor {
         // Load cached optimized text
         const cachedResult = await this.cacheManager.loadCachedText(bookId, outputDir, enableSSML);
 
-        console.log('niraj cachedResult', cachedResult)
+        console.log('niraj cachedResult', cachedResult.audio.chapters)
         
         if (cachedResult.success) {
           // Handle partial cache (missing one version)

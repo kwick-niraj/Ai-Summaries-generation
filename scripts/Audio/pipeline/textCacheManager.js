@@ -582,6 +582,7 @@ parseXmlToSections(xmlContent) {
       .filter(Boolean);
 
     let currentSection = null;
+    let chapterCount = 0;
 
     for (let i = 0; i < speakBlocks.length; i++) {
       const block = speakBlocks[i];
@@ -607,9 +608,11 @@ parseXmlToSections(xmlContent) {
             content: rawSSML
           };
         } else if (currentSection === 'chapter') {
+          chapterCount++
           sections.chapters.push({
             title: currentChapterTitle || `Chapter ${sections.chapters.length + 1}`,
-            content: rawSSML
+            content: rawSSML,
+            number: chapterCount
           });
         }
       }

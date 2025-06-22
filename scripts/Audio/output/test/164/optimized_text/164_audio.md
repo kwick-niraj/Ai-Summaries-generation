@@ -272,5 +272,5 @@ So approach this journey with patience. With kindness, both for yourself and the
 
 ---
 
-*Generated: 2025-06-22T21:47:19.198Z*
+*Generated: 2025-06-22T22:05:09.868Z*
 *Type: Audio-optimized conversational script*

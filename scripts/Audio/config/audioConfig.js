@@ -330,7 +330,7 @@ export const processingPresets = {
     useOptimizedTextCache: true,
     cacheStrategy: 'smart',
     cacheValidityDays: 30,
-    maxChunkLength: 5000,
+    maxChunkLength: 9000,
     concurrency: 1,
     delayBetweenRequests: 1000,
     audioQuality: { bitrate: '128k', sampleRate: 22050, channels: 1 }

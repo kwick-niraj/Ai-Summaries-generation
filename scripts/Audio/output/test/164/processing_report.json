@@ -1,0 +1,409 @@
+{
+  "bookId": "164",
+  "timestamp": "2025-06-22T22:07:05.186Z",
+  "success": false,
+  "processingTime": -1750629907616,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4243,
+    "totalAudioFiles": 11,
+    "totalDuration": 1913.9279999999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1913.9279999999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/164/optimized_text/164.md",
+    "fileSize": 32097,
+    "wordCount": 4432,
+    "format": "markdown",
+    "filename": "164.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/164/metadata/164_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1913.92,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/164/metadata/164_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/164/metadata/164_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 92,
+    "reasoning": "The book's analytical, provocative, and occasionally darkly humorous tone, combined with its mature themes of power, seduction, and historical case studies, calls for a deep, serious, and authoritative male voice. 'adam-multilingual' matches the erudite and detached style of Robert Greene's writing, providing gravitas and clarity for adult listeners seeking insight into complex psychological and social strategies.",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/164/164_complete.mp3",
+    "duration": 1913.976,
+    "fileSize": 30624044,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/164/introduction.mp3",
+          "duration": 96.864,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.864,
+          "startTime": 0,
+          "endTime": 96.864
+        },
+        {
+          "path": "Audio/output/test/164/chapter_01.mp3",
+          "duration": 240.432,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Seduction as a Form of Social Power",
+          "actualDuration": 240.432,
+          "startTime": 98.364,
+          "endTime": 338.796
+        },
+        {
+          "path": "Audio/output/test/164/chapter_02.mp3",
+          "duration": 283.296,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Archetypes of Seduction and Their Unique Approaches",
+          "actualDuration": 283.296,
+          "startTime": 340.296,
+          "endTime": 623.592
+        },
+        {
+          "path": "Audio/output/test/164/chapter_03.mp3",
+          "duration": 237.888,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Recognizing and Avoiding Anti-Seductive Behaviors",
+          "actualDuration": 237.888,
+          "startTime": 625.092,
+          "endTime": 862.98
+        },
+        {
+          "path": "Audio/output/test/164/chapter_04.mp3",
+          "duration": 253.464,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Strategic Process of Seduction—Patience, Detail, and Emotional Intelligence",
+          "actualDuration": 253.464,
+          "startTime": 864.48,
+          "endTime": 1117.944
+        },
+        {
+          "path": "Audio/output/test/164/chapter_05.mp3",
+          "duration": 170.088,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Historical Lessons—How Seduction Has Shaped Events and Public Figures",
+          "actualDuration": 170.088,
+          "startTime": 1119.444,
+          "endTime": 1289.532
+        },
+        {
+          "path": "Audio/output/test/164/chapter_06.mp3",
+          "duration": 178.704,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Subtle Tools of Seduction—Language, Storytelling, and Suggestion",
+          "actualDuration": 178.704,
+          "startTime": 1291.032,
+          "endTime": 1469.7359999999999
+        },
+        {
+          "path": "Audio/output/test/164/chapter_07.mp3",
+          "duration": 159.6,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Defenses Against Manipulation—Recognizing and Resisting Unwanted Influence",
+          "actualDuration": 159.6,
+          "startTime": 1471.2359999999999,
+          "endTime": 1630.8359999999998
+        },
+        {
+          "path": "Audio/output/test/164/chapter_08.mp3",
+          "duration": 170.328,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Seduction into Everyday Life—Relationships, Work, and Social Circles",
+          "actualDuration": 170.328,
+          "startTime": 1632.3359999999998,
+          "endTime": 1802.6639999999998
+        },
+        {
+          "path": "Audio/output/test/164/chapter_09.mp3",
+          "duration": 123.264,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ethics of Seduction—Balancing Influence with Integrity",
+          "actualDuration": 123.264,
+          "startTime": 1804.1639999999998,
+          "endTime": 1927.4279999999997
+        }
+      ],
+      "totalDuration": 1927.4279999999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.86,
+          "actualStart": 0,
+          "actualEnd": 96.864,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Seduction as a Form of Social Power",
+          "expectedStart": 96.86,
+          "expectedEnd": 337.29,
+          "actualStart": 98.364,
+          "actualEnd": 338.796,
+          "timeDifference": 1.5040000000000049
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Archetypes of Seduction and Their Unique Approaches",
+          "expectedStart": 337.29,
+          "expectedEnd": 620.59,
+          "actualStart": 340.296,
+          "actualEnd": 623.592,
+          "timeDifference": 3.005999999999972
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Recognizing and Avoiding Anti-Seductive Behaviors",
+          "expectedStart": 620.59,
+          "expectedEnd": 858.48,
+          "actualStart": 625.092,
+          "actualEnd": 862.98,
+          "timeDifference": 4.501999999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Strategic Process of Seduction—Patience, Detail, and Emotional Intelligence",
+          "expectedStart": 858.48,
+          "expectedEnd": 1111.94,
+          "actualStart": 864.48,
+          "actualEnd": 1117.944,
+          "timeDifference": 6
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Historical Lessons—How Seduction Has Shaped Events and Public Figures",
+          "expectedStart": 1111.94,
+          "expectedEnd": 1282.03,
+          "actualStart": 1119.444,
+          "actualEnd": 1289.532,
+          "timeDifference": 7.503999999999905
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Subtle Tools of Seduction—Language, Storytelling, and Suggestion",
+          "expectedStart": 1282.03,
+          "expectedEnd": 1460.73,
+          "actualStart": 1291.032,
+          "actualEnd": 1469.7359999999999,
+          "timeDifference": 9.001999999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Defenses Against Manipulation—Recognizing and Resisting Unwanted Influence",
+          "expectedStart": 1460.73,
+          "expectedEnd": 1620.33,
+          "actualStart": 1471.2359999999999,
+          "actualEnd": 1630.8359999999998,
+          "timeDifference": 10.505999999999858
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Seduction into Everyday Life—Relationships, Work, and Social Circles",
+          "expectedStart": 1620.33,
+          "expectedEnd": 1790.66,
+          "actualStart": 1632.3359999999998,
+          "actualEnd": 1802.6639999999998,
+          "timeDifference": 12.005999999999858
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ethics of Seduction—Balancing Influence with Integrity",
+          "expectedStart": 1790.66,
+          "expectedEnd": 1913.92,
+          "actualStart": 1804.1639999999998,
+          "actualEnd": 1927.4279999999997,
+          "timeDifference": 13.503999999999678
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.864,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Seduction as a Form of Social Power"
+        },
+        {
+          "startTime": 338.796,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Seduction as a Form of Social Power and Chapter 2 The Archetypes of Seduction and Their Unique Approaches"
+        },
+        {
+          "startTime": 623.592,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Archetypes of Seduction and Their Unique Approaches and Chapter 3 Recognizing and Avoiding Anti-Seductive Behaviors"
+        },
+        {
+          "startTime": 862.98,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Recognizing and Avoiding Anti-Seductive Behaviors and Chapter 4 The Strategic Process of Seduction—Patience, Detail, and Emotional Intelligence"
+        },
+        {
+          "startTime": 1117.944,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Strategic Process of Seduction—Patience, Detail, and Emotional Intelligence and Chapter 5 Historical Lessons—How Seduction Has Shaped Events and Public Figures"
+        },
+        {
+          "startTime": 1289.532,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Historical Lessons—How Seduction Has Shaped Events and Public Figures and Chapter 6 The Subtle Tools of Seduction—Language, Storytelling, and Suggestion"
+        },
+        {
+          "startTime": 1469.7359999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Subtle Tools of Seduction—Language, Storytelling, and Suggestion and Chapter 7 Defenses Against Manipulation—Recognizing and Resisting Unwanted Influence"
+        },
+        {
+          "startTime": 1630.8359999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Defenses Against Manipulation—Recognizing and Resisting Unwanted Influence and Chapter 8 Integrating Seduction into Everyday Life—Relationships, Work, and Social Circles"
+        },
+        {
+          "startTime": 1802.6639999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Seduction into Everyday Life—Relationships, Work, and Social Circles and Chapter 9 The Ethics of Seduction—Balancing Influence with Integrity"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "164",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "The book's analytical, provocative, and occasionally darkly humorous tone, combined with its mature themes of power, seduction, and historical case studies, calls for a deep, serious, and authoritative male voice. 'adam-multilingual' matches the erudite and detached style of Robert Greene's writing, providing gravitas and clarity for adult listeners seeking insight into complex psychological and social strategies.",
+      "provider": "azure",
+      "timestamp": "2025-06-22T22:05:09.845Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "0.95",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "0.98",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
