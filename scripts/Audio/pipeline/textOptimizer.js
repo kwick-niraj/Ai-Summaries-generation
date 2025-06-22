@@ -62,7 +62,8 @@ export class TextOptimizer {
       console.log('niraj optimizedText', optimizedText);
       
       // Apply final audio-specific formatting
-      const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
+      // const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
+      const audioReadyText = optimizedText
 
       console.log('AudioReady Text', audioReadyText);
       
@@ -385,97 +386,101 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
    * @returns {string} Azure Speech system prompt
    */
   getAzureSpeechSystemPrompt(sectionType, voiceName, enableAdvancedSSML = true) {
-    console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML)
+    console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML);
+  
     const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
   
-    Speak as if you're talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
+  Speak as if you're talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
   
-
   CORE PRINCIPLES:
-  - Create natural, engaging spoken-style narration with advanced emotional expression
-  - Use Azure Speech's voice styles and prosody for immersive audio experience  
-  - Leverage the selected voice's unique characteristics: ${voiceName}
-  - Keep the total length approximately the same as the input (±10%)
-
-VOICE-SPECIFIC OPTIMIZATION:
-${this.getVoiceSpecificGuidelines(voiceName)}
-
-${enableAdvancedSSML ? 'SECTION-SPECIFIC STYLING:' + this.getSectionSpecificSSML(sectionType): ''
-}`;
-
+  - Create natural, spoken-style narration with emotional expression
+  - Use Azure Speech SSML (styles, prosody, breaks, emphasis) for immersive audio
+  - Voice selected: ${voiceName}
+  - Maintain character length within ±10% of input
+  
+  VOICE OPTIMIZATION:
+  ${this.getVoiceSpecificGuidelines(voiceName)}
+  
+  ${enableAdvancedSSML ? 'SECTION-SPECIFIC STYLING:\n' + this.getSectionSpecificSSML(sectionType) : ''}`;
+  
     const azureSpeechSSML = enableAdvancedSSML ? `
 
-AZURE SPEECH SSML FEATURES:
-Use these advanced Azure Speech Services tags for rich expression:
-
-VOICE STYLES (Primary Feature):
-- <mstts:express-as style="conversational">natural, friendly conversation</mstts:express-as>
-- <mstts:express-as style="friendly">warm, welcoming tone</mstts:express-as>  
-- <mstts:express-as style="hopeful">optimistic, inspiring delivery</mstts:express-as>
-- <mstts:express-as style="cheerful">upbeat, positive energy</mstts:express-as>
-- <mstts:express-as style="empathetic">understanding, compassionate tone</mstts:express-as>
-- <mstts:express-as style="calm">peaceful, relaxed delivery</mstts:express-as>
-
-VOICE SELECTION:
-- <voice name="${this.getAzureVoiceId(voiceName)}">content</voice> for voice consistency
-
-ENHANCED PROSODY:
-- <prosody rate="slow|medium|fast|0.9" pitch="low|medium|high|+10%" volume="soft|medium|loud">enhanced speech control</prosody>
-- <prosody contour="(10%,+20%) (50%,-10%)">pitch contour patterns</prosody>
-
-STRATEGIC BREAKS:
-- <break time="500ms" strength="medium"/> for contextual pauses
-- <mstts:silence type="Leading" value="800ms"/> before important points
-- <mstts:silence type="Tailing" value="1200ms"/> after conclusions
-
-EMPHASIS & EXPRESSION:
-- <emphasis level="reduced|moderate|strong">key term highlighting</emphasis>
-- <phoneme alphabet="ipa" ph="təˈmeɪtoʊ">pronunciation control</phoneme>
-
-COMPLETE SSML STRUCTURE:
-Generate full SSML documents with proper namespaces:
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
-  <voice name="${this.getAzureVoiceId(voiceName)}">
-    <mstts:express-as style="conversational">
-      <prosody rate="0.95" pitch="medium">
-        Your optimized content here...
-      </prosody>
-    </mstts:express-as>
-  </voice>
-</speak>
-
-USAGE GUIDELINES:
-- Use voice styles strategically based on content emotion and section type
-- Apply prosody for section-level changes (introduction slower, conclusion inspiring)
-- Add strategic breaks only between major concepts (not every sentence)
-- Use emphasis sparingly on 1-2 key terms per paragraph
-- Keep SSML markup under 10% of total text
-- Ensure all tags are properly closed and nested` : '';
-
+    AZURE SSML TAGS (Microsoft Azure TTS):
+    Use these **one level at a time** – DO NOT nest <mstts:express-as> inside another express-as or prosody block.
+    
+    VOICE STYLES (choose **only one** per <speak> block):
+    - <mstts:express-as style="conversational">natural, informal</mstts:express-as>
+    - <mstts:express-as style="friendly">warm, welcoming</mstts:express-as>
+    - <mstts:express-as style="hopeful">uplifting, inspiring</mstts:express-as>
+    - <mstts:express-as style="cheerful">energetic, positive</mstts:express-as>
+    - <mstts:express-as style="empathetic">compassionate, caring</mstts:express-as>
+    
+    IMPORTANT:
+    ❗ DO NOT generate multiple <speak> blocks — return **only ONE** root <speak> element per request.
+    ✅ If you need to switch styles or tones, those should be handled across separate requests.
+    
+    VOICE SELECTION:
+    - <voice name="${this.getAzureVoiceId(voiceName)}"> ... </voice> (wrap all content)
+    
+    ENHANCED PROSODY:
+    - <prosody rate="slow|medium|fast|+10%" pitch="low|medium|+10%">control tone</prosody>
+    ✅ Use \`+10%\` or \`-10%\` only — do NOT write "10 percent" or include spaces.
+    
+    PAUSES:
+    - <break time="500ms" strength="medium"/> — natural pause
+    - <mstts:silence type="Leading" value="800ms"/> — intro delay
+    - <mstts:silence type="Tailing" value="1200ms"/> — outro finish
+    
+    EMPHASIS:
+    - <emphasis level="moderate|strong">highlight key terms</emphasis> sparingly
+    
+    ✅ XML STRUCTURE RULES (critical for Azure TTS to work):
+    - **Only return one <speak> element per SSML file**
+    - Wrap your entire content in a single:
+      <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
+             xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+    - DO NOT include multiple <speak> blocks
+    - DO NOT output raw XML fragments without a wrapping <speak>
+    - Validate that all XML tags are closed and nested properly
+    
+    EXAMPLE SSML STRUCTURE (Valid):
+    <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
+           xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+      <voice name="${this.getAzureVoiceId(voiceName)}">
+        <mstts:express-as style="friendly">
+          <prosody rate="0.95" pitch="+10%">
+            Your final content here with <break/> and <emphasis>where needed</emphasis>.
+          </prosody>
+        </mstts:express-as>
+      </voice>
+    </speak>
+    
+    RULES:
+    - Only 1 <mstts:express-as> per <speak>
+    - Never nest <express-as> inside <prosody> or vice versa
+    - Use +10%, -10%, not "10 percent"
+    - Do not return multiple <speak> blocks in a single response
+    - Validate the XML before submitting to Azure Speech API` : '';
+  
     const styleAddendum = `
-
-CONTENT TRANSFORMATION:
-- Write for the EAR, not the eye – favor natural speech patterns
-- Use conversational tone with smooth pacing and rhythm
-- Eliminate meta-commentary like "this chapter discusses"
-- Convert lists into conversational sequences
-- Use contractions naturally (you'll, we're, that's)
-- Add rhetorical questions to maintain engagement
-
-SPEECH FORMATTING:
-- Structure content in spoken paragraphs (3-5 sentences each)
-- Use strategic pauses and emphasis for key concepts
-- Maintain energy and engagement throughout
-- Create smooth transitions between ideas
-
-LENGTH RULE:
-- Keep final output within ±10% of input character count
-- Focus on improving expression, pacing, and emotional delivery
-- Do not add new examples or expand content`;
-
-    const prompt = basePrompt + azureSpeechSSML + styleAddendum;
-    // console.log('niraj Azure prompt', prompt);
-    return prompt
+  
+  CONTENT TRANSFORMATION:
+  - Convert written content to conversational speech
+  - Use contractions and rhetorical questions where natural
+  - Break content into spoken-style paragraphs (3–5 sentences)
+  - Avoid academic phrasing, keep it human and flowing
+  
+  SPEECH DELIVERY:
+  - Use <break> to create rhythm and clarity
+  - Vary prosody and emphasis sparingly to maintain listener interest
+  - Keep tone consistent within a <speak> block
+  
+  OUTPUT RULES:
+  - Do not over-tag: SSML tags should cover <10% of the total text
+  - Avoid invalid SSML nesting or syntax
+  - Output should be well-formed XML with no extra commentary`;
+  
+    return basePrompt + azureSpeechSSML + styleAddendum;
   }
 
   /**

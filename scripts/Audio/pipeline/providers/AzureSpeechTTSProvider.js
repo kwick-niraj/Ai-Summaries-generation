@@ -16,7 +16,7 @@ export class AzureSpeechTTSProvider {
     this.region = config.region || process.env.AZURE_SPEECH_REGION;
     
     // Voice configuration
-    this.preferredLocale = config.preferredLocale || 'en-GB';
+    this.preferredLocale = config.preferredLocale || 'en-US';
     this.fallbackLocale = config.fallbackLocale || 'en-US';
     this.favoriteVoices = config.favoriteVoices || {};
     this.voiceStyles = config.voiceStyles || {};

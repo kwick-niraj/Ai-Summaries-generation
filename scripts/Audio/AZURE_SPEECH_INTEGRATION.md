@@ -7,7 +7,7 @@ Complete integration of Azure Speech Services with your audiobook generation pip
 This integration transforms your audiobook generation from basic TTS to professional-quality audio with:
 
 - **14 Favorite Voices** from Azure Speech Playground
-- **UK English Priority** (en-GB first, en-US fallback)
+- **UK English Priority** (en-US first, en-US fallback)
 - **Advanced SSML** with voice styles and emotional expression
 - **Intelligent Voice Selection** based on content analysis
 - **Automatic Fallback** to Azure OpenAI TTS
@@ -154,7 +154,7 @@ console.log(recommendation);
 
 ```xml
 <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" 
-       xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
+       xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
   <voice name="en-US-AndrewMultilingualNeural">
     <mstts:express-as style="conversational">
       <prosody rate="0.95" pitch="medium">
@@ -201,7 +201,7 @@ export const audioConfig = {
     fallbackProvider: 'azure-openai', // Fallback provider
     
     azureSpeech: {
-      preferredLocale: 'en-GB',      // UK English first
+      preferredLocale: 'en-US',      // UK English first
       fallbackLocale: 'en-US',       // US English fallback
       defaultVoice: 'andrew-multilingual',
       outputFormat: 'audio-24khz-48kbitrate-mono-mp3',

@@ -39,7 +39,7 @@ async function testSSMLProcessing() {
 
     // Test 2: SSML input (should use as-is)
     console.log('\n🎵 Test 2: SSML input');
-    const ssmlContent = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
+    const ssmlContent = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
   <voice name="en-US-AndrewMultilingualNeural">
     <mstts:express-as style="conversational">
       <prosody rate="0.95" pitch="medium">

@@ -18,7 +18,7 @@ export const audioConfig = {
       region: process.env.AZURE_SPEECH_REGION,
       
       // Language preferences
-      preferredLocale: 'en-GB',      // UK English first
+      preferredLocale: 'en-US',      // UK English first
       fallbackLocale: 'en-US',       // US English fallback
       
       // Default voice and format
