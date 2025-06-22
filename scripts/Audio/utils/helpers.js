@@ -50,7 +50,11 @@ export function splitIntoAudioChunks(fullText, limit = 2000) {
   return chunks;
 }
 
-export function formatForTTS(content) {
+export function formatForTTS(content, enabledSSML) {
+  console.log('format tts, enabledSSML', enabledSSML)
+  if(enabledSSML) {
+    return content;
+  }
   const contentObj = content;
   const cont = contentObj.content
     // Replace single line breaks within paragraphs with ellipses

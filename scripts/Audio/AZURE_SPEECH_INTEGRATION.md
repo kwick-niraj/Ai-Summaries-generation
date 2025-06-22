@@ -155,7 +155,7 @@ console.log(recommendation);
 ```xml
 <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" 
        xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
-  <voice name="en-GB-AndrewMultilingualNeural">
+  <voice name="en-US-AndrewMultilingualNeural">
     <mstts:express-as style="conversational">
       <prosody rate="0.95" pitch="medium">
         <mstts:silence type="Leading" value="500ms"/>

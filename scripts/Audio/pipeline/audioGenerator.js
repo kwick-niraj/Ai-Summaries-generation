@@ -98,7 +98,7 @@ export class AudioGenerator {
    * @param {Object} options - Generation options
    * @returns {Promise<Object>} Generation results
    */
-  async generateBookAudio(sections, bookId, outputDir, options = {}) {
+  async generateBookAudio(sections, bookId, outputDir, options = {}, enabledSSML) {
     const results = {
       bookId,
       outputDir,
@@ -115,11 +115,11 @@ export class AudioGenerator {
 
     try {
       // Generate introduction
-      console.log('niraj section for audio', sections)
+      // console.log('niraj section for audio', sections)
       if (sections.introduction) {
         console.log('\n📖 Processing Introduction...');
         const introResult = await this.generateSectionAudio(
-          formatForTTS(sections.introduction),
+          formatForTTS(sections.introduction, enabledSSML),
           'introduction',
           bookId,
           outputDir,
@@ -139,7 +139,7 @@ export class AudioGenerator {
           console.log(`\n📄 Processing Chapter ${chapter.number}: ${chapter.title}`);
           
           const chapterResult = await this.generateSectionAudio(
-            formatForTTS(chapter),
+            formatForTTS(chapter, enabledSSML),
             'chapter',
             bookId,
             outputDir,
@@ -160,7 +160,7 @@ export class AudioGenerator {
       if (sections.conclusion) {
         console.log('\n🎯 Processing Conclusion...');
         const conclusionResult = await this.generateSectionAudio(
-          formatForTTS(sections.conclusion),
+          formatForTTS(sections.conclusion, enabledSSML),
           'conclusion',
           bookId,
           outputDir,

@@ -69,15 +69,16 @@ export class AzureSpeechTTSProvider {
   async generateTTS(text, outputPath, options = {}) {
     try {
       const settings = { ...this.defaultSettings, ...options };
+      console.log('niraj settings generateTTS', settings)
       
       // Resolve voice name to Azure Speech voice identifier
       const voiceInfo = this.resolveVoice(settings.voice);
       
       // Determine if input is SSML or plain text
-      const isSSML = this.isSSMLInput(text);
+      // const isSSML = this.isSSMLInput(text);
       
-      // Generate SSML if needed
-      const ssmlContent = isSSML ? text : this.generateSSML(text, settings, voiceInfo);
+      // // Generate SSML if needed
+      // const ssmlContent = isSSML ? text : this.generateSSML(text, settings, voiceInfo);
       
       console.log(`🎵 Azure Speech TTS: ${path.basename(outputPath)} (${voiceInfo.name})`);
       if (settings.style && settings.style !== 'conversational') {
@@ -85,7 +86,7 @@ export class AzureSpeechTTSProvider {
       }
       
       // Make TTS request
-      const audioData = await this.makeAzureSpeechRequest(ssmlContent, settings);
+      const audioData = await this.makeAzureSpeechRequest(text, settings);
       
       // Save audio file
       fs.mkdirSync(path.dirname(outputPath), { recursive: true });
@@ -132,7 +133,7 @@ export class AzureSpeechTTSProvider {
       console.warn(`Unknown voice '${voiceName}', using default`);
       const defaultVoice = this.favoriteVoices[this.defaultSettings.voice];
       return {
-        name: defaultVoice?.primary || 'en-GB-AndrewMultilingualNeural',
+        name: defaultVoice?.primary || 'en-US-AndrewMultilingualNeural',
         friendlyName: this.defaultSettings.voice,
         locale: this.preferredLocale
       };
@@ -196,6 +197,8 @@ export class AzureSpeechTTSProvider {
       'User-Agent': 'AudioBookGenerator/1.0'
     };
 
+    // const cleanSSML = this.cleanSSML(ssml)
+
     try {
       const response = await axios.post(url, ssml, {
         headers,
@@ -206,6 +209,7 @@ export class AzureSpeechTTSProvider {
       return Buffer.from(response.data);
       
     } catch (error) {
+      console.log('ERROR from makeAzureSpeechRequest', error.response)
       if (error.response) {
         const errorText = Buffer.from(error.response.data).toString();
         throw new Error(`Azure Speech API error (${error.response.status}): ${errorText}`);
@@ -217,6 +221,20 @@ export class AzureSpeechTTSProvider {
     }
   }
 
+  cleanSSML(raw) {
+    return raw
+    .replace(/\s{2,}/g, ' ')                           // collapse extra spaces
+    .replace(/"\s+/g, '"')                             // remove space after closing quote
+    .replace(/\s*=\s*/g, '=')                          // clean spacing around '='
+    .replace(/>\s+</g, '><')                           // clean spacing between tags
+    .replace(/http:\/\/www\. w3\. org/g, 'http://www.w3.org')  // fix broken xmlns
+    .replace(/https:\/\/www\. w3\. org/g, 'https://www.w3.org') // fix broken xmlns
+    .replace(/version="1\. 0"/g, 'version="1.0"')       // fix version
+    .replace(/<speak([^>]+)>/, (match, attrs) => {
+      return `<speak ${attrs.trim().replace(/\s+/g, ' ')}>`; // normalize speak tag attributes
+    })
+    .trim();                       // Remove leading/trailing space
+  }
   /**
    * Check if input text is SSML
    * @param {string} text - Input text

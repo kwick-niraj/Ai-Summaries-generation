@@ -48,7 +48,7 @@ export class MarkdownParser {
       const line = lines[i].trim();
       
       // Check for section headers
-      if (line.startsWith('## ')) {
+      if (line.startsWith('## ') || line.startsWith('**Conclusion:')) {
         // Save previous section if exists
         if (currentSection && currentContent.length > 0) {
           this.saveSection(sections, currentSection, currentContent.join('\n').trim(), chapterNumber);

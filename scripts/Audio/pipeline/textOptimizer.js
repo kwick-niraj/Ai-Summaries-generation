@@ -434,7 +434,7 @@ EMPHASIS & EXPRESSION:
 
 COMPLETE SSML STRUCTURE:
 Generate full SSML documents with proper namespaces:
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-GB">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
   <voice name="${this.getAzureVoiceId(voiceName)}">
     <mstts:express-as style="conversational">
       <prosody rate="0.95" pitch="medium">
@@ -474,7 +474,7 @@ LENGTH RULE:
 - Do not add new examples or expand content`;
 
     const prompt = basePrompt + azureSpeechSSML + styleAddendum;
-    console.log('niraj Azure prompt', prompt);
+    // console.log('niraj Azure prompt', prompt);
     return prompt
   }
 
@@ -564,23 +564,23 @@ LENGTH RULE:
    */
   getAzureVoiceId(voiceName) {
     const voiceMapping = {
-      'andrew-multilingual': 'en-GB-AndrewMultilingualNeural',
-      'nova-turbo-multilingual': 'en-GB-NovaTurboMultilingualNeural',
-      'emma-multilingual': 'en-GB-EmmaMultilingualNeural',
-      'aria': 'en-GB-AriaNeural',
-      'adam-multilingual': 'en-GB-AdamMultilingualNeural',
-      'brandon-multilingual': 'en-GB-BrandonMultilingualNeural',
-      'alloy-turbo-multilingual': 'en-GB-AlloyTurboMultilingualNeural',
-      'steffan-multilingual': 'en-GB-SteffanMultilingualNeural',
-      'amanda-multilingual': 'en-GB-AmandaMultilingualNeural',
-      'derek-multilingual': 'en-GB-DerekMultilingualNeural',
-      'andrew-dragon-hd': 'en-GB-AndrewDragonHDNeural',
-      'jane': 'en-GB-JaneNeural',
+      'andrew-multilingual': 'en-US-AndrewMultilingualNeural',
+      'nova-turbo-multilingual': 'en-US-NovaTurboMultilingualNeural',
+      'emma-multilingual': 'en-US-EmmaMultilingualNeural',
+      'aria': 'en-US-AriaNeural',
+      'adam-multilingual': 'en-US-AdamMultilingualNeural',
+      'brandon-multilingual': 'en-US-BrandonMultilingualNeural',
+      'alloy-turbo-multilingual': 'en-US-AlloyTurboMultilingualNeural',
+      'steffan-multilingual': 'en-US-SteffanMultilingualNeural',
+      'amanda-multilingual': 'en-US-AmandaMultilingualNeural',
+      'derek-multilingual': 'en-US-DerekMultilingualNeural',
+      'andrew-dragon-hd': 'en-US-AndrewDragonHDNeural',
+      'jane': 'en-US-JaneNeural',
       'jason': 'en-US-JasonNeural',
       'davis': 'en-US-DavisNeural'
     };
     
-    return voiceMapping[voiceName] || 'en-GB-AndrewMultilingualNeural';
+    return voiceMapping[voiceName] || 'en-US-AndrewMultilingualNeural';
   }
 
   /**

@@ -1,5 +1,14 @@
 import fs from 'fs';
 import path from 'path';
+import { XMLParser } from 'fast-xml-parser';
+
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: '',
+  textNodeName: 'text',
+  preserveOrder: true
+});
+
 
 /**
  * Text Cache Manager for optimized text caching
@@ -230,6 +239,8 @@ export class TextCacheManager {
     };
   }
 
+  
+
   /**
    * Validate cache files exist and have valid content
    * @param {Object} cacheFiles - Cache file paths
@@ -436,9 +447,11 @@ export class TextCacheManager {
    * @param {string} outputDir - Output directory
    * @returns {Promise<Object>} Loaded cache result
    */
-  async loadCachedText(bookId, outputDir) {
+  async loadCachedText(bookId, outputDir, enableSSML) {
+    console.log('Load Cached Text Input:', bookId, outputDir, enableSSML)
     try {
       const optimizedDir = path.join(outputDir, 'optimized_text');
+      const ssmlDir = outputDir;
       const cacheFiles = this.getCacheFilePaths(bookId, optimizedDir);
       
       const result = {
@@ -456,9 +469,15 @@ export class TextCacheManager {
       }
 
       // Load audio version
-      if (fs.existsSync(cacheFiles.audio)) {
-        const audioContent = fs.readFileSync(cacheFiles.audio, 'utf-8');
-        result.audio = this.parseMarkdownToSections(audioContent, 'audio');
+      if(enableSSML) {
+        const audioContent = fs.readFileSync(ssmlDir + `/${bookId}_ssml.xml`, 'utf-8');
+        // console.log('niraj audiocontent', audioContent)
+        result.audio = this.parseXmlToSections(audioContent, 'audio')
+      }else {
+        if (fs.existsSync(cacheFiles.audio)) {
+          const audioContent = fs.readFileSync(cacheFiles.audio, 'utf-8');
+          result.audio = this.parseMarkdownToSections(audioContent, 'audio');
+        }
       }
 
       // If we don't have both versions, we need to generate the missing one
@@ -476,6 +495,8 @@ export class TextCacheManager {
           partialCache: result.partialCache
         });
       }
+
+      // console.log('niraj parsed result', result)
 
       return result;
 
@@ -540,6 +561,95 @@ export class TextCacheManager {
       return sections;
     }
   }
+
+
+/**
+ * Parse SSML-based XML content into structured sections
+ * @param {string} xmlContent - Raw SSML XML content
+ * @returns {{ introduction: object|null, chapters: object[], conclusion: object|null }}
+ */
+parseXmlToSections(xmlContent) {
+  const sections = {
+    introduction: null,
+    chapters: [],
+    conclusion: null
+  };
+
+  try {
+    const speakBlocks = xmlContent
+      .split(/<!--\s*(INTRODUCTION|CHAPTER:.*?)\s*-->/gi)
+      .map(str => str.trim())
+      .filter(Boolean);
+
+    let currentSection = null;
+
+    for (let i = 0; i < speakBlocks.length; i++) {
+      const block = speakBlocks[i];
+
+      if (block.toUpperCase() === 'INTRODUCTION') {
+        currentSection = 'introduction';
+        continue;
+      }
+
+      const chapterMatch = block.match(/^CHAPTER:\s*(.+)$/i);
+      if (chapterMatch) {
+        currentSection = 'chapter';
+        var currentChapterTitle = chapterMatch[1].trim();
+        continue;
+      }
+
+      if (block.startsWith('<speak')) {
+        const rawSSML = block;
+
+        if (currentSection === 'introduction') {
+          sections.introduction = {
+            title: 'Introduction',
+            content: rawSSML
+          };
+        } else if (currentSection === 'chapter') {
+          sections.chapters.push({
+            title: currentChapterTitle || `Chapter ${sections.chapters.length + 1}`,
+            content: rawSSML
+          });
+        }
+      }
+    }
+
+    // Optional: move last chapter to conclusion if its title suggests so
+    const lastChapter = sections.chapters.at(-1);
+    if (lastChapter && /conclusion/i.test(lastChapter.title)) {
+      sections.conclusion = sections.chapters.pop();
+    }
+
+    return sections;
+
+  } catch (err) {
+    console.error('❌ Failed to parse XML SSML sections:', err);
+    return sections;
+  }
+}
+
+/**
+ * Recursively extract visible text from SSML XML AST (fast-xml-parser format)
+ */
+extractTextFromSSML(nodes) {
+  let text = '';
+
+  for (const node of nodes) {
+    if (node.text) {
+      text += node.text;
+    } else if (Array.isArray(node.children)) {
+      text += this.extractTextFromSSML(node.children); // ✅ fixed
+    } else if (typeof node === 'object') {
+      const nested = Object.values(node).find(v => Array.isArray(v));
+      if (nested) {
+        text += this.extractTextFromSSML(nested); // ✅ fixed
+      }
+    }
+  }
+
+  return text;
+}
 
   /**
    * Identify section type from title

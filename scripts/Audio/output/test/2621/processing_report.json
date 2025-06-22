@@ -1,0 +1,153 @@
+{
+  "bookId": "2621",
+  "timestamp": "2025-06-22T17:09:30.592Z",
+  "success": false,
+  "processingTime": -1750612168186,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3588,
+    "totalAudioFiles": 0,
+    "totalDuration": 0
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 0,
+    "successful": 0,
+    "failed": 0,
+    "duration": 0
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/2621/optimized_text/2621.md",
+    "fileSize": 29335,
+    "wordCount": 4094,
+    "format": "markdown",
+    "filename": "2621.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/2621/metadata/2621_chapters.json",
+    "totalChapters": 0,
+    "totalDuration": 0,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 0,
+      "hasIntroduction": false,
+      "hasConclusion": false,
+      "chapterCount": 0
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "aria",
+    "confidence": 92,
+    "reasoning": "Aria's cheerful tone and engaging style are ideally suited for the friendly, practical, and accessible nature of this self-help book. The book's conversational, tip-based structure and its focus on encouragement and actionable advice align perfectly with Aria's motivational and positive delivery, making the content approachable and enjoyable for a wide adult audience. Additionally, as the author is female, Aria's voice provides a natural and relatable narration.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": null,
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2621",
+      "selectedVoice": "aria",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AriaNeural",
+        "gender": "female",
+        "tone": "cheerful",
+        "style": "engaging",
+        "personality": "upbeat",
+        "bestFor": [
+          "motivational",
+          "positive",
+          "general-audience",
+          "accessible"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "Aria's cheerful tone and engaging style are ideally suited for the friendly, practical, and accessible nature of this self-help book. The book's conversational, tip-based structure and its focus on encouragement and actionable advice align perfectly with Aria's motivational and positive delivery, making the content approachable and enjoyable for a wide adult audience. Additionally, as the author is female, Aria's voice provides a natural and relatable narration.",
+      "provider": "azure",
+      "timestamp": "2025-06-22T17:09:30.572Z",
+      "ssmlConfig": {
+        "voice": "aria",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "0.95",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "0.98",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -183,7 +183,7 @@ export class BookProcessor {
 
       // Step 3: Optimize text with dual-track processing (audio + reading)
       console.log('✨ Dual-track optimizing text for audio and reading...');
-      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath);
+      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath, this.config.enableSSML);
 
       // Step 4: Save both audio and reading optimized text versions (BEFORE audio generation)
       console.log('💾 Saving dual-track optimized text...');
@@ -205,8 +205,9 @@ export class BookProcessor {
           speed: this.config.speed,
           format: this.config.format,
           maxChunkLength: this.config.maxChunkLength,
-          ssmlConfig: voiceConfig?.ssmlConfig
-        }
+          ssmlConfig: voiceConfig?.ssmlConfig,
+        },
+        this.config.enableSSML
       );
       
       result.audioResults = audioResults;
@@ -286,7 +287,7 @@ export class BookProcessor {
    * @param {string} inputPath - Input file path for cache freshness check
    * @returns {Promise<Object>} Optimized sections with both audio and reading versions
    */
-  async optimizeBookSections(sections, voiceConfig = null, bookId = null, outputDir = null, inputPath = null) {
+  async optimizeBookSections(sections, voiceConfig = null, bookId = null, outputDir = null, inputPath = null, enableSSML) {
     // Step 1: Check cache first
     if (bookId && outputDir) {
       console.log('💾 Checking optimized text cache...');
@@ -294,33 +295,35 @@ export class BookProcessor {
       
       if (cacheCheck.valid) {
         // Load cached optimized text
-        const cachedResult = await this.cacheManager.loadCachedText(bookId, outputDir);
+        const cachedResult = await this.cacheManager.loadCachedText(bookId, outputDir, enableSSML);
+
+        console.log('niraj cachedResult', cachedResult)
         
         if (cachedResult.success) {
           // Handle partial cache (missing one version)
-          if (cachedResult.partialCache) {
-            console.log(`⚠️  Partial cache found for ${bookId}, generating missing versions: ${cachedResult.missingVersions.join(', ')}`);
+          // if (cachedResult.partialCache) {
+          //   console.log(`⚠️  Partial cache found for ${bookId}, generating missing versions: ${cachedResult.missingVersions.join(', ')}`);
             
-            // Generate missing versions
-            const missingOptimized = await this.generateMissingOptimizedVersions(
-              sections, 
-              cachedResult, 
-              voiceConfig
-            );
+          //   // Generate missing versions
+          //   const missingOptimized = await this.generateMissingOptimizedVersions(
+          //     sections, 
+          //     cachedResult, 
+          //     voiceConfig
+          //   );
             
-            return {
-              audio: missingOptimized.audio || cachedResult.audio,
-              reading: missingOptimized.reading || cachedResult.reading,
-              loadedFrom: 'partial_cache',
-              cacheInfo: cacheCheck
-            };
-          }
+          //   return {
+          //     audio: missingOptimized.audio || cachedResult.audio,
+          //     reading: missingOptimized.reading || cachedResult.reading,
+          //     loadedFrom: 'partial_cache',
+          //     cacheInfo: cacheCheck
+          //   };
+          // }
           
-          // Full cache hit - apply SSML if needed
-          if (cachedResult.audio && this.config.enableSSML && voiceConfig?.ssmlConfig) {
-            console.log('🎵 Applying SSML to cached audio content...');
-            // cachedResult.audio = this.applySSMLToSections(cachedResult.audio, voiceConfig);
-          }
+          // // Full cache hit - apply SSML if needed
+          // if (cachedResult.audio && this.config.enableSSML && voiceConfig?.ssmlConfig) {
+          //   console.log('🎵 Applying SSML to cached audio content...');
+          //   // cachedResult.audio = this.applySSMLToSections(cachedResult.audio, voiceConfig);
+          // }
           
           return {
             audio: cachedResult.audio,
