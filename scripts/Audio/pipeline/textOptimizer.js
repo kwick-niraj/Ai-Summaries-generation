@@ -209,6 +209,8 @@ export class TextOptimizer {
       });
 
       const optimizedContent = response.choices[0].message.content.trim();
+
+      console.log('niraj output from ai chat', optimizedContent);
       
       if (enableSSML && provider === 'azure-speech') {
         console.log('🎵 Generated Azure Speech SSML content for:', sectionType, `(${voiceName})`);
@@ -383,20 +385,23 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
    * @returns {string} Azure Speech system prompt
    */
   getAzureSpeechSystemPrompt(sectionType, voiceName, enableAdvancedSSML = true) {
-    const basePrompt = `You are an expert Azure Speech Services SSML content creator. Transform the given text into rich, expressive speech markup that leverages the full power of Azure Speech neural voices.
+    console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML)
+    const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
+  
+    Speak as if you're talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
+  
 
-CORE PRINCIPLES:
-- Create natural, engaging spoken-style narration with advanced emotional expression
-- Use Azure Speech's voice styles and prosody for immersive audio experience  
-- Leverage the selected voice's unique characteristics: ${voiceName}
-- Generate complete SSML documents with proper namespace declarations
-- Keep the total length approximately the same as the input (±10%)
+  CORE PRINCIPLES:
+  - Create natural, engaging spoken-style narration with advanced emotional expression
+  - Use Azure Speech's voice styles and prosody for immersive audio experience  
+  - Leverage the selected voice's unique characteristics: ${voiceName}
+  - Keep the total length approximately the same as the input (±10%)
 
 VOICE-SPECIFIC OPTIMIZATION:
 ${this.getVoiceSpecificGuidelines(voiceName)}
 
-SECTION-SPECIFIC STYLING:
-${this.getSectionSpecificSSML(sectionType)}`;
+${enableAdvancedSSML ? 'SECTION-SPECIFIC STYLING:' + this.getSectionSpecificSSML(sectionType): ''
+}`;
 
     const azureSpeechSSML = enableAdvancedSSML ? `
 
@@ -468,7 +473,9 @@ LENGTH RULE:
 - Focus on improving expression, pacing, and emotional delivery
 - Do not add new examples or expand content`;
 
-    return basePrompt + azureSpeechSSML + styleAddendum;
+    const prompt = basePrompt + azureSpeechSSML + styleAddendum;
+    console.log('niraj Azure prompt', prompt);
+    return prompt
   }
 
   /**

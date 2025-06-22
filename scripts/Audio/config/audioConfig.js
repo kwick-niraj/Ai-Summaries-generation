@@ -324,9 +324,9 @@ export const processingPresets = {
   balanced: {
     ...audioConfig,
     optimizeText: true,
-    enableSSML: true,
+    enableSSML: false,
     intelligentVoiceSelection: true,
-    generateSSML: true,
+    generateSSML: false,
     useOptimizedTextCache: true,
     cacheStrategy: 'smart',
     cacheValidityDays: 30,
