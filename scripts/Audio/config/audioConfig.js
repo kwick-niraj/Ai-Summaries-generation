@@ -148,8 +148,8 @@ export const audioConfig = {
   format: 'mp3', // Format: mp3, opus, aac, flac, wav.
 
   // Processing Settings
-  maxChunkLength: 4000,     // Maximum characters per TTS request
-  maxWordsPerChunk: 400,    // Maximum words per optimization chunk
+  maxChunkLength: 9000,     // Maximum characters per TTS request
+  maxWordsPerChunk: 1400,    // Maximum words per optimization chunk
   concurrency: 1,           // Number of books to process simultaneously
   
   // Audio Combination Settings

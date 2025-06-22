@@ -54,7 +54,8 @@ export class TextOptimizer {
       console.log(`🎧 Optimizing for audio: ${sectionType}${options.enableSSML ? ' (with SSML)' : ''}`);
       
       // Clean and prepare the text
-      const cleanedText = this.cleanMarkdownText(text);
+      // const cleanedText = this.cleanMarkdownText(text);
+      const cleanedText = text;
       
       // Apply AI-based optimization for conversational audio
       const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType, options);
@@ -90,7 +91,9 @@ export class TextOptimizer {
       const extractedHeaders = this.extractChapterHeaders(text);
       
       // Clean and prepare the text
-      const cleanedText = this.cleanMarkdownText(text);
+      // const cleanedText = this.cleanMarkdownText(text);
+      const cleanedText = text;
+
       
       // Apply AI-based optimization for reading
       const optimizedText = await this.applyReadingAIOptimization(cleanedText, sectionType);
@@ -206,11 +209,11 @@ export class TextOptimizer {
           { role: 'user', content: text }
         ],
         temperature: 0.7,
-        max_tokens: 2000,
+        max_tokens: 14000,
       });
 
       const optimizedContent = response.choices[0].message.content.trim();
-
+      console.log('niraj input for Ai Chat Generation', 'section type:', sectionType, 'text:', text);
       console.log('niraj output from ai chat', optimizedContent);
       
       if (enableSSML && provider === 'azure-speech') {
@@ -463,6 +466,9 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
     - Validate the XML before submitting to Azure Speech API` : '';
   
     const styleAddendum = `
+  SECTION TITLE RULES:
+  - If this is a chapter section, always preserve and speak the chapter title (e.g. "Chapter 3: The Art of Listening") before narration starts.
+  - If this is the introduction or conclusion, do NOT speak or include any title — jump directly into the content.
   
   CONTENT TRANSFORMATION:
   - Convert written content to conversational speech
@@ -539,8 +545,7 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
     const sectionStyles = {
       introduction: `
 - Primary style: "friendly" for welcoming tone
-- Use slower rate (0.9) and leading silence (800ms)
-- Add emphasis to book title and key concepts
+- Add some welcoming sentence for a connection.
 - Create anticipation with strategic pauses
 - End with hopeful, forward-looking delivery`,
 
@@ -553,7 +558,6 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
 
       conclusion: `
 - Primary style: "hopeful" for inspiring finish
-- Use slightly slower rate (0.95) for emphasis
 - Add strong emphasis to key takeaways
 - Use tailing silence (1200ms) for impact
 - End with motivational, empowering tone`
@@ -871,7 +875,7 @@ AVOID:
    * @param {number} maxLength - Maximum length per chunk
    * @returns {Array} Array of text chunks
    */
-  splitTextForTTS(text, maxLength = 4000) {
+  splitTextForTTS(text, maxLength = 9000) {
     if (text.length <= maxLength) {
       return [text];
     }

@@ -357,7 +357,7 @@ export class BookProcessor {
       // Optimize introduction
       if (sections.introduction) {
         console.log('  📖 Dual-track optimizing introduction...');
-        const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
+        const chunks = this.parser.splitIntoChunks(sections.introduction.content);
         
         // Process chunks for both audio and reading
         const audioChunks = [];
@@ -395,7 +395,7 @@ export class BookProcessor {
         console.log(`  📚 Dual-track optimizing ${sections.chapters.length} chapters...`);
         
         for (const chapter of sections.chapters) {
-          const chunks = this.parser.splitIntoChunks(chapter.content, 400);
+          const chunks = this.parser.splitIntoChunks(chapter.content);
           
           // Process chunks for both audio and reading
           const audioChunks = [];
@@ -435,7 +435,7 @@ export class BookProcessor {
       // Optimize conclusion
       if (sections.conclusion) {
         console.log('  🎯 Dual-track optimizing conclusion...');
-        const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
+        const chunks = this.parser.splitIntoChunks(sections.conclusion.content);
         
         // Process chunks for both audio and reading
         const audioChunks = [];
@@ -535,7 +535,7 @@ export class BookProcessor {
 
     // Process each section for audio optimization
     if (sections.introduction) {
-      const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
+      const chunks = this.parser.splitIntoChunks(sections.introduction.content);
       const audioChunks = [];
       
         for (const chunk of chunks) {
@@ -556,7 +556,7 @@ export class BookProcessor {
 
     if (sections.chapters) {
       for (const chapter of sections.chapters) {
-        const chunks = this.parser.splitIntoChunks(chapter.content, 400);
+        const chunks = this.parser.splitIntoChunks(chapter.content);
         const audioChunks = [];
         
         for (const chunk of chunks) {
@@ -576,7 +576,7 @@ export class BookProcessor {
     }
 
     if (sections.conclusion) {
-      const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
+      const chunks = this.parser.splitIntoChunks(sections.conclusion.content);
       const audioChunks = [];
       
       for (const chunk of chunks) {
@@ -611,7 +611,7 @@ export class BookProcessor {
 
     // Process each section for reading optimization
     if (sections.introduction) {
-      const chunks = this.parser.splitIntoChunks(sections.introduction.content, 400);
+      const chunks = this.parser.splitIntoChunks(sections.introduction.content);
       const readingChunks = [];
       
       for (const chunk of chunks) {
@@ -627,7 +627,7 @@ export class BookProcessor {
 
     if (sections.chapters) {
       for (const chapter of sections.chapters) {
-        const chunks = this.parser.splitIntoChunks(chapter.content, 400);
+        const chunks = this.parser.splitIntoChunks(chapter.content);
         const readingChunks = [];
         
         for (const chunk of chunks) {
@@ -643,7 +643,7 @@ export class BookProcessor {
     }
 
     if (sections.conclusion) {
-      const chunks = this.parser.splitIntoChunks(sections.conclusion.content, 400);
+      const chunks = this.parser.splitIntoChunks(sections.conclusion.content);
       const readingChunks = [];
       
       for (const chunk of chunks) {

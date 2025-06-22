@@ -48,14 +48,14 @@ export class MarkdownParser {
       const line = lines[i].trim();
       
       // Check for section headers
-      if (line.startsWith('## ') || line.startsWith('**Conclusion:')) {
+      if (line.startsWith('## ') || line.startsWith('**Conclusion')) {
         // Save previous section if exists
         if (currentSection && currentContent.length > 0) {
           this.saveSection(sections, currentSection, currentContent.join('\n').trim(), chapterNumber);
         }
 
         // Determine section type
-        const headerText = line.substring(3).trim();
+        const headerText = line.trim();
         currentSection = this.identifySectionType(headerText);
         currentContent = [line]; // Include the header in content
         
@@ -74,7 +74,7 @@ export class MarkdownParser {
     if (currentSection && currentContent.length > 0) {
       this.saveSection(sections, currentSection, currentContent.join('\n').trim(), chapterNumber);
     }
-
+    console.log('niraj sections', sections);
     return sections;
   }
 
@@ -171,7 +171,7 @@ export class MarkdownParser {
    * @param {number} maxWords - Maximum words per chunk
    * @returns {Array} Array of content chunks
    */
-  splitIntoChunks(content, maxWords = 400) {
+  splitIntoChunks(content, maxWords = 4000) {
     const words = content.split(/\s+/);
     const chunks = [];
     
