@@ -66,7 +66,7 @@ export class TextOptimizer {
       // const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
       const audioReadyText = optimizedText
 
-      console.log('AudioReady Text', audioReadyText);
+      // console.log('AudioReady Text', audioReadyText);
       
       return audioReadyText;
     } catch (error) {
@@ -192,6 +192,7 @@ export class TextOptimizer {
    * @returns {Promise<string>} Audio-optimized text
    */
   async applyAudioAIOptimization(text, sectionType, options = {}) {
+    // console.log('Niraj Text Optimization option:', options);
     const enableSSML = options.enableSSML || false;
     const provider = options.provider || 'azure-speech'; // Default to Azure Speech now
     const voiceName = options.voice || 'andrew-multilingual';
@@ -381,6 +382,8 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
     return basePrompt + ssmlInstructions + (sectionSpecific[sectionType] || sectionSpecific.chapter) + styleAddendum;
   }
 
+
+
   /**
    * Get Azure Speech-specific system prompt with advanced SSML features
    * @param {string} sectionType - Section type
@@ -389,104 +392,111 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
    * @returns {string} Azure Speech system prompt
    */
   getAzureSpeechSystemPrompt(sectionType, voiceName, enableAdvancedSSML = true) {
-    // console.log('niraj azure system prompt', sectionType, voiceName, enableAdvancedSSML);
+    const basePrompt = `You are an expert podcast script writer and audio content creator. Transform the given text into natural, emotionally engaging speech content — optimized for Azure TTS.
   
-    const basePrompt = `You are an expert audio content creator. Your task is to transform the given text into natural, engaging spoken-style narration — structured for clarity, flow, and rhythm.
+  🎧 CORE SPEAKING PRINCIPLES:
+  - Speak as if you're talking to one listener
+  - Use natural rhythm, storytelling, and emotional flow
+  - Prefer contractions and rhetorical questions ("you'll", "what if you could...")
+  - Replace formal language with a warm, conversational tone
+  - Keep output length within ±10% of original
+  - Selected voice: ${this.getAzureVoiceId(voiceName)}
   
-  Speak as if you're talking to one listener, guiding them through ideas in a way that feels effortless and immersive. Keep the total length approximately the same as the input (±10%).
-  
-  CORE PRINCIPLES:
-  - Create natural, spoken-style narration with emotional expression
-  - Use Azure Speech SSML (styles, prosody, breaks, emphasis) for immersive audio
-  - Voice selected: ${voiceName}
-  - Maintain character length within ±10% of input
-  
-  VOICE OPTIMIZATION:
-  ${this.getVoiceSpecificGuidelines(voiceName)}
-  
-  ${enableAdvancedSSML ? 'SECTION-SPECIFIC STYLING:\n' + this.getSectionSpecificSSML(sectionType) : ''}`;
-  
-    const azureSpeechSSML = enableAdvancedSSML ? `
-
-    AZURE SSML TAGS (Microsoft Azure TTS):
-    Use these **one level at a time** – DO NOT nest <mstts:express-as> inside another express-as or prosody block.
-    
-    VOICE STYLES (choose **only one** per <speak> block):
-    - <mstts:express-as style="conversational">natural, informal</mstts:express-as>
-    - <mstts:express-as style="friendly">warm, welcoming</mstts:express-as>
-    - <mstts:express-as style="hopeful">uplifting, inspiring</mstts:express-as>
-    - <mstts:express-as style="cheerful">energetic, positive</mstts:express-as>
-    - <mstts:express-as style="empathetic">compassionate, caring</mstts:express-as>
-    
-    IMPORTANT:
-    ❗ DO NOT generate multiple <speak> blocks — return **only ONE** root <speak> element per request.
-    ✅ If you need to switch styles or tones, those should be handled across separate requests.
-    
-    VOICE SELECTION:
-    - <voice name="${this.getAzureVoiceId(voiceName)}"> ... </voice> (wrap all content)
-    
-    ENHANCED PROSODY:
-    - <prosody rate="slow|medium|fast|+10%" pitch="low|medium|+10%">control tone</prosody>
-    ✅ Use \`+10%\` or \`-10%\` only — do NOT write "10 percent" or include spaces.
-    
-    PAUSES:
-    - <break time="500ms" strength="medium"/> — natural pause
-    - <mstts:silence type="Leading" value="800ms"/> — intro delay
-    - <mstts:silence type="Tailing" value="1200ms"/> — outro finish
-    
-    EMPHASIS:
-    - <emphasis level="moderate|strong">highlight key terms</emphasis> sparingly
-    
-    ✅ XML STRUCTURE RULES (critical for Azure TTS to work):
-    - **Only return one <speak> element per SSML file**
-    - Wrap your entire content in a single:
-      <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
-             xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
-    - DO NOT include multiple <speak> blocks
-    - DO NOT output raw XML fragments without a wrapping <speak>
-    - Validate that all XML tags are closed and nested properly
-    
-    EXAMPLE SSML STRUCTURE (Valid):
+  🔊 SSML STRUCTURE:
+  - Only one <speak> element — no duplicates
+  - Wrap entire output like this:
     <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
            xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
       <voice name="${this.getAzureVoiceId(voiceName)}">
-        <mstts:express-as style="friendly">
-          <prosody rate="0.95" pitch="+10%">
-            Your final content here with <break/> and <emphasis>where needed</emphasis>.
+        <mstts:express-as style="default" >
+          <prosody rate="0.95">
+            ...other content with SSML...
           </prosody>
         </mstts:express-as>
       </voice>
     </speak>
-    
-    RULES:
-    - Only 1 <mstts:express-as> per <speak>
-    - Never nest <express-as> inside <prosody> or vice versa
-    - Use +10%, -10%, not "10 percent"
-    - Do not return multiple <speak> blocks in a single response
-    - Validate the XML before submitting to Azure Speech API` : '';
+  - All XML tags must be valid, closed, and properly nested
   
-    const styleAddendum = `
-  SECTION TITLE RULES:
-  - If this is a chapter section, always preserve and speak the chapter title (e.g. "Chapter 3: The Art of Listening") before narration starts.
-  - If this is the introduction or conclusion, do NOT speak or include any title — jump directly into the content.
+  🔧 HOW TO USE SSML:
+
+1. <voice> — Select an appropriate voice (like "en-US-NovaMultilingualNeural").
+2. <mstts:express-as> — Use emotion or style:
+   - Use "style="calm"" for relaxed narration.
+   - Use "style="chat"" or "style="narration-professional"" when storytelling.
+   - Use "styledegree="1"" or omit it unless stronger tone is required.
+3. <prosody> — Control pacing and pitch:
+   - Use "rate="0.95"" for slightly slower, natural delivery.
+   - Use "pitch="default"" or "+1st" if emphasis is needed (avoid "+2st" unless justified).
+4. <break> — Use "<break time="300ms"/>" between thoughts for breathing room and clarity.
+5. <emphasis> — Use sparingly to highlight keywords.
+6. <mstts:silence> — Add brief leading/trailing pauses for intro/outro or dramatic effect.
+7. Paragraphs — Break the output into short, digestible paragraphs for natural flow.
+
+🛑 DO NOT:
+- Add meta-commentary (like “this section is about…, in this book, in this chapter,").
+- Overuse "<emphasis>", "<prosody>", or "<break>" — keep it subtle
+- Use multiple nested <prosody> or <express-as> tags
+- Generate invalid SSML syntax (must be well-formed XML with only one root <speak> tag)
+
+🎙️ FINAL OUTPUT FORMAT:
+Wrap the content in a single "<speak>" block with correct "xmlns" attributes and language set to "en-US". Inside it, include:
+- <voice name="...">
+- <mstts:express-as style="..." styledegree="...">
+- <prosody rate="..." pitch="...">
+- Well-paced narrative with occasional "<break/>" and "<emphasis/>"
+
+✅ GOAL:
+The final output should sound like a real human speaking in a calm, intelligent, and friendly tone—easy to follow and pleasant to listen to.
+
+Generate ONLY the SSML. Do not explain your choices. Do not generate anything outside the "<speak>" element.`;
   
-  CONTENT TRANSFORMATION:
-  - Convert written content to conversational speech
-  - Use contractions and rhetorical questions where natural
-  - Break content into spoken-style paragraphs (3–5 sentences)
-  - Avoid academic phrasing, keep it human and flowing
+const sectionSpecific = {
+  introduction: `
+INTRODUCTION-SPECIFIC GUIDELINES:
+- Create a warm, welcoming opening that draws listeners in immediately
+- Replace formal "Introduction" language with engaging hooks
+- Use phrases like "Welcome to this journey", "Let's explore together", "Here's what we're going to discover"
+- Set expectations in a conversational way
+- Build curiosity and anticipation
+- Make the listener feel they're about to learn something valuable
+- Use inclusive language ("we", "us", "together")
+
+OPENING STYLE: Warm, inviting, curiosity-building`,
+
+  chapter: `
+CHAPTER-SPECIFIC GUIDELINES:
+- Keep chapter titles but integrate them naturally into the flow
+- Create smooth transitions from previous content
+- Use natural section breaks with conversational bridges
+- Explain concepts as if teaching a friend
+- Include real-world applications and relatable examples
+- Maintain energy and engagement throughout
+- Use varied sentence structure to avoid monotony
+- Add emphasis to key points naturally
+
+CHAPTER STYLE: Informative, engaging, conversational teaching`,
+
+  conclusion: `
+CONCLUSION-SPECIFIC GUIDELINES:
+- Replace formal "Conclusion" language with natural wrap-up phrases
+- Use phrases like "As we wrap up", "To bring this all together", "Here's what this means for you"
+- Create a sense of completion and satisfaction
+- Summarize key insights in a memorable way
+- End with inspiration or actionable next steps
+- Make the listener feel empowered and motivated
+- Use forward-looking language about applying the insights
+
+CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
+};
   
-  SPEECH DELIVERY:
-  - Use <break> to create rhythm and clarity
-  - Vary prosody and emphasis sparingly to maintain listener interest
-  - Keep tone consistent within a <speak> block
+    const extra = `
+  💡 EXAMPLES TO CONVERT:
+  - "This chapter discusses..." → "Let’s take a look at..."
+  - "It is important to note..." → "Here’s something to pay attention to..."
+  - "In conclusion..." → "So, here’s the key takeaway..."
+  `;
   
-  OUTPUT RULES:
-  - Do not over-tag: SSML tags should cover <10% of the total text
-  - Avoid invalid SSML nesting or syntax
-  - Output should be well-formed XML with no extra commentary`;
-  
-    return basePrompt + azureSpeechSSML + styleAddendum;
+    return basePrompt + (sectionSpecific[sectionType] || sectionSpecific.chapter) + extra;
   }
 
   /**

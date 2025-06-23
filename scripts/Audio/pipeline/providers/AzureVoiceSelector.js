@@ -179,7 +179,7 @@ export class AzureVoiceSelector extends VoiceSelectionProvider {
   
   1. Focus on the tone, teaching style, and emotional depth of the book — not just the subject matter.
 
-  2. Consider the author's gender and book's emotional tone when selecting between male and female voices. select male voices only when author's gender is "male" otherwise select voices from "female".
+  2. Consider the author's gender and book's emotional tone when selecting between male and female voices. select from the list shared in "Available Voices", male voices when author's gender is "male" otherwise select voice of "female". Smartly select from multiple options.
     
   Respond with ONLY a JSON object in this exact format:
   {

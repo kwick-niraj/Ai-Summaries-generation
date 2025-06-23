@@ -1,0 +1,409 @@
+{
+  "bookId": "1159",
+  "timestamp": "2025-06-23T12:14:14.170Z",
+  "success": false,
+  "processingTime": -1750680762078,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4053,
+    "totalAudioFiles": 11,
+    "totalDuration": 1633.728
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1633.728
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/1159/optimized_text/1159.md",
+    "fileSize": 29773,
+    "wordCount": 4423,
+    "format": "markdown",
+    "filename": "1159.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/1159/metadata/1159_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1633.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/1159/metadata/1159_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/1159/metadata/1159_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 92,
+    "reasoning": "The book is authored by a male and uses a motivational, conversational, and storytelling style to deliver practical financial lessons. Brandon-multilingual offers a warm tone and friendly style ideal for self-help, personal development, and storytelling, making it highly suitable for engaging listeners and conveying the book's practical wisdom.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/1159/1159_complete.mp3",
+    "duration": 1633.776,
+    "fileSize": 26140844,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/1159/introduction.mp3",
+          "duration": 70.992,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 70.992,
+          "startTime": 0,
+          "endTime": 70.992
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_01.mp3",
+          "duration": 177.912,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs",
+          "actualDuration": 177.912,
+          "startTime": 72.492,
+          "endTime": 250.404
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_02.mp3",
+          "duration": 180.888,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First Lessons—Learning About Money Outside the Classroom",
+          "actualDuration": 180.888,
+          "startTime": 251.904,
+          "endTime": 432.79200000000003
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_03.mp3",
+          "duration": 197.544,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On",
+          "actualDuration": 197.544,
+          "startTime": 434.29200000000003,
+          "endTime": 631.836
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_04.mp3",
+          "duration": 193.44,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially",
+          "actualDuration": 193.44,
+          "startTime": 633.336,
+          "endTime": 826.7760000000001
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_05.mp3",
+          "duration": 183,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills",
+          "actualDuration": 183,
+          "startTime": 828.2760000000001,
+          "endTime": 1011.2760000000001
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_06.mp3",
+          "duration": 166.584,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Rich Invent Money—Opportunity in the Everyday",
+          "actualDuration": 166.584,
+          "startTime": 1012.7760000000001,
+          "endTime": 1179.3600000000001
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_07.mp3",
+          "duration": 167.952,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Work to Learn—Don’t Work for Money",
+          "actualDuration": 167.952,
+          "startTime": 1180.8600000000001,
+          "endTime": 1348.8120000000001
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_08.mp3",
+          "duration": 151.728,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism",
+          "actualDuration": 151.728,
+          "startTime": 1350.3120000000001,
+          "endTime": 1502.0400000000002
+        },
+        {
+          "path": "Audio/output/test/1159/chapter_09.mp3",
+          "duration": 143.688,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Getting Started—Turning Knowledge into Action",
+          "actualDuration": 143.688,
+          "startTime": 1503.5400000000002,
+          "endTime": 1647.228
+        }
+      ],
+      "totalDuration": 1647.228,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 70.99,
+          "actualStart": 0,
+          "actualEnd": 70.992,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs",
+          "expectedStart": 70.99,
+          "expectedEnd": 248.9,
+          "actualStart": 72.492,
+          "actualEnd": 250.404,
+          "timeDifference": 1.5020000000000095
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First Lessons—Learning About Money Outside the Classroom",
+          "expectedStart": 248.9,
+          "expectedEnd": 429.79,
+          "actualStart": 251.904,
+          "actualEnd": 432.79200000000003,
+          "timeDifference": 3.0039999999999907
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On",
+          "expectedStart": 429.79,
+          "expectedEnd": 627.33,
+          "actualStart": 434.29200000000003,
+          "actualEnd": 631.836,
+          "timeDifference": 4.5020000000000095
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially",
+          "expectedStart": 627.33,
+          "expectedEnd": 820.77,
+          "actualStart": 633.336,
+          "actualEnd": 826.7760000000001,
+          "timeDifference": 6.005999999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills",
+          "expectedStart": 820.77,
+          "expectedEnd": 1003.77,
+          "actualStart": 828.2760000000001,
+          "actualEnd": 1011.2760000000001,
+          "timeDifference": 7.5060000000000855
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Rich Invent Money—Opportunity in the Everyday",
+          "expectedStart": 1003.77,
+          "expectedEnd": 1170.35,
+          "actualStart": 1012.7760000000001,
+          "actualEnd": 1179.3600000000001,
+          "timeDifference": 9.006000000000085
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Work to Learn—Don’t Work for Money",
+          "expectedStart": 1170.35,
+          "expectedEnd": 1338.3,
+          "actualStart": 1180.8600000000001,
+          "actualEnd": 1348.8120000000001,
+          "timeDifference": 10.510000000000218
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism",
+          "expectedStart": 1338.3,
+          "expectedEnd": 1490.03,
+          "actualStart": 1350.3120000000001,
+          "actualEnd": 1502.0400000000002,
+          "timeDifference": 12.012000000000171
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Getting Started—Turning Knowledge into Action",
+          "expectedStart": 1490.03,
+          "expectedEnd": 1633.72,
+          "actualStart": 1503.5400000000002,
+          "actualEnd": 1647.228,
+          "timeDifference": 13.510000000000218
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 70.992,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs"
+        },
+        {
+          "startTime": 250.404,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Two Fathers, Two Paths—How Upbringing Shapes Money Beliefs and Chapter 2 The First Lessons—Learning About Money Outside the Classroom"
+        },
+        {
+          "startTime": 432.79200000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First Lessons—Learning About Money Outside the Classroom and Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On"
+        },
+        {
+          "startTime": 631.836,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Difference Between Assets and Liabilities—What the Wealthy Focus On and Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially"
+        },
+        {
+          "startTime": 826.7760000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Cycle—Why Most People Stay Trapped Financially and Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills"
+        },
+        {
+          "startTime": 1011.2760000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Financial Education—Why Schools Don’t Teach Money Skills and Chapter 6 The Rich Invent Money—Opportunity in the Everyday"
+        },
+        {
+          "startTime": 1179.3600000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Rich Invent Money—Opportunity in the Everyday and Chapter 7 Work to Learn—Don’t Work for Money"
+        },
+        {
+          "startTime": 1348.8120000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Work to Learn—Don’t Work for Money and Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism"
+        },
+        {
+          "startTime": 1502.0400000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Obstacles—Facing Fear, Doubt, and Cynicism and Chapter 9 Getting Started—Turning Knowledge into Action"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1159",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "The book is authored by a male and uses a motivational, conversational, and storytelling style to deliver practical financial lessons. Brandon-multilingual offers a warm tone and friendly style ideal for self-help, personal development, and storytelling, making it highly suitable for engaging listeners and conveying the book's practical wisdom.",
+      "provider": "azure",
+      "timestamp": "2025-06-23T12:12:44.617Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}
