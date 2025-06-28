@@ -75,7 +75,7 @@ export class VoiceSelectionProvider {
       tone: 'versatile',
       style: 'adaptive',
       personality: 'flexible',
-      bestFor: ['general-purpose', 'chat', 'multilingual', 'educational']
+      bestFor: ['storytelling', 'multilingual', 'popular']
     },
     'andrew-dragon-hd-latest': {
         azureVoiceId: 'en-US-AndrewDragonHDNeural',
@@ -101,14 +101,14 @@ export class VoiceSelectionProvider {
         personality: 'conversational',
         bestFor: ['storytelling', 'casual', 'self-help', 'personal-development']
       },
-      'emma-multilingual': {
-        azureVoiceId: 'en-US-EmmaMultilingualNeural',
-        gender: 'female',
-        tone: 'empathetic',
-        style: 'warm',
-        personality: 'caring',
-        bestFor: ['emotional', 'wellness', 'mindfulness', 'healing']
-      },
+      // 'emma-multilingual': {
+      //   azureVoiceId: 'en-US-EmmaMultilingualNeural',
+      //   gender: 'female',
+      //   tone: 'empathetic',
+      //   style: 'warm',
+      //   personality: 'caring',
+      //   bestFor: ['emotional', 'wellness', 'mindfulness', 'healing']
+      // },
       'nova-turbo-multilingual': {
         azureVoiceId: 'en-US-NovaTurboMultilingualNeural',
         gender: 'female',

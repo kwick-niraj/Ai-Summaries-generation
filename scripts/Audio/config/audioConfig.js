@@ -81,12 +81,12 @@ export const audioConfig = {
           description: 'High-definition Andrew voice variant',
           recommended: ['premium', 'high-quality']
         },
-        'emma-multilingual': {
-          primary: 'en-US-EmmaMultilingualNeural',
-          fallback: 'en-US-EmmaMultilingualNeural',
-          description: 'Warm, empathetic female multilingual voice',
-          recommended: ['storytelling', 'emotional']
-        },
+        // 'emma-multilingual': {
+        //   primary: 'en-US-EmmaMultilingualNeural',
+        //   fallback: 'en-US-EmmaMultilingualNeural',
+        //   description: 'Warm, empathetic female multilingual voice',
+        //   recommended: ['storytelling', 'emotional']
+        // },
         'aria': {
           primary: 'en-US-AriaNeural',
           fallback: 'en-US-AriaNeural',
@@ -176,8 +176,8 @@ export const audioConfig = {
   
   // Voice Selection Provider Configuration
   voiceSelection: {
-    provider: 'azure',       // Options: 'azure', 'ollama', 'rule-based'
-    fallbackProvider: 'rule-based', // Fallback if primary provider fails
+    provider: 'hybrid',      // Options: 'azure', 'ollama', 'rule-based', 'smart', 'hybrid'
+    fallbackProvider: 'smart', // Fallback if primary provider fails
     azure: {
       endpoint: process.env.AZURE_OPENAI_ENDPOINT,
       apiKey: process.env.AZURE_OPENAI_KEY,

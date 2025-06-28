@@ -1,0 +1,456 @@
+{
+  "bookId": "2185",
+  "timestamp": "2025-06-28T10:56:10.150Z",
+  "success": false,
+  "processingTime": -1751107822603,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3850,
+    "totalAudioFiles": 12,
+    "totalDuration": 1769.041624
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1769.041624
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/2185/optimized_text/2185.md",
+    "fileSize": 28180,
+    "wordCount": 4261,
+    "format": "markdown",
+    "filename": "2185.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/2185/metadata/2185_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1769.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/2185/metadata/2185_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/2185/metadata/2185_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/2185/2185_complete.wav",
+    "duration": 1769.041625,
+    "fileSize": 84914076,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/2185/introduction.wav",
+          "duration": 80.736208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.736208,
+          "startTime": 0,
+          "endTime": 80.736208
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_01.wav",
+          "duration": 194.278375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Cut Off from the World",
+          "actualDuration": 194.278375,
+          "startTime": 82.236208,
+          "endTime": 276.514583
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_02.wav",
+          "duration": 187.614417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Bonds, Beliefs, and the Weight of Loyalty",
+          "actualDuration": 187.614417,
+          "startTime": 278.014583,
+          "endTime": 465.629
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_03.wav",
+          "duration": 178.529583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 First Steps Toward Learning and Self-Discovery",
+          "actualDuration": 178.529583,
+          "startTime": 467.129,
+          "endTime": 645.658583
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_04.wav",
+          "duration": 201.201417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Away and Facing the Unknown",
+          "actualDuration": 201.201417,
+          "startTime": 647.158583,
+          "endTime": 848.36
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_05.wav",
+          "duration": 181.12425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cost of Change and the Search for Belonging",
+          "actualDuration": 181.12425,
+          "startTime": 849.86,
+          "endTime": 1030.98425
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_06.wav",
+          "duration": 159.309625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World Expands and the Past Echoes",
+          "actualDuration": 159.309625,
+          "startTime": 1032.48425,
+          "endTime": 1191.793875
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_07.wav",
+          "duration": 145.57125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle for Self-Definition",
+          "actualDuration": 145.57125,
+          "startTime": 1193.293875,
+          "endTime": 1338.865125
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_08.wav",
+          "duration": 129.537708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Confronting Pain and Seeking Truth",
+          "actualDuration": 129.537708,
+          "startTime": 1340.365125,
+          "endTime": 1469.902833
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_09.wav",
+          "duration": 126.549333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Forging a New Path",
+          "actualDuration": 126.549333,
+          "startTime": 1471.402833,
+          "endTime": 1597.952166
+        },
+        {
+          "path": "Audio/output/test/2185/chapter_10.wav",
+          "duration": 92.302125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Complexity and Moving Forward",
+          "actualDuration": 92.302125,
+          "startTime": 1599.452166,
+          "endTime": 1691.754291
+        },
+        {
+          "path": "Audio/output/test/2185/conclusion.wav",
+          "duration": 92.287333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 92.287333,
+          "startTime": 1693.254291,
+          "endTime": 1785.541624
+        }
+      ],
+      "totalDuration": 1785.541624,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.74,
+          "actualStart": 0,
+          "actualEnd": 80.736208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Cut Off from the World",
+          "expectedStart": 80.74,
+          "expectedEnd": 275.02,
+          "actualStart": 82.236208,
+          "actualEnd": 276.514583,
+          "timeDifference": 1.49620800000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Bonds, Beliefs, and the Weight of Loyalty",
+          "expectedStart": 275.02,
+          "expectedEnd": 462.63,
+          "actualStart": 278.014583,
+          "actualEnd": 465.629,
+          "timeDifference": 2.994583000000034
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 First Steps Toward Learning and Self-Discovery",
+          "expectedStart": 462.63,
+          "expectedEnd": 641.16,
+          "actualStart": 467.129,
+          "actualEnd": 645.658583,
+          "timeDifference": 4.499000000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Away and Facing the Unknown",
+          "expectedStart": 641.16,
+          "expectedEnd": 842.36,
+          "actualStart": 647.158583,
+          "actualEnd": 848.36,
+          "timeDifference": 5.998583000000053
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cost of Change and the Search for Belonging",
+          "expectedStart": 842.36,
+          "expectedEnd": 1023.48,
+          "actualStart": 849.86,
+          "actualEnd": 1030.98425,
+          "timeDifference": 7.5
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World Expands and the Past Echoes",
+          "expectedStart": 1023.48,
+          "expectedEnd": 1182.79,
+          "actualStart": 1032.48425,
+          "actualEnd": 1191.793875,
+          "timeDifference": 9.004249999999956
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle for Self-Definition",
+          "expectedStart": 1182.79,
+          "expectedEnd": 1328.36,
+          "actualStart": 1193.293875,
+          "actualEnd": 1338.865125,
+          "timeDifference": 10.503875000000107
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Confronting Pain and Seeking Truth",
+          "expectedStart": 1328.36,
+          "expectedEnd": 1457.9,
+          "actualStart": 1340.365125,
+          "actualEnd": 1469.902833,
+          "timeDifference": 12.005125000000135
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Forging a New Path",
+          "expectedStart": 1457.9,
+          "expectedEnd": 1584.45,
+          "actualStart": 1471.402833,
+          "actualEnd": 1597.952166,
+          "timeDifference": 13.50283300000001
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Complexity and Moving Forward",
+          "expectedStart": 1584.45,
+          "expectedEnd": 1676.75,
+          "actualStart": 1599.452166,
+          "actualEnd": 1691.754291,
+          "timeDifference": 15.002165999999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1676.75,
+          "expectedEnd": 1769.04,
+          "actualStart": 1693.254291,
+          "actualEnd": 1785.541624,
+          "timeDifference": 16.504290999999967
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.736208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Cut Off from the World"
+        },
+        {
+          "startTime": 276.514583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Cut Off from the World and Chapter 2 Family Bonds, Beliefs, and the Weight of Loyalty"
+        },
+        {
+          "startTime": 465.629,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Bonds, Beliefs, and the Weight of Loyalty and Chapter 3 First Steps Toward Learning and Self-Discovery"
+        },
+        {
+          "startTime": 645.658583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 First Steps Toward Learning and Self-Discovery and Chapter 4 Breaking Away and Facing the Unknown"
+        },
+        {
+          "startTime": 848.36,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Away and Facing the Unknown and Chapter 5 The Cost of Change and the Search for Belonging"
+        },
+        {
+          "startTime": 1030.98425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cost of Change and the Search for Belonging and Chapter 6 The World Expands and the Past Echoes"
+        },
+        {
+          "startTime": 1191.793875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World Expands and the Past Echoes and Chapter 7 The Struggle for Self-Definition"
+        },
+        {
+          "startTime": 1338.865125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle for Self-Definition and Chapter 8 Confronting Pain and Seeking Truth"
+        },
+        {
+          "startTime": 1469.902833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Confronting Pain and Seeking Truth and Chapter 9 Forging a New Path"
+        },
+        {
+          "startTime": 1597.952166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Forging a New Path and Chapter 10 Embracing Complexity and Moving Forward"
+        },
+        {
+          "startTime": 1691.754291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Complexity and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2185",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "self-help",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-06-28T10:50:22.899Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

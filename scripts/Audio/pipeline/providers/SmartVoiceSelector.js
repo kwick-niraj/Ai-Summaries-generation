@@ -182,8 +182,9 @@ export class SmartVoiceSelector extends VoiceSelectionProvider {
    * @returns {Object} Analysis result
    */
   analyzeBookCharacteristics(metadata) {
+    console.log('\n \n meta of book:', metadata)
     const analysis = {
-      authorGender: this.detectAuthorGender(metadata.author),
+      authorGender: metadata.detectedGender || this.detectAuthorGender(metadata.author),
       genres: this.normalizeGenres(metadata.genre || []),
       themes: metadata.core_themes || [],
       targetAudience: metadata.target_audience || [],
@@ -311,6 +312,7 @@ export class SmartVoiceSelector extends VoiceSelectionProvider {
     // Score each gender-appropriate voice
     const candidates = [];
     for (const [voiceName, voiceData] of genderFilteredVoices) {
+      // console.log('niraj analysis', analysis)
       const score = this.calculateVoiceScore(voiceData, analysis);
       candidates.push({
         name: voiceName,

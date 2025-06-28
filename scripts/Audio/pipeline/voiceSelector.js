@@ -5,6 +5,7 @@ import { AzureVoiceSelector } from './providers/AzureVoiceSelector.js';
 import { OllamaVoiceSelector } from './providers/OllamaVoiceSelector.js';
 import { RuleBasedVoiceSelector } from './providers/RuleBasedVoiceSelector.js';
 import { SmartVoiceSelector } from './providers/SmartVoiceSelector.js';
+import { HybridVoiceSelector } from './providers/HybridVoiceSelector.js';
 
 dotenv.config();
 
@@ -15,8 +16,8 @@ dotenv.config();
 export class VoiceSelector {
   constructor(config = {}) {
     this.config = {
-      provider: 'ollama',
-      fallbackProvider: 'rule-based',
+      provider: 'hybrid',
+      fallbackProvider: 'smart',
       azure: {
         endpoint: process.env.AZURE_OPENAI_ENDPOINT,
         apiKey: process.env.AZURE_OPENAI_KEY,
@@ -36,7 +37,11 @@ export class VoiceSelector {
       azure: new AzureVoiceSelector(this.config.azure),
       ollama: new OllamaVoiceSelector(this.config.ollama),
       'rule-based': new RuleBasedVoiceSelector(),
-      'smart': new SmartVoiceSelector()
+      'smart': new SmartVoiceSelector(),
+      'hybrid': new HybridVoiceSelector({
+        ollama: this.config.ollama,
+        smart: {}
+      })
     };
 
     // Cache for provider availability
