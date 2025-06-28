@@ -85,14 +85,14 @@ export class VoiceSelectionProvider {
         personality: 'engaging',
         bestFor: ['chat', 'podcasts', 'audiobooks', 'general']
       },
-      'andrew-multilingual': {
-        azureVoiceId: 'en-US-AndrewMultilingualNeural',
-        gender: 'male',
-        tone: 'professional',
-        style: 'authoritative',
-        personality: 'confident',
-        bestFor: ['business', 'professional', 'educational', 'leadership']
-      },
+      // 'andrew-multilingual': {
+      //   azureVoiceId: 'en-US-AndrewMultilingualNeural',
+      //   gender: 'male',
+      //   tone: 'professional',
+      //   style: 'authoritative',
+      //   personality: 'confident',
+      //   bestFor: ['business', 'professional', 'educational', 'leadership']
+      // },
       'brandon-multilingual': {
         azureVoiceId: 'en-US-BrandonMultilingualNeural',
         gender: 'male',

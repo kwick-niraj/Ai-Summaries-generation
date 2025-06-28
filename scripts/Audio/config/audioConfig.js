@@ -22,8 +22,8 @@ export const audioConfig = {
       fallbackLocale: 'en-US',       // US English fallback
       
       // Default voice and format
-      defaultVoice: 'andrew-multilingual',
-      outputFormat: 'audio-24khz-48kbitrate-mono-mp3',
+      defaultVoice: 'alloy-turbo-multilingual',
+      outputFormat: 'riff-24khz-16bit-mono-pcm',
       
       // Your 14 favorite voices from Speech Playground
       favoriteVoices: {
@@ -33,12 +33,12 @@ export const audioConfig = {
           description: 'Clear, versatile multilingual voice',
           recommended: ['general', 'educational']
         },
-        'andrew-multilingual': {
-          primary: 'en-US-AndrewMultilingualNeural',
-          fallback: 'en-US-AndrewMultilingualNeural', 
-          description: 'Professional, authoritative multilingual voice',
-          recommended: ['business', 'professional', 'educational']
-        },
+        // 'andrew-multilingual': {
+        //   primary: 'en-US-AndrewMultilingualNeural',
+        //   fallback: 'en-US-AndrewMultilingualNeural', 
+        //   description: 'Professional, authoritative multilingual voice',
+        //   recommended: ['business', 'professional', 'educational']
+        // },
         'nova-turbo-multilingual': {
           primary: 'en-US-NovaTurboMultilingualNeural',
           fallback: 'en-US-NovaTurboMultilingualNeural',
@@ -143,9 +143,9 @@ export const audioConfig = {
   },
 
   // Legacy TTS Settings (for backward compatibility)
-  voice: 'andrew-multilingual', // Default to Andrew Multilingual
+  voice: 'alloy-turbo-multilingual', // Default to Andrew Multilingual
   speed: 1.0,    // Speed: 0.25 to 4.0
-  format: 'mp3', // Format: mp3, opus, aac, flac, wav.
+  format: 'wav', // Format: mp3, opus, aac, flac, wav.
 
   // Processing Settings
   maxChunkLength: 9000,     // Maximum characters per TTS request
@@ -219,10 +219,10 @@ export const audioConfig = {
  */
 export const voiceOptions = {
   // Azure Speech voices
-  'andrew-multilingual': {
-    description: 'Professional, authoritative multilingual voice',
-    recommended: ['business', 'professional', 'educational']
-  },
+  // 'andrew-multilingual': {
+  //   description: 'Professional, authoritative multilingual voice',
+  //   recommended: ['business', 'professional', 'educational']
+  // },
   'aria': {
     description: 'Cheerful, engaging female voice',
     recommended: ['upbeat', 'positive', 'general-audience']
