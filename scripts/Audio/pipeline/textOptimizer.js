@@ -433,7 +433,7 @@ CONCLUSION STYLE: Inspiring, summarizing, forward-looking`
 7. Paragraphs — Break the output into short, digestible paragraphs for natural flow.
 
 🛑 DO NOT:
-- Add meta-commentary (like “this section is about…, in this book, in this chapter,").
+- Add meta-commentary (like “this section is about…, in this book, in this chapter,")(But you can use Title and Author name only once in introduction section).
 - Overuse "<emphasis>", "<prosody>", or "<break>" — keep it subtle
 - Use multiple nested <prosody> or <express-as> tags
 - Generate invalid SSML syntax (must be well-formed XML with only one root <speak> tag)
@@ -460,6 +460,7 @@ INTRODUCTION-SPECIFIC GUIDELINES:
 - Build curiosity and anticipation
 - Make the listener feel they're about to learn something valuable
 - Use inclusive language ("we", "us", "together")
+- Use Title and Author Name, don't just mention title and author name but blend it with proper sentence. Don't place it at the beginning but blend it somewhere in the whole introduction paragraph for connecting with listers.
 
 OPENING STYLE: Warm, inviting, curiosity-building`,
 

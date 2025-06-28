@@ -1,0 +1,456 @@
+{
+  "bookId": "25",
+  "timestamp": "2025-06-26T12:22:52.125Z",
+  "success": false,
+  "processingTime": -1750940311390,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4557,
+    "totalAudioFiles": 12,
+    "totalDuration": 2146.608
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2146.608
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/25/optimized_text/25.md",
+    "fileSize": 32453,
+    "wordCount": 4930,
+    "format": "markdown",
+    "filename": "25.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/25/metadata/25_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2146.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/25/metadata/25_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/25/metadata/25_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 92,
+    "reasoning": "The author is male and the book requires a narrator who can convey earnestness, empathy, and philosophical depth. 'andrew-dragon-hd-latest' offers a natural tone and authentic style, making it well-suited for memoirs and audiobooks that demand emotional resonance and sincerity.",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/25/25_complete.mp3",
+    "duration": 2146.656,
+    "fileSize": 34346924,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/25/introduction.mp3",
+          "duration": 81.096,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.096,
+          "startTime": 0,
+          "endTime": 81.096
+        },
+        {
+          "path": "Audio/output/test/25/chapter_01.mp3",
+          "duration": 255.528,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday",
+          "actualDuration": 255.528,
+          "startTime": 82.596,
+          "endTime": 338.124
+        },
+        {
+          "path": "Audio/output/test/25/chapter_02.mp3",
+          "duration": 206.088,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost",
+          "actualDuration": 206.088,
+          "startTime": 339.624,
+          "endTime": 545.712
+        },
+        {
+          "path": "Audio/output/test/25/chapter_03.mp3",
+          "duration": 250.584,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power",
+          "actualDuration": 250.584,
+          "startTime": 547.212,
+          "endTime": 797.796
+        },
+        {
+          "path": "Audio/output/test/25/chapter_04.mp3",
+          "duration": 186.216,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny",
+          "actualDuration": 186.216,
+          "startTime": 799.296,
+          "endTime": 985.5120000000001
+        },
+        {
+          "path": "Audio/output/test/25/chapter_05.mp3",
+          "duration": 162.672,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering",
+          "actualDuration": 162.672,
+          "startTime": 987.0120000000001,
+          "endTime": 1149.684
+        },
+        {
+          "path": "Audio/output/test/25/chapter_06.mp3",
+          "duration": 207.48,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life",
+          "actualDuration": 207.48,
+          "startTime": 1151.184,
+          "endTime": 1358.664
+        },
+        {
+          "path": "Audio/output/test/25/chapter_07.mp3",
+          "duration": 179.136,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering",
+          "actualDuration": 179.136,
+          "startTime": 1360.164,
+          "endTime": 1539.3
+        },
+        {
+          "path": "Audio/output/test/25/chapter_08.mp3",
+          "duration": 184.68,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Emptiness: The Existential Vacuum",
+          "actualDuration": 184.68,
+          "startTime": 1540.8,
+          "endTime": 1725.48
+        },
+        {
+          "path": "Audio/output/test/25/chapter_09.mp3",
+          "duration": 153.12,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Courage to Be: Embracing Freedom and Responsibility",
+          "actualDuration": 153.12,
+          "startTime": 1726.98,
+          "endTime": 1880.1
+        },
+        {
+          "path": "Audio/output/test/25/chapter_10.mp3",
+          "duration": 126.168,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons: Meaning as a Way of Life",
+          "actualDuration": 126.168,
+          "startTime": 1881.6,
+          "endTime": 2007.768
+        },
+        {
+          "path": "Audio/output/test/25/conclusion.mp3",
+          "duration": 153.84,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 153.84,
+          "startTime": 2009.268,
+          "endTime": 2163.108
+        }
+      ],
+      "totalDuration": 2163.108,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.1,
+          "actualStart": 0,
+          "actualEnd": 81.096,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday",
+          "expectedStart": 81.1,
+          "expectedEnd": 336.63,
+          "actualStart": 82.596,
+          "actualEnd": 338.124,
+          "timeDifference": 1.4960000000000093
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost",
+          "expectedStart": 336.63,
+          "expectedEnd": 542.72,
+          "actualStart": 339.624,
+          "actualEnd": 545.712,
+          "timeDifference": 2.994000000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power",
+          "expectedStart": 542.72,
+          "expectedEnd": 793.3,
+          "actualStart": 547.212,
+          "actualEnd": 797.796,
+          "timeDifference": 4.491999999999962
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny",
+          "expectedStart": 793.3,
+          "expectedEnd": 979.52,
+          "actualStart": 799.296,
+          "actualEnd": 985.5120000000001,
+          "timeDifference": 5.996000000000095
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering",
+          "expectedStart": 979.52,
+          "expectedEnd": 1142.19,
+          "actualStart": 987.0120000000001,
+          "actualEnd": 1149.684,
+          "timeDifference": 7.4920000000000755
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life",
+          "expectedStart": 1142.19,
+          "expectedEnd": 1349.67,
+          "actualStart": 1151.184,
+          "actualEnd": 1358.664,
+          "timeDifference": 8.993999999999915
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering",
+          "expectedStart": 1349.67,
+          "expectedEnd": 1528.81,
+          "actualStart": 1360.164,
+          "actualEnd": 1539.3,
+          "timeDifference": 10.493999999999915
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Emptiness: The Existential Vacuum",
+          "expectedStart": 1528.81,
+          "expectedEnd": 1713.49,
+          "actualStart": 1540.8,
+          "actualEnd": 1725.48,
+          "timeDifference": 11.990000000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Courage to Be: Embracing Freedom and Responsibility",
+          "expectedStart": 1713.49,
+          "expectedEnd": 1866.61,
+          "actualStart": 1726.98,
+          "actualEnd": 1880.1,
+          "timeDifference": 13.490000000000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons: Meaning as a Way of Life",
+          "expectedStart": 1866.61,
+          "expectedEnd": 1992.78,
+          "actualStart": 1881.6,
+          "actualEnd": 2007.768,
+          "timeDifference": 14.990000000000009
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1992.78,
+          "expectedEnd": 2146.62,
+          "actualStart": 2009.268,
+          "actualEnd": 2163.108,
+          "timeDifference": 16.488000000000056
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.096,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday"
+        },
+        {
+          "startTime": 338.124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday and Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost"
+        },
+        {
+          "startTime": 545.712,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost and Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power"
+        },
+        {
+          "startTime": 797.796,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power and Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny"
+        },
+        {
+          "startTime": 985.5120000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny and Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering"
+        },
+        {
+          "startTime": 1149.684,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering and Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life"
+        },
+        {
+          "startTime": 1358.664,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life and Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering"
+        },
+        {
+          "startTime": 1539.3,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering and Chapter 8 Facing the Emptiness: The Existential Vacuum"
+        },
+        {
+          "startTime": 1725.48,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Emptiness: The Existential Vacuum and Chapter 9 The Courage to Be: Embracing Freedom and Responsibility"
+        },
+        {
+          "startTime": 1880.1,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Courage to Be: Embracing Freedom and Responsibility and Chapter 10 The Enduring Lessons: Meaning as a Way of Life"
+        },
+        {
+          "startTime": 2007.768,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons: Meaning as a Way of Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "25",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "The author is male and the book requires a narrator who can convey earnestness, empathy, and philosophical depth. 'andrew-dragon-hd-latest' offers a natural tone and authentic style, making it well-suited for memoirs and audiobooks that demand emotional resonance and sincerity.",
+      "provider": "azure",
+      "timestamp": "2025-06-26T12:18:33.798Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

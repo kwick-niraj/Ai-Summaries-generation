@@ -1,0 +1,456 @@
+{
+  "bookId": "2621",
+  "timestamp": "2025-06-23T13:58:51.177Z",
+  "success": false,
+  "processingTime": -1750686916533,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3588,
+    "totalAudioFiles": 12,
+    "totalDuration": 1927.6320000000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1927.6320000000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/2621/optimized_text/2621.md",
+    "fileSize": 29062,
+    "wordCount": 4046,
+    "format": "markdown",
+    "filename": "2621.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/2621/metadata/2621_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1927.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/2621/metadata/2621_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "emma-multilingual",
+    "confidence": 92,
+    "reasoning": "The book's author is female, and its tone is friendly, encouraging, and practical. Emma-multilingual offers an empathetic, warm style that aligns perfectly with the book's focus on personal connection and social skills, making her the most suitable choice for an accessible and engaging narration.",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/2621/2621_complete.mp3",
+    "duration": 1927.68,
+    "fileSize": 30843308,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/2621/introduction.mp3",
+          "duration": 69.264,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 69.264,
+          "startTime": 0,
+          "endTime": 69.264
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_01.mp3",
+          "duration": 207.624,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Power of First Impressions and Nonverbal Cues",
+          "actualDuration": 207.624,
+          "startTime": 70.764,
+          "endTime": 278.388
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_02.mp3",
+          "duration": 181.896,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Rapport Through Listening and Subtle Mimicry",
+          "actualDuration": 181.896,
+          "startTime": 279.888,
+          "endTime": 461.784
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_03.mp3",
+          "duration": 187.104,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation",
+          "actualDuration": 187.104,
+          "startTime": 463.284,
+          "endTime": 650.388
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_04.mp3",
+          "duration": 190.848,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting Communication to Social and Professional Contexts",
+          "actualDuration": 190.848,
+          "startTime": 651.888,
+          "endTime": 842.7360000000001
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_05.mp3",
+          "duration": 176.4,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practicing Confidence and Warmth for Lasting Impressions",
+          "actualDuration": 176.4,
+          "startTime": 844.2360000000001,
+          "endTime": 1020.6360000000001
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_06.mp3",
+          "duration": 162.192,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Connections Through Vulnerability and Shared Experience",
+          "actualDuration": 162.192,
+          "startTime": 1022.1360000000001,
+          "endTime": 1184.328
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_07.mp3",
+          "duration": 173.256,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Difficult Conversations with Grace and Clarity",
+          "actualDuration": 173.256,
+          "startTime": 1185.828,
+          "endTime": 1359.084
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_08.mp3",
+          "duration": 139.8,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Relationships Through Consistency and Follow-Through",
+          "actualDuration": 139.8,
+          "startTime": 1360.584,
+          "endTime": 1500.384
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_09.mp3",
+          "duration": 161.784,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies",
+          "actualDuration": 161.784,
+          "startTime": 1501.884,
+          "endTime": 1663.6680000000001
+        },
+        {
+          "path": "Audio/output/test/2621/chapter_10.mp3",
+          "duration": 149.496,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life",
+          "actualDuration": 149.496,
+          "startTime": 1665.1680000000001,
+          "endTime": 1814.6640000000002
+        },
+        {
+          "path": "Audio/output/test/2621/conclusion.mp3",
+          "duration": 127.968,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.968,
+          "startTime": 1816.1640000000002,
+          "endTime": 1944.1320000000003
+        }
+      ],
+      "totalDuration": 1944.1320000000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 69.26,
+          "actualStart": 0,
+          "actualEnd": 69.264,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Power of First Impressions and Nonverbal Cues",
+          "expectedStart": 69.26,
+          "expectedEnd": 276.88,
+          "actualStart": 70.764,
+          "actualEnd": 278.388,
+          "timeDifference": 1.5039999999999907
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Rapport Through Listening and Subtle Mimicry",
+          "expectedStart": 276.88,
+          "expectedEnd": 458.78,
+          "actualStart": 279.888,
+          "actualEnd": 461.784,
+          "timeDifference": 3.0079999999999814
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation",
+          "expectedStart": 458.78,
+          "expectedEnd": 645.88,
+          "actualStart": 463.284,
+          "actualEnd": 650.388,
+          "timeDifference": 4.504000000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting Communication to Social and Professional Contexts",
+          "expectedStart": 645.88,
+          "expectedEnd": 836.73,
+          "actualStart": 651.888,
+          "actualEnd": 842.7360000000001,
+          "timeDifference": 6.008000000000038
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practicing Confidence and Warmth for Lasting Impressions",
+          "expectedStart": 836.73,
+          "expectedEnd": 1013.13,
+          "actualStart": 844.2360000000001,
+          "actualEnd": 1020.6360000000001,
+          "timeDifference": 7.5060000000000855
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Connections Through Vulnerability and Shared Experience",
+          "expectedStart": 1013.13,
+          "expectedEnd": 1175.32,
+          "actualStart": 1022.1360000000001,
+          "actualEnd": 1184.328,
+          "timeDifference": 9.006000000000085
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Difficult Conversations with Grace and Clarity",
+          "expectedStart": 1175.32,
+          "expectedEnd": 1348.58,
+          "actualStart": 1185.828,
+          "actualEnd": 1359.084,
+          "timeDifference": 10.508000000000038
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Relationships Through Consistency and Follow-Through",
+          "expectedStart": 1348.58,
+          "expectedEnd": 1488.38,
+          "actualStart": 1360.584,
+          "actualEnd": 1500.384,
+          "timeDifference": 12.004000000000133
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies",
+          "expectedStart": 1488.38,
+          "expectedEnd": 1650.16,
+          "actualStart": 1501.884,
+          "actualEnd": 1663.6680000000001,
+          "timeDifference": 13.503999999999905
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life",
+          "expectedStart": 1650.16,
+          "expectedEnd": 1799.66,
+          "actualStart": 1665.1680000000001,
+          "actualEnd": 1814.6640000000002,
+          "timeDifference": 15.008000000000038
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1799.66,
+          "expectedEnd": 1927.63,
+          "actualStart": 1816.1640000000002,
+          "actualEnd": 1944.1320000000003,
+          "timeDifference": 16.504000000000133
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 69.264,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Power of First Impressions and Nonverbal Cues"
+        },
+        {
+          "startTime": 278.388,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Power of First Impressions and Nonverbal Cues and Chapter 2 Building Rapport Through Listening and Subtle Mimicry"
+        },
+        {
+          "startTime": 461.784,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Rapport Through Listening and Subtle Mimicry and Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation"
+        },
+        {
+          "startTime": 650.388,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mastering Small Talk and Moving Toward Meaningful Conversation and Chapter 4 Adapting Communication to Social and Professional Contexts"
+        },
+        {
+          "startTime": 842.7360000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting Communication to Social and Professional Contexts and Chapter 5 Practicing Confidence and Warmth for Lasting Impressions"
+        },
+        {
+          "startTime": 1020.6360000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practicing Confidence and Warmth for Lasting Impressions and Chapter 6 Deepening Connections Through Vulnerability and Shared Experience"
+        },
+        {
+          "startTime": 1184.328,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Connections Through Vulnerability and Shared Experience and Chapter 7 Navigating Difficult Conversations with Grace and Clarity"
+        },
+        {
+          "startTime": 1359.084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Difficult Conversations with Grace and Clarity and Chapter 8 Sustaining Relationships Through Consistency and Follow-Through"
+        },
+        {
+          "startTime": 1500.384,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Relationships Through Consistency and Follow-Through and Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies"
+        },
+        {
+          "startTime": 1663.6680000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Managing Group Dynamics and Navigating Social Hierarchies and Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life"
+        },
+        {
+          "startTime": 1814.6640000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Framework—Becoming a Connector in Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2621",
+      "selectedVoice": "emma-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-EmmaMultilingualNeural",
+        "gender": "female",
+        "tone": "empathetic",
+        "style": "warm",
+        "personality": "caring",
+        "bestFor": [
+          "emotional",
+          "wellness",
+          "mindfulness",
+          "healing"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "The book's author is female, and its tone is friendly, encouraging, and practical. Emma-multilingual offers an empathetic, warm style that aligns perfectly with the book's focus on personal connection and social skills, making her the most suitable choice for an accessible and engaging narration.",
+      "provider": "azure",
+      "timestamp": "2025-06-23T13:55:19.520Z",
+      "ssmlConfig": {
+        "voice": "emma-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

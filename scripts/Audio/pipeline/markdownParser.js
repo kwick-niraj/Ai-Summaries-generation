@@ -48,7 +48,7 @@ export class MarkdownParser {
       const line = lines[i].trim();
       
       // Check for section headers
-      if (line.startsWith('## ') || line.startsWith('**Conclusion')) {
+      if (line.startsWith('## ') || line.startsWith('**Conclusion') || line.startsWith('## Conclusion') ) {
         console.log('Niraj Inline on sectionType', line)
         // Save previous section if exists
         if (currentSection && currentContent.length > 0) {

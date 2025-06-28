@@ -1,0 +1,456 @@
+{
+  "bookId": "926",
+  "timestamp": "2025-06-26T12:43:09.841Z",
+  "success": false,
+  "processingTime": -1750941544328,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3701,
+    "totalAudioFiles": 12,
+    "totalDuration": 1852.104
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1852.104
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/926/optimized_text/926.md",
+    "fileSize": 28255,
+    "wordCount": 4196,
+    "format": "markdown",
+    "filename": "926.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/926/metadata/926_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1852.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/926/metadata/926_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/926/metadata/926_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 92,
+    "reasoning": "Morgan Housel is a male author, and the book's tone is accessible, reflective, and wryly humorous, fitting well with Brandon's warm, friendly style ideal for storytelling and self-help. This voice will engage listeners while conveying both the philosophical and personal aspects of the content.",
+    "analysis": {
+      "complexity": "high",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/926/926_complete.mp3",
+    "duration": 1852.152,
+    "fileSize": 29634860,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/926/introduction.mp3",
+          "duration": 107.424,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.424,
+          "startTime": 0,
+          "endTime": 107.424
+        },
+        {
+          "path": "Audio/output/test/926/chapter_01.mp3",
+          "duration": 218.688,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Money Decisions Rarely Make Sense",
+          "actualDuration": 218.688,
+          "startTime": 108.924,
+          "endTime": 327.61199999999997
+        },
+        {
+          "path": "Audio/output/test/926/chapter_02.mp3",
+          "duration": 179.328,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Power of Time and Patience",
+          "actualDuration": 179.328,
+          "startTime": 329.11199999999997,
+          "endTime": 508.43999999999994
+        },
+        {
+          "path": "Audio/output/test/926/chapter_03.mp3",
+          "duration": 165.216,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Luck, Risk, and the Unpredictable Nature of Wealth",
+          "actualDuration": 165.216,
+          "startTime": 509.93999999999994,
+          "endTime": 675.156
+        },
+        {
+          "path": "Audio/output/test/926/chapter_04.mp3",
+          "duration": 164.52,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Difference Between Being Rich and Being Wealthy",
+          "actualDuration": 164.52,
+          "startTime": 676.656,
+          "endTime": 841.1759999999999
+        },
+        {
+          "path": "Audio/output/test/926/chapter_05.mp3",
+          "duration": 159.672,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Why Contentment Matters More Than More",
+          "actualDuration": 159.672,
+          "startTime": 842.6759999999999,
+          "endTime": 1002.348
+        },
+        {
+          "path": "Audio/output/test/926/chapter_06.mp3",
+          "duration": 164.304,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Flexibility: The Quiet Superpower",
+          "actualDuration": 164.304,
+          "startTime": 1003.848,
+          "endTime": 1168.152
+        },
+        {
+          "path": "Audio/output/test/926/chapter_07.mp3",
+          "duration": 140.952,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Trap of Comparison",
+          "actualDuration": 140.952,
+          "startTime": 1169.652,
+          "endTime": 1310.604
+        },
+        {
+          "path": "Audio/output/test/926/chapter_08.mp3",
+          "duration": 133.752,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Saving: The Unsung Hero",
+          "actualDuration": 133.752,
+          "startTime": 1312.104,
+          "endTime": 1445.856
+        },
+        {
+          "path": "Audio/output/test/926/chapter_09.mp3",
+          "duration": 158.76,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Self-Awareness",
+          "actualDuration": 158.76,
+          "startTime": 1447.356,
+          "endTime": 1606.116
+        },
+        {
+          "path": "Audio/output/test/926/chapter_10.mp3",
+          "duration": 130.872,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Life That Supports Happiness and Freedom",
+          "actualDuration": 130.872,
+          "startTime": 1607.616,
+          "endTime": 1738.488
+        },
+        {
+          "path": "Audio/output/test/926/conclusion.mp3",
+          "duration": 128.616,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.616,
+          "startTime": 1739.988,
+          "endTime": 1868.604
+        }
+      ],
+      "totalDuration": 1868.604,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.42,
+          "actualStart": 0,
+          "actualEnd": 107.424,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Money Decisions Rarely Make Sense",
+          "expectedStart": 107.42,
+          "expectedEnd": 326.11,
+          "actualStart": 108.924,
+          "actualEnd": 327.61199999999997,
+          "timeDifference": 1.5040000000000049
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Power of Time and Patience",
+          "expectedStart": 326.11,
+          "expectedEnd": 505.44,
+          "actualStart": 329.11199999999997,
+          "actualEnd": 508.43999999999994,
+          "timeDifference": 3.0019999999999527
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Luck, Risk, and the Unpredictable Nature of Wealth",
+          "expectedStart": 505.44,
+          "expectedEnd": 670.66,
+          "actualStart": 509.93999999999994,
+          "actualEnd": 675.156,
+          "timeDifference": 4.499999999999943
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Difference Between Being Rich and Being Wealthy",
+          "expectedStart": 670.66,
+          "expectedEnd": 835.18,
+          "actualStart": 676.656,
+          "actualEnd": 841.1759999999999,
+          "timeDifference": 5.995999999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Why Contentment Matters More Than More",
+          "expectedStart": 835.18,
+          "expectedEnd": 994.85,
+          "actualStart": 842.6759999999999,
+          "actualEnd": 1002.348,
+          "timeDifference": 7.495999999999981
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Flexibility: The Quiet Superpower",
+          "expectedStart": 994.85,
+          "expectedEnd": 1159.15,
+          "actualStart": 1003.848,
+          "actualEnd": 1168.152,
+          "timeDifference": 8.997999999999934
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Trap of Comparison",
+          "expectedStart": 1159.15,
+          "expectedEnd": 1300.1,
+          "actualStart": 1169.652,
+          "actualEnd": 1310.604,
+          "timeDifference": 10.501999999999953
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Saving: The Unsung Hero",
+          "expectedStart": 1300.1,
+          "expectedEnd": 1433.85,
+          "actualStart": 1312.104,
+          "actualEnd": 1445.856,
+          "timeDifference": 12.004000000000133
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Self-Awareness",
+          "expectedStart": 1433.85,
+          "expectedEnd": 1592.61,
+          "actualStart": 1447.356,
+          "actualEnd": 1606.116,
+          "timeDifference": 13.506000000000085
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Life That Supports Happiness and Freedom",
+          "expectedStart": 1592.61,
+          "expectedEnd": 1723.48,
+          "actualStart": 1607.616,
+          "actualEnd": 1738.488,
+          "timeDifference": 15.006000000000085
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1723.48,
+          "expectedEnd": 1852.1,
+          "actualStart": 1739.988,
+          "actualEnd": 1868.604,
+          "timeDifference": 16.508000000000038
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.424,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Money Decisions Rarely Make Sense"
+        },
+        {
+          "startTime": 327.61199999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Money Decisions Rarely Make Sense and Chapter 2 The Hidden Power of Time and Patience"
+        },
+        {
+          "startTime": 508.43999999999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Power of Time and Patience and Chapter 3 Luck, Risk, and the Unpredictable Nature of Wealth"
+        },
+        {
+          "startTime": 675.156,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Luck, Risk, and the Unpredictable Nature of Wealth and Chapter 4 The Difference Between Being Rich and Being Wealthy"
+        },
+        {
+          "startTime": 841.1759999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Difference Between Being Rich and Being Wealthy and Chapter 5 Why Contentment Matters More Than More"
+        },
+        {
+          "startTime": 1002.348,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Why Contentment Matters More Than More and Chapter 6 Flexibility: The Quiet Superpower"
+        },
+        {
+          "startTime": 1168.152,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Flexibility: The Quiet Superpower and Chapter 7 The Trap of Comparison"
+        },
+        {
+          "startTime": 1310.604,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Trap of Comparison and Chapter 8 Saving: The Unsung Hero"
+        },
+        {
+          "startTime": 1445.856,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Saving: The Unsung Hero and Chapter 9 The Role of Self-Awareness"
+        },
+        {
+          "startTime": 1606.116,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Self-Awareness and Chapter 10 Building a Life That Supports Happiness and Freedom"
+        },
+        {
+          "startTime": 1738.488,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Life That Supports Happiness and Freedom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "926",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 92,
+      "reasoning": "Morgan Housel is a male author, and the book's tone is accessible, reflective, and wryly humorous, fitting well with Brandon's warm, friendly style ideal for storytelling and self-help. This voice will engage listeners while conveying both the philosophical and personal aspects of the content.",
+      "provider": "azure",
+      "timestamp": "2025-06-26T12:39:06.658Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}
