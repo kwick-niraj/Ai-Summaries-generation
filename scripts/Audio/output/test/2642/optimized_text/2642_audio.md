@@ -347,5 +347,5 @@ Trust yourself. With patience and honest self-awareness, you can use power not j
 
 ---
 
-*Generated: 2025-06-28T08:57:33.162Z*
+*Generated: 2025-06-28T09:36:13.851Z*
 *Type: Audio-optimized conversational script*

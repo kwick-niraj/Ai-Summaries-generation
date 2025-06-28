@@ -14,8 +14,11 @@ export class OllamaVoiceSelector extends VoiceSelectionProvider {
     
     // Ollama configuration
     this.endpoint = config.endpoint || process.env.OLLAMA_ENDPOINT || 'http://localhost:11434';
-    this.model = config.model || process.env.OLLAMA_MODEL || 'llama2';
+    this.model = config.model || process.env.OLLAMA_MODEL || 'llama3.1:latest';
     this.timeout = config.timeout || 30000; // 30 seconds
+    
+    // Simple gender cache to avoid repeated API calls
+    this.genderCache = new Map();
   }
 
   /**
@@ -73,43 +76,150 @@ export class OllamaVoiceSelector extends VoiceSelectionProvider {
   }
 
   /**
-   * Select optimal voice using Ollama
+   * Detect author gender using Ollama
    * @param {Object} metadata - Book metadata
-   * @returns {Promise<Object>} Voice selection result
+   * @returns {Promise<string>} Author gender: 'male', 'female', or 'unknown'
    */
-  async selectVoice(metadata) {
+  async detectAuthorGender(metadata) {
     try {
-      const prompt = this.buildVoiceSelectionPrompt(metadata);
+      const author = metadata.author || 'Unknown';
+      const title = metadata.title || 'Unknown';
       
-      console.log(`🦙 Using Ollama (${this.model}) for voice selection: "${metadata.title}"`);
+      // Check cache first
+      if (this.genderCache.has(author)) {
+        console.log(`📋 Using cached gender for ${author}: ${this.genderCache.get(author)}`);
+        return this.genderCache.get(author);
+      }
+
+      console.log(`🔍 Detecting gender for author: ${author}`);
+      
+      const prompt = `Based on the author name "${author}" and book title "${title}", what is the author's gender? Respond with only one word: male, female, or unknown`;
       
       const response = await axios.post(`${this.endpoint}/api/generate`, {
         model: this.model,
         prompt: prompt,
         stream: false,
         options: {
-          temperature: 0.3,
-          top_p: 0.9,
-          num_predict: 100
+          temperature: 0.1,
+          top_p: 0.8,
+          num_predict: 10
         }
       }, {
-        timeout: this.timeout
+        timeout: this.timeout,
+        headers: {
+          'Content-Type': 'application/json'
+        }
       });
 
-      const result = this.parseOllamaResponse(response.data.response);
+      const gender = this.parseGenderResponse(response.data.response);
       
-      // Validate selected voice
-      const voices = this.getVoiceCharacteristics();
-      if (!voices[result.voice]) {
-        console.warn(`Invalid voice selected: ${result.voice}, falling back to nova`);
-        return this.formatResult('nova', metadata, 60, 'Fallback due to invalid voice selection');
-      }
+      // Cache the result
+      this.genderCache.set(author, gender);
+      
+      console.log(`\n 👤 Detected gender for ${author}: ${gender} \n`);
+      return gender;
 
-      return this.formatResult(result.voice, metadata, result.confidence, result.reasoning);
+    } catch (error) {
+      console.warn(`Failed to detect gender for ${metadata.author}:`, error.message);
+      return 'unknown';
+    }
+  }
+
+  /**
+   * Parse gender detection response
+   * @param {string} response - Raw Ollama response
+   * @returns {string} Parsed gender
+   */
+  parseGenderResponse(response) {
+    const cleanResponse = response.toLowerCase().trim();
+    
+    if (cleanResponse.includes('male') && !cleanResponse.includes('female')) {
+      return 'male';
+    } else if (cleanResponse.includes('female')) {
+      return 'female';
+    } else {
+      return 'unknown';
+    }
+  }
+
+  /**
+   * Select voice based on detected gender
+   * @param {string} gender - Detected gender
+   * @param {Object} metadata - Book metadata
+   * @returns {Object} Voice selection result
+   */
+  selectVoiceByGender(gender, metadata) {
+    let selectedVoice;
+    let reasoning;
+
+    if (gender === 'male') {
+      // Prefer male voices
+      selectedVoice = 'adam-multilingual';
+      reasoning = `Selected male voice for male author: ${metadata.author}`;
+    } else if (gender === 'female') {
+      // Prefer female voices
+      selectedVoice = 'emma-multilingual';
+      reasoning = `Selected female voice for female author: ${metadata.author}`;
+    } else {
+      // Fallback to content-based selection
+      return this.selectVoiceByContent(metadata);
+    }
+
+    return this.formatResult(selectedVoice, metadata, 85, reasoning);
+  }
+
+  /**
+   * Select voice based on content when gender is unknown
+   * @param {Object} metadata - Book metadata
+   * @returns {Object} Voice selection result
+   */
+  selectVoiceByContent(metadata) {
+    const genres = Array.isArray(metadata.genre) ? metadata.genre : [metadata.genre || ''];
+    
+    let selectedVoice = 'nova-turbo-multilingual'; // Default
+    let reasoning = 'Default selection for unknown gender';
+
+    // Business/Strategy books
+    if (genres.some(g => ['business', 'strategy', 'leadership'].includes(g?.toLowerCase()))) {
+      selectedVoice = 'adam-multilingual';
+      reasoning = 'Authoritative voice for business/strategy content';
+    }
+    // Self-help/Psychology
+    else if (genres.some(g => ['self-help', 'psychology', 'personal development'].includes(g?.toLowerCase()))) {
+      selectedVoice = 'emma-multilingual';
+      reasoning = 'Warm voice for self-help content';
+    }
+    // Technical/Academic
+    else if (genres.some(g => ['academic', 'technical', 'science'].includes(g?.toLowerCase()))) {
+      selectedVoice = 'amanda-multilingual';
+      reasoning = 'Clear voice for technical content';
+    }
+
+    return this.formatResult(selectedVoice, metadata, 70, reasoning);
+  }
+
+  /**
+   * Select optimal voice using Ollama with gender detection
+   * @param {Object} metadata - Book metadata
+   * @returns {Promise<Object>} Voice selection result
+   */
+  async selectVoice(metadata) {
+    try {
+      console.log(`🦙 Using Ollama (${this.model}) for voice selection: "${metadata.title}"`);
+      
+      // First, detect author gender
+      const gender = await this.detectAuthorGender(metadata);
+      
+      // Select voice based on gender
+      const result = this.selectVoiceByGender(gender, metadata);
+      
+      console.log(`🎤 Selected voice: ${result.selectedVoice} (Gender: ${gender})`);
+      return result;
 
     } catch (error) {
       console.error('Ollama voice selection failed:', error);
-      throw new Error(`Ollama voice selection failed: ${error.message}`);
+      // Fallback to content-based selection
+      return this.selectVoiceByContent(metadata);
     }
   }
 

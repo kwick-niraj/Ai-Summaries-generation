@@ -180,11 +180,11 @@ export class BookProcessor {
       if (this.config.intelligentVoiceSelection) {
         console.log('🎤 Selecting optimal voice...');
         voiceConfig = await this.voiceSelector.selectVoiceForBook(bookId, this.config.metadataDir);
-        console.log('🎤 Selected Voice config', voiceConfig)
+        // console.log('🎤 Selected Voice config', voiceConfig)
         result.voiceSelection = voiceConfig;
       }
 
-      console.log('Niraj Voice Config:', voiceConfig);
+      // console.log('Niraj Voice Config:', voiceConfig);
 
       // Step 3: Optimize text with dual-track processing (audio + reading)
       console.log('✨ Dual-track optimizing text for audio and reading...');

@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { AzureVoiceSelector } from './providers/AzureVoiceSelector.js';
 import { OllamaVoiceSelector } from './providers/OllamaVoiceSelector.js';
 import { RuleBasedVoiceSelector } from './providers/RuleBasedVoiceSelector.js';
+import { SmartVoiceSelector } from './providers/SmartVoiceSelector.js';
 
 dotenv.config();
 
@@ -14,7 +15,7 @@ dotenv.config();
 export class VoiceSelector {
   constructor(config = {}) {
     this.config = {
-      provider: 'azure',
+      provider: 'ollama',
       fallbackProvider: 'rule-based',
       azure: {
         endpoint: process.env.AZURE_OPENAI_ENDPOINT,
@@ -24,7 +25,7 @@ export class VoiceSelector {
       },
       ollama: {
         endpoint: process.env.OLLAMA_ENDPOINT || 'http://localhost:11434',
-        model: process.env.OLLAMA_MODEL || 'llama2',
+        model: process.env.OLLAMA_MODEL || 'llama3.1:latest',
         timeout: 30000
       },
       ...config
@@ -34,7 +35,8 @@ export class VoiceSelector {
     this.providers = {
       azure: new AzureVoiceSelector(this.config.azure),
       ollama: new OllamaVoiceSelector(this.config.ollama),
-      'rule-based': new RuleBasedVoiceSelector()
+      'rule-based': new RuleBasedVoiceSelector(),
+      'smart': new SmartVoiceSelector()
     };
 
     // Cache for provider availability
