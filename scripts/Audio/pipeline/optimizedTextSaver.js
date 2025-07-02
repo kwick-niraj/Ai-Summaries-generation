@@ -307,13 +307,11 @@ export class OptimizedTextSaver {
    * @returns {string} Audio markdown content
    */
   generateAudioMarkdownContent(sections, bookId) {
-    let content = `# Audio Script for Book ${bookId}\n\n`;
-    content += `*This is the conversational, audio-optimized version used for TTS generation.*\n\n`;
-    content += `---\n\n`;
+    let content = ``;
 
     // Add introduction
     if (sections.introduction) {
-      content += `## Audio Introduction\n\n`;
+      content += `## Introduction\n\n`;
       const introContent = this.cleanSSMLForDisplay(sections.introduction.content);
       content += `${introContent}\n\n`;
     }
@@ -322,7 +320,7 @@ export class OptimizedTextSaver {
     if (sections.chapters && sections.chapters.length > 0) {
       sections.chapters.forEach((chapter, index) => {
         const chapterTitle = chapter.title || `Chapter ${chapter.number || index + 1}`;
-        content += `## Audio ${chapterTitle}\n\n`;
+        content += `## ${chapterTitle}\n\n`;
         const chapterContent = this.cleanSSMLForDisplay(chapter.content);
         content += `${chapterContent}\n\n`;
       });
@@ -330,7 +328,7 @@ export class OptimizedTextSaver {
 
     // Add conclusion
     if (sections.conclusion) {
-      content += `## Audio Conclusion\n\n`;
+      content += `## Conclusion\n\n`;
       const conclusionContent = this.cleanSSMLForDisplay(sections.conclusion.content);
       content += `${conclusionContent}\n\n`;
     }
@@ -359,8 +357,8 @@ export class OptimizedTextSaver {
         .replace(/<\/prosody>/gi, '')
         .replace(/<emphasis[^>]*>/gi, '**')
         .replace(/<\/emphasis>/gi, '**')
-        .replace(/<break\s+time="([^"]*)"[^>]*\/>/gi, ' *(pause $1)* ')
-        .replace(/<break[^>]*\/>/gi, ' *(pause)* ')
+        .replace(/<break\s+time="([^"]*)"[^>]*\/>/gi, '')
+        .replace(/<break[^>]*\/>/gi, '')
         .replace(/<[^>]*>/g, '')
         .replace(/[ \t]+/g, ' ')  // Only clean horizontal whitespace, preserve line breaks
         .replace(/\n{3,}/g, '\n\n')  // Limit to max 2 newlines but preserve paragraph breaks

@@ -22,7 +22,9 @@ export class FormatConverter {
     this.qualityPresets = {
       high: { bitrate: '256k', vbr: 5 },
       medium: { bitrate: '192k', vbr: 4 },
-      low: { bitrate: '128k', vbr: 3 }
+      low: { bitrate: '128k', vbr: 3 },
+      veryLow: { bitrate: '64k', vbr: 2 },
+      ultraLow: { bitrate: '48k', vbr: 2 }
     };
   }
 

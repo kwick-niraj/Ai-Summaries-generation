@@ -125,7 +125,8 @@ export class TextOptimizer {
       
       const [audioVersion, readingVersion] = await Promise.all([
         this.optimizeForListening(text, sectionType, options),
-        this.optimizeForReading(text, sectionType, options)
+        // For now we don't need to generate two version, keep only one(reducing the cost.)
+        // this.optimizeForReading(text, sectionType, options)
       ]);
 
       return {

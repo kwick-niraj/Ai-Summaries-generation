@@ -80,7 +80,7 @@ Arguments:
 
 Options:
   -o, --output <path>   Output file or directory (default: same as input)
-  -q, --quality <q>     Quality: high, medium, low (default: high)
+  -q, --quality <q>     Quality: high, medium, low, veryLow, ultraLow (default: high)
   --no-preserve         Don't preserve original files (delete after conversion)
   --no-chapters         Don't embed chapter metadata
   -b, --batch           Batch mode: convert all audio files in directory
