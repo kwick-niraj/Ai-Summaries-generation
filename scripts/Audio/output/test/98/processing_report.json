@@ -1,0 +1,456 @@
+{
+  "bookId": "98",
+  "timestamp": "2025-07-02T16:48:35.383Z",
+  "success": false,
+  "processingTime": -1751474495090,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4809,
+    "totalAudioFiles": 12,
+    "totalDuration": 2161.394542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2161.394542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/test/98/optimized_text/98.md",
+    "fileSize": 709,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "98.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/test/98/metadata/98_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2161.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/test/98/metadata/98_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/test/98/metadata/98_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/test/98/98_complete.wav",
+    "duration": 2161.394542,
+    "fileSize": 103747016,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/test/98/introduction.wav",
+          "duration": 81.627458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.627458,
+          "startTime": 0,
+          "endTime": 81.627458
+        },
+        {
+          "path": "Audio/output/test/98/chapter_01.wav",
+          "duration": 242.561417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Lasting Happiness in Everyday Life",
+          "actualDuration": 242.561417,
+          "startTime": 83.127458,
+          "endTime": 325.688875
+        },
+        {
+          "path": "Audio/output/test/98/chapter_02.wav",
+          "duration": 236.3035,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Suffering and the Power of Perspective",
+          "actualDuration": 236.3035,
+          "startTime": 327.188875,
+          "endTime": 563.492375
+        },
+        {
+          "path": "Audio/output/test/98/chapter_03.wav",
+          "duration": 218.086958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Compassion, Connection, and the Roots of True Happiness",
+          "actualDuration": 218.086958,
+          "startTime": 564.992375,
+          "endTime": 783.079333
+        },
+        {
+          "path": "Audio/output/test/98/chapter_04.wav",
+          "duration": 209.272042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Training the Mind for Resilience and Joy",
+          "actualDuration": 209.272042,
+          "startTime": 784.579333,
+          "endTime": 993.851375
+        },
+        {
+          "path": "Audio/output/test/98/chapter_05.wav",
+          "duration": 160.591,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Forgiveness, Letting Go, and the Freedom to Begin Again",
+          "actualDuration": 160.591,
+          "startTime": 995.351375,
+          "endTime": 1155.942375
+        },
+        {
+          "path": "Audio/output/test/98/chapter_06.wav",
+          "duration": 194.24825,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Happiness Through Daily Practice",
+          "actualDuration": 194.24825,
+          "startTime": 1157.442375,
+          "endTime": 1351.6906250000002
+        },
+        {
+          "path": "Audio/output/test/98/chapter_07.wav",
+          "duration": 170.879792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Meaning, Purpose, and the Deeper Roots of Fulfillment",
+          "actualDuration": 170.879792,
+          "startTime": 1353.1906250000002,
+          "endTime": 1524.0704170000001
+        },
+        {
+          "path": "Audio/output/test/98/chapter_08.wav",
+          "duration": 172.23425,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Relationships: The Art of Connection and Boundaries",
+          "actualDuration": 172.23425,
+          "startTime": 1525.5704170000001,
+          "endTime": 1697.804667
+        },
+        {
+          "path": "Audio/output/test/98/chapter_09.wav",
+          "duration": 185.127917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing Change, Uncertainty, and the Unknown",
+          "actualDuration": 185.127917,
+          "startTime": 1699.304667,
+          "endTime": 1884.4325840000001
+        },
+        {
+          "path": "Audio/output/test/98/chapter_10.wav",
+          "duration": 151.33775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Wisdom: Living Happiness in the Real World",
+          "actualDuration": 151.33775,
+          "startTime": 1885.9325840000001,
+          "endTime": 2037.270334
+        },
+        {
+          "path": "Audio/output/test/98/conclusion.wav",
+          "duration": 139.124208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.124208,
+          "startTime": 2038.770334,
+          "endTime": 2177.894542
+        }
+      ],
+      "totalDuration": 2177.894542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.63,
+          "actualStart": 0,
+          "actualEnd": 81.627458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Lasting Happiness in Everyday Life",
+          "expectedStart": 81.63,
+          "expectedEnd": 324.19,
+          "actualStart": 83.127458,
+          "actualEnd": 325.688875,
+          "timeDifference": 1.4974580000000088
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Suffering and the Power of Perspective",
+          "expectedStart": 324.19,
+          "expectedEnd": 560.49,
+          "actualStart": 327.188875,
+          "actualEnd": 563.492375,
+          "timeDifference": 2.998874999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Compassion, Connection, and the Roots of True Happiness",
+          "expectedStart": 560.49,
+          "expectedEnd": 778.58,
+          "actualStart": 564.992375,
+          "actualEnd": 783.079333,
+          "timeDifference": 4.502375000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Training the Mind for Resilience and Joy",
+          "expectedStart": 778.58,
+          "expectedEnd": 987.85,
+          "actualStart": 784.579333,
+          "actualEnd": 993.851375,
+          "timeDifference": 5.999332999999979
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Forgiveness, Letting Go, and the Freedom to Begin Again",
+          "expectedStart": 987.85,
+          "expectedEnd": 1148.44,
+          "actualStart": 995.351375,
+          "actualEnd": 1155.942375,
+          "timeDifference": 7.501374999999939
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Happiness Through Daily Practice",
+          "expectedStart": 1148.44,
+          "expectedEnd": 1342.69,
+          "actualStart": 1157.442375,
+          "actualEnd": 1351.6906250000002,
+          "timeDifference": 9.002375000000029
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Meaning, Purpose, and the Deeper Roots of Fulfillment",
+          "expectedStart": 1342.69,
+          "expectedEnd": 1513.57,
+          "actualStart": 1353.1906250000002,
+          "actualEnd": 1524.0704170000001,
+          "timeDifference": 10.500625000000127
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Relationships: The Art of Connection and Boundaries",
+          "expectedStart": 1513.57,
+          "expectedEnd": 1685.8,
+          "actualStart": 1525.5704170000001,
+          "actualEnd": 1697.804667,
+          "timeDifference": 12.000417000000198
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing Change, Uncertainty, and the Unknown",
+          "expectedStart": 1685.8,
+          "expectedEnd": 1870.93,
+          "actualStart": 1699.304667,
+          "actualEnd": 1884.4325840000001,
+          "timeDifference": 13.504667000000154
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Wisdom: Living Happiness in the Real World",
+          "expectedStart": 1870.93,
+          "expectedEnd": 2022.27,
+          "actualStart": 1885.9325840000001,
+          "actualEnd": 2037.270334,
+          "timeDifference": 15.00258400000007
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2022.27,
+          "expectedEnd": 2161.39,
+          "actualStart": 2038.770334,
+          "actualEnd": 2177.894542,
+          "timeDifference": 16.500334000000066
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.627458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Lasting Happiness in Everyday Life"
+        },
+        {
+          "startTime": 325.688875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Lasting Happiness in Everyday Life and Chapter 2 Understanding Suffering and the Power of Perspective"
+        },
+        {
+          "startTime": 563.492375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Suffering and the Power of Perspective and Chapter 3 Compassion, Connection, and the Roots of True Happiness"
+        },
+        {
+          "startTime": 783.079333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Compassion, Connection, and the Roots of True Happiness and Chapter 4 Training the Mind for Resilience and Joy"
+        },
+        {
+          "startTime": 993.851375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Training the Mind for Resilience and Joy and Chapter 5 Forgiveness, Letting Go, and the Freedom to Begin Again"
+        },
+        {
+          "startTime": 1155.942375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Forgiveness, Letting Go, and the Freedom to Begin Again and Chapter 6 Cultivating Happiness Through Daily Practice"
+        },
+        {
+          "startTime": 1351.6906250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Happiness Through Daily Practice and Chapter 7 Meaning, Purpose, and the Deeper Roots of Fulfillment"
+        },
+        {
+          "startTime": 1524.0704170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Meaning, Purpose, and the Deeper Roots of Fulfillment and Chapter 8 Navigating Relationships: The Art of Connection and Boundaries"
+        },
+        {
+          "startTime": 1697.804667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Relationships: The Art of Connection and Boundaries and Chapter 9 Facing Change, Uncertainty, and the Unknown"
+        },
+        {
+          "startTime": 1884.4325840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing Change, Uncertainty, and the Unknown and Chapter 10 Integrating Wisdom: Living Happiness in the Real World"
+        },
+        {
+          "startTime": 2037.270334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Wisdom: Living Happiness in the Real World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "98",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T16:41:38.776Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
