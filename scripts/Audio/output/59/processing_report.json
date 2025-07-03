@@ -1,0 +1,456 @@
+{
+  "bookId": "59",
+  "timestamp": "2025-07-02T19:37:30.135Z",
+  "success": false,
+  "processingTime": -1751484621905,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4802,
+    "totalAudioFiles": 12,
+    "totalDuration": 2123.031916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2123.031916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/59/optimized_text/59.md",
+    "fileSize": 731,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "59.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/59/metadata/59_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2123.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/59/metadata/59_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/59/metadata/59_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/59/59_complete.wav",
+    "duration": 2123.031917,
+    "fileSize": 101905610,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/59/introduction.wav",
+          "duration": 105.072125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.072125,
+          "startTime": 0,
+          "endTime": 105.072125
+        },
+        {
+          "path": "Audio/output/59/chapter_01.wav",
+          "duration": 237.6915,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Deciding to Take on the Appalachian Trail",
+          "actualDuration": 237.6915,
+          "startTime": 106.572125,
+          "endTime": 344.263625
+        },
+        {
+          "path": "Audio/output/59/chapter_02.wav",
+          "duration": 210.593333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The First Steps and Early Struggles in the Wilderness",
+          "actualDuration": 210.593333,
+          "startTime": 345.763625,
+          "endTime": 556.356958
+        },
+        {
+          "path": "Audio/output/59/chapter_03.wav",
+          "duration": 247.834625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unpredictable Nature of the Trail and the Power of Companionship",
+          "actualDuration": 247.834625,
+          "startTime": 557.856958,
+          "endTime": 805.6915829999999
+        },
+        {
+          "path": "Audio/output/59/chapter_04.wav",
+          "duration": 242.489375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Encounters with Nature and Reflections on Conservation",
+          "actualDuration": 242.489375,
+          "startTime": 807.1915829999999,
+          "endTime": 1049.680958
+        },
+        {
+          "path": "Audio/output/59/chapter_05.wav",
+          "duration": 189.841292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Mental Challenge and the Search for Meaning",
+          "actualDuration": 189.841292,
+          "startTime": 1051.180958,
+          "endTime": 1241.02225
+        },
+        {
+          "path": "Audio/output/59/chapter_06.wav",
+          "duration": 195.877208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Middle Miles—Fatigue, Frustration, and Unexpected Kindness",
+          "actualDuration": 195.877208,
+          "startTime": 1242.52225,
+          "endTime": 1438.3994579999999
+        },
+        {
+          "path": "Audio/output/59/chapter_07.wav",
+          "duration": 156.921667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The People of the Trail—Stories Shared and Lessons Learned",
+          "actualDuration": 156.921667,
+          "startTime": 1439.8994579999999,
+          "endTime": 1596.821125
+        },
+        {
+          "path": "Audio/output/59/chapter_08.wav",
+          "duration": 168.304,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Wild Within—Fear, Courage, and the Unexpected",
+          "actualDuration": 168.304,
+          "startTime": 1598.321125,
+          "endTime": 1766.625125
+        },
+        {
+          "path": "Audio/output/59/chapter_09.wav",
+          "duration": 143.627708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The End in Sight—Letting Go of Expectations",
+          "actualDuration": 143.627708,
+          "startTime": 1768.125125,
+          "endTime": 1911.752833
+        },
+        {
+          "path": "Audio/output/59/chapter_10.wav",
+          "duration": 132.185833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Returning Home—The Trail’s Lasting Impact",
+          "actualDuration": 132.185833,
+          "startTime": 1913.252833,
+          "endTime": 2045.438666
+        },
+        {
+          "path": "Audio/output/59/conclusion.wav",
+          "duration": 92.59325,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 92.59325,
+          "startTime": 2046.938666,
+          "endTime": 2139.531916
+        }
+      ],
+      "totalDuration": 2139.531916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.07,
+          "actualStart": 0,
+          "actualEnd": 105.072125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Deciding to Take on the Appalachian Trail",
+          "expectedStart": 105.07,
+          "expectedEnd": 342.76,
+          "actualStart": 106.572125,
+          "actualEnd": 344.263625,
+          "timeDifference": 1.5021250000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The First Steps and Early Struggles in the Wilderness",
+          "expectedStart": 342.76,
+          "expectedEnd": 553.35,
+          "actualStart": 345.763625,
+          "actualEnd": 556.356958,
+          "timeDifference": 3.0036249999999995
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unpredictable Nature of the Trail and the Power of Companionship",
+          "expectedStart": 553.35,
+          "expectedEnd": 801.18,
+          "actualStart": 557.856958,
+          "actualEnd": 805.6915829999999,
+          "timeDifference": 4.5069579999999405
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Encounters with Nature and Reflections on Conservation",
+          "expectedStart": 801.18,
+          "expectedEnd": 1043.67,
+          "actualStart": 807.1915829999999,
+          "actualEnd": 1049.680958,
+          "timeDifference": 6.011582999999973
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Mental Challenge and the Search for Meaning",
+          "expectedStart": 1043.67,
+          "expectedEnd": 1233.51,
+          "actualStart": 1051.180958,
+          "actualEnd": 1241.02225,
+          "timeDifference": 7.510957999999846
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Middle Miles—Fatigue, Frustration, and Unexpected Kindness",
+          "expectedStart": 1233.51,
+          "expectedEnd": 1429.39,
+          "actualStart": 1242.52225,
+          "actualEnd": 1438.3994579999999,
+          "timeDifference": 9.012249999999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The People of the Trail—Stories Shared and Lessons Learned",
+          "expectedStart": 1429.39,
+          "expectedEnd": 1586.31,
+          "actualStart": 1439.8994579999999,
+          "actualEnd": 1596.821125,
+          "timeDifference": 10.509457999999768
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Wild Within—Fear, Courage, and the Unexpected",
+          "expectedStart": 1586.31,
+          "expectedEnd": 1754.61,
+          "actualStart": 1598.321125,
+          "actualEnd": 1766.625125,
+          "timeDifference": 12.011124999999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The End in Sight—Letting Go of Expectations",
+          "expectedStart": 1754.61,
+          "expectedEnd": 1898.24,
+          "actualStart": 1768.125125,
+          "actualEnd": 1911.752833,
+          "timeDifference": 13.515125000000126
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Returning Home—The Trail’s Lasting Impact",
+          "expectedStart": 1898.24,
+          "expectedEnd": 2030.43,
+          "actualStart": 1913.252833,
+          "actualEnd": 2045.438666,
+          "timeDifference": 15.012833
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2030.43,
+          "expectedEnd": 2123.02,
+          "actualStart": 2046.938666,
+          "actualEnd": 2139.531916,
+          "timeDifference": 16.50866599999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.072125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Deciding to Take on the Appalachian Trail"
+        },
+        {
+          "startTime": 344.263625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Deciding to Take on the Appalachian Trail and Chapter 2 The First Steps and Early Struggles in the Wilderness"
+        },
+        {
+          "startTime": 556.356958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The First Steps and Early Struggles in the Wilderness and Chapter 3 The Unpredictable Nature of the Trail and the Power of Companionship"
+        },
+        {
+          "startTime": 805.6915829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unpredictable Nature of the Trail and the Power of Companionship and Chapter 4 Encounters with Nature and Reflections on Conservation"
+        },
+        {
+          "startTime": 1049.680958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Encounters with Nature and Reflections on Conservation and Chapter 5 The Mental Challenge and the Search for Meaning"
+        },
+        {
+          "startTime": 1241.02225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Mental Challenge and the Search for Meaning and Chapter 6 The Middle Miles—Fatigue, Frustration, and Unexpected Kindness"
+        },
+        {
+          "startTime": 1438.3994579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Middle Miles—Fatigue, Frustration, and Unexpected Kindness and Chapter 7 The People of the Trail—Stories Shared and Lessons Learned"
+        },
+        {
+          "startTime": 1596.821125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The People of the Trail—Stories Shared and Lessons Learned and Chapter 8 The Wild Within—Fear, Courage, and the Unexpected"
+        },
+        {
+          "startTime": 1766.625125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Wild Within—Fear, Courage, and the Unexpected and Chapter 9 The End in Sight—Letting Go of Expectations"
+        },
+        {
+          "startTime": 1911.752833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The End in Sight—Letting Go of Expectations and Chapter 10 Returning Home—The Trail’s Lasting Impact"
+        },
+        {
+          "startTime": 2045.438666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Returning Home—The Trail’s Lasting Impact and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "59",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T19:30:26.051Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

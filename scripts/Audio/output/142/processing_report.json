@@ -1,0 +1,456 @@
+{
+  "bookId": "142",
+  "timestamp": "2025-07-02T23:49:20.300Z",
+  "success": false,
+  "processingTime": -1751499710940,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4536,
+    "totalAudioFiles": 12,
+    "totalDuration": 2183.110666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2183.110666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/142/optimized_text/142.md",
+    "fileSize": 926,
+    "wordCount": 133,
+    "format": "markdown",
+    "filename": "142.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/142/metadata/142_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2183.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/142/metadata/142_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/142/metadata/142_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/142/142_complete.wav",
+    "duration": 2183.110667,
+    "fileSize": 104789390,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/142/introduction.wav",
+          "duration": 77.347833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.347833,
+          "startTime": 0,
+          "endTime": 77.347833
+        },
+        {
+          "path": "Audio/output/142/chapter_01.wav",
+          "duration": 253.316708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Small Town: Family, Struggle, and Early Lessons",
+          "actualDuration": 253.316708,
+          "startTime": 78.847833,
+          "endTime": 332.164541
+        },
+        {
+          "path": "Audio/output/142/chapter_02.wav",
+          "duration": 266.297542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering Ambition: Education, Mentors, and the First Taste of Politics",
+          "actualDuration": 266.297542,
+          "startTime": 333.664541,
+          "endTime": 599.962083
+        },
+        {
+          "path": "Audio/output/142/chapter_03.wav",
+          "duration": 262.741042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Public Life: Love, Partnership, and the Realities of Political Ambition",
+          "actualDuration": 262.741042,
+          "startTime": 601.462083,
+          "endTime": 864.203125
+        },
+        {
+          "path": "Audio/output/142/chapter_04.wav",
+          "duration": 216.282708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rising to National Prominence: Challenges, Setbacks, and the Road to the White House",
+          "actualDuration": 216.282708,
+          "startTime": 865.703125,
+          "endTime": 1081.985833
+        },
+        {
+          "path": "Audio/output/142/chapter_05.wav",
+          "duration": 206.813792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The First Years in Office: Governing, Compromise, and the Burden of Leadership",
+          "actualDuration": 206.813792,
+          "startTime": 1083.485833,
+          "endTime": 1290.2996249999999
+        },
+        {
+          "path": "Audio/output/142/chapter_06.wav",
+          "duration": 200.384292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering the Storm: Scandal, Scrutiny, and the Test of Character",
+          "actualDuration": 200.384292,
+          "startTime": 1291.7996249999999,
+          "endTime": 1492.1839169999998
+        },
+        {
+          "path": "Audio/output/142/chapter_07.wav",
+          "duration": 169.616333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Second Chances: Renewal, Policy Wins, and the Power of Forgiveness",
+          "actualDuration": 169.616333,
+          "startTime": 1493.6839169999998,
+          "endTime": 1663.3002499999998
+        },
+        {
+          "path": "Audio/output/142/chapter_08.wav",
+          "duration": 148.985,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Stage: Diplomacy, Crisis, and the Weight of Global Leadership",
+          "actualDuration": 148.985,
+          "startTime": 1664.8002499999998,
+          "endTime": 1813.78525
+        },
+        {
+          "path": "Audio/output/142/chapter_09.wav",
+          "duration": 131.715875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and Letting Go: Reflection, Farewell, and the Search for Meaning",
+          "actualDuration": 131.715875,
+          "startTime": 1815.28525,
+          "endTime": 1947.001125
+        },
+        {
+          "path": "Audio/output/142/chapter_10.wav",
+          "duration": 136.826333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Life After the White House: Renewal, Service, and the Ongoing Journey",
+          "actualDuration": 136.826333,
+          "startTime": 1948.501125,
+          "endTime": 2085.327458
+        },
+        {
+          "path": "Audio/output/142/conclusion.wav",
+          "duration": 112.783208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.783208,
+          "startTime": 2086.827458,
+          "endTime": 2199.610666
+        }
+      ],
+      "totalDuration": 2199.610666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.35,
+          "actualStart": 0,
+          "actualEnd": 77.347833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Small Town: Family, Struggle, and Early Lessons",
+          "expectedStart": 77.35,
+          "expectedEnd": 330.67,
+          "actualStart": 78.847833,
+          "actualEnd": 332.164541,
+          "timeDifference": 1.497833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering Ambition: Education, Mentors, and the First Taste of Politics",
+          "expectedStart": 330.67,
+          "expectedEnd": 596.97,
+          "actualStart": 333.664541,
+          "actualEnd": 599.962083,
+          "timeDifference": 2.9945409999999697
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Public Life: Love, Partnership, and the Realities of Political Ambition",
+          "expectedStart": 596.97,
+          "expectedEnd": 859.71,
+          "actualStart": 601.462083,
+          "actualEnd": 864.203125,
+          "timeDifference": 4.49208299999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rising to National Prominence: Challenges, Setbacks, and the Road to the White House",
+          "expectedStart": 859.71,
+          "expectedEnd": 1075.99,
+          "actualStart": 865.703125,
+          "actualEnd": 1081.985833,
+          "timeDifference": 5.993124999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The First Years in Office: Governing, Compromise, and the Burden of Leadership",
+          "expectedStart": 1075.99,
+          "expectedEnd": 1282.8,
+          "actualStart": 1083.485833,
+          "actualEnd": 1290.2996249999999,
+          "timeDifference": 7.495832999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering the Storm: Scandal, Scrutiny, and the Test of Character",
+          "expectedStart": 1282.8,
+          "expectedEnd": 1483.18,
+          "actualStart": 1291.7996249999999,
+          "actualEnd": 1492.1839169999998,
+          "timeDifference": 8.999624999999924
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Second Chances: Renewal, Policy Wins, and the Power of Forgiveness",
+          "expectedStart": 1483.18,
+          "expectedEnd": 1652.8,
+          "actualStart": 1493.6839169999998,
+          "actualEnd": 1663.3002499999998,
+          "timeDifference": 10.503916999999774
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Stage: Diplomacy, Crisis, and the Weight of Global Leadership",
+          "expectedStart": 1652.8,
+          "expectedEnd": 1801.79,
+          "actualStart": 1664.8002499999998,
+          "actualEnd": 1813.78525,
+          "timeDifference": 12.000249999999824
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and Letting Go: Reflection, Farewell, and the Search for Meaning",
+          "expectedStart": 1801.79,
+          "expectedEnd": 1933.51,
+          "actualStart": 1815.28525,
+          "actualEnd": 1947.001125,
+          "timeDifference": 13.495249999999942
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Life After the White House: Renewal, Service, and the Ongoing Journey",
+          "expectedStart": 1933.51,
+          "expectedEnd": 2070.34,
+          "actualStart": 1948.501125,
+          "actualEnd": 2085.327458,
+          "timeDifference": 14.991125000000011
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2070.34,
+          "expectedEnd": 2183.12,
+          "actualStart": 2086.827458,
+          "actualEnd": 2199.610666,
+          "timeDifference": 16.48745800000006
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.347833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Small Town: Family, Struggle, and Early Lessons"
+        },
+        {
+          "startTime": 332.164541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Small Town: Family, Struggle, and Early Lessons and Chapter 2 Discovering Ambition: Education, Mentors, and the First Taste of Politics"
+        },
+        {
+          "startTime": 599.962083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering Ambition: Education, Mentors, and the First Taste of Politics and Chapter 3 Building a Public Life: Love, Partnership, and the Realities of Political Ambition"
+        },
+        {
+          "startTime": 864.203125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Public Life: Love, Partnership, and the Realities of Political Ambition and Chapter 4 Rising to National Prominence: Challenges, Setbacks, and the Road to the White House"
+        },
+        {
+          "startTime": 1081.985833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rising to National Prominence: Challenges, Setbacks, and the Road to the White House and Chapter 5 The First Years in Office: Governing, Compromise, and the Burden of Leadership"
+        },
+        {
+          "startTime": 1290.2996249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The First Years in Office: Governing, Compromise, and the Burden of Leadership and Chapter 6 Weathering the Storm: Scandal, Scrutiny, and the Test of Character"
+        },
+        {
+          "startTime": 1492.1839169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering the Storm: Scandal, Scrutiny, and the Test of Character and Chapter 7 Second Chances: Renewal, Policy Wins, and the Power of Forgiveness"
+        },
+        {
+          "startTime": 1663.3002499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Second Chances: Renewal, Policy Wins, and the Power of Forgiveness and Chapter 8 The World Stage: Diplomacy, Crisis, and the Weight of Global Leadership"
+        },
+        {
+          "startTime": 1813.78525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Stage: Diplomacy, Crisis, and the Weight of Global Leadership and Chapter 9 Legacy and Letting Go: Reflection, Farewell, and the Search for Meaning"
+        },
+        {
+          "startTime": 1947.001125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and Letting Go: Reflection, Farewell, and the Search for Meaning and Chapter 10 Life After the White House: Renewal, Service, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2085.327458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Life After the White House: Renewal, Service, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "142",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T23:41:52.478Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

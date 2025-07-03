@@ -1,0 +1,456 @@
+{
+  "bookId": "209",
+  "timestamp": "2025-07-03T03:30:47.739Z",
+  "success": false,
+  "processingTime": -1751513136722,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4568,
+    "totalAudioFiles": 12,
+    "totalDuration": 2083.587959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2083.587959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/209/optimized_text/209.md",
+    "fileSize": 699,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "209.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/209/metadata/209_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2083.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/209/metadata/209_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/209/metadata/209_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/209/209_complete.wav",
+    "duration": 2083.587958,
+    "fileSize": 100012300,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/209/introduction.wav",
+          "duration": 78.320125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.320125,
+          "startTime": 0,
+          "endTime": 78.320125
+        },
+        {
+          "path": "Audio/output/209/chapter_01.wav",
+          "duration": 206.392542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Awkward Beginnings of Sex Research",
+          "actualDuration": 206.392542,
+          "startTime": 79.820125,
+          "endTime": 286.212667
+        },
+        {
+          "path": "Audio/output/209/chapter_02.wav",
+          "duration": 230.16275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mechanics of Desire and Arousal",
+          "actualDuration": 230.16275,
+          "startTime": 287.712667,
+          "endTime": 517.875417
+        },
+        {
+          "path": "Audio/output/209/chapter_03.wav",
+          "duration": 224.49025,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Challenges and Surprises of Studying Sex",
+          "actualDuration": 224.49025,
+          "startTime": 519.375417,
+          "endTime": 743.865667
+        },
+        {
+          "path": "Audio/output/209/chapter_04.wav",
+          "duration": 234.421167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Technology, Experimentation, and the Ethics of Intimacy",
+          "actualDuration": 234.421167,
+          "startTime": 745.365667,
+          "endTime": 979.786834
+        },
+        {
+          "path": "Audio/output/209/chapter_05.wav",
+          "duration": 201.793958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Humor, Curiosity, and the Power of Asking Questions",
+          "actualDuration": 201.793958,
+          "startTime": 981.286834,
+          "endTime": 1183.080792
+        },
+        {
+          "path": "Audio/output/209/chapter_06.wav",
+          "duration": 184.185292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Body’s Secrets—Unraveling the Mysteries of Orgasm",
+          "actualDuration": 184.185292,
+          "startTime": 1184.580792,
+          "endTime": 1368.7660839999999
+        },
+        {
+          "path": "Audio/output/209/chapter_07.wav",
+          "duration": 164.647625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 When Things Don’t Work—The Science of Sexual Dysfunction",
+          "actualDuration": 164.647625,
+          "startTime": 1370.2660839999999,
+          "endTime": 1534.913709
+        },
+        {
+          "path": "Audio/output/209/chapter_08.wav",
+          "duration": 171.387,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Social Side—How Culture Shapes Sex",
+          "actualDuration": 171.387,
+          "startTime": 1536.413709,
+          "endTime": 1707.8007089999999
+        },
+        {
+          "path": "Audio/output/209/chapter_09.wav",
+          "duration": 151.789292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love, Attachment, and the Chemistry of Connection",
+          "actualDuration": 151.789292,
+          "startTime": 1709.3007089999999,
+          "endTime": 1861.0900009999998
+        },
+        {
+          "path": "Audio/output/209/chapter_10.wav",
+          "duration": 119.585833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Sex Research—New Frontiers and Unanswered Questions",
+          "actualDuration": 119.585833,
+          "startTime": 1862.5900009999998,
+          "endTime": 1982.175834
+        },
+        {
+          "path": "Audio/output/209/conclusion.wav",
+          "duration": 116.412125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.412125,
+          "startTime": 1983.675834,
+          "endTime": 2100.087959
+        }
+      ],
+      "totalDuration": 2100.087959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.32,
+          "actualStart": 0,
+          "actualEnd": 78.320125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Awkward Beginnings of Sex Research",
+          "expectedStart": 78.32,
+          "expectedEnd": 284.71,
+          "actualStart": 79.820125,
+          "actualEnd": 286.212667,
+          "timeDifference": 1.5001250000000113
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mechanics of Desire and Arousal",
+          "expectedStart": 284.71,
+          "expectedEnd": 514.87,
+          "actualStart": 287.712667,
+          "actualEnd": 517.875417,
+          "timeDifference": 3.002667000000031
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Challenges and Surprises of Studying Sex",
+          "expectedStart": 514.87,
+          "expectedEnd": 739.36,
+          "actualStart": 519.375417,
+          "actualEnd": 743.865667,
+          "timeDifference": 4.505416999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Technology, Experimentation, and the Ethics of Intimacy",
+          "expectedStart": 739.36,
+          "expectedEnd": 973.78,
+          "actualStart": 745.365667,
+          "actualEnd": 979.786834,
+          "timeDifference": 6.005667000000017
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Humor, Curiosity, and the Power of Asking Questions",
+          "expectedStart": 973.78,
+          "expectedEnd": 1175.57,
+          "actualStart": 981.286834,
+          "actualEnd": 1183.080792,
+          "timeDifference": 7.506834000000026
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Body’s Secrets—Unraveling the Mysteries of Orgasm",
+          "expectedStart": 1175.57,
+          "expectedEnd": 1359.76,
+          "actualStart": 1184.580792,
+          "actualEnd": 1368.7660839999999,
+          "timeDifference": 9.010792000000038
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 When Things Don’t Work—The Science of Sexual Dysfunction",
+          "expectedStart": 1359.76,
+          "expectedEnd": 1524.41,
+          "actualStart": 1370.2660839999999,
+          "actualEnd": 1534.913709,
+          "timeDifference": 10.506083999999873
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Social Side—How Culture Shapes Sex",
+          "expectedStart": 1524.41,
+          "expectedEnd": 1695.8,
+          "actualStart": 1536.413709,
+          "actualEnd": 1707.8007089999999,
+          "timeDifference": 12.003708999999844
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love, Attachment, and the Chemistry of Connection",
+          "expectedStart": 1695.8,
+          "expectedEnd": 1847.59,
+          "actualStart": 1709.3007089999999,
+          "actualEnd": 1861.0900009999998,
+          "timeDifference": 13.500708999999915
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Sex Research—New Frontiers and Unanswered Questions",
+          "expectedStart": 1847.59,
+          "expectedEnd": 1967.18,
+          "actualStart": 1862.5900009999998,
+          "actualEnd": 1982.175834,
+          "timeDifference": 15.000000999999884
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1967.18,
+          "expectedEnd": 2083.59,
+          "actualStart": 1983.675834,
+          "actualEnd": 2100.087959,
+          "timeDifference": 16.49583399999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.320125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Awkward Beginnings of Sex Research"
+        },
+        {
+          "startTime": 286.212667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Awkward Beginnings of Sex Research and Chapter 2 The Mechanics of Desire and Arousal"
+        },
+        {
+          "startTime": 517.875417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mechanics of Desire and Arousal and Chapter 3 The Challenges and Surprises of Studying Sex"
+        },
+        {
+          "startTime": 743.865667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Challenges and Surprises of Studying Sex and Chapter 4 Technology, Experimentation, and the Ethics of Intimacy"
+        },
+        {
+          "startTime": 979.786834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Technology, Experimentation, and the Ethics of Intimacy and Chapter 5 Humor, Curiosity, and the Power of Asking Questions"
+        },
+        {
+          "startTime": 1183.080792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Humor, Curiosity, and the Power of Asking Questions and Chapter 6 The Body’s Secrets—Unraveling the Mysteries of Orgasm"
+        },
+        {
+          "startTime": 1368.7660839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Body’s Secrets—Unraveling the Mysteries of Orgasm and Chapter 7 When Things Don’t Work—The Science of Sexual Dysfunction"
+        },
+        {
+          "startTime": 1534.913709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 When Things Don’t Work—The Science of Sexual Dysfunction and Chapter 8 The Social Side—How Culture Shapes Sex"
+        },
+        {
+          "startTime": 1707.8007089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Social Side—How Culture Shapes Sex and Chapter 9 Love, Attachment, and the Chemistry of Connection"
+        },
+        {
+          "startTime": 1861.0900009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love, Attachment, and the Chemistry of Connection and Chapter 10 The Future of Sex Research—New Frontiers and Unanswered Questions"
+        },
+        {
+          "startTime": 1982.175834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Sex Research—New Frontiers and Unanswered Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "209",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:25:36.744Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

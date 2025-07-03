@@ -1,0 +1,455 @@
+{
+  "bookId": "28",
+  "timestamp": "2025-07-02T17:52:52.412Z",
+  "success": false,
+  "processingTime": -1751478466887,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4083,
+    "totalAudioFiles": 12,
+    "totalDuration": 1762.2290010000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1762.2290010000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/28/optimized_text/28.md",
+    "fileSize": 753,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "28.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/28/metadata/28_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1762.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/28/metadata/28_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/28/metadata/28_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/28/28_complete.wav",
+    "duration": 1762.229,
+    "fileSize": 84587070,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/28/introduction.wav",
+          "duration": 107.813417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.813417,
+          "startTime": 0,
+          "endTime": 107.813417
+        },
+        {
+          "path": "Audio/output/28/chapter_01.wav",
+          "duration": 175.796333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Urge to Begin Again—Why a New Framework Was Needed",
+          "actualDuration": 175.796333,
+          "startTime": 109.313417,
+          "endTime": 285.10975
+        },
+        {
+          "path": "Audio/output/28/chapter_02.wav",
+          "duration": 191.576875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building the Structure—How Power Was Divided and Shared",
+          "actualDuration": 191.576875,
+          "startTime": 286.60975,
+          "endTime": 478.18662500000005
+        },
+        {
+          "path": "Audio/output/28/chapter_03.wav",
+          "duration": 159.963917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Protecting Freedom—The Promise of Rights and Liberties",
+          "actualDuration": 159.963917,
+          "startTime": 479.68662500000005,
+          "endTime": 639.6505420000001
+        },
+        {
+          "path": "Audio/output/28/chapter_04.wav",
+          "duration": 159.699292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting to Change—How Amendments Shape the Nation",
+          "actualDuration": 159.699292,
+          "startTime": 641.1505420000001,
+          "endTime": 800.8498340000001
+        },
+        {
+          "path": "Audio/output/28/chapter_05.wav",
+          "duration": 171.709375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Experiment—Living with the Constitution Today",
+          "actualDuration": 171.709375,
+          "startTime": 802.3498340000001,
+          "endTime": 974.0592090000001
+        },
+        {
+          "path": "Audio/output/28/chapter_06.wav",
+          "duration": 134.03425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Constitution and American Identity—A Shared Story",
+          "actualDuration": 134.03425,
+          "startTime": 975.5592090000001,
+          "endTime": 1109.5934590000002
+        },
+        {
+          "path": "Audio/output/28/chapter_07.wav",
+          "duration": 146.618625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Courts—Interpreting and Defending the Constitution",
+          "actualDuration": 146.618625,
+          "startTime": 1111.0934590000002,
+          "endTime": 1257.7120840000002
+        },
+        {
+          "path": "Audio/output/28/chapter_08.wav",
+          "duration": 151.047208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Debates That Shape the Nation—Free Speech, Equality, and Power",
+          "actualDuration": 151.047208,
+          "startTime": 1259.2120840000002,
+          "endTime": 1410.2592920000002
+        },
+        {
+          "path": "Audio/output/28/chapter_09.wav",
+          "duration": 139.603125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Constitution in Crisis—Testing the System",
+          "actualDuration": 139.603125,
+          "startTime": 1411.7592920000002,
+          "endTime": 1551.3624170000003
+        },
+        {
+          "path": "Audio/output/28/chapter_10.wav",
+          "duration": 115.690292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Constitution’s Future—Carrying the Torch",
+          "actualDuration": 115.690292,
+          "startTime": 1552.8624170000003,
+          "endTime": 1668.5527090000003
+        },
+        {
+          "path": "Audio/output/28/conclusion.wav",
+          "duration": 108.676292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.676292,
+          "startTime": 1670.0527090000003,
+          "endTime": 1778.7290010000004
+        }
+      ],
+      "totalDuration": 1778.7290010000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.81,
+          "actualStart": 0,
+          "actualEnd": 107.813417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Urge to Begin Again—Why a New Framework Was Needed",
+          "expectedStart": 107.81,
+          "expectedEnd": 283.61,
+          "actualStart": 109.313417,
+          "actualEnd": 285.10975,
+          "timeDifference": 1.503416999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building the Structure—How Power Was Divided and Shared",
+          "expectedStart": 283.61,
+          "expectedEnd": 475.19,
+          "actualStart": 286.60975,
+          "actualEnd": 478.18662500000005,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Protecting Freedom—The Promise of Rights and Liberties",
+          "expectedStart": 475.19,
+          "expectedEnd": 635.15,
+          "actualStart": 479.68662500000005,
+          "actualEnd": 639.6505420000001,
+          "timeDifference": 4.496625000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting to Change—How Amendments Shape the Nation",
+          "expectedStart": 635.15,
+          "expectedEnd": 794.85,
+          "actualStart": 641.1505420000001,
+          "actualEnd": 800.8498340000001,
+          "timeDifference": 6.0005420000001095
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Experiment—Living with the Constitution Today",
+          "expectedStart": 794.85,
+          "expectedEnd": 966.56,
+          "actualStart": 802.3498340000001,
+          "actualEnd": 974.0592090000001,
+          "timeDifference": 7.499834000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Constitution and American Identity—A Shared Story",
+          "expectedStart": 966.56,
+          "expectedEnd": 1100.59,
+          "actualStart": 975.5592090000001,
+          "actualEnd": 1109.5934590000002,
+          "timeDifference": 8.999209000000178
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Courts—Interpreting and Defending the Constitution",
+          "expectedStart": 1100.59,
+          "expectedEnd": 1247.21,
+          "actualStart": 1111.0934590000002,
+          "actualEnd": 1257.7120840000002,
+          "timeDifference": 10.503459000000248
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Debates That Shape the Nation—Free Speech, Equality, and Power",
+          "expectedStart": 1247.21,
+          "expectedEnd": 1398.26,
+          "actualStart": 1259.2120840000002,
+          "actualEnd": 1410.2592920000002,
+          "timeDifference": 12.002084000000195
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Constitution in Crisis—Testing the System",
+          "expectedStart": 1398.26,
+          "expectedEnd": 1537.86,
+          "actualStart": 1411.7592920000002,
+          "actualEnd": 1551.3624170000003,
+          "timeDifference": 13.499292000000196
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Constitution’s Future—Carrying the Torch",
+          "expectedStart": 1537.86,
+          "expectedEnd": 1653.55,
+          "actualStart": 1552.8624170000003,
+          "actualEnd": 1668.5527090000003,
+          "timeDifference": 15.002417000000378
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1653.55,
+          "expectedEnd": 1762.23,
+          "actualStart": 1670.0527090000003,
+          "actualEnd": 1778.7290010000004,
+          "timeDifference": 16.502709000000323
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.813417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Urge to Begin Again—Why a New Framework Was Needed"
+        },
+        {
+          "startTime": 285.10975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Urge to Begin Again—Why a New Framework Was Needed and Chapter 2 Building the Structure—How Power Was Divided and Shared"
+        },
+        {
+          "startTime": 478.18662500000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building the Structure—How Power Was Divided and Shared and Chapter 3 Protecting Freedom—The Promise of Rights and Liberties"
+        },
+        {
+          "startTime": 639.6505420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Protecting Freedom—The Promise of Rights and Liberties and Chapter 4 Adapting to Change—How Amendments Shape the Nation"
+        },
+        {
+          "startTime": 800.8498340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting to Change—How Amendments Shape the Nation and Chapter 5 The Ongoing Experiment—Living with the Constitution Today"
+        },
+        {
+          "startTime": 974.0592090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Experiment—Living with the Constitution Today and Chapter 6 The Constitution and American Identity—A Shared Story"
+        },
+        {
+          "startTime": 1109.5934590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Constitution and American Identity—A Shared Story and Chapter 7 The Courts—Interpreting and Defending the Constitution"
+        },
+        {
+          "startTime": 1257.7120840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Courts—Interpreting and Defending the Constitution and Chapter 8 Debates That Shape the Nation—Free Speech, Equality, and Power"
+        },
+        {
+          "startTime": 1410.2592920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Debates That Shape the Nation—Free Speech, Equality, and Power and Chapter 9 The Constitution in Crisis—Testing the System"
+        },
+        {
+          "startTime": 1551.3624170000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Constitution in Crisis—Testing the System and Chapter 10 The Constitution’s Future—Carrying the Torch"
+        },
+        {
+          "startTime": 1668.5527090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Constitution’s Future—Carrying the Torch and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "28",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T17:47:48.885Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

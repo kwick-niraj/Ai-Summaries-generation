@@ -1,0 +1,455 @@
+{
+  "bookId": "197",
+  "timestamp": "2025-07-03T02:37:21.110Z",
+  "success": false,
+  "processingTime": -1751509858209,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4299,
+    "totalAudioFiles": 12,
+    "totalDuration": 1905.361584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1905.361584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/197/optimized_text/197.md",
+    "fileSize": 784,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "197.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/197/metadata/197_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1905.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/197/metadata/197_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/197/metadata/197_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/197/197_complete.wav",
+    "duration": 1905.361583,
+    "fileSize": 91457434,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/197/introduction.wav",
+          "duration": 92.870917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.870917,
+          "startTime": 0,
+          "endTime": 92.870917
+        },
+        {
+          "path": "Audio/output/197/chapter_01.wav",
+          "duration": 187.435875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Blind Spots: How Self-Deception Shapes Our Interactions",
+          "actualDuration": 187.435875,
+          "startTime": 94.370917,
+          "endTime": 281.80679200000003
+        },
+        {
+          "path": "Audio/output/197/chapter_02.wav",
+          "duration": 180.832458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Box: How Justifying Ourselves Distorts Reality",
+          "actualDuration": 180.832458,
+          "startTime": 283.30679200000003,
+          "endTime": 464.13925000000006
+        },
+        {
+          "path": "Audio/output/197/chapter_03.wav",
+          "duration": 189.075417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Seeing People: The Shift from Blame to Understanding",
+          "actualDuration": 189.075417,
+          "startTime": 465.63925000000006,
+          "endTime": 654.7146670000001
+        },
+        {
+          "path": "Audio/output/197/chapter_04.wav",
+          "duration": 177.58325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ripple Effect: How Personal Change Transforms Organizations",
+          "actualDuration": 177.58325,
+          "startTime": 656.2146670000001,
+          "endTime": 833.7979170000001
+        },
+        {
+          "path": "Audio/output/197/chapter_05.wav",
+          "duration": 167.001667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Everyday Practice: Staying Out of the Box in Real Life",
+          "actualDuration": 167.001667,
+          "startTime": 835.2979170000001,
+          "endTime": 1002.2995840000001
+        },
+        {
+          "path": "Audio/output/197/chapter_06.wav",
+          "duration": 169.725125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courage to See: Facing Our Own Self-Deception",
+          "actualDuration": 169.725125,
+          "startTime": 1003.7995840000001,
+          "endTime": 1173.524709
+        },
+        {
+          "path": "Audio/output/197/chapter_07.wav",
+          "duration": 174.949333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Anatomy of Collusion: How Mutual Blame Keeps Us Stuck",
+          "actualDuration": 174.949333,
+          "startTime": 1175.024709,
+          "endTime": 1349.974042
+        },
+        {
+          "path": "Audio/output/197/chapter_08.wav",
+          "duration": 171.909542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Leadership from the Inside Out: Building Cultures of Accountability",
+          "actualDuration": 171.909542,
+          "startTime": 1351.474042,
+          "endTime": 1523.3835840000002
+        },
+        {
+          "path": "Audio/output/197/chapter_09.wav",
+          "duration": 134.689292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Change: The Practice of Staying Out of the Box",
+          "actualDuration": 134.689292,
+          "startTime": 1524.8835840000002,
+          "endTime": 1659.5728760000002
+        },
+        {
+          "path": "Audio/output/197/chapter_10.wav",
+          "duration": 141.549208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Beyond the Box: Spreading Change in Families, Teams, and Communities",
+          "actualDuration": 141.549208,
+          "startTime": 1661.0728760000002,
+          "endTime": 1802.622084
+        },
+        {
+          "path": "Audio/output/197/conclusion.wav",
+          "duration": 117.7395,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.7395,
+          "startTime": 1804.122084,
+          "endTime": 1921.861584
+        }
+      ],
+      "totalDuration": 1921.861584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.87,
+          "actualStart": 0,
+          "actualEnd": 92.870917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Blind Spots: How Self-Deception Shapes Our Interactions",
+          "expectedStart": 92.87,
+          "expectedEnd": 280.31,
+          "actualStart": 94.370917,
+          "actualEnd": 281.80679200000003,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Box: How Justifying Ourselves Distorts Reality",
+          "expectedStart": 280.31,
+          "expectedEnd": 461.14,
+          "actualStart": 283.30679200000003,
+          "actualEnd": 464.13925000000006,
+          "timeDifference": 2.9967920000000277
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Seeing People: The Shift from Blame to Understanding",
+          "expectedStart": 461.14,
+          "expectedEnd": 650.22,
+          "actualStart": 465.63925000000006,
+          "actualEnd": 654.7146670000001,
+          "timeDifference": 4.499250000000075
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ripple Effect: How Personal Change Transforms Organizations",
+          "expectedStart": 650.22,
+          "expectedEnd": 827.8,
+          "actualStart": 656.2146670000001,
+          "actualEnd": 833.7979170000001,
+          "timeDifference": 5.9946670000000495
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Everyday Practice: Staying Out of the Box in Real Life",
+          "expectedStart": 827.8,
+          "expectedEnd": 994.8,
+          "actualStart": 835.2979170000001,
+          "actualEnd": 1002.2995840000001,
+          "timeDifference": 7.497917000000143
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courage to See: Facing Our Own Self-Deception",
+          "expectedStart": 994.8,
+          "expectedEnd": 1164.53,
+          "actualStart": 1003.7995840000001,
+          "actualEnd": 1173.524709,
+          "timeDifference": 8.99958400000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Anatomy of Collusion: How Mutual Blame Keeps Us Stuck",
+          "expectedStart": 1164.53,
+          "expectedEnd": 1339.48,
+          "actualStart": 1175.024709,
+          "actualEnd": 1349.974042,
+          "timeDifference": 10.494709000000057
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Leadership from the Inside Out: Building Cultures of Accountability",
+          "expectedStart": 1339.48,
+          "expectedEnd": 1511.39,
+          "actualStart": 1351.474042,
+          "actualEnd": 1523.3835840000002,
+          "timeDifference": 11.994042000000036
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Change: The Practice of Staying Out of the Box",
+          "expectedStart": 1511.39,
+          "expectedEnd": 1646.08,
+          "actualStart": 1524.8835840000002,
+          "actualEnd": 1659.5728760000002,
+          "timeDifference": 13.493584000000055
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Beyond the Box: Spreading Change in Families, Teams, and Communities",
+          "expectedStart": 1646.08,
+          "expectedEnd": 1787.63,
+          "actualStart": 1661.0728760000002,
+          "actualEnd": 1802.622084,
+          "timeDifference": 14.992876000000251
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1787.63,
+          "expectedEnd": 1905.37,
+          "actualStart": 1804.122084,
+          "actualEnd": 1921.861584,
+          "timeDifference": 16.492083999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.870917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Blind Spots: How Self-Deception Shapes Our Interactions"
+        },
+        {
+          "startTime": 281.80679200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Blind Spots: How Self-Deception Shapes Our Interactions and Chapter 2 The Box: How Justifying Ourselves Distorts Reality"
+        },
+        {
+          "startTime": 464.13925000000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Box: How Justifying Ourselves Distorts Reality and Chapter 3 Seeing People: The Shift from Blame to Understanding"
+        },
+        {
+          "startTime": 654.7146670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Seeing People: The Shift from Blame to Understanding and Chapter 4 The Ripple Effect: How Personal Change Transforms Organizations"
+        },
+        {
+          "startTime": 833.7979170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ripple Effect: How Personal Change Transforms Organizations and Chapter 5 Everyday Practice: Staying Out of the Box in Real Life"
+        },
+        {
+          "startTime": 1002.2995840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Everyday Practice: Staying Out of the Box in Real Life and Chapter 6 The Courage to See: Facing Our Own Self-Deception"
+        },
+        {
+          "startTime": 1173.524709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courage to See: Facing Our Own Self-Deception and Chapter 7 The Anatomy of Collusion: How Mutual Blame Keeps Us Stuck"
+        },
+        {
+          "startTime": 1349.974042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Anatomy of Collusion: How Mutual Blame Keeps Us Stuck and Chapter 8 Leadership from the Inside Out: Building Cultures of Accountability"
+        },
+        {
+          "startTime": 1523.3835840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Leadership from the Inside Out: Building Cultures of Accountability and Chapter 9 Sustaining Change: The Practice of Staying Out of the Box"
+        },
+        {
+          "startTime": 1659.5728760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Change: The Practice of Staying Out of the Box and Chapter 10 Beyond the Box: Spreading Change in Families, Teams, and Communities"
+        },
+        {
+          "startTime": 1802.622084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Beyond the Box: Spreading Change in Families, Teams, and Communities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "197",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T02:30:59.419Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

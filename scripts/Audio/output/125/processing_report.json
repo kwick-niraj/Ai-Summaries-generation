@@ -1,0 +1,455 @@
+{
+  "bookId": "125",
+  "timestamp": "2025-07-02T22:53:59.058Z",
+  "success": false,
+  "processingTime": -1751496550010,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4427,
+    "totalAudioFiles": 12,
+    "totalDuration": 1788.559459
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1788.559459
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/125/optimized_text/125.md",
+    "fileSize": 789,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "125.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/125/metadata/125_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1788.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/125/metadata/125_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/125/metadata/125_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/125/125_complete.wav",
+    "duration": 1788.559458,
+    "fileSize": 85850932,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/125/introduction.wav",
+          "duration": 88.727167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.727167,
+          "startTime": 0,
+          "endTime": 88.727167
+        },
+        {
+          "path": "Audio/output/125/chapter_01.wav",
+          "duration": 217.322292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Secret World—First Steps into Oak Ridge",
+          "actualDuration": 217.322292,
+          "startTime": 90.227167,
+          "endTime": 307.549459
+        },
+        {
+          "path": "Audio/output/125/chapter_02.wav",
+          "duration": 202.791833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life Behind the Fence—Building Community in Unfamiliar Territory",
+          "actualDuration": 202.791833,
+          "startTime": 309.049459,
+          "endTime": 511.841292
+        },
+        {
+          "path": "Audio/output/125/chapter_03.wav",
+          "duration": 178.892667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Secrecy—Living and Working Without Answers",
+          "actualDuration": 178.892667,
+          "startTime": 513.3412920000001,
+          "endTime": 692.233959
+        },
+        {
+          "path": "Audio/output/125/chapter_04.wav",
+          "duration": 191.561667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Ordinary Work, Extraordinary Impact—Women’s Roles in the Manhattan Project",
+          "actualDuration": 191.561667,
+          "startTime": 693.733959,
+          "endTime": 885.2956260000001
+        },
+        {
+          "path": "Audio/output/125/chapter_05.wav",
+          "duration": 164.576375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing the Unknown—Sacrifice, Doubt, and the Ethics of Progress",
+          "actualDuration": 164.576375,
+          "startTime": 886.7956260000001,
+          "endTime": 1051.3720010000002
+        },
+        {
+          "path": "Audio/output/125/chapter_06.wav",
+          "duration": 153.03025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 After the Blast—Reckoning with the Truth",
+          "actualDuration": 153.03025,
+          "startTime": 1052.8720010000002,
+          "endTime": 1205.9022510000002
+        },
+        {
+          "path": "Audio/output/125/chapter_07.wav",
+          "duration": 141.992833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Returning to Ordinary—Life After Oak Ridge",
+          "actualDuration": 141.992833,
+          "startTime": 1207.4022510000002,
+          "endTime": 1349.3950840000002
+        },
+        {
+          "path": "Audio/output/125/chapter_08.wav",
+          "duration": 135.528417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Recognition and Remembrance—The Long Road to Acknowledgment",
+          "actualDuration": 135.528417,
+          "startTime": 1350.8950840000002,
+          "endTime": 1486.4235010000002
+        },
+        {
+          "path": "Audio/output/125/chapter_09.wav",
+          "duration": 100.031708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Oak Ridge—Science, Society, and the Power of Ordinary People",
+          "actualDuration": 100.031708,
+          "startTime": 1487.9235010000002,
+          "endTime": 1587.9552090000002
+        },
+        {
+          "path": "Audio/output/125/chapter_10.wav",
+          "duration": 111.38575,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Echoes in the Present—Lessons for Today",
+          "actualDuration": 111.38575,
+          "startTime": 1589.4552090000002,
+          "endTime": 1700.840959
+        },
+        {
+          "path": "Audio/output/125/conclusion.wav",
+          "duration": 102.7185,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.7185,
+          "startTime": 1702.340959,
+          "endTime": 1805.059459
+        }
+      ],
+      "totalDuration": 1805.059459,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.73,
+          "actualStart": 0,
+          "actualEnd": 88.727167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Secret World—First Steps into Oak Ridge",
+          "expectedStart": 88.73,
+          "expectedEnd": 306.05,
+          "actualStart": 90.227167,
+          "actualEnd": 307.549459,
+          "timeDifference": 1.4971669999999904
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life Behind the Fence—Building Community in Unfamiliar Territory",
+          "expectedStart": 306.05,
+          "expectedEnd": 508.84,
+          "actualStart": 309.049459,
+          "actualEnd": 511.841292,
+          "timeDifference": 2.9994590000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Secrecy—Living and Working Without Answers",
+          "expectedStart": 508.84,
+          "expectedEnd": 687.73,
+          "actualStart": 513.3412920000001,
+          "actualEnd": 692.233959,
+          "timeDifference": 4.501292000000092
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Ordinary Work, Extraordinary Impact—Women’s Roles in the Manhattan Project",
+          "expectedStart": 687.73,
+          "expectedEnd": 879.29,
+          "actualStart": 693.733959,
+          "actualEnd": 885.2956260000001,
+          "timeDifference": 6.003959000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing the Unknown—Sacrifice, Doubt, and the Ethics of Progress",
+          "expectedStart": 879.29,
+          "expectedEnd": 1043.87,
+          "actualStart": 886.7956260000001,
+          "actualEnd": 1051.3720010000002,
+          "timeDifference": 7.50562600000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 After the Blast—Reckoning with the Truth",
+          "expectedStart": 1043.87,
+          "expectedEnd": 1196.9,
+          "actualStart": 1052.8720010000002,
+          "actualEnd": 1205.9022510000002,
+          "timeDifference": 9.002001000000291
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Returning to Ordinary—Life After Oak Ridge",
+          "expectedStart": 1196.9,
+          "expectedEnd": 1338.89,
+          "actualStart": 1207.4022510000002,
+          "actualEnd": 1349.3950840000002,
+          "timeDifference": 10.502251000000115
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Recognition and Remembrance—The Long Road to Acknowledgment",
+          "expectedStart": 1338.89,
+          "expectedEnd": 1474.42,
+          "actualStart": 1350.8950840000002,
+          "actualEnd": 1486.4235010000002,
+          "timeDifference": 12.005084000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Oak Ridge—Science, Society, and the Power of Ordinary People",
+          "expectedStart": 1474.42,
+          "expectedEnd": 1574.45,
+          "actualStart": 1487.9235010000002,
+          "actualEnd": 1587.9552090000002,
+          "timeDifference": 13.503501000000142
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Echoes in the Present—Lessons for Today",
+          "expectedStart": 1574.45,
+          "expectedEnd": 1685.84,
+          "actualStart": 1589.4552090000002,
+          "actualEnd": 1700.840959,
+          "timeDifference": 15.00520900000015
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1685.84,
+          "expectedEnd": 1788.56,
+          "actualStart": 1702.340959,
+          "actualEnd": 1805.059459,
+          "timeDifference": 16.500959000000194
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.727167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Secret World—First Steps into Oak Ridge"
+        },
+        {
+          "startTime": 307.549459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Secret World—First Steps into Oak Ridge and Chapter 2 Life Behind the Fence—Building Community in Unfamiliar Territory"
+        },
+        {
+          "startTime": 511.841292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life Behind the Fence—Building Community in Unfamiliar Territory and Chapter 3 The Weight of Secrecy—Living and Working Without Answers"
+        },
+        {
+          "startTime": 692.233959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Secrecy—Living and Working Without Answers and Chapter 4 Ordinary Work, Extraordinary Impact—Women’s Roles in the Manhattan Project"
+        },
+        {
+          "startTime": 885.2956260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Ordinary Work, Extraordinary Impact—Women’s Roles in the Manhattan Project and Chapter 5 Facing the Unknown—Sacrifice, Doubt, and the Ethics of Progress"
+        },
+        {
+          "startTime": 1051.3720010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing the Unknown—Sacrifice, Doubt, and the Ethics of Progress and Chapter 6 After the Blast—Reckoning with the Truth"
+        },
+        {
+          "startTime": 1205.9022510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 After the Blast—Reckoning with the Truth and Chapter 7 Returning to Ordinary—Life After Oak Ridge"
+        },
+        {
+          "startTime": 1349.3950840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Returning to Ordinary—Life After Oak Ridge and Chapter 8 Recognition and Remembrance—The Long Road to Acknowledgment"
+        },
+        {
+          "startTime": 1486.4235010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Recognition and Remembrance—The Long Road to Acknowledgment and Chapter 9 The Legacy of Oak Ridge—Science, Society, and the Power of Ordinary People"
+        },
+        {
+          "startTime": 1587.9552090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Oak Ridge—Science, Society, and the Power of Ordinary People and Chapter 10 Echoes in the Present—Lessons for Today"
+        },
+        {
+          "startTime": 1700.840959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Echoes in the Present—Lessons for Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "125",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T22:49:10.554Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

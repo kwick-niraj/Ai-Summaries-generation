@@ -1,0 +1,456 @@
+{
+  "bookId": "158",
+  "timestamp": "2025-07-03T00:30:58.460Z",
+  "success": false,
+  "processingTime": -1751502370700,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3853,
+    "totalAudioFiles": 12,
+    "totalDuration": 1740.09625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1740.09625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/158/optimized_text/158.md",
+    "fileSize": 610,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "158.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/158/metadata/158_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1740.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/158/metadata/158_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/158/metadata/158_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/158/158_complete.wav",
+    "duration": 1740.09625,
+    "fileSize": 83524698,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/158/introduction.wav",
+          "duration": 104.534625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.534625,
+          "startTime": 0,
+          "endTime": 104.534625
+        },
+        {
+          "path": "Audio/output/158/chapter_01.wav",
+          "duration": 202.080042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a City on Edge: The Dodds Step into Berlin",
+          "actualDuration": 202.080042,
+          "startTime": 106.034625,
+          "endTime": 308.114667
+        },
+        {
+          "path": "Audio/output/158/chapter_02.wav",
+          "duration": 193.164583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Allure and Danger of Berlin’s Social Life",
+          "actualDuration": 193.164583,
+          "startTime": 309.614667,
+          "endTime": 502.77925
+        },
+        {
+          "path": "Audio/output/158/chapter_03.wav",
+          "duration": 179.717792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Slow Unfolding of Tyranny",
+          "actualDuration": 179.717792,
+          "startTime": 504.27925,
+          "endTime": 683.997042
+        },
+        {
+          "path": "Audio/output/158/chapter_04.wav",
+          "duration": 135.441792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Limits of Diplomacy and the Weight of Conscience",
+          "actualDuration": 135.441792,
+          "startTime": 685.497042,
+          "endTime": 820.9388339999999
+        },
+        {
+          "path": "Audio/output/158/chapter_05.wav",
+          "duration": 151.103625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The World Watches and Waits",
+          "actualDuration": 151.103625,
+          "startTime": 822.4388339999999,
+          "endTime": 973.5424589999999
+        },
+        {
+          "path": "Audio/output/158/chapter_06.wav",
+          "duration": 150.569333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Shadows Deepen: The Family’s Private Battles",
+          "actualDuration": 150.569333,
+          "startTime": 975.0424589999999,
+          "endTime": 1125.611792
+        },
+        {
+          "path": "Audio/output/158/chapter_07.wav",
+          "duration": 146.232375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Night of Broken Glass: A City Shattered",
+          "actualDuration": 146.232375,
+          "startTime": 1127.111792,
+          "endTime": 1273.344167
+        },
+        {
+          "path": "Audio/output/158/chapter_08.wav",
+          "duration": 133.095125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Awakens—Too Late",
+          "actualDuration": 133.095125,
+          "startTime": 1274.844167,
+          "endTime": 1407.939292
+        },
+        {
+          "path": "Audio/output/158/chapter_09.wav",
+          "duration": 119.831083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Farewell to Berlin: The End of Innocence",
+          "actualDuration": 119.831083,
+          "startTime": 1409.439292,
+          "endTime": 1529.270375
+        },
+        {
+          "path": "Audio/output/158/chapter_10.wav",
+          "duration": 110.365917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bearing Witness: The Legacy of Conscience",
+          "actualDuration": 110.365917,
+          "startTime": 1530.770375,
+          "endTime": 1641.1362920000001
+        },
+        {
+          "path": "Audio/output/158/conclusion.wav",
+          "duration": 113.959958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.959958,
+          "startTime": 1642.6362920000001,
+          "endTime": 1756.59625
+        }
+      ],
+      "totalDuration": 1756.59625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.53,
+          "actualStart": 0,
+          "actualEnd": 104.534625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a City on Edge: The Dodds Step into Berlin",
+          "expectedStart": 104.53,
+          "expectedEnd": 306.61,
+          "actualStart": 106.034625,
+          "actualEnd": 308.114667,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Allure and Danger of Berlin’s Social Life",
+          "expectedStart": 306.61,
+          "expectedEnd": 499.77,
+          "actualStart": 309.614667,
+          "actualEnd": 502.77925,
+          "timeDifference": 3.0046669999999835
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Slow Unfolding of Tyranny",
+          "expectedStart": 499.77,
+          "expectedEnd": 679.49,
+          "actualStart": 504.27925,
+          "actualEnd": 683.997042,
+          "timeDifference": 4.509250000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Limits of Diplomacy and the Weight of Conscience",
+          "expectedStart": 679.49,
+          "expectedEnd": 814.93,
+          "actualStart": 685.497042,
+          "actualEnd": 820.9388339999999,
+          "timeDifference": 6.007041999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The World Watches and Waits",
+          "expectedStart": 814.93,
+          "expectedEnd": 966.03,
+          "actualStart": 822.4388339999999,
+          "actualEnd": 973.5424589999999,
+          "timeDifference": 7.508833999999979
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Shadows Deepen: The Family’s Private Battles",
+          "expectedStart": 966.03,
+          "expectedEnd": 1116.6,
+          "actualStart": 975.0424589999999,
+          "actualEnd": 1125.611792,
+          "timeDifference": 9.012458999999922
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Night of Broken Glass: A City Shattered",
+          "expectedStart": 1116.6,
+          "expectedEnd": 1262.83,
+          "actualStart": 1127.111792,
+          "actualEnd": 1273.344167,
+          "timeDifference": 10.511792000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Awakens—Too Late",
+          "expectedStart": 1262.83,
+          "expectedEnd": 1395.93,
+          "actualStart": 1274.844167,
+          "actualEnd": 1407.939292,
+          "timeDifference": 12.014167000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Farewell to Berlin: The End of Innocence",
+          "expectedStart": 1395.93,
+          "expectedEnd": 1515.76,
+          "actualStart": 1409.439292,
+          "actualEnd": 1529.270375,
+          "timeDifference": 13.50929199999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bearing Witness: The Legacy of Conscience",
+          "expectedStart": 1515.76,
+          "expectedEnd": 1626.13,
+          "actualStart": 1530.770375,
+          "actualEnd": 1641.1362920000001,
+          "timeDifference": 15.010375000000067
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1626.13,
+          "expectedEnd": 1740.09,
+          "actualStart": 1642.6362920000001,
+          "actualEnd": 1756.59625,
+          "timeDifference": 16.50629200000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.534625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a City on Edge: The Dodds Step into Berlin"
+        },
+        {
+          "startTime": 308.114667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a City on Edge: The Dodds Step into Berlin and Chapter 2 The Allure and Danger of Berlin’s Social Life"
+        },
+        {
+          "startTime": 502.77925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Allure and Danger of Berlin’s Social Life and Chapter 3 The Slow Unfolding of Tyranny"
+        },
+        {
+          "startTime": 683.997042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Slow Unfolding of Tyranny and Chapter 4 The Limits of Diplomacy and the Weight of Conscience"
+        },
+        {
+          "startTime": 820.9388339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Limits of Diplomacy and the Weight of Conscience and Chapter 5 The World Watches and Waits"
+        },
+        {
+          "startTime": 973.5424589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The World Watches and Waits and Chapter 6 Shadows Deepen: The Family’s Private Battles"
+        },
+        {
+          "startTime": 1125.611792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Shadows Deepen: The Family’s Private Battles and Chapter 7 The Night of Broken Glass: A City Shattered"
+        },
+        {
+          "startTime": 1273.344167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Night of Broken Glass: A City Shattered and Chapter 8 The World Awakens—Too Late"
+        },
+        {
+          "startTime": 1407.939292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Awakens—Too Late and Chapter 9 Farewell to Berlin: The End of Innocence"
+        },
+        {
+          "startTime": 1529.270375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Farewell to Berlin: The End of Innocence and Chapter 10 Bearing Witness: The Legacy of Conscience"
+        },
+        {
+          "startTime": 1641.1362920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bearing Witness: The Legacy of Conscience and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "158",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T00:26:11.895Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

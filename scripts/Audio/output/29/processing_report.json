@@ -1,0 +1,408 @@
+{
+  "bookId": "29",
+  "timestamp": "2025-07-02T17:58:22.455Z",
+  "success": false,
+  "processingTime": -1751478772415,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3835,
+    "totalAudioFiles": 11,
+    "totalDuration": 1553.5095
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1553.5095
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/29/optimized_text/29.md",
+    "fileSize": 574,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "29.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/29/metadata/29_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1553.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/29/metadata/29_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/29/metadata/29_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/29/29_complete.wav",
+    "duration": 1553.5095,
+    "fileSize": 74568534,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/29/introduction.wav",
+          "duration": 82.628125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.628125,
+          "startTime": 0,
+          "endTime": 82.628125
+        },
+        {
+          "path": "Audio/output/29/chapter_01.wav",
+          "duration": 217.408625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Arrival of Strangers and the First Broken Promises",
+          "actualDuration": 217.408625,
+          "startTime": 84.128125,
+          "endTime": 301.53675
+        },
+        {
+          "path": "Audio/output/29/chapter_02.wav",
+          "duration": 177.330708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Forced Marches and the Pain of Displacement",
+          "actualDuration": 177.330708,
+          "startTime": 303.03675,
+          "endTime": 480.36745799999994
+        },
+        {
+          "path": "Audio/output/29/chapter_03.wav",
+          "duration": 188.462333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Resistance, Courage, and the Cost of Defiance",
+          "actualDuration": 188.462333,
+          "startTime": 481.86745799999994,
+          "endTime": 670.3297909999999
+        },
+        {
+          "path": "Audio/output/29/chapter_04.wav",
+          "duration": 156.721208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cycle of Betrayal and the Struggle to Survive",
+          "actualDuration": 156.721208,
+          "startTime": 671.8297909999999,
+          "endTime": 828.5509989999998
+        },
+        {
+          "path": "Audio/output/29/chapter_05.wav",
+          "duration": 150.921667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Fight to Preserve Culture and Identity",
+          "actualDuration": 150.921667,
+          "startTime": 830.0509989999998,
+          "endTime": 980.9726659999999
+        },
+        {
+          "path": "Audio/output/29/chapter_06.wav",
+          "duration": 156.119375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ghost Dance and the Flicker of Hope",
+          "actualDuration": 156.119375,
+          "startTime": 982.4726659999999,
+          "endTime": 1138.5920409999999
+        },
+        {
+          "path": "Audio/output/29/chapter_08.wav",
+          "duration": 151.869167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow—Survival in a New World",
+          "actualDuration": 151.869167,
+          "startTime": 1140.0920409999999,
+          "endTime": 1291.961208
+        },
+        {
+          "path": "Audio/output/29/chapter_09.wav",
+          "duration": 170.809292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory, Justice, and the Seeds of Renewal",
+          "actualDuration": 170.809292,
+          "startTime": 1293.461208,
+          "endTime": 1464.2704999999999
+        },
+        {
+          "path": "Audio/output/29/conclusion.wav",
+          "duration": 101.239,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.239,
+          "startTime": 1465.7704999999999,
+          "endTime": 1567.0095
+        }
+      ],
+      "totalDuration": 1567.0095,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.63,
+          "actualStart": 0,
+          "actualEnd": 82.628125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Arrival of Strangers and the First Broken Promises",
+          "expectedStart": 82.63,
+          "expectedEnd": 300.04,
+          "actualStart": 84.128125,
+          "actualEnd": 301.53675,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Forced Marches and the Pain of Displacement",
+          "expectedStart": 300.04,
+          "expectedEnd": 477.37,
+          "actualStart": 303.03675,
+          "actualEnd": 480.36745799999994,
+          "timeDifference": 2.996749999999963
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Resistance, Courage, and the Cost of Defiance",
+          "expectedStart": 477.37,
+          "expectedEnd": 665.83,
+          "actualStart": 481.86745799999994,
+          "actualEnd": 670.3297909999999,
+          "timeDifference": 4.497457999999938
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cycle of Betrayal and the Struggle to Survive",
+          "expectedStart": 665.83,
+          "expectedEnd": 822.55,
+          "actualStart": 671.8297909999999,
+          "actualEnd": 828.5509989999998,
+          "timeDifference": 5.9997909999998456
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Fight to Preserve Culture and Identity",
+          "expectedStart": 822.55,
+          "expectedEnd": 973.47,
+          "actualStart": 830.0509989999998,
+          "actualEnd": 980.9726659999999,
+          "timeDifference": 7.500998999999865
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ghost Dance and the Flicker of Hope",
+          "expectedStart": 973.47,
+          "expectedEnd": 1129.59,
+          "actualStart": 982.4726659999999,
+          "actualEnd": 1138.5920409999999,
+          "timeDifference": 9.002665999999863
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow—Survival in a New World",
+          "expectedStart": 1129.59,
+          "expectedEnd": 1281.46,
+          "actualStart": 1140.0920409999999,
+          "actualEnd": 1291.961208,
+          "timeDifference": 10.502040999999963
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory, Justice, and the Seeds of Renewal",
+          "expectedStart": 1281.46,
+          "expectedEnd": 1452.27,
+          "actualStart": 1293.461208,
+          "actualEnd": 1464.2704999999999,
+          "timeDifference": 12.001207999999906
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1452.27,
+          "expectedEnd": 1553.51,
+          "actualStart": 1465.7704999999999,
+          "actualEnd": 1567.0095,
+          "timeDifference": 13.500499999999874
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.628125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Arrival of Strangers and the First Broken Promises"
+        },
+        {
+          "startTime": 301.53675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Arrival of Strangers and the First Broken Promises and Chapter 2 Forced Marches and the Pain of Displacement"
+        },
+        {
+          "startTime": 480.36745799999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Forced Marches and the Pain of Displacement and Chapter 3 Resistance, Courage, and the Cost of Defiance"
+        },
+        {
+          "startTime": 670.3297909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Resistance, Courage, and the Cost of Defiance and Chapter 4 The Cycle of Betrayal and the Struggle to Survive"
+        },
+        {
+          "startTime": 828.5509989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cycle of Betrayal and the Struggle to Survive and Chapter 5 The Fight to Preserve Culture and Identity"
+        },
+        {
+          "startTime": 980.9726659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Fight to Preserve Culture and Identity and Chapter 6 The Ghost Dance and the Flicker of Hope"
+        },
+        {
+          "startTime": 1138.5920409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ghost Dance and the Flicker of Hope and Chapter 8 The Long Shadow—Survival in a New World"
+        },
+        {
+          "startTime": 1291.961208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow—Survival in a New World and Chapter 9 Memory, Justice, and the Seeds of Renewal"
+        },
+        {
+          "startTime": 1464.2704999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory, Justice, and the Seeds of Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "29",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T17:52:55.097Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "208",
+  "timestamp": "2025-07-03T03:25:35.719Z",
+  "success": false,
+  "processingTime": -1751512754916,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3835,
+    "totalAudioFiles": 12,
+    "totalDuration": 1949.035708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1949.035708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/208/optimized_text/208.md",
+    "fileSize": 715,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "208.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/208/metadata/208_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1949.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/208/metadata/208_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/208/metadata/208_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/208/208_complete.wav",
+    "duration": 1949.035708,
+    "fileSize": 93553792,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/208/introduction.wav",
+          "duration": 105.900833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.900833,
+          "startTime": 0,
+          "endTime": 105.900833
+        },
+        {
+          "path": "Audio/output/208/chapter_01.wav",
+          "duration": 213.487583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Bondage and the First Glimpse of Freedom",
+          "actualDuration": 213.487583,
+          "startTime": 107.400833,
+          "endTime": 320.888416
+        },
+        {
+          "path": "Audio/output/208/chapter_02.wav",
+          "duration": 243.655958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle for Education and the Meaning of True Learning",
+          "actualDuration": 243.655958,
+          "startTime": 322.388416,
+          "endTime": 566.0443740000001
+        },
+        {
+          "path": "Audio/output/208/chapter_03.wav",
+          "duration": 188.709583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Life of Service and the Birth of a New School",
+          "actualDuration": 188.709583,
+          "startTime": 567.5443740000001,
+          "endTime": 756.2539570000001
+        },
+        {
+          "path": "Audio/output/208/chapter_04.wav",
+          "duration": 189.847542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Prejudice and Finding Common Ground",
+          "actualDuration": 189.847542,
+          "startTime": 757.7539570000001,
+          "endTime": 947.6014990000001
+        },
+        {
+          "path": "Audio/output/208/chapter_05.wav",
+          "duration": 172.859625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Work and the Path to Self-Respect",
+          "actualDuration": 172.859625,
+          "startTime": 949.1014990000001,
+          "endTime": 1121.9611240000002
+        },
+        {
+          "path": "Audio/output/208/chapter_06.wav",
+          "duration": 141.386125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing Setbacks and the Quiet Strength of Perseverance",
+          "actualDuration": 141.386125,
+          "startTime": 1123.4611240000002,
+          "endTime": 1264.8472490000001
+        },
+        {
+          "path": "Audio/output/208/chapter_07.wav",
+          "duration": 150.03875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Fundraising and the Power of Story",
+          "actualDuration": 150.03875,
+          "startTime": 1266.3472490000001,
+          "endTime": 1416.385999
+        },
+        {
+          "path": "Audio/output/208/chapter_08.wav",
+          "duration": 151.326792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Challenge of Leadership and the Weight of Example",
+          "actualDuration": 151.326792,
+          "startTime": 1417.885999,
+          "endTime": 1569.2127910000002
+        },
+        {
+          "path": "Audio/output/208/chapter_09.wav",
+          "duration": 151.350417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Bridges—Reaching Across Divides",
+          "actualDuration": 151.350417,
+          "startTime": 1570.7127910000002,
+          "endTime": 1722.063208
+        },
+        {
+          "path": "Audio/output/208/chapter_10.wav",
+          "duration": 134.431458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy—Hope, Character, and the Work Ahead",
+          "actualDuration": 134.431458,
+          "startTime": 1723.563208,
+          "endTime": 1857.994666
+        },
+        {
+          "path": "Audio/output/208/conclusion.wav",
+          "duration": 106.041042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.041042,
+          "startTime": 1859.494666,
+          "endTime": 1965.535708
+        }
+      ],
+      "totalDuration": 1965.535708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.9,
+          "actualStart": 0,
+          "actualEnd": 105.900833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Bondage and the First Glimpse of Freedom",
+          "expectedStart": 105.9,
+          "expectedEnd": 319.39,
+          "actualStart": 107.400833,
+          "actualEnd": 320.888416,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle for Education and the Meaning of True Learning",
+          "expectedStart": 319.39,
+          "expectedEnd": 563.05,
+          "actualStart": 322.388416,
+          "actualEnd": 566.0443740000001,
+          "timeDifference": 2.99841600000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Life of Service and the Birth of a New School",
+          "expectedStart": 563.05,
+          "expectedEnd": 751.76,
+          "actualStart": 567.5443740000001,
+          "actualEnd": 756.2539570000001,
+          "timeDifference": 4.494374000000107
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Prejudice and Finding Common Ground",
+          "expectedStart": 751.76,
+          "expectedEnd": 941.61,
+          "actualStart": 757.7539570000001,
+          "actualEnd": 947.6014990000001,
+          "timeDifference": 5.993957000000137
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Work and the Path to Self-Respect",
+          "expectedStart": 941.61,
+          "expectedEnd": 1114.47,
+          "actualStart": 949.1014990000001,
+          "actualEnd": 1121.9611240000002,
+          "timeDifference": 7.49149900000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing Setbacks and the Quiet Strength of Perseverance",
+          "expectedStart": 1114.47,
+          "expectedEnd": 1255.86,
+          "actualStart": 1123.4611240000002,
+          "actualEnd": 1264.8472490000001,
+          "timeDifference": 8.991124000000127
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Fundraising and the Power of Story",
+          "expectedStart": 1255.86,
+          "expectedEnd": 1405.9,
+          "actualStart": 1266.3472490000001,
+          "actualEnd": 1416.385999,
+          "timeDifference": 10.487249000000247
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Challenge of Leadership and the Weight of Example",
+          "expectedStart": 1405.9,
+          "expectedEnd": 1557.23,
+          "actualStart": 1417.885999,
+          "actualEnd": 1569.2127910000002,
+          "timeDifference": 11.985998999999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Bridges—Reaching Across Divides",
+          "expectedStart": 1557.23,
+          "expectedEnd": 1708.58,
+          "actualStart": 1570.7127910000002,
+          "actualEnd": 1722.063208,
+          "timeDifference": 13.482791000000134
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy—Hope, Character, and the Work Ahead",
+          "expectedStart": 1708.58,
+          "expectedEnd": 1843.01,
+          "actualStart": 1723.563208,
+          "actualEnd": 1857.994666,
+          "timeDifference": 14.983208000000104
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1843.01,
+          "expectedEnd": 1949.05,
+          "actualStart": 1859.494666,
+          "actualEnd": 1965.535708,
+          "timeDifference": 16.48466600000006
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.900833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Bondage and the First Glimpse of Freedom"
+        },
+        {
+          "startTime": 320.888416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Bondage and the First Glimpse of Freedom and Chapter 2 The Struggle for Education and the Meaning of True Learning"
+        },
+        {
+          "startTime": 566.0443740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle for Education and the Meaning of True Learning and Chapter 3 Building a Life of Service and the Birth of a New School"
+        },
+        {
+          "startTime": 756.2539570000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Life of Service and the Birth of a New School and Chapter 4 Navigating Prejudice and Finding Common Ground"
+        },
+        {
+          "startTime": 947.6014990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Prejudice and Finding Common Ground and Chapter 5 The Power of Work and the Path to Self-Respect"
+        },
+        {
+          "startTime": 1121.9611240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Work and the Path to Self-Respect and Chapter 6 Facing Setbacks and the Quiet Strength of Perseverance"
+        },
+        {
+          "startTime": 1264.8472490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing Setbacks and the Quiet Strength of Perseverance and Chapter 7 The Art of Fundraising and the Power of Story"
+        },
+        {
+          "startTime": 1416.385999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Fundraising and the Power of Story and Chapter 8 The Challenge of Leadership and the Weight of Example"
+        },
+        {
+          "startTime": 1569.2127910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Challenge of Leadership and the Weight of Example and Chapter 9 Building Bridges—Reaching Across Divides"
+        },
+        {
+          "startTime": 1722.063208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Bridges—Reaching Across Divides and Chapter 10 The Enduring Legacy—Hope, Character, and the Work Ahead"
+        },
+        {
+          "startTime": 1857.994666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy—Hope, Character, and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "208",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:19:15.456Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

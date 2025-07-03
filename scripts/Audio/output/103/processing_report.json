@@ -1,0 +1,456 @@
+{
+  "bookId": "103",
+  "timestamp": "2025-07-02T21:30:37.193Z",
+  "success": false,
+  "processingTime": -1751491354961,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4164,
+    "totalAudioFiles": 12,
+    "totalDuration": 2156.950126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2156.950126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/103/optimized_text/103.md",
+    "fileSize": 845,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "103.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/103/metadata/103_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2156.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/103/metadata/103_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/103/metadata/103_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/103/103_complete.wav",
+    "duration": 2156.950125,
+    "fileSize": 103533684,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/103/introduction.wav",
+          "duration": 86.299,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.299,
+          "startTime": 0,
+          "endTime": 86.299
+        },
+        {
+          "path": "Audio/output/103/chapter_01.wav",
+          "duration": 240.263042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Negotiation: Moving Beyond Positions",
+          "actualDuration": 240.263042,
+          "startTime": 87.799,
+          "endTime": 328.062042
+        },
+        {
+          "path": "Audio/output/103/chapter_02.wav",
+          "duration": 226.394083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Separating People from the Problem: Managing Emotions and Relationships",
+          "actualDuration": 226.394083,
+          "startTime": 329.562042,
+          "endTime": 555.956125
+        },
+        {
+          "path": "Audio/output/103/chapter_03.wav",
+          "duration": 195.625458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Focusing on Interests, Not Positions: Uncovering What Really Matters",
+          "actualDuration": 195.625458,
+          "startTime": 557.456125,
+          "endTime": 753.081583
+        },
+        {
+          "path": "Audio/output/103/chapter_04.wav",
+          "duration": 213.448625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Generating Options for Mutual Gain: Expanding the Pie",
+          "actualDuration": 213.448625,
+          "startTime": 754.581583,
+          "endTime": 968.030208
+        },
+        {
+          "path": "Audio/output/103/chapter_05.wav",
+          "duration": 183.128292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Insisting on Objective Criteria: Ensuring Fairness and Legitimacy",
+          "actualDuration": 183.128292,
+          "startTime": 969.530208,
+          "endTime": 1152.6585
+        },
+        {
+          "path": "Audio/output/103/chapter_06.wav",
+          "duration": 142.357667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Knowing Your BATNA: Strengthening Your Negotiation Power",
+          "actualDuration": 142.357667,
+          "startTime": 1154.1585,
+          "endTime": 1296.516167
+        },
+        {
+          "path": "Audio/output/103/chapter_07.wav",
+          "duration": 205.524792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Negotiating with Difficult People: Handling Hard Bargainers and Dirty Tricks",
+          "actualDuration": 205.524792,
+          "startTime": 1298.016167,
+          "endTime": 1503.540959
+        },
+        {
+          "path": "Audio/output/103/chapter_08.wav",
+          "duration": 163.43375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Negotiation Jujitsu: Redirecting Attacks and Breaking Deadlocks",
+          "actualDuration": 163.43375,
+          "startTime": 1505.040959,
+          "endTime": 1668.4747089999998
+        },
+        {
+          "path": "Audio/output/103/chapter_09.wav",
+          "duration": 174.347167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Turning “No” into “Yes”: Overcoming Impasse and Building Agreement",
+          "actualDuration": 174.347167,
+          "startTime": 1669.9747089999998,
+          "endTime": 1844.321876
+        },
+        {
+          "path": "Audio/output/103/chapter_10.wav",
+          "duration": 187.132125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Putting It All Together: Applying Principled Negotiation in Real Life",
+          "actualDuration": 187.132125,
+          "startTime": 1845.821876,
+          "endTime": 2032.954001
+        },
+        {
+          "path": "Audio/output/103/conclusion.wav",
+          "duration": 138.996125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.996125,
+          "startTime": 2034.454001,
+          "endTime": 2173.450126
+        }
+      ],
+      "totalDuration": 2173.450126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.3,
+          "actualStart": 0,
+          "actualEnd": 86.299,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Negotiation: Moving Beyond Positions",
+          "expectedStart": 86.3,
+          "expectedEnd": 326.56,
+          "actualStart": 87.799,
+          "actualEnd": 328.062042,
+          "timeDifference": 1.4990000000000094
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Separating People from the Problem: Managing Emotions and Relationships",
+          "expectedStart": 326.56,
+          "expectedEnd": 552.95,
+          "actualStart": 329.562042,
+          "actualEnd": 555.956125,
+          "timeDifference": 3.002042000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Focusing on Interests, Not Positions: Uncovering What Really Matters",
+          "expectedStart": 552.95,
+          "expectedEnd": 748.58,
+          "actualStart": 557.456125,
+          "actualEnd": 753.081583,
+          "timeDifference": 4.506124999999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Generating Options for Mutual Gain: Expanding the Pie",
+          "expectedStart": 748.58,
+          "expectedEnd": 962.03,
+          "actualStart": 754.581583,
+          "actualEnd": 968.030208,
+          "timeDifference": 6.001582999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Insisting on Objective Criteria: Ensuring Fairness and Legitimacy",
+          "expectedStart": 962.03,
+          "expectedEnd": 1145.16,
+          "actualStart": 969.530208,
+          "actualEnd": 1152.6585,
+          "timeDifference": 7.500208000000043
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Knowing Your BATNA: Strengthening Your Negotiation Power",
+          "expectedStart": 1145.16,
+          "expectedEnd": 1287.52,
+          "actualStart": 1154.1585,
+          "actualEnd": 1296.516167,
+          "timeDifference": 8.998499999999922
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Negotiating with Difficult People: Handling Hard Bargainers and Dirty Tricks",
+          "expectedStart": 1287.52,
+          "expectedEnd": 1493.04,
+          "actualStart": 1298.016167,
+          "actualEnd": 1503.540959,
+          "timeDifference": 10.496167000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Negotiation Jujitsu: Redirecting Attacks and Breaking Deadlocks",
+          "expectedStart": 1493.04,
+          "expectedEnd": 1656.47,
+          "actualStart": 1505.040959,
+          "actualEnd": 1668.4747089999998,
+          "timeDifference": 12.000958999999966
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Turning “No” into “Yes”: Overcoming Impasse and Building Agreement",
+          "expectedStart": 1656.47,
+          "expectedEnd": 1830.82,
+          "actualStart": 1669.9747089999998,
+          "actualEnd": 1844.321876,
+          "timeDifference": 13.50470899999982
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Putting It All Together: Applying Principled Negotiation in Real Life",
+          "expectedStart": 1830.82,
+          "expectedEnd": 2017.95,
+          "actualStart": 1845.821876,
+          "actualEnd": 2032.954001,
+          "timeDifference": 15.001876000000038
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2017.95,
+          "expectedEnd": 2156.95,
+          "actualStart": 2034.454001,
+          "actualEnd": 2173.450126,
+          "timeDifference": 16.504001000000017
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.299,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Negotiation: Moving Beyond Positions"
+        },
+        {
+          "startTime": 328.062042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Negotiation: Moving Beyond Positions and Chapter 2 Separating People from the Problem: Managing Emotions and Relationships"
+        },
+        {
+          "startTime": 555.956125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Separating People from the Problem: Managing Emotions and Relationships and Chapter 3 Focusing on Interests, Not Positions: Uncovering What Really Matters"
+        },
+        {
+          "startTime": 753.081583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Focusing on Interests, Not Positions: Uncovering What Really Matters and Chapter 4 Generating Options for Mutual Gain: Expanding the Pie"
+        },
+        {
+          "startTime": 968.030208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Generating Options for Mutual Gain: Expanding the Pie and Chapter 5 Insisting on Objective Criteria: Ensuring Fairness and Legitimacy"
+        },
+        {
+          "startTime": 1152.6585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Insisting on Objective Criteria: Ensuring Fairness and Legitimacy and Chapter 6 Knowing Your BATNA: Strengthening Your Negotiation Power"
+        },
+        {
+          "startTime": 1296.516167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Knowing Your BATNA: Strengthening Your Negotiation Power and Chapter 7 Negotiating with Difficult People: Handling Hard Bargainers and Dirty Tricks"
+        },
+        {
+          "startTime": 1503.540959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Negotiating with Difficult People: Handling Hard Bargainers and Dirty Tricks and Chapter 8 Negotiation Jujitsu: Redirecting Attacks and Breaking Deadlocks"
+        },
+        {
+          "startTime": 1668.4747089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Negotiation Jujitsu: Redirecting Attacks and Breaking Deadlocks and Chapter 9 Turning “No” into “Yes”: Overcoming Impasse and Building Agreement"
+        },
+        {
+          "startTime": 1844.321876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Turning “No” into “Yes”: Overcoming Impasse and Building Agreement and Chapter 10 Putting It All Together: Applying Principled Negotiation in Real Life"
+        },
+        {
+          "startTime": 2032.954001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Putting It All Together: Applying Principled Negotiation in Real Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "103",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T21:22:36.534Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

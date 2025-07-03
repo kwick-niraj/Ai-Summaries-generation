@@ -33,6 +33,9 @@ async function main() {
     if (options.optimizeText !== undefined) config.optimizeText = options.optimizeText;
     if (options.inputDir) config.inputDir = options.inputDir;
     if (options.outputDir) config.outputDir = options.outputDir;
+    if (options.strictMode !== undefined) config.strictMode = options.strictMode;
+    if (options.maxRetries) config.maxRetries = parseInt(options.maxRetries);
+    if (options.retryDelay) config.retryDelay = parseInt(options.retryDelay);
 
     // Validate configuration
     const validation = validateConfig(config);
@@ -164,6 +167,18 @@ function parseArguments(args) {
       case '-y':
         options.yes = true;
         break;
+      case '--strict-mode':
+        options.strictMode = true;
+        break;
+      case '--lenient-mode':
+        options.strictMode = false;
+        break;
+      case '--max-retries':
+        options.maxRetries = args[++i];
+        break;
+      case '--retry-delay':
+        options.retryDelay = args[++i];
+        break;
       case '--verbose':
         options.verbose = true;
         break;
@@ -203,6 +218,11 @@ OPTIONS:
   --no-skip               Don't skip existing files
   --no-combine            Don't combine audio files
   --no-optimize           Don't optimize text for audio
+  
+  --strict-mode           Stop processing book on API failures (default)
+  --lenient-mode          Continue with fallback on API failures
+  --max-retries <n>       Maximum retry attempts for API calls (default: 3)
+  --retry-delay <ms>      Delay between retries in milliseconds (default: 1000)
   
   -t, --test <bookId>     Test processing on a single book
   -d, --dry-run           Show what would be processed without doing it

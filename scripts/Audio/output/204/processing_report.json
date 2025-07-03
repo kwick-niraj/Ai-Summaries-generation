@@ -1,0 +1,456 @@
+{
+  "bookId": "204",
+  "timestamp": "2025-07-03T03:07:38.151Z",
+  "success": false,
+  "processingTime": -1751511725240,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4003,
+    "totalAudioFiles": 12,
+    "totalDuration": 2228.599959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2228.599959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/204/optimized_text/204.md",
+    "fileSize": 729,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "204.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/204/metadata/204_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2228.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/204/metadata/204_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/204/metadata/204_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/204/204_complete.wav",
+    "duration": 2228.599958,
+    "fileSize": 106972876,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/204/introduction.wav",
+          "duration": 101.079875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.079875,
+          "startTime": 0,
+          "endTime": 101.079875
+        },
+        {
+          "path": "Audio/output/204/chapter_01.wav",
+          "duration": 159.77675,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Intuition Fails in Modern Business",
+          "actualDuration": 159.77675,
+          "startTime": 102.579875,
+          "endTime": 262.356625
+        },
+        {
+          "path": "Audio/output/204/chapter_02.wav",
+          "duration": 273.42925,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Forces Shaping Judgment: Understanding Cognitive Bias",
+          "actualDuration": 273.42925,
+          "startTime": 263.856625,
+          "endTime": 537.285875
+        },
+        {
+          "path": "Audio/output/204/chapter_03.wav",
+          "duration": 230.595042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Science-Based Decision Framework",
+          "actualDuration": 230.595042,
+          "startTime": 538.785875,
+          "endTime": 769.3809170000001
+        },
+        {
+          "path": "Audio/output/204/chapter_04.wav",
+          "duration": 195.6995,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Tools for Countering Bias and Improving Decisions",
+          "actualDuration": 195.6995,
+          "startTime": 770.8809170000001,
+          "endTime": 966.5804170000001
+        },
+        {
+          "path": "Audio/output/204/chapter_05.wav",
+          "duration": 172.390958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating a Culture of Analytical Thinking",
+          "actualDuration": 172.390958,
+          "startTime": 968.0804170000001,
+          "endTime": 1140.471375
+        },
+        {
+          "path": "Audio/output/204/chapter_06.wav",
+          "duration": 232.270792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Applications: Navigating Uncertainty and High-Stakes Decisions",
+          "actualDuration": 232.270792,
+          "startTime": 1141.971375,
+          "endTime": 1374.242167
+        },
+        {
+          "path": "Audio/output/204/chapter_07.wav",
+          "duration": 201.514625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Embedding Evidence-Based Decision-Making at Scale",
+          "actualDuration": 201.514625,
+          "startTime": 1375.742167,
+          "endTime": 1577.2567920000001
+        },
+        {
+          "path": "Audio/output/204/chapter_08.wav",
+          "duration": 166.279792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Resistance and Sustaining Change",
+          "actualDuration": 166.279792,
+          "startTime": 1578.7567920000001,
+          "endTime": 1745.0365840000002
+        },
+        {
+          "path": "Audio/output/204/chapter_09.wav",
+          "duration": 192.170625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Decision-Making Under Pressure: Crisis and Rapid Response",
+          "actualDuration": 192.170625,
+          "startTime": 1746.5365840000002,
+          "endTime": 1938.7072090000001
+        },
+        {
+          "path": "Audio/output/204/chapter_10.wav",
+          "duration": 173.903417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Continuous Learning and Decision Mastery",
+          "actualDuration": 173.903417,
+          "startTime": 1940.2072090000001,
+          "endTime": 2114.110626
+        },
+        {
+          "path": "Audio/output/204/conclusion.wav",
+          "duration": 129.489333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.489333,
+          "startTime": 2115.610626,
+          "endTime": 2245.099959
+        }
+      ],
+      "totalDuration": 2245.099959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.08,
+          "actualStart": 0,
+          "actualEnd": 101.079875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Intuition Fails in Modern Business",
+          "expectedStart": 101.08,
+          "expectedEnd": 260.86,
+          "actualStart": 102.579875,
+          "actualEnd": 262.356625,
+          "timeDifference": 1.499875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Forces Shaping Judgment: Understanding Cognitive Bias",
+          "expectedStart": 260.86,
+          "expectedEnd": 534.29,
+          "actualStart": 263.856625,
+          "actualEnd": 537.285875,
+          "timeDifference": 2.9966249999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Science-Based Decision Framework",
+          "expectedStart": 534.29,
+          "expectedEnd": 764.89,
+          "actualStart": 538.785875,
+          "actualEnd": 769.3809170000001,
+          "timeDifference": 4.495875000000069
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Tools for Countering Bias and Improving Decisions",
+          "expectedStart": 764.89,
+          "expectedEnd": 960.59,
+          "actualStart": 770.8809170000001,
+          "actualEnd": 966.5804170000001,
+          "timeDifference": 5.990917000000081
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating a Culture of Analytical Thinking",
+          "expectedStart": 960.59,
+          "expectedEnd": 1132.98,
+          "actualStart": 968.0804170000001,
+          "actualEnd": 1140.471375,
+          "timeDifference": 7.490417000000093
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Applications: Navigating Uncertainty and High-Stakes Decisions",
+          "expectedStart": 1132.98,
+          "expectedEnd": 1365.25,
+          "actualStart": 1141.971375,
+          "actualEnd": 1374.242167,
+          "timeDifference": 8.991375000000062
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Embedding Evidence-Based Decision-Making at Scale",
+          "expectedStart": 1365.25,
+          "expectedEnd": 1566.76,
+          "actualStart": 1375.742167,
+          "actualEnd": 1577.2567920000001,
+          "timeDifference": 10.492167000000109
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Resistance and Sustaining Change",
+          "expectedStart": 1566.76,
+          "expectedEnd": 1733.04,
+          "actualStart": 1578.7567920000001,
+          "actualEnd": 1745.0365840000002,
+          "timeDifference": 11.996792000000141
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Decision-Making Under Pressure: Crisis and Rapid Response",
+          "expectedStart": 1733.04,
+          "expectedEnd": 1925.21,
+          "actualStart": 1746.5365840000002,
+          "actualEnd": 1938.7072090000001,
+          "timeDifference": 13.496584000000212
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Continuous Learning and Decision Mastery",
+          "expectedStart": 1925.21,
+          "expectedEnd": 2099.11,
+          "actualStart": 1940.2072090000001,
+          "actualEnd": 2114.110626,
+          "timeDifference": 14.997209000000112
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2099.11,
+          "expectedEnd": 2228.6,
+          "actualStart": 2115.610626,
+          "actualEnd": 2245.099959,
+          "timeDifference": 16.50062600000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.079875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Intuition Fails in Modern Business"
+        },
+        {
+          "startTime": 262.356625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Intuition Fails in Modern Business and Chapter 2 The Hidden Forces Shaping Judgment: Understanding Cognitive Bias"
+        },
+        {
+          "startTime": 537.285875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Forces Shaping Judgment: Understanding Cognitive Bias and Chapter 3 Building a Science-Based Decision Framework"
+        },
+        {
+          "startTime": 769.3809170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Science-Based Decision Framework and Chapter 4 Practical Tools for Countering Bias and Improving Decisions"
+        },
+        {
+          "startTime": 966.5804170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Tools for Countering Bias and Improving Decisions and Chapter 5 Creating a Culture of Analytical Thinking"
+        },
+        {
+          "startTime": 1140.471375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating a Culture of Analytical Thinking and Chapter 6 Advanced Applications: Navigating Uncertainty and High-Stakes Decisions"
+        },
+        {
+          "startTime": 1374.242167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Applications: Navigating Uncertainty and High-Stakes Decisions and Chapter 7 Embedding Evidence-Based Decision-Making at Scale"
+        },
+        {
+          "startTime": 1577.2567920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Embedding Evidence-Based Decision-Making at Scale and Chapter 8 Overcoming Resistance and Sustaining Change"
+        },
+        {
+          "startTime": 1745.0365840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Resistance and Sustaining Change and Chapter 9 Decision-Making Under Pressure: Crisis and Rapid Response"
+        },
+        {
+          "startTime": 1938.7072090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Decision-Making Under Pressure: Crisis and Rapid Response and Chapter 10 The Ongoing Journey: Continuous Learning and Decision Mastery"
+        },
+        {
+          "startTime": 2114.110626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Continuous Learning and Decision Mastery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "204",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:02:05.760Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

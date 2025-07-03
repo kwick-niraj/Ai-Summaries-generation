@@ -6,3 +6,6 @@ Todos For Audio:
     ☐ tts and tts-hd, are stable but with less audios(only one audio for male)
   Audio output:
     ☐ for good audios, it needs to take some pauses when needed.
+
+
+    node scripts/Audio/convertToM4a.js scripts/Audio/output/test/2185/2185_complete.wav -o scripts/Audio/output/test/2185/2185_complete.m4a --no-chapters --quality veryLow 

@@ -1,0 +1,456 @@
+{
+  "bookId": "211",
+  "timestamp": "2025-07-03T03:43:50.679Z",
+  "success": false,
+  "processingTime": -1751513926118,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4404,
+    "totalAudioFiles": 12,
+    "totalDuration": 2080.6167100000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2080.6167100000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/211/optimized_text/211.md",
+    "fileSize": 685,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "211.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/211/metadata/211_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2080.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/211/metadata/211_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/211/metadata/211_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/211/211_complete.wav",
+    "duration": 2080.616708,
+    "fileSize": 99869680,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/211/introduction.wav",
+          "duration": 110.429833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.429833,
+          "startTime": 0,
+          "endTime": 110.429833
+        },
+        {
+          "path": "Audio/output/211/chapter_01.wav",
+          "duration": 238.872917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into a World of Glitter and Pressure",
+          "actualDuration": 238.872917,
+          "startTime": 111.929833,
+          "endTime": 350.80275
+        },
+        {
+          "path": "Audio/output/211/chapter_02.wav",
+          "duration": 223.576042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating the Demands of the Ultra-Wealthy",
+          "actualDuration": 223.576042,
+          "startTime": 352.30275,
+          "endTime": 575.878792
+        },
+        {
+          "path": "Audio/output/211/chapter_03.wav",
+          "duration": 203.2295,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Eccentricities and Excesses of Celebrity Culture",
+          "actualDuration": 203.2295,
+          "startTime": 577.378792,
+          "endTime": 780.608292
+        },
+        {
+          "path": "Audio/output/211/chapter_04.wav",
+          "duration": 240.201042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Power, Privilege, and the Invisible Labor of Service",
+          "actualDuration": 240.201042,
+          "startTime": 782.108292,
+          "endTime": 1022.309334
+        },
+        {
+          "path": "Audio/output/211/chapter_05.wav",
+          "duration": 190.197792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons in Resilience and Adaptability",
+          "actualDuration": 190.197792,
+          "startTime": 1023.809334,
+          "endTime": 1214.007126
+        },
+        {
+          "path": "Audio/output/211/chapter_06.wav",
+          "duration": 173.625833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Toll of Perfection: Burnout and Boundaries",
+          "actualDuration": 173.625833,
+          "startTime": 1215.507126,
+          "endTime": 1389.132959
+        },
+        {
+          "path": "Audio/output/211/chapter_07.wav",
+          "duration": 161.632125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Double Life: Dreams Deferred and Identities Hidden",
+          "actualDuration": 161.632125,
+          "startTime": 1390.632959,
+          "endTime": 1552.2650840000001
+        },
+        {
+          "path": "Audio/output/211/chapter_08.wav",
+          "duration": 155.468042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Moments of Connection: Humanity in Unexpected Places",
+          "actualDuration": 155.468042,
+          "startTime": 1553.7650840000001,
+          "endTime": 1709.233126
+        },
+        {
+          "path": "Audio/output/211/chapter_09.wav",
+          "duration": 150.667542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unseen Cost: Sacrifices and Silver Linings",
+          "actualDuration": 150.667542,
+          "startTime": 1710.733126,
+          "endTime": 1861.400668
+        },
+        {
+          "path": "Audio/output/211/chapter_10.wav",
+          "duration": 118.445625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Meaning: Growth, Gratitude, and Moving Forward",
+          "actualDuration": 118.445625,
+          "startTime": 1862.900668,
+          "endTime": 1981.346293
+        },
+        {
+          "path": "Audio/output/211/conclusion.wav",
+          "duration": 114.270417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.270417,
+          "startTime": 1982.846293,
+          "endTime": 2097.1167100000002
+        }
+      ],
+      "totalDuration": 2097.1167100000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.43,
+          "actualStart": 0,
+          "actualEnd": 110.429833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into a World of Glitter and Pressure",
+          "expectedStart": 110.43,
+          "expectedEnd": 349.3,
+          "actualStart": 111.929833,
+          "actualEnd": 350.80275,
+          "timeDifference": 1.4998329999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating the Demands of the Ultra-Wealthy",
+          "expectedStart": 349.3,
+          "expectedEnd": 572.88,
+          "actualStart": 352.30275,
+          "actualEnd": 575.878792,
+          "timeDifference": 3.002749999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Eccentricities and Excesses of Celebrity Culture",
+          "expectedStart": 572.88,
+          "expectedEnd": 776.11,
+          "actualStart": 577.378792,
+          "actualEnd": 780.608292,
+          "timeDifference": 4.49879199999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Power, Privilege, and the Invisible Labor of Service",
+          "expectedStart": 776.11,
+          "expectedEnd": 1016.31,
+          "actualStart": 782.108292,
+          "actualEnd": 1022.309334,
+          "timeDifference": 5.998291999999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons in Resilience and Adaptability",
+          "expectedStart": 1016.31,
+          "expectedEnd": 1206.51,
+          "actualStart": 1023.809334,
+          "actualEnd": 1214.007126,
+          "timeDifference": 7.49933400000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Toll of Perfection: Burnout and Boundaries",
+          "expectedStart": 1206.51,
+          "expectedEnd": 1380.14,
+          "actualStart": 1215.507126,
+          "actualEnd": 1389.132959,
+          "timeDifference": 8.99712599999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Double Life: Dreams Deferred and Identities Hidden",
+          "expectedStart": 1380.14,
+          "expectedEnd": 1541.77,
+          "actualStart": 1390.632959,
+          "actualEnd": 1552.2650840000001,
+          "timeDifference": 10.492958999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Moments of Connection: Humanity in Unexpected Places",
+          "expectedStart": 1541.77,
+          "expectedEnd": 1697.24,
+          "actualStart": 1553.7650840000001,
+          "actualEnd": 1709.233126,
+          "timeDifference": 11.995084000000134
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unseen Cost: Sacrifices and Silver Linings",
+          "expectedStart": 1697.24,
+          "expectedEnd": 1847.91,
+          "actualStart": 1710.733126,
+          "actualEnd": 1861.400668,
+          "timeDifference": 13.493126000000075
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Meaning: Growth, Gratitude, and Moving Forward",
+          "expectedStart": 1847.91,
+          "expectedEnd": 1966.36,
+          "actualStart": 1862.900668,
+          "actualEnd": 1981.346293,
+          "timeDifference": 14.990667999999914
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1966.36,
+          "expectedEnd": 2080.63,
+          "actualStart": 1982.846293,
+          "actualEnd": 2097.1167100000002,
+          "timeDifference": 16.48629300000016
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.429833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into a World of Glitter and Pressure"
+        },
+        {
+          "startTime": 350.80275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into a World of Glitter and Pressure and Chapter 2 Navigating the Demands of the Ultra-Wealthy"
+        },
+        {
+          "startTime": 575.878792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating the Demands of the Ultra-Wealthy and Chapter 3 The Eccentricities and Excesses of Celebrity Culture"
+        },
+        {
+          "startTime": 780.608292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Eccentricities and Excesses of Celebrity Culture and Chapter 4 Power, Privilege, and the Invisible Labor of Service"
+        },
+        {
+          "startTime": 1022.309334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Power, Privilege, and the Invisible Labor of Service and Chapter 5 Lessons in Resilience and Adaptability"
+        },
+        {
+          "startTime": 1214.007126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons in Resilience and Adaptability and Chapter 6 The Toll of Perfection: Burnout and Boundaries"
+        },
+        {
+          "startTime": 1389.132959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Toll of Perfection: Burnout and Boundaries and Chapter 7 The Double Life: Dreams Deferred and Identities Hidden"
+        },
+        {
+          "startTime": 1552.2650840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Double Life: Dreams Deferred and Identities Hidden and Chapter 8 Moments of Connection: Humanity in Unexpected Places"
+        },
+        {
+          "startTime": 1709.233126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Moments of Connection: Humanity in Unexpected Places and Chapter 9 The Unseen Cost: Sacrifices and Silver Linings"
+        },
+        {
+          "startTime": 1861.400668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unseen Cost: Sacrifices and Silver Linings and Chapter 10 Finding Meaning: Growth, Gratitude, and Moving Forward"
+        },
+        {
+          "startTime": 1981.346293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Meaning: Growth, Gratitude, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "211",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:38:47.626Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "bookId": "87",
+  "timestamp": "2025-07-02T20:23:52.149Z",
+  "success": false,
+  "processingTime": -1751487526693,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4354,
+    "totalAudioFiles": 12,
+    "totalDuration": 1613.8763340000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1613.8763340000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/87/optimized_text/87.md",
+    "fileSize": 790,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "87.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/87/metadata/87_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1613.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/87/metadata/87_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/87/metadata/87_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/87/87_complete.wav",
+    "duration": 1613.876333,
+    "fileSize": 77466142,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/87/introduction.wav",
+          "duration": 105.785667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.785667,
+          "startTime": 0,
+          "endTime": 105.785667
+        },
+        {
+          "path": "Audio/output/87/chapter_03.wav",
+          "duration": 198.712417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Learning: Literacy as a Path to Freedom",
+          "actualDuration": 198.712417,
+          "startTime": 107.285667,
+          "endTime": 305.998084
+        },
+        {
+          "path": "Audio/output/87/chapter_04.wav",
+          "duration": 204.314208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Chains: Identity, Resistance, and the Struggle for Dignity",
+          "actualDuration": 204.314208,
+          "startTime": 307.498084,
+          "endTime": 511.812292
+        },
+        {
+          "path": "Audio/output/87/chapter_05.wav",
+          "duration": 175.641667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Road to Liberation: Hope, Community, and the Dream of Freedom",
+          "actualDuration": 175.641667,
+          "startTime": 513.3122920000001,
+          "endTime": 688.953959
+        },
+        {
+          "path": "Audio/output/87/chapter_06.wav",
+          "duration": 175.906583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Crossing the Threshold: The First Taste of Freedom",
+          "actualDuration": 175.906583,
+          "startTime": 690.453959,
+          "endTime": 866.3605420000001
+        },
+        {
+          "path": "Audio/output/87/chapter_07.wav",
+          "duration": 189.378042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a New Life: Work, Love, and the Search for Belonging",
+          "actualDuration": 189.378042,
+          "startTime": 867.8605420000001,
+          "endTime": 1057.2385840000002
+        },
+        {
+          "path": "Audio/output/87/chapter_08.wav",
+          "duration": 169.037625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Voice: Speaking Out Against Injustice",
+          "actualDuration": 169.037625,
+          "startTime": 1058.7385840000002,
+          "endTime": 1227.776209
+        },
+        {
+          "path": "Audio/output/87/chapter_09.wav",
+          "duration": 139.088708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Confronting Hypocrisy: Faith, Morality, and the Struggle for Justice",
+          "actualDuration": 139.088708,
+          "startTime": 1229.276209,
+          "endTime": 1368.364917
+        },
+        {
+          "path": "Audio/output/87/chapter_10.wav",
+          "duration": 137.007,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Reflection: The Unfinished Work of Freedom",
+          "actualDuration": 137.007,
+          "startTime": 1369.864917,
+          "endTime": 1506.8719170000002
+        },
+        {
+          "path": "Audio/output/87/conclusion.wav",
+          "duration": 119.004417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.004417,
+          "startTime": 1508.3719170000002,
+          "endTime": 1627.3763340000003
+        }
+      ],
+      "totalDuration": 1627.3763340000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.79,
+          "actualStart": 0,
+          "actualEnd": 105.785667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Learning: Literacy as a Path to Freedom",
+          "expectedStart": 105.79,
+          "expectedEnd": 304.5,
+          "actualStart": 107.285667,
+          "actualEnd": 305.998084,
+          "timeDifference": 1.4956669999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Chains: Identity, Resistance, and the Struggle for Dignity",
+          "expectedStart": 304.5,
+          "expectedEnd": 508.81,
+          "actualStart": 307.498084,
+          "actualEnd": 511.812292,
+          "timeDifference": 2.9980840000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Road to Liberation: Hope, Community, and the Dream of Freedom",
+          "expectedStart": 508.81,
+          "expectedEnd": 684.45,
+          "actualStart": 513.3122920000001,
+          "actualEnd": 688.953959,
+          "timeDifference": 4.502292000000068
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Crossing the Threshold: The First Taste of Freedom",
+          "expectedStart": 684.45,
+          "expectedEnd": 860.36,
+          "actualStart": 690.453959,
+          "actualEnd": 866.3605420000001,
+          "timeDifference": 6.003959000000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a New Life: Work, Love, and the Search for Belonging",
+          "expectedStart": 860.36,
+          "expectedEnd": 1049.74,
+          "actualStart": 867.8605420000001,
+          "actualEnd": 1057.2385840000002,
+          "timeDifference": 7.5005420000001095
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Voice: Speaking Out Against Injustice",
+          "expectedStart": 1049.74,
+          "expectedEnd": 1218.78,
+          "actualStart": 1058.7385840000002,
+          "actualEnd": 1227.776209,
+          "timeDifference": 8.998584000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Confronting Hypocrisy: Faith, Morality, and the Struggle for Justice",
+          "expectedStart": 1218.78,
+          "expectedEnd": 1357.87,
+          "actualStart": 1229.276209,
+          "actualEnd": 1368.364917,
+          "timeDifference": 10.496209000000135
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Reflection: The Unfinished Work of Freedom",
+          "expectedStart": 1357.87,
+          "expectedEnd": 1494.88,
+          "actualStart": 1369.864917,
+          "actualEnd": 1506.8719170000002,
+          "timeDifference": 11.994917000000214
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1494.88,
+          "expectedEnd": 1613.88,
+          "actualStart": 1508.3719170000002,
+          "actualEnd": 1627.3763340000003,
+          "timeDifference": 13.491917000000058
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.785667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 3 The Power of Learning: Literacy as a Path to Freedom"
+        },
+        {
+          "startTime": 305.998084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Learning: Literacy as a Path to Freedom and Chapter 4 Breaking the Chains: Identity, Resistance, and the Struggle for Dignity"
+        },
+        {
+          "startTime": 511.812292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Chains: Identity, Resistance, and the Struggle for Dignity and Chapter 5 The Road to Liberation: Hope, Community, and the Dream of Freedom"
+        },
+        {
+          "startTime": 688.953959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Road to Liberation: Hope, Community, and the Dream of Freedom and Chapter 6 Crossing the Threshold: The First Taste of Freedom"
+        },
+        {
+          "startTime": 866.3605420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Crossing the Threshold: The First Taste of Freedom and Chapter 7 Building a New Life: Work, Love, and the Search for Belonging"
+        },
+        {
+          "startTime": 1057.2385840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a New Life: Work, Love, and the Search for Belonging and Chapter 8 The Power of Voice: Speaking Out Against Injustice"
+        },
+        {
+          "startTime": 1227.776209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Voice: Speaking Out Against Injustice and Chapter 9 Confronting Hypocrisy: Faith, Morality, and the Struggle for Justice"
+        },
+        {
+          "startTime": 1368.364917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Confronting Hypocrisy: Faith, Morality, and the Struggle for Justice and Chapter 10 Legacy and Reflection: The Unfinished Work of Freedom"
+        },
+        {
+          "startTime": 1506.8719170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Reflection: The Unfinished Work of Freedom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "87",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T20:18:48.304Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

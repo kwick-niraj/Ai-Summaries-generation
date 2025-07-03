@@ -1,0 +1,456 @@
+{
+  "bookId": "146",
+  "timestamp": "2025-07-02T23:56:10.432Z",
+  "success": false,
+  "processingTime": -1751500161305,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4615,
+    "totalAudioFiles": 12,
+    "totalDuration": 2185.5581679999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2185.5581679999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/146/optimized_text/146.md",
+    "fileSize": 617,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "146.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/146/metadata/146_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2185.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/146/metadata/146_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/146/metadata/146_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/146/146_complete.wav",
+    "duration": 2185.558167,
+    "fileSize": 104906870,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/146/introduction.wav",
+          "duration": 113.406583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.406583,
+          "startTime": 0,
+          "endTime": 113.406583
+        },
+        {
+          "path": "Audio/output/146/chapter_01.wav",
+          "duration": 217.59275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up and Searching for Belonging",
+          "actualDuration": 217.59275,
+          "startTime": 114.906583,
+          "endTime": 332.499333
+        },
+        {
+          "path": "Audio/output/146/chapter_02.wav",
+          "duration": 249.759792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Early Success and the Realities of Fame",
+          "actualDuration": 249.759792,
+          "startTime": 333.999333,
+          "endTime": 583.759125
+        },
+        {
+          "path": "Audio/output/146/chapter_03.wav",
+          "duration": 237.576417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Identity and Finding Community",
+          "actualDuration": 237.576417,
+          "startTime": 585.259125,
+          "endTime": 822.835542
+        },
+        {
+          "path": "Audio/output/146/chapter_04.wav",
+          "duration": 246.002375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reinventing Career and Navigating New Opportunities",
+          "actualDuration": 246.002375,
+          "startTime": 824.335542,
+          "endTime": 1070.337917
+        },
+        {
+          "path": "Audio/output/146/chapter_05.wav",
+          "duration": 243.420542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Family and Redefining Home",
+          "actualDuration": 243.420542,
+          "startTime": 1071.837917,
+          "endTime": 1315.2584590000001
+        },
+        {
+          "path": "Audio/output/146/chapter_06.wav",
+          "duration": 181.215125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Magic of Reinvention",
+          "actualDuration": 181.215125,
+          "startTime": 1316.7584590000001,
+          "endTime": 1497.973584
+        },
+        {
+          "path": "Audio/output/146/chapter_07.wav",
+          "duration": 205.60025,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating the Spotlight—Public Life and Private Self",
+          "actualDuration": 205.60025,
+          "startTime": 1499.473584,
+          "endTime": 1705.073834
+        },
+        {
+          "path": "Audio/output/146/chapter_08.wav",
+          "duration": 146.131375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Giving Back—The Power of Generosity",
+          "actualDuration": 146.131375,
+          "startTime": 1706.573834,
+          "endTime": 1852.705209
+        },
+        {
+          "path": "Audio/output/146/chapter_09.wav",
+          "duration": 127.637542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Enduring Love and Lasting Partnership",
+          "actualDuration": 127.637542,
+          "startTime": 1854.205209,
+          "endTime": 1981.842751
+        },
+        {
+          "path": "Audio/output/146/chapter_10.wav",
+          "duration": 97.158625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Embracing Change and Looking Forward",
+          "actualDuration": 97.158625,
+          "startTime": 1983.342751,
+          "endTime": 2080.5013759999997
+        },
+        {
+          "path": "Audio/output/146/conclusion.wav",
+          "duration": 120.056792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.056792,
+          "startTime": 2082.0013759999997,
+          "endTime": 2202.0581679999996
+        }
+      ],
+      "totalDuration": 2202.0581679999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.41,
+          "actualStart": 0,
+          "actualEnd": 113.406583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up and Searching for Belonging",
+          "expectedStart": 113.41,
+          "expectedEnd": 331,
+          "actualStart": 114.906583,
+          "actualEnd": 332.499333,
+          "timeDifference": 1.496583000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Early Success and the Realities of Fame",
+          "expectedStart": 331,
+          "expectedEnd": 580.76,
+          "actualStart": 333.999333,
+          "actualEnd": 583.759125,
+          "timeDifference": 2.9993329999999787
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Identity and Finding Community",
+          "expectedStart": 580.76,
+          "expectedEnd": 818.34,
+          "actualStart": 585.259125,
+          "actualEnd": 822.835542,
+          "timeDifference": 4.499125000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reinventing Career and Navigating New Opportunities",
+          "expectedStart": 818.34,
+          "expectedEnd": 1064.34,
+          "actualStart": 824.335542,
+          "actualEnd": 1070.337917,
+          "timeDifference": 5.995542
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Family and Redefining Home",
+          "expectedStart": 1064.34,
+          "expectedEnd": 1307.76,
+          "actualStart": 1071.837917,
+          "actualEnd": 1315.2584590000001,
+          "timeDifference": 7.497917000000143
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Magic of Reinvention",
+          "expectedStart": 1307.76,
+          "expectedEnd": 1488.98,
+          "actualStart": 1316.7584590000001,
+          "actualEnd": 1497.973584,
+          "timeDifference": 8.998459000000139
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating the Spotlight—Public Life and Private Self",
+          "expectedStart": 1488.98,
+          "expectedEnd": 1694.58,
+          "actualStart": 1499.473584,
+          "actualEnd": 1705.073834,
+          "timeDifference": 10.493584000000055
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Giving Back—The Power of Generosity",
+          "expectedStart": 1694.58,
+          "expectedEnd": 1840.71,
+          "actualStart": 1706.573834,
+          "actualEnd": 1852.705209,
+          "timeDifference": 11.993834000000106
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Enduring Love and Lasting Partnership",
+          "expectedStart": 1840.71,
+          "expectedEnd": 1968.35,
+          "actualStart": 1854.205209,
+          "actualEnd": 1981.842751,
+          "timeDifference": 13.495208999999932
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Embracing Change and Looking Forward",
+          "expectedStart": 1968.35,
+          "expectedEnd": 2065.51,
+          "actualStart": 1983.342751,
+          "actualEnd": 2080.5013759999997,
+          "timeDifference": 14.992750999999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2065.51,
+          "expectedEnd": 2185.57,
+          "actualStart": 2082.0013759999997,
+          "actualEnd": 2202.0581679999996,
+          "timeDifference": 16.49137599999949
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.406583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up and Searching for Belonging"
+        },
+        {
+          "startTime": 332.499333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up and Searching for Belonging and Chapter 2 Early Success and the Realities of Fame"
+        },
+        {
+          "startTime": 583.759125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Early Success and the Realities of Fame and Chapter 3 Embracing Identity and Finding Community"
+        },
+        {
+          "startTime": 822.835542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Identity and Finding Community and Chapter 4 Reinventing Career and Navigating New Opportunities"
+        },
+        {
+          "startTime": 1070.337917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reinventing Career and Navigating New Opportunities and Chapter 5 Building Family and Redefining Home"
+        },
+        {
+          "startTime": 1315.2584590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Family and Redefining Home and Chapter 6 The Magic of Reinvention"
+        },
+        {
+          "startTime": 1497.973584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Magic of Reinvention and Chapter 7 Navigating the Spotlight—Public Life and Private Self"
+        },
+        {
+          "startTime": 1705.073834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating the Spotlight—Public Life and Private Self and Chapter 8 Giving Back—The Power of Generosity"
+        },
+        {
+          "startTime": 1852.705209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Giving Back—The Power of Generosity and Chapter 9 Enduring Love and Lasting Partnership"
+        },
+        {
+          "startTime": 1981.842751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Enduring Love and Lasting Partnership and Chapter 10 The Ongoing Journey—Embracing Change and Looking Forward"
+        },
+        {
+          "startTime": 2080.5013759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Embracing Change and Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "146",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T23:49:22.564Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

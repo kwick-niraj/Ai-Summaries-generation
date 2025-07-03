@@ -1,0 +1,456 @@
+{
+  "bookId": "234",
+  "timestamp": "2025-07-03T04:52:20.786Z",
+  "success": false,
+  "processingTime": -1751518065260,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4142,
+    "totalAudioFiles": 12,
+    "totalDuration": 1890.681791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1890.681791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/234/optimized_text/234.md",
+    "fileSize": 572,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "234.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/234/metadata/234_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1890.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/234/metadata/234_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/234/metadata/234_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/234/234_complete.wav",
+    "duration": 1890.681792,
+    "fileSize": 90752804,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/234/introduction.wav",
+          "duration": 101.49,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.49,
+          "startTime": 0,
+          "endTime": 101.49
+        },
+        {
+          "path": "Audio/output/234/chapter_01.wav",
+          "duration": 155.448042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Throws a Curveball, Even the Helpers Need Help",
+          "actualDuration": 155.448042,
+          "startTime": 102.99,
+          "endTime": 258.438042
+        },
+        {
+          "path": "Audio/output/234/chapter_02.wav",
+          "duration": 221.837458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Behind the Therapist’s Door—Real People, Real Struggles",
+          "actualDuration": 221.837458,
+          "startTime": 259.938042,
+          "endTime": 481.77549999999997
+        },
+        {
+          "path": "Audio/output/234/chapter_03.wav",
+          "duration": 224.770583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Messy, Imperfect Process of Healing",
+          "actualDuration": 224.770583,
+          "startTime": 483.27549999999997,
+          "endTime": 708.046083
+        },
+        {
+          "path": "Audio/output/234/chapter_04.wav",
+          "duration": 187.840333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Pain, Finding Growth",
+          "actualDuration": 187.840333,
+          "startTime": 709.546083,
+          "endTime": 897.3864159999999
+        },
+        {
+          "path": "Audio/output/234/chapter_05.wav",
+          "duration": 169.023375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Connection and Self-Compassion",
+          "actualDuration": 169.023375,
+          "startTime": 898.8864159999999,
+          "endTime": 1067.909791
+        },
+        {
+          "path": "Audio/output/234/chapter_06.wav",
+          "duration": 166.359375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When the Old Stories No Longer Fit",
+          "actualDuration": 166.359375,
+          "startTime": 1069.409791,
+          "endTime": 1235.769166
+        },
+        {
+          "path": "Audio/output/234/chapter_07.wav",
+          "duration": 154.446,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unexpected Gifts of Grief",
+          "actualDuration": 154.446,
+          "startTime": 1237.269166,
+          "endTime": 1391.715166
+        },
+        {
+          "path": "Audio/output/234/chapter_08.wav",
+          "duration": 151.149,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Courage to Choose Change",
+          "actualDuration": 151.149,
+          "startTime": 1393.215166,
+          "endTime": 1544.3641659999998
+        },
+        {
+          "path": "Audio/output/234/chapter_09.wav",
+          "duration": 133.891583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with Uncertainty",
+          "actualDuration": 133.891583,
+          "startTime": 1545.8641659999998,
+          "endTime": 1679.755749
+        },
+        {
+          "path": "Audio/output/234/chapter_10.wav",
+          "duration": 124.580667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Work of Being Human",
+          "actualDuration": 124.580667,
+          "startTime": 1681.255749,
+          "endTime": 1805.8364159999999
+        },
+        {
+          "path": "Audio/output/234/conclusion.wav",
+          "duration": 99.845375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.845375,
+          "startTime": 1807.3364159999999,
+          "endTime": 1907.181791
+        }
+      ],
+      "totalDuration": 1907.181791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.49,
+          "actualStart": 0,
+          "actualEnd": 101.49,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Throws a Curveball, Even the Helpers Need Help",
+          "expectedStart": 101.49,
+          "expectedEnd": 256.94,
+          "actualStart": 102.99,
+          "actualEnd": 258.438042,
+          "timeDifference": 1.5
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Behind the Therapist’s Door—Real People, Real Struggles",
+          "expectedStart": 256.94,
+          "expectedEnd": 478.78,
+          "actualStart": 259.938042,
+          "actualEnd": 481.77549999999997,
+          "timeDifference": 2.998041999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Messy, Imperfect Process of Healing",
+          "expectedStart": 478.78,
+          "expectedEnd": 703.55,
+          "actualStart": 483.27549999999997,
+          "actualEnd": 708.046083,
+          "timeDifference": 4.495499999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Pain, Finding Growth",
+          "expectedStart": 703.55,
+          "expectedEnd": 891.39,
+          "actualStart": 709.546083,
+          "actualEnd": 897.3864159999999,
+          "timeDifference": 5.996082999999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Connection and Self-Compassion",
+          "expectedStart": 891.39,
+          "expectedEnd": 1060.41,
+          "actualStart": 898.8864159999999,
+          "actualEnd": 1067.909791,
+          "timeDifference": 7.496415999999954
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When the Old Stories No Longer Fit",
+          "expectedStart": 1060.41,
+          "expectedEnd": 1226.77,
+          "actualStart": 1069.409791,
+          "actualEnd": 1235.769166,
+          "timeDifference": 8.99979099999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unexpected Gifts of Grief",
+          "expectedStart": 1226.77,
+          "expectedEnd": 1381.22,
+          "actualStart": 1237.269166,
+          "actualEnd": 1391.715166,
+          "timeDifference": 10.49916600000006
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Courage to Choose Change",
+          "expectedStart": 1381.22,
+          "expectedEnd": 1532.37,
+          "actualStart": 1393.215166,
+          "actualEnd": 1544.3641659999998,
+          "timeDifference": 11.995165999999926
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with Uncertainty",
+          "expectedStart": 1532.37,
+          "expectedEnd": 1666.26,
+          "actualStart": 1545.8641659999998,
+          "actualEnd": 1679.755749,
+          "timeDifference": 13.49416599999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Work of Being Human",
+          "expectedStart": 1666.26,
+          "expectedEnd": 1790.84,
+          "actualStart": 1681.255749,
+          "actualEnd": 1805.8364159999999,
+          "timeDifference": 14.995748999999932
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1790.84,
+          "expectedEnd": 1890.69,
+          "actualStart": 1807.3364159999999,
+          "actualEnd": 1907.181791,
+          "timeDifference": 16.496415999999954
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.49,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Throws a Curveball, Even the Helpers Need Help"
+        },
+        {
+          "startTime": 258.438042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Throws a Curveball, Even the Helpers Need Help and Chapter 2 Behind the Therapist’s Door—Real People, Real Struggles"
+        },
+        {
+          "startTime": 481.77549999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Behind the Therapist’s Door—Real People, Real Struggles and Chapter 3 The Messy, Imperfect Process of Healing"
+        },
+        {
+          "startTime": 708.046083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Messy, Imperfect Process of Healing and Chapter 4 Facing Pain, Finding Growth"
+        },
+        {
+          "startTime": 897.3864159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Pain, Finding Growth and Chapter 5 The Power of Connection and Self-Compassion"
+        },
+        {
+          "startTime": 1067.909791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Connection and Self-Compassion and Chapter 6 When the Old Stories No Longer Fit"
+        },
+        {
+          "startTime": 1235.769166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When the Old Stories No Longer Fit and Chapter 7 The Unexpected Gifts of Grief"
+        },
+        {
+          "startTime": 1391.715166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unexpected Gifts of Grief and Chapter 8 The Courage to Choose Change"
+        },
+        {
+          "startTime": 1544.3641659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Courage to Choose Change and Chapter 9 Living with Uncertainty"
+        },
+        {
+          "startTime": 1679.755749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with Uncertainty and Chapter 10 The Ongoing Work of Being Human"
+        },
+        {
+          "startTime": 1805.8364159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Work of Being Human and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "234",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T04:47:45.794Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "80",
+  "timestamp": "2025-07-02T20:05:20.246Z",
+  "success": false,
+  "processingTime": -1751486360008,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4072,
+    "totalAudioFiles": 12,
+    "totalDuration": 1803.938167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1803.938167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/80/optimized_text/80.md",
+    "fileSize": 748,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "80.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/80/metadata/80_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1803.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/80/metadata/80_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/80/metadata/80_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/80/80_complete.wav",
+    "duration": 1803.938167,
+    "fileSize": 86589110,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/80/introduction.wav",
+          "duration": 94.186958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.186958,
+          "startTime": 0,
+          "endTime": 94.186958
+        },
+        {
+          "path": "Audio/output/80/chapter_01.wav",
+          "duration": 218.212833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Life Unseen and the Birth of a Medical Miracle",
+          "actualDuration": 218.212833,
+          "startTime": 95.686958,
+          "endTime": 313.899791
+        },
+        {
+          "path": "Audio/output/80/chapter_02.wav",
+          "duration": 194.626583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Cost of Progress and the Silence of Consent",
+          "actualDuration": 194.626583,
+          "startTime": 315.399791,
+          "endTime": 510.02637400000003
+        },
+        {
+          "path": "Audio/output/80/chapter_03.wav",
+          "duration": 187.466792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Race, Inequality, and the Medical System’s Unseen Divide",
+          "actualDuration": 187.466792,
+          "startTime": 511.52637400000003,
+          "endTime": 698.993166
+        },
+        {
+          "path": "Audio/output/80/chapter_04.wav",
+          "duration": 158.871958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family, Legacy, and the Search for Meaning",
+          "actualDuration": 158.871958,
+          "startTime": 700.493166,
+          "endTime": 859.3651239999999
+        },
+        {
+          "path": "Audio/output/80/chapter_05.wav",
+          "duration": 122.167792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Cost of Scientific Discovery",
+          "actualDuration": 122.167792,
+          "startTime": 860.8651239999999,
+          "endTime": 983.0329159999999
+        },
+        {
+          "path": "Audio/output/80/chapter_06.wav",
+          "duration": 162.62,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Journalist’s Quest and the Power of Telling",
+          "actualDuration": 162.62,
+          "startTime": 984.5329159999999,
+          "endTime": 1147.152916
+        },
+        {
+          "path": "Audio/output/80/chapter_07.wav",
+          "duration": 160.760542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science Grows Up—Ethics, Consent, and the Changing Landscape",
+          "actualDuration": 160.760542,
+          "startTime": 1148.652916,
+          "endTime": 1309.413458
+        },
+        {
+          "path": "Audio/output/80/chapter_08.wav",
+          "duration": 148.326542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Family’s Ongoing Struggle—Recognition, Justice, and Healing",
+          "actualDuration": 148.326542,
+          "startTime": 1310.913458,
+          "endTime": 1459.24
+        },
+        {
+          "path": "Audio/output/80/chapter_09.wav",
+          "duration": 146.166208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of HeLa—Science, Society, and the Meaning of Immortality",
+          "actualDuration": 146.166208,
+          "startTime": 1460.74,
+          "endTime": 1606.906208
+        },
+        {
+          "path": "Audio/output/80/chapter_10.wav",
+          "duration": 95.508292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Peace—Memory, Reconciliation, and the Future",
+          "actualDuration": 95.508292,
+          "startTime": 1608.406208,
+          "endTime": 1703.9145
+        },
+        {
+          "path": "Audio/output/80/conclusion.wav",
+          "duration": 115.023667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.023667,
+          "startTime": 1705.4145,
+          "endTime": 1820.438167
+        }
+      ],
+      "totalDuration": 1820.438167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.19,
+          "actualStart": 0,
+          "actualEnd": 94.186958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Life Unseen and the Birth of a Medical Miracle",
+          "expectedStart": 94.19,
+          "expectedEnd": 312.4,
+          "actualStart": 95.686958,
+          "actualEnd": 313.899791,
+          "timeDifference": 1.4969580000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Cost of Progress and the Silence of Consent",
+          "expectedStart": 312.4,
+          "expectedEnd": 507.03,
+          "actualStart": 315.399791,
+          "actualEnd": 510.02637400000003,
+          "timeDifference": 2.999791000000016
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Race, Inequality, and the Medical System’s Unseen Divide",
+          "expectedStart": 507.03,
+          "expectedEnd": 694.5,
+          "actualStart": 511.52637400000003,
+          "actualEnd": 698.993166,
+          "timeDifference": 4.49637400000006
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family, Legacy, and the Search for Meaning",
+          "expectedStart": 694.5,
+          "expectedEnd": 853.37,
+          "actualStart": 700.493166,
+          "actualEnd": 859.3651239999999,
+          "timeDifference": 5.993165999999974
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Cost of Scientific Discovery",
+          "expectedStart": 853.37,
+          "expectedEnd": 975.54,
+          "actualStart": 860.8651239999999,
+          "actualEnd": 983.0329159999999,
+          "timeDifference": 7.495123999999919
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Journalist’s Quest and the Power of Telling",
+          "expectedStart": 975.54,
+          "expectedEnd": 1138.16,
+          "actualStart": 984.5329159999999,
+          "actualEnd": 1147.152916,
+          "timeDifference": 8.992915999999923
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science Grows Up—Ethics, Consent, and the Changing Landscape",
+          "expectedStart": 1138.16,
+          "expectedEnd": 1298.92,
+          "actualStart": 1148.652916,
+          "actualEnd": 1309.413458,
+          "timeDifference": 10.492915999999923
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Family’s Ongoing Struggle—Recognition, Justice, and Healing",
+          "expectedStart": 1298.92,
+          "expectedEnd": 1447.25,
+          "actualStart": 1310.913458,
+          "actualEnd": 1459.24,
+          "timeDifference": 11.993457999999919
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of HeLa—Science, Society, and the Meaning of Immortality",
+          "expectedStart": 1447.25,
+          "expectedEnd": 1593.42,
+          "actualStart": 1460.74,
+          "actualEnd": 1606.906208,
+          "timeDifference": 13.490000000000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Peace—Memory, Reconciliation, and the Future",
+          "expectedStart": 1593.42,
+          "expectedEnd": 1688.93,
+          "actualStart": 1608.406208,
+          "actualEnd": 1703.9145,
+          "timeDifference": 14.986208000000033
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1688.93,
+          "expectedEnd": 1803.95,
+          "actualStart": 1705.4145,
+          "actualEnd": 1820.438167,
+          "timeDifference": 16.484500000000025
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.186958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Life Unseen and the Birth of a Medical Miracle"
+        },
+        {
+          "startTime": 313.899791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Life Unseen and the Birth of a Medical Miracle and Chapter 2 The Hidden Cost of Progress and the Silence of Consent"
+        },
+        {
+          "startTime": 510.02637400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Cost of Progress and the Silence of Consent and Chapter 3 Race, Inequality, and the Medical System’s Unseen Divide"
+        },
+        {
+          "startTime": 698.993166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Race, Inequality, and the Medical System’s Unseen Divide and Chapter 4 Family, Legacy, and the Search for Meaning"
+        },
+        {
+          "startTime": 859.3651239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family, Legacy, and the Search for Meaning and Chapter 5 The Human Cost of Scientific Discovery"
+        },
+        {
+          "startTime": 983.0329159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Cost of Scientific Discovery and Chapter 6 The Journalist’s Quest and the Power of Telling"
+        },
+        {
+          "startTime": 1147.152916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Journalist’s Quest and the Power of Telling and Chapter 7 The Science Grows Up—Ethics, Consent, and the Changing Landscape"
+        },
+        {
+          "startTime": 1309.413458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science Grows Up—Ethics, Consent, and the Changing Landscape and Chapter 8 The Family’s Ongoing Struggle—Recognition, Justice, and Healing"
+        },
+        {
+          "startTime": 1459.24,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Family’s Ongoing Struggle—Recognition, Justice, and Healing and Chapter 9 The Legacy of HeLa—Science, Society, and the Meaning of Immortality"
+        },
+        {
+          "startTime": 1606.906208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of HeLa—Science, Society, and the Meaning of Immortality and Chapter 10 Finding Peace—Memory, Reconciliation, and the Future"
+        },
+        {
+          "startTime": 1703.9145,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Peace—Memory, Reconciliation, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "80",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T19:59:21.798Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

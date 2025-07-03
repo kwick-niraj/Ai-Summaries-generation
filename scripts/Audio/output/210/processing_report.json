@@ -1,0 +1,576 @@
+{
+  "bookId": "210",
+  "timestamp": "2025-07-03T03:38:45.115Z",
+  "success": false,
+  "processingTime": -1751513448742,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4594,
+    "totalAudioFiles": 17,
+    "totalDuration": 2626.4340399999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2626.4340399999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/210/optimized_text/210.md",
+    "fileSize": 1226,
+    "wordCount": 164,
+    "format": "markdown",
+    "filename": "210.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/210/metadata/210_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2626.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/210/metadata/210_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/210/metadata/210_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/210/210_complete.wav",
+    "duration": 2626.434042,
+    "fileSize": 126068912,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/210/introduction.wav",
+          "duration": 98.074833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.074833,
+          "startTime": 0,
+          "endTime": 98.074833
+        },
+        {
+          "path": "Audio/output/210/chapter_01.wav",
+          "duration": 237.060042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Listening Is the Key to Reaching Others",
+          "actualDuration": 237.060042,
+          "startTime": 99.574833,
+          "endTime": 336.634875
+        },
+        {
+          "path": "Audio/output/210/chapter_02.wav",
+          "duration": 103.17575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Emotional Barriers and the Path to Connection",
+          "actualDuration": 103.17575,
+          "startTime": 338.134875,
+          "endTime": 441.310625
+        },
+        {
+          "path": "Audio/output/210/chapter_03.wav",
+          "duration": 114.975167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 1 **Resistant or Hostile:** The person is closed off, defensive, or combative.",
+          "actualDuration": 114.975167,
+          "startTime": 442.810625,
+          "endTime": 557.785792
+        },
+        {
+          "path": "Audio/output/210/chapter_04.wav",
+          "duration": 93.22675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 2 **Skeptical or Guarded:** They are wary, testing whether it is safe to open up.",
+          "actualDuration": 93.22675,
+          "startTime": 559.285792,
+          "endTime": 652.512542
+        },
+        {
+          "path": "Audio/output/210/chapter_05.wav",
+          "duration": 102.311708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 3 **Curious or Tentative:** They begin to lower their guard, showing interest.",
+          "actualDuration": 102.311708,
+          "startTime": 654.012542,
+          "endTime": 756.32425
+        },
+        {
+          "path": "Audio/output/210/chapter_06.wav",
+          "duration": 92.989333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 4 **Open or Engaged:** They are willing to listen and share honestly.",
+          "actualDuration": 92.989333,
+          "startTime": 757.82425,
+          "endTime": 850.813583
+        },
+        {
+          "path": "Audio/output/210/chapter_07.wav",
+          "duration": 178.212875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 5 **Connected or Trusting:** A genuine bond is formed, allowing for collaboration and influence.",
+          "actualDuration": 178.212875,
+          "startTime": 852.313583,
+          "endTime": 1030.526458
+        },
+        {
+          "path": "Audio/output/210/chapter_08.wav",
+          "duration": 230.580083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 3 The Art of Active Listening and Emotional Validation",
+          "actualDuration": 230.580083,
+          "startTime": 1032.026458,
+          "endTime": 1262.606541
+        },
+        {
+          "path": "Audio/output/210/chapter_09.wav",
+          "duration": 245.092583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 4 Techniques for Breaking Through Resistance and Building Rapport",
+          "actualDuration": 245.092583,
+          "startTime": 1264.106541,
+          "endTime": 1509.1991240000002
+        },
+        {
+          "path": "Audio/output/210/chapter_10.wav",
+          "duration": 200.675833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 5 Moving from Understanding to Influence",
+          "actualDuration": 200.675833,
+          "startTime": 1510.6991240000002,
+          "endTime": 1711.3749570000002
+        },
+        {
+          "path": "Audio/output/210/chapter_11.wav",
+          "duration": 180.75225,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 6 Navigating High-Stakes Conversations with Calm and Clarity",
+          "actualDuration": 180.75225,
+          "startTime": 1712.8749570000002,
+          "endTime": 1893.6272070000002
+        },
+        {
+          "path": "Audio/output/210/chapter_12.wav",
+          "duration": 168.312125,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 7 Repairing Trust and Rebuilding Broken Connections",
+          "actualDuration": 168.312125,
+          "startTime": 1895.1272070000002,
+          "endTime": 2063.4393320000004
+        },
+        {
+          "path": "Audio/output/210/chapter_13.wav",
+          "duration": 150.692708,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 8 Sustaining Connection: Everyday Habits for Lasting Influence",
+          "actualDuration": 150.692708,
+          "startTime": 2064.9393320000004,
+          "endTime": 2215.6320400000004
+        },
+        {
+          "path": "Audio/output/210/chapter_14.wav",
+          "duration": 176.225833,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 9 Handling Difficult People and Unreachable Situations",
+          "actualDuration": 176.225833,
+          "startTime": 2217.1320400000004,
+          "endTime": 2393.3578730000004
+        },
+        {
+          "path": "Audio/output/210/chapter_15.wav",
+          "duration": 131.791042,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 10 Integrating the Framework: Becoming a Consistent Listener and Influencer",
+          "actualDuration": 131.791042,
+          "startTime": 2394.8578730000004,
+          "endTime": 2526.648915
+        },
+        {
+          "path": "Audio/output/210/conclusion.wav",
+          "duration": 122.285125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.285125,
+          "startTime": 2528.148915,
+          "endTime": 2650.43404
+        }
+      ],
+      "totalDuration": 2650.43404,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.07,
+          "actualStart": 0,
+          "actualEnd": 98.074833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Listening Is the Key to Reaching Others",
+          "expectedStart": 98.07,
+          "expectedEnd": 335.13,
+          "actualStart": 99.574833,
+          "actualEnd": 336.634875,
+          "timeDifference": 1.504833000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Emotional Barriers and the Path to Connection",
+          "expectedStart": 335.13,
+          "expectedEnd": 438.31,
+          "actualStart": 338.134875,
+          "actualEnd": 441.310625,
+          "timeDifference": 3.004875000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 1 **Resistant or Hostile:** The person is closed off, defensive, or combative.",
+          "expectedStart": 438.31,
+          "expectedEnd": 553.29,
+          "actualStart": 442.810625,
+          "actualEnd": 557.785792,
+          "timeDifference": 4.500625000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 2 **Skeptical or Guarded:** They are wary, testing whether it is safe to open up.",
+          "expectedStart": 553.29,
+          "expectedEnd": 646.52,
+          "actualStart": 559.285792,
+          "actualEnd": 652.512542,
+          "timeDifference": 5.995792000000051
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 3 **Curious or Tentative:** They begin to lower their guard, showing interest.",
+          "expectedStart": 646.52,
+          "expectedEnd": 748.83,
+          "actualStart": 654.012542,
+          "actualEnd": 756.32425,
+          "timeDifference": 7.492542000000071
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 4 **Open or Engaged:** They are willing to listen and share honestly.",
+          "expectedStart": 748.83,
+          "expectedEnd": 841.82,
+          "actualStart": 757.82425,
+          "actualEnd": 850.813583,
+          "timeDifference": 8.994249999999965
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 5 **Connected or Trusting:** A genuine bond is formed, allowing for collaboration and influence.",
+          "expectedStart": 841.82,
+          "expectedEnd": 1020.03,
+          "actualStart": 852.313583,
+          "actualEnd": 1030.526458,
+          "timeDifference": 10.493582999999944
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 3 The Art of Active Listening and Emotional Validation",
+          "expectedStart": 1020.03,
+          "expectedEnd": 1250.61,
+          "actualStart": 1032.026458,
+          "actualEnd": 1262.606541,
+          "timeDifference": 11.996458000000075
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 4 Techniques for Breaking Through Resistance and Building Rapport",
+          "expectedStart": 1250.61,
+          "expectedEnd": 1495.7,
+          "actualStart": 1264.106541,
+          "actualEnd": 1509.1991240000002,
+          "timeDifference": 13.496541000000207
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 5 Moving from Understanding to Influence",
+          "expectedStart": 1495.7,
+          "expectedEnd": 1696.38,
+          "actualStart": 1510.6991240000002,
+          "actualEnd": 1711.3749570000002,
+          "timeDifference": 14.999124000000165
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 6 Navigating High-Stakes Conversations with Calm and Clarity",
+          "expectedStart": 1696.38,
+          "expectedEnd": 1877.13,
+          "actualStart": 1712.8749570000002,
+          "actualEnd": 1893.6272070000002,
+          "timeDifference": 16.494957000000113
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 7 Repairing Trust and Rebuilding Broken Connections",
+          "expectedStart": 1877.13,
+          "expectedEnd": 2045.44,
+          "actualStart": 1895.1272070000002,
+          "actualEnd": 2063.4393320000004,
+          "timeDifference": 17.997207000000117
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 8 Sustaining Connection: Everyday Habits for Lasting Influence",
+          "expectedStart": 2045.44,
+          "expectedEnd": 2196.13,
+          "actualStart": 2064.9393320000004,
+          "actualEnd": 2215.6320400000004,
+          "timeDifference": 19.499332000000322
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 9 Handling Difficult People and Unreachable Situations",
+          "expectedStart": 2196.13,
+          "expectedEnd": 2372.36,
+          "actualStart": 2217.1320400000004,
+          "actualEnd": 2393.3578730000004,
+          "timeDifference": 21.002040000000306
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 10 Integrating the Framework: Becoming a Consistent Listener and Influencer",
+          "expectedStart": 2372.36,
+          "expectedEnd": 2504.15,
+          "actualStart": 2394.8578730000004,
+          "actualEnd": 2526.648915,
+          "timeDifference": 22.497873000000254
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2504.15,
+          "expectedEnd": 2626.44,
+          "actualStart": 2528.148915,
+          "actualEnd": 2650.43404,
+          "timeDifference": 23.998915000000125
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.074833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Listening Is the Key to Reaching Others"
+        },
+        {
+          "startTime": 336.634875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Listening Is the Key to Reaching Others and Chapter 2 Understanding Emotional Barriers and the Path to Connection"
+        },
+        {
+          "startTime": 441.310625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Emotional Barriers and the Path to Connection and Chapter 1 **Resistant or Hostile:** The person is closed off, defensive, or combative."
+        },
+        {
+          "startTime": 557.785792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 **Resistant or Hostile:** The person is closed off, defensive, or combative. and Chapter 2 **Skeptical or Guarded:** They are wary, testing whether it is safe to open up."
+        },
+        {
+          "startTime": 652.512542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 **Skeptical or Guarded:** They are wary, testing whether it is safe to open up. and Chapter 3 **Curious or Tentative:** They begin to lower their guard, showing interest."
+        },
+        {
+          "startTime": 756.32425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 **Curious or Tentative:** They begin to lower their guard, showing interest. and Chapter 4 **Open or Engaged:** They are willing to listen and share honestly."
+        },
+        {
+          "startTime": 850.813583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 **Open or Engaged:** They are willing to listen and share honestly. and Chapter 5 **Connected or Trusting:** A genuine bond is formed, allowing for collaboration and influence."
+        },
+        {
+          "startTime": 1030.526458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 **Connected or Trusting:** A genuine bond is formed, allowing for collaboration and influence. and Chapter 3 The Art of Active Listening and Emotional Validation"
+        },
+        {
+          "startTime": 1262.606541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Art of Active Listening and Emotional Validation and Chapter 4 Techniques for Breaking Through Resistance and Building Rapport"
+        },
+        {
+          "startTime": 1509.1991240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Techniques for Breaking Through Resistance and Building Rapport and Chapter 5 Moving from Understanding to Influence"
+        },
+        {
+          "startTime": 1711.3749570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Moving from Understanding to Influence and Chapter 6 Navigating High-Stakes Conversations with Calm and Clarity"
+        },
+        {
+          "startTime": 1893.6272070000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating High-Stakes Conversations with Calm and Clarity and Chapter 7 Repairing Trust and Rebuilding Broken Connections"
+        },
+        {
+          "startTime": 2063.4393320000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Repairing Trust and Rebuilding Broken Connections and Chapter 8 Sustaining Connection: Everyday Habits for Lasting Influence"
+        },
+        {
+          "startTime": 2215.6320400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Connection: Everyday Habits for Lasting Influence and Chapter 9 Handling Difficult People and Unreachable Situations"
+        },
+        {
+          "startTime": 2393.3578730000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Handling Difficult People and Unreachable Situations and Chapter 10 Integrating the Framework: Becoming a Consistent Listener and Influencer"
+        },
+        {
+          "startTime": 2526.648915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Framework: Becoming a Consistent Listener and Influencer and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "210",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:30:49.940Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

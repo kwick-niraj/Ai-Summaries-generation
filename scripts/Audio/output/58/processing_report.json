@@ -1,0 +1,456 @@
+{
+  "bookId": "58",
+  "timestamp": "2025-07-02T19:30:21.893Z",
+  "success": false,
+  "processingTime": -1751484158131,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4819,
+    "totalAudioFiles": 12,
+    "totalDuration": 2215.691876
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2215.691876
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/58/optimized_text/58.md",
+    "fileSize": 773,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "58.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/58/metadata/58_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2215.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/58/metadata/58_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/58/metadata/58_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/58/58_complete.wav",
+    "duration": 2215.691875,
+    "fileSize": 106353288,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/58/introduction.wav",
+          "duration": 100.240083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.240083,
+          "startTime": 0,
+          "endTime": 100.240083
+        },
+        {
+          "path": "Audio/output/58/chapter_01.wav",
+          "duration": 262.188792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Divided: How Class Shapes Every Life",
+          "actualDuration": 262.188792,
+          "startTime": 101.740083,
+          "endTime": 363.92887499999995
+        },
+        {
+          "path": "Audio/output/58/chapter_02.wav",
+          "duration": 244.80825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of the Bourgeoisie: How Capitalism Changed Everything",
+          "actualDuration": 244.80825,
+          "startTime": 365.42887499999995,
+          "endTime": 610.2371249999999
+        },
+        {
+          "path": "Audio/output/58/chapter_03.wav",
+          "duration": 229.244917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Proletariat Awakens: The Birth of Working-Class Power",
+          "actualDuration": 229.244917,
+          "startTime": 611.7371249999999,
+          "endTime": 840.9820419999999
+        },
+        {
+          "path": "Audio/output/58/chapter_04.wav",
+          "duration": 231.823958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle Intensifies: Capitalism’s Contradictions and the Push for Change",
+          "actualDuration": 231.823958,
+          "startTime": 842.4820419999999,
+          "endTime": 1074.3059999999998
+        },
+        {
+          "path": "Audio/output/58/chapter_05.wav",
+          "duration": 194.579542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Call for Unity: Toward a World Without Classes",
+          "actualDuration": 194.579542,
+          "startTime": 1075.8059999999998,
+          "endTime": 1270.3855419999998
+        },
+        {
+          "path": "Audio/output/58/chapter_06.wav",
+          "duration": 166.290792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road to Revolution: What It Means to Change Everything",
+          "actualDuration": 166.290792,
+          "startTime": 1271.8855419999998,
+          "endTime": 1438.1763339999998
+        },
+        {
+          "path": "Audio/output/58/chapter_07.wav",
+          "duration": 185.601917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing the Critics: Myths, Fears, and the Real Meaning of Communism",
+          "actualDuration": 185.601917,
+          "startTime": 1439.6763339999998,
+          "endTime": 1625.2782509999997
+        },
+        {
+          "path": "Audio/output/58/chapter_08.wav",
+          "duration": 167.948792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shape of a New Society: What Communism Proposes",
+          "actualDuration": 167.948792,
+          "startTime": 1626.7782509999997,
+          "endTime": 1794.7270429999996
+        },
+        {
+          "path": "Audio/output/58/chapter_09.wav",
+          "duration": 139.5845,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Global Struggle: Solidarity Across Borders",
+          "actualDuration": 139.5845,
+          "startTime": 1796.2270429999996,
+          "endTime": 1935.8115429999996
+        },
+        {
+          "path": "Audio/output/58/chapter_10.wav",
+          "duration": 159.14725,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy and the Ongoing Struggle: Lessons for Today",
+          "actualDuration": 159.14725,
+          "startTime": 1937.3115429999996,
+          "endTime": 2096.458793
+        },
+        {
+          "path": "Audio/output/58/conclusion.wav",
+          "duration": 134.233083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.233083,
+          "startTime": 2097.958793,
+          "endTime": 2232.191876
+        }
+      ],
+      "totalDuration": 2232.191876,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.24,
+          "actualStart": 0,
+          "actualEnd": 100.240083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Divided: How Class Shapes Every Life",
+          "expectedStart": 100.24,
+          "expectedEnd": 362.43,
+          "actualStart": 101.740083,
+          "actualEnd": 363.92887499999995,
+          "timeDifference": 1.5000830000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of the Bourgeoisie: How Capitalism Changed Everything",
+          "expectedStart": 362.43,
+          "expectedEnd": 607.24,
+          "actualStart": 365.42887499999995,
+          "actualEnd": 610.2371249999999,
+          "timeDifference": 2.9988749999999413
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Proletariat Awakens: The Birth of Working-Class Power",
+          "expectedStart": 607.24,
+          "expectedEnd": 836.48,
+          "actualStart": 611.7371249999999,
+          "actualEnd": 840.9820419999999,
+          "timeDifference": 4.497124999999869
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle Intensifies: Capitalism’s Contradictions and the Push for Change",
+          "expectedStart": 836.48,
+          "expectedEnd": 1068.3,
+          "actualStart": 842.4820419999999,
+          "actualEnd": 1074.3059999999998,
+          "timeDifference": 6.002041999999847
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Call for Unity: Toward a World Without Classes",
+          "expectedStart": 1068.3,
+          "expectedEnd": 1262.88,
+          "actualStart": 1075.8059999999998,
+          "actualEnd": 1270.3855419999998,
+          "timeDifference": 7.505999999999858
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road to Revolution: What It Means to Change Everything",
+          "expectedStart": 1262.88,
+          "expectedEnd": 1429.17,
+          "actualStart": 1271.8855419999998,
+          "actualEnd": 1438.1763339999998,
+          "timeDifference": 9.00554199999965
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing the Critics: Myths, Fears, and the Real Meaning of Communism",
+          "expectedStart": 1429.17,
+          "expectedEnd": 1614.77,
+          "actualStart": 1439.6763339999998,
+          "actualEnd": 1625.2782509999997,
+          "timeDifference": 10.506333999999697
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shape of a New Society: What Communism Proposes",
+          "expectedStart": 1614.77,
+          "expectedEnd": 1782.72,
+          "actualStart": 1626.7782509999997,
+          "actualEnd": 1794.7270429999996,
+          "timeDifference": 12.008250999999746
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Global Struggle: Solidarity Across Borders",
+          "expectedStart": 1782.72,
+          "expectedEnd": 1922.3,
+          "actualStart": 1796.2270429999996,
+          "actualEnd": 1935.8115429999996,
+          "timeDifference": 13.507042999999612
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy and the Ongoing Struggle: Lessons for Today",
+          "expectedStart": 1922.3,
+          "expectedEnd": 2081.45,
+          "actualStart": 1937.3115429999996,
+          "actualEnd": 2096.458793,
+          "timeDifference": 15.01154299999962
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2081.45,
+          "expectedEnd": 2215.68,
+          "actualStart": 2097.958793,
+          "actualEnd": 2232.191876,
+          "timeDifference": 16.50879299999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.240083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Divided: How Class Shapes Every Life"
+        },
+        {
+          "startTime": 363.92887499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Divided: How Class Shapes Every Life and Chapter 2 The Rise of the Bourgeoisie: How Capitalism Changed Everything"
+        },
+        {
+          "startTime": 610.2371249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of the Bourgeoisie: How Capitalism Changed Everything and Chapter 3 The Proletariat Awakens: The Birth of Working-Class Power"
+        },
+        {
+          "startTime": 840.9820419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Proletariat Awakens: The Birth of Working-Class Power and Chapter 4 The Struggle Intensifies: Capitalism’s Contradictions and the Push for Change"
+        },
+        {
+          "startTime": 1074.3059999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle Intensifies: Capitalism’s Contradictions and the Push for Change and Chapter 5 The Call for Unity: Toward a World Without Classes"
+        },
+        {
+          "startTime": 1270.3855419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Call for Unity: Toward a World Without Classes and Chapter 6 The Road to Revolution: What It Means to Change Everything"
+        },
+        {
+          "startTime": 1438.1763339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road to Revolution: What It Means to Change Everything and Chapter 7 Facing the Critics: Myths, Fears, and the Real Meaning of Communism"
+        },
+        {
+          "startTime": 1625.2782509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing the Critics: Myths, Fears, and the Real Meaning of Communism and Chapter 8 The Shape of a New Society: What Communism Proposes"
+        },
+        {
+          "startTime": 1794.7270429999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shape of a New Society: What Communism Proposes and Chapter 9 The Global Struggle: Solidarity Across Borders"
+        },
+        {
+          "startTime": 1935.8115429999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Global Struggle: Solidarity Across Borders and Chapter 10 The Legacy and the Ongoing Struggle: Lessons for Today"
+        },
+        {
+          "startTime": 2096.458793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy and the Ongoing Struggle: Lessons for Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "58",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T19:22:56.001Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

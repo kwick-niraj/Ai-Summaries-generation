@@ -1,0 +1,456 @@
+{
+  "bookId": "235",
+  "timestamp": "2025-07-03T04:56:30.480Z",
+  "success": false,
+  "processingTime": -1751518341789,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4615,
+    "totalAudioFiles": 12,
+    "totalDuration": 2172.937128
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2172.937128
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/235/optimized_text/235.md",
+    "fileSize": 544,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "235.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/235/metadata/235_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2172.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/235/metadata/235_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/235/metadata/235_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/235/235_complete.wav",
+    "duration": 2172.937125,
+    "fileSize": 104301060,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/235/introduction.wav",
+          "duration": 90.193667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.193667,
+          "startTime": 0,
+          "endTime": 90.193667
+        },
+        {
+          "path": "Audio/output/235/chapter_01.wav",
+          "duration": 243.853417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Justice Gets It Wrong",
+          "actualDuration": 243.853417,
+          "startTime": 91.693667,
+          "endTime": 335.54708400000004
+        },
+        {
+          "path": "Audio/output/235/chapter_02.wav",
+          "duration": 252.926792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Mistakes and Bias Shape Investigations",
+          "actualDuration": 252.926792,
+          "startTime": 337.04708400000004,
+          "endTime": 589.973876
+        },
+        {
+          "path": "Audio/output/235/chapter_03.wav",
+          "duration": 228.567792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Forensic Evidence and Its Pitfalls",
+          "actualDuration": 228.567792,
+          "startTime": 591.473876,
+          "endTime": 820.0416680000001
+        },
+        {
+          "path": "Audio/output/235/chapter_04.wav",
+          "duration": 248.920917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle to Overturn a Wrongful Conviction",
+          "actualDuration": 248.920917,
+          "startTime": 821.5416680000001,
+          "endTime": 1070.462585
+        },
+        {
+          "path": "Audio/output/235/chapter_05.wav",
+          "duration": 208.324625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ripple Effects on Lives and Communities",
+          "actualDuration": 208.324625,
+          "startTime": 1071.962585,
+          "endTime": 1280.28721
+        },
+        {
+          "path": "Audio/output/235/chapter_06.wav",
+          "duration": 216.845208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Media’s Double-Edged Sword",
+          "actualDuration": 216.845208,
+          "startTime": 1281.78721,
+          "endTime": 1498.632418
+        },
+        {
+          "path": "Audio/output/235/chapter_07.wav",
+          "duration": 170.951542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fight for Reform",
+          "actualDuration": 170.951542,
+          "startTime": 1500.132418,
+          "endTime": 1671.08396
+        },
+        {
+          "path": "Audio/output/235/chapter_08.wav",
+          "duration": 156.987917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Life After Exoneration",
+          "actualDuration": 156.987917,
+          "startTime": 1672.58396,
+          "endTime": 1829.5718769999999
+        },
+        {
+          "path": "Audio/output/235/chapter_09.wav",
+          "duration": 139.576667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Search for Justice",
+          "actualDuration": 139.576667,
+          "startTime": 1831.0718769999999,
+          "endTime": 1970.648544
+        },
+        {
+          "path": "Audio/output/235/chapter_10.wav",
+          "duration": 103.132292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons Learned and the Road Ahead",
+          "actualDuration": 103.132292,
+          "startTime": 1972.148544,
+          "endTime": 2075.280836
+        },
+        {
+          "path": "Audio/output/235/conclusion.wav",
+          "duration": 112.656292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.656292,
+          "startTime": 2076.780836,
+          "endTime": 2189.437128
+        }
+      ],
+      "totalDuration": 2189.437128,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.19,
+          "actualStart": 0,
+          "actualEnd": 90.193667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Justice Gets It Wrong",
+          "expectedStart": 90.19,
+          "expectedEnd": 334.04,
+          "actualStart": 91.693667,
+          "actualEnd": 335.54708400000004,
+          "timeDifference": 1.5036670000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Mistakes and Bias Shape Investigations",
+          "expectedStart": 334.04,
+          "expectedEnd": 586.97,
+          "actualStart": 337.04708400000004,
+          "actualEnd": 589.973876,
+          "timeDifference": 3.0070840000000203
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Forensic Evidence and Its Pitfalls",
+          "expectedStart": 586.97,
+          "expectedEnd": 815.54,
+          "actualStart": 591.473876,
+          "actualEnd": 820.0416680000001,
+          "timeDifference": 4.503875999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle to Overturn a Wrongful Conviction",
+          "expectedStart": 815.54,
+          "expectedEnd": 1064.46,
+          "actualStart": 821.5416680000001,
+          "actualEnd": 1070.462585,
+          "timeDifference": 6.001668000000109
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ripple Effects on Lives and Communities",
+          "expectedStart": 1064.46,
+          "expectedEnd": 1272.78,
+          "actualStart": 1071.962585,
+          "actualEnd": 1280.28721,
+          "timeDifference": 7.502584999999954
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Media’s Double-Edged Sword",
+          "expectedStart": 1272.78,
+          "expectedEnd": 1489.63,
+          "actualStart": 1281.78721,
+          "actualEnd": 1498.632418,
+          "timeDifference": 9.007209999999986
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fight for Reform",
+          "expectedStart": 1489.63,
+          "expectedEnd": 1660.58,
+          "actualStart": 1500.132418,
+          "actualEnd": 1671.08396,
+          "timeDifference": 10.502417999999807
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Life After Exoneration",
+          "expectedStart": 1660.58,
+          "expectedEnd": 1817.57,
+          "actualStart": 1672.58396,
+          "actualEnd": 1829.5718769999999,
+          "timeDifference": 12.003960000000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Search for Justice",
+          "expectedStart": 1817.57,
+          "expectedEnd": 1957.15,
+          "actualStart": 1831.0718769999999,
+          "actualEnd": 1970.648544,
+          "timeDifference": 13.501876999999922
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons Learned and the Road Ahead",
+          "expectedStart": 1957.15,
+          "expectedEnd": 2060.28,
+          "actualStart": 1972.148544,
+          "actualEnd": 2075.280836,
+          "timeDifference": 14.99854399999981
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2060.28,
+          "expectedEnd": 2172.94,
+          "actualStart": 2076.780836,
+          "actualEnd": 2189.437128,
+          "timeDifference": 16.50083599999971
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.193667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Justice Gets It Wrong"
+        },
+        {
+          "startTime": 335.54708400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Justice Gets It Wrong and Chapter 2 How Mistakes and Bias Shape Investigations"
+        },
+        {
+          "startTime": 589.973876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Mistakes and Bias Shape Investigations and Chapter 3 The Role of Forensic Evidence and Its Pitfalls"
+        },
+        {
+          "startTime": 820.0416680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Forensic Evidence and Its Pitfalls and Chapter 4 The Struggle to Overturn a Wrongful Conviction"
+        },
+        {
+          "startTime": 1070.462585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle to Overturn a Wrongful Conviction and Chapter 5 The Ripple Effects on Lives and Communities"
+        },
+        {
+          "startTime": 1280.28721,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ripple Effects on Lives and Communities and Chapter 6 The Media’s Double-Edged Sword"
+        },
+        {
+          "startTime": 1498.632418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Media’s Double-Edged Sword and Chapter 7 The Fight for Reform"
+        },
+        {
+          "startTime": 1671.08396,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fight for Reform and Chapter 8 Life After Exoneration"
+        },
+        {
+          "startTime": 1829.5718769999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Life After Exoneration and Chapter 9 The Ongoing Search for Justice"
+        },
+        {
+          "startTime": 1970.648544,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Search for Justice and Chapter 10 Lessons Learned and the Road Ahead"
+        },
+        {
+          "startTime": 2075.280836,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons Learned and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "235",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T04:52:22.311Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

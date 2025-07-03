@@ -1,0 +1,455 @@
+{
+  "bookId": "133",
+  "timestamp": "2025-07-02T23:27:16.466Z",
+  "success": false,
+  "processingTime": -1751498453953,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4366,
+    "totalAudioFiles": 12,
+    "totalDuration": 1819.4534590000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1819.4534590000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/133/optimized_text/133.md",
+    "fileSize": 733,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "133.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/133/metadata/133_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1819.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/133/metadata/133_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/133/metadata/133_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/133/133_complete.wav",
+    "duration": 1819.453458,
+    "fileSize": 87333844,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/133/introduction.wav",
+          "duration": 81.255083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.255083,
+          "startTime": 0,
+          "endTime": 81.255083
+        },
+        {
+          "path": "Audio/output/133/chapter_01.wav",
+          "duration": 191.472792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Unconventional: Finding Comfort in Oddness",
+          "actualDuration": 191.472792,
+          "startTime": 82.755083,
+          "endTime": 274.227875
+        },
+        {
+          "path": "Audio/output/133/chapter_02.wav",
+          "duration": 197.981292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Escaping Into Fantasy: The Internet as a New World",
+          "actualDuration": 197.981292,
+          "startTime": 275.727875,
+          "endTime": 473.709167
+        },
+        {
+          "path": "Audio/output/133/chapter_03.wav",
+          "duration": 180.121,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Chasing Dreams in a World That Doesn’t Understand",
+          "actualDuration": 180.121,
+          "startTime": 475.209167,
+          "endTime": 655.330167
+        },
+        {
+          "path": "Audio/output/133/chapter_04.wav",
+          "duration": 193.613042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Something New: Turning Passion Into Purpose",
+          "actualDuration": 193.613042,
+          "startTime": 656.830167,
+          "endTime": 850.443209
+        },
+        {
+          "path": "Audio/output/133/chapter_05.wav",
+          "duration": 157.065708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Anxiety and Finding Strength in Vulnerability",
+          "actualDuration": 157.065708,
+          "startTime": 851.943209,
+          "endTime": 1009.008917
+        },
+        {
+          "path": "Audio/output/133/chapter_06.wav",
+          "duration": 169.374417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building a New Kind of Community: The Internet as Home",
+          "actualDuration": 169.374417,
+          "startTime": 1010.508917,
+          "endTime": 1179.883334
+        },
+        {
+          "path": "Audio/output/133/chapter_07.wav",
+          "duration": 146.377292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Representation, Identity, and the Power of Being Seen",
+          "actualDuration": 146.377292,
+          "startTime": 1181.383334,
+          "endTime": 1327.7606260000002
+        },
+        {
+          "path": "Audio/output/133/chapter_08.wav",
+          "duration": 167.172833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Success and Staying True to Yourself",
+          "actualDuration": 167.172833,
+          "startTime": 1329.2606260000002,
+          "endTime": 1496.4334590000003
+        },
+        {
+          "path": "Audio/output/133/chapter_09.wav",
+          "duration": 122.911,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Battle: Mental Health, Burnout, and Self-Compassion",
+          "actualDuration": 122.911,
+          "startTime": 1497.9334590000003,
+          "endTime": 1620.8444590000004
+        },
+        {
+          "path": "Audio/output/133/chapter_10.wav",
+          "duration": 105.495708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Weirdness: The Journey Toward Self-Acceptance",
+          "actualDuration": 105.495708,
+          "startTime": 1622.3444590000004,
+          "endTime": 1727.8401670000003
+        },
+        {
+          "path": "Audio/output/133/conclusion.wav",
+          "duration": 106.613292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.613292,
+          "startTime": 1729.3401670000003,
+          "endTime": 1835.9534590000003
+        }
+      ],
+      "totalDuration": 1835.9534590000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.26,
+          "actualStart": 0,
+          "actualEnd": 81.255083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Unconventional: Finding Comfort in Oddness",
+          "expectedStart": 81.26,
+          "expectedEnd": 272.73,
+          "actualStart": 82.755083,
+          "actualEnd": 274.227875,
+          "timeDifference": 1.495082999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Escaping Into Fantasy: The Internet as a New World",
+          "expectedStart": 272.73,
+          "expectedEnd": 470.71,
+          "actualStart": 275.727875,
+          "actualEnd": 473.709167,
+          "timeDifference": 2.997874999999965
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Chasing Dreams in a World That Doesn’t Understand",
+          "expectedStart": 470.71,
+          "expectedEnd": 650.83,
+          "actualStart": 475.209167,
+          "actualEnd": 655.330167,
+          "timeDifference": 4.499167
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Something New: Turning Passion Into Purpose",
+          "expectedStart": 650.83,
+          "expectedEnd": 844.44,
+          "actualStart": 656.830167,
+          "actualEnd": 850.443209,
+          "timeDifference": 6.000166999999919
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Anxiety and Finding Strength in Vulnerability",
+          "expectedStart": 844.44,
+          "expectedEnd": 1001.51,
+          "actualStart": 851.943209,
+          "actualEnd": 1009.008917,
+          "timeDifference": 7.50320899999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building a New Kind of Community: The Internet as Home",
+          "expectedStart": 1001.51,
+          "expectedEnd": 1170.88,
+          "actualStart": 1010.508917,
+          "actualEnd": 1179.883334,
+          "timeDifference": 8.998917000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Representation, Identity, and the Power of Being Seen",
+          "expectedStart": 1170.88,
+          "expectedEnd": 1317.26,
+          "actualStart": 1181.383334,
+          "actualEnd": 1327.7606260000002,
+          "timeDifference": 10.503333999999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Success and Staying True to Yourself",
+          "expectedStart": 1317.26,
+          "expectedEnd": 1484.43,
+          "actualStart": 1329.2606260000002,
+          "actualEnd": 1496.4334590000003,
+          "timeDifference": 12.000626000000238
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Battle: Mental Health, Burnout, and Self-Compassion",
+          "expectedStart": 1484.43,
+          "expectedEnd": 1607.34,
+          "actualStart": 1497.9334590000003,
+          "actualEnd": 1620.8444590000004,
+          "timeDifference": 13.503459000000248
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Weirdness: The Journey Toward Self-Acceptance",
+          "expectedStart": 1607.34,
+          "expectedEnd": 1712.84,
+          "actualStart": 1622.3444590000004,
+          "actualEnd": 1727.8401670000003,
+          "timeDifference": 15.004459000000452
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1712.84,
+          "expectedEnd": 1819.45,
+          "actualStart": 1729.3401670000003,
+          "actualEnd": 1835.9534590000003,
+          "timeDifference": 16.500167000000374
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.255083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Unconventional: Finding Comfort in Oddness"
+        },
+        {
+          "startTime": 274.227875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Unconventional: Finding Comfort in Oddness and Chapter 2 Escaping Into Fantasy: The Internet as a New World"
+        },
+        {
+          "startTime": 473.709167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Escaping Into Fantasy: The Internet as a New World and Chapter 3 Chasing Dreams in a World That Doesn’t Understand"
+        },
+        {
+          "startTime": 655.330167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Chasing Dreams in a World That Doesn’t Understand and Chapter 4 Creating Something New: Turning Passion Into Purpose"
+        },
+        {
+          "startTime": 850.443209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Something New: Turning Passion Into Purpose and Chapter 5 Facing Anxiety and Finding Strength in Vulnerability"
+        },
+        {
+          "startTime": 1009.008917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Anxiety and Finding Strength in Vulnerability and Chapter 6 Building a New Kind of Community: The Internet as Home"
+        },
+        {
+          "startTime": 1179.883334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building a New Kind of Community: The Internet as Home and Chapter 7 Representation, Identity, and the Power of Being Seen"
+        },
+        {
+          "startTime": 1327.7606260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Representation, Identity, and the Power of Being Seen and Chapter 8 Navigating Success and Staying True to Yourself"
+        },
+        {
+          "startTime": 1496.4334590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Success and Staying True to Yourself and Chapter 9 The Ongoing Battle: Mental Health, Burnout, and Self-Compassion"
+        },
+        {
+          "startTime": 1620.8444590000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Battle: Mental Health, Burnout, and Self-Compassion and Chapter 10 Embracing Weirdness: The Journey Toward Self-Acceptance"
+        },
+        {
+          "startTime": 1727.8401670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Weirdness: The Journey Toward Self-Acceptance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "133",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T23:20:55.160Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

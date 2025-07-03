@@ -1,0 +1,408 @@
+{
+  "bookId": "102",
+  "timestamp": "2025-07-02T21:22:33.958Z",
+  "success": false,
+  "processingTime": -1751491046884,
+  "stats": {
+    "totalSections": 10,
+    "totalWords": 4331,
+    "totalAudioFiles": 10,
+    "totalDuration": 1948.436332
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 8,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 10,
+    "successful": 10,
+    "failed": 0,
+    "duration": 1948.436332
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/102/optimized_text/102.md",
+    "fileSize": 626,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "102.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/102/metadata/102_chapters.json",
+    "totalChapters": 10,
+    "totalDuration": 1948.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/102/metadata/102_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/102/metadata/102_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 10,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 8
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/102/102_complete.wav",
+    "duration": 1948.436333,
+    "fileSize": 93525022,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/102/introduction.wav",
+          "duration": 76.448833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.448833,
+          "startTime": 0,
+          "endTime": 76.448833
+        },
+        {
+          "path": "Audio/output/102/chapter_01.wav",
+          "duration": 251.161167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a World Shaped by Scarcity and Ideals",
+          "actualDuration": 251.161167,
+          "startTime": 77.948833,
+          "endTime": 329.11
+        },
+        {
+          "path": "Audio/output/102/chapter_02.wav",
+          "duration": 293.232625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unexpected Path: From Village Life to the Dance Academy",
+          "actualDuration": 293.232625,
+          "startTime": 330.61,
+          "endTime": 623.842625
+        },
+        {
+          "path": "Audio/output/102/chapter_03.wav",
+          "duration": 219.127292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Demands of Perfection: Art, Politics, and Personal Growth",
+          "actualDuration": 219.127292,
+          "startTime": 625.342625,
+          "endTime": 844.469917
+        },
+        {
+          "path": "Audio/output/102/chapter_04.wav",
+          "duration": 249.578833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 New Worlds: Encounters with the West and the Meaning of Freedom",
+          "actualDuration": 249.578833,
+          "startTime": 845.969917,
+          "endTime": 1095.54875
+        },
+        {
+          "path": "Audio/output/102/chapter_05.wav",
+          "duration": 214.126208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building a New Life: Loneliness, Belonging, and the Cost of Freedom",
+          "actualDuration": 214.126208,
+          "startTime": 1097.04875,
+          "endTime": 1311.1749579999998
+        },
+        {
+          "path": "Audio/output/102/chapter_06.wav",
+          "duration": 192.034458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Love, Loss, and the Search for Identity",
+          "actualDuration": 192.034458,
+          "startTime": 1312.6749579999998,
+          "endTime": 1504.709416
+        },
+        {
+          "path": "Audio/output/102/chapter_07.wav",
+          "duration": 189.549458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reconciliation: Family, Forgiveness, and the Longing for Home",
+          "actualDuration": 189.549458,
+          "startTime": 1506.209416,
+          "endTime": 1695.7588739999999
+        },
+        {
+          "path": "Audio/output/102/chapter_08.wav",
+          "duration": 145.055833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Dance: Legacy, Purpose, and the Power of Story",
+          "actualDuration": 145.055833,
+          "startTime": 1697.2588739999999,
+          "endTime": 1842.314707
+        },
+        {
+          "path": "Audio/output/102/conclusion.wav",
+          "duration": 118.121625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.121625,
+          "startTime": 1843.814707,
+          "endTime": 1961.936332
+        }
+      ],
+      "totalDuration": 1961.936332,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.45,
+          "actualStart": 0,
+          "actualEnd": 76.448833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a World Shaped by Scarcity and Ideals",
+          "expectedStart": 76.45,
+          "expectedEnd": 327.61,
+          "actualStart": 77.948833,
+          "actualEnd": 329.11,
+          "timeDifference": 1.4988329999999905
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unexpected Path: From Village Life to the Dance Academy",
+          "expectedStart": 327.61,
+          "expectedEnd": 620.84,
+          "actualStart": 330.61,
+          "actualEnd": 623.842625,
+          "timeDifference": 3
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Demands of Perfection: Art, Politics, and Personal Growth",
+          "expectedStart": 620.84,
+          "expectedEnd": 839.97,
+          "actualStart": 625.342625,
+          "actualEnd": 844.469917,
+          "timeDifference": 4.502624999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 New Worlds: Encounters with the West and the Meaning of Freedom",
+          "expectedStart": 839.97,
+          "expectedEnd": 1089.55,
+          "actualStart": 845.969917,
+          "actualEnd": 1095.54875,
+          "timeDifference": 5.999916999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building a New Life: Loneliness, Belonging, and the Cost of Freedom",
+          "expectedStart": 1089.55,
+          "expectedEnd": 1303.68,
+          "actualStart": 1097.04875,
+          "actualEnd": 1311.1749579999998,
+          "timeDifference": 7.498749999999973
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Love, Loss, and the Search for Identity",
+          "expectedStart": 1303.68,
+          "expectedEnd": 1495.71,
+          "actualStart": 1312.6749579999998,
+          "actualEnd": 1504.709416,
+          "timeDifference": 8.99495799999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reconciliation: Family, Forgiveness, and the Longing for Home",
+          "expectedStart": 1495.71,
+          "expectedEnd": 1685.26,
+          "actualStart": 1506.209416,
+          "actualEnd": 1695.7588739999999,
+          "timeDifference": 10.499415999999883
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Dance: Legacy, Purpose, and the Power of Story",
+          "expectedStart": 1685.26,
+          "expectedEnd": 1830.32,
+          "actualStart": 1697.2588739999999,
+          "actualEnd": 1842.314707,
+          "timeDifference": 11.998873999999887
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1830.32,
+          "expectedEnd": 1948.44,
+          "actualStart": 1843.814707,
+          "actualEnd": 1961.936332,
+          "timeDifference": 13.494707000000062
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.448833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a World Shaped by Scarcity and Ideals"
+        },
+        {
+          "startTime": 329.11,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a World Shaped by Scarcity and Ideals and Chapter 2 The Unexpected Path: From Village Life to the Dance Academy"
+        },
+        {
+          "startTime": 623.842625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unexpected Path: From Village Life to the Dance Academy and Chapter 3 The Demands of Perfection: Art, Politics, and Personal Growth"
+        },
+        {
+          "startTime": 844.469917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Demands of Perfection: Art, Politics, and Personal Growth and Chapter 4 New Worlds: Encounters with the West and the Meaning of Freedom"
+        },
+        {
+          "startTime": 1095.54875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 New Worlds: Encounters with the West and the Meaning of Freedom and Chapter 5 Building a New Life: Loneliness, Belonging, and the Cost of Freedom"
+        },
+        {
+          "startTime": 1311.1749579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building a New Life: Loneliness, Belonging, and the Cost of Freedom and Chapter 6 Love, Loss, and the Search for Identity"
+        },
+        {
+          "startTime": 1504.709416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Love, Loss, and the Search for Identity and Chapter 7 Reconciliation: Family, Forgiveness, and the Longing for Home"
+        },
+        {
+          "startTime": 1695.7588739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reconciliation: Family, Forgiveness, and the Longing for Home and Chapter 8 The Ongoing Dance: Legacy, Purpose, and the Power of Story"
+        },
+        {
+          "startTime": 1842.314707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Dance: Legacy, Purpose, and the Power of Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "102",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T21:17:28.479Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

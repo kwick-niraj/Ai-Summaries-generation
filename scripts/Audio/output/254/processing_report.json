@@ -1,0 +1,456 @@
+{
+  "bookId": "254",
+  "timestamp": "2025-07-03T05:43:45.177Z",
+  "success": false,
+  "processingTime": -1751521192148,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4065,
+    "totalAudioFiles": 12,
+    "totalDuration": 1908.1866679999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1908.1866679999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/254/optimized_text/254.md",
+    "fileSize": 767,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "254.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/254/metadata/254_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1908.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/254/metadata/254_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/254/metadata/254_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/254/254_complete.wav",
+    "duration": 1908.186667,
+    "fileSize": 91593038,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/254/introduction.wav",
+          "duration": 87.316875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.316875,
+          "startTime": 0,
+          "endTime": 87.316875
+        },
+        {
+          "path": "Audio/output/254/chapter_01.wav",
+          "duration": 218.003583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Collapse of an Old World and the Search for Meaning",
+          "actualDuration": 218.003583,
+          "startTime": 88.816875,
+          "endTime": 306.820458
+        },
+        {
+          "path": "Audio/output/254/chapter_02.wav",
+          "duration": 175.486167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ireland Before the Missionaries—A Land of Storytellers and Warriors",
+          "actualDuration": 175.486167,
+          "startTime": 308.320458,
+          "endTime": 483.80662499999994
+        },
+        {
+          "path": "Audio/output/254/chapter_03.wav",
+          "duration": 203.505125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Arrival of Christianity and the Transformation of Irish Life",
+          "actualDuration": 203.505125,
+          "startTime": 485.30662499999994,
+          "endTime": 688.81175
+        },
+        {
+          "path": "Audio/output/254/chapter_04.wav",
+          "duration": 196.935292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Monastic Revolution—Guardians of Knowledge in a Dark Age",
+          "actualDuration": 196.935292,
+          "startTime": 690.31175,
+          "endTime": 887.247042
+        },
+        {
+          "path": "Audio/output/254/chapter_05.wav",
+          "duration": 179.112917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Spreading Light—Irish Missionaries and the Reawakening of Europe",
+          "actualDuration": 179.112917,
+          "startTime": 888.747042,
+          "endTime": 1067.859959
+        },
+        {
+          "path": "Audio/output/254/chapter_06.wav",
+          "duration": 182.924208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Irish Way—A New Kind of Learning",
+          "actualDuration": 182.924208,
+          "startTime": 1069.359959,
+          "endTime": 1252.2841669999998
+        },
+        {
+          "path": "Audio/output/254/chapter_07.wav",
+          "duration": 162.485542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect—Irish Monks on the Continent",
+          "actualDuration": 162.485542,
+          "startTime": 1253.7841669999998,
+          "endTime": 1416.2697089999997
+        },
+        {
+          "path": "Audio/output/254/chapter_08.wav",
+          "duration": 161.2465,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Book and the Sword—Challenges and Resilience",
+          "actualDuration": 161.2465,
+          "startTime": 1417.7697089999997,
+          "endTime": 1579.0162089999997
+        },
+        {
+          "path": "Audio/output/254/chapter_09.wav",
+          "duration": 123.298667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy—From the Edge of the World to the Heart of Europe",
+          "actualDuration": 123.298667,
+          "startTime": 1580.5162089999997,
+          "endTime": 1703.8148759999997
+        },
+        {
+          "path": "Audio/output/254/chapter_10.wav",
+          "duration": 107.63725,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Echoes in the Modern World—What We Carry Forward",
+          "actualDuration": 107.63725,
+          "startTime": 1705.3148759999997,
+          "endTime": 1812.9521259999997
+        },
+        {
+          "path": "Audio/output/254/conclusion.wav",
+          "duration": 110.234542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.234542,
+          "startTime": 1814.4521259999997,
+          "endTime": 1924.6866679999996
+        }
+      ],
+      "totalDuration": 1924.6866679999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.32,
+          "actualStart": 0,
+          "actualEnd": 87.316875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Collapse of an Old World and the Search for Meaning",
+          "expectedStart": 87.32,
+          "expectedEnd": 305.32,
+          "actualStart": 88.816875,
+          "actualEnd": 306.820458,
+          "timeDifference": 1.4968750000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ireland Before the Missionaries—A Land of Storytellers and Warriors",
+          "expectedStart": 305.32,
+          "expectedEnd": 480.81,
+          "actualStart": 308.320458,
+          "actualEnd": 483.80662499999994,
+          "timeDifference": 3.0004579999999805
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Arrival of Christianity and the Transformation of Irish Life",
+          "expectedStart": 480.81,
+          "expectedEnd": 684.32,
+          "actualStart": 485.30662499999994,
+          "actualEnd": 688.81175,
+          "timeDifference": 4.496624999999938
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Monastic Revolution—Guardians of Knowledge in a Dark Age",
+          "expectedStart": 684.32,
+          "expectedEnd": 881.26,
+          "actualStart": 690.31175,
+          "actualEnd": 887.247042,
+          "timeDifference": 5.991749999999911
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Spreading Light—Irish Missionaries and the Reawakening of Europe",
+          "expectedStart": 881.26,
+          "expectedEnd": 1060.37,
+          "actualStart": 888.747042,
+          "actualEnd": 1067.859959,
+          "timeDifference": 7.487041999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Irish Way—A New Kind of Learning",
+          "expectedStart": 1060.37,
+          "expectedEnd": 1243.29,
+          "actualStart": 1069.359959,
+          "actualEnd": 1252.2841669999998,
+          "timeDifference": 8.989958999999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect—Irish Monks on the Continent",
+          "expectedStart": 1243.29,
+          "expectedEnd": 1405.78,
+          "actualStart": 1253.7841669999998,
+          "actualEnd": 1416.2697089999997,
+          "timeDifference": 10.494166999999834
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Book and the Sword—Challenges and Resilience",
+          "expectedStart": 1405.78,
+          "expectedEnd": 1567.03,
+          "actualStart": 1417.7697089999997,
+          "actualEnd": 1579.0162089999997,
+          "timeDifference": 11.98970899999972
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy—From the Edge of the World to the Heart of Europe",
+          "expectedStart": 1567.03,
+          "expectedEnd": 1690.33,
+          "actualStart": 1580.5162089999997,
+          "actualEnd": 1703.8148759999997,
+          "timeDifference": 13.48620899999969
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Echoes in the Modern World—What We Carry Forward",
+          "expectedStart": 1690.33,
+          "expectedEnd": 1797.97,
+          "actualStart": 1705.3148759999997,
+          "actualEnd": 1812.9521259999997,
+          "timeDifference": 14.984875999999758
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1797.97,
+          "expectedEnd": 1908.2,
+          "actualStart": 1814.4521259999997,
+          "actualEnd": 1924.6866679999996,
+          "timeDifference": 16.482125999999653
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.316875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Collapse of an Old World and the Search for Meaning"
+        },
+        {
+          "startTime": 306.820458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Collapse of an Old World and the Search for Meaning and Chapter 2 Ireland Before the Missionaries—A Land of Storytellers and Warriors"
+        },
+        {
+          "startTime": 483.80662499999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ireland Before the Missionaries—A Land of Storytellers and Warriors and Chapter 3 The Arrival of Christianity and the Transformation of Irish Life"
+        },
+        {
+          "startTime": 688.81175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Arrival of Christianity and the Transformation of Irish Life and Chapter 4 The Monastic Revolution—Guardians of Knowledge in a Dark Age"
+        },
+        {
+          "startTime": 887.247042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Monastic Revolution—Guardians of Knowledge in a Dark Age and Chapter 5 Spreading Light—Irish Missionaries and the Reawakening of Europe"
+        },
+        {
+          "startTime": 1067.859959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Spreading Light—Irish Missionaries and the Reawakening of Europe and Chapter 6 The Irish Way—A New Kind of Learning"
+        },
+        {
+          "startTime": 1252.2841669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Irish Way—A New Kind of Learning and Chapter 7 The Ripple Effect—Irish Monks on the Continent"
+        },
+        {
+          "startTime": 1416.2697089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect—Irish Monks on the Continent and Chapter 8 The Book and the Sword—Challenges and Resilience"
+        },
+        {
+          "startTime": 1579.0162089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Book and the Sword—Challenges and Resilience and Chapter 9 The Legacy—From the Edge of the World to the Heart of Europe"
+        },
+        {
+          "startTime": 1703.8148759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy—From the Edge of the World to the Heart of Europe and Chapter 10 Echoes in the Modern World—What We Carry Forward"
+        },
+        {
+          "startTime": 1812.9521259999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Echoes in the Modern World—What We Carry Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "254",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T05:39:52.685Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

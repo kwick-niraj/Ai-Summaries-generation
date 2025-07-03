@@ -1,0 +1,456 @@
+{
+  "bookId": "258",
+  "timestamp": "2025-07-03T06:03:50.630Z",
+  "success": false,
+  "processingTime": -1751522316054,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4364,
+    "totalAudioFiles": 12,
+    "totalDuration": 2163.2855849999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2163.2855849999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/258/optimized_text/258.md",
+    "fileSize": 744,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "258.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/258/metadata/258_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2163.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/258/metadata/258_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/258/metadata/258_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/258/258_complete.wav",
+    "duration": 2163.285583,
+    "fileSize": 103837786,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/258/introduction.wav",
+          "duration": 94.799958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.799958,
+          "startTime": 0,
+          "endTime": 94.799958
+        },
+        {
+          "path": "Audio/output/258/chapter_01.wav",
+          "duration": 209.322625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Invisible Hand of Luck in Everyday Life",
+          "actualDuration": 209.322625,
+          "startTime": 96.299958,
+          "endTime": 305.62258299999996
+        },
+        {
+          "path": "Audio/output/258/chapter_02.wav",
+          "duration": 215.539292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mistaking Patterns for Skill: How the Mind Sees Order in Chaos",
+          "actualDuration": 215.539292,
+          "startTime": 307.12258299999996,
+          "endTime": 522.661875
+        },
+        {
+          "path": "Audio/output/258/chapter_03.wav",
+          "duration": 205.835,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Trap of Survivorship Bias: Why Most Success Stories Mislead",
+          "actualDuration": 205.835,
+          "startTime": 524.161875,
+          "endTime": 729.996875
+        },
+        {
+          "path": "Audio/output/258/chapter_04.wav",
+          "duration": 187.043792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overconfidence and the Illusion of Control",
+          "actualDuration": 187.043792,
+          "startTime": 731.496875,
+          "endTime": 918.540667
+        },
+        {
+          "path": "Audio/output/258/chapter_05.wav",
+          "duration": 219.015792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Prediction and the Power of Humility",
+          "actualDuration": 219.015792,
+          "startTime": 920.040667,
+          "endTime": 1139.056459
+        },
+        {
+          "path": "Audio/output/258/chapter_06.wav",
+          "duration": 188.683292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Living with Uncertainty: The Emotional Cost of Randomness",
+          "actualDuration": 188.683292,
+          "startTime": 1140.556459,
+          "endTime": 1329.2397509999998
+        },
+        {
+          "path": "Audio/output/258/chapter_07.wav",
+          "duration": 190.573917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Seduction of Stories: How Narratives Shape Belief",
+          "actualDuration": 190.573917,
+          "startTime": 1330.7397509999998,
+          "endTime": 1521.3136679999998
+        },
+        {
+          "path": "Audio/output/258/chapter_08.wav",
+          "duration": 171.3775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Dangers of Narrative Thinking: When Stories Lead Us Astray",
+          "actualDuration": 171.3775,
+          "startTime": 1522.8136679999998,
+          "endTime": 1694.1911679999998
+        },
+        {
+          "path": "Audio/output/258/chapter_09.wav",
+          "duration": 193.443167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Skepticism: Tools for Seeing Through Randomness",
+          "actualDuration": 193.443167,
+          "startTime": 1695.6911679999998,
+          "endTime": 1889.1343349999997
+        },
+        {
+          "path": "Audio/output/258/chapter_10.wav",
+          "duration": 145.831708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Practical Wisdom: Navigating a World Ruled by Chance",
+          "actualDuration": 145.831708,
+          "startTime": 1890.6343349999997,
+          "endTime": 2036.4660429999997
+        },
+        {
+          "path": "Audio/output/258/conclusion.wav",
+          "duration": 141.819542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.819542,
+          "startTime": 2037.9660429999997,
+          "endTime": 2179.7855849999996
+        }
+      ],
+      "totalDuration": 2179.7855849999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.8,
+          "actualStart": 0,
+          "actualEnd": 94.799958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Invisible Hand of Luck in Everyday Life",
+          "expectedStart": 94.8,
+          "expectedEnd": 304.12,
+          "actualStart": 96.299958,
+          "actualEnd": 305.62258299999996,
+          "timeDifference": 1.4999580000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mistaking Patterns for Skill: How the Mind Sees Order in Chaos",
+          "expectedStart": 304.12,
+          "expectedEnd": 519.66,
+          "actualStart": 307.12258299999996,
+          "actualEnd": 522.661875,
+          "timeDifference": 3.0025829999999587
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Trap of Survivorship Bias: Why Most Success Stories Mislead",
+          "expectedStart": 519.66,
+          "expectedEnd": 725.5,
+          "actualStart": 524.161875,
+          "actualEnd": 729.996875,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overconfidence and the Illusion of Control",
+          "expectedStart": 725.5,
+          "expectedEnd": 912.54,
+          "actualStart": 731.496875,
+          "actualEnd": 918.540667,
+          "timeDifference": 5.9968750000000455
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Prediction and the Power of Humility",
+          "expectedStart": 912.54,
+          "expectedEnd": 1131.56,
+          "actualStart": 920.040667,
+          "actualEnd": 1139.056459,
+          "timeDifference": 7.500667000000021
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Living with Uncertainty: The Emotional Cost of Randomness",
+          "expectedStart": 1131.56,
+          "expectedEnd": 1320.24,
+          "actualStart": 1140.556459,
+          "actualEnd": 1329.2397509999998,
+          "timeDifference": 8.996458999999959
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Seduction of Stories: How Narratives Shape Belief",
+          "expectedStart": 1320.24,
+          "expectedEnd": 1510.81,
+          "actualStart": 1330.7397509999998,
+          "actualEnd": 1521.3136679999998,
+          "timeDifference": 10.499750999999833
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Dangers of Narrative Thinking: When Stories Lead Us Astray",
+          "expectedStart": 1510.81,
+          "expectedEnd": 1682.19,
+          "actualStart": 1522.8136679999998,
+          "actualEnd": 1694.1911679999998,
+          "timeDifference": 12.003667999999834
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Skepticism: Tools for Seeing Through Randomness",
+          "expectedStart": 1682.19,
+          "expectedEnd": 1875.63,
+          "actualStart": 1695.6911679999998,
+          "actualEnd": 1889.1343349999997,
+          "timeDifference": 13.50116799999978
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Practical Wisdom: Navigating a World Ruled by Chance",
+          "expectedStart": 1875.63,
+          "expectedEnd": 2021.46,
+          "actualStart": 1890.6343349999997,
+          "actualEnd": 2036.4660429999997,
+          "timeDifference": 15.004334999999628
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2021.46,
+          "expectedEnd": 2163.28,
+          "actualStart": 2037.9660429999997,
+          "actualEnd": 2179.7855849999996,
+          "timeDifference": 16.506042999999636
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.799958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Invisible Hand of Luck in Everyday Life"
+        },
+        {
+          "startTime": 305.62258299999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Invisible Hand of Luck in Everyday Life and Chapter 2 Mistaking Patterns for Skill: How the Mind Sees Order in Chaos"
+        },
+        {
+          "startTime": 522.661875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mistaking Patterns for Skill: How the Mind Sees Order in Chaos and Chapter 3 The Trap of Survivorship Bias: Why Most Success Stories Mislead"
+        },
+        {
+          "startTime": 729.996875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Trap of Survivorship Bias: Why Most Success Stories Mislead and Chapter 4 Overconfidence and the Illusion of Control"
+        },
+        {
+          "startTime": 918.540667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overconfidence and the Illusion of Control and Chapter 5 The Limits of Prediction and the Power of Humility"
+        },
+        {
+          "startTime": 1139.056459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Prediction and the Power of Humility and Chapter 6 Living with Uncertainty: The Emotional Cost of Randomness"
+        },
+        {
+          "startTime": 1329.2397509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Living with Uncertainty: The Emotional Cost of Randomness and Chapter 7 The Seduction of Stories: How Narratives Shape Belief"
+        },
+        {
+          "startTime": 1521.3136679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Seduction of Stories: How Narratives Shape Belief and Chapter 8 The Dangers of Narrative Thinking: When Stories Lead Us Astray"
+        },
+        {
+          "startTime": 1694.1911679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Dangers of Narrative Thinking: When Stories Lead Us Astray and Chapter 9 Embracing Skepticism: Tools for Seeing Through Randomness"
+        },
+        {
+          "startTime": 1889.1343349999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Skepticism: Tools for Seeing Through Randomness and Chapter 10 Practical Wisdom: Navigating a World Ruled by Chance"
+        },
+        {
+          "startTime": 2036.4660429999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Practical Wisdom: Navigating a World Ruled by Chance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "258",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T05:58:37.658Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

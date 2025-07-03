@@ -1,0 +1,456 @@
+{
+  "bookId": "104",
+  "timestamp": "2025-07-02T21:36:03.828Z",
+  "success": false,
+  "processingTime": -1751491838196,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4695,
+    "totalAudioFiles": 12,
+    "totalDuration": 2155.0815430000007
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2155.0815430000007
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/104/optimized_text/104.md",
+    "fileSize": 713,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "104.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/104/metadata/104_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2155.08,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/104/metadata/104_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/104/metadata/104_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/104/104_complete.wav",
+    "duration": 2155.081542,
+    "fileSize": 103443992,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/104/introduction.wav",
+          "duration": 90.032625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.032625,
+          "startTime": 0,
+          "endTime": 90.032625
+        },
+        {
+          "path": "Audio/output/104/chapter_01.wav",
+          "duration": 208.409667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Two Paths Cross: Beginnings in a World of Uncertainty",
+          "actualDuration": 208.409667,
+          "startTime": 91.532625,
+          "endTime": 299.942292
+        },
+        {
+          "path": "Audio/output/104/chapter_02.wav",
+          "duration": 284.385167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Partnership: How Friendship Fuels Discovery",
+          "actualDuration": 284.385167,
+          "startTime": 301.442292,
+          "endTime": 585.8274590000001
+        },
+        {
+          "path": "Audio/output/104/chapter_03.wav",
+          "duration": 245.277333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Heuristics and Biases: The Hidden Patterns in Human Judgment",
+          "actualDuration": 245.277333,
+          "startTime": 587.3274590000001,
+          "endTime": 832.6047920000001
+        },
+        {
+          "path": "Audio/output/104/chapter_04.wav",
+          "duration": 199.318958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Challenging the Old Models: The Birth of Behavioral Economics",
+          "actualDuration": 199.318958,
+          "startTime": 834.1047920000001,
+          "endTime": 1033.4237500000002
+        },
+        {
+          "path": "Audio/output/104/chapter_05.wav",
+          "duration": 140.050792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Side of Science: Friendship, Rivalry, and the Cost of Genius",
+          "actualDuration": 140.050792,
+          "startTime": 1034.9237500000002,
+          "endTime": 1174.9745420000002
+        },
+        {
+          "path": "Audio/output/104/chapter_06.wav",
+          "duration": 216.747708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples in the World: How Ideas Take Hold",
+          "actualDuration": 216.747708,
+          "startTime": 1176.4745420000002,
+          "endTime": 1393.2222500000003
+        },
+        {
+          "path": "Audio/output/104/chapter_07.wav",
+          "duration": 184.259667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Nobel and the Shadow of Absence",
+          "actualDuration": 184.259667,
+          "startTime": 1394.7222500000003,
+          "endTime": 1578.9819170000003
+        },
+        {
+          "path": "Audio/output/104/chapter_08.wav",
+          "duration": 188.282417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World Remade: Behavioral Economics in Action",
+          "actualDuration": 188.282417,
+          "startTime": 1580.4819170000003,
+          "endTime": 1768.7643340000004
+        },
+        {
+          "path": "Audio/output/104/chapter_09.wav",
+          "duration": 144.771042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Knowing: Humility and the Mind",
+          "actualDuration": 144.771042,
+          "startTime": 1770.2643340000004,
+          "endTime": 1915.0353760000005
+        },
+        {
+          "path": "Audio/output/104/chapter_10.wav",
+          "duration": 131.583875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: What We Carry Forward",
+          "actualDuration": 131.583875,
+          "startTime": 1916.5353760000005,
+          "endTime": 2048.1192510000005
+        },
+        {
+          "path": "Audio/output/104/conclusion.wav",
+          "duration": 121.962292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.962292,
+          "startTime": 2049.6192510000005,
+          "endTime": 2171.5815430000007
+        }
+      ],
+      "totalDuration": 2171.5815430000007,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.03,
+          "actualStart": 0,
+          "actualEnd": 90.032625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Two Paths Cross: Beginnings in a World of Uncertainty",
+          "expectedStart": 90.03,
+          "expectedEnd": 298.44,
+          "actualStart": 91.532625,
+          "actualEnd": 299.942292,
+          "timeDifference": 1.5026249999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Partnership: How Friendship Fuels Discovery",
+          "expectedStart": 298.44,
+          "expectedEnd": 582.83,
+          "actualStart": 301.442292,
+          "actualEnd": 585.8274590000001,
+          "timeDifference": 3.0022920000000113
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Heuristics and Biases: The Hidden Patterns in Human Judgment",
+          "expectedStart": 582.83,
+          "expectedEnd": 828.11,
+          "actualStart": 587.3274590000001,
+          "actualEnd": 832.6047920000001,
+          "timeDifference": 4.497459000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Challenging the Old Models: The Birth of Behavioral Economics",
+          "expectedStart": 828.11,
+          "expectedEnd": 1027.43,
+          "actualStart": 834.1047920000001,
+          "actualEnd": 1033.4237500000002,
+          "timeDifference": 5.994792000000075
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Side of Science: Friendship, Rivalry, and the Cost of Genius",
+          "expectedStart": 1027.43,
+          "expectedEnd": 1167.48,
+          "actualStart": 1034.9237500000002,
+          "actualEnd": 1174.9745420000002,
+          "timeDifference": 7.493750000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples in the World: How Ideas Take Hold",
+          "expectedStart": 1167.48,
+          "expectedEnd": 1384.23,
+          "actualStart": 1176.4745420000002,
+          "actualEnd": 1393.2222500000003,
+          "timeDifference": 8.994542000000138
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Nobel and the Shadow of Absence",
+          "expectedStart": 1384.23,
+          "expectedEnd": 1568.49,
+          "actualStart": 1394.7222500000003,
+          "actualEnd": 1578.9819170000003,
+          "timeDifference": 10.49225000000024
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World Remade: Behavioral Economics in Action",
+          "expectedStart": 1568.49,
+          "expectedEnd": 1756.77,
+          "actualStart": 1580.4819170000003,
+          "actualEnd": 1768.7643340000004,
+          "timeDifference": 11.991917000000285
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Knowing: Humility and the Mind",
+          "expectedStart": 1756.77,
+          "expectedEnd": 1901.54,
+          "actualStart": 1770.2643340000004,
+          "actualEnd": 1915.0353760000005,
+          "timeDifference": 13.494334000000435
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: What We Carry Forward",
+          "expectedStart": 1901.54,
+          "expectedEnd": 2033.12,
+          "actualStart": 1916.5353760000005,
+          "actualEnd": 2048.1192510000005,
+          "timeDifference": 14.995376000000533
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2033.12,
+          "expectedEnd": 2155.08,
+          "actualStart": 2049.6192510000005,
+          "actualEnd": 2171.5815430000007,
+          "timeDifference": 16.49925100000064
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.032625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Two Paths Cross: Beginnings in a World of Uncertainty"
+        },
+        {
+          "startTime": 299.942292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Two Paths Cross: Beginnings in a World of Uncertainty and Chapter 2 The Power of Partnership: How Friendship Fuels Discovery"
+        },
+        {
+          "startTime": 585.8274590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Partnership: How Friendship Fuels Discovery and Chapter 3 Heuristics and Biases: The Hidden Patterns in Human Judgment"
+        },
+        {
+          "startTime": 832.6047920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Heuristics and Biases: The Hidden Patterns in Human Judgment and Chapter 4 Challenging the Old Models: The Birth of Behavioral Economics"
+        },
+        {
+          "startTime": 1033.4237500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Challenging the Old Models: The Birth of Behavioral Economics and Chapter 5 The Human Side of Science: Friendship, Rivalry, and the Cost of Genius"
+        },
+        {
+          "startTime": 1174.9745420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Side of Science: Friendship, Rivalry, and the Cost of Genius and Chapter 6 Ripples in the World: How Ideas Take Hold"
+        },
+        {
+          "startTime": 1393.2222500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples in the World: How Ideas Take Hold and Chapter 7 The Nobel and the Shadow of Absence"
+        },
+        {
+          "startTime": 1578.9819170000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Nobel and the Shadow of Absence and Chapter 8 The World Remade: Behavioral Economics in Action"
+        },
+        {
+          "startTime": 1768.7643340000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World Remade: Behavioral Economics in Action and Chapter 9 The Limits of Knowing: Humility and the Mind"
+        },
+        {
+          "startTime": 1915.0353760000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Knowing: Humility and the Mind and Chapter 10 The Enduring Legacy: What We Carry Forward"
+        },
+        {
+          "startTime": 2048.1192510000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: What We Carry Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "104",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T21:30:39.795Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

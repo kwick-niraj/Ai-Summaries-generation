@@ -1,0 +1,456 @@
+{
+  "bookId": "163",
+  "timestamp": "2025-07-03T00:50:36.189Z",
+  "success": false,
+  "processingTime": -1751503578454,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4602,
+    "totalAudioFiles": 12,
+    "totalDuration": 1888.349458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1888.349458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/163/optimized_text/163.md",
+    "fileSize": 819,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "163.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/163/metadata/163_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1888.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/163/metadata/163_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/163/metadata/163_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/163/163_complete.wav",
+    "duration": 1888.349458,
+    "fileSize": 90640852,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/163/introduction.wav",
+          "duration": 85.168125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.168125,
+          "startTime": 0,
+          "endTime": 85.168125
+        },
+        {
+          "path": "Audio/output/163/chapter_01.wav",
+          "duration": 203.02275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Public Face and the Private Struggle: FDR’s Image Versus Reality",
+          "actualDuration": 203.02275,
+          "startTime": 86.668125,
+          "endTime": 289.690875
+        },
+        {
+          "path": "Audio/output/163/chapter_02.wav",
+          "duration": 184.248292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a Myth: How FDR’s Health Was Hidden from the World",
+          "actualDuration": 184.248292,
+          "startTime": 291.190875,
+          "endTime": 475.439167
+        },
+        {
+          "path": "Audio/output/163/chapter_03.wav",
+          "duration": 189.215458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Doctors, the Staff, and the Press: A Web of Complicity",
+          "actualDuration": 189.215458,
+          "startTime": 476.939167,
+          "endTime": 666.154625
+        },
+        {
+          "path": "Audio/output/163/chapter_04.wav",
+          "duration": 162.89775,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Consequences of Secrecy: How Hidden Illness Shaped History",
+          "actualDuration": 162.89775,
+          "startTime": 667.654625,
+          "endTime": 830.552375
+        },
+        {
+          "path": "Audio/output/163/chapter_05.wav",
+          "duration": 143.110875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Presidential Health: Lessons for the Present and Future",
+          "actualDuration": 143.110875,
+          "startTime": 832.052375,
+          "endTime": 975.16325
+        },
+        {
+          "path": "Audio/output/163/chapter_06.wav",
+          "duration": 196.674417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling: Aftermath and the Search for Truth",
+          "actualDuration": 196.674417,
+          "startTime": 976.66325,
+          "endTime": 1173.337667
+        },
+        {
+          "path": "Audio/output/163/chapter_07.wav",
+          "duration": 174.474375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Debate Rekindled: Medical Privacy Versus Public Right to Know",
+          "actualDuration": 174.474375,
+          "startTime": 1174.837667,
+          "endTime": 1349.312042
+        },
+        {
+          "path": "Audio/output/163/chapter_08.wav",
+          "duration": 142.808375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost: Loyalty, Guilt, and the Price of Secrecy",
+          "actualDuration": 142.808375,
+          "startTime": 1350.812042,
+          "endTime": 1493.620417
+        },
+        {
+          "path": "Audio/output/163/chapter_09.wav",
+          "duration": 165.760625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Secrecy: How FDR’s Story Changed the Rules",
+          "actualDuration": 165.760625,
+          "startTime": 1495.120417,
+          "endTime": 1660.881042
+        },
+        {
+          "path": "Audio/output/163/chapter_10.wav",
+          "duration": 119.512333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Embracing Transparency and Learning from the Past",
+          "actualDuration": 119.512333,
+          "startTime": 1662.381042,
+          "endTime": 1781.8933749999999
+        },
+        {
+          "path": "Audio/output/163/conclusion.wav",
+          "duration": 121.456083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.456083,
+          "startTime": 1783.3933749999999,
+          "endTime": 1904.849458
+        }
+      ],
+      "totalDuration": 1904.849458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.17,
+          "actualStart": 0,
+          "actualEnd": 85.168125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Public Face and the Private Struggle: FDR’s Image Versus Reality",
+          "expectedStart": 85.17,
+          "expectedEnd": 288.19,
+          "actualStart": 86.668125,
+          "actualEnd": 289.690875,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a Myth: How FDR’s Health Was Hidden from the World",
+          "expectedStart": 288.19,
+          "expectedEnd": 472.44,
+          "actualStart": 291.190875,
+          "actualEnd": 475.439167,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Doctors, the Staff, and the Press: A Web of Complicity",
+          "expectedStart": 472.44,
+          "expectedEnd": 661.66,
+          "actualStart": 476.939167,
+          "actualEnd": 666.154625,
+          "timeDifference": 4.499167
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Consequences of Secrecy: How Hidden Illness Shaped History",
+          "expectedStart": 661.66,
+          "expectedEnd": 824.56,
+          "actualStart": 667.654625,
+          "actualEnd": 830.552375,
+          "timeDifference": 5.994625000000042
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Presidential Health: Lessons for the Present and Future",
+          "expectedStart": 824.56,
+          "expectedEnd": 967.67,
+          "actualStart": 832.052375,
+          "actualEnd": 975.16325,
+          "timeDifference": 7.492375000000038
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling: Aftermath and the Search for Truth",
+          "expectedStart": 967.67,
+          "expectedEnd": 1164.34,
+          "actualStart": 976.66325,
+          "actualEnd": 1173.337667,
+          "timeDifference": 8.993249999999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Debate Rekindled: Medical Privacy Versus Public Right to Know",
+          "expectedStart": 1164.34,
+          "expectedEnd": 1338.81,
+          "actualStart": 1174.837667,
+          "actualEnd": 1349.312042,
+          "timeDifference": 10.497667000000092
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost: Loyalty, Guilt, and the Price of Secrecy",
+          "expectedStart": 1338.81,
+          "expectedEnd": 1481.62,
+          "actualStart": 1350.812042,
+          "actualEnd": 1493.620417,
+          "timeDifference": 12.002042000000074
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Secrecy: How FDR’s Story Changed the Rules",
+          "expectedStart": 1481.62,
+          "expectedEnd": 1647.38,
+          "actualStart": 1495.120417,
+          "actualEnd": 1660.881042,
+          "timeDifference": 13.500417000000198
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Embracing Transparency and Learning from the Past",
+          "expectedStart": 1647.38,
+          "expectedEnd": 1766.89,
+          "actualStart": 1662.381042,
+          "actualEnd": 1781.8933749999999,
+          "timeDifference": 15.00104199999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1766.89,
+          "expectedEnd": 1888.35,
+          "actualStart": 1783.3933749999999,
+          "actualEnd": 1904.849458,
+          "timeDifference": 16.503374999999778
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.168125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Public Face and the Private Struggle: FDR’s Image Versus Reality"
+        },
+        {
+          "startTime": 289.690875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Public Face and the Private Struggle: FDR’s Image Versus Reality and Chapter 2 The Making of a Myth: How FDR’s Health Was Hidden from the World"
+        },
+        {
+          "startTime": 475.439167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a Myth: How FDR’s Health Was Hidden from the World and Chapter 3 The Doctors, the Staff, and the Press: A Web of Complicity"
+        },
+        {
+          "startTime": 666.154625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Doctors, the Staff, and the Press: A Web of Complicity and Chapter 4 The Consequences of Secrecy: How Hidden Illness Shaped History"
+        },
+        {
+          "startTime": 830.552375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Consequences of Secrecy: How Hidden Illness Shaped History and Chapter 5 Rethinking Presidential Health: Lessons for the Present and Future"
+        },
+        {
+          "startTime": 975.16325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Presidential Health: Lessons for the Present and Future and Chapter 6 The Unraveling: Aftermath and the Search for Truth"
+        },
+        {
+          "startTime": 1173.337667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling: Aftermath and the Search for Truth and Chapter 7 The Debate Rekindled: Medical Privacy Versus Public Right to Know"
+        },
+        {
+          "startTime": 1349.312042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Debate Rekindled: Medical Privacy Versus Public Right to Know and Chapter 8 The Human Cost: Loyalty, Guilt, and the Price of Secrecy"
+        },
+        {
+          "startTime": 1493.620417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost: Loyalty, Guilt, and the Price of Secrecy and Chapter 9 The Legacy of Secrecy: How FDR’s Story Changed the Rules"
+        },
+        {
+          "startTime": 1660.881042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Secrecy: How FDR’s Story Changed the Rules and Chapter 10 Moving Forward: Embracing Transparency and Learning from the Past"
+        },
+        {
+          "startTime": 1781.8933749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Embracing Transparency and Learning from the Past and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "163",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T00:46:19.796Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

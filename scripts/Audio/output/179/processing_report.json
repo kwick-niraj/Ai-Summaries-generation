@@ -1,0 +1,456 @@
+{
+  "bookId": "179",
+  "timestamp": "2025-07-03T01:47:27.931Z",
+  "success": false,
+  "processingTime": -1751506878000,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4709,
+    "totalAudioFiles": 12,
+    "totalDuration": 2410.3957060000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2410.3957060000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/179/optimized_text/179.md",
+    "fileSize": 592,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "179.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/179/metadata/179_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2410.38,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/179/metadata/179_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/179/metadata/179_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/179/179_complete.wav",
+    "duration": 2410.395708,
+    "fileSize": 115699072,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/179/introduction.wav",
+          "duration": 100.074833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.074833,
+          "startTime": 0,
+          "endTime": 100.074833
+        },
+        {
+          "path": "Audio/output/179/chapter_01.wav",
+          "duration": 214.837583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Magic of Music",
+          "actualDuration": 214.837583,
+          "startTime": 101.574833,
+          "endTime": 316.412416
+        },
+        {
+          "path": "Audio/output/179/chapter_02.wav",
+          "duration": 227.044875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How the Brain Makes Sense of Sound",
+          "actualDuration": 227.044875,
+          "startTime": 317.912416,
+          "endTime": 544.9572909999999
+        },
+        {
+          "path": "Audio/output/179/chapter_03.wav",
+          "duration": 264.443333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Building Blocks of Musical Experience",
+          "actualDuration": 264.443333,
+          "startTime": 546.4572909999999,
+          "endTime": 810.9006239999999
+        },
+        {
+          "path": "Audio/output/179/chapter_04.wav",
+          "duration": 268.926458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning, Memory, and Musical Taste",
+          "actualDuration": 268.926458,
+          "startTime": 812.4006239999999,
+          "endTime": 1081.3270819999998
+        },
+        {
+          "path": "Audio/output/179/chapter_05.wav",
+          "duration": 222.583458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Music, Emotion, and the Brain’s Reward System",
+          "actualDuration": 222.583458,
+          "startTime": 1082.8270819999998,
+          "endTime": 1305.4105399999999
+        },
+        {
+          "path": "Audio/output/179/chapter_06.wav",
+          "duration": 221.134708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Music, Identity, and the Stories We Tell Ourselves",
+          "actualDuration": 221.134708,
+          "startTime": 1306.9105399999999,
+          "endTime": 1528.045248
+        },
+        {
+          "path": "Audio/output/179/chapter_07.wav",
+          "duration": 239.0485,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Culture, Evolution, and the Roots of Musicality",
+          "actualDuration": 239.0485,
+          "startTime": 1529.545248,
+          "endTime": 1768.5937479999998
+        },
+        {
+          "path": "Audio/output/179/chapter_08.wav",
+          "duration": 215.569833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Science of Musical Expertise",
+          "actualDuration": 215.569833,
+          "startTime": 1770.0937479999998,
+          "endTime": 1985.6635809999998
+        },
+        {
+          "path": "Audio/output/179/chapter_09.wav",
+          "duration": 179.594042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Music, Healing, and the Brain’s Resilience",
+          "actualDuration": 179.594042,
+          "startTime": 1987.1635809999998,
+          "endTime": 2166.757623
+        },
+        {
+          "path": "Audio/output/179/chapter_10.wav",
+          "duration": 156.009833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Music and the Mind",
+          "actualDuration": 156.009833,
+          "startTime": 2168.257623,
+          "endTime": 2324.267456
+        },
+        {
+          "path": "Audio/output/179/conclusion.wav",
+          "duration": 101.12825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.12825,
+          "startTime": 2325.767456,
+          "endTime": 2426.8957060000002
+        }
+      ],
+      "totalDuration": 2426.8957060000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.07,
+          "actualStart": 0,
+          "actualEnd": 100.074833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Magic of Music",
+          "expectedStart": 100.07,
+          "expectedEnd": 314.91,
+          "actualStart": 101.574833,
+          "actualEnd": 316.412416,
+          "timeDifference": 1.504833000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How the Brain Makes Sense of Sound",
+          "expectedStart": 314.91,
+          "expectedEnd": 541.95,
+          "actualStart": 317.912416,
+          "actualEnd": 544.9572909999999,
+          "timeDifference": 3.0024159999999824
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Building Blocks of Musical Experience",
+          "expectedStart": 541.95,
+          "expectedEnd": 806.39,
+          "actualStart": 546.4572909999999,
+          "actualEnd": 810.9006239999999,
+          "timeDifference": 4.507290999999896
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning, Memory, and Musical Taste",
+          "expectedStart": 806.39,
+          "expectedEnd": 1075.32,
+          "actualStart": 812.4006239999999,
+          "actualEnd": 1081.3270819999998,
+          "timeDifference": 6.010623999999893
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Music, Emotion, and the Brain’s Reward System",
+          "expectedStart": 1075.32,
+          "expectedEnd": 1297.9,
+          "actualStart": 1082.8270819999998,
+          "actualEnd": 1305.4105399999999,
+          "timeDifference": 7.507081999999855
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Music, Identity, and the Stories We Tell Ourselves",
+          "expectedStart": 1297.9,
+          "expectedEnd": 1519.03,
+          "actualStart": 1306.9105399999999,
+          "actualEnd": 1528.045248,
+          "timeDifference": 9.010539999999764
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Culture, Evolution, and the Roots of Musicality",
+          "expectedStart": 1519.03,
+          "expectedEnd": 1758.08,
+          "actualStart": 1529.545248,
+          "actualEnd": 1768.5937479999998,
+          "timeDifference": 10.515247999999929
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Science of Musical Expertise",
+          "expectedStart": 1758.08,
+          "expectedEnd": 1973.65,
+          "actualStart": 1770.0937479999998,
+          "actualEnd": 1985.6635809999998,
+          "timeDifference": 12.01374799999985
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Music, Healing, and the Brain’s Resilience",
+          "expectedStart": 1973.65,
+          "expectedEnd": 2153.24,
+          "actualStart": 1987.1635809999998,
+          "actualEnd": 2166.757623,
+          "timeDifference": 13.513580999999704
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Music and the Mind",
+          "expectedStart": 2153.24,
+          "expectedEnd": 2309.25,
+          "actualStart": 2168.257623,
+          "actualEnd": 2324.267456,
+          "timeDifference": 15.017623000000185
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2309.25,
+          "expectedEnd": 2410.38,
+          "actualStart": 2325.767456,
+          "actualEnd": 2426.8957060000002,
+          "timeDifference": 16.51745600000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.074833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Magic of Music"
+        },
+        {
+          "startTime": 316.412416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Magic of Music and Chapter 2 How the Brain Makes Sense of Sound"
+        },
+        {
+          "startTime": 544.9572909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How the Brain Makes Sense of Sound and Chapter 3 The Building Blocks of Musical Experience"
+        },
+        {
+          "startTime": 810.9006239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Building Blocks of Musical Experience and Chapter 4 Learning, Memory, and Musical Taste"
+        },
+        {
+          "startTime": 1081.3270819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning, Memory, and Musical Taste and Chapter 5 Music, Emotion, and the Brain’s Reward System"
+        },
+        {
+          "startTime": 1305.4105399999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Music, Emotion, and the Brain’s Reward System and Chapter 6 Music, Identity, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1528.045248,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Music, Identity, and the Stories We Tell Ourselves and Chapter 7 Culture, Evolution, and the Roots of Musicality"
+        },
+        {
+          "startTime": 1768.5937479999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Culture, Evolution, and the Roots of Musicality and Chapter 8 The Science of Musical Expertise"
+        },
+        {
+          "startTime": 1985.6635809999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Science of Musical Expertise and Chapter 9 Music, Healing, and the Brain’s Resilience"
+        },
+        {
+          "startTime": 2166.757623,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Music, Healing, and the Brain’s Resilience and Chapter 10 The Future of Music and the Mind"
+        },
+        {
+          "startTime": 2324.267456,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Music and the Mind and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "179",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T01:41:19.224Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

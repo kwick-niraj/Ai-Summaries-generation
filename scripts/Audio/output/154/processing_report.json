@@ -1,0 +1,455 @@
+{
+  "bookId": "154",
+  "timestamp": "2025-07-03T00:20:00.749Z",
+  "success": false,
+  "processingTime": -1751501565614,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4832,
+    "totalAudioFiles": 12,
+    "totalDuration": 2072.6857099999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2072.6857099999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/154/optimized_text/154.md",
+    "fileSize": 744,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "154.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/154/metadata/154_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2072.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/154/metadata/154_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/154/metadata/154_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/154/154_complete.wav",
+    "duration": 2072.685708,
+    "fileSize": 99488992,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/154/introduction.wav",
+          "duration": 79.455792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.455792,
+          "startTime": 0,
+          "endTime": 79.455792
+        },
+        {
+          "path": "Audio/output/154/chapter_01.wav",
+          "duration": 223.23025,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Mirror: The Unspoken Realities of Aging",
+          "actualDuration": 223.23025,
+          "startTime": 80.955792,
+          "endTime": 304.18604200000004
+        },
+        {
+          "path": "Audio/output/154/chapter_02.wav",
+          "duration": 214.019167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Endless Work of Maintenance and the Rituals of Womanhood",
+          "actualDuration": 214.019167,
+          "startTime": 305.68604200000004,
+          "endTime": 519.7052090000001
+        },
+        {
+          "path": "Audio/output/154/chapter_03.wav",
+          "duration": 212.60325,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Beauty Standards, Judgment, and the Weight of Expectations",
+          "actualDuration": 212.60325,
+          "startTime": 521.2052090000001,
+          "endTime": 733.8084590000001
+        },
+        {
+          "path": "Audio/output/154/chapter_04.wav",
+          "duration": 171.89175,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Friendship, Loss, and the Comfort of Shared Experience",
+          "actualDuration": 171.89175,
+          "startTime": 735.3084590000001,
+          "endTime": 907.2002090000001
+        },
+        {
+          "path": "Audio/output/154/chapter_05.wav",
+          "duration": 195.944,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Joy and Frustration of Everyday Life",
+          "actualDuration": 195.944,
+          "startTime": 908.7002090000001,
+          "endTime": 1104.644209
+        },
+        {
+          "path": "Audio/output/154/chapter_06.wav",
+          "duration": 204.94125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nostalgia, Memory, and the Stories We Tell Ourselves",
+          "actualDuration": 204.94125,
+          "startTime": 1106.144209,
+          "endTime": 1311.0854590000001
+        },
+        {
+          "path": "Audio/output/154/chapter_07.wav",
+          "duration": 179.475917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Work, Purpose, and the Shifting Landscape of Ambition",
+          "actualDuration": 179.475917,
+          "startTime": 1312.5854590000001,
+          "endTime": 1492.061376
+        },
+        {
+          "path": "Audio/output/154/chapter_08.wav",
+          "duration": 173.9125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Love, Marriage, and the Evolving Nature of Relationships",
+          "actualDuration": 173.9125,
+          "startTime": 1493.561376,
+          "endTime": 1667.473876
+        },
+        {
+          "path": "Audio/output/154/chapter_09.wav",
+          "duration": 160.578667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Imperfection and the Wisdom of Letting Go",
+          "actualDuration": 160.578667,
+          "startTime": 1668.973876,
+          "endTime": 1829.552543
+        },
+        {
+          "path": "Audio/output/154/chapter_10.wav",
+          "duration": 144.864167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Wisdom of Aging: Humor, Resilience, and the Gift of Perspective",
+          "actualDuration": 144.864167,
+          "startTime": 1831.052543,
+          "endTime": 1975.91671
+        },
+        {
+          "path": "Audio/output/154/conclusion.wav",
+          "duration": 111.769,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.769,
+          "startTime": 1977.41671,
+          "endTime": 2089.1857099999997
+        }
+      ],
+      "totalDuration": 2089.1857099999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.46,
+          "actualStart": 0,
+          "actualEnd": 79.455792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Mirror: The Unspoken Realities of Aging",
+          "expectedStart": 79.46,
+          "expectedEnd": 302.69,
+          "actualStart": 80.955792,
+          "actualEnd": 304.18604200000004,
+          "timeDifference": 1.4957920000000087
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Endless Work of Maintenance and the Rituals of Womanhood",
+          "expectedStart": 302.69,
+          "expectedEnd": 516.71,
+          "actualStart": 305.68604200000004,
+          "actualEnd": 519.7052090000001,
+          "timeDifference": 2.9960420000000454
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Beauty Standards, Judgment, and the Weight of Expectations",
+          "expectedStart": 516.71,
+          "expectedEnd": 729.31,
+          "actualStart": 521.2052090000001,
+          "actualEnd": 733.8084590000001,
+          "timeDifference": 4.495209000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Friendship, Loss, and the Comfort of Shared Experience",
+          "expectedStart": 729.31,
+          "expectedEnd": 901.2,
+          "actualStart": 735.3084590000001,
+          "actualEnd": 907.2002090000001,
+          "timeDifference": 5.998459000000139
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Joy and Frustration of Everyday Life",
+          "expectedStart": 901.2,
+          "expectedEnd": 1097.14,
+          "actualStart": 908.7002090000001,
+          "actualEnd": 1104.644209,
+          "timeDifference": 7.500209000000041
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nostalgia, Memory, and the Stories We Tell Ourselves",
+          "expectedStart": 1097.14,
+          "expectedEnd": 1302.08,
+          "actualStart": 1106.144209,
+          "actualEnd": 1311.0854590000001,
+          "timeDifference": 9.004208999999946
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Work, Purpose, and the Shifting Landscape of Ambition",
+          "expectedStart": 1302.08,
+          "expectedEnd": 1481.56,
+          "actualStart": 1312.5854590000001,
+          "actualEnd": 1492.061376,
+          "timeDifference": 10.5054590000002
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Love, Marriage, and the Evolving Nature of Relationships",
+          "expectedStart": 1481.56,
+          "expectedEnd": 1655.47,
+          "actualStart": 1493.561376,
+          "actualEnd": 1667.473876,
+          "timeDifference": 12.001376000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Imperfection and the Wisdom of Letting Go",
+          "expectedStart": 1655.47,
+          "expectedEnd": 1816.05,
+          "actualStart": 1668.973876,
+          "actualEnd": 1829.552543,
+          "timeDifference": 13.503875999999991
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Wisdom of Aging: Humor, Resilience, and the Gift of Perspective",
+          "expectedStart": 1816.05,
+          "expectedEnd": 1960.91,
+          "actualStart": 1831.052543,
+          "actualEnd": 1975.91671,
+          "timeDifference": 15.00254300000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1960.91,
+          "expectedEnd": 2072.68,
+          "actualStart": 1977.41671,
+          "actualEnd": 2089.1857099999997,
+          "timeDifference": 16.506709999999885
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.455792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Mirror: The Unspoken Realities of Aging"
+        },
+        {
+          "startTime": 304.18604200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Mirror: The Unspoken Realities of Aging and Chapter 2 The Endless Work of Maintenance and the Rituals of Womanhood"
+        },
+        {
+          "startTime": 519.7052090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Endless Work of Maintenance and the Rituals of Womanhood and Chapter 3 Beauty Standards, Judgment, and the Weight of Expectations"
+        },
+        {
+          "startTime": 733.8084590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Beauty Standards, Judgment, and the Weight of Expectations and Chapter 4 Friendship, Loss, and the Comfort of Shared Experience"
+        },
+        {
+          "startTime": 907.2002090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Friendship, Loss, and the Comfort of Shared Experience and Chapter 5 The Joy and Frustration of Everyday Life"
+        },
+        {
+          "startTime": 1104.644209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Joy and Frustration of Everyday Life and Chapter 6 Nostalgia, Memory, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1311.0854590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nostalgia, Memory, and the Stories We Tell Ourselves and Chapter 7 Work, Purpose, and the Shifting Landscape of Ambition"
+        },
+        {
+          "startTime": 1492.061376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Work, Purpose, and the Shifting Landscape of Ambition and Chapter 8 Love, Marriage, and the Evolving Nature of Relationships"
+        },
+        {
+          "startTime": 1667.473876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Love, Marriage, and the Evolving Nature of Relationships and Chapter 9 Embracing Imperfection and the Wisdom of Letting Go"
+        },
+        {
+          "startTime": 1829.552543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Imperfection and the Wisdom of Letting Go and Chapter 10 The Wisdom of Aging: Humor, Resilience, and the Gift of Perspective"
+        },
+        {
+          "startTime": 1975.91671,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Wisdom of Aging: Humor, Resilience, and the Gift of Perspective and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "154",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T00:12:46.829Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

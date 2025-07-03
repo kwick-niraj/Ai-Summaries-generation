@@ -1,0 +1,504 @@
+{
+  "bookId": "230",
+  "timestamp": "2025-07-03T04:28:48.201Z",
+  "success": false,
+  "processingTime": -1751516403228,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5694,
+    "totalAudioFiles": 14,
+    "totalDuration": 2835.7036249999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2835.7036249999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/230/optimized_text/230.md",
+    "fileSize": 854,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "230.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/230/metadata/230_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2835.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/230/metadata/230_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/230/metadata/230_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/230/230_complete.wav",
+    "duration": 2835.703625,
+    "fileSize": 136113852,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/230/introduction.wav",
+          "duration": 99.39525,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.39525,
+          "startTime": 0,
+          "endTime": 99.39525
+        },
+        {
+          "path": "Audio/output/230/chapter_01.wav",
+          "duration": 248.959042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Mountains, Rivers, and Borders Shape the World",
+          "actualDuration": 248.959042,
+          "startTime": 100.89525,
+          "endTime": 349.854292
+        },
+        {
+          "path": "Audio/output/230/chapter_02.wav",
+          "duration": 223.981458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Russia’s Endless Search for Security",
+          "actualDuration": 223.981458,
+          "startTime": 351.354292,
+          "endTime": 575.33575
+        },
+        {
+          "path": "Audio/output/230/chapter_03.wav",
+          "duration": 265.048125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 China’s Balancing Act Between Land and Sea",
+          "actualDuration": 265.048125,
+          "startTime": 576.83575,
+          "endTime": 841.883875
+        },
+        {
+          "path": "Audio/output/230/chapter_04.wav",
+          "duration": 259.550583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The United States and the Power of Open Spaces",
+          "actualDuration": 259.550583,
+          "startTime": 843.383875,
+          "endTime": 1102.934458
+        },
+        {
+          "path": "Audio/output/230/chapter_05.wav",
+          "duration": 253.272125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Western Europe’s Patchwork of Opportunity and Risk",
+          "actualDuration": 253.272125,
+          "startTime": 1104.434458,
+          "endTime": 1357.706583
+        },
+        {
+          "path": "Audio/output/230/chapter_06.wav",
+          "duration": 229.960458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Middle East—Land of Crossroads and Conflict",
+          "actualDuration": 229.960458,
+          "startTime": 1359.206583,
+          "endTime": 1589.167041
+        },
+        {
+          "path": "Audio/output/230/chapter_07.wav",
+          "duration": 217.37825,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Africa—A Continent of Barriers and Riches",
+          "actualDuration": 217.37825,
+          "startTime": 1590.667041,
+          "endTime": 1808.045291
+        },
+        {
+          "path": "Audio/output/230/chapter_08.wav",
+          "duration": 186.860792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 India and Pakistan—Mountains, Rivers, and the Shadow of Partition",
+          "actualDuration": 186.860792,
+          "startTime": 1809.545291,
+          "endTime": 1996.4060829999999
+        },
+        {
+          "path": "Audio/output/230/chapter_09.wav",
+          "duration": 201.098042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Korea and Japan—Islands, Peninsulas, and the Weight of Proximity",
+          "actualDuration": 201.098042,
+          "startTime": 1997.9060829999999,
+          "endTime": 2199.004125
+        },
+        {
+          "path": "Audio/output/230/chapter_10.wav",
+          "duration": 197.741792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Latin America—Mountains, Jungles, and the Struggle for Unity",
+          "actualDuration": 197.741792,
+          "startTime": 2200.504125,
+          "endTime": 2398.2459169999997
+        },
+        {
+          "path": "Audio/output/230/chapter_11.wav",
+          "duration": 163.579625,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Arctic—Ice, Isolation, and the Race for Resources",
+          "actualDuration": 163.579625,
+          "startTime": 2399.7459169999997,
+          "endTime": 2563.3255419999996
+        },
+        {
+          "path": "Audio/output/230/chapter_12.wav",
+          "duration": 139.490625,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Future—Geography in a Connected World",
+          "actualDuration": 139.490625,
+          "startTime": 2564.8255419999996,
+          "endTime": 2704.3161669999995
+        },
+        {
+          "path": "Audio/output/230/conclusion.wav",
+          "duration": 149.387458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.387458,
+          "startTime": 2705.8161669999995,
+          "endTime": 2855.2036249999996
+        }
+      ],
+      "totalDuration": 2855.2036249999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.4,
+          "actualStart": 0,
+          "actualEnd": 99.39525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Mountains, Rivers, and Borders Shape the World",
+          "expectedStart": 99.4,
+          "expectedEnd": 348.36,
+          "actualStart": 100.89525,
+          "actualEnd": 349.854292,
+          "timeDifference": 1.4952499999999986
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Russia’s Endless Search for Security",
+          "expectedStart": 348.36,
+          "expectedEnd": 572.34,
+          "actualStart": 351.354292,
+          "actualEnd": 575.33575,
+          "timeDifference": 2.994291999999973
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 China’s Balancing Act Between Land and Sea",
+          "expectedStart": 572.34,
+          "expectedEnd": 837.39,
+          "actualStart": 576.83575,
+          "actualEnd": 841.883875,
+          "timeDifference": 4.49574999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The United States and the Power of Open Spaces",
+          "expectedStart": 837.39,
+          "expectedEnd": 1096.94,
+          "actualStart": 843.383875,
+          "actualEnd": 1102.934458,
+          "timeDifference": 5.993875000000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Western Europe’s Patchwork of Opportunity and Risk",
+          "expectedStart": 1096.94,
+          "expectedEnd": 1350.21,
+          "actualStart": 1104.434458,
+          "actualEnd": 1357.706583,
+          "timeDifference": 7.494457999999895
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Middle East—Land of Crossroads and Conflict",
+          "expectedStart": 1350.21,
+          "expectedEnd": 1580.17,
+          "actualStart": 1359.206583,
+          "actualEnd": 1589.167041,
+          "timeDifference": 8.996582999999873
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Africa—A Continent of Barriers and Riches",
+          "expectedStart": 1580.17,
+          "expectedEnd": 1797.55,
+          "actualStart": 1590.667041,
+          "actualEnd": 1808.045291,
+          "timeDifference": 10.497040999999854
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 India and Pakistan—Mountains, Rivers, and the Shadow of Partition",
+          "expectedStart": 1797.55,
+          "expectedEnd": 1984.41,
+          "actualStart": 1809.545291,
+          "actualEnd": 1996.4060829999999,
+          "timeDifference": 11.995290999999952
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Korea and Japan—Islands, Peninsulas, and the Weight of Proximity",
+          "expectedStart": 1984.41,
+          "expectedEnd": 2185.51,
+          "actualStart": 1997.9060829999999,
+          "actualEnd": 2199.004125,
+          "timeDifference": 13.496082999999771
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Latin America—Mountains, Jungles, and the Struggle for Unity",
+          "expectedStart": 2185.51,
+          "expectedEnd": 2383.25,
+          "actualStart": 2200.504125,
+          "actualEnd": 2398.2459169999997,
+          "timeDifference": 14.994124999999713
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Arctic—Ice, Isolation, and the Race for Resources",
+          "expectedStart": 2383.25,
+          "expectedEnd": 2546.83,
+          "actualStart": 2399.7459169999997,
+          "actualEnd": 2563.3255419999996,
+          "timeDifference": 16.495916999999736
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Future—Geography in a Connected World",
+          "expectedStart": 2546.83,
+          "expectedEnd": 2686.32,
+          "actualStart": 2564.8255419999996,
+          "actualEnd": 2704.3161669999995,
+          "timeDifference": 17.99554199999966
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2686.32,
+          "expectedEnd": 2835.71,
+          "actualStart": 2705.8161669999995,
+          "actualEnd": 2855.2036249999996,
+          "timeDifference": 19.496166999999332
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.39525,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Mountains, Rivers, and Borders Shape the World"
+        },
+        {
+          "startTime": 349.854292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Mountains, Rivers, and Borders Shape the World and Chapter 2 Russia’s Endless Search for Security"
+        },
+        {
+          "startTime": 575.33575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Russia’s Endless Search for Security and Chapter 3 China’s Balancing Act Between Land and Sea"
+        },
+        {
+          "startTime": 841.883875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 China’s Balancing Act Between Land and Sea and Chapter 4 The United States and the Power of Open Spaces"
+        },
+        {
+          "startTime": 1102.934458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The United States and the Power of Open Spaces and Chapter 5 Western Europe’s Patchwork of Opportunity and Risk"
+        },
+        {
+          "startTime": 1357.706583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Western Europe’s Patchwork of Opportunity and Risk and Chapter 6 The Middle East—Land of Crossroads and Conflict"
+        },
+        {
+          "startTime": 1589.167041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Middle East—Land of Crossroads and Conflict and Chapter 7 Africa—A Continent of Barriers and Riches"
+        },
+        {
+          "startTime": 1808.045291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Africa—A Continent of Barriers and Riches and Chapter 8 India and Pakistan—Mountains, Rivers, and the Shadow of Partition"
+        },
+        {
+          "startTime": 1996.4060829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 India and Pakistan—Mountains, Rivers, and the Shadow of Partition and Chapter 9 Korea and Japan—Islands, Peninsulas, and the Weight of Proximity"
+        },
+        {
+          "startTime": 2199.004125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Korea and Japan—Islands, Peninsulas, and the Weight of Proximity and Chapter 10 Latin America—Mountains, Jungles, and the Struggle for Unity"
+        },
+        {
+          "startTime": 2398.2459169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Latin America—Mountains, Jungles, and the Struggle for Unity and Chapter 11 The Arctic—Ice, Isolation, and the Race for Resources"
+        },
+        {
+          "startTime": 2563.3255419999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Arctic—Ice, Isolation, and the Race for Resources and Chapter 12 The Future—Geography in a Connected World"
+        },
+        {
+          "startTime": 2704.3161669999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Future—Geography in a Connected World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "230",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T04:20:04.468Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

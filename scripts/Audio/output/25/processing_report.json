@@ -1,0 +1,456 @@
+{
+  "bookId": "25",
+  "timestamp": "2025-07-02T17:32:36.040Z",
+  "success": false,
+  "processingTime": -1751477176012,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4557,
+    "totalAudioFiles": 12,
+    "totalDuration": 2104.621917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2104.621917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/25/optimized_text/25.md",
+    "fileSize": 755,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "25.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/25/metadata/25_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2104.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/25/metadata/25_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/25/metadata/25_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/25/25_complete.wav",
+    "duration": 2104.621917,
+    "fileSize": 101021930,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/25/introduction.wav",
+          "duration": 85.759542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.759542,
+          "startTime": 0,
+          "endTime": 85.759542
+        },
+        {
+          "path": "Audio/output/25/chapter_01.wav",
+          "duration": 272.12925,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday",
+          "actualDuration": 272.12925,
+          "startTime": 87.259542,
+          "endTime": 359.388792
+        },
+        {
+          "path": "Audio/output/25/chapter_02.wav",
+          "duration": 219.907958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost",
+          "actualDuration": 219.907958,
+          "startTime": 360.888792,
+          "endTime": 580.79675
+        },
+        {
+          "path": "Audio/output/25/chapter_03.wav",
+          "duration": 221.83375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power",
+          "actualDuration": 221.83375,
+          "startTime": 582.29675,
+          "endTime": 804.1305
+        },
+        {
+          "path": "Audio/output/25/chapter_04.wav",
+          "duration": 178.009083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny",
+          "actualDuration": 178.009083,
+          "startTime": 805.6305,
+          "endTime": 983.639583
+        },
+        {
+          "path": "Audio/output/25/chapter_05.wav",
+          "duration": 171.996042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering",
+          "actualDuration": 171.996042,
+          "startTime": 985.139583,
+          "endTime": 1157.135625
+        },
+        {
+          "path": "Audio/output/25/chapter_06.wav",
+          "duration": 190.909333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life",
+          "actualDuration": 190.909333,
+          "startTime": 1158.635625,
+          "endTime": 1349.544958
+        },
+        {
+          "path": "Audio/output/25/chapter_07.wav",
+          "duration": 175.166625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering",
+          "actualDuration": 175.166625,
+          "startTime": 1351.044958,
+          "endTime": 1526.211583
+        },
+        {
+          "path": "Audio/output/25/chapter_08.wav",
+          "duration": 171.130042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Emptiness: The Existential Vacuum",
+          "actualDuration": 171.130042,
+          "startTime": 1527.711583,
+          "endTime": 1698.841625
+        },
+        {
+          "path": "Audio/output/25/chapter_09.wav",
+          "duration": 148.415792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Courage to Be: Embracing Freedom and Responsibility",
+          "actualDuration": 148.415792,
+          "startTime": 1700.341625,
+          "endTime": 1848.757417
+        },
+        {
+          "path": "Audio/output/25/chapter_10.wav",
+          "duration": 125.571833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons: Meaning as a Way of Life",
+          "actualDuration": 125.571833,
+          "startTime": 1850.257417,
+          "endTime": 1975.82925
+        },
+        {
+          "path": "Audio/output/25/conclusion.wav",
+          "duration": 143.792667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.792667,
+          "startTime": 1977.32925,
+          "endTime": 2121.121917
+        }
+      ],
+      "totalDuration": 2121.121917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.76,
+          "actualStart": 0,
+          "actualEnd": 85.759542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday",
+          "expectedStart": 85.76,
+          "expectedEnd": 357.89,
+          "actualStart": 87.259542,
+          "actualEnd": 359.388792,
+          "timeDifference": 1.499541999999991
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost",
+          "expectedStart": 357.89,
+          "expectedEnd": 577.8,
+          "actualStart": 360.888792,
+          "actualEnd": 580.79675,
+          "timeDifference": 2.998792000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power",
+          "expectedStart": 577.8,
+          "expectedEnd": 799.63,
+          "actualStart": 582.29675,
+          "actualEnd": 804.1305,
+          "timeDifference": 4.49675000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny",
+          "expectedStart": 799.63,
+          "expectedEnd": 977.64,
+          "actualStart": 805.6305,
+          "actualEnd": 983.639583,
+          "timeDifference": 6.000499999999988
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering",
+          "expectedStart": 977.64,
+          "expectedEnd": 1149.64,
+          "actualStart": 985.139583,
+          "actualEnd": 1157.135625,
+          "timeDifference": 7.49958300000003
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life",
+          "expectedStart": 1149.64,
+          "expectedEnd": 1340.55,
+          "actualStart": 1158.635625,
+          "actualEnd": 1349.544958,
+          "timeDifference": 8.99562499999979
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering",
+          "expectedStart": 1340.55,
+          "expectedEnd": 1515.72,
+          "actualStart": 1351.044958,
+          "actualEnd": 1526.211583,
+          "timeDifference": 10.494957999999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Emptiness: The Existential Vacuum",
+          "expectedStart": 1515.72,
+          "expectedEnd": 1686.85,
+          "actualStart": 1527.711583,
+          "actualEnd": 1698.841625,
+          "timeDifference": 11.991582999999991
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Courage to Be: Embracing Freedom and Responsibility",
+          "expectedStart": 1686.85,
+          "expectedEnd": 1835.27,
+          "actualStart": 1700.341625,
+          "actualEnd": 1848.757417,
+          "timeDifference": 13.491625000000113
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons: Meaning as a Way of Life",
+          "expectedStart": 1835.27,
+          "expectedEnd": 1960.84,
+          "actualStart": 1850.257417,
+          "actualEnd": 1975.82925,
+          "timeDifference": 14.98741700000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1960.84,
+          "expectedEnd": 2104.63,
+          "actualStart": 1977.32925,
+          "actualEnd": 2121.121917,
+          "timeDifference": 16.489250000000084
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.759542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday"
+        },
+        {
+          "startTime": 359.388792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Life Inside the Camps: The Stripping Away of the Everyday and Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost"
+        },
+        {
+          "startTime": 580.79675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Inner World: Holding Onto Meaning When Everything Is Lost and Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power"
+        },
+        {
+          "startTime": 804.1305,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Will to Meaning: Why Purpose Matters More Than Pleasure or Power and Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny"
+        },
+        {
+          "startTime": 983.639583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Responsibility and Choice: Shaping One’s Own Destiny and Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering"
+        },
+        {
+          "startTime": 1157.135625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Hope: Looking Forward in the Face of Suffering and Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life"
+        },
+        {
+          "startTime": 1349.544958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Logotherapy in Action: Finding Meaning in Everyday Life and Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering"
+        },
+        {
+          "startTime": 1526.211583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Three Paths to Meaning: Work, Love, and Suffering and Chapter 8 Facing the Emptiness: The Existential Vacuum"
+        },
+        {
+          "startTime": 1698.841625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Emptiness: The Existential Vacuum and Chapter 9 The Courage to Be: Embracing Freedom and Responsibility"
+        },
+        {
+          "startTime": 1848.757417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Courage to Be: Embracing Freedom and Responsibility and Chapter 10 The Enduring Lessons: Meaning as a Way of Life"
+        },
+        {
+          "startTime": 1975.82925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons: Meaning as a Way of Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "25",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T17:26:17.156Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

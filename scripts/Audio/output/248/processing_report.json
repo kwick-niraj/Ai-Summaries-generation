@@ -1,0 +1,455 @@
+{
+  "bookId": "248",
+  "timestamp": "2025-07-03T05:30:25.238Z",
+  "success": false,
+  "processingTime": -1751520309889,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4518,
+    "totalAudioFiles": 12,
+    "totalDuration": 1906.0631230000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1906.0631230000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/248/optimized_text/248.md",
+    "fileSize": 629,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "248.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/248/metadata/248_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1906.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/248/metadata/248_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/248/metadata/248_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/248/248_complete.wav",
+    "duration": 1906.063125,
+    "fileSize": 91491108,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/248/introduction.wav",
+          "duration": 75.520083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.520083,
+          "startTime": 0,
+          "endTime": 75.520083
+        },
+        {
+          "path": "Audio/output/248/chapter_01.wav",
+          "duration": 208.843875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Unspoken Truths Behind Everyday Advice",
+          "actualDuration": 208.843875,
+          "startTime": 77.020083,
+          "endTime": 285.863958
+        },
+        {
+          "path": "Audio/output/248/chapter_02.wav",
+          "duration": 211.092875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Cost and Freedom of Vulnerability",
+          "actualDuration": 211.092875,
+          "startTime": 287.363958,
+          "endTime": 498.456833
+        },
+        {
+          "path": "Audio/output/248/chapter_03.wav",
+          "duration": 185.501875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faith in the Ordinary and the Mundane",
+          "actualDuration": 185.501875,
+          "startTime": 499.956833,
+          "endTime": 685.458708
+        },
+        {
+          "path": "Audio/output/248/chapter_04.wav",
+          "duration": 190.739833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Tension Between Public Persona and Private Reality",
+          "actualDuration": 190.739833,
+          "startTime": 686.958708,
+          "endTime": 877.698541
+        },
+        {
+          "path": "Audio/output/248/chapter_05.wav",
+          "duration": 193.968417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Growth Through Confession and Authenticity",
+          "actualDuration": 193.968417,
+          "startTime": 879.198541,
+          "endTime": 1073.166958
+        },
+        {
+          "path": "Audio/output/248/chapter_06.wav",
+          "duration": 133.461458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Stories We Carry and the Weight of Silence",
+          "actualDuration": 133.461458,
+          "startTime": 1074.666958,
+          "endTime": 1208.128416
+        },
+        {
+          "path": "Audio/output/248/chapter_07.wav",
+          "duration": 154.272958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Doubt and the Search for Belonging",
+          "actualDuration": 154.272958,
+          "startTime": 1209.628416,
+          "endTime": 1363.901374
+        },
+        {
+          "path": "Audio/output/248/chapter_08.wav",
+          "duration": 145.585958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Faith in a Shifting Culture",
+          "actualDuration": 145.585958,
+          "startTime": 1365.401374,
+          "endTime": 1510.9873320000002
+        },
+        {
+          "path": "Audio/output/248/chapter_09.wav",
+          "duration": 140.735958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Work of Forgiveness",
+          "actualDuration": 140.735958,
+          "startTime": 1512.4873320000002,
+          "endTime": 1653.2232900000001
+        },
+        {
+          "path": "Audio/output/248/chapter_10.wav",
+          "duration": 134.275875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wholeness, Connection, and the Courage to Begin Again",
+          "actualDuration": 134.275875,
+          "startTime": 1654.7232900000001,
+          "endTime": 1788.9991650000002
+        },
+        {
+          "path": "Audio/output/248/conclusion.wav",
+          "duration": 132.063958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.063958,
+          "startTime": 1790.4991650000002,
+          "endTime": 1922.5631230000001
+        }
+      ],
+      "totalDuration": 1922.5631230000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.52,
+          "actualStart": 0,
+          "actualEnd": 75.520083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Unspoken Truths Behind Everyday Advice",
+          "expectedStart": 75.52,
+          "expectedEnd": 284.36,
+          "actualStart": 77.020083,
+          "actualEnd": 285.863958,
+          "timeDifference": 1.5000830000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Cost and Freedom of Vulnerability",
+          "expectedStart": 284.36,
+          "expectedEnd": 495.45,
+          "actualStart": 287.363958,
+          "actualEnd": 498.456833,
+          "timeDifference": 3.0039580000000115
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faith in the Ordinary and the Mundane",
+          "expectedStart": 495.45,
+          "expectedEnd": 680.95,
+          "actualStart": 499.956833,
+          "actualEnd": 685.458708,
+          "timeDifference": 4.506833000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Tension Between Public Persona and Private Reality",
+          "expectedStart": 680.95,
+          "expectedEnd": 871.69,
+          "actualStart": 686.958708,
+          "actualEnd": 877.698541,
+          "timeDifference": 6.008707999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Growth Through Confession and Authenticity",
+          "expectedStart": 871.69,
+          "expectedEnd": 1065.66,
+          "actualStart": 879.198541,
+          "actualEnd": 1073.166958,
+          "timeDifference": 7.508540999999923
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Stories We Carry and the Weight of Silence",
+          "expectedStart": 1065.66,
+          "expectedEnd": 1199.12,
+          "actualStart": 1074.666958,
+          "actualEnd": 1208.128416,
+          "timeDifference": 9.00695799999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Doubt and the Search for Belonging",
+          "expectedStart": 1199.12,
+          "expectedEnd": 1353.39,
+          "actualStart": 1209.628416,
+          "actualEnd": 1363.901374,
+          "timeDifference": 10.508416000000125
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Faith in a Shifting Culture",
+          "expectedStart": 1353.39,
+          "expectedEnd": 1498.98,
+          "actualStart": 1365.401374,
+          "actualEnd": 1510.9873320000002,
+          "timeDifference": 12.011373999999932
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Work of Forgiveness",
+          "expectedStart": 1498.98,
+          "expectedEnd": 1639.72,
+          "actualStart": 1512.4873320000002,
+          "actualEnd": 1653.2232900000001,
+          "timeDifference": 13.507332000000133
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wholeness, Connection, and the Courage to Begin Again",
+          "expectedStart": 1639.72,
+          "expectedEnd": 1774,
+          "actualStart": 1654.7232900000001,
+          "actualEnd": 1788.9991650000002,
+          "timeDifference": 15.003290000000106
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1774,
+          "expectedEnd": 1906.06,
+          "actualStart": 1790.4991650000002,
+          "actualEnd": 1922.5631230000001,
+          "timeDifference": 16.499165000000175
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.520083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Unspoken Truths Behind Everyday Advice"
+        },
+        {
+          "startTime": 285.863958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Unspoken Truths Behind Everyday Advice and Chapter 2 The Cost and Freedom of Vulnerability"
+        },
+        {
+          "startTime": 498.456833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Cost and Freedom of Vulnerability and Chapter 3 Faith in the Ordinary and the Mundane"
+        },
+        {
+          "startTime": 685.458708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faith in the Ordinary and the Mundane and Chapter 4 The Tension Between Public Persona and Private Reality"
+        },
+        {
+          "startTime": 877.698541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Tension Between Public Persona and Private Reality and Chapter 5 Growth Through Confession and Authenticity"
+        },
+        {
+          "startTime": 1073.166958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Growth Through Confession and Authenticity and Chapter 6 The Stories We Carry and the Weight of Silence"
+        },
+        {
+          "startTime": 1208.128416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Stories We Carry and the Weight of Silence and Chapter 7 Navigating Doubt and the Search for Belonging"
+        },
+        {
+          "startTime": 1363.901374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Doubt and the Search for Belonging and Chapter 8 The Role of Faith in a Shifting Culture"
+        },
+        {
+          "startTime": 1510.9873320000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Faith in a Shifting Culture and Chapter 9 The Ongoing Work of Forgiveness"
+        },
+        {
+          "startTime": 1653.2232900000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Work of Forgiveness and Chapter 10 Wholeness, Connection, and the Courage to Begin Again"
+        },
+        {
+          "startTime": 1788.9991650000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wholeness, Connection, and the Courage to Begin Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "248",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T05:25:11.089Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

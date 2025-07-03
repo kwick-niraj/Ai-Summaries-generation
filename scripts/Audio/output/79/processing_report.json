@@ -1,0 +1,456 @@
+{
+  "bookId": "79",
+  "timestamp": "2025-07-02T19:59:20.006Z",
+  "success": false,
+  "processingTime": -1751486003127,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4065,
+    "totalAudioFiles": 12,
+    "totalDuration": 1827.263207
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1827.263207
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/79/optimized_text/79.md",
+    "fileSize": 595,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "79.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/79/metadata/79_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1827.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/79/metadata/79_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/79/metadata/79_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/79/79_complete.wav",
+    "duration": 1827.263208,
+    "fileSize": 87708712,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/79/introduction.wav",
+          "duration": 88.243667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.243667,
+          "startTime": 0,
+          "endTime": 88.243667
+        },
+        {
+          "path": "Audio/output/79/chapter_01.wav",
+          "duration": 209.341833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life in the Colonies and the Question of Government",
+          "actualDuration": 209.341833,
+          "startTime": 89.743667,
+          "endTime": 299.0855
+        },
+        {
+          "path": "Audio/output/79/chapter_02.wav",
+          "duration": 204.085583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Flaws of Monarchy and Hereditary Rule",
+          "actualDuration": 204.085583,
+          "startTime": 300.5855,
+          "endTime": 504.67108300000007
+        },
+        {
+          "path": "Audio/output/79/chapter_03.wav",
+          "duration": 161.55225,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The True Purpose of Government and the Rights of the People",
+          "actualDuration": 161.55225,
+          "startTime": 506.17108300000007,
+          "endTime": 667.723333
+        },
+        {
+          "path": "Audio/output/79/chapter_04.wav",
+          "duration": 163.953958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Why Reconciliation with Britain No Longer Makes Sense",
+          "actualDuration": 163.953958,
+          "startTime": 669.223333,
+          "endTime": 833.177291
+        },
+        {
+          "path": "Audio/output/79/chapter_05.wav",
+          "duration": 165.792333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Urgency and Promise of Independence",
+          "actualDuration": 165.792333,
+          "startTime": 834.677291,
+          "endTime": 1000.469624
+        },
+        {
+          "path": "Audio/output/79/chapter_06.wav",
+          "duration": 185.800375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Practical Realities of Independence",
+          "actualDuration": 185.800375,
+          "startTime": 1001.969624,
+          "endTime": 1187.7699989999999
+        },
+        {
+          "path": "Audio/output/79/chapter_07.wav",
+          "duration": 154.369583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Vision for a New Government",
+          "actualDuration": 154.369583,
+          "startTime": 1189.2699989999999,
+          "endTime": 1343.6395819999998
+        },
+        {
+          "path": "Audio/output/79/chapter_08.wav",
+          "duration": 131.967958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Unity",
+          "actualDuration": 131.967958,
+          "startTime": 1345.1395819999998,
+          "endTime": 1477.1075399999997
+        },
+        {
+          "path": "Audio/output/79/chapter_09.wav",
+          "duration": 118.903833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Courage and Sacrifice",
+          "actualDuration": 118.903833,
+          "startTime": 1478.6075399999997,
+          "endTime": 1597.5113729999998
+        },
+        {
+          "path": "Audio/output/79/chapter_10.wav",
+          "duration": 133.603542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy",
+          "actualDuration": 133.603542,
+          "startTime": 1599.0113729999998,
+          "endTime": 1732.6149149999999
+        },
+        {
+          "path": "Audio/output/79/conclusion.wav",
+          "duration": 109.648292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.648292,
+          "startTime": 1734.1149149999999,
+          "endTime": 1843.763207
+        }
+      ],
+      "totalDuration": 1843.763207,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.24,
+          "actualStart": 0,
+          "actualEnd": 88.243667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life in the Colonies and the Question of Government",
+          "expectedStart": 88.24,
+          "expectedEnd": 297.58,
+          "actualStart": 89.743667,
+          "actualEnd": 299.0855,
+          "timeDifference": 1.5036670000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Flaws of Monarchy and Hereditary Rule",
+          "expectedStart": 297.58,
+          "expectedEnd": 501.67,
+          "actualStart": 300.5855,
+          "actualEnd": 504.67108300000007,
+          "timeDifference": 3.0055000000000405
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The True Purpose of Government and the Rights of the People",
+          "expectedStart": 501.67,
+          "expectedEnd": 663.22,
+          "actualStart": 506.17108300000007,
+          "actualEnd": 667.723333,
+          "timeDifference": 4.501083000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Why Reconciliation with Britain No Longer Makes Sense",
+          "expectedStart": 663.22,
+          "expectedEnd": 827.17,
+          "actualStart": 669.223333,
+          "actualEnd": 833.177291,
+          "timeDifference": 6.003332999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Urgency and Promise of Independence",
+          "expectedStart": 827.17,
+          "expectedEnd": 992.96,
+          "actualStart": 834.677291,
+          "actualEnd": 1000.469624,
+          "timeDifference": 7.507291000000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Practical Realities of Independence",
+          "expectedStart": 992.96,
+          "expectedEnd": 1178.76,
+          "actualStart": 1001.969624,
+          "actualEnd": 1187.7699989999999,
+          "timeDifference": 9.009623999999917
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Vision for a New Government",
+          "expectedStart": 1178.76,
+          "expectedEnd": 1333.13,
+          "actualStart": 1189.2699989999999,
+          "actualEnd": 1343.6395819999998,
+          "timeDifference": 10.50999899999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Unity",
+          "expectedStart": 1333.13,
+          "expectedEnd": 1465.1,
+          "actualStart": 1345.1395819999998,
+          "actualEnd": 1477.1075399999997,
+          "timeDifference": 12.009581999999682
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Courage and Sacrifice",
+          "expectedStart": 1465.1,
+          "expectedEnd": 1584,
+          "actualStart": 1478.6075399999997,
+          "actualEnd": 1597.5113729999998,
+          "timeDifference": 13.507539999999835
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy",
+          "expectedStart": 1584,
+          "expectedEnd": 1717.6,
+          "actualStart": 1599.0113729999998,
+          "actualEnd": 1732.6149149999999,
+          "timeDifference": 15.011372999999821
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1717.6,
+          "expectedEnd": 1827.25,
+          "actualStart": 1734.1149149999999,
+          "actualEnd": 1843.763207,
+          "timeDifference": 16.514914999999974
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.243667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life in the Colonies and the Question of Government"
+        },
+        {
+          "startTime": 299.0855,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life in the Colonies and the Question of Government and Chapter 2 The Flaws of Monarchy and Hereditary Rule"
+        },
+        {
+          "startTime": 504.67108300000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Flaws of Monarchy and Hereditary Rule and Chapter 3 The True Purpose of Government and the Rights of the People"
+        },
+        {
+          "startTime": 667.723333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The True Purpose of Government and the Rights of the People and Chapter 4 Why Reconciliation with Britain No Longer Makes Sense"
+        },
+        {
+          "startTime": 833.177291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Why Reconciliation with Britain No Longer Makes Sense and Chapter 5 The Urgency and Promise of Independence"
+        },
+        {
+          "startTime": 1000.469624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Urgency and Promise of Independence and Chapter 6 The Practical Realities of Independence"
+        },
+        {
+          "startTime": 1187.7699989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Practical Realities of Independence and Chapter 7 The Vision for a New Government"
+        },
+        {
+          "startTime": 1343.6395819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Vision for a New Government and Chapter 8 The Power of Unity"
+        },
+        {
+          "startTime": 1477.1075399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Unity and Chapter 9 The Role of Courage and Sacrifice"
+        },
+        {
+          "startTime": 1597.5113729999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Courage and Sacrifice and Chapter 10 The Enduring Legacy"
+        },
+        {
+          "startTime": 1732.6149149999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "79",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T19:53:24.728Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

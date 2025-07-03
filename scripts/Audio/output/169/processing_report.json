@@ -1,0 +1,337 @@
+{
+  "bookId": "169",
+  "timestamp": "2025-07-03T01:17:12.165Z",
+  "success": false,
+  "processingTime": -1751505132280,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4426,
+    "totalAudioFiles": 12,
+    "totalDuration": 1253.657833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 7,
+    "failed": 5,
+    "duration": 1253.657833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/169/optimized_text/169.md",
+    "fileSize": 6400,
+    "wordCount": 1034,
+    "format": "markdown",
+    "filename": "169.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/169/metadata/169_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1253.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/169/metadata/169_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/169/metadata/169_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/169/169_complete.wav",
+    "duration": 1253.657833,
+    "fileSize": 60175654,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/169/chapter_01.wav",
+          "duration": 262.359792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Country on the Edge",
+          "actualDuration": 262.359792,
+          "startTime": 0,
+          "endTime": 262.359792
+        },
+        {
+          "path": "Audio/output/169/chapter_02.wav",
+          "duration": 216.141833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Slow Unraveling of Peace",
+          "actualDuration": 216.141833,
+          "startTime": 263.859792,
+          "endTime": 480.001625
+        },
+        {
+          "path": "Audio/output/169/chapter_04.wav",
+          "duration": 203.794792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Bearing Witness Amid Horror",
+          "actualDuration": 203.794792,
+          "startTime": 481.501625,
+          "endTime": 685.296417
+        },
+        {
+          "path": "Audio/output/169/chapter_06.wav",
+          "duration": 201.044958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces",
+          "actualDuration": 201.044958,
+          "startTime": 686.796417,
+          "endTime": 887.841375
+        },
+        {
+          "path": "Audio/output/169/chapter_09.wav",
+          "duration": 137.399875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Personal Reckoning",
+          "actualDuration": 137.399875,
+          "startTime": 889.341375,
+          "endTime": 1026.74125
+        },
+        {
+          "path": "Audio/output/169/chapter_10.wav",
+          "duration": 134.291,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Struggle for Humanity",
+          "actualDuration": 134.291,
+          "startTime": 1028.24125,
+          "endTime": 1162.53225
+        },
+        {
+          "path": "Audio/output/169/conclusion.wav",
+          "duration": 98.625583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.625583,
+          "startTime": 1164.03225,
+          "endTime": 1262.657833
+        }
+      ],
+      "totalDuration": 1262.657833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Country on the Edge",
+          "expectedStart": 0,
+          "expectedEnd": 262.36,
+          "actualStart": 0,
+          "actualEnd": 262.359792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Slow Unraveling of Peace",
+          "expectedStart": 262.36,
+          "expectedEnd": 478.5,
+          "actualStart": 263.859792,
+          "actualEnd": 480.001625,
+          "timeDifference": 1.4997920000000136
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Bearing Witness Amid Horror",
+          "expectedStart": 478.5,
+          "expectedEnd": 682.29,
+          "actualStart": 481.501625,
+          "actualEnd": 685.296417,
+          "timeDifference": 3.00162499999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces",
+          "expectedStart": 682.29,
+          "expectedEnd": 883.33,
+          "actualStart": 686.796417,
+          "actualEnd": 887.841375,
+          "timeDifference": 4.506417000000056
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Personal Reckoning",
+          "expectedStart": 883.33,
+          "expectedEnd": 1020.73,
+          "actualStart": 889.341375,
+          "actualEnd": 1026.74125,
+          "timeDifference": 6.01137499999993
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Struggle for Humanity",
+          "expectedStart": 1020.73,
+          "expectedEnd": 1155.02,
+          "actualStart": 1028.24125,
+          "actualEnd": 1162.53225,
+          "timeDifference": 7.511250000000018
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1155.02,
+          "expectedEnd": 1253.65,
+          "actualStart": 1164.03225,
+          "actualEnd": 1262.657833,
+          "timeDifference": 9.012249999999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 262.359792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Country on the Edge and Chapter 2 The Slow Unraveling of Peace"
+        },
+        {
+          "startTime": 480.001625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Slow Unraveling of Peace and Chapter 4 Bearing Witness Amid Horror"
+        },
+        {
+          "startTime": 685.296417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Bearing Witness Amid Horror and Chapter 6 Picking Up the Pieces"
+        },
+        {
+          "startTime": 887.841375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces and Chapter 9 Personal Reckoning"
+        },
+        {
+          "startTime": 1026.74125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Personal Reckoning and Chapter 10 The Ongoing Struggle for Humanity"
+        },
+        {
+          "startTime": 1162.53225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Struggle for Humanity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 7
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "169",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T01:12:12.800Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

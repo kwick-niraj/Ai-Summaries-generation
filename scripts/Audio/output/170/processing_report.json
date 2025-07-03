@@ -1,0 +1,456 @@
+{
+  "bookId": "170",
+  "timestamp": "2025-07-03T01:21:59.059Z",
+  "success": false,
+  "processingTime": -1751505433168,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3987,
+    "totalAudioFiles": 12,
+    "totalDuration": 1975.8856250000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1975.8856250000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/170/optimized_text/170.md",
+    "fileSize": 592,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "170.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/170/metadata/170_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1975.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/170/metadata/170_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/170/metadata/170_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/170/170_complete.wav",
+    "duration": 1975.885625,
+    "fileSize": 94842588,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/170/introduction.wav",
+          "duration": 104.172292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.172292,
+          "startTime": 0,
+          "endTime": 104.172292
+        },
+        {
+          "path": "Audio/output/170/chapter_01.wav",
+          "duration": 177.95075,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing When Conversations Become Crucial",
+          "actualDuration": 177.95075,
+          "startTime": 105.672292,
+          "endTime": 283.623042
+        },
+        {
+          "path": "Audio/output/170/chapter_02.wav",
+          "duration": 198.034958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Focusing on What Matters Most",
+          "actualDuration": 198.034958,
+          "startTime": 285.123042,
+          "endTime": 483.158
+        },
+        {
+          "path": "Audio/output/170/chapter_03.wav",
+          "duration": 203.5305,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Spotting Signs of Silence and Aggression",
+          "actualDuration": 203.5305,
+          "startTime": 484.658,
+          "endTime": 688.1885
+        },
+        {
+          "path": "Audio/output/170/chapter_04.wav",
+          "duration": 222.253833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Safety for Honest Dialogue",
+          "actualDuration": 222.253833,
+          "startTime": 689.6885,
+          "endTime": 911.942333
+        },
+        {
+          "path": "Audio/output/170/chapter_05.wav",
+          "duration": 203.004458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Managing Emotions and Separating Facts from Stories",
+          "actualDuration": 203.004458,
+          "startTime": 913.442333,
+          "endTime": 1116.4467909999998
+        },
+        {
+          "path": "Audio/output/170/chapter_06.wav",
+          "duration": 170.189792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sharing Your Perspective with Clarity and Care",
+          "actualDuration": 170.189792,
+          "startTime": 1117.9467909999998,
+          "endTime": 1288.136583
+        },
+        {
+          "path": "Audio/output/170/chapter_07.wav",
+          "duration": 150.147292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Listening to Understand, Not to Win",
+          "actualDuration": 150.147292,
+          "startTime": 1289.636583,
+          "endTime": 1439.783875
+        },
+        {
+          "path": "Audio/output/170/chapter_08.wav",
+          "duration": 141.615792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Moving from Dialogue to Action",
+          "actualDuration": 141.615792,
+          "startTime": 1441.283875,
+          "endTime": 1582.8996670000001
+        },
+        {
+          "path": "Audio/output/170/chapter_09.wav",
+          "duration": 127.327708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practicing and Embedding the Skills",
+          "actualDuration": 127.327708,
+          "startTime": 1584.3996670000001,
+          "endTime": 1711.7273750000002
+        },
+        {
+          "path": "Audio/output/170/chapter_10.wav",
+          "duration": 115.687333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating Setbacks and Building Resilience",
+          "actualDuration": 115.687333,
+          "startTime": 1713.2273750000002,
+          "endTime": 1828.9147080000002
+        },
+        {
+          "path": "Audio/output/170/conclusion.wav",
+          "duration": 161.970917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.970917,
+          "startTime": 1830.4147080000002,
+          "endTime": 1992.3856250000003
+        }
+      ],
+      "totalDuration": 1992.3856250000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.17,
+          "actualStart": 0,
+          "actualEnd": 104.172292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing When Conversations Become Crucial",
+          "expectedStart": 104.17,
+          "expectedEnd": 282.12,
+          "actualStart": 105.672292,
+          "actualEnd": 283.623042,
+          "timeDifference": 1.502291999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Focusing on What Matters Most",
+          "expectedStart": 282.12,
+          "expectedEnd": 480.15,
+          "actualStart": 285.123042,
+          "actualEnd": 483.158,
+          "timeDifference": 3.0030419999999935
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Spotting Signs of Silence and Aggression",
+          "expectedStart": 480.15,
+          "expectedEnd": 683.68,
+          "actualStart": 484.658,
+          "actualEnd": 688.1885,
+          "timeDifference": 4.508000000000038
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Safety for Honest Dialogue",
+          "expectedStart": 683.68,
+          "expectedEnd": 905.93,
+          "actualStart": 689.6885,
+          "actualEnd": 911.942333,
+          "timeDifference": 6.008500000000026
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Managing Emotions and Separating Facts from Stories",
+          "expectedStart": 905.93,
+          "expectedEnd": 1108.93,
+          "actualStart": 913.442333,
+          "actualEnd": 1116.4467909999998,
+          "timeDifference": 7.512333000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sharing Your Perspective with Clarity and Care",
+          "expectedStart": 1108.93,
+          "expectedEnd": 1279.12,
+          "actualStart": 1117.9467909999998,
+          "actualEnd": 1288.136583,
+          "timeDifference": 9.016790999999785
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Listening to Understand, Not to Win",
+          "expectedStart": 1279.12,
+          "expectedEnd": 1429.27,
+          "actualStart": 1289.636583,
+          "actualEnd": 1439.783875,
+          "timeDifference": 10.516583000000082
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Moving from Dialogue to Action",
+          "expectedStart": 1429.27,
+          "expectedEnd": 1570.89,
+          "actualStart": 1441.283875,
+          "actualEnd": 1582.8996670000001,
+          "timeDifference": 12.013875000000098
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practicing and Embedding the Skills",
+          "expectedStart": 1570.89,
+          "expectedEnd": 1698.22,
+          "actualStart": 1584.3996670000001,
+          "actualEnd": 1711.7273750000002,
+          "timeDifference": 13.509667000000036
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating Setbacks and Building Resilience",
+          "expectedStart": 1698.22,
+          "expectedEnd": 1813.91,
+          "actualStart": 1713.2273750000002,
+          "actualEnd": 1828.9147080000002,
+          "timeDifference": 15.007375000000138
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1813.91,
+          "expectedEnd": 1975.88,
+          "actualStart": 1830.4147080000002,
+          "actualEnd": 1992.3856250000003,
+          "timeDifference": 16.504708000000164
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.172292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing When Conversations Become Crucial"
+        },
+        {
+          "startTime": 283.623042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing When Conversations Become Crucial and Chapter 2 Focusing on What Matters Most"
+        },
+        {
+          "startTime": 483.158,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Focusing on What Matters Most and Chapter 3 Spotting Signs of Silence and Aggression"
+        },
+        {
+          "startTime": 688.1885,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Spotting Signs of Silence and Aggression and Chapter 4 Creating Safety for Honest Dialogue"
+        },
+        {
+          "startTime": 911.942333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Safety for Honest Dialogue and Chapter 5 Managing Emotions and Separating Facts from Stories"
+        },
+        {
+          "startTime": 1116.4467909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Managing Emotions and Separating Facts from Stories and Chapter 6 Sharing Your Perspective with Clarity and Care"
+        },
+        {
+          "startTime": 1288.136583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sharing Your Perspective with Clarity and Care and Chapter 7 Listening to Understand, Not to Win"
+        },
+        {
+          "startTime": 1439.783875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Listening to Understand, Not to Win and Chapter 8 Moving from Dialogue to Action"
+        },
+        {
+          "startTime": 1582.8996670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Moving from Dialogue to Action and Chapter 9 Practicing and Embedding the Skills"
+        },
+        {
+          "startTime": 1711.7273750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practicing and Embedding the Skills and Chapter 10 Navigating Setbacks and Building Resilience"
+        },
+        {
+          "startTime": 1828.9147080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating Setbacks and Building Resilience and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "170",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T01:17:14.481Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

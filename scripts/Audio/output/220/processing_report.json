@@ -1,0 +1,456 @@
+{
+  "bookId": "220",
+  "timestamp": "2025-07-03T04:01:34.867Z",
+  "success": false,
+  "processingTime": -1751514930418,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3858,
+    "totalAudioFiles": 12,
+    "totalDuration": 2038.6200840000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2038.6200840000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/220/optimized_text/220.md",
+    "fileSize": 732,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "220.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/220/metadata/220_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2038.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/220/metadata/220_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/220/metadata/220_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/220/220_complete.wav",
+    "duration": 2038.620083,
+    "fileSize": 97853842,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/220/introduction.wav",
+          "duration": 115.520542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 115.520542,
+          "startTime": 0,
+          "endTime": 115.520542
+        },
+        {
+          "path": "Audio/output/220/chapter_01.wav",
+          "duration": 213.358167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Reality—The Foundation of All Things",
+          "actualDuration": 213.358167,
+          "startTime": 117.020542,
+          "endTime": 330.378709
+        },
+        {
+          "path": "Audio/output/220/chapter_02.wav",
+          "duration": 204.553208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Human Mind and Its Place in Nature",
+          "actualDuration": 204.553208,
+          "startTime": 331.878709,
+          "endTime": 536.431917
+        },
+        {
+          "path": "Audio/output/220/chapter_03.wav",
+          "duration": 232.767333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Nature and Power of Emotions",
+          "actualDuration": 232.767333,
+          "startTime": 537.931917,
+          "endTime": 770.69925
+        },
+        {
+          "path": "Audio/output/220/chapter_04.wav",
+          "duration": 191.456625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Path to Freedom—Living in Accord with Reason",
+          "actualDuration": 191.456625,
+          "startTime": 772.19925,
+          "endTime": 963.655875
+        },
+        {
+          "path": "Audio/output/220/chapter_05.wav",
+          "duration": 183.423667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Community and the Common Good",
+          "actualDuration": 183.423667,
+          "startTime": 965.155875,
+          "endTime": 1148.579542
+        },
+        {
+          "path": "Audio/output/220/chapter_06.wav",
+          "duration": 182.1635,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Pursuit of Joy—Understanding Happiness as Empowerment",
+          "actualDuration": 182.1635,
+          "startTime": 1150.079542,
+          "endTime": 1332.243042
+        },
+        {
+          "path": "Audio/output/220/chapter_07.wav",
+          "duration": 189.540625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Intellectual Love of God—A Higher Form of Understanding",
+          "actualDuration": 189.540625,
+          "startTime": 1333.743042,
+          "endTime": 1523.2836670000002
+        },
+        {
+          "path": "Audio/output/220/chapter_08.wav",
+          "duration": 132.279125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Obstacles—Dealing with Suffering and Setbacks",
+          "actualDuration": 132.279125,
+          "startTime": 1524.7836670000002,
+          "endTime": 1657.0627920000002
+        },
+        {
+          "path": "Audio/output/220/chapter_09.wav",
+          "duration": 123.833417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Framework—Daily Practices for Ethical Living",
+          "actualDuration": 123.833417,
+          "startTime": 1658.5627920000002,
+          "endTime": 1782.3962090000002
+        },
+        {
+          "path": "Audio/output/220/chapter_10.wav",
+          "duration": 138.468,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Fulfillment and Flourishing—The Enduring Benefits of Ethical Understanding",
+          "actualDuration": 138.468,
+          "startTime": 1783.8962090000002,
+          "endTime": 1922.3642090000003
+        },
+        {
+          "path": "Audio/output/220/conclusion.wav",
+          "duration": 131.255875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.255875,
+          "startTime": 1923.8642090000003,
+          "endTime": 2055.120084
+        }
+      ],
+      "totalDuration": 2055.120084,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 115.52,
+          "actualStart": 0,
+          "actualEnd": 115.520542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Reality—The Foundation of All Things",
+          "expectedStart": 115.52,
+          "expectedEnd": 328.88,
+          "actualStart": 117.020542,
+          "actualEnd": 330.378709,
+          "timeDifference": 1.50054200000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Human Mind and Its Place in Nature",
+          "expectedStart": 328.88,
+          "expectedEnd": 533.43,
+          "actualStart": 331.878709,
+          "actualEnd": 536.431917,
+          "timeDifference": 2.9987090000000194
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Nature and Power of Emotions",
+          "expectedStart": 533.43,
+          "expectedEnd": 766.2,
+          "actualStart": 537.931917,
+          "actualEnd": 770.69925,
+          "timeDifference": 4.501917000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Path to Freedom—Living in Accord with Reason",
+          "expectedStart": 766.2,
+          "expectedEnd": 957.66,
+          "actualStart": 772.19925,
+          "actualEnd": 963.655875,
+          "timeDifference": 5.999249999999961
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Community and the Common Good",
+          "expectedStart": 957.66,
+          "expectedEnd": 1141.08,
+          "actualStart": 965.155875,
+          "actualEnd": 1148.579542,
+          "timeDifference": 7.495875000000069
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Pursuit of Joy—Understanding Happiness as Empowerment",
+          "expectedStart": 1141.08,
+          "expectedEnd": 1323.24,
+          "actualStart": 1150.079542,
+          "actualEnd": 1332.243042,
+          "timeDifference": 8.99954200000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Intellectual Love of God—A Higher Form of Understanding",
+          "expectedStart": 1323.24,
+          "expectedEnd": 1512.78,
+          "actualStart": 1333.743042,
+          "actualEnd": 1523.2836670000002,
+          "timeDifference": 10.50304200000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Obstacles—Dealing with Suffering and Setbacks",
+          "expectedStart": 1512.78,
+          "expectedEnd": 1645.06,
+          "actualStart": 1524.7836670000002,
+          "actualEnd": 1657.0627920000002,
+          "timeDifference": 12.003667000000178
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Framework—Daily Practices for Ethical Living",
+          "expectedStart": 1645.06,
+          "expectedEnd": 1768.89,
+          "actualStart": 1658.5627920000002,
+          "actualEnd": 1782.3962090000002,
+          "timeDifference": 13.502792000000227
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Fulfillment and Flourishing—The Enduring Benefits of Ethical Understanding",
+          "expectedStart": 1768.89,
+          "expectedEnd": 1907.36,
+          "actualStart": 1783.8962090000002,
+          "actualEnd": 1922.3642090000003,
+          "timeDifference": 15.006209000000126
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1907.36,
+          "expectedEnd": 2038.62,
+          "actualStart": 1923.8642090000003,
+          "actualEnd": 2055.120084,
+          "timeDifference": 16.5042090000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 115.520542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Reality—The Foundation of All Things"
+        },
+        {
+          "startTime": 330.378709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Reality—The Foundation of All Things and Chapter 2 The Human Mind and Its Place in Nature"
+        },
+        {
+          "startTime": 536.431917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Human Mind and Its Place in Nature and Chapter 3 The Nature and Power of Emotions"
+        },
+        {
+          "startTime": 770.69925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Nature and Power of Emotions and Chapter 4 The Path to Freedom—Living in Accord with Reason"
+        },
+        {
+          "startTime": 963.655875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Path to Freedom—Living in Accord with Reason and Chapter 5 The Role of Community and the Common Good"
+        },
+        {
+          "startTime": 1148.579542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Community and the Common Good and Chapter 6 The Pursuit of Joy—Understanding Happiness as Empowerment"
+        },
+        {
+          "startTime": 1332.243042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Pursuit of Joy—Understanding Happiness as Empowerment and Chapter 7 The Intellectual Love of God—A Higher Form of Understanding"
+        },
+        {
+          "startTime": 1523.2836670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Intellectual Love of God—A Higher Form of Understanding and Chapter 8 Overcoming Obstacles—Dealing with Suffering and Setbacks"
+        },
+        {
+          "startTime": 1657.0627920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Obstacles—Dealing with Suffering and Setbacks and Chapter 9 Integrating the Framework—Daily Practices for Ethical Living"
+        },
+        {
+          "startTime": 1782.3962090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Framework—Daily Practices for Ethical Living and Chapter 10 Fulfillment and Flourishing—The Enduring Benefits of Ethical Understanding"
+        },
+        {
+          "startTime": 1922.3642090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Fulfillment and Flourishing—The Enduring Benefits of Ethical Understanding and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "220",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T03:55:31.624Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

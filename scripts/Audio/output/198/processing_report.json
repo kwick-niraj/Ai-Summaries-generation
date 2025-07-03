@@ -1,0 +1,432 @@
+{
+  "bookId": "198",
+  "timestamp": "2025-07-03T02:42:06.892Z",
+  "success": false,
+  "processingTime": -1751510242113,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4186,
+    "totalAudioFiles": 11,
+    "totalDuration": 1883.669835
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1883.669835
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/198/optimized_text/198.md",
+    "fileSize": 759,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "198.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/198/metadata/198_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1883.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/198/metadata/198_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/198/metadata/198_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/198/198_complete.wav",
+    "duration": 1883.669833,
+    "fileSize": 90416230,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/198/introduction.wav",
+          "duration": 79.373125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.373125,
+          "startTime": 0,
+          "endTime": 79.373125
+        },
+        {
+          "path": "Audio/output/198/chapter_01.wav",
+          "duration": 195.832042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Curiosity at the Dinner Table — Why We Avoid Talking About Digestion",
+          "actualDuration": 195.832042,
+          "startTime": 80.873125,
+          "endTime": 276.705167
+        },
+        {
+          "path": "Audio/output/198/chapter_02.wav",
+          "duration": 173.480542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mouth — Where Taste, Smell, and Texture Shape Our Experience",
+          "actualDuration": 173.480542,
+          "startTime": 278.205167,
+          "endTime": 451.68570900000003
+        },
+        {
+          "path": "Audio/output/198/chapter_03.wav",
+          "duration": 190.917125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Swallowing and the Esophagus — The Hidden Work of Moving Food",
+          "actualDuration": 190.917125,
+          "startTime": 453.18570900000003,
+          "endTime": 644.102834
+        },
+        {
+          "path": "Audio/output/198/chapter_04.wav",
+          "duration": 206.580792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Stomach — Breaking Down Food and Myths",
+          "actualDuration": 206.580792,
+          "startTime": 645.602834,
+          "endTime": 852.183626
+        },
+        {
+          "path": "Audio/output/198/chapter_05.wav",
+          "duration": 203.269875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Small Intestine — Absorption, Adaptation, and the Unexpected",
+          "actualDuration": 203.269875,
+          "startTime": 853.683626,
+          "endTime": 1056.953501
+        },
+        {
+          "path": "Audio/output/198/chapter_06.wav",
+          "duration": 193.041417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Large Intestine — Water, Waste, and the Quiet Work of Transformation",
+          "actualDuration": 193.041417,
+          "startTime": 1058.453501,
+          "endTime": 1251.4949179999999
+        },
+        {
+          "path": "Audio/output/198/chapter_07.wav",
+          "duration": 184.079667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rectum and Anus — The Final Gate and the Science of Elimination",
+          "actualDuration": 184.079667,
+          "startTime": 1252.9949179999999,
+          "endTime": 1437.0745849999998
+        },
+        {
+          "path": "Audio/output/198/chapter_08.wav",
+          "duration": 185.243917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Science and Culture of Flatulence — Humor, Health, and Hidden Messages",
+          "actualDuration": 185.243917,
+          "startTime": 1438.5745849999998,
+          "endTime": 1623.8185019999999
+        },
+        {
+          "path": "Audio/output/198/chapter_09.wav",
+          "duration": 144.3775,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Taboos, Curiosity, and the Future of Digestion",
+          "actualDuration": 144.3775,
+          "startTime": 1625.3185019999999,
+          "endTime": 1769.696002
+        },
+        {
+          "path": "Audio/output/198/conclusion.wav",
+          "duration": 127.473833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.473833,
+          "startTime": 1771.196002,
+          "endTime": 1898.669835
+        }
+      ],
+      "totalDuration": 1898.669835,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.37,
+          "actualStart": 0,
+          "actualEnd": 79.373125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Curiosity at the Dinner Table — Why We Avoid Talking About Digestion",
+          "expectedStart": 79.37,
+          "expectedEnd": 275.2,
+          "actualStart": 80.873125,
+          "actualEnd": 276.705167,
+          "timeDifference": 1.5031249999999972
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mouth — Where Taste, Smell, and Texture Shape Our Experience",
+          "expectedStart": 275.2,
+          "expectedEnd": 448.68,
+          "actualStart": 278.205167,
+          "actualEnd": 451.68570900000003,
+          "timeDifference": 3.0051670000000286
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Swallowing and the Esophagus — The Hidden Work of Moving Food",
+          "expectedStart": 448.68,
+          "expectedEnd": 639.6,
+          "actualStart": 453.18570900000003,
+          "actualEnd": 644.102834,
+          "timeDifference": 4.505709000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Stomach — Breaking Down Food and Myths",
+          "expectedStart": 639.6,
+          "expectedEnd": 846.18,
+          "actualStart": 645.602834,
+          "actualEnd": 852.183626,
+          "timeDifference": 6.002834000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Small Intestine — Absorption, Adaptation, and the Unexpected",
+          "expectedStart": 846.18,
+          "expectedEnd": 1049.45,
+          "actualStart": 853.683626,
+          "actualEnd": 1056.953501,
+          "timeDifference": 7.503626000000054
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Large Intestine — Water, Waste, and the Quiet Work of Transformation",
+          "expectedStart": 1049.45,
+          "expectedEnd": 1242.49,
+          "actualStart": 1058.453501,
+          "actualEnd": 1251.4949179999999,
+          "timeDifference": 9.003500999999915
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rectum and Anus — The Final Gate and the Science of Elimination",
+          "expectedStart": 1242.49,
+          "expectedEnd": 1426.57,
+          "actualStart": 1252.9949179999999,
+          "actualEnd": 1437.0745849999998,
+          "timeDifference": 10.504917999999861
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Science and Culture of Flatulence — Humor, Health, and Hidden Messages",
+          "expectedStart": 1426.57,
+          "expectedEnd": 1611.81,
+          "actualStart": 1438.5745849999998,
+          "actualEnd": 1623.8185019999999,
+          "timeDifference": 12.004584999999906
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Taboos, Curiosity, and the Future of Digestion",
+          "expectedStart": 1611.81,
+          "expectedEnd": 1756.19,
+          "actualStart": 1625.3185019999999,
+          "actualEnd": 1769.696002,
+          "timeDifference": 13.508501999999908
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1756.19,
+          "expectedEnd": 1883.66,
+          "actualStart": 1771.196002,
+          "actualEnd": 1898.669835,
+          "timeDifference": 15.006001999999853
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.373125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Curiosity at the Dinner Table — Why We Avoid Talking About Digestion"
+        },
+        {
+          "startTime": 276.705167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Curiosity at the Dinner Table — Why We Avoid Talking About Digestion and Chapter 2 The Mouth — Where Taste, Smell, and Texture Shape Our Experience"
+        },
+        {
+          "startTime": 451.68570900000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mouth — Where Taste, Smell, and Texture Shape Our Experience and Chapter 3 Swallowing and the Esophagus — The Hidden Work of Moving Food"
+        },
+        {
+          "startTime": 644.102834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Swallowing and the Esophagus — The Hidden Work of Moving Food and Chapter 4 The Stomach — Breaking Down Food and Myths"
+        },
+        {
+          "startTime": 852.183626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Stomach — Breaking Down Food and Myths and Chapter 5 The Small Intestine — Absorption, Adaptation, and the Unexpected"
+        },
+        {
+          "startTime": 1056.953501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Small Intestine — Absorption, Adaptation, and the Unexpected and Chapter 6 The Large Intestine — Water, Waste, and the Quiet Work of Transformation"
+        },
+        {
+          "startTime": 1251.4949179999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Large Intestine — Water, Waste, and the Quiet Work of Transformation and Chapter 7 The Rectum and Anus — The Final Gate and the Science of Elimination"
+        },
+        {
+          "startTime": 1437.0745849999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rectum and Anus — The Final Gate and the Science of Elimination and Chapter 8 The Science and Culture of Flatulence — Humor, Health, and Hidden Messages"
+        },
+        {
+          "startTime": 1623.8185019999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Science and Culture of Flatulence — Humor, Health, and Hidden Messages and Chapter 9 Taboos, Curiosity, and the Future of Digestion"
+        },
+        {
+          "startTime": 1769.696002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Taboos, Curiosity, and the Future of Digestion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "198",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T02:37:23.297Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

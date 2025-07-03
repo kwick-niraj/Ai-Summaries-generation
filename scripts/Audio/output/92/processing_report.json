@@ -1,0 +1,575 @@
+{
+  "bookId": "92",
+  "timestamp": "2025-07-02T20:59:46.537Z",
+  "success": false,
+  "processingTime": -1751489472972,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 6588,
+    "totalAudioFiles": 17,
+    "totalDuration": 2782.5416250000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2782.5416250000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/92/optimized_text/92.md",
+    "fileSize": 797,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "92.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/92/metadata/92_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2782.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/92/metadata/92_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/92/metadata/92_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/92/92_complete.wav",
+    "duration": 2782.541625,
+    "fileSize": 133562076,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/92/introduction.wav",
+          "duration": 85.948167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.948167,
+          "startTime": 0,
+          "endTime": 85.948167
+        },
+        {
+          "path": "Audio/output/92/chapter_01.wav",
+          "duration": 220.520958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Life’s Endings and New Beginnings",
+          "actualDuration": 220.520958,
+          "startTime": 87.448167,
+          "endTime": 307.969125
+        },
+        {
+          "path": "Audio/output/92/chapter_02.wav",
+          "duration": 209.155542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Nature as a Mirror for the Inner World",
+          "actualDuration": 209.155542,
+          "startTime": 309.469125,
+          "endTime": 518.624667
+        },
+        {
+          "path": "Audio/output/92/chapter_03.wav",
+          "duration": 212.329583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Many Faces of Love and Loss",
+          "actualDuration": 212.329583,
+          "startTime": 520.124667,
+          "endTime": 732.45425
+        },
+        {
+          "path": "Audio/output/92/chapter_04.wav",
+          "duration": 220.056417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Wrestling with Faith, Doubt, and the Search for Meaning",
+          "actualDuration": 220.056417,
+          "startTime": 733.95425,
+          "endTime": 954.010667
+        },
+        {
+          "path": "Audio/output/92/chapter_05.wav",
+          "duration": 219.264167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Exploring the Depths of the Inner Life",
+          "actualDuration": 219.264167,
+          "startTime": 955.510667,
+          "endTime": 1174.774834
+        },
+        {
+          "path": "Audio/output/92/chapter_06.wav",
+          "duration": 178.867,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Solitude of the Self",
+          "actualDuration": 178.867,
+          "startTime": 1176.274834,
+          "endTime": 1355.141834
+        },
+        {
+          "path": "Audio/output/92/chapter_07.wav",
+          "duration": 166.028,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ambiguity of Truth",
+          "actualDuration": 166.028,
+          "startTime": 1356.641834,
+          "endTime": 1522.669834
+        },
+        {
+          "path": "Audio/output/92/chapter_08.wav",
+          "duration": 154.909417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Transformative Power of Language",
+          "actualDuration": 154.909417,
+          "startTime": 1524.169834,
+          "endTime": 1679.079251
+        },
+        {
+          "path": "Audio/output/92/chapter_09.wav",
+          "duration": 173.879708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Tension Between Conformity and Individuality",
+          "actualDuration": 173.879708,
+          "startTime": 1680.579251,
+          "endTime": 1854.458959
+        },
+        {
+          "path": "Audio/output/92/chapter_10.wav",
+          "duration": 145.985583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Everyday Sacred",
+          "actualDuration": 145.985583,
+          "startTime": 1855.958959,
+          "endTime": 2001.944542
+        },
+        {
+          "path": "Audio/output/92/chapter_11.wav",
+          "duration": 131.836167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Playfulness of the Mind",
+          "actualDuration": 131.836167,
+          "startTime": 2003.444542,
+          "endTime": 2135.280709
+        },
+        {
+          "path": "Audio/output/92/chapter_12.wav",
+          "duration": 132.844208,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Unseen Forces That Shape a Life",
+          "actualDuration": 132.844208,
+          "startTime": 2136.780709,
+          "endTime": 2269.624917
+        },
+        {
+          "path": "Audio/output/92/chapter_13.wav",
+          "duration": 134.326292,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Enduring Mystery of Death",
+          "actualDuration": 134.326292,
+          "startTime": 2271.124917,
+          "endTime": 2405.4512090000003
+        },
+        {
+          "path": "Audio/output/92/chapter_14.wav",
+          "duration": 142.040958,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Quiet Revolution of the Everyday",
+          "actualDuration": 142.040958,
+          "startTime": 2406.9512090000003,
+          "endTime": 2548.9921670000003
+        },
+        {
+          "path": "Audio/output/92/chapter_15.wav",
+          "duration": 138.677625,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Invitation to Wonder",
+          "actualDuration": 138.677625,
+          "startTime": 2550.4921670000003,
+          "endTime": 2689.169792
+        },
+        {
+          "path": "Audio/output/92/conclusion.wav",
+          "duration": 115.871833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.871833,
+          "startTime": 2690.669792,
+          "endTime": 2806.5416250000003
+        }
+      ],
+      "totalDuration": 2806.5416250000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.95,
+          "actualStart": 0,
+          "actualEnd": 85.948167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Life’s Endings and New Beginnings",
+          "expectedStart": 85.95,
+          "expectedEnd": 306.47,
+          "actualStart": 87.448167,
+          "actualEnd": 307.969125,
+          "timeDifference": 1.4981669999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Nature as a Mirror for the Inner World",
+          "expectedStart": 306.47,
+          "expectedEnd": 515.63,
+          "actualStart": 309.469125,
+          "actualEnd": 518.624667,
+          "timeDifference": 2.9991249999999923
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Many Faces of Love and Loss",
+          "expectedStart": 515.63,
+          "expectedEnd": 727.96,
+          "actualStart": 520.124667,
+          "actualEnd": 732.45425,
+          "timeDifference": 4.4946670000000495
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Wrestling with Faith, Doubt, and the Search for Meaning",
+          "expectedStart": 727.96,
+          "expectedEnd": 948.02,
+          "actualStart": 733.95425,
+          "actualEnd": 954.010667,
+          "timeDifference": 5.994249999999965
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Exploring the Depths of the Inner Life",
+          "expectedStart": 948.02,
+          "expectedEnd": 1167.28,
+          "actualStart": 955.510667,
+          "actualEnd": 1174.774834,
+          "timeDifference": 7.49066700000003
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Solitude of the Self",
+          "expectedStart": 1167.28,
+          "expectedEnd": 1346.15,
+          "actualStart": 1176.274834,
+          "actualEnd": 1355.141834,
+          "timeDifference": 8.994834000000083
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ambiguity of Truth",
+          "expectedStart": 1346.15,
+          "expectedEnd": 1512.18,
+          "actualStart": 1356.641834,
+          "actualEnd": 1522.669834,
+          "timeDifference": 10.491833999999926
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Transformative Power of Language",
+          "expectedStart": 1512.18,
+          "expectedEnd": 1667.09,
+          "actualStart": 1524.169834,
+          "actualEnd": 1679.079251,
+          "timeDifference": 11.989833999999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Tension Between Conformity and Individuality",
+          "expectedStart": 1667.09,
+          "expectedEnd": 1840.97,
+          "actualStart": 1680.579251,
+          "actualEnd": 1854.458959,
+          "timeDifference": 13.489251000000195
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Everyday Sacred",
+          "expectedStart": 1840.97,
+          "expectedEnd": 1986.96,
+          "actualStart": 1855.958959,
+          "actualEnd": 2001.944542,
+          "timeDifference": 14.988959000000023
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Playfulness of the Mind",
+          "expectedStart": 1986.96,
+          "expectedEnd": 2118.8,
+          "actualStart": 2003.444542,
+          "actualEnd": 2135.280709,
+          "timeDifference": 16.48454199999992
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Unseen Forces That Shape a Life",
+          "expectedStart": 2118.8,
+          "expectedEnd": 2251.64,
+          "actualStart": 2136.780709,
+          "actualEnd": 2269.624917,
+          "timeDifference": 17.980708999999933
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Enduring Mystery of Death",
+          "expectedStart": 2251.64,
+          "expectedEnd": 2385.97,
+          "actualStart": 2271.124917,
+          "actualEnd": 2405.4512090000003,
+          "timeDifference": 19.484917000000223
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Quiet Revolution of the Everyday",
+          "expectedStart": 2385.97,
+          "expectedEnd": 2528.01,
+          "actualStart": 2406.9512090000003,
+          "actualEnd": 2548.9921670000003,
+          "timeDifference": 20.98120900000049
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Invitation to Wonder",
+          "expectedStart": 2528.01,
+          "expectedEnd": 2666.69,
+          "actualStart": 2550.4921670000003,
+          "actualEnd": 2689.169792,
+          "timeDifference": 22.482167000000118
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2666.69,
+          "expectedEnd": 2782.56,
+          "actualStart": 2690.669792,
+          "actualEnd": 2806.5416250000003,
+          "timeDifference": 23.97979200000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.948167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Life’s Endings and New Beginnings"
+        },
+        {
+          "startTime": 307.969125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Life’s Endings and New Beginnings and Chapter 2 Nature as a Mirror for the Inner World"
+        },
+        {
+          "startTime": 518.624667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Nature as a Mirror for the Inner World and Chapter 3 The Many Faces of Love and Loss"
+        },
+        {
+          "startTime": 732.45425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Many Faces of Love and Loss and Chapter 4 Wrestling with Faith, Doubt, and the Search for Meaning"
+        },
+        {
+          "startTime": 954.010667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Wrestling with Faith, Doubt, and the Search for Meaning and Chapter 5 Exploring the Depths of the Inner Life"
+        },
+        {
+          "startTime": 1174.774834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Exploring the Depths of the Inner Life and Chapter 6 The Solitude of the Self"
+        },
+        {
+          "startTime": 1355.141834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Solitude of the Self and Chapter 7 The Ambiguity of Truth"
+        },
+        {
+          "startTime": 1522.669834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ambiguity of Truth and Chapter 8 The Transformative Power of Language"
+        },
+        {
+          "startTime": 1679.079251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Transformative Power of Language and Chapter 9 The Tension Between Conformity and Individuality"
+        },
+        {
+          "startTime": 1854.458959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Tension Between Conformity and Individuality and Chapter 10 The Everyday Sacred"
+        },
+        {
+          "startTime": 2001.944542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Everyday Sacred and Chapter 11 The Playfulness of the Mind"
+        },
+        {
+          "startTime": 2135.280709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Playfulness of the Mind and Chapter 12 The Unseen Forces That Shape a Life"
+        },
+        {
+          "startTime": 2269.624917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Unseen Forces That Shape a Life and Chapter 13 The Enduring Mystery of Death"
+        },
+        {
+          "startTime": 2405.4512090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Enduring Mystery of Death and Chapter 14 The Quiet Revolution of the Everyday"
+        },
+        {
+          "startTime": 2548.9921670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Quiet Revolution of the Everyday and Chapter 15 The Invitation to Wonder"
+        },
+        {
+          "startTime": 2689.169792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Invitation to Wonder and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "92",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T20:51:14.601Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

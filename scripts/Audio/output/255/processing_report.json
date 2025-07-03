@@ -1,0 +1,456 @@
+{
+  "bookId": "255",
+  "timestamp": "2025-07-03T05:48:21.040Z",
+  "success": false,
+  "processingTime": -1751521426180,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4807,
+    "totalAudioFiles": 12,
+    "totalDuration": 2055.013208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2055.013208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/255/optimized_text/255.md",
+    "fileSize": 653,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "255.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/255/metadata/255_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2055.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/255/metadata/255_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/255/metadata/255_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/255/255_complete.wav",
+    "duration": 2055.013208,
+    "fileSize": 98640712,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/255/introduction.wav",
+          "duration": 101.830833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.830833,
+          "startTime": 0,
+          "endTime": 101.830833
+        },
+        {
+          "path": "Audio/output/255/chapter_01.wav",
+          "duration": 264.913833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into the World of Homicide Detectives",
+          "actualDuration": 264.913833,
+          "startTime": 103.330833,
+          "endTime": 368.244666
+        },
+        {
+          "path": "Audio/output/255/chapter_02.wav",
+          "duration": 243.320042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Daily Grind: Chasing Leads and Facing Obstacles",
+          "actualDuration": 243.320042,
+          "startTime": 369.744666,
+          "endTime": 613.064708
+        },
+        {
+          "path": "Audio/output/255/chapter_03.wav",
+          "duration": 188.171125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Violence: Lives Changed Forever",
+          "actualDuration": 188.171125,
+          "startTime": 614.564708,
+          "endTime": 802.735833
+        },
+        {
+          "path": "Audio/output/255/chapter_04.wav",
+          "duration": 204.815333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Search for Justice: Ambiguity and Frustration",
+          "actualDuration": 204.815333,
+          "startTime": 804.235833,
+          "endTime": 1009.051166
+        },
+        {
+          "path": "Audio/output/255/chapter_05.wav",
+          "duration": 163.346,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Cost: Coping, Camaraderie, and Carrying On",
+          "actualDuration": 163.346,
+          "startTime": 1010.551166,
+          "endTime": 1173.897166
+        },
+        {
+          "path": "Audio/output/255/chapter_06.wav",
+          "duration": 157.11975,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow of Unsolved Cases",
+          "actualDuration": 157.11975,
+          "startTime": 1175.397166,
+          "endTime": 1332.516916
+        },
+        {
+          "path": "Audio/output/255/chapter_07.wav",
+          "duration": 176.785792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The System’s Fault Lines: Race, Class, and Distrust",
+          "actualDuration": 176.785792,
+          "startTime": 1334.016916,
+          "endTime": 1510.802708
+        },
+        {
+          "path": "Audio/output/255/chapter_08.wav",
+          "duration": 170.651,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Courtroom: Where Stories Collide",
+          "actualDuration": 170.651,
+          "startTime": 1512.302708,
+          "endTime": 1682.953708
+        },
+        {
+          "path": "Audio/output/255/chapter_09.wav",
+          "duration": 142.723292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Toll on the Detectives: Private Battles",
+          "actualDuration": 142.723292,
+          "startTime": 1684.453708,
+          "endTime": 1827.177
+        },
+        {
+          "path": "Audio/output/255/chapter_10.wav",
+          "duration": 125.955375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Questions: What Does It All Mean?",
+          "actualDuration": 125.955375,
+          "startTime": 1828.677,
+          "endTime": 1954.632375
+        },
+        {
+          "path": "Audio/output/255/conclusion.wav",
+          "duration": 115.380833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.380833,
+          "startTime": 1956.132375,
+          "endTime": 2071.513208
+        }
+      ],
+      "totalDuration": 2071.513208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.83,
+          "actualStart": 0,
+          "actualEnd": 101.830833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into the World of Homicide Detectives",
+          "expectedStart": 101.83,
+          "expectedEnd": 366.74,
+          "actualStart": 103.330833,
+          "actualEnd": 368.244666,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Daily Grind: Chasing Leads and Facing Obstacles",
+          "expectedStart": 366.74,
+          "expectedEnd": 610.06,
+          "actualStart": 369.744666,
+          "actualEnd": 613.064708,
+          "timeDifference": 3.004665999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Violence: Lives Changed Forever",
+          "expectedStart": 610.06,
+          "expectedEnd": 798.23,
+          "actualStart": 614.564708,
+          "actualEnd": 802.735833,
+          "timeDifference": 4.504708000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Search for Justice: Ambiguity and Frustration",
+          "expectedStart": 798.23,
+          "expectedEnd": 1003.05,
+          "actualStart": 804.235833,
+          "actualEnd": 1009.051166,
+          "timeDifference": 6.005832999999939
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Cost: Coping, Camaraderie, and Carrying On",
+          "expectedStart": 1003.05,
+          "expectedEnd": 1166.4,
+          "actualStart": 1010.551166,
+          "actualEnd": 1173.897166,
+          "timeDifference": 7.501166000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow of Unsolved Cases",
+          "expectedStart": 1166.4,
+          "expectedEnd": 1323.52,
+          "actualStart": 1175.397166,
+          "actualEnd": 1332.516916,
+          "timeDifference": 8.99716599999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The System’s Fault Lines: Race, Class, and Distrust",
+          "expectedStart": 1323.52,
+          "expectedEnd": 1500.31,
+          "actualStart": 1334.016916,
+          "actualEnd": 1510.802708,
+          "timeDifference": 10.496916000000056
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Courtroom: Where Stories Collide",
+          "expectedStart": 1500.31,
+          "expectedEnd": 1670.96,
+          "actualStart": 1512.302708,
+          "actualEnd": 1682.953708,
+          "timeDifference": 11.992707999999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Toll on the Detectives: Private Battles",
+          "expectedStart": 1670.96,
+          "expectedEnd": 1813.68,
+          "actualStart": 1684.453708,
+          "actualEnd": 1827.177,
+          "timeDifference": 13.49370799999997
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Questions: What Does It All Mean?",
+          "expectedStart": 1813.68,
+          "expectedEnd": 1939.64,
+          "actualStart": 1828.677,
+          "actualEnd": 1954.632375,
+          "timeDifference": 14.996999999999844
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1939.64,
+          "expectedEnd": 2055.02,
+          "actualStart": 1956.132375,
+          "actualEnd": 2071.513208,
+          "timeDifference": 16.49237499999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.830833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into the World of Homicide Detectives"
+        },
+        {
+          "startTime": 368.244666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into the World of Homicide Detectives and Chapter 2 The Daily Grind: Chasing Leads and Facing Obstacles"
+        },
+        {
+          "startTime": 613.064708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Daily Grind: Chasing Leads and Facing Obstacles and Chapter 3 The Weight of Violence: Lives Changed Forever"
+        },
+        {
+          "startTime": 802.735833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Violence: Lives Changed Forever and Chapter 4 The Search for Justice: Ambiguity and Frustration"
+        },
+        {
+          "startTime": 1009.051166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Search for Justice: Ambiguity and Frustration and Chapter 5 The Human Cost: Coping, Camaraderie, and Carrying On"
+        },
+        {
+          "startTime": 1173.897166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Cost: Coping, Camaraderie, and Carrying On and Chapter 6 The Long Shadow of Unsolved Cases"
+        },
+        {
+          "startTime": 1332.516916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow of Unsolved Cases and Chapter 7 The System’s Fault Lines: Race, Class, and Distrust"
+        },
+        {
+          "startTime": 1510.802708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The System’s Fault Lines: Race, Class, and Distrust and Chapter 8 The Courtroom: Where Stories Collide"
+        },
+        {
+          "startTime": 1682.953708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Courtroom: Where Stories Collide and Chapter 9 The Toll on the Detectives: Private Battles"
+        },
+        {
+          "startTime": 1827.177,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Toll on the Detectives: Private Battles and Chapter 10 Enduring Questions: What Does It All Mean?"
+        },
+        {
+          "startTime": 1954.632375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Questions: What Does It All Mean? and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "255",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T05:43:46.689Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

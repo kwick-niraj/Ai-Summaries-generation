@@ -1,0 +1,456 @@
+{
+  "bookId": "180",
+  "timestamp": "2025-07-03T01:54:13.923Z",
+  "success": false,
+  "processingTime": -1751507248934,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4926,
+    "totalAudioFiles": 12,
+    "totalDuration": 2425.6231249999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2425.6231249999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/180/optimized_text/180.md",
+    "fileSize": 937,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "180.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/180/metadata/180_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2425.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/180/metadata/180_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/180/metadata/180_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/180/180_complete.wav",
+    "duration": 2425.623125,
+    "fileSize": 116429988,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/180/introduction.wav",
+          "duration": 96.432542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.432542,
+          "startTime": 0,
+          "endTime": 96.432542
+        },
+        {
+          "path": "Audio/output/180/chapter_01.wav",
+          "duration": 245.224375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeing What Isn’t There—The Many Faces of Hallucinations",
+          "actualDuration": 245.224375,
+          "startTime": 97.932542,
+          "endTime": 343.156917
+        },
+        {
+          "path": "Audio/output/180/chapter_02.wav",
+          "duration": 219.447208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 When the Senses Go Quiet—Hallucinations from Sensory Loss",
+          "actualDuration": 219.447208,
+          "startTime": 344.656917,
+          "endTime": 564.1041250000001
+        },
+        {
+          "path": "Audio/output/180/chapter_03.wav",
+          "duration": 258.352458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mind’s Theater—Hallucinations from Sleep, Drugs, and the Edge of Consciousness",
+          "actualDuration": 258.352458,
+          "startTime": 565.6041250000001,
+          "endTime": 823.9565830000001
+        },
+        {
+          "path": "Audio/output/180/chapter_04.wav",
+          "duration": 252.606708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Voices in the Mind—Auditory Hallucinations and the Stories They Tell",
+          "actualDuration": 252.606708,
+          "startTime": 825.4565830000001,
+          "endTime": 1078.0632910000002
+        },
+        {
+          "path": "Audio/output/180/chapter_05.wav",
+          "duration": 239.281542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Touch, Smell, and the Body’s Hidden Messages—Hallucinations Beyond Sight and Sound",
+          "actualDuration": 239.281542,
+          "startTime": 1079.5632910000002,
+          "endTime": 1318.844833
+        },
+        {
+          "path": "Audio/output/180/chapter_06.wav",
+          "duration": 208.381833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Hallucinations Through History—From Divine Visions to Medical Mysteries",
+          "actualDuration": 208.381833,
+          "startTime": 1320.344833,
+          "endTime": 1528.726666
+        },
+        {
+          "path": "Audio/output/180/chapter_07.wav",
+          "duration": 215.279458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Brain’s Patterns—Neurology, Memory, and the Architecture of Hallucination",
+          "actualDuration": 215.279458,
+          "startTime": 1530.226666,
+          "endTime": 1745.506124
+        },
+        {
+          "path": "Audio/output/180/chapter_08.wav",
+          "duration": 182.965417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Hallucinations and the Edges of Identity—Self, Other, and the Boundaries of Reality",
+          "actualDuration": 182.965417,
+          "startTime": 1747.006124,
+          "endTime": 1929.971541
+        },
+        {
+          "path": "Audio/output/180/chapter_09.wav",
+          "duration": 211.570417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Hallucinations in Culture—Art, Religion, and the Creative Mind",
+          "actualDuration": 211.570417,
+          "startTime": 1931.471541,
+          "endTime": 2143.041958
+        },
+        {
+          "path": "Audio/output/180/chapter_10.wav",
+          "duration": 146.135042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Hallucinations—Empathy, Acceptance, and the Path Forward",
+          "actualDuration": 146.135042,
+          "startTime": 2144.541958,
+          "endTime": 2290.6769999999997
+        },
+        {
+          "path": "Audio/output/180/conclusion.wav",
+          "duration": 149.946125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.946125,
+          "startTime": 2292.1769999999997,
+          "endTime": 2442.1231249999996
+        }
+      ],
+      "totalDuration": 2442.1231249999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.43,
+          "actualStart": 0,
+          "actualEnd": 96.432542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeing What Isn’t There—The Many Faces of Hallucinations",
+          "expectedStart": 96.43,
+          "expectedEnd": 341.65,
+          "actualStart": 97.932542,
+          "actualEnd": 343.156917,
+          "timeDifference": 1.5025419999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 When the Senses Go Quiet—Hallucinations from Sensory Loss",
+          "expectedStart": 341.65,
+          "expectedEnd": 561.1,
+          "actualStart": 344.656917,
+          "actualEnd": 564.1041250000001,
+          "timeDifference": 3.006917000000044
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mind’s Theater—Hallucinations from Sleep, Drugs, and the Edge of Consciousness",
+          "expectedStart": 561.1,
+          "expectedEnd": 819.45,
+          "actualStart": 565.6041250000001,
+          "actualEnd": 823.9565830000001,
+          "timeDifference": 4.504125000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Voices in the Mind—Auditory Hallucinations and the Stories They Tell",
+          "expectedStart": 819.45,
+          "expectedEnd": 1072.06,
+          "actualStart": 825.4565830000001,
+          "actualEnd": 1078.0632910000002,
+          "timeDifference": 6.0065830000000915
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Touch, Smell, and the Body’s Hidden Messages—Hallucinations Beyond Sight and Sound",
+          "expectedStart": 1072.06,
+          "expectedEnd": 1311.34,
+          "actualStart": 1079.5632910000002,
+          "actualEnd": 1318.844833,
+          "timeDifference": 7.5032910000002175
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Hallucinations Through History—From Divine Visions to Medical Mysteries",
+          "expectedStart": 1311.34,
+          "expectedEnd": 1519.72,
+          "actualStart": 1320.344833,
+          "actualEnd": 1528.726666,
+          "timeDifference": 9.00483300000019
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Brain’s Patterns—Neurology, Memory, and the Architecture of Hallucination",
+          "expectedStart": 1519.72,
+          "expectedEnd": 1735,
+          "actualStart": 1530.226666,
+          "actualEnd": 1745.506124,
+          "timeDifference": 10.506665999999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Hallucinations and the Edges of Identity—Self, Other, and the Boundaries of Reality",
+          "expectedStart": 1735,
+          "expectedEnd": 1917.97,
+          "actualStart": 1747.006124,
+          "actualEnd": 1929.971541,
+          "timeDifference": 12.006124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Hallucinations in Culture—Art, Religion, and the Creative Mind",
+          "expectedStart": 1917.97,
+          "expectedEnd": 2129.54,
+          "actualStart": 1931.471541,
+          "actualEnd": 2143.041958,
+          "timeDifference": 13.501540999999861
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Hallucinations—Empathy, Acceptance, and the Path Forward",
+          "expectedStart": 2129.54,
+          "expectedEnd": 2275.68,
+          "actualStart": 2144.541958,
+          "actualEnd": 2290.6769999999997,
+          "timeDifference": 15.001957999999831
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2275.68,
+          "expectedEnd": 2425.63,
+          "actualStart": 2292.1769999999997,
+          "actualEnd": 2442.1231249999996,
+          "timeDifference": 16.496999999999844
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.432542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeing What Isn’t There—The Many Faces of Hallucinations"
+        },
+        {
+          "startTime": 343.156917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeing What Isn’t There—The Many Faces of Hallucinations and Chapter 2 When the Senses Go Quiet—Hallucinations from Sensory Loss"
+        },
+        {
+          "startTime": 564.1041250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 When the Senses Go Quiet—Hallucinations from Sensory Loss and Chapter 3 The Mind’s Theater—Hallucinations from Sleep, Drugs, and the Edge of Consciousness"
+        },
+        {
+          "startTime": 823.9565830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mind’s Theater—Hallucinations from Sleep, Drugs, and the Edge of Consciousness and Chapter 4 Voices in the Mind—Auditory Hallucinations and the Stories They Tell"
+        },
+        {
+          "startTime": 1078.0632910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Voices in the Mind—Auditory Hallucinations and the Stories They Tell and Chapter 5 Touch, Smell, and the Body’s Hidden Messages—Hallucinations Beyond Sight and Sound"
+        },
+        {
+          "startTime": 1318.844833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Touch, Smell, and the Body’s Hidden Messages—Hallucinations Beyond Sight and Sound and Chapter 6 Hallucinations Through History—From Divine Visions to Medical Mysteries"
+        },
+        {
+          "startTime": 1528.726666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Hallucinations Through History—From Divine Visions to Medical Mysteries and Chapter 7 The Brain’s Patterns—Neurology, Memory, and the Architecture of Hallucination"
+        },
+        {
+          "startTime": 1745.506124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Brain’s Patterns—Neurology, Memory, and the Architecture of Hallucination and Chapter 8 Hallucinations and the Edges of Identity—Self, Other, and the Boundaries of Reality"
+        },
+        {
+          "startTime": 1929.971541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Hallucinations and the Edges of Identity—Self, Other, and the Boundaries of Reality and Chapter 9 Hallucinations in Culture—Art, Religion, and the Creative Mind"
+        },
+        {
+          "startTime": 2143.041958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Hallucinations in Culture—Art, Religion, and the Creative Mind and Chapter 10 Living with Hallucinations—Empathy, Acceptance, and the Path Forward"
+        },
+        {
+          "startTime": 2290.6769999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Hallucinations—Empathy, Acceptance, and the Path Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "180",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T01:47:30.132Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

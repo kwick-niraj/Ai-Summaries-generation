@@ -1,0 +1,456 @@
+{
+  "bookId": "126",
+  "timestamp": "2025-07-02T22:59:34.276Z",
+  "success": false,
+  "processingTime": -1751496840061,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4824,
+    "totalAudioFiles": 12,
+    "totalDuration": 2240.2557500000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2240.2557500000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/126/optimized_text/126.md",
+    "fileSize": 625,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "126.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/126/metadata/126_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2240.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/126/metadata/126_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/126/metadata/126_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/126/126_complete.wav",
+    "duration": 2240.25575,
+    "fileSize": 107532354,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/126/introduction.wav",
+          "duration": 79.022958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.022958,
+          "startTime": 0,
+          "endTime": 79.022958
+        },
+        {
+          "path": "Audio/output/126/chapter_01.wav",
+          "duration": 285.673,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Baseball’s Old Habits and the Search for a New Way",
+          "actualDuration": 285.673,
+          "startTime": 80.522958,
+          "endTime": 366.195958
+        },
+        {
+          "path": "Audio/output/126/chapter_02.wav",
+          "duration": 281.095292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of an Unlikely Leader",
+          "actualDuration": 281.095292,
+          "startTime": 367.695958,
+          "endTime": 648.79125
+        },
+        {
+          "path": "Audio/output/126/chapter_03.wav",
+          "duration": 228.954167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Value Where Others Don’t Look",
+          "actualDuration": 228.954167,
+          "startTime": 650.29125,
+          "endTime": 879.245417
+        },
+        {
+          "path": "Audio/output/126/chapter_04.wav",
+          "duration": 237.15125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Draft Room and the Battle for the Future",
+          "actualDuration": 237.15125,
+          "startTime": 880.745417,
+          "endTime": 1117.896667
+        },
+        {
+          "path": "Audio/output/126/chapter_05.wav",
+          "duration": 235.713542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Season of Proof and the Limits of Numbers",
+          "actualDuration": 235.713542,
+          "startTime": 1119.396667,
+          "endTime": 1355.110209
+        },
+        {
+          "path": "Audio/output/126/chapter_06.wav",
+          "duration": 216.123208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect—Changing the Game Beyond Oakland",
+          "actualDuration": 216.123208,
+          "startTime": 1356.610209,
+          "endTime": 1572.733417
+        },
+        {
+          "path": "Audio/output/126/chapter_07.wav",
+          "duration": 157.994333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Human Side of Numbers",
+          "actualDuration": 157.994333,
+          "startTime": 1574.233417,
+          "endTime": 1732.22775
+        },
+        {
+          "path": "Audio/output/126/chapter_08.wav",
+          "duration": 144.50575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Spread of Sabermetrics and the New Baseball Order",
+          "actualDuration": 144.50575,
+          "startTime": 1733.72775,
+          "endTime": 1878.2335
+        },
+        {
+          "path": "Audio/output/126/chapter_09.wav",
+          "duration": 149.289667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Pushback—Tradition Fights Back",
+          "actualDuration": 149.289667,
+          "startTime": 1879.7335,
+          "endTime": 2029.023167
+        },
+        {
+          "path": "Audio/output/126/chapter_10.wav",
+          "duration": 94.653708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy—Lessons for Baseball and Beyond",
+          "actualDuration": 94.653708,
+          "startTime": 2030.523167,
+          "endTime": 2125.176875
+        },
+        {
+          "path": "Audio/output/126/conclusion.wav",
+          "duration": 130.078875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.078875,
+          "startTime": 2126.676875,
+          "endTime": 2256.7557500000003
+        }
+      ],
+      "totalDuration": 2256.7557500000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.02,
+          "actualStart": 0,
+          "actualEnd": 79.022958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Baseball’s Old Habits and the Search for a New Way",
+          "expectedStart": 79.02,
+          "expectedEnd": 364.69,
+          "actualStart": 80.522958,
+          "actualEnd": 366.195958,
+          "timeDifference": 1.5029580000000067
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of an Unlikely Leader",
+          "expectedStart": 364.69,
+          "expectedEnd": 645.79,
+          "actualStart": 367.695958,
+          "actualEnd": 648.79125,
+          "timeDifference": 3.005958000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Value Where Others Don’t Look",
+          "expectedStart": 645.79,
+          "expectedEnd": 874.74,
+          "actualStart": 650.29125,
+          "actualEnd": 879.245417,
+          "timeDifference": 4.501250000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Draft Room and the Battle for the Future",
+          "expectedStart": 874.74,
+          "expectedEnd": 1111.89,
+          "actualStart": 880.745417,
+          "actualEnd": 1117.896667,
+          "timeDifference": 6.005416999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Season of Proof and the Limits of Numbers",
+          "expectedStart": 1111.89,
+          "expectedEnd": 1347.6,
+          "actualStart": 1119.396667,
+          "actualEnd": 1355.110209,
+          "timeDifference": 7.506666999999879
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect—Changing the Game Beyond Oakland",
+          "expectedStart": 1347.6,
+          "expectedEnd": 1563.72,
+          "actualStart": 1356.610209,
+          "actualEnd": 1572.733417,
+          "timeDifference": 9.010209000000032
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Human Side of Numbers",
+          "expectedStart": 1563.72,
+          "expectedEnd": 1721.71,
+          "actualStart": 1574.233417,
+          "actualEnd": 1732.22775,
+          "timeDifference": 10.51341699999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Spread of Sabermetrics and the New Baseball Order",
+          "expectedStart": 1721.71,
+          "expectedEnd": 1866.22,
+          "actualStart": 1733.72775,
+          "actualEnd": 1878.2335,
+          "timeDifference": 12.017749999999978
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Pushback—Tradition Fights Back",
+          "expectedStart": 1866.22,
+          "expectedEnd": 2015.51,
+          "actualStart": 1879.7335,
+          "actualEnd": 2029.023167,
+          "timeDifference": 13.513500000000022
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy—Lessons for Baseball and Beyond",
+          "expectedStart": 2015.51,
+          "expectedEnd": 2110.16,
+          "actualStart": 2030.523167,
+          "actualEnd": 2125.176875,
+          "timeDifference": 15.013167000000067
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2110.16,
+          "expectedEnd": 2240.24,
+          "actualStart": 2126.676875,
+          "actualEnd": 2256.7557500000003,
+          "timeDifference": 16.516875000000255
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.022958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Baseball’s Old Habits and the Search for a New Way"
+        },
+        {
+          "startTime": 366.195958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Baseball’s Old Habits and the Search for a New Way and Chapter 2 The Making of an Unlikely Leader"
+        },
+        {
+          "startTime": 648.79125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of an Unlikely Leader and Chapter 3 Finding Value Where Others Don’t Look"
+        },
+        {
+          "startTime": 879.245417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Value Where Others Don’t Look and Chapter 4 The Draft Room and the Battle for the Future"
+        },
+        {
+          "startTime": 1117.896667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Draft Room and the Battle for the Future and Chapter 5 The Season of Proof and the Limits of Numbers"
+        },
+        {
+          "startTime": 1355.110209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Season of Proof and the Limits of Numbers and Chapter 6 The Ripple Effect—Changing the Game Beyond Oakland"
+        },
+        {
+          "startTime": 1572.733417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect—Changing the Game Beyond Oakland and Chapter 7 The Human Side of Numbers"
+        },
+        {
+          "startTime": 1732.22775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Human Side of Numbers and Chapter 8 The Spread of Sabermetrics and the New Baseball Order"
+        },
+        {
+          "startTime": 1878.2335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Spread of Sabermetrics and the New Baseball Order and Chapter 9 The Pushback—Tradition Fights Back"
+        },
+        {
+          "startTime": 2029.023167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Pushback—Tradition Fights Back and Chapter 10 The Legacy—Lessons for Baseball and Beyond"
+        },
+        {
+          "startTime": 2125.176875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy—Lessons for Baseball and Beyond and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "126",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T22:54:00.594Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

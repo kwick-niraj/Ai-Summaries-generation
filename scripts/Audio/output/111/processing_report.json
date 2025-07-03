@@ -1,0 +1,456 @@
+{
+  "bookId": "111",
+  "timestamp": "2025-07-02T22:05:59.937Z",
+  "success": false,
+  "processingTime": -1751493621462,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5012,
+    "totalAudioFiles": 12,
+    "totalDuration": 2388.796541
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2388.796541
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/111/optimized_text/111.md",
+    "fileSize": 619,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "111.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/111/metadata/111_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2388.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/111/metadata/111_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/111/metadata/111_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/111/111_complete.wav",
+    "duration": 2388.796542,
+    "fileSize": 114662312,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/111/introduction.wav",
+          "duration": 82.122083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.122083,
+          "startTime": 0,
+          "endTime": 82.122083
+        },
+        {
+          "path": "Audio/output/111/chapter_01.wav",
+          "duration": 303.104667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Childhood Hidden from the World",
+          "actualDuration": 303.104667,
+          "startTime": 83.622083,
+          "endTime": 386.72675000000004
+        },
+        {
+          "path": "Audio/output/111/chapter_02.wav",
+          "duration": 290.377542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mechanics of Control and the Cost of Silence",
+          "actualDuration": 290.377542,
+          "startTime": 388.22675000000004,
+          "endTime": 678.604292
+        },
+        {
+          "path": "Audio/output/111/chapter_03.wav",
+          "duration": 252.964333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Long Shadow of Trauma",
+          "actualDuration": 252.964333,
+          "startTime": 680.104292,
+          "endTime": 933.068625
+        },
+        {
+          "path": "Audio/output/111/chapter_04.wav",
+          "duration": 239.718583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Small Acts of Kindness and the Road to Escape",
+          "actualDuration": 239.718583,
+          "startTime": 934.568625,
+          "endTime": 1174.287208
+        },
+        {
+          "path": "Audio/output/111/chapter_05.wav",
+          "duration": 217.333375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rebuilding a Life and Finding Hope After Darkness",
+          "actualDuration": 217.333375,
+          "startTime": 1175.787208,
+          "endTime": 1393.120583
+        },
+        {
+          "path": "Audio/output/111/chapter_06.wav",
+          "duration": 191.635875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search for Justice and the Weight of Truth",
+          "actualDuration": 191.635875,
+          "startTime": 1394.620583,
+          "endTime": 1586.2564579999998
+        },
+        {
+          "path": "Audio/output/111/chapter_07.wav",
+          "duration": 202.172333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Family, Community, and the Unseen Wounds",
+          "actualDuration": 202.172333,
+          "startTime": 1587.7564579999998,
+          "endTime": 1789.9287909999998
+        },
+        {
+          "path": "Audio/output/111/chapter_08.wav",
+          "duration": 181.778708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Journey of Healing",
+          "actualDuration": 181.778708,
+          "startTime": 1791.4287909999998,
+          "endTime": 1973.2074989999999
+        },
+        {
+          "path": "Audio/output/111/chapter_09.wav",
+          "duration": 172.27175,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Purpose: Turning Pain into Advocacy",
+          "actualDuration": 172.27175,
+          "startTime": 1974.7074989999999,
+          "endTime": 2146.979249
+        },
+        {
+          "path": "Audio/output/111/chapter_10.wav",
+          "duration": 139.500167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for a World in Need of Healing",
+          "actualDuration": 139.500167,
+          "startTime": 2148.479249,
+          "endTime": 2287.979416
+        },
+        {
+          "path": "Audio/output/111/conclusion.wav",
+          "duration": 115.817125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.817125,
+          "startTime": 2289.479416,
+          "endTime": 2405.296541
+        }
+      ],
+      "totalDuration": 2405.296541,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.12,
+          "actualStart": 0,
+          "actualEnd": 82.122083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Childhood Hidden from the World",
+          "expectedStart": 82.12,
+          "expectedEnd": 385.22,
+          "actualStart": 83.622083,
+          "actualEnd": 386.72675000000004,
+          "timeDifference": 1.502082999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mechanics of Control and the Cost of Silence",
+          "expectedStart": 385.22,
+          "expectedEnd": 675.6,
+          "actualStart": 388.22675000000004,
+          "actualEnd": 678.604292,
+          "timeDifference": 3.006750000000011
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Long Shadow of Trauma",
+          "expectedStart": 675.6,
+          "expectedEnd": 928.56,
+          "actualStart": 680.104292,
+          "actualEnd": 933.068625,
+          "timeDifference": 4.504291999999964
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Small Acts of Kindness and the Road to Escape",
+          "expectedStart": 928.56,
+          "expectedEnd": 1168.28,
+          "actualStart": 934.568625,
+          "actualEnd": 1174.287208,
+          "timeDifference": 6.008625000000052
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rebuilding a Life and Finding Hope After Darkness",
+          "expectedStart": 1168.28,
+          "expectedEnd": 1385.61,
+          "actualStart": 1175.787208,
+          "actualEnd": 1393.120583,
+          "timeDifference": 7.507207999999991
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search for Justice and the Weight of Truth",
+          "expectedStart": 1385.61,
+          "expectedEnd": 1577.25,
+          "actualStart": 1394.620583,
+          "actualEnd": 1586.2564579999998,
+          "timeDifference": 9.010582999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Family, Community, and the Unseen Wounds",
+          "expectedStart": 1577.25,
+          "expectedEnd": 1779.42,
+          "actualStart": 1587.7564579999998,
+          "actualEnd": 1789.9287909999998,
+          "timeDifference": 10.506457999999839
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Journey of Healing",
+          "expectedStart": 1779.42,
+          "expectedEnd": 1961.2,
+          "actualStart": 1791.4287909999998,
+          "actualEnd": 1973.2074989999999,
+          "timeDifference": 12.008790999999746
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Purpose: Turning Pain into Advocacy",
+          "expectedStart": 1961.2,
+          "expectedEnd": 2133.47,
+          "actualStart": 1974.7074989999999,
+          "actualEnd": 2146.979249,
+          "timeDifference": 13.507498999999825
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for a World in Need of Healing",
+          "expectedStart": 2133.47,
+          "expectedEnd": 2272.97,
+          "actualStart": 2148.479249,
+          "actualEnd": 2287.979416,
+          "timeDifference": 15.009249000000182
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2272.97,
+          "expectedEnd": 2388.79,
+          "actualStart": 2289.479416,
+          "actualEnd": 2405.296541,
+          "timeDifference": 16.50941600000033
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.122083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Childhood Hidden from the World"
+        },
+        {
+          "startTime": 386.72675000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Childhood Hidden from the World and Chapter 2 The Mechanics of Control and the Cost of Silence"
+        },
+        {
+          "startTime": 678.604292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mechanics of Control and the Cost of Silence and Chapter 3 The Long Shadow of Trauma"
+        },
+        {
+          "startTime": 933.068625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Long Shadow of Trauma and Chapter 4 Small Acts of Kindness and the Road to Escape"
+        },
+        {
+          "startTime": 1174.287208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Small Acts of Kindness and the Road to Escape and Chapter 5 Rebuilding a Life and Finding Hope After Darkness"
+        },
+        {
+          "startTime": 1393.120583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rebuilding a Life and Finding Hope After Darkness and Chapter 6 The Search for Justice and the Weight of Truth"
+        },
+        {
+          "startTime": 1586.2564579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search for Justice and the Weight of Truth and Chapter 7 The Ripple Effect: Family, Community, and the Unseen Wounds"
+        },
+        {
+          "startTime": 1789.9287909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Family, Community, and the Unseen Wounds and Chapter 8 The Ongoing Journey of Healing"
+        },
+        {
+          "startTime": 1973.2074989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Journey of Healing and Chapter 9 Finding Purpose: Turning Pain into Advocacy"
+        },
+        {
+          "startTime": 2146.979249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Purpose: Turning Pain into Advocacy and Chapter 10 Lessons for a World in Need of Healing"
+        },
+        {
+          "startTime": 2287.979416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for a World in Need of Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "111",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T22:00:21.807Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "192",
+  "timestamp": "2025-07-03T02:30:57.206Z",
+  "success": false,
+  "processingTime": -1751509452779,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4032,
+    "totalAudioFiles": 12,
+    "totalDuration": 2006.29475
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2006.29475
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/192/optimized_text/192.md",
+    "fileSize": 610,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "192.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/192/metadata/192_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2006.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/192/metadata/192_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/192/metadata/192_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/192/192_complete.wav",
+    "duration": 2006.29475,
+    "fileSize": 96302226,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/192/introduction.wav",
+          "duration": 100.981792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.981792,
+          "startTime": 0,
+          "endTime": 100.981792
+        },
+        {
+          "path": "Audio/output/192/chapter_01.wav",
+          "duration": 227.257292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking What Success Really Means",
+          "actualDuration": 227.257292,
+          "startTime": 102.481792,
+          "endTime": 329.739084
+        },
+        {
+          "path": "Audio/output/192/chapter_02.wav",
+          "duration": 217.12425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Purpose and Passion in Everyday Life",
+          "actualDuration": 217.12425,
+          "startTime": 331.239084,
+          "endTime": 548.363334
+        },
+        {
+          "path": "Audio/output/192/chapter_03.wav",
+          "duration": 191.725833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Belief and Self-Image",
+          "actualDuration": 191.725833,
+          "startTime": 549.863334,
+          "endTime": 741.589167
+        },
+        {
+          "path": "Audio/output/192/chapter_04.wav",
+          "duration": 170.346792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning from Others and Embracing Failure",
+          "actualDuration": 170.346792,
+          "startTime": 743.089167,
+          "endTime": 913.4359589999999
+        },
+        {
+          "path": "Audio/output/192/chapter_05.wav",
+          "duration": 168.021,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Taking Action and Enjoying the Journey",
+          "actualDuration": 168.021,
+          "startTime": 914.9359589999999,
+          "endTime": 1082.9569589999999
+        },
+        {
+          "path": "Audio/output/192/chapter_06.wav",
+          "duration": 177.777583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Resilience: Weathering the Storms",
+          "actualDuration": 177.777583,
+          "startTime": 1084.4569589999999,
+          "endTime": 1262.234542
+        },
+        {
+          "path": "Audio/output/192/chapter_07.wav",
+          "duration": 172.548792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Adaptability: Embracing Change with Grace",
+          "actualDuration": 172.548792,
+          "startTime": 1263.734542,
+          "endTime": 1436.283334
+        },
+        {
+          "path": "Audio/output/192/chapter_08.wav",
+          "duration": 150.336083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Relationships in Success",
+          "actualDuration": 150.336083,
+          "startTime": 1437.783334,
+          "endTime": 1588.1194169999999
+        },
+        {
+          "path": "Audio/output/192/chapter_09.wav",
+          "duration": 145.554083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrity and Authenticity: Living True to Yourself",
+          "actualDuration": 145.554083,
+          "startTime": 1589.6194169999999,
+          "endTime": 1735.1734999999999
+        },
+        {
+          "path": "Audio/output/192/chapter_10.wav",
+          "duration": 141.388042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Success: Growth, Renewal, and Giving Back",
+          "actualDuration": 141.388042,
+          "startTime": 1736.6734999999999,
+          "endTime": 1878.061542
+        },
+        {
+          "path": "Audio/output/192/conclusion.wav",
+          "duration": 143.233208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.233208,
+          "startTime": 1879.561542,
+          "endTime": 2022.79475
+        }
+      ],
+      "totalDuration": 2022.79475,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.98,
+          "actualStart": 0,
+          "actualEnd": 100.981792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking What Success Really Means",
+          "expectedStart": 100.98,
+          "expectedEnd": 328.24,
+          "actualStart": 102.481792,
+          "actualEnd": 329.739084,
+          "timeDifference": 1.5017919999999947
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Purpose and Passion in Everyday Life",
+          "expectedStart": 328.24,
+          "expectedEnd": 545.36,
+          "actualStart": 331.239084,
+          "actualEnd": 548.363334,
+          "timeDifference": 2.999083999999982
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Belief and Self-Image",
+          "expectedStart": 545.36,
+          "expectedEnd": 737.09,
+          "actualStart": 549.863334,
+          "actualEnd": 741.589167,
+          "timeDifference": 4.503333999999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning from Others and Embracing Failure",
+          "expectedStart": 737.09,
+          "expectedEnd": 907.44,
+          "actualStart": 743.089167,
+          "actualEnd": 913.4359589999999,
+          "timeDifference": 5.999166999999943
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Taking Action and Enjoying the Journey",
+          "expectedStart": 907.44,
+          "expectedEnd": 1075.46,
+          "actualStart": 914.9359589999999,
+          "actualEnd": 1082.9569589999999,
+          "timeDifference": 7.495958999999857
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Resilience: Weathering the Storms",
+          "expectedStart": 1075.46,
+          "expectedEnd": 1253.24,
+          "actualStart": 1084.4569589999999,
+          "actualEnd": 1262.234542,
+          "timeDifference": 8.996958999999833
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Adaptability: Embracing Change with Grace",
+          "expectedStart": 1253.24,
+          "expectedEnd": 1425.79,
+          "actualStart": 1263.734542,
+          "actualEnd": 1436.283334,
+          "timeDifference": 10.49454199999991
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Relationships in Success",
+          "expectedStart": 1425.79,
+          "expectedEnd": 1576.13,
+          "actualStart": 1437.783334,
+          "actualEnd": 1588.1194169999999,
+          "timeDifference": 11.993334000000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrity and Authenticity: Living True to Yourself",
+          "expectedStart": 1576.13,
+          "expectedEnd": 1721.68,
+          "actualStart": 1589.6194169999999,
+          "actualEnd": 1735.1734999999999,
+          "timeDifference": 13.489416999999776
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Success: Growth, Renewal, and Giving Back",
+          "expectedStart": 1721.68,
+          "expectedEnd": 1863.07,
+          "actualStart": 1736.6734999999999,
+          "actualEnd": 1878.061542,
+          "timeDifference": 14.993499999999813
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1863.07,
+          "expectedEnd": 2006.3,
+          "actualStart": 1879.561542,
+          "actualEnd": 2022.79475,
+          "timeDifference": 16.49154199999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.981792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking What Success Really Means"
+        },
+        {
+          "startTime": 329.739084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking What Success Really Means and Chapter 2 Finding Purpose and Passion in Everyday Life"
+        },
+        {
+          "startTime": 548.363334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Purpose and Passion in Everyday Life and Chapter 3 The Power of Belief and Self-Image"
+        },
+        {
+          "startTime": 741.589167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Belief and Self-Image and Chapter 4 Learning from Others and Embracing Failure"
+        },
+        {
+          "startTime": 913.4359589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning from Others and Embracing Failure and Chapter 5 Taking Action and Enjoying the Journey"
+        },
+        {
+          "startTime": 1082.9569589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Taking Action and Enjoying the Journey and Chapter 6 Resilience: Weathering the Storms"
+        },
+        {
+          "startTime": 1262.234542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Resilience: Weathering the Storms and Chapter 7 Adaptability: Embracing Change with Grace"
+        },
+        {
+          "startTime": 1436.283334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Adaptability: Embracing Change with Grace and Chapter 8 The Role of Relationships in Success"
+        },
+        {
+          "startTime": 1588.1194169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Relationships in Success and Chapter 9 Integrity and Authenticity: Living True to Yourself"
+        },
+        {
+          "startTime": 1735.1734999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrity and Authenticity: Living True to Yourself and Chapter 10 Sustaining Success: Growth, Renewal, and Giving Back"
+        },
+        {
+          "startTime": 1878.061542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Success: Growth, Renewal, and Giving Back and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "192",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T02:24:13.971Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

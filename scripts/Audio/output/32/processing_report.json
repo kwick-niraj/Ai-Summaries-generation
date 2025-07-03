@@ -1,0 +1,432 @@
+{
+  "bookId": "32",
+  "timestamp": "2025-07-02T18:16:42.598Z",
+  "success": false,
+  "processingTime": -1751479874297,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5532,
+    "totalAudioFiles": 12,
+    "totalDuration": 2214.9865830000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2214.9865830000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/32/optimized_text/32.md",
+    "fileSize": 668,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "32.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/32/metadata/32_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2214.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/32/metadata/32_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/32/metadata/32_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/32/32_complete.wav",
+    "duration": 2214.986583,
+    "fileSize": 106319434,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/32/introduction.wav",
+          "duration": 94.413083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.413083,
+          "startTime": 0,
+          "endTime": 94.413083
+        },
+        {
+          "path": "Audio/output/32/chapter_01.wav",
+          "duration": 235.205458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Days: When Home Stops Feeling Safe",
+          "actualDuration": 235.205458,
+          "startTime": 95.913083,
+          "endTime": 331.118541
+        },
+        {
+          "path": "Audio/output/32/chapter_03.wav",
+          "duration": 248.500708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 School: A Place of Hope and Hidden Pain",
+          "actualDuration": 248.500708,
+          "startTime": 332.618541,
+          "endTime": 581.119249
+        },
+        {
+          "path": "Audio/output/32/chapter_04.wav",
+          "duration": 264.340792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Breaking Point: When Survival Becomes the Only Goal",
+          "actualDuration": 264.340792,
+          "startTime": 582.619249,
+          "endTime": 846.960041
+        },
+        {
+          "path": "Audio/output/32/chapter_05.wav",
+          "duration": 162.431917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Mercies and the Glimmer of Escape",
+          "actualDuration": 162.431917,
+          "startTime": 848.460041,
+          "endTime": 1010.891958
+        },
+        {
+          "path": "Audio/output/32/chapter_06.wav",
+          "duration": 268.286167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Moment of Intervention: When Secrets Start to Unravel",
+          "actualDuration": 268.286167,
+          "startTime": 1012.391958,
+          "endTime": 1280.678125
+        },
+        {
+          "path": "Audio/output/32/chapter_07.wav",
+          "duration": 223.029583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Aftermath: The First Days of Freedom",
+          "actualDuration": 223.029583,
+          "startTime": 1282.178125,
+          "endTime": 1505.207708
+        },
+        {
+          "path": "Audio/output/32/chapter_08.wav",
+          "duration": 200.83175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Past: The Long Road to Healing",
+          "actualDuration": 200.83175,
+          "startTime": 1506.707708,
+          "endTime": 1707.539458
+        },
+        {
+          "path": "Audio/output/32/chapter_09.wav",
+          "duration": 193.71825,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Rebuilding Trust: New Relationships, New Challenges",
+          "actualDuration": 193.71825,
+          "startTime": 1709.039458,
+          "endTime": 1902.757708
+        },
+        {
+          "path": "Audio/output/32/chapter_10.wav",
+          "duration": 193.621958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Forgiveness and Moving Forward: Finding Meaning in the Pain",
+          "actualDuration": 193.621958,
+          "startTime": 1904.257708,
+          "endTime": 2097.8796660000003
+        },
+        {
+          "path": "Audio/output/32/conclusion.wav",
+          "duration": 130.606917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.606917,
+          "startTime": 2099.3796660000003,
+          "endTime": 2229.9865830000003
+        }
+      ],
+      "totalDuration": 2229.9865830000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.41,
+          "actualStart": 0,
+          "actualEnd": 94.413083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Days: When Home Stops Feeling Safe",
+          "expectedStart": 94.41,
+          "expectedEnd": 329.62,
+          "actualStart": 95.913083,
+          "actualEnd": 331.118541,
+          "timeDifference": 1.5030830000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 School: A Place of Hope and Hidden Pain",
+          "expectedStart": 329.62,
+          "expectedEnd": 578.12,
+          "actualStart": 332.618541,
+          "actualEnd": 581.119249,
+          "timeDifference": 2.998540999999989
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Breaking Point: When Survival Becomes the Only Goal",
+          "expectedStart": 578.12,
+          "expectedEnd": 842.46,
+          "actualStart": 582.619249,
+          "actualEnd": 846.960041,
+          "timeDifference": 4.499248999999963
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Mercies and the Glimmer of Escape",
+          "expectedStart": 842.46,
+          "expectedEnd": 1004.89,
+          "actualStart": 848.460041,
+          "actualEnd": 1010.891958,
+          "timeDifference": 6.00004100000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Moment of Intervention: When Secrets Start to Unravel",
+          "expectedStart": 1004.89,
+          "expectedEnd": 1273.18,
+          "actualStart": 1012.391958,
+          "actualEnd": 1280.678125,
+          "timeDifference": 7.501958000000059
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Aftermath: The First Days of Freedom",
+          "expectedStart": 1273.18,
+          "expectedEnd": 1496.21,
+          "actualStart": 1282.178125,
+          "actualEnd": 1505.207708,
+          "timeDifference": 8.998124999999845
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Past: The Long Road to Healing",
+          "expectedStart": 1496.21,
+          "expectedEnd": 1697.04,
+          "actualStart": 1506.707708,
+          "actualEnd": 1707.539458,
+          "timeDifference": 10.497707999999875
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Rebuilding Trust: New Relationships, New Challenges",
+          "expectedStart": 1697.04,
+          "expectedEnd": 1890.76,
+          "actualStart": 1709.039458,
+          "actualEnd": 1902.757708,
+          "timeDifference": 11.999458000000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Forgiveness and Moving Forward: Finding Meaning in the Pain",
+          "expectedStart": 1890.76,
+          "expectedEnd": 2084.38,
+          "actualStart": 1904.257708,
+          "actualEnd": 2097.8796660000003,
+          "timeDifference": 13.497708000000102
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2084.38,
+          "expectedEnd": 2214.99,
+          "actualStart": 2099.3796660000003,
+          "actualEnd": 2229.9865830000003,
+          "timeDifference": 14.999666000000161
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.413083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Days: When Home Stops Feeling Safe"
+        },
+        {
+          "startTime": 331.118541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Days: When Home Stops Feeling Safe and Chapter 3 School: A Place of Hope and Hidden Pain"
+        },
+        {
+          "startTime": 581.119249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 School: A Place of Hope and Hidden Pain and Chapter 4 The Breaking Point: When Survival Becomes the Only Goal"
+        },
+        {
+          "startTime": 846.960041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Breaking Point: When Survival Becomes the Only Goal and Chapter 5 Small Mercies and the Glimmer of Escape"
+        },
+        {
+          "startTime": 1010.891958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Mercies and the Glimmer of Escape and Chapter 6 The Moment of Intervention: When Secrets Start to Unravel"
+        },
+        {
+          "startTime": 1280.678125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Moment of Intervention: When Secrets Start to Unravel and Chapter 7 Aftermath: The First Days of Freedom"
+        },
+        {
+          "startTime": 1505.207708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Aftermath: The First Days of Freedom and Chapter 8 Facing the Past: The Long Road to Healing"
+        },
+        {
+          "startTime": 1707.539458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Past: The Long Road to Healing and Chapter 9 Rebuilding Trust: New Relationships, New Challenges"
+        },
+        {
+          "startTime": 1902.757708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Rebuilding Trust: New Relationships, New Challenges and Chapter 10 Forgiveness and Moving Forward: Finding Meaning in the Pain"
+        },
+        {
+          "startTime": 2097.8796660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Forgiveness and Moving Forward: Finding Meaning in the Pain and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "32",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T18:11:16.045Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "260",
+  "timestamp": "2025-07-03T06:12:42.874Z",
+  "success": false,
+  "processingTime": -1751522915332,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4685,
+    "totalAudioFiles": 12,
+    "totalDuration": 2270.8484169999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2270.8484169999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/260/optimized_text/260.md",
+    "fileSize": 636,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "260.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/260/metadata/260_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2270.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/260/metadata/260_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/260/metadata/260_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/260/260_complete.wav",
+    "duration": 2270.848417,
+    "fileSize": 109000802,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/260/introduction.wav",
+          "duration": 109.247292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.247292,
+          "startTime": 0,
+          "endTime": 109.247292
+        },
+        {
+          "path": "Audio/output/260/chapter_01.wav",
+          "duration": 219.74175,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How English Became a Language of Surprises",
+          "actualDuration": 219.74175,
+          "startTime": 110.747292,
+          "endTime": 330.489042
+        },
+        {
+          "path": "Audio/output/260/chapter_02.wav",
+          "duration": 231.759042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots and Branches of English Words",
+          "actualDuration": 231.759042,
+          "startTime": 331.989042,
+          "endTime": 563.748084
+        },
+        {
+          "path": "Audio/output/260/chapter_03.wav",
+          "duration": 211.501042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Puzzles of Spelling and Pronunciation",
+          "actualDuration": 211.501042,
+          "startTime": 565.248084,
+          "endTime": 776.7491259999999
+        },
+        {
+          "path": "Audio/output/260/chapter_04.wav",
+          "duration": 191.674125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Flexibility and Creativity of English",
+          "actualDuration": 191.674125,
+          "startTime": 778.2491259999999,
+          "endTime": 969.9232509999999
+        },
+        {
+          "path": "Audio/output/260/chapter_05.wav",
+          "duration": 228.2485,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Influence of History and Society on English",
+          "actualDuration": 228.2485,
+          "startTime": 971.4232509999999,
+          "endTime": 1199.6717509999999
+        },
+        {
+          "path": "Audio/output/260/chapter_06.wav",
+          "duration": 242.702208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 English Goes Global: The World’s Common Ground",
+          "actualDuration": 242.702208,
+          "startTime": 1201.1717509999999,
+          "endTime": 1443.8739589999998
+        },
+        {
+          "path": "Audio/output/260/chapter_07.wav",
+          "duration": 194.880583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Quirks and Wonders of English Grammar",
+          "actualDuration": 194.880583,
+          "startTime": 1445.3739589999998,
+          "endTime": 1640.2545419999997
+        },
+        {
+          "path": "Audio/output/260/chapter_08.wav",
+          "duration": 184.579583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power and Play of English Idioms",
+          "actualDuration": 184.579583,
+          "startTime": 1641.7545419999997,
+          "endTime": 1826.3341249999996
+        },
+        {
+          "path": "Audio/output/260/chapter_09.wav",
+          "duration": 160.39425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Evolution: English in the Digital Age",
+          "actualDuration": 160.39425,
+          "startTime": 1827.8341249999996,
+          "endTime": 1988.2283749999997
+        },
+        {
+          "path": "Audio/output/260/chapter_10.wav",
+          "duration": 161.236375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of English: Unpredictable, Unstoppable",
+          "actualDuration": 161.236375,
+          "startTime": 1989.7283749999997,
+          "endTime": 2150.9647499999996
+        },
+        {
+          "path": "Audio/output/260/conclusion.wav",
+          "duration": 134.883667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.883667,
+          "startTime": 2152.4647499999996,
+          "endTime": 2287.3484169999997
+        }
+      ],
+      "totalDuration": 2287.3484169999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.25,
+          "actualStart": 0,
+          "actualEnd": 109.247292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How English Became a Language of Surprises",
+          "expectedStart": 109.25,
+          "expectedEnd": 328.99,
+          "actualStart": 110.747292,
+          "actualEnd": 330.489042,
+          "timeDifference": 1.4972920000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots and Branches of English Words",
+          "expectedStart": 328.99,
+          "expectedEnd": 560.75,
+          "actualStart": 331.989042,
+          "actualEnd": 563.748084,
+          "timeDifference": 2.9990419999999745
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Puzzles of Spelling and Pronunciation",
+          "expectedStart": 560.75,
+          "expectedEnd": 772.25,
+          "actualStart": 565.248084,
+          "actualEnd": 776.7491259999999,
+          "timeDifference": 4.498083999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Flexibility and Creativity of English",
+          "expectedStart": 772.25,
+          "expectedEnd": 963.92,
+          "actualStart": 778.2491259999999,
+          "actualEnd": 969.9232509999999,
+          "timeDifference": 5.999125999999933
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Influence of History and Society on English",
+          "expectedStart": 963.92,
+          "expectedEnd": 1192.17,
+          "actualStart": 971.4232509999999,
+          "actualEnd": 1199.6717509999999,
+          "timeDifference": 7.5032509999999775
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 English Goes Global: The World’s Common Ground",
+          "expectedStart": 1192.17,
+          "expectedEnd": 1434.87,
+          "actualStart": 1201.1717509999999,
+          "actualEnd": 1443.8739589999998,
+          "timeDifference": 9.001750999999786
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Quirks and Wonders of English Grammar",
+          "expectedStart": 1434.87,
+          "expectedEnd": 1629.75,
+          "actualStart": 1445.3739589999998,
+          "actualEnd": 1640.2545419999997,
+          "timeDifference": 10.503958999999895
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power and Play of English Idioms",
+          "expectedStart": 1629.75,
+          "expectedEnd": 1814.33,
+          "actualStart": 1641.7545419999997,
+          "actualEnd": 1826.3341249999996,
+          "timeDifference": 12.004541999999674
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Evolution: English in the Digital Age",
+          "expectedStart": 1814.33,
+          "expectedEnd": 1974.72,
+          "actualStart": 1827.8341249999996,
+          "actualEnd": 1988.2283749999997,
+          "timeDifference": 13.504124999999704
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of English: Unpredictable, Unstoppable",
+          "expectedStart": 1974.72,
+          "expectedEnd": 2135.96,
+          "actualStart": 1989.7283749999997,
+          "actualEnd": 2150.9647499999996,
+          "timeDifference": 15.00837499999966
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2135.96,
+          "expectedEnd": 2270.84,
+          "actualStart": 2152.4647499999996,
+          "actualEnd": 2287.3484169999997,
+          "timeDifference": 16.504749999999603
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.247292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How English Became a Language of Surprises"
+        },
+        {
+          "startTime": 330.489042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How English Became a Language of Surprises and Chapter 2 The Roots and Branches of English Words"
+        },
+        {
+          "startTime": 563.748084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots and Branches of English Words and Chapter 3 The Puzzles of Spelling and Pronunciation"
+        },
+        {
+          "startTime": 776.7491259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Puzzles of Spelling and Pronunciation and Chapter 4 The Flexibility and Creativity of English"
+        },
+        {
+          "startTime": 969.9232509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Flexibility and Creativity of English and Chapter 5 The Influence of History and Society on English"
+        },
+        {
+          "startTime": 1199.6717509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Influence of History and Society on English and Chapter 6 English Goes Global: The World’s Common Ground"
+        },
+        {
+          "startTime": 1443.8739589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 English Goes Global: The World’s Common Ground and Chapter 7 The Quirks and Wonders of English Grammar"
+        },
+        {
+          "startTime": 1640.2545419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Quirks and Wonders of English Grammar and Chapter 8 The Power and Play of English Idioms"
+        },
+        {
+          "startTime": 1826.3341249999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power and Play of English Idioms and Chapter 9 The Ongoing Evolution: English in the Digital Age"
+        },
+        {
+          "startTime": 1988.2283749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Evolution: English in the Digital Age and Chapter 10 The Future of English: Unpredictable, Unstoppable"
+        },
+        {
+          "startTime": 2150.9647499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of English: Unpredictable, Unstoppable and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "260",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T06:08:35.352Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

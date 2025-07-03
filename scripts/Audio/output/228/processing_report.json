@@ -1,0 +1,456 @@
+{
+  "bookId": "228",
+  "timestamp": "2025-07-03T04:20:02.225Z",
+  "success": false,
+  "processingTime": -1751516012965,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4283,
+    "totalAudioFiles": 12,
+    "totalDuration": 1875.5236670000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1875.5236670000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/228/optimized_text/228.md",
+    "fileSize": 610,
+    "wordCount": 76,
+    "format": "markdown",
+    "filename": "228.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/228/metadata/228_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1875.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/228/metadata/228_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/228/metadata/228_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/228/228_complete.wav",
+    "duration": 1875.523667,
+    "fileSize": 90025214,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/228/introduction.wav",
+          "duration": 94.533792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.533792,
+          "startTime": 0,
+          "endTime": 94.533792
+        },
+        {
+          "path": "Audio/output/228/chapter_01.wav",
+          "duration": 212.304542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering Gratitude in Everyday Life",
+          "actualDuration": 212.304542,
+          "startTime": 96.033792,
+          "endTime": 308.33833400000003
+        },
+        {
+          "path": "Audio/output/228/chapter_02.wav",
+          "duration": 184.77675,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Self-Care and Mindful Living",
+          "actualDuration": 184.77675,
+          "startTime": 309.83833400000003,
+          "endTime": 494.615084
+        },
+        {
+          "path": "Audio/output/228/chapter_03.wav",
+          "duration": 162.166917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Beauty and Meaning in the Ordinary",
+          "actualDuration": 162.166917,
+          "startTime": 496.115084,
+          "endTime": 658.282001
+        },
+        {
+          "path": "Audio/output/228/chapter_04.wav",
+          "duration": 167.015458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living Authentically and Honoring True Self",
+          "actualDuration": 167.015458,
+          "startTime": 659.782001,
+          "endTime": 826.797459
+        },
+        {
+          "path": "Audio/output/228/chapter_05.wav",
+          "duration": 182.739667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Discovering Abundance Through Simplicity",
+          "actualDuration": 182.739667,
+          "startTime": 828.297459,
+          "endTime": 1011.037126
+        },
+        {
+          "path": "Audio/output/228/chapter_06.wav",
+          "duration": 188.909417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Awakening Creativity and the Joy of Expression",
+          "actualDuration": 188.909417,
+          "startTime": 1012.537126,
+          "endTime": 1201.446543
+        },
+        {
+          "path": "Audio/output/228/chapter_07.wav",
+          "duration": 150.934208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating Connection and Community",
+          "actualDuration": 150.934208,
+          "startTime": 1202.946543,
+          "endTime": 1353.8807510000001
+        },
+        {
+          "path": "Audio/output/228/chapter_08.wav",
+          "duration": 129.622458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Change and Embracing Uncertainty",
+          "actualDuration": 129.622458,
+          "startTime": 1355.3807510000001,
+          "endTime": 1485.0032090000002
+        },
+        {
+          "path": "Audio/output/228/chapter_09.wav",
+          "duration": 134.374833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Joy Through Ritual and Reflection",
+          "actualDuration": 134.374833,
+          "startTime": 1486.5032090000002,
+          "endTime": 1620.8780420000003
+        },
+        {
+          "path": "Audio/output/228/chapter_10.wav",
+          "duration": 149.224875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Contentment",
+          "actualDuration": 149.224875,
+          "startTime": 1622.3780420000003,
+          "endTime": 1771.6029170000002
+        },
+        {
+          "path": "Audio/output/228/conclusion.wav",
+          "duration": 118.92075,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.92075,
+          "startTime": 1773.1029170000002,
+          "endTime": 1892.0236670000002
+        }
+      ],
+      "totalDuration": 1892.0236670000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.53,
+          "actualStart": 0,
+          "actualEnd": 94.533792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering Gratitude in Everyday Life",
+          "expectedStart": 94.53,
+          "expectedEnd": 306.83,
+          "actualStart": 96.033792,
+          "actualEnd": 308.33833400000003,
+          "timeDifference": 1.5037920000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Self-Care and Mindful Living",
+          "expectedStart": 306.83,
+          "expectedEnd": 491.61,
+          "actualStart": 309.83833400000003,
+          "actualEnd": 494.615084,
+          "timeDifference": 3.0083340000000476
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Beauty and Meaning in the Ordinary",
+          "expectedStart": 491.61,
+          "expectedEnd": 653.78,
+          "actualStart": 496.115084,
+          "actualEnd": 658.282001,
+          "timeDifference": 4.505084000000011
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living Authentically and Honoring True Self",
+          "expectedStart": 653.78,
+          "expectedEnd": 820.8,
+          "actualStart": 659.782001,
+          "actualEnd": 826.797459,
+          "timeDifference": 6.002001000000064
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Discovering Abundance Through Simplicity",
+          "expectedStart": 820.8,
+          "expectedEnd": 1003.54,
+          "actualStart": 828.297459,
+          "actualEnd": 1011.037126,
+          "timeDifference": 7.497459000000049
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Awakening Creativity and the Joy of Expression",
+          "expectedStart": 1003.54,
+          "expectedEnd": 1192.45,
+          "actualStart": 1012.537126,
+          "actualEnd": 1201.446543,
+          "timeDifference": 8.99712599999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating Connection and Community",
+          "expectedStart": 1192.45,
+          "expectedEnd": 1343.38,
+          "actualStart": 1202.946543,
+          "actualEnd": 1353.8807510000001,
+          "timeDifference": 10.496542999999974
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Change and Embracing Uncertainty",
+          "expectedStart": 1343.38,
+          "expectedEnd": 1473,
+          "actualStart": 1355.3807510000001,
+          "actualEnd": 1485.0032090000002,
+          "timeDifference": 12.000751000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Joy Through Ritual and Reflection",
+          "expectedStart": 1473,
+          "expectedEnd": 1607.37,
+          "actualStart": 1486.5032090000002,
+          "actualEnd": 1620.8780420000003,
+          "timeDifference": 13.503209000000197
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Contentment",
+          "expectedStart": 1607.37,
+          "expectedEnd": 1756.59,
+          "actualStart": 1622.3780420000003,
+          "actualEnd": 1771.6029170000002,
+          "timeDifference": 15.008042000000387
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1756.59,
+          "expectedEnd": 1875.51,
+          "actualStart": 1773.1029170000002,
+          "actualEnd": 1892.0236670000002,
+          "timeDifference": 16.512917000000243
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.533792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering Gratitude in Everyday Life"
+        },
+        {
+          "startTime": 308.33833400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering Gratitude in Everyday Life and Chapter 2 Embracing Self-Care and Mindful Living"
+        },
+        {
+          "startTime": 494.615084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Self-Care and Mindful Living and Chapter 3 Finding Beauty and Meaning in the Ordinary"
+        },
+        {
+          "startTime": 658.282001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Beauty and Meaning in the Ordinary and Chapter 4 Living Authentically and Honoring True Self"
+        },
+        {
+          "startTime": 826.797459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living Authentically and Honoring True Self and Chapter 5 Discovering Abundance Through Simplicity"
+        },
+        {
+          "startTime": 1011.037126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Discovering Abundance Through Simplicity and Chapter 6 Awakening Creativity and the Joy of Expression"
+        },
+        {
+          "startTime": 1201.446543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Awakening Creativity and the Joy of Expression and Chapter 7 Cultivating Connection and Community"
+        },
+        {
+          "startTime": 1353.8807510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating Connection and Community and Chapter 8 Navigating Change and Embracing Uncertainty"
+        },
+        {
+          "startTime": 1485.0032090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Change and Embracing Uncertainty and Chapter 9 Sustaining Joy Through Ritual and Reflection"
+        },
+        {
+          "startTime": 1620.8780420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Joy Through Ritual and Reflection and Chapter 10 Living with Purpose and Contentment"
+        },
+        {
+          "startTime": 1771.6029170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Contentment and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "228",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T04:13:34.241Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

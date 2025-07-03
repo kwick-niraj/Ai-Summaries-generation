@@ -1,0 +1,481 @@
+{
+  "bookId": "33",
+  "timestamp": "2025-07-02T18:26:01.237Z",
+  "success": false,
+  "processingTime": -1751480202600,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5239,
+    "totalAudioFiles": 14,
+    "totalDuration": 2495.3557920000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 13,
+    "failed": 1,
+    "duration": 2495.3557920000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/33/optimized_text/33.md",
+    "fileSize": 897,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "33.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/33/metadata/33_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2495.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/33/metadata/33_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/33/metadata/33_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/33/33_complete.wav",
+    "duration": 2495.355792,
+    "fileSize": 119777156,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/33/introduction.wav",
+          "duration": 100.467417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.467417,
+          "startTime": 0,
+          "endTime": 100.467417
+        },
+        {
+          "path": "Audio/output/33/chapter_01.wav",
+          "duration": 303.03475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 From Mountain Climber to Unexpected Guest in a Remote Village",
+          "actualDuration": 303.03475,
+          "startTime": 101.967417,
+          "endTime": 405.002167
+        },
+        {
+          "path": "Audio/output/33/chapter_02.wav",
+          "duration": 259.867625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning to Listen: Building Trust in Unfamiliar Places",
+          "actualDuration": 259.867625,
+          "startTime": 406.502167,
+          "endTime": 666.369792
+        },
+        {
+          "path": "Audio/output/33/chapter_03.wav",
+          "duration": 280.292333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Small Actions: Grassroots Change in Action",
+          "actualDuration": 280.292333,
+          "startTime": 667.869792,
+          "endTime": 948.162125
+        },
+        {
+          "path": "Audio/output/33/chapter_04.wav",
+          "duration": 263.718208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Cultural Differences and Building Lasting Partnerships",
+          "actualDuration": 263.718208,
+          "startTime": 949.662125,
+          "endTime": 1213.380333
+        },
+        {
+          "path": "Audio/output/33/chapter_05.wav",
+          "duration": 191.278333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Education as a Pathway to Peace and Opportunity",
+          "actualDuration": 191.278333,
+          "startTime": 1214.880333,
+          "endTime": 1406.158666
+        },
+        {
+          "path": "Audio/output/33/chapter_06.wav",
+          "duration": 214.189583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 New Frontiers: Expanding the Mission into Afghanistan",
+          "actualDuration": 214.189583,
+          "startTime": 1407.658666,
+          "endTime": 1621.8482490000001
+        },
+        {
+          "path": "Audio/output/33/chapter_07.wav",
+          "duration": 174.330917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Setbacks and Finding Resilience",
+          "actualDuration": 174.330917,
+          "startTime": 1623.3482490000001,
+          "endTime": 1797.6791660000001
+        },
+        {
+          "path": "Audio/output/33/chapter_08.wav",
+          "duration": 139.678125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: How Education Changes Everything",
+          "actualDuration": 139.678125,
+          "startTime": 1799.1791660000001,
+          "endTime": 1938.857291
+        },
+        {
+          "path": "Audio/output/33/chapter_09.wav",
+          "duration": 161.403167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Cost of Peace: Sacrifice, Controversy, and the Weight of Leadership",
+          "actualDuration": 161.403167,
+          "startTime": 1940.357291,
+          "endTime": 2101.760458
+        },
+        {
+          "path": "Audio/output/33/chapter_10.wav",
+          "duration": 150.144125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons in Humility: Listening, Learning, and Letting Go",
+          "actualDuration": 150.144125,
+          "startTime": 2103.260458,
+          "endTime": 2253.404583
+        },
+        {
+          "path": "Audio/output/33/chapter_11.wav",
+          "duration": 127.055917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Enduring Power of Grassroots Action",
+          "actualDuration": 127.055917,
+          "startTime": 2254.904583,
+          "endTime": 2381.9605
+        },
+        {
+          "path": "Audio/output/33/chapter_12.wav",
+          "duration": 129.895292,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Carrying the Mission Forward: Hope, Legacy, and the Next Generation",
+          "actualDuration": 129.895292,
+          "startTime": 2383.4605,
+          "endTime": 2513.3557920000003
+        }
+      ],
+      "totalDuration": 2513.3557920000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.47,
+          "actualStart": 0,
+          "actualEnd": 100.467417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 From Mountain Climber to Unexpected Guest in a Remote Village",
+          "expectedStart": 100.47,
+          "expectedEnd": 403.5,
+          "actualStart": 101.967417,
+          "actualEnd": 405.002167,
+          "timeDifference": 1.4974169999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning to Listen: Building Trust in Unfamiliar Places",
+          "expectedStart": 403.5,
+          "expectedEnd": 663.37,
+          "actualStart": 406.502167,
+          "actualEnd": 666.369792,
+          "timeDifference": 3.002166999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Small Actions: Grassroots Change in Action",
+          "expectedStart": 663.37,
+          "expectedEnd": 943.66,
+          "actualStart": 667.869792,
+          "actualEnd": 948.162125,
+          "timeDifference": 4.499791999999957
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Cultural Differences and Building Lasting Partnerships",
+          "expectedStart": 943.66,
+          "expectedEnd": 1207.38,
+          "actualStart": 949.662125,
+          "actualEnd": 1213.380333,
+          "timeDifference": 6.002124999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Education as a Pathway to Peace and Opportunity",
+          "expectedStart": 1207.38,
+          "expectedEnd": 1398.66,
+          "actualStart": 1214.880333,
+          "actualEnd": 1406.158666,
+          "timeDifference": 7.500332999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 New Frontiers: Expanding the Mission into Afghanistan",
+          "expectedStart": 1398.66,
+          "expectedEnd": 1612.85,
+          "actualStart": 1407.658666,
+          "actualEnd": 1621.8482490000001,
+          "timeDifference": 8.998665999999957
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Setbacks and Finding Resilience",
+          "expectedStart": 1612.85,
+          "expectedEnd": 1787.18,
+          "actualStart": 1623.3482490000001,
+          "actualEnd": 1797.6791660000001,
+          "timeDifference": 10.498249000000214
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: How Education Changes Everything",
+          "expectedStart": 1787.18,
+          "expectedEnd": 1926.86,
+          "actualStart": 1799.1791660000001,
+          "actualEnd": 1938.857291,
+          "timeDifference": 11.99916600000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Cost of Peace: Sacrifice, Controversy, and the Weight of Leadership",
+          "expectedStart": 1926.86,
+          "expectedEnd": 2088.26,
+          "actualStart": 1940.357291,
+          "actualEnd": 2101.760458,
+          "timeDifference": 13.497291000000132
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons in Humility: Listening, Learning, and Letting Go",
+          "expectedStart": 2088.26,
+          "expectedEnd": 2238.4,
+          "actualStart": 2103.260458,
+          "actualEnd": 2253.404583,
+          "timeDifference": 15.00045799999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Enduring Power of Grassroots Action",
+          "expectedStart": 2238.4,
+          "expectedEnd": 2365.46,
+          "actualStart": 2254.904583,
+          "actualEnd": 2381.9605,
+          "timeDifference": 16.50458299999991
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Carrying the Mission Forward: Hope, Legacy, and the Next Generation",
+          "expectedStart": 2365.46,
+          "expectedEnd": 2495.36,
+          "actualStart": 2383.4605,
+          "actualEnd": 2513.3557920000003,
+          "timeDifference": 18.000500000000102
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.467417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 From Mountain Climber to Unexpected Guest in a Remote Village"
+        },
+        {
+          "startTime": 405.002167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 From Mountain Climber to Unexpected Guest in a Remote Village and Chapter 2 Learning to Listen: Building Trust in Unfamiliar Places"
+        },
+        {
+          "startTime": 666.369792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning to Listen: Building Trust in Unfamiliar Places and Chapter 3 The Power of Small Actions: Grassroots Change in Action"
+        },
+        {
+          "startTime": 948.162125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Small Actions: Grassroots Change in Action and Chapter 4 Navigating Cultural Differences and Building Lasting Partnerships"
+        },
+        {
+          "startTime": 1213.380333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Cultural Differences and Building Lasting Partnerships and Chapter 5 Education as a Pathway to Peace and Opportunity"
+        },
+        {
+          "startTime": 1406.158666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Education as a Pathway to Peace and Opportunity and Chapter 6 New Frontiers: Expanding the Mission into Afghanistan"
+        },
+        {
+          "startTime": 1621.8482490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 New Frontiers: Expanding the Mission into Afghanistan and Chapter 7 Facing Setbacks and Finding Resilience"
+        },
+        {
+          "startTime": 1797.6791660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Setbacks and Finding Resilience and Chapter 8 The Ripple Effect: How Education Changes Everything"
+        },
+        {
+          "startTime": 1938.857291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: How Education Changes Everything and Chapter 9 The Cost of Peace: Sacrifice, Controversy, and the Weight of Leadership"
+        },
+        {
+          "startTime": 2101.760458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Cost of Peace: Sacrifice, Controversy, and the Weight of Leadership and Chapter 10 Lessons in Humility: Listening, Learning, and Letting Go"
+        },
+        {
+          "startTime": 2253.404583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons in Humility: Listening, Learning, and Letting Go and Chapter 11 The Enduring Power of Grassroots Action"
+        },
+        {
+          "startTime": 2381.9605,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Enduring Power of Grassroots Action and Chapter 12 Carrying the Mission Forward: Hope, Legacy, and the Next Generation"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "33",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T18:16:44.435Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

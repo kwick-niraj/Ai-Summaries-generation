@@ -9,6 +9,7 @@ import { AudioMerger } from './audioMerger.js';
 import { FormatConverter } from './formatConverter.js';
 import { VoiceSelector } from './voiceSelector.js';
 import { TextCacheManager } from './textCacheManager.js';
+import { BookProcessingTracker } from './csvTracker.js';
 
 /**
  * Main book processor that orchestrates the entire audio generation pipeline
@@ -29,6 +30,7 @@ export class BookProcessor {
       concurrency: options.concurrency || 1, // Process books one at a time by default
       enableSSML: options.enableSSML !== false, // Default true
       intelligentVoiceSelection: options.intelligentVoiceSelection !== false, // Default true
+      trackProcessing: options.trackProcessing !== false, // Default true
       ...options
     };
 
@@ -46,6 +48,11 @@ export class BookProcessor {
 
     // Initialize text cache manager with configuration
     this.cacheManager = new TextCacheManager(this.config);
+
+    // Initialize book processing tracker if enabled
+    this.processingTracker = this.config.trackProcessing 
+      ? new BookProcessingTracker(this.config.logDir) 
+      : null;
 
     this.stats = {
       totalBooks: 0,
@@ -122,7 +129,7 @@ export class BookProcessor {
   }
 
   /**
-   * Process a single book
+   * Process a single book with comprehensive error handling
    * @param {string} bookId - Book identifier
    * @param {string} inputPath - Path to markdown file
    * @returns {Promise<Object>} Processing result
@@ -143,6 +150,7 @@ export class BookProcessor {
       audioResults: null,
       combinedAudio: null,
       errors: [],
+      retryAttempts: 0,
       stats: {
         totalSections: 0,
         totalWords: 0,
@@ -150,6 +158,15 @@ export class BookProcessor {
         totalDuration: 0
       }
     };
+
+    // Initialize CSV tracking if enabled
+    if (this.processingTracker) {
+      try {
+        await this.processingTracker.initializeCSV();
+      } catch (csvError) {
+        console.error(`⚠️  Failed to initialize CSV tracking for book ${bookId}:`, csvError);
+      }
+    }
 
     try {
       const outputDir = path.join(this.config.outputDir, bookId);
@@ -159,97 +176,245 @@ export class BookProcessor {
         console.log(`⏭️  Skipping ${bookId} - already processed`);
         result.skipped = true;
         result.success = true;
+        result.endTime = new Date();
         this.stats.skippedBooks++;
+        
+        // Log skipped status
+        if (this.processingTracker) {
+          try {
+            await this.processingTracker.logBookProcessing(result);
+          } catch (csvError) {
+            console.error(`⚠️  Failed to log skipped book ${bookId}:`, csvError);
+          }
+        }
+        
         return result;
       }
 
-      // Step 1: Parse markdown structure
+      // Step 1: Parse markdown structure with error handling
       console.log('🔍 Parsing markdown structure...');
-      const sections = this.parser.parseBookStructure(inputPath);
-      result.sections = sections;
-      
-      const summary = this.parser.getProcessingSummary(sections);
-      result.stats.totalSections = summary.totalSections;
-      result.stats.totalWords = summary.totalWords;
-      
-      console.log(`📊 Structure: ${summary.totalSections} sections, ${summary.totalWords} words`);
-      console.log(`📈 Estimated chunks: ${summary.estimatedTotalChunks}`);
+      let sections;
+      try {
+        sections = this.parser.parseBookStructure(inputPath);
+        result.sections = sections;
+        
+        const summary = this.parser.getProcessingSummary(sections);
+        result.stats.totalSections = summary.totalSections;
+        result.stats.totalWords = summary.totalWords;
+        
+        console.log(`📊 Structure: ${summary.totalSections} sections, ${summary.totalWords} words`);
+        console.log(`📈 Estimated chunks: ${summary.estimatedTotalChunks}`);
+      } catch (parseError) {
+        console.error(`❌ Failed to parse markdown structure for book ${bookId}:`, parseError);
+        result.success = false;
+        result.errorDetails = {
+          stage: 'parsing',
+          error: parseError.message
+        };
+        result.endTime = new Date();
+        
+        // Log the failure and continue to next book
+        if (this.processingTracker) {
+          try {
+            await this.processingTracker.logBookProcessing(result);
+          } catch (csvError) {
+            console.error(`⚠️  Failed to log parsing error for book ${bookId}:`, csvError);
+          }
+        }
+        
+        this.stats.failedBooks++;
+        this.stats.processedBooks++;
+        return result;
+      }
 
-      // Step 2: Select optimal voice for this book
+      // Step 2: Select optimal voice for this book with error handling
       let voiceConfig = null;
       if (this.config.intelligentVoiceSelection) {
         console.log('🎤 Selecting optimal voice...');
-        voiceConfig = await this.voiceSelector.selectVoiceForBook(bookId, this.config.metadataDir);
-        // console.log('🎤 Selected Voice config', voiceConfig)
-        result.voiceSelection = voiceConfig;
+        try {
+          voiceConfig = await this.voiceSelector.selectVoiceForBook(bookId, this.config.metadataDir);
+          result.voiceSelection = voiceConfig;
+        } catch (voiceError) {
+          console.error(`⚠️  Voice selection failed for book ${bookId}, using default voice:`, voiceError);
+          // Continue with default voice instead of failing
+          voiceConfig = {
+            selectedVoice: this.config.voice || 'nova',
+            confidence: 0,
+            reasoning: 'Fallback to default due to voice selection error'
+          };
+          result.voiceSelection = voiceConfig;
+        }
       }
 
-      // console.log('Niraj Voice Config:', voiceConfig);
-
-      // Step 3: Optimize text with dual-track processing (audio + reading)
+      // Step 3: Optimize text with dual-track processing (audio + reading) with error handling
       console.log('✨ Dual-track optimizing text for audio and reading...');
-      const optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath, this.config.enableSSML);
-
-      // Step 4: Save both audio and reading optimized text versions (BEFORE audio generation)
-      console.log('💾 Saving dual-track optimized text...');
-      const textSaveResult = await this.textSaver.saveDualTrackOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
-      result.optimizedTextSaved = textSaveResult;
-
-      // Store both versions in result for reference
-      result.optimizedSections = optimizedSections;
-
-      // Step 5: Generate audio files with selected voice and SSML (using audio version)
-      console.log('🎵 Generating audio files...');
-      const selectedVoice = voiceConfig?.selectedVoice || this.config.voice || 'nova';
-      const audioResults = await this.audioGenerator.generateBookAudio(
-        optimizedSections.audio,
-        bookId,
-        outputDir,
-        {
-          voice: selectedVoice,
-          speed: this.config.speed,
-          format: this.config.format,
-          maxChunkLength: this.config.maxChunkLength,
-          ssmlConfig: voiceConfig?.ssmlConfig,
-        },
-        this.config.enableSSML
-      );
+      let audioResults = null;
+      let textSaveResult = null;
+      let optimizedSections = null;
       
-      result.audioResults = audioResults;
-      result.stats.totalAudioFiles = audioResults.totalFiles;
-      result.stats.totalDuration = audioResults.totalDuration;
+      try {
+        optimizedSections = await this.optimizeBookSections(sections, voiceConfig, bookId, outputDir, inputPath, this.config.enableSSML);
+        result.optimizedSections = optimizedSections;
+      } catch (optimizationError) {
+        console.error(`❌ Text optimization API failed for book ${bookId}:`, optimizationError);
+        result.success = false;
+        result.errorDetails = {
+          stage: 'text_optimization',
+          error: optimizationError.message
+        };
+        result.endTime = new Date();
+        
+        // Log the failure and continue to next book
+        if (this.processingTracker) {
+          try {
+            await this.processingTracker.logBookProcessing(result);
+          } catch (csvError) {
+            console.error(`⚠️  Failed to log optimization error for book ${bookId}:`, csvError);
+          }
+        }
+        
+        this.stats.failedBooks++;
+        this.stats.processedBooks++;
+        return result;
+      }
 
-      // Step 6: Generate chapter timestamps
+      // Step 4: Save both audio and reading optimized text versions with error handling
+      console.log('💾 Saving dual-track optimized text...');
+      try {
+        textSaveResult = await this.textSaver.saveDualTrackOptimizedBook(optimizedSections, bookId, outputDir, voiceConfig);
+        result.optimizedTextSaved = textSaveResult;
+      } catch (saveError) {
+        console.error(`❌ Failed to save optimized text for book ${bookId}:`, saveError);
+        result.success = false;
+        result.errorDetails = {
+          stage: 'file_operation',
+          error: saveError.message
+        };
+        result.endTime = new Date();
+        
+        // Log the failure and continue to next book
+        if (this.processingTracker) {
+          try {
+            await this.processingTracker.logBookProcessing(result);
+          } catch (csvError) {
+            console.error(`⚠️  Failed to log save error for book ${bookId}:`, csvError);
+          }
+        }
+        
+        this.stats.failedBooks++;
+        this.stats.processedBooks++;
+        return result;
+      }
+
+      // Step 5: Generate audio files with selected voice and SSML with error handling
+      console.log('🎵 Generating audio files...');
+      try {
+        const selectedVoice = voiceConfig?.selectedVoice || this.config.voice || 'nova';
+        audioResults = await this.audioGenerator.generateBookAudio(
+          optimizedSections.audio,
+          bookId,
+          outputDir,
+          {
+            voice: selectedVoice,
+            speed: this.config.speed,
+            format: this.config.format,
+            maxChunkLength: this.config.maxChunkLength,
+            ssmlConfig: voiceConfig?.ssmlConfig,
+          },
+          this.config.enableSSML
+        );
+        
+        result.audioResults = audioResults;
+        result.stats.totalAudioFiles = audioResults.totalFiles;
+        result.stats.totalDuration = audioResults.totalDuration;
+      } catch (audioError) {
+        console.error(`❌ Audio generation API failed for book ${bookId}:`, audioError);
+        result.success = false;
+        result.errorDetails = {
+          stage: 'audio_generation',
+          error: audioError.message
+        };
+        result.endTime = new Date();
+        
+        // Log the failure and continue to next book
+        if (this.processingTracker) {
+          try {
+            await this.processingTracker.logBookProcessing(result);
+          } catch (csvError) {
+            console.error(`⚠️  Failed to log audio generation error for book ${bookId}:`, csvError);
+          }
+        }
+        
+        this.stats.failedBooks++;
+        this.stats.processedBooks++;
+        return result;
+      }
+
+      // Step 6: Generate chapter timestamps with error handling
       console.log('⏱️  Generating chapter timestamps...');
-      const timestampResult = await this.timestampGenerator.generateChapterTimestamps(audioResults, bookId, outputDir);
-      result.chapterTimestamps = timestampResult;
+      let timestampResult = null;
+      try {
+        timestampResult = await this.timestampGenerator.generateChapterTimestamps(audioResults, bookId, outputDir);
+        result.chapterTimestamps = timestampResult;
+      } catch (timestampError) {
+        console.error(`⚠️  Failed to generate chapter timestamps for book ${bookId}:`, timestampError);
+        // Continue processing without timestamps - this is not a critical failure
+        result.chapterTimestamps = { success: false, error: timestampError.message };
+      }
 
-      // Step 7: Generate additional metadata files
-      if (timestampResult.success) {
+      // Step 7: Generate additional metadata files with error handling
+      if (timestampResult && timestampResult.success) {
         console.log('📝 Generating additional metadata...');
         
-        // Generate playlist
-        const playlistResult = await this.timestampGenerator.generatePlaylist(timestampResult.chapterData, outputDir);
-        result.playlist = playlistResult;
+        try {
+          // Generate playlist
+          const playlistResult = await this.timestampGenerator.generatePlaylist(timestampResult.chapterData, outputDir);
+          result.playlist = playlistResult;
+        } catch (playlistError) {
+          console.error(`⚠️  Failed to generate playlist for book ${bookId}:`, playlistError);
+          result.playlist = { success: false, error: playlistError.message };
+        }
         
-        // Generate WebVTT chapters
-        const vttResult = await this.timestampGenerator.generateWebVTTChapters(timestampResult.chapterData, outputDir);
-        result.webvttChapters = vttResult;
+        try {
+          // Generate WebVTT chapters
+          const vttResult = await this.timestampGenerator.generateWebVTTChapters(timestampResult.chapterData, outputDir);
+          result.webvttChapters = vttResult;
+        } catch (vttError) {
+          console.error(`⚠️  Failed to generate WebVTT chapters for book ${bookId}:`, vttError);
+          result.webvttChapters = { success: false, error: vttError.message };
+        }
       }
 
-      // Step 8: Combine audio files if requested
+      // Step 8: Combine audio files if requested with error handling
       if (this.config.combineAudio && audioResults.successfulFiles > 0) {
         console.log('🔗 Combining audio files...');
-        const combinedResult = await this.combineBookAudio(audioResults, result, bookId, outputDir);
-        result.combinedAudio = combinedResult;
+        try {
+          const combinedResult = await this.combineBookAudio(audioResults, result, bookId, outputDir);
+          result.combinedAudio = combinedResult;
+        } catch (combineError) {
+          console.error(`⚠️  Failed to combine audio files for book ${bookId}:`, combineError);
+          result.combinedAudio = { success: false, error: combineError.message };
+          // Continue processing - audio combination failure is not critical if individual files exist
+        }
       }
 
-      // Step 9: Generate book report
-      await this.generateBookReport(result);
+      // Step 9: Generate book report with error handling
+      try {
+        await this.generateBookReport(result);
+      } catch (reportError) {
+        console.error(`⚠️  Failed to generate book report for book ${bookId}:`, reportError);
+        // Continue processing - report generation failure is not critical
+      }
 
-      result.success = audioResults.successfulFiles > 0;
+      // Comprehensive success check - book is successful if core operations succeeded
+      result.success = 
+        audioResults.successfulFiles > 0 && 
+        textSaveResult.success;
+        // Note: We don't require audio combination to succeed for overall success
+
       result.endTime = new Date();
       
+      // Determine processing status and update statistics
       if (result.success) {
         console.log(`✅ Book ${bookId} processed successfully`);
         console.log(`📊 Generated ${audioResults.successfulFiles} audio files`);
@@ -264,10 +429,24 @@ export class BookProcessor {
       this.stats.totalAudioFiles += result.stats.totalAudioFiles;
       this.stats.totalDuration += result.stats.totalDuration;
 
+      // Log to CSV if tracking is enabled
+      if (this.processingTracker) {
+        try {
+          await this.processingTracker.logBookProcessing(result);
+        } catch (csvError) {
+          console.error(`⚠️  Failed to log book processing to CSV for book ${bookId}:`, csvError);
+        }
+      }
+
       return result;
 
     } catch (error) {
-      console.error(`❌ Error processing book ${bookId}:`, error);
+      console.error(`❌ Unexpected error processing book ${bookId}:`, error);
+      result.success = false;
+      result.errorDetails = {
+        stage: 'unexpected_error',
+        error: error.message
+      };
       result.errors.push({
         type: 'book_processing',
         message: error.message,
@@ -277,6 +456,15 @@ export class BookProcessor {
       result.endTime = new Date();
       this.stats.failedBooks++;
       this.stats.processedBooks++;
+      
+      // Log failed processing to CSV if tracking is enabled
+      if (this.processingTracker) {
+        try {
+          await this.processingTracker.logBookProcessing(result);
+        } catch (csvError) {
+          console.error(`⚠️  Failed to log processing error to CSV for book ${bookId}:`, csvError);
+        }
+      }
       
       return result;
     }
@@ -290,6 +478,7 @@ export class BookProcessor {
    * @param {string} bookId - Book identifier for caching
    * @param {string} outputDir - Output directory for caching
    * @param {string} inputPath - Input file path for cache freshness check
+   * @param {boolean} enableSSML - Whether SSML is enabled
    * @returns {Promise<Object>} Optimized sections with both audio and reading versions
    */
   async optimizeBookSections(sections, voiceConfig = null, bookId = null, outputDir = null, inputPath = null, enableSSML) {
@@ -837,60 +1026,156 @@ export class BookProcessor {
   }
 
   /**
-   * Process books sequentially
+   * Process books sequentially with enhanced error handling
    * @param {Array} bookFiles - Array of book files
    */
   async processBooksSequentially(bookFiles) {
+    console.log(`🔄 Processing ${bookFiles.length} books sequentially...`);
+    
     for (let i = 0; i < bookFiles.length; i++) {
       const { bookId, filePath } = bookFiles[i];
       
       console.log(`\n📊 Progress: ${i + 1}/${bookFiles.length} books`);
+      console.log(`📈 Current stats: ✅ ${this.stats.successfulBooks} successful, ❌ ${this.stats.failedBooks} failed, ⏭️ ${this.stats.skippedBooks} skipped`);
       
       try {
-        await this.processBook(bookId, filePath);
+        const result = await this.processBook(bookId, filePath);
+        
+        // Log individual book result
+        if (result.success) {
+          console.log(`✅ Book ${bookId} completed successfully`);
+        } else if (result.skipped) {
+          console.log(`⏭️ Book ${bookId} was skipped`);
+        } else {
+          console.log(`❌ Book ${bookId} failed: ${result.errorDetails?.error || 'Unknown error'}`);
+        }
+        
       } catch (error) {
-        console.error(`Failed to process book ${bookId}:`, error);
+        // This catch block handles any unexpected errors that weren't caught in processBook
+        console.error(`💥 Unexpected error processing book ${bookId}:`, error);
         this.stats.errors.push({
           bookId,
           error: error.message,
+          stage: 'sequential_processing',
           timestamp: new Date().toISOString()
         });
+        
+        // Continue to next book even after unexpected error
+        console.log(`🔄 Continuing to next book despite error in ${bookId}...`);
       }
       
-      // Log progress
-      await this.logProgress(bookId, i + 1, bookFiles.length);
+      // Log progress after each book
+      try {
+        await this.logProgress(bookId, i + 1, bookFiles.length);
+      } catch (progressError) {
+        console.error(`⚠️ Failed to log progress for book ${bookId}:`, progressError);
+        // Continue processing even if progress logging fails
+      }
+      
+      // Small delay between books to prevent overwhelming APIs
+      if (i < bookFiles.length - 1) {
+        await this.delay(1000);
+      }
     }
+    
+    console.log(`\n🏁 Sequential processing completed!`);
+    console.log(`📊 Final sequential stats: ✅ ${this.stats.successfulBooks} successful, ❌ ${this.stats.failedBooks} failed, ⏭️ ${this.stats.skippedBooks} skipped`);
   }
 
   /**
-   * Process books in batches (concurrent processing)
+   * Process books in batches (concurrent processing) with enhanced error handling
    * @param {Array} bookFiles - Array of book files
    */
   async processBooksInBatches(bookFiles) {
     const batchSize = this.config.concurrency;
+    const totalBatches = Math.ceil(bookFiles.length / batchSize);
+    
+    console.log(`🔄 Processing ${bookFiles.length} books in ${totalBatches} batches (concurrency: ${batchSize})...`);
     
     for (let i = 0; i < bookFiles.length; i += batchSize) {
       const batch = bookFiles.slice(i, i + batchSize);
-      console.log(`\n📊 Processing batch ${Math.floor(i / batchSize) + 1} (${batch.length} books)`);
+      const batchNumber = Math.floor(i / batchSize) + 1;
       
+      console.log(`\n📊 Processing batch ${batchNumber}/${totalBatches} (${batch.length} books)`);
+      console.log(`📈 Current stats: ✅ ${this.stats.successfulBooks} successful, ❌ ${this.stats.failedBooks} failed, ⏭️ ${this.stats.skippedBooks} skipped`);
+      
+      // Create promises for each book in the batch
       const batchPromises = batch.map(({ bookId, filePath }) => 
-        this.processBook(bookId, filePath).catch(error => {
-          console.error(`Batch processing failed for ${bookId}:`, error);
-          this.stats.errors.push({
-            bookId,
-            error: error.message,
-            timestamp: new Date().toISOString()
-          });
-          return null;
-        })
+        this.processBook(bookId, filePath)
+          .then(result => {
+            // Log individual book result within batch
+            if (result.success) {
+              console.log(`✅ [Batch ${batchNumber}] Book ${bookId} completed successfully`);
+            } else if (result.skipped) {
+              console.log(`⏭️ [Batch ${batchNumber}] Book ${bookId} was skipped`);
+            } else {
+              console.log(`❌ [Batch ${batchNumber}] Book ${bookId} failed: ${result.errorDetails?.error || 'Unknown error'}`);
+            }
+            return result;
+          })
+          .catch(error => {
+            // Handle any unexpected errors that weren't caught in processBook
+            console.error(`💥 [Batch ${batchNumber}] Unexpected error processing book ${bookId}:`, error);
+            this.stats.errors.push({
+              bookId,
+              error: error.message,
+              stage: 'batch_processing',
+              timestamp: new Date().toISOString()
+            });
+            
+            // Return a failed result object to maintain consistency
+            return {
+              bookId,
+              success: false,
+              errorDetails: {
+                stage: 'batch_processing_error',
+                error: error.message
+              },
+              endTime: new Date()
+            };
+          })
       );
       
-      await Promise.all(batchPromises);
+      // Wait for all books in the batch to complete
+      try {
+        const batchResults = await Promise.all(batchPromises);
+        
+        // Log batch completion stats
+        const batchSuccessful = batchResults.filter(r => r && r.success).length;
+        const batchFailed = batchResults.filter(r => r && !r.success && !r.skipped).length;
+        const batchSkipped = batchResults.filter(r => r && r.skipped).length;
+        
+        console.log(`🏁 Batch ${batchNumber} completed: ✅ ${batchSuccessful} successful, ❌ ${batchFailed} failed, ⏭️ ${batchSkipped} skipped`);
+        
+      } catch (batchError) {
+        // This should rarely happen since we're catching errors in individual promises
+        console.error(`💥 Unexpected batch processing error for batch ${batchNumber}:`, batchError);
+        this.stats.errors.push({
+          batch: batchNumber,
+          error: batchError.message,
+          stage: 'batch_coordination',
+          timestamp: new Date().toISOString()
+        });
+      }
       
       // Log batch progress
-      const processed = Math.min(i + batchSize, bookFiles.length);
-      await this.logProgress(`batch_${Math.floor(i / batchSize) + 1}`, processed, bookFiles.length);
+      try {
+        const processed = Math.min(i + batchSize, bookFiles.length);
+        await this.logProgress(`batch_${batchNumber}`, processed, bookFiles.length);
+      } catch (progressError) {
+        console.error(`⚠️ Failed to log progress for batch ${batchNumber}:`, progressError);
+        // Continue processing even if progress logging fails
+      }
+      
+      // Small delay between batches to prevent overwhelming APIs
+      if (i + batchSize < bookFiles.length) {
+        console.log(`⏸️ Pausing 2 seconds between batches...`);
+        await this.delay(2000);
+      }
     }
+    
+    console.log(`\n🏁 Batch processing completed!`);
+    console.log(`📊 Final batch stats: ✅ ${this.stats.successfulBooks} successful, ❌ ${this.stats.failedBooks} failed, ⏭️ ${this.stats.skippedBooks} skipped`);
   }
 
   /**

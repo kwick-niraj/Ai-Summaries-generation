@@ -1,0 +1,455 @@
+{
+  "bookId": "246",
+  "timestamp": "2025-07-03T05:19:05.889Z",
+  "success": false,
+  "processingTime": -1751519593876,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4967,
+    "totalAudioFiles": 12,
+    "totalDuration": 2066.554916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2066.554916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/246/optimized_text/246.md",
+    "fileSize": 805,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "246.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/246/metadata/246_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2066.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/246/metadata/246_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/246/metadata/246_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/246/246_complete.wav",
+    "duration": 2066.554917,
+    "fileSize": 99194714,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/246/introduction.wav",
+          "duration": 86.683042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.683042,
+          "startTime": 0,
+          "endTime": 86.683042
+        },
+        {
+          "path": "Audio/output/246/chapter_01.wav",
+          "duration": 234.529542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Dismissal: How Women’s Voices Are Undermined",
+          "actualDuration": 234.529542,
+          "startTime": 88.183042,
+          "endTime": 322.712584
+        },
+        {
+          "path": "Audio/output/246/chapter_02.wav",
+          "duration": 234.342583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Not Being Believed: Silencing and Its Consequences",
+          "actualDuration": 234.342583,
+          "startTime": 324.212584,
+          "endTime": 558.555167
+        },
+        {
+          "path": "Audio/output/246/chapter_03.wav",
+          "duration": 246.461458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Link Between Dismissal and Violence: How Culture Enables Harm",
+          "actualDuration": 246.461458,
+          "startTime": 560.055167,
+          "endTime": 806.516625
+        },
+        {
+          "path": "Audio/output/246/chapter_04.wav",
+          "duration": 246.997125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Naming the Pattern: The Power of Language and Recognition",
+          "actualDuration": 246.997125,
+          "startTime": 808.016625,
+          "endTime": 1055.01375
+        },
+        {
+          "path": "Audio/output/246/chapter_05.wav",
+          "duration": 196.061458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intersectionality: How Race, Class, and Identity Shape Women’s Experiences",
+          "actualDuration": 196.061458,
+          "startTime": 1056.51375,
+          "endTime": 1252.575208
+        },
+        {
+          "path": "Audio/output/246/chapter_06.wav",
+          "duration": 183.596542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Storytelling as Resistance: The Quiet Power of Shared Experience",
+          "actualDuration": 183.596542,
+          "startTime": 1254.075208,
+          "endTime": 1437.67175
+        },
+        {
+          "path": "Audio/output/246/chapter_07.wav",
+          "duration": 136.404083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Solidarity: The Strength Found in Standing Together",
+          "actualDuration": 136.404083,
+          "startTime": 1439.17175,
+          "endTime": 1575.5758329999999
+        },
+        {
+          "path": "Audio/output/246/chapter_08.wav",
+          "duration": 161.145333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Struggle: Change, Backlash, and the Work Ahead",
+          "actualDuration": 161.145333,
+          "startTime": 1577.0758329999999,
+          "endTime": 1738.2211659999998
+        },
+        {
+          "path": "Audio/output/246/chapter_09.wav",
+          "duration": 131.166542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reimagining Authority: Listening as a Radical Act",
+          "actualDuration": 131.166542,
+          "startTime": 1739.7211659999998,
+          "endTime": 1870.8877079999997
+        },
+        {
+          "path": "Audio/output/246/chapter_10.wav",
+          "duration": 102.840875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Hope and Possibility: Imagining a World Where Everyone Is Heard",
+          "actualDuration": 102.840875,
+          "startTime": 1872.3877079999997,
+          "endTime": 1975.2285829999998
+        },
+        {
+          "path": "Audio/output/246/conclusion.wav",
+          "duration": 106.326333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.326333,
+          "startTime": 1976.7285829999998,
+          "endTime": 2083.054916
+        }
+      ],
+      "totalDuration": 2083.054916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.68,
+          "actualStart": 0,
+          "actualEnd": 86.683042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Dismissal: How Women’s Voices Are Undermined",
+          "expectedStart": 86.68,
+          "expectedEnd": 321.21,
+          "actualStart": 88.183042,
+          "actualEnd": 322.712584,
+          "timeDifference": 1.5030419999999935
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Not Being Believed: Silencing and Its Consequences",
+          "expectedStart": 321.21,
+          "expectedEnd": 555.55,
+          "actualStart": 324.212584,
+          "actualEnd": 558.555167,
+          "timeDifference": 3.002584000000013
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Link Between Dismissal and Violence: How Culture Enables Harm",
+          "expectedStart": 555.55,
+          "expectedEnd": 802.01,
+          "actualStart": 560.055167,
+          "actualEnd": 806.516625,
+          "timeDifference": 4.505167000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Naming the Pattern: The Power of Language and Recognition",
+          "expectedStart": 802.01,
+          "expectedEnd": 1049.01,
+          "actualStart": 808.016625,
+          "actualEnd": 1055.01375,
+          "timeDifference": 6.0066249999999854
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intersectionality: How Race, Class, and Identity Shape Women’s Experiences",
+          "expectedStart": 1049.01,
+          "expectedEnd": 1245.07,
+          "actualStart": 1056.51375,
+          "actualEnd": 1252.575208,
+          "timeDifference": 7.503750000000082
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Storytelling as Resistance: The Quiet Power of Shared Experience",
+          "expectedStart": 1245.07,
+          "expectedEnd": 1428.67,
+          "actualStart": 1254.075208,
+          "actualEnd": 1437.67175,
+          "timeDifference": 9.005208000000039
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Solidarity: The Strength Found in Standing Together",
+          "expectedStart": 1428.67,
+          "expectedEnd": 1565.07,
+          "actualStart": 1439.17175,
+          "actualEnd": 1575.5758329999999,
+          "timeDifference": 10.501749999999902
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Struggle: Change, Backlash, and the Work Ahead",
+          "expectedStart": 1565.07,
+          "expectedEnd": 1726.22,
+          "actualStart": 1577.0758329999999,
+          "actualEnd": 1738.2211659999998,
+          "timeDifference": 12.005832999999939
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reimagining Authority: Listening as a Radical Act",
+          "expectedStart": 1726.22,
+          "expectedEnd": 1857.39,
+          "actualStart": 1739.7211659999998,
+          "actualEnd": 1870.8877079999997,
+          "timeDifference": 13.501165999999785
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Hope and Possibility: Imagining a World Where Everyone Is Heard",
+          "expectedStart": 1857.39,
+          "expectedEnd": 1960.23,
+          "actualStart": 1872.3877079999997,
+          "actualEnd": 1975.2285829999998,
+          "timeDifference": 14.997707999999648
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1960.23,
+          "expectedEnd": 2066.56,
+          "actualStart": 1976.7285829999998,
+          "actualEnd": 2083.054916,
+          "timeDifference": 16.498582999999826
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.683042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Dismissal: How Women’s Voices Are Undermined"
+        },
+        {
+          "startTime": 322.712584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Dismissal: How Women’s Voices Are Undermined and Chapter 2 The Weight of Not Being Believed: Silencing and Its Consequences"
+        },
+        {
+          "startTime": 558.555167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Not Being Believed: Silencing and Its Consequences and Chapter 3 The Link Between Dismissal and Violence: How Culture Enables Harm"
+        },
+        {
+          "startTime": 806.516625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Link Between Dismissal and Violence: How Culture Enables Harm and Chapter 4 Naming the Pattern: The Power of Language and Recognition"
+        },
+        {
+          "startTime": 1055.01375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Naming the Pattern: The Power of Language and Recognition and Chapter 5 Intersectionality: How Race, Class, and Identity Shape Women’s Experiences"
+        },
+        {
+          "startTime": 1252.575208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intersectionality: How Race, Class, and Identity Shape Women’s Experiences and Chapter 6 Storytelling as Resistance: The Quiet Power of Shared Experience"
+        },
+        {
+          "startTime": 1437.67175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Storytelling as Resistance: The Quiet Power of Shared Experience and Chapter 7 Solidarity: The Strength Found in Standing Together"
+        },
+        {
+          "startTime": 1575.5758329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Solidarity: The Strength Found in Standing Together and Chapter 8 The Ongoing Struggle: Change, Backlash, and the Work Ahead"
+        },
+        {
+          "startTime": 1738.2211659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Struggle: Change, Backlash, and the Work Ahead and Chapter 9 Reimagining Authority: Listening as a Radical Act"
+        },
+        {
+          "startTime": 1870.8877079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reimagining Authority: Listening as a Radical Act and Chapter 10 Hope and Possibility: Imagining a World Where Everyone Is Heard"
+        },
+        {
+          "startTime": 1975.2285829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Hope and Possibility: Imagining a World Where Everyone Is Heard and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "246",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T05:13:15.069Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

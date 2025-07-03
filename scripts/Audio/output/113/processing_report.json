@@ -1,0 +1,456 @@
+{
+  "bookId": "113",
+  "timestamp": "2025-07-02T22:17:14.677Z",
+  "success": false,
+  "processingTime": -1751494341129,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4685,
+    "totalAudioFiles": 12,
+    "totalDuration": 2053.390543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2053.390543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/113/optimized_text/113.md",
+    "fileSize": 687,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "113.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/113/metadata/113_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2053.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/113/metadata/113_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/113/metadata/113_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/113/113_complete.wav",
+    "duration": 2053.390542,
+    "fileSize": 98562824,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/113/introduction.wav",
+          "duration": 86.446667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.446667,
+          "startTime": 0,
+          "endTime": 86.446667
+        },
+        {
+          "path": "Audio/output/113/chapter_01.wav",
+          "duration": 213.719917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Ocean’s Unpredictable Power and the People Drawn to It",
+          "actualDuration": 213.719917,
+          "startTime": 87.946667,
+          "endTime": 301.666584
+        },
+        {
+          "path": "Audio/output/113/chapter_02.wav",
+          "duration": 214.416833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science and Mystery of Rogue Waves",
+          "actualDuration": 214.416833,
+          "startTime": 303.166584,
+          "endTime": 517.583417
+        },
+        {
+          "path": "Audio/output/113/chapter_03.wav",
+          "duration": 227.614625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Big-Wave Surfers: Chasing the Impossible",
+          "actualDuration": 227.614625,
+          "startTime": 519.083417,
+          "endTime": 746.698042
+        },
+        {
+          "path": "Audio/output/113/chapter_04.wav",
+          "duration": 236.798042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Changing Ocean: Climate, Technology, and the Future of Waves",
+          "actualDuration": 236.798042,
+          "startTime": 748.198042,
+          "endTime": 984.996084
+        },
+        {
+          "path": "Audio/output/113/chapter_05.wav",
+          "duration": 141.4075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Human Limits and the Enduring Mystery of the Sea",
+          "actualDuration": 141.4075,
+          "startTime": 986.496084,
+          "endTime": 1127.903584
+        },
+        {
+          "path": "Audio/output/113/chapter_06.wav",
+          "duration": 179.85,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Architects of Survival: Engineering Against the Unthinkable",
+          "actualDuration": 179.85,
+          "startTime": 1129.403584,
+          "endTime": 1309.2535839999998
+        },
+        {
+          "path": "Audio/output/113/chapter_07.wav",
+          "duration": 177.72575,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Data Hunters: Chasing Patterns in Chaos",
+          "actualDuration": 177.72575,
+          "startTime": 1310.7535839999998,
+          "endTime": 1488.4793339999999
+        },
+        {
+          "path": "Audio/output/113/chapter_08.wav",
+          "duration": 141.47375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Survivors: Stories from the Edge",
+          "actualDuration": 141.47375,
+          "startTime": 1489.9793339999999,
+          "endTime": 1631.4530839999998
+        },
+        {
+          "path": "Audio/output/113/chapter_09.wav",
+          "duration": 149.987417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Seekers: Spirituality and the Ocean’s Pull",
+          "actualDuration": 149.987417,
+          "startTime": 1632.9530839999998,
+          "endTime": 1782.9405009999998
+        },
+        {
+          "path": "Audio/output/113/chapter_10.wav",
+          "duration": 156.091042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Next Generation: Learning from the Waves",
+          "actualDuration": 156.091042,
+          "startTime": 1784.4405009999998,
+          "endTime": 1940.5315429999998
+        },
+        {
+          "path": "Audio/output/113/conclusion.wav",
+          "duration": 127.859,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.859,
+          "startTime": 1942.0315429999998,
+          "endTime": 2069.890543
+        }
+      ],
+      "totalDuration": 2069.890543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.45,
+          "actualStart": 0,
+          "actualEnd": 86.446667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Ocean’s Unpredictable Power and the People Drawn to It",
+          "expectedStart": 86.45,
+          "expectedEnd": 300.17,
+          "actualStart": 87.946667,
+          "actualEnd": 301.666584,
+          "timeDifference": 1.4966670000000022
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science and Mystery of Rogue Waves",
+          "expectedStart": 300.17,
+          "expectedEnd": 514.59,
+          "actualStart": 303.166584,
+          "actualEnd": 517.583417,
+          "timeDifference": 2.9965839999999844
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Big-Wave Surfers: Chasing the Impossible",
+          "expectedStart": 514.59,
+          "expectedEnd": 742.2,
+          "actualStart": 519.083417,
+          "actualEnd": 746.698042,
+          "timeDifference": 4.493417000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Changing Ocean: Climate, Technology, and the Future of Waves",
+          "expectedStart": 742.2,
+          "expectedEnd": 979,
+          "actualStart": 748.198042,
+          "actualEnd": 984.996084,
+          "timeDifference": 5.998041999999941
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Human Limits and the Enduring Mystery of the Sea",
+          "expectedStart": 979,
+          "expectedEnd": 1120.41,
+          "actualStart": 986.496084,
+          "actualEnd": 1127.903584,
+          "timeDifference": 7.496083999999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Architects of Survival: Engineering Against the Unthinkable",
+          "expectedStart": 1120.41,
+          "expectedEnd": 1300.26,
+          "actualStart": 1129.403584,
+          "actualEnd": 1309.2535839999998,
+          "timeDifference": 8.993583999999828
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Data Hunters: Chasing Patterns in Chaos",
+          "expectedStart": 1300.26,
+          "expectedEnd": 1477.99,
+          "actualStart": 1310.7535839999998,
+          "actualEnd": 1488.4793339999999,
+          "timeDifference": 10.493583999999828
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Survivors: Stories from the Edge",
+          "expectedStart": 1477.99,
+          "expectedEnd": 1619.46,
+          "actualStart": 1489.9793339999999,
+          "actualEnd": 1631.4530839999998,
+          "timeDifference": 11.989333999999872
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Seekers: Spirituality and the Ocean’s Pull",
+          "expectedStart": 1619.46,
+          "expectedEnd": 1769.45,
+          "actualStart": 1632.9530839999998,
+          "actualEnd": 1782.9405009999998,
+          "timeDifference": 13.493083999999726
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Next Generation: Learning from the Waves",
+          "expectedStart": 1769.45,
+          "expectedEnd": 1925.54,
+          "actualStart": 1784.4405009999998,
+          "actualEnd": 1940.5315429999998,
+          "timeDifference": 14.990500999999767
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1925.54,
+          "expectedEnd": 2053.4,
+          "actualStart": 1942.0315429999998,
+          "actualEnd": 2069.890543,
+          "timeDifference": 16.491542999999865
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.446667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Ocean’s Unpredictable Power and the People Drawn to It"
+        },
+        {
+          "startTime": 301.666584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Ocean’s Unpredictable Power and the People Drawn to It and Chapter 2 The Science and Mystery of Rogue Waves"
+        },
+        {
+          "startTime": 517.583417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science and Mystery of Rogue Waves and Chapter 3 Big-Wave Surfers: Chasing the Impossible"
+        },
+        {
+          "startTime": 746.698042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Big-Wave Surfers: Chasing the Impossible and Chapter 4 The Changing Ocean: Climate, Technology, and the Future of Waves"
+        },
+        {
+          "startTime": 984.996084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Changing Ocean: Climate, Technology, and the Future of Waves and Chapter 5 Human Limits and the Enduring Mystery of the Sea"
+        },
+        {
+          "startTime": 1127.903584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Human Limits and the Enduring Mystery of the Sea and Chapter 6 The Architects of Survival: Engineering Against the Unthinkable"
+        },
+        {
+          "startTime": 1309.2535839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Architects of Survival: Engineering Against the Unthinkable and Chapter 7 The Data Hunters: Chasing Patterns in Chaos"
+        },
+        {
+          "startTime": 1488.4793339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Data Hunters: Chasing Patterns in Chaos and Chapter 8 The Survivors: Stories from the Edge"
+        },
+        {
+          "startTime": 1631.4530839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Survivors: Stories from the Edge and Chapter 9 The Seekers: Spirituality and the Ocean’s Pull"
+        },
+        {
+          "startTime": 1782.9405009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Seekers: Spirituality and the Ocean’s Pull and Chapter 10 The Next Generation: Learning from the Waves"
+        },
+        {
+          "startTime": 1940.5315429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Next Generation: Learning from the Waves and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "113",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T22:12:22.798Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

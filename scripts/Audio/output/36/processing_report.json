@@ -1,0 +1,456 @@
+{
+  "bookId": "36",
+  "timestamp": "2025-07-02T18:40:34.170Z",
+  "success": false,
+  "processingTime": -1751481215406,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4366,
+    "totalAudioFiles": 12,
+    "totalDuration": 2195.873125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2195.873125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/36/optimized_text/36.md",
+    "fileSize": 799,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "36.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/36/metadata/36_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2195.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/36/metadata/36_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/36/metadata/36_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/36/36_complete.wav",
+    "duration": 2195.873125,
+    "fileSize": 105401988,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/36/introduction.wav",
+          "duration": 74.951,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 74.951,
+          "startTime": 0,
+          "endTime": 74.951
+        },
+        {
+          "path": "Audio/output/36/chapter_01.wav",
+          "duration": 213.558667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Addiction: Moving Beyond Labels and Stigma",
+          "actualDuration": 213.558667,
+          "startTime": 76.451,
+          "endTime": 290.00966700000004
+        },
+        {
+          "path": "Audio/output/36/chapter_02.wav",
+          "duration": 253.840792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Taking Ownership: The Power of Self-Honesty and Responsibility",
+          "actualDuration": 253.840792,
+          "startTime": 291.50966700000004,
+          "endTime": 545.350459
+        },
+        {
+          "path": "Audio/output/36/chapter_03.wav",
+          "duration": 244.901875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Understanding Triggers and Unmet Needs: The Roots of Addictive Patterns",
+          "actualDuration": 244.901875,
+          "startTime": 546.850459,
+          "endTime": 791.752334
+        },
+        {
+          "path": "Audio/output/36/chapter_04.wav",
+          "duration": 250.060125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building a New Life: Practical Steps for Recovery and Growth",
+          "actualDuration": 250.060125,
+          "startTime": 793.252334,
+          "endTime": 1043.312459
+        },
+        {
+          "path": "Audio/output/36/chapter_05.wav",
+          "duration": 187.972208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Stigma and Redefining Success in Recovery",
+          "actualDuration": 187.972208,
+          "startTime": 1044.812459,
+          "endTime": 1232.784667
+        },
+        {
+          "path": "Audio/output/36/chapter_06.wav",
+          "duration": 195.721958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks: Building Resilience and Learning from Relapse",
+          "actualDuration": 195.721958,
+          "startTime": 1234.284667,
+          "endTime": 1430.006625
+        },
+        {
+          "path": "Audio/output/36/chapter_07.wav",
+          "duration": 194.762917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rewiring the Brain: The Science of Habit Change",
+          "actualDuration": 194.762917,
+          "startTime": 1431.506625,
+          "endTime": 1626.269542
+        },
+        {
+          "path": "Audio/output/36/chapter_08.wav",
+          "duration": 159.11875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing Relationships: Rebuilding Trust and Connection",
+          "actualDuration": 159.11875,
+          "startTime": 1627.769542,
+          "endTime": 1786.888292
+        },
+        {
+          "path": "Audio/output/36/chapter_09.wav",
+          "duration": 145.826583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Cultivating Meaning and Purpose: The Heart of Lasting Recovery",
+          "actualDuration": 145.826583,
+          "startTime": 1788.388292,
+          "endTime": 1934.2148750000001
+        },
+        {
+          "path": "Audio/output/36/chapter_10.wav",
+          "duration": 140.792042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Change: Creating a Personal Framework for Lifelong Growth",
+          "actualDuration": 140.792042,
+          "startTime": 1935.7148750000001,
+          "endTime": 2076.506917
+        },
+        {
+          "path": "Audio/output/36/conclusion.wav",
+          "duration": 134.366208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.366208,
+          "startTime": 2078.006917,
+          "endTime": 2212.373125
+        }
+      ],
+      "totalDuration": 2212.373125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 74.95,
+          "actualStart": 0,
+          "actualEnd": 74.951,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Addiction: Moving Beyond Labels and Stigma",
+          "expectedStart": 74.95,
+          "expectedEnd": 288.51,
+          "actualStart": 76.451,
+          "actualEnd": 290.00966700000004,
+          "timeDifference": 1.5009999999999906
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Taking Ownership: The Power of Self-Honesty and Responsibility",
+          "expectedStart": 288.51,
+          "expectedEnd": 542.35,
+          "actualStart": 291.50966700000004,
+          "actualEnd": 545.350459,
+          "timeDifference": 2.999667000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Understanding Triggers and Unmet Needs: The Roots of Addictive Patterns",
+          "expectedStart": 542.35,
+          "expectedEnd": 787.25,
+          "actualStart": 546.850459,
+          "actualEnd": 791.752334,
+          "timeDifference": 4.500458999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building a New Life: Practical Steps for Recovery and Growth",
+          "expectedStart": 787.25,
+          "expectedEnd": 1037.31,
+          "actualStart": 793.252334,
+          "actualEnd": 1043.312459,
+          "timeDifference": 6.002334000000019
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Stigma and Redefining Success in Recovery",
+          "expectedStart": 1037.31,
+          "expectedEnd": 1225.28,
+          "actualStart": 1044.812459,
+          "actualEnd": 1232.784667,
+          "timeDifference": 7.502459000000044
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks: Building Resilience and Learning from Relapse",
+          "expectedStart": 1225.28,
+          "expectedEnd": 1421,
+          "actualStart": 1234.284667,
+          "actualEnd": 1430.006625,
+          "timeDifference": 9.004666999999927
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rewiring the Brain: The Science of Habit Change",
+          "expectedStart": 1421,
+          "expectedEnd": 1615.76,
+          "actualStart": 1431.506625,
+          "actualEnd": 1626.269542,
+          "timeDifference": 10.506624999999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing Relationships: Rebuilding Trust and Connection",
+          "expectedStart": 1615.76,
+          "expectedEnd": 1774.88,
+          "actualStart": 1627.769542,
+          "actualEnd": 1786.888292,
+          "timeDifference": 12.00954200000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Cultivating Meaning and Purpose: The Heart of Lasting Recovery",
+          "expectedStart": 1774.88,
+          "expectedEnd": 1920.71,
+          "actualStart": 1788.388292,
+          "actualEnd": 1934.2148750000001,
+          "timeDifference": 13.508291999999983
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Change: Creating a Personal Framework for Lifelong Growth",
+          "expectedStart": 1920.71,
+          "expectedEnd": 2061.5,
+          "actualStart": 1935.7148750000001,
+          "actualEnd": 2076.506917,
+          "timeDifference": 15.004875000000084
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2061.5,
+          "expectedEnd": 2195.87,
+          "actualStart": 2078.006917,
+          "actualEnd": 2212.373125,
+          "timeDifference": 16.506917000000158
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 74.951,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Addiction: Moving Beyond Labels and Stigma"
+        },
+        {
+          "startTime": 290.00966700000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Addiction: Moving Beyond Labels and Stigma and Chapter 2 Taking Ownership: The Power of Self-Honesty and Responsibility"
+        },
+        {
+          "startTime": 545.350459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Taking Ownership: The Power of Self-Honesty and Responsibility and Chapter 3 Understanding Triggers and Unmet Needs: The Roots of Addictive Patterns"
+        },
+        {
+          "startTime": 791.752334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Understanding Triggers and Unmet Needs: The Roots of Addictive Patterns and Chapter 4 Building a New Life: Practical Steps for Recovery and Growth"
+        },
+        {
+          "startTime": 1043.312459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building a New Life: Practical Steps for Recovery and Growth and Chapter 5 Challenging Stigma and Redefining Success in Recovery"
+        },
+        {
+          "startTime": 1232.784667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Stigma and Redefining Success in Recovery and Chapter 6 Navigating Setbacks: Building Resilience and Learning from Relapse"
+        },
+        {
+          "startTime": 1430.006625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks: Building Resilience and Learning from Relapse and Chapter 7 Rewiring the Brain: The Science of Habit Change"
+        },
+        {
+          "startTime": 1626.269542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rewiring the Brain: The Science of Habit Change and Chapter 8 Healing Relationships: Rebuilding Trust and Connection"
+        },
+        {
+          "startTime": 1786.888292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing Relationships: Rebuilding Trust and Connection and Chapter 9 Cultivating Meaning and Purpose: The Heart of Lasting Recovery"
+        },
+        {
+          "startTime": 1934.2148750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Cultivating Meaning and Purpose: The Heart of Lasting Recovery and Chapter 10 Sustaining Change: Creating a Personal Framework for Lifelong Growth"
+        },
+        {
+          "startTime": 2076.506917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Change: Creating a Personal Framework for Lifelong Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "36",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-02T18:33:37.883Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

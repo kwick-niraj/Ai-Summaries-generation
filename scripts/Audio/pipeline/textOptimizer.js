@@ -50,30 +50,60 @@ export class TextOptimizer {
    * @returns {Promise<string>} Audio-optimized text
    */
   async optimizeForListening(text, sectionType = 'chapter', options = {}) {
-    try {
-      console.log(`🎧 Optimizing for audio: ${sectionType}${options.enableSSML ? ' (with SSML)' : ''}`);
-      
-      // Clean and prepare the text
-      // const cleanedText = this.cleanMarkdownText(text);
-      const cleanedText = text;
-      
-      // Apply AI-based optimization for conversational audio
-      const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType, options);
-
-      // console.log('niraj optimizedText', optimizedText);
-      
-      // Apply final audio-specific formatting
-      // const audioReadyText = this.applyAudioFormatting(optimizedText, sectionType);
-      const audioReadyText = optimizedText
-
-      // console.log('AudioReady Text', audioReadyText);
-      
-      return audioReadyText;
-    } catch (error) {
-      console.error('Audio optimization failed:', error);
-      // Fallback to basic cleaning if AI optimization fails
-      return this.applyAudioFormatting(this.cleanMarkdownText(text), sectionType);
+    const maxRetries = options.maxRetries || 3;
+    const retryDelay = options.retryDelay || 1000;
+    const strictMode = options.strictMode !== false; // Default to true
+    
+    let lastError = null;
+    
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`🎧 Optimizing for audio: ${sectionType}${options.enableSSML ? ' (with SSML)' : ''} (attempt ${attempt}/${maxRetries})`);
+        
+        // Clean and prepare the text
+        const cleanedText = text;
+        
+        // Apply AI-based optimization for conversational audio
+        const optimizedText = await this.applyAudioAIOptimization(cleanedText, sectionType, options);
+        
+        // Apply final audio-specific formatting
+        const audioReadyText = optimizedText;
+        
+        if (attempt > 1) {
+          console.log(`✅ Audio optimization succeeded on attempt ${attempt}`);
+        }
+        
+        return audioReadyText;
+      } catch (error) {
+        lastError = error;
+        console.error(`❌ Audio optimization failed (attempt ${attempt}/${maxRetries}):`, error.message);
+        
+        // If this is the last attempt or we're in strict mode and it's a critical error
+        if (attempt === maxRetries) {
+          if (strictMode) {
+            // In strict mode, throw the error to stop processing
+            const enhancedError = new Error(`Audio optimization API failed after ${maxRetries} attempts: ${error.message}`);
+            enhancedError.originalError = error;
+            enhancedError.attempts = attempt;
+            enhancedError.stage = 'text_optimization';
+            enhancedError.sectionType = sectionType;
+            throw enhancedError;
+          } else {
+            // In lenient mode, log warning and use fallback
+            console.warn(`⚠️ Using fallback text processing after ${maxRetries} failed attempts`);
+            return this.applyAudioFormatting(this.cleanMarkdownText(text), sectionType);
+          }
+        }
+        
+        // Wait before retrying (exponential backoff)
+        const delay = retryDelay * Math.pow(2, attempt - 1);
+        console.log(`⏳ Waiting ${delay}ms before retry...`);
+        await this.delay(delay);
+      }
     }
+    
+    // This should never be reached, but just in case
+    throw lastError;
   }
 
   /**
