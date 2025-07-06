@@ -1,0 +1,456 @@
+{
+  "bookId": "1054",
+  "timestamp": "2025-07-06T10:34:56.518Z",
+  "success": false,
+  "processingTime": -1751797817747,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3988,
+    "totalAudioFiles": 12,
+    "totalDuration": 2053.560292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2053.560292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1054/optimized_text/1054.md",
+    "fileSize": 674,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1054.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1054/metadata/1054_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2053.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1054/metadata/1054_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1054/metadata/1054_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1054/1054_complete.wav",
+    "duration": 2053.560292,
+    "fileSize": 98570972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1054/introduction.wav",
+          "duration": 98.756083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.756083,
+          "startTime": 0,
+          "endTime": 98.756083
+        },
+        {
+          "path": "Audio/output/1054/chapter_01.wav",
+          "duration": 219.425667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Success and the Trap of Average Ambitions",
+          "actualDuration": 219.425667,
+          "startTime": 100.256083,
+          "endTime": 319.68175
+        },
+        {
+          "path": "Audio/output/1054/chapter_02.wav",
+          "duration": 231.268875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Setting Goals Ten Times Bigger",
+          "actualDuration": 231.268875,
+          "startTime": 321.18175,
+          "endTime": 552.4506250000001
+        },
+        {
+          "path": "Audio/output/1054/chapter_03.wav",
+          "duration": 227.776625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Taking Massive Action—The Four Degrees of Effort",
+          "actualDuration": 227.776625,
+          "startTime": 553.9506250000001,
+          "endTime": 781.72725
+        },
+        {
+          "path": "Audio/output/1054/chapter_04.wav",
+          "duration": 202.36425,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Excuses and Taking Full Responsibility",
+          "actualDuration": 202.36425,
+          "startTime": 783.22725,
+          "endTime": 985.5915
+        },
+        {
+          "path": "Audio/output/1054/chapter_05.wav",
+          "duration": 171.04825,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Anticipating Challenges and Embracing Competition",
+          "actualDuration": 171.04825,
+          "startTime": 987.0915,
+          "endTime": 1158.13975
+        },
+        {
+          "path": "Audio/output/1054/chapter_06.wav",
+          "duration": 193.937042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining 10X Action—Building Endurance and Consistency",
+          "actualDuration": 193.937042,
+          "startTime": 1159.63975,
+          "endTime": 1353.576792
+        },
+        {
+          "path": "Audio/output/1054/chapter_07.wav",
+          "duration": 163.324667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating a Dominant Mindset—Thinking Like a Leader",
+          "actualDuration": 163.324667,
+          "startTime": 1355.076792,
+          "endTime": 1518.4014590000002
+        },
+        {
+          "path": "Audio/output/1054/chapter_08.wav",
+          "duration": 141.413208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Leveraging Fear and Uncertainty as Fuel",
+          "actualDuration": 141.413208,
+          "startTime": 1519.9014590000002,
+          "endTime": 1661.314667
+        },
+        {
+          "path": "Audio/output/1054/chapter_09.wav",
+          "duration": 127.19075,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creating an Obsession with Results",
+          "actualDuration": 127.19075,
+          "startTime": 1662.814667,
+          "endTime": 1790.005417
+        },
+        {
+          "path": "Audio/output/1054/chapter_10.wav",
+          "duration": 144.195875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating 10X Principles into Daily Life",
+          "actualDuration": 144.195875,
+          "startTime": 1791.505417,
+          "endTime": 1935.7012920000002
+        },
+        {
+          "path": "Audio/output/1054/conclusion.wav",
+          "duration": 132.859,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.859,
+          "startTime": 1937.2012920000002,
+          "endTime": 2070.060292
+        }
+      ],
+      "totalDuration": 2070.060292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.76,
+          "actualStart": 0,
+          "actualEnd": 98.756083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Success and the Trap of Average Ambitions",
+          "expectedStart": 98.76,
+          "expectedEnd": 318.19,
+          "actualStart": 100.256083,
+          "actualEnd": 319.68175,
+          "timeDifference": 1.4960829999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Setting Goals Ten Times Bigger",
+          "expectedStart": 318.19,
+          "expectedEnd": 549.46,
+          "actualStart": 321.18175,
+          "actualEnd": 552.4506250000001,
+          "timeDifference": 2.9917500000000246
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Taking Massive Action—The Four Degrees of Effort",
+          "expectedStart": 549.46,
+          "expectedEnd": 777.24,
+          "actualStart": 553.9506250000001,
+          "actualEnd": 781.72725,
+          "timeDifference": 4.490625000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Excuses and Taking Full Responsibility",
+          "expectedStart": 777.24,
+          "expectedEnd": 979.6,
+          "actualStart": 783.22725,
+          "actualEnd": 985.5915,
+          "timeDifference": 5.987250000000017
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Anticipating Challenges and Embracing Competition",
+          "expectedStart": 979.6,
+          "expectedEnd": 1150.65,
+          "actualStart": 987.0915,
+          "actualEnd": 1158.13975,
+          "timeDifference": 7.491499999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining 10X Action—Building Endurance and Consistency",
+          "expectedStart": 1150.65,
+          "expectedEnd": 1344.59,
+          "actualStart": 1159.63975,
+          "actualEnd": 1353.576792,
+          "timeDifference": 8.989749999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating a Dominant Mindset—Thinking Like a Leader",
+          "expectedStart": 1344.59,
+          "expectedEnd": 1507.91,
+          "actualStart": 1355.076792,
+          "actualEnd": 1518.4014590000002,
+          "timeDifference": 10.48679200000015
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Leveraging Fear and Uncertainty as Fuel",
+          "expectedStart": 1507.91,
+          "expectedEnd": 1649.32,
+          "actualStart": 1519.9014590000002,
+          "actualEnd": 1661.314667,
+          "timeDifference": 11.991459000000077
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creating an Obsession with Results",
+          "expectedStart": 1649.32,
+          "expectedEnd": 1776.51,
+          "actualStart": 1662.814667,
+          "actualEnd": 1790.005417,
+          "timeDifference": 13.494667000000163
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating 10X Principles into Daily Life",
+          "expectedStart": 1776.51,
+          "expectedEnd": 1920.71,
+          "actualStart": 1791.505417,
+          "actualEnd": 1935.7012920000002,
+          "timeDifference": 14.995417000000089
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1920.71,
+          "expectedEnd": 2053.57,
+          "actualStart": 1937.2012920000002,
+          "actualEnd": 2070.060292,
+          "timeDifference": 16.491292000000158
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.756083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Success and the Trap of Average Ambitions"
+        },
+        {
+          "startTime": 319.68175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Success and the Trap of Average Ambitions and Chapter 2 The Power of Setting Goals Ten Times Bigger"
+        },
+        {
+          "startTime": 552.4506250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Setting Goals Ten Times Bigger and Chapter 3 Taking Massive Action—The Four Degrees of Effort"
+        },
+        {
+          "startTime": 781.72725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Taking Massive Action—The Four Degrees of Effort and Chapter 4 Overcoming Excuses and Taking Full Responsibility"
+        },
+        {
+          "startTime": 985.5915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Excuses and Taking Full Responsibility and Chapter 5 Anticipating Challenges and Embracing Competition"
+        },
+        {
+          "startTime": 1158.13975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Anticipating Challenges and Embracing Competition and Chapter 6 Sustaining 10X Action—Building Endurance and Consistency"
+        },
+        {
+          "startTime": 1353.576792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining 10X Action—Building Endurance and Consistency and Chapter 7 Cultivating a Dominant Mindset—Thinking Like a Leader"
+        },
+        {
+          "startTime": 1518.4014590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating a Dominant Mindset—Thinking Like a Leader and Chapter 8 Leveraging Fear and Uncertainty as Fuel"
+        },
+        {
+          "startTime": 1661.314667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Leveraging Fear and Uncertainty as Fuel and Chapter 9 Creating an Obsession with Results"
+        },
+        {
+          "startTime": 1790.005417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creating an Obsession with Results and Chapter 10 Integrating 10X Principles into Daily Life"
+        },
+        {
+          "startTime": 1935.7012920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating 10X Principles into Daily Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1054",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T10:30:19.361Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

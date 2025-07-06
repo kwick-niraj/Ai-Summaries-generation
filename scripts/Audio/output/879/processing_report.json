@@ -1,0 +1,456 @@
+{
+  "bookId": "879",
+  "timestamp": "2025-07-05T13:39:38.900Z",
+  "success": false,
+  "processingTime": -1751722320426,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4211,
+    "totalAudioFiles": 12,
+    "totalDuration": 1936.5795000000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1936.5795000000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/879/optimized_text/879.md",
+    "fileSize": 761,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "879.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/879/metadata/879_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1936.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/879/metadata/879_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/879/metadata/879_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/879/879_complete.wav",
+    "duration": 1936.5795,
+    "fileSize": 92955894,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/879/introduction.wav",
+          "duration": 99.372083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.372083,
+          "startTime": 0,
+          "endTime": 99.372083
+        },
+        {
+          "path": "Audio/output/879/chapter_01.wav",
+          "duration": 223.46725,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Darkness Arrives: The First Signs of Despair",
+          "actualDuration": 223.46725,
+          "startTime": 100.872083,
+          "endTime": 324.339333
+        },
+        {
+          "path": "Audio/output/879/chapter_02.wav",
+          "duration": 222.693167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Stigma: Misunderstandings and Silence",
+          "actualDuration": 222.693167,
+          "startTime": 325.839333,
+          "endTime": 548.5325
+        },
+        {
+          "path": "Audio/output/879/chapter_03.wav",
+          "duration": 184.479542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Inner World of Depression: Isolation and Despair",
+          "actualDuration": 184.479542,
+          "startTime": 550.0325,
+          "endTime": 734.5120420000001
+        },
+        {
+          "path": "Audio/output/879/chapter_04.wav",
+          "duration": 185.678833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle for Survival: Facing the Depths",
+          "actualDuration": 185.678833,
+          "startTime": 736.0120420000001,
+          "endTime": 921.690875
+        },
+        {
+          "path": "Audio/output/879/chapter_05.wav",
+          "duration": 171.212917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Path to Recovery: Hope, Support, and Understanding",
+          "actualDuration": 171.212917,
+          "startTime": 923.190875,
+          "endTime": 1094.403792
+        },
+        {
+          "path": "Audio/output/879/chapter_06.wav",
+          "duration": 165.767875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road: Relapse, Resilience, and the Ongoing Battle",
+          "actualDuration": 165.767875,
+          "startTime": 1095.903792,
+          "endTime": 1261.671667
+        },
+        {
+          "path": "Audio/output/879/chapter_07.wav",
+          "duration": 158.419417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Healing Power of Words: Creativity, Expression, and Connection",
+          "actualDuration": 158.419417,
+          "startTime": 1263.171667,
+          "endTime": 1421.5910840000001
+        },
+        {
+          "path": "Audio/output/879/chapter_08.wav",
+          "duration": 129.992083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Breaking the Silence: Advocacy, Empathy, and Changing the Conversation",
+          "actualDuration": 129.992083,
+          "startTime": 1423.0910840000001,
+          "endTime": 1553.0831670000002
+        },
+        {
+          "path": "Audio/output/879/chapter_09.wav",
+          "duration": 137.149125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from the Darkness: Compassion, Perspective, and Growth",
+          "actualDuration": 137.149125,
+          "startTime": 1554.5831670000002,
+          "endTime": 1691.7322920000001
+        },
+        {
+          "path": "Audio/output/879/chapter_10.wav",
+          "duration": 116.035875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Hope, Community, and the Light Ahead",
+          "actualDuration": 116.035875,
+          "startTime": 1693.2322920000001,
+          "endTime": 1809.2681670000002
+        },
+        {
+          "path": "Audio/output/879/conclusion.wav",
+          "duration": 142.311333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.311333,
+          "startTime": 1810.7681670000002,
+          "endTime": 1953.0795000000003
+        }
+      ],
+      "totalDuration": 1953.0795000000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.37,
+          "actualStart": 0,
+          "actualEnd": 99.372083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Darkness Arrives: The First Signs of Despair",
+          "expectedStart": 99.37,
+          "expectedEnd": 322.84,
+          "actualStart": 100.872083,
+          "actualEnd": 324.339333,
+          "timeDifference": 1.502082999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Stigma: Misunderstandings and Silence",
+          "expectedStart": 322.84,
+          "expectedEnd": 545.53,
+          "actualStart": 325.839333,
+          "actualEnd": 548.5325,
+          "timeDifference": 2.9993330000000356
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Inner World of Depression: Isolation and Despair",
+          "expectedStart": 545.53,
+          "expectedEnd": 730.01,
+          "actualStart": 550.0325,
+          "actualEnd": 734.5120420000001,
+          "timeDifference": 4.502500000000055
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle for Survival: Facing the Depths",
+          "expectedStart": 730.01,
+          "expectedEnd": 915.69,
+          "actualStart": 736.0120420000001,
+          "actualEnd": 921.690875,
+          "timeDifference": 6.002042000000074
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Path to Recovery: Hope, Support, and Understanding",
+          "expectedStart": 915.69,
+          "expectedEnd": 1086.9,
+          "actualStart": 923.190875,
+          "actualEnd": 1094.403792,
+          "timeDifference": 7.500874999999951
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road: Relapse, Resilience, and the Ongoing Battle",
+          "expectedStart": 1086.9,
+          "expectedEnd": 1252.67,
+          "actualStart": 1095.903792,
+          "actualEnd": 1261.671667,
+          "timeDifference": 9.003791999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Healing Power of Words: Creativity, Expression, and Connection",
+          "expectedStart": 1252.67,
+          "expectedEnd": 1411.09,
+          "actualStart": 1263.171667,
+          "actualEnd": 1421.5910840000001,
+          "timeDifference": 10.501666999999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Breaking the Silence: Advocacy, Empathy, and Changing the Conversation",
+          "expectedStart": 1411.09,
+          "expectedEnd": 1541.08,
+          "actualStart": 1423.0910840000001,
+          "actualEnd": 1553.0831670000002,
+          "timeDifference": 12.001084000000219
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from the Darkness: Compassion, Perspective, and Growth",
+          "expectedStart": 1541.08,
+          "expectedEnd": 1678.23,
+          "actualStart": 1554.5831670000002,
+          "actualEnd": 1691.7322920000001,
+          "timeDifference": 13.503167000000303
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Hope, Community, and the Light Ahead",
+          "expectedStart": 1678.23,
+          "expectedEnd": 1794.27,
+          "actualStart": 1693.2322920000001,
+          "actualEnd": 1809.2681670000002,
+          "timeDifference": 15.002292000000125
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1794.27,
+          "expectedEnd": 1936.58,
+          "actualStart": 1810.7681670000002,
+          "actualEnd": 1953.0795000000003,
+          "timeDifference": 16.498167000000194
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.372083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Darkness Arrives: The First Signs of Despair"
+        },
+        {
+          "startTime": 324.339333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Darkness Arrives: The First Signs of Despair and Chapter 2 The Weight of Stigma: Misunderstandings and Silence"
+        },
+        {
+          "startTime": 548.5325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Stigma: Misunderstandings and Silence and Chapter 3 The Inner World of Depression: Isolation and Despair"
+        },
+        {
+          "startTime": 734.5120420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Inner World of Depression: Isolation and Despair and Chapter 4 The Struggle for Survival: Facing the Depths"
+        },
+        {
+          "startTime": 921.690875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle for Survival: Facing the Depths and Chapter 5 The Path to Recovery: Hope, Support, and Understanding"
+        },
+        {
+          "startTime": 1094.403792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Path to Recovery: Hope, Support, and Understanding and Chapter 6 The Long Road: Relapse, Resilience, and the Ongoing Battle"
+        },
+        {
+          "startTime": 1261.671667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road: Relapse, Resilience, and the Ongoing Battle and Chapter 7 The Healing Power of Words: Creativity, Expression, and Connection"
+        },
+        {
+          "startTime": 1421.5910840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Healing Power of Words: Creativity, Expression, and Connection and Chapter 8 Breaking the Silence: Advocacy, Empathy, and Changing the Conversation"
+        },
+        {
+          "startTime": 1553.0831670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Breaking the Silence: Advocacy, Empathy, and Changing the Conversation and Chapter 9 Lessons from the Darkness: Compassion, Perspective, and Growth"
+        },
+        {
+          "startTime": 1691.7322920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from the Darkness: Compassion, Perspective, and Growth and Chapter 10 Moving Forward: Hope, Community, and the Light Ahead"
+        },
+        {
+          "startTime": 1809.2681670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Hope, Community, and the Light Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "879",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T13:32:02.628Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

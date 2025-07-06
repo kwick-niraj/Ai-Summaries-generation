@@ -1,0 +1,456 @@
+{
+  "bookId": "529",
+  "timestamp": "2025-07-04T17:08:57.651Z",
+  "success": false,
+  "processingTime": -1751648441428,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4103,
+    "totalAudioFiles": 12,
+    "totalDuration": 2161.077835
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2161.077835
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/529/optimized_text/529.md",
+    "fileSize": 809,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "529.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/529/metadata/529_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2161.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/529/metadata/529_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/529/metadata/529_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/529/529_complete.wav",
+    "duration": 2161.077833,
+    "fileSize": 103731814,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/529/introduction.wav",
+          "duration": 100.592458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.592458,
+          "startTime": 0,
+          "endTime": 100.592458
+        },
+        {
+          "path": "Audio/output/529/chapter_01.wav",
+          "duration": 198.72475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Path: The Importance of Finding a Calling",
+          "actualDuration": 198.72475,
+          "startTime": 102.092458,
+          "endTime": 300.817208
+        },
+        {
+          "path": "Audio/output/529/chapter_02.wav",
+          "duration": 226.171917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Apprenticeship Phase: Building Skills Through Deliberate Practice",
+          "actualDuration": 226.171917,
+          "startTime": 302.317208,
+          "endTime": 528.4891250000001
+        },
+        {
+          "path": "Audio/output/529/chapter_03.wav",
+          "duration": 184.726292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Mentorship: Accelerating Growth Through Guided Learning",
+          "actualDuration": 184.726292,
+          "startTime": 529.9891250000001,
+          "endTime": 714.7154170000001
+        },
+        {
+          "path": "Audio/output/529/chapter_04.wav",
+          "duration": 197.451042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Challenges: Turning Obstacles Into Opportunities for Growth",
+          "actualDuration": 197.451042,
+          "startTime": 716.2154170000001,
+          "endTime": 913.6664590000001
+        },
+        {
+          "path": "Audio/output/529/chapter_05.wav",
+          "duration": 191.1505,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Deepening Knowledge: The Power of Focused, Long-Term Practice",
+          "actualDuration": 191.1505,
+          "startTime": 915.1664590000001,
+          "endTime": 1106.3169590000002
+        },
+        {
+          "path": "Audio/output/529/chapter_06.wav",
+          "duration": 197.644792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Creative-Active Phase: Integrating Knowledge and Innovating",
+          "actualDuration": 197.644792,
+          "startTime": 1107.8169590000002,
+          "endTime": 1305.4617510000003
+        },
+        {
+          "path": "Audio/output/529/chapter_07.wav",
+          "duration": 197.649,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Harnessing Intuition: The Unconscious Power of Mastery",
+          "actualDuration": 197.649,
+          "startTime": 1306.9617510000003,
+          "endTime": 1504.6107510000002
+        },
+        {
+          "path": "Audio/output/529/chapter_08.wav",
+          "duration": 176.326167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Social Intelligence: Navigating the Human Side of Mastery",
+          "actualDuration": 176.326167,
+          "startTime": 1506.1107510000002,
+          "endTime": 1682.436918
+        },
+        {
+          "path": "Audio/output/529/chapter_09.wav",
+          "duration": 183.897792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Master’s Paradox: Balancing Discipline and Freedom",
+          "actualDuration": 183.897792,
+          "startTime": 1683.936918,
+          "endTime": 1867.83471
+        },
+        {
+          "path": "Audio/output/529/chapter_10.wav",
+          "duration": 179.419917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Lifelong Growth: Mastery as a Way of Being",
+          "actualDuration": 179.419917,
+          "startTime": 1869.33471,
+          "endTime": 2048.7546270000003
+        },
+        {
+          "path": "Audio/output/529/conclusion.wav",
+          "duration": 127.323208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.323208,
+          "startTime": 2050.2546270000003,
+          "endTime": 2177.577835
+        }
+      ],
+      "totalDuration": 2177.577835,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.59,
+          "actualStart": 0,
+          "actualEnd": 100.592458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Path: The Importance of Finding a Calling",
+          "expectedStart": 100.59,
+          "expectedEnd": 299.31,
+          "actualStart": 102.092458,
+          "actualEnd": 300.817208,
+          "timeDifference": 1.50245799999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Apprenticeship Phase: Building Skills Through Deliberate Practice",
+          "expectedStart": 299.31,
+          "expectedEnd": 525.48,
+          "actualStart": 302.317208,
+          "actualEnd": 528.4891250000001,
+          "timeDifference": 3.0072079999999914
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Mentorship: Accelerating Growth Through Guided Learning",
+          "expectedStart": 525.48,
+          "expectedEnd": 710.21,
+          "actualStart": 529.9891250000001,
+          "actualEnd": 714.7154170000001,
+          "timeDifference": 4.50912500000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Challenges: Turning Obstacles Into Opportunities for Growth",
+          "expectedStart": 710.21,
+          "expectedEnd": 907.66,
+          "actualStart": 716.2154170000001,
+          "actualEnd": 913.6664590000001,
+          "timeDifference": 6.0054170000000795
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Deepening Knowledge: The Power of Focused, Long-Term Practice",
+          "expectedStart": 907.66,
+          "expectedEnd": 1098.81,
+          "actualStart": 915.1664590000001,
+          "actualEnd": 1106.3169590000002,
+          "timeDifference": 7.506459000000177
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Creative-Active Phase: Integrating Knowledge and Innovating",
+          "expectedStart": 1098.81,
+          "expectedEnd": 1296.45,
+          "actualStart": 1107.8169590000002,
+          "actualEnd": 1305.4617510000003,
+          "timeDifference": 9.006959000000279
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Harnessing Intuition: The Unconscious Power of Mastery",
+          "expectedStart": 1296.45,
+          "expectedEnd": 1494.1,
+          "actualStart": 1306.9617510000003,
+          "actualEnd": 1504.6107510000002,
+          "timeDifference": 10.511751000000231
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Social Intelligence: Navigating the Human Side of Mastery",
+          "expectedStart": 1494.1,
+          "expectedEnd": 1670.43,
+          "actualStart": 1506.1107510000002,
+          "actualEnd": 1682.436918,
+          "timeDifference": 12.010751000000255
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Master’s Paradox: Balancing Discipline and Freedom",
+          "expectedStart": 1670.43,
+          "expectedEnd": 1854.33,
+          "actualStart": 1683.936918,
+          "actualEnd": 1867.83471,
+          "timeDifference": 13.506918000000042
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Lifelong Growth: Mastery as a Way of Being",
+          "expectedStart": 1854.33,
+          "expectedEnd": 2033.75,
+          "actualStart": 1869.33471,
+          "actualEnd": 2048.7546270000003,
+          "timeDifference": 15.00471000000016
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2033.75,
+          "expectedEnd": 2161.07,
+          "actualStart": 2050.2546270000003,
+          "actualEnd": 2177.577835,
+          "timeDifference": 16.504627000000255
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.592458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Path: The Importance of Finding a Calling"
+        },
+        {
+          "startTime": 300.817208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Path: The Importance of Finding a Calling and Chapter 2 The Apprenticeship Phase: Building Skills Through Deliberate Practice"
+        },
+        {
+          "startTime": 528.4891250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Apprenticeship Phase: Building Skills Through Deliberate Practice and Chapter 3 The Role of Mentorship: Accelerating Growth Through Guided Learning"
+        },
+        {
+          "startTime": 714.7154170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Mentorship: Accelerating Growth Through Guided Learning and Chapter 4 Embracing Challenges: Turning Obstacles Into Opportunities for Growth"
+        },
+        {
+          "startTime": 913.6664590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Challenges: Turning Obstacles Into Opportunities for Growth and Chapter 5 Deepening Knowledge: The Power of Focused, Long-Term Practice"
+        },
+        {
+          "startTime": 1106.3169590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Deepening Knowledge: The Power of Focused, Long-Term Practice and Chapter 6 The Creative-Active Phase: Integrating Knowledge and Innovating"
+        },
+        {
+          "startTime": 1305.4617510000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Creative-Active Phase: Integrating Knowledge and Innovating and Chapter 7 Harnessing Intuition: The Unconscious Power of Mastery"
+        },
+        {
+          "startTime": 1504.6107510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Harnessing Intuition: The Unconscious Power of Mastery and Chapter 8 Social Intelligence: Navigating the Human Side of Mastery"
+        },
+        {
+          "startTime": 1682.436918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Social Intelligence: Navigating the Human Side of Mastery and Chapter 9 The Master’s Paradox: Balancing Discipline and Freedom"
+        },
+        {
+          "startTime": 1867.83471,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Master’s Paradox: Balancing Discipline and Freedom and Chapter 10 Legacy and Lifelong Growth: Mastery as a Way of Being"
+        },
+        {
+          "startTime": 2048.7546270000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Lifelong Growth: Mastery as a Way of Being and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "529",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T17:00:42.024Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

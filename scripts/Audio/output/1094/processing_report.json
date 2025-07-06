@@ -1,0 +1,575 @@
+{
+  "bookId": "1094",
+  "timestamp": "2025-07-06T13:04:53.539Z",
+  "success": false,
+  "processingTime": -1751806534205,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 7088,
+    "totalAudioFiles": 17,
+    "totalDuration": 3203.402583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 3203.402583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1094/optimized_text/1094.md",
+    "fileSize": 1224,
+    "wordCount": 164,
+    "format": "markdown",
+    "filename": "1094.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1094/metadata/1094_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 3203.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1094/metadata/1094_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1094/metadata/1094_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1094/1094_complete.wav",
+    "duration": 3203.402583,
+    "fileSize": 153763402,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1094/introduction.wav",
+          "duration": 104.19825,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.19825,
+          "startTime": 0,
+          "endTime": 104.19825
+        },
+        {
+          "path": "Audio/output/1094/chapter_01.wav",
+          "duration": 222.141208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Meaning in the Stars: Why Astrology Still Matters",
+          "actualDuration": 222.141208,
+          "startTime": 105.69825,
+          "endTime": 327.83945800000004
+        },
+        {
+          "path": "Audio/output/1094/chapter_02.wav",
+          "duration": 376.926792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Twelve Signs and Their Hidden Drives: A Closer Look at Motivation",
+          "actualDuration": 376.926792,
+          "startTime": 329.33945800000004,
+          "endTime": 706.26625
+        },
+        {
+          "path": "Audio/output/1094/chapter_03.wav",
+          "duration": 265.449833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Patterns in Relationships: How Zodiac Motives Shape Connection and Conflict",
+          "actualDuration": 265.449833,
+          "startTime": 707.76625,
+          "endTime": 973.216083
+        },
+        {
+          "path": "Audio/output/1094/chapter_04.wav",
+          "duration": 215.440292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Self-Awareness and Growth: Using Zodiac Insights for Personal Development",
+          "actualDuration": 215.440292,
+          "startTime": 974.716083,
+          "endTime": 1190.156375
+        },
+        {
+          "path": "Audio/output/1094/chapter_05.wav",
+          "duration": 190.545167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Beyond Stereotypes: Integrating Astrology with Modern Self-Help",
+          "actualDuration": 190.545167,
+          "startTime": 1191.656375,
+          "endTime": 1382.201542
+        },
+        {
+          "path": "Audio/output/1094/chapter_06.wav",
+          "duration": 236.936,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Zodiac at Work: Motives in Careers and Collaboration",
+          "actualDuration": 236.936,
+          "startTime": 1383.701542,
+          "endTime": 1620.637542
+        },
+        {
+          "path": "Audio/output/1094/chapter_07.wav",
+          "duration": 205.256125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Change: Zodiac Motives in Times of Transition",
+          "actualDuration": 205.256125,
+          "startTime": 1622.137542,
+          "endTime": 1827.3936669999998
+        },
+        {
+          "path": "Audio/output/1094/chapter_08.wav",
+          "duration": 154.983375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing Old Wounds: The Zodiac and Emotional Patterns",
+          "actualDuration": 154.983375,
+          "startTime": 1828.8936669999998,
+          "endTime": 1983.8770419999998
+        },
+        {
+          "path": "Audio/output/1094/chapter_09.wav",
+          "duration": 187.719667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Parenting and Family Dynamics: Nurturing Motives Across Generations",
+          "actualDuration": 187.719667,
+          "startTime": 1985.3770419999998,
+          "endTime": 2173.096709
+        },
+        {
+          "path": "Audio/output/1094/chapter_10.wav",
+          "duration": 173.043458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Friendship and Community: Building Bonds Through Motive Awareness",
+          "actualDuration": 173.043458,
+          "startTime": 2174.596709,
+          "endTime": 2347.640167
+        },
+        {
+          "path": "Audio/output/1094/chapter_11.wav",
+          "duration": 146.831958,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Love and Intimacy: Navigating Motives in Romantic Relationships",
+          "actualDuration": 146.831958,
+          "startTime": 2349.140167,
+          "endTime": 2495.9721250000002
+        },
+        {
+          "path": "Audio/output/1094/chapter_12.wav",
+          "duration": 160.245958,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Spirituality and Purpose: The Zodiac as a Guide to Meaning",
+          "actualDuration": 160.245958,
+          "startTime": 2497.4721250000002,
+          "endTime": 2657.718083
+        },
+        {
+          "path": "Audio/output/1094/chapter_13.wav",
+          "duration": 151.831083,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Everyday Practice: Bringing Zodiac Insights Into Daily Life",
+          "actualDuration": 151.831083,
+          "startTime": 2659.218083,
+          "endTime": 2811.0491660000002
+        },
+        {
+          "path": "Audio/output/1094/chapter_14.wav",
+          "duration": 140.271875,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Shadow Side: When Motives Become Obstacles",
+          "actualDuration": 140.271875,
+          "startTime": 2812.5491660000002,
+          "endTime": 2952.821041
+        },
+        {
+          "path": "Audio/output/1094/chapter_15.wav",
+          "duration": 136.74475,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Integration and Wholeness: Living in Alignment With Your Motives",
+          "actualDuration": 136.74475,
+          "startTime": 2954.321041,
+          "endTime": 3091.065791
+        },
+        {
+          "path": "Audio/output/1094/conclusion.wav",
+          "duration": 134.836792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.836792,
+          "startTime": 3092.565791,
+          "endTime": 3227.402583
+        }
+      ],
+      "totalDuration": 3227.402583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.2,
+          "actualStart": 0,
+          "actualEnd": 104.19825,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Meaning in the Stars: Why Astrology Still Matters",
+          "expectedStart": 104.2,
+          "expectedEnd": 326.34,
+          "actualStart": 105.69825,
+          "actualEnd": 327.83945800000004,
+          "timeDifference": 1.4982499999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Twelve Signs and Their Hidden Drives: A Closer Look at Motivation",
+          "expectedStart": 326.34,
+          "expectedEnd": 703.27,
+          "actualStart": 329.33945800000004,
+          "actualEnd": 706.26625,
+          "timeDifference": 2.999458000000061
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Patterns in Relationships: How Zodiac Motives Shape Connection and Conflict",
+          "expectedStart": 703.27,
+          "expectedEnd": 968.72,
+          "actualStart": 707.76625,
+          "actualEnd": 973.216083,
+          "timeDifference": 4.496250000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Self-Awareness and Growth: Using Zodiac Insights for Personal Development",
+          "expectedStart": 968.72,
+          "expectedEnd": 1184.16,
+          "actualStart": 974.716083,
+          "actualEnd": 1190.156375,
+          "timeDifference": 5.996082999999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Beyond Stereotypes: Integrating Astrology with Modern Self-Help",
+          "expectedStart": 1184.16,
+          "expectedEnd": 1374.71,
+          "actualStart": 1191.656375,
+          "actualEnd": 1382.201542,
+          "timeDifference": 7.496374999999944
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Zodiac at Work: Motives in Careers and Collaboration",
+          "expectedStart": 1374.71,
+          "expectedEnd": 1611.65,
+          "actualStart": 1383.701542,
+          "actualEnd": 1620.637542,
+          "timeDifference": 8.991541999999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Change: Zodiac Motives in Times of Transition",
+          "expectedStart": 1611.65,
+          "expectedEnd": 1816.91,
+          "actualStart": 1622.137542,
+          "actualEnd": 1827.3936669999998,
+          "timeDifference": 10.487541999999848
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing Old Wounds: The Zodiac and Emotional Patterns",
+          "expectedStart": 1816.91,
+          "expectedEnd": 1971.89,
+          "actualStart": 1828.8936669999998,
+          "actualEnd": 1983.8770419999998,
+          "timeDifference": 11.983666999999741
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Parenting and Family Dynamics: Nurturing Motives Across Generations",
+          "expectedStart": 1971.89,
+          "expectedEnd": 2159.61,
+          "actualStart": 1985.3770419999998,
+          "actualEnd": 2173.096709,
+          "timeDifference": 13.487041999999747
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Friendship and Community: Building Bonds Through Motive Awareness",
+          "expectedStart": 2159.61,
+          "expectedEnd": 2332.65,
+          "actualStart": 2174.596709,
+          "actualEnd": 2347.640167,
+          "timeDifference": 14.986708999999792
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Love and Intimacy: Navigating Motives in Romantic Relationships",
+          "expectedStart": 2332.65,
+          "expectedEnd": 2479.48,
+          "actualStart": 2349.140167,
+          "actualEnd": 2495.9721250000002,
+          "timeDifference": 16.49016699999993
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Spirituality and Purpose: The Zodiac as a Guide to Meaning",
+          "expectedStart": 2479.48,
+          "expectedEnd": 2639.73,
+          "actualStart": 2497.4721250000002,
+          "actualEnd": 2657.718083,
+          "timeDifference": 17.992125000000215
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Everyday Practice: Bringing Zodiac Insights Into Daily Life",
+          "expectedStart": 2639.73,
+          "expectedEnd": 2791.56,
+          "actualStart": 2659.218083,
+          "actualEnd": 2811.0491660000002,
+          "timeDifference": 19.488083000000188
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Shadow Side: When Motives Become Obstacles",
+          "expectedStart": 2791.56,
+          "expectedEnd": 2931.83,
+          "actualStart": 2812.5491660000002,
+          "actualEnd": 2952.821041,
+          "timeDifference": 20.989166000000296
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Integration and Wholeness: Living in Alignment With Your Motives",
+          "expectedStart": 2931.83,
+          "expectedEnd": 3068.57,
+          "actualStart": 2954.321041,
+          "actualEnd": 3091.065791,
+          "timeDifference": 22.491041000000223
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 3068.57,
+          "expectedEnd": 3203.41,
+          "actualStart": 3092.565791,
+          "actualEnd": 3227.402583,
+          "timeDifference": 23.995790999999826
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.19825,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Meaning in the Stars: Why Astrology Still Matters"
+        },
+        {
+          "startTime": 327.83945800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Meaning in the Stars: Why Astrology Still Matters and Chapter 2 The Twelve Signs and Their Hidden Drives: A Closer Look at Motivation"
+        },
+        {
+          "startTime": 706.26625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Twelve Signs and Their Hidden Drives: A Closer Look at Motivation and Chapter 3 Patterns in Relationships: How Zodiac Motives Shape Connection and Conflict"
+        },
+        {
+          "startTime": 973.216083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Patterns in Relationships: How Zodiac Motives Shape Connection and Conflict and Chapter 4 Self-Awareness and Growth: Using Zodiac Insights for Personal Development"
+        },
+        {
+          "startTime": 1190.156375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Self-Awareness and Growth: Using Zodiac Insights for Personal Development and Chapter 5 Beyond Stereotypes: Integrating Astrology with Modern Self-Help"
+        },
+        {
+          "startTime": 1382.201542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Beyond Stereotypes: Integrating Astrology with Modern Self-Help and Chapter 6 The Zodiac at Work: Motives in Careers and Collaboration"
+        },
+        {
+          "startTime": 1620.637542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Zodiac at Work: Motives in Careers and Collaboration and Chapter 7 Navigating Change: Zodiac Motives in Times of Transition"
+        },
+        {
+          "startTime": 1827.3936669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Change: Zodiac Motives in Times of Transition and Chapter 8 Healing Old Wounds: The Zodiac and Emotional Patterns"
+        },
+        {
+          "startTime": 1983.8770419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing Old Wounds: The Zodiac and Emotional Patterns and Chapter 9 Parenting and Family Dynamics: Nurturing Motives Across Generations"
+        },
+        {
+          "startTime": 2173.096709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Parenting and Family Dynamics: Nurturing Motives Across Generations and Chapter 10 Friendship and Community: Building Bonds Through Motive Awareness"
+        },
+        {
+          "startTime": 2347.640167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Friendship and Community: Building Bonds Through Motive Awareness and Chapter 11 Love and Intimacy: Navigating Motives in Romantic Relationships"
+        },
+        {
+          "startTime": 2495.9721250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Love and Intimacy: Navigating Motives in Romantic Relationships and Chapter 12 Spirituality and Purpose: The Zodiac as a Guide to Meaning"
+        },
+        {
+          "startTime": 2657.718083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Spirituality and Purpose: The Zodiac as a Guide to Meaning and Chapter 13 Everyday Practice: Bringing Zodiac Insights Into Daily Life"
+        },
+        {
+          "startTime": 2811.0491660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Everyday Practice: Bringing Zodiac Insights Into Daily Life and Chapter 14 The Shadow Side: When Motives Become Obstacles"
+        },
+        {
+          "startTime": 2952.821041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Shadow Side: When Motives Become Obstacles and Chapter 15 Integration and Wholeness: Living in Alignment With Your Motives"
+        },
+        {
+          "startTime": 3091.065791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Integration and Wholeness: Living in Alignment With Your Motives and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1094",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T12:55:35.443Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

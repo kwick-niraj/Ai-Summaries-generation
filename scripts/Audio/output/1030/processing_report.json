@@ -1,0 +1,455 @@
+{
+  "bookId": "1030",
+  "timestamp": "2025-07-06T09:06:13.515Z",
+  "success": false,
+  "processingTime": -1751792343895,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5473,
+    "totalAudioFiles": 12,
+    "totalDuration": 2301.28179
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2301.28179
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1030/optimized_text/1030.md",
+    "fileSize": 612,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "1030.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1030/metadata/1030_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2301.29,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1030/metadata/1030_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1030/metadata/1030_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1030/1030_complete.wav",
+    "duration": 2301.281792,
+    "fileSize": 110461604,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1030/introduction.wav",
+          "duration": 83.239583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.239583,
+          "startTime": 0,
+          "endTime": 83.239583
+        },
+        {
+          "path": "Audio/output/1030/chapter_01.wav",
+          "duration": 267.453083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Art’s Many Faces Across Time and Place",
+          "actualDuration": 267.453083,
+          "startTime": 84.739583,
+          "endTime": 352.192666
+        },
+        {
+          "path": "Audio/output/1030/chapter_02.wav",
+          "duration": 290.730292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Artists as Storytellers, Innovators, and Rebels",
+          "actualDuration": 290.730292,
+          "startTime": 353.692666,
+          "endTime": 644.422958
+        },
+        {
+          "path": "Audio/output/1030/chapter_03.wav",
+          "duration": 247.931667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Art Reflects and Shapes Culture",
+          "actualDuration": 247.931667,
+          "startTime": 645.922958,
+          "endTime": 893.8546249999999
+        },
+        {
+          "path": "Audio/output/1030/chapter_04.wav",
+          "duration": 245.73025,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Comparing Artworks to See Patterns and Differences",
+          "actualDuration": 245.73025,
+          "startTime": 895.3546249999999,
+          "endTime": 1141.084875
+        },
+        {
+          "path": "Audio/output/1030/chapter_05.wav",
+          "duration": 203.625208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Exploring the Diversity of Artistic Media and Movements",
+          "actualDuration": 203.625208,
+          "startTime": 1142.584875,
+          "endTime": 1346.210083
+        },
+        {
+          "path": "Audio/output/1030/chapter_06.wav",
+          "duration": 186.631208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Art as a Mirror of Society and Change",
+          "actualDuration": 186.631208,
+          "startTime": 1347.710083,
+          "endTime": 1534.341291
+        },
+        {
+          "path": "Audio/output/1030/chapter_07.wav",
+          "duration": 194.436958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Artistic Ideas",
+          "actualDuration": 194.436958,
+          "startTime": 1535.841291,
+          "endTime": 1730.278249
+        },
+        {
+          "path": "Audio/output/1030/chapter_08.wav",
+          "duration": 171.535333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Conversation Between Artists and Viewers",
+          "actualDuration": 171.535333,
+          "startTime": 1731.778249,
+          "endTime": 1903.313582
+        },
+        {
+          "path": "Audio/output/1030/chapter_09.wav",
+          "duration": 145.464667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Art in the Everyday",
+          "actualDuration": 145.464667,
+          "startTime": 1904.813582,
+          "endTime": 2050.278249
+        },
+        {
+          "path": "Audio/output/1030/chapter_10.wav",
+          "duration": 147.247833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Art—Endless Possibility",
+          "actualDuration": 147.247833,
+          "startTime": 2051.778249,
+          "endTime": 2199.026082
+        },
+        {
+          "path": "Audio/output/1030/conclusion.wav",
+          "duration": 117.255708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.255708,
+          "startTime": 2200.526082,
+          "endTime": 2317.78179
+        }
+      ],
+      "totalDuration": 2317.78179,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.24,
+          "actualStart": 0,
+          "actualEnd": 83.239583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Art’s Many Faces Across Time and Place",
+          "expectedStart": 83.24,
+          "expectedEnd": 350.69,
+          "actualStart": 84.739583,
+          "actualEnd": 352.192666,
+          "timeDifference": 1.4995830000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Artists as Storytellers, Innovators, and Rebels",
+          "expectedStart": 350.69,
+          "expectedEnd": 641.42,
+          "actualStart": 353.692666,
+          "actualEnd": 644.422958,
+          "timeDifference": 3.0026659999999765
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Art Reflects and Shapes Culture",
+          "expectedStart": 641.42,
+          "expectedEnd": 889.35,
+          "actualStart": 645.922958,
+          "actualEnd": 893.8546249999999,
+          "timeDifference": 4.502958000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Comparing Artworks to See Patterns and Differences",
+          "expectedStart": 889.35,
+          "expectedEnd": 1135.08,
+          "actualStart": 895.3546249999999,
+          "actualEnd": 1141.084875,
+          "timeDifference": 6.004624999999919
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Exploring the Diversity of Artistic Media and Movements",
+          "expectedStart": 1135.08,
+          "expectedEnd": 1338.71,
+          "actualStart": 1142.584875,
+          "actualEnd": 1346.210083,
+          "timeDifference": 7.504875000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Art as a Mirror of Society and Change",
+          "expectedStart": 1338.71,
+          "expectedEnd": 1525.34,
+          "actualStart": 1347.710083,
+          "actualEnd": 1534.341291,
+          "timeDifference": 9.000082999999904
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Artistic Ideas",
+          "expectedStart": 1525.34,
+          "expectedEnd": 1719.78,
+          "actualStart": 1535.841291,
+          "actualEnd": 1730.278249,
+          "timeDifference": 10.501291000000037
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Conversation Between Artists and Viewers",
+          "expectedStart": 1719.78,
+          "expectedEnd": 1891.32,
+          "actualStart": 1731.778249,
+          "actualEnd": 1903.313582,
+          "timeDifference": 11.998248999999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Art in the Everyday",
+          "expectedStart": 1891.32,
+          "expectedEnd": 2036.78,
+          "actualStart": 1904.813582,
+          "actualEnd": 2050.278249,
+          "timeDifference": 13.49358200000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Art—Endless Possibility",
+          "expectedStart": 2036.78,
+          "expectedEnd": 2184.03,
+          "actualStart": 2051.778249,
+          "actualEnd": 2199.026082,
+          "timeDifference": 14.998248999999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2184.03,
+          "expectedEnd": 2301.29,
+          "actualStart": 2200.526082,
+          "actualEnd": 2317.78179,
+          "timeDifference": 16.49608199999966
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.239583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Art’s Many Faces Across Time and Place"
+        },
+        {
+          "startTime": 352.192666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Art’s Many Faces Across Time and Place and Chapter 2 Artists as Storytellers, Innovators, and Rebels"
+        },
+        {
+          "startTime": 644.422958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Artists as Storytellers, Innovators, and Rebels and Chapter 3 How Art Reflects and Shapes Culture"
+        },
+        {
+          "startTime": 893.8546249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Art Reflects and Shapes Culture and Chapter 4 Comparing Artworks to See Patterns and Differences"
+        },
+        {
+          "startTime": 1141.084875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Comparing Artworks to See Patterns and Differences and Chapter 5 Exploring the Diversity of Artistic Media and Movements"
+        },
+        {
+          "startTime": 1346.210083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Exploring the Diversity of Artistic Media and Movements and Chapter 6 Art as a Mirror of Society and Change"
+        },
+        {
+          "startTime": 1534.341291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Art as a Mirror of Society and Change and Chapter 7 The Evolution of Artistic Ideas"
+        },
+        {
+          "startTime": 1730.278249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Artistic Ideas and Chapter 8 The Conversation Between Artists and Viewers"
+        },
+        {
+          "startTime": 1903.313582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Conversation Between Artists and Viewers and Chapter 9 Art in the Everyday"
+        },
+        {
+          "startTime": 2050.278249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Art in the Everyday and Chapter 10 The Future of Art—Endless Possibility"
+        },
+        {
+          "startTime": 2199.026082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Art—Endless Possibility and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1030",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T08:59:05.380Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

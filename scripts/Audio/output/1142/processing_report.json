@@ -1,0 +1,456 @@
+{
+  "bookId": "1142",
+  "timestamp": "2025-07-06T16:56:23.839Z",
+  "success": false,
+  "processingTime": -1751820517912,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4783,
+    "totalAudioFiles": 12,
+    "totalDuration": 1999.1528319999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1999.1528319999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1142/optimized_text/1142.md",
+    "fileSize": 568,
+    "wordCount": 80,
+    "format": "markdown",
+    "filename": "1142.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1142/metadata/1142_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1999.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1142/metadata/1142_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1142/metadata/1142_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1142/1142_complete.wav",
+    "duration": 1999.152833,
+    "fileSize": 95959414,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1142/introduction.wav",
+          "duration": 99.439458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.439458,
+          "startTime": 0,
+          "endTime": 99.439458
+        },
+        {
+          "path": "Audio/output/1142/chapter_01.wav",
+          "duration": 213.6545,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Quiet Town Shaken by Tragedy",
+          "actualDuration": 213.6545,
+          "startTime": 100.939458,
+          "endTime": 314.59395800000004
+        },
+        {
+          "path": "Audio/output/1142/chapter_02.wav",
+          "duration": 249.817917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Birth and Evolution of Mormonism",
+          "actualDuration": 249.817917,
+          "startTime": 316.09395800000004,
+          "endTime": 565.911875
+        },
+        {
+          "path": "Audio/output/1142/chapter_03.wav",
+          "duration": 209.73075,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Rise of Fundamentalist Sects",
+          "actualDuration": 209.73075,
+          "startTime": 567.411875,
+          "endTime": 777.142625
+        },
+        {
+          "path": "Audio/output/1142/chapter_04.wav",
+          "duration": 188.569042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Faith, Doubt, and the Power of Revelation",
+          "actualDuration": 188.569042,
+          "startTime": 778.642625,
+          "endTime": 967.2116669999999
+        },
+        {
+          "path": "Audio/output/1142/chapter_05.wav",
+          "duration": 186.593208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Roots of Religious Violence",
+          "actualDuration": 186.593208,
+          "startTime": 968.7116669999999,
+          "endTime": 1155.3048749999998
+        },
+        {
+          "path": "Audio/output/1142/chapter_06.wav",
+          "duration": 176.125458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: A Community in Mourning",
+          "actualDuration": 176.125458,
+          "startTime": 1156.8048749999998,
+          "endTime": 1332.9303329999998
+        },
+        {
+          "path": "Audio/output/1142/chapter_07.wav",
+          "duration": 133.767208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Broader American Landscape",
+          "actualDuration": 133.767208,
+          "startTime": 1334.4303329999998,
+          "endTime": 1468.1975409999998
+        },
+        {
+          "path": "Audio/output/1142/chapter_08.wav",
+          "duration": 145.561583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Struggle: Faith, Authority, and Dissent",
+          "actualDuration": 145.561583,
+          "startTime": 1469.6975409999998,
+          "endTime": 1615.2591239999997
+        },
+        {
+          "path": "Audio/output/1142/chapter_09.wav",
+          "duration": 154.759375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Cost: Stories of Loss and Survival",
+          "actualDuration": 154.759375,
+          "startTime": 1616.7591239999997,
+          "endTime": 1771.5184989999998
+        },
+        {
+          "path": "Audio/output/1142/chapter_10.wav",
+          "duration": 124.675,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections: The Search for Meaning",
+          "actualDuration": 124.675,
+          "startTime": 1773.0184989999998,
+          "endTime": 1897.6934989999997
+        },
+        {
+          "path": "Audio/output/1142/conclusion.wav",
+          "duration": 116.459333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.459333,
+          "startTime": 1899.1934989999997,
+          "endTime": 2015.6528319999998
+        }
+      ],
+      "totalDuration": 2015.6528319999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.44,
+          "actualStart": 0,
+          "actualEnd": 99.439458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Quiet Town Shaken by Tragedy",
+          "expectedStart": 99.44,
+          "expectedEnd": 313.09,
+          "actualStart": 100.939458,
+          "actualEnd": 314.59395800000004,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Birth and Evolution of Mormonism",
+          "expectedStart": 313.09,
+          "expectedEnd": 562.91,
+          "actualStart": 316.09395800000004,
+          "actualEnd": 565.911875,
+          "timeDifference": 3.0039580000000683
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Rise of Fundamentalist Sects",
+          "expectedStart": 562.91,
+          "expectedEnd": 772.64,
+          "actualStart": 567.411875,
+          "actualEnd": 777.142625,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Faith, Doubt, and the Power of Revelation",
+          "expectedStart": 772.64,
+          "expectedEnd": 961.21,
+          "actualStart": 778.642625,
+          "actualEnd": 967.2116669999999,
+          "timeDifference": 6.002624999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Roots of Religious Violence",
+          "expectedStart": 961.21,
+          "expectedEnd": 1147.8,
+          "actualStart": 968.7116669999999,
+          "actualEnd": 1155.3048749999998,
+          "timeDifference": 7.501666999999884
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: A Community in Mourning",
+          "expectedStart": 1147.8,
+          "expectedEnd": 1323.93,
+          "actualStart": 1156.8048749999998,
+          "actualEnd": 1332.9303329999998,
+          "timeDifference": 9.004874999999856
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Broader American Landscape",
+          "expectedStart": 1323.93,
+          "expectedEnd": 1457.7,
+          "actualStart": 1334.4303329999998,
+          "actualEnd": 1468.1975409999998,
+          "timeDifference": 10.500332999999728
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Struggle: Faith, Authority, and Dissent",
+          "expectedStart": 1457.7,
+          "expectedEnd": 1603.26,
+          "actualStart": 1469.6975409999998,
+          "actualEnd": 1615.2591239999997,
+          "timeDifference": 11.997540999999728
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Cost: Stories of Loss and Survival",
+          "expectedStart": 1603.26,
+          "expectedEnd": 1758.02,
+          "actualStart": 1616.7591239999997,
+          "actualEnd": 1771.5184989999998,
+          "timeDifference": 13.49912399999971
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections: The Search for Meaning",
+          "expectedStart": 1758.02,
+          "expectedEnd": 1882.7,
+          "actualStart": 1773.0184989999998,
+          "actualEnd": 1897.6934989999997,
+          "timeDifference": 14.99849899999981
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1882.7,
+          "expectedEnd": 1999.16,
+          "actualStart": 1899.1934989999997,
+          "actualEnd": 2015.6528319999998,
+          "timeDifference": 16.4934989999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.439458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Quiet Town Shaken by Tragedy"
+        },
+        {
+          "startTime": 314.59395800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Quiet Town Shaken by Tragedy and Chapter 2 The Birth and Evolution of Mormonism"
+        },
+        {
+          "startTime": 565.911875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Birth and Evolution of Mormonism and Chapter 3 The Rise of Fundamentalist Sects"
+        },
+        {
+          "startTime": 777.142625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Rise of Fundamentalist Sects and Chapter 4 Faith, Doubt, and the Power of Revelation"
+        },
+        {
+          "startTime": 967.2116669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Faith, Doubt, and the Power of Revelation and Chapter 5 The Roots of Religious Violence"
+        },
+        {
+          "startTime": 1155.3048749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Roots of Religious Violence and Chapter 6 Aftermath: A Community in Mourning"
+        },
+        {
+          "startTime": 1332.9303329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: A Community in Mourning and Chapter 7 The Broader American Landscape"
+        },
+        {
+          "startTime": 1468.1975409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Broader American Landscape and Chapter 8 The Enduring Struggle: Faith, Authority, and Dissent"
+        },
+        {
+          "startTime": 1615.2591239999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Struggle: Faith, Authority, and Dissent and Chapter 9 The Human Cost: Stories of Loss and Survival"
+        },
+        {
+          "startTime": 1771.5184989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Cost: Stories of Loss and Survival and Chapter 10 Reflections: The Search for Meaning"
+        },
+        {
+          "startTime": 1897.6934989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections: The Search for Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1142",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T16:48:37.937Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

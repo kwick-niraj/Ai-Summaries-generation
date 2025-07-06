@@ -1,0 +1,456 @@
+{
+  "bookId": "420",
+  "timestamp": "2025-07-04T02:20:19.877Z",
+  "success": false,
+  "processingTime": -1751595207723,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4050,
+    "totalAudioFiles": 12,
+    "totalDuration": 2189.9793729999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2189.9793729999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/420/optimized_text/420.md",
+    "fileSize": 695,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "420.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/420/metadata/420_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2189.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/420/metadata/420_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/420/metadata/420_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/420/420_complete.wav",
+    "duration": 2189.979375,
+    "fileSize": 105119088,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/420/introduction.wav",
+          "duration": 80.759375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.759375,
+          "startTime": 0,
+          "endTime": 80.759375
+        },
+        {
+          "path": "Audio/output/420/chapter_01.wav",
+          "duration": 206.603458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Lifelong Struggles",
+          "actualDuration": 206.603458,
+          "startTime": 82.259375,
+          "endTime": 288.862833
+        },
+        {
+          "path": "Audio/output/420/chapter_02.wav",
+          "duration": 274.069458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying the Most Common Lifetraps",
+          "actualDuration": 274.069458,
+          "startTime": 290.362833,
+          "endTime": 564.4322910000001
+        },
+        {
+          "path": "Audio/output/420/chapter_03.wav",
+          "duration": 211.620583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Tracing Lifetraps Back to Childhood Experiences",
+          "actualDuration": 211.620583,
+          "startTime": 565.9322910000001,
+          "endTime": 777.5528740000001
+        },
+        {
+          "path": "Audio/output/420/chapter_04.wav",
+          "duration": 190.060083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Recognizing How Lifetraps Shape Adult Life",
+          "actualDuration": 190.060083,
+          "startTime": 779.0528740000001,
+          "endTime": 969.112957
+        },
+        {
+          "path": "Audio/output/420/chapter_05.wav",
+          "duration": 184.616958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Beginning the Process of Change: Awareness and Small Shifts",
+          "actualDuration": 184.616958,
+          "startTime": 970.612957,
+          "endTime": 1155.2299150000001
+        },
+        {
+          "path": "Audio/output/420/chapter_06.wav",
+          "duration": 232.714292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Working Directly with Specific Lifetraps",
+          "actualDuration": 232.714292,
+          "startTime": 1156.7299150000001,
+          "endTime": 1389.444207
+        },
+        {
+          "path": "Audio/output/420/chapter_07.wav",
+          "duration": 196.402083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Healthier Relationships: Breaking the Cycle",
+          "actualDuration": 196.402083,
+          "startTime": 1390.944207,
+          "endTime": 1587.34629
+        },
+        {
+          "path": "Audio/output/420/chapter_08.wav",
+          "duration": 183.056083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Strengthening Self-Esteem and Inner Resilience",
+          "actualDuration": 183.056083,
+          "startTime": 1588.84629,
+          "endTime": 1771.902373
+        },
+        {
+          "path": "Audio/output/420/chapter_09.wav",
+          "duration": 158.748917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Change: Preventing Relapse and Embracing Growth",
+          "actualDuration": 158.748917,
+          "startTime": 1773.402373,
+          "endTime": 1932.1512899999998
+        },
+        {
+          "path": "Audio/output/420/chapter_10.wav",
+          "duration": 156.111833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Beyond Lifetraps: Creating a Life of Meaning and Connection",
+          "actualDuration": 156.111833,
+          "startTime": 1933.6512899999998,
+          "endTime": 2089.7631229999997
+        },
+        {
+          "path": "Audio/output/420/conclusion.wav",
+          "duration": 115.21625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.21625,
+          "startTime": 2091.2631229999997,
+          "endTime": 2206.4793729999997
+        }
+      ],
+      "totalDuration": 2206.4793729999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.76,
+          "actualStart": 0,
+          "actualEnd": 80.759375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Lifelong Struggles",
+          "expectedStart": 80.76,
+          "expectedEnd": 287.36,
+          "actualStart": 82.259375,
+          "actualEnd": 288.862833,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying the Most Common Lifetraps",
+          "expectedStart": 287.36,
+          "expectedEnd": 561.43,
+          "actualStart": 290.362833,
+          "actualEnd": 564.4322910000001,
+          "timeDifference": 3.0028330000000096
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Tracing Lifetraps Back to Childhood Experiences",
+          "expectedStart": 561.43,
+          "expectedEnd": 773.05,
+          "actualStart": 565.9322910000001,
+          "actualEnd": 777.5528740000001,
+          "timeDifference": 4.5022910000001275
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Recognizing How Lifetraps Shape Adult Life",
+          "expectedStart": 773.05,
+          "expectedEnd": 963.11,
+          "actualStart": 779.0528740000001,
+          "actualEnd": 969.112957,
+          "timeDifference": 6.0028740000001335
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Beginning the Process of Change: Awareness and Small Shifts",
+          "expectedStart": 963.11,
+          "expectedEnd": 1147.73,
+          "actualStart": 970.612957,
+          "actualEnd": 1155.2299150000001,
+          "timeDifference": 7.502957000000038
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Working Directly with Specific Lifetraps",
+          "expectedStart": 1147.73,
+          "expectedEnd": 1380.44,
+          "actualStart": 1156.7299150000001,
+          "actualEnd": 1389.444207,
+          "timeDifference": 8.999915000000101
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Healthier Relationships: Breaking the Cycle",
+          "expectedStart": 1380.44,
+          "expectedEnd": 1576.84,
+          "actualStart": 1390.944207,
+          "actualEnd": 1587.34629,
+          "timeDifference": 10.504206999999951
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Strengthening Self-Esteem and Inner Resilience",
+          "expectedStart": 1576.84,
+          "expectedEnd": 1759.9,
+          "actualStart": 1588.84629,
+          "actualEnd": 1771.902373,
+          "timeDifference": 12.006290000000035
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Change: Preventing Relapse and Embracing Growth",
+          "expectedStart": 1759.9,
+          "expectedEnd": 1918.65,
+          "actualStart": 1773.402373,
+          "actualEnd": 1932.1512899999998,
+          "timeDifference": 13.502372999999807
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Beyond Lifetraps: Creating a Life of Meaning and Connection",
+          "expectedStart": 1918.65,
+          "expectedEnd": 2074.76,
+          "actualStart": 1933.6512899999998,
+          "actualEnd": 2089.7631229999997,
+          "timeDifference": 15.001289999999699
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2074.76,
+          "expectedEnd": 2189.98,
+          "actualStart": 2091.2631229999997,
+          "actualEnd": 2206.4793729999997,
+          "timeDifference": 16.503122999999505
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.759375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Lifelong Struggles"
+        },
+        {
+          "startTime": 288.862833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Lifelong Struggles and Chapter 2 Identifying the Most Common Lifetraps"
+        },
+        {
+          "startTime": 564.4322910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying the Most Common Lifetraps and Chapter 3 Tracing Lifetraps Back to Childhood Experiences"
+        },
+        {
+          "startTime": 777.5528740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Tracing Lifetraps Back to Childhood Experiences and Chapter 4 Recognizing How Lifetraps Shape Adult Life"
+        },
+        {
+          "startTime": 969.112957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Recognizing How Lifetraps Shape Adult Life and Chapter 5 Beginning the Process of Change: Awareness and Small Shifts"
+        },
+        {
+          "startTime": 1155.2299150000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Beginning the Process of Change: Awareness and Small Shifts and Chapter 6 Working Directly with Specific Lifetraps"
+        },
+        {
+          "startTime": 1389.444207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Working Directly with Specific Lifetraps and Chapter 7 Building Healthier Relationships: Breaking the Cycle"
+        },
+        {
+          "startTime": 1587.34629,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Healthier Relationships: Breaking the Cycle and Chapter 8 Strengthening Self-Esteem and Inner Resilience"
+        },
+        {
+          "startTime": 1771.902373,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Strengthening Self-Esteem and Inner Resilience and Chapter 9 Sustaining Change: Preventing Relapse and Embracing Growth"
+        },
+        {
+          "startTime": 1932.1512899999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Change: Preventing Relapse and Embracing Growth and Chapter 10 Living Beyond Lifetraps: Creating a Life of Meaning and Connection"
+        },
+        {
+          "startTime": 2089.7631229999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Beyond Lifetraps: Creating a Life of Meaning and Connection and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "420",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T02:13:29.457Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

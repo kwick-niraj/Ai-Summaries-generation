@@ -1,0 +1,432 @@
+{
+  "bookId": "362",
+  "timestamp": "2025-07-03T21:08:38.198Z",
+  "success": false,
+  "processingTime": -1751576403347,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4063,
+    "totalAudioFiles": 12,
+    "totalDuration": 1979.8686659999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1979.8686659999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/362/optimized_text/362.md",
+    "fileSize": 868,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "362.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/362/metadata/362_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1979.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/362/metadata/362_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/362/metadata/362_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/362/362_complete.wav",
+    "duration": 1979.868667,
+    "fileSize": 95033774,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/362/introduction.wav",
+          "duration": 87.31775,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.31775,
+          "startTime": 0,
+          "endTime": 87.31775
+        },
+        {
+          "path": "Audio/output/362/chapter_01.wav",
+          "duration": 209.1545,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation—Personal Responsibility and the Power of Choice",
+          "actualDuration": 209.1545,
+          "startTime": 88.81775,
+          "endTime": 297.97225000000003
+        },
+        {
+          "path": "Audio/output/362/chapter_02.wav",
+          "duration": 207.642292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Creating a Personal Vision—Setting Goals and Defining What Matters",
+          "actualDuration": 207.642292,
+          "startTime": 299.47225000000003,
+          "endTime": 507.11454200000003
+        },
+        {
+          "path": "Audio/output/362/chapter_03.wav",
+          "duration": 236.904458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Prioritizing What Matters—Time Management and Self-Discipline",
+          "actualDuration": 236.904458,
+          "startTime": 508.61454200000003,
+          "endTime": 745.519
+        },
+        {
+          "path": "Audio/output/362/chapter_05.wav",
+          "duration": 203.794792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Working Together—Valuing Differences and Achieving More as a Team",
+          "actualDuration": 203.794792,
+          "startTime": 747.019,
+          "endTime": 950.813792
+        },
+        {
+          "path": "Audio/output/362/chapter_06.wav",
+          "duration": 233.603208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Renewing Yourself—The Habit of Self-Care and Continuous Growth",
+          "actualDuration": 233.603208,
+          "startTime": 952.313792,
+          "endTime": 1185.917
+        },
+        {
+          "path": "Audio/output/362/chapter_07.wav",
+          "duration": 188.097708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Standing Strong—Resisting Peer Pressure and Making Independent Choices",
+          "actualDuration": 188.097708,
+          "startTime": 1187.417,
+          "endTime": 1375.514708
+        },
+        {
+          "path": "Audio/output/362/chapter_08.wav",
+          "duration": 170.462583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Adapting and Growing—Embracing Change and Learning from Setbacks",
+          "actualDuration": 170.462583,
+          "startTime": 1377.014708,
+          "endTime": 1547.477291
+        },
+        {
+          "path": "Audio/output/362/chapter_09.wav",
+          "duration": 176.145625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Habits—Creating a Personal Effectiveness Plan",
+          "actualDuration": 176.145625,
+          "startTime": 1548.977291,
+          "endTime": 1725.1229159999998
+        },
+        {
+          "path": "Audio/output/362/chapter_10.wav",
+          "duration": 130.916125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Continuing the Journey—Lifelong Growth and Contribution",
+          "actualDuration": 130.916125,
+          "startTime": 1726.6229159999998,
+          "endTime": 1857.5390409999998
+        },
+        {
+          "path": "Audio/output/362/conclusion.wav",
+          "duration": 135.829625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.829625,
+          "startTime": 1859.0390409999998,
+          "endTime": 1994.8686659999998
+        }
+      ],
+      "totalDuration": 1994.8686659999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.32,
+          "actualStart": 0,
+          "actualEnd": 87.31775,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation—Personal Responsibility and the Power of Choice",
+          "expectedStart": 87.32,
+          "expectedEnd": 296.47,
+          "actualStart": 88.81775,
+          "actualEnd": 297.97225000000003,
+          "timeDifference": 1.4977500000000106
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Creating a Personal Vision—Setting Goals and Defining What Matters",
+          "expectedStart": 296.47,
+          "expectedEnd": 504.11,
+          "actualStart": 299.47225000000003,
+          "actualEnd": 507.11454200000003,
+          "timeDifference": 3.0022500000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Prioritizing What Matters—Time Management and Self-Discipline",
+          "expectedStart": 504.11,
+          "expectedEnd": 741.01,
+          "actualStart": 508.61454200000003,
+          "actualEnd": 745.519,
+          "timeDifference": 4.504542000000015
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Working Together—Valuing Differences and Achieving More as a Team",
+          "expectedStart": 741.01,
+          "expectedEnd": 944.8,
+          "actualStart": 747.019,
+          "actualEnd": 950.813792,
+          "timeDifference": 6.0090000000000146
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Renewing Yourself—The Habit of Self-Care and Continuous Growth",
+          "expectedStart": 944.8,
+          "expectedEnd": 1178.4,
+          "actualStart": 952.313792,
+          "actualEnd": 1185.917,
+          "timeDifference": 7.51379200000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Standing Strong—Resisting Peer Pressure and Making Independent Choices",
+          "expectedStart": 1178.4,
+          "expectedEnd": 1366.5,
+          "actualStart": 1187.417,
+          "actualEnd": 1375.514708,
+          "timeDifference": 9.016999999999825
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Adapting and Growing—Embracing Change and Learning from Setbacks",
+          "expectedStart": 1366.5,
+          "expectedEnd": 1536.96,
+          "actualStart": 1377.014708,
+          "actualEnd": 1547.477291,
+          "timeDifference": 10.514707999999928
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Habits—Creating a Personal Effectiveness Plan",
+          "expectedStart": 1536.96,
+          "expectedEnd": 1713.11,
+          "actualStart": 1548.977291,
+          "actualEnd": 1725.1229159999998,
+          "timeDifference": 12.017290999999886
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Continuing the Journey—Lifelong Growth and Contribution",
+          "expectedStart": 1713.11,
+          "expectedEnd": 1844.03,
+          "actualStart": 1726.6229159999998,
+          "actualEnd": 1857.5390409999998,
+          "timeDifference": 13.512915999999905
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1844.03,
+          "expectedEnd": 1979.86,
+          "actualStart": 1859.0390409999998,
+          "actualEnd": 1994.8686659999998,
+          "timeDifference": 15.009040999999797
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.31775,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation—Personal Responsibility and the Power of Choice"
+        },
+        {
+          "startTime": 297.97225000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation—Personal Responsibility and the Power of Choice and Chapter 2 Creating a Personal Vision—Setting Goals and Defining What Matters"
+        },
+        {
+          "startTime": 507.11454200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Creating a Personal Vision—Setting Goals and Defining What Matters and Chapter 3 Prioritizing What Matters—Time Management and Self-Discipline"
+        },
+        {
+          "startTime": 745.519,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Prioritizing What Matters—Time Management and Self-Discipline and Chapter 5 Working Together—Valuing Differences and Achieving More as a Team"
+        },
+        {
+          "startTime": 950.813792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Working Together—Valuing Differences and Achieving More as a Team and Chapter 6 Renewing Yourself—The Habit of Self-Care and Continuous Growth"
+        },
+        {
+          "startTime": 1185.917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Renewing Yourself—The Habit of Self-Care and Continuous Growth and Chapter 7 Standing Strong—Resisting Peer Pressure and Making Independent Choices"
+        },
+        {
+          "startTime": 1375.514708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Standing Strong—Resisting Peer Pressure and Making Independent Choices and Chapter 8 Adapting and Growing—Embracing Change and Learning from Setbacks"
+        },
+        {
+          "startTime": 1547.477291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Adapting and Growing—Embracing Change and Learning from Setbacks and Chapter 9 Integrating the Habits—Creating a Personal Effectiveness Plan"
+        },
+        {
+          "startTime": 1725.1229159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Habits—Creating a Personal Effectiveness Plan and Chapter 10 Continuing the Journey—Lifelong Growth and Contribution"
+        },
+        {
+          "startTime": 1857.5390409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Continuing the Journey—Lifelong Growth and Contribution and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "362",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T21:00:04.693Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "479",
+  "timestamp": "2025-07-04T05:54:45.972Z",
+  "success": false,
+  "processingTime": -1751608196054,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4842,
+    "totalAudioFiles": 12,
+    "totalDuration": 2093.921874
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2093.921874
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/479/optimized_text/479.md",
+    "fileSize": 702,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "479.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/479/metadata/479_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2093.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/479/metadata/479_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/479/metadata/479_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/479/479_complete.wav",
+    "duration": 2093.921875,
+    "fileSize": 100508328,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/479/introduction.wav",
+          "duration": 110.407833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.407833,
+          "startTime": 0,
+          "endTime": 110.407833
+        },
+        {
+          "path": "Audio/output/479/chapter_01.wav",
+          "duration": 243.575292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Living Behind the Veil — The Struggle to Be Seen",
+          "actualDuration": 243.575292,
+          "startTime": 111.907833,
+          "endTime": 355.483125
+        },
+        {
+          "path": "Audio/output/479/chapter_02.wav",
+          "duration": 221.113208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Legacy of Emancipation and the Weight of History",
+          "actualDuration": 221.113208,
+          "startTime": 356.983125,
+          "endTime": 578.096333
+        },
+        {
+          "path": "Audio/output/479/chapter_03.wav",
+          "duration": 218.828083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Color Line and the Battle for Rights",
+          "actualDuration": 218.828083,
+          "startTime": 579.596333,
+          "endTime": 798.424416
+        },
+        {
+          "path": "Audio/output/479/chapter_04.wav",
+          "duration": 195.120625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Education and the Talented Tenth",
+          "actualDuration": 195.120625,
+          "startTime": 799.924416,
+          "endTime": 995.045041
+        },
+        {
+          "path": "Audio/output/479/chapter_05.wav",
+          "duration": 202.0845,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Psychological Toll of Racism and the Search for Identity",
+          "actualDuration": 202.0845,
+          "startTime": 996.545041,
+          "endTime": 1198.629541
+        },
+        {
+          "path": "Audio/output/479/chapter_06.wav",
+          "duration": 168.703375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Song — Culture as Survival and Resistance",
+          "actualDuration": 168.703375,
+          "startTime": 1200.129541,
+          "endTime": 1368.832916
+        },
+        {
+          "path": "Audio/output/479/chapter_07.wav",
+          "duration": 167.449625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rural South — Life, Labor, and the Land",
+          "actualDuration": 167.449625,
+          "startTime": 1370.332916,
+          "endTime": 1537.782541
+        },
+        {
+          "path": "Audio/output/479/chapter_08.wav",
+          "duration": 167.029458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Urban North — New Hopes, Old Barriers",
+          "actualDuration": 167.029458,
+          "startTime": 1539.282541,
+          "endTime": 1706.311999
+        },
+        {
+          "path": "Audio/output/479/chapter_09.wav",
+          "duration": 161.075792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Struggle — Justice, Recognition, and the American Promise",
+          "actualDuration": 161.075792,
+          "startTime": 1707.811999,
+          "endTime": 1868.887791
+        },
+        {
+          "path": "Audio/output/479/chapter_10.wav",
+          "duration": 129.906875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Faith, Family, and the Ties That Bind",
+          "actualDuration": 129.906875,
+          "startTime": 1870.387791,
+          "endTime": 2000.2946660000002
+        },
+        {
+          "path": "Audio/output/479/conclusion.wav",
+          "duration": 108.627208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.627208,
+          "startTime": 2001.7946660000002,
+          "endTime": 2110.421874
+        }
+      ],
+      "totalDuration": 2110.421874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.41,
+          "actualStart": 0,
+          "actualEnd": 110.407833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Living Behind the Veil — The Struggle to Be Seen",
+          "expectedStart": 110.41,
+          "expectedEnd": 353.99,
+          "actualStart": 111.907833,
+          "actualEnd": 355.483125,
+          "timeDifference": 1.497833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Legacy of Emancipation and the Weight of History",
+          "expectedStart": 353.99,
+          "expectedEnd": 575.1,
+          "actualStart": 356.983125,
+          "actualEnd": 578.096333,
+          "timeDifference": 2.9931249999999636
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Color Line and the Battle for Rights",
+          "expectedStart": 575.1,
+          "expectedEnd": 793.93,
+          "actualStart": 579.596333,
+          "actualEnd": 798.424416,
+          "timeDifference": 4.496332999999936
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Education and the Talented Tenth",
+          "expectedStart": 793.93,
+          "expectedEnd": 989.05,
+          "actualStart": 799.924416,
+          "actualEnd": 995.045041,
+          "timeDifference": 5.994416000000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Psychological Toll of Racism and the Search for Identity",
+          "expectedStart": 989.05,
+          "expectedEnd": 1191.13,
+          "actualStart": 996.545041,
+          "actualEnd": 1198.629541,
+          "timeDifference": 7.495041000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Song — Culture as Survival and Resistance",
+          "expectedStart": 1191.13,
+          "expectedEnd": 1359.83,
+          "actualStart": 1200.129541,
+          "actualEnd": 1368.832916,
+          "timeDifference": 8.999540999999908
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rural South — Life, Labor, and the Land",
+          "expectedStart": 1359.83,
+          "expectedEnd": 1527.28,
+          "actualStart": 1370.332916,
+          "actualEnd": 1537.782541,
+          "timeDifference": 10.502916000000141
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Urban North — New Hopes, Old Barriers",
+          "expectedStart": 1527.28,
+          "expectedEnd": 1694.31,
+          "actualStart": 1539.282541,
+          "actualEnd": 1706.311999,
+          "timeDifference": 12.002541000000065
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Struggle — Justice, Recognition, and the American Promise",
+          "expectedStart": 1694.31,
+          "expectedEnd": 1855.39,
+          "actualStart": 1707.811999,
+          "actualEnd": 1868.887791,
+          "timeDifference": 13.501999000000069
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Faith, Family, and the Ties That Bind",
+          "expectedStart": 1855.39,
+          "expectedEnd": 1985.3,
+          "actualStart": 1870.387791,
+          "actualEnd": 2000.2946660000002,
+          "timeDifference": 14.997791000000007
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1985.3,
+          "expectedEnd": 2093.93,
+          "actualStart": 2001.7946660000002,
+          "actualEnd": 2110.421874,
+          "timeDifference": 16.49466600000028
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.407833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Living Behind the Veil — The Struggle to Be Seen"
+        },
+        {
+          "startTime": 355.483125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Living Behind the Veil — The Struggle to Be Seen and Chapter 2 The Legacy of Emancipation and the Weight of History"
+        },
+        {
+          "startTime": 578.096333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Legacy of Emancipation and the Weight of History and Chapter 3 The Color Line and the Battle for Rights"
+        },
+        {
+          "startTime": 798.424416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Color Line and the Battle for Rights and Chapter 4 The Power of Education and the Talented Tenth"
+        },
+        {
+          "startTime": 995.045041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Education and the Talented Tenth and Chapter 5 The Psychological Toll of Racism and the Search for Identity"
+        },
+        {
+          "startTime": 1198.629541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Psychological Toll of Racism and the Search for Identity and Chapter 6 The Power of Song — Culture as Survival and Resistance"
+        },
+        {
+          "startTime": 1368.832916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Song — Culture as Survival and Resistance and Chapter 7 The Rural South — Life, Labor, and the Land"
+        },
+        {
+          "startTime": 1537.782541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rural South — Life, Labor, and the Land and Chapter 8 The Urban North — New Hopes, Old Barriers"
+        },
+        {
+          "startTime": 1706.311999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Urban North — New Hopes, Old Barriers and Chapter 9 The Ongoing Struggle — Justice, Recognition, and the American Promise"
+        },
+        {
+          "startTime": 1868.887791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Struggle — Justice, Recognition, and the American Promise and Chapter 10 Faith, Family, and the Ties That Bind"
+        },
+        {
+          "startTime": 2000.2946660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Faith, Family, and the Ties That Bind and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "479",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:49:57.704Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

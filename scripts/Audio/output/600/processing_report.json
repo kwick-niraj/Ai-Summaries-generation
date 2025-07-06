@@ -1,0 +1,456 @@
+{
+  "bookId": "600",
+  "timestamp": "2025-07-04T21:06:05.265Z",
+  "success": false,
+  "processingTime": -1751662820059,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4764,
+    "totalAudioFiles": 12,
+    "totalDuration": 1910.1011270000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1910.1011270000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/600/optimized_text/600.md",
+    "fileSize": 813,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "600.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/600/metadata/600_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1910.11,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/600/metadata/600_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/600/metadata/600_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/600/600_complete.wav",
+    "duration": 1910.101125,
+    "fileSize": 91684932,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/600/introduction.wav",
+          "duration": 81.361125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.361125,
+          "startTime": 0,
+          "endTime": 81.361125
+        },
+        {
+          "path": "Audio/output/600/chapter_01.wav",
+          "duration": 214.92925,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Love Meets Uncertainty: The Early Days of Hope and Doubt",
+          "actualDuration": 214.92925,
+          "startTime": 82.861125,
+          "endTime": 297.790375
+        },
+        {
+          "path": "Audio/output/600/chapter_02.wav",
+          "duration": 188.2195,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Invisible Struggles: Living with Mental Illness in a Relationship",
+          "actualDuration": 188.2195,
+          "startTime": 299.290375,
+          "endTime": 487.50987499999997
+        },
+        {
+          "path": "Audio/output/600/chapter_03.wav",
+          "duration": 203.816167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Caregiver’s Dilemma: Guilt, Frustration, and the Limits of Love",
+          "actualDuration": 203.816167,
+          "startTime": 489.00987499999997,
+          "endTime": 692.8260419999999
+        },
+        {
+          "path": "Audio/output/600/chapter_04.wav",
+          "duration": 180.705292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Stigma and Isolation: The Hidden Cost of Mental Illness",
+          "actualDuration": 180.705292,
+          "startTime": 694.3260419999999,
+          "endTime": 875.0313339999999
+        },
+        {
+          "path": "Audio/output/600/chapter_05.wav",
+          "duration": 183.587542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rediscovering Self: Boundaries, Acceptance, and the Path to Healing",
+          "actualDuration": 183.587542,
+          "startTime": 876.5313339999999,
+          "endTime": 1060.118876
+        },
+        {
+          "path": "Audio/output/600/chapter_06.wav",
+          "duration": 185.198,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road: Navigating Relapse and Recovery",
+          "actualDuration": 185.198,
+          "startTime": 1061.618876,
+          "endTime": 1246.816876
+        },
+        {
+          "path": "Audio/output/600/chapter_07.wav",
+          "duration": 158.070542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Family, Friends, and the Wider Circle",
+          "actualDuration": 158.070542,
+          "startTime": 1248.316876,
+          "endTime": 1406.387418
+        },
+        {
+          "path": "Audio/output/600/chapter_08.wav",
+          "duration": 153.922667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding Trust: Forgiveness, Repair, and Moving Forward",
+          "actualDuration": 153.922667,
+          "startTime": 1407.887418,
+          "endTime": 1561.810085
+        },
+        {
+          "path": "Audio/output/600/chapter_09.wav",
+          "duration": 129.825542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Redefining Love: Growth, Change, and New Beginnings",
+          "actualDuration": 129.825542,
+          "startTime": 1563.310085,
+          "endTime": 1693.135627
+        },
+        {
+          "path": "Audio/output/600/chapter_10.wav",
+          "duration": 127.292208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sharing the Light: Advocacy, Community, and the Power of Story",
+          "actualDuration": 127.292208,
+          "startTime": 1694.635627,
+          "endTime": 1821.9278350000002
+        },
+        {
+          "path": "Audio/output/600/conclusion.wav",
+          "duration": 103.173292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 103.173292,
+          "startTime": 1823.4278350000002,
+          "endTime": 1926.6011270000001
+        }
+      ],
+      "totalDuration": 1926.6011270000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.36,
+          "actualStart": 0,
+          "actualEnd": 81.361125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Love Meets Uncertainty: The Early Days of Hope and Doubt",
+          "expectedStart": 81.36,
+          "expectedEnd": 296.29,
+          "actualStart": 82.861125,
+          "actualEnd": 297.790375,
+          "timeDifference": 1.5011250000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Invisible Struggles: Living with Mental Illness in a Relationship",
+          "expectedStart": 296.29,
+          "expectedEnd": 484.51,
+          "actualStart": 299.290375,
+          "actualEnd": 487.50987499999997,
+          "timeDifference": 3.0003749999999627
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Caregiver’s Dilemma: Guilt, Frustration, and the Limits of Love",
+          "expectedStart": 484.51,
+          "expectedEnd": 688.33,
+          "actualStart": 489.00987499999997,
+          "actualEnd": 692.8260419999999,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Stigma and Isolation: The Hidden Cost of Mental Illness",
+          "expectedStart": 688.33,
+          "expectedEnd": 869.04,
+          "actualStart": 694.3260419999999,
+          "actualEnd": 875.0313339999999,
+          "timeDifference": 5.996041999999875
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rediscovering Self: Boundaries, Acceptance, and the Path to Healing",
+          "expectedStart": 869.04,
+          "expectedEnd": 1052.63,
+          "actualStart": 876.5313339999999,
+          "actualEnd": 1060.118876,
+          "timeDifference": 7.491333999999938
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road: Navigating Relapse and Recovery",
+          "expectedStart": 1052.63,
+          "expectedEnd": 1237.83,
+          "actualStart": 1061.618876,
+          "actualEnd": 1246.816876,
+          "timeDifference": 8.988875999999891
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Family, Friends, and the Wider Circle",
+          "expectedStart": 1237.83,
+          "expectedEnd": 1395.9,
+          "actualStart": 1248.316876,
+          "actualEnd": 1406.387418,
+          "timeDifference": 10.486876000000166
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding Trust: Forgiveness, Repair, and Moving Forward",
+          "expectedStart": 1395.9,
+          "expectedEnd": 1549.82,
+          "actualStart": 1407.887418,
+          "actualEnd": 1561.810085,
+          "timeDifference": 11.987417999999934
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Redefining Love: Growth, Change, and New Beginnings",
+          "expectedStart": 1549.82,
+          "expectedEnd": 1679.65,
+          "actualStart": 1563.310085,
+          "actualEnd": 1693.135627,
+          "timeDifference": 13.490085000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sharing the Light: Advocacy, Community, and the Power of Story",
+          "expectedStart": 1679.65,
+          "expectedEnd": 1806.94,
+          "actualStart": 1694.635627,
+          "actualEnd": 1821.9278350000002,
+          "timeDifference": 14.985627000000022
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1806.94,
+          "expectedEnd": 1910.11,
+          "actualStart": 1823.4278350000002,
+          "actualEnd": 1926.6011270000001,
+          "timeDifference": 16.487835000000132
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.361125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Love Meets Uncertainty: The Early Days of Hope and Doubt"
+        },
+        {
+          "startTime": 297.790375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Love Meets Uncertainty: The Early Days of Hope and Doubt and Chapter 2 The Weight of Invisible Struggles: Living with Mental Illness in a Relationship"
+        },
+        {
+          "startTime": 487.50987499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Invisible Struggles: Living with Mental Illness in a Relationship and Chapter 3 The Caregiver’s Dilemma: Guilt, Frustration, and the Limits of Love"
+        },
+        {
+          "startTime": 692.8260419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Caregiver’s Dilemma: Guilt, Frustration, and the Limits of Love and Chapter 4 Facing Stigma and Isolation: The Hidden Cost of Mental Illness"
+        },
+        {
+          "startTime": 875.0313339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Stigma and Isolation: The Hidden Cost of Mental Illness and Chapter 5 Rediscovering Self: Boundaries, Acceptance, and the Path to Healing"
+        },
+        {
+          "startTime": 1060.118876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rediscovering Self: Boundaries, Acceptance, and the Path to Healing and Chapter 6 The Long Road: Navigating Relapse and Recovery"
+        },
+        {
+          "startTime": 1246.816876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road: Navigating Relapse and Recovery and Chapter 7 The Ripple Effect: Family, Friends, and the Wider Circle"
+        },
+        {
+          "startTime": 1406.387418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Family, Friends, and the Wider Circle and Chapter 8 Rebuilding Trust: Forgiveness, Repair, and Moving Forward"
+        },
+        {
+          "startTime": 1561.810085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding Trust: Forgiveness, Repair, and Moving Forward and Chapter 9 Redefining Love: Growth, Change, and New Beginnings"
+        },
+        {
+          "startTime": 1693.135627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Redefining Love: Growth, Change, and New Beginnings and Chapter 10 Sharing the Light: Advocacy, Community, and the Power of Story"
+        },
+        {
+          "startTime": 1821.9278350000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sharing the Light: Advocacy, Community, and the Power of Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "600",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:00:21.278Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

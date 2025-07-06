@@ -1,0 +1,455 @@
+{
+  "bookId": "714",
+  "timestamp": "2025-07-05T04:06:40.405Z",
+  "success": false,
+  "processingTime": -1751688060579,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4258,
+    "totalAudioFiles": 12,
+    "totalDuration": 1688.503168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1688.503168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/714/optimized_text/714.md",
+    "fileSize": 820,
+    "wordCount": 128,
+    "format": "markdown",
+    "filename": "714.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/714/metadata/714_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1688.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/714/metadata/714_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/714/metadata/714_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/714/714_complete.wav",
+    "duration": 1688.503167,
+    "fileSize": 81048230,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/714/introduction.wav",
+          "duration": 76.179792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.179792,
+          "startTime": 0,
+          "endTime": 76.179792
+        },
+        {
+          "path": "Audio/output/714/chapter_01.wav",
+          "duration": 164.205375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Changing World: Early Life and the Seeds of Compassion",
+          "actualDuration": 164.205375,
+          "startTime": 77.679792,
+          "endTime": 241.88516700000002
+        },
+        {
+          "path": "Audio/output/714/chapter_02.wav",
+          "duration": 168.31375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Franks and the Office: Building Trust in Uncertain Times",
+          "actualDuration": 168.31375,
+          "startTime": 243.38516700000002,
+          "endTime": 411.69891700000005
+        },
+        {
+          "path": "Audio/output/714/chapter_03.wav",
+          "duration": 185.194167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creating a Secret Refuge: The Hidden Annex and Daily Life in Hiding",
+          "actualDuration": 185.194167,
+          "startTime": 413.19891700000005,
+          "endTime": 598.393084
+        },
+        {
+          "path": "Audio/output/714/chapter_04.wav",
+          "duration": 181.963292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living with Fear: Risks, Sacrifices, and the Cost of Compassion",
+          "actualDuration": 181.963292,
+          "startTime": 599.893084,
+          "endTime": 781.8563760000001
+        },
+        {
+          "path": "Audio/output/714/chapter_05.wav",
+          "duration": 166.84925,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Final Days in Hiding: Betrayal, Loss, and the Weight of Memory",
+          "actualDuration": 166.84925,
+          "startTime": 783.3563760000001,
+          "endTime": 950.205626
+        },
+        {
+          "path": "Audio/output/714/chapter_06.wav",
+          "duration": 145.842375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: Aftermath and the Quiet Return to Ordinary Life",
+          "actualDuration": 145.842375,
+          "startTime": 951.705626,
+          "endTime": 1097.548001
+        },
+        {
+          "path": "Audio/output/714/chapter_07.wav",
+          "duration": 146.454875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Notebooks: Preserving a Voice and the Birth of a Legacy",
+          "actualDuration": 146.454875,
+          "startTime": 1099.048001,
+          "endTime": 1245.502876
+        },
+        {
+          "path": "Audio/output/714/chapter_08.wav",
+          "duration": 122.580208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bearing Witness: Speaking Out and the Burden of Memory",
+          "actualDuration": 122.580208,
+          "startTime": 1247.002876,
+          "endTime": 1369.583084
+        },
+        {
+          "path": "Audio/output/714/chapter_09.wav",
+          "duration": 125.067542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Ripples Through Time: The Diary’s Impact and the Changing World",
+          "actualDuration": 125.067542,
+          "startTime": 1371.083084,
+          "endTime": 1496.150626
+        },
+        {
+          "path": "Audio/output/714/chapter_10.wav",
+          "duration": 116.851667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Quiet Heroism: Lessons for a New Generation",
+          "actualDuration": 116.851667,
+          "startTime": 1497.650626,
+          "endTime": 1614.502293
+        },
+        {
+          "path": "Audio/output/714/conclusion.wav",
+          "duration": 89.000875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 89.000875,
+          "startTime": 1616.002293,
+          "endTime": 1705.003168
+        }
+      ],
+      "totalDuration": 1705.003168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.18,
+          "actualStart": 0,
+          "actualEnd": 76.179792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Changing World: Early Life and the Seeds of Compassion",
+          "expectedStart": 76.18,
+          "expectedEnd": 240.39,
+          "actualStart": 77.679792,
+          "actualEnd": 241.88516700000002,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Franks and the Office: Building Trust in Uncertain Times",
+          "expectedStart": 240.39,
+          "expectedEnd": 408.7,
+          "actualStart": 243.38516700000002,
+          "actualEnd": 411.69891700000005,
+          "timeDifference": 2.9951670000000377
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creating a Secret Refuge: The Hidden Annex and Daily Life in Hiding",
+          "expectedStart": 408.7,
+          "expectedEnd": 593.89,
+          "actualStart": 413.19891700000005,
+          "actualEnd": 598.393084,
+          "timeDifference": 4.498917000000063
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living with Fear: Risks, Sacrifices, and the Cost of Compassion",
+          "expectedStart": 593.89,
+          "expectedEnd": 775.85,
+          "actualStart": 599.893084,
+          "actualEnd": 781.8563760000001,
+          "timeDifference": 6.003084000000058
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Final Days in Hiding: Betrayal, Loss, and the Weight of Memory",
+          "expectedStart": 775.85,
+          "expectedEnd": 942.7,
+          "actualStart": 783.3563760000001,
+          "actualEnd": 950.205626,
+          "timeDifference": 7.506376000000046
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: Aftermath and the Quiet Return to Ordinary Life",
+          "expectedStart": 942.7,
+          "expectedEnd": 1088.54,
+          "actualStart": 951.705626,
+          "actualEnd": 1097.548001,
+          "timeDifference": 9.005626000000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Notebooks: Preserving a Voice and the Birth of a Legacy",
+          "expectedStart": 1088.54,
+          "expectedEnd": 1234.99,
+          "actualStart": 1099.048001,
+          "actualEnd": 1245.502876,
+          "timeDifference": 10.50800100000015
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bearing Witness: Speaking Out and the Burden of Memory",
+          "expectedStart": 1234.99,
+          "expectedEnd": 1357.57,
+          "actualStart": 1247.002876,
+          "actualEnd": 1369.583084,
+          "timeDifference": 12.012876000000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Ripples Through Time: The Diary’s Impact and the Changing World",
+          "expectedStart": 1357.57,
+          "expectedEnd": 1482.64,
+          "actualStart": 1371.083084,
+          "actualEnd": 1496.150626,
+          "timeDifference": 13.513084000000163
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Quiet Heroism: Lessons for a New Generation",
+          "expectedStart": 1482.64,
+          "expectedEnd": 1599.49,
+          "actualStart": 1497.650626,
+          "actualEnd": 1614.502293,
+          "timeDifference": 15.010626000000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1599.49,
+          "expectedEnd": 1688.49,
+          "actualStart": 1616.002293,
+          "actualEnd": 1705.003168,
+          "timeDifference": 16.512293
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.179792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Changing World: Early Life and the Seeds of Compassion"
+        },
+        {
+          "startTime": 241.88516700000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Changing World: Early Life and the Seeds of Compassion and Chapter 2 The Franks and the Office: Building Trust in Uncertain Times"
+        },
+        {
+          "startTime": 411.69891700000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Franks and the Office: Building Trust in Uncertain Times and Chapter 3 Creating a Secret Refuge: The Hidden Annex and Daily Life in Hiding"
+        },
+        {
+          "startTime": 598.393084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creating a Secret Refuge: The Hidden Annex and Daily Life in Hiding and Chapter 4 Living with Fear: Risks, Sacrifices, and the Cost of Compassion"
+        },
+        {
+          "startTime": 781.8563760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living with Fear: Risks, Sacrifices, and the Cost of Compassion and Chapter 5 The Final Days in Hiding: Betrayal, Loss, and the Weight of Memory"
+        },
+        {
+          "startTime": 950.205626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Final Days in Hiding: Betrayal, Loss, and the Weight of Memory and Chapter 6 Picking Up the Pieces: Aftermath and the Quiet Return to Ordinary Life"
+        },
+        {
+          "startTime": 1097.548001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: Aftermath and the Quiet Return to Ordinary Life and Chapter 7 The Notebooks: Preserving a Voice and the Birth of a Legacy"
+        },
+        {
+          "startTime": 1245.502876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Notebooks: Preserving a Voice and the Birth of a Legacy and Chapter 8 Bearing Witness: Speaking Out and the Burden of Memory"
+        },
+        {
+          "startTime": 1369.583084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bearing Witness: Speaking Out and the Burden of Memory and Chapter 9 Ripples Through Time: The Diary’s Impact and the Changing World"
+        },
+        {
+          "startTime": 1496.150626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Ripples Through Time: The Diary’s Impact and the Changing World and Chapter 10 Quiet Heroism: Lessons for a New Generation"
+        },
+        {
+          "startTime": 1614.502293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Quiet Heroism: Lessons for a New Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "714",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T04:01:02.326Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

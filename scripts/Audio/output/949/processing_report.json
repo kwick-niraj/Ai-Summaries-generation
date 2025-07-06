@@ -1,0 +1,456 @@
+{
+  "bookId": "949",
+  "timestamp": "2025-07-05T17:49:59.194Z",
+  "success": false,
+  "processingTime": -1751737511143,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4362,
+    "totalAudioFiles": 12,
+    "totalDuration": 2120.958585
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2120.958585
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/949/optimized_text/949.md",
+    "fileSize": 812,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "949.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/949/metadata/949_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2120.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/949/metadata/949_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/949/metadata/949_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/949/949_complete.wav",
+    "duration": 2120.958583,
+    "fileSize": 101806090,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/949/introduction.wav",
+          "duration": 103.038917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.038917,
+          "startTime": 0,
+          "endTime": 103.038917
+        },
+        {
+          "path": "Audio/output/949/chapter_01.wav",
+          "duration": 206.83975,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Leaving School, Finding the World: The Start of a Self-Made Education",
+          "actualDuration": 206.83975,
+          "startTime": 104.538917,
+          "endTime": 311.378667
+        },
+        {
+          "path": "Audio/output/949/chapter_02.wav",
+          "duration": 232.944,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Work, Wanderlust, and the Lessons of the Road",
+          "actualDuration": 232.944,
+          "startTime": 312.878667,
+          "endTime": 545.822667
+        },
+        {
+          "path": "Audio/output/949/chapter_03.wav",
+          "duration": 226.94975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Books and the Practice of Self-Education",
+          "actualDuration": 226.94975,
+          "startTime": 547.322667,
+          "endTime": 774.272417
+        },
+        {
+          "path": "Audio/output/949/chapter_04.wav",
+          "duration": 211.955917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Meeting People, Hearing Stories, and Learning from Every Encounter",
+          "actualDuration": 211.955917,
+          "startTime": 775.772417,
+          "endTime": 987.728334
+        },
+        {
+          "path": "Audio/output/949/chapter_05.wav",
+          "duration": 186.189542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Hardship, Building Resilience, and Embracing Uncertainty",
+          "actualDuration": 186.189542,
+          "startTime": 989.228334,
+          "endTime": 1175.417876
+        },
+        {
+          "path": "Audio/output/949/chapter_06.wav",
+          "duration": 215.81175,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Writer’s Apprenticeship: Learning the Craft in the Real World",
+          "actualDuration": 215.81175,
+          "startTime": 1176.917876,
+          "endTime": 1392.729626
+        },
+        {
+          "path": "Audio/output/949/chapter_07.wav",
+          "duration": 168.642292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Storytelling: From Campfires to the Printed Page",
+          "actualDuration": 168.642292,
+          "startTime": 1394.229626,
+          "endTime": 1562.871918
+        },
+        {
+          "path": "Audio/output/949/chapter_08.wav",
+          "duration": 159.901042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shaping of a Writer’s Voice: Honesty, Curiosity, and the Search for Truth",
+          "actualDuration": 159.901042,
+          "startTime": 1564.371918,
+          "endTime": 1724.27296
+        },
+        {
+          "path": "Audio/output/949/chapter_09.wav",
+          "duration": 146.462667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Value of a Life Spent Learning",
+          "actualDuration": 146.462667,
+          "startTime": 1725.77296,
+          "endTime": 1872.235627
+        },
+        {
+          "path": "Audio/output/949/chapter_10.wav",
+          "duration": 145.459083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Coming Home: Reflection, Gratitude, and the Ongoing Journey",
+          "actualDuration": 145.459083,
+          "startTime": 1873.735627,
+          "endTime": 2019.19471
+        },
+        {
+          "path": "Audio/output/949/conclusion.wav",
+          "duration": 116.763875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.763875,
+          "startTime": 2020.69471,
+          "endTime": 2137.458585
+        }
+      ],
+      "totalDuration": 2137.458585,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.04,
+          "actualStart": 0,
+          "actualEnd": 103.038917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Leaving School, Finding the World: The Start of a Self-Made Education",
+          "expectedStart": 103.04,
+          "expectedEnd": 309.88,
+          "actualStart": 104.538917,
+          "actualEnd": 311.378667,
+          "timeDifference": 1.4989169999999916
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Work, Wanderlust, and the Lessons of the Road",
+          "expectedStart": 309.88,
+          "expectedEnd": 542.82,
+          "actualStart": 312.878667,
+          "actualEnd": 545.822667,
+          "timeDifference": 2.9986670000000117
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Books and the Practice of Self-Education",
+          "expectedStart": 542.82,
+          "expectedEnd": 769.77,
+          "actualStart": 547.322667,
+          "actualEnd": 774.272417,
+          "timeDifference": 4.502666999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Meeting People, Hearing Stories, and Learning from Every Encounter",
+          "expectedStart": 769.77,
+          "expectedEnd": 981.73,
+          "actualStart": 775.772417,
+          "actualEnd": 987.728334,
+          "timeDifference": 6.002417000000037
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Hardship, Building Resilience, and Embracing Uncertainty",
+          "expectedStart": 981.73,
+          "expectedEnd": 1167.92,
+          "actualStart": 989.228334,
+          "actualEnd": 1175.417876,
+          "timeDifference": 7.498334
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Writer’s Apprenticeship: Learning the Craft in the Real World",
+          "expectedStart": 1167.92,
+          "expectedEnd": 1383.73,
+          "actualStart": 1176.917876,
+          "actualEnd": 1392.729626,
+          "timeDifference": 8.997875999999906
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Storytelling: From Campfires to the Printed Page",
+          "expectedStart": 1383.73,
+          "expectedEnd": 1552.37,
+          "actualStart": 1394.229626,
+          "actualEnd": 1562.871918,
+          "timeDifference": 10.499626000000035
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shaping of a Writer’s Voice: Honesty, Curiosity, and the Search for Truth",
+          "expectedStart": 1552.37,
+          "expectedEnd": 1712.27,
+          "actualStart": 1564.371918,
+          "actualEnd": 1724.27296,
+          "timeDifference": 12.00191800000016
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Value of a Life Spent Learning",
+          "expectedStart": 1712.27,
+          "expectedEnd": 1858.73,
+          "actualStart": 1725.77296,
+          "actualEnd": 1872.235627,
+          "timeDifference": 13.50296000000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Coming Home: Reflection, Gratitude, and the Ongoing Journey",
+          "expectedStart": 1858.73,
+          "expectedEnd": 2004.19,
+          "actualStart": 1873.735627,
+          "actualEnd": 2019.19471,
+          "timeDifference": 15.005627000000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2004.19,
+          "expectedEnd": 2120.95,
+          "actualStart": 2020.69471,
+          "actualEnd": 2137.458585,
+          "timeDifference": 16.504709999999932
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.038917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Leaving School, Finding the World: The Start of a Self-Made Education"
+        },
+        {
+          "startTime": 311.378667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Leaving School, Finding the World: The Start of a Self-Made Education and Chapter 2 Work, Wanderlust, and the Lessons of the Road"
+        },
+        {
+          "startTime": 545.822667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Work, Wanderlust, and the Lessons of the Road and Chapter 3 The Power of Books and the Practice of Self-Education"
+        },
+        {
+          "startTime": 774.272417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Books and the Practice of Self-Education and Chapter 4 Meeting People, Hearing Stories, and Learning from Every Encounter"
+        },
+        {
+          "startTime": 987.728334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Meeting People, Hearing Stories, and Learning from Every Encounter and Chapter 5 Facing Hardship, Building Resilience, and Embracing Uncertainty"
+        },
+        {
+          "startTime": 1175.417876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Hardship, Building Resilience, and Embracing Uncertainty and Chapter 6 The Writer’s Apprenticeship: Learning the Craft in the Real World"
+        },
+        {
+          "startTime": 1392.729626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Writer’s Apprenticeship: Learning the Craft in the Real World and Chapter 7 The Evolution of Storytelling: From Campfires to the Printed Page"
+        },
+        {
+          "startTime": 1562.871918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Storytelling: From Campfires to the Printed Page and Chapter 8 The Shaping of a Writer’s Voice: Honesty, Curiosity, and the Search for Truth"
+        },
+        {
+          "startTime": 1724.27296,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shaping of a Writer’s Voice: Honesty, Curiosity, and the Search for Truth and Chapter 9 The Enduring Value of a Life Spent Learning"
+        },
+        {
+          "startTime": 1872.235627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Value of a Life Spent Learning and Chapter 10 Coming Home: Reflection, Gratitude, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2019.19471,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Coming Home: Reflection, Gratitude, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "949",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T17:45:11.675Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

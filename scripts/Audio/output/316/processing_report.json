@@ -1,0 +1,456 @@
+{
+  "bookId": "316",
+  "timestamp": "2025-07-03T17:19:01.885Z",
+  "success": false,
+  "processingTime": -1751562743282,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4422,
+    "totalAudioFiles": 12,
+    "totalDuration": 2022.9382079999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2022.9382079999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/316/optimized_text/316.md",
+    "fileSize": 787,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "316.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/316/metadata/316_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2022.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/316/metadata/316_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/316/metadata/316_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/316/316_complete.wav",
+    "duration": 2022.938208,
+    "fileSize": 97101112,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/316/introduction.wav",
+          "duration": 92.692375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.692375,
+          "startTime": 0,
+          "endTime": 92.692375
+        },
+        {
+          "path": "Audio/output/316/chapter_01.wav",
+          "duration": 214.858792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Power of Imagination and Mental Imagery",
+          "actualDuration": 214.858792,
+          "startTime": 94.192375,
+          "endTime": 309.05116699999996
+        },
+        {
+          "path": "Audio/output/316/chapter_02.wav",
+          "duration": 218.744083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Beliefs and the Subconscious in Shaping Reality",
+          "actualDuration": 218.744083,
+          "startTime": 310.55116699999996,
+          "endTime": 529.2952499999999
+        },
+        {
+          "path": "Audio/output/316/chapter_03.wav",
+          "duration": 197.167208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Using Affirmations to Support Change and Manifestation",
+          "actualDuration": 197.167208,
+          "startTime": 530.7952499999999,
+          "endTime": 727.9624579999999
+        },
+        {
+          "path": "Audio/output/316/chapter_04.wav",
+          "duration": 165.131375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Relaxation and Meditation as Foundations for Visualization",
+          "actualDuration": 165.131375,
+          "startTime": 729.4624579999999,
+          "endTime": 894.5938329999999
+        },
+        {
+          "path": "Audio/output/316/chapter_05.wav",
+          "duration": 214.845542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Visualization with Action and Spiritual Growth",
+          "actualDuration": 214.845542,
+          "startTime": 896.0938329999999,
+          "endTime": 1110.939375
+        },
+        {
+          "path": "Audio/output/316/chapter_06.wav",
+          "duration": 182.858125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Overcoming Obstacles and Addressing Resistance",
+          "actualDuration": 182.858125,
+          "startTime": 1112.439375,
+          "endTime": 1295.2975
+        },
+        {
+          "path": "Audio/output/316/chapter_07.wav",
+          "duration": 156.807708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Advanced Techniques—Multi-Sensory Visualization and Vision Boards",
+          "actualDuration": 156.807708,
+          "startTime": 1296.7975,
+          "endTime": 1453.605208
+        },
+        {
+          "path": "Audio/output/316/chapter_08.wav",
+          "duration": 165.978542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying Creative Visualization to Relationships and Community",
+          "actualDuration": 165.978542,
+          "startTime": 1455.105208,
+          "endTime": 1621.08375
+        },
+        {
+          "path": "Audio/output/316/chapter_09.wav",
+          "duration": 155.117208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining the Practice—Rituals, Journaling, and Community Support",
+          "actualDuration": 155.117208,
+          "startTime": 1622.58375,
+          "endTime": 1777.700958
+        },
+        {
+          "path": "Audio/output/316/chapter_10.wav",
+          "duration": 141.920208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Principles—Integration and Lifelong Growth",
+          "actualDuration": 141.920208,
+          "startTime": 1779.200958,
+          "endTime": 1921.121166
+        },
+        {
+          "path": "Audio/output/316/conclusion.wav",
+          "duration": 116.817042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.817042,
+          "startTime": 1922.621166,
+          "endTime": 2039.4382079999998
+        }
+      ],
+      "totalDuration": 2039.4382079999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.69,
+          "actualStart": 0,
+          "actualEnd": 92.692375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Power of Imagination and Mental Imagery",
+          "expectedStart": 92.69,
+          "expectedEnd": 307.55,
+          "actualStart": 94.192375,
+          "actualEnd": 309.05116699999996,
+          "timeDifference": 1.5023750000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Beliefs and the Subconscious in Shaping Reality",
+          "expectedStart": 307.55,
+          "expectedEnd": 526.29,
+          "actualStart": 310.55116699999996,
+          "actualEnd": 529.2952499999999,
+          "timeDifference": 3.0011669999999526
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Using Affirmations to Support Change and Manifestation",
+          "expectedStart": 526.29,
+          "expectedEnd": 723.46,
+          "actualStart": 530.7952499999999,
+          "actualEnd": 727.9624579999999,
+          "timeDifference": 4.505249999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Relaxation and Meditation as Foundations for Visualization",
+          "expectedStart": 723.46,
+          "expectedEnd": 888.59,
+          "actualStart": 729.4624579999999,
+          "actualEnd": 894.5938329999999,
+          "timeDifference": 6.0024579999998195
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Visualization with Action and Spiritual Growth",
+          "expectedStart": 888.59,
+          "expectedEnd": 1103.44,
+          "actualStart": 896.0938329999999,
+          "actualEnd": 1110.939375,
+          "timeDifference": 7.503832999999872
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Overcoming Obstacles and Addressing Resistance",
+          "expectedStart": 1103.44,
+          "expectedEnd": 1286.3,
+          "actualStart": 1112.439375,
+          "actualEnd": 1295.2975,
+          "timeDifference": 8.999374999999873
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Advanced Techniques—Multi-Sensory Visualization and Vision Boards",
+          "expectedStart": 1286.3,
+          "expectedEnd": 1443.11,
+          "actualStart": 1296.7975,
+          "actualEnd": 1453.605208,
+          "timeDifference": 10.497499999999945
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying Creative Visualization to Relationships and Community",
+          "expectedStart": 1443.11,
+          "expectedEnd": 1609.09,
+          "actualStart": 1455.105208,
+          "actualEnd": 1621.08375,
+          "timeDifference": 11.995208000000048
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining the Practice—Rituals, Journaling, and Community Support",
+          "expectedStart": 1609.09,
+          "expectedEnd": 1764.21,
+          "actualStart": 1622.58375,
+          "actualEnd": 1777.700958,
+          "timeDifference": 13.493750000000091
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Principles—Integration and Lifelong Growth",
+          "expectedStart": 1764.21,
+          "expectedEnd": 1906.13,
+          "actualStart": 1779.200958,
+          "actualEnd": 1921.121166,
+          "timeDifference": 14.990957999999864
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1906.13,
+          "expectedEnd": 2022.95,
+          "actualStart": 1922.621166,
+          "actualEnd": 2039.4382079999998,
+          "timeDifference": 16.491165999999794
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.692375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Power of Imagination and Mental Imagery"
+        },
+        {
+          "startTime": 309.05116699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Power of Imagination and Mental Imagery and Chapter 2 The Role of Beliefs and the Subconscious in Shaping Reality"
+        },
+        {
+          "startTime": 529.2952499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Beliefs and the Subconscious in Shaping Reality and Chapter 3 Using Affirmations to Support Change and Manifestation"
+        },
+        {
+          "startTime": 727.9624579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Using Affirmations to Support Change and Manifestation and Chapter 4 Relaxation and Meditation as Foundations for Visualization"
+        },
+        {
+          "startTime": 894.5938329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Relaxation and Meditation as Foundations for Visualization and Chapter 5 Integrating Visualization with Action and Spiritual Growth"
+        },
+        {
+          "startTime": 1110.939375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Visualization with Action and Spiritual Growth and Chapter 6 Overcoming Obstacles and Addressing Resistance"
+        },
+        {
+          "startTime": 1295.2975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Overcoming Obstacles and Addressing Resistance and Chapter 7 Advanced Techniques—Multi-Sensory Visualization and Vision Boards"
+        },
+        {
+          "startTime": 1453.605208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Advanced Techniques—Multi-Sensory Visualization and Vision Boards and Chapter 8 Applying Creative Visualization to Relationships and Community"
+        },
+        {
+          "startTime": 1621.08375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying Creative Visualization to Relationships and Community and Chapter 9 Sustaining the Practice—Rituals, Journaling, and Community Support"
+        },
+        {
+          "startTime": 1777.700958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining the Practice—Rituals, Journaling, and Community Support and Chapter 10 Living the Principles—Integration and Lifelong Growth"
+        },
+        {
+          "startTime": 1921.121166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Principles—Integration and Lifelong Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "316",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T17:12:24.494Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

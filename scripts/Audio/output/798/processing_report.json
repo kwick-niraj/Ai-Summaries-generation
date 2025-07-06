@@ -1,0 +1,456 @@
+{
+  "bookId": "798",
+  "timestamp": "2025-07-05T09:23:48.194Z",
+  "success": false,
+  "processingTime": -1751707102421,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5264,
+    "totalAudioFiles": 12,
+    "totalDuration": 2559.5382510000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2559.5382510000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/798/optimized_text/798.md",
+    "fileSize": 724,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "798.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/798/metadata/798_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2559.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/798/metadata/798_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/798/metadata/798_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/798/798_complete.wav",
+    "duration": 2559.53825,
+    "fileSize": 122857914,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/798/introduction.wav",
+          "duration": 116.088167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.088167,
+          "startTime": 0,
+          "endTime": 116.088167
+        },
+        {
+          "path": "Audio/output/798/chapter_01.wav",
+          "duration": 281.70625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Promise and Disappointment of Modern Universities",
+          "actualDuration": 281.70625,
+          "startTime": 117.588167,
+          "endTime": 399.294417
+        },
+        {
+          "path": "Audio/output/798/chapter_02.wav",
+          "duration": 290.274625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Relativism and the Loss of Shared Meaning",
+          "actualDuration": 290.274625,
+          "startTime": 400.794417,
+          "endTime": 691.0690420000001
+        },
+        {
+          "path": "Audio/output/798/chapter_03.wav",
+          "duration": 295.306375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Erosion of the Great Books and the Core Curriculum",
+          "actualDuration": 295.306375,
+          "startTime": 692.5690420000001,
+          "endTime": 987.8754170000001
+        },
+        {
+          "path": "Audio/output/798/chapter_04.wav",
+          "duration": 277.341542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Influence of Popular Culture and the Decline of Reflection",
+          "actualDuration": 277.341542,
+          "startTime": 989.3754170000001,
+          "endTime": 1266.716959
+        },
+        {
+          "path": "Audio/output/798/chapter_05.wav",
+          "duration": 270.648042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Shift from Soul-Cultivation to Careerism and Activism",
+          "actualDuration": 270.648042,
+          "startTime": 1268.216959,
+          "endTime": 1538.8650010000001
+        },
+        {
+          "path": "Audio/output/798/chapter_06.wav",
+          "duration": 209.346583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The University and the Fragility of Democracy",
+          "actualDuration": 209.346583,
+          "startTime": 1540.3650010000001,
+          "endTime": 1749.7115840000001
+        },
+        {
+          "path": "Audio/output/798/chapter_07.wav",
+          "duration": 201.724792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadow of Nihilism",
+          "actualDuration": 201.724792,
+          "startTime": 1751.2115840000001,
+          "endTime": 1952.936376
+        },
+        {
+          "path": "Audio/output/798/chapter_08.wav",
+          "duration": 167.439417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Eros: Love, Longing, and the Life of the Mind",
+          "actualDuration": 167.439417,
+          "startTime": 1954.436376,
+          "endTime": 2121.875793
+        },
+        {
+          "path": "Audio/output/798/chapter_09.wav",
+          "duration": 156.747667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of the Teacher: Mentor, Guide, and Companion",
+          "actualDuration": 156.747667,
+          "startTime": 2123.375793,
+          "endTime": 2280.1234600000003
+        },
+        {
+          "path": "Audio/output/798/chapter_10.wav",
+          "duration": 144.929333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Path Toward Renewal: Reclaiming the Soul of the University",
+          "actualDuration": 144.929333,
+          "startTime": 2281.6234600000003,
+          "endTime": 2426.5527930000003
+        },
+        {
+          "path": "Audio/output/798/conclusion.wav",
+          "duration": 147.985458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 147.985458,
+          "startTime": 2428.0527930000003,
+          "endTime": 2576.0382510000004
+        }
+      ],
+      "totalDuration": 2576.0382510000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.09,
+          "actualStart": 0,
+          "actualEnd": 116.088167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Promise and Disappointment of Modern Universities",
+          "expectedStart": 116.09,
+          "expectedEnd": 397.8,
+          "actualStart": 117.588167,
+          "actualEnd": 399.294417,
+          "timeDifference": 1.4981669999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Relativism and the Loss of Shared Meaning",
+          "expectedStart": 397.8,
+          "expectedEnd": 688.07,
+          "actualStart": 400.794417,
+          "actualEnd": 691.0690420000001,
+          "timeDifference": 2.9944169999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Erosion of the Great Books and the Core Curriculum",
+          "expectedStart": 688.07,
+          "expectedEnd": 983.38,
+          "actualStart": 692.5690420000001,
+          "actualEnd": 987.8754170000001,
+          "timeDifference": 4.499042000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Influence of Popular Culture and the Decline of Reflection",
+          "expectedStart": 983.38,
+          "expectedEnd": 1260.72,
+          "actualStart": 989.3754170000001,
+          "actualEnd": 1266.716959,
+          "timeDifference": 5.995417000000089
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Shift from Soul-Cultivation to Careerism and Activism",
+          "expectedStart": 1260.72,
+          "expectedEnd": 1531.37,
+          "actualStart": 1268.216959,
+          "actualEnd": 1538.8650010000001,
+          "timeDifference": 7.496959000000061
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The University and the Fragility of Democracy",
+          "expectedStart": 1531.37,
+          "expectedEnd": 1740.72,
+          "actualStart": 1540.3650010000001,
+          "actualEnd": 1749.7115840000001,
+          "timeDifference": 8.99500100000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadow of Nihilism",
+          "expectedStart": 1740.72,
+          "expectedEnd": 1942.44,
+          "actualStart": 1751.2115840000001,
+          "actualEnd": 1952.936376,
+          "timeDifference": 10.491584000000103
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Eros: Love, Longing, and the Life of the Mind",
+          "expectedStart": 1942.44,
+          "expectedEnd": 2109.88,
+          "actualStart": 1954.436376,
+          "actualEnd": 2121.875793,
+          "timeDifference": 11.996376000000055
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of the Teacher: Mentor, Guide, and Companion",
+          "expectedStart": 2109.88,
+          "expectedEnd": 2266.63,
+          "actualStart": 2123.375793,
+          "actualEnd": 2280.1234600000003,
+          "timeDifference": 13.495793000000049
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Path Toward Renewal: Reclaiming the Soul of the University",
+          "expectedStart": 2266.63,
+          "expectedEnd": 2411.56,
+          "actualStart": 2281.6234600000003,
+          "actualEnd": 2426.5527930000003,
+          "timeDifference": 14.993460000000141
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2411.56,
+          "expectedEnd": 2559.55,
+          "actualStart": 2428.0527930000003,
+          "actualEnd": 2576.0382510000004,
+          "timeDifference": 16.492793000000347
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.088167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Promise and Disappointment of Modern Universities"
+        },
+        {
+          "startTime": 399.294417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Promise and Disappointment of Modern Universities and Chapter 2 The Rise of Relativism and the Loss of Shared Meaning"
+        },
+        {
+          "startTime": 691.0690420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Relativism and the Loss of Shared Meaning and Chapter 3 The Erosion of the Great Books and the Core Curriculum"
+        },
+        {
+          "startTime": 987.8754170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Erosion of the Great Books and the Core Curriculum and Chapter 4 The Influence of Popular Culture and the Decline of Reflection"
+        },
+        {
+          "startTime": 1266.716959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Influence of Popular Culture and the Decline of Reflection and Chapter 5 The Shift from Soul-Cultivation to Careerism and Activism"
+        },
+        {
+          "startTime": 1538.8650010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Shift from Soul-Cultivation to Careerism and Activism and Chapter 6 The University and the Fragility of Democracy"
+        },
+        {
+          "startTime": 1749.7115840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The University and the Fragility of Democracy and Chapter 7 The Shadow of Nihilism"
+        },
+        {
+          "startTime": 1952.936376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadow of Nihilism and Chapter 8 The Search for Eros: Love, Longing, and the Life of the Mind"
+        },
+        {
+          "startTime": 2121.875793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Eros: Love, Longing, and the Life of the Mind and Chapter 9 The Role of the Teacher: Mentor, Guide, and Companion"
+        },
+        {
+          "startTime": 2280.1234600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of the Teacher: Mentor, Guide, and Companion and Chapter 10 The Path Toward Renewal: Reclaiming the Soul of the University"
+        },
+        {
+          "startTime": 2426.5527930000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Path Toward Renewal: Reclaiming the Soul of the University and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "798",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T09:18:23.473Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

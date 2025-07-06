@@ -1,0 +1,456 @@
+{
+  "bookId": "578",
+  "timestamp": "2025-07-04T20:07:03.656Z",
+  "success": false,
+  "processingTime": -1751659329645,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4628,
+    "totalAudioFiles": 12,
+    "totalDuration": 2132.277709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2132.277709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/578/optimized_text/578.md",
+    "fileSize": 624,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "578.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/578/metadata/578_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2132.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/578/metadata/578_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/578/metadata/578_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/578/578_complete.wav",
+    "duration": 2132.277708,
+    "fileSize": 102349408,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/578/introduction.wav",
+          "duration": 107.038042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.038042,
+          "startTime": 0,
+          "endTime": 107.038042
+        },
+        {
+          "path": "Audio/output/578/chapter_01.wav",
+          "duration": 262,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Shame and Its Hidden Influence",
+          "actualDuration": 262,
+          "startTime": 108.538042,
+          "endTime": 370.538042
+        },
+        {
+          "path": "Audio/output/578/chapter_02.wav",
+          "duration": 237.985875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Empathy and Connection",
+          "actualDuration": 237.985875,
+          "startTime": 372.038042,
+          "endTime": 610.023917
+        },
+        {
+          "path": "Audio/output/578/chapter_03.wav",
+          "duration": 226.64425,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cultural Expectations and the Weight of Perfectionism",
+          "actualDuration": 226.64425,
+          "startTime": 611.523917,
+          "endTime": 838.168167
+        },
+        {
+          "path": "Audio/output/578/chapter_04.wav",
+          "duration": 193.462583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Speaking Up and Reclaiming Power",
+          "actualDuration": 193.462583,
+          "startTime": 839.668167,
+          "endTime": 1033.13075
+        },
+        {
+          "path": "Audio/output/578/chapter_05.wav",
+          "duration": 183.421083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Resilience and Embracing Authenticity",
+          "actualDuration": 183.421083,
+          "startTime": 1034.63075,
+          "endTime": 1218.051833
+        },
+        {
+          "path": "Audio/output/578/chapter_06.wav",
+          "duration": 176.455792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Everyday Strategies for Shame Resilience",
+          "actualDuration": 176.455792,
+          "startTime": 1219.551833,
+          "endTime": 1396.007625
+        },
+        {
+          "path": "Audio/output/578/chapter_07.wav",
+          "duration": 171.582667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Community and Collective Healing",
+          "actualDuration": 171.582667,
+          "startTime": 1397.507625,
+          "endTime": 1569.0902919999999
+        },
+        {
+          "path": "Audio/output/578/chapter_08.wav",
+          "duration": 166.051292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and the Ongoing Nature of Shame",
+          "actualDuration": 166.051292,
+          "startTime": 1570.5902919999999,
+          "endTime": 1736.641584
+        },
+        {
+          "path": "Audio/output/578/chapter_09.wav",
+          "duration": 155.065583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Joy and Redefining Success",
+          "actualDuration": 155.065583,
+          "startTime": 1738.141584,
+          "endTime": 1893.207167
+        },
+        {
+          "path": "Audio/output/578/chapter_10.wav",
+          "duration": 142.286625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Courage, Power, and the Ongoing Journey",
+          "actualDuration": 142.286625,
+          "startTime": 1894.707167,
+          "endTime": 2036.993792
+        },
+        {
+          "path": "Audio/output/578/conclusion.wav",
+          "duration": 110.283917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.283917,
+          "startTime": 2038.493792,
+          "endTime": 2148.777709
+        }
+      ],
+      "totalDuration": 2148.777709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.04,
+          "actualStart": 0,
+          "actualEnd": 107.038042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Shame and Its Hidden Influence",
+          "expectedStart": 107.04,
+          "expectedEnd": 369.04,
+          "actualStart": 108.538042,
+          "actualEnd": 370.538042,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Empathy and Connection",
+          "expectedStart": 369.04,
+          "expectedEnd": 607.03,
+          "actualStart": 372.038042,
+          "actualEnd": 610.023917,
+          "timeDifference": 2.998041999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cultural Expectations and the Weight of Perfectionism",
+          "expectedStart": 607.03,
+          "expectedEnd": 833.67,
+          "actualStart": 611.523917,
+          "actualEnd": 838.168167,
+          "timeDifference": 4.49391700000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Speaking Up and Reclaiming Power",
+          "expectedStart": 833.67,
+          "expectedEnd": 1027.13,
+          "actualStart": 839.668167,
+          "actualEnd": 1033.13075,
+          "timeDifference": 5.99816700000008
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Resilience and Embracing Authenticity",
+          "expectedStart": 1027.13,
+          "expectedEnd": 1210.55,
+          "actualStart": 1034.63075,
+          "actualEnd": 1218.051833,
+          "timeDifference": 7.500749999999925
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Everyday Strategies for Shame Resilience",
+          "expectedStart": 1210.55,
+          "expectedEnd": 1387.01,
+          "actualStart": 1219.551833,
+          "actualEnd": 1396.007625,
+          "timeDifference": 9.001833000000033
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Community and Collective Healing",
+          "expectedStart": 1387.01,
+          "expectedEnd": 1558.59,
+          "actualStart": 1397.507625,
+          "actualEnd": 1569.0902919999999,
+          "timeDifference": 10.497624999999971
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and the Ongoing Nature of Shame",
+          "expectedStart": 1558.59,
+          "expectedEnd": 1724.64,
+          "actualStart": 1570.5902919999999,
+          "actualEnd": 1736.641584,
+          "timeDifference": 12.000291999999945
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Joy and Redefining Success",
+          "expectedStart": 1724.64,
+          "expectedEnd": 1879.71,
+          "actualStart": 1738.141584,
+          "actualEnd": 1893.207167,
+          "timeDifference": 13.501583999999866
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Courage, Power, and the Ongoing Journey",
+          "expectedStart": 1879.71,
+          "expectedEnd": 2022,
+          "actualStart": 1894.707167,
+          "actualEnd": 2036.993792,
+          "timeDifference": 14.99716699999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2022,
+          "expectedEnd": 2132.28,
+          "actualStart": 2038.493792,
+          "actualEnd": 2148.777709,
+          "timeDifference": 16.493791999999985
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.038042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Shame and Its Hidden Influence"
+        },
+        {
+          "startTime": 370.538042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Shame and Its Hidden Influence and Chapter 2 The Power of Empathy and Connection"
+        },
+        {
+          "startTime": 610.023917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Empathy and Connection and Chapter 3 Cultural Expectations and the Weight of Perfectionism"
+        },
+        {
+          "startTime": 838.168167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cultural Expectations and the Weight of Perfectionism and Chapter 4 Speaking Up and Reclaiming Power"
+        },
+        {
+          "startTime": 1033.13075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Speaking Up and Reclaiming Power and Chapter 5 Building Resilience and Embracing Authenticity"
+        },
+        {
+          "startTime": 1218.051833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Resilience and Embracing Authenticity and Chapter 6 Everyday Strategies for Shame Resilience"
+        },
+        {
+          "startTime": 1396.007625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Everyday Strategies for Shame Resilience and Chapter 7 The Role of Community and Collective Healing"
+        },
+        {
+          "startTime": 1569.0902919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Community and Collective Healing and Chapter 8 Navigating Setbacks and the Ongoing Nature of Shame"
+        },
+        {
+          "startTime": 1736.641584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and the Ongoing Nature of Shame and Chapter 9 Reclaiming Joy and Redefining Success"
+        },
+        {
+          "startTime": 1893.207167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Joy and Redefining Success and Chapter 10 Courage, Power, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2036.993792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Courage, Power, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "578",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T20:02:10.160Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

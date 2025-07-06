@@ -1,0 +1,456 @@
+{
+  "bookId": "399",
+  "timestamp": "2025-07-04T00:56:36.150Z",
+  "success": false,
+  "processingTime": -1751590219280,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5005,
+    "totalAudioFiles": 12,
+    "totalDuration": 2289.2829580000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2289.2829580000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/399/optimized_text/399.md",
+    "fileSize": 753,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "399.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/399/metadata/399_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2289.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/399/metadata/399_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/399/metadata/399_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/399/399_complete.wav",
+    "duration": 2289.282958,
+    "fileSize": 109885660,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/399/introduction.wav",
+          "duration": 99.689792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.689792,
+          "startTime": 0,
+          "endTime": 99.689792
+        },
+        {
+          "path": "Audio/output/399/chapter_01.wav",
+          "duration": 244.20775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a Divided World—Family, Fear, and First Questions",
+          "actualDuration": 244.20775,
+          "startTime": 101.189792,
+          "endTime": 345.397542
+        },
+        {
+          "path": "Audio/output/399/chapter_02.wav",
+          "duration": 226.41475,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Hunger and the Struggle to Survive",
+          "actualDuration": 226.41475,
+          "startTime": 346.897542,
+          "endTime": 573.312292
+        },
+        {
+          "path": "Audio/output/399/chapter_03.wav",
+          "duration": 218.984333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning to Read, Finding a Voice, and the Power of Words",
+          "actualDuration": 218.984333,
+          "startTime": 574.812292,
+          "endTime": 793.796625
+        },
+        {
+          "path": "Audio/output/399/chapter_04.wav",
+          "duration": 229.176333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Racism, Violence, and the Limits of Belonging",
+          "actualDuration": 229.176333,
+          "startTime": 795.296625,
+          "endTime": 1024.4729579999998
+        },
+        {
+          "path": "Audio/output/399/chapter_05.wav",
+          "duration": 234.907333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Away—The First Steps Toward Independence",
+          "actualDuration": 234.907333,
+          "startTime": 1025.9729579999998,
+          "endTime": 1260.880291
+        },
+        {
+          "path": "Audio/output/399/chapter_06.wav",
+          "duration": 218.168417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The City’s Promise and Peril—Work, Loneliness, and the Search for Community",
+          "actualDuration": 218.168417,
+          "startTime": 1262.380291,
+          "endTime": 1480.548708
+        },
+        {
+          "path": "Audio/output/399/chapter_07.wav",
+          "duration": 199.052042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Loss, and the Cost of Ambition",
+          "actualDuration": 199.052042,
+          "startTime": 1482.048708,
+          "endTime": 1681.10075
+        },
+        {
+          "path": "Audio/output/399/chapter_08.wav",
+          "duration": 185.983333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Writer Emerges—Truth, Risk, and the Price of Honesty",
+          "actualDuration": 185.983333,
+          "startTime": 1682.60075,
+          "endTime": 1868.584083
+        },
+        {
+          "path": "Audio/output/399/chapter_09.wav",
+          "duration": 187.543708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Returning Home—Reckoning with the Past",
+          "actualDuration": 187.543708,
+          "startTime": 1870.084083,
+          "endTime": 2057.627791
+        },
+        {
+          "path": "Audio/output/399/chapter_10.wav",
+          "duration": 124.203417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Claiming a Future—Agency, Imagination, and the Ongoing Struggle",
+          "actualDuration": 124.203417,
+          "startTime": 2059.127791,
+          "endTime": 2183.331208
+        },
+        {
+          "path": "Audio/output/399/conclusion.wav",
+          "duration": 120.95175,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.95175,
+          "startTime": 2184.831208,
+          "endTime": 2305.7829580000002
+        }
+      ],
+      "totalDuration": 2305.7829580000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.69,
+          "actualStart": 0,
+          "actualEnd": 99.689792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a Divided World—Family, Fear, and First Questions",
+          "expectedStart": 99.69,
+          "expectedEnd": 343.9,
+          "actualStart": 101.189792,
+          "actualEnd": 345.397542,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Hunger and the Struggle to Survive",
+          "expectedStart": 343.9,
+          "expectedEnd": 570.31,
+          "actualStart": 346.897542,
+          "actualEnd": 573.312292,
+          "timeDifference": 2.99754200000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning to Read, Finding a Voice, and the Power of Words",
+          "expectedStart": 570.31,
+          "expectedEnd": 789.29,
+          "actualStart": 574.812292,
+          "actualEnd": 793.796625,
+          "timeDifference": 4.502292000000011
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Racism, Violence, and the Limits of Belonging",
+          "expectedStart": 789.29,
+          "expectedEnd": 1018.47,
+          "actualStart": 795.296625,
+          "actualEnd": 1024.4729579999998,
+          "timeDifference": 6.0066249999999854
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Away—The First Steps Toward Independence",
+          "expectedStart": 1018.47,
+          "expectedEnd": 1253.38,
+          "actualStart": 1025.9729579999998,
+          "actualEnd": 1260.880291,
+          "timeDifference": 7.502957999999808
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The City’s Promise and Peril—Work, Loneliness, and the Search for Community",
+          "expectedStart": 1253.38,
+          "expectedEnd": 1471.55,
+          "actualStart": 1262.380291,
+          "actualEnd": 1480.548708,
+          "timeDifference": 9.000290999999834
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Loss, and the Cost of Ambition",
+          "expectedStart": 1471.55,
+          "expectedEnd": 1670.6,
+          "actualStart": 1482.048708,
+          "actualEnd": 1681.10075,
+          "timeDifference": 10.498708000000079
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Writer Emerges—Truth, Risk, and the Price of Honesty",
+          "expectedStart": 1670.6,
+          "expectedEnd": 1856.58,
+          "actualStart": 1682.60075,
+          "actualEnd": 1868.584083,
+          "timeDifference": 12.000750000000153
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Returning Home—Reckoning with the Past",
+          "expectedStart": 1856.58,
+          "expectedEnd": 2044.12,
+          "actualStart": 1870.084083,
+          "actualEnd": 2057.627791,
+          "timeDifference": 13.504083000000037
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Claiming a Future—Agency, Imagination, and the Ongoing Struggle",
+          "expectedStart": 2044.12,
+          "expectedEnd": 2168.32,
+          "actualStart": 2059.127791,
+          "actualEnd": 2183.331208,
+          "timeDifference": 15.007790999999997
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2168.32,
+          "expectedEnd": 2289.27,
+          "actualStart": 2184.831208,
+          "actualEnd": 2305.7829580000002,
+          "timeDifference": 16.511207999999897
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.689792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a Divided World—Family, Fear, and First Questions"
+        },
+        {
+          "startTime": 345.397542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a Divided World—Family, Fear, and First Questions and Chapter 2 The Weight of Hunger and the Struggle to Survive"
+        },
+        {
+          "startTime": 573.312292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Hunger and the Struggle to Survive and Chapter 3 Learning to Read, Finding a Voice, and the Power of Words"
+        },
+        {
+          "startTime": 793.796625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning to Read, Finding a Voice, and the Power of Words and Chapter 4 Facing Racism, Violence, and the Limits of Belonging"
+        },
+        {
+          "startTime": 1024.4729579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Racism, Violence, and the Limits of Belonging and Chapter 5 Breaking Away—The First Steps Toward Independence"
+        },
+        {
+          "startTime": 1260.880291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Away—The First Steps Toward Independence and Chapter 6 The City’s Promise and Peril—Work, Loneliness, and the Search for Community"
+        },
+        {
+          "startTime": 1480.548708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The City’s Promise and Peril—Work, Loneliness, and the Search for Community and Chapter 7 Love, Loss, and the Cost of Ambition"
+        },
+        {
+          "startTime": 1681.10075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Loss, and the Cost of Ambition and Chapter 8 The Writer Emerges—Truth, Risk, and the Price of Honesty"
+        },
+        {
+          "startTime": 1868.584083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Writer Emerges—Truth, Risk, and the Price of Honesty and Chapter 9 Returning Home—Reckoning with the Past"
+        },
+        {
+          "startTime": 2057.627791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Returning Home—Reckoning with the Past and Chapter 10 Claiming a Future—Agency, Imagination, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 2183.331208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Claiming a Future—Agency, Imagination, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "399",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T00:50:20.921Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

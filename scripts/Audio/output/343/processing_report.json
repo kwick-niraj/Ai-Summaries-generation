@@ -1,0 +1,456 @@
+{
+  "bookId": "343",
+  "timestamp": "2025-07-03T18:50:03.231Z",
+  "success": false,
+  "processingTime": -1751568151262,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4120,
+    "totalAudioFiles": 12,
+    "totalDuration": 2218.179209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2218.179209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/343/optimized_text/343.md",
+    "fileSize": 667,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "343.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/343/metadata/343_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2218.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/343/metadata/343_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/343/metadata/343_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/343/343_complete.wav",
+    "duration": 2218.179208,
+    "fileSize": 106472680,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/343/introduction.wav",
+          "duration": 109.833208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.833208,
+          "startTime": 0,
+          "endTime": 109.833208
+        },
+        {
+          "path": "Audio/output/343/chapter_01.wav",
+          "duration": 199.867583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Praise and Motivation in Children",
+          "actualDuration": 199.867583,
+          "startTime": 111.333208,
+          "endTime": 311.200791
+        },
+        {
+          "path": "Audio/output/343/chapter_02.wav",
+          "duration": 205.424292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Cost of Lost Sleep",
+          "actualDuration": 205.424292,
+          "startTime": 312.700791,
+          "endTime": 518.125083
+        },
+        {
+          "path": "Audio/output/343/chapter_03.wav",
+          "duration": 216.695375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Truth About Lying and Honesty in Childhood",
+          "actualDuration": 216.695375,
+          "startTime": 519.625083,
+          "endTime": 736.320458
+        },
+        {
+          "path": "Audio/output/343/chapter_04.wav",
+          "duration": 216.122667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Talking About Race and Difference With Children",
+          "actualDuration": 216.122667,
+          "startTime": 737.820458,
+          "endTime": 953.943125
+        },
+        {
+          "path": "Audio/output/343/chapter_05.wav",
+          "duration": 204.396958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Understanding Sibling Rivalry and Family Dynamics",
+          "actualDuration": 204.396958,
+          "startTime": 955.443125,
+          "endTime": 1159.840083
+        },
+        {
+          "path": "Audio/output/343/chapter_06.wav",
+          "duration": 193.843667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Surprising Power of Self-Control",
+          "actualDuration": 193.843667,
+          "startTime": 1161.340083,
+          "endTime": 1355.1837500000001
+        },
+        {
+          "path": "Audio/output/343/chapter_07.wav",
+          "duration": 200.446542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Myth of the Gifted Child",
+          "actualDuration": 200.446542,
+          "startTime": 1356.6837500000001,
+          "endTime": 1557.130292
+        },
+        {
+          "path": "Audio/output/343/chapter_08.wav",
+          "duration": 178.94775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Limits of Instinct—Why Parental Intuition Can Mislead",
+          "actualDuration": 178.94775,
+          "startTime": 1558.630292,
+          "endTime": 1737.578042
+        },
+        {
+          "path": "Audio/output/343/chapter_09.wav",
+          "duration": 194.233875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Social Lives of Children—Friendship, Rejection, and Belonging",
+          "actualDuration": 194.233875,
+          "startTime": 1739.078042,
+          "endTime": 1933.311917
+        },
+        {
+          "path": "Audio/output/343/chapter_10.wav",
+          "duration": 155.005917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Science of Language—How Children Learn to Communicate",
+          "actualDuration": 155.005917,
+          "startTime": 1934.811917,
+          "endTime": 2089.817834
+        },
+        {
+          "path": "Audio/output/343/conclusion.wav",
+          "duration": 143.361375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.361375,
+          "startTime": 2091.317834,
+          "endTime": 2234.679209
+        }
+      ],
+      "totalDuration": 2234.679209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.83,
+          "actualStart": 0,
+          "actualEnd": 109.833208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Praise and Motivation in Children",
+          "expectedStart": 109.83,
+          "expectedEnd": 309.7,
+          "actualStart": 111.333208,
+          "actualEnd": 311.200791,
+          "timeDifference": 1.5032080000000008
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Cost of Lost Sleep",
+          "expectedStart": 309.7,
+          "expectedEnd": 515.12,
+          "actualStart": 312.700791,
+          "actualEnd": 518.125083,
+          "timeDifference": 3.0007909999999924
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Truth About Lying and Honesty in Childhood",
+          "expectedStart": 515.12,
+          "expectedEnd": 731.82,
+          "actualStart": 519.625083,
+          "actualEnd": 736.320458,
+          "timeDifference": 4.505083000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Talking About Race and Difference With Children",
+          "expectedStart": 731.82,
+          "expectedEnd": 947.94,
+          "actualStart": 737.820458,
+          "actualEnd": 953.943125,
+          "timeDifference": 6.0004579999999805
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Understanding Sibling Rivalry and Family Dynamics",
+          "expectedStart": 947.94,
+          "expectedEnd": 1152.34,
+          "actualStart": 955.443125,
+          "actualEnd": 1159.840083,
+          "timeDifference": 7.5031249999999545
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Surprising Power of Self-Control",
+          "expectedStart": 1152.34,
+          "expectedEnd": 1346.18,
+          "actualStart": 1161.340083,
+          "actualEnd": 1355.1837500000001,
+          "timeDifference": 9.000083000000132
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Myth of the Gifted Child",
+          "expectedStart": 1346.18,
+          "expectedEnd": 1546.63,
+          "actualStart": 1356.6837500000001,
+          "actualEnd": 1557.130292,
+          "timeDifference": 10.503750000000082
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Limits of Instinct—Why Parental Intuition Can Mislead",
+          "expectedStart": 1546.63,
+          "expectedEnd": 1725.58,
+          "actualStart": 1558.630292,
+          "actualEnd": 1737.578042,
+          "timeDifference": 12.000291999999945
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Social Lives of Children—Friendship, Rejection, and Belonging",
+          "expectedStart": 1725.58,
+          "expectedEnd": 1919.81,
+          "actualStart": 1739.078042,
+          "actualEnd": 1933.311917,
+          "timeDifference": 13.498042000000169
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Science of Language—How Children Learn to Communicate",
+          "expectedStart": 1919.81,
+          "expectedEnd": 2074.82,
+          "actualStart": 1934.811917,
+          "actualEnd": 2089.817834,
+          "timeDifference": 15.001917000000049
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2074.82,
+          "expectedEnd": 2218.18,
+          "actualStart": 2091.317834,
+          "actualEnd": 2234.679209,
+          "timeDifference": 16.497833999999784
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.833208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Praise and Motivation in Children"
+        },
+        {
+          "startTime": 311.200791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Praise and Motivation in Children and Chapter 2 The Hidden Cost of Lost Sleep"
+        },
+        {
+          "startTime": 518.125083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Cost of Lost Sleep and Chapter 3 The Truth About Lying and Honesty in Childhood"
+        },
+        {
+          "startTime": 736.320458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Truth About Lying and Honesty in Childhood and Chapter 4 Talking About Race and Difference With Children"
+        },
+        {
+          "startTime": 953.943125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Talking About Race and Difference With Children and Chapter 5 Understanding Sibling Rivalry and Family Dynamics"
+        },
+        {
+          "startTime": 1159.840083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Understanding Sibling Rivalry and Family Dynamics and Chapter 6 The Surprising Power of Self-Control"
+        },
+        {
+          "startTime": 1355.1837500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Surprising Power of Self-Control and Chapter 7 The Myth of the Gifted Child"
+        },
+        {
+          "startTime": 1557.130292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Myth of the Gifted Child and Chapter 8 The Limits of Instinct—Why Parental Intuition Can Mislead"
+        },
+        {
+          "startTime": 1737.578042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Limits of Instinct—Why Parental Intuition Can Mislead and Chapter 9 The Social Lives of Children—Friendship, Rejection, and Belonging"
+        },
+        {
+          "startTime": 1933.311917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Social Lives of Children—Friendship, Rejection, and Belonging and Chapter 10 The Science of Language—How Children Learn to Communicate"
+        },
+        {
+          "startTime": 2089.817834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Science of Language—How Children Learn to Communicate and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "343",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:42:32.461Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

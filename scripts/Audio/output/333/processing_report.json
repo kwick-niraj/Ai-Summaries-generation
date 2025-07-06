@@ -1,0 +1,456 @@
+{
+  "bookId": "333",
+  "timestamp": "2025-07-03T18:06:21.320Z",
+  "success": false,
+  "processingTime": -1751565636640,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3602,
+    "totalAudioFiles": 12,
+    "totalDuration": 2126.937
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2126.937
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/333/optimized_text/333.md",
+    "fileSize": 641,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "333.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/333/metadata/333_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2126.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/333/metadata/333_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/333/metadata/333_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/333/333_complete.wav",
+    "duration": 2126.937,
+    "fileSize": 102093054,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/333/introduction.wav",
+          "duration": 94.668042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.668042,
+          "startTime": 0,
+          "endTime": 94.668042
+        },
+        {
+          "path": "Audio/output/333/chapter_01.wav",
+          "duration": 185.807958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Team Dysfunction",
+          "actualDuration": 185.807958,
+          "startTime": 96.168042,
+          "endTime": 281.976
+        },
+        {
+          "path": "Audio/output/333/chapter_02.wav",
+          "duration": 221.358917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust Through Vulnerability",
+          "actualDuration": 221.358917,
+          "startTime": 283.476,
+          "endTime": 504.834917
+        },
+        {
+          "path": "Audio/output/333/chapter_03.wav",
+          "duration": 208.34625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Healthy Conflict for Better Decisions",
+          "actualDuration": 208.34625,
+          "startTime": 506.334917,
+          "endTime": 714.681167
+        },
+        {
+          "path": "Audio/output/333/chapter_04.wav",
+          "duration": 232.653208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Achieving Commitment Through Clarity and Buy-In",
+          "actualDuration": 232.653208,
+          "startTime": 716.181167,
+          "endTime": 948.8343749999999
+        },
+        {
+          "path": "Audio/output/333/chapter_05.wav",
+          "duration": 206.768042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating a Culture of Accountability",
+          "actualDuration": 206.768042,
+          "startTime": 950.3343749999999,
+          "endTime": 1157.1024169999998
+        },
+        {
+          "path": "Audio/output/333/chapter_06.wav",
+          "duration": 208.412667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Focusing on Collective Results",
+          "actualDuration": 208.412667,
+          "startTime": 1158.6024169999998,
+          "endTime": 1367.015084
+        },
+        {
+          "path": "Audio/output/333/chapter_07.wav",
+          "duration": 157.892625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating the Five Principles in Daily Practice",
+          "actualDuration": 157.892625,
+          "startTime": 1368.515084,
+          "endTime": 1526.4077089999998
+        },
+        {
+          "path": "Audio/output/333/chapter_08.wav",
+          "duration": 168.672458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Setbacks and Sustaining Progress",
+          "actualDuration": 168.672458,
+          "startTime": 1527.9077089999998,
+          "endTime": 1696.5801669999998
+        },
+        {
+          "path": "Audio/output/333/chapter_09.wav",
+          "duration": 168.414375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Leader’s Role in Cultivating Team Health",
+          "actualDuration": 168.414375,
+          "startTime": 1698.0801669999998,
+          "endTime": 1866.494542
+        },
+        {
+          "path": "Audio/output/333/chapter_10.wav",
+          "duration": 158.208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bringing It All Together—A Roadmap for Lasting Team Success",
+          "actualDuration": 158.208,
+          "startTime": 1867.994542,
+          "endTime": 2026.202542
+        },
+        {
+          "path": "Audio/output/333/conclusion.wav",
+          "duration": 115.734458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.734458,
+          "startTime": 2027.702542,
+          "endTime": 2143.437
+        }
+      ],
+      "totalDuration": 2143.437,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.67,
+          "actualStart": 0,
+          "actualEnd": 94.668042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Team Dysfunction",
+          "expectedStart": 94.67,
+          "expectedEnd": 280.48,
+          "actualStart": 96.168042,
+          "actualEnd": 281.976,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust Through Vulnerability",
+          "expectedStart": 280.48,
+          "expectedEnd": 501.84,
+          "actualStart": 283.476,
+          "actualEnd": 504.834917,
+          "timeDifference": 2.995999999999981
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Healthy Conflict for Better Decisions",
+          "expectedStart": 501.84,
+          "expectedEnd": 710.19,
+          "actualStart": 506.334917,
+          "actualEnd": 714.681167,
+          "timeDifference": 4.494917000000044
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Achieving Commitment Through Clarity and Buy-In",
+          "expectedStart": 710.19,
+          "expectedEnd": 942.84,
+          "actualStart": 716.181167,
+          "actualEnd": 948.8343749999999,
+          "timeDifference": 5.991166999999905
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating a Culture of Accountability",
+          "expectedStart": 942.84,
+          "expectedEnd": 1149.61,
+          "actualStart": 950.3343749999999,
+          "actualEnd": 1157.1024169999998,
+          "timeDifference": 7.494374999999877
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Focusing on Collective Results",
+          "expectedStart": 1149.61,
+          "expectedEnd": 1358.02,
+          "actualStart": 1158.6024169999998,
+          "actualEnd": 1367.015084,
+          "timeDifference": 8.992416999999932
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating the Five Principles in Daily Practice",
+          "expectedStart": 1358.02,
+          "expectedEnd": 1515.91,
+          "actualStart": 1368.515084,
+          "actualEnd": 1526.4077089999998,
+          "timeDifference": 10.495083999999906
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Setbacks and Sustaining Progress",
+          "expectedStart": 1515.91,
+          "expectedEnd": 1684.58,
+          "actualStart": 1527.9077089999998,
+          "actualEnd": 1696.5801669999998,
+          "timeDifference": 11.997708999999759
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Leader’s Role in Cultivating Team Health",
+          "expectedStart": 1684.58,
+          "expectedEnd": 1852.99,
+          "actualStart": 1698.0801669999998,
+          "actualEnd": 1866.494542,
+          "timeDifference": 13.50016699999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bringing It All Together—A Roadmap for Lasting Team Success",
+          "expectedStart": 1852.99,
+          "expectedEnd": 2011.2,
+          "actualStart": 1867.994542,
+          "actualEnd": 2026.202542,
+          "timeDifference": 15.004541999999901
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2011.2,
+          "expectedEnd": 2126.93,
+          "actualStart": 2027.702542,
+          "actualEnd": 2143.437,
+          "timeDifference": 16.50254199999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.668042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Team Dysfunction"
+        },
+        {
+          "startTime": 281.976,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Team Dysfunction and Chapter 2 Building Trust Through Vulnerability"
+        },
+        {
+          "startTime": 504.834917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust Through Vulnerability and Chapter 3 Embracing Healthy Conflict for Better Decisions"
+        },
+        {
+          "startTime": 714.681167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Healthy Conflict for Better Decisions and Chapter 4 Achieving Commitment Through Clarity and Buy-In"
+        },
+        {
+          "startTime": 948.8343749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Achieving Commitment Through Clarity and Buy-In and Chapter 5 Creating a Culture of Accountability"
+        },
+        {
+          "startTime": 1157.1024169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating a Culture of Accountability and Chapter 6 Focusing on Collective Results"
+        },
+        {
+          "startTime": 1367.015084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Focusing on Collective Results and Chapter 7 Integrating the Five Principles in Daily Practice"
+        },
+        {
+          "startTime": 1526.4077089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating the Five Principles in Daily Practice and Chapter 8 Overcoming Setbacks and Sustaining Progress"
+        },
+        {
+          "startTime": 1696.5801669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Setbacks and Sustaining Progress and Chapter 9 The Leader’s Role in Cultivating Team Health"
+        },
+        {
+          "startTime": 1866.494542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Leader’s Role in Cultivating Team Health and Chapter 10 Bringing It All Together—A Roadmap for Lasting Team Success"
+        },
+        {
+          "startTime": 2026.202542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bringing It All Together—A Roadmap for Lasting Team Success and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "333",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:00:37.854Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "bookId": "638",
+  "timestamp": "2025-07-04T23:53:05.723Z",
+  "success": false,
+  "processingTime": -1751672659255,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5717,
+    "totalAudioFiles": 17,
+    "totalDuration": 2580.313751
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 16,
+    "failed": 1,
+    "duration": 2580.313751
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/638/optimized_text/638.md",
+    "fileSize": 1137,
+    "wordCount": 160,
+    "format": "markdown",
+    "filename": "638.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/638/metadata/638_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2580.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/638/metadata/638_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/638/metadata/638_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/638/638_complete.wav",
+    "duration": 2580.31375,
+    "fileSize": 123855138,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/638/introduction.wav",
+          "duration": 98.877083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.877083,
+          "startTime": 0,
+          "endTime": 98.877083
+        },
+        {
+          "path": "Audio/output/638/chapter_01.wav",
+          "duration": 232.832333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Caught Between Two Forces",
+          "actualDuration": 232.832333,
+          "startTime": 100.377083,
+          "endTime": 333.20941600000003
+        },
+        {
+          "path": "Audio/output/638/chapter_02.wav",
+          "duration": 201.559667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Spread of McWorld: Markets, Media, and the Loss of Difference",
+          "actualDuration": 201.559667,
+          "startTime": 334.70941600000003,
+          "endTime": 536.269083
+        },
+        {
+          "path": "Audio/output/638/chapter_04.wav",
+          "duration": 214.645167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Democracy Under Threat: How Both Forces Undermine Participation",
+          "actualDuration": 214.645167,
+          "startTime": 537.769083,
+          "endTime": 752.41425
+        },
+        {
+          "path": "Audio/output/638/chapter_05.wav",
+          "duration": 215.094125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Nation-State in Crisis: Sovereignty, Security, and the Search for Control",
+          "actualDuration": 215.094125,
+          "startTime": 753.91425,
+          "endTime": 969.008375
+        },
+        {
+          "path": "Audio/output/638/chapter_06.wav",
+          "duration": 188.930792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Illusion of Progress: When Growth Leaves People Behind",
+          "actualDuration": 188.930792,
+          "startTime": 970.508375,
+          "endTime": 1159.439167
+        },
+        {
+          "path": "Audio/output/638/chapter_07.wav",
+          "duration": 176.286417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The New Tribalism: Fragmentation in a Connected Age",
+          "actualDuration": 176.286417,
+          "startTime": 1160.939167,
+          "endTime": 1337.225584
+        },
+        {
+          "path": "Audio/output/638/chapter_08.wav",
+          "duration": 149.866083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Market’s Limits: When Commerce Can’t Solve Everything",
+          "actualDuration": 149.866083,
+          "startTime": 1338.725584,
+          "endTime": 1488.5916670000001
+        },
+        {
+          "path": "Audio/output/638/chapter_09.wav",
+          "duration": 161.426958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Search for Meaning: Faith, Ritual, and the Human Spirit",
+          "actualDuration": 161.426958,
+          "startTime": 1490.0916670000001,
+          "endTime": 1651.5186250000002
+        },
+        {
+          "path": "Audio/output/638/chapter_10.wav",
+          "duration": 163.770792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Democratic Alternative: Reclaiming the Public Space",
+          "actualDuration": 163.770792,
+          "startTime": 1653.0186250000002,
+          "endTime": 1816.7894170000002
+        },
+        {
+          "path": "Audio/output/638/chapter_11.wav",
+          "duration": 142.009375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Building Bridges: Dialogue, Tolerance, and the Art of Compromise",
+          "actualDuration": 142.009375,
+          "startTime": 1818.2894170000002,
+          "endTime": 1960.2987920000003
+        },
+        {
+          "path": "Audio/output/638/chapter_12.wav",
+          "duration": 127.259042,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Rethinking Identity: Beyond Us and Them",
+          "actualDuration": 127.259042,
+          "startTime": 1961.7987920000003,
+          "endTime": 2089.057834
+        },
+        {
+          "path": "Audio/output/638/chapter_13.wav",
+          "duration": 136.351,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Role of Education: Teaching for Democracy",
+          "actualDuration": 136.351,
+          "startTime": 2090.557834,
+          "endTime": 2226.9088340000003
+        },
+        {
+          "path": "Audio/output/638/chapter_14.wav",
+          "duration": 124.897125,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Power of Local Action: Small Steps, Big Change",
+          "actualDuration": 124.897125,
+          "startTime": 2228.4088340000003,
+          "endTime": 2353.3059590000003
+        },
+        {
+          "path": "Audio/output/638/chapter_15.wav",
+          "duration": 111.461792,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Looking Forward: Hope, Uncertainty, and the Work Ahead",
+          "actualDuration": 111.461792,
+          "startTime": 2354.8059590000003,
+          "endTime": 2466.2677510000003
+        },
+        {
+          "path": "Audio/output/638/conclusion.wav",
+          "duration": 135.046,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.046,
+          "startTime": 2467.7677510000003,
+          "endTime": 2602.813751
+        }
+      ],
+      "totalDuration": 2602.813751,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.88,
+          "actualStart": 0,
+          "actualEnd": 98.877083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Caught Between Two Forces",
+          "expectedStart": 98.88,
+          "expectedEnd": 331.71,
+          "actualStart": 100.377083,
+          "actualEnd": 333.20941600000003,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Spread of McWorld: Markets, Media, and the Loss of Difference",
+          "expectedStart": 331.71,
+          "expectedEnd": 533.27,
+          "actualStart": 334.70941600000003,
+          "actualEnd": 536.269083,
+          "timeDifference": 2.9994160000000534
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Democracy Under Threat: How Both Forces Undermine Participation",
+          "expectedStart": 533.27,
+          "expectedEnd": 747.92,
+          "actualStart": 537.769083,
+          "actualEnd": 752.41425,
+          "timeDifference": 4.4990830000000415
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Nation-State in Crisis: Sovereignty, Security, and the Search for Control",
+          "expectedStart": 747.92,
+          "expectedEnd": 963.01,
+          "actualStart": 753.91425,
+          "actualEnd": 969.008375,
+          "timeDifference": 5.994250000000079
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Illusion of Progress: When Growth Leaves People Behind",
+          "expectedStart": 963.01,
+          "expectedEnd": 1151.94,
+          "actualStart": 970.508375,
+          "actualEnd": 1159.439167,
+          "timeDifference": 7.49837500000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The New Tribalism: Fragmentation in a Connected Age",
+          "expectedStart": 1151.94,
+          "expectedEnd": 1328.23,
+          "actualStart": 1160.939167,
+          "actualEnd": 1337.225584,
+          "timeDifference": 8.999166999999943
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Market’s Limits: When Commerce Can’t Solve Everything",
+          "expectedStart": 1328.23,
+          "expectedEnd": 1478.1,
+          "actualStart": 1338.725584,
+          "actualEnd": 1488.5916670000001,
+          "timeDifference": 10.495584000000008
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Search for Meaning: Faith, Ritual, and the Human Spirit",
+          "expectedStart": 1478.1,
+          "expectedEnd": 1639.53,
+          "actualStart": 1490.0916670000001,
+          "actualEnd": 1651.5186250000002,
+          "timeDifference": 11.991667000000234
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Democratic Alternative: Reclaiming the Public Space",
+          "expectedStart": 1639.53,
+          "expectedEnd": 1803.3,
+          "actualStart": 1653.0186250000002,
+          "actualEnd": 1816.7894170000002,
+          "timeDifference": 13.488625000000184
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Building Bridges: Dialogue, Tolerance, and the Art of Compromise",
+          "expectedStart": 1803.3,
+          "expectedEnd": 1945.31,
+          "actualStart": 1818.2894170000002,
+          "actualEnd": 1960.2987920000003,
+          "timeDifference": 14.98941700000023
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Rethinking Identity: Beyond Us and Them",
+          "expectedStart": 1945.31,
+          "expectedEnd": 2072.57,
+          "actualStart": 1961.7987920000003,
+          "actualEnd": 2089.057834,
+          "timeDifference": 16.48879200000033
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Role of Education: Teaching for Democracy",
+          "expectedStart": 2072.57,
+          "expectedEnd": 2208.92,
+          "actualStart": 2090.557834,
+          "actualEnd": 2226.9088340000003,
+          "timeDifference": 17.98783400000002
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Power of Local Action: Small Steps, Big Change",
+          "expectedStart": 2208.92,
+          "expectedEnd": 2333.82,
+          "actualStart": 2228.4088340000003,
+          "actualEnd": 2353.3059590000003,
+          "timeDifference": 19.488834000000224
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Looking Forward: Hope, Uncertainty, and the Work Ahead",
+          "expectedStart": 2333.82,
+          "expectedEnd": 2445.28,
+          "actualStart": 2354.8059590000003,
+          "actualEnd": 2466.2677510000003,
+          "timeDifference": 20.985959000000094
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2445.28,
+          "expectedEnd": 2580.33,
+          "actualStart": 2467.7677510000003,
+          "actualEnd": 2602.813751,
+          "timeDifference": 22.487751000000117
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.877083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Caught Between Two Forces"
+        },
+        {
+          "startTime": 333.20941600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Caught Between Two Forces and Chapter 2 The Spread of McWorld: Markets, Media, and the Loss of Difference"
+        },
+        {
+          "startTime": 536.269083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Spread of McWorld: Markets, Media, and the Loss of Difference and Chapter 4 Democracy Under Threat: How Both Forces Undermine Participation"
+        },
+        {
+          "startTime": 752.41425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Democracy Under Threat: How Both Forces Undermine Participation and Chapter 5 The Nation-State in Crisis: Sovereignty, Security, and the Search for Control"
+        },
+        {
+          "startTime": 969.008375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Nation-State in Crisis: Sovereignty, Security, and the Search for Control and Chapter 6 The Illusion of Progress: When Growth Leaves People Behind"
+        },
+        {
+          "startTime": 1159.439167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Illusion of Progress: When Growth Leaves People Behind and Chapter 7 The New Tribalism: Fragmentation in a Connected Age"
+        },
+        {
+          "startTime": 1337.225584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The New Tribalism: Fragmentation in a Connected Age and Chapter 8 The Market’s Limits: When Commerce Can’t Solve Everything"
+        },
+        {
+          "startTime": 1488.5916670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Market’s Limits: When Commerce Can’t Solve Everything and Chapter 9 The Search for Meaning: Faith, Ritual, and the Human Spirit"
+        },
+        {
+          "startTime": 1651.5186250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Search for Meaning: Faith, Ritual, and the Human Spirit and Chapter 10 The Democratic Alternative: Reclaiming the Public Space"
+        },
+        {
+          "startTime": 1816.7894170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Democratic Alternative: Reclaiming the Public Space and Chapter 11 Building Bridges: Dialogue, Tolerance, and the Art of Compromise"
+        },
+        {
+          "startTime": 1960.2987920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Building Bridges: Dialogue, Tolerance, and the Art of Compromise and Chapter 12 Rethinking Identity: Beyond Us and Them"
+        },
+        {
+          "startTime": 2089.057834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Rethinking Identity: Beyond Us and Them and Chapter 13 The Role of Education: Teaching for Democracy"
+        },
+        {
+          "startTime": 2226.9088340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Role of Education: Teaching for Democracy and Chapter 14 The Power of Local Action: Small Steps, Big Change"
+        },
+        {
+          "startTime": 2353.3059590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Power of Local Action: Small Steps, Big Change and Chapter 15 Looking Forward: Hope, Uncertainty, and the Work Ahead"
+        },
+        {
+          "startTime": 2466.2677510000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Looking Forward: Hope, Uncertainty, and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "638",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T23:44:20.610Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "870",
+  "timestamp": "2025-07-05T12:57:27.532Z",
+  "success": false,
+  "processingTime": -1751719874934,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4274,
+    "totalAudioFiles": 12,
+    "totalDuration": 2092.852334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2092.852334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/870/optimized_text/870.md",
+    "fileSize": 871,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "870.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/870/metadata/870_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2092.85,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/870/metadata/870_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/870/metadata/870_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/870/870_complete.wav",
+    "duration": 2092.852333,
+    "fileSize": 100456990,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/870/introduction.wav",
+          "duration": 70.477917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 70.477917,
+          "startTime": 0,
+          "endTime": 70.477917
+        },
+        {
+          "path": "Audio/output/870/chapter_01.wav",
+          "duration": 199.522417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Living Through Political Upheaval: The World Feels Different Now",
+          "actualDuration": 199.522417,
+          "startTime": 71.977917,
+          "endTime": 271.500334
+        },
+        {
+          "path": "Audio/output/870/chapter_02.wav",
+          "duration": 260.792792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Populism’s Rise: Distrust, Disillusionment, and the Search for Belonging",
+          "actualDuration": 260.792792,
+          "startTime": 273.000334,
+          "endTime": 533.793126
+        },
+        {
+          "path": "Audio/output/870/chapter_03.wav",
+          "duration": 197.303917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Nationalism, Identity, and the Struggle Over Belonging",
+          "actualDuration": 197.303917,
+          "startTime": 535.293126,
+          "endTime": 732.597043
+        },
+        {
+          "path": "Audio/output/870/chapter_04.wav",
+          "duration": 186.753375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Global Echo Chamber: How Events in One Country Shape the Rest",
+          "actualDuration": 186.753375,
+          "startTime": 734.097043,
+          "endTime": 920.850418
+        },
+        {
+          "path": "Audio/output/870/chapter_05.wav",
+          "duration": 202.310292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Media, Public Opinion, and the New Rules of Political Conversation",
+          "actualDuration": 202.310292,
+          "startTime": 922.350418,
+          "endTime": 1124.66071
+        },
+        {
+          "path": "Audio/output/870/chapter_06.wav",
+          "duration": 204.217125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Economics of Discontent: Inequality, Insecurity, and the Politics of Blame",
+          "actualDuration": 204.217125,
+          "startTime": 1126.16071,
+          "endTime": 1330.3778350000002
+        },
+        {
+          "path": "Audio/output/870/chapter_07.wav",
+          "duration": 186.090708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Institutions Under Pressure: Trust, Corruption, and the Limits of Reform",
+          "actualDuration": 186.090708,
+          "startTime": 1331.8778350000002,
+          "endTime": 1517.9685430000002
+        },
+        {
+          "path": "Audio/output/870/chapter_08.wav",
+          "duration": 147.687,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Politics of Fear and Hope: Narratives That Move Nations",
+          "actualDuration": 147.687,
+          "startTime": 1519.4685430000002,
+          "endTime": 1667.1555430000003
+        },
+        {
+          "path": "Audio/output/870/chapter_09.wav",
+          "duration": 169.599458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Democracy in the Balance: Participation, Protest, and the Meaning of Change",
+          "actualDuration": 169.599458,
+          "startTime": 1668.6555430000003,
+          "endTime": 1838.2550010000002
+        },
+        {
+          "path": "Audio/output/870/chapter_10.wav",
+          "duration": 149.517875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Uncertainty, Possibility, and the Work Ahead",
+          "actualDuration": 149.517875,
+          "startTime": 1839.7550010000002,
+          "endTime": 1989.2728760000002
+        },
+        {
+          "path": "Audio/output/870/conclusion.wav",
+          "duration": 118.579458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.579458,
+          "startTime": 1990.7728760000002,
+          "endTime": 2109.352334
+        }
+      ],
+      "totalDuration": 2109.352334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 70.48,
+          "actualStart": 0,
+          "actualEnd": 70.477917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Living Through Political Upheaval: The World Feels Different Now",
+          "expectedStart": 70.48,
+          "expectedEnd": 270,
+          "actualStart": 71.977917,
+          "actualEnd": 271.500334,
+          "timeDifference": 1.497917000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Populism’s Rise: Distrust, Disillusionment, and the Search for Belonging",
+          "expectedStart": 270,
+          "expectedEnd": 530.79,
+          "actualStart": 273.000334,
+          "actualEnd": 533.793126,
+          "timeDifference": 3.0003340000000094
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Nationalism, Identity, and the Struggle Over Belonging",
+          "expectedStart": 530.79,
+          "expectedEnd": 728.09,
+          "actualStart": 535.293126,
+          "actualEnd": 732.597043,
+          "timeDifference": 4.503126000000066
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Global Echo Chamber: How Events in One Country Shape the Rest",
+          "expectedStart": 728.09,
+          "expectedEnd": 914.84,
+          "actualStart": 734.097043,
+          "actualEnd": 920.850418,
+          "timeDifference": 6.007042999999953
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Media, Public Opinion, and the New Rules of Political Conversation",
+          "expectedStart": 914.84,
+          "expectedEnd": 1117.15,
+          "actualStart": 922.350418,
+          "actualEnd": 1124.66071,
+          "timeDifference": 7.510417999999959
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Economics of Discontent: Inequality, Insecurity, and the Politics of Blame",
+          "expectedStart": 1117.15,
+          "expectedEnd": 1321.37,
+          "actualStart": 1126.16071,
+          "actualEnd": 1330.3778350000002,
+          "timeDifference": 9.010710000000017
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Institutions Under Pressure: Trust, Corruption, and the Limits of Reform",
+          "expectedStart": 1321.37,
+          "expectedEnd": 1507.46,
+          "actualStart": 1331.8778350000002,
+          "actualEnd": 1517.9685430000002,
+          "timeDifference": 10.507835000000341
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Politics of Fear and Hope: Narratives That Move Nations",
+          "expectedStart": 1507.46,
+          "expectedEnd": 1655.15,
+          "actualStart": 1519.4685430000002,
+          "actualEnd": 1667.1555430000003,
+          "timeDifference": 12.008543000000145
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Democracy in the Balance: Participation, Protest, and the Meaning of Change",
+          "expectedStart": 1655.15,
+          "expectedEnd": 1824.75,
+          "actualStart": 1668.6555430000003,
+          "actualEnd": 1838.2550010000002,
+          "timeDifference": 13.505543000000216
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Uncertainty, Possibility, and the Work Ahead",
+          "expectedStart": 1824.75,
+          "expectedEnd": 1974.27,
+          "actualStart": 1839.7550010000002,
+          "actualEnd": 1989.2728760000002,
+          "timeDifference": 15.00500100000022
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1974.27,
+          "expectedEnd": 2092.85,
+          "actualStart": 1990.7728760000002,
+          "actualEnd": 2109.352334,
+          "timeDifference": 16.502876000000242
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 70.477917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Living Through Political Upheaval: The World Feels Different Now"
+        },
+        {
+          "startTime": 271.500334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Living Through Political Upheaval: The World Feels Different Now and Chapter 2 Populism’s Rise: Distrust, Disillusionment, and the Search for Belonging"
+        },
+        {
+          "startTime": 533.793126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Populism’s Rise: Distrust, Disillusionment, and the Search for Belonging and Chapter 3 Nationalism, Identity, and the Struggle Over Belonging"
+        },
+        {
+          "startTime": 732.597043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Nationalism, Identity, and the Struggle Over Belonging and Chapter 4 The Global Echo Chamber: How Events in One Country Shape the Rest"
+        },
+        {
+          "startTime": 920.850418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Global Echo Chamber: How Events in One Country Shape the Rest and Chapter 5 Media, Public Opinion, and the New Rules of Political Conversation"
+        },
+        {
+          "startTime": 1124.66071,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Media, Public Opinion, and the New Rules of Political Conversation and Chapter 6 The Economics of Discontent: Inequality, Insecurity, and the Politics of Blame"
+        },
+        {
+          "startTime": 1330.3778350000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Economics of Discontent: Inequality, Insecurity, and the Politics of Blame and Chapter 7 Institutions Under Pressure: Trust, Corruption, and the Limits of Reform"
+        },
+        {
+          "startTime": 1517.9685430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Institutions Under Pressure: Trust, Corruption, and the Limits of Reform and Chapter 8 The Politics of Fear and Hope: Narratives That Move Nations"
+        },
+        {
+          "startTime": 1667.1555430000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Politics of Fear and Hope: Narratives That Move Nations and Chapter 9 Democracy in the Balance: Participation, Protest, and the Meaning of Change"
+        },
+        {
+          "startTime": 1838.2550010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Democracy in the Balance: Participation, Protest, and the Meaning of Change and Chapter 10 Looking Forward: Uncertainty, Possibility, and the Work Ahead"
+        },
+        {
+          "startTime": 1989.2728760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Uncertainty, Possibility, and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "870",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T12:51:16.567Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

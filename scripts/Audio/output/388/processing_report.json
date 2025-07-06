@@ -1,0 +1,240 @@
+{
+  "bookId": "388",
+  "timestamp": "2025-07-03T23:42:10.572Z",
+  "success": false,
+  "processingTime": -1751585827260,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3894,
+    "totalAudioFiles": 12,
+    "totalDuration": 374.300083
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 3,
+    "failed": 9,
+    "duration": 374.300083
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/388/optimized_text/388.md",
+    "fileSize": 10695,
+    "wordCount": 1693,
+    "format": "markdown",
+    "filename": "388.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/388/metadata/388_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 374.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/388/metadata/388_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/388/metadata/388_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/388/388_complete.wav",
+    "duration": 374.300083,
+    "fileSize": 17966482,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/388/chapter_06.wav",
+          "duration": 148.307,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Confronting the Balkans—A Test of Resolve",
+          "actualDuration": 148.307,
+          "startTime": 0,
+          "endTime": 148.307
+        },
+        {
+          "path": "Audio/output/388/chapter_08.wav",
+          "duration": 116.129583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Kosovo and the Shifting Boundaries of Intervention",
+          "actualDuration": 116.129583,
+          "startTime": 149.807,
+          "endTime": 265.936583
+        },
+        {
+          "path": "Audio/output/388/conclusion.wav",
+          "duration": 109.8635,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.8635,
+          "startTime": 267.436583,
+          "endTime": 377.300083
+        }
+      ],
+      "totalDuration": 377.300083,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Confronting the Balkans—A Test of Resolve",
+          "expectedStart": 0,
+          "expectedEnd": 148.31,
+          "actualStart": 0,
+          "actualEnd": 148.307,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Kosovo and the Shifting Boundaries of Intervention",
+          "expectedStart": 148.31,
+          "expectedEnd": 264.44,
+          "actualStart": 149.807,
+          "actualEnd": 265.936583,
+          "timeDifference": 1.4969999999999857
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 264.44,
+          "expectedEnd": 374.3,
+          "actualStart": 267.436583,
+          "actualEnd": 377.300083,
+          "timeDifference": 2.996582999999987
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 148.307,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Confronting the Balkans—A Test of Resolve and Chapter 8 Kosovo and the Shifting Boundaries of Intervention"
+        },
+        {
+          "startTime": 265.936583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Kosovo and the Shifting Boundaries of Intervention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 3
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "388",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T23:37:08.496Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

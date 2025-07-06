@@ -1,0 +1,504 @@
+{
+  "bookId": "1118",
+  "timestamp": "2025-07-06T15:14:34.361Z",
+  "success": false,
+  "processingTime": -1751814223100,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5825,
+    "totalAudioFiles": 14,
+    "totalDuration": 2783.957167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2783.957167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1118/optimized_text/1118.md",
+    "fileSize": 973,
+    "wordCount": 132,
+    "format": "markdown",
+    "filename": "1118.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1118/metadata/1118_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2783.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1118/metadata/1118_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1118/metadata/1118_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1118/1118_complete.wav",
+    "duration": 2783.957167,
+    "fileSize": 133630022,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1118/introduction.wav",
+          "duration": 92.0275,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.0275,
+          "startTime": 0,
+          "endTime": 92.0275
+        },
+        {
+          "path": "Audio/output/1118/chapter_01.wav",
+          "duration": 301.001917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Patterns in School History Lessons",
+          "actualDuration": 301.001917,
+          "startTime": 93.5275,
+          "endTime": 394.52941699999997
+        },
+        {
+          "path": "Audio/output/1118/chapter_02.wav",
+          "duration": 243.252625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of American Heroes and the Stories We Tell",
+          "actualDuration": 243.252625,
+          "startTime": 396.02941699999997,
+          "endTime": 639.2820419999999
+        },
+        {
+          "path": "Audio/output/1118/chapter_03.wav",
+          "duration": 250.011125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Stories Left Out—Race, Conflict, and the Silences in History",
+          "actualDuration": 250.011125,
+          "startTime": 640.7820419999999,
+          "endTime": 890.7931669999999
+        },
+        {
+          "path": "Audio/output/1118/chapter_04.wav",
+          "duration": 227.9875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Myths and the Shaping of National Identity",
+          "actualDuration": 227.9875,
+          "startTime": 892.2931669999999,
+          "endTime": 1120.280667
+        },
+        {
+          "path": "Audio/output/1118/chapter_05.wav",
+          "duration": 212.350167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Why Honest History Matters—Critical Thinking and Civic Responsibility",
+          "actualDuration": 212.350167,
+          "startTime": 1121.780667,
+          "endTime": 1334.130834
+        },
+        {
+          "path": "Audio/output/1118/chapter_06.wav",
+          "duration": 257.798,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Machinery Behind the Textbooks—Who Decides What Gets Told",
+          "actualDuration": 257.798,
+          "startTime": 1335.630834,
+          "endTime": 1593.428834
+        },
+        {
+          "path": "Audio/output/1118/chapter_07.wav",
+          "duration": 213.484125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Silence—What Happens When We Don’t Tell the Whole Story",
+          "actualDuration": 213.484125,
+          "startTime": 1594.928834,
+          "endTime": 1808.412959
+        },
+        {
+          "path": "Audio/output/1118/chapter_08.wav",
+          "duration": 200.566792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—How Textbook History Shapes Society",
+          "actualDuration": 200.566792,
+          "startTime": 1809.912959,
+          "endTime": 2010.479751
+        },
+        {
+          "path": "Audio/output/1118/chapter_09.wav",
+          "duration": 189.218625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the Past—Reckoning with Injustice and Moving Forward",
+          "actualDuration": 189.218625,
+          "startTime": 2011.979751,
+          "endTime": 2201.1983760000003
+        },
+        {
+          "path": "Audio/output/1118/chapter_10.wav",
+          "duration": 164.402625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Courage to Change—Teachers, Students, and the New Storytellers",
+          "actualDuration": 164.402625,
+          "startTime": 2202.6983760000003,
+          "endTime": 2367.1010010000005
+        },
+        {
+          "path": "Audio/output/1118/chapter_11.wav",
+          "duration": 163.771625,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Reimagining the Curriculum—Toward a More Honest and Inclusive History",
+          "actualDuration": 163.771625,
+          "startTime": 2368.6010010000005,
+          "endTime": 2532.3726260000003
+        },
+        {
+          "path": "Audio/output/1118/chapter_12.wav",
+          "duration": 140.087083,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Conversation—History as a Living Dialogue",
+          "actualDuration": 140.087083,
+          "startTime": 2533.8726260000003,
+          "endTime": 2673.959709
+        },
+        {
+          "path": "Audio/output/1118/conclusion.wav",
+          "duration": 127.997458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.997458,
+          "startTime": 2675.459709,
+          "endTime": 2803.457167
+        }
+      ],
+      "totalDuration": 2803.457167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.03,
+          "actualStart": 0,
+          "actualEnd": 92.0275,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Patterns in School History Lessons",
+          "expectedStart": 92.03,
+          "expectedEnd": 393.03,
+          "actualStart": 93.5275,
+          "actualEnd": 394.52941699999997,
+          "timeDifference": 1.4975000000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of American Heroes and the Stories We Tell",
+          "expectedStart": 393.03,
+          "expectedEnd": 636.28,
+          "actualStart": 396.02941699999997,
+          "actualEnd": 639.2820419999999,
+          "timeDifference": 2.999416999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Stories Left Out—Race, Conflict, and the Silences in History",
+          "expectedStart": 636.28,
+          "expectedEnd": 886.29,
+          "actualStart": 640.7820419999999,
+          "actualEnd": 890.7931669999999,
+          "timeDifference": 4.50204199999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Myths and the Shaping of National Identity",
+          "expectedStart": 886.29,
+          "expectedEnd": 1114.28,
+          "actualStart": 892.2931669999999,
+          "actualEnd": 1120.280667,
+          "timeDifference": 6.003166999999962
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Why Honest History Matters—Critical Thinking and Civic Responsibility",
+          "expectedStart": 1114.28,
+          "expectedEnd": 1326.63,
+          "actualStart": 1121.780667,
+          "actualEnd": 1334.130834,
+          "timeDifference": 7.500667000000021
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Machinery Behind the Textbooks—Who Decides What Gets Told",
+          "expectedStart": 1326.63,
+          "expectedEnd": 1584.43,
+          "actualStart": 1335.630834,
+          "actualEnd": 1593.428834,
+          "timeDifference": 9.00083399999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Silence—What Happens When We Don’t Tell the Whole Story",
+          "expectedStart": 1584.43,
+          "expectedEnd": 1797.91,
+          "actualStart": 1594.928834,
+          "actualEnd": 1808.412959,
+          "timeDifference": 10.498833999999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—How Textbook History Shapes Society",
+          "expectedStart": 1797.91,
+          "expectedEnd": 1998.48,
+          "actualStart": 1809.912959,
+          "actualEnd": 2010.479751,
+          "timeDifference": 12.002958999999919
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the Past—Reckoning with Injustice and Moving Forward",
+          "expectedStart": 1998.48,
+          "expectedEnd": 2187.7,
+          "actualStart": 2011.979751,
+          "actualEnd": 2201.1983760000003,
+          "timeDifference": 13.49975100000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Courage to Change—Teachers, Students, and the New Storytellers",
+          "expectedStart": 2187.7,
+          "expectedEnd": 2352.1,
+          "actualStart": 2202.6983760000003,
+          "actualEnd": 2367.1010010000005,
+          "timeDifference": 14.998376000000462
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Reimagining the Curriculum—Toward a More Honest and Inclusive History",
+          "expectedStart": 2352.1,
+          "expectedEnd": 2515.87,
+          "actualStart": 2368.6010010000005,
+          "actualEnd": 2532.3726260000003,
+          "timeDifference": 16.501001000000542
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Conversation—History as a Living Dialogue",
+          "expectedStart": 2515.87,
+          "expectedEnd": 2655.96,
+          "actualStart": 2533.8726260000003,
+          "actualEnd": 2673.959709,
+          "timeDifference": 18.00262600000042
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2655.96,
+          "expectedEnd": 2783.96,
+          "actualStart": 2675.459709,
+          "actualEnd": 2803.457167,
+          "timeDifference": 19.499709000000166
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.0275,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Patterns in School History Lessons"
+        },
+        {
+          "startTime": 394.52941699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Patterns in School History Lessons and Chapter 2 The Making of American Heroes and the Stories We Tell"
+        },
+        {
+          "startTime": 639.2820419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of American Heroes and the Stories We Tell and Chapter 3 The Stories Left Out—Race, Conflict, and the Silences in History"
+        },
+        {
+          "startTime": 890.7931669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Stories Left Out—Race, Conflict, and the Silences in History and Chapter 4 The Power of Myths and the Shaping of National Identity"
+        },
+        {
+          "startTime": 1120.280667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Myths and the Shaping of National Identity and Chapter 5 Why Honest History Matters—Critical Thinking and Civic Responsibility"
+        },
+        {
+          "startTime": 1334.130834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Why Honest History Matters—Critical Thinking and Civic Responsibility and Chapter 6 The Machinery Behind the Textbooks—Who Decides What Gets Told"
+        },
+        {
+          "startTime": 1593.428834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Machinery Behind the Textbooks—Who Decides What Gets Told and Chapter 7 The Cost of Silence—What Happens When We Don’t Tell the Whole Story"
+        },
+        {
+          "startTime": 1808.412959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Silence—What Happens When We Don’t Tell the Whole Story and Chapter 8 The Ripple Effect—How Textbook History Shapes Society"
+        },
+        {
+          "startTime": 2010.479751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—How Textbook History Shapes Society and Chapter 9 Facing the Past—Reckoning with Injustice and Moving Forward"
+        },
+        {
+          "startTime": 2201.1983760000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the Past—Reckoning with Injustice and Moving Forward and Chapter 10 The Courage to Change—Teachers, Students, and the New Storytellers"
+        },
+        {
+          "startTime": 2367.1010010000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Courage to Change—Teachers, Students, and the New Storytellers and Chapter 11 Reimagining the Curriculum—Toward a More Honest and Inclusive History"
+        },
+        {
+          "startTime": 2532.3726260000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Reimagining the Curriculum—Toward a More Honest and Inclusive History and Chapter 12 The Ongoing Conversation—History as a Living Dialogue"
+        },
+        {
+          "startTime": 2673.959709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Conversation—History as a Living Dialogue and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1118",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T15:03:44.570Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

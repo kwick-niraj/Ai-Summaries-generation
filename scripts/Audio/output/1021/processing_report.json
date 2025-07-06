@@ -1,0 +1,432 @@
+{
+  "bookId": "1021",
+  "timestamp": "2025-07-06T08:14:50.136Z",
+  "success": false,
+  "processingTime": -1751789387151,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 5686,
+    "totalAudioFiles": 11,
+    "totalDuration": 2312.770501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2312.770501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1021/optimized_text/1021.md",
+    "fileSize": 786,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "1021.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1021/metadata/1021_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2312.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1021/metadata/1021_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1021/metadata/1021_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1021/1021_complete.wav",
+    "duration": 2312.7705,
+    "fileSize": 111013062,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1021/introduction.wav",
+          "duration": 88.5125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.5125,
+          "startTime": 0,
+          "endTime": 88.5125
+        },
+        {
+          "path": "Audio/output/1021/chapter_01.wav",
+          "duration": 312.446042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Bondage: Early Years and the Weight of Slavery",
+          "actualDuration": 312.446042,
+          "startTime": 90.0125,
+          "endTime": 402.45854199999997
+        },
+        {
+          "path": "Audio/output/1021/chapter_02.wav",
+          "duration": 255.313583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Awakening: Learning to Read and the Power of Knowledge",
+          "actualDuration": 255.313583,
+          "startTime": 403.95854199999997,
+          "endTime": 659.272125
+        },
+        {
+          "path": "Audio/output/1021/chapter_03.wav",
+          "duration": 287.208667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Freedom: Resistance, Escape, and the Cost of Defiance",
+          "actualDuration": 287.208667,
+          "startTime": 660.772125,
+          "endTime": 947.980792
+        },
+        {
+          "path": "Audio/output/1021/chapter_04.wav",
+          "duration": 221.617542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding a Voice: Oratory, Activism, and the Power of Storytelling",
+          "actualDuration": 221.617542,
+          "startTime": 949.480792,
+          "endTime": 1171.098334
+        },
+        {
+          "path": "Audio/output/1021/chapter_05.wav",
+          "duration": 228.690667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building a Movement: Leadership, Family, and the Ongoing Fight for Justice",
+          "actualDuration": 228.690667,
+          "startTime": 1172.598334,
+          "endTime": 1401.289001
+        },
+        {
+          "path": "Audio/output/1021/chapter_06.wav",
+          "duration": 234.446333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War Years: Hope, Betrayal, and the Fight for Emancipation",
+          "actualDuration": 234.446333,
+          "startTime": 1402.789001,
+          "endTime": 1637.2353340000002
+        },
+        {
+          "path": "Audio/output/1021/chapter_07.wav",
+          "duration": 260.066583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 After the Chains: Reconstruction, Disillusionment, and the Long Road to Equality",
+          "actualDuration": 260.066583,
+          "startTime": 1638.7353340000002,
+          "endTime": 1898.8019170000002
+        },
+        {
+          "path": "Audio/output/1021/chapter_08.wav",
+          "duration": 155.321125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 A Life in Public: Diplomacy, Family, and the Burden of Representation",
+          "actualDuration": 155.321125,
+          "startTime": 1900.3019170000002,
+          "endTime": 2055.623042
+        },
+        {
+          "path": "Audio/output/1021/chapter_09.wav",
+          "duration": 141.615292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Struggle: Memory, Meaning, and the Next Generation",
+          "actualDuration": 141.615292,
+          "startTime": 2057.123042,
+          "endTime": 2198.738334
+        },
+        {
+          "path": "Audio/output/1021/conclusion.wav",
+          "duration": 127.532167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.532167,
+          "startTime": 2200.238334,
+          "endTime": 2327.770501
+        }
+      ],
+      "totalDuration": 2327.770501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.51,
+          "actualStart": 0,
+          "actualEnd": 88.5125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Bondage: Early Years and the Weight of Slavery",
+          "expectedStart": 88.51,
+          "expectedEnd": 400.96,
+          "actualStart": 90.0125,
+          "actualEnd": 402.45854199999997,
+          "timeDifference": 1.5024999999999977
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Awakening: Learning to Read and the Power of Knowledge",
+          "expectedStart": 400.96,
+          "expectedEnd": 656.27,
+          "actualStart": 403.95854199999997,
+          "actualEnd": 659.272125,
+          "timeDifference": 2.9985419999999863
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Freedom: Resistance, Escape, and the Cost of Defiance",
+          "expectedStart": 656.27,
+          "expectedEnd": 943.48,
+          "actualStart": 660.772125,
+          "actualEnd": 947.980792,
+          "timeDifference": 4.502124999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding a Voice: Oratory, Activism, and the Power of Storytelling",
+          "expectedStart": 943.48,
+          "expectedEnd": 1165.1,
+          "actualStart": 949.480792,
+          "actualEnd": 1171.098334,
+          "timeDifference": 6.000791999999933
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building a Movement: Leadership, Family, and the Ongoing Fight for Justice",
+          "expectedStart": 1165.1,
+          "expectedEnd": 1393.79,
+          "actualStart": 1172.598334,
+          "actualEnd": 1401.289001,
+          "timeDifference": 7.4983340000001135
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War Years: Hope, Betrayal, and the Fight for Emancipation",
+          "expectedStart": 1393.79,
+          "expectedEnd": 1628.24,
+          "actualStart": 1402.789001,
+          "actualEnd": 1637.2353340000002,
+          "timeDifference": 8.999001000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 After the Chains: Reconstruction, Disillusionment, and the Long Road to Equality",
+          "expectedStart": 1628.24,
+          "expectedEnd": 1888.31,
+          "actualStart": 1638.7353340000002,
+          "actualEnd": 1898.8019170000002,
+          "timeDifference": 10.495334000000184
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 A Life in Public: Diplomacy, Family, and the Burden of Representation",
+          "expectedStart": 1888.31,
+          "expectedEnd": 2043.63,
+          "actualStart": 1900.3019170000002,
+          "actualEnd": 2055.623042,
+          "timeDifference": 11.991917000000285
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Struggle: Memory, Meaning, and the Next Generation",
+          "expectedStart": 2043.63,
+          "expectedEnd": 2185.25,
+          "actualStart": 2057.123042,
+          "actualEnd": 2198.738334,
+          "timeDifference": 13.49304200000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2185.25,
+          "expectedEnd": 2312.78,
+          "actualStart": 2200.238334,
+          "actualEnd": 2327.770501,
+          "timeDifference": 14.988334000000123
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.5125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Bondage: Early Years and the Weight of Slavery"
+        },
+        {
+          "startTime": 402.45854199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Bondage: Early Years and the Weight of Slavery and Chapter 2 The Awakening: Learning to Read and the Power of Knowledge"
+        },
+        {
+          "startTime": 659.272125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Awakening: Learning to Read and the Power of Knowledge and Chapter 3 The Struggle for Freedom: Resistance, Escape, and the Cost of Defiance"
+        },
+        {
+          "startTime": 947.980792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Freedom: Resistance, Escape, and the Cost of Defiance and Chapter 4 Finding a Voice: Oratory, Activism, and the Power of Storytelling"
+        },
+        {
+          "startTime": 1171.098334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding a Voice: Oratory, Activism, and the Power of Storytelling and Chapter 5 Building a Movement: Leadership, Family, and the Ongoing Fight for Justice"
+        },
+        {
+          "startTime": 1401.289001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building a Movement: Leadership, Family, and the Ongoing Fight for Justice and Chapter 6 The War Years: Hope, Betrayal, and the Fight for Emancipation"
+        },
+        {
+          "startTime": 1637.2353340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War Years: Hope, Betrayal, and the Fight for Emancipation and Chapter 7 After the Chains: Reconstruction, Disillusionment, and the Long Road to Equality"
+        },
+        {
+          "startTime": 1898.8019170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 After the Chains: Reconstruction, Disillusionment, and the Long Road to Equality and Chapter 8 A Life in Public: Diplomacy, Family, and the Burden of Representation"
+        },
+        {
+          "startTime": 2055.623042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 A Life in Public: Diplomacy, Family, and the Burden of Representation and Chapter 9 The Legacy of Struggle: Memory, Meaning, and the Next Generation"
+        },
+        {
+          "startTime": 2198.738334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Struggle: Memory, Meaning, and the Next Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1021",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T08:09:48.640Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

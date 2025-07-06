@@ -1,0 +1,456 @@
+{
+  "bookId": "935",
+  "timestamp": "2025-07-05T17:02:46.049Z",
+  "success": false,
+  "processingTime": -1751734699852,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4460,
+    "totalAudioFiles": 12,
+    "totalDuration": 2078.270791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2078.270791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/935/optimized_text/935.md",
+    "fileSize": 555,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "935.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/935/metadata/935_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2078.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/935/metadata/935_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/935/metadata/935_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/935/935_complete.wav",
+    "duration": 2078.270792,
+    "fileSize": 99757076,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/935/introduction.wav",
+          "duration": 91.167958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.167958,
+          "startTime": 0,
+          "endTime": 91.167958
+        },
+        {
+          "path": "Audio/output/935/chapter_01.wav",
+          "duration": 281.586125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Racial Trauma Lives in the Body",
+          "actualDuration": 281.586125,
+          "startTime": 92.667958,
+          "endTime": 374.254083
+        },
+        {
+          "path": "Audio/output/935/chapter_02.wav",
+          "duration": 242.663375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Generational Pain",
+          "actualDuration": 242.663375,
+          "startTime": 375.754083,
+          "endTime": 618.417458
+        },
+        {
+          "path": "Audio/output/935/chapter_03.wav",
+          "duration": 237.310375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Body’s Wisdom and the Limits of Talk",
+          "actualDuration": 237.310375,
+          "startTime": 619.917458,
+          "endTime": 857.227833
+        },
+        {
+          "path": "Audio/output/935/chapter_04.wav",
+          "duration": 243.963583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Impact of White Supremacy on All Bodies",
+          "actualDuration": 243.963583,
+          "startTime": 858.727833,
+          "endTime": 1102.6914160000001
+        },
+        {
+          "path": "Audio/output/935/chapter_05.wav",
+          "duration": 184.620042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building New Patterns for Healing",
+          "actualDuration": 184.620042,
+          "startTime": 1104.1914160000001,
+          "endTime": 1288.8114580000001
+        },
+        {
+          "path": "Audio/output/935/chapter_06.wav",
+          "duration": 162.851667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practices for Settling the Body",
+          "actualDuration": 162.851667,
+          "startTime": 1290.3114580000001,
+          "endTime": 1453.163125
+        },
+        {
+          "path": "Audio/output/935/chapter_07.wav",
+          "duration": 139.02325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Collective Healing",
+          "actualDuration": 139.02325,
+          "startTime": 1454.663125,
+          "endTime": 1593.686375
+        },
+        {
+          "path": "Audio/output/935/chapter_08.wav",
+          "duration": 130.694375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Conflict and Repair",
+          "actualDuration": 130.694375,
+          "startTime": 1595.186375,
+          "endTime": 1725.88075
+        },
+        {
+          "path": "Audio/output/935/chapter_09.wav",
+          "duration": 124.0065,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Culture and Ritual",
+          "actualDuration": 124.0065,
+          "startTime": 1727.38075,
+          "endTime": 1851.38725
+        },
+        {
+          "path": "Audio/output/935/chapter_10.wav",
+          "duration": 128.896333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Toward Justice and Collective Liberation",
+          "actualDuration": 128.896333,
+          "startTime": 1852.88725,
+          "endTime": 1981.783583
+        },
+        {
+          "path": "Audio/output/935/conclusion.wav",
+          "duration": 111.487208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.487208,
+          "startTime": 1983.283583,
+          "endTime": 2094.770791
+        }
+      ],
+      "totalDuration": 2094.770791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.17,
+          "actualStart": 0,
+          "actualEnd": 91.167958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Racial Trauma Lives in the Body",
+          "expectedStart": 91.17,
+          "expectedEnd": 372.76,
+          "actualStart": 92.667958,
+          "actualEnd": 374.254083,
+          "timeDifference": 1.497957999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Generational Pain",
+          "expectedStart": 372.76,
+          "expectedEnd": 615.42,
+          "actualStart": 375.754083,
+          "actualEnd": 618.417458,
+          "timeDifference": 2.994082999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Body’s Wisdom and the Limits of Talk",
+          "expectedStart": 615.42,
+          "expectedEnd": 852.73,
+          "actualStart": 619.917458,
+          "actualEnd": 857.227833,
+          "timeDifference": 4.4974580000000515
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Impact of White Supremacy on All Bodies",
+          "expectedStart": 852.73,
+          "expectedEnd": 1096.69,
+          "actualStart": 858.727833,
+          "actualEnd": 1102.6914160000001,
+          "timeDifference": 5.997833000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building New Patterns for Healing",
+          "expectedStart": 1096.69,
+          "expectedEnd": 1281.31,
+          "actualStart": 1104.1914160000001,
+          "actualEnd": 1288.8114580000001,
+          "timeDifference": 7.501416000000063
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practices for Settling the Body",
+          "expectedStart": 1281.31,
+          "expectedEnd": 1444.16,
+          "actualStart": 1290.3114580000001,
+          "actualEnd": 1453.163125,
+          "timeDifference": 9.001458000000184
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Collective Healing",
+          "expectedStart": 1444.16,
+          "expectedEnd": 1583.18,
+          "actualStart": 1454.663125,
+          "actualEnd": 1593.686375,
+          "timeDifference": 10.503124999999955
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Conflict and Repair",
+          "expectedStart": 1583.18,
+          "expectedEnd": 1713.87,
+          "actualStart": 1595.186375,
+          "actualEnd": 1725.88075,
+          "timeDifference": 12.006374999999935
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Culture and Ritual",
+          "expectedStart": 1713.87,
+          "expectedEnd": 1837.88,
+          "actualStart": 1727.38075,
+          "actualEnd": 1851.38725,
+          "timeDifference": 13.510750000000144
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Toward Justice and Collective Liberation",
+          "expectedStart": 1837.88,
+          "expectedEnd": 1966.78,
+          "actualStart": 1852.88725,
+          "actualEnd": 1981.783583,
+          "timeDifference": 15.007249999999885
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1966.78,
+          "expectedEnd": 2078.27,
+          "actualStart": 1983.283583,
+          "actualEnd": 2094.770791,
+          "timeDifference": 16.503582999999935
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.167958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Racial Trauma Lives in the Body"
+        },
+        {
+          "startTime": 374.254083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Racial Trauma Lives in the Body and Chapter 2 The Roots of Generational Pain"
+        },
+        {
+          "startTime": 618.417458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Generational Pain and Chapter 3 The Body’s Wisdom and the Limits of Talk"
+        },
+        {
+          "startTime": 857.227833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Body’s Wisdom and the Limits of Talk and Chapter 4 The Impact of White Supremacy on All Bodies"
+        },
+        {
+          "startTime": 1102.6914160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Impact of White Supremacy on All Bodies and Chapter 5 Building New Patterns for Healing"
+        },
+        {
+          "startTime": 1288.8114580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building New Patterns for Healing and Chapter 6 Practices for Settling the Body"
+        },
+        {
+          "startTime": 1453.163125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practices for Settling the Body and Chapter 7 The Power of Collective Healing"
+        },
+        {
+          "startTime": 1593.686375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Collective Healing and Chapter 8 Navigating Conflict and Repair"
+        },
+        {
+          "startTime": 1725.88075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Conflict and Repair and Chapter 9 The Role of Culture and Ritual"
+        },
+        {
+          "startTime": 1851.38725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Culture and Ritual and Chapter 10 Moving Toward Justice and Collective Liberation"
+        },
+        {
+          "startTime": 1981.783583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Toward Justice and Collective Liberation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "935",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T16:58:20.383Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

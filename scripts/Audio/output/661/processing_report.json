@@ -1,0 +1,456 @@
+{
+  "bookId": "661",
+  "timestamp": "2025-07-05T01:27:18.234Z",
+  "success": false,
+  "processingTime": -1751678403637,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3905,
+    "totalAudioFiles": 12,
+    "totalDuration": 2029.3585839999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2029.3585839999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/661/optimized_text/661.md",
+    "fileSize": 731,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "661.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/661/metadata/661_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2029.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/661/metadata/661_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/661/metadata/661_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/661/661_complete.wav",
+    "duration": 2029.358583,
+    "fileSize": 97409290,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/661/introduction.wav",
+          "duration": 95.022792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.022792,
+          "startTime": 0,
+          "endTime": 95.022792
+        },
+        {
+          "path": "Audio/output/661/chapter_01.wav",
+          "duration": 179.125917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Social Anxiety and Its Everyday Impact",
+          "actualDuration": 179.125917,
+          "startTime": 96.522792,
+          "endTime": 275.648709
+        },
+        {
+          "path": "Audio/output/661/chapter_02.wav",
+          "duration": 202.898458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Inner Critic: Where Self-Doubt Begins",
+          "actualDuration": 202.898458,
+          "startTime": 277.148709,
+          "endTime": 480.047167
+        },
+        {
+          "path": "Audio/output/661/chapter_03.wav",
+          "duration": 214.619208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Challenging Fears and Changing Self-Talk",
+          "actualDuration": 214.619208,
+          "startTime": 481.547167,
+          "endTime": 696.166375
+        },
+        {
+          "path": "Audio/output/661/chapter_04.wav",
+          "duration": 183.563292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Gradual Exposure: Building Confidence Step by Step",
+          "actualDuration": 183.563292,
+          "startTime": 697.666375,
+          "endTime": 881.2296670000001
+        },
+        {
+          "path": "Audio/output/661/chapter_05.wav",
+          "duration": 209.619417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Authenticity and Practicing Self-Compassion",
+          "actualDuration": 209.619417,
+          "startTime": 882.7296670000001,
+          "endTime": 1092.349084
+        },
+        {
+          "path": "Audio/output/661/chapter_06.wav",
+          "duration": 221.847458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Tricky Social Situations: Tools for Real-Life Encounters",
+          "actualDuration": 221.847458,
+          "startTime": 1093.849084,
+          "endTime": 1315.696542
+        },
+        {
+          "path": "Audio/output/661/chapter_07.wav",
+          "duration": 167.748083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Lasting Confidence: The Role of Habits and Self-Reflection",
+          "actualDuration": 167.748083,
+          "startTime": 1317.196542,
+          "endTime": 1484.9446249999999
+        },
+        {
+          "path": "Audio/output/661/chapter_08.wav",
+          "duration": 160.984417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Social Confidence into Daily Life",
+          "actualDuration": 160.984417,
+          "startTime": 1486.4446249999999,
+          "endTime": 1647.4290419999998
+        },
+        {
+          "path": "Audio/output/661/chapter_09.wav",
+          "duration": 163.916917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 When Anxiety Persists: Knowing When to Seek Extra Support",
+          "actualDuration": 163.916917,
+          "startTime": 1648.9290419999998,
+          "endTime": 1812.8459589999998
+        },
+        {
+          "path": "Audio/output/661/chapter_10.wav",
+          "duration": 134.892667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: Returning to Yourself Again and Again",
+          "actualDuration": 134.892667,
+          "startTime": 1814.3459589999998,
+          "endTime": 1949.2386259999998
+        },
+        {
+          "path": "Audio/output/661/conclusion.wav",
+          "duration": 95.119958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 95.119958,
+          "startTime": 1950.7386259999998,
+          "endTime": 2045.8585839999998
+        }
+      ],
+      "totalDuration": 2045.8585839999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.02,
+          "actualStart": 0,
+          "actualEnd": 95.022792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Social Anxiety and Its Everyday Impact",
+          "expectedStart": 95.02,
+          "expectedEnd": 274.15,
+          "actualStart": 96.522792,
+          "actualEnd": 275.648709,
+          "timeDifference": 1.5027919999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Inner Critic: Where Self-Doubt Begins",
+          "expectedStart": 274.15,
+          "expectedEnd": 477.05,
+          "actualStart": 277.148709,
+          "actualEnd": 480.047167,
+          "timeDifference": 2.9987090000000194
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Challenging Fears and Changing Self-Talk",
+          "expectedStart": 477.05,
+          "expectedEnd": 691.67,
+          "actualStart": 481.547167,
+          "actualEnd": 696.166375,
+          "timeDifference": 4.49716699999999
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Gradual Exposure: Building Confidence Step by Step",
+          "expectedStart": 691.67,
+          "expectedEnd": 875.23,
+          "actualStart": 697.666375,
+          "actualEnd": 881.2296670000001,
+          "timeDifference": 5.996375000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Authenticity and Practicing Self-Compassion",
+          "expectedStart": 875.23,
+          "expectedEnd": 1084.85,
+          "actualStart": 882.7296670000001,
+          "actualEnd": 1092.349084,
+          "timeDifference": 7.499667000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Tricky Social Situations: Tools for Real-Life Encounters",
+          "expectedStart": 1084.85,
+          "expectedEnd": 1306.7,
+          "actualStart": 1093.849084,
+          "actualEnd": 1315.696542,
+          "timeDifference": 8.999084000000039
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Lasting Confidence: The Role of Habits and Self-Reflection",
+          "expectedStart": 1306.7,
+          "expectedEnd": 1474.45,
+          "actualStart": 1317.196542,
+          "actualEnd": 1484.9446249999999,
+          "timeDifference": 10.496541999999863
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Social Confidence into Daily Life",
+          "expectedStart": 1474.45,
+          "expectedEnd": 1635.43,
+          "actualStart": 1486.4446249999999,
+          "actualEnd": 1647.4290419999998,
+          "timeDifference": 11.994624999999814
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 When Anxiety Persists: Knowing When to Seek Extra Support",
+          "expectedStart": 1635.43,
+          "expectedEnd": 1799.35,
+          "actualStart": 1648.9290419999998,
+          "actualEnd": 1812.8459589999998,
+          "timeDifference": 13.49904199999969
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: Returning to Yourself Again and Again",
+          "expectedStart": 1799.35,
+          "expectedEnd": 1934.24,
+          "actualStart": 1814.3459589999998,
+          "actualEnd": 1949.2386259999998,
+          "timeDifference": 14.995958999999857
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1934.24,
+          "expectedEnd": 2029.36,
+          "actualStart": 1950.7386259999998,
+          "actualEnd": 2045.8585839999998,
+          "timeDifference": 16.49862599999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.022792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Social Anxiety and Its Everyday Impact"
+        },
+        {
+          "startTime": 275.648709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Social Anxiety and Its Everyday Impact and Chapter 2 The Inner Critic: Where Self-Doubt Begins"
+        },
+        {
+          "startTime": 480.047167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Inner Critic: Where Self-Doubt Begins and Chapter 3 Challenging Fears and Changing Self-Talk"
+        },
+        {
+          "startTime": 696.166375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Challenging Fears and Changing Self-Talk and Chapter 4 Gradual Exposure: Building Confidence Step by Step"
+        },
+        {
+          "startTime": 881.2296670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Gradual Exposure: Building Confidence Step by Step and Chapter 5 Embracing Authenticity and Practicing Self-Compassion"
+        },
+        {
+          "startTime": 1092.349084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Authenticity and Practicing Self-Compassion and Chapter 6 Navigating Tricky Social Situations: Tools for Real-Life Encounters"
+        },
+        {
+          "startTime": 1315.696542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Tricky Social Situations: Tools for Real-Life Encounters and Chapter 7 Building Lasting Confidence: The Role of Habits and Self-Reflection"
+        },
+        {
+          "startTime": 1484.9446249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Lasting Confidence: The Role of Habits and Self-Reflection and Chapter 8 Integrating Social Confidence into Daily Life"
+        },
+        {
+          "startTime": 1647.4290419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Social Confidence into Daily Life and Chapter 9 When Anxiety Persists: Knowing When to Seek Extra Support"
+        },
+        {
+          "startTime": 1812.8459589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 When Anxiety Persists: Knowing When to Seek Extra Support and Chapter 10 Sustaining Growth: Returning to Yourself Again and Again"
+        },
+        {
+          "startTime": 1949.2386259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: Returning to Yourself Again and Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "661",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T01:20:05.222Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

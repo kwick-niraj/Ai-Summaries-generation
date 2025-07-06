@@ -1,0 +1,456 @@
+{
+  "bookId": "642",
+  "timestamp": "2025-07-05T00:16:45.034Z",
+  "success": false,
+  "processingTime": -1751674154689,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3798,
+    "totalAudioFiles": 12,
+    "totalDuration": 1985.5780000000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1985.5780000000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/642/optimized_text/642.md",
+    "fileSize": 876,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "642.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/642/metadata/642_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1985.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/642/metadata/642_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/642/metadata/642_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/642/642_complete.wav",
+    "duration": 1985.578,
+    "fileSize": 95307822,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/642/introduction.wav",
+          "duration": 94.359083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.359083,
+          "startTime": 0,
+          "endTime": 94.359083
+        },
+        {
+          "path": "Audio/output/642/chapter_01.wav",
+          "duration": 221.849375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Basics: Why Less Planning and More Doing Matters",
+          "actualDuration": 221.849375,
+          "startTime": 95.859083,
+          "endTime": 317.708458
+        },
+        {
+          "path": "Audio/output/642/chapter_02.wav",
+          "duration": 204.873583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Constraints: Turning Limitations into Creative Advantages",
+          "actualDuration": 204.873583,
+          "startTime": 319.208458,
+          "endTime": 524.082041
+        },
+        {
+          "path": "Audio/output/642/chapter_03.wav",
+          "duration": 214.938792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cutting Through the Noise: Focus, Simplicity, and the Value of Saying No",
+          "actualDuration": 214.938792,
+          "startTime": 525.582041,
+          "endTime": 740.520833
+        },
+        {
+          "path": "Audio/output/642/chapter_04.wav",
+          "duration": 173.520375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building for Yourself: Independence, Authenticity, and Customer Connection",
+          "actualDuration": 173.520375,
+          "startTime": 742.020833,
+          "endTime": 915.5412080000001
+        },
+        {
+          "path": "Audio/output/642/chapter_05.wav",
+          "duration": 184.83925,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Progress Over Perfection: The Power of Shipping Early and Iterating",
+          "actualDuration": 184.83925,
+          "startTime": 917.0412080000001,
+          "endTime": 1101.880458
+        },
+        {
+          "path": "Audio/output/642/chapter_06.wav",
+          "duration": 156.902375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining Momentum: Avoiding Burnout and Embracing Steady Progress",
+          "actualDuration": 156.902375,
+          "startTime": 1103.380458,
+          "endTime": 1260.2828330000002
+        },
+        {
+          "path": "Audio/output/642/chapter_07.wav",
+          "duration": 148.39425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Teams: Trust, Autonomy, and the Value of Small Groups",
+          "actualDuration": 148.39425,
+          "startTime": 1261.7828330000002,
+          "endTime": 1410.1770830000003
+        },
+        {
+          "path": "Audio/output/642/chapter_08.wav",
+          "duration": 159.856,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Marketing with Honesty: Letting the Product Speak and Building Real Relationships",
+          "actualDuration": 159.856,
+          "startTime": 1411.6770830000003,
+          "endTime": 1571.5330830000003
+        },
+        {
+          "path": "Audio/output/642/chapter_09.wav",
+          "duration": 143.960042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Dealing with Competition: Ignore the Noise and Focus on Your Path",
+          "actualDuration": 143.960042,
+          "startTime": 1573.0330830000003,
+          "endTime": 1716.9931250000002
+        },
+        {
+          "path": "Audio/output/642/chapter_10.wav",
+          "duration": 151.869,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Constraints in Growth: Staying Lean and Agile",
+          "actualDuration": 151.869,
+          "startTime": 1718.4931250000002,
+          "endTime": 1870.362125
+        },
+        {
+          "path": "Audio/output/642/conclusion.wav",
+          "duration": 130.215875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.215875,
+          "startTime": 1871.862125,
+          "endTime": 2002.0780000000002
+        }
+      ],
+      "totalDuration": 2002.0780000000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.36,
+          "actualStart": 0,
+          "actualEnd": 94.359083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Basics: Why Less Planning and More Doing Matters",
+          "expectedStart": 94.36,
+          "expectedEnd": 316.21,
+          "actualStart": 95.859083,
+          "actualEnd": 317.708458,
+          "timeDifference": 1.4990829999999988
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Constraints: Turning Limitations into Creative Advantages",
+          "expectedStart": 316.21,
+          "expectedEnd": 521.08,
+          "actualStart": 319.208458,
+          "actualEnd": 524.082041,
+          "timeDifference": 2.998458000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cutting Through the Noise: Focus, Simplicity, and the Value of Saying No",
+          "expectedStart": 521.08,
+          "expectedEnd": 736.02,
+          "actualStart": 525.582041,
+          "actualEnd": 740.520833,
+          "timeDifference": 4.502040999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building for Yourself: Independence, Authenticity, and Customer Connection",
+          "expectedStart": 736.02,
+          "expectedEnd": 909.54,
+          "actualStart": 742.020833,
+          "actualEnd": 915.5412080000001,
+          "timeDifference": 6.000833000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Progress Over Perfection: The Power of Shipping Early and Iterating",
+          "expectedStart": 909.54,
+          "expectedEnd": 1094.38,
+          "actualStart": 917.0412080000001,
+          "actualEnd": 1101.880458,
+          "timeDifference": 7.501208000000133
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining Momentum: Avoiding Burnout and Embracing Steady Progress",
+          "expectedStart": 1094.38,
+          "expectedEnd": 1251.28,
+          "actualStart": 1103.380458,
+          "actualEnd": 1260.2828330000002,
+          "timeDifference": 9.00045799999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Teams: Trust, Autonomy, and the Value of Small Groups",
+          "expectedStart": 1251.28,
+          "expectedEnd": 1399.67,
+          "actualStart": 1261.7828330000002,
+          "actualEnd": 1410.1770830000003,
+          "timeDifference": 10.502833000000237
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Marketing with Honesty: Letting the Product Speak and Building Real Relationships",
+          "expectedStart": 1399.67,
+          "expectedEnd": 1559.53,
+          "actualStart": 1411.6770830000003,
+          "actualEnd": 1571.5330830000003,
+          "timeDifference": 12.007083000000193
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Dealing with Competition: Ignore the Noise and Focus on Your Path",
+          "expectedStart": 1559.53,
+          "expectedEnd": 1703.49,
+          "actualStart": 1573.0330830000003,
+          "actualEnd": 1716.9931250000002,
+          "timeDifference": 13.503083000000288
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Constraints in Growth: Staying Lean and Agile",
+          "expectedStart": 1703.49,
+          "expectedEnd": 1855.36,
+          "actualStart": 1718.4931250000002,
+          "actualEnd": 1870.362125,
+          "timeDifference": 15.003125000000182
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1855.36,
+          "expectedEnd": 1985.58,
+          "actualStart": 1871.862125,
+          "actualEnd": 2002.0780000000002,
+          "timeDifference": 16.502125000000206
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.359083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Basics: Why Less Planning and More Doing Matters"
+        },
+        {
+          "startTime": 317.708458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Basics: Why Less Planning and More Doing Matters and Chapter 2 Embracing Constraints: Turning Limitations into Creative Advantages"
+        },
+        {
+          "startTime": 524.082041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Constraints: Turning Limitations into Creative Advantages and Chapter 3 Cutting Through the Noise: Focus, Simplicity, and the Value of Saying No"
+        },
+        {
+          "startTime": 740.520833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cutting Through the Noise: Focus, Simplicity, and the Value of Saying No and Chapter 4 Building for Yourself: Independence, Authenticity, and Customer Connection"
+        },
+        {
+          "startTime": 915.5412080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building for Yourself: Independence, Authenticity, and Customer Connection and Chapter 5 Progress Over Perfection: The Power of Shipping Early and Iterating"
+        },
+        {
+          "startTime": 1101.880458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Progress Over Perfection: The Power of Shipping Early and Iterating and Chapter 6 Sustaining Momentum: Avoiding Burnout and Embracing Steady Progress"
+        },
+        {
+          "startTime": 1260.2828330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining Momentum: Avoiding Burnout and Embracing Steady Progress and Chapter 7 Managing Teams: Trust, Autonomy, and the Value of Small Groups"
+        },
+        {
+          "startTime": 1410.1770830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Teams: Trust, Autonomy, and the Value of Small Groups and Chapter 8 Marketing with Honesty: Letting the Product Speak and Building Real Relationships"
+        },
+        {
+          "startTime": 1571.5330830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Marketing with Honesty: Letting the Product Speak and Building Real Relationships and Chapter 9 Dealing with Competition: Ignore the Noise and Focus on Your Path"
+        },
+        {
+          "startTime": 1716.9931250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Dealing with Competition: Ignore the Noise and Focus on Your Path and Chapter 10 Embracing Constraints in Growth: Staying Lean and Agile"
+        },
+        {
+          "startTime": 1870.362125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Constraints in Growth: Staying Lean and Agile and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "642",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T00:09:16.300Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

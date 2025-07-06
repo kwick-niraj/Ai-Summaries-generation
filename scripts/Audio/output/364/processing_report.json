@@ -1,0 +1,456 @@
+{
+  "bookId": "364",
+  "timestamp": "2025-07-03T21:29:16.409Z",
+  "success": false,
+  "processingTime": -1751577565413,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3902,
+    "totalAudioFiles": 12,
+    "totalDuration": 1931.5873330000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1931.5873330000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/364/optimized_text/364.md",
+    "fileSize": 779,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "364.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/364/metadata/364_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1931.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/364/metadata/364_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/364/metadata/364_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/364/364_complete.wav",
+    "duration": 1931.587333,
+    "fileSize": 92716270,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/364/introduction.wav",
+          "duration": 101.160458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.160458,
+          "startTime": 0,
+          "endTime": 101.160458
+        },
+        {
+          "path": "Audio/output/364/chapter_01.wav",
+          "duration": 210.362333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Weight of Too Much: How Possessions Quietly Take Over",
+          "actualDuration": 210.362333,
+          "startTime": 102.660458,
+          "endTime": 313.022791
+        },
+        {
+          "path": "Audio/output/364/chapter_02.wav",
+          "duration": 197.5375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Turning Point: Choosing Less for a Fuller Life",
+          "actualDuration": 197.5375,
+          "startTime": 314.522791,
+          "endTime": 512.060291
+        },
+        {
+          "path": "Audio/output/364/chapter_03.wav",
+          "duration": 202.618167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Emotional Roots of Clutter: Understanding Why Letting Go Is Hard",
+          "actualDuration": 202.618167,
+          "startTime": 513.560291,
+          "endTime": 716.178458
+        },
+        {
+          "path": "Audio/output/364/chapter_04.wav",
+          "duration": 203.475542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Practical Path: Step-by-Step Toward a Simpler Home",
+          "actualDuration": 203.475542,
+          "startTime": 717.678458,
+          "endTime": 921.154
+        },
+        {
+          "path": "Audio/output/364/chapter_05.wav",
+          "duration": 162.202917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Discovering Joy in Less: The Unexpected Rewards of Minimalism",
+          "actualDuration": 162.202917,
+          "startTime": 922.654,
+          "endTime": 1084.856917
+        },
+        {
+          "path": "Audio/output/364/chapter_06.wav",
+          "duration": 152.4355,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Living with Less, Living with Purpose: Minimalism as a Way of Being",
+          "actualDuration": 152.4355,
+          "startTime": 1086.356917,
+          "endTime": 1238.7924170000001
+        },
+        {
+          "path": "Audio/output/364/chapter_07.wav",
+          "duration": 143.748375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Relationships and Minimalism: Making Room for Connection",
+          "actualDuration": 143.748375,
+          "startTime": 1240.2924170000001,
+          "endTime": 1384.0407920000002
+        },
+        {
+          "path": "Audio/output/364/chapter_08.wav",
+          "duration": 148.130208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Work, Creativity, and the Freedom of Less",
+          "actualDuration": 148.130208,
+          "startTime": 1385.5407920000002,
+          "endTime": 1533.6710000000003
+        },
+        {
+          "path": "Audio/output/364/chapter_09.wav",
+          "duration": 131.81275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Process: Minimalism as a Lifelong Practice",
+          "actualDuration": 131.81275,
+          "startTime": 1535.1710000000003,
+          "endTime": 1666.9837500000003
+        },
+        {
+          "path": "Audio/output/364/chapter_10.wav",
+          "duration": 144.39425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Minimalism and the Wider World: Rethinking Consumption and Community",
+          "actualDuration": 144.39425,
+          "startTime": 1668.4837500000003,
+          "endTime": 1812.8780000000004
+        },
+        {
+          "path": "Audio/output/364/conclusion.wav",
+          "duration": 133.709333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.709333,
+          "startTime": 1814.3780000000004,
+          "endTime": 1948.0873330000004
+        }
+      ],
+      "totalDuration": 1948.0873330000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.16,
+          "actualStart": 0,
+          "actualEnd": 101.160458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Weight of Too Much: How Possessions Quietly Take Over",
+          "expectedStart": 101.16,
+          "expectedEnd": 311.52,
+          "actualStart": 102.660458,
+          "actualEnd": 313.022791,
+          "timeDifference": 1.500458000000009
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Turning Point: Choosing Less for a Fuller Life",
+          "expectedStart": 311.52,
+          "expectedEnd": 509.06,
+          "actualStart": 314.522791,
+          "actualEnd": 512.060291,
+          "timeDifference": 3.002791000000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Emotional Roots of Clutter: Understanding Why Letting Go Is Hard",
+          "expectedStart": 509.06,
+          "expectedEnd": 711.68,
+          "actualStart": 513.560291,
+          "actualEnd": 716.178458,
+          "timeDifference": 4.500291000000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Practical Path: Step-by-Step Toward a Simpler Home",
+          "expectedStart": 711.68,
+          "expectedEnd": 915.16,
+          "actualStart": 717.678458,
+          "actualEnd": 921.154,
+          "timeDifference": 5.998458000000028
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Discovering Joy in Less: The Unexpected Rewards of Minimalism",
+          "expectedStart": 915.16,
+          "expectedEnd": 1077.36,
+          "actualStart": 922.654,
+          "actualEnd": 1084.856917,
+          "timeDifference": 7.494000000000028
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Living with Less, Living with Purpose: Minimalism as a Way of Being",
+          "expectedStart": 1077.36,
+          "expectedEnd": 1229.8,
+          "actualStart": 1086.356917,
+          "actualEnd": 1238.7924170000001,
+          "timeDifference": 8.996917000000167
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Relationships and Minimalism: Making Room for Connection",
+          "expectedStart": 1229.8,
+          "expectedEnd": 1373.55,
+          "actualStart": 1240.2924170000001,
+          "actualEnd": 1384.0407920000002,
+          "timeDifference": 10.49241700000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Work, Creativity, and the Freedom of Less",
+          "expectedStart": 1373.55,
+          "expectedEnd": 1521.68,
+          "actualStart": 1385.5407920000002,
+          "actualEnd": 1533.6710000000003,
+          "timeDifference": 11.990792000000283
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Process: Minimalism as a Lifelong Practice",
+          "expectedStart": 1521.68,
+          "expectedEnd": 1653.49,
+          "actualStart": 1535.1710000000003,
+          "actualEnd": 1666.9837500000003,
+          "timeDifference": 13.491000000000213
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Minimalism and the Wider World: Rethinking Consumption and Community",
+          "expectedStart": 1653.49,
+          "expectedEnd": 1797.88,
+          "actualStart": 1668.4837500000003,
+          "actualEnd": 1812.8780000000004,
+          "timeDifference": 14.993750000000318
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1797.88,
+          "expectedEnd": 1931.59,
+          "actualStart": 1814.3780000000004,
+          "actualEnd": 1948.0873330000004,
+          "timeDifference": 16.498000000000275
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.160458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Weight of Too Much: How Possessions Quietly Take Over"
+        },
+        {
+          "startTime": 313.022791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Weight of Too Much: How Possessions Quietly Take Over and Chapter 2 The Turning Point: Choosing Less for a Fuller Life"
+        },
+        {
+          "startTime": 512.060291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Turning Point: Choosing Less for a Fuller Life and Chapter 3 The Emotional Roots of Clutter: Understanding Why Letting Go Is Hard"
+        },
+        {
+          "startTime": 716.178458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Emotional Roots of Clutter: Understanding Why Letting Go Is Hard and Chapter 4 The Practical Path: Step-by-Step Toward a Simpler Home"
+        },
+        {
+          "startTime": 921.154,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Practical Path: Step-by-Step Toward a Simpler Home and Chapter 5 Discovering Joy in Less: The Unexpected Rewards of Minimalism"
+        },
+        {
+          "startTime": 1084.856917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Discovering Joy in Less: The Unexpected Rewards of Minimalism and Chapter 6 Living with Less, Living with Purpose: Minimalism as a Way of Being"
+        },
+        {
+          "startTime": 1238.7924170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Living with Less, Living with Purpose: Minimalism as a Way of Being and Chapter 7 Relationships and Minimalism: Making Room for Connection"
+        },
+        {
+          "startTime": 1384.0407920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Relationships and Minimalism: Making Room for Connection and Chapter 8 Work, Creativity, and the Freedom of Less"
+        },
+        {
+          "startTime": 1533.6710000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Work, Creativity, and the Freedom of Less and Chapter 9 The Ongoing Process: Minimalism as a Lifelong Practice"
+        },
+        {
+          "startTime": 1666.9837500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Process: Minimalism as a Lifelong Practice and Chapter 10 Minimalism and the Wider World: Rethinking Consumption and Community"
+        },
+        {
+          "startTime": 1812.8780000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Minimalism and the Wider World: Rethinking Consumption and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "364",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T21:19:27.040Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

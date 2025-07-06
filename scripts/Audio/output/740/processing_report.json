@@ -1,0 +1,480 @@
+{
+  "bookId": "740",
+  "timestamp": "2025-07-05T05:27:21.005Z",
+  "success": false,
+  "processingTime": -1751692875966,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4572,
+    "totalAudioFiles": 14,
+    "totalDuration": 2184.964666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 13,
+    "failed": 1,
+    "duration": 2184.964666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/740/optimized_text/740.md",
+    "fileSize": 832,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "740.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/740/metadata/740_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2184.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/740/metadata/740_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/740/metadata/740_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/740/740_complete.wav",
+    "duration": 2184.964667,
+    "fileSize": 104878382,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/740/introduction.wav",
+          "duration": 77.635583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.635583,
+          "startTime": 0,
+          "endTime": 77.635583
+        },
+        {
+          "path": "Audio/output/740/chapter_01.wav",
+          "duration": 232.73575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Forgotten Power of Breath",
+          "actualDuration": 232.73575,
+          "startTime": 79.135583,
+          "endTime": 311.871333
+        },
+        {
+          "path": "Audio/output/740/chapter_02.wav",
+          "duration": 232.191708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science Behind Breathing and Its Impact on Health",
+          "actualDuration": 232.191708,
+          "startTime": 313.371333,
+          "endTime": 545.563041
+        },
+        {
+          "path": "Audio/output/740/chapter_03.wav",
+          "duration": 251.6935,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Ancient Wisdom and Modern Rediscovery of Breathing Techniques",
+          "actualDuration": 251.6935,
+          "startTime": 547.063041,
+          "endTime": 798.756541
+        },
+        {
+          "path": "Audio/output/740/chapter_04.wav",
+          "duration": 227.010333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Consequences of Modern Breathing Habits",
+          "actualDuration": 227.010333,
+          "startTime": 800.256541,
+          "endTime": 1027.266874
+        },
+        {
+          "path": "Audio/output/740/chapter_05.wav",
+          "duration": 193.031583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Changes, Big Results: Transforming Health Through Breath",
+          "actualDuration": 193.031583,
+          "startTime": 1028.766874,
+          "endTime": 1221.7984569999999
+        },
+        {
+          "path": "Audio/output/740/chapter_07.wav",
+          "duration": 164.323875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Breath and the Mind: Calming Anxiety, Sharpening Focus",
+          "actualDuration": 164.323875,
+          "startTime": 1223.2984569999999,
+          "endTime": 1387.622332
+        },
+        {
+          "path": "Audio/output/740/chapter_08.wav",
+          "duration": 155.443625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Breath and the Body: Healing, Performance, and Longevity",
+          "actualDuration": 155.443625,
+          "startTime": 1389.122332,
+          "endTime": 1544.5659569999998
+        },
+        {
+          "path": "Audio/output/740/chapter_09.wav",
+          "duration": 137.477875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Better Breathing into Everyday Life",
+          "actualDuration": 137.477875,
+          "startTime": 1546.0659569999998,
+          "endTime": 1683.5438319999998
+        },
+        {
+          "path": "Audio/output/740/chapter_10.wav",
+          "duration": 155.520542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Social and Cultural Dimensions of Breath",
+          "actualDuration": 155.520542,
+          "startTime": 1685.0438319999998,
+          "endTime": 1840.5643739999998
+        },
+        {
+          "path": "Audio/output/740/chapter_11.wav",
+          "duration": 127.689958,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Overcoming Obstacles: The Realities of Change",
+          "actualDuration": 127.689958,
+          "startTime": 1842.0643739999998,
+          "endTime": 1969.7543319999997
+        },
+        {
+          "path": "Audio/output/740/chapter_12.wav",
+          "duration": 106.200167,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Breath as a Lifelong Practice",
+          "actualDuration": 106.200167,
+          "startTime": 1971.2543319999997,
+          "endTime": 2077.454499
+        },
+        {
+          "path": "Audio/output/740/conclusion.wav",
+          "duration": 124.010167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.010167,
+          "startTime": 2078.954499,
+          "endTime": 2202.964666
+        }
+      ],
+      "totalDuration": 2202.964666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.64,
+          "actualStart": 0,
+          "actualEnd": 77.635583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Forgotten Power of Breath",
+          "expectedStart": 77.64,
+          "expectedEnd": 310.38,
+          "actualStart": 79.135583,
+          "actualEnd": 311.871333,
+          "timeDifference": 1.4955829999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science Behind Breathing and Its Impact on Health",
+          "expectedStart": 310.38,
+          "expectedEnd": 542.57,
+          "actualStart": 313.371333,
+          "actualEnd": 545.563041,
+          "timeDifference": 2.9913329999999974
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Ancient Wisdom and Modern Rediscovery of Breathing Techniques",
+          "expectedStart": 542.57,
+          "expectedEnd": 794.26,
+          "actualStart": 547.063041,
+          "actualEnd": 798.756541,
+          "timeDifference": 4.493040999999948
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Consequences of Modern Breathing Habits",
+          "expectedStart": 794.26,
+          "expectedEnd": 1021.27,
+          "actualStart": 800.256541,
+          "actualEnd": 1027.266874,
+          "timeDifference": 5.996540999999979
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Changes, Big Results: Transforming Health Through Breath",
+          "expectedStart": 1021.27,
+          "expectedEnd": 1214.3,
+          "actualStart": 1028.766874,
+          "actualEnd": 1221.7984569999999,
+          "timeDifference": 7.496873999999934
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Breath and the Mind: Calming Anxiety, Sharpening Focus",
+          "expectedStart": 1214.3,
+          "expectedEnd": 1378.62,
+          "actualStart": 1223.2984569999999,
+          "actualEnd": 1387.622332,
+          "timeDifference": 8.998456999999917
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Breath and the Body: Healing, Performance, and Longevity",
+          "expectedStart": 1378.62,
+          "expectedEnd": 1534.06,
+          "actualStart": 1389.122332,
+          "actualEnd": 1544.5659569999998,
+          "timeDifference": 10.502332000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Better Breathing into Everyday Life",
+          "expectedStart": 1534.06,
+          "expectedEnd": 1671.54,
+          "actualStart": 1546.0659569999998,
+          "actualEnd": 1683.5438319999998,
+          "timeDifference": 12.005956999999853
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Social and Cultural Dimensions of Breath",
+          "expectedStart": 1671.54,
+          "expectedEnd": 1827.06,
+          "actualStart": 1685.0438319999998,
+          "actualEnd": 1840.5643739999998,
+          "timeDifference": 13.503831999999875
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Overcoming Obstacles: The Realities of Change",
+          "expectedStart": 1827.06,
+          "expectedEnd": 1954.75,
+          "actualStart": 1842.0643739999998,
+          "actualEnd": 1969.7543319999997,
+          "timeDifference": 15.00437399999987
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Breath as a Lifelong Practice",
+          "expectedStart": 1954.75,
+          "expectedEnd": 2060.95,
+          "actualStart": 1971.2543319999997,
+          "actualEnd": 2077.454499,
+          "timeDifference": 16.50433199999975
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2060.95,
+          "expectedEnd": 2184.96,
+          "actualStart": 2078.954499,
+          "actualEnd": 2202.964666,
+          "timeDifference": 18.004499000000123
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.635583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Forgotten Power of Breath"
+        },
+        {
+          "startTime": 311.871333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Forgotten Power of Breath and Chapter 2 The Science Behind Breathing and Its Impact on Health"
+        },
+        {
+          "startTime": 545.563041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science Behind Breathing and Its Impact on Health and Chapter 3 Ancient Wisdom and Modern Rediscovery of Breathing Techniques"
+        },
+        {
+          "startTime": 798.756541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Ancient Wisdom and Modern Rediscovery of Breathing Techniques and Chapter 4 The Consequences of Modern Breathing Habits"
+        },
+        {
+          "startTime": 1027.266874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Consequences of Modern Breathing Habits and Chapter 5 Small Changes, Big Results: Transforming Health Through Breath"
+        },
+        {
+          "startTime": 1221.7984569999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Changes, Big Results: Transforming Health Through Breath and Chapter 7 Breath and the Mind: Calming Anxiety, Sharpening Focus"
+        },
+        {
+          "startTime": 1387.622332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Breath and the Mind: Calming Anxiety, Sharpening Focus and Chapter 8 Breath and the Body: Healing, Performance, and Longevity"
+        },
+        {
+          "startTime": 1544.5659569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Breath and the Body: Healing, Performance, and Longevity and Chapter 9 Integrating Better Breathing into Everyday Life"
+        },
+        {
+          "startTime": 1683.5438319999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Better Breathing into Everyday Life and Chapter 10 The Social and Cultural Dimensions of Breath"
+        },
+        {
+          "startTime": 1840.5643739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Social and Cultural Dimensions of Breath and Chapter 11 Overcoming Obstacles: The Realities of Change"
+        },
+        {
+          "startTime": 1969.7543319999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Overcoming Obstacles: The Realities of Change and Chapter 12 Breath as a Lifelong Practice"
+        },
+        {
+          "startTime": 2077.454499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Breath as a Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "740",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T05:21:17.180Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

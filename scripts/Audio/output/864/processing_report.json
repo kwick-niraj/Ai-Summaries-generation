@@ -1,0 +1,456 @@
+{
+  "bookId": "864",
+  "timestamp": "2025-07-05T12:30:44.371Z",
+  "success": false,
+  "processingTime": -1751718355972,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3719,
+    "totalAudioFiles": 12,
+    "totalDuration": 2035.134833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2035.134833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/864/optimized_text/864.md",
+    "fileSize": 846,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "864.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/864/metadata/864_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2035.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/864/metadata/864_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/864/metadata/864_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/864/864_complete.wav",
+    "duration": 2035.134833,
+    "fileSize": 97686550,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/864/introduction.wav",
+          "duration": 87.809583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.809583,
+          "startTime": 0,
+          "endTime": 87.809583
+        },
+        {
+          "path": "Audio/output/864/chapter_01.wav",
+          "duration": 179.409833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Procrastination Happens: The Science Behind Delay",
+          "actualDuration": 179.409833,
+          "startTime": 89.309583,
+          "endTime": 268.719416
+        },
+        {
+          "path": "Audio/output/864/chapter_02.wav",
+          "duration": 213.764625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Faces of Procrastination: Types, Triggers, and Personal Patterns",
+          "actualDuration": 213.764625,
+          "startTime": 270.219416,
+          "endTime": 483.98404100000005
+        },
+        {
+          "path": "Audio/output/864/chapter_03.wav",
+          "duration": 207.203833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Procrastination Equation in Daily Life: How Motivation Rises and Falls",
+          "actualDuration": 207.203833,
+          "startTime": 485.48404100000005,
+          "endTime": 692.6878740000001
+        },
+        {
+          "path": "Audio/output/864/chapter_04.wav",
+          "duration": 212.238917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Habits, Emotions, and Self-Control in Procrastination",
+          "actualDuration": 212.238917,
+          "startTime": 694.1878740000001,
+          "endTime": 906.4267910000001
+        },
+        {
+          "path": "Audio/output/864/chapter_05.wav",
+          "duration": 175.79,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Motivation: Strategies to Increase Value and Expectancy",
+          "actualDuration": 175.79,
+          "startTime": 907.9267910000001,
+          "endTime": 1083.716791
+        },
+        {
+          "path": "Audio/output/864/chapter_06.wav",
+          "duration": 180.913792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Managing Impulsiveness: Taming Distractions and Strengthening Focus",
+          "actualDuration": 180.913792,
+          "startTime": 1085.216791,
+          "endTime": 1266.1305830000001
+        },
+        {
+          "path": "Audio/output/864/chapter_07.wav",
+          "duration": 151.853,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Shrinking Delay: Making Rewards Immediate and Progress Visible",
+          "actualDuration": 151.853,
+          "startTime": 1267.6305830000001,
+          "endTime": 1419.4835830000002
+        },
+        {
+          "path": "Audio/output/864/chapter_08.wav",
+          "duration": 152.726167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Sustainable Habits: Turning Action Into Second Nature",
+          "actualDuration": 152.726167,
+          "startTime": 1420.9835830000002,
+          "endTime": 1573.7097500000002
+        },
+        {
+          "path": "Audio/output/864/chapter_09.wav",
+          "duration": 185.311333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Applying the Equation: Real-Life Scenarios and Tailored Solutions",
+          "actualDuration": 185.311333,
+          "startTime": 1575.2097500000002,
+          "endTime": 1760.521083
+        },
+        {
+          "path": "Audio/output/864/chapter_10.wav",
+          "duration": 162.277625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Change: Self-Compassion, Reflection, and Growth",
+          "actualDuration": 162.277625,
+          "startTime": 1762.021083,
+          "endTime": 1924.298708
+        },
+        {
+          "path": "Audio/output/864/conclusion.wav",
+          "duration": 125.836125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.836125,
+          "startTime": 1925.798708,
+          "endTime": 2051.634833
+        }
+      ],
+      "totalDuration": 2051.634833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.81,
+          "actualStart": 0,
+          "actualEnd": 87.809583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Procrastination Happens: The Science Behind Delay",
+          "expectedStart": 87.81,
+          "expectedEnd": 267.22,
+          "actualStart": 89.309583,
+          "actualEnd": 268.719416,
+          "timeDifference": 1.4995830000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Faces of Procrastination: Types, Triggers, and Personal Patterns",
+          "expectedStart": 267.22,
+          "expectedEnd": 480.98,
+          "actualStart": 270.219416,
+          "actualEnd": 483.98404100000005,
+          "timeDifference": 2.9994159999999965
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Procrastination Equation in Daily Life: How Motivation Rises and Falls",
+          "expectedStart": 480.98,
+          "expectedEnd": 688.18,
+          "actualStart": 485.48404100000005,
+          "actualEnd": 692.6878740000001,
+          "timeDifference": 4.504041000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Habits, Emotions, and Self-Control in Procrastination",
+          "expectedStart": 688.18,
+          "expectedEnd": 900.42,
+          "actualStart": 694.1878740000001,
+          "actualEnd": 906.4267910000001,
+          "timeDifference": 6.007874000000129
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Motivation: Strategies to Increase Value and Expectancy",
+          "expectedStart": 900.42,
+          "expectedEnd": 1076.21,
+          "actualStart": 907.9267910000001,
+          "actualEnd": 1083.716791,
+          "timeDifference": 7.506791000000135
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Managing Impulsiveness: Taming Distractions and Strengthening Focus",
+          "expectedStart": 1076.21,
+          "expectedEnd": 1257.12,
+          "actualStart": 1085.216791,
+          "actualEnd": 1266.1305830000001,
+          "timeDifference": 9.006791000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Shrinking Delay: Making Rewards Immediate and Progress Visible",
+          "expectedStart": 1257.12,
+          "expectedEnd": 1408.97,
+          "actualStart": 1267.6305830000001,
+          "actualEnd": 1419.4835830000002,
+          "timeDifference": 10.510583000000224
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Sustainable Habits: Turning Action Into Second Nature",
+          "expectedStart": 1408.97,
+          "expectedEnd": 1561.7,
+          "actualStart": 1420.9835830000002,
+          "actualEnd": 1573.7097500000002,
+          "timeDifference": 12.013583000000153
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Applying the Equation: Real-Life Scenarios and Tailored Solutions",
+          "expectedStart": 1561.7,
+          "expectedEnd": 1747.01,
+          "actualStart": 1575.2097500000002,
+          "actualEnd": 1760.521083,
+          "timeDifference": 13.509750000000167
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Change: Self-Compassion, Reflection, and Growth",
+          "expectedStart": 1747.01,
+          "expectedEnd": 1909.29,
+          "actualStart": 1762.021083,
+          "actualEnd": 1924.298708,
+          "timeDifference": 15.011083000000099
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1909.29,
+          "expectedEnd": 2035.13,
+          "actualStart": 1925.798708,
+          "actualEnd": 2051.634833,
+          "timeDifference": 16.50870800000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.809583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Procrastination Happens: The Science Behind Delay"
+        },
+        {
+          "startTime": 268.719416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Procrastination Happens: The Science Behind Delay and Chapter 2 The Many Faces of Procrastination: Types, Triggers, and Personal Patterns"
+        },
+        {
+          "startTime": 483.98404100000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Faces of Procrastination: Types, Triggers, and Personal Patterns and Chapter 3 The Procrastination Equation in Daily Life: How Motivation Rises and Falls"
+        },
+        {
+          "startTime": 692.6878740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Procrastination Equation in Daily Life: How Motivation Rises and Falls and Chapter 4 The Role of Habits, Emotions, and Self-Control in Procrastination"
+        },
+        {
+          "startTime": 906.4267910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Habits, Emotions, and Self-Control in Procrastination and Chapter 5 Building Motivation: Strategies to Increase Value and Expectancy"
+        },
+        {
+          "startTime": 1083.716791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Motivation: Strategies to Increase Value and Expectancy and Chapter 6 Managing Impulsiveness: Taming Distractions and Strengthening Focus"
+        },
+        {
+          "startTime": 1266.1305830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Managing Impulsiveness: Taming Distractions and Strengthening Focus and Chapter 7 Shrinking Delay: Making Rewards Immediate and Progress Visible"
+        },
+        {
+          "startTime": 1419.4835830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Shrinking Delay: Making Rewards Immediate and Progress Visible and Chapter 8 Building Sustainable Habits: Turning Action Into Second Nature"
+        },
+        {
+          "startTime": 1573.7097500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Sustainable Habits: Turning Action Into Second Nature and Chapter 9 Applying the Equation: Real-Life Scenarios and Tailored Solutions"
+        },
+        {
+          "startTime": 1760.521083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Applying the Equation: Real-Life Scenarios and Tailored Solutions and Chapter 10 Sustaining Change: Self-Compassion, Reflection, and Growth"
+        },
+        {
+          "startTime": 1924.298708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Change: Self-Compassion, Reflection, and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "864",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T12:25:57.165Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

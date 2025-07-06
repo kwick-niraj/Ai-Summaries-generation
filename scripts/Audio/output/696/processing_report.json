@@ -1,0 +1,432 @@
+{
+  "bookId": "696",
+  "timestamp": "2025-07-05T03:14:52.711Z",
+  "success": false,
+  "processingTime": -1751685000445,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4560,
+    "totalAudioFiles": 11,
+    "totalDuration": 2102.171043
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2102.171043
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/696/optimized_text/696.md",
+    "fileSize": 737,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "696.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/696/metadata/696_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2102.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/696/metadata/696_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/696/metadata/696_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/696/696_complete.wav",
+    "duration": 2102.171042,
+    "fileSize": 100904288,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/696/introduction.wav",
+          "duration": 77.810917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.810917,
+          "startTime": 0,
+          "endTime": 77.810917
+        },
+        {
+          "path": "Audio/output/696/chapter_01.wav",
+          "duration": 233.012167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Life and the Making of a Revolutionary Mind",
+          "actualDuration": 233.012167,
+          "startTime": 79.310917,
+          "endTime": 312.323084
+        },
+        {
+          "path": "Audio/output/696/chapter_02.wav",
+          "duration": 229.177875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Writing the Declaration and Defining American Ideals",
+          "actualDuration": 229.177875,
+          "startTime": 313.823084,
+          "endTime": 543.000959
+        },
+        {
+          "path": "Audio/output/696/chapter_03.wav",
+          "duration": 188.444625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Paradox of Liberty and Slavery",
+          "actualDuration": 188.444625,
+          "startTime": 544.500959,
+          "endTime": 732.9455839999999
+        },
+        {
+          "path": "Audio/output/696/chapter_04.wav",
+          "duration": 240.601625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Championing Religious Freedom and the Separation of Church and State",
+          "actualDuration": 240.601625,
+          "startTime": 734.4455839999999,
+          "endTime": 975.047209
+        },
+        {
+          "path": "Audio/output/696/chapter_05.wav",
+          "duration": 273.825375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Power: Politics, Pragmatism, and the Limits of Idealism",
+          "actualDuration": 273.825375,
+          "startTime": 976.547209,
+          "endTime": 1250.372584
+        },
+        {
+          "path": "Audio/output/696/chapter_06.wav",
+          "duration": 236.36025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Sage of Monticello: Retirement, Reflection, and the Pursuit of Knowledge",
+          "actualDuration": 236.36025,
+          "startTime": 1251.872584,
+          "endTime": 1488.232834
+        },
+        {
+          "path": "Audio/output/696/chapter_07.wav",
+          "duration": 170.596083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Founding the University of Virginia: Education as the Engine of Democracy",
+          "actualDuration": 170.596083,
+          "startTime": 1489.732834,
+          "endTime": 1660.3289169999998
+        },
+        {
+          "path": "Audio/output/696/chapter_08.wav",
+          "duration": 186.248917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Friendship, Rivalry, and the Long Correspondence with John Adams",
+          "actualDuration": 186.248917,
+          "startTime": 1661.8289169999998,
+          "endTime": 1848.0778339999997
+        },
+        {
+          "path": "Audio/output/696/chapter_09.wav",
+          "duration": 151.768167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Struggle: Jefferson’s Legacy and the American Experiment",
+          "actualDuration": 151.768167,
+          "startTime": 1849.5778339999997,
+          "endTime": 2001.3460009999997
+        },
+        {
+          "path": "Audio/output/696/conclusion.wav",
+          "duration": 114.325042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.325042,
+          "startTime": 2002.8460009999997,
+          "endTime": 2117.171043
+        }
+      ],
+      "totalDuration": 2117.171043,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.81,
+          "actualStart": 0,
+          "actualEnd": 77.810917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Life and the Making of a Revolutionary Mind",
+          "expectedStart": 77.81,
+          "expectedEnd": 310.82,
+          "actualStart": 79.310917,
+          "actualEnd": 312.323084,
+          "timeDifference": 1.5009170000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Writing the Declaration and Defining American Ideals",
+          "expectedStart": 310.82,
+          "expectedEnd": 540,
+          "actualStart": 313.823084,
+          "actualEnd": 543.000959,
+          "timeDifference": 3.003084000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Paradox of Liberty and Slavery",
+          "expectedStart": 540,
+          "expectedEnd": 728.44,
+          "actualStart": 544.500959,
+          "actualEnd": 732.9455839999999,
+          "timeDifference": 4.500958999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Championing Religious Freedom and the Separation of Church and State",
+          "expectedStart": 728.44,
+          "expectedEnd": 969.04,
+          "actualStart": 734.4455839999999,
+          "actualEnd": 975.047209,
+          "timeDifference": 6.005583999999885
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Power: Politics, Pragmatism, and the Limits of Idealism",
+          "expectedStart": 969.04,
+          "expectedEnd": 1242.87,
+          "actualStart": 976.547209,
+          "actualEnd": 1250.372584,
+          "timeDifference": 7.507208999999989
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Sage of Monticello: Retirement, Reflection, and the Pursuit of Knowledge",
+          "expectedStart": 1242.87,
+          "expectedEnd": 1479.23,
+          "actualStart": 1251.872584,
+          "actualEnd": 1488.232834,
+          "timeDifference": 9.00258400000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Founding the University of Virginia: Education as the Engine of Democracy",
+          "expectedStart": 1479.23,
+          "expectedEnd": 1649.83,
+          "actualStart": 1489.732834,
+          "actualEnd": 1660.3289169999998,
+          "timeDifference": 10.502833999999893
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Friendship, Rivalry, and the Long Correspondence with John Adams",
+          "expectedStart": 1649.83,
+          "expectedEnd": 1836.08,
+          "actualStart": 1661.8289169999998,
+          "actualEnd": 1848.0778339999997,
+          "timeDifference": 11.998916999999892
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Struggle: Jefferson’s Legacy and the American Experiment",
+          "expectedStart": 1836.08,
+          "expectedEnd": 1987.85,
+          "actualStart": 1849.5778339999997,
+          "actualEnd": 2001.3460009999997,
+          "timeDifference": 13.497833999999784
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1987.85,
+          "expectedEnd": 2102.18,
+          "actualStart": 2002.8460009999997,
+          "actualEnd": 2117.171043,
+          "timeDifference": 14.996000999999751
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.810917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Life and the Making of a Revolutionary Mind"
+        },
+        {
+          "startTime": 312.323084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Life and the Making of a Revolutionary Mind and Chapter 2 Writing the Declaration and Defining American Ideals"
+        },
+        {
+          "startTime": 543.000959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Writing the Declaration and Defining American Ideals and Chapter 3 The Paradox of Liberty and Slavery"
+        },
+        {
+          "startTime": 732.9455839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Paradox of Liberty and Slavery and Chapter 4 Championing Religious Freedom and the Separation of Church and State"
+        },
+        {
+          "startTime": 975.047209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Championing Religious Freedom and the Separation of Church and State and Chapter 5 Navigating Power: Politics, Pragmatism, and the Limits of Idealism"
+        },
+        {
+          "startTime": 1250.372584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Power: Politics, Pragmatism, and the Limits of Idealism and Chapter 6 The Sage of Monticello: Retirement, Reflection, and the Pursuit of Knowledge"
+        },
+        {
+          "startTime": 1488.232834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Sage of Monticello: Retirement, Reflection, and the Pursuit of Knowledge and Chapter 7 Founding the University of Virginia: Education as the Engine of Democracy"
+        },
+        {
+          "startTime": 1660.3289169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Founding the University of Virginia: Education as the Engine of Democracy and Chapter 8 Friendship, Rivalry, and the Long Correspondence with John Adams"
+        },
+        {
+          "startTime": 1848.0778339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Friendship, Rivalry, and the Long Correspondence with John Adams and Chapter 9 The Ongoing Struggle: Jefferson’s Legacy and the American Experiment"
+        },
+        {
+          "startTime": 2001.3460009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Struggle: Jefferson’s Legacy and the American Experiment and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "696",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:10:01.984Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

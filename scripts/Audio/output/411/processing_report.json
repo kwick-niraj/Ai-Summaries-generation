@@ -1,0 +1,455 @@
+{
+  "bookId": "411",
+  "timestamp": "2025-07-04T01:53:36.795Z",
+  "success": false,
+  "processingTime": -1751593675159,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4570,
+    "totalAudioFiles": 12,
+    "totalDuration": 2241.8142080000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2241.8142080000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/411/optimized_text/411.md",
+    "fileSize": 911,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "411.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/411/metadata/411_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2241.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/411/metadata/411_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/411/metadata/411_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/411/411_complete.wav",
+    "duration": 2241.814208,
+    "fileSize": 107607160,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/411/introduction.wav",
+          "duration": 70.692667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 70.692667,
+          "startTime": 0,
+          "endTime": 70.692667
+        },
+        {
+          "path": "Audio/output/411/chapter_01.wav",
+          "duration": 242.372958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Diabetes and High Cholesterol—What’s Happening Inside the Body",
+          "actualDuration": 242.372958,
+          "startTime": 72.192667,
+          "endTime": 314.565625
+        },
+        {
+          "path": "Audio/output/411/chapter_02.wav",
+          "duration": 262.814375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Nutrition—Building a Foundation for Blood Sugar and Cholesterol Control",
+          "actualDuration": 262.814375,
+          "startTime": 316.065625,
+          "endTime": 578.88
+        },
+        {
+          "path": "Audio/output/411/chapter_03.wav",
+          "duration": 218.258708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Physical Activity—Moving Toward Better Health",
+          "actualDuration": 218.258708,
+          "startTime": 580.38,
+          "endTime": 798.638708
+        },
+        {
+          "path": "Audio/output/411/chapter_04.wav",
+          "duration": 250.254375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Monitoring and Medication—Tools for Staying on Track",
+          "actualDuration": 250.254375,
+          "startTime": 800.138708,
+          "endTime": 1050.393083
+        },
+        {
+          "path": "Audio/output/411/chapter_05.wav",
+          "duration": 197.2655,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lifestyle and Behavioral Changes—Sustaining Health for the Long Term",
+          "actualDuration": 197.2655,
+          "startTime": 1051.893083,
+          "endTime": 1249.158583
+        },
+        {
+          "path": "Audio/output/411/chapter_06.wav",
+          "duration": 203.706292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Preventing and Managing Complications—Staying Ahead of the Curve",
+          "actualDuration": 203.706292,
+          "startTime": 1250.658583,
+          "endTime": 1454.364875
+        },
+        {
+          "path": "Audio/output/411/chapter_07.wav",
+          "duration": 178.02125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Self-Care into Daily Life—Making Healthy Choices Automatic",
+          "actualDuration": 178.02125,
+          "startTime": 1455.864875,
+          "endTime": 1633.886125
+        },
+        {
+          "path": "Audio/output/411/chapter_08.wav",
+          "duration": 166.846875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Social Situations and Special Occasions—Staying Flexible Without Losing Ground",
+          "actualDuration": 166.846875,
+          "startTime": 1635.386125,
+          "endTime": 1802.233
+        },
+        {
+          "path": "Audio/output/411/chapter_09.wav",
+          "duration": 155.369167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Working with Your Healthcare Team—Building a Partnership for Success",
+          "actualDuration": 155.369167,
+          "startTime": 1803.733,
+          "endTime": 1959.102167
+        },
+        {
+          "path": "Audio/output/411/chapter_10.wav",
+          "duration": 166.921208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Adapting Over Time—Responding to Change with Flexibility and Resilience",
+          "actualDuration": 166.921208,
+          "startTime": 1960.602167,
+          "endTime": 2127.523375
+        },
+        {
+          "path": "Audio/output/411/conclusion.wav",
+          "duration": 129.290833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.290833,
+          "startTime": 2129.023375,
+          "endTime": 2258.3142080000002
+        }
+      ],
+      "totalDuration": 2258.3142080000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 70.69,
+          "actualStart": 0,
+          "actualEnd": 70.692667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Diabetes and High Cholesterol—What’s Happening Inside the Body",
+          "expectedStart": 70.69,
+          "expectedEnd": 313.06,
+          "actualStart": 72.192667,
+          "actualEnd": 314.565625,
+          "timeDifference": 1.5026670000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Nutrition—Building a Foundation for Blood Sugar and Cholesterol Control",
+          "expectedStart": 313.06,
+          "expectedEnd": 575.87,
+          "actualStart": 316.065625,
+          "actualEnd": 578.88,
+          "timeDifference": 3.005625000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Physical Activity—Moving Toward Better Health",
+          "expectedStart": 575.87,
+          "expectedEnd": 794.13,
+          "actualStart": 580.38,
+          "actualEnd": 798.638708,
+          "timeDifference": 4.509999999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Monitoring and Medication—Tools for Staying on Track",
+          "expectedStart": 794.13,
+          "expectedEnd": 1044.38,
+          "actualStart": 800.138708,
+          "actualEnd": 1050.393083,
+          "timeDifference": 6.008707999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lifestyle and Behavioral Changes—Sustaining Health for the Long Term",
+          "expectedStart": 1044.38,
+          "expectedEnd": 1241.65,
+          "actualStart": 1051.893083,
+          "actualEnd": 1249.158583,
+          "timeDifference": 7.513082999999824
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Preventing and Managing Complications—Staying Ahead of the Curve",
+          "expectedStart": 1241.65,
+          "expectedEnd": 1445.36,
+          "actualStart": 1250.658583,
+          "actualEnd": 1454.364875,
+          "timeDifference": 9.008582999999817
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Self-Care into Daily Life—Making Healthy Choices Automatic",
+          "expectedStart": 1445.36,
+          "expectedEnd": 1623.38,
+          "actualStart": 1455.864875,
+          "actualEnd": 1633.886125,
+          "timeDifference": 10.504875000000084
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Social Situations and Special Occasions—Staying Flexible Without Losing Ground",
+          "expectedStart": 1623.38,
+          "expectedEnd": 1790.23,
+          "actualStart": 1635.386125,
+          "actualEnd": 1802.233,
+          "timeDifference": 12.006124999999884
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Working with Your Healthcare Team—Building a Partnership for Success",
+          "expectedStart": 1790.23,
+          "expectedEnd": 1945.6,
+          "actualStart": 1803.733,
+          "actualEnd": 1959.102167,
+          "timeDifference": 13.502999999999929
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Adapting Over Time—Responding to Change with Flexibility and Resilience",
+          "expectedStart": 1945.6,
+          "expectedEnd": 2112.52,
+          "actualStart": 1960.602167,
+          "actualEnd": 2127.523375,
+          "timeDifference": 15.0021670000001
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2112.52,
+          "expectedEnd": 2241.81,
+          "actualStart": 2129.023375,
+          "actualEnd": 2258.3142080000002,
+          "timeDifference": 16.503375000000233
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 70.692667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Diabetes and High Cholesterol—What’s Happening Inside the Body"
+        },
+        {
+          "startTime": 314.565625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Diabetes and High Cholesterol—What’s Happening Inside the Body and Chapter 2 The Role of Nutrition—Building a Foundation for Blood Sugar and Cholesterol Control"
+        },
+        {
+          "startTime": 578.88,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Nutrition—Building a Foundation for Blood Sugar and Cholesterol Control and Chapter 3 Physical Activity—Moving Toward Better Health"
+        },
+        {
+          "startTime": 798.638708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Physical Activity—Moving Toward Better Health and Chapter 4 Monitoring and Medication—Tools for Staying on Track"
+        },
+        {
+          "startTime": 1050.393083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Monitoring and Medication—Tools for Staying on Track and Chapter 5 Lifestyle and Behavioral Changes—Sustaining Health for the Long Term"
+        },
+        {
+          "startTime": 1249.158583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lifestyle and Behavioral Changes—Sustaining Health for the Long Term and Chapter 6 Preventing and Managing Complications—Staying Ahead of the Curve"
+        },
+        {
+          "startTime": 1454.364875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Preventing and Managing Complications—Staying Ahead of the Curve and Chapter 7 Integrating Self-Care into Daily Life—Making Healthy Choices Automatic"
+        },
+        {
+          "startTime": 1633.886125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Self-Care into Daily Life—Making Healthy Choices Automatic and Chapter 8 Navigating Social Situations and Special Occasions—Staying Flexible Without Losing Ground"
+        },
+        {
+          "startTime": 1802.233,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Social Situations and Special Occasions—Staying Flexible Without Losing Ground and Chapter 9 Working with Your Healthcare Team—Building a Partnership for Success"
+        },
+        {
+          "startTime": 1959.102167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Working with Your Healthcare Team—Building a Partnership for Success and Chapter 10 Adapting Over Time—Responding to Change with Flexibility and Resilience"
+        },
+        {
+          "startTime": 2127.523375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Adapting Over Time—Responding to Change with Flexibility and Resilience and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "411",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T01:47:56.777Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

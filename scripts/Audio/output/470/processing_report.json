@@ -1,0 +1,456 @@
+{
+  "bookId": "470",
+  "timestamp": "2025-07-04T05:10:58.198Z",
+  "success": false,
+  "processingTime": -1751605592566,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4583,
+    "totalAudioFiles": 12,
+    "totalDuration": 1921.838291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1921.838291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/470/optimized_text/470.md",
+    "fileSize": 568,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "470.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/470/metadata/470_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1921.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/470/metadata/470_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/470/metadata/470_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/470/470_complete.wav",
+    "duration": 1921.838292,
+    "fileSize": 92248316,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/470/introduction.wav",
+          "duration": 107.343417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.343417,
+          "startTime": 0,
+          "endTime": 107.343417
+        },
+        {
+          "path": "Audio/output/470/chapter_01.wav",
+          "duration": 225.387625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Two Families, One House, and the Weight of History",
+          "actualDuration": 225.387625,
+          "startTime": 108.843417,
+          "endTime": 334.231042
+        },
+        {
+          "path": "Audio/output/470/chapter_02.wav",
+          "duration": 188.942583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Childhoods Shaped by Conflict and Memory",
+          "actualDuration": 188.942583,
+          "startTime": 335.731042,
+          "endTime": 524.673625
+        },
+        {
+          "path": "Audio/output/470/chapter_03.wav",
+          "duration": 213.2505,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 A Journey Back and an Unexpected Meeting",
+          "actualDuration": 213.2505,
+          "startTime": 526.173625,
+          "endTime": 739.424125
+        },
+        {
+          "path": "Audio/output/470/chapter_04.wav",
+          "duration": 185.648625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Dialogue, Understanding, and the Limits of Reconciliation",
+          "actualDuration": 185.648625,
+          "startTime": 740.924125,
+          "endTime": 926.57275
+        },
+        {
+          "path": "Audio/output/470/chapter_05.wav",
+          "duration": 166.019583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Struggle for Home and Identity",
+          "actualDuration": 166.019583,
+          "startTime": 928.07275,
+          "endTime": 1094.092333
+        },
+        {
+          "path": "Audio/output/470/chapter_06.wav",
+          "duration": 136.579458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Past in the Present",
+          "actualDuration": 136.579458,
+          "startTime": 1095.592333,
+          "endTime": 1232.171791
+        },
+        {
+          "path": "Audio/output/470/chapter_07.wav",
+          "duration": 174.072292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Walls Between Us",
+          "actualDuration": 174.072292,
+          "startTime": 1233.671791,
+          "endTime": 1407.744083
+        },
+        {
+          "path": "Audio/output/470/chapter_08.wav",
+          "duration": 138.604958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Memory, Justice, and the Search for Peace",
+          "actualDuration": 138.604958,
+          "startTime": 1409.244083,
+          "endTime": 1547.849041
+        },
+        {
+          "path": "Audio/output/470/chapter_09.wav",
+          "duration": 117.42225,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Lemon Tree as Witness",
+          "actualDuration": 117.42225,
+          "startTime": 1549.349041,
+          "endTime": 1666.771291
+        },
+        {
+          "path": "Audio/output/470/chapter_10.wav",
+          "duration": 135.295708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Lemon Tree",
+          "actualDuration": 135.295708,
+          "startTime": 1668.271291,
+          "endTime": 1803.5669990000001
+        },
+        {
+          "path": "Audio/output/470/conclusion.wav",
+          "duration": 133.271292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.271292,
+          "startTime": 1805.0669990000001,
+          "endTime": 1938.338291
+        }
+      ],
+      "totalDuration": 1938.338291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.34,
+          "actualStart": 0,
+          "actualEnd": 107.343417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Two Families, One House, and the Weight of History",
+          "expectedStart": 107.34,
+          "expectedEnd": 332.73,
+          "actualStart": 108.843417,
+          "actualEnd": 334.231042,
+          "timeDifference": 1.503416999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Childhoods Shaped by Conflict and Memory",
+          "expectedStart": 332.73,
+          "expectedEnd": 521.67,
+          "actualStart": 335.731042,
+          "actualEnd": 524.673625,
+          "timeDifference": 3.001041999999984
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 A Journey Back and an Unexpected Meeting",
+          "expectedStart": 521.67,
+          "expectedEnd": 734.92,
+          "actualStart": 526.173625,
+          "actualEnd": 739.424125,
+          "timeDifference": 4.503625000000056
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Dialogue, Understanding, and the Limits of Reconciliation",
+          "expectedStart": 734.92,
+          "expectedEnd": 920.57,
+          "actualStart": 740.924125,
+          "actualEnd": 926.57275,
+          "timeDifference": 6.004125000000045
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Struggle for Home and Identity",
+          "expectedStart": 920.57,
+          "expectedEnd": 1086.59,
+          "actualStart": 928.07275,
+          "actualEnd": 1094.092333,
+          "timeDifference": 7.502749999999992
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Past in the Present",
+          "expectedStart": 1086.59,
+          "expectedEnd": 1223.17,
+          "actualStart": 1095.592333,
+          "actualEnd": 1232.171791,
+          "timeDifference": 9.002333000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Walls Between Us",
+          "expectedStart": 1223.17,
+          "expectedEnd": 1397.24,
+          "actualStart": 1233.671791,
+          "actualEnd": 1407.744083,
+          "timeDifference": 10.501790999999912
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Memory, Justice, and the Search for Peace",
+          "expectedStart": 1397.24,
+          "expectedEnd": 1535.84,
+          "actualStart": 1409.244083,
+          "actualEnd": 1547.849041,
+          "timeDifference": 12.004083000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Lemon Tree as Witness",
+          "expectedStart": 1535.84,
+          "expectedEnd": 1653.26,
+          "actualStart": 1549.349041,
+          "actualEnd": 1666.771291,
+          "timeDifference": 13.509041000000025
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Lemon Tree",
+          "expectedStart": 1653.26,
+          "expectedEnd": 1788.56,
+          "actualStart": 1668.271291,
+          "actualEnd": 1803.5669990000001,
+          "timeDifference": 15.011291000000028
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1788.56,
+          "expectedEnd": 1921.83,
+          "actualStart": 1805.0669990000001,
+          "actualEnd": 1938.338291,
+          "timeDifference": 16.506999000000178
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.343417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Two Families, One House, and the Weight of History"
+        },
+        {
+          "startTime": 334.231042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Two Families, One House, and the Weight of History and Chapter 2 Childhoods Shaped by Conflict and Memory"
+        },
+        {
+          "startTime": 524.673625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Childhoods Shaped by Conflict and Memory and Chapter 3 A Journey Back and an Unexpected Meeting"
+        },
+        {
+          "startTime": 739.424125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 A Journey Back and an Unexpected Meeting and Chapter 4 Dialogue, Understanding, and the Limits of Reconciliation"
+        },
+        {
+          "startTime": 926.57275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Dialogue, Understanding, and the Limits of Reconciliation and Chapter 5 The Ongoing Struggle for Home and Identity"
+        },
+        {
+          "startTime": 1094.092333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Struggle for Home and Identity and Chapter 6 The Past in the Present"
+        },
+        {
+          "startTime": 1232.171791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Past in the Present and Chapter 7 The Walls Between Us"
+        },
+        {
+          "startTime": 1407.744083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Walls Between Us and Chapter 8 Memory, Justice, and the Search for Peace"
+        },
+        {
+          "startTime": 1547.849041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Memory, Justice, and the Search for Peace and Chapter 9 The Lemon Tree as Witness"
+        },
+        {
+          "startTime": 1666.771291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Lemon Tree as Witness and Chapter 10 Lessons from the Lemon Tree"
+        },
+        {
+          "startTime": 1803.5669990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Lemon Tree and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "470",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:06:34.210Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

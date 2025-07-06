@@ -1,0 +1,504 @@
+{
+  "bookId": "874",
+  "timestamp": "2025-07-05T13:19:59.293Z",
+  "success": false,
+  "processingTime": -1751720997337,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 5100,
+    "totalAudioFiles": 15,
+    "totalDuration": 2167.033582
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 14,
+    "failed": 1,
+    "duration": 2167.033582
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/874/optimized_text/874.md",
+    "fileSize": 875,
+    "wordCount": 129,
+    "format": "markdown",
+    "filename": "874.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/874/metadata/874_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2167.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/874/metadata/874_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/874/metadata/874_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/874/874_complete.wav",
+    "duration": 2167.033583,
+    "fileSize": 104017690,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/874/introduction.wav",
+          "duration": 94.41825,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.41825,
+          "startTime": 0,
+          "endTime": 94.41825
+        },
+        {
+          "path": "Audio/output/874/chapter_01.wav",
+          "duration": 187.197042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Question of Life’s Worth",
+          "actualDuration": 187.197042,
+          "startTime": 95.91825,
+          "endTime": 283.115292
+        },
+        {
+          "path": "Audio/output/874/chapter_02.wav",
+          "duration": 208.112208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Clash Between Human Longing and an Indifferent World",
+          "actualDuration": 208.112208,
+          "startTime": 284.615292,
+          "endTime": 492.7275
+        },
+        {
+          "path": "Audio/output/874/chapter_04.wav",
+          "duration": 190.96325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living Without Illusions: Embracing the Absurd",
+          "actualDuration": 190.96325,
+          "startTime": 494.2275,
+          "endTime": 685.19075
+        },
+        {
+          "path": "Audio/output/874/chapter_05.wav",
+          "duration": 162.4785,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Story of Sisyphus: Finding Fulfillment in the Struggle",
+          "actualDuration": 162.4785,
+          "startTime": 686.69075,
+          "endTime": 849.1692499999999
+        },
+        {
+          "path": "Audio/output/874/chapter_06.wav",
+          "duration": 181.719833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Absurd Hero: Living in Defiance",
+          "actualDuration": 181.719833,
+          "startTime": 850.6692499999999,
+          "endTime": 1032.389083
+        },
+        {
+          "path": "Audio/output/874/chapter_07.wav",
+          "duration": 169.601208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Limits of Reason and the Power of Experience",
+          "actualDuration": 169.601208,
+          "startTime": 1033.889083,
+          "endTime": 1203.490291
+        },
+        {
+          "path": "Audio/output/874/chapter_08.wav",
+          "duration": 150.827125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Revolt: The Only Coherent Response",
+          "actualDuration": 150.827125,
+          "startTime": 1204.990291,
+          "endTime": 1355.817416
+        },
+        {
+          "path": "Audio/output/874/chapter_09.wav",
+          "duration": 152.486208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Absurd in Everyday Life",
+          "actualDuration": 152.486208,
+          "startTime": 1357.317416,
+          "endTime": 1509.8036240000001
+        },
+        {
+          "path": "Audio/output/874/chapter_10.wav",
+          "duration": 142.126,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Leap: Why Refusing to Escape Matters",
+          "actualDuration": 142.126,
+          "startTime": 1511.3036240000001,
+          "endTime": 1653.429624
+        },
+        {
+          "path": "Audio/output/874/chapter_11.wav",
+          "duration": 143.8525,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Absurd Creator: Art, Imagination, and the Act of Making",
+          "actualDuration": 143.8525,
+          "startTime": 1654.929624,
+          "endTime": 1798.782124
+        },
+        {
+          "path": "Audio/output/874/chapter_12.wav",
+          "duration": 116.372333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Solidarity: Finding Connection in a Silent World",
+          "actualDuration": 116.372333,
+          "startTime": 1800.282124,
+          "endTime": 1916.654457
+        },
+        {
+          "path": "Audio/output/874/chapter_13.wav",
+          "duration": 129.340375,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Ongoing Struggle: Accepting the Absurd as a Way of Life",
+          "actualDuration": 129.340375,
+          "startTime": 1918.154457,
+          "endTime": 2047.494832
+        },
+        {
+          "path": "Audio/output/874/conclusion.wav",
+          "duration": 137.53875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.53875,
+          "startTime": 2048.9948320000003,
+          "endTime": 2186.5335820000005
+        }
+      ],
+      "totalDuration": 2186.5335820000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.42,
+          "actualStart": 0,
+          "actualEnd": 94.41825,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Question of Life’s Worth",
+          "expectedStart": 94.42,
+          "expectedEnd": 281.62,
+          "actualStart": 95.91825,
+          "actualEnd": 283.115292,
+          "timeDifference": 1.4982499999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Clash Between Human Longing and an Indifferent World",
+          "expectedStart": 281.62,
+          "expectedEnd": 489.73,
+          "actualStart": 284.615292,
+          "actualEnd": 492.7275,
+          "timeDifference": 2.9952920000000063
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living Without Illusions: Embracing the Absurd",
+          "expectedStart": 489.73,
+          "expectedEnd": 680.69,
+          "actualStart": 494.2275,
+          "actualEnd": 685.19075,
+          "timeDifference": 4.497500000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Story of Sisyphus: Finding Fulfillment in the Struggle",
+          "expectedStart": 680.69,
+          "expectedEnd": 843.17,
+          "actualStart": 686.69075,
+          "actualEnd": 849.1692499999999,
+          "timeDifference": 6.000749999999925
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Absurd Hero: Living in Defiance",
+          "expectedStart": 843.17,
+          "expectedEnd": 1024.89,
+          "actualStart": 850.6692499999999,
+          "actualEnd": 1032.389083,
+          "timeDifference": 7.499249999999961
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Limits of Reason and the Power of Experience",
+          "expectedStart": 1024.89,
+          "expectedEnd": 1194.49,
+          "actualStart": 1033.889083,
+          "actualEnd": 1203.490291,
+          "timeDifference": 8.999082999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Revolt: The Only Coherent Response",
+          "expectedStart": 1194.49,
+          "expectedEnd": 1345.32,
+          "actualStart": 1204.990291,
+          "actualEnd": 1355.817416,
+          "timeDifference": 10.500291000000061
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Absurd in Everyday Life",
+          "expectedStart": 1345.32,
+          "expectedEnd": 1497.81,
+          "actualStart": 1357.317416,
+          "actualEnd": 1509.8036240000001,
+          "timeDifference": 11.997416000000158
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Leap: Why Refusing to Escape Matters",
+          "expectedStart": 1497.81,
+          "expectedEnd": 1639.94,
+          "actualStart": 1511.3036240000001,
+          "actualEnd": 1653.429624,
+          "timeDifference": 13.493624000000182
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Absurd Creator: Art, Imagination, and the Act of Making",
+          "expectedStart": 1639.94,
+          "expectedEnd": 1783.79,
+          "actualStart": 1654.929624,
+          "actualEnd": 1798.782124,
+          "timeDifference": 14.989624000000049
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Solidarity: Finding Connection in a Silent World",
+          "expectedStart": 1783.79,
+          "expectedEnd": 1900.16,
+          "actualStart": 1800.282124,
+          "actualEnd": 1916.654457,
+          "timeDifference": 16.492124000000103
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Ongoing Struggle: Accepting the Absurd as a Way of Life",
+          "expectedStart": 1900.16,
+          "expectedEnd": 2029.5,
+          "actualStart": 1918.154457,
+          "actualEnd": 2047.494832,
+          "timeDifference": 17.99445700000001
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2029.5,
+          "expectedEnd": 2167.04,
+          "actualStart": 2048.9948320000003,
+          "actualEnd": 2186.5335820000005,
+          "timeDifference": 19.494832000000315
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.41825,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Question of Life’s Worth"
+        },
+        {
+          "startTime": 283.115292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Question of Life’s Worth and Chapter 2 The Clash Between Human Longing and an Indifferent World"
+        },
+        {
+          "startTime": 492.7275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Clash Between Human Longing and an Indifferent World and Chapter 4 Living Without Illusions: Embracing the Absurd"
+        },
+        {
+          "startTime": 685.19075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living Without Illusions: Embracing the Absurd and Chapter 5 The Story of Sisyphus: Finding Fulfillment in the Struggle"
+        },
+        {
+          "startTime": 849.1692499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Story of Sisyphus: Finding Fulfillment in the Struggle and Chapter 6 The Absurd Hero: Living in Defiance"
+        },
+        {
+          "startTime": 1032.389083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Absurd Hero: Living in Defiance and Chapter 7 The Limits of Reason and the Power of Experience"
+        },
+        {
+          "startTime": 1203.490291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Limits of Reason and the Power of Experience and Chapter 8 Revolt: The Only Coherent Response"
+        },
+        {
+          "startTime": 1355.817416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Revolt: The Only Coherent Response and Chapter 9 The Absurd in Everyday Life"
+        },
+        {
+          "startTime": 1509.8036240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Absurd in Everyday Life and Chapter 10 The Leap: Why Refusing to Escape Matters"
+        },
+        {
+          "startTime": 1653.429624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Leap: Why Refusing to Escape Matters and Chapter 11 The Absurd Creator: Art, Imagination, and the Act of Making"
+        },
+        {
+          "startTime": 1798.782124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Absurd Creator: Art, Imagination, and the Act of Making and Chapter 12 Solidarity: Finding Connection in a Silent World"
+        },
+        {
+          "startTime": 1916.654457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Solidarity: Finding Connection in a Silent World and Chapter 13 The Ongoing Struggle: Accepting the Absurd as a Way of Life"
+        },
+        {
+          "startTime": 2047.494832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Ongoing Struggle: Accepting the Absurd as a Way of Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "874",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T13:09:57.935Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1136",
+  "timestamp": "2025-07-06T16:40:35.253Z",
+  "success": false,
+  "processingTime": -1751819513594,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4919,
+    "totalAudioFiles": 12,
+    "totalDuration": 2094.7714579999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2094.7714579999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1136/optimized_text/1136.md",
+    "fileSize": 797,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "1136.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1136/metadata/1136_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2094.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1136/metadata/1136_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1136/metadata/1136_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: educational, professional (+16) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1136/1136_complete.wav",
+    "duration": 2094.771458,
+    "fileSize": 100549108,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1136/introduction.wav",
+          "duration": 83.813958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.813958,
+          "startTime": 0,
+          "endTime": 83.813958
+        },
+        {
+          "path": "Audio/output/1136/chapter_01.wav",
+          "duration": 239.654958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Valley Shaped by Tradition and Hope",
+          "actualDuration": 239.654958,
+          "startTime": 85.313958,
+          "endTime": 324.968916
+        },
+        {
+          "path": "Audio/output/1136/chapter_02.wav",
+          "duration": 227.728083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Family, Faith, and Early Lessons in Justice",
+          "actualDuration": 227.728083,
+          "startTime": 326.468916,
+          "endTime": 554.196999
+        },
+        {
+          "path": "Audio/output/1136/chapter_03.wav",
+          "duration": 202.35575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rising Threats: Extremism, Fear, and the Fight for Education",
+          "actualDuration": 202.35575,
+          "startTime": 555.696999,
+          "endTime": 758.052749
+        },
+        {
+          "path": "Audio/output/1136/chapter_04.wav",
+          "duration": 231.313667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Speaking Out: Advocacy, Global Attention, and the Cost of Courage",
+          "actualDuration": 231.313667,
+          "startTime": 759.552749,
+          "endTime": 990.866416
+        },
+        {
+          "path": "Audio/output/1136/chapter_05.wav",
+          "duration": 195.590375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Recovery, Reflection, and the Unbreakable Spirit of Advocacy",
+          "actualDuration": 195.590375,
+          "startTime": 992.366416,
+          "endTime": 1187.956791
+        },
+        {
+          "path": "Audio/output/1136/chapter_06.wav",
+          "duration": 215.408958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 A New World: Finding Her Place and Purpose Abroad",
+          "actualDuration": 215.408958,
+          "startTime": 1189.456791,
+          "endTime": 1404.865749
+        },
+        {
+          "path": "Audio/output/1136/chapter_07.wav",
+          "duration": 175.0755,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Inspiring Change and Building a Movement",
+          "actualDuration": 175.0755,
+          "startTime": 1406.365749,
+          "endTime": 1581.441249
+        },
+        {
+          "path": "Audio/output/1136/chapter_08.wav",
+          "duration": 130.605458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Setbacks: Doubt, Fatigue, and the Long Road to Change",
+          "actualDuration": 130.605458,
+          "startTime": 1582.941249,
+          "endTime": 1713.546707
+        },
+        {
+          "path": "Audio/output/1136/chapter_09.wav",
+          "duration": 139.605167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Nobel Moment: Recognition, Responsibility, and Renewed Commitment",
+          "actualDuration": 139.605167,
+          "startTime": 1715.046707,
+          "endTime": 1854.651874
+        },
+        {
+          "path": "Audio/output/1136/chapter_10.wav",
+          "duration": 140.023792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the World: Hope, Solidarity, and the Ongoing Struggle",
+          "actualDuration": 140.023792,
+          "startTime": 1856.151874,
+          "endTime": 1996.1756659999999
+        },
+        {
+          "path": "Audio/output/1136/conclusion.wav",
+          "duration": 113.595792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.595792,
+          "startTime": 1997.6756659999999,
+          "endTime": 2111.2714579999997
+        }
+      ],
+      "totalDuration": 2111.2714579999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.81,
+          "actualStart": 0,
+          "actualEnd": 83.813958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Valley Shaped by Tradition and Hope",
+          "expectedStart": 83.81,
+          "expectedEnd": 323.46,
+          "actualStart": 85.313958,
+          "actualEnd": 324.968916,
+          "timeDifference": 1.5039579999999972
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Family, Faith, and Early Lessons in Justice",
+          "expectedStart": 323.46,
+          "expectedEnd": 551.19,
+          "actualStart": 326.468916,
+          "actualEnd": 554.196999,
+          "timeDifference": 3.0089159999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rising Threats: Extremism, Fear, and the Fight for Education",
+          "expectedStart": 551.19,
+          "expectedEnd": 753.55,
+          "actualStart": 555.696999,
+          "actualEnd": 758.052749,
+          "timeDifference": 4.506998999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Speaking Out: Advocacy, Global Attention, and the Cost of Courage",
+          "expectedStart": 753.55,
+          "expectedEnd": 984.86,
+          "actualStart": 759.552749,
+          "actualEnd": 990.866416,
+          "timeDifference": 6.002748999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Recovery, Reflection, and the Unbreakable Spirit of Advocacy",
+          "expectedStart": 984.86,
+          "expectedEnd": 1180.45,
+          "actualStart": 992.366416,
+          "actualEnd": 1187.956791,
+          "timeDifference": 7.506415999999945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 A New World: Finding Her Place and Purpose Abroad",
+          "expectedStart": 1180.45,
+          "expectedEnd": 1395.86,
+          "actualStart": 1189.456791,
+          "actualEnd": 1404.865749,
+          "timeDifference": 9.006791000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Inspiring Change and Building a Movement",
+          "expectedStart": 1395.86,
+          "expectedEnd": 1570.94,
+          "actualStart": 1406.365749,
+          "actualEnd": 1581.441249,
+          "timeDifference": 10.50574900000015
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Setbacks: Doubt, Fatigue, and the Long Road to Change",
+          "expectedStart": 1570.94,
+          "expectedEnd": 1701.55,
+          "actualStart": 1582.941249,
+          "actualEnd": 1713.546707,
+          "timeDifference": 12.001248999999916
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Nobel Moment: Recognition, Responsibility, and Renewed Commitment",
+          "expectedStart": 1701.55,
+          "expectedEnd": 1841.16,
+          "actualStart": 1715.046707,
+          "actualEnd": 1854.651874,
+          "timeDifference": 13.496707000000015
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the World: Hope, Solidarity, and the Ongoing Struggle",
+          "expectedStart": 1841.16,
+          "expectedEnd": 1981.18,
+          "actualStart": 1856.151874,
+          "actualEnd": 1996.1756659999999,
+          "timeDifference": 14.991873999999825
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1981.18,
+          "expectedEnd": 2094.78,
+          "actualStart": 1997.6756659999999,
+          "actualEnd": 2111.2714579999997,
+          "timeDifference": 16.4956659999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.813958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Valley Shaped by Tradition and Hope"
+        },
+        {
+          "startTime": 324.968916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Valley Shaped by Tradition and Hope and Chapter 2 The Power of Family, Faith, and Early Lessons in Justice"
+        },
+        {
+          "startTime": 554.196999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Family, Faith, and Early Lessons in Justice and Chapter 3 Rising Threats: Extremism, Fear, and the Fight for Education"
+        },
+        {
+          "startTime": 758.052749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rising Threats: Extremism, Fear, and the Fight for Education and Chapter 4 Speaking Out: Advocacy, Global Attention, and the Cost of Courage"
+        },
+        {
+          "startTime": 990.866416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Speaking Out: Advocacy, Global Attention, and the Cost of Courage and Chapter 5 Recovery, Reflection, and the Unbreakable Spirit of Advocacy"
+        },
+        {
+          "startTime": 1187.956791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Recovery, Reflection, and the Unbreakable Spirit of Advocacy and Chapter 6 A New World: Finding Her Place and Purpose Abroad"
+        },
+        {
+          "startTime": 1404.865749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 A New World: Finding Her Place and Purpose Abroad and Chapter 7 The Ripple Effect: Inspiring Change and Building a Movement"
+        },
+        {
+          "startTime": 1581.441249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Inspiring Change and Building a Movement and Chapter 8 Facing Setbacks: Doubt, Fatigue, and the Long Road to Change"
+        },
+        {
+          "startTime": 1713.546707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Setbacks: Doubt, Fatigue, and the Long Road to Change and Chapter 9 The Nobel Moment: Recognition, Responsibility, and Renewed Commitment"
+        },
+        {
+          "startTime": 1854.651874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Nobel Moment: Recognition, Responsibility, and Renewed Commitment and Chapter 10 Lessons for the World: Hope, Solidarity, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 1996.1756659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the World: Hope, Solidarity, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1136",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: educational, professional (+16) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T16:31:54.869Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

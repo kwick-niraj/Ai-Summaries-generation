@@ -1,0 +1,456 @@
+{
+  "bookId": "1040",
+  "timestamp": "2025-07-06T09:54:42.317Z",
+  "success": false,
+  "processingTime": -1751795102020,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3929,
+    "totalAudioFiles": 12,
+    "totalDuration": 2067.325374
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2067.325374
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1040/optimized_text/1040.md",
+    "fileSize": 620,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1040.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1040/metadata/1040_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2067.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1040/metadata/1040_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1040/metadata/1040_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1040/1040_complete.wav",
+    "duration": 2067.325375,
+    "fileSize": 99231696,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1040/introduction.wav",
+          "duration": 97.015833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.015833,
+          "startTime": 0,
+          "endTime": 97.015833
+        },
+        {
+          "path": "Audio/output/1040/chapter_01.wav",
+          "duration": 245.568167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Finishing Is Harder Than Starting",
+          "actualDuration": 245.568167,
+          "startTime": 98.515833,
+          "endTime": 344.084
+        },
+        {
+          "path": "Audio/output/1040/chapter_02.wav",
+          "duration": 245.21825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Trap of Perfectionism and the Power of Progress",
+          "actualDuration": 245.21825,
+          "startTime": 345.584,
+          "endTime": 590.80225
+        },
+        {
+          "path": "Audio/output/1040/chapter_03.wav",
+          "duration": 206.571375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Setting Realistic Goals and Cutting Them in Half",
+          "actualDuration": 206.571375,
+          "startTime": 592.30225,
+          "endTime": 798.873625
+        },
+        {
+          "path": "Audio/output/1040/chapter_04.wav",
+          "duration": 214.258375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Identifying and Managing Hidden Obstacles",
+          "actualDuration": 214.258375,
+          "startTime": 800.373625,
+          "endTime": 1014.632
+        },
+        {
+          "path": "Audio/output/1040/chapter_05.wav",
+          "duration": 224.730875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Accountability and Tracking Progress",
+          "actualDuration": 224.730875,
+          "startTime": 1016.132,
+          "endTime": 1240.862875
+        },
+        {
+          "path": "Audio/output/1040/chapter_06.wav",
+          "duration": 140.10225,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing the Day After Perfect",
+          "actualDuration": 140.10225,
+          "startTime": 1242.362875,
+          "endTime": 1382.465125
+        },
+        {
+          "path": "Audio/output/1040/chapter_07.wav",
+          "duration": 156.945625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Making It Fun—The Power of Rewards and Enjoyment",
+          "actualDuration": 156.945625,
+          "startTime": 1383.965125,
+          "endTime": 1540.91075
+        },
+        {
+          "path": "Audio/output/1040/chapter_08.wav",
+          "duration": 129.404083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Data—Measuring What Matters",
+          "actualDuration": 129.404083,
+          "startTime": 1542.41075,
+          "endTime": 1671.814833
+        },
+        {
+          "path": "Audio/output/1040/chapter_09.wav",
+          "duration": 150.072333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finishing as a Repeatable Habit",
+          "actualDuration": 150.072333,
+          "startTime": 1673.314833,
+          "endTime": 1823.387166
+        },
+        {
+          "path": "Audio/output/1040/chapter_10.wav",
+          "duration": 122.684083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum and Preventing Burnout",
+          "actualDuration": 122.684083,
+          "startTime": 1824.887166,
+          "endTime": 1947.571249
+        },
+        {
+          "path": "Audio/output/1040/conclusion.wav",
+          "duration": 134.754125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.754125,
+          "startTime": 1949.071249,
+          "endTime": 2083.825374
+        }
+      ],
+      "totalDuration": 2083.825374,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.02,
+          "actualStart": 0,
+          "actualEnd": 97.015833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Finishing Is Harder Than Starting",
+          "expectedStart": 97.02,
+          "expectedEnd": 342.59,
+          "actualStart": 98.515833,
+          "actualEnd": 344.084,
+          "timeDifference": 1.4958330000000046
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Trap of Perfectionism and the Power of Progress",
+          "expectedStart": 342.59,
+          "expectedEnd": 587.81,
+          "actualStart": 345.584,
+          "actualEnd": 590.80225,
+          "timeDifference": 2.994000000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Setting Realistic Goals and Cutting Them in Half",
+          "expectedStart": 587.81,
+          "expectedEnd": 794.38,
+          "actualStart": 592.30225,
+          "actualEnd": 798.873625,
+          "timeDifference": 4.492250000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Identifying and Managing Hidden Obstacles",
+          "expectedStart": 794.38,
+          "expectedEnd": 1008.64,
+          "actualStart": 800.373625,
+          "actualEnd": 1014.632,
+          "timeDifference": 5.993624999999952
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Accountability and Tracking Progress",
+          "expectedStart": 1008.64,
+          "expectedEnd": 1233.37,
+          "actualStart": 1016.132,
+          "actualEnd": 1240.862875,
+          "timeDifference": 7.491999999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing the Day After Perfect",
+          "expectedStart": 1233.37,
+          "expectedEnd": 1373.47,
+          "actualStart": 1242.362875,
+          "actualEnd": 1382.465125,
+          "timeDifference": 8.99287500000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Making It Fun—The Power of Rewards and Enjoyment",
+          "expectedStart": 1373.47,
+          "expectedEnd": 1530.42,
+          "actualStart": 1383.965125,
+          "actualEnd": 1540.91075,
+          "timeDifference": 10.495124999999916
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Data—Measuring What Matters",
+          "expectedStart": 1530.42,
+          "expectedEnd": 1659.82,
+          "actualStart": 1542.41075,
+          "actualEnd": 1671.814833,
+          "timeDifference": 11.990749999999935
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finishing as a Repeatable Habit",
+          "expectedStart": 1659.82,
+          "expectedEnd": 1809.89,
+          "actualStart": 1673.314833,
+          "actualEnd": 1823.387166,
+          "timeDifference": 13.494832999999971
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum and Preventing Burnout",
+          "expectedStart": 1809.89,
+          "expectedEnd": 1932.57,
+          "actualStart": 1824.887166,
+          "actualEnd": 1947.571249,
+          "timeDifference": 14.99716599999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1932.57,
+          "expectedEnd": 2067.32,
+          "actualStart": 1949.071249,
+          "actualEnd": 2083.825374,
+          "timeDifference": 16.501249000000143
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.015833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Finishing Is Harder Than Starting"
+        },
+        {
+          "startTime": 344.084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Finishing Is Harder Than Starting and Chapter 2 The Trap of Perfectionism and the Power of Progress"
+        },
+        {
+          "startTime": 590.80225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Trap of Perfectionism and the Power of Progress and Chapter 3 Setting Realistic Goals and Cutting Them in Half"
+        },
+        {
+          "startTime": 798.873625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Setting Realistic Goals and Cutting Them in Half and Chapter 4 Identifying and Managing Hidden Obstacles"
+        },
+        {
+          "startTime": 1014.632,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Identifying and Managing Hidden Obstacles and Chapter 5 Building Accountability and Tracking Progress"
+        },
+        {
+          "startTime": 1240.862875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Accountability and Tracking Progress and Chapter 6 Embracing the Day After Perfect"
+        },
+        {
+          "startTime": 1382.465125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing the Day After Perfect and Chapter 7 Making It Fun—The Power of Rewards and Enjoyment"
+        },
+        {
+          "startTime": 1540.91075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Making It Fun—The Power of Rewards and Enjoyment and Chapter 8 The Role of Data—Measuring What Matters"
+        },
+        {
+          "startTime": 1671.814833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Data—Measuring What Matters and Chapter 9 Finishing as a Repeatable Habit"
+        },
+        {
+          "startTime": 1823.387166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finishing as a Repeatable Habit and Chapter 10 Sustaining Momentum and Preventing Burnout"
+        },
+        {
+          "startTime": 1947.571249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum and Preventing Burnout and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1040",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T09:45:03.497Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

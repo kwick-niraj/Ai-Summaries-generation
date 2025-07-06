@@ -1,0 +1,456 @@
+{
+  "bookId": "1056",
+  "timestamp": "2025-07-06T10:40:37.594Z",
+  "success": false,
+  "processingTime": -1751798097522,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4877,
+    "totalAudioFiles": 12,
+    "totalDuration": 2322.8458310000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2322.8458310000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1056/optimized_text/1056.md",
+    "fileSize": 738,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "1056.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1056/metadata/1056_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2322.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1056/metadata/1056_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1056/metadata/1056_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1056/1056_complete.wav",
+    "duration": 2322.845833,
+    "fileSize": 111496678,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1056/introduction.wav",
+          "duration": 103.518708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.518708,
+          "startTime": 0,
+          "endTime": 103.518708
+        },
+        {
+          "path": "Audio/output/1056/chapter_01.wav",
+          "duration": 249.480667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Calm in the Middle of Everyday Life",
+          "actualDuration": 249.480667,
+          "startTime": 105.018708,
+          "endTime": 354.499375
+        },
+        {
+          "path": "Audio/output/1056/chapter_02.wav",
+          "duration": 253.554083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Breathing and Returning to the Present",
+          "actualDuration": 253.554083,
+          "startTime": 355.999375,
+          "endTime": 609.553458
+        },
+        {
+          "path": "Audio/output/1056/chapter_03.wav",
+          "duration": 252.743458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Transforming Suffering with Understanding and Compassion",
+          "actualDuration": 252.743458,
+          "startTime": 611.053458,
+          "endTime": 863.796916
+        },
+        {
+          "path": "Audio/output/1056/chapter_04.wav",
+          "duration": 236.883333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Joy and Connection in Simple Moments",
+          "actualDuration": 236.883333,
+          "startTime": 865.296916,
+          "endTime": 1102.180249
+        },
+        {
+          "path": "Audio/output/1056/chapter_05.wav",
+          "duration": 243.164708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindfulness in Action—Bringing Awareness to Relationships and Society",
+          "actualDuration": 243.164708,
+          "startTime": 1103.680249,
+          "endTime": 1346.844957
+        },
+        {
+          "path": "Audio/output/1056/chapter_06.wav",
+          "duration": 185.168667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nourishing Mindfulness Through Daily Rituals",
+          "actualDuration": 185.168667,
+          "startTime": 1348.344957,
+          "endTime": 1533.513624
+        },
+        {
+          "path": "Audio/output/1056/chapter_07.wav",
+          "duration": 182.729958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing and Reconciliation—Mindfulness in the Face of Conflict",
+          "actualDuration": 182.729958,
+          "startTime": 1535.013624,
+          "endTime": 1717.743582
+        },
+        {
+          "path": "Audio/output/1056/chapter_08.wav",
+          "duration": 178.586458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindful Consumption—Caring for Body, Mind, and Planet",
+          "actualDuration": 178.586458,
+          "startTime": 1719.243582,
+          "endTime": 1897.83004
+        },
+        {
+          "path": "Audio/output/1056/chapter_09.wav",
+          "duration": 167.848,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Deepening Compassion—Loving-Kindness in Everyday Life",
+          "actualDuration": 167.848,
+          "startTime": 1899.33004,
+          "endTime": 2067.1780400000002
+        },
+        {
+          "path": "Audio/output/1056/chapter_10.wav",
+          "duration": 152.811458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect—Spreading Peace in the World",
+          "actualDuration": 152.811458,
+          "startTime": 2068.6780400000002,
+          "endTime": 2221.4894980000004
+        },
+        {
+          "path": "Audio/output/1056/conclusion.wav",
+          "duration": 116.356333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.356333,
+          "startTime": 2222.9894980000004,
+          "endTime": 2339.3458310000005
+        }
+      ],
+      "totalDuration": 2339.3458310000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.52,
+          "actualStart": 0,
+          "actualEnd": 103.518708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Calm in the Middle of Everyday Life",
+          "expectedStart": 103.52,
+          "expectedEnd": 353,
+          "actualStart": 105.018708,
+          "actualEnd": 354.499375,
+          "timeDifference": 1.4987080000000077
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Breathing and Returning to the Present",
+          "expectedStart": 353,
+          "expectedEnd": 606.55,
+          "actualStart": 355.999375,
+          "actualEnd": 609.553458,
+          "timeDifference": 2.9993749999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Transforming Suffering with Understanding and Compassion",
+          "expectedStart": 606.55,
+          "expectedEnd": 859.29,
+          "actualStart": 611.053458,
+          "actualEnd": 863.796916,
+          "timeDifference": 4.503458000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Joy and Connection in Simple Moments",
+          "expectedStart": 859.29,
+          "expectedEnd": 1096.17,
+          "actualStart": 865.296916,
+          "actualEnd": 1102.180249,
+          "timeDifference": 6.0069160000000466
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindfulness in Action—Bringing Awareness to Relationships and Society",
+          "expectedStart": 1096.17,
+          "expectedEnd": 1339.33,
+          "actualStart": 1103.680249,
+          "actualEnd": 1346.844957,
+          "timeDifference": 7.510248999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nourishing Mindfulness Through Daily Rituals",
+          "expectedStart": 1339.33,
+          "expectedEnd": 1524.5,
+          "actualStart": 1348.344957,
+          "actualEnd": 1533.513624,
+          "timeDifference": 9.014957000000095
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing and Reconciliation—Mindfulness in the Face of Conflict",
+          "expectedStart": 1524.5,
+          "expectedEnd": 1707.23,
+          "actualStart": 1535.013624,
+          "actualEnd": 1717.743582,
+          "timeDifference": 10.513623999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindful Consumption—Caring for Body, Mind, and Planet",
+          "expectedStart": 1707.23,
+          "expectedEnd": 1885.82,
+          "actualStart": 1719.243582,
+          "actualEnd": 1897.83004,
+          "timeDifference": 12.013582000000042
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Deepening Compassion—Loving-Kindness in Everyday Life",
+          "expectedStart": 1885.82,
+          "expectedEnd": 2053.67,
+          "actualStart": 1899.33004,
+          "actualEnd": 2067.1780400000002,
+          "timeDifference": 13.510040000000117
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect—Spreading Peace in the World",
+          "expectedStart": 2053.67,
+          "expectedEnd": 2206.48,
+          "actualStart": 2068.6780400000002,
+          "actualEnd": 2221.4894980000004,
+          "timeDifference": 15.008040000000165
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2206.48,
+          "expectedEnd": 2322.84,
+          "actualStart": 2222.9894980000004,
+          "actualEnd": 2339.3458310000005,
+          "timeDifference": 16.50949800000035
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.518708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Calm in the Middle of Everyday Life"
+        },
+        {
+          "startTime": 354.499375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Calm in the Middle of Everyday Life and Chapter 2 The Power of Breathing and Returning to the Present"
+        },
+        {
+          "startTime": 609.553458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Breathing and Returning to the Present and Chapter 3 Transforming Suffering with Understanding and Compassion"
+        },
+        {
+          "startTime": 863.796916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Transforming Suffering with Understanding and Compassion and Chapter 4 Finding Joy and Connection in Simple Moments"
+        },
+        {
+          "startTime": 1102.180249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Joy and Connection in Simple Moments and Chapter 5 Mindfulness in Action—Bringing Awareness to Relationships and Society"
+        },
+        {
+          "startTime": 1346.844957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindfulness in Action—Bringing Awareness to Relationships and Society and Chapter 6 Nourishing Mindfulness Through Daily Rituals"
+        },
+        {
+          "startTime": 1533.513624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nourishing Mindfulness Through Daily Rituals and Chapter 7 Healing and Reconciliation—Mindfulness in the Face of Conflict"
+        },
+        {
+          "startTime": 1717.743582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing and Reconciliation—Mindfulness in the Face of Conflict and Chapter 8 Mindful Consumption—Caring for Body, Mind, and Planet"
+        },
+        {
+          "startTime": 1897.83004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindful Consumption—Caring for Body, Mind, and Planet and Chapter 9 Deepening Compassion—Loving-Kindness in Everyday Life"
+        },
+        {
+          "startTime": 2067.1780400000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Deepening Compassion—Loving-Kindness in Everyday Life and Chapter 10 The Ripple Effect—Spreading Peace in the World"
+        },
+        {
+          "startTime": 2221.4894980000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect—Spreading Peace in the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1056",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T10:34:58.014Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

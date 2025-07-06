@@ -1,0 +1,432 @@
+{
+  "bookId": "461",
+  "timestamp": "2025-07-04T04:37:31.565Z",
+  "success": false,
+  "processingTime": -1751603518018,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4788,
+    "totalAudioFiles": 12,
+    "totalDuration": 2171.755376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2171.755376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/461/optimized_text/461.md",
+    "fileSize": 843,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "461.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/461/metadata/461_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2171.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/461/metadata/461_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/461/metadata/461_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/461/461_complete.wav",
+    "duration": 2171.755375,
+    "fileSize": 104244336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/461/introduction.wav",
+          "duration": 102.297917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.297917,
+          "startTime": 0,
+          "endTime": 102.297917
+        },
+        {
+          "path": "Audio/output/461/chapter_01.wav",
+          "duration": 240.371042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Life, Personal Grievances, and the Roots of a Worldview",
+          "actualDuration": 240.371042,
+          "startTime": 103.797917,
+          "endTime": 344.168959
+        },
+        {
+          "path": "Audio/output/461/chapter_03.wav",
+          "duration": 310.675875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Nationalism, German Supremacy, and the Rejection of Democracy",
+          "actualDuration": 310.675875,
+          "startTime": 345.668959,
+          "endTime": 656.344834
+        },
+        {
+          "path": "Audio/output/461/chapter_04.wav",
+          "duration": 244.131292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Propaganda, Mass Mobilization, and the Structure of the Movement",
+          "actualDuration": 244.131292,
+          "startTime": 657.844834,
+          "endTime": 901.976126
+        },
+        {
+          "path": "Audio/output/461/chapter_05.wav",
+          "duration": 239.163458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Anti-Communism, Anti-Marxism, and the Vision for Germany’s Future",
+          "actualDuration": 239.163458,
+          "startTime": 903.476126,
+          "endTime": 1142.639584
+        },
+        {
+          "path": "Audio/output/461/chapter_06.wav",
+          "duration": 198.427625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Führer Principle, Leadership, and the Cult of Personality",
+          "actualDuration": 198.427625,
+          "startTime": 1144.139584,
+          "endTime": 1342.567209
+        },
+        {
+          "path": "Audio/output/461/chapter_07.wav",
+          "duration": 170.540292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Restructuring of Society—Family, Gender, and Education",
+          "actualDuration": 170.540292,
+          "startTime": 1344.067209,
+          "endTime": 1514.607501
+        },
+        {
+          "path": "Audio/output/461/chapter_08.wav",
+          "duration": 181.483792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Economic Policy, Militarization, and the Drive for Autarky",
+          "actualDuration": 181.483792,
+          "startTime": 1516.107501,
+          "endTime": 1697.591293
+        },
+        {
+          "path": "Audio/output/461/chapter_09.wav",
+          "duration": 175.507708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Expansionism, Lebensraum, and the Justification for War",
+          "actualDuration": 175.507708,
+          "startTime": 1699.091293,
+          "endTime": 1874.599001
+        },
+        {
+          "path": "Audio/output/461/chapter_10.wav",
+          "duration": 165.043042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Consequences—Totalitarianism, Persecution, and the Descent into Catastrophe",
+          "actualDuration": 165.043042,
+          "startTime": 1876.099001,
+          "endTime": 2041.142043
+        },
+        {
+          "path": "Audio/output/461/conclusion.wav",
+          "duration": 144.113333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.113333,
+          "startTime": 2042.642043,
+          "endTime": 2186.755376
+        }
+      ],
+      "totalDuration": 2186.755376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.3,
+          "actualStart": 0,
+          "actualEnd": 102.297917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Life, Personal Grievances, and the Roots of a Worldview",
+          "expectedStart": 102.3,
+          "expectedEnd": 342.67,
+          "actualStart": 103.797917,
+          "actualEnd": 344.168959,
+          "timeDifference": 1.497917000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Nationalism, German Supremacy, and the Rejection of Democracy",
+          "expectedStart": 342.67,
+          "expectedEnd": 653.35,
+          "actualStart": 345.668959,
+          "actualEnd": 656.344834,
+          "timeDifference": 2.9989589999999566
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Propaganda, Mass Mobilization, and the Structure of the Movement",
+          "expectedStart": 653.35,
+          "expectedEnd": 897.48,
+          "actualStart": 657.844834,
+          "actualEnd": 901.976126,
+          "timeDifference": 4.494833999999969
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Anti-Communism, Anti-Marxism, and the Vision for Germany’s Future",
+          "expectedStart": 897.48,
+          "expectedEnd": 1136.64,
+          "actualStart": 903.476126,
+          "actualEnd": 1142.639584,
+          "timeDifference": 5.996126000000004
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Führer Principle, Leadership, and the Cult of Personality",
+          "expectedStart": 1136.64,
+          "expectedEnd": 1335.07,
+          "actualStart": 1144.139584,
+          "actualEnd": 1342.567209,
+          "timeDifference": 7.499583999999913
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Restructuring of Society—Family, Gender, and Education",
+          "expectedStart": 1335.07,
+          "expectedEnd": 1505.61,
+          "actualStart": 1344.067209,
+          "actualEnd": 1514.607501,
+          "timeDifference": 8.997209000000112
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Economic Policy, Militarization, and the Drive for Autarky",
+          "expectedStart": 1505.61,
+          "expectedEnd": 1687.09,
+          "actualStart": 1516.107501,
+          "actualEnd": 1697.591293,
+          "timeDifference": 10.497501000000057
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Expansionism, Lebensraum, and the Justification for War",
+          "expectedStart": 1687.09,
+          "expectedEnd": 1862.6,
+          "actualStart": 1699.091293,
+          "actualEnd": 1874.599001,
+          "timeDifference": 12.001293000000032
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Consequences—Totalitarianism, Persecution, and the Descent into Catastrophe",
+          "expectedStart": 1862.6,
+          "expectedEnd": 2027.64,
+          "actualStart": 1876.099001,
+          "actualEnd": 2041.142043,
+          "timeDifference": 13.499001000000135
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2027.64,
+          "expectedEnd": 2171.75,
+          "actualStart": 2042.642043,
+          "actualEnd": 2186.755376,
+          "timeDifference": 15.002042999999958
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.297917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Life, Personal Grievances, and the Roots of a Worldview"
+        },
+        {
+          "startTime": 344.168959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Life, Personal Grievances, and the Roots of a Worldview and Chapter 3 Nationalism, German Supremacy, and the Rejection of Democracy"
+        },
+        {
+          "startTime": 656.344834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Nationalism, German Supremacy, and the Rejection of Democracy and Chapter 4 The Role of Propaganda, Mass Mobilization, and the Structure of the Movement"
+        },
+        {
+          "startTime": 901.976126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Propaganda, Mass Mobilization, and the Structure of the Movement and Chapter 5 Anti-Communism, Anti-Marxism, and the Vision for Germany’s Future"
+        },
+        {
+          "startTime": 1142.639584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Anti-Communism, Anti-Marxism, and the Vision for Germany’s Future and Chapter 6 The Führer Principle, Leadership, and the Cult of Personality"
+        },
+        {
+          "startTime": 1342.567209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Führer Principle, Leadership, and the Cult of Personality and Chapter 7 The Restructuring of Society—Family, Gender, and Education"
+        },
+        {
+          "startTime": 1514.607501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Restructuring of Society—Family, Gender, and Education and Chapter 8 Economic Policy, Militarization, and the Drive for Autarky"
+        },
+        {
+          "startTime": 1697.591293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Economic Policy, Militarization, and the Drive for Autarky and Chapter 9 Expansionism, Lebensraum, and the Justification for War"
+        },
+        {
+          "startTime": 1874.599001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Expansionism, Lebensraum, and the Justification for War and Chapter 10 The Consequences—Totalitarianism, Persecution, and the Descent into Catastrophe"
+        },
+        {
+          "startTime": 2041.142043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Consequences—Totalitarianism, Persecution, and the Descent into Catastrophe and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "461",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T04:31:58.574Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

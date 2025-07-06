@@ -1,0 +1,456 @@
+{
+  "bookId": "655",
+  "timestamp": "2025-07-05T01:12:33.769Z",
+  "success": false,
+  "processingTime": -1751677588096,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3652,
+    "totalAudioFiles": 12,
+    "totalDuration": 1666.097126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1666.097126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/655/optimized_text/655.md",
+    "fileSize": 617,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "655.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/655/metadata/655_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1666.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/655/metadata/655_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/655/metadata/655_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/655/655_complete.wav",
+    "duration": 1666.097125,
+    "fileSize": 79972740,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/655/introduction.wav",
+          "duration": 89.900167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.900167,
+          "startTime": 0,
+          "endTime": 89.900167
+        },
+        {
+          "path": "Audio/output/655/chapter_01.wav",
+          "duration": 166.559417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Difference Between Easy Grace and Real Commitment",
+          "actualDuration": 166.559417,
+          "startTime": 91.400167,
+          "endTime": 257.959584
+        },
+        {
+          "path": "Audio/output/655/chapter_02.wav",
+          "duration": 185.369917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What It Means to Truly Follow",
+          "actualDuration": 185.369917,
+          "startTime": 259.459584,
+          "endTime": 444.829501
+        },
+        {
+          "path": "Audio/output/655/chapter_03.wav",
+          "duration": 145.073458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Challenge of Obedience in Everyday Life",
+          "actualDuration": 145.073458,
+          "startTime": 446.329501,
+          "endTime": 591.402959
+        },
+        {
+          "path": "Audio/output/655/chapter_04.wav",
+          "duration": 136.604375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sacrifice and Self-Denial as the Heart of Faith",
+          "actualDuration": 136.604375,
+          "startTime": 592.902959,
+          "endTime": 729.507334
+        },
+        {
+          "path": "Audio/output/655/chapter_05.wav",
+          "duration": 120.377125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living Out Faith in a World of Injustice",
+          "actualDuration": 120.377125,
+          "startTime": 731.007334,
+          "endTime": 851.384459
+        },
+        {
+          "path": "Audio/output/655/chapter_06.wav",
+          "duration": 156.597042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Simplicity and Strangeness of Jesus’ Commands",
+          "actualDuration": 156.597042,
+          "startTime": 852.884459,
+          "endTime": 1009.481501
+        },
+        {
+          "path": "Audio/output/655/chapter_07.wav",
+          "duration": 137.3295,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Community—The Place Where Discipleship Grows",
+          "actualDuration": 137.3295,
+          "startTime": 1010.981501,
+          "endTime": 1148.311001
+        },
+        {
+          "path": "Audio/output/655/chapter_08.wav",
+          "duration": 133.956542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Call to Perseverance in the Face of Suffering",
+          "actualDuration": 133.956542,
+          "startTime": 1149.811001,
+          "endTime": 1283.767543
+        },
+        {
+          "path": "Audio/output/655/chapter_09.wav",
+          "duration": 150.290083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Temptation of Religious Pride",
+          "actualDuration": 150.290083,
+          "startTime": 1285.267543,
+          "endTime": 1435.557626
+        },
+        {
+          "path": "Audio/output/655/chapter_10.wav",
+          "duration": 103.685875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Promise of New Life",
+          "actualDuration": 103.685875,
+          "startTime": 1437.057626,
+          "endTime": 1540.743501
+        },
+        {
+          "path": "Audio/output/655/conclusion.wav",
+          "duration": 140.353625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.353625,
+          "startTime": 1542.243501,
+          "endTime": 1682.597126
+        }
+      ],
+      "totalDuration": 1682.597126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.9,
+          "actualStart": 0,
+          "actualEnd": 89.900167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Difference Between Easy Grace and Real Commitment",
+          "expectedStart": 89.9,
+          "expectedEnd": 256.46,
+          "actualStart": 91.400167,
+          "actualEnd": 257.959584,
+          "timeDifference": 1.5001669999999905
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What It Means to Truly Follow",
+          "expectedStart": 256.46,
+          "expectedEnd": 441.83,
+          "actualStart": 259.459584,
+          "actualEnd": 444.829501,
+          "timeDifference": 2.999584000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Challenge of Obedience in Everyday Life",
+          "expectedStart": 441.83,
+          "expectedEnd": 586.9,
+          "actualStart": 446.329501,
+          "actualEnd": 591.402959,
+          "timeDifference": 4.499501000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sacrifice and Self-Denial as the Heart of Faith",
+          "expectedStart": 586.9,
+          "expectedEnd": 723.5,
+          "actualStart": 592.902959,
+          "actualEnd": 729.507334,
+          "timeDifference": 6.002959000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living Out Faith in a World of Injustice",
+          "expectedStart": 723.5,
+          "expectedEnd": 843.88,
+          "actualStart": 731.007334,
+          "actualEnd": 851.384459,
+          "timeDifference": 7.507334000000014
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Simplicity and Strangeness of Jesus’ Commands",
+          "expectedStart": 843.88,
+          "expectedEnd": 1000.48,
+          "actualStart": 852.884459,
+          "actualEnd": 1009.481501,
+          "timeDifference": 9.004458999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Community—The Place Where Discipleship Grows",
+          "expectedStart": 1000.48,
+          "expectedEnd": 1137.81,
+          "actualStart": 1010.981501,
+          "actualEnd": 1148.311001,
+          "timeDifference": 10.501500999999962
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Call to Perseverance in the Face of Suffering",
+          "expectedStart": 1137.81,
+          "expectedEnd": 1271.77,
+          "actualStart": 1149.811001,
+          "actualEnd": 1283.767543,
+          "timeDifference": 12.001001000000088
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Temptation of Religious Pride",
+          "expectedStart": 1271.77,
+          "expectedEnd": 1422.06,
+          "actualStart": 1285.267543,
+          "actualEnd": 1435.557626,
+          "timeDifference": 13.49754299999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Promise of New Life",
+          "expectedStart": 1422.06,
+          "expectedEnd": 1525.75,
+          "actualStart": 1437.057626,
+          "actualEnd": 1540.743501,
+          "timeDifference": 14.997626000000082
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1525.75,
+          "expectedEnd": 1666.1,
+          "actualStart": 1542.243501,
+          "actualEnd": 1682.597126,
+          "timeDifference": 16.493500999999924
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.900167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Difference Between Easy Grace and Real Commitment"
+        },
+        {
+          "startTime": 257.959584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Difference Between Easy Grace and Real Commitment and Chapter 2 What It Means to Truly Follow"
+        },
+        {
+          "startTime": 444.829501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What It Means to Truly Follow and Chapter 3 The Challenge of Obedience in Everyday Life"
+        },
+        {
+          "startTime": 591.402959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Challenge of Obedience in Everyday Life and Chapter 4 Sacrifice and Self-Denial as the Heart of Faith"
+        },
+        {
+          "startTime": 729.507334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sacrifice and Self-Denial as the Heart of Faith and Chapter 5 Living Out Faith in a World of Injustice"
+        },
+        {
+          "startTime": 851.384459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living Out Faith in a World of Injustice and Chapter 6 The Simplicity and Strangeness of Jesus’ Commands"
+        },
+        {
+          "startTime": 1009.481501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Simplicity and Strangeness of Jesus’ Commands and Chapter 7 Community—The Place Where Discipleship Grows"
+        },
+        {
+          "startTime": 1148.311001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Community—The Place Where Discipleship Grows and Chapter 8 The Call to Perseverance in the Face of Suffering"
+        },
+        {
+          "startTime": 1283.767543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Call to Perseverance in the Face of Suffering and Chapter 9 The Temptation of Religious Pride"
+        },
+        {
+          "startTime": 1435.557626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Temptation of Religious Pride and Chapter 10 The Promise of New Life"
+        },
+        {
+          "startTime": 1540.743501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Promise of New Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "655",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T01:06:29.762Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

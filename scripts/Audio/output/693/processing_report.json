@@ -1,0 +1,551 @@
+{
+  "bookId": "693",
+  "timestamp": "2025-07-05T03:04:02.987Z",
+  "success": false,
+  "processingTime": -1751684285945,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 4755,
+    "totalAudioFiles": 17,
+    "totalDuration": 1990.0125839999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 16,
+    "failed": 1,
+    "duration": 1990.0125839999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/693/optimized_text/693.md",
+    "fileSize": 1085,
+    "wordCount": 140,
+    "format": "markdown",
+    "filename": "693.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/693/metadata/693_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 1990.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/693/metadata/693_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/693/metadata/693_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/693/693_complete.wav",
+    "duration": 1990.012583,
+    "fileSize": 95520682,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/693/introduction.wav",
+          "duration": 96.923,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.923,
+          "startTime": 0,
+          "endTime": 96.923
+        },
+        {
+          "path": "Audio/output/693/chapter_02.wav",
+          "duration": 174.402875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Exclusion and Silence: Black Women in Early Feminist Movements",
+          "actualDuration": 174.402875,
+          "startTime": 98.423,
+          "endTime": 272.825875
+        },
+        {
+          "path": "Audio/output/693/chapter_03.wav",
+          "duration": 175.810083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Stereotypes and Survival: The Burden of Misrepresentation",
+          "actualDuration": 175.810083,
+          "startTime": 274.325875,
+          "endTime": 450.13595799999996
+        },
+        {
+          "path": "Audio/output/693/chapter_04.wav",
+          "duration": 184.986458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle Within: Internalized Oppression and Community Tensions",
+          "actualDuration": 184.986458,
+          "startTime": 451.63595799999996,
+          "endTime": 636.6224159999999
+        },
+        {
+          "path": "Audio/output/693/chapter_05.wav",
+          "duration": 156.6765,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building a New Vision: Toward Inclusive and Intersectional Feminism",
+          "actualDuration": 156.6765,
+          "startTime": 638.1224159999999,
+          "endTime": 794.798916
+        },
+        {
+          "path": "Audio/output/693/chapter_06.wav",
+          "duration": 137.359167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Cost of Resistance: Backlash and Burnout",
+          "actualDuration": 137.359167,
+          "startTime": 796.298916,
+          "endTime": 933.658083
+        },
+        {
+          "path": "Audio/output/693/chapter_07.wav",
+          "duration": 122.270917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reclaiming the Narrative: Art, Culture, and Self-Definition",
+          "actualDuration": 122.270917,
+          "startTime": 935.158083,
+          "endTime": 1057.429
+        },
+        {
+          "path": "Audio/output/693/chapter_08.wav",
+          "duration": 117.605667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Politics of Respectability: Navigating Expectations",
+          "actualDuration": 117.605667,
+          "startTime": 1058.929,
+          "endTime": 1176.5346670000001
+        },
+        {
+          "path": "Audio/output/693/chapter_09.wav",
+          "duration": 106.481625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love, Intimacy, and the Search for Wholeness",
+          "actualDuration": 106.481625,
+          "startTime": 1178.0346670000001,
+          "endTime": 1284.516292
+        },
+        {
+          "path": "Audio/output/693/chapter_10.wav",
+          "duration": 103.038583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Education and Empowerment: Breaking the Cycle",
+          "actualDuration": 103.038583,
+          "startTime": 1286.016292,
+          "endTime": 1389.054875
+        },
+        {
+          "path": "Audio/output/693/chapter_11.wav",
+          "duration": 102.600583,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Evolution of Activism: From Grassroots to Global",
+          "actualDuration": 102.600583,
+          "startTime": 1390.554875,
+          "endTime": 1493.155458
+        },
+        {
+          "path": "Audio/output/693/chapter_12.wav",
+          "duration": 101.814792,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Faith, Spirituality, and the Power of Belief",
+          "actualDuration": 101.814792,
+          "startTime": 1494.655458,
+          "endTime": 1596.4702499999999
+        },
+        {
+          "path": "Audio/output/693/chapter_13.wav",
+          "duration": 124.125292,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Motherhood, Family, and Generational Change",
+          "actualDuration": 124.125292,
+          "startTime": 1597.9702499999999,
+          "endTime": 1722.0955419999998
+        },
+        {
+          "path": "Audio/output/693/chapter_14.wav",
+          "duration": 101.185167,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Healing, Joy, and the Practice of Self-Care",
+          "actualDuration": 101.185167,
+          "startTime": 1723.5955419999998,
+          "endTime": 1824.780709
+        },
+        {
+          "path": "Audio/output/693/chapter_15.wav",
+          "duration": 85.072167,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Toward Collective Liberation: Imagining a New Future",
+          "actualDuration": 85.072167,
+          "startTime": 1826.280709,
+          "endTime": 1911.352876
+        },
+        {
+          "path": "Audio/output/693/conclusion.wav",
+          "duration": 99.659708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.659708,
+          "startTime": 1912.852876,
+          "endTime": 2012.5125839999998
+        }
+      ],
+      "totalDuration": 2012.5125839999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.92,
+          "actualStart": 0,
+          "actualEnd": 96.923,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Exclusion and Silence: Black Women in Early Feminist Movements",
+          "expectedStart": 96.92,
+          "expectedEnd": 271.32,
+          "actualStart": 98.423,
+          "actualEnd": 272.825875,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Stereotypes and Survival: The Burden of Misrepresentation",
+          "expectedStart": 271.32,
+          "expectedEnd": 447.13,
+          "actualStart": 274.325875,
+          "actualEnd": 450.13595799999996,
+          "timeDifference": 3.005875000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle Within: Internalized Oppression and Community Tensions",
+          "expectedStart": 447.13,
+          "expectedEnd": 632.12,
+          "actualStart": 451.63595799999996,
+          "actualEnd": 636.6224159999999,
+          "timeDifference": 4.505957999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building a New Vision: Toward Inclusive and Intersectional Feminism",
+          "expectedStart": 632.12,
+          "expectedEnd": 788.8,
+          "actualStart": 638.1224159999999,
+          "actualEnd": 794.798916,
+          "timeDifference": 6.002415999999926
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Cost of Resistance: Backlash and Burnout",
+          "expectedStart": 788.8,
+          "expectedEnd": 926.16,
+          "actualStart": 796.298916,
+          "actualEnd": 933.658083,
+          "timeDifference": 7.498916000000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reclaiming the Narrative: Art, Culture, and Self-Definition",
+          "expectedStart": 926.16,
+          "expectedEnd": 1048.43,
+          "actualStart": 935.158083,
+          "actualEnd": 1057.429,
+          "timeDifference": 8.998083000000065
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Politics of Respectability: Navigating Expectations",
+          "expectedStart": 1048.43,
+          "expectedEnd": 1166.04,
+          "actualStart": 1058.929,
+          "actualEnd": 1176.5346670000001,
+          "timeDifference": 10.499000000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love, Intimacy, and the Search for Wholeness",
+          "expectedStart": 1166.04,
+          "expectedEnd": 1272.52,
+          "actualStart": 1178.0346670000001,
+          "actualEnd": 1284.516292,
+          "timeDifference": 11.994667000000163
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Education and Empowerment: Breaking the Cycle",
+          "expectedStart": 1272.52,
+          "expectedEnd": 1375.56,
+          "actualStart": 1286.016292,
+          "actualEnd": 1389.054875,
+          "timeDifference": 13.49629200000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Evolution of Activism: From Grassroots to Global",
+          "expectedStart": 1375.56,
+          "expectedEnd": 1478.16,
+          "actualStart": 1390.554875,
+          "actualEnd": 1493.155458,
+          "timeDifference": 14.994875000000093
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Faith, Spirituality, and the Power of Belief",
+          "expectedStart": 1478.16,
+          "expectedEnd": 1579.97,
+          "actualStart": 1494.655458,
+          "actualEnd": 1596.4702499999999,
+          "timeDifference": 16.49545799999987
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Motherhood, Family, and Generational Change",
+          "expectedStart": 1579.97,
+          "expectedEnd": 1704.1,
+          "actualStart": 1597.9702499999999,
+          "actualEnd": 1722.0955419999998,
+          "timeDifference": 18.000249999999824
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Healing, Joy, and the Practice of Self-Care",
+          "expectedStart": 1704.1,
+          "expectedEnd": 1805.29,
+          "actualStart": 1723.5955419999998,
+          "actualEnd": 1824.780709,
+          "timeDifference": 19.495541999999887
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Toward Collective Liberation: Imagining a New Future",
+          "expectedStart": 1805.29,
+          "expectedEnd": 1890.36,
+          "actualStart": 1826.280709,
+          "actualEnd": 1911.352876,
+          "timeDifference": 20.990708999999924
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1890.36,
+          "expectedEnd": 1990.02,
+          "actualStart": 1912.852876,
+          "actualEnd": 2012.5125839999998,
+          "timeDifference": 22.492876000000024
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.923,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 Exclusion and Silence: Black Women in Early Feminist Movements"
+        },
+        {
+          "startTime": 272.825875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Exclusion and Silence: Black Women in Early Feminist Movements and Chapter 3 Stereotypes and Survival: The Burden of Misrepresentation"
+        },
+        {
+          "startTime": 450.13595799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Stereotypes and Survival: The Burden of Misrepresentation and Chapter 4 The Struggle Within: Internalized Oppression and Community Tensions"
+        },
+        {
+          "startTime": 636.6224159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle Within: Internalized Oppression and Community Tensions and Chapter 5 Building a New Vision: Toward Inclusive and Intersectional Feminism"
+        },
+        {
+          "startTime": 794.798916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building a New Vision: Toward Inclusive and Intersectional Feminism and Chapter 6 The Cost of Resistance: Backlash and Burnout"
+        },
+        {
+          "startTime": 933.658083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Cost of Resistance: Backlash and Burnout and Chapter 7 Reclaiming the Narrative: Art, Culture, and Self-Definition"
+        },
+        {
+          "startTime": 1057.429,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reclaiming the Narrative: Art, Culture, and Self-Definition and Chapter 8 The Politics of Respectability: Navigating Expectations"
+        },
+        {
+          "startTime": 1176.5346670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Politics of Respectability: Navigating Expectations and Chapter 9 Love, Intimacy, and the Search for Wholeness"
+        },
+        {
+          "startTime": 1284.516292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love, Intimacy, and the Search for Wholeness and Chapter 10 Education and Empowerment: Breaking the Cycle"
+        },
+        {
+          "startTime": 1389.054875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Education and Empowerment: Breaking the Cycle and Chapter 11 The Evolution of Activism: From Grassroots to Global"
+        },
+        {
+          "startTime": 1493.155458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Evolution of Activism: From Grassroots to Global and Chapter 12 Faith, Spirituality, and the Power of Belief"
+        },
+        {
+          "startTime": 1596.4702499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Faith, Spirituality, and the Power of Belief and Chapter 13 Motherhood, Family, and Generational Change"
+        },
+        {
+          "startTime": 1722.0955419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Motherhood, Family, and Generational Change and Chapter 14 Healing, Joy, and the Practice of Self-Care"
+        },
+        {
+          "startTime": 1824.780709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Healing, Joy, and the Practice of Self-Care and Chapter 15 Toward Collective Liberation: Imagining a New Future"
+        },
+        {
+          "startTime": 1911.352876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Toward Collective Liberation: Imagining a New Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "693",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T02:58:06.478Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

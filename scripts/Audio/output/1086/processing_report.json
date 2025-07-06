@@ -1,0 +1,456 @@
+{
+  "bookId": "1086",
+  "timestamp": "2025-07-06T12:33:38.334Z",
+  "success": false,
+  "processingTime": -1751804806057,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4725,
+    "totalAudioFiles": 12,
+    "totalDuration": 2225.855916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2225.855916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1086/optimized_text/1086.md",
+    "fileSize": 740,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "1086.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1086/metadata/1086_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2225.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1086/metadata/1086_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1086/metadata/1086_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1086/1086_complete.wav",
+    "duration": 2225.855917,
+    "fileSize": 106841162,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1086/introduction.wav",
+          "duration": 96.226375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.226375,
+          "startTime": 0,
+          "endTime": 96.226375
+        },
+        {
+          "path": "Audio/output/1086/chapter_01.wav",
+          "duration": 213.683875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Early Pull of Belief and the Seeds of Doubt",
+          "actualDuration": 213.683875,
+          "startTime": 97.726375,
+          "endTime": 311.41025
+        },
+        {
+          "path": "Audio/output/1086/chapter_02.wav",
+          "duration": 228.37975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Dark Side of Faith: Violence, Division, and Intolerance",
+          "actualDuration": 228.37975,
+          "startTime": 312.91025,
+          "endTime": 541.29
+        },
+        {
+          "path": "Audio/output/1086/chapter_03.wav",
+          "duration": 231.61925,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Science, Reason, and the Search for Truth",
+          "actualDuration": 231.61925,
+          "startTime": 542.79,
+          "endTime": 774.4092499999999
+        },
+        {
+          "path": "Audio/output/1086/chapter_04.wav",
+          "duration": 218.357375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Morality Without Religion: Empathy, Reason, and Human Flourishing",
+          "actualDuration": 218.357375,
+          "startTime": 775.9092499999999,
+          "endTime": 994.266625
+        },
+        {
+          "path": "Audio/output/1086/chapter_05.wav",
+          "duration": 218.932875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cost of Suppressing Inquiry and Human Rights",
+          "actualDuration": 218.932875,
+          "startTime": 995.766625,
+          "endTime": 1214.6995
+        },
+        {
+          "path": "Audio/output/1086/chapter_06.wav",
+          "duration": 193.937208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Religion and Culture: The Double-Edged Sword",
+          "actualDuration": 193.937208,
+          "startTime": 1216.1995,
+          "endTime": 1410.136708
+        },
+        {
+          "path": "Audio/output/1086/chapter_07.wav",
+          "duration": 178.961333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Literary Legacy: Sacred Texts and the Power of Story",
+          "actualDuration": 178.961333,
+          "startTime": 1411.636708,
+          "endTime": 1590.598041
+        },
+        {
+          "path": "Audio/output/1086/chapter_08.wav",
+          "duration": 170.763375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Secular Sources of Meaning: Life Without the Supernatural",
+          "actualDuration": 170.763375,
+          "startTime": 1592.098041,
+          "endTime": 1762.861416
+        },
+        {
+          "path": "Audio/output/1086/chapter_09.wav",
+          "duration": 164.491458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Case for a Rational, Compassionate, and Free Society",
+          "actualDuration": 164.491458,
+          "startTime": 1764.361416,
+          "endTime": 1928.852874
+        },
+        {
+          "path": "Audio/output/1086/chapter_10.wav",
+          "duration": 158.10625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Uncertainty: Doubt, Humility, and the Ongoing Search",
+          "actualDuration": 158.10625,
+          "startTime": 1930.352874,
+          "endTime": 2088.459124
+        },
+        {
+          "path": "Audio/output/1086/conclusion.wav",
+          "duration": 152.396792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 152.396792,
+          "startTime": 2089.959124,
+          "endTime": 2242.355916
+        }
+      ],
+      "totalDuration": 2242.355916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.23,
+          "actualStart": 0,
+          "actualEnd": 96.226375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Early Pull of Belief and the Seeds of Doubt",
+          "expectedStart": 96.23,
+          "expectedEnd": 309.91,
+          "actualStart": 97.726375,
+          "actualEnd": 311.41025,
+          "timeDifference": 1.4963750000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Dark Side of Faith: Violence, Division, and Intolerance",
+          "expectedStart": 309.91,
+          "expectedEnd": 538.29,
+          "actualStart": 312.91025,
+          "actualEnd": 541.29,
+          "timeDifference": 3.000249999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Science, Reason, and the Search for Truth",
+          "expectedStart": 538.29,
+          "expectedEnd": 769.91,
+          "actualStart": 542.79,
+          "actualEnd": 774.4092499999999,
+          "timeDifference": 4.5
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Morality Without Religion: Empathy, Reason, and Human Flourishing",
+          "expectedStart": 769.91,
+          "expectedEnd": 988.27,
+          "actualStart": 775.9092499999999,
+          "actualEnd": 994.266625,
+          "timeDifference": 5.999249999999961
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cost of Suppressing Inquiry and Human Rights",
+          "expectedStart": 988.27,
+          "expectedEnd": 1207.2,
+          "actualStart": 995.766625,
+          "actualEnd": 1214.6995,
+          "timeDifference": 7.4966249999999945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Religion and Culture: The Double-Edged Sword",
+          "expectedStart": 1207.2,
+          "expectedEnd": 1401.14,
+          "actualStart": 1216.1995,
+          "actualEnd": 1410.136708,
+          "timeDifference": 8.999499999999898
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Literary Legacy: Sacred Texts and the Power of Story",
+          "expectedStart": 1401.14,
+          "expectedEnd": 1580.1,
+          "actualStart": 1411.636708,
+          "actualEnd": 1590.598041,
+          "timeDifference": 10.496707999999899
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Secular Sources of Meaning: Life Without the Supernatural",
+          "expectedStart": 1580.1,
+          "expectedEnd": 1750.86,
+          "actualStart": 1592.098041,
+          "actualEnd": 1762.861416,
+          "timeDifference": 11.998041000000057
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Case for a Rational, Compassionate, and Free Society",
+          "expectedStart": 1750.86,
+          "expectedEnd": 1915.35,
+          "actualStart": 1764.361416,
+          "actualEnd": 1928.852874,
+          "timeDifference": 13.501416000000063
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Uncertainty: Doubt, Humility, and the Ongoing Search",
+          "expectedStart": 1915.35,
+          "expectedEnd": 2073.46,
+          "actualStart": 1930.352874,
+          "actualEnd": 2088.459124,
+          "timeDifference": 15.00287400000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2073.46,
+          "expectedEnd": 2225.86,
+          "actualStart": 2089.959124,
+          "actualEnd": 2242.355916,
+          "timeDifference": 16.499123999999938
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.226375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Early Pull of Belief and the Seeds of Doubt"
+        },
+        {
+          "startTime": 311.41025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Early Pull of Belief and the Seeds of Doubt and Chapter 2 The Dark Side of Faith: Violence, Division, and Intolerance"
+        },
+        {
+          "startTime": 541.29,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Dark Side of Faith: Violence, Division, and Intolerance and Chapter 3 Science, Reason, and the Search for Truth"
+        },
+        {
+          "startTime": 774.4092499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Science, Reason, and the Search for Truth and Chapter 4 Morality Without Religion: Empathy, Reason, and Human Flourishing"
+        },
+        {
+          "startTime": 994.266625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Morality Without Religion: Empathy, Reason, and Human Flourishing and Chapter 5 The Cost of Suppressing Inquiry and Human Rights"
+        },
+        {
+          "startTime": 1214.6995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cost of Suppressing Inquiry and Human Rights and Chapter 6 Religion and Culture: The Double-Edged Sword"
+        },
+        {
+          "startTime": 1410.136708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Religion and Culture: The Double-Edged Sword and Chapter 7 The Literary Legacy: Sacred Texts and the Power of Story"
+        },
+        {
+          "startTime": 1590.598041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Literary Legacy: Sacred Texts and the Power of Story and Chapter 8 Secular Sources of Meaning: Life Without the Supernatural"
+        },
+        {
+          "startTime": 1762.861416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Secular Sources of Meaning: Life Without the Supernatural and Chapter 9 The Case for a Rational, Compassionate, and Free Society"
+        },
+        {
+          "startTime": 1928.852874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Case for a Rational, Compassionate, and Free Society and Chapter 10 Living with Uncertainty: Doubt, Humility, and the Ongoing Search"
+        },
+        {
+          "startTime": 2088.459124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Uncertainty: Doubt, Humility, and the Ongoing Search and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1086",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T12:26:47.534Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "1104",
+  "timestamp": "2025-07-06T14:24:52.982Z",
+  "success": false,
+  "processingTime": -1751811400164,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4321,
+    "totalAudioFiles": 12,
+    "totalDuration": 1797.350583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1797.350583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1104/optimized_text/1104.md",
+    "fileSize": 785,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "1104.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1104/metadata/1104_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1797.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1104/metadata/1104_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1104/metadata/1104_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1104/1104_complete.wav",
+    "duration": 1797.350583,
+    "fileSize": 86272906,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1104/introduction.wav",
+          "duration": 102.985833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.985833,
+          "startTime": 0,
+          "endTime": 102.985833
+        },
+        {
+          "path": "Audio/output/1104/chapter_01.wav",
+          "duration": 210.453458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Urgency of Unity and the Promise of a New Beginning",
+          "actualDuration": 210.453458,
+          "startTime": 104.485833,
+          "endTime": 314.939291
+        },
+        {
+          "path": "Audio/output/1104/chapter_02.wav",
+          "duration": 179.367167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Dangers of Division and the Need for a Stronger Government",
+          "actualDuration": 179.367167,
+          "startTime": 316.439291,
+          "endTime": 495.806458
+        },
+        {
+          "path": "Audio/output/1104/chapter_03.wav",
+          "duration": 171.744625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Balancing Power to Protect Liberty",
+          "actualDuration": 171.744625,
+          "startTime": 497.306458,
+          "endTime": 669.0510830000001
+        },
+        {
+          "path": "Audio/output/1104/chapter_04.wav",
+          "duration": 185.491,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Challenge of Factions and the Strength of a Large Republic",
+          "actualDuration": 185.491,
+          "startTime": 670.5510830000001,
+          "endTime": 856.042083
+        },
+        {
+          "path": "Audio/output/1104/chapter_05.wav",
+          "duration": 161.152167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Consent of the Governed and the Promise of Individual Rights",
+          "actualDuration": 161.152167,
+          "startTime": 857.542083,
+          "endTime": 1018.69425
+        },
+        {
+          "path": "Audio/output/1104/chapter_06.wav",
+          "duration": 148.308667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Machinery of Government—How the New System Would Work",
+          "actualDuration": 148.308667,
+          "startTime": 1020.19425,
+          "endTime": 1168.502917
+        },
+        {
+          "path": "Audio/output/1104/chapter_07.wav",
+          "duration": 152.672333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Safeguards Against Tyranny—Checks, Balances, and the Rule of Law",
+          "actualDuration": 152.672333,
+          "startTime": 1170.002917,
+          "endTime": 1322.67525
+        },
+        {
+          "path": "Audio/output/1104/chapter_08.wav",
+          "duration": 143.408833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of the People—Amendment and Adaptation",
+          "actualDuration": 143.408833,
+          "startTime": 1324.17525,
+          "endTime": 1467.584083
+        },
+        {
+          "path": "Audio/output/1104/chapter_09.wav",
+          "duration": 114.037208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Challenge—Justice, Equality, and the American Experiment",
+          "actualDuration": 114.037208,
+          "startTime": 1469.084083,
+          "endTime": 1583.121291
+        },
+        {
+          "path": "Audio/output/1104/chapter_10.wav",
+          "duration": 116.05225,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of the Federalist Papers—A Living Conversation",
+          "actualDuration": 116.05225,
+          "startTime": 1584.621291,
+          "endTime": 1700.673541
+        },
+        {
+          "path": "Audio/output/1104/conclusion.wav",
+          "duration": 111.677042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.677042,
+          "startTime": 1702.173541,
+          "endTime": 1813.850583
+        }
+      ],
+      "totalDuration": 1813.850583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.99,
+          "actualStart": 0,
+          "actualEnd": 102.985833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Urgency of Unity and the Promise of a New Beginning",
+          "expectedStart": 102.99,
+          "expectedEnd": 313.44,
+          "actualStart": 104.485833,
+          "actualEnd": 314.939291,
+          "timeDifference": 1.4958330000000046
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Dangers of Division and the Need for a Stronger Government",
+          "expectedStart": 313.44,
+          "expectedEnd": 492.81,
+          "actualStart": 316.439291,
+          "actualEnd": 495.806458,
+          "timeDifference": 2.999291000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Balancing Power to Protect Liberty",
+          "expectedStart": 492.81,
+          "expectedEnd": 664.55,
+          "actualStart": 497.306458,
+          "actualEnd": 669.0510830000001,
+          "timeDifference": 4.496458000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Challenge of Factions and the Strength of a Large Republic",
+          "expectedStart": 664.55,
+          "expectedEnd": 850.04,
+          "actualStart": 670.5510830000001,
+          "actualEnd": 856.042083,
+          "timeDifference": 6.001083000000108
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Consent of the Governed and the Promise of Individual Rights",
+          "expectedStart": 850.04,
+          "expectedEnd": 1011.19,
+          "actualStart": 857.542083,
+          "actualEnd": 1018.69425,
+          "timeDifference": 7.502083000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Machinery of Government—How the New System Would Work",
+          "expectedStart": 1011.19,
+          "expectedEnd": 1159.5,
+          "actualStart": 1020.19425,
+          "actualEnd": 1168.502917,
+          "timeDifference": 9.004249999999956
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Safeguards Against Tyranny—Checks, Balances, and the Rule of Law",
+          "expectedStart": 1159.5,
+          "expectedEnd": 1312.17,
+          "actualStart": 1170.002917,
+          "actualEnd": 1322.67525,
+          "timeDifference": 10.502917000000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of the People—Amendment and Adaptation",
+          "expectedStart": 1312.17,
+          "expectedEnd": 1455.58,
+          "actualStart": 1324.17525,
+          "actualEnd": 1467.584083,
+          "timeDifference": 12.005249999999933
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Challenge—Justice, Equality, and the American Experiment",
+          "expectedStart": 1455.58,
+          "expectedEnd": 1569.62,
+          "actualStart": 1469.084083,
+          "actualEnd": 1583.121291,
+          "timeDifference": 13.504083000000037
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of the Federalist Papers—A Living Conversation",
+          "expectedStart": 1569.62,
+          "expectedEnd": 1685.67,
+          "actualStart": 1584.621291,
+          "actualEnd": 1700.673541,
+          "timeDifference": 15.001291000000037
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1685.67,
+          "expectedEnd": 1797.35,
+          "actualStart": 1702.173541,
+          "actualEnd": 1813.850583,
+          "timeDifference": 16.503540999999814
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.985833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Urgency of Unity and the Promise of a New Beginning"
+        },
+        {
+          "startTime": 314.939291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Urgency of Unity and the Promise of a New Beginning and Chapter 2 The Dangers of Division and the Need for a Stronger Government"
+        },
+        {
+          "startTime": 495.806458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Dangers of Division and the Need for a Stronger Government and Chapter 3 Balancing Power to Protect Liberty"
+        },
+        {
+          "startTime": 669.0510830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Balancing Power to Protect Liberty and Chapter 4 The Challenge of Factions and the Strength of a Large Republic"
+        },
+        {
+          "startTime": 856.042083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Challenge of Factions and the Strength of a Large Republic and Chapter 5 The Consent of the Governed and the Promise of Individual Rights"
+        },
+        {
+          "startTime": 1018.69425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Consent of the Governed and the Promise of Individual Rights and Chapter 6 The Machinery of Government—How the New System Would Work"
+        },
+        {
+          "startTime": 1168.502917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Machinery of Government—How the New System Would Work and Chapter 7 Safeguards Against Tyranny—Checks, Balances, and the Rule of Law"
+        },
+        {
+          "startTime": 1322.67525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Safeguards Against Tyranny—Checks, Balances, and the Rule of Law and Chapter 8 The Power of the People—Amendment and Adaptation"
+        },
+        {
+          "startTime": 1467.584083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of the People—Amendment and Adaptation and Chapter 9 The Enduring Challenge—Justice, Equality, and the American Experiment"
+        },
+        {
+          "startTime": 1583.121291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Challenge—Justice, Equality, and the American Experiment and Chapter 10 The Legacy of the Federalist Papers—A Living Conversation"
+        },
+        {
+          "startTime": 1700.673541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of the Federalist Papers—A Living Conversation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1104",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T14:16:41.393Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

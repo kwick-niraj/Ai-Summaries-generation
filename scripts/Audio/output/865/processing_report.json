@@ -1,0 +1,456 @@
+{
+  "bookId": "865",
+  "timestamp": "2025-07-05T12:37:44.911Z",
+  "success": false,
+  "processingTime": -1751718645375,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3793,
+    "totalAudioFiles": 12,
+    "totalDuration": 2045.311126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2045.311126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/865/optimized_text/865.md",
+    "fileSize": 617,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "865.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/865/metadata/865_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2045.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/865/metadata/865_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/865/metadata/865_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/865/865_complete.wav",
+    "duration": 2045.311125,
+    "fileSize": 98175012,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/865/introduction.wav",
+          "duration": 99.554292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.554292,
+          "startTime": 0,
+          "endTime": 99.554292
+        },
+        {
+          "path": "Audio/output/865/chapter_01.wav",
+          "duration": 185.386583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Value of Doing Less",
+          "actualDuration": 185.386583,
+          "startTime": 101.054292,
+          "endTime": 286.440875
+        },
+        {
+          "path": "Audio/output/865/chapter_02.wav",
+          "duration": 202.926708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying the Essential and Letting Go of the Rest",
+          "actualDuration": 202.926708,
+          "startTime": 287.940875,
+          "endTime": 490.86758299999997
+        },
+        {
+          "path": "Audio/output/865/chapter_03.wav",
+          "duration": 207.109167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Lasting Habits Through Small, Sustainable Changes",
+          "actualDuration": 207.109167,
+          "startTime": 492.36758299999997,
+          "endTime": 699.47675
+        },
+        {
+          "path": "Audio/output/865/chapter_04.wav",
+          "duration": 175.185167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Clarity Through Limits and Boundaries",
+          "actualDuration": 175.185167,
+          "startTime": 700.97675,
+          "endTime": 876.161917
+        },
+        {
+          "path": "Audio/output/865/chapter_05.wav",
+          "duration": 168.320167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Focusing on What Matters Most Each Day",
+          "actualDuration": 168.320167,
+          "startTime": 877.661917,
+          "endTime": 1045.982084
+        },
+        {
+          "path": "Audio/output/865/chapter_06.wav",
+          "duration": 191.5835,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mastering the Art of Saying No",
+          "actualDuration": 191.5835,
+          "startTime": 1047.482084,
+          "endTime": 1239.065584
+        },
+        {
+          "path": "Audio/output/865/chapter_07.wav",
+          "duration": 167.409375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Obstacles and Staying on Course",
+          "actualDuration": 167.409375,
+          "startTime": 1240.565584,
+          "endTime": 1407.974959
+        },
+        {
+          "path": "Audio/output/865/chapter_08.wav",
+          "duration": 197.308875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Simplifying Communication and Relationships",
+          "actualDuration": 197.308875,
+          "startTime": 1409.474959,
+          "endTime": 1606.7838339999998
+        },
+        {
+          "path": "Audio/output/865/chapter_09.wav",
+          "duration": 151.454167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Maintaining Simplicity in a Complex World",
+          "actualDuration": 151.454167,
+          "startTime": 1608.2838339999998,
+          "endTime": 1759.738001
+        },
+        {
+          "path": "Audio/output/865/chapter_10.wav",
+          "duration": 168.239833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Joy",
+          "actualDuration": 168.239833,
+          "startTime": 1761.238001,
+          "endTime": 1929.477834
+        },
+        {
+          "path": "Audio/output/865/conclusion.wav",
+          "duration": 130.833292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.833292,
+          "startTime": 1930.977834,
+          "endTime": 2061.811126
+        }
+      ],
+      "totalDuration": 2061.811126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.55,
+          "actualStart": 0,
+          "actualEnd": 99.554292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Value of Doing Less",
+          "expectedStart": 99.55,
+          "expectedEnd": 284.94,
+          "actualStart": 101.054292,
+          "actualEnd": 286.440875,
+          "timeDifference": 1.5042920000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying the Essential and Letting Go of the Rest",
+          "expectedStart": 284.94,
+          "expectedEnd": 487.87,
+          "actualStart": 287.940875,
+          "actualEnd": 490.86758299999997,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Lasting Habits Through Small, Sustainable Changes",
+          "expectedStart": 487.87,
+          "expectedEnd": 694.98,
+          "actualStart": 492.36758299999997,
+          "actualEnd": 699.47675,
+          "timeDifference": 4.497582999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Clarity Through Limits and Boundaries",
+          "expectedStart": 694.98,
+          "expectedEnd": 870.17,
+          "actualStart": 700.97675,
+          "actualEnd": 876.161917,
+          "timeDifference": 5.99675000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Focusing on What Matters Most Each Day",
+          "expectedStart": 870.17,
+          "expectedEnd": 1038.49,
+          "actualStart": 877.661917,
+          "actualEnd": 1045.982084,
+          "timeDifference": 7.491917000000058
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mastering the Art of Saying No",
+          "expectedStart": 1038.49,
+          "expectedEnd": 1230.07,
+          "actualStart": 1047.482084,
+          "actualEnd": 1239.065584,
+          "timeDifference": 8.992083999999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Obstacles and Staying on Course",
+          "expectedStart": 1230.07,
+          "expectedEnd": 1397.48,
+          "actualStart": 1240.565584,
+          "actualEnd": 1407.974959,
+          "timeDifference": 10.495584000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Simplifying Communication and Relationships",
+          "expectedStart": 1397.48,
+          "expectedEnd": 1594.79,
+          "actualStart": 1409.474959,
+          "actualEnd": 1606.7838339999998,
+          "timeDifference": 11.99495899999988
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Maintaining Simplicity in a Complex World",
+          "expectedStart": 1594.79,
+          "expectedEnd": 1746.24,
+          "actualStart": 1608.2838339999998,
+          "actualEnd": 1759.738001,
+          "timeDifference": 13.493833999999879
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Joy",
+          "expectedStart": 1746.24,
+          "expectedEnd": 1914.48,
+          "actualStart": 1761.238001,
+          "actualEnd": 1929.477834,
+          "timeDifference": 14.998000999999931
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1914.48,
+          "expectedEnd": 2045.31,
+          "actualStart": 1930.977834,
+          "actualEnd": 2061.811126,
+          "timeDifference": 16.49783400000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.554292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Value of Doing Less"
+        },
+        {
+          "startTime": 286.440875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Value of Doing Less and Chapter 2 Identifying the Essential and Letting Go of the Rest"
+        },
+        {
+          "startTime": 490.86758299999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying the Essential and Letting Go of the Rest and Chapter 3 Building Lasting Habits Through Small, Sustainable Changes"
+        },
+        {
+          "startTime": 699.47675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Lasting Habits Through Small, Sustainable Changes and Chapter 4 Creating Clarity Through Limits and Boundaries"
+        },
+        {
+          "startTime": 876.161917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Clarity Through Limits and Boundaries and Chapter 5 Focusing on What Matters Most Each Day"
+        },
+        {
+          "startTime": 1045.982084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Focusing on What Matters Most Each Day and Chapter 6 Mastering the Art of Saying No"
+        },
+        {
+          "startTime": 1239.065584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mastering the Art of Saying No and Chapter 7 Navigating Obstacles and Staying on Course"
+        },
+        {
+          "startTime": 1407.974959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Obstacles and Staying on Course and Chapter 8 Simplifying Communication and Relationships"
+        },
+        {
+          "startTime": 1606.7838339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Simplifying Communication and Relationships and Chapter 9 Maintaining Simplicity in a Complex World"
+        },
+        {
+          "startTime": 1759.738001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Maintaining Simplicity in a Complex World and Chapter 10 Living with Purpose and Joy"
+        },
+        {
+          "startTime": 1929.477834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "865",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T12:30:45.968Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

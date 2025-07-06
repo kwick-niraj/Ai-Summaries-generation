@@ -1,0 +1,456 @@
+{
+  "bookId": "900",
+  "timestamp": "2025-07-05T14:36:14.566Z",
+  "success": false,
+  "processingTime": -1751725855686,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3831,
+    "totalAudioFiles": 12,
+    "totalDuration": 1967.2727909999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1967.2727909999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/900/optimized_text/900.md",
+    "fileSize": 691,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "900.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/900/metadata/900_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1967.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/900/metadata/900_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/900/metadata/900_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/900/900_complete.wav",
+    "duration": 1967.272792,
+    "fileSize": 94429172,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/900/introduction.wav",
+          "duration": 90.157333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.157333,
+          "startTime": 0,
+          "endTime": 90.157333
+        },
+        {
+          "path": "Audio/output/900/chapter_01.wav",
+          "duration": 200.638625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Silent Language of Human Connection",
+          "actualDuration": 200.638625,
+          "startTime": 91.657333,
+          "endTime": 292.295958
+        },
+        {
+          "path": "Audio/output/900/chapter_02.wav",
+          "duration": 188.657958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Foundation—Baselines and Context",
+          "actualDuration": 188.657958,
+          "startTime": 293.795958,
+          "endTime": 482.453916
+        },
+        {
+          "path": "Audio/output/900/chapter_03.wav",
+          "duration": 209.1625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Body’s Honest Signals—Comfort and Discomfort",
+          "actualDuration": 209.1625,
+          "startTime": 483.953916,
+          "endTime": 693.116416
+        },
+        {
+          "path": "Audio/output/900/chapter_04.wav",
+          "duration": 235.776167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Decoding the Face, Hands, and Upper Body",
+          "actualDuration": 235.776167,
+          "startTime": 694.616416,
+          "endTime": 930.392583
+        },
+        {
+          "path": "Audio/output/900/chapter_05.wav",
+          "duration": 197.881208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Spotting Deception and Building Trust",
+          "actualDuration": 197.881208,
+          "startTime": 931.892583,
+          "endTime": 1129.7737909999998
+        },
+        {
+          "path": "Audio/output/900/chapter_06.wav",
+          "duration": 143.916417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Observation—The Power of Peripheral Awareness",
+          "actualDuration": 143.916417,
+          "startTime": 1131.2737909999998,
+          "endTime": 1275.1902079999998
+        },
+        {
+          "path": "Audio/output/900/chapter_07.wav",
+          "duration": 169.549667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating High-Stakes Interactions—Negotiations, Interviews, and Conflict",
+          "actualDuration": 169.549667,
+          "startTime": 1276.6902079999998,
+          "endTime": 1446.2398749999998
+        },
+        {
+          "path": "Audio/output/900/chapter_08.wav",
+          "duration": 144.677958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultural Nuances and Individual Differences",
+          "actualDuration": 144.677958,
+          "startTime": 1447.7398749999998,
+          "endTime": 1592.4178329999997
+        },
+        {
+          "path": "Audio/output/900/chapter_09.wav",
+          "duration": 145.403083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Self-Mastery—Managing Your Own Nonverbal Signals",
+          "actualDuration": 145.403083,
+          "startTime": 1593.9178329999997,
+          "endTime": 1739.3209159999997
+        },
+        {
+          "path": "Audio/output/900/chapter_10.wav",
+          "duration": 122.169667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Nonverbal Intelligence into Daily Life",
+          "actualDuration": 122.169667,
+          "startTime": 1740.8209159999997,
+          "endTime": 1862.9905829999998
+        },
+        {
+          "path": "Audio/output/900/conclusion.wav",
+          "duration": 119.282208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.282208,
+          "startTime": 1864.4905829999998,
+          "endTime": 1983.7727909999999
+        }
+      ],
+      "totalDuration": 1983.7727909999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.16,
+          "actualStart": 0,
+          "actualEnd": 90.157333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Silent Language of Human Connection",
+          "expectedStart": 90.16,
+          "expectedEnd": 290.8,
+          "actualStart": 91.657333,
+          "actualEnd": 292.295958,
+          "timeDifference": 1.4973329999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Foundation—Baselines and Context",
+          "expectedStart": 290.8,
+          "expectedEnd": 479.46,
+          "actualStart": 293.795958,
+          "actualEnd": 482.453916,
+          "timeDifference": 2.9959579999999733
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Body’s Honest Signals—Comfort and Discomfort",
+          "expectedStart": 479.46,
+          "expectedEnd": 688.62,
+          "actualStart": 483.953916,
+          "actualEnd": 693.116416,
+          "timeDifference": 4.493916000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Decoding the Face, Hands, and Upper Body",
+          "expectedStart": 688.62,
+          "expectedEnd": 924.4,
+          "actualStart": 694.616416,
+          "actualEnd": 930.392583,
+          "timeDifference": 5.996415999999954
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Spotting Deception and Building Trust",
+          "expectedStart": 924.4,
+          "expectedEnd": 1122.28,
+          "actualStart": 931.892583,
+          "actualEnd": 1129.7737909999998,
+          "timeDifference": 7.492582999999968
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Observation—The Power of Peripheral Awareness",
+          "expectedStart": 1122.28,
+          "expectedEnd": 1266.2,
+          "actualStart": 1131.2737909999998,
+          "actualEnd": 1275.1902079999998,
+          "timeDifference": 8.993790999999874
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating High-Stakes Interactions—Negotiations, Interviews, and Conflict",
+          "expectedStart": 1266.2,
+          "expectedEnd": 1435.75,
+          "actualStart": 1276.6902079999998,
+          "actualEnd": 1446.2398749999998,
+          "timeDifference": 10.490207999999711
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultural Nuances and Individual Differences",
+          "expectedStart": 1435.75,
+          "expectedEnd": 1580.43,
+          "actualStart": 1447.7398749999998,
+          "actualEnd": 1592.4178329999997,
+          "timeDifference": 11.989874999999756
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Self-Mastery—Managing Your Own Nonverbal Signals",
+          "expectedStart": 1580.43,
+          "expectedEnd": 1725.83,
+          "actualStart": 1593.9178329999997,
+          "actualEnd": 1739.3209159999997,
+          "timeDifference": 13.487832999999682
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Nonverbal Intelligence into Daily Life",
+          "expectedStart": 1725.83,
+          "expectedEnd": 1848,
+          "actualStart": 1740.8209159999997,
+          "actualEnd": 1862.9905829999998,
+          "timeDifference": 14.990915999999743
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1848,
+          "expectedEnd": 1967.28,
+          "actualStart": 1864.4905829999998,
+          "actualEnd": 1983.7727909999999,
+          "timeDifference": 16.490582999999788
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.157333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Silent Language of Human Connection"
+        },
+        {
+          "startTime": 292.295958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Silent Language of Human Connection and Chapter 2 Building a Foundation—Baselines and Context"
+        },
+        {
+          "startTime": 482.453916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Foundation—Baselines and Context and Chapter 3 The Body’s Honest Signals—Comfort and Discomfort"
+        },
+        {
+          "startTime": 693.116416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Body’s Honest Signals—Comfort and Discomfort and Chapter 4 Decoding the Face, Hands, and Upper Body"
+        },
+        {
+          "startTime": 930.392583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Decoding the Face, Hands, and Upper Body and Chapter 5 Spotting Deception and Building Trust"
+        },
+        {
+          "startTime": 1129.7737909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Spotting Deception and Building Trust and Chapter 6 Advanced Observation—The Power of Peripheral Awareness"
+        },
+        {
+          "startTime": 1275.1902079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Observation—The Power of Peripheral Awareness and Chapter 7 Navigating High-Stakes Interactions—Negotiations, Interviews, and Conflict"
+        },
+        {
+          "startTime": 1446.2398749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating High-Stakes Interactions—Negotiations, Interviews, and Conflict and Chapter 8 Cultural Nuances and Individual Differences"
+        },
+        {
+          "startTime": 1592.4178329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultural Nuances and Individual Differences and Chapter 9 Self-Mastery—Managing Your Own Nonverbal Signals"
+        },
+        {
+          "startTime": 1739.3209159999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Self-Mastery—Managing Your Own Nonverbal Signals and Chapter 10 Integrating Nonverbal Intelligence into Daily Life"
+        },
+        {
+          "startTime": 1862.9905829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Nonverbal Intelligence into Daily Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "900",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T14:30:57.006Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "920",
+  "timestamp": "2025-07-05T15:59:49.455Z",
+  "success": false,
+  "processingTime": -1751730860118,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4518,
+    "totalAudioFiles": 12,
+    "totalDuration": 1936.5488770000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1936.5488770000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/920/optimized_text/920.md",
+    "fileSize": 815,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "920.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/920/metadata/920_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1936.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/920/metadata/920_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/920/metadata/920_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/920/920_complete.wav",
+    "duration": 1936.548875,
+    "fileSize": 92954424,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/920/introduction.wav",
+          "duration": 85.037292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.037292,
+          "startTime": 0,
+          "endTime": 85.037292
+        },
+        {
+          "path": "Audio/output/920/chapter_01.wav",
+          "duration": 201.405167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Love Becomes a Lifeline: Recognizing the Pattern",
+          "actualDuration": 201.405167,
+          "startTime": 86.537292,
+          "endTime": 287.942459
+        },
+        {
+          "path": "Audio/output/920/chapter_02.wav",
+          "duration": 218.99625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Unhealthy Attachments: Childhood Lessons and Emotional Survival",
+          "actualDuration": 218.99625,
+          "startTime": 289.442459,
+          "endTime": 508.438709
+        },
+        {
+          "path": "Audio/output/920/chapter_03.wav",
+          "duration": 195.642375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cycle of Rescue and Control: Why Fixing Others Feels Like Love",
+          "actualDuration": 195.642375,
+          "startTime": 509.938709,
+          "endTime": 705.581084
+        },
+        {
+          "path": "Audio/output/920/chapter_04.wav",
+          "duration": 196.144167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Losing Yourself: Emotional Dependency and Self-Worth",
+          "actualDuration": 196.144167,
+          "startTime": 707.081084,
+          "endTime": 903.2252510000001
+        },
+        {
+          "path": "Audio/output/920/chapter_05.wav",
+          "duration": 193.152667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking the Cycle: Recovery, Boundaries, and New Ways of Loving",
+          "actualDuration": 193.152667,
+          "startTime": 904.7252510000001,
+          "endTime": 1097.8779180000001
+        },
+        {
+          "path": "Audio/output/920/chapter_06.wav",
+          "duration": 161.793667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing the Fear of Change: Letting Go and Trusting the Unknown",
+          "actualDuration": 161.793667,
+          "startTime": 1099.3779180000001,
+          "endTime": 1261.171585
+        },
+        {
+          "path": "Audio/output/920/chapter_07.wav",
+          "duration": 163.698167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reclaiming Identity: Rediscovering Who You Are",
+          "actualDuration": 163.698167,
+          "startTime": 1262.671585,
+          "endTime": 1426.369752
+        },
+        {
+          "path": "Audio/output/920/chapter_08.wav",
+          "duration": 159.724375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Healthy Relationships: New Patterns, New Possibilities",
+          "actualDuration": 159.724375,
+          "startTime": 1427.869752,
+          "endTime": 1587.594127
+        },
+        {
+          "path": "Audio/output/920/chapter_09.wav",
+          "duration": 133.836583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey: Setbacks, Growth, and Self-Compassion",
+          "actualDuration": 133.836583,
+          "startTime": 1589.094127,
+          "endTime": 1722.93071
+        },
+        {
+          "path": "Audio/output/920/chapter_10.wav",
+          "duration": 120.188625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Loving Without Losing: Embracing Connection and Independence",
+          "actualDuration": 120.188625,
+          "startTime": 1724.43071,
+          "endTime": 1844.619335
+        },
+        {
+          "path": "Audio/output/920/conclusion.wav",
+          "duration": 106.929542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.929542,
+          "startTime": 1846.119335,
+          "endTime": 1953.0488770000002
+        }
+      ],
+      "totalDuration": 1953.0488770000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.04,
+          "actualStart": 0,
+          "actualEnd": 85.037292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Love Becomes a Lifeline: Recognizing the Pattern",
+          "expectedStart": 85.04,
+          "expectedEnd": 286.45,
+          "actualStart": 86.537292,
+          "actualEnd": 287.942459,
+          "timeDifference": 1.4972919999999874
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Unhealthy Attachments: Childhood Lessons and Emotional Survival",
+          "expectedStart": 286.45,
+          "expectedEnd": 505.45,
+          "actualStart": 289.442459,
+          "actualEnd": 508.438709,
+          "timeDifference": 2.9924589999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cycle of Rescue and Control: Why Fixing Others Feels Like Love",
+          "expectedStart": 505.45,
+          "expectedEnd": 701.09,
+          "actualStart": 509.938709,
+          "actualEnd": 705.581084,
+          "timeDifference": 4.4887090000000285
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Losing Yourself: Emotional Dependency and Self-Worth",
+          "expectedStart": 701.09,
+          "expectedEnd": 897.23,
+          "actualStart": 707.081084,
+          "actualEnd": 903.2252510000001,
+          "timeDifference": 5.991084000000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking the Cycle: Recovery, Boundaries, and New Ways of Loving",
+          "expectedStart": 897.23,
+          "expectedEnd": 1090.38,
+          "actualStart": 904.7252510000001,
+          "actualEnd": 1097.8779180000001,
+          "timeDifference": 7.495251000000053
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing the Fear of Change: Letting Go and Trusting the Unknown",
+          "expectedStart": 1090.38,
+          "expectedEnd": 1252.17,
+          "actualStart": 1099.3779180000001,
+          "actualEnd": 1261.171585,
+          "timeDifference": 8.997918000000027
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reclaiming Identity: Rediscovering Who You Are",
+          "expectedStart": 1252.17,
+          "expectedEnd": 1415.87,
+          "actualStart": 1262.671585,
+          "actualEnd": 1426.369752,
+          "timeDifference": 10.501584999999977
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Healthy Relationships: New Patterns, New Possibilities",
+          "expectedStart": 1415.87,
+          "expectedEnd": 1575.59,
+          "actualStart": 1427.869752,
+          "actualEnd": 1587.594127,
+          "timeDifference": 11.999752000000171
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey: Setbacks, Growth, and Self-Compassion",
+          "expectedStart": 1575.59,
+          "expectedEnd": 1709.43,
+          "actualStart": 1589.094127,
+          "actualEnd": 1722.93071,
+          "timeDifference": 13.504127000000153
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Loving Without Losing: Embracing Connection and Independence",
+          "expectedStart": 1709.43,
+          "expectedEnd": 1829.62,
+          "actualStart": 1724.43071,
+          "actualEnd": 1844.619335,
+          "timeDifference": 15.000710000000026
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1829.62,
+          "expectedEnd": 1936.55,
+          "actualStart": 1846.119335,
+          "actualEnd": 1953.0488770000002,
+          "timeDifference": 16.4993350000002
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.037292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Love Becomes a Lifeline: Recognizing the Pattern"
+        },
+        {
+          "startTime": 287.942459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Love Becomes a Lifeline: Recognizing the Pattern and Chapter 2 The Roots of Unhealthy Attachments: Childhood Lessons and Emotional Survival"
+        },
+        {
+          "startTime": 508.438709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Unhealthy Attachments: Childhood Lessons and Emotional Survival and Chapter 3 The Cycle of Rescue and Control: Why Fixing Others Feels Like Love"
+        },
+        {
+          "startTime": 705.581084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cycle of Rescue and Control: Why Fixing Others Feels Like Love and Chapter 4 The Cost of Losing Yourself: Emotional Dependency and Self-Worth"
+        },
+        {
+          "startTime": 903.2252510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Losing Yourself: Emotional Dependency and Self-Worth and Chapter 5 Breaking the Cycle: Recovery, Boundaries, and New Ways of Loving"
+        },
+        {
+          "startTime": 1097.8779180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking the Cycle: Recovery, Boundaries, and New Ways of Loving and Chapter 6 Facing the Fear of Change: Letting Go and Trusting the Unknown"
+        },
+        {
+          "startTime": 1261.171585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing the Fear of Change: Letting Go and Trusting the Unknown and Chapter 7 Reclaiming Identity: Rediscovering Who You Are"
+        },
+        {
+          "startTime": 1426.369752,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reclaiming Identity: Rediscovering Who You Are and Chapter 8 Building Healthy Relationships: New Patterns, New Possibilities"
+        },
+        {
+          "startTime": 1587.594127,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Healthy Relationships: New Patterns, New Possibilities and Chapter 9 The Ongoing Journey: Setbacks, Growth, and Self-Compassion"
+        },
+        {
+          "startTime": 1722.93071,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey: Setbacks, Growth, and Self-Compassion and Chapter 10 Loving Without Losing: Embracing Connection and Independence"
+        },
+        {
+          "startTime": 1844.619335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Loving Without Losing: Embracing Connection and Independence and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "920",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:54:20.682Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

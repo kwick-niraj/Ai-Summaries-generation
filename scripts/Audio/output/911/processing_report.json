@@ -1,0 +1,456 @@
+{
+  "bookId": "911",
+  "timestamp": "2025-07-05T15:27:11.332Z",
+  "success": false,
+  "processingTime": -1751728910444,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4723,
+    "totalAudioFiles": 12,
+    "totalDuration": 2004.424291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2004.424291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/911/optimized_text/911.md",
+    "fileSize": 556,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "911.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/911/metadata/911_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2004.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/911/metadata/911_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/911/metadata/911_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/911/911_complete.wav",
+    "duration": 2004.424292,
+    "fileSize": 96212444,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/911/introduction.wav",
+          "duration": 93.0905,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.0905,
+          "startTime": 0,
+          "endTime": 93.0905
+        },
+        {
+          "path": "Audio/output/911/chapter_01.wav",
+          "duration": 255.992375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Music Shapes the Story of a Life",
+          "actualDuration": 255.992375,
+          "startTime": 94.5905,
+          "endTime": 350.582875
+        },
+        {
+          "path": "Audio/output/911/chapter_02.wav",
+          "duration": 213.994333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Falling in Love Through Shared Songs",
+          "actualDuration": 213.994333,
+          "startTime": 352.082875,
+          "endTime": 566.077208
+        },
+        {
+          "path": "Audio/output/911/chapter_03.wav",
+          "duration": 171.860542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Life Together, One Song at a Time",
+          "actualDuration": 171.860542,
+          "startTime": 567.577208,
+          "endTime": 739.43775
+        },
+        {
+          "path": "Audio/output/911/chapter_04.wav",
+          "duration": 198.886792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 When Loss Changes the Soundtrack",
+          "actualDuration": 198.886792,
+          "startTime": 740.93775,
+          "endTime": 939.8245420000001
+        },
+        {
+          "path": "Audio/output/911/chapter_05.wav",
+          "duration": 152.6785,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Meaning and Healing Through Music",
+          "actualDuration": 152.6785,
+          "startTime": 941.3245420000001,
+          "endTime": 1094.003042
+        },
+        {
+          "path": "Audio/output/911/chapter_06.wav",
+          "duration": 167.599792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Relearning the World, One Song at a Time",
+          "actualDuration": 167.599792,
+          "startTime": 1095.503042,
+          "endTime": 1263.102834
+        },
+        {
+          "path": "Audio/output/911/chapter_07.wav",
+          "duration": 181.596333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unexpected Power of Community",
+          "actualDuration": 181.596333,
+          "startTime": 1264.602834,
+          "endTime": 1446.199167
+        },
+        {
+          "path": "Audio/output/911/chapter_08.wav",
+          "duration": 148.125875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Letting Go Without Forgetting",
+          "actualDuration": 148.125875,
+          "startTime": 1447.699167,
+          "endTime": 1595.825042
+        },
+        {
+          "path": "Audio/output/911/chapter_09.wav",
+          "duration": 147.411708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Echo of Love and Memory",
+          "actualDuration": 147.411708,
+          "startTime": 1597.325042,
+          "endTime": 1744.73675
+        },
+        {
+          "path": "Audio/output/911/chapter_10.wav",
+          "duration": 148.590083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Music Forward",
+          "actualDuration": 148.590083,
+          "startTime": 1746.23675,
+          "endTime": 1894.826833
+        },
+        {
+          "path": "Audio/output/911/conclusion.wav",
+          "duration": 124.597458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.597458,
+          "startTime": 1896.326833,
+          "endTime": 2020.924291
+        }
+      ],
+      "totalDuration": 2020.924291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.09,
+          "actualStart": 0,
+          "actualEnd": 93.0905,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Music Shapes the Story of a Life",
+          "expectedStart": 93.09,
+          "expectedEnd": 349.08,
+          "actualStart": 94.5905,
+          "actualEnd": 350.582875,
+          "timeDifference": 1.5005000000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Falling in Love Through Shared Songs",
+          "expectedStart": 349.08,
+          "expectedEnd": 563.07,
+          "actualStart": 352.082875,
+          "actualEnd": 566.077208,
+          "timeDifference": 3.0028750000000173
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Life Together, One Song at a Time",
+          "expectedStart": 563.07,
+          "expectedEnd": 734.93,
+          "actualStart": 567.577208,
+          "actualEnd": 739.43775,
+          "timeDifference": 4.507207999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 When Loss Changes the Soundtrack",
+          "expectedStart": 734.93,
+          "expectedEnd": 933.82,
+          "actualStart": 740.93775,
+          "actualEnd": 939.8245420000001,
+          "timeDifference": 6.007750000000101
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Meaning and Healing Through Music",
+          "expectedStart": 933.82,
+          "expectedEnd": 1086.5,
+          "actualStart": 941.3245420000001,
+          "actualEnd": 1094.003042,
+          "timeDifference": 7.504542000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Relearning the World, One Song at a Time",
+          "expectedStart": 1086.5,
+          "expectedEnd": 1254.1,
+          "actualStart": 1095.503042,
+          "actualEnd": 1263.102834,
+          "timeDifference": 9.00304200000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unexpected Power of Community",
+          "expectedStart": 1254.1,
+          "expectedEnd": 1435.7,
+          "actualStart": 1264.602834,
+          "actualEnd": 1446.199167,
+          "timeDifference": 10.50283400000012
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Letting Go Without Forgetting",
+          "expectedStart": 1435.7,
+          "expectedEnd": 1583.83,
+          "actualStart": 1447.699167,
+          "actualEnd": 1595.825042,
+          "timeDifference": 11.999166999999943
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Echo of Love and Memory",
+          "expectedStart": 1583.83,
+          "expectedEnd": 1731.24,
+          "actualStart": 1597.325042,
+          "actualEnd": 1744.73675,
+          "timeDifference": 13.495042000000012
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Music Forward",
+          "expectedStart": 1731.24,
+          "expectedEnd": 1879.83,
+          "actualStart": 1746.23675,
+          "actualEnd": 1894.826833,
+          "timeDifference": 14.99675000000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1879.83,
+          "expectedEnd": 2004.43,
+          "actualStart": 1896.326833,
+          "actualEnd": 2020.924291,
+          "timeDifference": 16.49683300000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.0905,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Music Shapes the Story of a Life"
+        },
+        {
+          "startTime": 350.582875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Music Shapes the Story of a Life and Chapter 2 Falling in Love Through Shared Songs"
+        },
+        {
+          "startTime": 566.077208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Falling in Love Through Shared Songs and Chapter 3 Building a Life Together, One Song at a Time"
+        },
+        {
+          "startTime": 739.43775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Life Together, One Song at a Time and Chapter 4 When Loss Changes the Soundtrack"
+        },
+        {
+          "startTime": 939.8245420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 When Loss Changes the Soundtrack and Chapter 5 Finding Meaning and Healing Through Music"
+        },
+        {
+          "startTime": 1094.003042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Meaning and Healing Through Music and Chapter 6 Relearning the World, One Song at a Time"
+        },
+        {
+          "startTime": 1263.102834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Relearning the World, One Song at a Time and Chapter 7 The Unexpected Power of Community"
+        },
+        {
+          "startTime": 1446.199167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unexpected Power of Community and Chapter 8 Letting Go Without Forgetting"
+        },
+        {
+          "startTime": 1595.825042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Letting Go Without Forgetting and Chapter 9 The Enduring Echo of Love and Memory"
+        },
+        {
+          "startTime": 1744.73675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Echo of Love and Memory and Chapter 10 Carrying the Music Forward"
+        },
+        {
+          "startTime": 1894.826833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Music Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "911",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:21:52.610Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

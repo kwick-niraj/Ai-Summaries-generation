@@ -1,0 +1,456 @@
+{
+  "bookId": "625",
+  "timestamp": "2025-07-04T22:49:17.730Z",
+  "success": false,
+  "processingTime": -1751668899862,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4345,
+    "totalAudioFiles": 12,
+    "totalDuration": 2299.3917920000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2299.3917920000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/625/optimized_text/625.md",
+    "fileSize": 746,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "625.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/625/metadata/625_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2299.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/625/metadata/625_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/625/metadata/625_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/625/625_complete.wav",
+    "duration": 2299.391792,
+    "fileSize": 110370884,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/625/introduction.wav",
+          "duration": 112.584917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.584917,
+          "startTime": 0,
+          "endTime": 112.584917
+        },
+        {
+          "path": "Audio/output/625/chapter_01.wav",
+          "duration": 201.522208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Redefining Success and the Foundation of Pure Potential",
+          "actualDuration": 201.522208,
+          "startTime": 114.084917,
+          "endTime": 315.607125
+        },
+        {
+          "path": "Audio/output/625/chapter_02.wav",
+          "duration": 235.232625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Giving and Receiving in Everyday Life",
+          "actualDuration": 235.232625,
+          "startTime": 317.107125,
+          "endTime": 552.33975
+        },
+        {
+          "path": "Audio/output/625/chapter_03.wav",
+          "duration": 213.205542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Law of Cause and Effect—Understanding Karma in Daily Choices",
+          "actualDuration": 213.205542,
+          "startTime": 553.83975,
+          "endTime": 767.045292
+        },
+        {
+          "path": "Audio/output/625/chapter_04.wav",
+          "duration": 247.0995,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Effortless Action and the Path of Least Resistance",
+          "actualDuration": 247.0995,
+          "startTime": 768.545292,
+          "endTime": 1015.644792
+        },
+        {
+          "path": "Audio/output/625/chapter_05.wav",
+          "duration": 238.207208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Harnessing Intention and Desire for Purposeful Living",
+          "actualDuration": 238.207208,
+          "startTime": 1017.144792,
+          "endTime": 1255.352
+        },
+        {
+          "path": "Audio/output/625/chapter_06.wav",
+          "duration": 231.023875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Wisdom of Detachment—Finding Freedom in Uncertainty",
+          "actualDuration": 231.023875,
+          "startTime": 1256.852,
+          "endTime": 1487.8758750000002
+        },
+        {
+          "path": "Audio/output/625/chapter_07.wav",
+          "duration": 207.139292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Law of Dharma—Living Your Unique Purpose",
+          "actualDuration": 207.139292,
+          "startTime": 1489.3758750000002,
+          "endTime": 1696.5151670000002
+        },
+        {
+          "path": "Audio/output/625/chapter_08.wav",
+          "duration": 154.940625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Seven Laws—A Daily Practice",
+          "actualDuration": 154.940625,
+          "startTime": 1698.0151670000002,
+          "endTime": 1852.9557920000002
+        },
+        {
+          "path": "Audio/output/625/chapter_09.wav",
+          "duration": 159.328917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Transforming the World from Within",
+          "actualDuration": 159.328917,
+          "startTime": 1854.4557920000002,
+          "endTime": 2013.7847090000002
+        },
+        {
+          "path": "Audio/output/625/chapter_10.wav",
+          "duration": 167.051583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth—Returning to the Principles Over Time",
+          "actualDuration": 167.051583,
+          "startTime": 2015.2847090000002,
+          "endTime": 2182.3362920000004
+        },
+        {
+          "path": "Audio/output/625/conclusion.wav",
+          "duration": 132.0555,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.0555,
+          "startTime": 2183.8362920000004,
+          "endTime": 2315.8917920000004
+        }
+      ],
+      "totalDuration": 2315.8917920000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.58,
+          "actualStart": 0,
+          "actualEnd": 112.584917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Redefining Success and the Foundation of Pure Potential",
+          "expectedStart": 112.58,
+          "expectedEnd": 314.1,
+          "actualStart": 114.084917,
+          "actualEnd": 315.607125,
+          "timeDifference": 1.504917000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Giving and Receiving in Everyday Life",
+          "expectedStart": 314.1,
+          "expectedEnd": 549.33,
+          "actualStart": 317.107125,
+          "actualEnd": 552.33975,
+          "timeDifference": 3.0071249999999736
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Law of Cause and Effect—Understanding Karma in Daily Choices",
+          "expectedStart": 549.33,
+          "expectedEnd": 762.54,
+          "actualStart": 553.83975,
+          "actualEnd": 767.045292,
+          "timeDifference": 4.50974999999994
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Effortless Action and the Path of Least Resistance",
+          "expectedStart": 762.54,
+          "expectedEnd": 1009.64,
+          "actualStart": 768.545292,
+          "actualEnd": 1015.644792,
+          "timeDifference": 6.005292000000054
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Harnessing Intention and Desire for Purposeful Living",
+          "expectedStart": 1009.64,
+          "expectedEnd": 1247.85,
+          "actualStart": 1017.144792,
+          "actualEnd": 1255.352,
+          "timeDifference": 7.504792000000066
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Wisdom of Detachment—Finding Freedom in Uncertainty",
+          "expectedStart": 1247.85,
+          "expectedEnd": 1478.87,
+          "actualStart": 1256.852,
+          "actualEnd": 1487.8758750000002,
+          "timeDifference": 9.00200000000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Law of Dharma—Living Your Unique Purpose",
+          "expectedStart": 1478.87,
+          "expectedEnd": 1686.01,
+          "actualStart": 1489.3758750000002,
+          "actualEnd": 1696.5151670000002,
+          "timeDifference": 10.505875000000287
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Seven Laws—A Daily Practice",
+          "expectedStart": 1686.01,
+          "expectedEnd": 1840.95,
+          "actualStart": 1698.0151670000002,
+          "actualEnd": 1852.9557920000002,
+          "timeDifference": 12.005167000000256
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Transforming the World from Within",
+          "expectedStart": 1840.95,
+          "expectedEnd": 2000.28,
+          "actualStart": 1854.4557920000002,
+          "actualEnd": 2013.7847090000002,
+          "timeDifference": 13.505792000000156
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth—Returning to the Principles Over Time",
+          "expectedStart": 2000.28,
+          "expectedEnd": 2167.33,
+          "actualStart": 2015.2847090000002,
+          "actualEnd": 2182.3362920000004,
+          "timeDifference": 15.004709000000275
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2167.33,
+          "expectedEnd": 2299.39,
+          "actualStart": 2183.8362920000004,
+          "actualEnd": 2315.8917920000004,
+          "timeDifference": 16.506292000000485
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.584917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Redefining Success and the Foundation of Pure Potential"
+        },
+        {
+          "startTime": 315.607125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Redefining Success and the Foundation of Pure Potential and Chapter 2 The Power of Giving and Receiving in Everyday Life"
+        },
+        {
+          "startTime": 552.33975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Giving and Receiving in Everyday Life and Chapter 3 The Law of Cause and Effect—Understanding Karma in Daily Choices"
+        },
+        {
+          "startTime": 767.045292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Law of Cause and Effect—Understanding Karma in Daily Choices and Chapter 4 Embracing Effortless Action and the Path of Least Resistance"
+        },
+        {
+          "startTime": 1015.644792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Effortless Action and the Path of Least Resistance and Chapter 5 Harnessing Intention and Desire for Purposeful Living"
+        },
+        {
+          "startTime": 1255.352,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Harnessing Intention and Desire for Purposeful Living and Chapter 6 The Wisdom of Detachment—Finding Freedom in Uncertainty"
+        },
+        {
+          "startTime": 1487.8758750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Wisdom of Detachment—Finding Freedom in Uncertainty and Chapter 7 The Law of Dharma—Living Your Unique Purpose"
+        },
+        {
+          "startTime": 1696.5151670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Law of Dharma—Living Your Unique Purpose and Chapter 8 Integrating the Seven Laws—A Daily Practice"
+        },
+        {
+          "startTime": 1852.9557920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Seven Laws—A Daily Practice and Chapter 9 The Ripple Effect—Transforming the World from Within"
+        },
+        {
+          "startTime": 2013.7847090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Transforming the World from Within and Chapter 10 Sustaining Growth—Returning to the Principles Over Time"
+        },
+        {
+          "startTime": 2182.3362920000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth—Returning to the Principles Over Time and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "625",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T22:41:41.111Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1069",
+  "timestamp": "2025-07-06T11:11:43.043Z",
+  "success": false,
+  "processingTime": -1751799856061,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4378,
+    "totalAudioFiles": 12,
+    "totalDuration": 2061.9930409999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2061.9930409999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1069/optimized_text/1069.md",
+    "fileSize": 666,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1069.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1069/metadata/1069_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2061.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1069/metadata/1069_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1069/metadata/1069_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1069/1069_complete.wav",
+    "duration": 2061.993042,
+    "fileSize": 98975744,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1069/introduction.wav",
+          "duration": 88.351083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.351083,
+          "startTime": 0,
+          "endTime": 88.351083
+        },
+        {
+          "path": "Audio/output/1069/chapter_01.wav",
+          "duration": 206.16475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Modern Food Maze",
+          "actualDuration": 206.16475,
+          "startTime": 89.851083,
+          "endTime": 296.015833
+        },
+        {
+          "path": "Audio/output/1069/chapter_02.wav",
+          "duration": 242.624875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden World of Industrial Food",
+          "actualDuration": 242.624875,
+          "startTime": 297.515833,
+          "endTime": 540.140708
+        },
+        {
+          "path": "Audio/output/1069/chapter_03.wav",
+          "duration": 237.68925,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Many Faces of Organic",
+          "actualDuration": 237.68925,
+          "startTime": 541.640708,
+          "endTime": 779.329958
+        },
+        {
+          "path": "Audio/output/1069/chapter_04.wav",
+          "duration": 206.772417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Promise and Challenge of Local, Sustainable Farming",
+          "actualDuration": 206.772417,
+          "startTime": 780.829958,
+          "endTime": 987.602375
+        },
+        {
+          "path": "Audio/output/1069/chapter_05.wav",
+          "duration": 181.716083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rediscovering Food’s Origins Through Hunting and Gathering",
+          "actualDuration": 181.716083,
+          "startTime": 989.102375,
+          "endTime": 1170.818458
+        },
+        {
+          "path": "Audio/output/1069/chapter_06.wav",
+          "duration": 183.985583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ethics of Eating—Seeing the Lives Behind Our Meals",
+          "actualDuration": 183.985583,
+          "startTime": 1172.318458,
+          "endTime": 1356.3040409999999
+        },
+        {
+          "path": "Audio/output/1069/chapter_07.wav",
+          "duration": 173.27975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Web of Ecology—How Food Chains Shape the World",
+          "actualDuration": 173.27975,
+          "startTime": 1357.8040409999999,
+          "endTime": 1531.0837909999998
+        },
+        {
+          "path": "Audio/output/1069/chapter_08.wav",
+          "duration": 167.157917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Pleasure and Politics of Eating Together",
+          "actualDuration": 167.157917,
+          "startTime": 1532.5837909999998,
+          "endTime": 1699.7417079999998
+        },
+        {
+          "path": "Audio/output/1069/chapter_09.wav",
+          "duration": 138.739333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Path Forward—Conscious Eating in a Complicated World",
+          "actualDuration": 138.739333,
+          "startTime": 1701.2417079999998,
+          "endTime": 1839.9810409999998
+        },
+        {
+          "path": "Audio/output/1069/chapter_10.wav",
+          "duration": 118.46025,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Coming Home to the Table—A New Way of Seeing Food",
+          "actualDuration": 118.46025,
+          "startTime": 1841.4810409999998,
+          "endTime": 1959.9412909999999
+        },
+        {
+          "path": "Audio/output/1069/conclusion.wav",
+          "duration": 117.05175,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.05175,
+          "startTime": 1961.4412909999999,
+          "endTime": 2078.4930409999997
+        }
+      ],
+      "totalDuration": 2078.4930409999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.35,
+          "actualStart": 0,
+          "actualEnd": 88.351083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Modern Food Maze",
+          "expectedStart": 88.35,
+          "expectedEnd": 294.51,
+          "actualStart": 89.851083,
+          "actualEnd": 296.015833,
+          "timeDifference": 1.5010830000000084
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden World of Industrial Food",
+          "expectedStart": 294.51,
+          "expectedEnd": 537.13,
+          "actualStart": 297.515833,
+          "actualEnd": 540.140708,
+          "timeDifference": 3.0058329999999955
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Many Faces of Organic",
+          "expectedStart": 537.13,
+          "expectedEnd": 774.82,
+          "actualStart": 541.640708,
+          "actualEnd": 779.329958,
+          "timeDifference": 4.510708000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Promise and Challenge of Local, Sustainable Farming",
+          "expectedStart": 774.82,
+          "expectedEnd": 981.59,
+          "actualStart": 780.829958,
+          "actualEnd": 987.602375,
+          "timeDifference": 6.009957999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rediscovering Food’s Origins Through Hunting and Gathering",
+          "expectedStart": 981.59,
+          "expectedEnd": 1163.31,
+          "actualStart": 989.102375,
+          "actualEnd": 1170.818458,
+          "timeDifference": 7.51237500000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ethics of Eating—Seeing the Lives Behind Our Meals",
+          "expectedStart": 1163.31,
+          "expectedEnd": 1347.3,
+          "actualStart": 1172.318458,
+          "actualEnd": 1356.3040409999999,
+          "timeDifference": 9.008458000000019
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Web of Ecology—How Food Chains Shape the World",
+          "expectedStart": 1347.3,
+          "expectedEnd": 1520.58,
+          "actualStart": 1357.8040409999999,
+          "actualEnd": 1531.0837909999998,
+          "timeDifference": 10.504040999999916
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Pleasure and Politics of Eating Together",
+          "expectedStart": 1520.58,
+          "expectedEnd": 1687.74,
+          "actualStart": 1532.5837909999998,
+          "actualEnd": 1699.7417079999998,
+          "timeDifference": 12.003790999999865
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Path Forward—Conscious Eating in a Complicated World",
+          "expectedStart": 1687.74,
+          "expectedEnd": 1826.48,
+          "actualStart": 1701.2417079999998,
+          "actualEnd": 1839.9810409999998,
+          "timeDifference": 13.50170799999978
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Coming Home to the Table—A New Way of Seeing Food",
+          "expectedStart": 1826.48,
+          "expectedEnd": 1944.94,
+          "actualStart": 1841.4810409999998,
+          "actualEnd": 1959.9412909999999,
+          "timeDifference": 15.00104099999976
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1944.94,
+          "expectedEnd": 2061.99,
+          "actualStart": 1961.4412909999999,
+          "actualEnd": 2078.4930409999997,
+          "timeDifference": 16.50129099999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.351083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Modern Food Maze"
+        },
+        {
+          "startTime": 296.015833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Modern Food Maze and Chapter 2 The Hidden World of Industrial Food"
+        },
+        {
+          "startTime": 540.140708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden World of Industrial Food and Chapter 3 The Many Faces of Organic"
+        },
+        {
+          "startTime": 779.329958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Many Faces of Organic and Chapter 4 The Promise and Challenge of Local, Sustainable Farming"
+        },
+        {
+          "startTime": 987.602375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Promise and Challenge of Local, Sustainable Farming and Chapter 5 Rediscovering Food’s Origins Through Hunting and Gathering"
+        },
+        {
+          "startTime": 1170.818458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rediscovering Food’s Origins Through Hunting and Gathering and Chapter 6 The Ethics of Eating—Seeing the Lives Behind Our Meals"
+        },
+        {
+          "startTime": 1356.3040409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ethics of Eating—Seeing the Lives Behind Our Meals and Chapter 7 The Web of Ecology—How Food Chains Shape the World"
+        },
+        {
+          "startTime": 1531.0837909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Web of Ecology—How Food Chains Shape the World and Chapter 8 The Pleasure and Politics of Eating Together"
+        },
+        {
+          "startTime": 1699.7417079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Pleasure and Politics of Eating Together and Chapter 9 The Path Forward—Conscious Eating in a Complicated World"
+        },
+        {
+          "startTime": 1839.9810409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Path Forward—Conscious Eating in a Complicated World and Chapter 10 Coming Home to the Table—A New Way of Seeing Food"
+        },
+        {
+          "startTime": 1959.9412909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Coming Home to the Table—A New Way of Seeing Food and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1069",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:04:17.543Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

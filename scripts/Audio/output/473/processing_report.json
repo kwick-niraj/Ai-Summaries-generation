@@ -1,0 +1,456 @@
+{
+  "bookId": "473",
+  "timestamp": "2025-07-04T05:26:17.122Z",
+  "success": false,
+  "processingTime": -1751606335777,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5532,
+    "totalAudioFiles": 12,
+    "totalDuration": 2461.987835
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2461.987835
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/473/optimized_text/473.md",
+    "fileSize": 813,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "473.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/473/metadata/473_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2461.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/473/metadata/473_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/473/metadata/473_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/473/473_complete.wav",
+    "duration": 2461.987833,
+    "fileSize": 118175494,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/473/introduction.wav",
+          "duration": 82.1345,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.1345,
+          "startTime": 0,
+          "endTime": 82.1345
+        },
+        {
+          "path": "Audio/output/473/chapter_01.wav",
+          "duration": 238.98225,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Suddenly Shifts: Early Signs and Unseen Warnings",
+          "actualDuration": 238.98225,
+          "startTime": 83.6345,
+          "endTime": 322.61675
+        },
+        {
+          "path": "Audio/output/473/chapter_02.wav",
+          "duration": 295.086,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Descent into Chaos: Losing Touch with Reality",
+          "actualDuration": 295.086,
+          "startTime": 324.11675,
+          "endTime": 619.20275
+        },
+        {
+          "path": "Audio/output/473/chapter_03.wav",
+          "duration": 277.140042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Searching for Answers: Misdiagnosis and Medical Uncertainty",
+          "actualDuration": 277.140042,
+          "startTime": 620.70275,
+          "endTime": 897.842792
+        },
+        {
+          "path": "Audio/output/473/chapter_04.wav",
+          "duration": 248.787292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Fight for Recovery: Treatment, Memory, and the Struggle to Reclaim Self",
+          "actualDuration": 248.787292,
+          "startTime": 899.342792,
+          "endTime": 1148.1300840000001
+        },
+        {
+          "path": "Audio/output/473/chapter_05.wav",
+          "duration": 213.616417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reflections on Identity, Science, and the Limits of Understanding",
+          "actualDuration": 213.616417,
+          "startTime": 1149.6300840000001,
+          "endTime": 1363.246501
+        },
+        {
+          "path": "Audio/output/473/chapter_06.wav",
+          "duration": 233.557792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Returning to the World: The Uneven Path of Reintegration",
+          "actualDuration": 233.557792,
+          "startTime": 1364.746501,
+          "endTime": 1598.3042930000001
+        },
+        {
+          "path": "Audio/output/473/chapter_07.wav",
+          "duration": 217.894917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Family, Relationships, and the Aftermath",
+          "actualDuration": 217.894917,
+          "startTime": 1599.8042930000001,
+          "endTime": 1817.6992100000002
+        },
+        {
+          "path": "Audio/output/473/chapter_08.wav",
+          "duration": 211.333833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Medicine’s Blind Spots: Lessons for Doctors, Patients, and Society",
+          "actualDuration": 211.333833,
+          "startTime": 1819.1992100000002,
+          "endTime": 2030.5330430000001
+        },
+        {
+          "path": "Audio/output/473/chapter_09.wav",
+          "duration": 175.500625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Meaning: Writing, Advocacy, and the Power of Story",
+          "actualDuration": 175.500625,
+          "startTime": 2032.0330430000001,
+          "endTime": 2207.533668
+        },
+        {
+          "path": "Audio/output/473/chapter_10.wav",
+          "duration": 149.0775,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward: Acceptance, Resilience, and the Ongoing Journey",
+          "actualDuration": 149.0775,
+          "startTime": 2209.033668,
+          "endTime": 2358.111168
+        },
+        {
+          "path": "Audio/output/473/conclusion.wav",
+          "duration": 118.876667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.876667,
+          "startTime": 2359.611168,
+          "endTime": 2478.487835
+        }
+      ],
+      "totalDuration": 2478.487835,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.13,
+          "actualStart": 0,
+          "actualEnd": 82.1345,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Suddenly Shifts: Early Signs and Unseen Warnings",
+          "expectedStart": 82.13,
+          "expectedEnd": 321.11,
+          "actualStart": 83.6345,
+          "actualEnd": 322.61675,
+          "timeDifference": 1.5045000000000073
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Descent into Chaos: Losing Touch with Reality",
+          "expectedStart": 321.11,
+          "expectedEnd": 616.2,
+          "actualStart": 324.11675,
+          "actualEnd": 619.20275,
+          "timeDifference": 3.006750000000011
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Searching for Answers: Misdiagnosis and Medical Uncertainty",
+          "expectedStart": 616.2,
+          "expectedEnd": 893.34,
+          "actualStart": 620.70275,
+          "actualEnd": 897.842792,
+          "timeDifference": 4.502749999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Fight for Recovery: Treatment, Memory, and the Struggle to Reclaim Self",
+          "expectedStart": 893.34,
+          "expectedEnd": 1142.13,
+          "actualStart": 899.342792,
+          "actualEnd": 1148.1300840000001,
+          "timeDifference": 6.0027919999999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reflections on Identity, Science, and the Limits of Understanding",
+          "expectedStart": 1142.13,
+          "expectedEnd": 1355.75,
+          "actualStart": 1149.6300840000001,
+          "actualEnd": 1363.246501,
+          "timeDifference": 7.500084000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Returning to the World: The Uneven Path of Reintegration",
+          "expectedStart": 1355.75,
+          "expectedEnd": 1589.31,
+          "actualStart": 1364.746501,
+          "actualEnd": 1598.3042930000001,
+          "timeDifference": 8.99650100000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Family, Relationships, and the Aftermath",
+          "expectedStart": 1589.31,
+          "expectedEnd": 1807.2,
+          "actualStart": 1599.8042930000001,
+          "actualEnd": 1817.6992100000002,
+          "timeDifference": 10.494293000000198
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Medicine’s Blind Spots: Lessons for Doctors, Patients, and Society",
+          "expectedStart": 1807.2,
+          "expectedEnd": 2018.53,
+          "actualStart": 1819.1992100000002,
+          "actualEnd": 2030.5330430000001,
+          "timeDifference": 11.999210000000176
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Meaning: Writing, Advocacy, and the Power of Story",
+          "expectedStart": 2018.53,
+          "expectedEnd": 2194.03,
+          "actualStart": 2032.0330430000001,
+          "actualEnd": 2207.533668,
+          "timeDifference": 13.503043000000162
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward: Acceptance, Resilience, and the Ongoing Journey",
+          "expectedStart": 2194.03,
+          "expectedEnd": 2343.11,
+          "actualStart": 2209.033668,
+          "actualEnd": 2358.111168,
+          "timeDifference": 15.003667999999834
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2343.11,
+          "expectedEnd": 2461.99,
+          "actualStart": 2359.611168,
+          "actualEnd": 2478.487835,
+          "timeDifference": 16.50116799999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.1345,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Suddenly Shifts: Early Signs and Unseen Warnings"
+        },
+        {
+          "startTime": 322.61675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Suddenly Shifts: Early Signs and Unseen Warnings and Chapter 2 The Descent into Chaos: Losing Touch with Reality"
+        },
+        {
+          "startTime": 619.20275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Descent into Chaos: Losing Touch with Reality and Chapter 3 Searching for Answers: Misdiagnosis and Medical Uncertainty"
+        },
+        {
+          "startTime": 897.842792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Searching for Answers: Misdiagnosis and Medical Uncertainty and Chapter 4 The Fight for Recovery: Treatment, Memory, and the Struggle to Reclaim Self"
+        },
+        {
+          "startTime": 1148.1300840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Fight for Recovery: Treatment, Memory, and the Struggle to Reclaim Self and Chapter 5 Reflections on Identity, Science, and the Limits of Understanding"
+        },
+        {
+          "startTime": 1363.246501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reflections on Identity, Science, and the Limits of Understanding and Chapter 6 Returning to the World: The Uneven Path of Reintegration"
+        },
+        {
+          "startTime": 1598.3042930000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Returning to the World: The Uneven Path of Reintegration and Chapter 7 The Ripple Effect: Family, Relationships, and the Aftermath"
+        },
+        {
+          "startTime": 1817.6992100000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Family, Relationships, and the Aftermath and Chapter 8 Medicine’s Blind Spots: Lessons for Doctors, Patients, and Society"
+        },
+        {
+          "startTime": 2030.5330430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Medicine’s Blind Spots: Lessons for Doctors, Patients, and Society and Chapter 9 Finding Meaning: Writing, Advocacy, and the Power of Story"
+        },
+        {
+          "startTime": 2207.533668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Meaning: Writing, Advocacy, and the Power of Story and Chapter 10 Living Forward: Acceptance, Resilience, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2358.111168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward: Acceptance, Resilience, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "473",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:18:57.389Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

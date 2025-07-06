@@ -1,0 +1,504 @@
+{
+  "bookId": "756",
+  "timestamp": "2025-07-05T06:54:16.920Z",
+  "success": false,
+  "processingTime": -1751698102840,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5218,
+    "totalAudioFiles": 14,
+    "totalDuration": 2549.1754590000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2549.1754590000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/756/optimized_text/756.md",
+    "fileSize": 799,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "756.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/756/metadata/756_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2549.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/756/metadata/756_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/756/metadata/756_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/756/756_complete.wav",
+    "duration": 2549.175458,
+    "fileSize": 122360500,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/756/introduction.wav",
+          "duration": 90.375667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.375667,
+          "startTime": 0,
+          "endTime": 90.375667
+        },
+        {
+          "path": "Audio/output/756/chapter_01.wav",
+          "duration": 260.077792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Steps Toward Education in Remote Mountains",
+          "actualDuration": 260.077792,
+          "startTime": 91.875667,
+          "endTime": 351.953459
+        },
+        {
+          "path": "Audio/output/756/chapter_02.wav",
+          "duration": 299.762375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust and Navigating Cultural Barriers",
+          "actualDuration": 299.762375,
+          "startTime": 353.453459,
+          "endTime": 653.2158340000001
+        },
+        {
+          "path": "Audio/output/756/chapter_03.wav",
+          "duration": 257.389542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Educating Girls and Women",
+          "actualDuration": 257.389542,
+          "startTime": 654.7158340000001,
+          "endTime": 912.1053760000001
+        },
+        {
+          "path": "Audio/output/756/chapter_04.wav",
+          "duration": 197.530542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Conflict and Finding Resilience",
+          "actualDuration": 197.530542,
+          "startTime": 913.6053760000001,
+          "endTime": 1111.1359180000002
+        },
+        {
+          "path": "Audio/output/756/chapter_05.wav",
+          "duration": 218.8785,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Collaboration and the Seeds of Lasting Change",
+          "actualDuration": 218.8785,
+          "startTime": 1112.6359180000002,
+          "endTime": 1331.5144180000002
+        },
+        {
+          "path": "Audio/output/756/chapter_06.wav",
+          "duration": 188.390875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Crossing Borders—The Call from Afghanistan",
+          "actualDuration": 188.390875,
+          "startTime": 1333.0144180000002,
+          "endTime": 1521.4052930000003
+        },
+        {
+          "path": "Audio/output/756/chapter_07.wav",
+          "duration": 184.759083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Kirghiz and the Edge of the Map",
+          "actualDuration": 184.759083,
+          "startTime": 1522.9052930000003,
+          "endTime": 1707.6643760000002
+        },
+        {
+          "path": "Audio/output/756/chapter_08.wav",
+          "duration": 177.989208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Roadblocks of Aid—Bureaucracy, Corruption, and the Cost of Good Intentions",
+          "actualDuration": 177.989208,
+          "startTime": 1709.1643760000002,
+          "endTime": 1887.1535840000001
+        },
+        {
+          "path": "Audio/output/756/chapter_09.wav",
+          "duration": 143.5215,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Stories of Transformation",
+          "actualDuration": 143.5215,
+          "startTime": 1888.6535840000001,
+          "endTime": 2032.1750840000002
+        },
+        {
+          "path": "Audio/output/756/chapter_10.wav",
+          "duration": 154.465792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Cost of Peace—Sacrifice, Loss, and the Unseen Heroes",
+          "actualDuration": 154.465792,
+          "startTime": 2033.6750840000002,
+          "endTime": 2188.1408760000004
+        },
+        {
+          "path": "Audio/output/756/chapter_11.wav",
+          "duration": 135.66375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Next Generation—Sustaining the Dream",
+          "actualDuration": 135.66375,
+          "startTime": 2189.6408760000004,
+          "endTime": 2325.3046260000006
+        },
+        {
+          "path": "Audio/output/756/chapter_12.wav",
+          "duration": 114.545458,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Reflections—What Stones Can Become",
+          "actualDuration": 114.545458,
+          "startTime": 2326.8046260000006,
+          "endTime": 2441.3500840000006
+        },
+        {
+          "path": "Audio/output/756/conclusion.wav",
+          "duration": 125.825375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.825375,
+          "startTime": 2442.8500840000006,
+          "endTime": 2568.6754590000005
+        }
+      ],
+      "totalDuration": 2568.6754590000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.38,
+          "actualStart": 0,
+          "actualEnd": 90.375667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Steps Toward Education in Remote Mountains",
+          "expectedStart": 90.38,
+          "expectedEnd": 350.46,
+          "actualStart": 91.875667,
+          "actualEnd": 351.953459,
+          "timeDifference": 1.4956670000000116
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust and Navigating Cultural Barriers",
+          "expectedStart": 350.46,
+          "expectedEnd": 650.22,
+          "actualStart": 353.453459,
+          "actualEnd": 653.2158340000001,
+          "timeDifference": 2.99345900000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Educating Girls and Women",
+          "expectedStart": 650.22,
+          "expectedEnd": 907.61,
+          "actualStart": 654.7158340000001,
+          "actualEnd": 912.1053760000001,
+          "timeDifference": 4.495834000000059
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Conflict and Finding Resilience",
+          "expectedStart": 907.61,
+          "expectedEnd": 1105.14,
+          "actualStart": 913.6053760000001,
+          "actualEnd": 1111.1359180000002,
+          "timeDifference": 5.995376000000078
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Collaboration and the Seeds of Lasting Change",
+          "expectedStart": 1105.14,
+          "expectedEnd": 1324.02,
+          "actualStart": 1112.6359180000002,
+          "actualEnd": 1331.5144180000002,
+          "timeDifference": 7.495918000000074
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Crossing Borders—The Call from Afghanistan",
+          "expectedStart": 1324.02,
+          "expectedEnd": 1512.41,
+          "actualStart": 1333.0144180000002,
+          "actualEnd": 1521.4052930000003,
+          "timeDifference": 8.994418000000223
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Kirghiz and the Edge of the Map",
+          "expectedStart": 1512.41,
+          "expectedEnd": 1697.17,
+          "actualStart": 1522.9052930000003,
+          "actualEnd": 1707.6643760000002,
+          "timeDifference": 10.495293000000174
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Roadblocks of Aid—Bureaucracy, Corruption, and the Cost of Good Intentions",
+          "expectedStart": 1697.17,
+          "expectedEnd": 1875.16,
+          "actualStart": 1709.1643760000002,
+          "actualEnd": 1887.1535840000001,
+          "timeDifference": 11.994376000000102
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Stories of Transformation",
+          "expectedStart": 1875.16,
+          "expectedEnd": 2018.68,
+          "actualStart": 1888.6535840000001,
+          "actualEnd": 2032.1750840000002,
+          "timeDifference": 13.493584000000055
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Cost of Peace—Sacrifice, Loss, and the Unseen Heroes",
+          "expectedStart": 2018.68,
+          "expectedEnd": 2173.15,
+          "actualStart": 2033.6750840000002,
+          "actualEnd": 2188.1408760000004,
+          "timeDifference": 14.995084000000134
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Next Generation—Sustaining the Dream",
+          "expectedStart": 2173.15,
+          "expectedEnd": 2308.81,
+          "actualStart": 2189.6408760000004,
+          "actualEnd": 2325.3046260000006,
+          "timeDifference": 16.4908760000003
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Reflections—What Stones Can Become",
+          "expectedStart": 2308.81,
+          "expectedEnd": 2423.36,
+          "actualStart": 2326.8046260000006,
+          "actualEnd": 2441.3500840000006,
+          "timeDifference": 17.994626000000608
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2423.36,
+          "expectedEnd": 2549.19,
+          "actualStart": 2442.8500840000006,
+          "actualEnd": 2568.6754590000005,
+          "timeDifference": 19.49008400000048
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.375667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Steps Toward Education in Remote Mountains"
+        },
+        {
+          "startTime": 351.953459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Steps Toward Education in Remote Mountains and Chapter 2 Building Trust and Navigating Cultural Barriers"
+        },
+        {
+          "startTime": 653.2158340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust and Navigating Cultural Barriers and Chapter 3 The Power of Educating Girls and Women"
+        },
+        {
+          "startTime": 912.1053760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Educating Girls and Women and Chapter 4 Facing Conflict and Finding Resilience"
+        },
+        {
+          "startTime": 1111.1359180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Conflict and Finding Resilience and Chapter 5 Collaboration and the Seeds of Lasting Change"
+        },
+        {
+          "startTime": 1331.5144180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Collaboration and the Seeds of Lasting Change and Chapter 6 Crossing Borders—The Call from Afghanistan"
+        },
+        {
+          "startTime": 1521.4052930000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Crossing Borders—The Call from Afghanistan and Chapter 7 The Kirghiz and the Edge of the Map"
+        },
+        {
+          "startTime": 1707.6643760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Kirghiz and the Edge of the Map and Chapter 8 The Roadblocks of Aid—Bureaucracy, Corruption, and the Cost of Good Intentions"
+        },
+        {
+          "startTime": 1887.1535840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Roadblocks of Aid—Bureaucracy, Corruption, and the Cost of Good Intentions and Chapter 9 The Ripple Effect—Stories of Transformation"
+        },
+        {
+          "startTime": 2032.1750840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Stories of Transformation and Chapter 10 The Cost of Peace—Sacrifice, Loss, and the Unseen Heroes"
+        },
+        {
+          "startTime": 2188.1408760000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Cost of Peace—Sacrifice, Loss, and the Unseen Heroes and Chapter 11 The Next Generation—Sustaining the Dream"
+        },
+        {
+          "startTime": 2325.3046260000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Next Generation—Sustaining the Dream and Chapter 12 Reflections—What Stones Can Become"
+        },
+        {
+          "startTime": 2441.3500840000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Reflections—What Stones Can Become and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "756",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T06:48:24.387Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

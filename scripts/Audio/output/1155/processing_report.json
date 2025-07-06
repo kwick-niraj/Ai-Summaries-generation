@@ -1,0 +1,456 @@
+{
+  "bookId": "1155",
+  "timestamp": "2025-07-06T17:49:38.890Z",
+  "success": false,
+  "processingTime": -1751823653728,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 6109,
+    "totalAudioFiles": 12,
+    "totalDuration": 2644.8324159999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2644.8324159999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1155/optimized_text/1155.md",
+    "fileSize": 753,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "1155.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1155/metadata/1155_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2644.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1155/metadata/1155_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1155/metadata/1155_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1155/1155_complete.wav",
+    "duration": 2644.832417,
+    "fileSize": 126952034,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1155/introduction.wav",
+          "duration": 83.6525,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.6525,
+          "startTime": 0,
+          "endTime": 83.6525
+        },
+        {
+          "path": "Audio/output/1155/chapter_01.wav",
+          "duration": 310.849625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Unspoken: How Society Avoids Death",
+          "actualDuration": 310.849625,
+          "startTime": 85.1525,
+          "endTime": 396.002125
+        },
+        {
+          "path": "Audio/output/1155/chapter_02.wav",
+          "duration": 326.54725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Emotional Journey: Understanding the Stages of Dying",
+          "actualDuration": 326.54725,
+          "startTime": 397.502125,
+          "endTime": 724.049375
+        },
+        {
+          "path": "Audio/output/1155/chapter_03.wav",
+          "duration": 313.693708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Listening and Speaking: The Power of Honest Communication",
+          "actualDuration": 313.693708,
+          "startTime": 725.549375,
+          "endTime": 1039.243083
+        },
+        {
+          "path": "Audio/output/1155/chapter_04.wav",
+          "duration": 225.529333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Caregivers: Balancing Support and Self-Care",
+          "actualDuration": 225.529333,
+          "startTime": 1040.743083,
+          "endTime": 1266.272416
+        },
+        {
+          "path": "Audio/output/1155/chapter_05.wav",
+          "duration": 228.187167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Dignity and Meaning: Supporting the Dying Person’s Humanity",
+          "actualDuration": 228.187167,
+          "startTime": 1267.772416,
+          "endTime": 1495.959583
+        },
+        {
+          "path": "Audio/output/1155/chapter_06.wav",
+          "duration": 251.412417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Family Tides: Navigating Grief and Connection",
+          "actualDuration": 251.412417,
+          "startTime": 1497.459583,
+          "endTime": 1748.872
+        },
+        {
+          "path": "Audio/output/1155/chapter_07.wav",
+          "duration": 193.971,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Spiritual Dimension: Seeking Comfort and Meaning Beyond Medicine",
+          "actualDuration": 193.971,
+          "startTime": 1750.372,
+          "endTime": 1944.343
+        },
+        {
+          "path": "Audio/output/1155/chapter_08.wav",
+          "duration": 219.298208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Children and Death: Honesty, Reassurance, and the Need to Belong",
+          "actualDuration": 219.298208,
+          "startTime": 1945.843,
+          "endTime": 2165.141208
+        },
+        {
+          "path": "Audio/output/1155/chapter_09.wav",
+          "duration": 203.818292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Breaking the Silence: Changing How We Talk About Death",
+          "actualDuration": 203.818292,
+          "startTime": 2166.641208,
+          "endTime": 2370.4595
+        },
+        {
+          "path": "Audio/output/1155/chapter_10.wav",
+          "duration": 166.556333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Dying: Wisdom for the Living",
+          "actualDuration": 166.556333,
+          "startTime": 2371.9595,
+          "endTime": 2538.515833
+        },
+        {
+          "path": "Audio/output/1155/conclusion.wav",
+          "duration": 121.316583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.316583,
+          "startTime": 2540.015833,
+          "endTime": 2661.3324159999997
+        }
+      ],
+      "totalDuration": 2661.3324159999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.65,
+          "actualStart": 0,
+          "actualEnd": 83.6525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Unspoken: How Society Avoids Death",
+          "expectedStart": 83.65,
+          "expectedEnd": 394.5,
+          "actualStart": 85.1525,
+          "actualEnd": 396.002125,
+          "timeDifference": 1.5024999999999977
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Emotional Journey: Understanding the Stages of Dying",
+          "expectedStart": 394.5,
+          "expectedEnd": 721.05,
+          "actualStart": 397.502125,
+          "actualEnd": 724.049375,
+          "timeDifference": 3.002124999999978
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Listening and Speaking: The Power of Honest Communication",
+          "expectedStart": 721.05,
+          "expectedEnd": 1034.74,
+          "actualStart": 725.549375,
+          "actualEnd": 1039.243083,
+          "timeDifference": 4.4993750000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Caregivers: Balancing Support and Self-Care",
+          "expectedStart": 1034.74,
+          "expectedEnd": 1260.27,
+          "actualStart": 1040.743083,
+          "actualEnd": 1266.272416,
+          "timeDifference": 6.003083000000061
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Dignity and Meaning: Supporting the Dying Person’s Humanity",
+          "expectedStart": 1260.27,
+          "expectedEnd": 1488.46,
+          "actualStart": 1267.772416,
+          "actualEnd": 1495.959583,
+          "timeDifference": 7.502416000000039
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Family Tides: Navigating Grief and Connection",
+          "expectedStart": 1488.46,
+          "expectedEnd": 1739.87,
+          "actualStart": 1497.459583,
+          "actualEnd": 1748.872,
+          "timeDifference": 8.99958300000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Spiritual Dimension: Seeking Comfort and Meaning Beyond Medicine",
+          "expectedStart": 1739.87,
+          "expectedEnd": 1933.84,
+          "actualStart": 1750.372,
+          "actualEnd": 1944.343,
+          "timeDifference": 10.50200000000018
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Children and Death: Honesty, Reassurance, and the Need to Belong",
+          "expectedStart": 1933.84,
+          "expectedEnd": 2153.14,
+          "actualStart": 1945.843,
+          "actualEnd": 2165.141208,
+          "timeDifference": 12.003000000000156
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Breaking the Silence: Changing How We Talk About Death",
+          "expectedStart": 2153.14,
+          "expectedEnd": 2356.96,
+          "actualStart": 2166.641208,
+          "actualEnd": 2370.4595,
+          "timeDifference": 13.501208000000133
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Dying: Wisdom for the Living",
+          "expectedStart": 2356.96,
+          "expectedEnd": 2523.52,
+          "actualStart": 2371.9595,
+          "actualEnd": 2538.515833,
+          "timeDifference": 14.999499999999898
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2523.52,
+          "expectedEnd": 2644.84,
+          "actualStart": 2540.015833,
+          "actualEnd": 2661.3324159999997,
+          "timeDifference": 16.495832999999948
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.6525,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Unspoken: How Society Avoids Death"
+        },
+        {
+          "startTime": 396.002125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Unspoken: How Society Avoids Death and Chapter 2 The Emotional Journey: Understanding the Stages of Dying"
+        },
+        {
+          "startTime": 724.049375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Emotional Journey: Understanding the Stages of Dying and Chapter 3 Listening and Speaking: The Power of Honest Communication"
+        },
+        {
+          "startTime": 1039.243083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Listening and Speaking: The Power of Honest Communication and Chapter 4 The Role of Caregivers: Balancing Support and Self-Care"
+        },
+        {
+          "startTime": 1266.272416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Caregivers: Balancing Support and Self-Care and Chapter 5 Dignity and Meaning: Supporting the Dying Person’s Humanity"
+        },
+        {
+          "startTime": 1495.959583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Dignity and Meaning: Supporting the Dying Person’s Humanity and Chapter 6 Family Tides: Navigating Grief and Connection"
+        },
+        {
+          "startTime": 1748.872,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Family Tides: Navigating Grief and Connection and Chapter 7 The Spiritual Dimension: Seeking Comfort and Meaning Beyond Medicine"
+        },
+        {
+          "startTime": 1944.343,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Spiritual Dimension: Seeking Comfort and Meaning Beyond Medicine and Chapter 8 Children and Death: Honesty, Reassurance, and the Need to Belong"
+        },
+        {
+          "startTime": 2165.141208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Children and Death: Honesty, Reassurance, and the Need to Belong and Chapter 9 Breaking the Silence: Changing How We Talk About Death"
+        },
+        {
+          "startTime": 2370.4595,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Breaking the Silence: Changing How We Talk About Death and Chapter 10 Lessons from the Dying: Wisdom for the Living"
+        },
+        {
+          "startTime": 2538.515833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Dying: Wisdom for the Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1155",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T17:40:55.012Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

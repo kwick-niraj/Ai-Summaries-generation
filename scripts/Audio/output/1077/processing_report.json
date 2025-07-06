@@ -1,0 +1,456 @@
+{
+  "bookId": "1077",
+  "timestamp": "2025-07-06T11:41:23.243Z",
+  "success": false,
+  "processingTime": -1751801768501,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3572,
+    "totalAudioFiles": 12,
+    "totalDuration": 1791.9553740000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1791.9553740000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1077/optimized_text/1077.md",
+    "fileSize": 652,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1077.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1077/metadata/1077_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1791.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1077/metadata/1077_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1077/metadata/1077_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1077/1077_complete.wav",
+    "duration": 1791.955375,
+    "fileSize": 86013936,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1077/introduction.wav",
+          "duration": 90.91275,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.91275,
+          "startTime": 0,
+          "endTime": 90.91275
+        },
+        {
+          "path": "Audio/output/1077/chapter_01.wav",
+          "duration": 174.899542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking What Makes People Stand Out",
+          "actualDuration": 174.899542,
+          "startTime": 92.41275,
+          "endTime": 267.312292
+        },
+        {
+          "path": "Audio/output/1077/chapter_02.wav",
+          "duration": 185.598125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Timing and Opportunity",
+          "actualDuration": 185.598125,
+          "startTime": 268.812292,
+          "endTime": 454.41041700000005
+        },
+        {
+          "path": "Audio/output/1077/chapter_03.wav",
+          "duration": 164.009542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mastery Through Relentless Practice",
+          "actualDuration": 164.009542,
+          "startTime": 455.91041700000005,
+          "endTime": 619.9199590000001
+        },
+        {
+          "path": "Audio/output/1077/chapter_04.wav",
+          "duration": 157.943083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Influence of Family and Culture",
+          "actualDuration": 157.943083,
+          "startTime": 621.4199590000001,
+          "endTime": 779.3630420000001
+        },
+        {
+          "path": "Audio/output/1077/chapter_05.wav",
+          "duration": 141.111333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Unseen Forces Behind Achievement",
+          "actualDuration": 141.111333,
+          "startTime": 780.8630420000001,
+          "endTime": 921.974375
+        },
+        {
+          "path": "Audio/output/1077/chapter_06.wav",
+          "duration": 165.833458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Legacy of Culture: How History Shapes Habits",
+          "actualDuration": 165.833458,
+          "startTime": 923.474375,
+          "endTime": 1089.307833
+        },
+        {
+          "path": "Audio/output/1077/chapter_07.wav",
+          "duration": 153.166333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rice Paddies and the Math Test: The Value of Hard Work",
+          "actualDuration": 153.166333,
+          "startTime": 1090.807833,
+          "endTime": 1243.974166
+        },
+        {
+          "path": "Audio/output/1077/chapter_08.wav",
+          "duration": 151.486708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Trouble with Hierarchies: When Respect Gets in the Way",
+          "actualDuration": 151.486708,
+          "startTime": 1245.474166,
+          "endTime": 1396.9608739999999
+        },
+        {
+          "path": "Audio/output/1077/chapter_09.wav",
+          "duration": 139.816125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Community: Why Where You’re From Still Matters",
+          "actualDuration": 139.816125,
+          "startTime": 1398.4608739999999,
+          "endTime": 1538.276999
+        },
+        {
+          "path": "Audio/output/1077/chapter_10.wav",
+          "duration": 128.894958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Redefining Success: What We Can Change",
+          "actualDuration": 128.894958,
+          "startTime": 1539.776999,
+          "endTime": 1668.671957
+        },
+        {
+          "path": "Audio/output/1077/conclusion.wav",
+          "duration": 138.283417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.283417,
+          "startTime": 1670.171957,
+          "endTime": 1808.4553740000001
+        }
+      ],
+      "totalDuration": 1808.4553740000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.91,
+          "actualStart": 0,
+          "actualEnd": 90.91275,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking What Makes People Stand Out",
+          "expectedStart": 90.91,
+          "expectedEnd": 265.81,
+          "actualStart": 92.41275,
+          "actualEnd": 267.312292,
+          "timeDifference": 1.502750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Timing and Opportunity",
+          "expectedStart": 265.81,
+          "expectedEnd": 451.41,
+          "actualStart": 268.812292,
+          "actualEnd": 454.41041700000005,
+          "timeDifference": 3.0022920000000113
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mastery Through Relentless Practice",
+          "expectedStart": 451.41,
+          "expectedEnd": 615.42,
+          "actualStart": 455.91041700000005,
+          "actualEnd": 619.9199590000001,
+          "timeDifference": 4.500417000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Influence of Family and Culture",
+          "expectedStart": 615.42,
+          "expectedEnd": 773.36,
+          "actualStart": 621.4199590000001,
+          "actualEnd": 779.3630420000001,
+          "timeDifference": 5.9999590000001035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Unseen Forces Behind Achievement",
+          "expectedStart": 773.36,
+          "expectedEnd": 914.47,
+          "actualStart": 780.8630420000001,
+          "actualEnd": 921.974375,
+          "timeDifference": 7.50304200000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Legacy of Culture: How History Shapes Habits",
+          "expectedStart": 914.47,
+          "expectedEnd": 1080.3,
+          "actualStart": 923.474375,
+          "actualEnd": 1089.307833,
+          "timeDifference": 9.004374999999982
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rice Paddies and the Math Test: The Value of Hard Work",
+          "expectedStart": 1080.3,
+          "expectedEnd": 1233.47,
+          "actualStart": 1090.807833,
+          "actualEnd": 1243.974166,
+          "timeDifference": 10.507833000000119
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Trouble with Hierarchies: When Respect Gets in the Way",
+          "expectedStart": 1233.47,
+          "expectedEnd": 1384.96,
+          "actualStart": 1245.474166,
+          "actualEnd": 1396.9608739999999,
+          "timeDifference": 12.004165999999941
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Community: Why Where You’re From Still Matters",
+          "expectedStart": 1384.96,
+          "expectedEnd": 1524.78,
+          "actualStart": 1398.4608739999999,
+          "actualEnd": 1538.276999,
+          "timeDifference": 13.50087399999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Redefining Success: What We Can Change",
+          "expectedStart": 1524.78,
+          "expectedEnd": 1653.67,
+          "actualStart": 1539.776999,
+          "actualEnd": 1668.671957,
+          "timeDifference": 14.99699899999996
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1653.67,
+          "expectedEnd": 1791.95,
+          "actualStart": 1670.171957,
+          "actualEnd": 1808.4553740000001,
+          "timeDifference": 16.501956999999948
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.91275,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking What Makes People Stand Out"
+        },
+        {
+          "startTime": 267.312292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking What Makes People Stand Out and Chapter 2 The Power of Timing and Opportunity"
+        },
+        {
+          "startTime": 454.41041700000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Timing and Opportunity and Chapter 3 Mastery Through Relentless Practice"
+        },
+        {
+          "startTime": 619.9199590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mastery Through Relentless Practice and Chapter 4 The Hidden Influence of Family and Culture"
+        },
+        {
+          "startTime": 779.3630420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Influence of Family and Culture and Chapter 5 The Unseen Forces Behind Achievement"
+        },
+        {
+          "startTime": 921.974375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Unseen Forces Behind Achievement and Chapter 6 The Legacy of Culture: How History Shapes Habits"
+        },
+        {
+          "startTime": 1089.307833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Legacy of Culture: How History Shapes Habits and Chapter 7 The Rice Paddies and the Math Test: The Value of Hard Work"
+        },
+        {
+          "startTime": 1243.974166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rice Paddies and the Math Test: The Value of Hard Work and Chapter 8 The Trouble with Hierarchies: When Respect Gets in the Way"
+        },
+        {
+          "startTime": 1396.9608739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Trouble with Hierarchies: When Respect Gets in the Way and Chapter 9 The Power of Community: Why Where You’re From Still Matters"
+        },
+        {
+          "startTime": 1538.276999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Community: Why Where You’re From Still Matters and Chapter 10 Redefining Success: What We Can Change"
+        },
+        {
+          "startTime": 1668.671957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Redefining Success: What We Can Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1077",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:36:10.139Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

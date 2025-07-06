@@ -1,0 +1,504 @@
+{
+  "bookId": "632",
+  "timestamp": "2025-07-04T23:22:38.141Z",
+  "success": false,
+  "processingTime": -1751670843188,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 6031,
+    "totalAudioFiles": 14,
+    "totalDuration": 2796.7422899999992
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2796.7422899999992
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/632/optimized_text/632.md",
+    "fileSize": 857,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "632.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/632/metadata/632_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2796.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/632/metadata/632_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/632/metadata/632_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/632/632_complete.wav",
+    "duration": 2796.742292,
+    "fileSize": 134243708,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/632/introduction.wav",
+          "duration": 79.739625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.739625,
+          "startTime": 0,
+          "endTime": 79.739625
+        },
+        {
+          "path": "Audio/output/632/chapter_01.wav",
+          "duration": 232.767458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering Calm in a World That Never Pauses",
+          "actualDuration": 232.767458,
+          "startTime": 81.239625,
+          "endTime": 314.007083
+        },
+        {
+          "path": "Audio/output/632/chapter_02.wav",
+          "duration": 258.886833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Mindful Awareness in Everyday Life",
+          "actualDuration": 258.886833,
+          "startTime": 315.507083,
+          "endTime": 574.393916
+        },
+        {
+          "path": "Audio/output/632/chapter_03.wav",
+          "duration": 233.63475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Imperfection and Letting Go of Self-Judgment",
+          "actualDuration": 233.63475,
+          "startTime": 575.893916,
+          "endTime": 809.5286659999999
+        },
+        {
+          "path": "Audio/output/632/chapter_04.wav",
+          "duration": 239.517583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Joy in Simple Moments and Everyday Gratitude",
+          "actualDuration": 239.517583,
+          "startTime": 811.0286659999999,
+          "endTime": 1050.546249
+        },
+        {
+          "path": "Audio/output/632/chapter_05.wav",
+          "duration": 232.666,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Nurturing Kindness and Building Meaningful Connections",
+          "actualDuration": 232.666,
+          "startTime": 1052.046249,
+          "endTime": 1284.712249
+        },
+        {
+          "path": "Audio/output/632/chapter_06.wav",
+          "duration": 236.197208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Letting Go: The Gentle Art of Releasing What We Cannot Control",
+          "actualDuration": 236.197208,
+          "startTime": 1286.212249,
+          "endTime": 1522.409457
+        },
+        {
+          "path": "Audio/output/632/chapter_07.wav",
+          "duration": 229.522417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Wisdom of Rest: Embracing Stillness in a Restless World",
+          "actualDuration": 229.522417,
+          "startTime": 1523.909457,
+          "endTime": 1753.4318739999999
+        },
+        {
+          "path": "Audio/output/632/chapter_08.wav",
+          "duration": 210.434542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Being Present with Others",
+          "actualDuration": 210.434542,
+          "startTime": 1754.9318739999999,
+          "endTime": 1965.3664159999998
+        },
+        {
+          "path": "Audio/output/632/chapter_09.wav",
+          "duration": 195.642,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Difficult Emotions with Compassion",
+          "actualDuration": 195.642,
+          "startTime": 1966.8664159999998,
+          "endTime": 2162.5084159999997
+        },
+        {
+          "path": "Audio/output/632/chapter_10.wav",
+          "duration": 191.339333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Cultivating Patience and Trusting the Unfolding of Life",
+          "actualDuration": 191.339333,
+          "startTime": 2164.0084159999997,
+          "endTime": 2355.3477489999996
+        },
+        {
+          "path": "Audio/output/632/chapter_11.wav",
+          "duration": 169.428083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Living with Intention: Aligning Actions with Values",
+          "actualDuration": 169.428083,
+          "startTime": 2356.8477489999996,
+          "endTime": 2526.2758319999994
+        },
+        {
+          "path": "Audio/output/632/chapter_12.wav",
+          "duration": 158.883458,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ripple Effect: How Small Changes Transform the World",
+          "actualDuration": 158.883458,
+          "startTime": 2527.7758319999994,
+          "endTime": 2686.659289999999
+        },
+        {
+          "path": "Audio/output/632/conclusion.wav",
+          "duration": 128.083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.083,
+          "startTime": 2688.159289999999,
+          "endTime": 2816.2422899999992
+        }
+      ],
+      "totalDuration": 2816.2422899999992,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.74,
+          "actualStart": 0,
+          "actualEnd": 79.739625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering Calm in a World That Never Pauses",
+          "expectedStart": 79.74,
+          "expectedEnd": 312.51,
+          "actualStart": 81.239625,
+          "actualEnd": 314.007083,
+          "timeDifference": 1.4996250000000089
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Mindful Awareness in Everyday Life",
+          "expectedStart": 312.51,
+          "expectedEnd": 571.4,
+          "actualStart": 315.507083,
+          "actualEnd": 574.393916,
+          "timeDifference": 2.997083000000032
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Imperfection and Letting Go of Self-Judgment",
+          "expectedStart": 571.4,
+          "expectedEnd": 805.03,
+          "actualStart": 575.893916,
+          "actualEnd": 809.5286659999999,
+          "timeDifference": 4.493916000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Joy in Simple Moments and Everyday Gratitude",
+          "expectedStart": 805.03,
+          "expectedEnd": 1044.55,
+          "actualStart": 811.0286659999999,
+          "actualEnd": 1050.546249,
+          "timeDifference": 5.998665999999957
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Nurturing Kindness and Building Meaningful Connections",
+          "expectedStart": 1044.55,
+          "expectedEnd": 1277.22,
+          "actualStart": 1052.046249,
+          "actualEnd": 1284.712249,
+          "timeDifference": 7.496249000000034
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Letting Go: The Gentle Art of Releasing What We Cannot Control",
+          "expectedStart": 1277.22,
+          "expectedEnd": 1513.42,
+          "actualStart": 1286.212249,
+          "actualEnd": 1522.409457,
+          "timeDifference": 8.992248999999902
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Wisdom of Rest: Embracing Stillness in a Restless World",
+          "expectedStart": 1513.42,
+          "expectedEnd": 1742.94,
+          "actualStart": 1523.909457,
+          "actualEnd": 1753.4318739999999,
+          "timeDifference": 10.489456999999902
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Being Present with Others",
+          "expectedStart": 1742.94,
+          "expectedEnd": 1953.37,
+          "actualStart": 1754.9318739999999,
+          "actualEnd": 1965.3664159999998,
+          "timeDifference": 11.991873999999825
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Difficult Emotions with Compassion",
+          "expectedStart": 1953.37,
+          "expectedEnd": 2149.01,
+          "actualStart": 1966.8664159999998,
+          "actualEnd": 2162.5084159999997,
+          "timeDifference": 13.496415999999954
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Cultivating Patience and Trusting the Unfolding of Life",
+          "expectedStart": 2149.01,
+          "expectedEnd": 2340.35,
+          "actualStart": 2164.0084159999997,
+          "actualEnd": 2355.3477489999996,
+          "timeDifference": 14.998415999999452
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Living with Intention: Aligning Actions with Values",
+          "expectedStart": 2340.35,
+          "expectedEnd": 2509.78,
+          "actualStart": 2356.8477489999996,
+          "actualEnd": 2526.2758319999994,
+          "timeDifference": 16.497748999999658
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ripple Effect: How Small Changes Transform the World",
+          "expectedStart": 2509.78,
+          "expectedEnd": 2668.66,
+          "actualStart": 2527.7758319999994,
+          "actualEnd": 2686.659289999999,
+          "timeDifference": 17.995831999999155
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2668.66,
+          "expectedEnd": 2796.74,
+          "actualStart": 2688.159289999999,
+          "actualEnd": 2816.2422899999992,
+          "timeDifference": 19.49928999999929
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.739625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering Calm in a World That Never Pauses"
+        },
+        {
+          "startTime": 314.007083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering Calm in a World That Never Pauses and Chapter 2 The Power of Mindful Awareness in Everyday Life"
+        },
+        {
+          "startTime": 574.393916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Mindful Awareness in Everyday Life and Chapter 3 Embracing Imperfection and Letting Go of Self-Judgment"
+        },
+        {
+          "startTime": 809.5286659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Imperfection and Letting Go of Self-Judgment and Chapter 4 Finding Joy in Simple Moments and Everyday Gratitude"
+        },
+        {
+          "startTime": 1050.546249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Joy in Simple Moments and Everyday Gratitude and Chapter 5 Nurturing Kindness and Building Meaningful Connections"
+        },
+        {
+          "startTime": 1284.712249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Nurturing Kindness and Building Meaningful Connections and Chapter 6 Letting Go: The Gentle Art of Releasing What We Cannot Control"
+        },
+        {
+          "startTime": 1522.409457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Letting Go: The Gentle Art of Releasing What We Cannot Control and Chapter 7 The Wisdom of Rest: Embracing Stillness in a Restless World"
+        },
+        {
+          "startTime": 1753.4318739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Wisdom of Rest: Embracing Stillness in a Restless World and Chapter 8 The Art of Being Present with Others"
+        },
+        {
+          "startTime": 1965.3664159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Being Present with Others and Chapter 9 Navigating Difficult Emotions with Compassion"
+        },
+        {
+          "startTime": 2162.5084159999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Difficult Emotions with Compassion and Chapter 10 Cultivating Patience and Trusting the Unfolding of Life"
+        },
+        {
+          "startTime": 2355.3477489999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Cultivating Patience and Trusting the Unfolding of Life and Chapter 11 Living with Intention: Aligning Actions with Values"
+        },
+        {
+          "startTime": 2526.2758319999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Living with Intention: Aligning Actions with Values and Chapter 12 The Ripple Effect: How Small Changes Transform the World"
+        },
+        {
+          "startTime": 2686.659289999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ripple Effect: How Small Changes Transform the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "632",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T23:14:04.861Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

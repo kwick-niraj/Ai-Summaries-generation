@@ -1,0 +1,504 @@
+{
+  "bookId": "1020",
+  "timestamp": "2025-07-06T08:09:46.148Z",
+  "success": false,
+  "processingTime": -1751789010005,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5471,
+    "totalAudioFiles": 14,
+    "totalDuration": 2728.1161249999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2728.1161249999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1020/optimized_text/1020.md",
+    "fileSize": 773,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "1020.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1020/metadata/1020_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2728.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1020/metadata/1020_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1020/metadata/1020_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1020/1020_complete.wav",
+    "duration": 2728.116125,
+    "fileSize": 130949652,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1020/introduction.wav",
+          "duration": 94.28275,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.28275,
+          "startTime": 0,
+          "endTime": 94.28275
+        },
+        {
+          "path": "Audio/output/1020/chapter_01.wav",
+          "duration": 342.317625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Rise of Rome’s First Emperors and the Burden of Power",
+          "actualDuration": 342.317625,
+          "startTime": 95.78275,
+          "endTime": 438.100375
+        },
+        {
+          "path": "Audio/output/1020/chapter_02.wav",
+          "duration": 302.294667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Private Lives Behind Public Masks",
+          "actualDuration": 302.294667,
+          "startTime": 439.600375,
+          "endTime": 741.895042
+        },
+        {
+          "path": "Audio/output/1020/chapter_03.wav",
+          "duration": 251.402208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Intrigue, Corruption, and the Struggle for Succession",
+          "actualDuration": 251.402208,
+          "startTime": 743.395042,
+          "endTime": 994.79725
+        },
+        {
+          "path": "Audio/output/1020/chapter_04.wav",
+          "duration": 225.132625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost of Absolute Rule",
+          "actualDuration": 225.132625,
+          "startTime": 996.29725,
+          "endTime": 1221.429875
+        },
+        {
+          "path": "Audio/output/1020/chapter_05.wav",
+          "duration": 177.839417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Legacy, Memory, and the Shaping of History",
+          "actualDuration": 177.839417,
+          "startTime": 1222.929875,
+          "endTime": 1400.769292
+        },
+        {
+          "path": "Audio/output/1020/chapter_06.wav",
+          "duration": 210.491333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Flavian Dynasty and the Search for Stability",
+          "actualDuration": 210.491333,
+          "startTime": 1402.269292,
+          "endTime": 1612.760625
+        },
+        {
+          "path": "Audio/output/1020/chapter_07.wav",
+          "duration": 205.027125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Age of the Good Emperors",
+          "actualDuration": 205.027125,
+          "startTime": 1614.260625,
+          "endTime": 1819.28775
+        },
+        {
+          "path": "Audio/output/1020/chapter_08.wav",
+          "duration": 154.87375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Shadows Return—Commodus and the End of an Era",
+          "actualDuration": 154.87375,
+          "startTime": 1820.78775,
+          "endTime": 1975.6615
+        },
+        {
+          "path": "Audio/output/1020/chapter_09.wav",
+          "duration": 165.453542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Crisis and Change—The Empire Fractures",
+          "actualDuration": 165.453542,
+          "startTime": 1977.1615,
+          "endTime": 2142.615042
+        },
+        {
+          "path": "Audio/output/1020/chapter_10.wav",
+          "duration": 165.222,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The New Rome—Constantine and the Christian Empire",
+          "actualDuration": 165.222,
+          "startTime": 2144.115042,
+          "endTime": 2309.337042
+        },
+        {
+          "path": "Audio/output/1020/chapter_11.wav",
+          "duration": 161.325708,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Last Caesars—Decline, Division, and the End of an Era",
+          "actualDuration": 161.325708,
+          "startTime": 2310.837042,
+          "endTime": 2472.16275
+        },
+        {
+          "path": "Audio/output/1020/chapter_12.wav",
+          "duration": 147.402417,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Reflections—The Wisdom of the Caesars",
+          "actualDuration": 147.402417,
+          "startTime": 2473.66275,
+          "endTime": 2621.0651669999997
+        },
+        {
+          "path": "Audio/output/1020/conclusion.wav",
+          "duration": 125.050958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.050958,
+          "startTime": 2622.5651669999997,
+          "endTime": 2747.6161249999996
+        }
+      ],
+      "totalDuration": 2747.6161249999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.28,
+          "actualStart": 0,
+          "actualEnd": 94.28275,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Rise of Rome’s First Emperors and the Burden of Power",
+          "expectedStart": 94.28,
+          "expectedEnd": 436.6,
+          "actualStart": 95.78275,
+          "actualEnd": 438.100375,
+          "timeDifference": 1.5027499999999918
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Private Lives Behind Public Masks",
+          "expectedStart": 436.6,
+          "expectedEnd": 738.89,
+          "actualStart": 439.600375,
+          "actualEnd": 741.895042,
+          "timeDifference": 3.0003749999999627
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Intrigue, Corruption, and the Struggle for Succession",
+          "expectedStart": 738.89,
+          "expectedEnd": 990.29,
+          "actualStart": 743.395042,
+          "actualEnd": 994.79725,
+          "timeDifference": 4.505042000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost of Absolute Rule",
+          "expectedStart": 990.29,
+          "expectedEnd": 1215.42,
+          "actualStart": 996.29725,
+          "actualEnd": 1221.429875,
+          "timeDifference": 6.007249999999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Legacy, Memory, and the Shaping of History",
+          "expectedStart": 1215.42,
+          "expectedEnd": 1393.26,
+          "actualStart": 1222.929875,
+          "actualEnd": 1400.769292,
+          "timeDifference": 7.509874999999965
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Flavian Dynasty and the Search for Stability",
+          "expectedStart": 1393.26,
+          "expectedEnd": 1603.75,
+          "actualStart": 1402.269292,
+          "actualEnd": 1612.760625,
+          "timeDifference": 9.00929199999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Age of the Good Emperors",
+          "expectedStart": 1603.75,
+          "expectedEnd": 1808.78,
+          "actualStart": 1614.260625,
+          "actualEnd": 1819.28775,
+          "timeDifference": 10.51062499999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Shadows Return—Commodus and the End of an Era",
+          "expectedStart": 1808.78,
+          "expectedEnd": 1963.65,
+          "actualStart": 1820.78775,
+          "actualEnd": 1975.6615,
+          "timeDifference": 12.007749999999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Crisis and Change—The Empire Fractures",
+          "expectedStart": 1963.65,
+          "expectedEnd": 2129.1,
+          "actualStart": 1977.1615,
+          "actualEnd": 2142.615042,
+          "timeDifference": 13.511499999999842
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The New Rome—Constantine and the Christian Empire",
+          "expectedStart": 2129.1,
+          "expectedEnd": 2294.32,
+          "actualStart": 2144.115042,
+          "actualEnd": 2309.337042,
+          "timeDifference": 15.015041999999994
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Last Caesars—Decline, Division, and the End of an Era",
+          "expectedStart": 2294.32,
+          "expectedEnd": 2455.65,
+          "actualStart": 2310.837042,
+          "actualEnd": 2472.16275,
+          "timeDifference": 16.517041999999947
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Reflections—The Wisdom of the Caesars",
+          "expectedStart": 2455.65,
+          "expectedEnd": 2603.05,
+          "actualStart": 2473.66275,
+          "actualEnd": 2621.0651669999997,
+          "timeDifference": 18.01274999999987
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2603.05,
+          "expectedEnd": 2728.1,
+          "actualStart": 2622.5651669999997,
+          "actualEnd": 2747.6161249999996,
+          "timeDifference": 19.515166999999565
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.28275,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Rise of Rome’s First Emperors and the Burden of Power"
+        },
+        {
+          "startTime": 438.100375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Rise of Rome’s First Emperors and the Burden of Power and Chapter 2 The Private Lives Behind Public Masks"
+        },
+        {
+          "startTime": 741.895042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Private Lives Behind Public Masks and Chapter 3 Intrigue, Corruption, and the Struggle for Succession"
+        },
+        {
+          "startTime": 994.79725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Intrigue, Corruption, and the Struggle for Succession and Chapter 4 The Human Cost of Absolute Rule"
+        },
+        {
+          "startTime": 1221.429875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost of Absolute Rule and Chapter 5 Legacy, Memory, and the Shaping of History"
+        },
+        {
+          "startTime": 1400.769292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Legacy, Memory, and the Shaping of History and Chapter 6 The Flavian Dynasty and the Search for Stability"
+        },
+        {
+          "startTime": 1612.760625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Flavian Dynasty and the Search for Stability and Chapter 7 The Age of the Good Emperors"
+        },
+        {
+          "startTime": 1819.28775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Age of the Good Emperors and Chapter 8 Shadows Return—Commodus and the End of an Era"
+        },
+        {
+          "startTime": 1975.6615,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Shadows Return—Commodus and the End of an Era and Chapter 9 Crisis and Change—The Empire Fractures"
+        },
+        {
+          "startTime": 2142.615042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Crisis and Change—The Empire Fractures and Chapter 10 The New Rome—Constantine and the Christian Empire"
+        },
+        {
+          "startTime": 2309.337042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The New Rome—Constantine and the Christian Empire and Chapter 11 The Last Caesars—Decline, Division, and the End of an Era"
+        },
+        {
+          "startTime": 2472.16275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Last Caesars—Decline, Division, and the End of an Era and Chapter 12 Reflections—The Wisdom of the Caesars"
+        },
+        {
+          "startTime": 2621.0651669999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Reflections—The Wisdom of the Caesars and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1020",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T08:03:31.489Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

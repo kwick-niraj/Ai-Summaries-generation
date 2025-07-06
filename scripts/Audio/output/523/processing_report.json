@@ -1,0 +1,456 @@
+{
+  "bookId": "523",
+  "timestamp": "2025-07-04T14:22:02.486Z",
+  "success": false,
+  "processingTime": -1751636928130,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3674,
+    "totalAudioFiles": 12,
+    "totalDuration": 1964.3037080000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1964.3037080000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/523/optimized_text/523.md",
+    "fileSize": 775,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "523.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/523/metadata/523_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1964.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/523/metadata/523_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/523/metadata/523_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/523/523_complete.wav",
+    "duration": 1964.303708,
+    "fileSize": 94286656,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/523/introduction.wav",
+          "duration": 77.057625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.057625,
+          "startTime": 0,
+          "endTime": 77.057625
+        },
+        {
+          "path": "Audio/output/523/chapter_01.wav",
+          "duration": 209.375125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Human Nature: The Foundation of Social Confidence",
+          "actualDuration": 209.375125,
+          "startTime": 78.557625,
+          "endTime": 287.93275
+        },
+        {
+          "path": "Audio/output/523/chapter_02.wav",
+          "duration": 181.369125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Genuine Interest: The Key to Influencing Others",
+          "actualDuration": 181.369125,
+          "startTime": 289.43275,
+          "endTime": 470.801875
+        },
+        {
+          "path": "Audio/output/523/chapter_03.wav",
+          "duration": 201.270917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Attitude: Confidence Begins Within",
+          "actualDuration": 201.270917,
+          "startTime": 472.301875,
+          "endTime": 673.5727919999999
+        },
+        {
+          "path": "Audio/output/523/chapter_04.wav",
+          "duration": 220.0665,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Listening, Appreciation, and the Art of Making Others Feel Important",
+          "actualDuration": 220.0665,
+          "startTime": 675.0727919999999,
+          "endTime": 895.139292
+        },
+        {
+          "path": "Audio/output/523/chapter_05.wav",
+          "duration": 219.198792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Avoiding Criticism and Handling Conflict with Care",
+          "actualDuration": 219.198792,
+          "startTime": 896.639292,
+          "endTime": 1115.838084
+        },
+        {
+          "path": "Audio/output/523/chapter_06.wav",
+          "duration": 145.865917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Inspiring Cooperation: The Art of Gaining Willing Agreement",
+          "actualDuration": 145.865917,
+          "startTime": 1117.338084,
+          "endTime": 1263.204001
+        },
+        {
+          "path": "Audio/output/523/chapter_07.wav",
+          "duration": 133.660208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Subtle Power of Encouragement and Positive Expectation",
+          "actualDuration": 133.660208,
+          "startTime": 1264.704001,
+          "endTime": 1398.364209
+        },
+        {
+          "path": "Audio/output/523/chapter_08.wav",
+          "duration": 159.836708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Guiding Change: Gentle Persuasion and the Path to Growth",
+          "actualDuration": 159.836708,
+          "startTime": 1399.864209,
+          "endTime": 1559.7009170000001
+        },
+        {
+          "path": "Audio/output/523/chapter_09.wav",
+          "duration": 135.283625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Consistency and Integrity in Influence",
+          "actualDuration": 135.283625,
+          "startTime": 1561.2009170000001,
+          "endTime": 1696.4845420000001
+        },
+        {
+          "path": "Audio/output/523/chapter_10.wav",
+          "duration": 140.857333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Confidence: Self-Care, Reflection, and Lifelong Growth",
+          "actualDuration": 140.857333,
+          "startTime": 1697.9845420000001,
+          "endTime": 1838.841875
+        },
+        {
+          "path": "Audio/output/523/conclusion.wav",
+          "duration": 140.461833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.461833,
+          "startTime": 1840.341875,
+          "endTime": 1980.8037080000001
+        }
+      ],
+      "totalDuration": 1980.8037080000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.06,
+          "actualStart": 0,
+          "actualEnd": 77.057625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Human Nature: The Foundation of Social Confidence",
+          "expectedStart": 77.06,
+          "expectedEnd": 286.44,
+          "actualStart": 78.557625,
+          "actualEnd": 287.93275,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Genuine Interest: The Key to Influencing Others",
+          "expectedStart": 286.44,
+          "expectedEnd": 467.81,
+          "actualStart": 289.43275,
+          "actualEnd": 470.801875,
+          "timeDifference": 2.992750000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Attitude: Confidence Begins Within",
+          "expectedStart": 467.81,
+          "expectedEnd": 669.08,
+          "actualStart": 472.301875,
+          "actualEnd": 673.5727919999999,
+          "timeDifference": 4.491874999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Listening, Appreciation, and the Art of Making Others Feel Important",
+          "expectedStart": 669.08,
+          "expectedEnd": 889.15,
+          "actualStart": 675.0727919999999,
+          "actualEnd": 895.139292,
+          "timeDifference": 5.992791999999895
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Avoiding Criticism and Handling Conflict with Care",
+          "expectedStart": 889.15,
+          "expectedEnd": 1108.35,
+          "actualStart": 896.639292,
+          "actualEnd": 1115.838084,
+          "timeDifference": 7.489291999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Inspiring Cooperation: The Art of Gaining Willing Agreement",
+          "expectedStart": 1108.35,
+          "expectedEnd": 1254.22,
+          "actualStart": 1117.338084,
+          "actualEnd": 1263.204001,
+          "timeDifference": 8.988084000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Subtle Power of Encouragement and Positive Expectation",
+          "expectedStart": 1254.22,
+          "expectedEnd": 1387.88,
+          "actualStart": 1264.704001,
+          "actualEnd": 1398.364209,
+          "timeDifference": 10.484001000000035
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Guiding Change: Gentle Persuasion and the Path to Growth",
+          "expectedStart": 1387.88,
+          "expectedEnd": 1547.72,
+          "actualStart": 1399.864209,
+          "actualEnd": 1559.7009170000001,
+          "timeDifference": 11.984208999999964
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Consistency and Integrity in Influence",
+          "expectedStart": 1547.72,
+          "expectedEnd": 1683,
+          "actualStart": 1561.2009170000001,
+          "actualEnd": 1696.4845420000001,
+          "timeDifference": 13.48091700000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Confidence: Self-Care, Reflection, and Lifelong Growth",
+          "expectedStart": 1683,
+          "expectedEnd": 1823.86,
+          "actualStart": 1697.9845420000001,
+          "actualEnd": 1838.841875,
+          "timeDifference": 14.984542000000147
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823.86,
+          "expectedEnd": 1964.32,
+          "actualStart": 1840.341875,
+          "actualEnd": 1980.8037080000001,
+          "timeDifference": 16.481875000000173
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.057625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Human Nature: The Foundation of Social Confidence"
+        },
+        {
+          "startTime": 287.93275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Human Nature: The Foundation of Social Confidence and Chapter 2 Building Genuine Interest: The Key to Influencing Others"
+        },
+        {
+          "startTime": 470.801875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Genuine Interest: The Key to Influencing Others and Chapter 3 The Power of Attitude: Confidence Begins Within"
+        },
+        {
+          "startTime": 673.5727919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Attitude: Confidence Begins Within and Chapter 4 Listening, Appreciation, and the Art of Making Others Feel Important"
+        },
+        {
+          "startTime": 895.139292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Listening, Appreciation, and the Art of Making Others Feel Important and Chapter 5 Avoiding Criticism and Handling Conflict with Care"
+        },
+        {
+          "startTime": 1115.838084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Avoiding Criticism and Handling Conflict with Care and Chapter 6 Inspiring Cooperation: The Art of Gaining Willing Agreement"
+        },
+        {
+          "startTime": 1263.204001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Inspiring Cooperation: The Art of Gaining Willing Agreement and Chapter 7 The Subtle Power of Encouragement and Positive Expectation"
+        },
+        {
+          "startTime": 1398.364209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Subtle Power of Encouragement and Positive Expectation and Chapter 8 Guiding Change: Gentle Persuasion and the Path to Growth"
+        },
+        {
+          "startTime": 1559.7009170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Guiding Change: Gentle Persuasion and the Path to Growth and Chapter 9 The Role of Consistency and Integrity in Influence"
+        },
+        {
+          "startTime": 1696.4845420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Consistency and Integrity in Influence and Chapter 10 Sustaining Confidence: Self-Care, Reflection, and Lifelong Growth"
+        },
+        {
+          "startTime": 1838.841875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Confidence: Self-Care, Reflection, and Lifelong Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "523",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T13:48:50.838Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

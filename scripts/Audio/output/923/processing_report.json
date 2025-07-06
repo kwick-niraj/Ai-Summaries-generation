@@ -1,0 +1,456 @@
+{
+  "bookId": "923",
+  "timestamp": "2025-07-05T16:06:22.118Z",
+  "success": false,
+  "processingTime": -1751731190458,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3448,
+    "totalAudioFiles": 12,
+    "totalDuration": 1840.387334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1840.387334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/923/optimized_text/923.md",
+    "fileSize": 690,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "923.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/923/metadata/923_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1840.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/923/metadata/923_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/923/metadata/923_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/923/923_complete.wav",
+    "duration": 1840.387333,
+    "fileSize": 88338670,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/923/introduction.wav",
+          "duration": 105.458542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.458542,
+          "startTime": 0,
+          "endTime": 105.458542
+        },
+        {
+          "path": "Audio/output/923/chapter_01.wav",
+          "duration": 161.282833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Self-Defeating Patterns and the Power of Choice",
+          "actualDuration": 161.282833,
+          "startTime": 106.958542,
+          "endTime": 268.241375
+        },
+        {
+          "path": "Audio/output/923/chapter_02.wav",
+          "duration": 155.289875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Taking Responsibility for Emotions and Actions",
+          "actualDuration": 155.289875,
+          "startTime": 269.741375,
+          "endTime": 425.03125
+        },
+        {
+          "path": "Audio/output/923/chapter_03.wav",
+          "duration": 193.714917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Free from Guilt and Worry",
+          "actualDuration": 193.714917,
+          "startTime": 426.53125,
+          "endTime": 620.246167
+        },
+        {
+          "path": "Audio/output/923/chapter_04.wav",
+          "duration": 167.713792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming the Need for Approval and Fear of Criticism",
+          "actualDuration": 167.713792,
+          "startTime": 621.746167,
+          "endTime": 789.459959
+        },
+        {
+          "path": "Audio/output/923/chapter_05.wav",
+          "duration": 167.752292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living Authentically in the Present Moment",
+          "actualDuration": 167.752292,
+          "startTime": 790.959959,
+          "endTime": 958.712251
+        },
+        {
+          "path": "Audio/output/923/chapter_06.wav",
+          "duration": 145.916125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Releasing the Trap of Duty and Obligation",
+          "actualDuration": 145.916125,
+          "startTime": 960.212251,
+          "endTime": 1106.1283760000001
+        },
+        {
+          "path": "Audio/output/923/chapter_07.wav",
+          "duration": 148.111375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Challenging the Fear of Making Mistakes",
+          "actualDuration": 148.111375,
+          "startTime": 1107.6283760000001,
+          "endTime": 1255.739751
+        },
+        {
+          "path": "Audio/output/923/chapter_08.wav",
+          "duration": 145.225833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Self-Acceptance and Letting Go of Self-Criticism",
+          "actualDuration": 145.225833,
+          "startTime": 1257.239751,
+          "endTime": 1402.465584
+        },
+        {
+          "path": "Audio/output/923/chapter_09.wav",
+          "duration": 154.935,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Inner Independence and Trusting Your Own Judgment",
+          "actualDuration": 154.935,
+          "startTime": 1403.965584,
+          "endTime": 1558.900584
+        },
+        {
+          "path": "Audio/output/923/chapter_10.wav",
+          "duration": 138.169042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Change and Creating a Life of Ongoing Growth",
+          "actualDuration": 138.169042,
+          "startTime": 1560.400584,
+          "endTime": 1698.569626
+        },
+        {
+          "path": "Audio/output/923/conclusion.wav",
+          "duration": 156.817708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 156.817708,
+          "startTime": 1700.069626,
+          "endTime": 1856.887334
+        }
+      ],
+      "totalDuration": 1856.887334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.46,
+          "actualStart": 0,
+          "actualEnd": 105.458542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Self-Defeating Patterns and the Power of Choice",
+          "expectedStart": 105.46,
+          "expectedEnd": 266.74,
+          "actualStart": 106.958542,
+          "actualEnd": 268.241375,
+          "timeDifference": 1.4985420000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Taking Responsibility for Emotions and Actions",
+          "expectedStart": 266.74,
+          "expectedEnd": 422.03,
+          "actualStart": 269.741375,
+          "actualEnd": 425.03125,
+          "timeDifference": 3.001374999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Free from Guilt and Worry",
+          "expectedStart": 422.03,
+          "expectedEnd": 615.74,
+          "actualStart": 426.53125,
+          "actualEnd": 620.246167,
+          "timeDifference": 4.501250000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming the Need for Approval and Fear of Criticism",
+          "expectedStart": 615.74,
+          "expectedEnd": 783.45,
+          "actualStart": 621.746167,
+          "actualEnd": 789.459959,
+          "timeDifference": 6.006167000000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living Authentically in the Present Moment",
+          "expectedStart": 783.45,
+          "expectedEnd": 951.2,
+          "actualStart": 790.959959,
+          "actualEnd": 958.712251,
+          "timeDifference": 7.509958999999981
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Releasing the Trap of Duty and Obligation",
+          "expectedStart": 951.2,
+          "expectedEnd": 1097.12,
+          "actualStart": 960.212251,
+          "actualEnd": 1106.1283760000001,
+          "timeDifference": 9.012250999999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Challenging the Fear of Making Mistakes",
+          "expectedStart": 1097.12,
+          "expectedEnd": 1245.23,
+          "actualStart": 1107.6283760000001,
+          "actualEnd": 1255.739751,
+          "timeDifference": 10.508376000000226
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Self-Acceptance and Letting Go of Self-Criticism",
+          "expectedStart": 1245.23,
+          "expectedEnd": 1390.46,
+          "actualStart": 1257.239751,
+          "actualEnd": 1402.465584,
+          "timeDifference": 12.009751000000051
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Inner Independence and Trusting Your Own Judgment",
+          "expectedStart": 1390.46,
+          "expectedEnd": 1545.4,
+          "actualStart": 1403.965584,
+          "actualEnd": 1558.900584,
+          "timeDifference": 13.505583999999999
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Change and Creating a Life of Ongoing Growth",
+          "expectedStart": 1545.4,
+          "expectedEnd": 1683.57,
+          "actualStart": 1560.400584,
+          "actualEnd": 1698.569626,
+          "timeDifference": 15.00058399999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1683.57,
+          "expectedEnd": 1840.39,
+          "actualStart": 1700.069626,
+          "actualEnd": 1856.887334,
+          "timeDifference": 16.499626000000035
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.458542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Self-Defeating Patterns and the Power of Choice"
+        },
+        {
+          "startTime": 268.241375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Self-Defeating Patterns and the Power of Choice and Chapter 2 Taking Responsibility for Emotions and Actions"
+        },
+        {
+          "startTime": 425.03125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Taking Responsibility for Emotions and Actions and Chapter 3 Breaking Free from Guilt and Worry"
+        },
+        {
+          "startTime": 620.246167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Free from Guilt and Worry and Chapter 4 Overcoming the Need for Approval and Fear of Criticism"
+        },
+        {
+          "startTime": 789.459959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming the Need for Approval and Fear of Criticism and Chapter 5 Living Authentically in the Present Moment"
+        },
+        {
+          "startTime": 958.712251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living Authentically in the Present Moment and Chapter 6 Releasing the Trap of Duty and Obligation"
+        },
+        {
+          "startTime": 1106.1283760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Releasing the Trap of Duty and Obligation and Chapter 7 Challenging the Fear of Making Mistakes"
+        },
+        {
+          "startTime": 1255.739751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Challenging the Fear of Making Mistakes and Chapter 8 Cultivating Self-Acceptance and Letting Go of Self-Criticism"
+        },
+        {
+          "startTime": 1402.465584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Self-Acceptance and Letting Go of Self-Criticism and Chapter 9 Building Inner Independence and Trusting Your Own Judgment"
+        },
+        {
+          "startTime": 1558.900584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Inner Independence and Trusting Your Own Judgment and Chapter 10 Embracing Change and Creating a Life of Ongoing Growth"
+        },
+        {
+          "startTime": 1698.569626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Change and Creating a Life of Ongoing Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "923",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:59:51.707Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

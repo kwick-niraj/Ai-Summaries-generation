@@ -1,0 +1,455 @@
+{
+  "bookId": "478",
+  "timestamp": "2025-07-04T05:49:55.050Z",
+  "success": false,
+  "processingTime": -1751607948936,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3549,
+    "totalAudioFiles": 12,
+    "totalDuration": 1639.6261670000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1639.6261670000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/478/optimized_text/478.md",
+    "fileSize": 714,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "478.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/478/metadata/478_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1639.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/478/metadata/478_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/478/metadata/478_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/478/478_complete.wav",
+    "duration": 1639.626167,
+    "fileSize": 78702134,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/478/introduction.wav",
+          "duration": 87.0235,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.0235,
+          "startTime": 0,
+          "endTime": 87.0235
+        },
+        {
+          "path": "Audio/output/478/chapter_01.wav",
+          "duration": 167.253542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Patterns That Shape Everyday Choices",
+          "actualDuration": 167.253542,
+          "startTime": 88.5235,
+          "endTime": 255.777042
+        },
+        {
+          "path": "Audio/output/478/chapter_02.wav",
+          "duration": 158.338625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Environment and Social Influence",
+          "actualDuration": 158.338625,
+          "startTime": 257.277042,
+          "endTime": 415.61566700000003
+        },
+        {
+          "path": "Audio/output/478/chapter_03.wav",
+          "duration": 167.21575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Emotion and Motivation in Lasting Change",
+          "actualDuration": 167.21575,
+          "startTime": 417.11566700000003,
+          "endTime": 584.3314170000001
+        },
+        {
+          "path": "Audio/output/478/chapter_04.wav",
+          "duration": 153.693667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Identity Through Consistent Action",
+          "actualDuration": 153.693667,
+          "startTime": 585.8314170000001,
+          "endTime": 739.5250840000001
+        },
+        {
+          "path": "Audio/output/478/chapter_05.wav",
+          "duration": 118.233458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Setbacks and Sustaining Progress",
+          "actualDuration": 118.233458,
+          "startTime": 741.0250840000001,
+          "endTime": 859.2585420000001
+        },
+        {
+          "path": "Audio/output/478/chapter_06.wav",
+          "duration": 144.42025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Subtle Art of Habit Stacking",
+          "actualDuration": 144.42025,
+          "startTime": 860.7585420000001,
+          "endTime": 1005.1787920000002
+        },
+        {
+          "path": "Audio/output/478/chapter_07.wav",
+          "duration": 143.558,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Long Game—Sustaining Change Over Months and Years",
+          "actualDuration": 143.558,
+          "startTime": 1006.6787920000002,
+          "endTime": 1150.2367920000002
+        },
+        {
+          "path": "Audio/output/478/chapter_08.wav",
+          "duration": 143.756167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—How Personal Change Shapes Communities",
+          "actualDuration": 143.756167,
+          "startTime": 1151.7367920000002,
+          "endTime": 1295.4929590000002
+        },
+        {
+          "path": "Audio/output/478/chapter_09.wav",
+          "duration": 126.655375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 When Willpower Isn’t Enough—The Role of Forgiveness and Self-Compassion",
+          "actualDuration": 126.655375,
+          "startTime": 1296.9929590000002,
+          "endTime": 1423.6483340000002
+        },
+        {
+          "path": "Audio/output/478/chapter_10.wav",
+          "duration": 111.492875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Growth Beyond Habits—Living with Purpose and Intention",
+          "actualDuration": 111.492875,
+          "startTime": 1425.1483340000002,
+          "endTime": 1536.6412090000001
+        },
+        {
+          "path": "Audio/output/478/conclusion.wav",
+          "duration": 117.984958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.984958,
+          "startTime": 1538.1412090000001,
+          "endTime": 1656.1261670000001
+        }
+      ],
+      "totalDuration": 1656.1261670000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.02,
+          "actualStart": 0,
+          "actualEnd": 87.0235,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Patterns That Shape Everyday Choices",
+          "expectedStart": 87.02,
+          "expectedEnd": 254.27,
+          "actualStart": 88.5235,
+          "actualEnd": 255.777042,
+          "timeDifference": 1.5035000000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Environment and Social Influence",
+          "expectedStart": 254.27,
+          "expectedEnd": 412.61,
+          "actualStart": 257.277042,
+          "actualEnd": 415.61566700000003,
+          "timeDifference": 3.0070419999999842
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Emotion and Motivation in Lasting Change",
+          "expectedStart": 412.61,
+          "expectedEnd": 579.83,
+          "actualStart": 417.11566700000003,
+          "actualEnd": 584.3314170000001,
+          "timeDifference": 4.505667000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Identity Through Consistent Action",
+          "expectedStart": 579.83,
+          "expectedEnd": 733.52,
+          "actualStart": 585.8314170000001,
+          "actualEnd": 739.5250840000001,
+          "timeDifference": 6.00141700000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Setbacks and Sustaining Progress",
+          "expectedStart": 733.52,
+          "expectedEnd": 851.75,
+          "actualStart": 741.0250840000001,
+          "actualEnd": 859.2585420000001,
+          "timeDifference": 7.505084000000124
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Subtle Art of Habit Stacking",
+          "expectedStart": 851.75,
+          "expectedEnd": 996.17,
+          "actualStart": 860.7585420000001,
+          "actualEnd": 1005.1787920000002,
+          "timeDifference": 9.008542000000148
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Long Game—Sustaining Change Over Months and Years",
+          "expectedStart": 996.17,
+          "expectedEnd": 1139.73,
+          "actualStart": 1006.6787920000002,
+          "actualEnd": 1150.2367920000002,
+          "timeDifference": 10.508792000000199
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—How Personal Change Shapes Communities",
+          "expectedStart": 1139.73,
+          "expectedEnd": 1283.49,
+          "actualStart": 1151.7367920000002,
+          "actualEnd": 1295.4929590000002,
+          "timeDifference": 12.006792000000132
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 When Willpower Isn’t Enough—The Role of Forgiveness and Self-Compassion",
+          "expectedStart": 1283.49,
+          "expectedEnd": 1410.15,
+          "actualStart": 1296.9929590000002,
+          "actualEnd": 1423.6483340000002,
+          "timeDifference": 13.502959000000146
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Growth Beyond Habits—Living with Purpose and Intention",
+          "expectedStart": 1410.15,
+          "expectedEnd": 1521.64,
+          "actualStart": 1425.1483340000002,
+          "actualEnd": 1536.6412090000001,
+          "timeDifference": 14.998334000000114
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1521.64,
+          "expectedEnd": 1639.62,
+          "actualStart": 1538.1412090000001,
+          "actualEnd": 1656.1261670000001,
+          "timeDifference": 16.501209000000017
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.0235,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Patterns That Shape Everyday Choices"
+        },
+        {
+          "startTime": 255.777042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Patterns That Shape Everyday Choices and Chapter 2 The Power of Environment and Social Influence"
+        },
+        {
+          "startTime": 415.61566700000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Environment and Social Influence and Chapter 3 The Role of Emotion and Motivation in Lasting Change"
+        },
+        {
+          "startTime": 584.3314170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Emotion and Motivation in Lasting Change and Chapter 4 Building Identity Through Consistent Action"
+        },
+        {
+          "startTime": 739.5250840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Identity Through Consistent Action and Chapter 5 Navigating Setbacks and Sustaining Progress"
+        },
+        {
+          "startTime": 859.2585420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Setbacks and Sustaining Progress and Chapter 6 The Subtle Art of Habit Stacking"
+        },
+        {
+          "startTime": 1005.1787920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Subtle Art of Habit Stacking and Chapter 7 The Long Game—Sustaining Change Over Months and Years"
+        },
+        {
+          "startTime": 1150.2367920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Long Game—Sustaining Change Over Months and Years and Chapter 8 The Ripple Effect—How Personal Change Shapes Communities"
+        },
+        {
+          "startTime": 1295.4929590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—How Personal Change Shapes Communities and Chapter 9 When Willpower Isn’t Enough—The Role of Forgiveness and Self-Compassion"
+        },
+        {
+          "startTime": 1423.6483340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 When Willpower Isn’t Enough—The Role of Forgiveness and Self-Compassion and Chapter 10 Growth Beyond Habits—Living with Purpose and Intention"
+        },
+        {
+          "startTime": 1536.6412090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Growth Beyond Habits—Living with Purpose and Intention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "478",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:45:48.950Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

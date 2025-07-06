@@ -1,0 +1,456 @@
+{
+  "bookId": "1078",
+  "timestamp": "2025-07-06T11:48:15.532Z",
+  "success": false,
+  "processingTime": -1751802084246,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5042,
+    "totalAudioFiles": 12,
+    "totalDuration": 2407.621666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2407.621666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1078/optimized_text/1078.md",
+    "fileSize": 701,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1078.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1078/metadata/1078_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2407.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1078/metadata/1078_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1078/metadata/1078_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1078/1078_complete.wav",
+    "duration": 2407.621667,
+    "fileSize": 115565918,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1078/introduction.wav",
+          "duration": 102.111083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.111083,
+          "startTime": 0,
+          "endTime": 102.111083
+        },
+        {
+          "path": "Audio/output/1078/chapter_01.wav",
+          "duration": 227.567375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years: Humble Beginnings and the Seeds of Curiosity",
+          "actualDuration": 227.567375,
+          "startTime": 103.611083,
+          "endTime": 331.178458
+        },
+        {
+          "path": "Audio/output/1078/chapter_02.wav",
+          "duration": 226.584333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Striking Out Alone: New Cities, New Lessons",
+          "actualDuration": 226.584333,
+          "startTime": 332.678458,
+          "endTime": 559.262791
+        },
+        {
+          "path": "Audio/output/1078/chapter_03.wav",
+          "duration": 255.699167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Life: Work, Relationships, and the Pursuit of Virtue",
+          "actualDuration": 255.699167,
+          "startTime": 560.762791,
+          "endTime": 816.461958
+        },
+        {
+          "path": "Audio/output/1078/chapter_04.wav",
+          "duration": 244.02,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning from Failure: Adaptation, Resilience, and the Value of Experience",
+          "actualDuration": 244.02,
+          "startTime": 817.961958,
+          "endTime": 1061.981958
+        },
+        {
+          "path": "Audio/output/1078/chapter_05.wav",
+          "duration": 242.051083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Community and Public Service: Building a Better Society Together",
+          "actualDuration": 242.051083,
+          "startTime": 1063.481958,
+          "endTime": 1305.5330410000001
+        },
+        {
+          "path": "Audio/output/1078/chapter_06.wav",
+          "duration": 259.28875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Innovation and the Spirit of Experimentation",
+          "actualDuration": 259.28875,
+          "startTime": 1307.0330410000001,
+          "endTime": 1566.321791
+        },
+        {
+          "path": "Audio/output/1078/chapter_07.wav",
+          "duration": 212.147917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lifelong Learning: The Habit of Growth",
+          "actualDuration": 212.147917,
+          "startTime": 1567.821791,
+          "endTime": 1779.969708
+        },
+        {
+          "path": "Audio/output/1078/chapter_08.wav",
+          "duration": 204.435833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Diplomacy and the Art of Influence",
+          "actualDuration": 204.435833,
+          "startTime": 1781.469708,
+          "endTime": 1985.905541
+        },
+        {
+          "path": "Audio/output/1078/chapter_09.wav",
+          "duration": 194.3655,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and the Measure of a Life",
+          "actualDuration": 194.3655,
+          "startTime": 1987.405541,
+          "endTime": 2181.771041
+        },
+        {
+          "path": "Audio/output/1078/chapter_10.wav",
+          "duration": 126.711917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons: Wisdom for Every Generation",
+          "actualDuration": 126.711917,
+          "startTime": 2183.271041,
+          "endTime": 2309.982958
+        },
+        {
+          "path": "Audio/output/1078/conclusion.wav",
+          "duration": 112.638708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.638708,
+          "startTime": 2311.482958,
+          "endTime": 2424.121666
+        }
+      ],
+      "totalDuration": 2424.121666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.11,
+          "actualStart": 0,
+          "actualEnd": 102.111083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years: Humble Beginnings and the Seeds of Curiosity",
+          "expectedStart": 102.11,
+          "expectedEnd": 329.68,
+          "actualStart": 103.611083,
+          "actualEnd": 331.178458,
+          "timeDifference": 1.5010829999999942
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Striking Out Alone: New Cities, New Lessons",
+          "expectedStart": 329.68,
+          "expectedEnd": 556.26,
+          "actualStart": 332.678458,
+          "actualEnd": 559.262791,
+          "timeDifference": 2.998457999999971
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Life: Work, Relationships, and the Pursuit of Virtue",
+          "expectedStart": 556.26,
+          "expectedEnd": 811.96,
+          "actualStart": 560.762791,
+          "actualEnd": 816.461958,
+          "timeDifference": 4.502791000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning from Failure: Adaptation, Resilience, and the Value of Experience",
+          "expectedStart": 811.96,
+          "expectedEnd": 1055.98,
+          "actualStart": 817.961958,
+          "actualEnd": 1061.981958,
+          "timeDifference": 6.001957999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Community and Public Service: Building a Better Society Together",
+          "expectedStart": 1055.98,
+          "expectedEnd": 1298.03,
+          "actualStart": 1063.481958,
+          "actualEnd": 1305.5330410000001,
+          "timeDifference": 7.501958000000059
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Innovation and the Spirit of Experimentation",
+          "expectedStart": 1298.03,
+          "expectedEnd": 1557.32,
+          "actualStart": 1307.0330410000001,
+          "actualEnd": 1566.321791,
+          "timeDifference": 9.003041000000167
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lifelong Learning: The Habit of Growth",
+          "expectedStart": 1557.32,
+          "expectedEnd": 1769.47,
+          "actualStart": 1567.821791,
+          "actualEnd": 1779.969708,
+          "timeDifference": 10.50179100000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Diplomacy and the Art of Influence",
+          "expectedStart": 1769.47,
+          "expectedEnd": 1973.91,
+          "actualStart": 1781.469708,
+          "actualEnd": 1985.905541,
+          "timeDifference": 11.999708000000055
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and the Measure of a Life",
+          "expectedStart": 1973.91,
+          "expectedEnd": 2168.28,
+          "actualStart": 1987.405541,
+          "actualEnd": 2181.771041,
+          "timeDifference": 13.495541000000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons: Wisdom for Every Generation",
+          "expectedStart": 2168.28,
+          "expectedEnd": 2294.99,
+          "actualStart": 2183.271041,
+          "actualEnd": 2309.982958,
+          "timeDifference": 14.991040999999768
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2294.99,
+          "expectedEnd": 2407.63,
+          "actualStart": 2311.482958,
+          "actualEnd": 2424.121666,
+          "timeDifference": 16.49295800000027
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.111083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years: Humble Beginnings and the Seeds of Curiosity"
+        },
+        {
+          "startTime": 331.178458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years: Humble Beginnings and the Seeds of Curiosity and Chapter 2 Striking Out Alone: New Cities, New Lessons"
+        },
+        {
+          "startTime": 559.262791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Striking Out Alone: New Cities, New Lessons and Chapter 3 Building a Life: Work, Relationships, and the Pursuit of Virtue"
+        },
+        {
+          "startTime": 816.461958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Life: Work, Relationships, and the Pursuit of Virtue and Chapter 4 Learning from Failure: Adaptation, Resilience, and the Value of Experience"
+        },
+        {
+          "startTime": 1061.981958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning from Failure: Adaptation, Resilience, and the Value of Experience and Chapter 5 Community and Public Service: Building a Better Society Together"
+        },
+        {
+          "startTime": 1305.5330410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Community and Public Service: Building a Better Society Together and Chapter 6 Innovation and the Spirit of Experimentation"
+        },
+        {
+          "startTime": 1566.321791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Innovation and the Spirit of Experimentation and Chapter 7 Lifelong Learning: The Habit of Growth"
+        },
+        {
+          "startTime": 1779.969708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lifelong Learning: The Habit of Growth and Chapter 8 Diplomacy and the Art of Influence"
+        },
+        {
+          "startTime": 1985.905541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Diplomacy and the Art of Influence and Chapter 9 Legacy and the Measure of a Life"
+        },
+        {
+          "startTime": 2181.771041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and the Measure of a Life and Chapter 10 The Enduring Lessons: Wisdom for Every Generation"
+        },
+        {
+          "startTime": 2309.982958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons: Wisdom for Every Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1078",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:41:25.899Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

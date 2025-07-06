@@ -1,0 +1,456 @@
+{
+  "bookId": "405",
+  "timestamp": "2025-07-04T01:16:57.253Z",
+  "success": false,
+  "processingTime": -1751591477063,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5176,
+    "totalAudioFiles": 12,
+    "totalDuration": 2197.819459
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2197.819459
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/405/optimized_text/405.md",
+    "fileSize": 767,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "405.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/405/metadata/405_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2197.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/405/metadata/405_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/405/metadata/405_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/405/405_complete.wav",
+    "duration": 2197.819458,
+    "fileSize": 105495412,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/405/introduction.wav",
+          "duration": 102.76175,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.76175,
+          "startTime": 0,
+          "endTime": 102.76175
+        },
+        {
+          "path": "Audio/output/405/chapter_01.wav",
+          "duration": 230.943875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Ship of Dreams and the Shadows of War",
+          "actualDuration": 230.943875,
+          "startTime": 104.26175,
+          "endTime": 335.205625
+        },
+        {
+          "path": "Audio/output/405/chapter_02.wav",
+          "duration": 237.684875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Lives Intertwined: Passengers, Crew, and the Weight of Uncertainty",
+          "actualDuration": 237.684875,
+          "startTime": 336.705625,
+          "endTime": 574.3905
+        },
+        {
+          "path": "Audio/output/405/chapter_03.wav",
+          "duration": 238.284792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Invisible Enemy: Submarines, Intelligence, and the Changing Face of War",
+          "actualDuration": 238.284792,
+          "startTime": 575.8905,
+          "endTime": 814.175292
+        },
+        {
+          "path": "Audio/output/405/chapter_04.wav",
+          "duration": 245.800708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Sinking: Chaos, Courage, and the Human Cost",
+          "actualDuration": 245.800708,
+          "startTime": 815.675292,
+          "endTime": 1061.476
+        },
+        {
+          "path": "Audio/output/405/chapter_05.wav",
+          "duration": 218.977458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath and the Ripple Effects of Catastrophe",
+          "actualDuration": 218.977458,
+          "startTime": 1062.976,
+          "endTime": 1281.9534580000002
+        },
+        {
+          "path": "Audio/output/405/chapter_06.wav",
+          "duration": 208.934125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search for Answers: Grief, Blame, and the Need for Truth",
+          "actualDuration": 208.934125,
+          "startTime": 1283.4534580000002,
+          "endTime": 1492.3875830000002
+        },
+        {
+          "path": "Audio/output/405/chapter_07.wav",
+          "duration": 190.858792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Lusitania and the Tides of Public Opinion",
+          "actualDuration": 190.858792,
+          "startTime": 1493.8875830000002,
+          "endTime": 1684.7463750000002
+        },
+        {
+          "path": "Audio/output/405/chapter_08.wav",
+          "duration": 173.266958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow: Memory, Myth, and the Making of History",
+          "actualDuration": 173.266958,
+          "startTime": 1686.2463750000002,
+          "endTime": 1859.513333
+        },
+        {
+          "path": "Audio/output/405/chapter_09.wav",
+          "duration": 150.784167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in the Wake: War, Technology, and the Human Heart",
+          "actualDuration": 150.784167,
+          "startTime": 1861.013333,
+          "endTime": 2011.7975000000001
+        },
+        {
+          "path": "Audio/output/405/chapter_10.wav",
+          "duration": 94.574917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Remembrance, Responsibility, and the Call to Action",
+          "actualDuration": 94.574917,
+          "startTime": 2013.2975000000001,
+          "endTime": 2107.872417
+        },
+        {
+          "path": "Audio/output/405/conclusion.wav",
+          "duration": 104.947042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.947042,
+          "startTime": 2109.372417,
+          "endTime": 2214.319459
+        }
+      ],
+      "totalDuration": 2214.319459,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.76,
+          "actualStart": 0,
+          "actualEnd": 102.76175,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Ship of Dreams and the Shadows of War",
+          "expectedStart": 102.76,
+          "expectedEnd": 333.7,
+          "actualStart": 104.26175,
+          "actualEnd": 335.205625,
+          "timeDifference": 1.5017500000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Lives Intertwined: Passengers, Crew, and the Weight of Uncertainty",
+          "expectedStart": 333.7,
+          "expectedEnd": 571.38,
+          "actualStart": 336.705625,
+          "actualEnd": 574.3905,
+          "timeDifference": 3.005625000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Invisible Enemy: Submarines, Intelligence, and the Changing Face of War",
+          "expectedStart": 571.38,
+          "expectedEnd": 809.66,
+          "actualStart": 575.8905,
+          "actualEnd": 814.175292,
+          "timeDifference": 4.510499999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Sinking: Chaos, Courage, and the Human Cost",
+          "expectedStart": 809.66,
+          "expectedEnd": 1055.46,
+          "actualStart": 815.675292,
+          "actualEnd": 1061.476,
+          "timeDifference": 6.015292000000045
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath and the Ripple Effects of Catastrophe",
+          "expectedStart": 1055.46,
+          "expectedEnd": 1274.44,
+          "actualStart": 1062.976,
+          "actualEnd": 1281.9534580000002,
+          "timeDifference": 7.516000000000076
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search for Answers: Grief, Blame, and the Need for Truth",
+          "expectedStart": 1274.44,
+          "expectedEnd": 1483.37,
+          "actualStart": 1283.4534580000002,
+          "actualEnd": 1492.3875830000002,
+          "timeDifference": 9.013458000000128
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Lusitania and the Tides of Public Opinion",
+          "expectedStart": 1483.37,
+          "expectedEnd": 1674.23,
+          "actualStart": 1493.8875830000002,
+          "actualEnd": 1684.7463750000002,
+          "timeDifference": 10.517583000000286
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow: Memory, Myth, and the Making of History",
+          "expectedStart": 1674.23,
+          "expectedEnd": 1847.5,
+          "actualStart": 1686.2463750000002,
+          "actualEnd": 1859.513333,
+          "timeDifference": 12.016375000000153
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in the Wake: War, Technology, and the Human Heart",
+          "expectedStart": 1847.5,
+          "expectedEnd": 1998.28,
+          "actualStart": 1861.013333,
+          "actualEnd": 2011.7975000000001,
+          "timeDifference": 13.513333000000102
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Remembrance, Responsibility, and the Call to Action",
+          "expectedStart": 1998.28,
+          "expectedEnd": 2092.85,
+          "actualStart": 2013.2975000000001,
+          "actualEnd": 2107.872417,
+          "timeDifference": 15.017500000000155
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2092.85,
+          "expectedEnd": 2197.8,
+          "actualStart": 2109.372417,
+          "actualEnd": 2214.319459,
+          "timeDifference": 16.522417000000132
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.76175,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Ship of Dreams and the Shadows of War"
+        },
+        {
+          "startTime": 335.205625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Ship of Dreams and the Shadows of War and Chapter 2 Lives Intertwined: Passengers, Crew, and the Weight of Uncertainty"
+        },
+        {
+          "startTime": 574.3905,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Lives Intertwined: Passengers, Crew, and the Weight of Uncertainty and Chapter 3 The Invisible Enemy: Submarines, Intelligence, and the Changing Face of War"
+        },
+        {
+          "startTime": 814.175292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Invisible Enemy: Submarines, Intelligence, and the Changing Face of War and Chapter 4 The Sinking: Chaos, Courage, and the Human Cost"
+        },
+        {
+          "startTime": 1061.476,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Sinking: Chaos, Courage, and the Human Cost and Chapter 5 Aftermath and the Ripple Effects of Catastrophe"
+        },
+        {
+          "startTime": 1281.9534580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath and the Ripple Effects of Catastrophe and Chapter 6 The Search for Answers: Grief, Blame, and the Need for Truth"
+        },
+        {
+          "startTime": 1492.3875830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search for Answers: Grief, Blame, and the Need for Truth and Chapter 7 The Lusitania and the Tides of Public Opinion"
+        },
+        {
+          "startTime": 1684.7463750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Lusitania and the Tides of Public Opinion and Chapter 8 The Long Shadow: Memory, Myth, and the Making of History"
+        },
+        {
+          "startTime": 1859.513333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow: Memory, Myth, and the Making of History and Chapter 9 Lessons in the Wake: War, Technology, and the Human Heart"
+        },
+        {
+          "startTime": 2011.7975000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in the Wake: War, Technology, and the Human Heart and Chapter 10 The Enduring Legacy: Remembrance, Responsibility, and the Call to Action"
+        },
+        {
+          "startTime": 2107.872417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Remembrance, Responsibility, and the Call to Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "405",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T01:11:17.082Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

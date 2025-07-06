@@ -1,0 +1,456 @@
+{
+  "bookId": "344",
+  "timestamp": "2025-07-03T18:56:38.345Z",
+  "success": false,
+  "processingTime": -1751568604237,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5549,
+    "totalAudioFiles": 12,
+    "totalDuration": 2281.0755830000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2281.0755830000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/344/optimized_text/344.md",
+    "fileSize": 609,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "344.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/344/metadata/344_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2281.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/344/metadata/344_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/344/metadata/344_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/344/344_complete.wav",
+    "duration": 2281.075583,
+    "fileSize": 109491706,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/344/introduction.wav",
+          "duration": 87.13125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.13125,
+          "startTime": 0,
+          "endTime": 87.13125
+        },
+        {
+          "path": "Audio/output/344/chapter_01.wav",
+          "duration": 234.994208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering Love as Our True Foundation",
+          "actualDuration": 234.994208,
+          "startTime": 88.63125,
+          "endTime": 323.625458
+        },
+        {
+          "path": "Audio/output/344/chapter_02.wav",
+          "duration": 261.611875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Fear and the Barriers to Love",
+          "actualDuration": 261.611875,
+          "startTime": 325.125458,
+          "endTime": 586.737333
+        },
+        {
+          "path": "Audio/output/344/chapter_03.wav",
+          "duration": 225.8125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Forgiveness and Healing",
+          "actualDuration": 225.8125,
+          "startTime": 588.237333,
+          "endTime": 814.049833
+        },
+        {
+          "path": "Audio/output/344/chapter_04.wav",
+          "duration": 223.234,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Shifting Perception: Miracles in Everyday Life",
+          "actualDuration": 223.234,
+          "startTime": 815.549833,
+          "endTime": 1038.783833
+        },
+        {
+          "path": "Audio/output/344/chapter_05.wav",
+          "duration": 224.619292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Surrendering to a Higher Power and Finding Inner Peace",
+          "actualDuration": 224.619292,
+          "startTime": 1040.283833,
+          "endTime": 1264.903125
+        },
+        {
+          "path": "Audio/output/344/chapter_06.wav",
+          "duration": 194.116542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Love in Relationships: Healing the Space Between Us",
+          "actualDuration": 194.116542,
+          "startTime": 1266.403125,
+          "endTime": 1460.519667
+        },
+        {
+          "path": "Audio/output/344/chapter_07.wav",
+          "duration": 223.546125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Work, Purpose, and the Call to Serve",
+          "actualDuration": 223.546125,
+          "startTime": 1462.019667,
+          "endTime": 1685.565792
+        },
+        {
+          "path": "Audio/output/344/chapter_08.wav",
+          "duration": 166.422833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Self-Acceptance and the Journey Home",
+          "actualDuration": 166.422833,
+          "startTime": 1687.065792,
+          "endTime": 1853.4886250000002
+        },
+        {
+          "path": "Audio/output/344/chapter_09.wav",
+          "duration": 168.920875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living Love in a Fearful World",
+          "actualDuration": 168.920875,
+          "startTime": 1854.9886250000002,
+          "endTime": 2023.9095000000002
+        },
+        {
+          "path": "Audio/output/344/chapter_10.wav",
+          "duration": 146.619875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Practice of Returning to Love",
+          "actualDuration": 146.619875,
+          "startTime": 2025.4095000000002,
+          "endTime": 2172.029375
+        },
+        {
+          "path": "Audio/output/344/conclusion.wav",
+          "duration": 124.046208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.046208,
+          "startTime": 2173.529375,
+          "endTime": 2297.5755830000003
+        }
+      ],
+      "totalDuration": 2297.5755830000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.13,
+          "actualStart": 0,
+          "actualEnd": 87.13125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering Love as Our True Foundation",
+          "expectedStart": 87.13,
+          "expectedEnd": 322.12,
+          "actualStart": 88.63125,
+          "actualEnd": 323.625458,
+          "timeDifference": 1.5012499999999989
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Fear and the Barriers to Love",
+          "expectedStart": 322.12,
+          "expectedEnd": 583.73,
+          "actualStart": 325.125458,
+          "actualEnd": 586.737333,
+          "timeDifference": 3.005457999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Forgiveness and Healing",
+          "expectedStart": 583.73,
+          "expectedEnd": 809.54,
+          "actualStart": 588.237333,
+          "actualEnd": 814.049833,
+          "timeDifference": 4.507333000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Shifting Perception: Miracles in Everyday Life",
+          "expectedStart": 809.54,
+          "expectedEnd": 1032.77,
+          "actualStart": 815.549833,
+          "actualEnd": 1038.783833,
+          "timeDifference": 6.0098330000000715
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Surrendering to a Higher Power and Finding Inner Peace",
+          "expectedStart": 1032.77,
+          "expectedEnd": 1257.39,
+          "actualStart": 1040.283833,
+          "actualEnd": 1264.903125,
+          "timeDifference": 7.513832999999977
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Love in Relationships: Healing the Space Between Us",
+          "expectedStart": 1257.39,
+          "expectedEnd": 1451.51,
+          "actualStart": 1266.403125,
+          "actualEnd": 1460.519667,
+          "timeDifference": 9.013124999999945
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Work, Purpose, and the Call to Serve",
+          "expectedStart": 1451.51,
+          "expectedEnd": 1675.06,
+          "actualStart": 1462.019667,
+          "actualEnd": 1685.565792,
+          "timeDifference": 10.509667000000036
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Self-Acceptance and the Journey Home",
+          "expectedStart": 1675.06,
+          "expectedEnd": 1841.48,
+          "actualStart": 1687.065792,
+          "actualEnd": 1853.4886250000002,
+          "timeDifference": 12.005792000000156
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living Love in a Fearful World",
+          "expectedStart": 1841.48,
+          "expectedEnd": 2010.4,
+          "actualStart": 1854.9886250000002,
+          "actualEnd": 2023.9095000000002,
+          "timeDifference": 13.508625000000166
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Practice of Returning to Love",
+          "expectedStart": 2010.4,
+          "expectedEnd": 2157.02,
+          "actualStart": 2025.4095000000002,
+          "actualEnd": 2172.029375,
+          "timeDifference": 15.009500000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2157.02,
+          "expectedEnd": 2281.07,
+          "actualStart": 2173.529375,
+          "actualEnd": 2297.5755830000003,
+          "timeDifference": 16.50937500000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.13125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering Love as Our True Foundation"
+        },
+        {
+          "startTime": 323.625458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering Love as Our True Foundation and Chapter 2 Understanding Fear and the Barriers to Love"
+        },
+        {
+          "startTime": 586.737333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Fear and the Barriers to Love and Chapter 3 The Power of Forgiveness and Healing"
+        },
+        {
+          "startTime": 814.049833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Forgiveness and Healing and Chapter 4 Shifting Perception: Miracles in Everyday Life"
+        },
+        {
+          "startTime": 1038.783833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Shifting Perception: Miracles in Everyday Life and Chapter 5 Surrendering to a Higher Power and Finding Inner Peace"
+        },
+        {
+          "startTime": 1264.903125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Surrendering to a Higher Power and Finding Inner Peace and Chapter 6 Love in Relationships: Healing the Space Between Us"
+        },
+        {
+          "startTime": 1460.519667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Love in Relationships: Healing the Space Between Us and Chapter 7 Work, Purpose, and the Call to Serve"
+        },
+        {
+          "startTime": 1685.565792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Work, Purpose, and the Call to Serve and Chapter 8 Self-Acceptance and the Journey Home"
+        },
+        {
+          "startTime": 1853.4886250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Self-Acceptance and the Journey Home and Chapter 9 Living Love in a Fearful World"
+        },
+        {
+          "startTime": 2023.9095000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living Love in a Fearful World and Chapter 10 The Practice of Returning to Love"
+        },
+        {
+          "startTime": 2172.029375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Practice of Returning to Love and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "344",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:50:05.477Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

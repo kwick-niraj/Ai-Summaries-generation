@@ -1,0 +1,432 @@
+{
+  "bookId": "620",
+  "timestamp": "2025-07-04T22:25:36.441Z",
+  "success": false,
+  "processingTime": -1751667567939,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4020,
+    "totalAudioFiles": 12,
+    "totalDuration": 1964.218334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1964.218334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/620/optimized_text/620.md",
+    "fileSize": 734,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "620.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/620/metadata/620_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1964.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/620/metadata/620_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/620/metadata/620_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/620/620_complete.wav",
+    "duration": 1964.218333,
+    "fileSize": 94282558,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/620/introduction.wav",
+          "duration": 99.977208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.977208,
+          "startTime": 0,
+          "endTime": 99.977208
+        },
+        {
+          "path": "Audio/output/620/chapter_01.wav",
+          "duration": 220.300583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Emotional Immaturity in Parental Relationships",
+          "actualDuration": 220.300583,
+          "startTime": 101.477208,
+          "endTime": 321.777791
+        },
+        {
+          "path": "Audio/output/620/chapter_02.wav",
+          "duration": 221.022292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Lasting Effects of Unmet Emotional Needs",
+          "actualDuration": 221.022292,
+          "startTime": 323.277791,
+          "endTime": 544.300083
+        },
+        {
+          "path": "Audio/output/620/chapter_03.wav",
+          "duration": 207.504667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Identifying Patterns of Emotional Immaturity in Parents",
+          "actualDuration": 207.504667,
+          "startTime": 545.800083,
+          "endTime": 753.30475
+        },
+        {
+          "path": "Audio/output/620/chapter_04.wav",
+          "duration": 256.651917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Path to Emotional Autonomy and Healing",
+          "actualDuration": 256.651917,
+          "startTime": 754.80475,
+          "endTime": 1011.456667
+        },
+        {
+          "path": "Audio/output/620/chapter_05.wav",
+          "duration": 202.26025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Fulfilling Connections and Self-Compassion",
+          "actualDuration": 202.26025,
+          "startTime": 1012.956667,
+          "endTime": 1215.216917
+        },
+        {
+          "path": "Audio/output/620/chapter_06.wav",
+          "duration": 184.513083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Ongoing Relationships with Emotionally Immature Parents",
+          "actualDuration": 184.513083,
+          "startTime": 1216.716917,
+          "endTime": 1401.23
+        },
+        {
+          "path": "Audio/output/620/chapter_07.wav",
+          "duration": 168.012542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing the Inner Child and Reparenting Yourself",
+          "actualDuration": 168.012542,
+          "startTime": 1402.73,
+          "endTime": 1570.742542
+        },
+        {
+          "path": "Audio/output/620/chapter_08.wav",
+          "duration": 154.972542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Emotional Maturity in Yourself",
+          "actualDuration": 154.972542,
+          "startTime": 1572.242542,
+          "endTime": 1727.215084
+        },
+        {
+          "path": "Audio/output/620/chapter_09.wav",
+          "duration": 152.366708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Breaking the Cycle: Parenting and Relationships Beyond the Past",
+          "actualDuration": 152.366708,
+          "startTime": 1728.715084,
+          "endTime": 1881.081792
+        },
+        {
+          "path": "Audio/output/620/conclusion.wav",
+          "duration": 96.636542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.636542,
+          "startTime": 1882.581792,
+          "endTime": 1979.218334
+        }
+      ],
+      "totalDuration": 1979.218334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.98,
+          "actualStart": 0,
+          "actualEnd": 99.977208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Emotional Immaturity in Parental Relationships",
+          "expectedStart": 99.98,
+          "expectedEnd": 320.28,
+          "actualStart": 101.477208,
+          "actualEnd": 321.777791,
+          "timeDifference": 1.4972080000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Lasting Effects of Unmet Emotional Needs",
+          "expectedStart": 320.28,
+          "expectedEnd": 541.3,
+          "actualStart": 323.277791,
+          "actualEnd": 544.300083,
+          "timeDifference": 2.9977910000000065
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Identifying Patterns of Emotional Immaturity in Parents",
+          "expectedStart": 541.3,
+          "expectedEnd": 748.8,
+          "actualStart": 545.800083,
+          "actualEnd": 753.30475,
+          "timeDifference": 4.500083000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Path to Emotional Autonomy and Healing",
+          "expectedStart": 748.8,
+          "expectedEnd": 1005.45,
+          "actualStart": 754.80475,
+          "actualEnd": 1011.456667,
+          "timeDifference": 6.004750000000058
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Fulfilling Connections and Self-Compassion",
+          "expectedStart": 1005.45,
+          "expectedEnd": 1207.71,
+          "actualStart": 1012.956667,
+          "actualEnd": 1215.216917,
+          "timeDifference": 7.506666999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Ongoing Relationships with Emotionally Immature Parents",
+          "expectedStart": 1207.71,
+          "expectedEnd": 1392.22,
+          "actualStart": 1216.716917,
+          "actualEnd": 1401.23,
+          "timeDifference": 9.00691699999993
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing the Inner Child and Reparenting Yourself",
+          "expectedStart": 1392.22,
+          "expectedEnd": 1560.23,
+          "actualStart": 1402.73,
+          "actualEnd": 1570.742542,
+          "timeDifference": 10.509999999999991
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Emotional Maturity in Yourself",
+          "expectedStart": 1560.23,
+          "expectedEnd": 1715.2,
+          "actualStart": 1572.242542,
+          "actualEnd": 1727.215084,
+          "timeDifference": 12.01254199999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Breaking the Cycle: Parenting and Relationships Beyond the Past",
+          "expectedStart": 1715.2,
+          "expectedEnd": 1867.57,
+          "actualStart": 1728.715084,
+          "actualEnd": 1881.081792,
+          "timeDifference": 13.515083999999888
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1867.57,
+          "expectedEnd": 1964.21,
+          "actualStart": 1882.581792,
+          "actualEnd": 1979.218334,
+          "timeDifference": 15.011792000000014
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.977208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Emotional Immaturity in Parental Relationships"
+        },
+        {
+          "startTime": 321.777791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Emotional Immaturity in Parental Relationships and Chapter 2 The Lasting Effects of Unmet Emotional Needs"
+        },
+        {
+          "startTime": 544.300083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Lasting Effects of Unmet Emotional Needs and Chapter 3 Identifying Patterns of Emotional Immaturity in Parents"
+        },
+        {
+          "startTime": 753.30475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Identifying Patterns of Emotional Immaturity in Parents and Chapter 4 The Path to Emotional Autonomy and Healing"
+        },
+        {
+          "startTime": 1011.456667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Path to Emotional Autonomy and Healing and Chapter 5 Building Fulfilling Connections and Self-Compassion"
+        },
+        {
+          "startTime": 1215.216917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Fulfilling Connections and Self-Compassion and Chapter 6 Navigating Ongoing Relationships with Emotionally Immature Parents"
+        },
+        {
+          "startTime": 1401.23,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Ongoing Relationships with Emotionally Immature Parents and Chapter 7 Healing the Inner Child and Reparenting Yourself"
+        },
+        {
+          "startTime": 1570.742542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing the Inner Child and Reparenting Yourself and Chapter 8 Cultivating Emotional Maturity in Yourself"
+        },
+        {
+          "startTime": 1727.215084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Emotional Maturity in Yourself and Chapter 9 Breaking the Cycle: Parenting and Relationships Beyond the Past"
+        },
+        {
+          "startTime": 1881.081792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Breaking the Cycle: Parenting and Relationships Beyond the Past and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "620",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T22:19:28.490Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

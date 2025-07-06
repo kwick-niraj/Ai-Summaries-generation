@@ -1,0 +1,456 @@
+{
+  "bookId": "665",
+  "timestamp": "2025-07-05T01:47:29.996Z",
+  "success": false,
+  "processingTime": -1751679665238,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4419,
+    "totalAudioFiles": 12,
+    "totalDuration": 2154.613207
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2154.613207
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/665/optimized_text/665.md",
+    "fileSize": 776,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "665.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/665/metadata/665_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2154.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/665/metadata/665_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/665/metadata/665_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/665/665_complete.wav",
+    "duration": 2154.613208,
+    "fileSize": 103421512,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/665/introduction.wav",
+          "duration": 81.151625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.151625,
+          "startTime": 0,
+          "endTime": 81.151625
+        },
+        {
+          "path": "Audio/output/665/chapter_01.wav",
+          "duration": 232.630958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Losses and the Seeds of Resilience",
+          "actualDuration": 232.630958,
+          "startTime": 82.651625,
+          "endTime": 315.282583
+        },
+        {
+          "path": "Audio/output/665/chapter_02.wav",
+          "duration": 274.558583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Place in the World and the Lure of Adventure",
+          "actualDuration": 274.558583,
+          "startTime": 316.782583,
+          "endTime": 591.3411659999999
+        },
+        {
+          "path": "Audio/output/665/chapter_03.wav",
+          "duration": 256.98225,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Hollywood’s Golden Age—Glamour, Friendship, and the Realities Behind the Scenes",
+          "actualDuration": 256.98225,
+          "startTime": 592.8411659999999,
+          "endTime": 849.823416
+        },
+        {
+          "path": "Audio/output/665/chapter_04.wav",
+          "duration": 206.290542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Love, Loss, and the Unpredictability of Life",
+          "actualDuration": 206.290542,
+          "startTime": 851.323416,
+          "endTime": 1057.613958
+        },
+        {
+          "path": "Audio/output/665/chapter_05.wav",
+          "duration": 153.275708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Humor and the Gift of Friendship",
+          "actualDuration": 153.275708,
+          "startTime": 1059.113958,
+          "endTime": 1212.389666
+        },
+        {
+          "path": "Audio/output/665/chapter_06.wav",
+          "duration": 194.2495,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Cost of Fame and the Search for Authenticity",
+          "actualDuration": 194.2495,
+          "startTime": 1213.889666,
+          "endTime": 1408.139166
+        },
+        {
+          "path": "Audio/output/665/chapter_07.wav",
+          "duration": 168.464208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reinvention, Renewal, and the Courage to Begin Again",
+          "actualDuration": 168.464208,
+          "startTime": 1409.639166,
+          "endTime": 1578.103374
+        },
+        {
+          "path": "Audio/output/665/chapter_08.wav",
+          "duration": 164.535958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons from the Stage—Vulnerability, Empathy, and the Human Condition",
+          "actualDuration": 164.535958,
+          "startTime": 1579.603374,
+          "endTime": 1744.139332
+        },
+        {
+          "path": "Audio/output/665/chapter_09.wav",
+          "duration": 169.95425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections on Aging, Legacy, and the Meaning of Success",
+          "actualDuration": 169.95425,
+          "startTime": 1745.639332,
+          "endTime": 1915.593582
+        },
+        {
+          "path": "Audio/output/665/chapter_10.wav",
+          "duration": 142.753792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Coming Home—Acceptance, Gratitude, and the Quiet Joys of Ordinary Life",
+          "actualDuration": 142.753792,
+          "startTime": 1917.093582,
+          "endTime": 2059.847374
+        },
+        {
+          "path": "Audio/output/665/conclusion.wav",
+          "duration": 109.765833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.765833,
+          "startTime": 2061.347374,
+          "endTime": 2171.113207
+        }
+      ],
+      "totalDuration": 2171.113207,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.15,
+          "actualStart": 0,
+          "actualEnd": 81.151625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Losses and the Seeds of Resilience",
+          "expectedStart": 81.15,
+          "expectedEnd": 313.78,
+          "actualStart": 82.651625,
+          "actualEnd": 315.282583,
+          "timeDifference": 1.50162499999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Place in the World and the Lure of Adventure",
+          "expectedStart": 313.78,
+          "expectedEnd": 588.34,
+          "actualStart": 316.782583,
+          "actualEnd": 591.3411659999999,
+          "timeDifference": 3.0025830000000155
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Hollywood’s Golden Age—Glamour, Friendship, and the Realities Behind the Scenes",
+          "expectedStart": 588.34,
+          "expectedEnd": 845.32,
+          "actualStart": 592.8411659999999,
+          "actualEnd": 849.823416,
+          "timeDifference": 4.501165999999898
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Love, Loss, and the Unpredictability of Life",
+          "expectedStart": 845.32,
+          "expectedEnd": 1051.61,
+          "actualStart": 851.323416,
+          "actualEnd": 1057.613958,
+          "timeDifference": 6.003415999999902
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Humor and the Gift of Friendship",
+          "expectedStart": 1051.61,
+          "expectedEnd": 1204.89,
+          "actualStart": 1059.113958,
+          "actualEnd": 1212.389666,
+          "timeDifference": 7.5039580000000115
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Cost of Fame and the Search for Authenticity",
+          "expectedStart": 1204.89,
+          "expectedEnd": 1399.14,
+          "actualStart": 1213.889666,
+          "actualEnd": 1408.139166,
+          "timeDifference": 8.999665999999934
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reinvention, Renewal, and the Courage to Begin Again",
+          "expectedStart": 1399.14,
+          "expectedEnd": 1567.6,
+          "actualStart": 1409.639166,
+          "actualEnd": 1578.103374,
+          "timeDifference": 10.499165999999832
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons from the Stage—Vulnerability, Empathy, and the Human Condition",
+          "expectedStart": 1567.6,
+          "expectedEnd": 1732.14,
+          "actualStart": 1579.603374,
+          "actualEnd": 1744.139332,
+          "timeDifference": 12.003374000000122
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections on Aging, Legacy, and the Meaning of Success",
+          "expectedStart": 1732.14,
+          "expectedEnd": 1902.09,
+          "actualStart": 1745.639332,
+          "actualEnd": 1915.593582,
+          "timeDifference": 13.499331999999868
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Coming Home—Acceptance, Gratitude, and the Quiet Joys of Ordinary Life",
+          "expectedStart": 1902.09,
+          "expectedEnd": 2044.84,
+          "actualStart": 1917.093582,
+          "actualEnd": 2059.847374,
+          "timeDifference": 15.003582000000051
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2044.84,
+          "expectedEnd": 2154.61,
+          "actualStart": 2061.347374,
+          "actualEnd": 2171.113207,
+          "timeDifference": 16.507374000000027
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.151625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Losses and the Seeds of Resilience"
+        },
+        {
+          "startTime": 315.282583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Losses and the Seeds of Resilience and Chapter 2 Finding a Place in the World and the Lure of Adventure"
+        },
+        {
+          "startTime": 591.3411659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Place in the World and the Lure of Adventure and Chapter 3 Hollywood’s Golden Age—Glamour, Friendship, and the Realities Behind the Scenes"
+        },
+        {
+          "startTime": 849.823416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Hollywood’s Golden Age—Glamour, Friendship, and the Realities Behind the Scenes and Chapter 4 Love, Loss, and the Unpredictability of Life"
+        },
+        {
+          "startTime": 1057.613958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Love, Loss, and the Unpredictability of Life and Chapter 5 The Power of Humor and the Gift of Friendship"
+        },
+        {
+          "startTime": 1212.389666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Humor and the Gift of Friendship and Chapter 6 The Unseen Cost of Fame and the Search for Authenticity"
+        },
+        {
+          "startTime": 1408.139166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Cost of Fame and the Search for Authenticity and Chapter 7 Reinvention, Renewal, and the Courage to Begin Again"
+        },
+        {
+          "startTime": 1578.103374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reinvention, Renewal, and the Courage to Begin Again and Chapter 8 Lessons from the Stage—Vulnerability, Empathy, and the Human Condition"
+        },
+        {
+          "startTime": 1744.139332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons from the Stage—Vulnerability, Empathy, and the Human Condition and Chapter 9 Reflections on Aging, Legacy, and the Meaning of Success"
+        },
+        {
+          "startTime": 1915.593582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections on Aging, Legacy, and the Meaning of Success and Chapter 10 Coming Home—Acceptance, Gratitude, and the Quiet Joys of Ordinary Life"
+        },
+        {
+          "startTime": 2059.847374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Coming Home—Acceptance, Gratitude, and the Quiet Joys of Ordinary Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "665",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T01:41:06.763Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

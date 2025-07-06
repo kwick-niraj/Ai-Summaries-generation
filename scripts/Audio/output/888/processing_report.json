@@ -1,0 +1,456 @@
+{
+  "bookId": "888",
+  "timestamp": "2025-07-05T14:10:22.137Z",
+  "success": false,
+  "processingTime": -1751724321889,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4061,
+    "totalAudioFiles": 12,
+    "totalDuration": 1846.845376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1846.845376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/888/optimized_text/888.md",
+    "fileSize": 686,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "888.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/888/metadata/888_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1846.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/888/metadata/888_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/888/metadata/888_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/888/888_complete.wav",
+    "duration": 1846.845375,
+    "fileSize": 88648656,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/888/introduction.wav",
+          "duration": 99.122375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.122375,
+          "startTime": 0,
+          "endTime": 99.122375
+        },
+        {
+          "path": "Audio/output/888/chapter_01.wav",
+          "duration": 172.2675,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Wrestling with Doubt in a World of Questions",
+          "actualDuration": 172.2675,
+          "startTime": 100.622375,
+          "endTime": 272.889875
+        },
+        {
+          "path": "Audio/output/888/chapter_02.wav",
+          "duration": 169.608542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Problem of Suffering and the Search for Justice",
+          "actualDuration": 169.608542,
+          "startTime": 274.389875,
+          "endTime": 443.998417
+        },
+        {
+          "path": "Audio/output/888/chapter_03.wav",
+          "duration": 170.436542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Challenge of Religious Exclusivity and Pluralism",
+          "actualDuration": 170.436542,
+          "startTime": 445.498417,
+          "endTime": 615.934959
+        },
+        {
+          "path": "Audio/output/888/chapter_04.wav",
+          "duration": 176.631417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Science, Reason, and the Possibility of Faith",
+          "actualDuration": 176.631417,
+          "startTime": 617.434959,
+          "endTime": 794.066376
+        },
+        {
+          "path": "Audio/output/888/chapter_05.wav",
+          "duration": 194.480792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Foundation of Morality and the Search for Meaning",
+          "actualDuration": 194.480792,
+          "startTime": 795.566376,
+          "endTime": 990.047168
+        },
+        {
+          "path": "Audio/output/888/chapter_06.wav",
+          "duration": 164.935667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Uniqueness of Christianity—A Story Unlike Any Other",
+          "actualDuration": 164.935667,
+          "startTime": 991.547168,
+          "endTime": 1156.482835
+        },
+        {
+          "path": "Audio/output/888/chapter_07.wav",
+          "duration": 156.425583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power and Paradox of Forgiveness",
+          "actualDuration": 156.425583,
+          "startTime": 1157.982835,
+          "endTime": 1314.408418
+        },
+        {
+          "path": "Audio/output/888/chapter_08.wav",
+          "duration": 147.056,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Community of Faith—Imperfect People, Unlikely Family",
+          "actualDuration": 147.056,
+          "startTime": 1315.908418,
+          "endTime": 1462.964418
+        },
+        {
+          "path": "Audio/output/888/chapter_09.wav",
+          "duration": 129.171958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Faith and Doubt—A Journey, Not a Destination",
+          "actualDuration": 129.171958,
+          "startTime": 1464.464418,
+          "endTime": 1593.636376
+        },
+        {
+          "path": "Audio/output/888/chapter_10.wav",
+          "duration": 124.648917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Invitation—Faith in a Skeptical Age",
+          "actualDuration": 124.648917,
+          "startTime": 1595.136376,
+          "endTime": 1719.785293
+        },
+        {
+          "path": "Audio/output/888/conclusion.wav",
+          "duration": 142.060083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.060083,
+          "startTime": 1721.285293,
+          "endTime": 1863.345376
+        }
+      ],
+      "totalDuration": 1863.345376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.12,
+          "actualStart": 0,
+          "actualEnd": 99.122375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Wrestling with Doubt in a World of Questions",
+          "expectedStart": 99.12,
+          "expectedEnd": 271.39,
+          "actualStart": 100.622375,
+          "actualEnd": 272.889875,
+          "timeDifference": 1.5023750000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Problem of Suffering and the Search for Justice",
+          "expectedStart": 271.39,
+          "expectedEnd": 441,
+          "actualStart": 274.389875,
+          "actualEnd": 443.998417,
+          "timeDifference": 2.9998750000000314
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Challenge of Religious Exclusivity and Pluralism",
+          "expectedStart": 441,
+          "expectedEnd": 611.44,
+          "actualStart": 445.498417,
+          "actualEnd": 615.934959,
+          "timeDifference": 4.498417000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Science, Reason, and the Possibility of Faith",
+          "expectedStart": 611.44,
+          "expectedEnd": 788.07,
+          "actualStart": 617.434959,
+          "actualEnd": 794.066376,
+          "timeDifference": 5.994958999999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Foundation of Morality and the Search for Meaning",
+          "expectedStart": 788.07,
+          "expectedEnd": 982.55,
+          "actualStart": 795.566376,
+          "actualEnd": 990.047168,
+          "timeDifference": 7.496375999999941
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Uniqueness of Christianity—A Story Unlike Any Other",
+          "expectedStart": 982.55,
+          "expectedEnd": 1147.49,
+          "actualStart": 991.547168,
+          "actualEnd": 1156.482835,
+          "timeDifference": 8.997168000000102
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power and Paradox of Forgiveness",
+          "expectedStart": 1147.49,
+          "expectedEnd": 1303.92,
+          "actualStart": 1157.982835,
+          "actualEnd": 1314.408418,
+          "timeDifference": 10.492835000000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Community of Faith—Imperfect People, Unlikely Family",
+          "expectedStart": 1303.92,
+          "expectedEnd": 1450.98,
+          "actualStart": 1315.908418,
+          "actualEnd": 1462.964418,
+          "timeDifference": 11.98841799999991
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Faith and Doubt—A Journey, Not a Destination",
+          "expectedStart": 1450.98,
+          "expectedEnd": 1580.15,
+          "actualStart": 1464.464418,
+          "actualEnd": 1593.636376,
+          "timeDifference": 13.484418000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Invitation—Faith in a Skeptical Age",
+          "expectedStart": 1580.15,
+          "expectedEnd": 1704.8,
+          "actualStart": 1595.136376,
+          "actualEnd": 1719.785293,
+          "timeDifference": 14.986375999999836
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1704.8,
+          "expectedEnd": 1846.86,
+          "actualStart": 1721.285293,
+          "actualEnd": 1863.345376,
+          "timeDifference": 16.485292999999956
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.122375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Wrestling with Doubt in a World of Questions"
+        },
+        {
+          "startTime": 272.889875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Wrestling with Doubt in a World of Questions and Chapter 2 The Problem of Suffering and the Search for Justice"
+        },
+        {
+          "startTime": 443.998417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Problem of Suffering and the Search for Justice and Chapter 3 The Challenge of Religious Exclusivity and Pluralism"
+        },
+        {
+          "startTime": 615.934959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Challenge of Religious Exclusivity and Pluralism and Chapter 4 Science, Reason, and the Possibility of Faith"
+        },
+        {
+          "startTime": 794.066376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Science, Reason, and the Possibility of Faith and Chapter 5 The Foundation of Morality and the Search for Meaning"
+        },
+        {
+          "startTime": 990.047168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Foundation of Morality and the Search for Meaning and Chapter 6 The Uniqueness of Christianity—A Story Unlike Any Other"
+        },
+        {
+          "startTime": 1156.482835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Uniqueness of Christianity—A Story Unlike Any Other and Chapter 7 The Power and Paradox of Forgiveness"
+        },
+        {
+          "startTime": 1314.408418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power and Paradox of Forgiveness and Chapter 8 The Community of Faith—Imperfect People, Unlikely Family"
+        },
+        {
+          "startTime": 1462.964418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Community of Faith—Imperfect People, Unlikely Family and Chapter 9 Faith and Doubt—A Journey, Not a Destination"
+        },
+        {
+          "startTime": 1593.636376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Faith and Doubt—A Journey, Not a Destination and Chapter 10 The Invitation—Faith in a Skeptical Age"
+        },
+        {
+          "startTime": 1719.785293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Invitation—Faith in a Skeptical Age and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "888",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T14:05:23.243Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

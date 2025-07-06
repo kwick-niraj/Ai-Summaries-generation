@@ -1,0 +1,456 @@
+{
+  "bookId": "577",
+  "timestamp": "2025-07-04T20:02:08.642Z",
+  "success": false,
+  "processingTime": -1751659051942,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4747,
+    "totalAudioFiles": 12,
+    "totalDuration": 2186.8799179999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2186.8799179999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/577/optimized_text/577.md",
+    "fileSize": 630,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "577.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/577/metadata/577_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2186.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/577/metadata/577_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/577/metadata/577_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/577/577_complete.wav",
+    "duration": 2186.879917,
+    "fileSize": 104970314,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/577/introduction.wav",
+          "duration": 84.038042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.038042,
+          "startTime": 0,
+          "endTime": 84.038042
+        },
+        {
+          "path": "Audio/output/577/chapter_01.wav",
+          "duration": 247.772583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Water Runs Out: The Day Everything Changes",
+          "actualDuration": 247.772583,
+          "startTime": 85.538042,
+          "endTime": 333.310625
+        },
+        {
+          "path": "Audio/output/577/chapter_02.wav",
+          "duration": 249.703917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Survival Instincts and the Strain on Morality",
+          "actualDuration": 249.703917,
+          "startTime": 334.810625,
+          "endTime": 584.514542
+        },
+        {
+          "path": "Audio/output/577/chapter_03.wav",
+          "duration": 207.935917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Collapse of Community and the Rise of Self-Preservation",
+          "actualDuration": 207.935917,
+          "startTime": 586.014542,
+          "endTime": 793.950459
+        },
+        {
+          "path": "Audio/output/577/chapter_04.wav",
+          "duration": 232.00925,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Inequality and the Unfairness of Scarcity",
+          "actualDuration": 232.00925,
+          "startTime": 795.450459,
+          "endTime": 1027.459709
+        },
+        {
+          "path": "Audio/output/577/chapter_05.wav",
+          "duration": 182.759,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Search for Hope and the Power of Small Acts",
+          "actualDuration": 182.759,
+          "startTime": 1028.959709,
+          "endTime": 1211.718709
+        },
+        {
+          "path": "Audio/output/577/chapter_06.wav",
+          "duration": 219.618917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "actualDuration": 219.618917,
+          "startTime": 1213.218709,
+          "endTime": 1432.837626
+        },
+        {
+          "path": "Audio/output/577/chapter_07.wav",
+          "duration": 166.515,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons Etched in Memory",
+          "actualDuration": 166.515,
+          "startTime": 1434.337626,
+          "endTime": 1600.8526259999999
+        },
+        {
+          "path": "Audio/output/577/chapter_08.wav",
+          "duration": 188.442375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding Trust and Community",
+          "actualDuration": 188.442375,
+          "startTime": 1602.3526259999999,
+          "endTime": 1790.795001
+        },
+        {
+          "path": "Audio/output/577/chapter_09.wav",
+          "duration": 168.379583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Impact: How Crisis Shapes Identity",
+          "actualDuration": 168.379583,
+          "startTime": 1792.295001,
+          "endTime": 1960.6745839999999
+        },
+        {
+          "path": "Audio/output/577/chapter_10.wav",
+          "duration": 130.570542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Building a Future from Lessons Learned",
+          "actualDuration": 130.570542,
+          "startTime": 1962.1745839999999,
+          "endTime": 2092.745126
+        },
+        {
+          "path": "Audio/output/577/conclusion.wav",
+          "duration": 109.134792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.134792,
+          "startTime": 2094.245126,
+          "endTime": 2203.3799179999996
+        }
+      ],
+      "totalDuration": 2203.3799179999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.04,
+          "actualStart": 0,
+          "actualEnd": 84.038042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Water Runs Out: The Day Everything Changes",
+          "expectedStart": 84.04,
+          "expectedEnd": 331.81,
+          "actualStart": 85.538042,
+          "actualEnd": 333.310625,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Survival Instincts and the Strain on Morality",
+          "expectedStart": 331.81,
+          "expectedEnd": 581.51,
+          "actualStart": 334.810625,
+          "actualEnd": 584.514542,
+          "timeDifference": 3.0006250000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Collapse of Community and the Rise of Self-Preservation",
+          "expectedStart": 581.51,
+          "expectedEnd": 789.45,
+          "actualStart": 586.014542,
+          "actualEnd": 793.950459,
+          "timeDifference": 4.504542000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Inequality and the Unfairness of Scarcity",
+          "expectedStart": 789.45,
+          "expectedEnd": 1021.46,
+          "actualStart": 795.450459,
+          "actualEnd": 1027.459709,
+          "timeDifference": 6.000458999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Search for Hope and the Power of Small Acts",
+          "expectedStart": 1021.46,
+          "expectedEnd": 1204.22,
+          "actualStart": 1028.959709,
+          "actualEnd": 1211.718709,
+          "timeDifference": 7.499708999999939
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "expectedStart": 1204.22,
+          "expectedEnd": 1423.84,
+          "actualStart": 1213.218709,
+          "actualEnd": 1432.837626,
+          "timeDifference": 8.998708999999963
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons Etched in Memory",
+          "expectedStart": 1423.84,
+          "expectedEnd": 1590.36,
+          "actualStart": 1434.337626,
+          "actualEnd": 1600.8526259999999,
+          "timeDifference": 10.497626000000082
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding Trust and Community",
+          "expectedStart": 1590.36,
+          "expectedEnd": 1778.8,
+          "actualStart": 1602.3526259999999,
+          "actualEnd": 1790.795001,
+          "timeDifference": 11.992625999999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Impact: How Crisis Shapes Identity",
+          "expectedStart": 1778.8,
+          "expectedEnd": 1947.18,
+          "actualStart": 1792.295001,
+          "actualEnd": 1960.6745839999999,
+          "timeDifference": 13.495001000000002
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Building a Future from Lessons Learned",
+          "expectedStart": 1947.18,
+          "expectedEnd": 2077.75,
+          "actualStart": 1962.1745839999999,
+          "actualEnd": 2092.745126,
+          "timeDifference": 14.994583999999804
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2077.75,
+          "expectedEnd": 2186.88,
+          "actualStart": 2094.245126,
+          "actualEnd": 2203.3799179999996,
+          "timeDifference": 16.4951259999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.038042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Water Runs Out: The Day Everything Changes"
+        },
+        {
+          "startTime": 333.310625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Water Runs Out: The Day Everything Changes and Chapter 2 Survival Instincts and the Strain on Morality"
+        },
+        {
+          "startTime": 584.514542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Survival Instincts and the Strain on Morality and Chapter 3 The Collapse of Community and the Rise of Self-Preservation"
+        },
+        {
+          "startTime": 793.950459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Collapse of Community and the Rise of Self-Preservation and Chapter 4 Inequality and the Unfairness of Scarcity"
+        },
+        {
+          "startTime": 1027.459709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Inequality and the Unfairness of Scarcity and Chapter 5 The Search for Hope and the Power of Small Acts"
+        },
+        {
+          "startTime": 1211.718709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Search for Hope and the Power of Small Acts and Chapter 6 Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1432.837626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces and Chapter 7 Lessons Etched in Memory"
+        },
+        {
+          "startTime": 1600.8526259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons Etched in Memory and Chapter 8 Rebuilding Trust and Community"
+        },
+        {
+          "startTime": 1790.795001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding Trust and Community and Chapter 9 The Enduring Impact: How Crisis Shapes Identity"
+        },
+        {
+          "startTime": 1960.6745839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Impact: How Crisis Shapes Identity and Chapter 10 Looking Forward: Building a Future from Lessons Learned"
+        },
+        {
+          "startTime": 2092.745126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Building a Future from Lessons Learned and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "577",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T19:57:33.511Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

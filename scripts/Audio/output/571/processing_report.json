@@ -1,0 +1,456 @@
+{
+  "bookId": "571",
+  "timestamp": "2025-07-04T19:45:43.552Z",
+  "success": false,
+  "processingTime": -1751657984940,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4193,
+    "totalAudioFiles": 12,
+    "totalDuration": 1946.4941249999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1946.4941249999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/571/optimized_text/571.md",
+    "fileSize": 648,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "571.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/571/metadata/571_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1946.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/571/metadata/571_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/571/metadata/571_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/571/571_complete.wav",
+    "duration": 1946.494125,
+    "fileSize": 93431796,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/571/introduction.wav",
+          "duration": 98.859,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.859,
+          "startTime": 0,
+          "endTime": 98.859
+        },
+        {
+          "path": "Audio/output/571/chapter_01.wav",
+          "duration": 192.071125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Influences and the Making of a Soldier",
+          "actualDuration": 192.071125,
+          "startTime": 100.359,
+          "endTime": 292.430125
+        },
+        {
+          "path": "Audio/output/571/chapter_02.wav",
+          "duration": 225.816708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning the Art of War and the Search for Purpose",
+          "actualDuration": 225.816708,
+          "startTime": 293.930125,
+          "endTime": 519.7468329999999
+        },
+        {
+          "path": "Audio/output/571/chapter_03.wav",
+          "duration": 224.939417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rising to Command and Facing the Realities of War",
+          "actualDuration": 224.939417,
+          "startTime": 521.2468329999999,
+          "endTime": 746.18625
+        },
+        {
+          "path": "Audio/output/571/chapter_04.wav",
+          "duration": 233.554167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Drive Across Europe and the Burden of Command",
+          "actualDuration": 233.554167,
+          "startTime": 747.68625,
+          "endTime": 981.240417
+        },
+        {
+          "path": "Audio/output/571/chapter_05.wav",
+          "duration": 177.688958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Man Behind the Myth and the Legacy of Leadership",
+          "actualDuration": 177.688958,
+          "startTime": 982.740417,
+          "endTime": 1160.429375
+        },
+        {
+          "path": "Audio/output/571/chapter_06.wav",
+          "duration": 158.846125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Postwar Struggle and the Search for Relevance",
+          "actualDuration": 158.846125,
+          "startTime": 1161.929375,
+          "endTime": 1320.7755
+        },
+        {
+          "path": "Audio/output/571/chapter_07.wav",
+          "duration": 143.638792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shaping of a Legend",
+          "actualDuration": 143.638792,
+          "startTime": 1322.2755,
+          "endTime": 1465.914292
+        },
+        {
+          "path": "Audio/output/571/chapter_08.wav",
+          "duration": 149.12475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Days and the Question of Legacy",
+          "actualDuration": 149.12475,
+          "startTime": 1467.414292,
+          "endTime": 1616.5390419999999
+        },
+        {
+          "path": "Audio/output/571/chapter_09.wav",
+          "duration": 130.485375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Leadership and the Nature of Genius",
+          "actualDuration": 130.485375,
+          "startTime": 1618.0390419999999,
+          "endTime": 1748.5244169999999
+        },
+        {
+          "path": "Audio/output/571/chapter_10.wav",
+          "duration": 91.919708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Relevance of Patton’s Story",
+          "actualDuration": 91.919708,
+          "startTime": 1750.0244169999999,
+          "endTime": 1841.9441249999998
+        },
+        {
+          "path": "Audio/output/571/conclusion.wav",
+          "duration": 119.55,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.55,
+          "startTime": 1843.4441249999998,
+          "endTime": 1962.9941249999997
+        }
+      ],
+      "totalDuration": 1962.9941249999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.86,
+          "actualStart": 0,
+          "actualEnd": 98.859,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Influences and the Making of a Soldier",
+          "expectedStart": 98.86,
+          "expectedEnd": 290.93,
+          "actualStart": 100.359,
+          "actualEnd": 292.430125,
+          "timeDifference": 1.4989999999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning the Art of War and the Search for Purpose",
+          "expectedStart": 290.93,
+          "expectedEnd": 516.75,
+          "actualStart": 293.930125,
+          "actualEnd": 519.7468329999999,
+          "timeDifference": 3.0001249999999686
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rising to Command and Facing the Realities of War",
+          "expectedStart": 516.75,
+          "expectedEnd": 741.69,
+          "actualStart": 521.2468329999999,
+          "actualEnd": 746.18625,
+          "timeDifference": 4.496832999999924
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Drive Across Europe and the Burden of Command",
+          "expectedStart": 741.69,
+          "expectedEnd": 975.24,
+          "actualStart": 747.68625,
+          "actualEnd": 981.240417,
+          "timeDifference": 5.996249999999918
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Man Behind the Myth and the Legacy of Leadership",
+          "expectedStart": 975.24,
+          "expectedEnd": 1152.93,
+          "actualStart": 982.740417,
+          "actualEnd": 1160.429375,
+          "timeDifference": 7.50041699999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Postwar Struggle and the Search for Relevance",
+          "expectedStart": 1152.93,
+          "expectedEnd": 1311.78,
+          "actualStart": 1161.929375,
+          "actualEnd": 1320.7755,
+          "timeDifference": 8.999374999999873
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shaping of a Legend",
+          "expectedStart": 1311.78,
+          "expectedEnd": 1455.42,
+          "actualStart": 1322.2755,
+          "actualEnd": 1465.914292,
+          "timeDifference": 10.495499999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Days and the Question of Legacy",
+          "expectedStart": 1455.42,
+          "expectedEnd": 1604.54,
+          "actualStart": 1467.414292,
+          "actualEnd": 1616.5390419999999,
+          "timeDifference": 11.99429199999986
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Leadership and the Nature of Genius",
+          "expectedStart": 1604.54,
+          "expectedEnd": 1735.03,
+          "actualStart": 1618.0390419999999,
+          "actualEnd": 1748.5244169999999,
+          "timeDifference": 13.499041999999918
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Relevance of Patton’s Story",
+          "expectedStart": 1735.03,
+          "expectedEnd": 1826.95,
+          "actualStart": 1750.0244169999999,
+          "actualEnd": 1841.9441249999998,
+          "timeDifference": 14.994416999999885
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1826.95,
+          "expectedEnd": 1946.5,
+          "actualStart": 1843.4441249999998,
+          "actualEnd": 1962.9941249999997,
+          "timeDifference": 16.494124999999713
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.859,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Influences and the Making of a Soldier"
+        },
+        {
+          "startTime": 292.430125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Influences and the Making of a Soldier and Chapter 2 Learning the Art of War and the Search for Purpose"
+        },
+        {
+          "startTime": 519.7468329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning the Art of War and the Search for Purpose and Chapter 3 Rising to Command and Facing the Realities of War"
+        },
+        {
+          "startTime": 746.18625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rising to Command and Facing the Realities of War and Chapter 4 The Drive Across Europe and the Burden of Command"
+        },
+        {
+          "startTime": 981.240417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Drive Across Europe and the Burden of Command and Chapter 5 The Man Behind the Myth and the Legacy of Leadership"
+        },
+        {
+          "startTime": 1160.429375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Man Behind the Myth and the Legacy of Leadership and Chapter 6 The Postwar Struggle and the Search for Relevance"
+        },
+        {
+          "startTime": 1320.7755,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Postwar Struggle and the Search for Relevance and Chapter 7 The Shaping of a Legend"
+        },
+        {
+          "startTime": 1465.914292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shaping of a Legend and Chapter 8 The Final Days and the Question of Legacy"
+        },
+        {
+          "startTime": 1616.5390419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Days and the Question of Legacy and Chapter 9 Lessons in Leadership and the Nature of Genius"
+        },
+        {
+          "startTime": 1748.5244169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Leadership and the Nature of Genius and Chapter 10 The Enduring Relevance of Patton’s Story"
+        },
+        {
+          "startTime": 1841.9441249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Relevance of Patton’s Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "571",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T19:39:46.162Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "872",
+  "timestamp": "2025-07-05T13:09:56.333Z",
+  "success": false,
+  "processingTime": -1751720735683,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4296,
+    "totalAudioFiles": 12,
+    "totalDuration": 1836.7169159999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1836.7169159999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/872/optimized_text/872.md",
+    "fileSize": 844,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "872.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/872/metadata/872_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1836.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/872/metadata/872_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/872/metadata/872_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/872/872_complete.wav",
+    "duration": 1836.716917,
+    "fileSize": 88162490,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/872/introduction.wav",
+          "duration": 82.474875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.474875,
+          "startTime": 0,
+          "endTime": 82.474875
+        },
+        {
+          "path": "Audio/output/872/chapter_01.wav",
+          "duration": 215.485333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Black in America: Early Lessons and Family Roots",
+          "actualDuration": 215.485333,
+          "startTime": 83.974875,
+          "endTime": 299.46020799999997
+        },
+        {
+          "path": "Audio/output/872/chapter_02.wav",
+          "duration": 234.182625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Awakening to Injustice: School, Identity, and the First Steps Toward Activism",
+          "actualDuration": 234.182625,
+          "startTime": 300.96020799999997,
+          "endTime": 535.142833
+        },
+        {
+          "path": "Audio/output/872/chapter_03.wav",
+          "duration": 203.529458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Black Panther Party and the Struggle for Liberation",
+          "actualDuration": 203.529458,
+          "startTime": 536.642833,
+          "endTime": 740.172291
+        },
+        {
+          "path": "Audio/output/872/chapter_04.wav",
+          "duration": 222.825333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Confronting the System: Arrest, Incarceration, and the Fight for Dignity",
+          "actualDuration": 222.825333,
+          "startTime": 741.672291,
+          "endTime": 964.497624
+        },
+        {
+          "path": "Audio/output/872/chapter_05.wav",
+          "duration": 147.375667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Motherhood, Exile, and the Ongoing Struggle for Freedom",
+          "actualDuration": 147.375667,
+          "startTime": 965.997624,
+          "endTime": 1113.3732909999999
+        },
+        {
+          "path": "Audio/output/872/chapter_06.wav",
+          "duration": 135.508542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Memory: Healing, Grief, and the Power of Remembrance",
+          "actualDuration": 135.508542,
+          "startTime": 1114.8732909999999,
+          "endTime": 1250.381833
+        },
+        {
+          "path": "Audio/output/872/chapter_07.wav",
+          "duration": 143.04475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons from Exile: Building New Lives and Finding Solidarity Abroad",
+          "actualDuration": 143.04475,
+          "startTime": 1251.881833,
+          "endTime": 1394.926583
+        },
+        {
+          "path": "Audio/output/872/chapter_08.wav",
+          "duration": 124.4515,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reflections on Resistance: The Meaning of Freedom and the Cost of Struggle",
+          "actualDuration": 124.4515,
+          "startTime": 1396.426583,
+          "endTime": 1520.8780829999998
+        },
+        {
+          "path": "Audio/output/872/chapter_09.wav",
+          "duration": 118.127708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Next Generation: Passing the Torch and Nurturing Hope",
+          "actualDuration": 118.127708,
+          "startTime": 1522.3780829999998,
+          "endTime": 1640.5057909999998
+        },
+        {
+          "path": "Audio/output/872/chapter_10.wav",
+          "duration": 97.372542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Legacy: Love, Liberation, and the Unfinished Work",
+          "actualDuration": 97.372542,
+          "startTime": 1642.0057909999998,
+          "endTime": 1739.3783329999999
+        },
+        {
+          "path": "Audio/output/872/conclusion.wav",
+          "duration": 112.338583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.338583,
+          "startTime": 1740.8783329999999,
+          "endTime": 1853.2169159999999
+        }
+      ],
+      "totalDuration": 1853.2169159999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.47,
+          "actualStart": 0,
+          "actualEnd": 82.474875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Black in America: Early Lessons and Family Roots",
+          "expectedStart": 82.47,
+          "expectedEnd": 297.96,
+          "actualStart": 83.974875,
+          "actualEnd": 299.46020799999997,
+          "timeDifference": 1.5048749999999984
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Awakening to Injustice: School, Identity, and the First Steps Toward Activism",
+          "expectedStart": 297.96,
+          "expectedEnd": 532.14,
+          "actualStart": 300.96020799999997,
+          "actualEnd": 535.142833,
+          "timeDifference": 3.0002079999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Black Panther Party and the Struggle for Liberation",
+          "expectedStart": 532.14,
+          "expectedEnd": 735.67,
+          "actualStart": 536.642833,
+          "actualEnd": 740.172291,
+          "timeDifference": 4.50283300000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Confronting the System: Arrest, Incarceration, and the Fight for Dignity",
+          "expectedStart": 735.67,
+          "expectedEnd": 958.5,
+          "actualStart": 741.672291,
+          "actualEnd": 964.497624,
+          "timeDifference": 6.002291000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Motherhood, Exile, and the Ongoing Struggle for Freedom",
+          "expectedStart": 958.5,
+          "expectedEnd": 1105.88,
+          "actualStart": 965.997624,
+          "actualEnd": 1113.3732909999999,
+          "timeDifference": 7.497623999999973
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Memory: Healing, Grief, and the Power of Remembrance",
+          "expectedStart": 1105.88,
+          "expectedEnd": 1241.39,
+          "actualStart": 1114.8732909999999,
+          "actualEnd": 1250.381833,
+          "timeDifference": 8.993290999999772
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons from Exile: Building New Lives and Finding Solidarity Abroad",
+          "expectedStart": 1241.39,
+          "expectedEnd": 1384.43,
+          "actualStart": 1251.881833,
+          "actualEnd": 1394.926583,
+          "timeDifference": 10.491832999999815
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reflections on Resistance: The Meaning of Freedom and the Cost of Struggle",
+          "expectedStart": 1384.43,
+          "expectedEnd": 1508.88,
+          "actualStart": 1396.426583,
+          "actualEnd": 1520.8780829999998,
+          "timeDifference": 11.996582999999873
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Next Generation: Passing the Torch and Nurturing Hope",
+          "expectedStart": 1508.88,
+          "expectedEnd": 1627.01,
+          "actualStart": 1522.3780829999998,
+          "actualEnd": 1640.5057909999998,
+          "timeDifference": 13.498082999999724
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Legacy: Love, Liberation, and the Unfinished Work",
+          "expectedStart": 1627.01,
+          "expectedEnd": 1724.38,
+          "actualStart": 1642.0057909999998,
+          "actualEnd": 1739.3783329999999,
+          "timeDifference": 14.995790999999826
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1724.38,
+          "expectedEnd": 1836.72,
+          "actualStart": 1740.8783329999999,
+          "actualEnd": 1853.2169159999999,
+          "timeDifference": 16.498332999999775
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.474875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Black in America: Early Lessons and Family Roots"
+        },
+        {
+          "startTime": 299.46020799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Black in America: Early Lessons and Family Roots and Chapter 2 Awakening to Injustice: School, Identity, and the First Steps Toward Activism"
+        },
+        {
+          "startTime": 535.142833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Awakening to Injustice: School, Identity, and the First Steps Toward Activism and Chapter 3 The Black Panther Party and the Struggle for Liberation"
+        },
+        {
+          "startTime": 740.172291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Black Panther Party and the Struggle for Liberation and Chapter 4 Confronting the System: Arrest, Incarceration, and the Fight for Dignity"
+        },
+        {
+          "startTime": 964.497624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Confronting the System: Arrest, Incarceration, and the Fight for Dignity and Chapter 5 Motherhood, Exile, and the Ongoing Struggle for Freedom"
+        },
+        {
+          "startTime": 1113.3732909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Motherhood, Exile, and the Ongoing Struggle for Freedom and Chapter 6 The Weight of Memory: Healing, Grief, and the Power of Remembrance"
+        },
+        {
+          "startTime": 1250.381833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Memory: Healing, Grief, and the Power of Remembrance and Chapter 7 Lessons from Exile: Building New Lives and Finding Solidarity Abroad"
+        },
+        {
+          "startTime": 1394.926583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons from Exile: Building New Lives and Finding Solidarity Abroad and Chapter 8 Reflections on Resistance: The Meaning of Freedom and the Cost of Struggle"
+        },
+        {
+          "startTime": 1520.8780829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reflections on Resistance: The Meaning of Freedom and the Cost of Struggle and Chapter 9 The Next Generation: Passing the Torch and Nurturing Hope"
+        },
+        {
+          "startTime": 1640.5057909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Next Generation: Passing the Torch and Nurturing Hope and Chapter 10 Enduring Legacy: Love, Liberation, and the Unfinished Work"
+        },
+        {
+          "startTime": 1739.3783329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Legacy: Love, Liberation, and the Unfinished Work and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "872",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T13:05:37.415Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

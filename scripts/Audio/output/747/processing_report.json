@@ -1,0 +1,456 @@
+{
+  "bookId": "747",
+  "timestamp": "2025-07-05T06:11:37.367Z",
+  "success": false,
+  "processingTime": -1751695370541,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3909,
+    "totalAudioFiles": 12,
+    "totalDuration": 2095.873584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2095.873584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/747/optimized_text/747.md",
+    "fileSize": 762,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "747.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/747/metadata/747_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2095.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/747/metadata/747_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/747/metadata/747_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/747/747_complete.wav",
+    "duration": 2095.873583,
+    "fileSize": 100602010,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/747/introduction.wav",
+          "duration": 85.261042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.261042,
+          "startTime": 0,
+          "endTime": 85.261042
+        },
+        {
+          "path": "Audio/output/747/chapter_01.wav",
+          "duration": 200.030875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation—Responsibility, Self-Belief, and the Power of Choice",
+          "actualDuration": 200.030875,
+          "startTime": 86.761042,
+          "endTime": 286.791917
+        },
+        {
+          "path": "Audio/output/747/chapter_02.wav",
+          "duration": 213.755625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Clarity of Purpose—Defining What Truly Matters",
+          "actualDuration": 213.755625,
+          "startTime": 288.291917,
+          "endTime": 502.047542
+        },
+        {
+          "path": "Audio/output/747/chapter_03.wav",
+          "duration": 197.546583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Beliefs and Mindset in Shaping Success",
+          "actualDuration": 197.546583,
+          "startTime": 503.547542,
+          "endTime": 701.0941250000001
+        },
+        {
+          "path": "Audio/output/747/chapter_04.wav",
+          "duration": 210.365167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Self-Discipline and Positive Habits for Lasting Change",
+          "actualDuration": 210.365167,
+          "startTime": 702.5941250000001,
+          "endTime": 912.9592920000001
+        },
+        {
+          "path": "Audio/output/747/chapter_05.wav",
+          "duration": 196.189667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Self-Esteem and Confidence in Achievement",
+          "actualDuration": 196.189667,
+          "startTime": 914.4592920000001,
+          "endTime": 1110.648959
+        },
+        {
+          "path": "Audio/output/747/chapter_06.wav",
+          "duration": 185.4475,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Lifelong Learning—The Engine of Growth and Adaptability",
+          "actualDuration": 185.4475,
+          "startTime": 1112.148959,
+          "endTime": 1297.596459
+        },
+        {
+          "path": "Audio/output/747/chapter_07.wav",
+          "duration": 181.712458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mastering Relationships—The Social Dimension of Achievement",
+          "actualDuration": 181.712458,
+          "startTime": 1299.096459,
+          "endTime": 1480.808917
+        },
+        {
+          "path": "Audio/output/747/chapter_08.wav",
+          "duration": 162.807083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resilience and the Art of Overcoming Adversity",
+          "actualDuration": 162.807083,
+          "startTime": 1482.308917,
+          "endTime": 1645.116
+        },
+        {
+          "path": "Audio/output/747/chapter_09.wav",
+          "duration": 152.267167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Achievement Principles into Daily Life",
+          "actualDuration": 152.267167,
+          "startTime": 1646.616,
+          "endTime": 1798.883167
+        },
+        {
+          "path": "Audio/output/747/chapter_10.wav",
+          "duration": 158.929125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum—Renewal, Reflection, and Purpose",
+          "actualDuration": 158.929125,
+          "startTime": 1800.383167,
+          "endTime": 1959.312292
+        },
+        {
+          "path": "Audio/output/747/conclusion.wav",
+          "duration": 151.561292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 151.561292,
+          "startTime": 1960.812292,
+          "endTime": 2112.373584
+        }
+      ],
+      "totalDuration": 2112.373584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.26,
+          "actualStart": 0,
+          "actualEnd": 85.261042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation—Responsibility, Self-Belief, and the Power of Choice",
+          "expectedStart": 85.26,
+          "expectedEnd": 285.29,
+          "actualStart": 86.761042,
+          "actualEnd": 286.791917,
+          "timeDifference": 1.5010419999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Clarity of Purpose—Defining What Truly Matters",
+          "expectedStart": 285.29,
+          "expectedEnd": 499.05,
+          "actualStart": 288.291917,
+          "actualEnd": 502.047542,
+          "timeDifference": 3.0019169999999917
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Beliefs and Mindset in Shaping Success",
+          "expectedStart": 499.05,
+          "expectedEnd": 696.6,
+          "actualStart": 503.547542,
+          "actualEnd": 701.0941250000001,
+          "timeDifference": 4.49754200000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Self-Discipline and Positive Habits for Lasting Change",
+          "expectedStart": 696.6,
+          "expectedEnd": 906.97,
+          "actualStart": 702.5941250000001,
+          "actualEnd": 912.9592920000001,
+          "timeDifference": 5.994125000000054
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Self-Esteem and Confidence in Achievement",
+          "expectedStart": 906.97,
+          "expectedEnd": 1103.16,
+          "actualStart": 914.4592920000001,
+          "actualEnd": 1110.648959,
+          "timeDifference": 7.489292000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Lifelong Learning—The Engine of Growth and Adaptability",
+          "expectedStart": 1103.16,
+          "expectedEnd": 1288.61,
+          "actualStart": 1112.148959,
+          "actualEnd": 1297.596459,
+          "timeDifference": 8.988959000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mastering Relationships—The Social Dimension of Achievement",
+          "expectedStart": 1288.61,
+          "expectedEnd": 1470.32,
+          "actualStart": 1299.096459,
+          "actualEnd": 1480.808917,
+          "timeDifference": 10.486459000000195
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resilience and the Art of Overcoming Adversity",
+          "expectedStart": 1470.32,
+          "expectedEnd": 1633.13,
+          "actualStart": 1482.308917,
+          "actualEnd": 1645.116,
+          "timeDifference": 11.988917000000129
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Achievement Principles into Daily Life",
+          "expectedStart": 1633.13,
+          "expectedEnd": 1785.4,
+          "actualStart": 1646.616,
+          "actualEnd": 1798.883167,
+          "timeDifference": 13.485999999999876
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum—Renewal, Reflection, and Purpose",
+          "expectedStart": 1785.4,
+          "expectedEnd": 1944.33,
+          "actualStart": 1800.383167,
+          "actualEnd": 1959.312292,
+          "timeDifference": 14.983166999999867
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1944.33,
+          "expectedEnd": 2095.89,
+          "actualStart": 1960.812292,
+          "actualEnd": 2112.373584,
+          "timeDifference": 16.482292000000143
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.261042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation—Responsibility, Self-Belief, and the Power of Choice"
+        },
+        {
+          "startTime": 286.791917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation—Responsibility, Self-Belief, and the Power of Choice and Chapter 2 Clarity of Purpose—Defining What Truly Matters"
+        },
+        {
+          "startTime": 502.047542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Clarity of Purpose—Defining What Truly Matters and Chapter 3 The Role of Beliefs and Mindset in Shaping Success"
+        },
+        {
+          "startTime": 701.0941250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Beliefs and Mindset in Shaping Success and Chapter 4 Building Self-Discipline and Positive Habits for Lasting Change"
+        },
+        {
+          "startTime": 912.9592920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Self-Discipline and Positive Habits for Lasting Change and Chapter 5 The Power of Self-Esteem and Confidence in Achievement"
+        },
+        {
+          "startTime": 1110.648959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Self-Esteem and Confidence in Achievement and Chapter 6 Lifelong Learning—The Engine of Growth and Adaptability"
+        },
+        {
+          "startTime": 1297.596459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Lifelong Learning—The Engine of Growth and Adaptability and Chapter 7 Mastering Relationships—The Social Dimension of Achievement"
+        },
+        {
+          "startTime": 1480.808917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mastering Relationships—The Social Dimension of Achievement and Chapter 8 Resilience and the Art of Overcoming Adversity"
+        },
+        {
+          "startTime": 1645.116,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resilience and the Art of Overcoming Adversity and Chapter 9 Integrating Achievement Principles into Daily Life"
+        },
+        {
+          "startTime": 1798.883167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Achievement Principles into Daily Life and Chapter 10 Sustaining Momentum—Renewal, Reflection, and Purpose"
+        },
+        {
+          "startTime": 1959.312292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum—Renewal, Reflection, and Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "747",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T06:02:51.757Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

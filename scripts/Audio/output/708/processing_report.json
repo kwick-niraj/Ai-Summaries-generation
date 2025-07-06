@@ -1,0 +1,456 @@
+{
+  "bookId": "708",
+  "timestamp": "2025-07-05T03:50:09.508Z",
+  "success": false,
+  "processingTime": -1751687162341,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3334,
+    "totalAudioFiles": 12,
+    "totalDuration": 1797.196876
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1797.196876
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/708/optimized_text/708.md",
+    "fileSize": 633,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "708.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/708/metadata/708_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1797.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/708/metadata/708_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/708/metadata/708_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/708/708_complete.wav",
+    "duration": 1797.196875,
+    "fileSize": 86265528,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/708/introduction.wav",
+          "duration": 101.364292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.364292,
+          "startTime": 0,
+          "endTime": 101.364292
+        },
+        {
+          "path": "Audio/output/708/chapter_01.wav",
+          "duration": 169.789583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Power of Nerdy Passions",
+          "actualDuration": 169.789583,
+          "startTime": 102.864292,
+          "endTime": 272.65387499999997
+        },
+        {
+          "path": "Audio/output/708/chapter_02.wav",
+          "duration": 174.3395,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Treating Life as a Real-World Game",
+          "actualDuration": 174.3395,
+          "startTime": 274.15387499999997,
+          "endTime": 448.49337499999996
+        },
+        {
+          "path": "Audio/output/708/chapter_03.wav",
+          "duration": 185.815167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Habits and Routines for Consistent Progress",
+          "actualDuration": 185.815167,
+          "startTime": 449.99337499999996,
+          "endTime": 635.808542
+        },
+        {
+          "path": "Audio/output/708/chapter_04.wav",
+          "duration": 182.566667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Procrastination and Negative Self-Talk",
+          "actualDuration": 182.566667,
+          "startTime": 637.308542,
+          "endTime": 819.875209
+        },
+        {
+          "path": "Audio/output/708/chapter_05.wav",
+          "duration": 171.5435,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating a Supportive Environment and Community",
+          "actualDuration": 171.5435,
+          "startTime": 821.375209,
+          "endTime": 992.918709
+        },
+        {
+          "path": "Audio/output/708/chapter_06.wav",
+          "duration": 161.141417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Leveling Up Physical and Mental Health",
+          "actualDuration": 161.141417,
+          "startTime": 994.418709,
+          "endTime": 1155.560126
+        },
+        {
+          "path": "Audio/output/708/chapter_07.wav",
+          "duration": 146.626292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mastering Advanced Productivity Techniques",
+          "actualDuration": 146.626292,
+          "startTime": 1157.060126,
+          "endTime": 1303.686418
+        },
+        {
+          "path": "Audio/output/708/chapter_08.wav",
+          "duration": 149.882125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Passions into Daily Life",
+          "actualDuration": 149.882125,
+          "startTime": 1305.186418,
+          "endTime": 1455.068543
+        },
+        {
+          "path": "Audio/output/708/chapter_09.wav",
+          "duration": 129.009583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Maintaining Momentum",
+          "actualDuration": 129.009583,
+          "startTime": 1456.568543,
+          "endTime": 1585.578126
+        },
+        {
+          "path": "Audio/output/708/chapter_10.wav",
+          "duration": 105.154167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth and Embracing Lifelong Learning",
+          "actualDuration": 105.154167,
+          "startTime": 1587.078126,
+          "endTime": 1692.232293
+        },
+        {
+          "path": "Audio/output/708/conclusion.wav",
+          "duration": 119.964583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.964583,
+          "startTime": 1693.732293,
+          "endTime": 1813.696876
+        }
+      ],
+      "totalDuration": 1813.696876,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.36,
+          "actualStart": 0,
+          "actualEnd": 101.364292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Power of Nerdy Passions",
+          "expectedStart": 101.36,
+          "expectedEnd": 271.15,
+          "actualStart": 102.864292,
+          "actualEnd": 272.65387499999997,
+          "timeDifference": 1.5042920000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Treating Life as a Real-World Game",
+          "expectedStart": 271.15,
+          "expectedEnd": 445.49,
+          "actualStart": 274.15387499999997,
+          "actualEnd": 448.49337499999996,
+          "timeDifference": 3.0038749999999936
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Habits and Routines for Consistent Progress",
+          "expectedStart": 445.49,
+          "expectedEnd": 631.31,
+          "actualStart": 449.99337499999996,
+          "actualEnd": 635.808542,
+          "timeDifference": 4.503374999999949
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Procrastination and Negative Self-Talk",
+          "expectedStart": 631.31,
+          "expectedEnd": 813.88,
+          "actualStart": 637.308542,
+          "actualEnd": 819.875209,
+          "timeDifference": 5.998542000000043
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating a Supportive Environment and Community",
+          "expectedStart": 813.88,
+          "expectedEnd": 985.42,
+          "actualStart": 821.375209,
+          "actualEnd": 992.918709,
+          "timeDifference": 7.495209000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Leveling Up Physical and Mental Health",
+          "expectedStart": 985.42,
+          "expectedEnd": 1146.56,
+          "actualStart": 994.418709,
+          "actualEnd": 1155.560126,
+          "timeDifference": 8.998709000000076
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mastering Advanced Productivity Techniques",
+          "expectedStart": 1146.56,
+          "expectedEnd": 1293.19,
+          "actualStart": 1157.060126,
+          "actualEnd": 1303.686418,
+          "timeDifference": 10.500126000000137
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Passions into Daily Life",
+          "expectedStart": 1293.19,
+          "expectedEnd": 1443.07,
+          "actualStart": 1305.186418,
+          "actualEnd": 1455.068543,
+          "timeDifference": 11.996417999999949
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Maintaining Momentum",
+          "expectedStart": 1443.07,
+          "expectedEnd": 1572.08,
+          "actualStart": 1456.568543,
+          "actualEnd": 1585.578126,
+          "timeDifference": 13.498543000000154
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth and Embracing Lifelong Learning",
+          "expectedStart": 1572.08,
+          "expectedEnd": 1677.23,
+          "actualStart": 1587.078126,
+          "actualEnd": 1692.232293,
+          "timeDifference": 14.998126000000184
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1677.23,
+          "expectedEnd": 1797.19,
+          "actualStart": 1693.732293,
+          "actualEnd": 1813.696876,
+          "timeDifference": 16.50229300000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.364292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Power of Nerdy Passions"
+        },
+        {
+          "startTime": 272.65387499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Power of Nerdy Passions and Chapter 2 Treating Life as a Real-World Game"
+        },
+        {
+          "startTime": 448.49337499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Treating Life as a Real-World Game and Chapter 3 Building Habits and Routines for Consistent Progress"
+        },
+        {
+          "startTime": 635.808542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Habits and Routines for Consistent Progress and Chapter 4 Overcoming Procrastination and Negative Self-Talk"
+        },
+        {
+          "startTime": 819.875209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Procrastination and Negative Self-Talk and Chapter 5 Creating a Supportive Environment and Community"
+        },
+        {
+          "startTime": 992.918709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating a Supportive Environment and Community and Chapter 6 Leveling Up Physical and Mental Health"
+        },
+        {
+          "startTime": 1155.560126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Leveling Up Physical and Mental Health and Chapter 7 Mastering Advanced Productivity Techniques"
+        },
+        {
+          "startTime": 1303.686418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mastering Advanced Productivity Techniques and Chapter 8 Integrating Passions into Daily Life"
+        },
+        {
+          "startTime": 1455.068543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Passions into Daily Life and Chapter 9 Navigating Setbacks and Maintaining Momentum"
+        },
+        {
+          "startTime": 1585.578126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Maintaining Momentum and Chapter 10 Sustaining Growth and Embracing Lifelong Learning"
+        },
+        {
+          "startTime": 1692.232293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth and Embracing Lifelong Learning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "708",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:46:02.867Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1007",
+  "timestamp": "2025-07-06T07:08:50.762Z",
+  "success": false,
+  "processingTime": -1751785414921,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4614,
+    "totalAudioFiles": 12,
+    "totalDuration": 2258.431082
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2258.431082
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1007/optimized_text/1007.md",
+    "fileSize": 742,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1007.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1007/metadata/1007_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2258.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1007/metadata/1007_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1007/metadata/1007_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1007/1007_complete.wav",
+    "duration": 2258.431083,
+    "fileSize": 108404770,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1007/introduction.wav",
+          "duration": 95.574583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.574583,
+          "startTime": 0,
+          "endTime": 95.574583
+        },
+        {
+          "path": "Audio/output/1007/chapter_01.wav",
+          "duration": 243.019708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding How Thoughts Shape Personal Reality",
+          "actualDuration": 243.019708,
+          "startTime": 97.074583,
+          "endTime": 340.094291
+        },
+        {
+          "path": "Audio/output/1007/chapter_02.wav",
+          "duration": 278.7485,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science Behind Change—Neuroscience, Biology, and Quantum Principles",
+          "actualDuration": 278.7485,
+          "startTime": 341.594291,
+          "endTime": 620.342791
+        },
+        {
+          "path": "Audio/output/1007/chapter_03.wav",
+          "duration": 261.415625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking the Cycle of Old Habits and Limiting Beliefs",
+          "actualDuration": 261.415625,
+          "startTime": 621.842791,
+          "endTime": 883.258416
+        },
+        {
+          "path": "Audio/output/1007/chapter_04.wav",
+          "duration": 222.171458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating a New Self Through Intention and Visualization",
+          "actualDuration": 222.171458,
+          "startTime": 884.758416,
+          "endTime": 1106.929874
+        },
+        {
+          "path": "Audio/output/1007/chapter_05.wav",
+          "duration": 225.969292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Meditation in Rewiring the Mind and Body",
+          "actualDuration": 225.969292,
+          "startTime": 1108.429874,
+          "endTime": 1334.399166
+        },
+        {
+          "path": "Audio/output/1007/chapter_06.wav",
+          "duration": 177.66275,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practicing Presence—Living Beyond the Familiar Past",
+          "actualDuration": 177.66275,
+          "startTime": 1335.899166,
+          "endTime": 1513.5619159999999
+        },
+        {
+          "path": "Audio/output/1007/chapter_07.wav",
+          "duration": 161.809208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Emotional Addictions and the Pull of the Old Self",
+          "actualDuration": 161.809208,
+          "startTime": 1515.0619159999999,
+          "endTime": 1676.8711239999998
+        },
+        {
+          "path": "Audio/output/1007/chapter_08.wav",
+          "duration": 144.53925,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rehearsing and Reinforcing the New Self in Daily Life",
+          "actualDuration": 144.53925,
+          "startTime": 1678.3711239999998,
+          "endTime": 1822.9103739999998
+        },
+        {
+          "path": "Audio/output/1007/chapter_09.wav",
+          "duration": 155.998,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Sustaining Change",
+          "actualDuration": 155.998,
+          "startTime": 1824.4103739999998,
+          "endTime": 1980.4083739999999
+        },
+        {
+          "path": "Audio/output/1007/chapter_10.wav",
+          "duration": 129.75675,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living as the New Self—Integration and Expansion",
+          "actualDuration": 129.75675,
+          "startTime": 1981.9083739999999,
+          "endTime": 2111.665124
+        },
+        {
+          "path": "Audio/output/1007/conclusion.wav",
+          "duration": 161.765958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.765958,
+          "startTime": 2113.165124,
+          "endTime": 2274.931082
+        }
+      ],
+      "totalDuration": 2274.931082,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.57,
+          "actualStart": 0,
+          "actualEnd": 95.574583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding How Thoughts Shape Personal Reality",
+          "expectedStart": 95.57,
+          "expectedEnd": 338.59,
+          "actualStart": 97.074583,
+          "actualEnd": 340.094291,
+          "timeDifference": 1.5045830000000109
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science Behind Change—Neuroscience, Biology, and Quantum Principles",
+          "expectedStart": 338.59,
+          "expectedEnd": 617.34,
+          "actualStart": 341.594291,
+          "actualEnd": 620.342791,
+          "timeDifference": 3.0042910000000234
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking the Cycle of Old Habits and Limiting Beliefs",
+          "expectedStart": 617.34,
+          "expectedEnd": 878.76,
+          "actualStart": 621.842791,
+          "actualEnd": 883.258416,
+          "timeDifference": 4.502791000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating a New Self Through Intention and Visualization",
+          "expectedStart": 878.76,
+          "expectedEnd": 1100.93,
+          "actualStart": 884.758416,
+          "actualEnd": 1106.929874,
+          "timeDifference": 5.99841600000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Meditation in Rewiring the Mind and Body",
+          "expectedStart": 1100.93,
+          "expectedEnd": 1326.9,
+          "actualStart": 1108.429874,
+          "actualEnd": 1334.399166,
+          "timeDifference": 7.499873999999863
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practicing Presence—Living Beyond the Familiar Past",
+          "expectedStart": 1326.9,
+          "expectedEnd": 1504.56,
+          "actualStart": 1335.899166,
+          "actualEnd": 1513.5619159999999,
+          "timeDifference": 8.999165999999832
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Emotional Addictions and the Pull of the Old Self",
+          "expectedStart": 1504.56,
+          "expectedEnd": 1666.37,
+          "actualStart": 1515.0619159999999,
+          "actualEnd": 1676.8711239999998,
+          "timeDifference": 10.501915999999937
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rehearsing and Reinforcing the New Self in Daily Life",
+          "expectedStart": 1666.37,
+          "expectedEnd": 1810.91,
+          "actualStart": 1678.3711239999998,
+          "actualEnd": 1822.9103739999998,
+          "timeDifference": 12.00112399999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Sustaining Change",
+          "expectedStart": 1810.91,
+          "expectedEnd": 1966.91,
+          "actualStart": 1824.4103739999998,
+          "actualEnd": 1980.4083739999999,
+          "timeDifference": 13.500373999999738
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living as the New Self—Integration and Expansion",
+          "expectedStart": 1966.91,
+          "expectedEnd": 2096.67,
+          "actualStart": 1981.9083739999999,
+          "actualEnd": 2111.665124,
+          "timeDifference": 14.998373999999785
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2096.67,
+          "expectedEnd": 2258.44,
+          "actualStart": 2113.165124,
+          "actualEnd": 2274.931082,
+          "timeDifference": 16.495124000000033
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.574583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding How Thoughts Shape Personal Reality"
+        },
+        {
+          "startTime": 340.094291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding How Thoughts Shape Personal Reality and Chapter 2 The Science Behind Change—Neuroscience, Biology, and Quantum Principles"
+        },
+        {
+          "startTime": 620.342791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science Behind Change—Neuroscience, Biology, and Quantum Principles and Chapter 3 Breaking the Cycle of Old Habits and Limiting Beliefs"
+        },
+        {
+          "startTime": 883.258416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking the Cycle of Old Habits and Limiting Beliefs and Chapter 4 Creating a New Self Through Intention and Visualization"
+        },
+        {
+          "startTime": 1106.929874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating a New Self Through Intention and Visualization and Chapter 5 The Role of Meditation in Rewiring the Mind and Body"
+        },
+        {
+          "startTime": 1334.399166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Meditation in Rewiring the Mind and Body and Chapter 6 Practicing Presence—Living Beyond the Familiar Past"
+        },
+        {
+          "startTime": 1513.5619159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practicing Presence—Living Beyond the Familiar Past and Chapter 7 Overcoming Emotional Addictions and the Pull of the Old Self"
+        },
+        {
+          "startTime": 1676.8711239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Emotional Addictions and the Pull of the Old Self and Chapter 8 Rehearsing and Reinforcing the New Self in Daily Life"
+        },
+        {
+          "startTime": 1822.9103739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rehearsing and Reinforcing the New Self in Daily Life and Chapter 9 Navigating Setbacks and Sustaining Change"
+        },
+        {
+          "startTime": 1980.4083739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Sustaining Change and Chapter 10 Living as the New Self—Integration and Expansion"
+        },
+        {
+          "startTime": 2111.665124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living as the New Self—Integration and Expansion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1007",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T07:03:36.419Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

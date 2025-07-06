@@ -1,0 +1,456 @@
+{
+  "bookId": "904",
+  "timestamp": "2025-07-05T14:50:27.610Z",
+  "success": false,
+  "processingTime": -1751726740283,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4607,
+    "totalAudioFiles": 12,
+    "totalDuration": 2272.983123
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2272.983123
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/904/optimized_text/904.md",
+    "fileSize": 632,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "904.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/904/metadata/904_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2272.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/904/metadata/904_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/904/metadata/904_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/904/904_complete.wav",
+    "duration": 2272.983125,
+    "fileSize": 109103268,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/904/introduction.wav",
+          "duration": 85.317083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.317083,
+          "startTime": 0,
+          "endTime": 85.317083
+        },
+        {
+          "path": "Audio/output/904/chapter_01.wav",
+          "duration": 220.476458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding What Happiness Really Means",
+          "actualDuration": 220.476458,
+          "startTime": 86.817083,
+          "endTime": 307.293541
+        },
+        {
+          "path": "Audio/output/904/chapter_02.wav",
+          "duration": 256.185208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Myths and Obstacles That Block Lasting Joy",
+          "actualDuration": 256.185208,
+          "startTime": 308.793541,
+          "endTime": 564.978749
+        },
+        {
+          "path": "Audio/output/904/chapter_03.wav",
+          "duration": 233.20375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Foundation with Pleasure and Meaning",
+          "actualDuration": 233.20375,
+          "startTime": 566.478749,
+          "endTime": 799.682499
+        },
+        {
+          "path": "Audio/output/904/chapter_04.wav",
+          "duration": 224.8265,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Mindfulness and Appreciation in Daily Life",
+          "actualDuration": 224.8265,
+          "startTime": 801.182499,
+          "endTime": 1026.0089990000001
+        },
+        {
+          "path": "Audio/output/904/chapter_05.wav",
+          "duration": 219.732083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Setting Goals That Align with Inner Values",
+          "actualDuration": 219.732083,
+          "startTime": 1027.5089990000001,
+          "endTime": 1247.241082
+        },
+        {
+          "path": "Audio/output/904/chapter_06.wav",
+          "duration": 210.873542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks and Embracing Resilience",
+          "actualDuration": 210.873542,
+          "startTime": 1248.741082,
+          "endTime": 1459.614624
+        },
+        {
+          "path": "Audio/output/904/chapter_07.wav",
+          "duration": 172.231583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cultivating Connection and Community",
+          "actualDuration": 172.231583,
+          "startTime": 1461.114624,
+          "endTime": 1633.346207
+        },
+        {
+          "path": "Audio/output/904/chapter_08.wav",
+          "duration": 177.610083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Habits for Sustainable Happiness",
+          "actualDuration": 177.610083,
+          "startTime": 1634.846207,
+          "endTime": 1812.45629
+        },
+        {
+          "path": "Audio/output/904/chapter_09.wav",
+          "duration": 157.988042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Balance in a Changing World",
+          "actualDuration": 157.988042,
+          "startTime": 1813.95629,
+          "endTime": 1971.944332
+        },
+        {
+          "path": "Audio/output/904/chapter_10.wav",
+          "duration": 164.417833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Looking Forward",
+          "actualDuration": 164.417833,
+          "startTime": 1973.444332,
+          "endTime": 2137.862165
+        },
+        {
+          "path": "Audio/output/904/conclusion.wav",
+          "duration": 150.120958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.120958,
+          "startTime": 2139.362165,
+          "endTime": 2289.483123
+        }
+      ],
+      "totalDuration": 2289.483123,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.32,
+          "actualStart": 0,
+          "actualEnd": 85.317083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding What Happiness Really Means",
+          "expectedStart": 85.32,
+          "expectedEnd": 305.8,
+          "actualStart": 86.817083,
+          "actualEnd": 307.293541,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Myths and Obstacles That Block Lasting Joy",
+          "expectedStart": 305.8,
+          "expectedEnd": 561.99,
+          "actualStart": 308.793541,
+          "actualEnd": 564.978749,
+          "timeDifference": 2.9935409999999933
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Foundation with Pleasure and Meaning",
+          "expectedStart": 561.99,
+          "expectedEnd": 795.19,
+          "actualStart": 566.478749,
+          "actualEnd": 799.682499,
+          "timeDifference": 4.488748999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Mindfulness and Appreciation in Daily Life",
+          "expectedStart": 795.19,
+          "expectedEnd": 1020.02,
+          "actualStart": 801.182499,
+          "actualEnd": 1026.0089990000001,
+          "timeDifference": 5.9924989999999525
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Setting Goals That Align with Inner Values",
+          "expectedStart": 1020.02,
+          "expectedEnd": 1239.75,
+          "actualStart": 1027.5089990000001,
+          "actualEnd": 1247.241082,
+          "timeDifference": 7.488999000000149
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks and Embracing Resilience",
+          "expectedStart": 1239.75,
+          "expectedEnd": 1450.62,
+          "actualStart": 1248.741082,
+          "actualEnd": 1459.614624,
+          "timeDifference": 8.991082000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cultivating Connection and Community",
+          "expectedStart": 1450.62,
+          "expectedEnd": 1622.85,
+          "actualStart": 1461.114624,
+          "actualEnd": 1633.346207,
+          "timeDifference": 10.494624000000158
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Habits for Sustainable Happiness",
+          "expectedStart": 1622.85,
+          "expectedEnd": 1800.46,
+          "actualStart": 1634.846207,
+          "actualEnd": 1812.45629,
+          "timeDifference": 11.99620700000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Balance in a Changing World",
+          "expectedStart": 1800.46,
+          "expectedEnd": 1958.45,
+          "actualStart": 1813.95629,
+          "actualEnd": 1971.944332,
+          "timeDifference": 13.496290000000045
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Looking Forward",
+          "expectedStart": 1958.45,
+          "expectedEnd": 2122.87,
+          "actualStart": 1973.444332,
+          "actualEnd": 2137.862165,
+          "timeDifference": 14.994331999999986
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2122.87,
+          "expectedEnd": 2272.99,
+          "actualStart": 2139.362165,
+          "actualEnd": 2289.483123,
+          "timeDifference": 16.492165000000114
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.317083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding What Happiness Really Means"
+        },
+        {
+          "startTime": 307.293541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding What Happiness Really Means and Chapter 2 The Myths and Obstacles That Block Lasting Joy"
+        },
+        {
+          "startTime": 564.978749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Myths and Obstacles That Block Lasting Joy and Chapter 3 Building a Foundation with Pleasure and Meaning"
+        },
+        {
+          "startTime": 799.682499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Foundation with Pleasure and Meaning and Chapter 4 The Power of Mindfulness and Appreciation in Daily Life"
+        },
+        {
+          "startTime": 1026.0089990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Mindfulness and Appreciation in Daily Life and Chapter 5 Setting Goals That Align with Inner Values"
+        },
+        {
+          "startTime": 1247.241082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Setting Goals That Align with Inner Values and Chapter 6 Navigating Setbacks and Embracing Resilience"
+        },
+        {
+          "startTime": 1459.614624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks and Embracing Resilience and Chapter 7 Cultivating Connection and Community"
+        },
+        {
+          "startTime": 1633.346207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cultivating Connection and Community and Chapter 8 Integrating Habits for Sustainable Happiness"
+        },
+        {
+          "startTime": 1812.45629,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Habits for Sustainable Happiness and Chapter 9 Finding Balance in a Changing World"
+        },
+        {
+          "startTime": 1971.944332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Balance in a Changing World and Chapter 10 Living with Purpose and Looking Forward"
+        },
+        {
+          "startTime": 2137.862165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Looking Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "904",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T14:45:41.933Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

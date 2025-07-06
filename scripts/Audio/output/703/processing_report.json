@@ -1,0 +1,456 @@
+{
+  "bookId": "703",
+  "timestamp": "2025-07-05T03:36:34.694Z",
+  "success": false,
+  "processingTime": -1751686345017,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4227,
+    "totalAudioFiles": 12,
+    "totalDuration": 1880.997834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1880.997834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/703/optimized_text/703.md",
+    "fileSize": 722,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "703.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/703/metadata/703_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1880.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/703/metadata/703_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/703/metadata/703_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/703/703_complete.wav",
+    "duration": 1880.997833,
+    "fileSize": 90287974,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/703/introduction.wav",
+          "duration": 76.22525,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.22525,
+          "startTime": 0,
+          "endTime": 76.22525
+        },
+        {
+          "path": "Audio/output/703/chapter_01.wav",
+          "duration": 209.291417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 First Encounters: Meeting Minds Unlike Our Own",
+          "actualDuration": 209.291417,
+          "startTime": 77.72525,
+          "endTime": 287.016667
+        },
+        {
+          "path": "Audio/output/703/chapter_02.wav",
+          "duration": 230.707375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Secret Lives of Octopuses: Intelligence Beyond Instinct",
+          "actualDuration": 230.707375,
+          "startTime": 288.516667,
+          "endTime": 519.224042
+        },
+        {
+          "path": "Audio/output/703/chapter_03.wav",
+          "duration": 202.37125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Emotional Worlds: Feeling and Connection Across Species",
+          "actualDuration": 202.37125,
+          "startTime": 520.724042,
+          "endTime": 723.0952920000001
+        },
+        {
+          "path": "Audio/output/703/chapter_04.wav",
+          "duration": 207.260667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rethinking Consciousness: Minds in Unexpected Places",
+          "actualDuration": 207.260667,
+          "startTime": 724.5952920000001,
+          "endTime": 931.8559590000001
+        },
+        {
+          "path": "Audio/output/703/chapter_05.wav",
+          "duration": 160.866583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Wonder, Empathy, and the Human-Animal Bond",
+          "actualDuration": 160.866583,
+          "startTime": 933.3559590000001,
+          "endTime": 1094.222542
+        },
+        {
+          "path": "Audio/output/703/chapter_06.wav",
+          "duration": 156.33475,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Mirror of the Mind: What Octopuses Teach Us About Ourselves",
+          "actualDuration": 156.33475,
+          "startTime": 1095.722542,
+          "endTime": 1252.057292
+        },
+        {
+          "path": "Audio/output/703/chapter_07.wav",
+          "duration": 137.570375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fragile Thread: Life, Death, and Letting Go",
+          "actualDuration": 137.570375,
+          "startTime": 1253.557292,
+          "endTime": 1391.127667
+        },
+        {
+          "path": "Audio/output/703/chapter_08.wav",
+          "duration": 166.583208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Wider Web: Octopuses in the Wild and the Human Imagination",
+          "actualDuration": 166.583208,
+          "startTime": 1392.627667,
+          "endTime": 1559.210875
+        },
+        {
+          "path": "Audio/output/703/chapter_09.wav",
+          "duration": 127.664625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: How Octopuses Change Human Lives",
+          "actualDuration": 127.664625,
+          "startTime": 1560.710875,
+          "endTime": 1688.3755
+        },
+        {
+          "path": "Audio/output/703/chapter_10.wav",
+          "duration": 98.031417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Mystery Remains: Embracing the Unknown",
+          "actualDuration": 98.031417,
+          "startTime": 1689.8755,
+          "endTime": 1787.906917
+        },
+        {
+          "path": "Audio/output/703/conclusion.wav",
+          "duration": 108.090917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.090917,
+          "startTime": 1789.406917,
+          "endTime": 1897.497834
+        }
+      ],
+      "totalDuration": 1897.497834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.23,
+          "actualStart": 0,
+          "actualEnd": 76.22525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 First Encounters: Meeting Minds Unlike Our Own",
+          "expectedStart": 76.23,
+          "expectedEnd": 285.52,
+          "actualStart": 77.72525,
+          "actualEnd": 287.016667,
+          "timeDifference": 1.4952499999999986
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Secret Lives of Octopuses: Intelligence Beyond Instinct",
+          "expectedStart": 285.52,
+          "expectedEnd": 516.23,
+          "actualStart": 288.516667,
+          "actualEnd": 519.224042,
+          "timeDifference": 2.996667000000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Emotional Worlds: Feeling and Connection Across Species",
+          "expectedStart": 516.23,
+          "expectedEnd": 718.6,
+          "actualStart": 520.724042,
+          "actualEnd": 723.0952920000001,
+          "timeDifference": 4.494042000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rethinking Consciousness: Minds in Unexpected Places",
+          "expectedStart": 718.6,
+          "expectedEnd": 925.86,
+          "actualStart": 724.5952920000001,
+          "actualEnd": 931.8559590000001,
+          "timeDifference": 5.995292000000063
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Wonder, Empathy, and the Human-Animal Bond",
+          "expectedStart": 925.86,
+          "expectedEnd": 1086.73,
+          "actualStart": 933.3559590000001,
+          "actualEnd": 1094.222542,
+          "timeDifference": 7.495959000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Mirror of the Mind: What Octopuses Teach Us About Ourselves",
+          "expectedStart": 1086.73,
+          "expectedEnd": 1243.06,
+          "actualStart": 1095.722542,
+          "actualEnd": 1252.057292,
+          "timeDifference": 8.992541999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fragile Thread: Life, Death, and Letting Go",
+          "expectedStart": 1243.06,
+          "expectedEnd": 1380.63,
+          "actualStart": 1253.557292,
+          "actualEnd": 1391.127667,
+          "timeDifference": 10.497292000000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Wider Web: Octopuses in the Wild and the Human Imagination",
+          "expectedStart": 1380.63,
+          "expectedEnd": 1547.21,
+          "actualStart": 1392.627667,
+          "actualEnd": 1559.210875,
+          "timeDifference": 11.997666999999865
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: How Octopuses Change Human Lives",
+          "expectedStart": 1547.21,
+          "expectedEnd": 1674.87,
+          "actualStart": 1560.710875,
+          "actualEnd": 1688.3755,
+          "timeDifference": 13.50087499999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Mystery Remains: Embracing the Unknown",
+          "expectedStart": 1674.87,
+          "expectedEnd": 1772.9,
+          "actualStart": 1689.8755,
+          "actualEnd": 1787.906917,
+          "timeDifference": 15.005500000000211
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1772.9,
+          "expectedEnd": 1880.99,
+          "actualStart": 1789.406917,
+          "actualEnd": 1897.497834,
+          "timeDifference": 16.50691699999993
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.22525,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 First Encounters: Meeting Minds Unlike Our Own"
+        },
+        {
+          "startTime": 287.016667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 First Encounters: Meeting Minds Unlike Our Own and Chapter 2 The Secret Lives of Octopuses: Intelligence Beyond Instinct"
+        },
+        {
+          "startTime": 519.224042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Secret Lives of Octopuses: Intelligence Beyond Instinct and Chapter 3 Emotional Worlds: Feeling and Connection Across Species"
+        },
+        {
+          "startTime": 723.0952920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Emotional Worlds: Feeling and Connection Across Species and Chapter 4 Rethinking Consciousness: Minds in Unexpected Places"
+        },
+        {
+          "startTime": 931.8559590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rethinking Consciousness: Minds in Unexpected Places and Chapter 5 Wonder, Empathy, and the Human-Animal Bond"
+        },
+        {
+          "startTime": 1094.222542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Wonder, Empathy, and the Human-Animal Bond and Chapter 6 The Mirror of the Mind: What Octopuses Teach Us About Ourselves"
+        },
+        {
+          "startTime": 1252.057292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Mirror of the Mind: What Octopuses Teach Us About Ourselves and Chapter 7 The Fragile Thread: Life, Death, and Letting Go"
+        },
+        {
+          "startTime": 1391.127667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fragile Thread: Life, Death, and Letting Go and Chapter 8 The Wider Web: Octopuses in the Wild and the Human Imagination"
+        },
+        {
+          "startTime": 1559.210875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Wider Web: Octopuses in the Wild and the Human Imagination and Chapter 9 The Ripple Effect: How Octopuses Change Human Lives"
+        },
+        {
+          "startTime": 1688.3755,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: How Octopuses Change Human Lives and Chapter 10 The Mystery Remains: Embracing the Unknown"
+        },
+        {
+          "startTime": 1787.906917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Mystery Remains: Embracing the Unknown and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "703",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:32:25.551Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

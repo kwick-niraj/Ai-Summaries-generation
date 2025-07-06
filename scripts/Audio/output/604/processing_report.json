@@ -1,0 +1,456 @@
+{
+  "bookId": "604",
+  "timestamp": "2025-07-04T21:18:18.559Z",
+  "success": false,
+  "processingTime": -1751663469176,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4462,
+    "totalAudioFiles": 12,
+    "totalDuration": 2232.883084
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2232.883084
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/604/optimized_text/604.md",
+    "fileSize": 780,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "604.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/604/metadata/604_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2232.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/604/metadata/604_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/604/metadata/604_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/604/604_complete.wav",
+    "duration": 2232.883083,
+    "fileSize": 107178466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/604/introduction.wav",
+          "duration": 73.025417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 73.025417,
+          "startTime": 0,
+          "endTime": 73.025417
+        },
+        {
+          "path": "Audio/output/604/chapter_01.wav",
+          "duration": 276.206125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Power and Promise of Self-Directed, Intensive Learning",
+          "actualDuration": 276.206125,
+          "startTime": 74.525417,
+          "endTime": 350.731542
+        },
+        {
+          "path": "Audio/output/604/chapter_02.wav",
+          "duration": 221.016792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Laying the Groundwork—Understanding How to Learn Before Diving In",
+          "actualDuration": 221.016792,
+          "startTime": 352.231542,
+          "endTime": 573.248334
+        },
+        {
+          "path": "Audio/output/604/chapter_03.wav",
+          "duration": 197.220583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Sustaining Deep Focus and Managing Distractions",
+          "actualDuration": 197.220583,
+          "startTime": 574.748334,
+          "endTime": 771.968917
+        },
+        {
+          "path": "Audio/output/604/chapter_04.wav",
+          "duration": 203.611583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Learning by Doing—The Importance of Direct Practice",
+          "actualDuration": 203.611583,
+          "startTime": 773.468917,
+          "endTime": 977.0805
+        },
+        {
+          "path": "Audio/output/604/chapter_05.wav",
+          "duration": 210.106917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking Down Complexity—Targeted Drills and Focused Practice",
+          "actualDuration": 210.106917,
+          "startTime": 978.5805,
+          "endTime": 1188.687417
+        },
+        {
+          "path": "Audio/output/604/chapter_06.wav",
+          "duration": 210.006042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Strengthening Memory—The Power of Active Retrieval",
+          "actualDuration": 210.006042,
+          "startTime": 1190.187417,
+          "endTime": 1400.193459
+        },
+        {
+          "path": "Audio/output/604/chapter_07.wav",
+          "duration": 199.891167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Embracing Feedback—Turning Mistakes into Progress",
+          "actualDuration": 199.891167,
+          "startTime": 1401.693459,
+          "endTime": 1601.584626
+        },
+        {
+          "path": "Audio/output/604/chapter_08.wav",
+          "duration": 172.386833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Making Learning Stick—Retention and the Art of Spaced Repetition",
+          "actualDuration": 172.386833,
+          "startTime": 1603.084626,
+          "endTime": 1775.471459
+        },
+        {
+          "path": "Audio/output/604/chapter_09.wav",
+          "duration": 204.1415,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Cultivating Intuition—Going Beyond Memorization",
+          "actualDuration": 204.1415,
+          "startTime": 1776.971459,
+          "endTime": 1981.112959
+        },
+        {
+          "path": "Audio/output/604/chapter_10.wav",
+          "duration": 159.996125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Experimentation—Adapting, Innovating, and Personalizing Your Learning",
+          "actualDuration": 159.996125,
+          "startTime": 1982.612959,
+          "endTime": 2142.609084
+        },
+        {
+          "path": "Audio/output/604/conclusion.wav",
+          "duration": 105.274,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.274,
+          "startTime": 2144.109084,
+          "endTime": 2249.383084
+        }
+      ],
+      "totalDuration": 2249.383084,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 73.03,
+          "actualStart": 0,
+          "actualEnd": 73.025417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Power and Promise of Self-Directed, Intensive Learning",
+          "expectedStart": 73.03,
+          "expectedEnd": 349.24,
+          "actualStart": 74.525417,
+          "actualEnd": 350.731542,
+          "timeDifference": 1.4954170000000033
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Laying the Groundwork—Understanding How to Learn Before Diving In",
+          "expectedStart": 349.24,
+          "expectedEnd": 570.26,
+          "actualStart": 352.231542,
+          "actualEnd": 573.248334,
+          "timeDifference": 2.9915419999999813
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Sustaining Deep Focus and Managing Distractions",
+          "expectedStart": 570.26,
+          "expectedEnd": 767.48,
+          "actualStart": 574.748334,
+          "actualEnd": 771.968917,
+          "timeDifference": 4.488334000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Learning by Doing—The Importance of Direct Practice",
+          "expectedStart": 767.48,
+          "expectedEnd": 971.09,
+          "actualStart": 773.468917,
+          "actualEnd": 977.0805,
+          "timeDifference": 5.988917000000015
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking Down Complexity—Targeted Drills and Focused Practice",
+          "expectedStart": 971.09,
+          "expectedEnd": 1181.2,
+          "actualStart": 978.5805,
+          "actualEnd": 1188.687417,
+          "timeDifference": 7.490499999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Strengthening Memory—The Power of Active Retrieval",
+          "expectedStart": 1181.2,
+          "expectedEnd": 1391.21,
+          "actualStart": 1190.187417,
+          "actualEnd": 1400.193459,
+          "timeDifference": 8.98741700000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Embracing Feedback—Turning Mistakes into Progress",
+          "expectedStart": 1391.21,
+          "expectedEnd": 1591.1,
+          "actualStart": 1401.693459,
+          "actualEnd": 1601.584626,
+          "timeDifference": 10.483459000000039
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Making Learning Stick—Retention and the Art of Spaced Repetition",
+          "expectedStart": 1591.1,
+          "expectedEnd": 1763.49,
+          "actualStart": 1603.084626,
+          "actualEnd": 1775.471459,
+          "timeDifference": 11.984626000000162
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Cultivating Intuition—Going Beyond Memorization",
+          "expectedStart": 1763.49,
+          "expectedEnd": 1967.63,
+          "actualStart": 1776.971459,
+          "actualEnd": 1981.112959,
+          "timeDifference": 13.481459000000086
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Experimentation—Adapting, Innovating, and Personalizing Your Learning",
+          "expectedStart": 1967.63,
+          "expectedEnd": 2127.63,
+          "actualStart": 1982.612959,
+          "actualEnd": 2142.609084,
+          "timeDifference": 14.982958999999937
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2127.63,
+          "expectedEnd": 2232.9,
+          "actualStart": 2144.109084,
+          "actualEnd": 2249.383084,
+          "timeDifference": 16.479084000000057
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 73.025417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Power and Promise of Self-Directed, Intensive Learning"
+        },
+        {
+          "startTime": 350.731542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Power and Promise of Self-Directed, Intensive Learning and Chapter 2 Laying the Groundwork—Understanding How to Learn Before Diving In"
+        },
+        {
+          "startTime": 573.248334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Laying the Groundwork—Understanding How to Learn Before Diving In and Chapter 3 Sustaining Deep Focus and Managing Distractions"
+        },
+        {
+          "startTime": 771.968917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Sustaining Deep Focus and Managing Distractions and Chapter 4 Learning by Doing—The Importance of Direct Practice"
+        },
+        {
+          "startTime": 977.0805,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Learning by Doing—The Importance of Direct Practice and Chapter 5 Breaking Down Complexity—Targeted Drills and Focused Practice"
+        },
+        {
+          "startTime": 1188.687417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking Down Complexity—Targeted Drills and Focused Practice and Chapter 6 Strengthening Memory—The Power of Active Retrieval"
+        },
+        {
+          "startTime": 1400.193459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Strengthening Memory—The Power of Active Retrieval and Chapter 7 Embracing Feedback—Turning Mistakes into Progress"
+        },
+        {
+          "startTime": 1601.584626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Embracing Feedback—Turning Mistakes into Progress and Chapter 8 Making Learning Stick—Retention and the Art of Spaced Repetition"
+        },
+        {
+          "startTime": 1775.471459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Making Learning Stick—Retention and the Art of Spaced Repetition and Chapter 9 Cultivating Intuition—Going Beyond Memorization"
+        },
+        {
+          "startTime": 1981.112959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Cultivating Intuition—Going Beyond Memorization and Chapter 10 Experimentation—Adapting, Innovating, and Personalizing Your Learning"
+        },
+        {
+          "startTime": 2142.609084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Experimentation—Adapting, Innovating, and Personalizing Your Learning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "604",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:11:10.717Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "650",
+  "timestamp": "2025-07-05T01:06:27.092Z",
+  "success": false,
+  "processingTime": -1751677137541,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4242,
+    "totalAudioFiles": 12,
+    "totalDuration": 1891.875417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1891.875417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/650/optimized_text/650.md",
+    "fileSize": 699,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "650.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/650/metadata/650_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1891.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/650/metadata/650_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/650/metadata/650_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/650/650_complete.wav",
+    "duration": 1891.875417,
+    "fileSize": 90810098,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/650/introduction.wav",
+          "duration": 89.787042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.787042,
+          "startTime": 0,
+          "endTime": 89.787042
+        },
+        {
+          "path": "Audio/output/650/chapter_01.wav",
+          "duration": 239.30925,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Dreams and the Seeds of Insecurity",
+          "actualDuration": 239.30925,
+          "startTime": 91.287042,
+          "endTime": 330.596292
+        },
+        {
+          "path": "Audio/output/650/chapter_02.wav",
+          "duration": 209.971708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Allure and Cost of Perfection in the Spotlight",
+          "actualDuration": 209.971708,
+          "startTime": 332.096292,
+          "endTime": 542.068
+        },
+        {
+          "path": "Audio/output/650/chapter_03.wav",
+          "duration": 180.786625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Struggle with Eating Disorders",
+          "actualDuration": 180.786625,
+          "startTime": 543.568,
+          "endTime": 724.3546249999999
+        },
+        {
+          "path": "Audio/output/650/chapter_04.wav",
+          "duration": 217.385708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Secrecy and the Search for Authenticity",
+          "actualDuration": 217.385708,
+          "startTime": 725.8546249999999,
+          "endTime": 943.240333
+        },
+        {
+          "path": "Audio/output/650/chapter_05.wav",
+          "duration": 179.880667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Breaking the Cycle and Beginning the Path to Recovery",
+          "actualDuration": 179.880667,
+          "startTime": 944.740333,
+          "endTime": 1124.6209999999999
+        },
+        {
+          "path": "Audio/output/650/chapter_06.wav",
+          "duration": 165.47425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Messy Middle: Relapse, Resilience, and the Long Road",
+          "actualDuration": 165.47425,
+          "startTime": 1126.1209999999999,
+          "endTime": 1291.5952499999999
+        },
+        {
+          "path": "Audio/output/650/chapter_07.wav",
+          "duration": 162.819917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Relationships: Love, Loss, and Letting Others In",
+          "actualDuration": 162.819917,
+          "startTime": 1293.0952499999999,
+          "endTime": 1455.9151669999999
+        },
+        {
+          "path": "Audio/output/650/chapter_08.wav",
+          "duration": 131.345333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Redefining Success and Self-Worth",
+          "actualDuration": 131.345333,
+          "startTime": 1457.4151669999999,
+          "endTime": 1588.7604999999999
+        },
+        {
+          "path": "Audio/output/650/chapter_09.wav",
+          "duration": 115.211667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living Authentically: Coming Out and Embracing Identity",
+          "actualDuration": 115.211667,
+          "startTime": 1590.2604999999999,
+          "endTime": 1705.472167
+        },
+        {
+          "path": "Audio/output/650/chapter_10.wav",
+          "duration": 83.56575,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Lightness: Acceptance, Joy, and Moving Forward",
+          "actualDuration": 83.56575,
+          "startTime": 1706.972167,
+          "endTime": 1790.5379169999999
+        },
+        {
+          "path": "Audio/output/650/conclusion.wav",
+          "duration": 116.3375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.3375,
+          "startTime": 1792.0379169999999,
+          "endTime": 1908.375417
+        }
+      ],
+      "totalDuration": 1908.375417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.79,
+          "actualStart": 0,
+          "actualEnd": 89.787042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Dreams and the Seeds of Insecurity",
+          "expectedStart": 89.79,
+          "expectedEnd": 329.1,
+          "actualStart": 91.287042,
+          "actualEnd": 330.596292,
+          "timeDifference": 1.4970419999999933
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Allure and Cost of Perfection in the Spotlight",
+          "expectedStart": 329.1,
+          "expectedEnd": 539.07,
+          "actualStart": 332.096292,
+          "actualEnd": 542.068,
+          "timeDifference": 2.9962919999999826
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Struggle with Eating Disorders",
+          "expectedStart": 539.07,
+          "expectedEnd": 719.86,
+          "actualStart": 543.568,
+          "actualEnd": 724.3546249999999,
+          "timeDifference": 4.497999999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Secrecy and the Search for Authenticity",
+          "expectedStart": 719.86,
+          "expectedEnd": 937.25,
+          "actualStart": 725.8546249999999,
+          "actualEnd": 943.240333,
+          "timeDifference": 5.994624999999928
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Breaking the Cycle and Beginning the Path to Recovery",
+          "expectedStart": 937.25,
+          "expectedEnd": 1117.13,
+          "actualStart": 944.740333,
+          "actualEnd": 1124.6209999999999,
+          "timeDifference": 7.490332999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Messy Middle: Relapse, Resilience, and the Long Road",
+          "expectedStart": 1117.13,
+          "expectedEnd": 1282.6,
+          "actualStart": 1126.1209999999999,
+          "actualEnd": 1291.5952499999999,
+          "timeDifference": 8.990999999999758
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Relationships: Love, Loss, and Letting Others In",
+          "expectedStart": 1282.6,
+          "expectedEnd": 1445.42,
+          "actualStart": 1293.0952499999999,
+          "actualEnd": 1455.9151669999999,
+          "timeDifference": 10.495249999999942
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Redefining Success and Self-Worth",
+          "expectedStart": 1445.42,
+          "expectedEnd": 1576.77,
+          "actualStart": 1457.4151669999999,
+          "actualEnd": 1588.7604999999999,
+          "timeDifference": 11.99516699999981
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living Authentically: Coming Out and Embracing Identity",
+          "expectedStart": 1576.77,
+          "expectedEnd": 1691.98,
+          "actualStart": 1590.2604999999999,
+          "actualEnd": 1705.472167,
+          "timeDifference": 13.490499999999884
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Lightness: Acceptance, Joy, and Moving Forward",
+          "expectedStart": 1691.98,
+          "expectedEnd": 1775.55,
+          "actualStart": 1706.972167,
+          "actualEnd": 1790.5379169999999,
+          "timeDifference": 14.992166999999881
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1775.55,
+          "expectedEnd": 1891.89,
+          "actualStart": 1792.0379169999999,
+          "actualEnd": 1908.375417,
+          "timeDifference": 16.487916999999925
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.787042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Dreams and the Seeds of Insecurity"
+        },
+        {
+          "startTime": 330.596292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Dreams and the Seeds of Insecurity and Chapter 2 The Allure and Cost of Perfection in the Spotlight"
+        },
+        {
+          "startTime": 542.068,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Allure and Cost of Perfection in the Spotlight and Chapter 3 The Hidden Struggle with Eating Disorders"
+        },
+        {
+          "startTime": 724.3546249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Struggle with Eating Disorders and Chapter 4 The Weight of Secrecy and the Search for Authenticity"
+        },
+        {
+          "startTime": 943.240333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Secrecy and the Search for Authenticity and Chapter 5 Breaking the Cycle and Beginning the Path to Recovery"
+        },
+        {
+          "startTime": 1124.6209999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Breaking the Cycle and Beginning the Path to Recovery and Chapter 6 The Messy Middle: Relapse, Resilience, and the Long Road"
+        },
+        {
+          "startTime": 1291.5952499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Messy Middle: Relapse, Resilience, and the Long Road and Chapter 7 The Power of Relationships: Love, Loss, and Letting Others In"
+        },
+        {
+          "startTime": 1455.9151669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Relationships: Love, Loss, and Letting Others In and Chapter 8 Redefining Success and Self-Worth"
+        },
+        {
+          "startTime": 1588.7604999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Redefining Success and Self-Worth and Chapter 9 Living Authentically: Coming Out and Embracing Identity"
+        },
+        {
+          "startTime": 1705.472167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living Authentically: Coming Out and Embracing Identity and Chapter 10 Finding Lightness: Acceptance, Joy, and Moving Forward"
+        },
+        {
+          "startTime": 1790.5379169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Lightness: Acceptance, Joy, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "650",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T00:58:58.831Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

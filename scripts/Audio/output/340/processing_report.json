@@ -1,0 +1,456 @@
+{
+  "bookId": "340",
+  "timestamp": "2025-07-03T18:26:11.903Z",
+  "success": false,
+  "processingTime": -1751566797946,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3911,
+    "totalAudioFiles": 12,
+    "totalDuration": 2058.7340010000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2058.7340010000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/340/optimized_text/340.md",
+    "fileSize": 868,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "340.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/340/metadata/340_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2058.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/340/metadata/340_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/340/metadata/340_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/340/340_complete.wav",
+    "duration": 2058.734,
+    "fileSize": 98819310,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/340/introduction.wav",
+          "duration": 89.597375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.597375,
+          "startTime": 0,
+          "endTime": 89.597375
+        },
+        {
+          "path": "Audio/output/340/chapter_01.wav",
+          "duration": 190.011792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation of Big Thinking—Belief as the Starting Point",
+          "actualDuration": 190.011792,
+          "startTime": 91.097375,
+          "endTime": 281.109167
+        },
+        {
+          "path": "Audio/output/340/chapter_02.wav",
+          "duration": 214.253875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking the Cycle of Excuses—Moving Beyond Self-Imposed Limits",
+          "actualDuration": 214.253875,
+          "startTime": 282.609167,
+          "endTime": 496.863042
+        },
+        {
+          "path": "Audio/output/340/chapter_03.wav",
+          "duration": 198.932375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Confidence and Overcoming Fear—Action as the Antidote",
+          "actualDuration": 198.932375,
+          "startTime": 498.363042,
+          "endTime": 697.295417
+        },
+        {
+          "path": "Audio/output/340/chapter_04.wav",
+          "duration": 215.266167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creative Thinking and Ambitious Goals—Expanding the Boundaries of Possibility",
+          "actualDuration": 215.266167,
+          "startTime": 698.795417,
+          "endTime": 914.061584
+        },
+        {
+          "path": "Audio/output/340/chapter_05.wav",
+          "duration": 182.782125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Turning Setbacks into Progress—Persistence and Learning from Defeat",
+          "actualDuration": 182.782125,
+          "startTime": 915.561584,
+          "endTime": 1098.343709
+        },
+        {
+          "path": "Audio/output/340/chapter_06.wav",
+          "duration": 167.433125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Shaping Your Environment—The Power of Surroundings and Associations",
+          "actualDuration": 167.433125,
+          "startTime": 1099.843709,
+          "endTime": 1267.276834
+        },
+        {
+          "path": "Audio/output/340/chapter_07.wav",
+          "duration": 176.803292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Positive Relationships—The Art of Encouragement and Support",
+          "actualDuration": 176.803292,
+          "startTime": 1268.776834,
+          "endTime": 1445.580126
+        },
+        {
+          "path": "Audio/output/340/chapter_08.wav",
+          "duration": 161.081958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Developing Leadership Habits—Inspiring Action and Setting the Example",
+          "actualDuration": 161.081958,
+          "startTime": 1447.080126,
+          "endTime": 1608.162084
+        },
+        {
+          "path": "Audio/output/340/chapter_09.wav",
+          "duration": 155.862125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Big Thinking—Continuous Growth and Renewal",
+          "actualDuration": 155.862125,
+          "startTime": 1609.662084,
+          "endTime": 1765.5242090000002
+        },
+        {
+          "path": "Audio/output/340/chapter_10.wav",
+          "duration": 164.531375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Principles—Living the Big Thinking Framework",
+          "actualDuration": 164.531375,
+          "startTime": 1767.0242090000002,
+          "endTime": 1931.5555840000002
+        },
+        {
+          "path": "Audio/output/340/conclusion.wav",
+          "duration": 142.178417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.178417,
+          "startTime": 1933.0555840000002,
+          "endTime": 2075.2340010000003
+        }
+      ],
+      "totalDuration": 2075.2340010000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.6,
+          "actualStart": 0,
+          "actualEnd": 89.597375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation of Big Thinking—Belief as the Starting Point",
+          "expectedStart": 89.6,
+          "expectedEnd": 279.61,
+          "actualStart": 91.097375,
+          "actualEnd": 281.109167,
+          "timeDifference": 1.4973750000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking the Cycle of Excuses—Moving Beyond Self-Imposed Limits",
+          "expectedStart": 279.61,
+          "expectedEnd": 493.86,
+          "actualStart": 282.609167,
+          "actualEnd": 496.863042,
+          "timeDifference": 2.999167
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Confidence and Overcoming Fear—Action as the Antidote",
+          "expectedStart": 493.86,
+          "expectedEnd": 692.79,
+          "actualStart": 498.363042,
+          "actualEnd": 697.295417,
+          "timeDifference": 4.5030419999999935
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creative Thinking and Ambitious Goals—Expanding the Boundaries of Possibility",
+          "expectedStart": 692.79,
+          "expectedEnd": 908.06,
+          "actualStart": 698.795417,
+          "actualEnd": 914.061584,
+          "timeDifference": 6.0054170000000795
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Turning Setbacks into Progress—Persistence and Learning from Defeat",
+          "expectedStart": 908.06,
+          "expectedEnd": 1090.84,
+          "actualStart": 915.561584,
+          "actualEnd": 1098.343709,
+          "timeDifference": 7.5015840000000935
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Shaping Your Environment—The Power of Surroundings and Associations",
+          "expectedStart": 1090.84,
+          "expectedEnd": 1258.27,
+          "actualStart": 1099.843709,
+          "actualEnd": 1267.276834,
+          "timeDifference": 9.003709000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Positive Relationships—The Art of Encouragement and Support",
+          "expectedStart": 1258.27,
+          "expectedEnd": 1435.07,
+          "actualStart": 1268.776834,
+          "actualEnd": 1445.580126,
+          "timeDifference": 10.506834000000026
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Developing Leadership Habits—Inspiring Action and Setting the Example",
+          "expectedStart": 1435.07,
+          "expectedEnd": 1596.15,
+          "actualStart": 1447.080126,
+          "actualEnd": 1608.162084,
+          "timeDifference": 12.010126000000128
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Big Thinking—Continuous Growth and Renewal",
+          "expectedStart": 1596.15,
+          "expectedEnd": 1752.01,
+          "actualStart": 1609.662084,
+          "actualEnd": 1765.5242090000002,
+          "timeDifference": 13.512083999999959
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Principles—Living the Big Thinking Framework",
+          "expectedStart": 1752.01,
+          "expectedEnd": 1916.54,
+          "actualStart": 1767.0242090000002,
+          "actualEnd": 1931.5555840000002,
+          "timeDifference": 15.014209000000164
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1916.54,
+          "expectedEnd": 2058.72,
+          "actualStart": 1933.0555840000002,
+          "actualEnd": 2075.2340010000003,
+          "timeDifference": 16.515584000000217
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.597375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation of Big Thinking—Belief as the Starting Point"
+        },
+        {
+          "startTime": 281.109167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation of Big Thinking—Belief as the Starting Point and Chapter 2 Breaking the Cycle of Excuses—Moving Beyond Self-Imposed Limits"
+        },
+        {
+          "startTime": 496.863042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking the Cycle of Excuses—Moving Beyond Self-Imposed Limits and Chapter 3 Building Confidence and Overcoming Fear—Action as the Antidote"
+        },
+        {
+          "startTime": 697.295417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Confidence and Overcoming Fear—Action as the Antidote and Chapter 4 Creative Thinking and Ambitious Goals—Expanding the Boundaries of Possibility"
+        },
+        {
+          "startTime": 914.061584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creative Thinking and Ambitious Goals—Expanding the Boundaries of Possibility and Chapter 5 Turning Setbacks into Progress—Persistence and Learning from Defeat"
+        },
+        {
+          "startTime": 1098.343709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Turning Setbacks into Progress—Persistence and Learning from Defeat and Chapter 6 Shaping Your Environment—The Power of Surroundings and Associations"
+        },
+        {
+          "startTime": 1267.276834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Shaping Your Environment—The Power of Surroundings and Associations and Chapter 7 Building Positive Relationships—The Art of Encouragement and Support"
+        },
+        {
+          "startTime": 1445.580126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Positive Relationships—The Art of Encouragement and Support and Chapter 8 Developing Leadership Habits—Inspiring Action and Setting the Example"
+        },
+        {
+          "startTime": 1608.162084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Developing Leadership Habits—Inspiring Action and Setting the Example and Chapter 9 Sustaining Big Thinking—Continuous Growth and Renewal"
+        },
+        {
+          "startTime": 1765.5242090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Big Thinking—Continuous Growth and Renewal and Chapter 10 Integrating the Principles—Living the Big Thinking Framework"
+        },
+        {
+          "startTime": 1931.5555840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Principles—Living the Big Thinking Framework and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "340",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:19:59.168Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

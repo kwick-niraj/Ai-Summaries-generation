@@ -1,0 +1,456 @@
+{
+  "bookId": "1014",
+  "timestamp": "2025-07-06T07:38:45.472Z",
+  "success": false,
+  "processingTime": -1751787168355,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3860,
+    "totalAudioFiles": 12,
+    "totalDuration": 1886.9728330000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1886.9728330000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1014/optimized_text/1014.md",
+    "fileSize": 655,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1014.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1014/metadata/1014_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1886.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1014/metadata/1014_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1014/metadata/1014_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1014/1014_complete.wav",
+    "duration": 1886.972833,
+    "fileSize": 90574774,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1014/introduction.wav",
+          "duration": 93.568583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.568583,
+          "startTime": 0,
+          "endTime": 93.568583
+        },
+        {
+          "path": "Audio/output/1014/chapter_01.wav",
+          "duration": 157.074167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World Shaped by Scarcity and Dreams",
+          "actualDuration": 157.074167,
+          "startTime": 95.068583,
+          "endTime": 252.14274999999998
+        },
+        {
+          "path": "Audio/output/1014/chapter_02.wav",
+          "duration": 162.407917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Shadow of Famine and the Power of Community",
+          "actualDuration": 162.407917,
+          "startTime": 253.64274999999998,
+          "endTime": 416.050667
+        },
+        {
+          "path": "Audio/output/1014/chapter_03.wav",
+          "duration": 191.867417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Discovering the World Through Books and Curiosity",
+          "actualDuration": 191.867417,
+          "startTime": 417.550667,
+          "endTime": 609.4180839999999
+        },
+        {
+          "path": "Audio/output/1014/chapter_04.wav",
+          "duration": 210.8115,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Hope from Scraps and Stubbornness",
+          "actualDuration": 210.8115,
+          "startTime": 610.9180839999999,
+          "endTime": 821.7295839999999
+        },
+        {
+          "path": "Audio/output/1014/chapter_05.wav",
+          "duration": 174.767458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lighting the Way for Others and Embracing New Possibilities",
+          "actualDuration": 174.767458,
+          "startTime": 823.2295839999999,
+          "endTime": 997.997042
+        },
+        {
+          "path": "Audio/output/1014/chapter_06.wav",
+          "duration": 198.075708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples of Change: When One Light Sparks Many",
+          "actualDuration": 198.075708,
+          "startTime": 999.497042,
+          "endTime": 1197.57275
+        },
+        {
+          "path": "Audio/output/1014/chapter_07.wav",
+          "duration": 187.147333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 New Horizons: Learning, Sharing, and the World Beyond",
+          "actualDuration": 187.147333,
+          "startTime": 1199.07275,
+          "endTime": 1386.2200830000002
+        },
+        {
+          "path": "Audio/output/1014/chapter_08.wav",
+          "duration": 122.407,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Doubt, Finding Strength",
+          "actualDuration": 122.407,
+          "startTime": 1387.7200830000002,
+          "endTime": 1510.127083
+        },
+        {
+          "path": "Audio/output/1014/chapter_09.wav",
+          "duration": 169.160292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Story: Inspiring a Movement",
+          "actualDuration": 169.160292,
+          "startTime": 1511.627083,
+          "endTime": 1680.787375
+        },
+        {
+          "path": "Audio/output/1014/chapter_10.wav",
+          "duration": 117.680583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 A Future Built on Hope and Ingenuity",
+          "actualDuration": 117.680583,
+          "startTime": 1682.287375,
+          "endTime": 1799.9679580000002
+        },
+        {
+          "path": "Audio/output/1014/conclusion.wav",
+          "duration": 102.004875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.004875,
+          "startTime": 1801.4679580000002,
+          "endTime": 1903.4728330000003
+        }
+      ],
+      "totalDuration": 1903.4728330000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.57,
+          "actualStart": 0,
+          "actualEnd": 93.568583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World Shaped by Scarcity and Dreams",
+          "expectedStart": 93.57,
+          "expectedEnd": 250.64,
+          "actualStart": 95.068583,
+          "actualEnd": 252.14274999999998,
+          "timeDifference": 1.4985830000000107
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Shadow of Famine and the Power of Community",
+          "expectedStart": 250.64,
+          "expectedEnd": 413.05,
+          "actualStart": 253.64274999999998,
+          "actualEnd": 416.050667,
+          "timeDifference": 3.002749999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Discovering the World Through Books and Curiosity",
+          "expectedStart": 413.05,
+          "expectedEnd": 604.92,
+          "actualStart": 417.550667,
+          "actualEnd": 609.4180839999999,
+          "timeDifference": 4.5006669999999644
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Hope from Scraps and Stubbornness",
+          "expectedStart": 604.92,
+          "expectedEnd": 815.73,
+          "actualStart": 610.9180839999999,
+          "actualEnd": 821.7295839999999,
+          "timeDifference": 5.998083999999949
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lighting the Way for Others and Embracing New Possibilities",
+          "expectedStart": 815.73,
+          "expectedEnd": 990.5,
+          "actualStart": 823.2295839999999,
+          "actualEnd": 997.997042,
+          "timeDifference": 7.499583999999913
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples of Change: When One Light Sparks Many",
+          "expectedStart": 990.5,
+          "expectedEnd": 1188.58,
+          "actualStart": 999.497042,
+          "actualEnd": 1197.57275,
+          "timeDifference": 8.997041999999965
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 New Horizons: Learning, Sharing, and the World Beyond",
+          "expectedStart": 1188.58,
+          "expectedEnd": 1375.73,
+          "actualStart": 1199.07275,
+          "actualEnd": 1386.2200830000002,
+          "timeDifference": 10.492750000000115
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Doubt, Finding Strength",
+          "expectedStart": 1375.73,
+          "expectedEnd": 1498.14,
+          "actualStart": 1387.7200830000002,
+          "actualEnd": 1510.127083,
+          "timeDifference": 11.99008300000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Story: Inspiring a Movement",
+          "expectedStart": 1498.14,
+          "expectedEnd": 1667.3,
+          "actualStart": 1511.627083,
+          "actualEnd": 1680.787375,
+          "timeDifference": 13.487082999999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 A Future Built on Hope and Ingenuity",
+          "expectedStart": 1667.3,
+          "expectedEnd": 1784.98,
+          "actualStart": 1682.287375,
+          "actualEnd": 1799.9679580000002,
+          "timeDifference": 14.987375000000156
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1784.98,
+          "expectedEnd": 1886.98,
+          "actualStart": 1801.4679580000002,
+          "actualEnd": 1903.4728330000003,
+          "timeDifference": 16.487958000000162
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.568583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World Shaped by Scarcity and Dreams"
+        },
+        {
+          "startTime": 252.14274999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World Shaped by Scarcity and Dreams and Chapter 2 The Shadow of Famine and the Power of Community"
+        },
+        {
+          "startTime": 416.050667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Shadow of Famine and the Power of Community and Chapter 3 Discovering the World Through Books and Curiosity"
+        },
+        {
+          "startTime": 609.4180839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Discovering the World Through Books and Curiosity and Chapter 4 Building Hope from Scraps and Stubbornness"
+        },
+        {
+          "startTime": 821.7295839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Hope from Scraps and Stubbornness and Chapter 5 Lighting the Way for Others and Embracing New Possibilities"
+        },
+        {
+          "startTime": 997.997042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lighting the Way for Others and Embracing New Possibilities and Chapter 6 Ripples of Change: When One Light Sparks Many"
+        },
+        {
+          "startTime": 1197.57275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples of Change: When One Light Sparks Many and Chapter 7 New Horizons: Learning, Sharing, and the World Beyond"
+        },
+        {
+          "startTime": 1386.2200830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 New Horizons: Learning, Sharing, and the World Beyond and Chapter 8 Facing Doubt, Finding Strength"
+        },
+        {
+          "startTime": 1510.127083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Doubt, Finding Strength and Chapter 9 The Power of Story: Inspiring a Movement"
+        },
+        {
+          "startTime": 1680.787375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Story: Inspiring a Movement and Chapter 10 A Future Built on Hope and Ingenuity"
+        },
+        {
+          "startTime": 1799.9679580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 A Future Built on Hope and Ingenuity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1014",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T07:32:49.962Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

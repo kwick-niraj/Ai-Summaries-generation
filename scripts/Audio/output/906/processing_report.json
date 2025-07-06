@@ -1,0 +1,504 @@
+{
+  "bookId": "906",
+  "timestamp": "2025-07-05T15:02:00.055Z",
+  "success": false,
+  "processingTime": -1751727423743,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4655,
+    "totalAudioFiles": 14,
+    "totalDuration": 2165.120584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2165.120584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/906/optimized_text/906.md",
+    "fileSize": 792,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "906.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/906/metadata/906_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2165.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/906/metadata/906_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/906/metadata/906_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/906/906_complete.wav",
+    "duration": 2165.120583,
+    "fileSize": 103925866,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/906/introduction.wav",
+          "duration": 82.959375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.959375,
+          "startTime": 0,
+          "endTime": 82.959375
+        },
+        {
+          "path": "Audio/output/906/chapter_01.wav",
+          "duration": 218.377625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Segregation Became the American Neighborhood",
+          "actualDuration": 218.377625,
+          "startTime": 84.459375,
+          "endTime": 302.837
+        },
+        {
+          "path": "Audio/output/906/chapter_02.wav",
+          "duration": 237.1035,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Machinery of Segregation: Laws, Policies, and Everyday Life",
+          "actualDuration": 237.1035,
+          "startTime": 304.337,
+          "endTime": 541.4404999999999
+        },
+        {
+          "path": "Audio/output/906/chapter_03.wav",
+          "duration": 200.699625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Myth of “De Facto” Segregation",
+          "actualDuration": 200.699625,
+          "startTime": 542.9404999999999,
+          "endTime": 743.6401249999999
+        },
+        {
+          "path": "Audio/output/906/chapter_04.wav",
+          "duration": 201.335375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Lasting Impact: Wealth, Opportunity, and the American Dream",
+          "actualDuration": 201.335375,
+          "startTime": 745.1401249999999,
+          "endTime": 946.4754999999999
+        },
+        {
+          "path": "Audio/output/906/chapter_05.wav",
+          "duration": 134.686917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Paths Forward: Acknowledging and Repairing the Damage",
+          "actualDuration": 134.686917,
+          "startTime": 947.9754999999999,
+          "endTime": 1082.662417
+        },
+        {
+          "path": "Audio/output/906/chapter_06.wav",
+          "duration": 173.018917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courts and the Struggle for Justice",
+          "actualDuration": 173.018917,
+          "startTime": 1084.162417,
+          "endTime": 1257.1813339999999
+        },
+        {
+          "path": "Audio/output/906/chapter_07.wav",
+          "duration": 170.015875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Suburbs: Promise and Exclusion",
+          "actualDuration": 170.015875,
+          "startTime": 1258.6813339999999,
+          "endTime": 1428.697209
+        },
+        {
+          "path": "Audio/output/906/chapter_08.wav",
+          "duration": 136.447125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resistance, Resilience, and Community",
+          "actualDuration": 136.447125,
+          "startTime": 1430.197209,
+          "endTime": 1566.6443339999998
+        },
+        {
+          "path": "Audio/output/906/chapter_09.wav",
+          "duration": 139.773333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Urban Renewal and the Cycle of Displacement",
+          "actualDuration": 139.773333,
+          "startTime": 1568.1443339999998,
+          "endTime": 1707.917667
+        },
+        {
+          "path": "Audio/output/906/chapter_10.wav",
+          "duration": 131.785375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lingering Shadow: Segregation’s Legacy Today",
+          "actualDuration": 131.785375,
+          "startTime": 1709.417667,
+          "endTime": 1841.2030419999999
+        },
+        {
+          "path": "Audio/output/906/chapter_11.wav",
+          "duration": 106.706875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Facing the Truth: Memory, Responsibility, and Hope",
+          "actualDuration": 106.706875,
+          "startTime": 1842.7030419999999,
+          "endTime": 1949.409917
+        },
+        {
+          "path": "Audio/output/906/chapter_12.wav",
+          "duration": 111.624125,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Work Ahead: Redrawing the Lines",
+          "actualDuration": 111.624125,
+          "startTime": 1950.909917,
+          "endTime": 2062.5340419999998
+        },
+        {
+          "path": "Audio/output/906/conclusion.wav",
+          "duration": 120.586542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.586542,
+          "startTime": 2064.0340419999998,
+          "endTime": 2184.620584
+        }
+      ],
+      "totalDuration": 2184.620584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.96,
+          "actualStart": 0,
+          "actualEnd": 82.959375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Segregation Became the American Neighborhood",
+          "expectedStart": 82.96,
+          "expectedEnd": 301.34,
+          "actualStart": 84.459375,
+          "actualEnd": 302.837,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Machinery of Segregation: Laws, Policies, and Everyday Life",
+          "expectedStart": 301.34,
+          "expectedEnd": 538.44,
+          "actualStart": 304.337,
+          "actualEnd": 541.4404999999999,
+          "timeDifference": 2.997000000000014
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Myth of “De Facto” Segregation",
+          "expectedStart": 538.44,
+          "expectedEnd": 739.14,
+          "actualStart": 542.9404999999999,
+          "actualEnd": 743.6401249999999,
+          "timeDifference": 4.5004999999998745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Lasting Impact: Wealth, Opportunity, and the American Dream",
+          "expectedStart": 739.14,
+          "expectedEnd": 940.48,
+          "actualStart": 745.1401249999999,
+          "actualEnd": 946.4754999999999,
+          "timeDifference": 6.000124999999912
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Paths Forward: Acknowledging and Repairing the Damage",
+          "expectedStart": 940.48,
+          "expectedEnd": 1075.17,
+          "actualStart": 947.9754999999999,
+          "actualEnd": 1082.662417,
+          "timeDifference": 7.495499999999879
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courts and the Struggle for Justice",
+          "expectedStart": 1075.17,
+          "expectedEnd": 1248.19,
+          "actualStart": 1084.162417,
+          "actualEnd": 1257.1813339999999,
+          "timeDifference": 8.992416999999932
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Suburbs: Promise and Exclusion",
+          "expectedStart": 1248.19,
+          "expectedEnd": 1418.21,
+          "actualStart": 1258.6813339999999,
+          "actualEnd": 1428.697209,
+          "timeDifference": 10.491333999999824
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resistance, Resilience, and Community",
+          "expectedStart": 1418.21,
+          "expectedEnd": 1554.66,
+          "actualStart": 1430.197209,
+          "actualEnd": 1566.6443339999998,
+          "timeDifference": 11.987208999999893
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Urban Renewal and the Cycle of Displacement",
+          "expectedStart": 1554.66,
+          "expectedEnd": 1694.43,
+          "actualStart": 1568.1443339999998,
+          "actualEnd": 1707.917667,
+          "timeDifference": 13.484333999999762
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lingering Shadow: Segregation’s Legacy Today",
+          "expectedStart": 1694.43,
+          "expectedEnd": 1826.22,
+          "actualStart": 1709.417667,
+          "actualEnd": 1841.2030419999999,
+          "timeDifference": 14.987666999999874
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Facing the Truth: Memory, Responsibility, and Hope",
+          "expectedStart": 1826.22,
+          "expectedEnd": 1932.93,
+          "actualStart": 1842.7030419999999,
+          "actualEnd": 1949.409917,
+          "timeDifference": 16.48304199999984
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Work Ahead: Redrawing the Lines",
+          "expectedStart": 1932.93,
+          "expectedEnd": 2044.55,
+          "actualStart": 1950.909917,
+          "actualEnd": 2062.5340419999998,
+          "timeDifference": 17.979916999999887
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2044.55,
+          "expectedEnd": 2165.14,
+          "actualStart": 2064.0340419999998,
+          "actualEnd": 2184.620584,
+          "timeDifference": 19.484041999999818
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.959375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Segregation Became the American Neighborhood"
+        },
+        {
+          "startTime": 302.837,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Segregation Became the American Neighborhood and Chapter 2 The Machinery of Segregation: Laws, Policies, and Everyday Life"
+        },
+        {
+          "startTime": 541.4404999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Machinery of Segregation: Laws, Policies, and Everyday Life and Chapter 3 The Myth of “De Facto” Segregation"
+        },
+        {
+          "startTime": 743.6401249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Myth of “De Facto” Segregation and Chapter 4 The Lasting Impact: Wealth, Opportunity, and the American Dream"
+        },
+        {
+          "startTime": 946.4754999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Lasting Impact: Wealth, Opportunity, and the American Dream and Chapter 5 Paths Forward: Acknowledging and Repairing the Damage"
+        },
+        {
+          "startTime": 1082.662417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Paths Forward: Acknowledging and Repairing the Damage and Chapter 6 The Courts and the Struggle for Justice"
+        },
+        {
+          "startTime": 1257.1813339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courts and the Struggle for Justice and Chapter 7 The Suburbs: Promise and Exclusion"
+        },
+        {
+          "startTime": 1428.697209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Suburbs: Promise and Exclusion and Chapter 8 Resistance, Resilience, and Community"
+        },
+        {
+          "startTime": 1566.6443339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resistance, Resilience, and Community and Chapter 9 Urban Renewal and the Cycle of Displacement"
+        },
+        {
+          "startTime": 1707.917667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Urban Renewal and the Cycle of Displacement and Chapter 10 The Lingering Shadow: Segregation’s Legacy Today"
+        },
+        {
+          "startTime": 1841.2030419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lingering Shadow: Segregation’s Legacy Today and Chapter 11 Facing the Truth: Memory, Responsibility, and Hope"
+        },
+        {
+          "startTime": 1949.409917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Facing the Truth: Memory, Responsibility, and Hope and Chapter 12 The Work Ahead: Redrawing the Lines"
+        },
+        {
+          "startTime": 2062.5340419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Work Ahead: Redrawing the Lines and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "906",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T14:57:05.397Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

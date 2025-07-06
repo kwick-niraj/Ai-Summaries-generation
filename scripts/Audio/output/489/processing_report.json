@@ -1,0 +1,456 @@
+{
+  "bookId": "489",
+  "timestamp": "2025-07-04T06:36:06.495Z",
+  "success": false,
+  "processingTime": -1751610604069,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4816,
+    "totalAudioFiles": 12,
+    "totalDuration": 2155.9569149999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2155.9569149999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/489/optimized_text/489.md",
+    "fileSize": 685,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "489.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/489/metadata/489_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2155.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/489/metadata/489_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/489/metadata/489_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/489/489_complete.wav",
+    "duration": 2155.956917,
+    "fileSize": 103486010,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/489/introduction.wav",
+          "duration": 90.643625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.643625,
+          "startTime": 0,
+          "endTime": 90.643625
+        },
+        {
+          "path": "Audio/output/489/chapter_01.wav",
+          "duration": 360.957083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Leaving Home and Facing the Unknown",
+          "actualDuration": 360.957083,
+          "startTime": 92.143625,
+          "endTime": 453.100708
+        },
+        {
+          "path": "Audio/output/489/chapter_02.wav",
+          "duration": 249.039833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Battle for Peleliu—Endurance in the Face of Relentless Hardship",
+          "actualDuration": 249.039833,
+          "startTime": 454.600708,
+          "endTime": 703.640541
+        },
+        {
+          "path": "Audio/output/489/chapter_03.wav",
+          "duration": 208.267458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Survival—Loss, Guilt, and Brotherhood",
+          "actualDuration": 208.267458,
+          "startTime": 705.140541,
+          "endTime": 913.407999
+        },
+        {
+          "path": "Audio/output/489/chapter_04.wav",
+          "duration": 234.369583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ordeal of Okinawa—Chaos, Mud, and Relentless Combat",
+          "actualDuration": 234.369583,
+          "startTime": 914.907999,
+          "endTime": 1149.277582
+        },
+        {
+          "path": "Audio/output/489/chapter_05.wav",
+          "duration": 156.185667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath—Coming Home and Living with the Memories",
+          "actualDuration": 156.185667,
+          "startTime": 1150.777582,
+          "endTime": 1306.963249
+        },
+        {
+          "path": "Audio/output/489/chapter_06.wav",
+          "duration": 172.216125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow—Living with Trauma and Memory",
+          "actualDuration": 172.216125,
+          "startTime": 1308.463249,
+          "endTime": 1480.6793739999998
+        },
+        {
+          "path": "Audio/output/489/chapter_07.wav",
+          "duration": 137.732958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Brotherhood Beyond the Battlefield",
+          "actualDuration": 137.732958,
+          "startTime": 1482.1793739999998,
+          "endTime": 1619.9123319999999
+        },
+        {
+          "path": "Audio/output/489/chapter_08.wav",
+          "duration": 143.884125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Bearing Witness—Telling the Story",
+          "actualDuration": 143.884125,
+          "startTime": 1621.4123319999999,
+          "endTime": 1765.296457
+        },
+        {
+          "path": "Audio/output/489/chapter_09.wav",
+          "duration": 146.124417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons Carried Forward—Wisdom from the Old Breed",
+          "actualDuration": 146.124417,
+          "startTime": 1766.796457,
+          "endTime": 1912.920874
+        },
+        {
+          "path": "Audio/output/489/chapter_10.wav",
+          "duration": 135.913458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy—Memory, Honor, and Hope",
+          "actualDuration": 135.913458,
+          "startTime": 1914.420874,
+          "endTime": 2050.334332
+        },
+        {
+          "path": "Audio/output/489/conclusion.wav",
+          "duration": 120.622583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.622583,
+          "startTime": 2051.834332,
+          "endTime": 2172.4569149999998
+        }
+      ],
+      "totalDuration": 2172.4569149999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.64,
+          "actualStart": 0,
+          "actualEnd": 90.643625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Leaving Home and Facing the Unknown",
+          "expectedStart": 90.64,
+          "expectedEnd": 451.6,
+          "actualStart": 92.143625,
+          "actualEnd": 453.100708,
+          "timeDifference": 1.5036249999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Battle for Peleliu—Endurance in the Face of Relentless Hardship",
+          "expectedStart": 451.6,
+          "expectedEnd": 700.64,
+          "actualStart": 454.600708,
+          "actualEnd": 703.640541,
+          "timeDifference": 3.0007079999999746
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Survival—Loss, Guilt, and Brotherhood",
+          "expectedStart": 700.64,
+          "expectedEnd": 908.91,
+          "actualStart": 705.140541,
+          "actualEnd": 913.407999,
+          "timeDifference": 4.500540999999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ordeal of Okinawa—Chaos, Mud, and Relentless Combat",
+          "expectedStart": 908.91,
+          "expectedEnd": 1143.28,
+          "actualStart": 914.907999,
+          "actualEnd": 1149.277582,
+          "timeDifference": 5.99799900000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath—Coming Home and Living with the Memories",
+          "expectedStart": 1143.28,
+          "expectedEnd": 1299.47,
+          "actualStart": 1150.777582,
+          "actualEnd": 1306.963249,
+          "timeDifference": 7.497581999999966
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow—Living with Trauma and Memory",
+          "expectedStart": 1299.47,
+          "expectedEnd": 1471.69,
+          "actualStart": 1308.463249,
+          "actualEnd": 1480.6793739999998,
+          "timeDifference": 8.993248999999878
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Brotherhood Beyond the Battlefield",
+          "expectedStart": 1471.69,
+          "expectedEnd": 1609.42,
+          "actualStart": 1482.1793739999998,
+          "actualEnd": 1619.9123319999999,
+          "timeDifference": 10.48937399999977
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Bearing Witness—Telling the Story",
+          "expectedStart": 1609.42,
+          "expectedEnd": 1753.3,
+          "actualStart": 1621.4123319999999,
+          "actualEnd": 1765.296457,
+          "timeDifference": 11.992331999999806
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons Carried Forward—Wisdom from the Old Breed",
+          "expectedStart": 1753.3,
+          "expectedEnd": 1899.42,
+          "actualStart": 1766.796457,
+          "actualEnd": 1912.920874,
+          "timeDifference": 13.496456999999964
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy—Memory, Honor, and Hope",
+          "expectedStart": 1899.42,
+          "expectedEnd": 2035.33,
+          "actualStart": 1914.420874,
+          "actualEnd": 2050.334332,
+          "timeDifference": 15.00087399999984
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2035.33,
+          "expectedEnd": 2155.95,
+          "actualStart": 2051.834332,
+          "actualEnd": 2172.4569149999998,
+          "timeDifference": 16.504331999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.643625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Leaving Home and Facing the Unknown"
+        },
+        {
+          "startTime": 453.100708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Leaving Home and Facing the Unknown and Chapter 2 The Battle for Peleliu—Endurance in the Face of Relentless Hardship"
+        },
+        {
+          "startTime": 703.640541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Battle for Peleliu—Endurance in the Face of Relentless Hardship and Chapter 3 The Weight of Survival—Loss, Guilt, and Brotherhood"
+        },
+        {
+          "startTime": 913.407999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Survival—Loss, Guilt, and Brotherhood and Chapter 4 The Ordeal of Okinawa—Chaos, Mud, and Relentless Combat"
+        },
+        {
+          "startTime": 1149.277582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ordeal of Okinawa—Chaos, Mud, and Relentless Combat and Chapter 5 The Aftermath—Coming Home and Living with the Memories"
+        },
+        {
+          "startTime": 1306.963249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath—Coming Home and Living with the Memories and Chapter 6 The Long Shadow—Living with Trauma and Memory"
+        },
+        {
+          "startTime": 1480.6793739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow—Living with Trauma and Memory and Chapter 7 Brotherhood Beyond the Battlefield"
+        },
+        {
+          "startTime": 1619.9123319999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Brotherhood Beyond the Battlefield and Chapter 8 Bearing Witness—Telling the Story"
+        },
+        {
+          "startTime": 1765.296457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Bearing Witness—Telling the Story and Chapter 9 Lessons Carried Forward—Wisdom from the Old Breed"
+        },
+        {
+          "startTime": 1912.920874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons Carried Forward—Wisdom from the Old Breed and Chapter 10 The Enduring Legacy—Memory, Honor, and Hope"
+        },
+        {
+          "startTime": 2050.334332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy—Memory, Honor, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "489",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T06:30:05.663Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "753",
+  "timestamp": "2025-07-05T06:38:45.528Z",
+  "success": false,
+  "processingTime": -1751697015614,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4657,
+    "totalAudioFiles": 12,
+    "totalDuration": 2274.6177499999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2274.6177499999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/753/optimized_text/753.md",
+    "fileSize": 739,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "753.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/753/metadata/753_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2274.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/753/metadata/753_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/753/metadata/753_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/753/753_complete.wav",
+    "duration": 2274.61775,
+    "fileSize": 109181730,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/753/introduction.wav",
+          "duration": 80.382208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.382208,
+          "startTime": 0,
+          "endTime": 80.382208
+        },
+        {
+          "path": "Audio/output/753/chapter_01.wav",
+          "duration": 278.636042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering a New Path Through Uncertainty and Curiosity",
+          "actualDuration": 278.636042,
+          "startTime": 81.882208,
+          "endTime": 360.51824999999997
+        },
+        {
+          "path": "Audio/output/753/chapter_02.wav",
+          "duration": 225.526625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Meeting Teachers and Learning to Trust Direct Experience",
+          "actualDuration": 225.526625,
+          "startTime": 362.01824999999997,
+          "endTime": 587.5448749999999
+        },
+        {
+          "path": "Audio/output/753/chapter_03.wav",
+          "duration": 257.98375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Bringing Buddhist Wisdom to Everyday Life in the West",
+          "actualDuration": 257.98375,
+          "startTime": 589.0448749999999,
+          "endTime": 847.0286249999999
+        },
+        {
+          "path": "Audio/output/753/chapter_04.wav",
+          "duration": 213.12075,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Understanding Karma, Responsibility, and the Power to Change",
+          "actualDuration": 213.12075,
+          "startTime": 848.5286249999999,
+          "endTime": 1061.649375
+        },
+        {
+          "path": "Audio/output/753/chapter_05.wav",
+          "duration": 221.687,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Teachers and the Importance of Humor and Flexibility",
+          "actualDuration": 221.687,
+          "startTime": 1063.149375,
+          "endTime": 1284.8363749999999
+        },
+        {
+          "path": "Audio/output/753/chapter_06.wav",
+          "duration": 231.337292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Community—The Challenges and Gifts of Sangha",
+          "actualDuration": 231.337292,
+          "startTime": 1286.3363749999999,
+          "endTime": 1517.6736669999998
+        },
+        {
+          "path": "Audio/output/753/chapter_07.wav",
+          "duration": 165.648833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Suffering—Compassion in Action",
+          "actualDuration": 165.648833,
+          "startTime": 1519.1736669999998,
+          "endTime": 1684.8224999999998
+        },
+        {
+          "path": "Audio/output/753/chapter_08.wav",
+          "duration": 156.224417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Practice with Work and Family",
+          "actualDuration": 156.224417,
+          "startTime": 1686.3224999999998,
+          "endTime": 1842.5469169999997
+        },
+        {
+          "path": "Audio/output/753/chapter_09.wav",
+          "duration": 165.965125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Doubt, Disappointment, and the Limits of Practice",
+          "actualDuration": 165.965125,
+          "startTime": 1844.0469169999997,
+          "endTime": 2010.0120419999996
+        },
+        {
+          "path": "Audio/output/753/chapter_10.wav",
+          "duration": 134.894208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Letting Go and Beginning Again",
+          "actualDuration": 134.894208,
+          "startTime": 2011.5120419999996,
+          "endTime": 2146.4062499999995
+        },
+        {
+          "path": "Audio/output/753/conclusion.wav",
+          "duration": 143.2115,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.2115,
+          "startTime": 2147.9062499999995,
+          "endTime": 2291.1177499999994
+        }
+      ],
+      "totalDuration": 2291.1177499999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.38,
+          "actualStart": 0,
+          "actualEnd": 80.382208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering a New Path Through Uncertainty and Curiosity",
+          "expectedStart": 80.38,
+          "expectedEnd": 359.02,
+          "actualStart": 81.882208,
+          "actualEnd": 360.51824999999997,
+          "timeDifference": 1.5022080000000102
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Meeting Teachers and Learning to Trust Direct Experience",
+          "expectedStart": 359.02,
+          "expectedEnd": 584.55,
+          "actualStart": 362.01824999999997,
+          "actualEnd": 587.5448749999999,
+          "timeDifference": 2.9982499999999845
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Bringing Buddhist Wisdom to Everyday Life in the West",
+          "expectedStart": 584.55,
+          "expectedEnd": 842.53,
+          "actualStart": 589.0448749999999,
+          "actualEnd": 847.0286249999999,
+          "timeDifference": 4.494874999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Understanding Karma, Responsibility, and the Power to Change",
+          "expectedStart": 842.53,
+          "expectedEnd": 1055.65,
+          "actualStart": 848.5286249999999,
+          "actualEnd": 1061.649375,
+          "timeDifference": 5.998624999999947
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Teachers and the Importance of Humor and Flexibility",
+          "expectedStart": 1055.65,
+          "expectedEnd": 1277.34,
+          "actualStart": 1063.149375,
+          "actualEnd": 1284.8363749999999,
+          "timeDifference": 7.499374999999873
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Community—The Challenges and Gifts of Sangha",
+          "expectedStart": 1277.34,
+          "expectedEnd": 1508.68,
+          "actualStart": 1286.3363749999999,
+          "actualEnd": 1517.6736669999998,
+          "timeDifference": 8.996374999999944
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Suffering—Compassion in Action",
+          "expectedStart": 1508.68,
+          "expectedEnd": 1674.33,
+          "actualStart": 1519.1736669999998,
+          "actualEnd": 1684.8224999999998,
+          "timeDifference": 10.493666999999732
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Practice with Work and Family",
+          "expectedStart": 1674.33,
+          "expectedEnd": 1830.55,
+          "actualStart": 1686.3224999999998,
+          "actualEnd": 1842.5469169999997,
+          "timeDifference": 11.992499999999836
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Doubt, Disappointment, and the Limits of Practice",
+          "expectedStart": 1830.55,
+          "expectedEnd": 1996.52,
+          "actualStart": 1844.0469169999997,
+          "actualEnd": 2010.0120419999996,
+          "timeDifference": 13.496916999999712
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Letting Go and Beginning Again",
+          "expectedStart": 1996.52,
+          "expectedEnd": 2131.41,
+          "actualStart": 2011.5120419999996,
+          "actualEnd": 2146.4062499999995,
+          "timeDifference": 14.992041999999628
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2131.41,
+          "expectedEnd": 2274.62,
+          "actualStart": 2147.9062499999995,
+          "actualEnd": 2291.1177499999994,
+          "timeDifference": 16.49624999999969
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.382208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering a New Path Through Uncertainty and Curiosity"
+        },
+        {
+          "startTime": 360.51824999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering a New Path Through Uncertainty and Curiosity and Chapter 2 Meeting Teachers and Learning to Trust Direct Experience"
+        },
+        {
+          "startTime": 587.5448749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Meeting Teachers and Learning to Trust Direct Experience and Chapter 3 Bringing Buddhist Wisdom to Everyday Life in the West"
+        },
+        {
+          "startTime": 847.0286249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Bringing Buddhist Wisdom to Everyday Life in the West and Chapter 4 Understanding Karma, Responsibility, and the Power to Change"
+        },
+        {
+          "startTime": 1061.649375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Understanding Karma, Responsibility, and the Power to Change and Chapter 5 The Role of Teachers and the Importance of Humor and Flexibility"
+        },
+        {
+          "startTime": 1284.8363749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Teachers and the Importance of Humor and Flexibility and Chapter 6 Building Community—The Challenges and Gifts of Sangha"
+        },
+        {
+          "startTime": 1517.6736669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Community—The Challenges and Gifts of Sangha and Chapter 7 Facing Suffering—Compassion in Action"
+        },
+        {
+          "startTime": 1684.8224999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Suffering—Compassion in Action and Chapter 8 Integrating Practice with Work and Family"
+        },
+        {
+          "startTime": 1842.5469169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Practice with Work and Family and Chapter 9 Navigating Doubt, Disappointment, and the Limits of Practice"
+        },
+        {
+          "startTime": 2010.0120419999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Doubt, Disappointment, and the Limits of Practice and Chapter 10 The Ongoing Journey—Letting Go and Beginning Again"
+        },
+        {
+          "startTime": 2146.4062499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Letting Go and Beginning Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "753",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T06:30:16.901Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "732",
+  "timestamp": "2025-07-05T05:06:33.688Z",
+  "success": false,
+  "processingTime": -1751691760651,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5033,
+    "totalAudioFiles": 12,
+    "totalDuration": 2033.123666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2033.123666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/732/optimized_text/732.md",
+    "fileSize": 859,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "732.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/732/metadata/732_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2033.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/732/metadata/732_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/732/metadata/732_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/732/732_complete.wav",
+    "duration": 2033.123667,
+    "fileSize": 97590014,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/732/introduction.wav",
+          "duration": 98.302042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.302042,
+          "startTime": 0,
+          "endTime": 98.302042
+        },
+        {
+          "path": "Audio/output/732/chapter_01.wav",
+          "duration": 278.914458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Family’s Hidden World: The Beginning of Secrets and Control",
+          "actualDuration": 278.914458,
+          "startTime": 99.802042,
+          "endTime": 378.7165
+        },
+        {
+          "path": "Audio/output/732/chapter_03.wav",
+          "duration": 224.752708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cycle of Violence: Bystanders, Enablers, and the Cost of Silence",
+          "actualDuration": 224.752708,
+          "startTime": 380.2165,
+          "endTime": 604.969208
+        },
+        {
+          "path": "Audio/output/732/chapter_04.wav",
+          "duration": 244.97675,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking the Silence: The Courage to Seek Help and the Road to Justice",
+          "actualDuration": 244.97675,
+          "startTime": 606.469208,
+          "endTime": 851.445958
+        },
+        {
+          "path": "Audio/output/732/chapter_05.wav",
+          "duration": 212.979417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath: Healing, Resilience, and the Unbreakable Bond of Sisterhood",
+          "actualDuration": 212.979417,
+          "startTime": 852.945958,
+          "endTime": 1065.925375
+        },
+        {
+          "path": "Audio/output/732/chapter_06.wav",
+          "duration": 203.166417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow: Trauma’s Lingering Echoes and the Struggle for Normalcy",
+          "actualDuration": 203.166417,
+          "startTime": 1067.425375,
+          "endTime": 1270.591792
+        },
+        {
+          "path": "Audio/output/732/chapter_07.wav",
+          "duration": 178.947875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Pursuit of Justice: Facing the Past in Court and in Public",
+          "actualDuration": 178.947875,
+          "startTime": 1272.091792,
+          "endTime": 1451.039667
+        },
+        {
+          "path": "Audio/output/732/chapter_08.wav",
+          "duration": 163.765333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebuilding Identity: Finding Voice, Purpose, and Connection",
+          "actualDuration": 163.765333,
+          "startTime": 1452.539667,
+          "endTime": 1616.305
+        },
+        {
+          "path": "Audio/output/732/chapter_09.wav",
+          "duration": 150.720958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Advocacy and Giving Back: Turning Pain into Purpose",
+          "actualDuration": 150.720958,
+          "startTime": 1617.805,
+          "endTime": 1768.5259580000002
+        },
+        {
+          "path": "Audio/output/732/chapter_10.wav",
+          "duration": 140.883375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Forgiveness, Acceptance, and the Future",
+          "actualDuration": 140.883375,
+          "startTime": 1770.0259580000002,
+          "endTime": 1910.909333
+        },
+        {
+          "path": "Audio/output/732/conclusion.wav",
+          "duration": 135.714333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.714333,
+          "startTime": 1912.409333,
+          "endTime": 2048.123666
+        }
+      ],
+      "totalDuration": 2048.123666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.3,
+          "actualStart": 0,
+          "actualEnd": 98.302042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Family’s Hidden World: The Beginning of Secrets and Control",
+          "expectedStart": 98.3,
+          "expectedEnd": 377.21,
+          "actualStart": 99.802042,
+          "actualEnd": 378.7165,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cycle of Violence: Bystanders, Enablers, and the Cost of Silence",
+          "expectedStart": 377.21,
+          "expectedEnd": 601.96,
+          "actualStart": 380.2165,
+          "actualEnd": 604.969208,
+          "timeDifference": 3.006500000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking the Silence: The Courage to Seek Help and the Road to Justice",
+          "expectedStart": 601.96,
+          "expectedEnd": 846.94,
+          "actualStart": 606.469208,
+          "actualEnd": 851.445958,
+          "timeDifference": 4.509207999999944
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath: Healing, Resilience, and the Unbreakable Bond of Sisterhood",
+          "expectedStart": 846.94,
+          "expectedEnd": 1059.92,
+          "actualStart": 852.945958,
+          "actualEnd": 1065.925375,
+          "timeDifference": 6.005957999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow: Trauma’s Lingering Echoes and the Struggle for Normalcy",
+          "expectedStart": 1059.92,
+          "expectedEnd": 1263.09,
+          "actualStart": 1067.425375,
+          "actualEnd": 1270.591792,
+          "timeDifference": 7.505374999999958
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Pursuit of Justice: Facing the Past in Court and in Public",
+          "expectedStart": 1263.09,
+          "expectedEnd": 1442.04,
+          "actualStart": 1272.091792,
+          "actualEnd": 1451.039667,
+          "timeDifference": 9.001792000000023
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebuilding Identity: Finding Voice, Purpose, and Connection",
+          "expectedStart": 1442.04,
+          "expectedEnd": 1605.81,
+          "actualStart": 1452.539667,
+          "actualEnd": 1616.305,
+          "timeDifference": 10.499667000000045
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Advocacy and Giving Back: Turning Pain into Purpose",
+          "expectedStart": 1605.81,
+          "expectedEnd": 1756.53,
+          "actualStart": 1617.805,
+          "actualEnd": 1768.5259580000002,
+          "timeDifference": 11.995000000000118
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Forgiveness, Acceptance, and the Future",
+          "expectedStart": 1756.53,
+          "expectedEnd": 1897.41,
+          "actualStart": 1770.0259580000002,
+          "actualEnd": 1910.909333,
+          "timeDifference": 13.4959580000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1897.41,
+          "expectedEnd": 2033.12,
+          "actualStart": 1912.409333,
+          "actualEnd": 2048.123666,
+          "timeDifference": 14.999332999999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.302042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Family’s Hidden World: The Beginning of Secrets and Control"
+        },
+        {
+          "startTime": 378.7165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Family’s Hidden World: The Beginning of Secrets and Control and Chapter 3 The Cycle of Violence: Bystanders, Enablers, and the Cost of Silence"
+        },
+        {
+          "startTime": 604.969208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cycle of Violence: Bystanders, Enablers, and the Cost of Silence and Chapter 4 Breaking the Silence: The Courage to Seek Help and the Road to Justice"
+        },
+        {
+          "startTime": 851.445958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking the Silence: The Courage to Seek Help and the Road to Justice and Chapter 5 The Aftermath: Healing, Resilience, and the Unbreakable Bond of Sisterhood"
+        },
+        {
+          "startTime": 1065.925375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath: Healing, Resilience, and the Unbreakable Bond of Sisterhood and Chapter 6 The Long Shadow: Trauma’s Lingering Echoes and the Struggle for Normalcy"
+        },
+        {
+          "startTime": 1270.591792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow: Trauma’s Lingering Echoes and the Struggle for Normalcy and Chapter 7 The Pursuit of Justice: Facing the Past in Court and in Public"
+        },
+        {
+          "startTime": 1451.039667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Pursuit of Justice: Facing the Past in Court and in Public and Chapter 8 Rebuilding Identity: Finding Voice, Purpose, and Connection"
+        },
+        {
+          "startTime": 1616.305,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebuilding Identity: Finding Voice, Purpose, and Connection and Chapter 9 Advocacy and Giving Back: Turning Pain into Purpose"
+        },
+        {
+          "startTime": 1768.5259580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Advocacy and Giving Back: Turning Pain into Purpose and Chapter 10 The Ongoing Journey: Forgiveness, Acceptance, and the Future"
+        },
+        {
+          "startTime": 1910.909333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Forgiveness, Acceptance, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "732",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T05:02:41.185Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

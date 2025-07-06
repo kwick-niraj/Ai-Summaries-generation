@@ -1,0 +1,409 @@
+{
+  "bookId": "1050",
+  "timestamp": "2025-07-06T10:23:34.065Z",
+  "success": false,
+  "processingTime": -1751797068493,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5431,
+    "totalAudioFiles": 12,
+    "totalDuration": 2056.599875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 2056.599875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1050/optimized_text/1050.md",
+    "fileSize": 923,
+    "wordCount": 141,
+    "format": "markdown",
+    "filename": "1050.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1050/metadata/1050_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2056.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1050/metadata/1050_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1050/metadata/1050_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1050/1050_complete.wav",
+    "duration": 2056.599875,
+    "fileSize": 98716872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1050/chapter_01.wav",
+          "duration": 273.438042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a Changing World: Early Life and the Roots of Lakota Identity",
+          "actualDuration": 273.438042,
+          "startTime": 0,
+          "endTime": 273.438042
+        },
+        {
+          "path": "Audio/output/1050/chapter_02.wav",
+          "duration": 280.834333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Visions and the Call to Spiritual Responsibility",
+          "actualDuration": 280.834333,
+          "startTime": 274.938042,
+          "endTime": 555.772375
+        },
+        {
+          "path": "Audio/output/1050/chapter_03.wav",
+          "duration": 267.558542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Survival: War, Loss, and the Fight to Preserve a Way of Life",
+          "actualDuration": 267.558542,
+          "startTime": 557.272375,
+          "endTime": 824.830917
+        },
+        {
+          "path": "Audio/output/1050/chapter_05.wav",
+          "duration": 208.305333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living Between Worlds: Memory, Adaptation, and the Enduring Power of Tradition",
+          "actualDuration": 208.305333,
+          "startTime": 826.330917,
+          "endTime": 1034.63625
+        },
+        {
+          "path": "Audio/output/1050/chapter_06.wav",
+          "duration": 191.369333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Memory: Bearing Witness and the Burden of Survival",
+          "actualDuration": 191.369333,
+          "startTime": 1036.13625,
+          "endTime": 1227.5055830000001
+        },
+        {
+          "path": "Audio/output/1050/chapter_07.wav",
+          "duration": 198.63125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Encounters with the Outside World: Translators, Writers, and the Struggle for Understanding",
+          "actualDuration": 198.63125,
+          "startTime": 1229.0055830000001,
+          "endTime": 1427.636833
+        },
+        {
+          "path": "Audio/output/1050/chapter_08.wav",
+          "duration": 207.774667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Healing Path: Ceremony, Community, and the Power of Renewal",
+          "actualDuration": 207.774667,
+          "startTime": 1429.136833,
+          "endTime": 1636.9115
+        },
+        {
+          "path": "Audio/output/1050/chapter_09.wav",
+          "duration": 170.201042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Black Elk: Teaching, Remembering, and the Seeds of Renewal",
+          "actualDuration": 170.201042,
+          "startTime": 1638.4115,
+          "endTime": 1808.6125419999998
+        },
+        {
+          "path": "Audio/output/1050/chapter_10.wav",
+          "duration": 140.024625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Relevance of Lakota Wisdom: Lessons for a Changing World",
+          "actualDuration": 140.024625,
+          "startTime": 1810.1125419999998,
+          "endTime": 1950.1371669999999
+        },
+        {
+          "path": "Audio/output/1050/conclusion.wav",
+          "duration": 118.462708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.462708,
+          "startTime": 1951.6371669999999,
+          "endTime": 2070.099875
+        }
+      ],
+      "totalDuration": 2070.099875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a Changing World: Early Life and the Roots of Lakota Identity",
+          "expectedStart": 0,
+          "expectedEnd": 273.44,
+          "actualStart": 0,
+          "actualEnd": 273.438042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Visions and the Call to Spiritual Responsibility",
+          "expectedStart": 273.44,
+          "expectedEnd": 554.27,
+          "actualStart": 274.938042,
+          "actualEnd": 555.772375,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Survival: War, Loss, and the Fight to Preserve a Way of Life",
+          "expectedStart": 554.27,
+          "expectedEnd": 821.83,
+          "actualStart": 557.272375,
+          "actualEnd": 824.830917,
+          "timeDifference": 3.002375000000029
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living Between Worlds: Memory, Adaptation, and the Enduring Power of Tradition",
+          "expectedStart": 821.83,
+          "expectedEnd": 1030.14,
+          "actualStart": 826.330917,
+          "actualEnd": 1034.63625,
+          "timeDifference": 4.5009169999999585
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Memory: Bearing Witness and the Burden of Survival",
+          "expectedStart": 1030.14,
+          "expectedEnd": 1221.51,
+          "actualStart": 1036.13625,
+          "actualEnd": 1227.5055830000001,
+          "timeDifference": 5.996249999999918
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Encounters with the Outside World: Translators, Writers, and the Struggle for Understanding",
+          "expectedStart": 1221.51,
+          "expectedEnd": 1420.14,
+          "actualStart": 1229.0055830000001,
+          "actualEnd": 1427.636833,
+          "timeDifference": 7.495583000000124
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Healing Path: Ceremony, Community, and the Power of Renewal",
+          "expectedStart": 1420.14,
+          "expectedEnd": 1627.91,
+          "actualStart": 1429.136833,
+          "actualEnd": 1636.9115,
+          "timeDifference": 8.996832999999924
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Black Elk: Teaching, Remembering, and the Seeds of Renewal",
+          "expectedStart": 1627.91,
+          "expectedEnd": 1798.11,
+          "actualStart": 1638.4115,
+          "actualEnd": 1808.6125419999998,
+          "timeDifference": 10.50149999999985
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Relevance of Lakota Wisdom: Lessons for a Changing World",
+          "expectedStart": 1798.11,
+          "expectedEnd": 1938.13,
+          "actualStart": 1810.1125419999998,
+          "actualEnd": 1950.1371669999999,
+          "timeDifference": 12.002541999999949
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1938.13,
+          "expectedEnd": 2056.59,
+          "actualStart": 1951.6371669999999,
+          "actualEnd": 2070.099875,
+          "timeDifference": 13.507166999999754
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 273.438042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a Changing World: Early Life and the Roots of Lakota Identity and Chapter 2 Visions and the Call to Spiritual Responsibility"
+        },
+        {
+          "startTime": 555.772375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Visions and the Call to Spiritual Responsibility and Chapter 3 The Struggle for Survival: War, Loss, and the Fight to Preserve a Way of Life"
+        },
+        {
+          "startTime": 824.830917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Survival: War, Loss, and the Fight to Preserve a Way of Life and Chapter 5 Living Between Worlds: Memory, Adaptation, and the Enduring Power of Tradition"
+        },
+        {
+          "startTime": 1034.63625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living Between Worlds: Memory, Adaptation, and the Enduring Power of Tradition and Chapter 6 The Weight of Memory: Bearing Witness and the Burden of Survival"
+        },
+        {
+          "startTime": 1227.5055830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Memory: Bearing Witness and the Burden of Survival and Chapter 7 Encounters with the Outside World: Translators, Writers, and the Struggle for Understanding"
+        },
+        {
+          "startTime": 1427.636833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Encounters with the Outside World: Translators, Writers, and the Struggle for Understanding and Chapter 8 The Healing Path: Ceremony, Community, and the Power of Renewal"
+        },
+        {
+          "startTime": 1636.9115,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Healing Path: Ceremony, Community, and the Power of Renewal and Chapter 9 The Legacy of Black Elk: Teaching, Remembering, and the Seeds of Renewal"
+        },
+        {
+          "startTime": 1808.6125419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Black Elk: Teaching, Remembering, and the Seeds of Renewal and Chapter 10 The Ongoing Relevance of Lakota Wisdom: Lessons for a Changing World"
+        },
+        {
+          "startTime": 1950.1371669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Relevance of Lakota Wisdom: Lessons for a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1050",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T10:17:49.040Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "925",
+  "timestamp": "2025-07-05T16:12:25.508Z",
+  "success": false,
+  "processingTime": -1751731583121,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5127,
+    "totalAudioFiles": 12,
+    "totalDuration": 2261.696375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2261.696375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/925/optimized_text/925.md",
+    "fileSize": 3512,
+    "wordCount": 537,
+    "format": "markdown",
+    "filename": "925.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/925/metadata/925_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2261.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/925/metadata/925_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/925/metadata/925_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/925/925_complete.wav",
+    "duration": 2261.696375,
+    "fileSize": 108561504,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/925/introduction.wav",
+          "duration": 88.064458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.064458,
+          "startTime": 0,
+          "endTime": 88.064458
+        },
+        {
+          "path": "Audio/output/925/chapter_01.wav",
+          "duration": 297.512542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Curious in a World of Contradictions",
+          "actualDuration": 297.512542,
+          "startTime": 89.564458,
+          "endTime": 387.077
+        },
+        {
+          "path": "Audio/output/925/chapter_02.wav",
+          "duration": 313.5575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Masters and Finding His Own Path",
+          "actualDuration": 313.5575,
+          "startTime": 388.577,
+          "endTime": 702.1345
+        },
+        {
+          "path": "Audio/output/925/chapter_03.wav",
+          "duration": 279.689958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Art, Science, and the Relentless Pursuit of Understanding",
+          "actualDuration": 279.689958,
+          "startTime": 703.6345,
+          "endTime": 983.324458
+        },
+        {
+          "path": "Audio/output/925/chapter_04.wav",
+          "duration": 230.256375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle for Perfection and the Beauty of Imperfection",
+          "actualDuration": 230.256375,
+          "startTime": 984.824458,
+          "endTime": 1215.080833
+        },
+        {
+          "path": "Audio/output/925/chapter_06.wav",
+          "duration": 231.366417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Patron’s Court—Navigating Power, Politics, and Human Nature",
+          "actualDuration": 231.366417,
+          "startTime": 1216.580833,
+          "endTime": 1447.94725
+        },
+        {
+          "path": "Audio/output/925/chapter_07.wav",
+          "duration": 212.473208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Anatomy of Friendship, Rivalry, and Love",
+          "actualDuration": 212.473208,
+          "startTime": 1449.44725,
+          "endTime": 1661.920458
+        },
+        {
+          "path": "Audio/output/925/chapter_08.wav",
+          "duration": 172.289292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Final Years—Legacy, Loss, and the Search for Meaning",
+          "actualDuration": 172.289292,
+          "startTime": 1663.420458,
+          "endTime": 1835.70975
+        },
+        {
+          "path": "Audio/output/925/chapter_09.wav",
+          "duration": 161.832333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—How Leonardo Changed the World",
+          "actualDuration": 161.832333,
+          "startTime": 1837.20975,
+          "endTime": 1999.042083
+        },
+        {
+          "path": "Audio/output/925/chapter_10.wav",
+          "duration": 138.330167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Today—Curiosity, Courage, and the Art of Living",
+          "actualDuration": 138.330167,
+          "startTime": 2000.542083,
+          "endTime": 2138.87225
+        },
+        {
+          "path": "Audio/output/925/conclusion.wav",
+          "duration": 136.324125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.324125,
+          "startTime": 2140.37225,
+          "endTime": 2276.696375
+        }
+      ],
+      "totalDuration": 2276.696375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.06,
+          "actualStart": 0,
+          "actualEnd": 88.064458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Curious in a World of Contradictions",
+          "expectedStart": 88.06,
+          "expectedEnd": 385.57,
+          "actualStart": 89.564458,
+          "actualEnd": 387.077,
+          "timeDifference": 1.5044579999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Masters and Finding His Own Path",
+          "expectedStart": 385.57,
+          "expectedEnd": 699.13,
+          "actualStart": 388.577,
+          "actualEnd": 702.1345,
+          "timeDifference": 3.007000000000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Art, Science, and the Relentless Pursuit of Understanding",
+          "expectedStart": 699.13,
+          "expectedEnd": 978.82,
+          "actualStart": 703.6345,
+          "actualEnd": 983.324458,
+          "timeDifference": 4.504500000000007
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle for Perfection and the Beauty of Imperfection",
+          "expectedStart": 978.82,
+          "expectedEnd": 1209.08,
+          "actualStart": 984.824458,
+          "actualEnd": 1215.080833,
+          "timeDifference": 6.004458
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Patron’s Court—Navigating Power, Politics, and Human Nature",
+          "expectedStart": 1209.08,
+          "expectedEnd": 1440.45,
+          "actualStart": 1216.580833,
+          "actualEnd": 1447.94725,
+          "timeDifference": 7.500833000000057
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Anatomy of Friendship, Rivalry, and Love",
+          "expectedStart": 1440.45,
+          "expectedEnd": 1652.92,
+          "actualStart": 1449.44725,
+          "actualEnd": 1661.920458,
+          "timeDifference": 8.997249999999894
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Final Years—Legacy, Loss, and the Search for Meaning",
+          "expectedStart": 1652.92,
+          "expectedEnd": 1825.21,
+          "actualStart": 1663.420458,
+          "actualEnd": 1835.70975,
+          "timeDifference": 10.50045799999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—How Leonardo Changed the World",
+          "expectedStart": 1825.21,
+          "expectedEnd": 1987.04,
+          "actualStart": 1837.20975,
+          "actualEnd": 1999.042083,
+          "timeDifference": 11.999749999999949
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Today—Curiosity, Courage, and the Art of Living",
+          "expectedStart": 1987.04,
+          "expectedEnd": 2125.37,
+          "actualStart": 2000.542083,
+          "actualEnd": 2138.87225,
+          "timeDifference": 13.502083000000084
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2125.37,
+          "expectedEnd": 2261.69,
+          "actualStart": 2140.37225,
+          "actualEnd": 2276.696375,
+          "timeDifference": 15.002250000000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.064458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Curious in a World of Contradictions"
+        },
+        {
+          "startTime": 387.077,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Curious in a World of Contradictions and Chapter 2 Learning from Masters and Finding His Own Path"
+        },
+        {
+          "startTime": 702.1345,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Masters and Finding His Own Path and Chapter 3 Art, Science, and the Relentless Pursuit of Understanding"
+        },
+        {
+          "startTime": 983.324458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Art, Science, and the Relentless Pursuit of Understanding and Chapter 4 The Struggle for Perfection and the Beauty of Imperfection"
+        },
+        {
+          "startTime": 1215.080833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle for Perfection and the Beauty of Imperfection and Chapter 6 The Patron’s Court—Navigating Power, Politics, and Human Nature"
+        },
+        {
+          "startTime": 1447.94725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Patron’s Court—Navigating Power, Politics, and Human Nature and Chapter 7 The Anatomy of Friendship, Rivalry, and Love"
+        },
+        {
+          "startTime": 1661.920458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Anatomy of Friendship, Rivalry, and Love and Chapter 8 The Final Years—Legacy, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 1835.70975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Final Years—Legacy, Loss, and the Search for Meaning and Chapter 9 The Ripple Effect—How Leonardo Changed the World"
+        },
+        {
+          "startTime": 1999.042083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—How Leonardo Changed the World and Chapter 10 Lessons for Today—Curiosity, Courage, and the Art of Living"
+        },
+        {
+          "startTime": 2138.87225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Today—Curiosity, Courage, and the Art of Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "925",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T16:06:24.754Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

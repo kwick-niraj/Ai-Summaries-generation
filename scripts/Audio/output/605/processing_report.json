@@ -1,0 +1,552 @@
+{
+  "bookId": "605",
+  "timestamp": "2025-07-04T21:27:05.787Z",
+  "success": false,
+  "processingTime": -1751663899562,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5653,
+    "totalAudioFiles": 16,
+    "totalDuration": 2759.4631670000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2759.4631670000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/605/optimized_text/605.md",
+    "fileSize": 981,
+    "wordCount": 144,
+    "format": "markdown",
+    "filename": "605.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/605/metadata/605_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2759.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/605/metadata/605_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/605/metadata/605_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/605/605_complete.wav",
+    "duration": 2759.463167,
+    "fileSize": 132454310,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/605/introduction.wav",
+          "duration": 100.363833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.363833,
+          "startTime": 0,
+          "endTime": 100.363833
+        },
+        {
+          "path": "Audio/output/605/chapter_01.wav",
+          "duration": 214.95275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Looking Inward: The Search for Self-Understanding",
+          "actualDuration": 214.95275,
+          "startTime": 101.863833,
+          "endTime": 316.81658300000004
+        },
+        {
+          "path": "Audio/output/605/chapter_02.wav",
+          "duration": 216.937583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Knowledge and the Value of Doubt",
+          "actualDuration": 216.937583,
+          "startTime": 318.31658300000004,
+          "endTime": 535.254166
+        },
+        {
+          "path": "Audio/output/605/chapter_03.wav",
+          "duration": 217.919083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Friendship, Love, and the Bonds That Shape Us",
+          "actualDuration": 217.919083,
+          "startTime": 536.754166,
+          "endTime": 754.673249
+        },
+        {
+          "path": "Audio/output/605/chapter_04.wav",
+          "duration": 180.109833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Mortality and Embracing the Human Condition",
+          "actualDuration": 180.109833,
+          "startTime": 756.173249,
+          "endTime": 936.283082
+        },
+        {
+          "path": "Audio/output/605/chapter_05.wav",
+          "duration": 163.21825,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Learning, Growth, and the Humility of Not Knowing",
+          "actualDuration": 163.21825,
+          "startTime": 937.783082,
+          "endTime": 1101.001332
+        },
+        {
+          "path": "Audio/output/605/chapter_06.wav",
+          "duration": 185.336375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Imperfection, Folly, and the Art of Being Ordinary",
+          "actualDuration": 185.336375,
+          "startTime": 1102.501332,
+          "endTime": 1287.8377070000001
+        },
+        {
+          "path": "Audio/output/605/chapter_07.wav",
+          "duration": 181.835542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Body, the Senses, and the Wisdom of Experience",
+          "actualDuration": 181.835542,
+          "startTime": 1289.3377070000001,
+          "endTime": 1471.1732490000002
+        },
+        {
+          "path": "Audio/output/605/chapter_08.wav",
+          "duration": 171.435792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Custom, Habit, and the Power of Small Choices",
+          "actualDuration": 171.435792,
+          "startTime": 1472.6732490000002,
+          "endTime": 1644.1090410000002
+        },
+        {
+          "path": "Audio/output/605/chapter_09.wav",
+          "duration": 193.453417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Solitude, Society, and the Balance Between Worlds",
+          "actualDuration": 193.453417,
+          "startTime": 1645.6090410000002,
+          "endTime": 1839.062458
+        },
+        {
+          "path": "Audio/output/605/chapter_10.wav",
+          "duration": 195.175292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Art of Conversation and the Practice of Listening",
+          "actualDuration": 195.175292,
+          "startTime": 1840.562458,
+          "endTime": 2035.7377500000002
+        },
+        {
+          "path": "Audio/output/605/chapter_11.wav",
+          "duration": 171.68325,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Judgment, Prejudice, and the Courage to Change One’s Mind",
+          "actualDuration": 171.68325,
+          "startTime": 2037.2377500000002,
+          "endTime": 2208.9210000000003
+        },
+        {
+          "path": "Audio/output/605/chapter_12.wav",
+          "duration": 154.58325,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Suffering, Resilience, and the Meaning of Adversity",
+          "actualDuration": 154.58325,
+          "startTime": 2210.4210000000003,
+          "endTime": 2365.0042500000004
+        },
+        {
+          "path": "Audio/output/605/chapter_13.wav",
+          "duration": 130.330167,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Practice of Gratitude and the Joy of Enough",
+          "actualDuration": 130.330167,
+          "startTime": 2366.5042500000004,
+          "endTime": 2496.8344170000005
+        },
+        {
+          "path": "Audio/output/605/chapter_14.wav",
+          "duration": 140.620208,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Art of Living: Honesty, Acceptance, and the Ongoing Journey",
+          "actualDuration": 140.620208,
+          "startTime": 2498.3344170000005,
+          "endTime": 2638.9546250000003
+        },
+        {
+          "path": "Audio/output/605/conclusion.wav",
+          "duration": 141.508542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.508542,
+          "startTime": 2640.4546250000003,
+          "endTime": 2781.9631670000003
+        }
+      ],
+      "totalDuration": 2781.9631670000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.36,
+          "actualStart": 0,
+          "actualEnd": 100.363833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Looking Inward: The Search for Self-Understanding",
+          "expectedStart": 100.36,
+          "expectedEnd": 315.31,
+          "actualStart": 101.863833,
+          "actualEnd": 316.81658300000004,
+          "timeDifference": 1.5038330000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Knowledge and the Value of Doubt",
+          "expectedStart": 315.31,
+          "expectedEnd": 532.25,
+          "actualStart": 318.31658300000004,
+          "actualEnd": 535.254166,
+          "timeDifference": 3.0065830000000346
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Friendship, Love, and the Bonds That Shape Us",
+          "expectedStart": 532.25,
+          "expectedEnd": 750.17,
+          "actualStart": 536.754166,
+          "actualEnd": 754.673249,
+          "timeDifference": 4.504166000000055
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Mortality and Embracing the Human Condition",
+          "expectedStart": 750.17,
+          "expectedEnd": 930.28,
+          "actualStart": 756.173249,
+          "actualEnd": 936.283082,
+          "timeDifference": 6.003249000000096
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Learning, Growth, and the Humility of Not Knowing",
+          "expectedStart": 930.28,
+          "expectedEnd": 1093.5,
+          "actualStart": 937.783082,
+          "actualEnd": 1101.001332,
+          "timeDifference": 7.503082000000063
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Imperfection, Folly, and the Art of Being Ordinary",
+          "expectedStart": 1093.5,
+          "expectedEnd": 1278.84,
+          "actualStart": 1102.501332,
+          "actualEnd": 1287.8377070000001,
+          "timeDifference": 9.001332000000048
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Body, the Senses, and the Wisdom of Experience",
+          "expectedStart": 1278.84,
+          "expectedEnd": 1460.68,
+          "actualStart": 1289.3377070000001,
+          "actualEnd": 1471.1732490000002,
+          "timeDifference": 10.497707000000219
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Custom, Habit, and the Power of Small Choices",
+          "expectedStart": 1460.68,
+          "expectedEnd": 1632.12,
+          "actualStart": 1472.6732490000002,
+          "actualEnd": 1644.1090410000002,
+          "timeDifference": 11.993249000000105
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Solitude, Society, and the Balance Between Worlds",
+          "expectedStart": 1632.12,
+          "expectedEnd": 1825.57,
+          "actualStart": 1645.6090410000002,
+          "actualEnd": 1839.062458,
+          "timeDifference": 13.48904100000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Art of Conversation and the Practice of Listening",
+          "expectedStart": 1825.57,
+          "expectedEnd": 2020.75,
+          "actualStart": 1840.562458,
+          "actualEnd": 2035.7377500000002,
+          "timeDifference": 14.99245800000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Judgment, Prejudice, and the Courage to Change One’s Mind",
+          "expectedStart": 2020.75,
+          "expectedEnd": 2192.43,
+          "actualStart": 2037.2377500000002,
+          "actualEnd": 2208.9210000000003,
+          "timeDifference": 16.487750000000233
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Suffering, Resilience, and the Meaning of Adversity",
+          "expectedStart": 2192.43,
+          "expectedEnd": 2347.01,
+          "actualStart": 2210.4210000000003,
+          "actualEnd": 2365.0042500000004,
+          "timeDifference": 17.99100000000044
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Practice of Gratitude and the Joy of Enough",
+          "expectedStart": 2347.01,
+          "expectedEnd": 2477.34,
+          "actualStart": 2366.5042500000004,
+          "actualEnd": 2496.8344170000005,
+          "timeDifference": 19.494250000000193
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Art of Living: Honesty, Acceptance, and the Ongoing Journey",
+          "expectedStart": 2477.34,
+          "expectedEnd": 2617.96,
+          "actualStart": 2498.3344170000005,
+          "actualEnd": 2638.9546250000003,
+          "timeDifference": 20.99441700000034
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2617.96,
+          "expectedEnd": 2759.47,
+          "actualStart": 2640.4546250000003,
+          "actualEnd": 2781.9631670000003,
+          "timeDifference": 22.49462500000027
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.363833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Looking Inward: The Search for Self-Understanding"
+        },
+        {
+          "startTime": 316.81658300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Looking Inward: The Search for Self-Understanding and Chapter 2 The Limits of Knowledge and the Value of Doubt"
+        },
+        {
+          "startTime": 535.254166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Knowledge and the Value of Doubt and Chapter 3 Friendship, Love, and the Bonds That Shape Us"
+        },
+        {
+          "startTime": 754.673249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Friendship, Love, and the Bonds That Shape Us and Chapter 4 Facing Mortality and Embracing the Human Condition"
+        },
+        {
+          "startTime": 936.283082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Mortality and Embracing the Human Condition and Chapter 5 Learning, Growth, and the Humility of Not Knowing"
+        },
+        {
+          "startTime": 1101.001332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Learning, Growth, and the Humility of Not Knowing and Chapter 6 Imperfection, Folly, and the Art of Being Ordinary"
+        },
+        {
+          "startTime": 1287.8377070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Imperfection, Folly, and the Art of Being Ordinary and Chapter 7 The Body, the Senses, and the Wisdom of Experience"
+        },
+        {
+          "startTime": 1471.1732490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Body, the Senses, and the Wisdom of Experience and Chapter 8 Custom, Habit, and the Power of Small Choices"
+        },
+        {
+          "startTime": 1644.1090410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Custom, Habit, and the Power of Small Choices and Chapter 9 Solitude, Society, and the Balance Between Worlds"
+        },
+        {
+          "startTime": 1839.062458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Solitude, Society, and the Balance Between Worlds and Chapter 10 The Art of Conversation and the Practice of Listening"
+        },
+        {
+          "startTime": 2035.7377500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Art of Conversation and the Practice of Listening and Chapter 11 Judgment, Prejudice, and the Courage to Change One’s Mind"
+        },
+        {
+          "startTime": 2208.9210000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Judgment, Prejudice, and the Courage to Change One’s Mind and Chapter 12 Suffering, Resilience, and the Meaning of Adversity"
+        },
+        {
+          "startTime": 2365.0042500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Suffering, Resilience, and the Meaning of Adversity and Chapter 13 The Practice of Gratitude and the Joy of Enough"
+        },
+        {
+          "startTime": 2496.8344170000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Practice of Gratitude and the Joy of Enough and Chapter 14 The Art of Living: Honesty, Acceptance, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2638.9546250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Art of Living: Honesty, Acceptance, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "605",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:18:20.775Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

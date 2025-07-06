@@ -1,0 +1,456 @@
+{
+  "bookId": "433",
+  "timestamp": "2025-07-04T03:20:04.276Z",
+  "success": false,
+  "processingTime": -1751598936316,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4038,
+    "totalAudioFiles": 12,
+    "totalDuration": 1912.1192919999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1912.1192919999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/433/optimized_text/433.md",
+    "fileSize": 765,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "433.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/433/metadata/433_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1912.11,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/433/metadata/433_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/433/metadata/433_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/433/433_complete.wav",
+    "duration": 1912.119292,
+    "fileSize": 91781804,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/433/introduction.wav",
+          "duration": 80.793542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.793542,
+          "startTime": 0,
+          "endTime": 80.793542
+        },
+        {
+          "path": "Audio/output/433/chapter_01.wav",
+          "duration": 187.614667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Dream of Clean Energy and Its Everyday Appeal",
+          "actualDuration": 187.614667,
+          "startTime": 82.293542,
+          "endTime": 269.908209
+        },
+        {
+          "path": "Audio/output/433/chapter_02.wav",
+          "duration": 212.548375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Limits of Wind and Solar in the Real World",
+          "actualDuration": 212.548375,
+          "startTime": 271.408209,
+          "endTime": 483.956584
+        },
+        {
+          "path": "Audio/output/433/chapter_03.wav",
+          "duration": 214.354542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Costs and Unintended Consequences of the Green Transition",
+          "actualDuration": 214.354542,
+          "startTime": 485.456584,
+          "endTime": 699.8111260000001
+        },
+        {
+          "path": "Audio/output/433/chapter_04.wav",
+          "duration": 183.3505,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Reliable Energy in Modern Life",
+          "actualDuration": 183.3505,
+          "startTime": 701.3111260000001,
+          "endTime": 884.6616260000001
+        },
+        {
+          "path": "Audio/output/433/chapter_05.wav",
+          "duration": 186.872875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Nuclear Power and Its Place in the Future",
+          "actualDuration": 186.872875,
+          "startTime": 886.1616260000001,
+          "endTime": 1073.034501
+        },
+        {
+          "path": "Audio/output/433/chapter_06.wav",
+          "duration": 172.377792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Stories—How Narratives Shape Our Energy Choices",
+          "actualDuration": 172.377792,
+          "startTime": 1074.534501,
+          "endTime": 1246.912293
+        },
+        {
+          "path": "Audio/output/433/chapter_07.wav",
+          "duration": 166.297083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Misinformation, Wishful Thinking, and the Cost of Denial",
+          "actualDuration": 166.297083,
+          "startTime": 1248.412293,
+          "endTime": 1414.709376
+        },
+        {
+          "path": "Audio/output/433/chapter_08.wav",
+          "duration": 152.097083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Global Picture—Inequality, Development, and Energy Justice",
+          "actualDuration": 152.097083,
+          "startTime": 1416.209376,
+          "endTime": 1568.306459
+        },
+        {
+          "path": "Audio/output/433/chapter_09.wav",
+          "duration": 131.498833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the Future—Honest Solutions and the Courage to Change",
+          "actualDuration": 131.498833,
+          "startTime": 1569.806459,
+          "endTime": 1701.305292
+        },
+        {
+          "path": "Audio/output/433/chapter_10.wav",
+          "duration": 112.272708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 A New Conversation—Building Trust and Finding Common Ground",
+          "actualDuration": 112.272708,
+          "startTime": 1702.805292,
+          "endTime": 1815.078
+        },
+        {
+          "path": "Audio/output/433/conclusion.wav",
+          "duration": 112.041292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.041292,
+          "startTime": 1816.578,
+          "endTime": 1928.6192919999999
+        }
+      ],
+      "totalDuration": 1928.6192919999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.79,
+          "actualStart": 0,
+          "actualEnd": 80.793542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Dream of Clean Energy and Its Everyday Appeal",
+          "expectedStart": 80.79,
+          "expectedEnd": 268.4,
+          "actualStart": 82.293542,
+          "actualEnd": 269.908209,
+          "timeDifference": 1.503541999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Limits of Wind and Solar in the Real World",
+          "expectedStart": 268.4,
+          "expectedEnd": 480.95,
+          "actualStart": 271.408209,
+          "actualEnd": 483.956584,
+          "timeDifference": 3.008209000000022
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Costs and Unintended Consequences of the Green Transition",
+          "expectedStart": 480.95,
+          "expectedEnd": 695.3,
+          "actualStart": 485.456584,
+          "actualEnd": 699.8111260000001,
+          "timeDifference": 4.506584000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Reliable Energy in Modern Life",
+          "expectedStart": 695.3,
+          "expectedEnd": 878.65,
+          "actualStart": 701.3111260000001,
+          "actualEnd": 884.6616260000001,
+          "timeDifference": 6.011126000000104
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Nuclear Power and Its Place in the Future",
+          "expectedStart": 878.65,
+          "expectedEnd": 1065.52,
+          "actualStart": 886.1616260000001,
+          "actualEnd": 1073.034501,
+          "timeDifference": 7.511626000000092
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Stories—How Narratives Shape Our Energy Choices",
+          "expectedStart": 1065.52,
+          "expectedEnd": 1237.9,
+          "actualStart": 1074.534501,
+          "actualEnd": 1246.912293,
+          "timeDifference": 9.01450100000011
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Misinformation, Wishful Thinking, and the Cost of Denial",
+          "expectedStart": 1237.9,
+          "expectedEnd": 1404.2,
+          "actualStart": 1248.412293,
+          "actualEnd": 1414.709376,
+          "timeDifference": 10.512293
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Global Picture—Inequality, Development, and Energy Justice",
+          "expectedStart": 1404.2,
+          "expectedEnd": 1556.3,
+          "actualStart": 1416.209376,
+          "actualEnd": 1568.306459,
+          "timeDifference": 12.009375999999975
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the Future—Honest Solutions and the Courage to Change",
+          "expectedStart": 1556.3,
+          "expectedEnd": 1687.8,
+          "actualStart": 1569.806459,
+          "actualEnd": 1701.305292,
+          "timeDifference": 13.50645899999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 A New Conversation—Building Trust and Finding Common Ground",
+          "expectedStart": 1687.8,
+          "expectedEnd": 1800.07,
+          "actualStart": 1702.805292,
+          "actualEnd": 1815.078,
+          "timeDifference": 15.005292000000054
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1800.07,
+          "expectedEnd": 1912.11,
+          "actualStart": 1816.578,
+          "actualEnd": 1928.6192919999999,
+          "timeDifference": 16.508000000000038
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.793542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Dream of Clean Energy and Its Everyday Appeal"
+        },
+        {
+          "startTime": 269.908209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Dream of Clean Energy and Its Everyday Appeal and Chapter 2 The Limits of Wind and Solar in the Real World"
+        },
+        {
+          "startTime": 483.956584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Limits of Wind and Solar in the Real World and Chapter 3 The Hidden Costs and Unintended Consequences of the Green Transition"
+        },
+        {
+          "startTime": 699.8111260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Costs and Unintended Consequences of the Green Transition and Chapter 4 The Role of Reliable Energy in Modern Life"
+        },
+        {
+          "startTime": 884.6616260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Reliable Energy in Modern Life and Chapter 5 Rethinking Nuclear Power and Its Place in the Future"
+        },
+        {
+          "startTime": 1073.034501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Nuclear Power and Its Place in the Future and Chapter 6 The Power of Stories—How Narratives Shape Our Energy Choices"
+        },
+        {
+          "startTime": 1246.912293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Stories—How Narratives Shape Our Energy Choices and Chapter 7 Misinformation, Wishful Thinking, and the Cost of Denial"
+        },
+        {
+          "startTime": 1414.709376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Misinformation, Wishful Thinking, and the Cost of Denial and Chapter 8 The Global Picture—Inequality, Development, and Energy Justice"
+        },
+        {
+          "startTime": 1568.306459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Global Picture—Inequality, Development, and Energy Justice and Chapter 9 Facing the Future—Honest Solutions and the Courage to Change"
+        },
+        {
+          "startTime": 1701.305292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the Future—Honest Solutions and the Courage to Change and Chapter 10 A New Conversation—Building Trust and Finding Common Ground"
+        },
+        {
+          "startTime": 1815.078,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 A New Conversation—Building Trust and Finding Common Ground and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "433",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T03:15:37.520Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

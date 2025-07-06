@@ -1,0 +1,455 @@
+{
+  "bookId": "512",
+  "timestamp": "2025-07-04T12:29:54.836Z",
+  "success": false,
+  "processingTime": -1751630182750,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4455,
+    "totalAudioFiles": 12,
+    "totalDuration": 2017.7132920000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2017.7132920000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/512/optimized_text/512.md",
+    "fileSize": 747,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "512.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/512/metadata/512_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2017.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/512/metadata/512_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/512/metadata/512_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/512/512_complete.wav",
+    "duration": 2017.713292,
+    "fileSize": 96850316,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/512/introduction.wav",
+          "duration": 94.026083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.026083,
+          "startTime": 0,
+          "endTime": 94.026083
+        },
+        {
+          "path": "Audio/output/512/chapter_01.wav",
+          "duration": 228.771958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Roots of Resistance: Echoes Across Time and Place",
+          "actualDuration": 228.771958,
+          "startTime": 95.526083,
+          "endTime": 324.298041
+        },
+        {
+          "path": "Audio/output/512/chapter_02.wav",
+          "duration": 230.225333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Carceral State: Prisons, Policing, and the Logic of Control",
+          "actualDuration": 230.225333,
+          "startTime": 325.798041,
+          "endTime": 556.023374
+        },
+        {
+          "path": "Audio/output/512/chapter_03.wav",
+          "duration": 209.626625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Women, Leadership, and the Power of Collective Action",
+          "actualDuration": 209.626625,
+          "startTime": 557.523374,
+          "endTime": 767.149999
+        },
+        {
+          "path": "Audio/output/512/chapter_04.wav",
+          "duration": 179.803667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Global Solidarity: Building Bridges Beyond Borders",
+          "actualDuration": 179.803667,
+          "startTime": 768.649999,
+          "endTime": 948.453666
+        },
+        {
+          "path": "Audio/output/512/chapter_05.wav",
+          "duration": 171.314667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Remembering the Past, Shaping the Future",
+          "actualDuration": 171.314667,
+          "startTime": 949.953666,
+          "endTime": 1121.268333
+        },
+        {
+          "path": "Audio/output/512/chapter_06.wav",
+          "duration": 173.466542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Intersections of Struggle: Race, Class, and Empire",
+          "actualDuration": 173.466542,
+          "startTime": 1122.768333,
+          "endTime": 1296.234875
+        },
+        {
+          "path": "Audio/output/512/chapter_07.wav",
+          "duration": 157.978958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining the Movement: Hope, Burnout, and the Long Haul",
+          "actualDuration": 157.978958,
+          "startTime": 1297.734875,
+          "endTime": 1455.713833
+        },
+        {
+          "path": "Audio/output/512/chapter_08.wav",
+          "duration": 153.17475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Imagination: Dreaming Beyond the Present",
+          "actualDuration": 153.17475,
+          "startTime": 1457.213833,
+          "endTime": 1610.388583
+        },
+        {
+          "path": "Audio/output/512/chapter_09.wav",
+          "duration": 139.167417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Voices from the Margins: Listening, Learning, and Centering the Silenced",
+          "actualDuration": 139.167417,
+          "startTime": 1611.888583,
+          "endTime": 1751.056
+        },
+        {
+          "path": "Audio/output/512/chapter_10.wav",
+          "duration": 160.537125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward Liberation: Building a World Beyond Oppression",
+          "actualDuration": 160.537125,
+          "startTime": 1752.556,
+          "endTime": 1913.093125
+        },
+        {
+          "path": "Audio/output/512/conclusion.wav",
+          "duration": 119.620167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.620167,
+          "startTime": 1914.593125,
+          "endTime": 2034.2132920000001
+        }
+      ],
+      "totalDuration": 2034.2132920000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.03,
+          "actualStart": 0,
+          "actualEnd": 94.026083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Roots of Resistance: Echoes Across Time and Place",
+          "expectedStart": 94.03,
+          "expectedEnd": 322.8,
+          "actualStart": 95.526083,
+          "actualEnd": 324.298041,
+          "timeDifference": 1.4960829999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Carceral State: Prisons, Policing, and the Logic of Control",
+          "expectedStart": 322.8,
+          "expectedEnd": 553.03,
+          "actualStart": 325.798041,
+          "actualEnd": 556.023374,
+          "timeDifference": 2.9980410000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Women, Leadership, and the Power of Collective Action",
+          "expectedStart": 553.03,
+          "expectedEnd": 762.66,
+          "actualStart": 557.523374,
+          "actualEnd": 767.149999,
+          "timeDifference": 4.493374000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Global Solidarity: Building Bridges Beyond Borders",
+          "expectedStart": 762.66,
+          "expectedEnd": 942.46,
+          "actualStart": 768.649999,
+          "actualEnd": 948.453666,
+          "timeDifference": 5.989999000000012
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Remembering the Past, Shaping the Future",
+          "expectedStart": 942.46,
+          "expectedEnd": 1113.77,
+          "actualStart": 949.953666,
+          "actualEnd": 1121.268333,
+          "timeDifference": 7.493665999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Intersections of Struggle: Race, Class, and Empire",
+          "expectedStart": 1113.77,
+          "expectedEnd": 1287.24,
+          "actualStart": 1122.768333,
+          "actualEnd": 1296.234875,
+          "timeDifference": 8.998333000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining the Movement: Hope, Burnout, and the Long Haul",
+          "expectedStart": 1287.24,
+          "expectedEnd": 1445.22,
+          "actualStart": 1297.734875,
+          "actualEnd": 1455.713833,
+          "timeDifference": 10.494875000000093
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Imagination: Dreaming Beyond the Present",
+          "expectedStart": 1445.22,
+          "expectedEnd": 1598.39,
+          "actualStart": 1457.213833,
+          "actualEnd": 1610.388583,
+          "timeDifference": 11.993832999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Voices from the Margins: Listening, Learning, and Centering the Silenced",
+          "expectedStart": 1598.39,
+          "expectedEnd": 1737.56,
+          "actualStart": 1611.888583,
+          "actualEnd": 1751.056,
+          "timeDifference": 13.498582999999826
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward Liberation: Building a World Beyond Oppression",
+          "expectedStart": 1737.56,
+          "expectedEnd": 1898.1,
+          "actualStart": 1752.556,
+          "actualEnd": 1913.093125,
+          "timeDifference": 14.996000000000095
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1898.1,
+          "expectedEnd": 2017.72,
+          "actualStart": 1914.593125,
+          "actualEnd": 2034.2132920000001,
+          "timeDifference": 16.49312500000019
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.026083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Roots of Resistance: Echoes Across Time and Place"
+        },
+        {
+          "startTime": 324.298041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Roots of Resistance: Echoes Across Time and Place and Chapter 2 The Carceral State: Prisons, Policing, and the Logic of Control"
+        },
+        {
+          "startTime": 556.023374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Carceral State: Prisons, Policing, and the Logic of Control and Chapter 3 Women, Leadership, and the Power of Collective Action"
+        },
+        {
+          "startTime": 767.149999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Women, Leadership, and the Power of Collective Action and Chapter 4 Global Solidarity: Building Bridges Beyond Borders"
+        },
+        {
+          "startTime": 948.453666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Global Solidarity: Building Bridges Beyond Borders and Chapter 5 Remembering the Past, Shaping the Future"
+        },
+        {
+          "startTime": 1121.268333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Remembering the Past, Shaping the Future and Chapter 6 Intersections of Struggle: Race, Class, and Empire"
+        },
+        {
+          "startTime": 1296.234875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Intersections of Struggle: Race, Class, and Empire and Chapter 7 Sustaining the Movement: Hope, Burnout, and the Long Haul"
+        },
+        {
+          "startTime": 1455.713833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining the Movement: Hope, Burnout, and the Long Haul and Chapter 8 The Power of Imagination: Dreaming Beyond the Present"
+        },
+        {
+          "startTime": 1610.388583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Imagination: Dreaming Beyond the Present and Chapter 9 Voices from the Margins: Listening, Learning, and Centering the Silenced"
+        },
+        {
+          "startTime": 1751.056,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Voices from the Margins: Listening, Learning, and Centering the Silenced and Chapter 10 Toward Liberation: Building a World Beyond Oppression"
+        },
+        {
+          "startTime": 1913.093125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward Liberation: Building a World Beyond Oppression and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "512",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T11:56:24.487Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

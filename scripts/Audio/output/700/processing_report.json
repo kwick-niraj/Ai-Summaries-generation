@@ -1,0 +1,576 @@
+{
+  "bookId": "700",
+  "timestamp": "2025-07-05T03:27:54.191Z",
+  "success": false,
+  "processingTime": -1751685605440,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5668,
+    "totalAudioFiles": 17,
+    "totalDuration": 2769.3729169999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2769.3729169999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/700/optimized_text/700.md",
+    "fileSize": 1063,
+    "wordCount": 144,
+    "format": "markdown",
+    "filename": "700.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/700/metadata/700_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2769.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/700/metadata/700_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/700/metadata/700_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/700/700_complete.wav",
+    "duration": 2769.372917,
+    "fileSize": 132929978,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/700/introduction.wav",
+          "duration": 99.099792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.099792,
+          "startTime": 0,
+          "endTime": 99.099792
+        },
+        {
+          "path": "Audio/output/700/chapter_01.wav",
+          "duration": 235.311125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Wild Creatures Collide with Human Rules",
+          "actualDuration": 235.311125,
+          "startTime": 100.599792,
+          "endTime": 335.910917
+        },
+        {
+          "path": "Audio/output/700/chapter_02.wav",
+          "duration": 207.324208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Strange History of Animal “Crimes” and Human Justice",
+          "actualDuration": 207.324208,
+          "startTime": 337.410917,
+          "endTime": 544.7351249999999
+        },
+        {
+          "path": "Audio/output/700/chapter_03.wav",
+          "duration": 203.9375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Science of Animal Offenses and Human Frustration",
+          "actualDuration": 203.9375,
+          "startTime": 546.2351249999999,
+          "endTime": 750.1726249999999
+        },
+        {
+          "path": "Audio/output/700/chapter_04.wav",
+          "duration": 199.172125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creative Solutions and the Limits of Control",
+          "actualDuration": 199.172125,
+          "startTime": 751.6726249999999,
+          "endTime": 950.84475
+        },
+        {
+          "path": "Audio/output/700/chapter_05.wav",
+          "duration": 202.677708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Ethics, Empathy, and the Future of Coexistence",
+          "actualDuration": 202.677708,
+          "startTime": 952.34475,
+          "endTime": 1155.022458
+        },
+        {
+          "path": "Audio/output/700/chapter_06.wav",
+          "duration": 183.518875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unintended Consequences of Human Solutions",
+          "actualDuration": 183.518875,
+          "startTime": 1156.522458,
+          "endTime": 1340.041333
+        },
+        {
+          "path": "Audio/output/700/chapter_07.wav",
+          "duration": 193.351708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Culture and Tradition in Shaping Responses",
+          "actualDuration": 193.351708,
+          "startTime": 1341.541333,
+          "endTime": 1534.8930409999998
+        },
+        {
+          "path": "Audio/output/700/chapter_08.wav",
+          "duration": 135.110917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Science of Deterrence and the Limits of Fear",
+          "actualDuration": 135.110917,
+          "startTime": 1536.3930409999998,
+          "endTime": 1671.5039579999998
+        },
+        {
+          "path": "Audio/output/700/chapter_09.wav",
+          "duration": 158.530958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 When Animals Become Neighbors",
+          "actualDuration": 158.530958,
+          "startTime": 1673.0039579999998,
+          "endTime": 1831.5349159999998
+        },
+        {
+          "path": "Audio/output/700/chapter_10.wav",
+          "duration": 165.794917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Global Picture—Wildlife Conflict Around the World",
+          "actualDuration": 165.794917,
+          "startTime": 1833.0349159999998,
+          "endTime": 1998.8298329999998
+        },
+        {
+          "path": "Audio/output/700/chapter_11.wav",
+          "duration": 158.804292,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Role of Science and Technology in Shaping the Future",
+          "actualDuration": 158.804292,
+          "startTime": 2000.3298329999998,
+          "endTime": 2159.1341249999996
+        },
+        {
+          "path": "Audio/output/700/chapter_12.wav",
+          "duration": 134.33075,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living with Uncertainty—The Emotional Side of Coexistence",
+          "actualDuration": 134.33075,
+          "startTime": 2160.6341249999996,
+          "endTime": 2294.9648749999997
+        },
+        {
+          "path": "Audio/output/700/chapter_13.wav",
+          "duration": 129.950125,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Power of Community and Collective Action",
+          "actualDuration": 129.950125,
+          "startTime": 2296.4648749999997,
+          "endTime": 2426.4149999999995
+        },
+        {
+          "path": "Audio/output/700/chapter_14.wav",
+          "duration": 133.552333,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Rethinking Success—What Does “Living with Nature” Really Mean?",
+          "actualDuration": 133.552333,
+          "startTime": 2427.9149999999995,
+          "endTime": 2561.4673329999996
+        },
+        {
+          "path": "Audio/output/700/chapter_15.wav",
+          "duration": 113.070792,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Ongoing Conversation—Learning, Adapting, and Moving Forward",
+          "actualDuration": 113.070792,
+          "startTime": 2562.9673329999996,
+          "endTime": 2676.0381249999996
+        },
+        {
+          "path": "Audio/output/700/conclusion.wav",
+          "duration": 115.834792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.834792,
+          "startTime": 2677.5381249999996,
+          "endTime": 2793.3729169999997
+        }
+      ],
+      "totalDuration": 2793.3729169999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.1,
+          "actualStart": 0,
+          "actualEnd": 99.099792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Wild Creatures Collide with Human Rules",
+          "expectedStart": 99.1,
+          "expectedEnd": 334.41,
+          "actualStart": 100.599792,
+          "actualEnd": 335.910917,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Strange History of Animal “Crimes” and Human Justice",
+          "expectedStart": 334.41,
+          "expectedEnd": 541.73,
+          "actualStart": 337.410917,
+          "actualEnd": 544.7351249999999,
+          "timeDifference": 3.0009169999999585
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Science of Animal Offenses and Human Frustration",
+          "expectedStart": 541.73,
+          "expectedEnd": 745.67,
+          "actualStart": 546.2351249999999,
+          "actualEnd": 750.1726249999999,
+          "timeDifference": 4.505124999999907
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creative Solutions and the Limits of Control",
+          "expectedStart": 745.67,
+          "expectedEnd": 944.84,
+          "actualStart": 751.6726249999999,
+          "actualEnd": 950.84475,
+          "timeDifference": 6.002624999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Ethics, Empathy, and the Future of Coexistence",
+          "expectedStart": 944.84,
+          "expectedEnd": 1147.52,
+          "actualStart": 952.34475,
+          "actualEnd": 1155.022458,
+          "timeDifference": 7.5047499999999445
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unintended Consequences of Human Solutions",
+          "expectedStart": 1147.52,
+          "expectedEnd": 1331.04,
+          "actualStart": 1156.522458,
+          "actualEnd": 1340.041333,
+          "timeDifference": 9.002457999999933
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Culture and Tradition in Shaping Responses",
+          "expectedStart": 1331.04,
+          "expectedEnd": 1524.39,
+          "actualStart": 1341.541333,
+          "actualEnd": 1534.8930409999998,
+          "timeDifference": 10.501332999999931
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Science of Deterrence and the Limits of Fear",
+          "expectedStart": 1524.39,
+          "expectedEnd": 1659.5,
+          "actualStart": 1536.3930409999998,
+          "actualEnd": 1671.5039579999998,
+          "timeDifference": 12.003040999999712
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 When Animals Become Neighbors",
+          "expectedStart": 1659.5,
+          "expectedEnd": 1818.03,
+          "actualStart": 1673.0039579999998,
+          "actualEnd": 1831.5349159999998,
+          "timeDifference": 13.503957999999784
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Global Picture—Wildlife Conflict Around the World",
+          "expectedStart": 1818.03,
+          "expectedEnd": 1983.82,
+          "actualStart": 1833.0349159999998,
+          "actualEnd": 1998.8298329999998,
+          "timeDifference": 15.004915999999866
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Role of Science and Technology in Shaping the Future",
+          "expectedStart": 1983.82,
+          "expectedEnd": 2142.62,
+          "actualStart": 2000.3298329999998,
+          "actualEnd": 2159.1341249999996,
+          "timeDifference": 16.509832999999844
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living with Uncertainty—The Emotional Side of Coexistence",
+          "expectedStart": 2142.62,
+          "expectedEnd": 2276.95,
+          "actualStart": 2160.6341249999996,
+          "actualEnd": 2294.9648749999997,
+          "timeDifference": 18.014124999999694
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Power of Community and Collective Action",
+          "expectedStart": 2276.95,
+          "expectedEnd": 2406.9,
+          "actualStart": 2296.4648749999997,
+          "actualEnd": 2426.4149999999995,
+          "timeDifference": 19.514874999999847
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Rethinking Success—What Does “Living with Nature” Really Mean?",
+          "expectedStart": 2406.9,
+          "expectedEnd": 2540.45,
+          "actualStart": 2427.9149999999995,
+          "actualEnd": 2561.4673329999996,
+          "timeDifference": 21.014999999999418
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Ongoing Conversation—Learning, Adapting, and Moving Forward",
+          "expectedStart": 2540.45,
+          "expectedEnd": 2653.52,
+          "actualStart": 2562.9673329999996,
+          "actualEnd": 2676.0381249999996,
+          "timeDifference": 22.51733299999978
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2653.52,
+          "expectedEnd": 2769.35,
+          "actualStart": 2677.5381249999996,
+          "actualEnd": 2793.3729169999997,
+          "timeDifference": 24.0181249999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.099792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Wild Creatures Collide with Human Rules"
+        },
+        {
+          "startTime": 335.910917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Wild Creatures Collide with Human Rules and Chapter 2 The Strange History of Animal “Crimes” and Human Justice"
+        },
+        {
+          "startTime": 544.7351249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Strange History of Animal “Crimes” and Human Justice and Chapter 3 The Science of Animal Offenses and Human Frustration"
+        },
+        {
+          "startTime": 750.1726249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Science of Animal Offenses and Human Frustration and Chapter 4 Creative Solutions and the Limits of Control"
+        },
+        {
+          "startTime": 950.84475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creative Solutions and the Limits of Control and Chapter 5 Ethics, Empathy, and the Future of Coexistence"
+        },
+        {
+          "startTime": 1155.022458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Ethics, Empathy, and the Future of Coexistence and Chapter 6 The Unintended Consequences of Human Solutions"
+        },
+        {
+          "startTime": 1340.041333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unintended Consequences of Human Solutions and Chapter 7 The Role of Culture and Tradition in Shaping Responses"
+        },
+        {
+          "startTime": 1534.8930409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Culture and Tradition in Shaping Responses and Chapter 8 The Science of Deterrence and the Limits of Fear"
+        },
+        {
+          "startTime": 1671.5039579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Science of Deterrence and the Limits of Fear and Chapter 9 When Animals Become Neighbors"
+        },
+        {
+          "startTime": 1831.5349159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 When Animals Become Neighbors and Chapter 10 The Global Picture—Wildlife Conflict Around the World"
+        },
+        {
+          "startTime": 1998.8298329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Global Picture—Wildlife Conflict Around the World and Chapter 11 The Role of Science and Technology in Shaping the Future"
+        },
+        {
+          "startTime": 2159.1341249999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Role of Science and Technology in Shaping the Future and Chapter 12 Living with Uncertainty—The Emotional Side of Coexistence"
+        },
+        {
+          "startTime": 2294.9648749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living with Uncertainty—The Emotional Side of Coexistence and Chapter 13 The Power of Community and Collective Action"
+        },
+        {
+          "startTime": 2426.4149999999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Power of Community and Collective Action and Chapter 14 Rethinking Success—What Does “Living with Nature” Really Mean?"
+        },
+        {
+          "startTime": 2561.4673329999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Rethinking Success—What Does “Living with Nature” Really Mean? and Chapter 15 The Ongoing Conversation—Learning, Adapting, and Moving Forward"
+        },
+        {
+          "startTime": 2676.0381249999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Ongoing Conversation—Learning, Adapting, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "700",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:20:05.462Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

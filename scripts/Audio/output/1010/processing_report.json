@@ -1,0 +1,456 @@
+{
+  "bookId": "1010",
+  "timestamp": "2025-07-06T07:13:33.684Z",
+  "success": false,
+  "processingTime": -1751785731766,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4618,
+    "totalAudioFiles": 12,
+    "totalDuration": 2384.26654
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2384.26654
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1010/optimized_text/1010.md",
+    "fileSize": 688,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1010.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1010/metadata/1010_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2384.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1010/metadata/1010_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1010/metadata/1010_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1010/1010_complete.wav",
+    "duration": 2384.266542,
+    "fileSize": 114444872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1010/introduction.wav",
+          "duration": 105.894833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.894833,
+          "startTime": 0,
+          "endTime": 105.894833
+        },
+        {
+          "path": "Audio/output/1010/chapter_01.wav",
+          "duration": 288.422,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Anxiety and Its Many Faces",
+          "actualDuration": 288.422,
+          "startTime": 107.394833,
+          "endTime": 395.81683300000003
+        },
+        {
+          "path": "Audio/output/1010/chapter_02.wav",
+          "duration": 277.904583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Cycle of Fear and the Power of Awareness",
+          "actualDuration": 277.904583,
+          "startTime": 397.31683300000003,
+          "endTime": 675.2214160000001
+        },
+        {
+          "path": "Audio/output/1010/chapter_03.wav",
+          "duration": 241.50775,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cognitive Tools for Challenging Anxious Thoughts",
+          "actualDuration": 241.50775,
+          "startTime": 676.7214160000001,
+          "endTime": 918.2291660000001
+        },
+        {
+          "path": "Audio/output/1010/chapter_04.wav",
+          "duration": 225.897792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Fears and Building Confidence Through Gradual Exposure",
+          "actualDuration": 225.897792,
+          "startTime": 919.7291660000001,
+          "endTime": 1145.626958
+        },
+        {
+          "path": "Audio/output/1010/chapter_05.wav",
+          "duration": 249.343458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Skills for Calming the Body and Mind",
+          "actualDuration": 249.343458,
+          "startTime": 1147.126958,
+          "endTime": 1396.4704160000001
+        },
+        {
+          "path": "Audio/output/1010/chapter_06.wav",
+          "duration": 233.781667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Lifestyle Foundations for Reducing Anxiety",
+          "actualDuration": 233.781667,
+          "startTime": 1397.9704160000001,
+          "endTime": 1631.752083
+        },
+        {
+          "path": "Audio/output/1010/chapter_07.wav",
+          "duration": 209.913083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Perfectionism and Chronic Worry",
+          "actualDuration": 209.913083,
+          "startTime": 1633.252083,
+          "endTime": 1843.165166
+        },
+        {
+          "path": "Audio/output/1010/chapter_08.wav",
+          "duration": 177.711333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Long-Term Resilience and Preventing Relapse",
+          "actualDuration": 177.711333,
+          "startTime": 1844.665166,
+          "endTime": 2022.376499
+        },
+        {
+          "path": "Audio/output/1010/chapter_09.wav",
+          "duration": 129.057458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Seeking Support and Knowing When to Ask for Help",
+          "actualDuration": 129.057458,
+          "startTime": 2023.876499,
+          "endTime": 2152.933957
+        },
+        {
+          "path": "Audio/output/1010/chapter_10.wav",
+          "duration": 99.911125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Change and Embracing a New Relationship with Anxiety",
+          "actualDuration": 99.911125,
+          "startTime": 2154.433957,
+          "endTime": 2254.3450820000003
+        },
+        {
+          "path": "Audio/output/1010/conclusion.wav",
+          "duration": 144.921458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.921458,
+          "startTime": 2255.8450820000003,
+          "endTime": 2400.76654
+        }
+      ],
+      "totalDuration": 2400.76654,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.89,
+          "actualStart": 0,
+          "actualEnd": 105.894833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Anxiety and Its Many Faces",
+          "expectedStart": 105.89,
+          "expectedEnd": 394.31,
+          "actualStart": 107.394833,
+          "actualEnd": 395.81683300000003,
+          "timeDifference": 1.504833000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Cycle of Fear and the Power of Awareness",
+          "expectedStart": 394.31,
+          "expectedEnd": 672.21,
+          "actualStart": 397.31683300000003,
+          "actualEnd": 675.2214160000001,
+          "timeDifference": 3.0068330000000287
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cognitive Tools for Challenging Anxious Thoughts",
+          "expectedStart": 672.21,
+          "expectedEnd": 913.72,
+          "actualStart": 676.7214160000001,
+          "actualEnd": 918.2291660000001,
+          "timeDifference": 4.511416000000054
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Fears and Building Confidence Through Gradual Exposure",
+          "expectedStart": 913.72,
+          "expectedEnd": 1139.62,
+          "actualStart": 919.7291660000001,
+          "actualEnd": 1145.626958,
+          "timeDifference": 6.00916600000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Skills for Calming the Body and Mind",
+          "expectedStart": 1139.62,
+          "expectedEnd": 1388.96,
+          "actualStart": 1147.126958,
+          "actualEnd": 1396.4704160000001,
+          "timeDifference": 7.506958000000168
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Lifestyle Foundations for Reducing Anxiety",
+          "expectedStart": 1388.96,
+          "expectedEnd": 1622.74,
+          "actualStart": 1397.9704160000001,
+          "actualEnd": 1631.752083,
+          "timeDifference": 9.010416000000077
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Perfectionism and Chronic Worry",
+          "expectedStart": 1622.74,
+          "expectedEnd": 1832.65,
+          "actualStart": 1633.252083,
+          "actualEnd": 1843.165166,
+          "timeDifference": 10.512083000000075
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Long-Term Resilience and Preventing Relapse",
+          "expectedStart": 1832.65,
+          "expectedEnd": 2010.36,
+          "actualStart": 1844.665166,
+          "actualEnd": 2022.376499,
+          "timeDifference": 12.015165999999908
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Seeking Support and Knowing When to Ask for Help",
+          "expectedStart": 2010.36,
+          "expectedEnd": 2139.42,
+          "actualStart": 2023.876499,
+          "actualEnd": 2152.933957,
+          "timeDifference": 13.516499000000067
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Change and Embracing a New Relationship with Anxiety",
+          "expectedStart": 2139.42,
+          "expectedEnd": 2239.33,
+          "actualStart": 2154.433957,
+          "actualEnd": 2254.3450820000003,
+          "timeDifference": 15.013957000000119
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2239.33,
+          "expectedEnd": 2384.25,
+          "actualStart": 2255.8450820000003,
+          "actualEnd": 2400.76654,
+          "timeDifference": 16.515082000000348
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.894833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Anxiety and Its Many Faces"
+        },
+        {
+          "startTime": 395.81683300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Anxiety and Its Many Faces and Chapter 2 The Cycle of Fear and the Power of Awareness"
+        },
+        {
+          "startTime": 675.2214160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Cycle of Fear and the Power of Awareness and Chapter 3 Cognitive Tools for Challenging Anxious Thoughts"
+        },
+        {
+          "startTime": 918.2291660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cognitive Tools for Challenging Anxious Thoughts and Chapter 4 Facing Fears and Building Confidence Through Gradual Exposure"
+        },
+        {
+          "startTime": 1145.626958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Fears and Building Confidence Through Gradual Exposure and Chapter 5 Practical Skills for Calming the Body and Mind"
+        },
+        {
+          "startTime": 1396.4704160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Skills for Calming the Body and Mind and Chapter 6 Lifestyle Foundations for Reducing Anxiety"
+        },
+        {
+          "startTime": 1631.752083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Lifestyle Foundations for Reducing Anxiety and Chapter 7 Managing Perfectionism and Chronic Worry"
+        },
+        {
+          "startTime": 1843.165166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Perfectionism and Chronic Worry and Chapter 8 Building Long-Term Resilience and Preventing Relapse"
+        },
+        {
+          "startTime": 2022.376499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Long-Term Resilience and Preventing Relapse and Chapter 9 Seeking Support and Knowing When to Ask for Help"
+        },
+        {
+          "startTime": 2152.933957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Seeking Support and Knowing When to Ask for Help and Chapter 10 Integrating Change and Embracing a New Relationship with Anxiety"
+        },
+        {
+          "startTime": 2254.3450820000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Change and Embracing a New Relationship with Anxiety and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1010",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T07:08:53.263Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

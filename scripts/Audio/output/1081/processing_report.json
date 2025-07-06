@@ -1,0 +1,504 @@
+{
+  "bookId": "1081",
+  "timestamp": "2025-07-06T12:03:03.804Z",
+  "success": false,
+  "processingTime": -1751802789321,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5550,
+    "totalAudioFiles": 14,
+    "totalDuration": 2570.264042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2570.264042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1081/optimized_text/1081.md",
+    "fileSize": 631,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1081.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1081/metadata/1081_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2570.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1081/metadata/1081_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1081/metadata/1081_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1081/1081_complete.wav",
+    "duration": 2570.264042,
+    "fileSize": 123372752,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1081/introduction.wav",
+          "duration": 103.237792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.237792,
+          "startTime": 0,
+          "endTime": 103.237792
+        },
+        {
+          "path": "Audio/output/1081/chapter_01.wav",
+          "duration": 202.315208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Waking Up from the Trance of Thought",
+          "actualDuration": 202.315208,
+          "startTime": 104.737792,
+          "endTime": 307.053
+        },
+        {
+          "path": "Audio/output/1081/chapter_02.wav",
+          "duration": 215.268375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering the Present Moment as Home",
+          "actualDuration": 215.268375,
+          "startTime": 308.553,
+          "endTime": 523.821375
+        },
+        {
+          "path": "Audio/output/1081/chapter_03.wav",
+          "duration": 250.617542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Seeing Through the Illusion of Ego",
+          "actualDuration": 250.617542,
+          "startTime": 525.321375,
+          "endTime": 775.938917
+        },
+        {
+          "path": "Audio/output/1081/chapter_04.wav",
+          "duration": 217.473667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Accepting What Is and Finding Inner Peace",
+          "actualDuration": 217.473667,
+          "startTime": 777.438917,
+          "endTime": 994.9125839999999
+        },
+        {
+          "path": "Audio/output/1081/chapter_05.wav",
+          "duration": 213.451958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Path to Spiritual Awakening",
+          "actualDuration": 213.451958,
+          "startTime": 996.4125839999999,
+          "endTime": 1209.8645419999998
+        },
+        {
+          "path": "Audio/output/1081/chapter_06.wav",
+          "duration": 180.382583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Dissolving the Pain-Body",
+          "actualDuration": 180.382583,
+          "startTime": 1211.3645419999998,
+          "endTime": 1391.7471249999999
+        },
+        {
+          "path": "Audio/output/1081/chapter_07.wav",
+          "duration": 200.103917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Conscious Relationships: Presence with Others",
+          "actualDuration": 200.103917,
+          "startTime": 1393.2471249999999,
+          "endTime": 1593.3510419999998
+        },
+        {
+          "path": "Audio/output/1081/chapter_08.wav",
+          "duration": 195.853125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Surrender",
+          "actualDuration": 195.853125,
+          "startTime": 1594.8510419999998,
+          "endTime": 1790.7041669999999
+        },
+        {
+          "path": "Audio/output/1081/chapter_09.wav",
+          "duration": 184.61575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Silence Beneath Thought",
+          "actualDuration": 184.61575,
+          "startTime": 1792.2041669999999,
+          "endTime": 1976.8199169999998
+        },
+        {
+          "path": "Audio/output/1081/chapter_10.wav",
+          "duration": 160.797,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living as Presence: Everyday Practice",
+          "actualDuration": 160.797,
+          "startTime": 1978.3199169999998,
+          "endTime": 2139.116917
+        },
+        {
+          "path": "Audio/output/1081/chapter_11.wav",
+          "duration": 180.329292,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Freedom from Time: Beyond Past and Future",
+          "actualDuration": 180.329292,
+          "startTime": 2140.616917,
+          "endTime": 2320.9462089999997
+        },
+        {
+          "path": "Audio/output/1081/chapter_12.wav",
+          "duration": 152.466833,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Joy of Being",
+          "actualDuration": 152.466833,
+          "startTime": 2322.4462089999997,
+          "endTime": 2474.9130419999997
+        },
+        {
+          "path": "Audio/output/1081/conclusion.wav",
+          "duration": 113.351,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.351,
+          "startTime": 2476.4130419999997,
+          "endTime": 2589.764042
+        }
+      ],
+      "totalDuration": 2589.764042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.24,
+          "actualStart": 0,
+          "actualEnd": 103.237792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Waking Up from the Trance of Thought",
+          "expectedStart": 103.24,
+          "expectedEnd": 305.56,
+          "actualStart": 104.737792,
+          "actualEnd": 307.053,
+          "timeDifference": 1.497792000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering the Present Moment as Home",
+          "expectedStart": 305.56,
+          "expectedEnd": 520.83,
+          "actualStart": 308.553,
+          "actualEnd": 523.821375,
+          "timeDifference": 2.992999999999995
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Seeing Through the Illusion of Ego",
+          "expectedStart": 520.83,
+          "expectedEnd": 771.45,
+          "actualStart": 525.321375,
+          "actualEnd": 775.938917,
+          "timeDifference": 4.491374999999948
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Accepting What Is and Finding Inner Peace",
+          "expectedStart": 771.45,
+          "expectedEnd": 988.92,
+          "actualStart": 777.438917,
+          "actualEnd": 994.9125839999999,
+          "timeDifference": 5.988916999999901
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Path to Spiritual Awakening",
+          "expectedStart": 988.92,
+          "expectedEnd": 1202.37,
+          "actualStart": 996.4125839999999,
+          "actualEnd": 1209.8645419999998,
+          "timeDifference": 7.492583999999965
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Dissolving the Pain-Body",
+          "expectedStart": 1202.37,
+          "expectedEnd": 1382.75,
+          "actualStart": 1211.3645419999998,
+          "actualEnd": 1391.7471249999999,
+          "timeDifference": 8.99454199999991
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Conscious Relationships: Presence with Others",
+          "expectedStart": 1382.75,
+          "expectedEnd": 1582.85,
+          "actualStart": 1393.2471249999999,
+          "actualEnd": 1593.3510419999998,
+          "timeDifference": 10.497124999999869
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Surrender",
+          "expectedStart": 1582.85,
+          "expectedEnd": 1778.7,
+          "actualStart": 1594.8510419999998,
+          "actualEnd": 1790.7041669999999,
+          "timeDifference": 12.00104199999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Silence Beneath Thought",
+          "expectedStart": 1778.7,
+          "expectedEnd": 1963.32,
+          "actualStart": 1792.2041669999999,
+          "actualEnd": 1976.8199169999998,
+          "timeDifference": 13.504166999999825
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living as Presence: Everyday Practice",
+          "expectedStart": 1963.32,
+          "expectedEnd": 2124.12,
+          "actualStart": 1978.3199169999998,
+          "actualEnd": 2139.116917,
+          "timeDifference": 14.999916999999868
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Freedom from Time: Beyond Past and Future",
+          "expectedStart": 2124.12,
+          "expectedEnd": 2304.45,
+          "actualStart": 2140.616917,
+          "actualEnd": 2320.9462089999997,
+          "timeDifference": 16.49691699999994
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Joy of Being",
+          "expectedStart": 2304.45,
+          "expectedEnd": 2456.92,
+          "actualStart": 2322.4462089999997,
+          "actualEnd": 2474.9130419999997,
+          "timeDifference": 17.996208999999908
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2456.92,
+          "expectedEnd": 2570.27,
+          "actualStart": 2476.4130419999997,
+          "actualEnd": 2589.764042,
+          "timeDifference": 19.493041999999605
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.237792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Waking Up from the Trance of Thought"
+        },
+        {
+          "startTime": 307.053,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Waking Up from the Trance of Thought and Chapter 2 Discovering the Present Moment as Home"
+        },
+        {
+          "startTime": 523.821375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering the Present Moment as Home and Chapter 3 Seeing Through the Illusion of Ego"
+        },
+        {
+          "startTime": 775.938917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Seeing Through the Illusion of Ego and Chapter 4 Accepting What Is and Finding Inner Peace"
+        },
+        {
+          "startTime": 994.9125839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Accepting What Is and Finding Inner Peace and Chapter 5 The Path to Spiritual Awakening"
+        },
+        {
+          "startTime": 1209.8645419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Path to Spiritual Awakening and Chapter 6 Dissolving the Pain-Body"
+        },
+        {
+          "startTime": 1391.7471249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Dissolving the Pain-Body and Chapter 7 Conscious Relationships: Presence with Others"
+        },
+        {
+          "startTime": 1593.3510419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Conscious Relationships: Presence with Others and Chapter 8 The Power of Surrender"
+        },
+        {
+          "startTime": 1790.7041669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Surrender and Chapter 9 The Silence Beneath Thought"
+        },
+        {
+          "startTime": 1976.8199169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Silence Beneath Thought and Chapter 10 Living as Presence: Everyday Practice"
+        },
+        {
+          "startTime": 2139.116917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living as Presence: Everyday Practice and Chapter 11 Freedom from Time: Beyond Past and Future"
+        },
+        {
+          "startTime": 2320.9462089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Freedom from Time: Beyond Past and Future and Chapter 12 The Joy of Being"
+        },
+        {
+          "startTime": 2474.9130419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Joy of Being and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1081",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:53:09.347Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

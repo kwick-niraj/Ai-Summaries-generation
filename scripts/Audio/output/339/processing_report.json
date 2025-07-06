@@ -1,0 +1,433 @@
+{
+  "bookId": "339",
+  "timestamp": "2025-07-03T18:19:56.943Z",
+  "success": false,
+  "processingTime": -1751566397282,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5056,
+    "totalAudioFiles": 12,
+    "totalDuration": 2291.547542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2291.547542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/339/optimized_text/339.md",
+    "fileSize": 775,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "339.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/339/metadata/339_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2291.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/339/metadata/339_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/339/metadata/339_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/339/339_complete.wav",
+    "duration": 2291.547542,
+    "fileSize": 109994360,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/339/chapter_01.wav",
+          "duration": 269.232625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Away from the Rush—Choosing a Simpler Life",
+          "actualDuration": 269.232625,
+          "startTime": 0,
+          "endTime": 269.232625
+        },
+        {
+          "path": "Audio/output/339/chapter_02.wav",
+          "duration": 283.280208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Nature—Finding Wisdom in the Everyday",
+          "actualDuration": 283.280208,
+          "startTime": 270.732625,
+          "endTime": 554.012833
+        },
+        {
+          "path": "Audio/output/339/chapter_03.wav",
+          "duration": 251.596292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Questioning Society’s Values—The Cost of Conformity and Materialism",
+          "actualDuration": 251.596292,
+          "startTime": 555.512833,
+          "endTime": 807.109125
+        },
+        {
+          "path": "Audio/output/339/chapter_04.wav",
+          "duration": 253.525958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Solitude—Discovering Self and Connection",
+          "actualDuration": 253.525958,
+          "startTime": 808.609125,
+          "endTime": 1062.135083
+        },
+        {
+          "path": "Audio/output/339/chapter_05.wav",
+          "duration": 218.426417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living by Conscience—The Call to Resist Injustice",
+          "actualDuration": 218.426417,
+          "startTime": 1063.635083,
+          "endTime": 1282.0614999999998
+        },
+        {
+          "path": "Audio/output/339/chapter_06.wav",
+          "duration": 198.91675,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Practice of Economy—Redefining Wealth and Work",
+          "actualDuration": 198.91675,
+          "startTime": 1283.5614999999998,
+          "endTime": 1482.47825
+        },
+        {
+          "path": "Audio/output/339/chapter_07.wav",
+          "duration": 173.351167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Community and Independence—Balancing Self-Reliance with Connection",
+          "actualDuration": 173.351167,
+          "startTime": 1483.97825,
+          "endTime": 1657.329417
+        },
+        {
+          "path": "Audio/output/339/chapter_08.wav",
+          "duration": 180.801375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Mindful Living—Presence, Attention, and Joy",
+          "actualDuration": 180.801375,
+          "startTime": 1658.829417,
+          "endTime": 1839.630792
+        },
+        {
+          "path": "Audio/output/339/chapter_09.wav",
+          "duration": 161.668833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Influence, Example, and Quiet Leadership",
+          "actualDuration": 161.668833,
+          "startTime": 1841.130792,
+          "endTime": 2002.7996249999999
+        },
+        {
+          "path": "Audio/output/339/chapter_10.wav",
+          "duration": 168.3875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Returning to the World—Carrying the Lessons Forward",
+          "actualDuration": 168.3875,
+          "startTime": 2004.2996249999999,
+          "endTime": 2172.687125
+        },
+        {
+          "path": "Audio/output/339/conclusion.wav",
+          "duration": 132.360417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.360417,
+          "startTime": 2174.187125,
+          "endTime": 2306.547542
+        }
+      ],
+      "totalDuration": 2306.547542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Away from the Rush—Choosing a Simpler Life",
+          "expectedStart": 0,
+          "expectedEnd": 269.23,
+          "actualStart": 0,
+          "actualEnd": 269.232625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Nature—Finding Wisdom in the Everyday",
+          "expectedStart": 269.23,
+          "expectedEnd": 552.51,
+          "actualStart": 270.732625,
+          "actualEnd": 554.012833,
+          "timeDifference": 1.5026249999999663
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Questioning Society’s Values—The Cost of Conformity and Materialism",
+          "expectedStart": 552.51,
+          "expectedEnd": 804.11,
+          "actualStart": 555.512833,
+          "actualEnd": 807.109125,
+          "timeDifference": 3.0028330000000096
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Solitude—Discovering Self and Connection",
+          "expectedStart": 804.11,
+          "expectedEnd": 1057.64,
+          "actualStart": 808.609125,
+          "actualEnd": 1062.135083,
+          "timeDifference": 4.499124999999935
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living by Conscience—The Call to Resist Injustice",
+          "expectedStart": 1057.64,
+          "expectedEnd": 1276.07,
+          "actualStart": 1063.635083,
+          "actualEnd": 1282.0614999999998,
+          "timeDifference": 5.995082999999795
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Practice of Economy—Redefining Wealth and Work",
+          "expectedStart": 1276.07,
+          "expectedEnd": 1474.99,
+          "actualStart": 1283.5614999999998,
+          "actualEnd": 1482.47825,
+          "timeDifference": 7.49149999999986
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Community and Independence—Balancing Self-Reliance with Connection",
+          "expectedStart": 1474.99,
+          "expectedEnd": 1648.34,
+          "actualStart": 1483.97825,
+          "actualEnd": 1657.329417,
+          "timeDifference": 8.98824999999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Mindful Living—Presence, Attention, and Joy",
+          "expectedStart": 1648.34,
+          "expectedEnd": 1829.14,
+          "actualStart": 1658.829417,
+          "actualEnd": 1839.630792,
+          "timeDifference": 10.489417000000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Influence, Example, and Quiet Leadership",
+          "expectedStart": 1829.14,
+          "expectedEnd": 1990.81,
+          "actualStart": 1841.130792,
+          "actualEnd": 2002.7996249999999,
+          "timeDifference": 11.990791999999828
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Returning to the World—Carrying the Lessons Forward",
+          "expectedStart": 1990.81,
+          "expectedEnd": 2159.2,
+          "actualStart": 2004.2996249999999,
+          "actualEnd": 2172.687125,
+          "timeDifference": 13.489624999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2159.2,
+          "expectedEnd": 2291.56,
+          "actualStart": 2174.187125,
+          "actualEnd": 2306.547542,
+          "timeDifference": 14.987125000000106
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 269.232625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Away from the Rush—Choosing a Simpler Life and Chapter 2 Learning from Nature—Finding Wisdom in the Everyday"
+        },
+        {
+          "startTime": 554.012833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Nature—Finding Wisdom in the Everyday and Chapter 3 Questioning Society’s Values—The Cost of Conformity and Materialism"
+        },
+        {
+          "startTime": 807.109125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Questioning Society’s Values—The Cost of Conformity and Materialism and Chapter 4 The Power of Solitude—Discovering Self and Connection"
+        },
+        {
+          "startTime": 1062.135083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Solitude—Discovering Self and Connection and Chapter 5 Living by Conscience—The Call to Resist Injustice"
+        },
+        {
+          "startTime": 1282.0614999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living by Conscience—The Call to Resist Injustice and Chapter 6 The Practice of Economy—Redefining Wealth and Work"
+        },
+        {
+          "startTime": 1482.47825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Practice of Economy—Redefining Wealth and Work and Chapter 7 Community and Independence—Balancing Self-Reliance with Connection"
+        },
+        {
+          "startTime": 1657.329417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Community and Independence—Balancing Self-Reliance with Connection and Chapter 8 The Art of Mindful Living—Presence, Attention, and Joy"
+        },
+        {
+          "startTime": 1839.630792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Mindful Living—Presence, Attention, and Joy and Chapter 9 The Ripple Effect—Influence, Example, and Quiet Leadership"
+        },
+        {
+          "startTime": 2002.7996249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Influence, Example, and Quiet Leadership and Chapter 10 Returning to the World—Carrying the Lessons Forward"
+        },
+        {
+          "startTime": 2172.687125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Returning to the World—Carrying the Lessons Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "339",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:13:18.531Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

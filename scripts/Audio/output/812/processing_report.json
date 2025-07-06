@@ -1,0 +1,455 @@
+{
+  "bookId": "812",
+  "timestamp": "2025-07-05T10:06:28.059Z",
+  "success": false,
+  "processingTime": -1751709673188,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5123,
+    "totalAudioFiles": 12,
+    "totalDuration": 2113.692875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2113.692875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/812/optimized_text/812.md",
+    "fileSize": 667,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "812.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/812/metadata/812_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2113.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/812/metadata/812_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/812/metadata/812_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/812/812_complete.wav",
+    "duration": 2113.692875,
+    "fileSize": 101457336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/812/introduction.wav",
+          "duration": 81.278042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.278042,
+          "startTime": 0,
+          "endTime": 81.278042
+        },
+        {
+          "path": "Audio/output/812/chapter_01.wav",
+          "duration": 238.763917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Family Shaped by Golf and Determination",
+          "actualDuration": 238.763917,
+          "startTime": 82.778042,
+          "endTime": 321.541959
+        },
+        {
+          "path": "Audio/output/812/chapter_02.wav",
+          "duration": 220.018125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Exclusion and Finding Strength in Adversity",
+          "actualDuration": 220.018125,
+          "startTime": 323.041959,
+          "endTime": 543.060084
+        },
+        {
+          "path": "Audio/output/812/chapter_03.wav",
+          "duration": 213.302875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Through on the Professional Stage",
+          "actualDuration": 213.302875,
+          "startTime": 544.560084,
+          "endTime": 757.8629589999999
+        },
+        {
+          "path": "Audio/output/812/chapter_04.wav",
+          "duration": 219.731208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Community and Inspiring the Next Generation",
+          "actualDuration": 219.731208,
+          "startTime": 759.3629589999999,
+          "endTime": 979.094167
+        },
+        {
+          "path": "Audio/output/812/chapter_05.wav",
+          "duration": 196.21425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Advocating for Change and Expanding the Legacy",
+          "actualDuration": 196.21425,
+          "startTime": 980.594167,
+          "endTime": 1176.808417
+        },
+        {
+          "path": "Audio/output/812/chapter_06.wav",
+          "duration": 217.957375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks and Rediscovering Purpose",
+          "actualDuration": 217.957375,
+          "startTime": 1178.308417,
+          "endTime": 1396.265792
+        },
+        {
+          "path": "Audio/output/812/chapter_07.wav",
+          "duration": 164.658458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Storytelling and Sharing the Journey",
+          "actualDuration": 164.658458,
+          "startTime": 1397.765792,
+          "endTime": 1562.42425
+        },
+        {
+          "path": "Audio/output/812/chapter_08.wav",
+          "duration": 192.6055,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Change and Adapting to a New Era",
+          "actualDuration": 192.6055,
+          "startTime": 1563.92425,
+          "endTime": 1756.5297500000001
+        },
+        {
+          "path": "Audio/output/812/chapter_09.wav",
+          "duration": 145.922,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Personal Reflections and the Meaning of Legacy",
+          "actualDuration": 145.922,
+          "startTime": 1758.0297500000001,
+          "endTime": 1903.9517500000002
+        },
+        {
+          "path": "Audio/output/812/chapter_10.wav",
+          "duration": 124.344458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Torch—A Call to Action",
+          "actualDuration": 124.344458,
+          "startTime": 1905.4517500000002,
+          "endTime": 2029.7962080000002
+        },
+        {
+          "path": "Audio/output/812/conclusion.wav",
+          "duration": 98.896667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.896667,
+          "startTime": 2031.2962080000002,
+          "endTime": 2130.192875
+        }
+      ],
+      "totalDuration": 2130.192875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.28,
+          "actualStart": 0,
+          "actualEnd": 81.278042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Family Shaped by Golf and Determination",
+          "expectedStart": 81.28,
+          "expectedEnd": 320.04,
+          "actualStart": 82.778042,
+          "actualEnd": 321.541959,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Exclusion and Finding Strength in Adversity",
+          "expectedStart": 320.04,
+          "expectedEnd": 540.06,
+          "actualStart": 323.041959,
+          "actualEnd": 543.060084,
+          "timeDifference": 3.0019589999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Through on the Professional Stage",
+          "expectedStart": 540.06,
+          "expectedEnd": 753.36,
+          "actualStart": 544.560084,
+          "actualEnd": 757.8629589999999,
+          "timeDifference": 4.500084000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Community and Inspiring the Next Generation",
+          "expectedStart": 753.36,
+          "expectedEnd": 973.09,
+          "actualStart": 759.3629589999999,
+          "actualEnd": 979.094167,
+          "timeDifference": 6.002958999999919
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Advocating for Change and Expanding the Legacy",
+          "expectedStart": 973.09,
+          "expectedEnd": 1169.3,
+          "actualStart": 980.594167,
+          "actualEnd": 1176.808417,
+          "timeDifference": 7.5041669999999385
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks and Rediscovering Purpose",
+          "expectedStart": 1169.3,
+          "expectedEnd": 1387.26,
+          "actualStart": 1178.308417,
+          "actualEnd": 1396.265792,
+          "timeDifference": 9.008417000000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Storytelling and Sharing the Journey",
+          "expectedStart": 1387.26,
+          "expectedEnd": 1551.92,
+          "actualStart": 1397.765792,
+          "actualEnd": 1562.42425,
+          "timeDifference": 10.505791999999929
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Change and Adapting to a New Era",
+          "expectedStart": 1551.92,
+          "expectedEnd": 1744.53,
+          "actualStart": 1563.92425,
+          "actualEnd": 1756.5297500000001,
+          "timeDifference": 12.004249999999956
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Personal Reflections and the Meaning of Legacy",
+          "expectedStart": 1744.53,
+          "expectedEnd": 1890.45,
+          "actualStart": 1758.0297500000001,
+          "actualEnd": 1903.9517500000002,
+          "timeDifference": 13.499750000000176
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Torch—A Call to Action",
+          "expectedStart": 1890.45,
+          "expectedEnd": 2014.79,
+          "actualStart": 1905.4517500000002,
+          "actualEnd": 2029.7962080000002,
+          "timeDifference": 15.00175000000013
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2014.79,
+          "expectedEnd": 2113.69,
+          "actualStart": 2031.2962080000002,
+          "actualEnd": 2130.192875,
+          "timeDifference": 16.506208000000242
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.278042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Family Shaped by Golf and Determination"
+        },
+        {
+          "startTime": 321.541959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Family Shaped by Golf and Determination and Chapter 2 Facing Exclusion and Finding Strength in Adversity"
+        },
+        {
+          "startTime": 543.060084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Exclusion and Finding Strength in Adversity and Chapter 3 Breaking Through on the Professional Stage"
+        },
+        {
+          "startTime": 757.8629589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Through on the Professional Stage and Chapter 4 Building Community and Inspiring the Next Generation"
+        },
+        {
+          "startTime": 979.094167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Community and Inspiring the Next Generation and Chapter 5 Advocating for Change and Expanding the Legacy"
+        },
+        {
+          "startTime": 1176.808417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Advocating for Change and Expanding the Legacy and Chapter 6 Navigating Setbacks and Rediscovering Purpose"
+        },
+        {
+          "startTime": 1396.265792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks and Rediscovering Purpose and Chapter 7 The Power of Storytelling and Sharing the Journey"
+        },
+        {
+          "startTime": 1562.42425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Storytelling and Sharing the Journey and Chapter 8 Embracing Change and Adapting to a New Era"
+        },
+        {
+          "startTime": 1756.5297500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Change and Adapting to a New Era and Chapter 9 Personal Reflections and the Meaning of Legacy"
+        },
+        {
+          "startTime": 1903.9517500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Personal Reflections and the Meaning of Legacy and Chapter 10 Carrying the Torch—A Call to Action"
+        },
+        {
+          "startTime": 2029.7962080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Torch—A Call to Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "812",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T10:01:14.511Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

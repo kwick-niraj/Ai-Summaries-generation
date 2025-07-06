@@ -1,0 +1,456 @@
+{
+  "bookId": "910",
+  "timestamp": "2025-07-05T15:21:49.441Z",
+  "success": false,
+  "processingTime": -1751728590977,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4521,
+    "totalAudioFiles": 12,
+    "totalDuration": 2041.285917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2041.285917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/910/optimized_text/910.md",
+    "fileSize": 689,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "910.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/910/metadata/910_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2041.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/910/metadata/910_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/910/metadata/910_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/910/910_complete.wav",
+    "duration": 2041.285917,
+    "fileSize": 97981802,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/910/introduction.wav",
+          "duration": 92.209292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.209292,
+          "startTime": 0,
+          "endTime": 92.209292
+        },
+        {
+          "path": "Audio/output/910/chapter_01.wav",
+          "duration": 218.98825,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Privilege, Restlessness, and the Search for Purpose",
+          "actualDuration": 218.98825,
+          "startTime": 93.709292,
+          "endTime": 312.697542
+        },
+        {
+          "path": "Audio/output/910/chapter_02.wav",
+          "duration": 215.160208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Entering Politics and Facing Early Defeats",
+          "actualDuration": 215.160208,
+          "startTime": 314.197542,
+          "endTime": 529.35775
+        },
+        {
+          "path": "Audio/output/910/chapter_03.wav",
+          "duration": 227.858125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 War, Controversy, and the Making of a Leader",
+          "actualDuration": 227.858125,
+          "startTime": 530.85775,
+          "endTime": 758.715875
+        },
+        {
+          "path": "Audio/output/910/chapter_04.wav",
+          "duration": 191.058583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Years in the Political Wilderness and the Power of Persistence",
+          "actualDuration": 191.058583,
+          "startTime": 760.215875,
+          "endTime": 951.274458
+        },
+        {
+          "path": "Audio/output/910/chapter_05.wav",
+          "duration": 192.304333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Leading Britain Through Its Darkest Hour",
+          "actualDuration": 192.304333,
+          "startTime": 952.774458,
+          "endTime": 1145.078791
+        },
+        {
+          "path": "Audio/output/910/chapter_06.wav",
+          "duration": 218.464,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Price of Triumph and the Burden of Peace",
+          "actualDuration": 218.464,
+          "startTime": 1146.578791,
+          "endTime": 1365.0427909999999
+        },
+        {
+          "path": "Audio/output/910/chapter_07.wav",
+          "duration": 182.821875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Return to Power and the Shadow of Age",
+          "actualDuration": 182.821875,
+          "startTime": 1366.5427909999999,
+          "endTime": 1549.364666
+        },
+        {
+          "path": "Audio/output/910/chapter_08.wav",
+          "duration": 152.851542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy, Reflection, and the Weight of History",
+          "actualDuration": 152.851542,
+          "startTime": 1550.864666,
+          "endTime": 1703.7162079999998
+        },
+        {
+          "path": "Audio/output/910/chapter_09.wav",
+          "duration": 128.419417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The End of the Journey and the Echoes of Influence",
+          "actualDuration": 128.419417,
+          "startTime": 1705.2162079999998,
+          "endTime": 1833.635625
+        },
+        {
+          "path": "Audio/output/910/chapter_10.wav",
+          "duration": 103.019417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Today—The Enduring Relevance of Churchill’s Story",
+          "actualDuration": 103.019417,
+          "startTime": 1835.135625,
+          "endTime": 1938.1550419999999
+        },
+        {
+          "path": "Audio/output/910/conclusion.wav",
+          "duration": 118.130875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.130875,
+          "startTime": 1939.6550419999999,
+          "endTime": 2057.7859169999997
+        }
+      ],
+      "totalDuration": 2057.7859169999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.21,
+          "actualStart": 0,
+          "actualEnd": 92.209292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Privilege, Restlessness, and the Search for Purpose",
+          "expectedStart": 92.21,
+          "expectedEnd": 311.2,
+          "actualStart": 93.709292,
+          "actualEnd": 312.697542,
+          "timeDifference": 1.4992920000000112
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Entering Politics and Facing Early Defeats",
+          "expectedStart": 311.2,
+          "expectedEnd": 526.36,
+          "actualStart": 314.197542,
+          "actualEnd": 529.35775,
+          "timeDifference": 2.99754200000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 War, Controversy, and the Making of a Leader",
+          "expectedStart": 526.36,
+          "expectedEnd": 754.22,
+          "actualStart": 530.85775,
+          "actualEnd": 758.715875,
+          "timeDifference": 4.497749999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Years in the Political Wilderness and the Power of Persistence",
+          "expectedStart": 754.22,
+          "expectedEnd": 945.28,
+          "actualStart": 760.215875,
+          "actualEnd": 951.274458,
+          "timeDifference": 5.995874999999955
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Leading Britain Through Its Darkest Hour",
+          "expectedStart": 945.28,
+          "expectedEnd": 1137.58,
+          "actualStart": 952.774458,
+          "actualEnd": 1145.078791,
+          "timeDifference": 7.494458000000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Price of Triumph and the Burden of Peace",
+          "expectedStart": 1137.58,
+          "expectedEnd": 1356.04,
+          "actualStart": 1146.578791,
+          "actualEnd": 1365.0427909999999,
+          "timeDifference": 8.998790999999983
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Return to Power and the Shadow of Age",
+          "expectedStart": 1356.04,
+          "expectedEnd": 1538.86,
+          "actualStart": 1366.5427909999999,
+          "actualEnd": 1549.364666,
+          "timeDifference": 10.502790999999888
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy, Reflection, and the Weight of History",
+          "expectedStart": 1538.86,
+          "expectedEnd": 1691.71,
+          "actualStart": 1550.864666,
+          "actualEnd": 1703.7162079999998,
+          "timeDifference": 12.004666000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The End of the Journey and the Echoes of Influence",
+          "expectedStart": 1691.71,
+          "expectedEnd": 1820.13,
+          "actualStart": 1705.2162079999998,
+          "actualEnd": 1833.635625,
+          "timeDifference": 13.506207999999788
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Today—The Enduring Relevance of Churchill’s Story",
+          "expectedStart": 1820.13,
+          "expectedEnd": 1923.15,
+          "actualStart": 1835.135625,
+          "actualEnd": 1938.1550419999999,
+          "timeDifference": 15.005624999999782
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1923.15,
+          "expectedEnd": 2041.28,
+          "actualStart": 1939.6550419999999,
+          "actualEnd": 2057.7859169999997,
+          "timeDifference": 16.505041999999776
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.209292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Privilege, Restlessness, and the Search for Purpose"
+        },
+        {
+          "startTime": 312.697542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Privilege, Restlessness, and the Search for Purpose and Chapter 2 Entering Politics and Facing Early Defeats"
+        },
+        {
+          "startTime": 529.35775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Entering Politics and Facing Early Defeats and Chapter 3 War, Controversy, and the Making of a Leader"
+        },
+        {
+          "startTime": 758.715875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 War, Controversy, and the Making of a Leader and Chapter 4 Years in the Political Wilderness and the Power of Persistence"
+        },
+        {
+          "startTime": 951.274458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Years in the Political Wilderness and the Power of Persistence and Chapter 5 Leading Britain Through Its Darkest Hour"
+        },
+        {
+          "startTime": 1145.078791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Leading Britain Through Its Darkest Hour and Chapter 6 The Price of Triumph and the Burden of Peace"
+        },
+        {
+          "startTime": 1365.0427909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Price of Triumph and the Burden of Peace and Chapter 7 Return to Power and the Shadow of Age"
+        },
+        {
+          "startTime": 1549.364666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Return to Power and the Shadow of Age and Chapter 8 Legacy, Reflection, and the Weight of History"
+        },
+        {
+          "startTime": 1703.7162079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy, Reflection, and the Weight of History and Chapter 9 The End of the Journey and the Echoes of Influence"
+        },
+        {
+          "startTime": 1833.635625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The End of the Journey and the Echoes of Influence and Chapter 10 Lessons for Today—The Enduring Relevance of Churchill’s Story"
+        },
+        {
+          "startTime": 1938.1550419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Today—The Enduring Relevance of Churchill’s Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "910",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:16:32.621Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

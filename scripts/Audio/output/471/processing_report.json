@@ -1,0 +1,456 @@
+{
+  "bookId": "471",
+  "timestamp": "2025-07-04T05:15:10.559Z",
+  "success": false,
+  "processingTime": -1751605859202,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4548,
+    "totalAudioFiles": 12,
+    "totalDuration": 2209.7352929999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2209.7352929999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/471/optimized_text/471.md",
+    "fileSize": 877,
+    "wordCount": 129,
+    "format": "markdown",
+    "filename": "471.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/471/metadata/471_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2209.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/471/metadata/471_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/471/metadata/471_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/471/471_complete.wav",
+    "duration": 2209.735292,
+    "fileSize": 106067372,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/471/introduction.wav",
+          "duration": 87.930625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.930625,
+          "startTime": 0,
+          "endTime": 87.930625
+        },
+        {
+          "path": "Audio/output/471/chapter_01.wav",
+          "duration": 210.163667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Family Fortune Built on Ambition and Contradiction",
+          "actualDuration": 210.163667,
+          "startTime": 89.430625,
+          "endTime": 299.594292
+        },
+        {
+          "path": "Audio/output/471/chapter_02.wav",
+          "duration": 220.154875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Growing Up in the Shadow of Wealth and Expectation",
+          "actualDuration": 220.154875,
+          "startTime": 301.094292,
+          "endTime": 521.2491669999999
+        },
+        {
+          "path": "Audio/output/471/chapter_03.wav",
+          "duration": 211.273667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Gilded Age Legacy: Mansions, Art, and the Price of Privacy",
+          "actualDuration": 211.273667,
+          "startTime": 522.7491669999999,
+          "endTime": 734.0228339999999
+        },
+        {
+          "path": "Audio/output/471/chapter_04.wav",
+          "duration": 209.93,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Choosing Solitude: Reclusiveness, Rumors, and the Search for Meaning",
+          "actualDuration": 209.93,
+          "startTime": 735.5228339999999,
+          "endTime": 945.4528339999999
+        },
+        {
+          "path": "Audio/output/471/chapter_05.wav",
+          "duration": 220.961125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Final Years: Inheritance, Legal Battles, and the Legacy of a Vanishing Era",
+          "actualDuration": 220.961125,
+          "startTime": 946.9528339999999,
+          "endTime": 1167.913959
+        },
+        {
+          "path": "Audio/output/471/chapter_06.wav",
+          "duration": 225.52325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Battle for the Clark Fortune: Courtrooms, Questions, and the Search for Truth",
+          "actualDuration": 225.52325,
+          "startTime": 1169.413959,
+          "endTime": 1394.937209
+        },
+        {
+          "path": "Audio/output/471/chapter_07.wav",
+          "duration": 218.627042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Public’s Gaze: Fascination, Mythmaking, and the Price of Mystery",
+          "actualDuration": 218.627042,
+          "startTime": 1396.437209,
+          "endTime": 1615.064251
+        },
+        {
+          "path": "Audio/output/471/chapter_08.wav",
+          "duration": 187.321417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Afterlife of Empty Mansions: Preservation, Memory, and the Meaning of Home",
+          "actualDuration": 187.321417,
+          "startTime": 1616.564251,
+          "endTime": 1803.885668
+        },
+        {
+          "path": "Audio/output/471/chapter_09.wav",
+          "duration": 170.243417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from a Life Apart: Wealth, Choice, and the Limits of Inheritance",
+          "actualDuration": 170.243417,
+          "startTime": 1805.385668,
+          "endTime": 1975.6290849999998
+        },
+        {
+          "path": "Audio/output/471/chapter_10.wav",
+          "duration": 119.273708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Mystery: Legacy, Humanity, and the Stories We Tell",
+          "actualDuration": 119.273708,
+          "startTime": 1977.1290849999998,
+          "endTime": 2096.4027929999997
+        },
+        {
+          "path": "Audio/output/471/conclusion.wav",
+          "duration": 128.3325,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.3325,
+          "startTime": 2097.9027929999997,
+          "endTime": 2226.2352929999997
+        }
+      ],
+      "totalDuration": 2226.2352929999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.93,
+          "actualStart": 0,
+          "actualEnd": 87.930625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Family Fortune Built on Ambition and Contradiction",
+          "expectedStart": 87.93,
+          "expectedEnd": 298.09,
+          "actualStart": 89.430625,
+          "actualEnd": 299.594292,
+          "timeDifference": 1.5006249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Growing Up in the Shadow of Wealth and Expectation",
+          "expectedStart": 298.09,
+          "expectedEnd": 518.24,
+          "actualStart": 301.094292,
+          "actualEnd": 521.2491669999999,
+          "timeDifference": 3.004292000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Gilded Age Legacy: Mansions, Art, and the Price of Privacy",
+          "expectedStart": 518.24,
+          "expectedEnd": 729.51,
+          "actualStart": 522.7491669999999,
+          "actualEnd": 734.0228339999999,
+          "timeDifference": 4.509166999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Choosing Solitude: Reclusiveness, Rumors, and the Search for Meaning",
+          "expectedStart": 729.51,
+          "expectedEnd": 939.44,
+          "actualStart": 735.5228339999999,
+          "actualEnd": 945.4528339999999,
+          "timeDifference": 6.012833999999884
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Final Years: Inheritance, Legal Battles, and the Legacy of a Vanishing Era",
+          "expectedStart": 939.44,
+          "expectedEnd": 1160.4,
+          "actualStart": 946.9528339999999,
+          "actualEnd": 1167.913959,
+          "timeDifference": 7.512833999999884
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Battle for the Clark Fortune: Courtrooms, Questions, and the Search for Truth",
+          "expectedStart": 1160.4,
+          "expectedEnd": 1385.92,
+          "actualStart": 1169.413959,
+          "actualEnd": 1394.937209,
+          "timeDifference": 9.013958999999886
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Public’s Gaze: Fascination, Mythmaking, and the Price of Mystery",
+          "expectedStart": 1385.92,
+          "expectedEnd": 1604.55,
+          "actualStart": 1396.437209,
+          "actualEnd": 1615.064251,
+          "timeDifference": 10.517208999999866
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Afterlife of Empty Mansions: Preservation, Memory, and the Meaning of Home",
+          "expectedStart": 1604.55,
+          "expectedEnd": 1791.87,
+          "actualStart": 1616.564251,
+          "actualEnd": 1803.885668,
+          "timeDifference": 12.014251000000058
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from a Life Apart: Wealth, Choice, and the Limits of Inheritance",
+          "expectedStart": 1791.87,
+          "expectedEnd": 1962.11,
+          "actualStart": 1805.385668,
+          "actualEnd": 1975.6290849999998,
+          "timeDifference": 13.515668000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Mystery: Legacy, Humanity, and the Stories We Tell",
+          "expectedStart": 1962.11,
+          "expectedEnd": 2081.38,
+          "actualStart": 1977.1290849999998,
+          "actualEnd": 2096.4027929999997,
+          "timeDifference": 15.019084999999905
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2081.38,
+          "expectedEnd": 2209.71,
+          "actualStart": 2097.9027929999997,
+          "actualEnd": 2226.2352929999997,
+          "timeDifference": 16.522792999999638
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.930625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Family Fortune Built on Ambition and Contradiction"
+        },
+        {
+          "startTime": 299.594292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Family Fortune Built on Ambition and Contradiction and Chapter 2 Growing Up in the Shadow of Wealth and Expectation"
+        },
+        {
+          "startTime": 521.2491669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Growing Up in the Shadow of Wealth and Expectation and Chapter 3 The Gilded Age Legacy: Mansions, Art, and the Price of Privacy"
+        },
+        {
+          "startTime": 734.0228339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Gilded Age Legacy: Mansions, Art, and the Price of Privacy and Chapter 4 Choosing Solitude: Reclusiveness, Rumors, and the Search for Meaning"
+        },
+        {
+          "startTime": 945.4528339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Choosing Solitude: Reclusiveness, Rumors, and the Search for Meaning and Chapter 5 The Final Years: Inheritance, Legal Battles, and the Legacy of a Vanishing Era"
+        },
+        {
+          "startTime": 1167.913959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Final Years: Inheritance, Legal Battles, and the Legacy of a Vanishing Era and Chapter 6 The Battle for the Clark Fortune: Courtrooms, Questions, and the Search for Truth"
+        },
+        {
+          "startTime": 1394.937209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Battle for the Clark Fortune: Courtrooms, Questions, and the Search for Truth and Chapter 7 The Public’s Gaze: Fascination, Mythmaking, and the Price of Mystery"
+        },
+        {
+          "startTime": 1615.064251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Public’s Gaze: Fascination, Mythmaking, and the Price of Mystery and Chapter 8 The Afterlife of Empty Mansions: Preservation, Memory, and the Meaning of Home"
+        },
+        {
+          "startTime": 1803.885668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Afterlife of Empty Mansions: Preservation, Memory, and the Meaning of Home and Chapter 9 Lessons from a Life Apart: Wealth, Choice, and the Limits of Inheritance"
+        },
+        {
+          "startTime": 1975.6290849999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from a Life Apart: Wealth, Choice, and the Limits of Inheritance and Chapter 10 The Enduring Mystery: Legacy, Humanity, and the Stories We Tell"
+        },
+        {
+          "startTime": 2096.4027929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Mystery: Legacy, Humanity, and the Stories We Tell and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "471",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:10:59.795Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

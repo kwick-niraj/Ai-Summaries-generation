@@ -1,0 +1,456 @@
+{
+  "bookId": "444",
+  "timestamp": "2025-07-04T03:56:07.047Z",
+  "success": false,
+  "processingTime": -1751601091553,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3888,
+    "totalAudioFiles": 12,
+    "totalDuration": 1816.772583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1816.772583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/444/optimized_text/444.md",
+    "fileSize": 857,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "444.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/444/metadata/444_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1816.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/444/metadata/444_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/444/metadata/444_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/444/444_complete.wav",
+    "duration": 1816.772583,
+    "fileSize": 87205162,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/444/introduction.wav",
+          "duration": 80.651625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.651625,
+          "startTime": 0,
+          "endTime": 80.651625
+        },
+        {
+          "path": "Audio/output/444/chapter_01.wav",
+          "duration": 183.164208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation—Why Prayer Matters in Parenting",
+          "actualDuration": 183.164208,
+          "startTime": 82.151625,
+          "endTime": 265.315833
+        },
+        {
+          "path": "Audio/output/444/chapter_02.wav",
+          "duration": 174.147458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Surrendering Control—Trusting God with Children’s Lives",
+          "actualDuration": 174.147458,
+          "startTime": 266.815833,
+          "endTime": 440.963291
+        },
+        {
+          "path": "Audio/output/444/chapter_03.wav",
+          "duration": 206.257333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Praying for the Whole Child—Physical, Emotional, and Spiritual Well-Being",
+          "actualDuration": 206.257333,
+          "startTime": 442.463291,
+          "endTime": 648.720624
+        },
+        {
+          "path": "Audio/output/444/chapter_04.wav",
+          "duration": 212.262417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Addressing Specific Needs—Praying Through Life’s Stages and Challenges",
+          "actualDuration": 212.262417,
+          "startTime": 650.220624,
+          "endTime": 862.4830410000001
+        },
+        {
+          "path": "Audio/output/444/chapter_05.wav",
+          "duration": 171.267708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Parental Anxiety—Finding Peace Through Faith-Filled Prayer",
+          "actualDuration": 171.267708,
+          "startTime": 863.9830410000001,
+          "endTime": 1035.250749
+        },
+        {
+          "path": "Audio/output/444/chapter_06.wav",
+          "duration": 154.662333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Practice of Persistent Prayer—Staying Faithful Over Time",
+          "actualDuration": 154.662333,
+          "startTime": 1036.750749,
+          "endTime": 1191.413082
+        },
+        {
+          "path": "Audio/output/444/chapter_07.wav",
+          "duration": 130.020917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Praying for Family Relationships—Healing, Unity, and Forgiveness",
+          "actualDuration": 130.020917,
+          "startTime": 1192.913082,
+          "endTime": 1322.933999
+        },
+        {
+          "path": "Audio/output/444/chapter_08.wav",
+          "duration": 134.104917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Praying Through Crisis—Finding Strength in Difficult Seasons",
+          "actualDuration": 134.104917,
+          "startTime": 1324.433999,
+          "endTime": 1458.538916
+        },
+        {
+          "path": "Audio/output/444/chapter_09.wav",
+          "duration": 110.740292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Modeling Prayer—Teaching Children to Pray for Themselves",
+          "actualDuration": 110.740292,
+          "startTime": 1460.038916,
+          "endTime": 1570.779208
+        },
+        {
+          "path": "Audio/output/444/chapter_10.wav",
+          "duration": 132.046083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leaving a Spiritual Legacy—The Long-Term Impact of Prayerful Parenting",
+          "actualDuration": 132.046083,
+          "startTime": 1572.279208,
+          "endTime": 1704.3252909999999
+        },
+        {
+          "path": "Audio/output/444/conclusion.wav",
+          "duration": 127.447292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.447292,
+          "startTime": 1705.8252909999999,
+          "endTime": 1833.272583
+        }
+      ],
+      "totalDuration": 1833.272583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.65,
+          "actualStart": 0,
+          "actualEnd": 80.651625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation—Why Prayer Matters in Parenting",
+          "expectedStart": 80.65,
+          "expectedEnd": 263.81,
+          "actualStart": 82.151625,
+          "actualEnd": 265.315833,
+          "timeDifference": 1.50162499999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Surrendering Control—Trusting God with Children’s Lives",
+          "expectedStart": 263.81,
+          "expectedEnd": 437.96,
+          "actualStart": 266.815833,
+          "actualEnd": 440.963291,
+          "timeDifference": 3.0058329999999955
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Praying for the Whole Child—Physical, Emotional, and Spiritual Well-Being",
+          "expectedStart": 437.96,
+          "expectedEnd": 644.22,
+          "actualStart": 442.463291,
+          "actualEnd": 648.720624,
+          "timeDifference": 4.503291000000047
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Addressing Specific Needs—Praying Through Life’s Stages and Challenges",
+          "expectedStart": 644.22,
+          "expectedEnd": 856.48,
+          "actualStart": 650.220624,
+          "actualEnd": 862.4830410000001,
+          "timeDifference": 6.000624000000016
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Parental Anxiety—Finding Peace Through Faith-Filled Prayer",
+          "expectedStart": 856.48,
+          "expectedEnd": 1027.75,
+          "actualStart": 863.9830410000001,
+          "actualEnd": 1035.250749,
+          "timeDifference": 7.503041000000053
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Practice of Persistent Prayer—Staying Faithful Over Time",
+          "expectedStart": 1027.75,
+          "expectedEnd": 1182.41,
+          "actualStart": 1036.750749,
+          "actualEnd": 1191.413082,
+          "timeDifference": 9.000749000000042
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Praying for Family Relationships—Healing, Unity, and Forgiveness",
+          "expectedStart": 1182.41,
+          "expectedEnd": 1312.43,
+          "actualStart": 1192.913082,
+          "actualEnd": 1322.933999,
+          "timeDifference": 10.50308199999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Praying Through Crisis—Finding Strength in Difficult Seasons",
+          "expectedStart": 1312.43,
+          "expectedEnd": 1446.53,
+          "actualStart": 1324.433999,
+          "actualEnd": 1458.538916,
+          "timeDifference": 12.003999000000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Modeling Prayer—Teaching Children to Pray for Themselves",
+          "expectedStart": 1446.53,
+          "expectedEnd": 1557.27,
+          "actualStart": 1460.038916,
+          "actualEnd": 1570.779208,
+          "timeDifference": 13.508916
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leaving a Spiritual Legacy—The Long-Term Impact of Prayerful Parenting",
+          "expectedStart": 1557.27,
+          "expectedEnd": 1689.32,
+          "actualStart": 1572.279208,
+          "actualEnd": 1704.3252909999999,
+          "timeDifference": 15.009207999999944
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1689.32,
+          "expectedEnd": 1816.77,
+          "actualStart": 1705.8252909999999,
+          "actualEnd": 1833.272583,
+          "timeDifference": 16.505290999999943
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.651625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation—Why Prayer Matters in Parenting"
+        },
+        {
+          "startTime": 265.315833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation—Why Prayer Matters in Parenting and Chapter 2 Surrendering Control—Trusting God with Children’s Lives"
+        },
+        {
+          "startTime": 440.963291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Surrendering Control—Trusting God with Children’s Lives and Chapter 3 Praying for the Whole Child—Physical, Emotional, and Spiritual Well-Being"
+        },
+        {
+          "startTime": 648.720624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Praying for the Whole Child—Physical, Emotional, and Spiritual Well-Being and Chapter 4 Addressing Specific Needs—Praying Through Life’s Stages and Challenges"
+        },
+        {
+          "startTime": 862.4830410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Addressing Specific Needs—Praying Through Life’s Stages and Challenges and Chapter 5 Overcoming Parental Anxiety—Finding Peace Through Faith-Filled Prayer"
+        },
+        {
+          "startTime": 1035.250749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Parental Anxiety—Finding Peace Through Faith-Filled Prayer and Chapter 6 The Practice of Persistent Prayer—Staying Faithful Over Time"
+        },
+        {
+          "startTime": 1191.413082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Practice of Persistent Prayer—Staying Faithful Over Time and Chapter 7 Praying for Family Relationships—Healing, Unity, and Forgiveness"
+        },
+        {
+          "startTime": 1322.933999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Praying for Family Relationships—Healing, Unity, and Forgiveness and Chapter 8 Praying Through Crisis—Finding Strength in Difficult Seasons"
+        },
+        {
+          "startTime": 1458.538916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Praying Through Crisis—Finding Strength in Difficult Seasons and Chapter 9 Modeling Prayer—Teaching Children to Pray for Themselves"
+        },
+        {
+          "startTime": 1570.779208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Modeling Prayer—Teaching Children to Pray for Themselves and Chapter 10 Leaving a Spiritual Legacy—The Long-Term Impact of Prayerful Parenting"
+        },
+        {
+          "startTime": 1704.3252909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leaving a Spiritual Legacy—The Long-Term Impact of Prayerful Parenting and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "444",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T03:51:31.573Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

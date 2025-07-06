@@ -1,0 +1,456 @@
+{
+  "bookId": "1024",
+  "timestamp": "2025-07-06T08:43:10.195Z",
+  "success": false,
+  "processingTime": -1751790983924,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4738,
+    "totalAudioFiles": 12,
+    "totalDuration": 2197.404209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2197.404209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1024/optimized_text/1024.md",
+    "fileSize": 762,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "1024.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1024/metadata/1024_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2197.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1024/metadata/1024_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1024/metadata/1024_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1024/1024_complete.wav",
+    "duration": 2197.404208,
+    "fileSize": 105475480,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1024/introduction.wav",
+          "duration": 99.244708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.244708,
+          "startTime": 0,
+          "endTime": 99.244708
+        },
+        {
+          "path": "Audio/output/1024/chapter_01.wav",
+          "duration": 248.2405,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Shame: The Hidden Force Shaping Lives",
+          "actualDuration": 248.2405,
+          "startTime": 100.744708,
+          "endTime": 348.985208
+        },
+        {
+          "path": "Audio/output/1024/chapter_02.wav",
+          "duration": 229.103542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Difference Between Healthy and Toxic Shame",
+          "actualDuration": 229.103542,
+          "startTime": 350.485208,
+          "endTime": 579.58875
+        },
+        {
+          "path": "Audio/output/1024/chapter_03.wav",
+          "duration": 230.876583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Childhood Experiences Plant the Seeds of Shame",
+          "actualDuration": 230.876583,
+          "startTime": 581.08875,
+          "endTime": 811.965333
+        },
+        {
+          "path": "Audio/output/1024/chapter_04.wav",
+          "duration": 235.141125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cycle of Shame and Its Connection to Addiction and Compulsive Behavior",
+          "actualDuration": 235.141125,
+          "startTime": 813.465333,
+          "endTime": 1048.606458
+        },
+        {
+          "path": "Audio/output/1024/chapter_05.wav",
+          "duration": 175.824792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Recognizing and Confronting Shame: The First Steps Toward Healing",
+          "actualDuration": 175.824792,
+          "startTime": 1050.106458,
+          "endTime": 1225.93125
+        },
+        {
+          "path": "Audio/output/1024/chapter_06.wav",
+          "duration": 177.811667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Pathways to Healing: Reclaiming the Self",
+          "actualDuration": 177.811667,
+          "startTime": 1227.43125,
+          "endTime": 1405.242917
+        },
+        {
+          "path": "Audio/output/1024/chapter_07.wav",
+          "duration": 178.486333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Connection: Finding Support and Belonging",
+          "actualDuration": 178.486333,
+          "startTime": 1406.742917,
+          "endTime": 1585.22925
+        },
+        {
+          "path": "Audio/output/1024/chapter_08.wav",
+          "duration": 177.622167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rewriting the Inner Script: Self-Compassion and New Beliefs",
+          "actualDuration": 177.622167,
+          "startTime": 1586.72925,
+          "endTime": 1764.351417
+        },
+        {
+          "path": "Audio/output/1024/chapter_09.wav",
+          "duration": 174.871625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Breaking Generational Patterns: Healing Families and Communities",
+          "actualDuration": 174.871625,
+          "startTime": 1765.851417,
+          "endTime": 1940.723042
+        },
+        {
+          "path": "Audio/output/1024/chapter_10.wav",
+          "duration": 133.135292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Beyond Shame: Embracing Wholeness and Purpose",
+          "actualDuration": 133.135292,
+          "startTime": 1942.223042,
+          "endTime": 2075.358334
+        },
+        {
+          "path": "Audio/output/1024/conclusion.wav",
+          "duration": 137.045875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.045875,
+          "startTime": 2076.858334,
+          "endTime": 2213.904209
+        }
+      ],
+      "totalDuration": 2213.904209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.24,
+          "actualStart": 0,
+          "actualEnd": 99.244708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Shame: The Hidden Force Shaping Lives",
+          "expectedStart": 99.24,
+          "expectedEnd": 347.48,
+          "actualStart": 100.744708,
+          "actualEnd": 348.985208,
+          "timeDifference": 1.504708000000008
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Difference Between Healthy and Toxic Shame",
+          "expectedStart": 347.48,
+          "expectedEnd": 576.58,
+          "actualStart": 350.485208,
+          "actualEnd": 579.58875,
+          "timeDifference": 3.005207999999982
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Childhood Experiences Plant the Seeds of Shame",
+          "expectedStart": 576.58,
+          "expectedEnd": 807.46,
+          "actualStart": 581.08875,
+          "actualEnd": 811.965333,
+          "timeDifference": 4.508749999999964
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cycle of Shame and Its Connection to Addiction and Compulsive Behavior",
+          "expectedStart": 807.46,
+          "expectedEnd": 1042.6,
+          "actualStart": 813.465333,
+          "actualEnd": 1048.606458,
+          "timeDifference": 6.0053329999999505
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Recognizing and Confronting Shame: The First Steps Toward Healing",
+          "expectedStart": 1042.6,
+          "expectedEnd": 1218.42,
+          "actualStart": 1050.106458,
+          "actualEnd": 1225.93125,
+          "timeDifference": 7.506458000000066
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Pathways to Healing: Reclaiming the Self",
+          "expectedStart": 1218.42,
+          "expectedEnd": 1396.23,
+          "actualStart": 1227.43125,
+          "actualEnd": 1405.242917,
+          "timeDifference": 9.011250000000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Connection: Finding Support and Belonging",
+          "expectedStart": 1396.23,
+          "expectedEnd": 1574.72,
+          "actualStart": 1406.742917,
+          "actualEnd": 1585.22925,
+          "timeDifference": 10.512917000000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rewriting the Inner Script: Self-Compassion and New Beliefs",
+          "expectedStart": 1574.72,
+          "expectedEnd": 1752.34,
+          "actualStart": 1586.72925,
+          "actualEnd": 1764.351417,
+          "timeDifference": 12.009250000000065
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Breaking Generational Patterns: Healing Families and Communities",
+          "expectedStart": 1752.34,
+          "expectedEnd": 1927.21,
+          "actualStart": 1765.851417,
+          "actualEnd": 1940.723042,
+          "timeDifference": 13.511417000000165
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Beyond Shame: Embracing Wholeness and Purpose",
+          "expectedStart": 1927.21,
+          "expectedEnd": 2060.35,
+          "actualStart": 1942.223042,
+          "actualEnd": 2075.358334,
+          "timeDifference": 15.013042000000041
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2060.35,
+          "expectedEnd": 2197.4,
+          "actualStart": 2076.858334,
+          "actualEnd": 2213.904209,
+          "timeDifference": 16.508334000000104
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.244708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Shame: The Hidden Force Shaping Lives"
+        },
+        {
+          "startTime": 348.985208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Shame: The Hidden Force Shaping Lives and Chapter 2 The Difference Between Healthy and Toxic Shame"
+        },
+        {
+          "startTime": 579.58875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Difference Between Healthy and Toxic Shame and Chapter 3 How Childhood Experiences Plant the Seeds of Shame"
+        },
+        {
+          "startTime": 811.965333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Childhood Experiences Plant the Seeds of Shame and Chapter 4 The Cycle of Shame and Its Connection to Addiction and Compulsive Behavior"
+        },
+        {
+          "startTime": 1048.606458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cycle of Shame and Its Connection to Addiction and Compulsive Behavior and Chapter 5 Recognizing and Confronting Shame: The First Steps Toward Healing"
+        },
+        {
+          "startTime": 1225.93125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Recognizing and Confronting Shame: The First Steps Toward Healing and Chapter 6 The Pathways to Healing: Reclaiming the Self"
+        },
+        {
+          "startTime": 1405.242917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Pathways to Healing: Reclaiming the Self and Chapter 7 The Power of Connection: Finding Support and Belonging"
+        },
+        {
+          "startTime": 1585.22925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Connection: Finding Support and Belonging and Chapter 8 Rewriting the Inner Script: Self-Compassion and New Beliefs"
+        },
+        {
+          "startTime": 1764.351417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rewriting the Inner Script: Self-Compassion and New Beliefs and Chapter 9 Breaking Generational Patterns: Healing Families and Communities"
+        },
+        {
+          "startTime": 1940.723042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Breaking Generational Patterns: Healing Families and Communities and Chapter 10 Living Beyond Shame: Embracing Wholeness and Purpose"
+        },
+        {
+          "startTime": 2075.358334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Beyond Shame: Embracing Wholeness and Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1024",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T08:36:25.491Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

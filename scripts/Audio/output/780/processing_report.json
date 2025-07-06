@@ -1,0 +1,456 @@
+{
+  "bookId": "780",
+  "timestamp": "2025-07-05T08:21:26.246Z",
+  "success": false,
+  "processingTime": -1751703409567,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4558,
+    "totalAudioFiles": 12,
+    "totalDuration": 2222.1045010000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2222.1045010000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/780/optimized_text/780.md",
+    "fileSize": 550,
+    "wordCount": 75,
+    "format": "markdown",
+    "filename": "780.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/780/metadata/780_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2222.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/780/metadata/780_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/780/metadata/780_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/780/780_complete.wav",
+    "duration": 2222.1045,
+    "fileSize": 106661094,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/780/introduction.wav",
+          "duration": 82.407792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.407792,
+          "startTime": 0,
+          "endTime": 82.407792
+        },
+        {
+          "path": "Audio/output/780/chapter_01.wav",
+          "duration": 235.33475,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Spark of Curiosity in Everyday Life",
+          "actualDuration": 235.33475,
+          "startTime": 83.907792,
+          "endTime": 319.242542
+        },
+        {
+          "path": "Audio/output/780/chapter_02.wav",
+          "duration": 238.994417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Art of Asking Questions",
+          "actualDuration": 238.994417,
+          "startTime": 320.742542,
+          "endTime": 559.7369590000001
+        },
+        {
+          "path": "Audio/output/780/chapter_03.wav",
+          "duration": 221.867875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Uncertainty and the Unknown",
+          "actualDuration": 221.867875,
+          "startTime": 561.2369590000001,
+          "endTime": 783.1048340000001
+        },
+        {
+          "path": "Audio/output/780/chapter_04.wav",
+          "duration": 214.623,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Connecting Ideas Across Different Fields",
+          "actualDuration": 214.623,
+          "startTime": 784.6048340000001,
+          "endTime": 999.227834
+        },
+        {
+          "path": "Audio/output/780/chapter_05.wav",
+          "duration": 178.343667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Meaning Through Inquiry",
+          "actualDuration": 178.343667,
+          "startTime": 1000.727834,
+          "endTime": 1179.0715010000001
+        },
+        {
+          "path": "Audio/output/780/chapter_06.wav",
+          "duration": 219.607125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courage to Challenge Assumptions",
+          "actualDuration": 219.607125,
+          "startTime": 1180.5715010000001,
+          "endTime": 1400.1786260000001
+        },
+        {
+          "path": "Audio/output/780/chapter_07.wav",
+          "duration": 190.2955,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Curiosity in Relationships",
+          "actualDuration": 190.2955,
+          "startTime": 1401.6786260000001,
+          "endTime": 1591.974126
+        },
+        {
+          "path": "Audio/output/780/chapter_08.wav",
+          "duration": 185.889958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lifelong Learning and the Evolving Self",
+          "actualDuration": 185.889958,
+          "startTime": 1593.474126,
+          "endTime": 1779.364084
+        },
+        {
+          "path": "Audio/output/780/chapter_09.wav",
+          "duration": 172.822792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Curiosity and the Wider World",
+          "actualDuration": 172.822792,
+          "startTime": 1780.864084,
+          "endTime": 1953.686876
+        },
+        {
+          "path": "Audio/output/780/chapter_10.wav",
+          "duration": 135.825125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Practice of Everyday Wonder",
+          "actualDuration": 135.825125,
+          "startTime": 1955.186876,
+          "endTime": 2091.012001
+        },
+        {
+          "path": "Audio/output/780/conclusion.wav",
+          "duration": 146.0925,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 146.0925,
+          "startTime": 2092.512001,
+          "endTime": 2238.6045010000003
+        }
+      ],
+      "totalDuration": 2238.6045010000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.41,
+          "actualStart": 0,
+          "actualEnd": 82.407792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Spark of Curiosity in Everyday Life",
+          "expectedStart": 82.41,
+          "expectedEnd": 317.74,
+          "actualStart": 83.907792,
+          "actualEnd": 319.242542,
+          "timeDifference": 1.497792000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Art of Asking Questions",
+          "expectedStart": 317.74,
+          "expectedEnd": 556.73,
+          "actualStart": 320.742542,
+          "actualEnd": 559.7369590000001,
+          "timeDifference": 3.0025420000000054
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Uncertainty and the Unknown",
+          "expectedStart": 556.73,
+          "expectedEnd": 778.6,
+          "actualStart": 561.2369590000001,
+          "actualEnd": 783.1048340000001,
+          "timeDifference": 4.506959000000052
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Connecting Ideas Across Different Fields",
+          "expectedStart": 778.6,
+          "expectedEnd": 993.22,
+          "actualStart": 784.6048340000001,
+          "actualEnd": 999.227834,
+          "timeDifference": 6.0048340000000735
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Meaning Through Inquiry",
+          "expectedStart": 993.22,
+          "expectedEnd": 1171.56,
+          "actualStart": 1000.727834,
+          "actualEnd": 1179.0715010000001,
+          "timeDifference": 7.507834000000003
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courage to Challenge Assumptions",
+          "expectedStart": 1171.56,
+          "expectedEnd": 1391.17,
+          "actualStart": 1180.5715010000001,
+          "actualEnd": 1400.1786260000001,
+          "timeDifference": 9.01150100000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Curiosity in Relationships",
+          "expectedStart": 1391.17,
+          "expectedEnd": 1581.47,
+          "actualStart": 1401.6786260000001,
+          "actualEnd": 1591.974126,
+          "timeDifference": 10.50862600000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lifelong Learning and the Evolving Self",
+          "expectedStart": 1581.47,
+          "expectedEnd": 1767.36,
+          "actualStart": 1593.474126,
+          "actualEnd": 1779.364084,
+          "timeDifference": 12.004126000000042
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Curiosity and the Wider World",
+          "expectedStart": 1767.36,
+          "expectedEnd": 1940.18,
+          "actualStart": 1780.864084,
+          "actualEnd": 1953.686876,
+          "timeDifference": 13.504084000000148
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Practice of Everyday Wonder",
+          "expectedStart": 1940.18,
+          "expectedEnd": 2076.01,
+          "actualStart": 1955.186876,
+          "actualEnd": 2091.012001,
+          "timeDifference": 15.00687599999992
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2076.01,
+          "expectedEnd": 2222.1,
+          "actualStart": 2092.512001,
+          "actualEnd": 2238.6045010000003,
+          "timeDifference": 16.502000999999836
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.407792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Spark of Curiosity in Everyday Life"
+        },
+        {
+          "startTime": 319.242542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Spark of Curiosity in Everyday Life and Chapter 2 The Art of Asking Questions"
+        },
+        {
+          "startTime": 559.7369590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Art of Asking Questions and Chapter 3 Embracing Uncertainty and the Unknown"
+        },
+        {
+          "startTime": 783.1048340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Uncertainty and the Unknown and Chapter 4 Connecting Ideas Across Different Fields"
+        },
+        {
+          "startTime": 999.227834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Connecting Ideas Across Different Fields and Chapter 5 Finding Meaning Through Inquiry"
+        },
+        {
+          "startTime": 1179.0715010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Meaning Through Inquiry and Chapter 6 The Courage to Challenge Assumptions"
+        },
+        {
+          "startTime": 1400.1786260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courage to Challenge Assumptions and Chapter 7 The Role of Curiosity in Relationships"
+        },
+        {
+          "startTime": 1591.974126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Curiosity in Relationships and Chapter 8 Lifelong Learning and the Evolving Self"
+        },
+        {
+          "startTime": 1779.364084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lifelong Learning and the Evolving Self and Chapter 9 Curiosity and the Wider World"
+        },
+        {
+          "startTime": 1953.686876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Curiosity and the Wider World and Chapter 10 The Practice of Everyday Wonder"
+        },
+        {
+          "startTime": 2091.012001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Practice of Everyday Wonder and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "780",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T08:16:50.322Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

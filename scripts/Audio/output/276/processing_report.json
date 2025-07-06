@@ -1,0 +1,456 @@
+{
+  "bookId": "276",
+  "timestamp": "2025-07-03T15:02:12.201Z",
+  "success": false,
+  "processingTime": -1751554622043,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3971,
+    "totalAudioFiles": 12,
+    "totalDuration": 2137.9051240000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2137.9051240000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/276/optimized_text/276.md",
+    "fileSize": 729,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "276.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/276/metadata/276_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2137.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/276/metadata/276_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/276/metadata/276_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 74,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/276/276_complete.wav",
+    "duration": 2137.905125,
+    "fileSize": 102619524,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/276/introduction.wav",
+          "duration": 96.7815,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.7815,
+          "startTime": 0,
+          "endTime": 96.7815
+        },
+        {
+          "path": "Audio/output/276/chapter_01.wav",
+          "duration": 186.501125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Sex as a Natural and Positive Part of Life",
+          "actualDuration": 186.501125,
+          "startTime": 98.2815,
+          "endTime": 284.782625
+        },
+        {
+          "path": "Audio/output/276/chapter_02.wav",
+          "duration": 212.575792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust and Communication in Sexual Relationships",
+          "actualDuration": 212.575792,
+          "startTime": 286.282625,
+          "endTime": 498.85841700000003
+        },
+        {
+          "path": "Audio/output/276/chapter_03.wav",
+          "duration": 218.856167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Exploring Pleasure, Variety, and Mutual Consent",
+          "actualDuration": 218.856167,
+          "startTime": 500.35841700000003,
+          "endTime": 719.2145840000001
+        },
+        {
+          "path": "Audio/output/276/chapter_04.wav",
+          "duration": 226.076583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Understanding Anatomy and the Physiology of Sexual Response",
+          "actualDuration": 226.076583,
+          "startTime": 720.7145840000001,
+          "endTime": 946.7911670000001
+        },
+        {
+          "path": "Audio/output/276/chapter_05.wav",
+          "duration": 189.788625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Emotional Intimacy and Physical Satisfaction",
+          "actualDuration": 189.788625,
+          "startTime": 948.2911670000001,
+          "endTime": 1138.079792
+        },
+        {
+          "path": "Audio/output/276/chapter_06.wav",
+          "duration": 196.0525,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Desire Differences and Sexual Challenges",
+          "actualDuration": 196.0525,
+          "startTime": 1139.579792,
+          "endTime": 1335.632292
+        },
+        {
+          "path": "Audio/output/276/chapter_07.wav",
+          "duration": 191.773583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Embracing Aging, Change, and Lifelong Sexuality",
+          "actualDuration": 191.773583,
+          "startTime": 1337.132292,
+          "endTime": 1528.905875
+        },
+        {
+          "path": "Audio/output/276/chapter_08.wav",
+          "duration": 166.364583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creating a Supportive Environment for Sexual Well-being",
+          "actualDuration": 166.364583,
+          "startTime": 1530.405875,
+          "endTime": 1696.770458
+        },
+        {
+          "path": "Audio/output/276/chapter_09.wav",
+          "duration": 147.293875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Addressing Myths, Taboos, and Expanding Sexual Horizons",
+          "actualDuration": 147.293875,
+          "startTime": 1698.270458,
+          "endTime": 1845.564333
+        },
+        {
+          "path": "Audio/output/276/chapter_10.wav",
+          "duration": 168.997708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Intimacy and Joy Over the Long Term",
+          "actualDuration": 168.997708,
+          "startTime": 1847.064333,
+          "endTime": 2016.0620410000001
+        },
+        {
+          "path": "Audio/output/276/conclusion.wav",
+          "duration": 136.843083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.843083,
+          "startTime": 2017.5620410000001,
+          "endTime": 2154.4051240000003
+        }
+      ],
+      "totalDuration": 2154.4051240000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.78,
+          "actualStart": 0,
+          "actualEnd": 96.7815,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Sex as a Natural and Positive Part of Life",
+          "expectedStart": 96.78,
+          "expectedEnd": 283.28,
+          "actualStart": 98.2815,
+          "actualEnd": 284.782625,
+          "timeDifference": 1.501499999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust and Communication in Sexual Relationships",
+          "expectedStart": 283.28,
+          "expectedEnd": 495.86,
+          "actualStart": 286.282625,
+          "actualEnd": 498.85841700000003,
+          "timeDifference": 3.002625000000023
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Exploring Pleasure, Variety, and Mutual Consent",
+          "expectedStart": 495.86,
+          "expectedEnd": 714.72,
+          "actualStart": 500.35841700000003,
+          "actualEnd": 719.2145840000001,
+          "timeDifference": 4.498417000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Understanding Anatomy and the Physiology of Sexual Response",
+          "expectedStart": 714.72,
+          "expectedEnd": 940.8,
+          "actualStart": 720.7145840000001,
+          "actualEnd": 946.7911670000001,
+          "timeDifference": 5.994584000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Emotional Intimacy and Physical Satisfaction",
+          "expectedStart": 940.8,
+          "expectedEnd": 1130.59,
+          "actualStart": 948.2911670000001,
+          "actualEnd": 1138.079792,
+          "timeDifference": 7.491167000000132
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Desire Differences and Sexual Challenges",
+          "expectedStart": 1130.59,
+          "expectedEnd": 1326.64,
+          "actualStart": 1139.579792,
+          "actualEnd": 1335.632292,
+          "timeDifference": 8.98979200000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Embracing Aging, Change, and Lifelong Sexuality",
+          "expectedStart": 1326.64,
+          "expectedEnd": 1518.41,
+          "actualStart": 1337.132292,
+          "actualEnd": 1528.905875,
+          "timeDifference": 10.492291999999907
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creating a Supportive Environment for Sexual Well-being",
+          "expectedStart": 1518.41,
+          "expectedEnd": 1684.77,
+          "actualStart": 1530.405875,
+          "actualEnd": 1696.770458,
+          "timeDifference": 11.995874999999842
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Addressing Myths, Taboos, and Expanding Sexual Horizons",
+          "expectedStart": 1684.77,
+          "expectedEnd": 1832.06,
+          "actualStart": 1698.270458,
+          "actualEnd": 1845.564333,
+          "timeDifference": 13.50045799999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Intimacy and Joy Over the Long Term",
+          "expectedStart": 1832.06,
+          "expectedEnd": 2001.06,
+          "actualStart": 1847.064333,
+          "actualEnd": 2016.0620410000001,
+          "timeDifference": 15.004333000000088
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2001.06,
+          "expectedEnd": 2137.9,
+          "actualStart": 2017.5620410000001,
+          "actualEnd": 2154.4051240000003,
+          "timeDifference": 16.50204100000019
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.7815,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Sex as a Natural and Positive Part of Life"
+        },
+        {
+          "startTime": 284.782625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Sex as a Natural and Positive Part of Life and Chapter 2 Building Trust and Communication in Sexual Relationships"
+        },
+        {
+          "startTime": 498.85841700000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust and Communication in Sexual Relationships and Chapter 3 Exploring Pleasure, Variety, and Mutual Consent"
+        },
+        {
+          "startTime": 719.2145840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Exploring Pleasure, Variety, and Mutual Consent and Chapter 4 Understanding Anatomy and the Physiology of Sexual Response"
+        },
+        {
+          "startTime": 946.7911670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Understanding Anatomy and the Physiology of Sexual Response and Chapter 5 Balancing Emotional Intimacy and Physical Satisfaction"
+        },
+        {
+          "startTime": 1138.079792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Emotional Intimacy and Physical Satisfaction and Chapter 6 Navigating Desire Differences and Sexual Challenges"
+        },
+        {
+          "startTime": 1335.632292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Desire Differences and Sexual Challenges and Chapter 7 Embracing Aging, Change, and Lifelong Sexuality"
+        },
+        {
+          "startTime": 1528.905875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Embracing Aging, Change, and Lifelong Sexuality and Chapter 8 Creating a Supportive Environment for Sexual Well-being"
+        },
+        {
+          "startTime": 1696.770458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creating a Supportive Environment for Sexual Well-being and Chapter 9 Addressing Myths, Taboos, and Expanding Sexual Horizons"
+        },
+        {
+          "startTime": 1845.564333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Addressing Myths, Taboos, and Expanding Sexual Horizons and Chapter 10 Sustaining Intimacy and Joy Over the Long Term"
+        },
+        {
+          "startTime": 2016.0620410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Intimacy and Joy Over the Long Term and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "276",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 74,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T14:57:02.574Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "298",
+  "timestamp": "2025-07-03T16:19:23.798Z",
+  "success": false,
+  "processingTime": -1751559216119,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3997,
+    "totalAudioFiles": 12,
+    "totalDuration": 1867.9514579999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1867.9514579999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/298/optimized_text/298.md",
+    "fileSize": 662,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "298.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/298/metadata/298_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1867.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/298/metadata/298_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/298/metadata/298_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/298/298_complete.wav",
+    "duration": 1867.951458,
+    "fileSize": 89661748,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/298/introduction.wav",
+          "duration": 86.511625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.511625,
+          "startTime": 0,
+          "endTime": 86.511625
+        },
+        {
+          "path": "Audio/output/298/chapter_01.wav",
+          "duration": 182.647583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Marriage and the Power of Everyday Choices",
+          "actualDuration": 182.647583,
+          "startTime": 88.011625,
+          "endTime": 270.659208
+        },
+        {
+          "path": "Audio/output/298/chapter_02.wav",
+          "duration": 186.180042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Men’s Emotional and Physical Needs",
+          "actualDuration": 186.180042,
+          "startTime": 272.159208,
+          "endTime": 458.33925
+        },
+        {
+          "path": "Audio/output/298/chapter_03.wav",
+          "duration": 177.468458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Respect and Appreciation in Daily Life",
+          "actualDuration": 177.468458,
+          "startTime": 459.83925,
+          "endTime": 637.307708
+        },
+        {
+          "path": "Audio/output/298/chapter_04.wav",
+          "duration": 178.506375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Communication That Builds Connection, Not Conflict",
+          "actualDuration": 178.506375,
+          "startTime": 638.807708,
+          "endTime": 817.314083
+        },
+        {
+          "path": "Audio/output/298/chapter_05.wav",
+          "duration": 163.237958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Small Gestures That Strengthen the Marital Bond",
+          "actualDuration": 163.237958,
+          "startTime": 818.814083,
+          "endTime": 982.0520409999999
+        },
+        {
+          "path": "Audio/output/298/chapter_06.wav",
+          "duration": 152.669333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Conflict with Compassion and Perspective",
+          "actualDuration": 152.669333,
+          "startTime": 983.5520409999999,
+          "endTime": 1136.221374
+        },
+        {
+          "path": "Audio/output/298/chapter_07.wav",
+          "duration": 167.687583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reclaiming Intimacy and Rekindling Desire",
+          "actualDuration": 167.687583,
+          "startTime": 1137.721374,
+          "endTime": 1305.4089569999999
+        },
+        {
+          "path": "Audio/output/298/chapter_08.wav",
+          "duration": 148.964667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Balancing Independence and Partnership",
+          "actualDuration": 148.964667,
+          "startTime": 1306.9089569999999,
+          "endTime": 1455.8736239999998
+        },
+        {
+          "path": "Audio/output/298/chapter_09.wav",
+          "duration": 131.315917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Forgiveness and Letting Go",
+          "actualDuration": 131.315917,
+          "startTime": 1457.3736239999998,
+          "endTime": 1588.6895409999997
+        },
+        {
+          "path": "Audio/output/298/chapter_10.wav",
+          "duration": 157.49025,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Love Through Life’s Changes",
+          "actualDuration": 157.49025,
+          "startTime": 1590.1895409999997,
+          "endTime": 1747.6797909999998
+        },
+        {
+          "path": "Audio/output/298/conclusion.wav",
+          "duration": 135.271667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.271667,
+          "startTime": 1749.1797909999998,
+          "endTime": 1884.4514579999998
+        }
+      ],
+      "totalDuration": 1884.4514579999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.51,
+          "actualStart": 0,
+          "actualEnd": 86.511625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Marriage and the Power of Everyday Choices",
+          "expectedStart": 86.51,
+          "expectedEnd": 269.16,
+          "actualStart": 88.011625,
+          "actualEnd": 270.659208,
+          "timeDifference": 1.50162499999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Men’s Emotional and Physical Needs",
+          "expectedStart": 269.16,
+          "expectedEnd": 455.34,
+          "actualStart": 272.159208,
+          "actualEnd": 458.33925,
+          "timeDifference": 2.9992079999999532
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Respect and Appreciation in Daily Life",
+          "expectedStart": 455.34,
+          "expectedEnd": 632.81,
+          "actualStart": 459.83925,
+          "actualEnd": 637.307708,
+          "timeDifference": 4.499250000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Communication That Builds Connection, Not Conflict",
+          "expectedStart": 632.81,
+          "expectedEnd": 811.32,
+          "actualStart": 638.807708,
+          "actualEnd": 817.314083,
+          "timeDifference": 5.997708000000102
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Small Gestures That Strengthen the Marital Bond",
+          "expectedStart": 811.32,
+          "expectedEnd": 974.56,
+          "actualStart": 818.814083,
+          "actualEnd": 982.0520409999999,
+          "timeDifference": 7.494082999999932
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Conflict with Compassion and Perspective",
+          "expectedStart": 974.56,
+          "expectedEnd": 1127.23,
+          "actualStart": 983.5520409999999,
+          "actualEnd": 1136.221374,
+          "timeDifference": 8.992040999999972
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reclaiming Intimacy and Rekindling Desire",
+          "expectedStart": 1127.23,
+          "expectedEnd": 1294.92,
+          "actualStart": 1137.721374,
+          "actualEnd": 1305.4089569999999,
+          "timeDifference": 10.49137399999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Balancing Independence and Partnership",
+          "expectedStart": 1294.92,
+          "expectedEnd": 1443.88,
+          "actualStart": 1306.9089569999999,
+          "actualEnd": 1455.8736239999998,
+          "timeDifference": 11.9889569999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Forgiveness and Letting Go",
+          "expectedStart": 1443.88,
+          "expectedEnd": 1575.2,
+          "actualStart": 1457.3736239999998,
+          "actualEnd": 1588.6895409999997,
+          "timeDifference": 13.493623999999727
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Love Through Life’s Changes",
+          "expectedStart": 1575.2,
+          "expectedEnd": 1732.69,
+          "actualStart": 1590.1895409999997,
+          "actualEnd": 1747.6797909999998,
+          "timeDifference": 14.98954099999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1732.69,
+          "expectedEnd": 1867.96,
+          "actualStart": 1749.1797909999998,
+          "actualEnd": 1884.4514579999998,
+          "timeDifference": 16.48979099999974
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.511625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Marriage and the Power of Everyday Choices"
+        },
+        {
+          "startTime": 270.659208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Marriage and the Power of Everyday Choices and Chapter 2 Understanding Men’s Emotional and Physical Needs"
+        },
+        {
+          "startTime": 458.33925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Men’s Emotional and Physical Needs and Chapter 3 The Power of Respect and Appreciation in Daily Life"
+        },
+        {
+          "startTime": 637.307708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Respect and Appreciation in Daily Life and Chapter 4 Communication That Builds Connection, Not Conflict"
+        },
+        {
+          "startTime": 817.314083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Communication That Builds Connection, Not Conflict and Chapter 5 Small Gestures That Strengthen the Marital Bond"
+        },
+        {
+          "startTime": 982.0520409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Small Gestures That Strengthen the Marital Bond and Chapter 6 Navigating Conflict with Compassion and Perspective"
+        },
+        {
+          "startTime": 1136.221374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Conflict with Compassion and Perspective and Chapter 7 Reclaiming Intimacy and Rekindling Desire"
+        },
+        {
+          "startTime": 1305.4089569999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reclaiming Intimacy and Rekindling Desire and Chapter 8 Balancing Independence and Partnership"
+        },
+        {
+          "startTime": 1455.8736239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Balancing Independence and Partnership and Chapter 9 The Role of Forgiveness and Letting Go"
+        },
+        {
+          "startTime": 1588.6895409999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Forgiveness and Letting Go and Chapter 10 Sustaining Love Through Life’s Changes"
+        },
+        {
+          "startTime": 1747.6797909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Love Through Life’s Changes and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "298",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T16:13:37.337Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "497",
+  "timestamp": "2025-07-04T06:55:41.508Z",
+  "success": false,
+  "processingTime": -1751611825853,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4061,
+    "totalAudioFiles": 12,
+    "totalDuration": 1821.223125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1821.223125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/497/optimized_text/497.md",
+    "fileSize": 716,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "497.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/497/metadata/497_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1821.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/497/metadata/497_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/497/metadata/497_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/497/497_complete.wav",
+    "duration": 1821.223125,
+    "fileSize": 87418788,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/497/introduction.wav",
+          "duration": 86.619708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.619708,
+          "startTime": 0,
+          "endTime": 86.619708
+        },
+        {
+          "path": "Audio/output/497/chapter_01.wav",
+          "duration": 195.096792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World Shaped by Injustice",
+          "actualDuration": 195.096792,
+          "startTime": 88.119708,
+          "endTime": 283.2165
+        },
+        {
+          "path": "Audio/output/497/chapter_02.wav",
+          "duration": 169.224583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Bonds and the Struggle for Dignity",
+          "actualDuration": 169.224583,
+          "startTime": 284.7165,
+          "endTime": 453.941083
+        },
+        {
+          "path": "Audio/output/497/chapter_03.wav",
+          "duration": 182.083458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Discovering Identity and the Power of Community",
+          "actualDuration": 182.083458,
+          "startTime": 455.441083,
+          "endTime": 637.524541
+        },
+        {
+          "path": "Audio/output/497/chapter_04.wav",
+          "duration": 207.450833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Impact of Mass Incarceration and Police Violence",
+          "actualDuration": 207.450833,
+          "startTime": 639.024541,
+          "endTime": 846.475374
+        },
+        {
+          "path": "Audio/output/497/chapter_05.wav",
+          "duration": 189.690417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Birth of a Movement Rooted in Love and Resistance",
+          "actualDuration": 189.690417,
+          "startTime": 847.975374,
+          "endTime": 1037.665791
+        },
+        {
+          "path": "Audio/output/497/chapter_06.wav",
+          "duration": 146.938042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Movement Grows: Facing the World’s Gaze",
+          "actualDuration": 146.938042,
+          "startTime": 1039.165791,
+          "endTime": 1186.103833
+        },
+        {
+          "path": "Audio/output/497/chapter_07.wav",
+          "duration": 141.179542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Toll of Activism: Burnout, Loss, and the Need for Healing",
+          "actualDuration": 141.179542,
+          "startTime": 1187.603833,
+          "endTime": 1328.783375
+        },
+        {
+          "path": "Audio/output/497/chapter_08.wav",
+          "duration": 162.655583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming the Narrative: Art, Storytelling, and the Power of Voice",
+          "actualDuration": 162.655583,
+          "startTime": 1330.283375,
+          "endTime": 1492.938958
+        },
+        {
+          "path": "Audio/output/497/chapter_09.wav",
+          "duration": 141.44,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building a Future: Policy, Progress, and the Limits of Reform",
+          "actualDuration": 141.44,
+          "startTime": 1494.438958,
+          "endTime": 1635.878958
+        },
+        {
+          "path": "Audio/output/497/chapter_10.wav",
+          "duration": 90.541917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and the Ongoing Journey Toward Justice",
+          "actualDuration": 90.541917,
+          "startTime": 1637.378958,
+          "endTime": 1727.920875
+        },
+        {
+          "path": "Audio/output/497/conclusion.wav",
+          "duration": 108.30225,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.30225,
+          "startTime": 1729.420875,
+          "endTime": 1837.723125
+        }
+      ],
+      "totalDuration": 1837.723125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.62,
+          "actualStart": 0,
+          "actualEnd": 86.619708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World Shaped by Injustice",
+          "expectedStart": 86.62,
+          "expectedEnd": 281.72,
+          "actualStart": 88.119708,
+          "actualEnd": 283.2165,
+          "timeDifference": 1.4997079999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Bonds and the Struggle for Dignity",
+          "expectedStart": 281.72,
+          "expectedEnd": 450.94,
+          "actualStart": 284.7165,
+          "actualEnd": 453.941083,
+          "timeDifference": 2.996499999999969
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Discovering Identity and the Power of Community",
+          "expectedStart": 450.94,
+          "expectedEnd": 633.02,
+          "actualStart": 455.441083,
+          "actualEnd": 637.524541,
+          "timeDifference": 4.501082999999994
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Impact of Mass Incarceration and Police Violence",
+          "expectedStart": 633.02,
+          "expectedEnd": 840.47,
+          "actualStart": 639.024541,
+          "actualEnd": 846.475374,
+          "timeDifference": 6.0045410000000174
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Birth of a Movement Rooted in Love and Resistance",
+          "expectedStart": 840.47,
+          "expectedEnd": 1030.16,
+          "actualStart": 847.975374,
+          "actualEnd": 1037.665791,
+          "timeDifference": 7.505373999999961
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Movement Grows: Facing the World’s Gaze",
+          "expectedStart": 1030.16,
+          "expectedEnd": 1177.1,
+          "actualStart": 1039.165791,
+          "actualEnd": 1186.103833,
+          "timeDifference": 9.005790999999817
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Toll of Activism: Burnout, Loss, and the Need for Healing",
+          "expectedStart": 1177.1,
+          "expectedEnd": 1318.28,
+          "actualStart": 1187.603833,
+          "actualEnd": 1328.783375,
+          "timeDifference": 10.503832999999986
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming the Narrative: Art, Storytelling, and the Power of Voice",
+          "expectedStart": 1318.28,
+          "expectedEnd": 1480.94,
+          "actualStart": 1330.283375,
+          "actualEnd": 1492.938958,
+          "timeDifference": 12.003375000000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building a Future: Policy, Progress, and the Limits of Reform",
+          "expectedStart": 1480.94,
+          "expectedEnd": 1622.38,
+          "actualStart": 1494.438958,
+          "actualEnd": 1635.878958,
+          "timeDifference": 13.498957999999902
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and the Ongoing Journey Toward Justice",
+          "expectedStart": 1622.38,
+          "expectedEnd": 1712.92,
+          "actualStart": 1637.378958,
+          "actualEnd": 1727.920875,
+          "timeDifference": 14.998957999999902
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1712.92,
+          "expectedEnd": 1821.22,
+          "actualStart": 1729.420875,
+          "actualEnd": 1837.723125,
+          "timeDifference": 16.50087499999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.619708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World Shaped by Injustice"
+        },
+        {
+          "startTime": 283.2165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World Shaped by Injustice and Chapter 2 Family Bonds and the Struggle for Dignity"
+        },
+        {
+          "startTime": 453.941083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Bonds and the Struggle for Dignity and Chapter 3 Discovering Identity and the Power of Community"
+        },
+        {
+          "startTime": 637.524541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Discovering Identity and the Power of Community and Chapter 4 The Impact of Mass Incarceration and Police Violence"
+        },
+        {
+          "startTime": 846.475374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Impact of Mass Incarceration and Police Violence and Chapter 5 The Birth of a Movement Rooted in Love and Resistance"
+        },
+        {
+          "startTime": 1037.665791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Birth of a Movement Rooted in Love and Resistance and Chapter 6 The Movement Grows: Facing the World’s Gaze"
+        },
+        {
+          "startTime": 1186.103833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Movement Grows: Facing the World’s Gaze and Chapter 7 The Toll of Activism: Burnout, Loss, and the Need for Healing"
+        },
+        {
+          "startTime": 1328.783375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Toll of Activism: Burnout, Loss, and the Need for Healing and Chapter 8 Reclaiming the Narrative: Art, Storytelling, and the Power of Voice"
+        },
+        {
+          "startTime": 1492.938958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming the Narrative: Art, Storytelling, and the Power of Voice and Chapter 9 Building a Future: Policy, Progress, and the Limits of Reform"
+        },
+        {
+          "startTime": 1635.878958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building a Future: Policy, Progress, and the Limits of Reform and Chapter 10 Legacy and the Ongoing Journey Toward Justice"
+        },
+        {
+          "startTime": 1727.920875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and the Ongoing Journey Toward Justice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "497",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T06:50:27.188Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

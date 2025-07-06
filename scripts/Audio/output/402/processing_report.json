@@ -1,0 +1,456 @@
+{
+  "bookId": "402",
+  "timestamp": "2025-07-04T01:07:08.706Z",
+  "success": false,
+  "processingTime": -1751590953891,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4325,
+    "totalAudioFiles": 12,
+    "totalDuration": 2029.8827939999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2029.8827939999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/402/optimized_text/402.md",
+    "fileSize": 730,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "402.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/402/metadata/402_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2029.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/402/metadata/402_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/402/metadata/402_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/402/402_complete.wav",
+    "duration": 2029.882792,
+    "fileSize": 97434452,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/402/introduction.wav",
+          "duration": 106.901542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.901542,
+          "startTime": 0,
+          "endTime": 106.901542
+        },
+        {
+          "path": "Audio/output/402/chapter_01.wav",
+          "duration": 229.254292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Racist Ideas Take Root and Spread",
+          "actualDuration": 229.254292,
+          "startTime": 108.401542,
+          "endTime": 337.655834
+        },
+        {
+          "path": "Audio/output/402/chapter_02.wav",
+          "duration": 218.760792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Difference Between Racist, Assimilationist, and Antiracist Thinking",
+          "actualDuration": 218.760792,
+          "startTime": 339.155834,
+          "endTime": 557.9166260000001
+        },
+        {
+          "path": "Audio/output/402/chapter_03.wav",
+          "duration": 211.054792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Racism Shapes Institutions and Everyday Life",
+          "actualDuration": 211.054792,
+          "startTime": 559.4166260000001,
+          "endTime": 770.4714180000001
+        },
+        {
+          "path": "Audio/output/402/chapter_04.wav",
+          "duration": 194.359625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ongoing Struggle for Equality and the Power of Activism",
+          "actualDuration": 194.359625,
+          "startTime": 771.9714180000001,
+          "endTime": 966.3310430000001
+        },
+        {
+          "path": "Audio/output/402/chapter_05.wav",
+          "duration": 179.0415,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Empowering Young People to Take Antiracist Action",
+          "actualDuration": 179.0415,
+          "startTime": 967.8310430000001,
+          "endTime": 1146.8725430000002
+        },
+        {
+          "path": "Audio/output/402/chapter_06.wav",
+          "duration": 198.579875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Evolution of Antiracist Thought: From Past to Present",
+          "actualDuration": 198.579875,
+          "startTime": 1148.3725430000002,
+          "endTime": 1346.952418
+        },
+        {
+          "path": "Audio/output/402/chapter_07.wav",
+          "duration": 167.59225,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Confronting Racism in Modern Times",
+          "actualDuration": 167.59225,
+          "startTime": 1348.452418,
+          "endTime": 1516.044668
+        },
+        {
+          "path": "Audio/output/402/chapter_08.wav",
+          "duration": 135.6305,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Storytelling in Changing Hearts and Minds",
+          "actualDuration": 135.6305,
+          "startTime": 1517.544668,
+          "endTime": 1653.175168
+        },
+        {
+          "path": "Audio/output/402/chapter_09.wav",
+          "duration": 138.453042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building a More Just Society: Practical Steps and Everyday Choices",
+          "actualDuration": 138.453042,
+          "startTime": 1654.675168,
+          "endTime": 1793.12821
+        },
+        {
+          "path": "Audio/output/402/chapter_10.wav",
+          "duration": 126.314792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Hope, Resilience, and the Future",
+          "actualDuration": 126.314792,
+          "startTime": 1794.62821,
+          "endTime": 1920.943002
+        },
+        {
+          "path": "Audio/output/402/conclusion.wav",
+          "duration": 123.939792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.939792,
+          "startTime": 1922.443002,
+          "endTime": 2046.3827939999999
+        }
+      ],
+      "totalDuration": 2046.3827939999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.9,
+          "actualStart": 0,
+          "actualEnd": 106.901542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Racist Ideas Take Root and Spread",
+          "expectedStart": 106.9,
+          "expectedEnd": 336.15,
+          "actualStart": 108.401542,
+          "actualEnd": 337.655834,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Difference Between Racist, Assimilationist, and Antiracist Thinking",
+          "expectedStart": 336.15,
+          "expectedEnd": 554.91,
+          "actualStart": 339.155834,
+          "actualEnd": 557.9166260000001,
+          "timeDifference": 3.00583400000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Racism Shapes Institutions and Everyday Life",
+          "expectedStart": 554.91,
+          "expectedEnd": 765.96,
+          "actualStart": 559.4166260000001,
+          "actualEnd": 770.4714180000001,
+          "timeDifference": 4.506626000000097
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ongoing Struggle for Equality and the Power of Activism",
+          "expectedStart": 765.96,
+          "expectedEnd": 960.32,
+          "actualStart": 771.9714180000001,
+          "actualEnd": 966.3310430000001,
+          "timeDifference": 6.011418000000049
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Empowering Young People to Take Antiracist Action",
+          "expectedStart": 960.32,
+          "expectedEnd": 1139.36,
+          "actualStart": 967.8310430000001,
+          "actualEnd": 1146.8725430000002,
+          "timeDifference": 7.511043000000086
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Evolution of Antiracist Thought: From Past to Present",
+          "expectedStart": 1139.36,
+          "expectedEnd": 1337.94,
+          "actualStart": 1148.3725430000002,
+          "actualEnd": 1346.952418,
+          "timeDifference": 9.012543000000278
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Confronting Racism in Modern Times",
+          "expectedStart": 1337.94,
+          "expectedEnd": 1505.53,
+          "actualStart": 1348.452418,
+          "actualEnd": 1516.044668,
+          "timeDifference": 10.512418000000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Storytelling in Changing Hearts and Minds",
+          "expectedStart": 1505.53,
+          "expectedEnd": 1641.16,
+          "actualStart": 1517.544668,
+          "actualEnd": 1653.175168,
+          "timeDifference": 12.014668000000029
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building a More Just Society: Practical Steps and Everyday Choices",
+          "expectedStart": 1641.16,
+          "expectedEnd": 1779.61,
+          "actualStart": 1654.675168,
+          "actualEnd": 1793.12821,
+          "timeDifference": 13.515167999999903
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Hope, Resilience, and the Future",
+          "expectedStart": 1779.61,
+          "expectedEnd": 1905.92,
+          "actualStart": 1794.62821,
+          "actualEnd": 1920.943002,
+          "timeDifference": 15.018210000000181
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1905.92,
+          "expectedEnd": 2029.86,
+          "actualStart": 1922.443002,
+          "actualEnd": 2046.3827939999999,
+          "timeDifference": 16.523001999999906
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.901542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Racist Ideas Take Root and Spread"
+        },
+        {
+          "startTime": 337.655834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Racist Ideas Take Root and Spread and Chapter 2 The Difference Between Racist, Assimilationist, and Antiracist Thinking"
+        },
+        {
+          "startTime": 557.9166260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Difference Between Racist, Assimilationist, and Antiracist Thinking and Chapter 3 How Racism Shapes Institutions and Everyday Life"
+        },
+        {
+          "startTime": 770.4714180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Racism Shapes Institutions and Everyday Life and Chapter 4 The Ongoing Struggle for Equality and the Power of Activism"
+        },
+        {
+          "startTime": 966.3310430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ongoing Struggle for Equality and the Power of Activism and Chapter 5 Empowering Young People to Take Antiracist Action"
+        },
+        {
+          "startTime": 1146.8725430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Empowering Young People to Take Antiracist Action and Chapter 6 The Evolution of Antiracist Thought: From Past to Present"
+        },
+        {
+          "startTime": 1346.952418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Evolution of Antiracist Thought: From Past to Present and Chapter 7 Confronting Racism in Modern Times"
+        },
+        {
+          "startTime": 1516.044668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Confronting Racism in Modern Times and Chapter 8 The Role of Storytelling in Changing Hearts and Minds"
+        },
+        {
+          "startTime": 1653.175168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Storytelling in Changing Hearts and Minds and Chapter 9 Building a More Just Society: Practical Steps and Everyday Choices"
+        },
+        {
+          "startTime": 1793.12821,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building a More Just Society: Practical Steps and Everyday Choices and Chapter 10 The Ongoing Journey: Hope, Resilience, and the Future"
+        },
+        {
+          "startTime": 1920.943002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Hope, Resilience, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "402",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T01:02:35.536Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

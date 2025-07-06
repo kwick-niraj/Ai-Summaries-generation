@@ -1,0 +1,480 @@
+{
+  "bookId": "1156",
+  "timestamp": "2025-07-06T17:56:41.609Z",
+  "success": false,
+  "processingTime": -1751824179892,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5753,
+    "totalAudioFiles": 13,
+    "totalDuration": 2528.7814580000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2528.7814580000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1156/optimized_text/1156.md",
+    "fileSize": 859,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1156.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1156/metadata/1156_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2528.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1156/metadata/1156_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1156/metadata/1156_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1156/1156_complete.wav",
+    "duration": 2528.781458,
+    "fileSize": 121381588,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1156/introduction.wav",
+          "duration": 96.54625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.54625,
+          "startTime": 0,
+          "endTime": 96.54625
+        },
+        {
+          "path": "Audio/output/1156/chapter_01.wav",
+          "duration": 235.38225,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When the World Feels Tilted: The Start of an Uncertain Journey",
+          "actualDuration": 235.38225,
+          "startTime": 98.04625,
+          "endTime": 333.4285
+        },
+        {
+          "path": "Audio/output/1156/chapter_02.wav",
+          "duration": 270.83025,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life Inside: Routines, Rules, and the Search for Self",
+          "actualDuration": 270.83025,
+          "startTime": 334.9285,
+          "endTime": 605.75875
+        },
+        {
+          "path": "Audio/output/1156/chapter_03.wav",
+          "duration": 234.56,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Diagnosis: Labels, Stigma, and the Question of Sanity",
+          "actualDuration": 234.56,
+          "startTime": 607.25875,
+          "endTime": 841.8187499999999
+        },
+        {
+          "path": "Audio/output/1156/chapter_04.wav",
+          "duration": 258.602208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Friendship, Camaraderie, and the Power of Shared Experience",
+          "actualDuration": 258.602208,
+          "startTime": 843.3187499999999,
+          "endTime": 1101.920958
+        },
+        {
+          "path": "Audio/output/1156/chapter_05.wav",
+          "duration": 223.270583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Autonomy, Control, and the Long Road to Self-Discovery",
+          "actualDuration": 223.270583,
+          "startTime": 1103.420958,
+          "endTime": 1326.691541
+        },
+        {
+          "path": "Audio/output/1156/chapter_06.wav",
+          "duration": 187.638625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Edges of Reality: Questioning What’s Real",
+          "actualDuration": 187.638625,
+          "startTime": 1328.191541,
+          "endTime": 1515.830166
+        },
+        {
+          "path": "Audio/output/1156/chapter_07.wav",
+          "duration": 199.81075,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Family Ties: Love, Distance, and the Struggle to Be Understood",
+          "actualDuration": 199.81075,
+          "startTime": 1517.330166,
+          "endTime": 1717.140916
+        },
+        {
+          "path": "Audio/output/1156/chapter_08.wav",
+          "duration": 194.604458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Outside World: Visits, Outings, and the Fear of Reintegration",
+          "actualDuration": 194.604458,
+          "startTime": 1718.640916,
+          "endTime": 1913.245374
+        },
+        {
+          "path": "Audio/output/1156/chapter_09.wav",
+          "duration": 189.360125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Long Shadow: Institutionalization and Its Lasting Impact",
+          "actualDuration": 189.360125,
+          "startTime": 1914.745374,
+          "endTime": 2104.1054990000002
+        },
+        {
+          "path": "Audio/output/1156/chapter_10.wav",
+          "duration": 178.456917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Recovery, Relapse, and the Ongoing Work of Healing",
+          "actualDuration": 178.456917,
+          "startTime": 2105.6054990000002,
+          "endTime": 2284.062416
+        },
+        {
+          "path": "Audio/output/1156/chapter_11.wav",
+          "duration": 143.183417,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Redefining Normal: Identity, Acceptance, and Moving Forward",
+          "actualDuration": 143.183417,
+          "startTime": 2285.562416,
+          "endTime": 2428.7458330000004
+        },
+        {
+          "path": "Audio/output/1156/conclusion.wav",
+          "duration": 116.535625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.535625,
+          "startTime": 2430.2458330000004,
+          "endTime": 2546.7814580000004
+        }
+      ],
+      "totalDuration": 2546.7814580000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.55,
+          "actualStart": 0,
+          "actualEnd": 96.54625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When the World Feels Tilted: The Start of an Uncertain Journey",
+          "expectedStart": 96.55,
+          "expectedEnd": 331.93,
+          "actualStart": 98.04625,
+          "actualEnd": 333.4285,
+          "timeDifference": 1.4962500000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life Inside: Routines, Rules, and the Search for Self",
+          "expectedStart": 331.93,
+          "expectedEnd": 602.76,
+          "actualStart": 334.9285,
+          "actualEnd": 605.75875,
+          "timeDifference": 2.9984999999999786
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Diagnosis: Labels, Stigma, and the Question of Sanity",
+          "expectedStart": 602.76,
+          "expectedEnd": 837.32,
+          "actualStart": 607.25875,
+          "actualEnd": 841.8187499999999,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Friendship, Camaraderie, and the Power of Shared Experience",
+          "expectedStart": 837.32,
+          "expectedEnd": 1095.92,
+          "actualStart": 843.3187499999999,
+          "actualEnd": 1101.920958,
+          "timeDifference": 5.998749999999859
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Autonomy, Control, and the Long Road to Self-Discovery",
+          "expectedStart": 1095.92,
+          "expectedEnd": 1319.19,
+          "actualStart": 1103.420958,
+          "actualEnd": 1326.691541,
+          "timeDifference": 7.500957999999855
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Edges of Reality: Questioning What’s Real",
+          "expectedStart": 1319.19,
+          "expectedEnd": 1506.83,
+          "actualStart": 1328.191541,
+          "actualEnd": 1515.830166,
+          "timeDifference": 9.001540999999861
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Family Ties: Love, Distance, and the Struggle to Be Understood",
+          "expectedStart": 1506.83,
+          "expectedEnd": 1706.64,
+          "actualStart": 1517.330166,
+          "actualEnd": 1717.140916,
+          "timeDifference": 10.500166000000036
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Outside World: Visits, Outings, and the Fear of Reintegration",
+          "expectedStart": 1706.64,
+          "expectedEnd": 1901.24,
+          "actualStart": 1718.640916,
+          "actualEnd": 1913.245374,
+          "timeDifference": 12.000915999999961
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Long Shadow: Institutionalization and Its Lasting Impact",
+          "expectedStart": 1901.24,
+          "expectedEnd": 2090.6,
+          "actualStart": 1914.745374,
+          "actualEnd": 2104.1054990000002,
+          "timeDifference": 13.505374000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Recovery, Relapse, and the Ongoing Work of Healing",
+          "expectedStart": 2090.6,
+          "expectedEnd": 2269.06,
+          "actualStart": 2105.6054990000002,
+          "actualEnd": 2284.062416,
+          "timeDifference": 15.005499000000327
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Redefining Normal: Identity, Acceptance, and Moving Forward",
+          "expectedStart": 2269.06,
+          "expectedEnd": 2412.24,
+          "actualStart": 2285.562416,
+          "actualEnd": 2428.7458330000004,
+          "timeDifference": 16.502416000000267
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2412.24,
+          "expectedEnd": 2528.78,
+          "actualStart": 2430.2458330000004,
+          "actualEnd": 2546.7814580000004,
+          "timeDifference": 18.00583300000062
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.54625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When the World Feels Tilted: The Start of an Uncertain Journey"
+        },
+        {
+          "startTime": 333.4285,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When the World Feels Tilted: The Start of an Uncertain Journey and Chapter 2 Life Inside: Routines, Rules, and the Search for Self"
+        },
+        {
+          "startTime": 605.75875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life Inside: Routines, Rules, and the Search for Self and Chapter 3 The Weight of Diagnosis: Labels, Stigma, and the Question of Sanity"
+        },
+        {
+          "startTime": 841.8187499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Diagnosis: Labels, Stigma, and the Question of Sanity and Chapter 4 Friendship, Camaraderie, and the Power of Shared Experience"
+        },
+        {
+          "startTime": 1101.920958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Friendship, Camaraderie, and the Power of Shared Experience and Chapter 5 Autonomy, Control, and the Long Road to Self-Discovery"
+        },
+        {
+          "startTime": 1326.691541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Autonomy, Control, and the Long Road to Self-Discovery and Chapter 6 The Edges of Reality: Questioning What’s Real"
+        },
+        {
+          "startTime": 1515.830166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Edges of Reality: Questioning What’s Real and Chapter 7 Family Ties: Love, Distance, and the Struggle to Be Understood"
+        },
+        {
+          "startTime": 1717.140916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Family Ties: Love, Distance, and the Struggle to Be Understood and Chapter 8 The Outside World: Visits, Outings, and the Fear of Reintegration"
+        },
+        {
+          "startTime": 1913.245374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Outside World: Visits, Outings, and the Fear of Reintegration and Chapter 9 The Long Shadow: Institutionalization and Its Lasting Impact"
+        },
+        {
+          "startTime": 2104.1054990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Long Shadow: Institutionalization and Its Lasting Impact and Chapter 10 Recovery, Relapse, and the Ongoing Work of Healing"
+        },
+        {
+          "startTime": 2284.062416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Recovery, Relapse, and the Ongoing Work of Healing and Chapter 11 Redefining Normal: Identity, Acceptance, and Moving Forward"
+        },
+        {
+          "startTime": 2428.7458330000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Redefining Normal: Identity, Acceptance, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1156",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T17:49:41.058Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

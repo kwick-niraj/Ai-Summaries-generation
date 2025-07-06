@@ -1,0 +1,456 @@
+{
+  "bookId": "635",
+  "timestamp": "2025-07-04T23:44:18.251Z",
+  "success": false,
+  "processingTime": -1751672154668,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5736,
+    "totalAudioFiles": 12,
+    "totalDuration": 2575.6932090000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2575.6932090000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/635/optimized_text/635.md",
+    "fileSize": 829,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "635.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/635/metadata/635_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2575.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/635/metadata/635_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/635/metadata/635_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/635/635_complete.wav",
+    "duration": 2575.693208,
+    "fileSize": 123633352,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/635/introduction.wav",
+          "duration": 113.001542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.001542,
+          "startTime": 0,
+          "endTime": 113.001542
+        },
+        {
+          "path": "Audio/output/635/chapter_01.wav",
+          "duration": 261.837833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Something Real: The Longing for God in Everyday Life",
+          "actualDuration": 261.837833,
+          "startTime": 114.501542,
+          "endTime": 376.339375
+        },
+        {
+          "path": "Audio/output/635/chapter_02.wav",
+          "duration": 286.14775,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 When Faith and Therapy Meet: Integrating Spirituality and Psychology",
+          "actualDuration": 286.14775,
+          "startTime": 377.839375,
+          "endTime": 663.987125
+        },
+        {
+          "path": "Audio/output/635/chapter_03.wav",
+          "duration": 274.65225,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Encounters That Change Everything: Real Stories of Divine Presence",
+          "actualDuration": 274.65225,
+          "startTime": 665.487125,
+          "endTime": 940.139375
+        },
+        {
+          "path": "Audio/output/635/chapter_04.wav",
+          "duration": 254.37575,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Faith in Healing: How Belief Transforms the Mind and Heart",
+          "actualDuration": 254.37575,
+          "startTime": 941.639375,
+          "endTime": 1196.015125
+        },
+        {
+          "path": "Audio/output/635/chapter_05.wav",
+          "duration": 271.645958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Doubt and Skepticism: The Challenge of Believing in a Modern World",
+          "actualDuration": 271.645958,
+          "startTime": 1197.515125,
+          "endTime": 1469.161083
+        },
+        {
+          "path": "Audio/output/635/chapter_06.wav",
+          "duration": 212.527083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Wounds We Carry: Healing from Spiritual Trauma",
+          "actualDuration": 212.527083,
+          "startTime": 1470.661083,
+          "endTime": 1683.188166
+        },
+        {
+          "path": "Audio/output/635/chapter_07.wav",
+          "duration": 215.335792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Practice of Presence: Experiencing God in Daily Life",
+          "actualDuration": 215.335792,
+          "startTime": 1684.688166,
+          "endTime": 1900.023958
+        },
+        {
+          "path": "Audio/output/635/chapter_08.wav",
+          "duration": 194.365292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Courage to Surrender: Letting Go and Trusting the Unknown",
+          "actualDuration": 194.365292,
+          "startTime": 1901.523958,
+          "endTime": 2095.88925
+        },
+        {
+          "path": "Audio/output/635/chapter_09.wav",
+          "duration": 192.443792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: How Personal Healing Transforms Communities",
+          "actualDuration": 192.443792,
+          "startTime": 2097.38925,
+          "endTime": 2289.833042
+        },
+        {
+          "path": "Audio/output/635/chapter_10.wav",
+          "duration": 149.891042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Mystery: Embracing Uncertainty and Wonder",
+          "actualDuration": 149.891042,
+          "startTime": 2291.333042,
+          "endTime": 2441.2240840000004
+        },
+        {
+          "path": "Audio/output/635/conclusion.wav",
+          "duration": 149.469125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.469125,
+          "startTime": 2442.7240840000004,
+          "endTime": 2592.1932090000005
+        }
+      ],
+      "totalDuration": 2592.1932090000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113,
+          "actualStart": 0,
+          "actualEnd": 113.001542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Something Real: The Longing for God in Everyday Life",
+          "expectedStart": 113,
+          "expectedEnd": 374.84,
+          "actualStart": 114.501542,
+          "actualEnd": 376.339375,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 When Faith and Therapy Meet: Integrating Spirituality and Psychology",
+          "expectedStart": 374.84,
+          "expectedEnd": 660.99,
+          "actualStart": 377.839375,
+          "actualEnd": 663.987125,
+          "timeDifference": 2.999375000000043
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Encounters That Change Everything: Real Stories of Divine Presence",
+          "expectedStart": 660.99,
+          "expectedEnd": 935.64,
+          "actualStart": 665.487125,
+          "actualEnd": 940.139375,
+          "timeDifference": 4.497124999999983
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Faith in Healing: How Belief Transforms the Mind and Heart",
+          "expectedStart": 935.64,
+          "expectedEnd": 1190.02,
+          "actualStart": 941.639375,
+          "actualEnd": 1196.015125,
+          "timeDifference": 5.999374999999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Doubt and Skepticism: The Challenge of Believing in a Modern World",
+          "expectedStart": 1190.02,
+          "expectedEnd": 1461.67,
+          "actualStart": 1197.515125,
+          "actualEnd": 1469.161083,
+          "timeDifference": 7.495124999999916
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Wounds We Carry: Healing from Spiritual Trauma",
+          "expectedStart": 1461.67,
+          "expectedEnd": 1674.2,
+          "actualStart": 1470.661083,
+          "actualEnd": 1683.188166,
+          "timeDifference": 8.99108299999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Practice of Presence: Experiencing God in Daily Life",
+          "expectedStart": 1674.2,
+          "expectedEnd": 1889.54,
+          "actualStart": 1684.688166,
+          "actualEnd": 1900.023958,
+          "timeDifference": 10.488165999999865
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Courage to Surrender: Letting Go and Trusting the Unknown",
+          "expectedStart": 1889.54,
+          "expectedEnd": 2083.91,
+          "actualStart": 1901.523958,
+          "actualEnd": 2095.88925,
+          "timeDifference": 11.98395800000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: How Personal Healing Transforms Communities",
+          "expectedStart": 2083.91,
+          "expectedEnd": 2276.35,
+          "actualStart": 2097.38925,
+          "actualEnd": 2289.833042,
+          "timeDifference": 13.47925000000032
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Mystery: Embracing Uncertainty and Wonder",
+          "expectedStart": 2276.35,
+          "expectedEnd": 2426.24,
+          "actualStart": 2291.333042,
+          "actualEnd": 2441.2240840000004,
+          "timeDifference": 14.983042000000296
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2426.24,
+          "expectedEnd": 2575.71,
+          "actualStart": 2442.7240840000004,
+          "actualEnd": 2592.1932090000005,
+          "timeDifference": 16.48408400000062
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.001542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Something Real: The Longing for God in Everyday Life"
+        },
+        {
+          "startTime": 376.339375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Something Real: The Longing for God in Everyday Life and Chapter 2 When Faith and Therapy Meet: Integrating Spirituality and Psychology"
+        },
+        {
+          "startTime": 663.987125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 When Faith and Therapy Meet: Integrating Spirituality and Psychology and Chapter 3 Encounters That Change Everything: Real Stories of Divine Presence"
+        },
+        {
+          "startTime": 940.139375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Encounters That Change Everything: Real Stories of Divine Presence and Chapter 4 The Power of Faith in Healing: How Belief Transforms the Mind and Heart"
+        },
+        {
+          "startTime": 1196.015125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Faith in Healing: How Belief Transforms the Mind and Heart and Chapter 5 Facing Doubt and Skepticism: The Challenge of Believing in a Modern World"
+        },
+        {
+          "startTime": 1469.161083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Doubt and Skepticism: The Challenge of Believing in a Modern World and Chapter 6 The Wounds We Carry: Healing from Spiritual Trauma"
+        },
+        {
+          "startTime": 1683.188166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Wounds We Carry: Healing from Spiritual Trauma and Chapter 7 The Practice of Presence: Experiencing God in Daily Life"
+        },
+        {
+          "startTime": 1900.023958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Practice of Presence: Experiencing God in Daily Life and Chapter 8 The Courage to Surrender: Letting Go and Trusting the Unknown"
+        },
+        {
+          "startTime": 2095.88925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Courage to Surrender: Letting Go and Trusting the Unknown and Chapter 9 The Ripple Effect: How Personal Healing Transforms Communities"
+        },
+        {
+          "startTime": 2289.833042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: How Personal Healing Transforms Communities and Chapter 10 Living with Mystery: Embracing Uncertainty and Wonder"
+        },
+        {
+          "startTime": 2441.2240840000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Mystery: Embracing Uncertainty and Wonder and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "635",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T23:35:56.011Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

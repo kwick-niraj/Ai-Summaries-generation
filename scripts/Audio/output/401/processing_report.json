@@ -1,0 +1,456 @@
+{
+  "bookId": "401",
+  "timestamp": "2025-07-04T01:02:32.888Z",
+  "success": false,
+  "processingTime": -1751590597154,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4122,
+    "totalAudioFiles": 12,
+    "totalDuration": 2057.2648320000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2057.2648320000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/401/optimized_text/401.md",
+    "fileSize": 759,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "401.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/401/metadata/401_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2057.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/401/metadata/401_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/401/metadata/401_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/401/401_complete.wav",
+    "duration": 2057.264833,
+    "fileSize": 98748790,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/401/introduction.wav",
+          "duration": 90.488875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.488875,
+          "startTime": 0,
+          "endTime": 90.488875
+        },
+        {
+          "path": "Audio/output/401/chapter_01.wav",
+          "duration": 206.7565,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Introversion and Its Place in Modern Life",
+          "actualDuration": 206.7565,
+          "startTime": 91.988875,
+          "endTime": 298.74537499999997
+        },
+        {
+          "path": "Audio/output/401/chapter_02.wav",
+          "duration": 236.208708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Strengths of the Inner World",
+          "actualDuration": 236.208708,
+          "startTime": 300.24537499999997,
+          "endTime": 536.454083
+        },
+        {
+          "path": "Audio/output/401/chapter_03.wav",
+          "duration": 197.339583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Challenging Stereotypes and Reclaiming Authenticity",
+          "actualDuration": 197.339583,
+          "startTime": 537.954083,
+          "endTime": 735.293666
+        },
+        {
+          "path": "Audio/output/401/chapter_04.wav",
+          "duration": 197.121208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Social Life and Relationships as an Introvert",
+          "actualDuration": 197.121208,
+          "startTime": 736.793666,
+          "endTime": 933.914874
+        },
+        {
+          "path": "Audio/output/401/chapter_05.wav",
+          "duration": 200.437333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Confidence and Advocating for Introverted Needs",
+          "actualDuration": 200.437333,
+          "startTime": 935.414874,
+          "endTime": 1135.8522070000001
+        },
+        {
+          "path": "Audio/output/401/chapter_06.wav",
+          "duration": 192.618125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Thriving at Work—Leveraging Introvert Strengths in Professional Life",
+          "actualDuration": 192.618125,
+          "startTime": 1137.3522070000001,
+          "endTime": 1329.970332
+        },
+        {
+          "path": "Audio/output/401/chapter_07.wav",
+          "duration": 168.380208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Creating a Home That Honors Solitude and Connection",
+          "actualDuration": 168.380208,
+          "startTime": 1331.470332,
+          "endTime": 1499.8505400000001
+        },
+        {
+          "path": "Audio/output/401/chapter_08.wav",
+          "duration": 157.292333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Socializing on Your Own Terms—Redefining Friendship and Community",
+          "actualDuration": 157.292333,
+          "startTime": 1501.3505400000001,
+          "endTime": 1658.6428730000002
+        },
+        {
+          "path": "Audio/output/401/chapter_09.wav",
+          "duration": 135.820042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Managing Overstimulation and Finding Renewal",
+          "actualDuration": 135.820042,
+          "startTime": 1660.1428730000002,
+          "endTime": 1795.9629150000003
+        },
+        {
+          "path": "Audio/output/401/chapter_10.wav",
+          "duration": 147.771625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Growth—Stretching Comfort Zones Without Losing Yourself",
+          "actualDuration": 147.771625,
+          "startTime": 1797.4629150000003,
+          "endTime": 1945.2345400000004
+        },
+        {
+          "path": "Audio/output/401/conclusion.wav",
+          "duration": 127.030292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.030292,
+          "startTime": 1946.7345400000004,
+          "endTime": 2073.7648320000003
+        }
+      ],
+      "totalDuration": 2073.7648320000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.49,
+          "actualStart": 0,
+          "actualEnd": 90.488875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Introversion and Its Place in Modern Life",
+          "expectedStart": 90.49,
+          "expectedEnd": 297.25,
+          "actualStart": 91.988875,
+          "actualEnd": 298.74537499999997,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Strengths of the Inner World",
+          "expectedStart": 297.25,
+          "expectedEnd": 533.46,
+          "actualStart": 300.24537499999997,
+          "actualEnd": 536.454083,
+          "timeDifference": 2.9953749999999673
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Challenging Stereotypes and Reclaiming Authenticity",
+          "expectedStart": 533.46,
+          "expectedEnd": 730.8,
+          "actualStart": 537.954083,
+          "actualEnd": 735.293666,
+          "timeDifference": 4.494082999999932
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Social Life and Relationships as an Introvert",
+          "expectedStart": 730.8,
+          "expectedEnd": 927.92,
+          "actualStart": 736.793666,
+          "actualEnd": 933.914874,
+          "timeDifference": 5.993666000000076
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Confidence and Advocating for Introverted Needs",
+          "expectedStart": 927.92,
+          "expectedEnd": 1128.36,
+          "actualStart": 935.414874,
+          "actualEnd": 1135.8522070000001,
+          "timeDifference": 7.494874000000095
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Thriving at Work—Leveraging Introvert Strengths in Professional Life",
+          "expectedStart": 1128.36,
+          "expectedEnd": 1320.98,
+          "actualStart": 1137.3522070000001,
+          "actualEnd": 1329.970332,
+          "timeDifference": 8.992207000000235
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Creating a Home That Honors Solitude and Connection",
+          "expectedStart": 1320.98,
+          "expectedEnd": 1489.36,
+          "actualStart": 1331.470332,
+          "actualEnd": 1499.8505400000001,
+          "timeDifference": 10.49033200000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Socializing on Your Own Terms—Redefining Friendship and Community",
+          "expectedStart": 1489.36,
+          "expectedEnd": 1646.65,
+          "actualStart": 1501.3505400000001,
+          "actualEnd": 1658.6428730000002,
+          "timeDifference": 11.990540000000237
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Managing Overstimulation and Finding Renewal",
+          "expectedStart": 1646.65,
+          "expectedEnd": 1782.47,
+          "actualStart": 1660.1428730000002,
+          "actualEnd": 1795.9629150000003,
+          "timeDifference": 13.492873000000145
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Growth—Stretching Comfort Zones Without Losing Yourself",
+          "expectedStart": 1782.47,
+          "expectedEnd": 1930.24,
+          "actualStart": 1797.4629150000003,
+          "actualEnd": 1945.2345400000004,
+          "timeDifference": 14.992915000000266
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1930.24,
+          "expectedEnd": 2057.27,
+          "actualStart": 1946.7345400000004,
+          "actualEnd": 2073.7648320000003,
+          "timeDifference": 16.49454000000037
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.488875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Introversion and Its Place in Modern Life"
+        },
+        {
+          "startTime": 298.74537499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Introversion and Its Place in Modern Life and Chapter 2 The Hidden Strengths of the Inner World"
+        },
+        {
+          "startTime": 536.454083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Strengths of the Inner World and Chapter 3 Challenging Stereotypes and Reclaiming Authenticity"
+        },
+        {
+          "startTime": 735.293666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Challenging Stereotypes and Reclaiming Authenticity and Chapter 4 Navigating Social Life and Relationships as an Introvert"
+        },
+        {
+          "startTime": 933.914874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Social Life and Relationships as an Introvert and Chapter 5 Building Confidence and Advocating for Introverted Needs"
+        },
+        {
+          "startTime": 1135.8522070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Confidence and Advocating for Introverted Needs and Chapter 6 Thriving at Work—Leveraging Introvert Strengths in Professional Life"
+        },
+        {
+          "startTime": 1329.970332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Thriving at Work—Leveraging Introvert Strengths in Professional Life and Chapter 7 Creating a Home That Honors Solitude and Connection"
+        },
+        {
+          "startTime": 1499.8505400000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Creating a Home That Honors Solitude and Connection and Chapter 8 Socializing on Your Own Terms—Redefining Friendship and Community"
+        },
+        {
+          "startTime": 1658.6428730000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Socializing on Your Own Terms—Redefining Friendship and Community and Chapter 9 Managing Overstimulation and Finding Renewal"
+        },
+        {
+          "startTime": 1795.9629150000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Managing Overstimulation and Finding Renewal and Chapter 10 Embracing Growth—Stretching Comfort Zones Without Losing Yourself"
+        },
+        {
+          "startTime": 1945.2345400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Growth—Stretching Comfort Zones Without Losing Yourself and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "401",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T00:56:38.809Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

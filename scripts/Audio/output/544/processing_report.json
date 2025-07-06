@@ -1,0 +1,456 @@
+{
+  "bookId": "544",
+  "timestamp": "2025-07-04T18:21:46.243Z",
+  "success": false,
+  "processingTime": -1751652864564,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4957,
+    "totalAudioFiles": 12,
+    "totalDuration": 2445.2059169999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2445.2059169999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/544/optimized_text/544.md",
+    "fileSize": 833,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "544.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/544/metadata/544_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2445.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/544/metadata/544_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/544/metadata/544_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/544/544_complete.wav",
+    "duration": 2445.205917,
+    "fileSize": 117369962,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/544/introduction.wav",
+          "duration": 100.924167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.924167,
+          "startTime": 0,
+          "endTime": 100.924167
+        },
+        {
+          "path": "Audio/output/544/chapter_01.wav",
+          "duration": 225.352333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Power Forgets Its Purpose—What Makes a State Fail",
+          "actualDuration": 225.352333,
+          "startTime": 102.424167,
+          "endTime": 327.7765
+        },
+        {
+          "path": "Audio/output/544/chapter_02.wav",
+          "duration": 232.995542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Erosion of Democracy—How Institutions Lose Their Way",
+          "actualDuration": 232.995542,
+          "startTime": 329.2765,
+          "endTime": 562.272042
+        },
+        {
+          "path": "Audio/output/544/chapter_03.wav",
+          "duration": 237.113208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Narrative—Media, Propaganda, and Public Consent",
+          "actualDuration": 237.113208,
+          "startTime": 563.772042,
+          "endTime": 800.88525
+        },
+        {
+          "path": "Audio/output/544/chapter_04.wav",
+          "duration": 240.895458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Foreign Policy and the Double Standard—Preaching Democracy, Practicing Power",
+          "actualDuration": 240.895458,
+          "startTime": 802.38525,
+          "endTime": 1043.280708
+        },
+        {
+          "path": "Audio/output/544/chapter_05.wav",
+          "duration": 226.546292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Neglect at Home—The Cost of Ignoring Citizens’ Needs",
+          "actualDuration": 226.546292,
+          "startTime": 1044.780708,
+          "endTime": 1271.327
+        },
+        {
+          "path": "Audio/output/544/chapter_06.wav",
+          "duration": 219.67375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Accountability Lost—When Leaders Answer to Themselves",
+          "actualDuration": 219.67375,
+          "startTime": 1272.827,
+          "endTime": 1492.50075
+        },
+        {
+          "path": "Audio/output/544/chapter_07.wav",
+          "duration": 222.617292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Global Shadow—How American Power Shapes the World",
+          "actualDuration": 222.617292,
+          "startTime": 1494.00075,
+          "endTime": 1716.6180419999998
+        },
+        {
+          "path": "Audio/output/544/chapter_08.wav",
+          "duration": 195.128542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Machinery of Control—Surveillance, Secrecy, and the Loss of Privacy",
+          "actualDuration": 195.128542,
+          "startTime": 1718.1180419999998,
+          "endTime": 1913.2465839999998
+        },
+        {
+          "path": "Audio/output/544/chapter_09.wav",
+          "duration": 202.515417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Hope of Renewal—Grassroots Movements and the Power of Ordinary People",
+          "actualDuration": 202.515417,
+          "startTime": 1914.7465839999998,
+          "endTime": 2117.2620009999996
+        },
+        {
+          "path": "Audio/output/544/chapter_10.wav",
+          "duration": 179.035083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reimagining the Social Contract—What a Just Society Could Be",
+          "actualDuration": 179.035083,
+          "startTime": 2118.7620009999996,
+          "endTime": 2297.797084
+        },
+        {
+          "path": "Audio/output/544/conclusion.wav",
+          "duration": 162.408833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 162.408833,
+          "startTime": 2299.297084,
+          "endTime": 2461.7059169999998
+        }
+      ],
+      "totalDuration": 2461.7059169999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.92,
+          "actualStart": 0,
+          "actualEnd": 100.924167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Power Forgets Its Purpose—What Makes a State Fail",
+          "expectedStart": 100.92,
+          "expectedEnd": 326.27,
+          "actualStart": 102.424167,
+          "actualEnd": 327.7765,
+          "timeDifference": 1.5041669999999954
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Erosion of Democracy—How Institutions Lose Their Way",
+          "expectedStart": 326.27,
+          "expectedEnd": 559.27,
+          "actualStart": 329.2765,
+          "actualEnd": 562.272042,
+          "timeDifference": 3.006500000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Narrative—Media, Propaganda, and Public Consent",
+          "expectedStart": 559.27,
+          "expectedEnd": 796.38,
+          "actualStart": 563.772042,
+          "actualEnd": 800.88525,
+          "timeDifference": 4.502042000000074
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Foreign Policy and the Double Standard—Preaching Democracy, Practicing Power",
+          "expectedStart": 796.38,
+          "expectedEnd": 1037.28,
+          "actualStart": 802.38525,
+          "actualEnd": 1043.280708,
+          "timeDifference": 6.005250000000046
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Neglect at Home—The Cost of Ignoring Citizens’ Needs",
+          "expectedStart": 1037.28,
+          "expectedEnd": 1263.83,
+          "actualStart": 1044.780708,
+          "actualEnd": 1271.327,
+          "timeDifference": 7.5007080000000315
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Accountability Lost—When Leaders Answer to Themselves",
+          "expectedStart": 1263.83,
+          "expectedEnd": 1483.5,
+          "actualStart": 1272.827,
+          "actualEnd": 1492.50075,
+          "timeDifference": 8.997000000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Global Shadow—How American Power Shapes the World",
+          "expectedStart": 1483.5,
+          "expectedEnd": 1706.12,
+          "actualStart": 1494.00075,
+          "actualEnd": 1716.6180419999998,
+          "timeDifference": 10.500749999999925
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Machinery of Control—Surveillance, Secrecy, and the Loss of Privacy",
+          "expectedStart": 1706.12,
+          "expectedEnd": 1901.25,
+          "actualStart": 1718.1180419999998,
+          "actualEnd": 1913.2465839999998,
+          "timeDifference": 11.998041999999941
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Hope of Renewal—Grassroots Movements and the Power of Ordinary People",
+          "expectedStart": 1901.25,
+          "expectedEnd": 2103.77,
+          "actualStart": 1914.7465839999998,
+          "actualEnd": 2117.2620009999996,
+          "timeDifference": 13.496583999999757
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reimagining the Social Contract—What a Just Society Could Be",
+          "expectedStart": 2103.77,
+          "expectedEnd": 2282.81,
+          "actualStart": 2118.7620009999996,
+          "actualEnd": 2297.797084,
+          "timeDifference": 14.992000999999618
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2282.81,
+          "expectedEnd": 2445.22,
+          "actualStart": 2299.297084,
+          "actualEnd": 2461.7059169999998,
+          "timeDifference": 16.487083999999868
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.924167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Power Forgets Its Purpose—What Makes a State Fail"
+        },
+        {
+          "startTime": 327.7765,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Power Forgets Its Purpose—What Makes a State Fail and Chapter 2 The Erosion of Democracy—How Institutions Lose Their Way"
+        },
+        {
+          "startTime": 562.272042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Erosion of Democracy—How Institutions Lose Their Way and Chapter 3 The Power of Narrative—Media, Propaganda, and Public Consent"
+        },
+        {
+          "startTime": 800.88525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Narrative—Media, Propaganda, and Public Consent and Chapter 4 Foreign Policy and the Double Standard—Preaching Democracy, Practicing Power"
+        },
+        {
+          "startTime": 1043.280708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Foreign Policy and the Double Standard—Preaching Democracy, Practicing Power and Chapter 5 Neglect at Home—The Cost of Ignoring Citizens’ Needs"
+        },
+        {
+          "startTime": 1271.327,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Neglect at Home—The Cost of Ignoring Citizens’ Needs and Chapter 6 Accountability Lost—When Leaders Answer to Themselves"
+        },
+        {
+          "startTime": 1492.50075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Accountability Lost—When Leaders Answer to Themselves and Chapter 7 The Global Shadow—How American Power Shapes the World"
+        },
+        {
+          "startTime": 1716.6180419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Global Shadow—How American Power Shapes the World and Chapter 8 The Machinery of Control—Surveillance, Secrecy, and the Loss of Privacy"
+        },
+        {
+          "startTime": 1913.2465839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Machinery of Control—Surveillance, Secrecy, and the Loss of Privacy and Chapter 9 The Hope of Renewal—Grassroots Movements and the Power of Ordinary People"
+        },
+        {
+          "startTime": 2117.2620009999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Hope of Renewal—Grassroots Movements and the Power of Ordinary People and Chapter 10 Reimagining the Social Contract—What a Just Society Could Be"
+        },
+        {
+          "startTime": 2297.797084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reimagining the Social Contract—What a Just Society Could Be and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "544",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T18:14:25.082Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

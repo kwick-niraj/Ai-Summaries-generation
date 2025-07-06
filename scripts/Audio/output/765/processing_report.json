@@ -1,0 +1,456 @@
+{
+  "bookId": "765",
+  "timestamp": "2025-07-05T07:54:16.718Z",
+  "success": false,
+  "processingTime": -1751701612267,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4344,
+    "totalAudioFiles": 12,
+    "totalDuration": 2148.55425
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2148.55425
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/765/optimized_text/765.md",
+    "fileSize": 669,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "765.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/765/metadata/765_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2148.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/765/metadata/765_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/765/metadata/765_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/765/765_complete.wav",
+    "duration": 2148.55425,
+    "fileSize": 103130682,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/765/introduction.wav",
+          "duration": 93.329792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.329792,
+          "startTime": 0,
+          "endTime": 93.329792
+        },
+        {
+          "path": "Audio/output/765/chapter_01.wav",
+          "duration": 211.209125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Heart of a Personal Relationship with Christ",
+          "actualDuration": 211.209125,
+          "startTime": 94.829792,
+          "endTime": 306.03891699999997
+        },
+        {
+          "path": "Audio/output/765/chapter_02.wav",
+          "duration": 223.781958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Practice of Daily Spiritual Communion",
+          "actualDuration": 223.781958,
+          "startTime": 307.53891699999997,
+          "endTime": 531.320875
+        },
+        {
+          "path": "Audio/output/765/chapter_03.wav",
+          "duration": 218.12275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Transforming Power of Christ’s Indwelling Presence",
+          "actualDuration": 218.12275,
+          "startTime": 532.820875,
+          "endTime": 750.943625
+        },
+        {
+          "path": "Audio/output/765/chapter_04.wav",
+          "duration": 214.122875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Prayer as Living Communion and Surrender",
+          "actualDuration": 214.122875,
+          "startTime": 752.443625,
+          "endTime": 966.5665
+        },
+        {
+          "path": "Audio/output/765/chapter_05.wav",
+          "duration": 205.89275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Faith Expressed Through Practical Obedience",
+          "actualDuration": 205.89275,
+          "startTime": 968.0665,
+          "endTime": 1173.95925
+        },
+        {
+          "path": "Audio/output/765/chapter_06.wav",
+          "duration": 186.39425,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gentle Guidance of the Holy Spirit",
+          "actualDuration": 186.39425,
+          "startTime": 1175.45925,
+          "endTime": 1361.8535000000002
+        },
+        {
+          "path": "Audio/output/765/chapter_07.wav",
+          "duration": 174.707625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Growing Through Seasons of Doubt and Dryness",
+          "actualDuration": 174.707625,
+          "startTime": 1363.3535000000002,
+          "endTime": 1538.0611250000002
+        },
+        {
+          "path": "Audio/output/765/chapter_08.wav",
+          "duration": 158.581583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community: Sharing the Journey with Others",
+          "actualDuration": 158.581583,
+          "startTime": 1539.5611250000002,
+          "endTime": 1698.142708
+        },
+        {
+          "path": "Audio/output/765/chapter_09.wav",
+          "duration": 176.628167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Suffering, Surrender, and the Sustaining Presence of Christ",
+          "actualDuration": 176.628167,
+          "startTime": 1699.642708,
+          "endTime": 1876.2708750000002
+        },
+        {
+          "path": "Audio/output/765/chapter_10.wav",
+          "duration": 148.902708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Out Communion: Everyday Faithfulness",
+          "actualDuration": 148.902708,
+          "startTime": 1877.7708750000002,
+          "endTime": 2026.6735830000002
+        },
+        {
+          "path": "Audio/output/765/conclusion.wav",
+          "duration": 136.880667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.880667,
+          "startTime": 2028.1735830000002,
+          "endTime": 2165.05425
+        }
+      ],
+      "totalDuration": 2165.05425,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.33,
+          "actualStart": 0,
+          "actualEnd": 93.329792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Heart of a Personal Relationship with Christ",
+          "expectedStart": 93.33,
+          "expectedEnd": 304.54,
+          "actualStart": 94.829792,
+          "actualEnd": 306.03891699999997,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Practice of Daily Spiritual Communion",
+          "expectedStart": 304.54,
+          "expectedEnd": 528.32,
+          "actualStart": 307.53891699999997,
+          "actualEnd": 531.320875,
+          "timeDifference": 2.998916999999949
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Transforming Power of Christ’s Indwelling Presence",
+          "expectedStart": 528.32,
+          "expectedEnd": 746.44,
+          "actualStart": 532.820875,
+          "actualEnd": 750.943625,
+          "timeDifference": 4.500874999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Prayer as Living Communion and Surrender",
+          "expectedStart": 746.44,
+          "expectedEnd": 960.56,
+          "actualStart": 752.443625,
+          "actualEnd": 966.5665,
+          "timeDifference": 6.003624999999943
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Faith Expressed Through Practical Obedience",
+          "expectedStart": 960.56,
+          "expectedEnd": 1166.45,
+          "actualStart": 968.0665,
+          "actualEnd": 1173.95925,
+          "timeDifference": 7.506500000000074
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gentle Guidance of the Holy Spirit",
+          "expectedStart": 1166.45,
+          "expectedEnd": 1352.84,
+          "actualStart": 1175.45925,
+          "actualEnd": 1361.8535000000002,
+          "timeDifference": 9.009250000000065
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Growing Through Seasons of Doubt and Dryness",
+          "expectedStart": 1352.84,
+          "expectedEnd": 1527.55,
+          "actualStart": 1363.3535000000002,
+          "actualEnd": 1538.0611250000002,
+          "timeDifference": 10.51350000000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community: Sharing the Journey with Others",
+          "expectedStart": 1527.55,
+          "expectedEnd": 1686.13,
+          "actualStart": 1539.5611250000002,
+          "actualEnd": 1698.142708,
+          "timeDifference": 12.01112500000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Suffering, Surrender, and the Sustaining Presence of Christ",
+          "expectedStart": 1686.13,
+          "expectedEnd": 1862.76,
+          "actualStart": 1699.642708,
+          "actualEnd": 1876.2708750000002,
+          "timeDifference": 13.512707999999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Out Communion: Everyday Faithfulness",
+          "expectedStart": 1862.76,
+          "expectedEnd": 2011.66,
+          "actualStart": 1877.7708750000002,
+          "actualEnd": 2026.6735830000002,
+          "timeDifference": 15.01087500000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2011.66,
+          "expectedEnd": 2148.54,
+          "actualStart": 2028.1735830000002,
+          "actualEnd": 2165.05425,
+          "timeDifference": 16.513583000000153
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.329792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Heart of a Personal Relationship with Christ"
+        },
+        {
+          "startTime": 306.03891699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Heart of a Personal Relationship with Christ and Chapter 2 The Practice of Daily Spiritual Communion"
+        },
+        {
+          "startTime": 531.320875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Practice of Daily Spiritual Communion and Chapter 3 The Transforming Power of Christ’s Indwelling Presence"
+        },
+        {
+          "startTime": 750.943625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Transforming Power of Christ’s Indwelling Presence and Chapter 4 Prayer as Living Communion and Surrender"
+        },
+        {
+          "startTime": 966.5665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Prayer as Living Communion and Surrender and Chapter 5 Faith Expressed Through Practical Obedience"
+        },
+        {
+          "startTime": 1173.95925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Faith Expressed Through Practical Obedience and Chapter 6 The Gentle Guidance of the Holy Spirit"
+        },
+        {
+          "startTime": 1361.8535000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gentle Guidance of the Holy Spirit and Chapter 7 Growing Through Seasons of Doubt and Dryness"
+        },
+        {
+          "startTime": 1538.0611250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Growing Through Seasons of Doubt and Dryness and Chapter 8 Community: Sharing the Journey with Others"
+        },
+        {
+          "startTime": 1698.142708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community: Sharing the Journey with Others and Chapter 9 Suffering, Surrender, and the Sustaining Presence of Christ"
+        },
+        {
+          "startTime": 1876.2708750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Suffering, Surrender, and the Sustaining Presence of Christ and Chapter 10 Living Out Communion: Everyday Faithfulness"
+        },
+        {
+          "startTime": 2026.6735830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Out Communion: Everyday Faithfulness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "765",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T07:46:53.773Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

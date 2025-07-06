@@ -1,0 +1,456 @@
+{
+  "bookId": "1074",
+  "timestamp": "2025-07-06T11:28:49.722Z",
+  "success": false,
+  "processingTime": -1751800945309,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4569,
+    "totalAudioFiles": 12,
+    "totalDuration": 2156.6156240000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2156.6156240000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1074/optimized_text/1074.md",
+    "fileSize": 633,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "1074.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1074/metadata/1074_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2156.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1074/metadata/1074_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1074/metadata/1074_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1074/1074_complete.wav",
+    "duration": 2156.615625,
+    "fileSize": 103517628,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1074/introduction.wav",
+          "duration": 95.269792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.269792,
+          "startTime": 0,
+          "endTime": 95.269792
+        },
+        {
+          "path": "Audio/output/1074/chapter_01.wav",
+          "duration": 289.107333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Dreams and Doubts in a Growing City",
+          "actualDuration": 289.107333,
+          "startTime": 96.769792,
+          "endTime": 385.877125
+        },
+        {
+          "path": "Audio/output/1074/chapter_02.wav",
+          "duration": 225.470708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Architects and the Weight of Expectation",
+          "actualDuration": 225.470708,
+          "startTime": 387.377125,
+          "endTime": 612.847833
+        },
+        {
+          "path": "Audio/output/1074/chapter_03.wav",
+          "duration": 215.829333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shadows in the City—A Different Kind of Ambition",
+          "actualDuration": 215.829333,
+          "startTime": 614.347833,
+          "endTime": 830.177166
+        },
+        {
+          "path": "Audio/output/1074/chapter_04.wav",
+          "duration": 270.914458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The White City Rises—Hope, Hardship, and Human Ingenuity",
+          "actualDuration": 270.914458,
+          "startTime": 831.677166,
+          "endTime": 1102.5916240000001
+        },
+        {
+          "path": "Audio/output/1074/chapter_05.wav",
+          "duration": 197.167417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Fair’s Allure and the Hidden Dangers",
+          "actualDuration": 197.167417,
+          "startTime": 1104.0916240000001,
+          "endTime": 1301.2590410000003
+        },
+        {
+          "path": "Audio/output/1074/chapter_06.wav",
+          "duration": 176.869042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Wonders and Worries—The Fair’s Dazzling Days",
+          "actualDuration": 176.869042,
+          "startTime": 1302.7590410000003,
+          "endTime": 1479.6280830000003
+        },
+        {
+          "path": "Audio/output/1074/chapter_07.wav",
+          "duration": 151.646167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Unraveling—Secrets Come to Light",
+          "actualDuration": 151.646167,
+          "startTime": 1481.1280830000003,
+          "endTime": 1632.7742500000004
+        },
+        {
+          "path": "Audio/output/1074/chapter_08.wav",
+          "duration": 151.438333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The End of the Fair—A City Changed",
+          "actualDuration": 151.438333,
+          "startTime": 1634.2742500000004,
+          "endTime": 1785.7125830000004
+        },
+        {
+          "path": "Audio/output/1074/chapter_09.wav",
+          "duration": 141.091583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Aftermath—Reckoning with Light and Shadow",
+          "actualDuration": 141.091583,
+          "startTime": 1787.2125830000004,
+          "endTime": 1928.3041660000004
+        },
+        {
+          "path": "Audio/output/1074/chapter_10.wav",
+          "duration": 136.788083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy—Lessons from the White City",
+          "actualDuration": 136.788083,
+          "startTime": 1929.8041660000004,
+          "endTime": 2066.5922490000003
+        },
+        {
+          "path": "Audio/output/1074/conclusion.wav",
+          "duration": 105.023375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 105.023375,
+          "startTime": 2068.0922490000003,
+          "endTime": 2173.1156240000005
+        }
+      ],
+      "totalDuration": 2173.1156240000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.27,
+          "actualStart": 0,
+          "actualEnd": 95.269792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Dreams and Doubts in a Growing City",
+          "expectedStart": 95.27,
+          "expectedEnd": 384.38,
+          "actualStart": 96.769792,
+          "actualEnd": 385.877125,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Architects and the Weight of Expectation",
+          "expectedStart": 384.38,
+          "expectedEnd": 609.85,
+          "actualStart": 387.377125,
+          "actualEnd": 612.847833,
+          "timeDifference": 2.9971249999999827
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shadows in the City—A Different Kind of Ambition",
+          "expectedStart": 609.85,
+          "expectedEnd": 825.68,
+          "actualStart": 614.347833,
+          "actualEnd": 830.177166,
+          "timeDifference": 4.497833000000014
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The White City Rises—Hope, Hardship, and Human Ingenuity",
+          "expectedStart": 825.68,
+          "expectedEnd": 1096.59,
+          "actualStart": 831.677166,
+          "actualEnd": 1102.5916240000001,
+          "timeDifference": 5.997166000000107
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Fair’s Allure and the Hidden Dangers",
+          "expectedStart": 1096.59,
+          "expectedEnd": 1293.76,
+          "actualStart": 1104.0916240000001,
+          "actualEnd": 1301.2590410000003,
+          "timeDifference": 7.50162400000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Wonders and Worries—The Fair’s Dazzling Days",
+          "expectedStart": 1293.76,
+          "expectedEnd": 1470.63,
+          "actualStart": 1302.7590410000003,
+          "actualEnd": 1479.6280830000003,
+          "timeDifference": 8.999041000000261
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Unraveling—Secrets Come to Light",
+          "expectedStart": 1470.63,
+          "expectedEnd": 1622.28,
+          "actualStart": 1481.1280830000003,
+          "actualEnd": 1632.7742500000004,
+          "timeDifference": 10.498083000000179
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The End of the Fair—A City Changed",
+          "expectedStart": 1622.28,
+          "expectedEnd": 1773.72,
+          "actualStart": 1634.2742500000004,
+          "actualEnd": 1785.7125830000004,
+          "timeDifference": 11.99425000000042
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Aftermath—Reckoning with Light and Shadow",
+          "expectedStart": 1773.72,
+          "expectedEnd": 1914.81,
+          "actualStart": 1787.2125830000004,
+          "actualEnd": 1928.3041660000004,
+          "timeDifference": 13.492583000000423
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy—Lessons from the White City",
+          "expectedStart": 1914.81,
+          "expectedEnd": 2051.6,
+          "actualStart": 1929.8041660000004,
+          "actualEnd": 2066.5922490000003,
+          "timeDifference": 14.994166000000405
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2051.6,
+          "expectedEnd": 2156.62,
+          "actualStart": 2068.0922490000003,
+          "actualEnd": 2173.1156240000005,
+          "timeDifference": 16.492249000000356
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.269792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Dreams and Doubts in a Growing City"
+        },
+        {
+          "startTime": 385.877125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Dreams and Doubts in a Growing City and Chapter 2 The Architects and the Weight of Expectation"
+        },
+        {
+          "startTime": 612.847833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Architects and the Weight of Expectation and Chapter 3 Shadows in the City—A Different Kind of Ambition"
+        },
+        {
+          "startTime": 830.177166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shadows in the City—A Different Kind of Ambition and Chapter 4 The White City Rises—Hope, Hardship, and Human Ingenuity"
+        },
+        {
+          "startTime": 1102.5916240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The White City Rises—Hope, Hardship, and Human Ingenuity and Chapter 5 The Fair’s Allure and the Hidden Dangers"
+        },
+        {
+          "startTime": 1301.2590410000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Fair’s Allure and the Hidden Dangers and Chapter 6 Wonders and Worries—The Fair’s Dazzling Days"
+        },
+        {
+          "startTime": 1479.6280830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Wonders and Worries—The Fair’s Dazzling Days and Chapter 7 The Unraveling—Secrets Come to Light"
+        },
+        {
+          "startTime": 1632.7742500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Unraveling—Secrets Come to Light and Chapter 8 The End of the Fair—A City Changed"
+        },
+        {
+          "startTime": 1785.7125830000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The End of the Fair—A City Changed and Chapter 9 Aftermath—Reckoning with Light and Shadow"
+        },
+        {
+          "startTime": 1928.3041660000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Aftermath—Reckoning with Light and Shadow and Chapter 10 Legacy—Lessons from the White City"
+        },
+        {
+          "startTime": 2066.5922490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy—Lessons from the White City and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1074",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:22:26.624Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

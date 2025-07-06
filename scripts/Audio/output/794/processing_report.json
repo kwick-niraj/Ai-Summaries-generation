@@ -1,0 +1,456 @@
+{
+  "bookId": "794",
+  "timestamp": "2025-07-05T09:10:06.233Z",
+  "success": false,
+  "processingTime": -1751706321052,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5650,
+    "totalAudioFiles": 12,
+    "totalDuration": 2575.6760839999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2575.6760839999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/794/optimized_text/794.md",
+    "fileSize": 853,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "794.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/794/metadata/794_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2575.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/794/metadata/794_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/794/metadata/794_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/794/794_complete.wav",
+    "duration": 2575.676083,
+    "fileSize": 123632530,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/794/introduction.wav",
+          "duration": 78.836042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.836042,
+          "startTime": 0,
+          "endTime": 78.836042
+        },
+        {
+          "path": "Audio/output/794/chapter_01.wav",
+          "duration": 268.637792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Uneven Starting Line: Entering America’s Divided Schools",
+          "actualDuration": 268.637792,
+          "startTime": 80.336042,
+          "endTime": 348.973834
+        },
+        {
+          "path": "Audio/output/794/chapter_02.wav",
+          "duration": 273.376625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Inequality: How School Funding Deepens the Divide",
+          "actualDuration": 273.376625,
+          "startTime": 350.473834,
+          "endTime": 623.850459
+        },
+        {
+          "path": "Audio/output/794/chapter_03.wav",
+          "duration": 236.750333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life Inside Underfunded Schools: Struggles, Hopes, and Daily Realities",
+          "actualDuration": 236.750333,
+          "startTime": 625.350459,
+          "endTime": 862.100792
+        },
+        {
+          "path": "Audio/output/794/chapter_04.wav",
+          "duration": 241.200167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Other Side: Privilege and Opportunity in Wealthy Districts",
+          "actualDuration": 241.200167,
+          "startTime": 863.600792,
+          "endTime": 1104.800959
+        },
+        {
+          "path": "Audio/output/794/chapter_05.wav",
+          "duration": 272.260792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Cycle of Segregation: Race, Poverty, and the Persistence of Inequality",
+          "actualDuration": 272.260792,
+          "startTime": 1106.300959,
+          "endTime": 1378.561751
+        },
+        {
+          "path": "Audio/output/794/chapter_06.wav",
+          "duration": 243.076083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Human Cost: Dreams Deferred and the Weight of Injustice",
+          "actualDuration": 243.076083,
+          "startTime": 1380.061751,
+          "endTime": 1623.1378339999999
+        },
+        {
+          "path": "Audio/output/794/chapter_07.wav",
+          "duration": 229.104958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Attempts at Reform: Hope, Resistance, and the Limits of Change",
+          "actualDuration": 229.104958,
+          "startTime": 1624.6378339999999,
+          "endTime": 1853.742792
+        },
+        {
+          "path": "Audio/output/794/chapter_08.wav",
+          "duration": 191.705,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Community: Grassroots Efforts and Everyday Heroes",
+          "actualDuration": 191.705,
+          "startTime": 1855.242792,
+          "endTime": 2046.947792
+        },
+        {
+          "path": "Audio/output/794/chapter_09.wav",
+          "duration": 203.66675,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The National Conversation: Myths, Realities, and the Struggle for Justice",
+          "actualDuration": 203.66675,
+          "startTime": 2048.447792,
+          "endTime": 2252.114542
+        },
+        {
+          "path": "Audio/output/794/chapter_10.wav",
+          "duration": 172.298667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Hope: Children, Teachers, and the Possibility of Change",
+          "actualDuration": 172.298667,
+          "startTime": 2253.614542,
+          "endTime": 2425.913209
+        },
+        {
+          "path": "Audio/output/794/conclusion.wav",
+          "duration": 164.762875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 164.762875,
+          "startTime": 2427.413209,
+          "endTime": 2592.1760839999997
+        }
+      ],
+      "totalDuration": 2592.1760839999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.84,
+          "actualStart": 0,
+          "actualEnd": 78.836042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Uneven Starting Line: Entering America’s Divided Schools",
+          "expectedStart": 78.84,
+          "expectedEnd": 347.48,
+          "actualStart": 80.336042,
+          "actualEnd": 348.973834,
+          "timeDifference": 1.4960420000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Inequality: How School Funding Deepens the Divide",
+          "expectedStart": 347.48,
+          "expectedEnd": 620.86,
+          "actualStart": 350.473834,
+          "actualEnd": 623.850459,
+          "timeDifference": 2.9938339999999926
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life Inside Underfunded Schools: Struggles, Hopes, and Daily Realities",
+          "expectedStart": 620.86,
+          "expectedEnd": 857.61,
+          "actualStart": 625.350459,
+          "actualEnd": 862.100792,
+          "timeDifference": 4.490458999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Other Side: Privilege and Opportunity in Wealthy Districts",
+          "expectedStart": 857.61,
+          "expectedEnd": 1098.81,
+          "actualStart": 863.600792,
+          "actualEnd": 1104.800959,
+          "timeDifference": 5.990791999999942
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Cycle of Segregation: Race, Poverty, and the Persistence of Inequality",
+          "expectedStart": 1098.81,
+          "expectedEnd": 1371.07,
+          "actualStart": 1106.300959,
+          "actualEnd": 1378.561751,
+          "timeDifference": 7.490958999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Human Cost: Dreams Deferred and the Weight of Injustice",
+          "expectedStart": 1371.07,
+          "expectedEnd": 1614.15,
+          "actualStart": 1380.061751,
+          "actualEnd": 1623.1378339999999,
+          "timeDifference": 8.991751000000022
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Attempts at Reform: Hope, Resistance, and the Limits of Change",
+          "expectedStart": 1614.15,
+          "expectedEnd": 1843.25,
+          "actualStart": 1624.6378339999999,
+          "actualEnd": 1853.742792,
+          "timeDifference": 10.487833999999793
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Community: Grassroots Efforts and Everyday Heroes",
+          "expectedStart": 1843.25,
+          "expectedEnd": 2034.96,
+          "actualStart": 1855.242792,
+          "actualEnd": 2046.947792,
+          "timeDifference": 11.992792000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The National Conversation: Myths, Realities, and the Struggle for Justice",
+          "expectedStart": 2034.96,
+          "expectedEnd": 2238.63,
+          "actualStart": 2048.447792,
+          "actualEnd": 2252.114542,
+          "timeDifference": 13.4877919999999
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Hope: Children, Teachers, and the Possibility of Change",
+          "expectedStart": 2238.63,
+          "expectedEnd": 2410.93,
+          "actualStart": 2253.614542,
+          "actualEnd": 2425.913209,
+          "timeDifference": 14.984541999999692
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2410.93,
+          "expectedEnd": 2575.69,
+          "actualStart": 2427.413209,
+          "actualEnd": 2592.1760839999997,
+          "timeDifference": 16.483208999999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.836042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Uneven Starting Line: Entering America’s Divided Schools"
+        },
+        {
+          "startTime": 348.973834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Uneven Starting Line: Entering America’s Divided Schools and Chapter 2 The Roots of Inequality: How School Funding Deepens the Divide"
+        },
+        {
+          "startTime": 623.850459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Inequality: How School Funding Deepens the Divide and Chapter 3 Life Inside Underfunded Schools: Struggles, Hopes, and Daily Realities"
+        },
+        {
+          "startTime": 862.100792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life Inside Underfunded Schools: Struggles, Hopes, and Daily Realities and Chapter 4 The Other Side: Privilege and Opportunity in Wealthy Districts"
+        },
+        {
+          "startTime": 1104.800959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Other Side: Privilege and Opportunity in Wealthy Districts and Chapter 5 The Cycle of Segregation: Race, Poverty, and the Persistence of Inequality"
+        },
+        {
+          "startTime": 1378.561751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Cycle of Segregation: Race, Poverty, and the Persistence of Inequality and Chapter 6 The Human Cost: Dreams Deferred and the Weight of Injustice"
+        },
+        {
+          "startTime": 1623.1378339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Human Cost: Dreams Deferred and the Weight of Injustice and Chapter 7 Attempts at Reform: Hope, Resistance, and the Limits of Change"
+        },
+        {
+          "startTime": 1853.742792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Attempts at Reform: Hope, Resistance, and the Limits of Change and Chapter 8 The Power of Community: Grassroots Efforts and Everyday Heroes"
+        },
+        {
+          "startTime": 2046.947792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Community: Grassroots Efforts and Everyday Heroes and Chapter 9 The National Conversation: Myths, Realities, and the Struggle for Justice"
+        },
+        {
+          "startTime": 2252.114542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The National Conversation: Myths, Realities, and the Struggle for Justice and Chapter 10 Enduring Hope: Children, Teachers, and the Possibility of Change"
+        },
+        {
+          "startTime": 2425.913209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Hope: Children, Teachers, and the Possibility of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "794",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T09:05:22.002Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

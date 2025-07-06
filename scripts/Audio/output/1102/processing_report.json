@@ -1,0 +1,456 @@
+{
+  "bookId": "1102",
+  "timestamp": "2025-07-06T14:09:20.138Z",
+  "success": false,
+  "processingTime": -1751810396068,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4343,
+    "totalAudioFiles": 12,
+    "totalDuration": 2126.913042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2126.913042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1102/optimized_text/1102.md",
+    "fileSize": 834,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1102.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1102/metadata/1102_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2126.92,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1102/metadata/1102_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1102/metadata/1102_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1102/1102_complete.wav",
+    "duration": 2126.913042,
+    "fileSize": 102091904,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1102/introduction.wav",
+          "duration": 110.967083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.967083,
+          "startTime": 0,
+          "endTime": 110.967083
+        },
+        {
+          "path": "Audio/output/1102/chapter_01.wav",
+          "duration": 301.255792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Dream of Everest and the Lure of the Summit",
+          "actualDuration": 301.255792,
+          "startTime": 112.467083,
+          "endTime": 413.722875
+        },
+        {
+          "path": "Audio/output/1102/chapter_02.wav",
+          "duration": 216.604292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Climb Begins: Teamwork, Rivalry, and the Weight of Decisions",
+          "actualDuration": 216.604292,
+          "startTime": 415.222875,
+          "endTime": 631.8271669999999
+        },
+        {
+          "path": "Audio/output/1102/chapter_03.wav",
+          "duration": 200.775375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Summit Push: Ambition, Exhaustion, and the Edge of Survival",
+          "actualDuration": 200.775375,
+          "startTime": 633.3271669999999,
+          "endTime": 834.1025419999999
+        },
+        {
+          "path": "Audio/output/1102/chapter_04.wav",
+          "duration": 227.039667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Disaster Unfolds: Chaos, Loss, and the Search for Meaning",
+          "actualDuration": 227.039667,
+          "startTime": 835.6025419999999,
+          "endTime": 1062.6422089999999
+        },
+        {
+          "path": "Audio/output/1102/chapter_05.wav",
+          "duration": 145.324208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aftermath and Reflection: Guilt, Responsibility, and the Lessons of Everest",
+          "actualDuration": 145.324208,
+          "startTime": 1064.1422089999999,
+          "endTime": 1209.4664169999999
+        },
+        {
+          "path": "Audio/output/1102/chapter_06.wav",
+          "duration": 181.395083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: Survivors, Grief, and the Long Road Home",
+          "actualDuration": 181.395083,
+          "startTime": 1210.9664169999999,
+          "endTime": 1392.3615
+        },
+        {
+          "path": "Audio/output/1102/chapter_07.wav",
+          "duration": 187.148042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Searching for Answers: Investigations, Blame, and the Complexity of Truth",
+          "actualDuration": 187.148042,
+          "startTime": 1393.8615,
+          "endTime": 1581.009542
+        },
+        {
+          "path": "Audio/output/1102/chapter_08.wav",
+          "duration": 137.550625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: Families, Friends, and the World Watching",
+          "actualDuration": 137.550625,
+          "startTime": 1582.509542,
+          "endTime": 1720.060167
+        },
+        {
+          "path": "Audio/output/1102/chapter_09.wav",
+          "duration": 159.651292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons Etched in Ice: Change, Resilience, and the Future of Everest",
+          "actualDuration": 159.651292,
+          "startTime": 1721.560167,
+          "endTime": 1881.211459
+        },
+        {
+          "path": "Audio/output/1102/chapter_10.wav",
+          "duration": 139.103083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Mountain: Memory, Meaning, and Moving Forward",
+          "actualDuration": 139.103083,
+          "startTime": 1882.711459,
+          "endTime": 2021.814542
+        },
+        {
+          "path": "Audio/output/1102/conclusion.wav",
+          "duration": 120.0985,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.0985,
+          "startTime": 2023.314542,
+          "endTime": 2143.413042
+        }
+      ],
+      "totalDuration": 2143.413042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.97,
+          "actualStart": 0,
+          "actualEnd": 110.967083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Dream of Everest and the Lure of the Summit",
+          "expectedStart": 110.97,
+          "expectedEnd": 412.23,
+          "actualStart": 112.467083,
+          "actualEnd": 413.722875,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Climb Begins: Teamwork, Rivalry, and the Weight of Decisions",
+          "expectedStart": 412.23,
+          "expectedEnd": 628.83,
+          "actualStart": 415.222875,
+          "actualEnd": 631.8271669999999,
+          "timeDifference": 2.9928749999999695
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Summit Push: Ambition, Exhaustion, and the Edge of Survival",
+          "expectedStart": 628.83,
+          "expectedEnd": 829.61,
+          "actualStart": 633.3271669999999,
+          "actualEnd": 834.1025419999999,
+          "timeDifference": 4.497166999999877
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Disaster Unfolds: Chaos, Loss, and the Search for Meaning",
+          "expectedStart": 829.61,
+          "expectedEnd": 1056.65,
+          "actualStart": 835.6025419999999,
+          "actualEnd": 1062.6422089999999,
+          "timeDifference": 5.992541999999844
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aftermath and Reflection: Guilt, Responsibility, and the Lessons of Everest",
+          "expectedStart": 1056.65,
+          "expectedEnd": 1201.97,
+          "actualStart": 1064.1422089999999,
+          "actualEnd": 1209.4664169999999,
+          "timeDifference": 7.492208999999775
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: Survivors, Grief, and the Long Road Home",
+          "expectedStart": 1201.97,
+          "expectedEnd": 1383.37,
+          "actualStart": 1210.9664169999999,
+          "actualEnd": 1392.3615,
+          "timeDifference": 8.996416999999838
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Searching for Answers: Investigations, Blame, and the Complexity of Truth",
+          "expectedStart": 1383.37,
+          "expectedEnd": 1570.52,
+          "actualStart": 1393.8615,
+          "actualEnd": 1581.009542,
+          "timeDifference": 10.491500000000087
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: Families, Friends, and the World Watching",
+          "expectedStart": 1570.52,
+          "expectedEnd": 1708.07,
+          "actualStart": 1582.509542,
+          "actualEnd": 1720.060167,
+          "timeDifference": 11.989542000000029
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons Etched in Ice: Change, Resilience, and the Future of Everest",
+          "expectedStart": 1708.07,
+          "expectedEnd": 1867.72,
+          "actualStart": 1721.560167,
+          "actualEnd": 1881.211459,
+          "timeDifference": 13.490167000000156
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Mountain: Memory, Meaning, and Moving Forward",
+          "expectedStart": 1867.72,
+          "expectedEnd": 2006.82,
+          "actualStart": 1882.711459,
+          "actualEnd": 2021.814542,
+          "timeDifference": 14.991459000000077
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2006.82,
+          "expectedEnd": 2126.92,
+          "actualStart": 2023.314542,
+          "actualEnd": 2143.413042,
+          "timeDifference": 16.494542000000138
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.967083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Dream of Everest and the Lure of the Summit"
+        },
+        {
+          "startTime": 413.722875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Dream of Everest and the Lure of the Summit and Chapter 2 The Climb Begins: Teamwork, Rivalry, and the Weight of Decisions"
+        },
+        {
+          "startTime": 631.8271669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Climb Begins: Teamwork, Rivalry, and the Weight of Decisions and Chapter 3 The Summit Push: Ambition, Exhaustion, and the Edge of Survival"
+        },
+        {
+          "startTime": 834.1025419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Summit Push: Ambition, Exhaustion, and the Edge of Survival and Chapter 4 Disaster Unfolds: Chaos, Loss, and the Search for Meaning"
+        },
+        {
+          "startTime": 1062.6422089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Disaster Unfolds: Chaos, Loss, and the Search for Meaning and Chapter 5 Aftermath and Reflection: Guilt, Responsibility, and the Lessons of Everest"
+        },
+        {
+          "startTime": 1209.4664169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aftermath and Reflection: Guilt, Responsibility, and the Lessons of Everest and Chapter 6 Picking Up the Pieces: Survivors, Grief, and the Long Road Home"
+        },
+        {
+          "startTime": 1392.3615,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: Survivors, Grief, and the Long Road Home and Chapter 7 Searching for Answers: Investigations, Blame, and the Complexity of Truth"
+        },
+        {
+          "startTime": 1581.009542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Searching for Answers: Investigations, Blame, and the Complexity of Truth and Chapter 8 The Ripple Effect: Families, Friends, and the World Watching"
+        },
+        {
+          "startTime": 1720.060167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: Families, Friends, and the World Watching and Chapter 9 Lessons Etched in Ice: Change, Resilience, and the Future of Everest"
+        },
+        {
+          "startTime": 1881.211459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons Etched in Ice: Change, Resilience, and the Future of Everest and Chapter 10 Living with the Mountain: Memory, Meaning, and Moving Forward"
+        },
+        {
+          "startTime": 2021.814542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Mountain: Memory, Meaning, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1102",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T13:59:57.220Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "707",
+  "timestamp": "2025-07-05T03:46:01.338Z",
+  "success": false,
+  "processingTime": -1751686931840,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4353,
+    "totalAudioFiles": 12,
+    "totalDuration": 1792.752834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1792.752834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/707/optimized_text/707.md",
+    "fileSize": 648,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "707.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/707/metadata/707_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1792.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/707/metadata/707_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/707/metadata/707_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/707/707_complete.wav",
+    "duration": 1792.752833,
+    "fileSize": 86052214,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/707/introduction.wav",
+          "duration": 85.34575,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.34575,
+          "startTime": 0,
+          "endTime": 85.34575
+        },
+        {
+          "path": "Audio/output/707/chapter_01.wav",
+          "duration": 181.118542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The War Begins and Women Step Forward",
+          "actualDuration": 181.118542,
+          "startTime": 86.84575,
+          "endTime": 267.964292
+        },
+        {
+          "path": "Audio/output/707/chapter_02.wav",
+          "duration": 197.74975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Espionage, Disguise, and the Art of Deception",
+          "actualDuration": 197.74975,
+          "startTime": 269.464292,
+          "endTime": 467.214042
+        },
+        {
+          "path": "Audio/output/707/chapter_03.wav",
+          "duration": 160.971667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking the Rules and Facing the Consequences",
+          "actualDuration": 160.971667,
+          "startTime": 468.714042,
+          "endTime": 629.685709
+        },
+        {
+          "path": "Audio/output/707/chapter_04.wav",
+          "duration": 164.496583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Loyalty, Betrayal, and the Cost of Survival",
+          "actualDuration": 164.496583,
+          "startTime": 631.185709,
+          "endTime": 795.682292
+        },
+        {
+          "path": "Audio/output/707/chapter_05.wav",
+          "duration": 170.764167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Identity, Reinvention, and the Power of Choice",
+          "actualDuration": 170.764167,
+          "startTime": 797.182292,
+          "endTime": 967.946459
+        },
+        {
+          "path": "Audio/output/707/chapter_06.wav",
+          "duration": 167.900125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "actualDuration": 167.900125,
+          "startTime": 969.446459,
+          "endTime": 1137.346584
+        },
+        {
+          "path": "Audio/output/707/chapter_07.wav",
+          "duration": 145.982708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Memory, Silence, and the Struggle for Recognition",
+          "actualDuration": 145.982708,
+          "startTime": 1138.846584,
+          "endTime": 1284.829292
+        },
+        {
+          "path": "Audio/output/707/chapter_08.wav",
+          "duration": 163.469375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy: Changing the Rules for the Next Generation",
+          "actualDuration": 163.469375,
+          "startTime": 1286.329292,
+          "endTime": 1449.798667
+        },
+        {
+          "path": "Audio/output/707/chapter_09.wav",
+          "duration": 134.541667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Stories We Tell: Reclaiming Women’s Place in History",
+          "actualDuration": 134.541667,
+          "startTime": 1451.298667,
+          "endTime": 1585.840334
+        },
+        {
+          "path": "Audio/output/707/chapter_10.wav",
+          "duration": 107.559167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Past: Lessons for Today",
+          "actualDuration": 107.559167,
+          "startTime": 1587.340334,
+          "endTime": 1694.8995009999999
+        },
+        {
+          "path": "Audio/output/707/conclusion.wav",
+          "duration": 112.853333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.853333,
+          "startTime": 1696.3995009999999,
+          "endTime": 1809.252834
+        }
+      ],
+      "totalDuration": 1809.252834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.35,
+          "actualStart": 0,
+          "actualEnd": 85.34575,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The War Begins and Women Step Forward",
+          "expectedStart": 85.35,
+          "expectedEnd": 266.47,
+          "actualStart": 86.84575,
+          "actualEnd": 267.964292,
+          "timeDifference": 1.495750000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Espionage, Disguise, and the Art of Deception",
+          "expectedStart": 266.47,
+          "expectedEnd": 464.22,
+          "actualStart": 269.464292,
+          "actualEnd": 467.214042,
+          "timeDifference": 2.994291999999973
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking the Rules and Facing the Consequences",
+          "expectedStart": 464.22,
+          "expectedEnd": 625.19,
+          "actualStart": 468.714042,
+          "actualEnd": 629.685709,
+          "timeDifference": 4.494041999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Loyalty, Betrayal, and the Cost of Survival",
+          "expectedStart": 625.19,
+          "expectedEnd": 789.69,
+          "actualStart": 631.185709,
+          "actualEnd": 795.682292,
+          "timeDifference": 5.99570899999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Identity, Reinvention, and the Power of Choice",
+          "expectedStart": 789.69,
+          "expectedEnd": 960.45,
+          "actualStart": 797.182292,
+          "actualEnd": 967.946459,
+          "timeDifference": 7.492291999999907
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "expectedStart": 960.45,
+          "expectedEnd": 1128.35,
+          "actualStart": 969.446459,
+          "actualEnd": 1137.346584,
+          "timeDifference": 8.996458999999959
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Memory, Silence, and the Struggle for Recognition",
+          "expectedStart": 1128.35,
+          "expectedEnd": 1274.33,
+          "actualStart": 1138.846584,
+          "actualEnd": 1284.829292,
+          "timeDifference": 10.496583999999984
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy: Changing the Rules for the Next Generation",
+          "expectedStart": 1274.33,
+          "expectedEnd": 1437.8,
+          "actualStart": 1286.329292,
+          "actualEnd": 1449.798667,
+          "timeDifference": 11.999291999999969
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Stories We Tell: Reclaiming Women’s Place in History",
+          "expectedStart": 1437.8,
+          "expectedEnd": 1572.34,
+          "actualStart": 1451.298667,
+          "actualEnd": 1585.840334,
+          "timeDifference": 13.498667000000069
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Past: Lessons for Today",
+          "expectedStart": 1572.34,
+          "expectedEnd": 1679.9,
+          "actualStart": 1587.340334,
+          "actualEnd": 1694.8995009999999,
+          "timeDifference": 15.000334000000066
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1679.9,
+          "expectedEnd": 1792.75,
+          "actualStart": 1696.3995009999999,
+          "actualEnd": 1809.252834,
+          "timeDifference": 16.499500999999782
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.34575,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The War Begins and Women Step Forward"
+        },
+        {
+          "startTime": 267.964292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The War Begins and Women Step Forward and Chapter 2 Espionage, Disguise, and the Art of Deception"
+        },
+        {
+          "startTime": 467.214042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Espionage, Disguise, and the Art of Deception and Chapter 3 Breaking the Rules and Facing the Consequences"
+        },
+        {
+          "startTime": 629.685709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking the Rules and Facing the Consequences and Chapter 4 Loyalty, Betrayal, and the Cost of Survival"
+        },
+        {
+          "startTime": 795.682292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Loyalty, Betrayal, and the Cost of Survival and Chapter 5 Identity, Reinvention, and the Power of Choice"
+        },
+        {
+          "startTime": 967.946459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Identity, Reinvention, and the Power of Choice and Chapter 6 Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1137.346584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces and Chapter 7 Memory, Silence, and the Struggle for Recognition"
+        },
+        {
+          "startTime": 1284.829292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Memory, Silence, and the Struggle for Recognition and Chapter 8 Legacy: Changing the Rules for the Next Generation"
+        },
+        {
+          "startTime": 1449.798667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy: Changing the Rules for the Next Generation and Chapter 9 The Stories We Tell: Reclaiming Women’s Place in History"
+        },
+        {
+          "startTime": 1585.840334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Stories We Tell: Reclaiming Women’s Place in History and Chapter 10 Living with the Past: Lessons for Today"
+        },
+        {
+          "startTime": 1694.8995009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Past: Lessons for Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "707",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:42:13.490Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

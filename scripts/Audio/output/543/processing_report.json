@@ -1,0 +1,456 @@
+{
+  "bookId": "543",
+  "timestamp": "2025-07-04T18:14:23.561Z",
+  "success": false,
+  "processingTime": -1751652591567,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4020,
+    "totalAudioFiles": 12,
+    "totalDuration": 1883.998917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1883.998917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/543/optimized_text/543.md",
+    "fileSize": 687,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "543.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/543/metadata/543_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1884,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/543/metadata/543_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/543/metadata/543_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/543/543_complete.wav",
+    "duration": 1883.998917,
+    "fileSize": 90432026,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/543/introduction.wav",
+          "duration": 78.586833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.586833,
+          "startTime": 0,
+          "endTime": 78.586833
+        },
+        {
+          "path": "Audio/output/543/chapter_01.wav",
+          "duration": 193.672458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Hidden Wounds of Toxic Parenting",
+          "actualDuration": 193.672458,
+          "startTime": 80.086833,
+          "endTime": 273.759291
+        },
+        {
+          "path": "Audio/output/543/chapter_02.wav",
+          "duration": 201.714083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Lasting Impact of Childhood Abuse and Neglect",
+          "actualDuration": 201.714083,
+          "startTime": 275.259291,
+          "endTime": 476.97337400000004
+        },
+        {
+          "path": "Audio/output/543/chapter_03.wav",
+          "duration": 186.161917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking the Cycle: Awareness and Acknowledgment as the First Steps",
+          "actualDuration": 186.161917,
+          "startTime": 478.47337400000004,
+          "endTime": 664.635291
+        },
+        {
+          "path": "Audio/output/543/chapter_04.wav",
+          "duration": 201.658625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Setting Boundaries and Reclaiming Personal Autonomy",
+          "actualDuration": 201.658625,
+          "startTime": 666.135291,
+          "endTime": 867.7939160000001
+        },
+        {
+          "path": "Audio/output/543/chapter_05.wav",
+          "duration": 190.495542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Healing from Manipulation and Emotional Trauma",
+          "actualDuration": 190.495542,
+          "startTime": 869.2939160000001,
+          "endTime": 1059.7894580000002
+        },
+        {
+          "path": "Audio/output/543/chapter_06.wav",
+          "duration": 150.297417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Breaking the Cycle for Future Generations",
+          "actualDuration": 150.297417,
+          "startTime": 1061.2894580000002,
+          "endTime": 1211.5868750000002
+        },
+        {
+          "path": "Audio/output/543/chapter_07.wav",
+          "duration": 160.7185,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Complex Family Dynamics",
+          "actualDuration": 160.7185,
+          "startTime": 1213.0868750000002,
+          "endTime": 1373.8053750000001
+        },
+        {
+          "path": "Audio/output/543/chapter_08.wav",
+          "duration": 162.824833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building a Life Rooted in Self-Acceptance",
+          "actualDuration": 162.824833,
+          "startTime": 1375.3053750000001,
+          "endTime": 1538.130208
+        },
+        {
+          "path": "Audio/output/543/chapter_09.wav",
+          "duration": 131.568167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reclaiming Joy and Creating New Traditions",
+          "actualDuration": 131.568167,
+          "startTime": 1539.630208,
+          "endTime": 1671.198375
+        },
+        {
+          "path": "Audio/output/543/chapter_10.wav",
+          "duration": 127.281542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth and Embracing the Ongoing Journey",
+          "actualDuration": 127.281542,
+          "startTime": 1672.698375,
+          "endTime": 1799.979917
+        },
+        {
+          "path": "Audio/output/543/conclusion.wav",
+          "duration": 99.019,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.019,
+          "startTime": 1801.479917,
+          "endTime": 1900.498917
+        }
+      ],
+      "totalDuration": 1900.498917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.59,
+          "actualStart": 0,
+          "actualEnd": 78.586833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Hidden Wounds of Toxic Parenting",
+          "expectedStart": 78.59,
+          "expectedEnd": 272.26,
+          "actualStart": 80.086833,
+          "actualEnd": 273.759291,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Lasting Impact of Childhood Abuse and Neglect",
+          "expectedStart": 272.26,
+          "expectedEnd": 473.97,
+          "actualStart": 275.259291,
+          "actualEnd": 476.97337400000004,
+          "timeDifference": 2.999291000000028
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking the Cycle: Awareness and Acknowledgment as the First Steps",
+          "expectedStart": 473.97,
+          "expectedEnd": 660.13,
+          "actualStart": 478.47337400000004,
+          "actualEnd": 664.635291,
+          "timeDifference": 4.503374000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Setting Boundaries and Reclaiming Personal Autonomy",
+          "expectedStart": 660.13,
+          "expectedEnd": 861.79,
+          "actualStart": 666.135291,
+          "actualEnd": 867.7939160000001,
+          "timeDifference": 6.005291000000057
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Healing from Manipulation and Emotional Trauma",
+          "expectedStart": 861.79,
+          "expectedEnd": 1052.29,
+          "actualStart": 869.2939160000001,
+          "actualEnd": 1059.7894580000002,
+          "timeDifference": 7.5039160000001175
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Breaking the Cycle for Future Generations",
+          "expectedStart": 1052.29,
+          "expectedEnd": 1202.59,
+          "actualStart": 1061.2894580000002,
+          "actualEnd": 1211.5868750000002,
+          "timeDifference": 8.999458000000232
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Complex Family Dynamics",
+          "expectedStart": 1202.59,
+          "expectedEnd": 1363.31,
+          "actualStart": 1213.0868750000002,
+          "actualEnd": 1373.8053750000001,
+          "timeDifference": 10.496875000000273
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building a Life Rooted in Self-Acceptance",
+          "expectedStart": 1363.31,
+          "expectedEnd": 1526.13,
+          "actualStart": 1375.3053750000001,
+          "actualEnd": 1538.130208,
+          "timeDifference": 11.995375000000195
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reclaiming Joy and Creating New Traditions",
+          "expectedStart": 1526.13,
+          "expectedEnd": 1657.7,
+          "actualStart": 1539.630208,
+          "actualEnd": 1671.198375,
+          "timeDifference": 13.50020799999993
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth and Embracing the Ongoing Journey",
+          "expectedStart": 1657.7,
+          "expectedEnd": 1784.98,
+          "actualStart": 1672.698375,
+          "actualEnd": 1799.979917,
+          "timeDifference": 14.998374999999896
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1784.98,
+          "expectedEnd": 1884,
+          "actualStart": 1801.479917,
+          "actualEnd": 1900.498917,
+          "timeDifference": 16.49991699999987
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.586833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Hidden Wounds of Toxic Parenting"
+        },
+        {
+          "startTime": 273.759291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Hidden Wounds of Toxic Parenting and Chapter 2 Understanding the Lasting Impact of Childhood Abuse and Neglect"
+        },
+        {
+          "startTime": 476.97337400000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Lasting Impact of Childhood Abuse and Neglect and Chapter 3 Breaking the Cycle: Awareness and Acknowledgment as the First Steps"
+        },
+        {
+          "startTime": 664.635291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking the Cycle: Awareness and Acknowledgment as the First Steps and Chapter 4 Setting Boundaries and Reclaiming Personal Autonomy"
+        },
+        {
+          "startTime": 867.7939160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Setting Boundaries and Reclaiming Personal Autonomy and Chapter 5 Healing from Manipulation and Emotional Trauma"
+        },
+        {
+          "startTime": 1059.7894580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Healing from Manipulation and Emotional Trauma and Chapter 6 Breaking the Cycle for Future Generations"
+        },
+        {
+          "startTime": 1211.5868750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Breaking the Cycle for Future Generations and Chapter 7 Navigating Complex Family Dynamics"
+        },
+        {
+          "startTime": 1373.8053750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Complex Family Dynamics and Chapter 8 Building a Life Rooted in Self-Acceptance"
+        },
+        {
+          "startTime": 1538.130208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building a Life Rooted in Self-Acceptance and Chapter 9 Reclaiming Joy and Creating New Traditions"
+        },
+        {
+          "startTime": 1671.198375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reclaiming Joy and Creating New Traditions and Chapter 10 Sustaining Growth and Embracing the Ongoing Journey"
+        },
+        {
+          "startTime": 1799.979917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth and Embracing the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "543",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T18:09:52.967Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

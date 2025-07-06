@@ -1,0 +1,455 @@
+{
+  "bookId": "1017",
+  "timestamp": "2025-07-06T07:58:12.694Z",
+  "success": false,
+  "processingTime": -1751788264527,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3781,
+    "totalAudioFiles": 12,
+    "totalDuration": 1963.6589999999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1963.6589999999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1017/optimized_text/1017.md",
+    "fileSize": 778,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1017.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1017/metadata/1017_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1963.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1017/metadata/1017_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1017/metadata/1017_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1017/1017_complete.wav",
+    "duration": 1963.659,
+    "fileSize": 94255710,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1017/introduction.wav",
+          "duration": 105.385792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.385792,
+          "startTime": 0,
+          "endTime": 105.385792
+        },
+        {
+          "path": "Audio/output/1017/chapter_01.wav",
+          "duration": 194.745208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Sexuality—Moving Beyond Myths and Assumptions",
+          "actualDuration": 194.745208,
+          "startTime": 106.885792,
+          "endTime": 301.631
+        },
+        {
+          "path": "Audio/output/1017/chapter_02.wav",
+          "duration": 198.743167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Building Blocks—Biology, Culture, and Personal Experience",
+          "actualDuration": 198.743167,
+          "startTime": 303.131,
+          "endTime": 501.87416699999994
+        },
+        {
+          "path": "Audio/output/1017/chapter_03.wav",
+          "duration": 192.699583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Exploring Sexual Orientation and Identity with Openness",
+          "actualDuration": 192.699583,
+          "startTime": 503.37416699999994,
+          "endTime": 696.0737499999999
+        },
+        {
+          "path": "Audio/output/1017/chapter_04.wav",
+          "duration": 199.275708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Communication—Building Trust and Understanding",
+          "actualDuration": 199.275708,
+          "startTime": 697.5737499999999,
+          "endTime": 896.8494579999999
+        },
+        {
+          "path": "Audio/output/1017/chapter_05.wav",
+          "duration": 177.854375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Frameworks for Navigating Sexual Preferences and Desires",
+          "actualDuration": 177.854375,
+          "startTime": 898.3494579999999,
+          "endTime": 1076.203833
+        },
+        {
+          "path": "Audio/output/1017/chapter_06.wav",
+          "duration": 183.374042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Differences—Desire Discrepancy and Sexual Negotiation",
+          "actualDuration": 183.374042,
+          "startTime": 1077.703833,
+          "endTime": 1261.077875
+        },
+        {
+          "path": "Audio/output/1017/chapter_07.wav",
+          "duration": 155.078667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing, Growth, and Sexual Well-Being",
+          "actualDuration": 155.078667,
+          "startTime": 1262.577875,
+          "endTime": 1417.656542
+        },
+        {
+          "path": "Audio/output/1017/chapter_08.wav",
+          "duration": 158.800083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Sexuality into Everyday Life",
+          "actualDuration": 158.800083,
+          "startTime": 1419.156542,
+          "endTime": 1577.956625
+        },
+        {
+          "path": "Audio/output/1017/chapter_09.wav",
+          "duration": 160.15475,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Long-Term Relationships—Sustaining Intimacy and Connection",
+          "actualDuration": 160.15475,
+          "startTime": 1579.456625,
+          "endTime": 1739.611375
+        },
+        {
+          "path": "Audio/output/1017/chapter_10.wav",
+          "duration": 130.1115,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing Diversity—Respecting Differences in Sexual Expression",
+          "actualDuration": 130.1115,
+          "startTime": 1741.111375,
+          "endTime": 1871.222875
+        },
+        {
+          "path": "Audio/output/1017/conclusion.wav",
+          "duration": 107.436125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.436125,
+          "startTime": 1872.722875,
+          "endTime": 1980.1589999999999
+        }
+      ],
+      "totalDuration": 1980.1589999999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.39,
+          "actualStart": 0,
+          "actualEnd": 105.385792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Sexuality—Moving Beyond Myths and Assumptions",
+          "expectedStart": 105.39,
+          "expectedEnd": 300.14,
+          "actualStart": 106.885792,
+          "actualEnd": 301.631,
+          "timeDifference": 1.4957919999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Building Blocks—Biology, Culture, and Personal Experience",
+          "expectedStart": 300.14,
+          "expectedEnd": 498.88,
+          "actualStart": 303.131,
+          "actualEnd": 501.87416699999994,
+          "timeDifference": 2.9909999999999854
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Exploring Sexual Orientation and Identity with Openness",
+          "expectedStart": 498.88,
+          "expectedEnd": 691.58,
+          "actualStart": 503.37416699999994,
+          "actualEnd": 696.0737499999999,
+          "timeDifference": 4.494166999999948
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Communication—Building Trust and Understanding",
+          "expectedStart": 691.58,
+          "expectedEnd": 890.86,
+          "actualStart": 697.5737499999999,
+          "actualEnd": 896.8494579999999,
+          "timeDifference": 5.993749999999864
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Frameworks for Navigating Sexual Preferences and Desires",
+          "expectedStart": 890.86,
+          "expectedEnd": 1068.71,
+          "actualStart": 898.3494579999999,
+          "actualEnd": 1076.203833,
+          "timeDifference": 7.4894579999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Differences—Desire Discrepancy and Sexual Negotiation",
+          "expectedStart": 1068.71,
+          "expectedEnd": 1252.08,
+          "actualStart": 1077.703833,
+          "actualEnd": 1261.077875,
+          "timeDifference": 8.993832999999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing, Growth, and Sexual Well-Being",
+          "expectedStart": 1252.08,
+          "expectedEnd": 1407.16,
+          "actualStart": 1262.577875,
+          "actualEnd": 1417.656542,
+          "timeDifference": 10.497875000000022
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Sexuality into Everyday Life",
+          "expectedStart": 1407.16,
+          "expectedEnd": 1565.96,
+          "actualStart": 1419.156542,
+          "actualEnd": 1577.956625,
+          "timeDifference": 11.996541999999863
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Long-Term Relationships—Sustaining Intimacy and Connection",
+          "expectedStart": 1565.96,
+          "expectedEnd": 1726.11,
+          "actualStart": 1579.456625,
+          "actualEnd": 1739.611375,
+          "timeDifference": 13.496624999999995
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing Diversity—Respecting Differences in Sexual Expression",
+          "expectedStart": 1726.11,
+          "expectedEnd": 1856.22,
+          "actualStart": 1741.111375,
+          "actualEnd": 1871.222875,
+          "timeDifference": 15.001375000000053
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1856.22,
+          "expectedEnd": 1963.66,
+          "actualStart": 1872.722875,
+          "actualEnd": 1980.1589999999999,
+          "timeDifference": 16.502874999999904
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.385792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Sexuality—Moving Beyond Myths and Assumptions"
+        },
+        {
+          "startTime": 301.631,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Sexuality—Moving Beyond Myths and Assumptions and Chapter 2 Understanding the Building Blocks—Biology, Culture, and Personal Experience"
+        },
+        {
+          "startTime": 501.87416699999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Building Blocks—Biology, Culture, and Personal Experience and Chapter 3 Exploring Sexual Orientation and Identity with Openness"
+        },
+        {
+          "startTime": 696.0737499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Exploring Sexual Orientation and Identity with Openness and Chapter 4 The Role of Communication—Building Trust and Understanding"
+        },
+        {
+          "startTime": 896.8494579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Communication—Building Trust and Understanding and Chapter 5 Frameworks for Navigating Sexual Preferences and Desires"
+        },
+        {
+          "startTime": 1076.203833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Frameworks for Navigating Sexual Preferences and Desires and Chapter 6 Navigating Differences—Desire Discrepancy and Sexual Negotiation"
+        },
+        {
+          "startTime": 1261.077875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Differences—Desire Discrepancy and Sexual Negotiation and Chapter 7 Healing, Growth, and Sexual Well-Being"
+        },
+        {
+          "startTime": 1417.656542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing, Growth, and Sexual Well-Being and Chapter 8 Integrating Sexuality into Everyday Life"
+        },
+        {
+          "startTime": 1577.956625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Sexuality into Everyday Life and Chapter 9 Long-Term Relationships—Sustaining Intimacy and Connection"
+        },
+        {
+          "startTime": 1739.611375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Long-Term Relationships—Sustaining Intimacy and Connection and Chapter 10 Embracing Diversity—Respecting Differences in Sexual Expression"
+        },
+        {
+          "startTime": 1871.222875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing Diversity—Respecting Differences in Sexual Expression and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1017",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T07:51:06.028Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

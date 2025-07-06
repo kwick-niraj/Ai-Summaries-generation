@@ -1,0 +1,456 @@
+{
+  "bookId": "784",
+  "timestamp": "2025-07-05T08:27:30.525Z",
+  "success": false,
+  "processingTime": -1751703687249,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4709,
+    "totalAudioFiles": 12,
+    "totalDuration": 1969.934167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1969.934167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/784/optimized_text/784.md",
+    "fileSize": 593,
+    "wordCount": 73,
+    "format": "markdown",
+    "filename": "784.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/784/metadata/784_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1969.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/784/metadata/784_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/784/metadata/784_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/784/784_complete.wav",
+    "duration": 1969.934167,
+    "fileSize": 94556918,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/784/introduction.wav",
+          "duration": 73.401292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 73.401292,
+          "startTime": 0,
+          "endTime": 73.401292
+        },
+        {
+          "path": "Audio/output/784/chapter_01.wav",
+          "duration": 199.260875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Hidden Wounds of Abuse",
+          "actualDuration": 199.260875,
+          "startTime": 74.901292,
+          "endTime": 274.162167
+        },
+        {
+          "path": "Audio/output/784/chapter_02.wav",
+          "duration": 178.403,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Nonlinear Path to Healing",
+          "actualDuration": 178.403,
+          "startTime": 275.662167,
+          "endTime": 454.065167
+        },
+        {
+          "path": "Audio/output/784/chapter_03.wav",
+          "duration": 196.131292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rebuilding Self-Worth and Confidence",
+          "actualDuration": 196.131292,
+          "startTime": 455.565167,
+          "endTime": 651.696459
+        },
+        {
+          "path": "Audio/output/784/chapter_04.wav",
+          "duration": 190.153333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Shame, Guilt, and Isolation",
+          "actualDuration": 190.153333,
+          "startTime": 653.196459,
+          "endTime": 843.349792
+        },
+        {
+          "path": "Audio/output/784/chapter_05.wav",
+          "duration": 224.532,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Setting Boundaries and Seeking Support",
+          "actualDuration": 224.532,
+          "startTime": 844.849792,
+          "endTime": 1069.381792
+        },
+        {
+          "path": "Audio/output/784/chapter_06.wav",
+          "duration": 171.896542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rediscovering Self-Care and Everyday Joy",
+          "actualDuration": 171.896542,
+          "startTime": 1070.881792,
+          "endTime": 1242.7783339999999
+        },
+        {
+          "path": "Audio/output/784/chapter_07.wav",
+          "duration": 174.299875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Triggers and Building Emotional Resilience",
+          "actualDuration": 174.299875,
+          "startTime": 1244.2783339999999,
+          "endTime": 1418.5782089999998
+        },
+        {
+          "path": "Audio/output/784/chapter_08.wav",
+          "duration": 155.896667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Identity and Personal Power",
+          "actualDuration": 155.896667,
+          "startTime": 1420.0782089999998,
+          "endTime": 1575.9748759999998
+        },
+        {
+          "path": "Audio/output/784/chapter_09.wav",
+          "duration": 170.686083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Rebuilding Relationships and Trust",
+          "actualDuration": 170.686083,
+          "startTime": 1577.4748759999998,
+          "endTime": 1748.1609589999998
+        },
+        {
+          "path": "Audio/output/784/chapter_10.wav",
+          "duration": 130.837708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Future: Growth Beyond Survival",
+          "actualDuration": 130.837708,
+          "startTime": 1749.6609589999998,
+          "endTime": 1880.4986669999998
+        },
+        {
+          "path": "Audio/output/784/conclusion.wav",
+          "duration": 104.4355,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.4355,
+          "startTime": 1881.9986669999998,
+          "endTime": 1986.434167
+        }
+      ],
+      "totalDuration": 1986.434167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 73.4,
+          "actualStart": 0,
+          "actualEnd": 73.401292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Hidden Wounds of Abuse",
+          "expectedStart": 73.4,
+          "expectedEnd": 272.66,
+          "actualStart": 74.901292,
+          "actualEnd": 274.162167,
+          "timeDifference": 1.5012919999999923
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Nonlinear Path to Healing",
+          "expectedStart": 272.66,
+          "expectedEnd": 451.06,
+          "actualStart": 275.662167,
+          "actualEnd": 454.065167,
+          "timeDifference": 3.002166999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rebuilding Self-Worth and Confidence",
+          "expectedStart": 451.06,
+          "expectedEnd": 647.19,
+          "actualStart": 455.565167,
+          "actualEnd": 651.696459,
+          "timeDifference": 4.505166999999972
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Shame, Guilt, and Isolation",
+          "expectedStart": 647.19,
+          "expectedEnd": 837.34,
+          "actualStart": 653.196459,
+          "actualEnd": 843.349792,
+          "timeDifference": 6.00645899999995
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Setting Boundaries and Seeking Support",
+          "expectedStart": 837.34,
+          "expectedEnd": 1061.87,
+          "actualStart": 844.849792,
+          "actualEnd": 1069.381792,
+          "timeDifference": 7.509791999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rediscovering Self-Care and Everyday Joy",
+          "expectedStart": 1061.87,
+          "expectedEnd": 1233.77,
+          "actualStart": 1070.881792,
+          "actualEnd": 1242.7783339999999,
+          "timeDifference": 9.011792000000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Triggers and Building Emotional Resilience",
+          "expectedStart": 1233.77,
+          "expectedEnd": 1408.07,
+          "actualStart": 1244.2783339999999,
+          "actualEnd": 1418.5782089999998,
+          "timeDifference": 10.508333999999877
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Identity and Personal Power",
+          "expectedStart": 1408.07,
+          "expectedEnd": 1563.97,
+          "actualStart": 1420.0782089999998,
+          "actualEnd": 1575.9748759999998,
+          "timeDifference": 12.008208999999852
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Rebuilding Relationships and Trust",
+          "expectedStart": 1563.97,
+          "expectedEnd": 1734.66,
+          "actualStart": 1577.4748759999998,
+          "actualEnd": 1748.1609589999998,
+          "timeDifference": 13.50487599999974
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Future: Growth Beyond Survival",
+          "expectedStart": 1734.66,
+          "expectedEnd": 1865.5,
+          "actualStart": 1749.6609589999998,
+          "actualEnd": 1880.4986669999998,
+          "timeDifference": 15.000958999999739
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1865.5,
+          "expectedEnd": 1969.94,
+          "actualStart": 1881.9986669999998,
+          "actualEnd": 1986.434167,
+          "timeDifference": 16.49866699999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 73.401292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Hidden Wounds of Abuse"
+        },
+        {
+          "startTime": 274.162167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Hidden Wounds of Abuse and Chapter 2 The Nonlinear Path to Healing"
+        },
+        {
+          "startTime": 454.065167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Nonlinear Path to Healing and Chapter 3 Rebuilding Self-Worth and Confidence"
+        },
+        {
+          "startTime": 651.696459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rebuilding Self-Worth and Confidence and Chapter 4 Overcoming Shame, Guilt, and Isolation"
+        },
+        {
+          "startTime": 843.349792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Shame, Guilt, and Isolation and Chapter 5 Setting Boundaries and Seeking Support"
+        },
+        {
+          "startTime": 1069.381792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Setting Boundaries and Seeking Support and Chapter 6 Rediscovering Self-Care and Everyday Joy"
+        },
+        {
+          "startTime": 1242.7783339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rediscovering Self-Care and Everyday Joy and Chapter 7 Navigating Triggers and Building Emotional Resilience"
+        },
+        {
+          "startTime": 1418.5782089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Triggers and Building Emotional Resilience and Chapter 8 Reclaiming Identity and Personal Power"
+        },
+        {
+          "startTime": 1575.9748759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Identity and Personal Power and Chapter 9 Rebuilding Relationships and Trust"
+        },
+        {
+          "startTime": 1748.1609589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Rebuilding Relationships and Trust and Chapter 10 Embracing the Future: Growth Beyond Survival"
+        },
+        {
+          "startTime": 1880.4986669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Future: Growth Beyond Survival and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "784",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T08:21:27.758Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

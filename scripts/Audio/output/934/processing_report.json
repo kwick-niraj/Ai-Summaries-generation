@@ -1,0 +1,456 @@
+{
+  "bookId": "934",
+  "timestamp": "2025-07-05T16:58:18.848Z",
+  "success": false,
+  "processingTime": -1751734412587,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4497,
+    "totalAudioFiles": 12,
+    "totalDuration": 1852.543333
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1852.543333
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/934/optimized_text/934.md",
+    "fileSize": 617,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "934.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/934/metadata/934_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1852.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/934/metadata/934_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/934/metadata/934_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/934/934_complete.wav",
+    "duration": 1852.543333,
+    "fileSize": 88922158,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/934/introduction.wav",
+          "duration": 81.254625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.254625,
+          "startTime": 0,
+          "endTime": 81.254625
+        },
+        {
+          "path": "Audio/output/934/chapter_01.wav",
+          "duration": 205.566542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Unseen Weight of Everyday Life",
+          "actualDuration": 205.566542,
+          "startTime": 82.754625,
+          "endTime": 288.321167
+        },
+        {
+          "path": "Audio/output/934/chapter_02.wav",
+          "duration": 184.681458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Naming the Invisible: Finding Words for Emotional Labor",
+          "actualDuration": 184.681458,
+          "startTime": 289.821167,
+          "endTime": 474.50262499999997
+        },
+        {
+          "path": "Audio/output/934/chapter_03.wav",
+          "duration": 192.832375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Roots of Gendered Expectations",
+          "actualDuration": 192.832375,
+          "startTime": 476.00262499999997,
+          "endTime": 668.835
+        },
+        {
+          "path": "Audio/output/934/chapter_04.wav",
+          "duration": 158.883208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Burnout and the Breaking Point",
+          "actualDuration": 158.883208,
+          "startTime": 670.335,
+          "endTime": 829.218208
+        },
+        {
+          "path": "Audio/output/934/chapter_05.wav",
+          "duration": 180.017958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Speaking Up and Sharing the Load",
+          "actualDuration": 180.017958,
+          "startTime": 830.718208,
+          "endTime": 1010.736166
+        },
+        {
+          "path": "Audio/output/934/chapter_06.wav",
+          "duration": 153.4625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rewriting the Script: Small Acts, Big Shifts",
+          "actualDuration": 153.4625,
+          "startTime": 1012.236166,
+          "endTime": 1165.698666
+        },
+        {
+          "path": "Audio/output/934/chapter_07.wav",
+          "duration": 153.403042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Community: Finding Strength in Solidarity",
+          "actualDuration": 153.403042,
+          "startTime": 1167.198666,
+          "endTime": 1320.601708
+        },
+        {
+          "path": "Audio/output/934/chapter_08.wav",
+          "duration": 150.540417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Redefining Success: Letting Go of Perfection",
+          "actualDuration": 150.540417,
+          "startTime": 1322.101708,
+          "endTime": 1472.6421249999999
+        },
+        {
+          "path": "Audio/output/934/chapter_09.wav",
+          "duration": 136.340208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Self-Advocacy and the Ongoing Journey",
+          "actualDuration": 136.340208,
+          "startTime": 1474.1421249999999,
+          "endTime": 1610.482333
+        },
+        {
+          "path": "Audio/output/934/chapter_10.wav",
+          "duration": 139.82875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Hope, Healing, and Lasting Change",
+          "actualDuration": 139.82875,
+          "startTime": 1611.982333,
+          "endTime": 1751.811083
+        },
+        {
+          "path": "Audio/output/934/conclusion.wav",
+          "duration": 115.73225,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.73225,
+          "startTime": 1753.311083,
+          "endTime": 1869.043333
+        }
+      ],
+      "totalDuration": 1869.043333,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.25,
+          "actualStart": 0,
+          "actualEnd": 81.254625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Unseen Weight of Everyday Life",
+          "expectedStart": 81.25,
+          "expectedEnd": 286.82,
+          "actualStart": 82.754625,
+          "actualEnd": 288.321167,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Naming the Invisible: Finding Words for Emotional Labor",
+          "expectedStart": 286.82,
+          "expectedEnd": 471.5,
+          "actualStart": 289.821167,
+          "actualEnd": 474.50262499999997,
+          "timeDifference": 3.0011670000000095
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Roots of Gendered Expectations",
+          "expectedStart": 471.5,
+          "expectedEnd": 664.33,
+          "actualStart": 476.00262499999997,
+          "actualEnd": 668.835,
+          "timeDifference": 4.502624999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Burnout and the Breaking Point",
+          "expectedStart": 664.33,
+          "expectedEnd": 823.21,
+          "actualStart": 670.335,
+          "actualEnd": 829.218208,
+          "timeDifference": 6.0049999999999955
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Speaking Up and Sharing the Load",
+          "expectedStart": 823.21,
+          "expectedEnd": 1003.23,
+          "actualStart": 830.718208,
+          "actualEnd": 1010.736166,
+          "timeDifference": 7.508207999999968
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rewriting the Script: Small Acts, Big Shifts",
+          "expectedStart": 1003.23,
+          "expectedEnd": 1156.69,
+          "actualStart": 1012.236166,
+          "actualEnd": 1165.698666,
+          "timeDifference": 9.006166000000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Community: Finding Strength in Solidarity",
+          "expectedStart": 1156.69,
+          "expectedEnd": 1310.09,
+          "actualStart": 1167.198666,
+          "actualEnd": 1320.601708,
+          "timeDifference": 10.508665999999948
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Redefining Success: Letting Go of Perfection",
+          "expectedStart": 1310.09,
+          "expectedEnd": 1460.63,
+          "actualStart": 1322.101708,
+          "actualEnd": 1472.6421249999999,
+          "timeDifference": 12.011707999999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Self-Advocacy and the Ongoing Journey",
+          "expectedStart": 1460.63,
+          "expectedEnd": 1596.97,
+          "actualStart": 1474.1421249999999,
+          "actualEnd": 1610.482333,
+          "timeDifference": 13.512124999999742
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Hope, Healing, and Lasting Change",
+          "expectedStart": 1596.97,
+          "expectedEnd": 1736.8,
+          "actualStart": 1611.982333,
+          "actualEnd": 1751.811083,
+          "timeDifference": 15.012332999999899
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1736.8,
+          "expectedEnd": 1852.53,
+          "actualStart": 1753.311083,
+          "actualEnd": 1869.043333,
+          "timeDifference": 16.5110830000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.254625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Unseen Weight of Everyday Life"
+        },
+        {
+          "startTime": 288.321167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Unseen Weight of Everyday Life and Chapter 2 Naming the Invisible: Finding Words for Emotional Labor"
+        },
+        {
+          "startTime": 474.50262499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Naming the Invisible: Finding Words for Emotional Labor and Chapter 3 The Roots of Gendered Expectations"
+        },
+        {
+          "startTime": 668.835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Roots of Gendered Expectations and Chapter 4 Burnout and the Breaking Point"
+        },
+        {
+          "startTime": 829.218208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Burnout and the Breaking Point and Chapter 5 Speaking Up and Sharing the Load"
+        },
+        {
+          "startTime": 1010.736166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Speaking Up and Sharing the Load and Chapter 6 Rewriting the Script: Small Acts, Big Shifts"
+        },
+        {
+          "startTime": 1165.698666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rewriting the Script: Small Acts, Big Shifts and Chapter 7 The Power of Community: Finding Strength in Solidarity"
+        },
+        {
+          "startTime": 1320.601708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Community: Finding Strength in Solidarity and Chapter 8 Redefining Success: Letting Go of Perfection"
+        },
+        {
+          "startTime": 1472.6421249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Redefining Success: Letting Go of Perfection and Chapter 9 Self-Advocacy and the Ongoing Journey"
+        },
+        {
+          "startTime": 1610.482333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Self-Advocacy and the Ongoing Journey and Chapter 10 Looking Forward: Hope, Healing, and Lasting Change"
+        },
+        {
+          "startTime": 1751.811083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Hope, Healing, and Lasting Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "934",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T16:53:34.085Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

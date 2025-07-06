@@ -1,0 +1,456 @@
+{
+  "bookId": "876",
+  "timestamp": "2025-07-05T13:31:59.421Z",
+  "success": false,
+  "processingTime": -1751721998835,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3993,
+    "totalAudioFiles": 12,
+    "totalDuration": 1847.5731680000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1847.5731680000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/876/optimized_text/876.md",
+    "fileSize": 848,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "876.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/876/metadata/876_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1847.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/876/metadata/876_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/876/metadata/876_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/876/876_complete.wav",
+    "duration": 1847.573167,
+    "fileSize": 88683590,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/876/introduction.wav",
+          "duration": 70.567917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 70.567917,
+          "startTime": 0,
+          "endTime": 70.567917
+        },
+        {
+          "path": "Audio/output/876/chapter_01.wav",
+          "duration": 197.7975,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Barriers: Guilt, Shame, and the Habit of Seeking Permission",
+          "actualDuration": 197.7975,
+          "startTime": 72.067917,
+          "endTime": 269.865417
+        },
+        {
+          "path": "Audio/output/876/chapter_02.wav",
+          "duration": 190.110083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Letting Go of Excuses: Moving Beyond Self-Imposed Limitations",
+          "actualDuration": 190.110083,
+          "startTime": 271.365417,
+          "endTime": 461.4755
+        },
+        {
+          "path": "Audio/output/876/chapter_03.wav",
+          "duration": 158.898792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Defining Personal Goals: Creating a Vision That Belongs to You",
+          "actualDuration": 158.898792,
+          "startTime": 462.9755,
+          "endTime": 621.874292
+        },
+        {
+          "path": "Audio/output/876/chapter_04.wav",
+          "duration": 167.351542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Empowering Habits: Self-Discipline, Consistency, and Confidence",
+          "actualDuration": 167.351542,
+          "startTime": 623.374292,
+          "endTime": 790.725834
+        },
+        {
+          "path": "Audio/output/876/chapter_05.wav",
+          "duration": 211.94125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Developing Key Skills: Planning, Time Management, and Persistence",
+          "actualDuration": 211.94125,
+          "startTime": 792.225834,
+          "endTime": 1004.1670839999999
+        },
+        {
+          "path": "Audio/output/876/chapter_06.wav",
+          "duration": 173.574917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Prioritizing Self-Care: Fueling Ambition Without Burnout",
+          "actualDuration": 173.574917,
+          "startTime": 1005.6670839999999,
+          "endTime": 1179.2420009999998
+        },
+        {
+          "path": "Audio/output/876/chapter_07.wav",
+          "duration": 157.855125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Setting Boundaries: Protecting Your Time, Energy, and Values",
+          "actualDuration": 157.855125,
+          "startTime": 1180.7420009999998,
+          "endTime": 1338.597126
+        },
+        {
+          "path": "Audio/output/876/chapter_08.wav",
+          "duration": 137.582,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Advocating for Yourself: Speaking Up and Asking for What You Need",
+          "actualDuration": 137.582,
+          "startTime": 1340.097126,
+          "endTime": 1477.679126
+        },
+        {
+          "path": "Audio/output/876/chapter_09.wav",
+          "duration": 126.793167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Imperfection: Letting Go of Perfectionism and Comparison",
+          "actualDuration": 126.793167,
+          "startTime": 1479.179126,
+          "endTime": 1605.972293
+        },
+        {
+          "path": "Audio/output/876/chapter_10.wav",
+          "duration": 128.35175,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Unapologetically: Sustaining Growth and Inspiring Others",
+          "actualDuration": 128.35175,
+          "startTime": 1607.472293,
+          "endTime": 1735.824043
+        },
+        {
+          "path": "Audio/output/876/conclusion.wav",
+          "duration": 126.749125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.749125,
+          "startTime": 1737.324043,
+          "endTime": 1864.0731680000001
+        }
+      ],
+      "totalDuration": 1864.0731680000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 70.57,
+          "actualStart": 0,
+          "actualEnd": 70.567917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Barriers: Guilt, Shame, and the Habit of Seeking Permission",
+          "expectedStart": 70.57,
+          "expectedEnd": 268.37,
+          "actualStart": 72.067917,
+          "actualEnd": 269.865417,
+          "timeDifference": 1.497917000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Letting Go of Excuses: Moving Beyond Self-Imposed Limitations",
+          "expectedStart": 268.37,
+          "expectedEnd": 458.48,
+          "actualStart": 271.365417,
+          "actualEnd": 461.4755,
+          "timeDifference": 2.995416999999975
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Defining Personal Goals: Creating a Vision That Belongs to You",
+          "expectedStart": 458.48,
+          "expectedEnd": 617.38,
+          "actualStart": 462.9755,
+          "actualEnd": 621.874292,
+          "timeDifference": 4.495499999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Empowering Habits: Self-Discipline, Consistency, and Confidence",
+          "expectedStart": 617.38,
+          "expectedEnd": 784.73,
+          "actualStart": 623.374292,
+          "actualEnd": 790.725834,
+          "timeDifference": 5.994291999999973
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Developing Key Skills: Planning, Time Management, and Persistence",
+          "expectedStart": 784.73,
+          "expectedEnd": 996.67,
+          "actualStart": 792.225834,
+          "actualEnd": 1004.1670839999999,
+          "timeDifference": 7.495833999999945
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Prioritizing Self-Care: Fueling Ambition Without Burnout",
+          "expectedStart": 996.67,
+          "expectedEnd": 1170.24,
+          "actualStart": 1005.6670839999999,
+          "actualEnd": 1179.2420009999998,
+          "timeDifference": 8.997083999999973
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Setting Boundaries: Protecting Your Time, Energy, and Values",
+          "expectedStart": 1170.24,
+          "expectedEnd": 1328.1,
+          "actualStart": 1180.7420009999998,
+          "actualEnd": 1338.597126,
+          "timeDifference": 10.502000999999836
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Advocating for Yourself: Speaking Up and Asking for What You Need",
+          "expectedStart": 1328.1,
+          "expectedEnd": 1465.68,
+          "actualStart": 1340.097126,
+          "actualEnd": 1477.679126,
+          "timeDifference": 11.99712599999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Imperfection: Letting Go of Perfectionism and Comparison",
+          "expectedStart": 1465.68,
+          "expectedEnd": 1592.47,
+          "actualStart": 1479.179126,
+          "actualEnd": 1605.972293,
+          "timeDifference": 13.499125999999933
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Unapologetically: Sustaining Growth and Inspiring Others",
+          "expectedStart": 1592.47,
+          "expectedEnd": 1720.82,
+          "actualStart": 1607.472293,
+          "actualEnd": 1735.824043,
+          "timeDifference": 15.002293000000009
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1720.82,
+          "expectedEnd": 1847.57,
+          "actualStart": 1737.324043,
+          "actualEnd": 1864.0731680000001,
+          "timeDifference": 16.504043000000138
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 70.567917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Barriers: Guilt, Shame, and the Habit of Seeking Permission"
+        },
+        {
+          "startTime": 269.865417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Barriers: Guilt, Shame, and the Habit of Seeking Permission and Chapter 2 Letting Go of Excuses: Moving Beyond Self-Imposed Limitations"
+        },
+        {
+          "startTime": 461.4755,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Letting Go of Excuses: Moving Beyond Self-Imposed Limitations and Chapter 3 Defining Personal Goals: Creating a Vision That Belongs to You"
+        },
+        {
+          "startTime": 621.874292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Defining Personal Goals: Creating a Vision That Belongs to You and Chapter 4 Building Empowering Habits: Self-Discipline, Consistency, and Confidence"
+        },
+        {
+          "startTime": 790.725834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Empowering Habits: Self-Discipline, Consistency, and Confidence and Chapter 5 Developing Key Skills: Planning, Time Management, and Persistence"
+        },
+        {
+          "startTime": 1004.1670839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Developing Key Skills: Planning, Time Management, and Persistence and Chapter 6 Prioritizing Self-Care: Fueling Ambition Without Burnout"
+        },
+        {
+          "startTime": 1179.2420009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Prioritizing Self-Care: Fueling Ambition Without Burnout and Chapter 7 Setting Boundaries: Protecting Your Time, Energy, and Values"
+        },
+        {
+          "startTime": 1338.597126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Setting Boundaries: Protecting Your Time, Energy, and Values and Chapter 8 Advocating for Yourself: Speaking Up and Asking for What You Need"
+        },
+        {
+          "startTime": 1477.679126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Advocating for Yourself: Speaking Up and Asking for What You Need and Chapter 9 Embracing Imperfection: Letting Go of Perfectionism and Comparison"
+        },
+        {
+          "startTime": 1605.972293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Imperfection: Letting Go of Perfectionism and Comparison and Chapter 10 Living Unapologetically: Sustaining Growth and Inspiring Others"
+        },
+        {
+          "startTime": 1735.824043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Unapologetically: Sustaining Growth and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "876",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T13:26:40.064Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

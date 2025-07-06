@@ -1,0 +1,432 @@
+{
+  "bookId": "799",
+  "timestamp": "2025-07-05T09:28:55.394Z",
+  "success": false,
+  "processingTime": -1751707429197,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3561,
+    "totalAudioFiles": 11,
+    "totalDuration": 1708.320875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1708.320875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/799/optimized_text/799.md",
+    "fileSize": 660,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "799.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/799/metadata/799_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1708.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/799/metadata/799_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/799/metadata/799_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/799/799_complete.wav",
+    "duration": 1708.320875,
+    "fileSize": 81999480,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/799/introduction.wav",
+          "duration": 105.982208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.982208,
+          "startTime": 0,
+          "endTime": 105.982208
+        },
+        {
+          "path": "Audio/output/799/chapter_01.wav",
+          "duration": 178.429333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Changing Face of Punishment: From Public Pain to Hidden Control",
+          "actualDuration": 178.429333,
+          "startTime": 107.482208,
+          "endTime": 285.911541
+        },
+        {
+          "path": "Audio/output/799/chapter_02.wav",
+          "duration": 211.464917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Discipline: Training Bodies and Minds",
+          "actualDuration": 211.464917,
+          "startTime": 287.411541,
+          "endTime": 498.876458
+        },
+        {
+          "path": "Audio/output/799/chapter_03.wav",
+          "duration": 161.3565,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Surveillance: Seeing Without Being Seen",
+          "actualDuration": 161.3565,
+          "startTime": 500.376458,
+          "endTime": 661.732958
+        },
+        {
+          "path": "Audio/output/799/chapter_04.wav",
+          "duration": 193.161625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Institutions as Machines of Discipline: Shaping Everyday Life",
+          "actualDuration": 193.161625,
+          "startTime": 663.232958,
+          "endTime": 856.394583
+        },
+        {
+          "path": "Audio/output/799/chapter_05.wav",
+          "duration": 147.599833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Power and Knowledge: How Definitions Shape Control",
+          "actualDuration": 147.599833,
+          "startTime": 857.894583,
+          "endTime": 1005.494416
+        },
+        {
+          "path": "Audio/output/799/chapter_06.wav",
+          "duration": 171.223125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Spread of Discipline: Beyond the Prison Walls",
+          "actualDuration": 171.223125,
+          "startTime": 1006.994416,
+          "endTime": 1178.217541
+        },
+        {
+          "path": "Audio/output/799/chapter_07.wav",
+          "duration": 144.666667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Birth of the Modern Prison: Reform and Reality",
+          "actualDuration": 144.666667,
+          "startTime": 1179.717541,
+          "endTime": 1324.384208
+        },
+        {
+          "path": "Audio/output/799/chapter_08.wav",
+          "duration": 145.803792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resistance and Rebellion: Cracks in the System",
+          "actualDuration": 145.803792,
+          "startTime": 1325.884208,
+          "endTime": 1471.6879999999999
+        },
+        {
+          "path": "Audio/output/799/chapter_09.wav",
+          "duration": 126.771667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Lasting Impact: Identity, Freedom, and the Self",
+          "actualDuration": 126.771667,
+          "startTime": 1473.1879999999999,
+          "endTime": 1599.9596669999999
+        },
+        {
+          "path": "Audio/output/799/conclusion.wav",
+          "duration": 121.861208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.861208,
+          "startTime": 1601.4596669999999,
+          "endTime": 1723.320875
+        }
+      ],
+      "totalDuration": 1723.320875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.98,
+          "actualStart": 0,
+          "actualEnd": 105.982208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Changing Face of Punishment: From Public Pain to Hidden Control",
+          "expectedStart": 105.98,
+          "expectedEnd": 284.41,
+          "actualStart": 107.482208,
+          "actualEnd": 285.911541,
+          "timeDifference": 1.502207999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Discipline: Training Bodies and Minds",
+          "expectedStart": 284.41,
+          "expectedEnd": 495.87,
+          "actualStart": 287.411541,
+          "actualEnd": 498.876458,
+          "timeDifference": 3.0015409999999747
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Surveillance: Seeing Without Being Seen",
+          "expectedStart": 495.87,
+          "expectedEnd": 657.23,
+          "actualStart": 500.376458,
+          "actualEnd": 661.732958,
+          "timeDifference": 4.506458000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Institutions as Machines of Discipline: Shaping Everyday Life",
+          "expectedStart": 657.23,
+          "expectedEnd": 850.39,
+          "actualStart": 663.232958,
+          "actualEnd": 856.394583,
+          "timeDifference": 6.002958000000035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Power and Knowledge: How Definitions Shape Control",
+          "expectedStart": 850.39,
+          "expectedEnd": 997.99,
+          "actualStart": 857.894583,
+          "actualEnd": 1005.494416,
+          "timeDifference": 7.504583000000025
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Spread of Discipline: Beyond the Prison Walls",
+          "expectedStart": 997.99,
+          "expectedEnd": 1169.21,
+          "actualStart": 1006.994416,
+          "actualEnd": 1178.217541,
+          "timeDifference": 9.004415999999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Birth of the Modern Prison: Reform and Reality",
+          "expectedStart": 1169.21,
+          "expectedEnd": 1313.88,
+          "actualStart": 1179.717541,
+          "actualEnd": 1324.384208,
+          "timeDifference": 10.507540999999947
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resistance and Rebellion: Cracks in the System",
+          "expectedStart": 1313.88,
+          "expectedEnd": 1459.68,
+          "actualStart": 1325.884208,
+          "actualEnd": 1471.6879999999999,
+          "timeDifference": 12.004207999999835
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Lasting Impact: Identity, Freedom, and the Self",
+          "expectedStart": 1459.68,
+          "expectedEnd": 1586.45,
+          "actualStart": 1473.1879999999999,
+          "actualEnd": 1599.9596669999999,
+          "timeDifference": 13.50799999999981
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1586.45,
+          "expectedEnd": 1708.31,
+          "actualStart": 1601.4596669999999,
+          "actualEnd": 1723.320875,
+          "timeDifference": 15.009666999999808
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.982208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Changing Face of Punishment: From Public Pain to Hidden Control"
+        },
+        {
+          "startTime": 285.911541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Changing Face of Punishment: From Public Pain to Hidden Control and Chapter 2 The Rise of Discipline: Training Bodies and Minds"
+        },
+        {
+          "startTime": 498.876458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Discipline: Training Bodies and Minds and Chapter 3 The Power of Surveillance: Seeing Without Being Seen"
+        },
+        {
+          "startTime": 661.732958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Surveillance: Seeing Without Being Seen and Chapter 4 Institutions as Machines of Discipline: Shaping Everyday Life"
+        },
+        {
+          "startTime": 856.394583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Institutions as Machines of Discipline: Shaping Everyday Life and Chapter 5 Power and Knowledge: How Definitions Shape Control"
+        },
+        {
+          "startTime": 1005.494416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Power and Knowledge: How Definitions Shape Control and Chapter 6 The Spread of Discipline: Beyond the Prison Walls"
+        },
+        {
+          "startTime": 1178.217541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Spread of Discipline: Beyond the Prison Walls and Chapter 7 The Birth of the Modern Prison: Reform and Reality"
+        },
+        {
+          "startTime": 1324.384208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Birth of the Modern Prison: Reform and Reality and Chapter 8 Resistance and Rebellion: Cracks in the System"
+        },
+        {
+          "startTime": 1471.6879999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resistance and Rebellion: Cracks in the System and Chapter 9 The Lasting Impact: Identity, Freedom, and the Self"
+        },
+        {
+          "startTime": 1599.9596669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Lasting Impact: Identity, Freedom, and the Self and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "799",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T09:23:51.316Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

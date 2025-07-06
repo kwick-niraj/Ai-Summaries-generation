@@ -1,0 +1,456 @@
+{
+  "bookId": "846",
+  "timestamp": "2025-07-05T11:58:13.487Z",
+  "success": false,
+  "processingTime": -1751716262821,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4014,
+    "totalAudioFiles": 12,
+    "totalDuration": 2061.7452070000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2061.7452070000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/846/optimized_text/846.md",
+    "fileSize": 755,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "846.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/846/metadata/846_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2061.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/846/metadata/846_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/846/metadata/846_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/846/846_complete.wav",
+    "duration": 2061.745208,
+    "fileSize": 98963848,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/846/introduction.wav",
+          "duration": 93.325583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.325583,
+          "startTime": 0,
+          "endTime": 93.325583
+        },
+        {
+          "path": "Audio/output/846/chapter_01.wav",
+          "duration": 215.475083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Reciprocity Styles: Givers, Takers, and Matchers",
+          "actualDuration": 215.475083,
+          "startTime": 94.825583,
+          "endTime": 310.300666
+        },
+        {
+          "path": "Audio/output/846/chapter_02.wav",
+          "duration": 220.160625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Paradox of Generosity: Why Givers Succeed and Struggle",
+          "actualDuration": 220.160625,
+          "startTime": 311.800666,
+          "endTime": 531.961291
+        },
+        {
+          "path": "Audio/output/846/chapter_03.wav",
+          "duration": 227.748708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Networks Through Giving: The Power of Connections",
+          "actualDuration": 227.748708,
+          "startTime": 533.461291,
+          "endTime": 761.2099989999999
+        },
+        {
+          "path": "Audio/output/846/chapter_04.wav",
+          "duration": 223.661417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Influence and Collaboration: How Generosity Shapes Group Success",
+          "actualDuration": 223.661417,
+          "startTime": 762.7099989999999,
+          "endTime": 986.371416
+        },
+        {
+          "path": "Audio/output/846/chapter_05.wav",
+          "duration": 182.701667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Success: The Long-Term Impact of Helping Others",
+          "actualDuration": 182.701667,
+          "startTime": 987.871416,
+          "endTime": 1170.573083
+        },
+        {
+          "path": "Audio/output/846/chapter_06.wav",
+          "duration": 170.743333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Guarding Against Burnout: Sustainable Generosity in Practice",
+          "actualDuration": 170.743333,
+          "startTime": 1172.073083,
+          "endTime": 1342.8164160000001
+        },
+        {
+          "path": "Audio/output/846/chapter_07.wav",
+          "duration": 164.966333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Takers and Protecting Generosity",
+          "actualDuration": 164.966333,
+          "startTime": 1344.3164160000001,
+          "endTime": 1509.2827490000002
+        },
+        {
+          "path": "Audio/output/846/chapter_08.wav",
+          "duration": 167.730833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating a Culture of Giving: Teams and Organizations",
+          "actualDuration": 167.730833,
+          "startTime": 1510.7827490000002,
+          "endTime": 1678.5135820000003
+        },
+        {
+          "path": "Audio/output/846/chapter_09.wav",
+          "duration": 146.439,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Generosity Into Daily Life",
+          "actualDuration": 146.439,
+          "startTime": 1680.0135820000003,
+          "endTime": 1826.4525820000003
+        },
+        {
+          "path": "Audio/output/846/chapter_10.wav",
+          "duration": 127.507708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: Spreading Generosity Beyond the Self",
+          "actualDuration": 127.507708,
+          "startTime": 1827.9525820000003,
+          "endTime": 1955.4602900000004
+        },
+        {
+          "path": "Audio/output/846/conclusion.wav",
+          "duration": 121.284917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.284917,
+          "startTime": 1956.9602900000004,
+          "endTime": 2078.2452070000004
+        }
+      ],
+      "totalDuration": 2078.2452070000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.33,
+          "actualStart": 0,
+          "actualEnd": 93.325583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Reciprocity Styles: Givers, Takers, and Matchers",
+          "expectedStart": 93.33,
+          "expectedEnd": 308.81,
+          "actualStart": 94.825583,
+          "actualEnd": 310.300666,
+          "timeDifference": 1.4955829999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Paradox of Generosity: Why Givers Succeed and Struggle",
+          "expectedStart": 308.81,
+          "expectedEnd": 528.97,
+          "actualStart": 311.800666,
+          "actualEnd": 531.961291,
+          "timeDifference": 2.990665999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Networks Through Giving: The Power of Connections",
+          "expectedStart": 528.97,
+          "expectedEnd": 756.72,
+          "actualStart": 533.461291,
+          "actualEnd": 761.2099989999999,
+          "timeDifference": 4.491290999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Influence and Collaboration: How Generosity Shapes Group Success",
+          "expectedStart": 756.72,
+          "expectedEnd": 980.38,
+          "actualStart": 762.7099989999999,
+          "actualEnd": 986.371416,
+          "timeDifference": 5.989998999999898
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Success: The Long-Term Impact of Helping Others",
+          "expectedStart": 980.38,
+          "expectedEnd": 1163.08,
+          "actualStart": 987.871416,
+          "actualEnd": 1170.573083,
+          "timeDifference": 7.491415999999958
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Guarding Against Burnout: Sustainable Generosity in Practice",
+          "expectedStart": 1163.08,
+          "expectedEnd": 1333.82,
+          "actualStart": 1172.073083,
+          "actualEnd": 1342.8164160000001,
+          "timeDifference": 8.99308300000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Takers and Protecting Generosity",
+          "expectedStart": 1333.82,
+          "expectedEnd": 1498.79,
+          "actualStart": 1344.3164160000001,
+          "actualEnd": 1509.2827490000002,
+          "timeDifference": 10.496416000000181
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating a Culture of Giving: Teams and Organizations",
+          "expectedStart": 1498.79,
+          "expectedEnd": 1666.52,
+          "actualStart": 1510.7827490000002,
+          "actualEnd": 1678.5135820000003,
+          "timeDifference": 11.99274900000023
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Generosity Into Daily Life",
+          "expectedStart": 1666.52,
+          "expectedEnd": 1812.96,
+          "actualStart": 1680.0135820000003,
+          "actualEnd": 1826.4525820000003,
+          "timeDifference": 13.493582000000288
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: Spreading Generosity Beyond the Self",
+          "expectedStart": 1812.96,
+          "expectedEnd": 1940.47,
+          "actualStart": 1827.9525820000003,
+          "actualEnd": 1955.4602900000004,
+          "timeDifference": 14.992582000000311
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1940.47,
+          "expectedEnd": 2061.75,
+          "actualStart": 1956.9602900000004,
+          "actualEnd": 2078.2452070000004,
+          "timeDifference": 16.490290000000414
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.325583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Reciprocity Styles: Givers, Takers, and Matchers"
+        },
+        {
+          "startTime": 310.300666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Reciprocity Styles: Givers, Takers, and Matchers and Chapter 2 The Paradox of Generosity: Why Givers Succeed and Struggle"
+        },
+        {
+          "startTime": 531.961291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Paradox of Generosity: Why Givers Succeed and Struggle and Chapter 3 Building Networks Through Giving: The Power of Connections"
+        },
+        {
+          "startTime": 761.2099989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Networks Through Giving: The Power of Connections and Chapter 4 Influence and Collaboration: How Generosity Shapes Group Success"
+        },
+        {
+          "startTime": 986.371416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Influence and Collaboration: How Generosity Shapes Group Success and Chapter 5 Redefining Success: The Long-Term Impact of Helping Others"
+        },
+        {
+          "startTime": 1170.573083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Success: The Long-Term Impact of Helping Others and Chapter 6 Guarding Against Burnout: Sustainable Generosity in Practice"
+        },
+        {
+          "startTime": 1342.8164160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Guarding Against Burnout: Sustainable Generosity in Practice and Chapter 7 Navigating Takers and Protecting Generosity"
+        },
+        {
+          "startTime": 1509.2827490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Takers and Protecting Generosity and Chapter 8 Cultivating a Culture of Giving: Teams and Organizations"
+        },
+        {
+          "startTime": 1678.5135820000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating a Culture of Giving: Teams and Organizations and Chapter 9 Integrating Generosity Into Daily Life"
+        },
+        {
+          "startTime": 1826.4525820000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Generosity Into Daily Life and Chapter 10 The Ripple Effect: Spreading Generosity Beyond the Self"
+        },
+        {
+          "startTime": 1955.4602900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: Spreading Generosity Beyond the Self and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "846",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T11:51:04.407Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

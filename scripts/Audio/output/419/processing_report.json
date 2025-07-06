@@ -1,0 +1,456 @@
+{
+  "bookId": "419",
+  "timestamp": "2025-07-04T02:13:26.720Z",
+  "success": false,
+  "processingTime": -1751594798682,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4216,
+    "totalAudioFiles": 12,
+    "totalDuration": 1938.327208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1938.327208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/419/optimized_text/419.md",
+    "fileSize": 689,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "419.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/419/metadata/419_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1938.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/419/metadata/419_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/419/metadata/419_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/419/419_complete.wav",
+    "duration": 1938.327208,
+    "fileSize": 93039784,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/419/introduction.wav",
+          "duration": 73.928542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 73.928542,
+          "startTime": 0,
+          "endTime": 73.928542
+        },
+        {
+          "path": "Audio/output/419/chapter_01.wav",
+          "duration": 202.53225,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Mind as a Spiritual Battleground",
+          "actualDuration": 202.53225,
+          "startTime": 75.428542,
+          "endTime": 277.96079199999997
+        },
+        {
+          "path": "Audio/output/419/chapter_02.wav",
+          "duration": 244.818042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Recognizing and Challenging Destructive Thought Patterns",
+          "actualDuration": 244.818042,
+          "startTime": 279.46079199999997,
+          "endTime": 524.278834
+        },
+        {
+          "path": "Audio/output/419/chapter_03.wav",
+          "duration": 169.655458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Replacing Lies with Truth and Renewing the Mind",
+          "actualDuration": 169.655458,
+          "startTime": 525.778834,
+          "endTime": 695.4342919999999
+        },
+        {
+          "path": "Audio/output/419/chapter_04.wav",
+          "duration": 181.688833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Faith and Perseverance in Mental Transformation",
+          "actualDuration": 181.688833,
+          "startTime": 696.9342919999999,
+          "endTime": 878.6231249999998
+        },
+        {
+          "path": "Audio/output/419/chapter_05.wav",
+          "duration": 185.325333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Strategies for Daily Mental Victory",
+          "actualDuration": 185.325333,
+          "startTime": 880.1231249999998,
+          "endTime": 1065.4484579999998
+        },
+        {
+          "path": "Audio/output/419/chapter_06.wav",
+          "duration": 195.80175,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Identifying and Overcoming Mental Strongholds",
+          "actualDuration": 195.80175,
+          "startTime": 1066.9484579999998,
+          "endTime": 1262.750208
+        },
+        {
+          "path": "Audio/output/419/chapter_07.wav",
+          "duration": 163.177792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Emotions and Redirecting Emotional Energy",
+          "actualDuration": 163.177792,
+          "startTime": 1264.250208,
+          "endTime": 1427.4279999999999
+        },
+        {
+          "path": "Audio/output/419/chapter_08.wav",
+          "duration": 136.2775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Forgiveness and Letting Go of the Past",
+          "actualDuration": 136.2775,
+          "startTime": 1428.9279999999999,
+          "endTime": 1565.2054999999998
+        },
+        {
+          "path": "Audio/output/419/chapter_09.wav",
+          "duration": 137.647125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Cultivating Gratitude and Positive Focus",
+          "actualDuration": 137.647125,
+          "startTime": 1566.7054999999998,
+          "endTime": 1704.3526249999998
+        },
+        {
+          "path": "Audio/output/419/chapter_10.wav",
+          "duration": 129.415625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Long-Term Victory and Building a New Identity",
+          "actualDuration": 129.415625,
+          "startTime": 1705.8526249999998,
+          "endTime": 1835.2682499999999
+        },
+        {
+          "path": "Audio/output/419/conclusion.wav",
+          "duration": 118.058958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.058958,
+          "startTime": 1836.7682499999999,
+          "endTime": 1954.827208
+        }
+      ],
+      "totalDuration": 1954.827208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 73.93,
+          "actualStart": 0,
+          "actualEnd": 73.928542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Mind as a Spiritual Battleground",
+          "expectedStart": 73.93,
+          "expectedEnd": 276.46,
+          "actualStart": 75.428542,
+          "actualEnd": 277.96079199999997,
+          "timeDifference": 1.4985419999999863
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Recognizing and Challenging Destructive Thought Patterns",
+          "expectedStart": 276.46,
+          "expectedEnd": 521.28,
+          "actualStart": 279.46079199999997,
+          "actualEnd": 524.278834,
+          "timeDifference": 3.00079199999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Replacing Lies with Truth and Renewing the Mind",
+          "expectedStart": 521.28,
+          "expectedEnd": 690.94,
+          "actualStart": 525.778834,
+          "actualEnd": 695.4342919999999,
+          "timeDifference": 4.498833999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Faith and Perseverance in Mental Transformation",
+          "expectedStart": 690.94,
+          "expectedEnd": 872.63,
+          "actualStart": 696.9342919999999,
+          "actualEnd": 878.6231249999998,
+          "timeDifference": 5.994291999999859
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Strategies for Daily Mental Victory",
+          "expectedStart": 872.63,
+          "expectedEnd": 1057.96,
+          "actualStart": 880.1231249999998,
+          "actualEnd": 1065.4484579999998,
+          "timeDifference": 7.49312499999985
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Identifying and Overcoming Mental Strongholds",
+          "expectedStart": 1057.96,
+          "expectedEnd": 1253.76,
+          "actualStart": 1066.9484579999998,
+          "actualEnd": 1262.750208,
+          "timeDifference": 8.98845799999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Emotions and Redirecting Emotional Energy",
+          "expectedStart": 1253.76,
+          "expectedEnd": 1416.94,
+          "actualStart": 1264.250208,
+          "actualEnd": 1427.4279999999999,
+          "timeDifference": 10.490207999999939
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Forgiveness and Letting Go of the Past",
+          "expectedStart": 1416.94,
+          "expectedEnd": 1553.22,
+          "actualStart": 1428.9279999999999,
+          "actualEnd": 1565.2054999999998,
+          "timeDifference": 11.987999999999829
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Cultivating Gratitude and Positive Focus",
+          "expectedStart": 1553.22,
+          "expectedEnd": 1690.87,
+          "actualStart": 1566.7054999999998,
+          "actualEnd": 1704.3526249999998,
+          "timeDifference": 13.485499999999774
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Long-Term Victory and Building a New Identity",
+          "expectedStart": 1690.87,
+          "expectedEnd": 1820.29,
+          "actualStart": 1705.8526249999998,
+          "actualEnd": 1835.2682499999999,
+          "timeDifference": 14.98262499999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1820.29,
+          "expectedEnd": 1938.35,
+          "actualStart": 1836.7682499999999,
+          "actualEnd": 1954.827208,
+          "timeDifference": 16.47824999999989
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 73.928542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Mind as a Spiritual Battleground"
+        },
+        {
+          "startTime": 277.96079199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Mind as a Spiritual Battleground and Chapter 2 Recognizing and Challenging Destructive Thought Patterns"
+        },
+        {
+          "startTime": 524.278834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Recognizing and Challenging Destructive Thought Patterns and Chapter 3 Replacing Lies with Truth and Renewing the Mind"
+        },
+        {
+          "startTime": 695.4342919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Replacing Lies with Truth and Renewing the Mind and Chapter 4 The Role of Faith and Perseverance in Mental Transformation"
+        },
+        {
+          "startTime": 878.6231249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Faith and Perseverance in Mental Transformation and Chapter 5 Practical Strategies for Daily Mental Victory"
+        },
+        {
+          "startTime": 1065.4484579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Strategies for Daily Mental Victory and Chapter 6 Identifying and Overcoming Mental Strongholds"
+        },
+        {
+          "startTime": 1262.750208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Identifying and Overcoming Mental Strongholds and Chapter 7 Managing Emotions and Redirecting Emotional Energy"
+        },
+        {
+          "startTime": 1427.4279999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Emotions and Redirecting Emotional Energy and Chapter 8 Forgiveness and Letting Go of the Past"
+        },
+        {
+          "startTime": 1565.2054999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Forgiveness and Letting Go of the Past and Chapter 9 Cultivating Gratitude and Positive Focus"
+        },
+        {
+          "startTime": 1704.3526249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Cultivating Gratitude and Positive Focus and Chapter 10 Sustaining Long-Term Victory and Building a New Identity"
+        },
+        {
+          "startTime": 1835.2682499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Long-Term Victory and Building a New Identity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "419",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T02:06:40.334Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

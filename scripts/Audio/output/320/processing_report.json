@@ -1,0 +1,552 @@
+{
+  "bookId": "320",
+  "timestamp": "2025-07-03T17:34:36.747Z",
+  "success": false,
+  "processingTime": -1751563470379,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5099,
+    "totalAudioFiles": 16,
+    "totalDuration": 2440.319790999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2440.319790999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/320/optimized_text/320.md",
+    "fileSize": 837,
+    "wordCount": 123,
+    "format": "markdown",
+    "filename": "320.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/320/metadata/320_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2440.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/320/metadata/320_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/320/metadata/320_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/320/320_complete.wav",
+    "duration": 2440.319792,
+    "fileSize": 117135428,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/320/introduction.wav",
+          "duration": 94.981667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.981667,
+          "startTime": 0,
+          "endTime": 94.981667
+        },
+        {
+          "path": "Audio/output/320/chapter_01.wav",
+          "duration": 247.971333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Unexpected Value of Failure",
+          "actualDuration": 247.971333,
+          "startTime": 96.481667,
+          "endTime": 344.453
+        },
+        {
+          "path": "Audio/output/320/chapter_02.wav",
+          "duration": 208.063833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Why Systems Work Better Than Goals",
+          "actualDuration": 208.063833,
+          "startTime": 345.953,
+          "endTime": 554.0168329999999
+        },
+        {
+          "path": "Audio/output/320/chapter_03.wav",
+          "duration": 188.998625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Stacking Skills",
+          "actualDuration": 188.998625,
+          "startTime": 555.5168329999999,
+          "endTime": 744.5154579999999
+        },
+        {
+          "path": "Audio/output/320/chapter_04.wav",
+          "duration": 212.721542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Managing Energy, Not Just Time",
+          "actualDuration": 212.721542,
+          "startTime": 746.0154579999999,
+          "endTime": 958.7369999999999
+        },
+        {
+          "path": "Audio/output/320/chapter_05.wav",
+          "duration": 188.758625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Adaptability, Luck, and the Art of Self-Awareness",
+          "actualDuration": 188.758625,
+          "startTime": 960.2369999999999,
+          "endTime": 1148.9956249999998
+        },
+        {
+          "path": "Audio/output/320/chapter_06.wav",
+          "duration": 141.356458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Subtle Art of Managing Your Personal Brand",
+          "actualDuration": 141.356458,
+          "startTime": 1150.4956249999998,
+          "endTime": 1291.8520829999998
+        },
+        {
+          "path": "Audio/output/320/chapter_07.wav",
+          "duration": 144.144083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Leverage of Humor and Positivity",
+          "actualDuration": 144.144083,
+          "startTime": 1293.3520829999998,
+          "endTime": 1437.4961659999997
+        },
+        {
+          "path": "Audio/output/320/chapter_08.wav",
+          "duration": 149.51175,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Health as a Foundation, Not an Afterthought",
+          "actualDuration": 149.51175,
+          "startTime": 1438.9961659999997,
+          "endTime": 1588.5079159999996
+        },
+        {
+          "path": "Audio/output/320/chapter_09.wav",
+          "duration": 137.285667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Power of Affirmations and Mindset",
+          "actualDuration": 137.285667,
+          "startTime": 1590.0079159999996,
+          "endTime": 1727.2935829999997
+        },
+        {
+          "path": "Audio/output/320/chapter_10.wav",
+          "duration": 128.391292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating the Odds—Luck, Risk, and the Long Game",
+          "actualDuration": 128.391292,
+          "startTime": 1728.7935829999997,
+          "endTime": 1857.1848749999997
+        },
+        {
+          "path": "Audio/output/320/chapter_11.wav",
+          "duration": 116.806958,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Gentle Art of Saying No",
+          "actualDuration": 116.806958,
+          "startTime": 1858.6848749999997,
+          "endTime": 1975.4918329999996
+        },
+        {
+          "path": "Audio/output/320/chapter_12.wav",
+          "duration": 133.72875,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Compound Effect of Small Wins",
+          "actualDuration": 133.72875,
+          "startTime": 1976.9918329999996,
+          "endTime": 2110.7205829999994
+        },
+        {
+          "path": "Audio/output/320/chapter_13.wav",
+          "duration": 134.098208,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Role of Environment and Association",
+          "actualDuration": 134.098208,
+          "startTime": 2112.2205829999994,
+          "endTime": 2246.3187909999992
+        },
+        {
+          "path": "Audio/output/320/chapter_14.wav",
+          "duration": 97.704667,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Long View—Legacy, Meaning, and the Big Picture",
+          "actualDuration": 97.704667,
+          "startTime": 2247.8187909999992,
+          "endTime": 2345.523457999999
+        },
+        {
+          "path": "Audio/output/320/conclusion.wav",
+          "duration": 115.796333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.796333,
+          "startTime": 2347.023457999999,
+          "endTime": 2462.819790999999
+        }
+      ],
+      "totalDuration": 2462.819790999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.98,
+          "actualStart": 0,
+          "actualEnd": 94.981667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Unexpected Value of Failure",
+          "expectedStart": 94.98,
+          "expectedEnd": 342.95,
+          "actualStart": 96.481667,
+          "actualEnd": 344.453,
+          "timeDifference": 1.5016669999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Why Systems Work Better Than Goals",
+          "expectedStart": 342.95,
+          "expectedEnd": 551.01,
+          "actualStart": 345.953,
+          "actualEnd": 554.0168329999999,
+          "timeDifference": 3.002999999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Stacking Skills",
+          "expectedStart": 551.01,
+          "expectedEnd": 740.01,
+          "actualStart": 555.5168329999999,
+          "actualEnd": 744.5154579999999,
+          "timeDifference": 4.506832999999915
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Managing Energy, Not Just Time",
+          "expectedStart": 740.01,
+          "expectedEnd": 952.73,
+          "actualStart": 746.0154579999999,
+          "actualEnd": 958.7369999999999,
+          "timeDifference": 6.005457999999862
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Adaptability, Luck, and the Art of Self-Awareness",
+          "expectedStart": 952.73,
+          "expectedEnd": 1141.49,
+          "actualStart": 960.2369999999999,
+          "actualEnd": 1148.9956249999998,
+          "timeDifference": 7.5069999999998345
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Subtle Art of Managing Your Personal Brand",
+          "expectedStart": 1141.49,
+          "expectedEnd": 1282.85,
+          "actualStart": 1150.4956249999998,
+          "actualEnd": 1291.8520829999998,
+          "timeDifference": 9.005624999999782
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Leverage of Humor and Positivity",
+          "expectedStart": 1282.85,
+          "expectedEnd": 1426.99,
+          "actualStart": 1293.3520829999998,
+          "actualEnd": 1437.4961659999997,
+          "timeDifference": 10.502082999999857
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Health as a Foundation, Not an Afterthought",
+          "expectedStart": 1426.99,
+          "expectedEnd": 1576.5,
+          "actualStart": 1438.9961659999997,
+          "actualEnd": 1588.5079159999996,
+          "timeDifference": 12.006165999999666
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Power of Affirmations and Mindset",
+          "expectedStart": 1576.5,
+          "expectedEnd": 1713.79,
+          "actualStart": 1590.0079159999996,
+          "actualEnd": 1727.2935829999997,
+          "timeDifference": 13.507915999999568
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating the Odds—Luck, Risk, and the Long Game",
+          "expectedStart": 1713.79,
+          "expectedEnd": 1842.18,
+          "actualStart": 1728.7935829999997,
+          "actualEnd": 1857.1848749999997,
+          "timeDifference": 15.003582999999708
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Gentle Art of Saying No",
+          "expectedStart": 1842.18,
+          "expectedEnd": 1958.99,
+          "actualStart": 1858.6848749999997,
+          "actualEnd": 1975.4918329999996,
+          "timeDifference": 16.50487499999963
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Compound Effect of Small Wins",
+          "expectedStart": 1958.99,
+          "expectedEnd": 2092.72,
+          "actualStart": 1976.9918329999996,
+          "actualEnd": 2110.7205829999994,
+          "timeDifference": 18.00183299999958
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Role of Environment and Association",
+          "expectedStart": 2092.72,
+          "expectedEnd": 2226.82,
+          "actualStart": 2112.2205829999994,
+          "actualEnd": 2246.3187909999992,
+          "timeDifference": 19.50058299999955
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Long View—Legacy, Meaning, and the Big Picture",
+          "expectedStart": 2226.82,
+          "expectedEnd": 2324.52,
+          "actualStart": 2247.8187909999992,
+          "actualEnd": 2345.523457999999,
+          "timeDifference": 20.998790999999073
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2324.52,
+          "expectedEnd": 2440.32,
+          "actualStart": 2347.023457999999,
+          "actualEnd": 2462.819790999999,
+          "timeDifference": 22.503457999999227
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.981667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Struggles and the Unexpected Value of Failure"
+        },
+        {
+          "startTime": 344.453,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Unexpected Value of Failure and Chapter 2 Why Systems Work Better Than Goals"
+        },
+        {
+          "startTime": 554.0168329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Why Systems Work Better Than Goals and Chapter 3 The Power of Stacking Skills"
+        },
+        {
+          "startTime": 744.5154579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Stacking Skills and Chapter 4 Managing Energy, Not Just Time"
+        },
+        {
+          "startTime": 958.7369999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Managing Energy, Not Just Time and Chapter 5 Adaptability, Luck, and the Art of Self-Awareness"
+        },
+        {
+          "startTime": 1148.9956249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Adaptability, Luck, and the Art of Self-Awareness and Chapter 6 The Subtle Art of Managing Your Personal Brand"
+        },
+        {
+          "startTime": 1291.8520829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Subtle Art of Managing Your Personal Brand and Chapter 7 The Leverage of Humor and Positivity"
+        },
+        {
+          "startTime": 1437.4961659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Leverage of Humor and Positivity and Chapter 8 Health as a Foundation, Not an Afterthought"
+        },
+        {
+          "startTime": 1588.5079159999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Health as a Foundation, Not an Afterthought and Chapter 9 The Quiet Power of Affirmations and Mindset"
+        },
+        {
+          "startTime": 1727.2935829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Power of Affirmations and Mindset and Chapter 10 Navigating the Odds—Luck, Risk, and the Long Game"
+        },
+        {
+          "startTime": 1857.1848749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating the Odds—Luck, Risk, and the Long Game and Chapter 11 The Gentle Art of Saying No"
+        },
+        {
+          "startTime": 1975.4918329999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Gentle Art of Saying No and Chapter 12 The Compound Effect of Small Wins"
+        },
+        {
+          "startTime": 2110.7205829999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Compound Effect of Small Wins and Chapter 13 The Role of Environment and Association"
+        },
+        {
+          "startTime": 2246.3187909999992,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Role of Environment and Association and Chapter 14 The Long View—Legacy, Meaning, and the Big Picture"
+        },
+        {
+          "startTime": 2345.523457999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Long View—Legacy, Meaning, and the Big Picture and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "320",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T17:24:31.584Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

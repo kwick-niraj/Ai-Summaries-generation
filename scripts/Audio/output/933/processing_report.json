@@ -1,0 +1,432 @@
+{
+  "bookId": "933",
+  "timestamp": "2025-07-05T16:53:31.584Z",
+  "success": false,
+  "processingTime": -1751733986573,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5344,
+    "totalAudioFiles": 12,
+    "totalDuration": 2336.080375
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2336.080375
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/933/optimized_text/933.md",
+    "fileSize": 744,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "933.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/933/metadata/933_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2336.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/933/metadata/933_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/933/metadata/933_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/933/933_complete.wav",
+    "duration": 2336.080375,
+    "fileSize": 112131936,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/933/introduction.wav",
+          "duration": 110.116167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.116167,
+          "startTime": 0,
+          "endTime": 110.116167
+        },
+        {
+          "path": "Audio/output/933/chapter_01.wav",
+          "duration": 314.300375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Hidden World of Farm Animals",
+          "actualDuration": 314.300375,
+          "startTime": 111.616167,
+          "endTime": 425.916542
+        },
+        {
+          "path": "Audio/output/933/chapter_03.wav",
+          "duration": 215.509,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Meeting Animals as Individuals and Building Empathy",
+          "actualDuration": 215.509,
+          "startTime": 427.416542,
+          "endTime": 642.925542
+        },
+        {
+          "path": "Audio/output/933/chapter_04.wav",
+          "duration": 212.335292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Personal Choices and Everyday Activism",
+          "actualDuration": 212.335292,
+          "startTime": 644.425542,
+          "endTime": 856.7608339999999
+        },
+        {
+          "path": "Audio/output/933/chapter_05.wav",
+          "duration": 222.198708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rescuing Animals and Creating a Sanctuary for Change",
+          "actualDuration": 222.198708,
+          "startTime": 858.2608339999999,
+          "endTime": 1080.459542
+        },
+        {
+          "path": "Audio/output/933/chapter_06.wav",
+          "duration": 263.175333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Challenging the System: Policy, Law, and the Fight for Reform",
+          "actualDuration": 263.175333,
+          "startTime": 1081.959542,
+          "endTime": 1345.1348750000002
+        },
+        {
+          "path": "Audio/output/933/chapter_07.wav",
+          "duration": 233.120292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Movement: Community, Connection, and the Power of Story",
+          "actualDuration": 233.120292,
+          "startTime": 1346.6348750000002,
+          "endTime": 1579.7551670000003
+        },
+        {
+          "path": "Audio/output/933/chapter_08.wav",
+          "duration": 259.355833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rethinking Food: Toward a Sustainable and Compassionate Future",
+          "actualDuration": 259.355833,
+          "startTime": 1581.2551670000003,
+          "endTime": 1840.6110000000003
+        },
+        {
+          "path": "Audio/output/933/chapter_09.wav",
+          "duration": 193.170167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing Resistance and Finding Resilience",
+          "actualDuration": 193.170167,
+          "startTime": 1842.1110000000003,
+          "endTime": 2035.2811670000003
+        },
+        {
+          "path": "Audio/output/933/chapter_10.wav",
+          "duration": 178.906833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 A Vision for the Future: Compassion, Justice, and the World We Create",
+          "actualDuration": 178.906833,
+          "startTime": 2036.7811670000003,
+          "endTime": 2215.688
+        },
+        {
+          "path": "Audio/output/933/conclusion.wav",
+          "duration": 133.892375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.892375,
+          "startTime": 2217.188,
+          "endTime": 2351.080375
+        }
+      ],
+      "totalDuration": 2351.080375,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.12,
+          "actualStart": 0,
+          "actualEnd": 110.116167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Hidden World of Farm Animals",
+          "expectedStart": 110.12,
+          "expectedEnd": 424.42,
+          "actualStart": 111.616167,
+          "actualEnd": 425.916542,
+          "timeDifference": 1.4961669999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Meeting Animals as Individuals and Building Empathy",
+          "expectedStart": 424.42,
+          "expectedEnd": 639.93,
+          "actualStart": 427.416542,
+          "actualEnd": 642.925542,
+          "timeDifference": 2.9965419999999767
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Personal Choices and Everyday Activism",
+          "expectedStart": 639.93,
+          "expectedEnd": 852.27,
+          "actualStart": 644.425542,
+          "actualEnd": 856.7608339999999,
+          "timeDifference": 4.495542
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rescuing Animals and Creating a Sanctuary for Change",
+          "expectedStart": 852.27,
+          "expectedEnd": 1074.47,
+          "actualStart": 858.2608339999999,
+          "actualEnd": 1080.459542,
+          "timeDifference": 5.99083399999995
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Challenging the System: Policy, Law, and the Fight for Reform",
+          "expectedStart": 1074.47,
+          "expectedEnd": 1337.65,
+          "actualStart": 1081.959542,
+          "actualEnd": 1345.1348750000002,
+          "timeDifference": 7.489542000000029
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Movement: Community, Connection, and the Power of Story",
+          "expectedStart": 1337.65,
+          "expectedEnd": 1570.77,
+          "actualStart": 1346.6348750000002,
+          "actualEnd": 1579.7551670000003,
+          "timeDifference": 8.984875000000102
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rethinking Food: Toward a Sustainable and Compassionate Future",
+          "expectedStart": 1570.77,
+          "expectedEnd": 1830.13,
+          "actualStart": 1581.2551670000003,
+          "actualEnd": 1840.6110000000003,
+          "timeDifference": 10.485167000000274
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing Resistance and Finding Resilience",
+          "expectedStart": 1830.13,
+          "expectedEnd": 2023.3,
+          "actualStart": 1842.1110000000003,
+          "actualEnd": 2035.2811670000003,
+          "timeDifference": 11.981000000000222
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 A Vision for the Future: Compassion, Justice, and the World We Create",
+          "expectedStart": 2023.3,
+          "expectedEnd": 2202.21,
+          "actualStart": 2036.7811670000003,
+          "actualEnd": 2215.688,
+          "timeDifference": 13.481167000000369
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2202.21,
+          "expectedEnd": 2336.1,
+          "actualStart": 2217.188,
+          "actualEnd": 2351.080375,
+          "timeDifference": 14.978000000000065
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.116167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Hidden World of Farm Animals"
+        },
+        {
+          "startTime": 425.916542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Hidden World of Farm Animals and Chapter 3 Meeting Animals as Individuals and Building Empathy"
+        },
+        {
+          "startTime": 642.925542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Meeting Animals as Individuals and Building Empathy and Chapter 4 The Power of Personal Choices and Everyday Activism"
+        },
+        {
+          "startTime": 856.7608339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Personal Choices and Everyday Activism and Chapter 5 Rescuing Animals and Creating a Sanctuary for Change"
+        },
+        {
+          "startTime": 1080.459542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rescuing Animals and Creating a Sanctuary for Change and Chapter 6 Challenging the System: Policy, Law, and the Fight for Reform"
+        },
+        {
+          "startTime": 1345.1348750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Challenging the System: Policy, Law, and the Fight for Reform and Chapter 7 Building a Movement: Community, Connection, and the Power of Story"
+        },
+        {
+          "startTime": 1579.7551670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Movement: Community, Connection, and the Power of Story and Chapter 8 Rethinking Food: Toward a Sustainable and Compassionate Future"
+        },
+        {
+          "startTime": 1840.6110000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rethinking Food: Toward a Sustainable and Compassionate Future and Chapter 9 Facing Resistance and Finding Resilience"
+        },
+        {
+          "startTime": 2035.2811670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing Resistance and Finding Resilience and Chapter 10 A Vision for the Future: Compassion, Justice, and the World We Create"
+        },
+        {
+          "startTime": 2215.688,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 A Vision for the Future: Compassion, Justice, and the World We Create and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "933",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T16:46:27.168Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

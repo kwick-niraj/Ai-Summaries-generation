@@ -1,0 +1,455 @@
+{
+  "bookId": "899",
+  "timestamp": "2025-07-05T14:30:54.683Z",
+  "success": false,
+  "processingTime": -1751725463279,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5383,
+    "totalAudioFiles": 12,
+    "totalDuration": 2197.369791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2197.369791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/899/optimized_text/899.md",
+    "fileSize": 649,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "899.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/899/metadata/899_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2197.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/899/metadata/899_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/899/metadata/899_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/899/899_complete.wav",
+    "duration": 2197.369792,
+    "fileSize": 105473828,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/899/introduction.wav",
+          "duration": 83.34475,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.34475,
+          "startTime": 0,
+          "endTime": 83.34475
+        },
+        {
+          "path": "Audio/output/899/chapter_01.wav",
+          "duration": 218.214542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Power of Symbols in Everyday Life",
+          "actualDuration": 218.214542,
+          "startTime": 84.84475,
+          "endTime": 303.059292
+        },
+        {
+          "path": "Audio/output/899/chapter_02.wav",
+          "duration": 216.333167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Symbols Shape Mindfulness and Meditation",
+          "actualDuration": 216.333167,
+          "startTime": 304.559292,
+          "endTime": 520.892459
+        },
+        {
+          "path": "Audio/output/899/chapter_03.wav",
+          "duration": 217.429625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Universal Language of Spiritual Symbols",
+          "actualDuration": 217.429625,
+          "startTime": 522.392459,
+          "endTime": 739.822084
+        },
+        {
+          "path": "Audio/output/899/chapter_04.wav",
+          "duration": 256.957292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Exploring the Origins and Meanings of Common Symbols",
+          "actualDuration": 256.957292,
+          "startTime": 741.322084,
+          "endTime": 998.279376
+        },
+        {
+          "path": "Audio/output/899/chapter_05.wav",
+          "duration": 196.987208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bringing Symbolic Wisdom into Daily Practice",
+          "actualDuration": 196.987208,
+          "startTime": 999.779376,
+          "endTime": 1196.766584
+        },
+        {
+          "path": "Audio/output/899/chapter_06.wav",
+          "duration": 182.554083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Symbols as Mirrors for Personal Growth",
+          "actualDuration": 182.554083,
+          "startTime": 1198.266584,
+          "endTime": 1380.820667
+        },
+        {
+          "path": "Audio/output/899/chapter_07.wav",
+          "duration": 196.44975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Diversity of Symbolic Traditions",
+          "actualDuration": 196.44975,
+          "startTime": 1382.320667,
+          "endTime": 1578.770417
+        },
+        {
+          "path": "Audio/output/899/chapter_08.wav",
+          "duration": 178.293083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Deepening the Relationship with Symbols",
+          "actualDuration": 178.293083,
+          "startTime": 1580.270417,
+          "endTime": 1758.5635
+        },
+        {
+          "path": "Audio/output/899/chapter_09.wav",
+          "duration": 162.3005,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Challenges and Misunderstandings",
+          "actualDuration": 162.3005,
+          "startTime": 1760.0635,
+          "endTime": 1922.364
+        },
+        {
+          "path": "Audio/output/899/chapter_10.wav",
+          "duration": 155.139333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Symbolically: Integrating Wisdom into Everyday Life",
+          "actualDuration": 155.139333,
+          "startTime": 1923.864,
+          "endTime": 2079.003333
+        },
+        {
+          "path": "Audio/output/899/conclusion.wav",
+          "duration": 133.366458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.366458,
+          "startTime": 2080.503333,
+          "endTime": 2213.869791
+        }
+      ],
+      "totalDuration": 2213.869791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.34,
+          "actualStart": 0,
+          "actualEnd": 83.34475,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Power of Symbols in Everyday Life",
+          "expectedStart": 83.34,
+          "expectedEnd": 301.55,
+          "actualStart": 84.84475,
+          "actualEnd": 303.059292,
+          "timeDifference": 1.5047500000000014
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Symbols Shape Mindfulness and Meditation",
+          "expectedStart": 301.55,
+          "expectedEnd": 517.88,
+          "actualStart": 304.559292,
+          "actualEnd": 520.892459,
+          "timeDifference": 3.0092920000000163
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Universal Language of Spiritual Symbols",
+          "expectedStart": 517.88,
+          "expectedEnd": 735.31,
+          "actualStart": 522.392459,
+          "actualEnd": 739.822084,
+          "timeDifference": 4.512459000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Exploring the Origins and Meanings of Common Symbols",
+          "expectedStart": 735.31,
+          "expectedEnd": 992.27,
+          "actualStart": 741.322084,
+          "actualEnd": 998.279376,
+          "timeDifference": 6.012084000000073
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bringing Symbolic Wisdom into Daily Practice",
+          "expectedStart": 992.27,
+          "expectedEnd": 1189.26,
+          "actualStart": 999.779376,
+          "actualEnd": 1196.766584,
+          "timeDifference": 7.509375999999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Symbols as Mirrors for Personal Growth",
+          "expectedStart": 1189.26,
+          "expectedEnd": 1371.81,
+          "actualStart": 1198.266584,
+          "actualEnd": 1380.820667,
+          "timeDifference": 9.006583999999975
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Diversity of Symbolic Traditions",
+          "expectedStart": 1371.81,
+          "expectedEnd": 1568.26,
+          "actualStart": 1382.320667,
+          "actualEnd": 1578.770417,
+          "timeDifference": 10.510667000000012
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Deepening the Relationship with Symbols",
+          "expectedStart": 1568.26,
+          "expectedEnd": 1746.55,
+          "actualStart": 1580.270417,
+          "actualEnd": 1758.5635,
+          "timeDifference": 12.010416999999961
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Challenges and Misunderstandings",
+          "expectedStart": 1746.55,
+          "expectedEnd": 1908.85,
+          "actualStart": 1760.0635,
+          "actualEnd": 1922.364,
+          "timeDifference": 13.513500000000022
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Symbolically: Integrating Wisdom into Everyday Life",
+          "expectedStart": 1908.85,
+          "expectedEnd": 2063.99,
+          "actualStart": 1923.864,
+          "actualEnd": 2079.003333,
+          "timeDifference": 15.014000000000124
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2063.99,
+          "expectedEnd": 2197.36,
+          "actualStart": 2080.503333,
+          "actualEnd": 2213.869791,
+          "timeDifference": 16.51333300000033
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.34475,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Power of Symbols in Everyday Life"
+        },
+        {
+          "startTime": 303.059292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Power of Symbols in Everyday Life and Chapter 2 How Symbols Shape Mindfulness and Meditation"
+        },
+        {
+          "startTime": 520.892459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Symbols Shape Mindfulness and Meditation and Chapter 3 The Universal Language of Spiritual Symbols"
+        },
+        {
+          "startTime": 739.822084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Universal Language of Spiritual Symbols and Chapter 4 Exploring the Origins and Meanings of Common Symbols"
+        },
+        {
+          "startTime": 998.279376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Exploring the Origins and Meanings of Common Symbols and Chapter 5 Bringing Symbolic Wisdom into Daily Practice"
+        },
+        {
+          "startTime": 1196.766584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bringing Symbolic Wisdom into Daily Practice and Chapter 6 Symbols as Mirrors for Personal Growth"
+        },
+        {
+          "startTime": 1380.820667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Symbols as Mirrors for Personal Growth and Chapter 7 The Diversity of Symbolic Traditions"
+        },
+        {
+          "startTime": 1578.770417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Diversity of Symbolic Traditions and Chapter 8 Deepening the Relationship with Symbols"
+        },
+        {
+          "startTime": 1758.5635,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Deepening the Relationship with Symbols and Chapter 9 Navigating Challenges and Misunderstandings"
+        },
+        {
+          "startTime": 1922.364,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Challenges and Misunderstandings and Chapter 10 Living Symbolically: Integrating Wisdom into Everyday Life"
+        },
+        {
+          "startTime": 2079.003333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Symbolically: Integrating Wisdom into Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "899",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T14:24:24.919Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

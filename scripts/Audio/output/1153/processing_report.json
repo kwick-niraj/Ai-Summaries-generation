@@ -1,0 +1,456 @@
+{
+  "bookId": "1153",
+  "timestamp": "2025-07-06T17:33:42.617Z",
+  "success": false,
+  "processingTime": -1751822750056,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4321,
+    "totalAudioFiles": 12,
+    "totalDuration": 2026.4887489999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2026.4887489999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1153/optimized_text/1153.md",
+    "fileSize": 519,
+    "wordCount": 71,
+    "format": "markdown",
+    "filename": "1153.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1153/metadata/1153_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2026.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1153/metadata/1153_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1153/metadata/1153_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1153/1153_complete.wav",
+    "duration": 2026.48875,
+    "fileSize": 97271538,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1153/introduction.wav",
+          "duration": 95.088833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.088833,
+          "startTime": 0,
+          "endTime": 95.088833
+        },
+        {
+          "path": "Audio/output/1153/chapter_01.wav",
+          "duration": 268.588083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Break-In That Changed Everything",
+          "actualDuration": 268.588083,
+          "startTime": 96.588833,
+          "endTime": 365.176916
+        },
+        {
+          "path": "Audio/output/1153/chapter_02.wav",
+          "duration": 230.200875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Following the Money and Facing Obstacles",
+          "actualDuration": 230.200875,
+          "startTime": 366.676916,
+          "endTime": 596.877791
+        },
+        {
+          "path": "Audio/output/1153/chapter_03.wav",
+          "duration": 197.70825,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Trust and Protecting Sources",
+          "actualDuration": 197.70825,
+          "startTime": 598.377791,
+          "endTime": 796.086041
+        },
+        {
+          "path": "Audio/output/1153/chapter_04.wav",
+          "duration": 203.789458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Press, the Public, and the Power Struggle",
+          "actualDuration": 203.789458,
+          "startTime": 797.586041,
+          "endTime": 1001.375499
+        },
+        {
+          "path": "Audio/output/1153/chapter_05.wav",
+          "duration": 162.203292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Persistence, Doubt, and the Search for Truth",
+          "actualDuration": 162.203292,
+          "startTime": 1002.875499,
+          "endTime": 1165.078791
+        },
+        {
+          "path": "Audio/output/1153/chapter_06.wav",
+          "duration": 213.4585,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Web Unravels",
+          "actualDuration": 213.4585,
+          "startTime": 1166.578791,
+          "endTime": 1380.0372909999999
+        },
+        {
+          "path": "Audio/output/1153/chapter_07.wav",
+          "duration": 163.68275,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Tipping Point",
+          "actualDuration": 163.68275,
+          "startTime": 1381.5372909999999,
+          "endTime": 1545.2200409999998
+        },
+        {
+          "path": "Audio/output/1153/chapter_08.wav",
+          "duration": 153.363833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cover-Up Collapses",
+          "actualDuration": 153.363833,
+          "startTime": 1546.7200409999998,
+          "endTime": 1700.083874
+        },
+        {
+          "path": "Audio/output/1153/chapter_09.wav",
+          "duration": 107.332375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The President’s Fall",
+          "actualDuration": 107.332375,
+          "startTime": 1701.583874,
+          "endTime": 1808.9162489999999
+        },
+        {
+          "path": "Audio/output/1153/chapter_10.wav",
+          "duration": 113.673792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Aftermath and the Lessons Learned",
+          "actualDuration": 113.673792,
+          "startTime": 1810.4162489999999,
+          "endTime": 1924.090041
+        },
+        {
+          "path": "Audio/output/1153/conclusion.wav",
+          "duration": 117.398708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.398708,
+          "startTime": 1925.590041,
+          "endTime": 2042.9887489999999
+        }
+      ],
+      "totalDuration": 2042.9887489999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.09,
+          "actualStart": 0,
+          "actualEnd": 95.088833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Break-In That Changed Everything",
+          "expectedStart": 95.09,
+          "expectedEnd": 363.68,
+          "actualStart": 96.588833,
+          "actualEnd": 365.176916,
+          "timeDifference": 1.4988329999999905
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Following the Money and Facing Obstacles",
+          "expectedStart": 363.68,
+          "expectedEnd": 593.88,
+          "actualStart": 366.676916,
+          "actualEnd": 596.877791,
+          "timeDifference": 2.996915999999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Trust and Protecting Sources",
+          "expectedStart": 593.88,
+          "expectedEnd": 791.59,
+          "actualStart": 598.377791,
+          "actualEnd": 796.086041,
+          "timeDifference": 4.4977910000000065
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Press, the Public, and the Power Struggle",
+          "expectedStart": 791.59,
+          "expectedEnd": 995.38,
+          "actualStart": 797.586041,
+          "actualEnd": 1001.375499,
+          "timeDifference": 5.996040999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Persistence, Doubt, and the Search for Truth",
+          "expectedStart": 995.38,
+          "expectedEnd": 1157.58,
+          "actualStart": 1002.875499,
+          "actualEnd": 1165.078791,
+          "timeDifference": 7.495498999999995
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Web Unravels",
+          "expectedStart": 1157.58,
+          "expectedEnd": 1371.04,
+          "actualStart": 1166.578791,
+          "actualEnd": 1380.0372909999999,
+          "timeDifference": 8.998790999999983
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Tipping Point",
+          "expectedStart": 1371.04,
+          "expectedEnd": 1534.72,
+          "actualStart": 1381.5372909999999,
+          "actualEnd": 1545.2200409999998,
+          "timeDifference": 10.497290999999905
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cover-Up Collapses",
+          "expectedStart": 1534.72,
+          "expectedEnd": 1688.08,
+          "actualStart": 1546.7200409999998,
+          "actualEnd": 1700.083874,
+          "timeDifference": 12.000040999999783
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The President’s Fall",
+          "expectedStart": 1688.08,
+          "expectedEnd": 1795.41,
+          "actualStart": 1701.583874,
+          "actualEnd": 1808.9162489999999,
+          "timeDifference": 13.503873999999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Aftermath and the Lessons Learned",
+          "expectedStart": 1795.41,
+          "expectedEnd": 1909.08,
+          "actualStart": 1810.4162489999999,
+          "actualEnd": 1924.090041,
+          "timeDifference": 15.006248999999798
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1909.08,
+          "expectedEnd": 2026.48,
+          "actualStart": 1925.590041,
+          "actualEnd": 2042.9887489999999,
+          "timeDifference": 16.510041
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.088833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Break-In That Changed Everything"
+        },
+        {
+          "startTime": 365.176916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Break-In That Changed Everything and Chapter 2 Following the Money and Facing Obstacles"
+        },
+        {
+          "startTime": 596.877791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Following the Money and Facing Obstacles and Chapter 3 Building Trust and Protecting Sources"
+        },
+        {
+          "startTime": 796.086041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Trust and Protecting Sources and Chapter 4 The Press, the Public, and the Power Struggle"
+        },
+        {
+          "startTime": 1001.375499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Press, the Public, and the Power Struggle and Chapter 5 Persistence, Doubt, and the Search for Truth"
+        },
+        {
+          "startTime": 1165.078791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Persistence, Doubt, and the Search for Truth and Chapter 6 The Web Unravels"
+        },
+        {
+          "startTime": 1380.0372909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Web Unravels and Chapter 7 The Tipping Point"
+        },
+        {
+          "startTime": 1545.2200409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Tipping Point and Chapter 8 The Cover-Up Collapses"
+        },
+        {
+          "startTime": 1700.083874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cover-Up Collapses and Chapter 9 The President’s Fall"
+        },
+        {
+          "startTime": 1808.9162489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The President’s Fall and Chapter 10 The Aftermath and the Lessons Learned"
+        },
+        {
+          "startTime": 1924.090041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Aftermath and the Lessons Learned and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1153",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T17:25:51.211Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

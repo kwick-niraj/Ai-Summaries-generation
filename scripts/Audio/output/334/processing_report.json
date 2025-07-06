@@ -1,0 +1,456 @@
+{
+  "bookId": "334",
+  "timestamp": "2025-07-03T18:13:16.278Z",
+  "success": false,
+  "processingTime": -1751565982324,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3651,
+    "totalAudioFiles": 12,
+    "totalDuration": 1852.2375000000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1852.2375000000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/334/optimized_text/334.md",
+    "fileSize": 832,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "334.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/334/metadata/334_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1852.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/334/metadata/334_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/334/metadata/334_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/334/334_complete.wav",
+    "duration": 1852.2375,
+    "fileSize": 88907478,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/334/introduction.wav",
+          "duration": 86.986917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.986917,
+          "startTime": 0,
+          "endTime": 86.986917
+        },
+        {
+          "path": "Audio/output/334/chapter_01.wav",
+          "duration": 168.477708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Passion-First Approach to Career Fulfillment",
+          "actualDuration": 168.477708,
+          "startTime": 88.486917,
+          "endTime": 256.964625
+        },
+        {
+          "path": "Audio/output/334/chapter_02.wav",
+          "duration": 184.938458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Value of Rare and Valuable Skills in Building Career Capital",
+          "actualDuration": 184.938458,
+          "startTime": 258.464625,
+          "endTime": 443.40308300000004
+        },
+        {
+          "path": "Audio/output/334/chapter_03.wav",
+          "duration": 207.37125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Craftsman Mindset and the Power of Deliberate Practice",
+          "actualDuration": 207.37125,
+          "startTime": 444.90308300000004,
+          "endTime": 652.2743330000001
+        },
+        {
+          "path": "Audio/output/334/chapter_04.wav",
+          "duration": 195.28975,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Gaining Autonomy, Control, and Mission Through Career Capital",
+          "actualDuration": 195.28975,
+          "startTime": 653.7743330000001,
+          "endTime": 849.0640830000001
+        },
+        {
+          "path": "Audio/output/334/chapter_05.wav",
+          "duration": 164.494667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating the Path to Meaningful Work—Practical Strategies and Mindset Shifts",
+          "actualDuration": 164.494667,
+          "startTime": 850.5640830000001,
+          "endTime": 1015.0587500000001
+        },
+        {
+          "path": "Audio/output/334/chapter_06.wav",
+          "duration": 152.010625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Importance of Saying “No” — Guarding Your Career Capital",
+          "actualDuration": 152.010625,
+          "startTime": 1016.5587500000001,
+          "endTime": 1168.569375
+        },
+        {
+          "path": "Audio/output/334/chapter_07.wav",
+          "duration": 158.392333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Mission — Finding Purpose Through Small Bets",
+          "actualDuration": 158.392333,
+          "startTime": 1170.069375,
+          "endTime": 1328.461708
+        },
+        {
+          "path": "Audio/output/334/chapter_08.wav",
+          "duration": 117.92575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Law of Financial Viability — Ensuring Your Mission is Sustainable",
+          "actualDuration": 117.92575,
+          "startTime": 1329.961708,
+          "endTime": 1447.8874580000002
+        },
+        {
+          "path": "Audio/output/334/chapter_09.wav",
+          "duration": 134.957167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Motivation and Growth — The Role of Community and Feedback",
+          "actualDuration": 134.957167,
+          "startTime": 1449.3874580000002,
+          "endTime": 1584.3446250000002
+        },
+        {
+          "path": "Audio/output/334/chapter_10.wav",
+          "duration": 144.367708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating Setbacks and Redefining Success",
+          "actualDuration": 144.367708,
+          "startTime": 1585.8446250000002,
+          "endTime": 1730.2123330000002
+        },
+        {
+          "path": "Audio/output/334/conclusion.wav",
+          "duration": 137.025167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.025167,
+          "startTime": 1731.7123330000002,
+          "endTime": 1868.7375000000002
+        }
+      ],
+      "totalDuration": 1868.7375000000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.99,
+          "actualStart": 0,
+          "actualEnd": 86.986917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Passion-First Approach to Career Fulfillment",
+          "expectedStart": 86.99,
+          "expectedEnd": 255.47,
+          "actualStart": 88.486917,
+          "actualEnd": 256.964625,
+          "timeDifference": 1.4969170000000105
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Value of Rare and Valuable Skills in Building Career Capital",
+          "expectedStart": 255.47,
+          "expectedEnd": 440.41,
+          "actualStart": 258.464625,
+          "actualEnd": 443.40308300000004,
+          "timeDifference": 2.9946250000000134
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Craftsman Mindset and the Power of Deliberate Practice",
+          "expectedStart": 440.41,
+          "expectedEnd": 647.78,
+          "actualStart": 444.90308300000004,
+          "actualEnd": 652.2743330000001,
+          "timeDifference": 4.493083000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Gaining Autonomy, Control, and Mission Through Career Capital",
+          "expectedStart": 647.78,
+          "expectedEnd": 843.07,
+          "actualStart": 653.7743330000001,
+          "actualEnd": 849.0640830000001,
+          "timeDifference": 5.994333000000097
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating the Path to Meaningful Work—Practical Strategies and Mindset Shifts",
+          "expectedStart": 843.07,
+          "expectedEnd": 1007.56,
+          "actualStart": 850.5640830000001,
+          "actualEnd": 1015.0587500000001,
+          "timeDifference": 7.494083000000046
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Importance of Saying “No” — Guarding Your Career Capital",
+          "expectedStart": 1007.56,
+          "expectedEnd": 1159.57,
+          "actualStart": 1016.5587500000001,
+          "actualEnd": 1168.569375,
+          "timeDifference": 8.9987500000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Mission — Finding Purpose Through Small Bets",
+          "expectedStart": 1159.57,
+          "expectedEnd": 1317.96,
+          "actualStart": 1170.069375,
+          "actualEnd": 1328.461708,
+          "timeDifference": 10.4993750000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Law of Financial Viability — Ensuring Your Mission is Sustainable",
+          "expectedStart": 1317.96,
+          "expectedEnd": 1435.89,
+          "actualStart": 1329.961708,
+          "actualEnd": 1447.8874580000002,
+          "timeDifference": 12.001708000000008
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Motivation and Growth — The Role of Community and Feedback",
+          "expectedStart": 1435.89,
+          "expectedEnd": 1570.85,
+          "actualStart": 1449.3874580000002,
+          "actualEnd": 1584.3446250000002,
+          "timeDifference": 13.497458000000051
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating Setbacks and Redefining Success",
+          "expectedStart": 1570.85,
+          "expectedEnd": 1715.22,
+          "actualStart": 1585.8446250000002,
+          "actualEnd": 1730.2123330000002,
+          "timeDifference": 14.99462500000027
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1715.22,
+          "expectedEnd": 1852.25,
+          "actualStart": 1731.7123330000002,
+          "actualEnd": 1868.7375000000002,
+          "timeDifference": 16.492333000000144
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.986917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Passion-First Approach to Career Fulfillment"
+        },
+        {
+          "startTime": 256.964625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Passion-First Approach to Career Fulfillment and Chapter 2 The Value of Rare and Valuable Skills in Building Career Capital"
+        },
+        {
+          "startTime": 443.40308300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Value of Rare and Valuable Skills in Building Career Capital and Chapter 3 The Craftsman Mindset and the Power of Deliberate Practice"
+        },
+        {
+          "startTime": 652.2743330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Craftsman Mindset and the Power of Deliberate Practice and Chapter 4 Gaining Autonomy, Control, and Mission Through Career Capital"
+        },
+        {
+          "startTime": 849.0640830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Gaining Autonomy, Control, and Mission Through Career Capital and Chapter 5 Navigating the Path to Meaningful Work—Practical Strategies and Mindset Shifts"
+        },
+        {
+          "startTime": 1015.0587500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating the Path to Meaningful Work—Practical Strategies and Mindset Shifts and Chapter 6 The Importance of Saying “No” — Guarding Your Career Capital"
+        },
+        {
+          "startTime": 1168.569375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Importance of Saying “No” — Guarding Your Career Capital and Chapter 7 Building a Mission — Finding Purpose Through Small Bets"
+        },
+        {
+          "startTime": 1328.461708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Mission — Finding Purpose Through Small Bets and Chapter 8 The Law of Financial Viability — Ensuring Your Mission is Sustainable"
+        },
+        {
+          "startTime": 1447.8874580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Law of Financial Viability — Ensuring Your Mission is Sustainable and Chapter 9 Sustaining Motivation and Growth — The Role of Community and Feedback"
+        },
+        {
+          "startTime": 1584.3446250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Motivation and Growth — The Role of Community and Feedback and Chapter 10 Navigating Setbacks and Redefining Success"
+        },
+        {
+          "startTime": 1730.2123330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating Setbacks and Redefining Success and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "334",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:06:23.523Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

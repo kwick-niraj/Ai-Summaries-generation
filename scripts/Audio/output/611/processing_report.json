@@ -1,0 +1,456 @@
+{
+  "bookId": "611",
+  "timestamp": "2025-07-04T22:01:02.646Z",
+  "success": false,
+  "processingTime": -1751665994608,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5125,
+    "totalAudioFiles": 12,
+    "totalDuration": 2258.4539600000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2258.4539600000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/611/optimized_text/611.md",
+    "fileSize": 705,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "611.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/611/metadata/611_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2258.44,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/611/metadata/611_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/611/metadata/611_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/611/611_complete.wav",
+    "duration": 2258.453958,
+    "fileSize": 108405868,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/611/introduction.wav",
+          "duration": 96.811917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.811917,
+          "startTime": 0,
+          "endTime": 96.811917
+        },
+        {
+          "path": "Audio/output/611/chapter_01.wav",
+          "duration": 236.158667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Two Friends Meet: Searching for Joy in a World of Suffering",
+          "actualDuration": 236.158667,
+          "startTime": 98.311917,
+          "endTime": 334.47058400000003
+        },
+        {
+          "path": "Audio/output/611/chapter_02.wav",
+          "duration": 229.76375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Obstacles: Why Joy Feels Out of Reach",
+          "actualDuration": 229.76375,
+          "startTime": 335.97058400000003,
+          "endTime": 565.734334
+        },
+        {
+          "path": "Audio/output/611/chapter_03.wav",
+          "duration": 296.251125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Foundations of Lasting Joy: Eight Pillars for a Fulfilling Life",
+          "actualDuration": 296.251125,
+          "startTime": 567.234334,
+          "endTime": 863.485459
+        },
+        {
+          "path": "Audio/output/611/chapter_04.wav",
+          "duration": 210.29725,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Transforming Suffering: Building Resilience and Mental Immunity",
+          "actualDuration": 210.29725,
+          "startTime": 864.985459,
+          "endTime": 1075.282709
+        },
+        {
+          "path": "Audio/output/611/chapter_05.wav",
+          "duration": 221.315167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Compassion, Generosity, and Connection",
+          "actualDuration": 221.315167,
+          "startTime": 1076.782709,
+          "endTime": 1298.097876
+        },
+        {
+          "path": "Audio/output/611/chapter_06.wav",
+          "duration": 208.293875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Daily Practices: Weaving Joy Into Ordinary Life",
+          "actualDuration": 208.293875,
+          "startTime": 1299.597876,
+          "endTime": 1507.891751
+        },
+        {
+          "path": "Audio/output/611/chapter_07.wav",
+          "duration": 176.636667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Joy: What Research Reveals",
+          "actualDuration": 176.636667,
+          "startTime": 1509.391751,
+          "endTime": 1686.028418
+        },
+        {
+          "path": "Audio/output/611/chapter_08.wav",
+          "duration": 147.7135,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Spiritual Practices: Opening the Heart",
+          "actualDuration": 147.7135,
+          "startTime": 1687.528418,
+          "endTime": 1835.2419180000002
+        },
+        {
+          "path": "Audio/output/611/chapter_09.wav",
+          "duration": 167.804542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Joy: Bringing Wisdom Into the World",
+          "actualDuration": 167.804542,
+          "startTime": 1836.7419180000002,
+          "endTime": 2004.5464600000003
+        },
+        {
+          "path": "Audio/output/611/chapter_10.wav",
+          "duration": 133.143167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Farewell: The Enduring Gift of Joy",
+          "actualDuration": 133.143167,
+          "startTime": 2006.0464600000003,
+          "endTime": 2139.189627
+        },
+        {
+          "path": "Audio/output/611/conclusion.wav",
+          "duration": 134.264333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.264333,
+          "startTime": 2140.689627,
+          "endTime": 2274.9539600000003
+        }
+      ],
+      "totalDuration": 2274.9539600000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.81,
+          "actualStart": 0,
+          "actualEnd": 96.811917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Two Friends Meet: Searching for Joy in a World of Suffering",
+          "expectedStart": 96.81,
+          "expectedEnd": 332.97,
+          "actualStart": 98.311917,
+          "actualEnd": 334.47058400000003,
+          "timeDifference": 1.5019169999999917
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Obstacles: Why Joy Feels Out of Reach",
+          "expectedStart": 332.97,
+          "expectedEnd": 562.73,
+          "actualStart": 335.97058400000003,
+          "actualEnd": 565.734334,
+          "timeDifference": 3.0005840000000035
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Foundations of Lasting Joy: Eight Pillars for a Fulfilling Life",
+          "expectedStart": 562.73,
+          "expectedEnd": 858.98,
+          "actualStart": 567.234334,
+          "actualEnd": 863.485459,
+          "timeDifference": 4.504333999999972
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Transforming Suffering: Building Resilience and Mental Immunity",
+          "expectedStart": 858.98,
+          "expectedEnd": 1069.28,
+          "actualStart": 864.985459,
+          "actualEnd": 1075.282709,
+          "timeDifference": 6.0054589999999735
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Compassion, Generosity, and Connection",
+          "expectedStart": 1069.28,
+          "expectedEnd": 1290.6,
+          "actualStart": 1076.782709,
+          "actualEnd": 1298.097876,
+          "timeDifference": 7.502709000000095
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Daily Practices: Weaving Joy Into Ordinary Life",
+          "expectedStart": 1290.6,
+          "expectedEnd": 1498.89,
+          "actualStart": 1299.597876,
+          "actualEnd": 1507.891751,
+          "timeDifference": 8.997876000000133
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Joy: What Research Reveals",
+          "expectedStart": 1498.89,
+          "expectedEnd": 1675.53,
+          "actualStart": 1509.391751,
+          "actualEnd": 1686.028418,
+          "timeDifference": 10.501751000000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Spiritual Practices: Opening the Heart",
+          "expectedStart": 1675.53,
+          "expectedEnd": 1823.24,
+          "actualStart": 1687.528418,
+          "actualEnd": 1835.2419180000002,
+          "timeDifference": 11.998418000000129
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Joy: Bringing Wisdom Into the World",
+          "expectedStart": 1823.24,
+          "expectedEnd": 1991.04,
+          "actualStart": 1836.7419180000002,
+          "actualEnd": 2004.5464600000003,
+          "timeDifference": 13.50191800000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Farewell: The Enduring Gift of Joy",
+          "expectedStart": 1991.04,
+          "expectedEnd": 2124.18,
+          "actualStart": 2006.0464600000003,
+          "actualEnd": 2139.189627,
+          "timeDifference": 15.006460000000288
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2124.18,
+          "expectedEnd": 2258.44,
+          "actualStart": 2140.689627,
+          "actualEnd": 2274.9539600000003,
+          "timeDifference": 16.509627000000364
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.811917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Two Friends Meet: Searching for Joy in a World of Suffering"
+        },
+        {
+          "startTime": 334.47058400000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Two Friends Meet: Searching for Joy in a World of Suffering and Chapter 2 Understanding the Obstacles: Why Joy Feels Out of Reach"
+        },
+        {
+          "startTime": 565.734334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Obstacles: Why Joy Feels Out of Reach and Chapter 3 The Foundations of Lasting Joy: Eight Pillars for a Fulfilling Life"
+        },
+        {
+          "startTime": 863.485459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Foundations of Lasting Joy: Eight Pillars for a Fulfilling Life and Chapter 4 Transforming Suffering: Building Resilience and Mental Immunity"
+        },
+        {
+          "startTime": 1075.282709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Transforming Suffering: Building Resilience and Mental Immunity and Chapter 5 The Power of Compassion, Generosity, and Connection"
+        },
+        {
+          "startTime": 1298.097876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Compassion, Generosity, and Connection and Chapter 6 Daily Practices: Weaving Joy Into Ordinary Life"
+        },
+        {
+          "startTime": 1507.891751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Daily Practices: Weaving Joy Into Ordinary Life and Chapter 7 The Science of Joy: What Research Reveals"
+        },
+        {
+          "startTime": 1686.028418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Joy: What Research Reveals and Chapter 8 Spiritual Practices: Opening the Heart"
+        },
+        {
+          "startTime": 1835.2419180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Spiritual Practices: Opening the Heart and Chapter 9 Integrating Joy: Bringing Wisdom Into the World"
+        },
+        {
+          "startTime": 2004.5464600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Joy: Bringing Wisdom Into the World and Chapter 10 Farewell: The Enduring Gift of Joy"
+        },
+        {
+          "startTime": 2139.189627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Farewell: The Enduring Gift of Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "611",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:53:16.381Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "393",
+  "timestamp": "2025-07-04T00:19:31.668Z",
+  "success": false,
+  "processingTime": -1751588087803,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3643,
+    "totalAudioFiles": 12,
+    "totalDuration": 1617.3260840000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1617.3260840000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/393/optimized_text/393.md",
+    "fileSize": 548,
+    "wordCount": 75,
+    "format": "markdown",
+    "filename": "393.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/393/metadata/393_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1617.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/393/metadata/393_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/393/metadata/393_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/393/393_complete.wav",
+    "duration": 1617.326083,
+    "fileSize": 77631730,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/393/introduction.wav",
+          "duration": 67.665917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 67.665917,
+          "startTime": 0,
+          "endTime": 67.665917
+        },
+        {
+          "path": "Audio/output/393/chapter_01.wav",
+          "duration": 179.585292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Between Worlds and Finding a Place",
+          "actualDuration": 179.585292,
+          "startTime": 69.165917,
+          "endTime": 248.75120900000002
+        },
+        {
+          "path": "Audio/output/393/chapter_02.wav",
+          "duration": 158.723792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ambition Without Apology",
+          "actualDuration": 158.723792,
+          "startTime": 250.25120900000002,
+          "endTime": 408.975001
+        },
+        {
+          "path": "Audio/output/393/chapter_03.wav",
+          "duration": 156.714958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Realities of Working in Entertainment",
+          "actualDuration": 156.714958,
+          "startTime": 410.475001,
+          "endTime": 567.189959
+        },
+        {
+          "path": "Audio/output/393/chapter_04.wav",
+          "duration": 133.604958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Friendship, Love, and the Value of Connection",
+          "actualDuration": 133.604958,
+          "startTime": 568.689959,
+          "endTime": 702.294917
+        },
+        {
+          "path": "Audio/output/393/chapter_05.wav",
+          "duration": 134.364208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Self-Acceptance and Confidence",
+          "actualDuration": 134.364208,
+          "startTime": 703.794917,
+          "endTime": 838.159125
+        },
+        {
+          "path": "Audio/output/393/chapter_06.wav",
+          "duration": 148.5165,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Myth of Having It All",
+          "actualDuration": 148.5165,
+          "startTime": 839.659125,
+          "endTime": 988.1756250000001
+        },
+        {
+          "path": "Audio/output/393/chapter_07.wav",
+          "duration": 146.852125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Saying No",
+          "actualDuration": 146.852125,
+          "startTime": 989.6756250000001,
+          "endTime": 1136.5277500000002
+        },
+        {
+          "path": "Audio/output/393/chapter_08.wav",
+          "duration": 125.621417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creativity as Survival",
+          "actualDuration": 125.621417,
+          "startTime": 1138.0277500000002,
+          "endTime": 1263.6491670000003
+        },
+        {
+          "path": "Audio/output/393/chapter_09.wav",
+          "duration": 137.743708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Mentorship, Giving Back, and Lifting Others",
+          "actualDuration": 137.743708,
+          "startTime": 1265.1491670000003,
+          "endTime": 1402.8928750000002
+        },
+        {
+          "path": "Audio/output/393/chapter_10.wav",
+          "duration": 118.839792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Redefining Success and Finding Meaning",
+          "actualDuration": 118.839792,
+          "startTime": 1404.3928750000002,
+          "endTime": 1523.2326670000002
+        },
+        {
+          "path": "Audio/output/393/conclusion.wav",
+          "duration": 109.093417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.093417,
+          "startTime": 1524.7326670000002,
+          "endTime": 1633.8260840000003
+        }
+      ],
+      "totalDuration": 1633.8260840000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 67.67,
+          "actualStart": 0,
+          "actualEnd": 67.665917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Between Worlds and Finding a Place",
+          "expectedStart": 67.67,
+          "expectedEnd": 247.26,
+          "actualStart": 69.165917,
+          "actualEnd": 248.75120900000002,
+          "timeDifference": 1.4959169999999915
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ambition Without Apology",
+          "expectedStart": 247.26,
+          "expectedEnd": 405.98,
+          "actualStart": 250.25120900000002,
+          "actualEnd": 408.975001,
+          "timeDifference": 2.991209000000026
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Realities of Working in Entertainment",
+          "expectedStart": 405.98,
+          "expectedEnd": 562.69,
+          "actualStart": 410.475001,
+          "actualEnd": 567.189959,
+          "timeDifference": 4.495001000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Friendship, Love, and the Value of Connection",
+          "expectedStart": 562.69,
+          "expectedEnd": 696.29,
+          "actualStart": 568.689959,
+          "actualEnd": 702.294917,
+          "timeDifference": 5.99995899999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Self-Acceptance and Confidence",
+          "expectedStart": 696.29,
+          "expectedEnd": 830.65,
+          "actualStart": 703.794917,
+          "actualEnd": 838.159125,
+          "timeDifference": 7.504917000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Myth of Having It All",
+          "expectedStart": 830.65,
+          "expectedEnd": 979.17,
+          "actualStart": 839.659125,
+          "actualEnd": 988.1756250000001,
+          "timeDifference": 9.00912500000004
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Saying No",
+          "expectedStart": 979.17,
+          "expectedEnd": 1126.02,
+          "actualStart": 989.6756250000001,
+          "actualEnd": 1136.5277500000002,
+          "timeDifference": 10.505625000000123
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creativity as Survival",
+          "expectedStart": 1126.02,
+          "expectedEnd": 1251.64,
+          "actualStart": 1138.0277500000002,
+          "actualEnd": 1263.6491670000003,
+          "timeDifference": 12.007750000000215
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Mentorship, Giving Back, and Lifting Others",
+          "expectedStart": 1251.64,
+          "expectedEnd": 1389.38,
+          "actualStart": 1265.1491670000003,
+          "actualEnd": 1402.8928750000002,
+          "timeDifference": 13.509167000000161
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Redefining Success and Finding Meaning",
+          "expectedStart": 1389.38,
+          "expectedEnd": 1508.22,
+          "actualStart": 1404.3928750000002,
+          "actualEnd": 1523.2326670000002,
+          "timeDifference": 15.012875000000122
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1508.22,
+          "expectedEnd": 1617.31,
+          "actualStart": 1524.7326670000002,
+          "actualEnd": 1633.8260840000003,
+          "timeDifference": 16.512667000000192
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 67.665917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Between Worlds and Finding a Place"
+        },
+        {
+          "startTime": 248.75120900000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Between Worlds and Finding a Place and Chapter 2 Ambition Without Apology"
+        },
+        {
+          "startTime": 408.975001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ambition Without Apology and Chapter 3 The Realities of Working in Entertainment"
+        },
+        {
+          "startTime": 567.189959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Realities of Working in Entertainment and Chapter 4 Friendship, Love, and the Value of Connection"
+        },
+        {
+          "startTime": 702.294917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Friendship, Love, and the Value of Connection and Chapter 5 Embracing Self-Acceptance and Confidence"
+        },
+        {
+          "startTime": 838.159125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Self-Acceptance and Confidence and Chapter 6 The Myth of Having It All"
+        },
+        {
+          "startTime": 988.1756250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Myth of Having It All and Chapter 7 The Power of Saying No"
+        },
+        {
+          "startTime": 1136.5277500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Saying No and Chapter 8 Creativity as Survival"
+        },
+        {
+          "startTime": 1263.6491670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creativity as Survival and Chapter 9 Mentorship, Giving Back, and Lifting Others"
+        },
+        {
+          "startTime": 1402.8928750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Mentorship, Giving Back, and Lifting Others and Chapter 10 Redefining Success and Finding Meaning"
+        },
+        {
+          "startTime": 1523.2326670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Redefining Success and Finding Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "393",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T00:14:49.448Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

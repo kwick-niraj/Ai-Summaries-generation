@@ -1,0 +1,455 @@
+{
+  "bookId": "374",
+  "timestamp": "2025-07-03T22:40:59.715Z",
+  "success": false,
+  "processingTime": -1751581845496,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4472,
+    "totalAudioFiles": 12,
+    "totalDuration": 1910.500917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1910.500917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/374/optimized_text/374.md",
+    "fileSize": 749,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "374.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/374/metadata/374_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1910.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/374/metadata/374_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/374/metadata/374_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/374/374_complete.wav",
+    "duration": 1910.500917,
+    "fileSize": 91704122,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/374/introduction.wav",
+          "duration": 81.861583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.861583,
+          "startTime": 0,
+          "endTime": 81.861583
+        },
+        {
+          "path": "Audio/output/374/chapter_01.wav",
+          "duration": 180.58275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Purpose and Possibility",
+          "actualDuration": 180.58275,
+          "startTime": 83.361583,
+          "endTime": 263.94433300000003
+        },
+        {
+          "path": "Audio/output/374/chapter_02.wav",
+          "duration": 214.870292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding a Voice in Law, Activism, and Partnership",
+          "actualDuration": 214.870292,
+          "startTime": 265.44433300000003,
+          "endTime": 480.31462500000004
+        },
+        {
+          "path": "Audio/output/374/chapter_03.wav",
+          "duration": 190.306333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating the Demands of Public Life and Family",
+          "actualDuration": 190.306333,
+          "startTime": 481.81462500000004,
+          "endTime": 672.120958
+        },
+        {
+          "path": "Audio/output/374/chapter_04.wav",
+          "duration": 187.678167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Entering the White House and Redefining the First Lady’s Role",
+          "actualDuration": 187.678167,
+          "startTime": 673.620958,
+          "endTime": 861.299125
+        },
+        {
+          "path": "Audio/output/374/chapter_05.wav",
+          "duration": 166.753417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Controversy, Scandal, and the Test of Resilience",
+          "actualDuration": 166.753417,
+          "startTime": 862.799125,
+          "endTime": 1029.552542
+        },
+        {
+          "path": "Audio/output/374/chapter_06.wav",
+          "duration": 153.792583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rebuilding, Reflection, and the Power of Persistence",
+          "actualDuration": 153.792583,
+          "startTime": 1031.052542,
+          "endTime": 1184.8451249999998
+        },
+        {
+          "path": "Audio/output/374/chapter_07.wav",
+          "duration": 165.332083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Stepping Into the Arena—A New Chapter in Public Service",
+          "actualDuration": 165.332083,
+          "startTime": 1186.3451249999998,
+          "endTime": 1351.6772079999998
+        },
+        {
+          "path": "Audio/output/374/chapter_08.wav",
+          "duration": 164.178833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Road to the Presidency—Dreams, Disappointments, and Determination",
+          "actualDuration": 164.178833,
+          "startTime": 1353.1772079999998,
+          "endTime": 1517.3560409999998
+        },
+        {
+          "path": "Audio/output/374/chapter_09.wav",
+          "duration": 149.382542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Private Life, Public Voice—Redefining Influence Beyond Office",
+          "actualDuration": 149.382542,
+          "startTime": 1518.8560409999998,
+          "endTime": 1668.2385829999998
+        },
+        {
+          "path": "Audio/output/374/chapter_10.wav",
+          "duration": 133.981792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Hope, and the Ongoing Work of Change",
+          "actualDuration": 133.981792,
+          "startTime": 1669.7385829999998,
+          "endTime": 1803.7203749999999
+        },
+        {
+          "path": "Audio/output/374/conclusion.wav",
+          "duration": 121.780542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.780542,
+          "startTime": 1805.2203749999999,
+          "endTime": 1927.0009169999998
+        }
+      ],
+      "totalDuration": 1927.0009169999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.86,
+          "actualStart": 0,
+          "actualEnd": 81.861583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Purpose and Possibility",
+          "expectedStart": 81.86,
+          "expectedEnd": 262.44,
+          "actualStart": 83.361583,
+          "actualEnd": 263.94433300000003,
+          "timeDifference": 1.5015829999999966
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding a Voice in Law, Activism, and Partnership",
+          "expectedStart": 262.44,
+          "expectedEnd": 477.31,
+          "actualStart": 265.44433300000003,
+          "actualEnd": 480.31462500000004,
+          "timeDifference": 3.004333000000031
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating the Demands of Public Life and Family",
+          "expectedStart": 477.31,
+          "expectedEnd": 667.62,
+          "actualStart": 481.81462500000004,
+          "actualEnd": 672.120958,
+          "timeDifference": 4.504625000000033
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Entering the White House and Redefining the First Lady’s Role",
+          "expectedStart": 667.62,
+          "expectedEnd": 855.3,
+          "actualStart": 673.620958,
+          "actualEnd": 861.299125,
+          "timeDifference": 6.000957999999969
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Controversy, Scandal, and the Test of Resilience",
+          "expectedStart": 855.3,
+          "expectedEnd": 1022.05,
+          "actualStart": 862.799125,
+          "actualEnd": 1029.552542,
+          "timeDifference": 7.499125000000049
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rebuilding, Reflection, and the Power of Persistence",
+          "expectedStart": 1022.05,
+          "expectedEnd": 1175.84,
+          "actualStart": 1031.052542,
+          "actualEnd": 1184.8451249999998,
+          "timeDifference": 9.002541999999949
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Stepping Into the Arena—A New Chapter in Public Service",
+          "expectedStart": 1175.84,
+          "expectedEnd": 1341.17,
+          "actualStart": 1186.3451249999998,
+          "actualEnd": 1351.6772079999998,
+          "timeDifference": 10.505124999999907
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Road to the Presidency—Dreams, Disappointments, and Determination",
+          "expectedStart": 1341.17,
+          "expectedEnd": 1505.35,
+          "actualStart": 1353.1772079999998,
+          "actualEnd": 1517.3560409999998,
+          "timeDifference": 12.007207999999764
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Private Life, Public Voice—Redefining Influence Beyond Office",
+          "expectedStart": 1505.35,
+          "expectedEnd": 1654.73,
+          "actualStart": 1518.8560409999998,
+          "actualEnd": 1668.2385829999998,
+          "timeDifference": 13.506040999999868
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Hope, and the Ongoing Work of Change",
+          "expectedStart": 1654.73,
+          "expectedEnd": 1788.71,
+          "actualStart": 1669.7385829999998,
+          "actualEnd": 1803.7203749999999,
+          "timeDifference": 15.008582999999817
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1788.71,
+          "expectedEnd": 1910.49,
+          "actualStart": 1805.2203749999999,
+          "actualEnd": 1927.0009169999998,
+          "timeDifference": 16.51037499999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.861583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Purpose and Possibility"
+        },
+        {
+          "startTime": 263.94433300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Purpose and Possibility and Chapter 2 Finding a Voice in Law, Activism, and Partnership"
+        },
+        {
+          "startTime": 480.31462500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding a Voice in Law, Activism, and Partnership and Chapter 3 Navigating the Demands of Public Life and Family"
+        },
+        {
+          "startTime": 672.120958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating the Demands of Public Life and Family and Chapter 4 Entering the White House and Redefining the First Lady’s Role"
+        },
+        {
+          "startTime": 861.299125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Entering the White House and Redefining the First Lady’s Role and Chapter 5 Facing Controversy, Scandal, and the Test of Resilience"
+        },
+        {
+          "startTime": 1029.552542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Controversy, Scandal, and the Test of Resilience and Chapter 6 Rebuilding, Reflection, and the Power of Persistence"
+        },
+        {
+          "startTime": 1184.8451249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rebuilding, Reflection, and the Power of Persistence and Chapter 7 Stepping Into the Arena—A New Chapter in Public Service"
+        },
+        {
+          "startTime": 1351.6772079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Stepping Into the Arena—A New Chapter in Public Service and Chapter 8 The Long Road to the Presidency—Dreams, Disappointments, and Determination"
+        },
+        {
+          "startTime": 1517.3560409999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Road to the Presidency—Dreams, Disappointments, and Determination and Chapter 9 Private Life, Public Voice—Redefining Influence Beyond Office"
+        },
+        {
+          "startTime": 1668.2385829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Private Life, Public Voice—Redefining Influence Beyond Office and Chapter 10 Legacy, Hope, and the Ongoing Work of Change"
+        },
+        {
+          "startTime": 1803.7203749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Hope, and the Ongoing Work of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "374",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T22:30:47.274Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

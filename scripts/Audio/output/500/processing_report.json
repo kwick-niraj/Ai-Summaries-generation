@@ -1,0 +1,432 @@
+{
+  "bookId": "500",
+  "timestamp": "2025-07-04T07:07:37.248Z",
+  "success": false,
+  "processingTime": -1751612579924,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4001,
+    "totalAudioFiles": 11,
+    "totalDuration": 1809.814958
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1809.814958
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/500/optimized_text/500.md",
+    "fileSize": 756,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "500.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/500/metadata/500_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1809.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/500/metadata/500_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/500/metadata/500_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/500/500_complete.wav",
+    "duration": 1809.814958,
+    "fileSize": 86871196,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/500/introduction.wav",
+          "duration": 98.308125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.308125,
+          "startTime": 0,
+          "endTime": 98.308125
+        },
+        {
+          "path": "Audio/output/500/chapter_01.wav",
+          "duration": 221.26825,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Criticism and Misunderstanding: Why Existentialism Needs Defending",
+          "actualDuration": 221.26825,
+          "startTime": 99.808125,
+          "endTime": 321.076375
+        },
+        {
+          "path": "Audio/output/500/chapter_02.wav",
+          "duration": 201.160833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Existence Before Essence: How People Define Themselves Through Choices",
+          "actualDuration": 201.160833,
+          "startTime": 322.576375,
+          "endTime": 523.737208
+        },
+        {
+          "path": "Audio/output/500/chapter_03.wav",
+          "duration": 191.840167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Freedom: Anguish, Responsibility, and the Search for Meaning",
+          "actualDuration": 191.840167,
+          "startTime": 525.237208,
+          "endTime": 717.0773750000001
+        },
+        {
+          "path": "Audio/output/500/chapter_04.wav",
+          "duration": 191.976167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living Without God: Creating Values and Meaning in a Secular World",
+          "actualDuration": 191.976167,
+          "startTime": 718.5773750000001,
+          "endTime": 910.5535420000001
+        },
+        {
+          "path": "Audio/output/500/chapter_05.wav",
+          "duration": 162.641333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Authenticity and the Universal Impact of Personal Choices",
+          "actualDuration": 162.641333,
+          "startTime": 912.0535420000001,
+          "endTime": 1074.6948750000001
+        },
+        {
+          "path": "Audio/output/500/chapter_06.wav",
+          "duration": 173.217333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Engagement: Taking a Stand in a World That Won’t Wait",
+          "actualDuration": 173.217333,
+          "startTime": 1076.1948750000001,
+          "endTime": 1249.4122080000002
+        },
+        {
+          "path": "Audio/output/500/chapter_07.wav",
+          "duration": 159.947542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Bad Faith: The Temptation to Hide from Freedom",
+          "actualDuration": 159.947542,
+          "startTime": 1250.9122080000002,
+          "endTime": 1410.85975
+        },
+        {
+          "path": "Audio/output/500/chapter_08.wav",
+          "duration": 156.524375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Hope and Action: Building Meaning in the Face of Absurdity",
+          "actualDuration": 156.524375,
+          "startTime": 1412.35975,
+          "endTime": 1568.884125
+        },
+        {
+          "path": "Audio/output/500/chapter_09.wav",
+          "duration": 143.80125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Humanist Promise: Dignity, Solidarity, and Becoming More Fully Human",
+          "actualDuration": 143.80125,
+          "startTime": 1570.384125,
+          "endTime": 1714.185375
+        },
+        {
+          "path": "Audio/output/500/conclusion.wav",
+          "duration": 109.129583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.129583,
+          "startTime": 1715.685375,
+          "endTime": 1824.814958
+        }
+      ],
+      "totalDuration": 1824.814958,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.31,
+          "actualStart": 0,
+          "actualEnd": 98.308125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Criticism and Misunderstanding: Why Existentialism Needs Defending",
+          "expectedStart": 98.31,
+          "expectedEnd": 319.58,
+          "actualStart": 99.808125,
+          "actualEnd": 321.076375,
+          "timeDifference": 1.4981250000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Existence Before Essence: How People Define Themselves Through Choices",
+          "expectedStart": 319.58,
+          "expectedEnd": 520.74,
+          "actualStart": 322.576375,
+          "actualEnd": 523.737208,
+          "timeDifference": 2.9963750000000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Freedom: Anguish, Responsibility, and the Search for Meaning",
+          "expectedStart": 520.74,
+          "expectedEnd": 712.58,
+          "actualStart": 525.237208,
+          "actualEnd": 717.0773750000001,
+          "timeDifference": 4.4972080000000005
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living Without God: Creating Values and Meaning in a Secular World",
+          "expectedStart": 712.58,
+          "expectedEnd": 904.56,
+          "actualStart": 718.5773750000001,
+          "actualEnd": 910.5535420000001,
+          "timeDifference": 5.997375000000034
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Authenticity and the Universal Impact of Personal Choices",
+          "expectedStart": 904.56,
+          "expectedEnd": 1067.2,
+          "actualStart": 912.0535420000001,
+          "actualEnd": 1074.6948750000001,
+          "timeDifference": 7.493542000000161
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Engagement: Taking a Stand in a World That Won’t Wait",
+          "expectedStart": 1067.2,
+          "expectedEnd": 1240.42,
+          "actualStart": 1076.1948750000001,
+          "actualEnd": 1249.4122080000002,
+          "timeDifference": 8.994875000000093
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Bad Faith: The Temptation to Hide from Freedom",
+          "expectedStart": 1240.42,
+          "expectedEnd": 1400.37,
+          "actualStart": 1250.9122080000002,
+          "actualEnd": 1410.85975,
+          "timeDifference": 10.492208000000119
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Hope and Action: Building Meaning in the Face of Absurdity",
+          "expectedStart": 1400.37,
+          "expectedEnd": 1556.89,
+          "actualStart": 1412.35975,
+          "actualEnd": 1568.884125,
+          "timeDifference": 11.989750000000186
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Humanist Promise: Dignity, Solidarity, and Becoming More Fully Human",
+          "expectedStart": 1556.89,
+          "expectedEnd": 1700.69,
+          "actualStart": 1570.384125,
+          "actualEnd": 1714.185375,
+          "timeDifference": 13.49412499999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1700.69,
+          "expectedEnd": 1809.82,
+          "actualStart": 1715.685375,
+          "actualEnd": 1824.814958,
+          "timeDifference": 14.995374999999967
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.308125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Criticism and Misunderstanding: Why Existentialism Needs Defending"
+        },
+        {
+          "startTime": 321.076375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Criticism and Misunderstanding: Why Existentialism Needs Defending and Chapter 2 Existence Before Essence: How People Define Themselves Through Choices"
+        },
+        {
+          "startTime": 523.737208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Existence Before Essence: How People Define Themselves Through Choices and Chapter 3 The Weight of Freedom: Anguish, Responsibility, and the Search for Meaning"
+        },
+        {
+          "startTime": 717.0773750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Freedom: Anguish, Responsibility, and the Search for Meaning and Chapter 4 Living Without God: Creating Values and Meaning in a Secular World"
+        },
+        {
+          "startTime": 910.5535420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living Without God: Creating Values and Meaning in a Secular World and Chapter 5 Authenticity and the Universal Impact of Personal Choices"
+        },
+        {
+          "startTime": 1074.6948750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Authenticity and the Universal Impact of Personal Choices and Chapter 6 Engagement: Taking a Stand in a World That Won’t Wait"
+        },
+        {
+          "startTime": 1249.4122080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Engagement: Taking a Stand in a World That Won’t Wait and Chapter 7 Bad Faith: The Temptation to Hide from Freedom"
+        },
+        {
+          "startTime": 1410.85975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Bad Faith: The Temptation to Hide from Freedom and Chapter 8 Hope and Action: Building Meaning in the Face of Absurdity"
+        },
+        {
+          "startTime": 1568.884125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Hope and Action: Building Meaning in the Face of Absurdity and Chapter 9 The Humanist Promise: Dignity, Solidarity, and Becoming More Fully Human"
+        },
+        {
+          "startTime": 1714.185375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Humanist Promise: Dignity, Solidarity, and Becoming More Fully Human and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "500",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T07:03:01.526Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

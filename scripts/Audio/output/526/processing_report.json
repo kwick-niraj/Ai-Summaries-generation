@@ -1,0 +1,455 @@
+{
+  "bookId": "526",
+  "timestamp": "2025-07-04T16:55:56.532Z",
+  "success": false,
+  "processingTime": -1751647873504,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4702,
+    "totalAudioFiles": 12,
+    "totalDuration": 1772.5632090000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1772.5632090000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/526/optimized_text/526.md",
+    "fileSize": 685,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "526.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/526/metadata/526_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1772.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/526/metadata/526_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/526/metadata/526_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/526/526_complete.wav",
+    "duration": 1772.563208,
+    "fileSize": 85083112,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/526/introduction.wav",
+          "duration": 90.909,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.909,
+          "startTime": 0,
+          "endTime": 90.909
+        },
+        {
+          "path": "Audio/output/526/chapter_01.wav",
+          "duration": 184.812708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Meeting the Last Survivor and the Power of Remembering",
+          "actualDuration": 184.812708,
+          "startTime": 92.409,
+          "endTime": 277.221708
+        },
+        {
+          "path": "Audio/output/526/chapter_02.wav",
+          "duration": 167.242917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life in Africa Before Capture",
+          "actualDuration": 167.242917,
+          "startTime": 278.721708,
+          "endTime": 445.96462499999996
+        },
+        {
+          "path": "Audio/output/526/chapter_03.wav",
+          "duration": 180.167917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Middle Passage and Arrival in America",
+          "actualDuration": 180.167917,
+          "startTime": 447.46462499999996,
+          "endTime": 627.632542
+        },
+        {
+          "path": "Audio/output/526/chapter_04.wav",
+          "duration": 188.6805,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Life in Bondage and the Struggle to Adapt",
+          "actualDuration": 188.6805,
+          "startTime": 629.132542,
+          "endTime": 817.813042
+        },
+        {
+          "path": "Audio/output/526/chapter_05.wav",
+          "duration": 176.58075,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Emancipation and the Search for Belonging",
+          "actualDuration": 176.58075,
+          "startTime": 819.313042,
+          "endTime": 995.893792
+        },
+        {
+          "path": "Audio/output/526/chapter_06.wav",
+          "duration": 147.648167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Africatown—A New Beginning Amid Old Wounds",
+          "actualDuration": 147.648167,
+          "startTime": 997.393792,
+          "endTime": 1145.041959
+        },
+        {
+          "path": "Audio/output/526/chapter_07.wav",
+          "duration": 140.496,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Keeper of Stories—Cudjo’s Role as a Living Archive",
+          "actualDuration": 140.496,
+          "startTime": 1146.541959,
+          "endTime": 1287.037959
+        },
+        {
+          "path": "Audio/output/526/chapter_08.wav",
+          "duration": 144.623292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Arrival of Zora Neale Hurston—A Meeting of Minds",
+          "actualDuration": 144.623292,
+          "startTime": 1288.537959,
+          "endTime": 1433.161251
+        },
+        {
+          "path": "Audio/output/526/chapter_09.wav",
+          "duration": 127.259833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Weight of Memory—Grief, Healing, and Legacy",
+          "actualDuration": 127.259833,
+          "startTime": 1434.661251,
+          "endTime": 1561.921084
+        },
+        {
+          "path": "Audio/output/526/chapter_10.wav",
+          "duration": 129.934375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Echoes of Slavery—Family, Community, and the Long Shadow",
+          "actualDuration": 129.934375,
+          "startTime": 1563.421084,
+          "endTime": 1693.355459
+        },
+        {
+          "path": "Audio/output/526/conclusion.wav",
+          "duration": 94.20775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 94.20775,
+          "startTime": 1694.855459,
+          "endTime": 1789.0632090000001
+        }
+      ],
+      "totalDuration": 1789.0632090000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.91,
+          "actualStart": 0,
+          "actualEnd": 90.909,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Meeting the Last Survivor and the Power of Remembering",
+          "expectedStart": 90.91,
+          "expectedEnd": 275.72,
+          "actualStart": 92.409,
+          "actualEnd": 277.221708,
+          "timeDifference": 1.4990000000000094
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life in Africa Before Capture",
+          "expectedStart": 275.72,
+          "expectedEnd": 442.96,
+          "actualStart": 278.721708,
+          "actualEnd": 445.96462499999996,
+          "timeDifference": 3.001707999999951
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Middle Passage and Arrival in America",
+          "expectedStart": 442.96,
+          "expectedEnd": 623.13,
+          "actualStart": 447.46462499999996,
+          "actualEnd": 627.632542,
+          "timeDifference": 4.504624999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Life in Bondage and the Struggle to Adapt",
+          "expectedStart": 623.13,
+          "expectedEnd": 811.81,
+          "actualStart": 629.132542,
+          "actualEnd": 817.813042,
+          "timeDifference": 6.0025419999999485
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Emancipation and the Search for Belonging",
+          "expectedStart": 811.81,
+          "expectedEnd": 988.39,
+          "actualStart": 819.313042,
+          "actualEnd": 995.893792,
+          "timeDifference": 7.50304200000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Africatown—A New Beginning Amid Old Wounds",
+          "expectedStart": 988.39,
+          "expectedEnd": 1136.04,
+          "actualStart": 997.393792,
+          "actualEnd": 1145.041959,
+          "timeDifference": 9.003791999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Keeper of Stories—Cudjo’s Role as a Living Archive",
+          "expectedStart": 1136.04,
+          "expectedEnd": 1276.54,
+          "actualStart": 1146.541959,
+          "actualEnd": 1287.037959,
+          "timeDifference": 10.501958999999943
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Arrival of Zora Neale Hurston—A Meeting of Minds",
+          "expectedStart": 1276.54,
+          "expectedEnd": 1421.16,
+          "actualStart": 1288.537959,
+          "actualEnd": 1433.161251,
+          "timeDifference": 11.997959000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Weight of Memory—Grief, Healing, and Legacy",
+          "expectedStart": 1421.16,
+          "expectedEnd": 1548.42,
+          "actualStart": 1434.661251,
+          "actualEnd": 1561.921084,
+          "timeDifference": 13.501250999999911
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Echoes of Slavery—Family, Community, and the Long Shadow",
+          "expectedStart": 1548.42,
+          "expectedEnd": 1678.35,
+          "actualStart": 1563.421084,
+          "actualEnd": 1693.355459,
+          "timeDifference": 15.001083999999992
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1678.35,
+          "expectedEnd": 1772.56,
+          "actualStart": 1694.855459,
+          "actualEnd": 1789.0632090000001,
+          "timeDifference": 16.5054590000002
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.909,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Meeting the Last Survivor and the Power of Remembering"
+        },
+        {
+          "startTime": 277.221708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Meeting the Last Survivor and the Power of Remembering and Chapter 2 Life in Africa Before Capture"
+        },
+        {
+          "startTime": 445.96462499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life in Africa Before Capture and Chapter 3 The Middle Passage and Arrival in America"
+        },
+        {
+          "startTime": 627.632542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Middle Passage and Arrival in America and Chapter 4 Life in Bondage and the Struggle to Adapt"
+        },
+        {
+          "startTime": 817.813042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Life in Bondage and the Struggle to Adapt and Chapter 5 Emancipation and the Search for Belonging"
+        },
+        {
+          "startTime": 995.893792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Emancipation and the Search for Belonging and Chapter 6 Building Africatown—A New Beginning Amid Old Wounds"
+        },
+        {
+          "startTime": 1145.041959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Africatown—A New Beginning Amid Old Wounds and Chapter 7 The Keeper of Stories—Cudjo’s Role as a Living Archive"
+        },
+        {
+          "startTime": 1287.037959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Keeper of Stories—Cudjo’s Role as a Living Archive and Chapter 8 The Arrival of Zora Neale Hurston—A Meeting of Minds"
+        },
+        {
+          "startTime": 1433.161251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Arrival of Zora Neale Hurston—A Meeting of Minds and Chapter 9 The Weight of Memory—Grief, Healing, and Legacy"
+        },
+        {
+          "startTime": 1561.921084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Weight of Memory—Grief, Healing, and Legacy and Chapter 10 The Echoes of Slavery—Family, Community, and the Long Shadow"
+        },
+        {
+          "startTime": 1693.355459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Echoes of Slavery—Family, Community, and the Long Shadow and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "526",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T16:51:15.140Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "633",
+  "timestamp": "2025-07-04T23:29:25.347Z",
+  "success": false,
+  "processingTime": -1751671359143,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4621,
+    "totalAudioFiles": 12,
+    "totalDuration": 2048.023501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2048.023501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/633/optimized_text/633.md",
+    "fileSize": 733,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "633.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/633/metadata/633_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2048.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/633/metadata/633_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/633/metadata/633_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/633/633_complete.wav",
+    "duration": 2048.0235,
+    "fileSize": 98305206,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/633/introduction.wav",
+          "duration": 79.33325,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.33325,
+          "startTime": 0,
+          "endTime": 79.33325
+        },
+        {
+          "path": "Audio/output/633/chapter_01.wav",
+          "duration": 264.2615,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood, Illness, and the First Glimpse of Difference",
+          "actualDuration": 264.2615,
+          "startTime": 80.83325,
+          "endTime": 345.09475000000003
+        },
+        {
+          "path": "Audio/output/633/chapter_02.wav",
+          "duration": 224.203333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating School, Friendship, and the Weight of Being Seen",
+          "actualDuration": 224.203333,
+          "startTime": 346.59475000000003,
+          "endTime": 570.798083
+        },
+        {
+          "path": "Audio/output/633/chapter_03.wav",
+          "duration": 228.206917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Endless Cycle of Surgery and the Search for Normalcy",
+          "actualDuration": 228.206917,
+          "startTime": 572.298083,
+          "endTime": 800.505
+        },
+        {
+          "path": "Audio/output/633/chapter_04.wav",
+          "duration": 225.207125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adolescence, Self-Image, and the Struggle for Acceptance",
+          "actualDuration": 225.207125,
+          "startTime": 802.005,
+          "endTime": 1027.212125
+        },
+        {
+          "path": "Audio/output/633/chapter_05.wav",
+          "duration": 136.579625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Battle for Self-Worth and the Power of Storytelling",
+          "actualDuration": 136.579625,
+          "startTime": 1028.712125,
+          "endTime": 1165.29175
+        },
+        {
+          "path": "Audio/output/633/chapter_06.wav",
+          "duration": 185.453958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Adulthood: New Beginnings, Old Shadows",
+          "actualDuration": 185.453958,
+          "startTime": 1166.79175,
+          "endTime": 1352.2457080000001
+        },
+        {
+          "path": "Audio/output/633/chapter_07.wav",
+          "duration": 185.850625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Mirror and the World: Confronting Public Perception",
+          "actualDuration": 185.850625,
+          "startTime": 1353.7457080000001,
+          "endTime": 1539.5963330000002
+        },
+        {
+          "path": "Audio/output/633/chapter_08.wav",
+          "duration": 159.926167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Family, Memory, and the Shifting Ground of Identity",
+          "actualDuration": 159.926167,
+          "startTime": 1541.0963330000002,
+          "endTime": 1701.0225000000003
+        },
+        {
+          "path": "Audio/output/633/chapter_09.wav",
+          "duration": 132.390792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power and Limits of Storytelling",
+          "actualDuration": 132.390792,
+          "startTime": 1702.5225000000003,
+          "endTime": 1834.9132920000002
+        },
+        {
+          "path": "Audio/output/633/chapter_10.wav",
+          "duration": 114.699917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Forward: Acceptance, Advocacy, and the Ongoing Journey",
+          "actualDuration": 114.699917,
+          "startTime": 1836.4132920000002,
+          "endTime": 1951.113209
+        },
+        {
+          "path": "Audio/output/633/conclusion.wav",
+          "duration": 111.910292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.910292,
+          "startTime": 1952.613209,
+          "endTime": 2064.523501
+        }
+      ],
+      "totalDuration": 2064.523501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.33,
+          "actualStart": 0,
+          "actualEnd": 79.33325,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood, Illness, and the First Glimpse of Difference",
+          "expectedStart": 79.33,
+          "expectedEnd": 343.59,
+          "actualStart": 80.83325,
+          "actualEnd": 345.09475000000003,
+          "timeDifference": 1.5032500000000084
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating School, Friendship, and the Weight of Being Seen",
+          "expectedStart": 343.59,
+          "expectedEnd": 567.79,
+          "actualStart": 346.59475000000003,
+          "actualEnd": 570.798083,
+          "timeDifference": 3.004750000000058
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Endless Cycle of Surgery and the Search for Normalcy",
+          "expectedStart": 567.79,
+          "expectedEnd": 796,
+          "actualStart": 572.298083,
+          "actualEnd": 800.505,
+          "timeDifference": 4.508083000000056
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adolescence, Self-Image, and the Struggle for Acceptance",
+          "expectedStart": 796,
+          "expectedEnd": 1021.21,
+          "actualStart": 802.005,
+          "actualEnd": 1027.212125,
+          "timeDifference": 6.0049999999999955
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Battle for Self-Worth and the Power of Storytelling",
+          "expectedStart": 1021.21,
+          "expectedEnd": 1157.79,
+          "actualStart": 1028.712125,
+          "actualEnd": 1165.29175,
+          "timeDifference": 7.502124999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Adulthood: New Beginnings, Old Shadows",
+          "expectedStart": 1157.79,
+          "expectedEnd": 1343.24,
+          "actualStart": 1166.79175,
+          "actualEnd": 1352.2457080000001,
+          "timeDifference": 9.00175000000013
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Mirror and the World: Confronting Public Perception",
+          "expectedStart": 1343.24,
+          "expectedEnd": 1529.09,
+          "actualStart": 1353.7457080000001,
+          "actualEnd": 1539.5963330000002,
+          "timeDifference": 10.50570800000014
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Family, Memory, and the Shifting Ground of Identity",
+          "expectedStart": 1529.09,
+          "expectedEnd": 1689.02,
+          "actualStart": 1541.0963330000002,
+          "actualEnd": 1701.0225000000003,
+          "timeDifference": 12.006333000000268
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power and Limits of Storytelling",
+          "expectedStart": 1689.02,
+          "expectedEnd": 1821.41,
+          "actualStart": 1702.5225000000003,
+          "actualEnd": 1834.9132920000002,
+          "timeDifference": 13.502500000000282
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Forward: Acceptance, Advocacy, and the Ongoing Journey",
+          "expectedStart": 1821.41,
+          "expectedEnd": 1936.11,
+          "actualStart": 1836.4132920000002,
+          "actualEnd": 1951.113209,
+          "timeDifference": 15.003292000000101
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1936.11,
+          "expectedEnd": 2048.02,
+          "actualStart": 1952.613209,
+          "actualEnd": 2064.523501,
+          "timeDifference": 16.503209000000197
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.33325,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood, Illness, and the First Glimpse of Difference"
+        },
+        {
+          "startTime": 345.09475000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood, Illness, and the First Glimpse of Difference and Chapter 2 Navigating School, Friendship, and the Weight of Being Seen"
+        },
+        {
+          "startTime": 570.798083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating School, Friendship, and the Weight of Being Seen and Chapter 3 The Endless Cycle of Surgery and the Search for Normalcy"
+        },
+        {
+          "startTime": 800.505,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Endless Cycle of Surgery and the Search for Normalcy and Chapter 4 Adolescence, Self-Image, and the Struggle for Acceptance"
+        },
+        {
+          "startTime": 1027.212125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adolescence, Self-Image, and the Struggle for Acceptance and Chapter 5 The Ongoing Battle for Self-Worth and the Power of Storytelling"
+        },
+        {
+          "startTime": 1165.29175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Battle for Self-Worth and the Power of Storytelling and Chapter 6 Adulthood: New Beginnings, Old Shadows"
+        },
+        {
+          "startTime": 1352.2457080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Adulthood: New Beginnings, Old Shadows and Chapter 7 The Mirror and the World: Confronting Public Perception"
+        },
+        {
+          "startTime": 1539.5963330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Mirror and the World: Confronting Public Perception and Chapter 8 Family, Memory, and the Shifting Ground of Identity"
+        },
+        {
+          "startTime": 1701.0225000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Family, Memory, and the Shifting Ground of Identity and Chapter 9 The Power and Limits of Storytelling"
+        },
+        {
+          "startTime": 1834.9132920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power and Limits of Storytelling and Chapter 10 Living Forward: Acceptance, Advocacy, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1951.113209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Forward: Acceptance, Advocacy, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "633",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T23:22:40.737Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

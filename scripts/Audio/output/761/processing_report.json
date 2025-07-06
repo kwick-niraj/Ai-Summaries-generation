@@ -1,0 +1,456 @@
+{
+  "bookId": "761",
+  "timestamp": "2025-07-05T07:26:33.587Z",
+  "success": false,
+  "processingTime": -1751699877322,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4333,
+    "totalAudioFiles": 12,
+    "totalDuration": 2051.265916
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2051.265916
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/761/optimized_text/761.md",
+    "fileSize": 673,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "761.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/761/metadata/761_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2051.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/761/metadata/761_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/761/metadata/761_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/761/761_complete.wav",
+    "duration": 2051.265917,
+    "fileSize": 98460842,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/761/introduction.wav",
+          "duration": 93.1805,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.1805,
+          "startTime": 0,
+          "endTime": 93.1805
+        },
+        {
+          "path": "Audio/output/761/chapter_01.wav",
+          "duration": 199.548458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Big Changes Often Fail and Small Steps Succeed",
+          "actualDuration": 199.548458,
+          "startTime": 94.6805,
+          "endTime": 294.22895800000003
+        },
+        {
+          "path": "Audio/output/761/chapter_02.wav",
+          "duration": 233.203417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science Behind Small Habits and Lasting Change",
+          "actualDuration": 233.203417,
+          "startTime": 295.72895800000003,
+          "endTime": 528.9323750000001
+        },
+        {
+          "path": "Audio/output/761/chapter_03.wav",
+          "duration": 226.186833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Designing Mini Habits That Fit Real Life",
+          "actualDuration": 226.186833,
+          "startTime": 530.4323750000001,
+          "endTime": 756.6192080000001
+        },
+        {
+          "path": "Audio/output/761/chapter_04.wav",
+          "duration": 204.318125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Consistency and Momentum Through Small Wins",
+          "actualDuration": 204.318125,
+          "startTime": 758.1192080000001,
+          "endTime": 962.4373330000001
+        },
+        {
+          "path": "Audio/output/761/chapter_05.wav",
+          "duration": 237.333375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Mental Barriers and Making Change Stick",
+          "actualDuration": 237.333375,
+          "startTime": 963.9373330000001,
+          "endTime": 1201.270708
+        },
+        {
+          "path": "Audio/output/761/chapter_06.wav",
+          "duration": 163.119125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Expanding Mini Habits Without Losing Simplicity",
+          "actualDuration": 163.119125,
+          "startTime": 1202.770708,
+          "endTime": 1365.889833
+        },
+        {
+          "path": "Audio/output/761/chapter_07.wav",
+          "duration": 150.244458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Troubleshooting Setbacks and Plateaus",
+          "actualDuration": 150.244458,
+          "startTime": 1367.389833,
+          "endTime": 1517.6342909999998
+        },
+        {
+          "path": "Audio/output/761/chapter_08.wav",
+          "duration": 161.848,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Mini Habits for Multiple Areas of Life",
+          "actualDuration": 161.848,
+          "startTime": 1519.1342909999998,
+          "endTime": 1680.9822909999998
+        },
+        {
+          "path": "Audio/output/761/chapter_09.wav",
+          "duration": 139.414583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Mini Habits for Lifelong Growth",
+          "actualDuration": 139.414583,
+          "startTime": 1682.4822909999998,
+          "endTime": 1821.8968739999998
+        },
+        {
+          "path": "Audio/output/761/chapter_10.wav",
+          "duration": 137.898917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Mini Habit Mindset—Living with Gentle Progress",
+          "actualDuration": 137.898917,
+          "startTime": 1823.3968739999998,
+          "endTime": 1961.2957909999998
+        },
+        {
+          "path": "Audio/output/761/conclusion.wav",
+          "duration": 104.970125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.970125,
+          "startTime": 1962.7957909999998,
+          "endTime": 2067.765916
+        }
+      ],
+      "totalDuration": 2067.765916,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.18,
+          "actualStart": 0,
+          "actualEnd": 93.1805,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Big Changes Often Fail and Small Steps Succeed",
+          "expectedStart": 93.18,
+          "expectedEnd": 292.73,
+          "actualStart": 94.6805,
+          "actualEnd": 294.22895800000003,
+          "timeDifference": 1.5004999999999882
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science Behind Small Habits and Lasting Change",
+          "expectedStart": 292.73,
+          "expectedEnd": 525.93,
+          "actualStart": 295.72895800000003,
+          "actualEnd": 528.9323750000001,
+          "timeDifference": 2.998958000000016
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Designing Mini Habits That Fit Real Life",
+          "expectedStart": 525.93,
+          "expectedEnd": 752.12,
+          "actualStart": 530.4323750000001,
+          "actualEnd": 756.6192080000001,
+          "timeDifference": 4.502375000000143
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Consistency and Momentum Through Small Wins",
+          "expectedStart": 752.12,
+          "expectedEnd": 956.44,
+          "actualStart": 758.1192080000001,
+          "actualEnd": 962.4373330000001,
+          "timeDifference": 5.999208000000067
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Mental Barriers and Making Change Stick",
+          "expectedStart": 956.44,
+          "expectedEnd": 1193.77,
+          "actualStart": 963.9373330000001,
+          "actualEnd": 1201.270708,
+          "timeDifference": 7.497333000000026
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Expanding Mini Habits Without Losing Simplicity",
+          "expectedStart": 1193.77,
+          "expectedEnd": 1356.89,
+          "actualStart": 1202.770708,
+          "actualEnd": 1365.889833,
+          "timeDifference": 9.000708000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Troubleshooting Setbacks and Plateaus",
+          "expectedStart": 1356.89,
+          "expectedEnd": 1507.13,
+          "actualStart": 1367.389833,
+          "actualEnd": 1517.6342909999998,
+          "timeDifference": 10.499832999999853
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Mini Habits for Multiple Areas of Life",
+          "expectedStart": 1507.13,
+          "expectedEnd": 1668.98,
+          "actualStart": 1519.1342909999998,
+          "actualEnd": 1680.9822909999998,
+          "timeDifference": 12.00429099999974
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Mini Habits for Lifelong Growth",
+          "expectedStart": 1668.98,
+          "expectedEnd": 1808.39,
+          "actualStart": 1682.4822909999998,
+          "actualEnd": 1821.8968739999998,
+          "timeDifference": 13.502290999999786
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Mini Habit Mindset—Living with Gentle Progress",
+          "expectedStart": 1808.39,
+          "expectedEnd": 1946.29,
+          "actualStart": 1823.3968739999998,
+          "actualEnd": 1961.2957909999998,
+          "timeDifference": 15.006873999999698
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1946.29,
+          "expectedEnd": 2051.26,
+          "actualStart": 1962.7957909999998,
+          "actualEnd": 2067.765916,
+          "timeDifference": 16.505790999999817
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.1805,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Big Changes Often Fail and Small Steps Succeed"
+        },
+        {
+          "startTime": 294.22895800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Big Changes Often Fail and Small Steps Succeed and Chapter 2 The Science Behind Small Habits and Lasting Change"
+        },
+        {
+          "startTime": 528.9323750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science Behind Small Habits and Lasting Change and Chapter 3 Designing Mini Habits That Fit Real Life"
+        },
+        {
+          "startTime": 756.6192080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Designing Mini Habits That Fit Real Life and Chapter 4 Building Consistency and Momentum Through Small Wins"
+        },
+        {
+          "startTime": 962.4373330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Consistency and Momentum Through Small Wins and Chapter 5 Overcoming Mental Barriers and Making Change Stick"
+        },
+        {
+          "startTime": 1201.270708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Mental Barriers and Making Change Stick and Chapter 6 Expanding Mini Habits Without Losing Simplicity"
+        },
+        {
+          "startTime": 1365.889833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Expanding Mini Habits Without Losing Simplicity and Chapter 7 Troubleshooting Setbacks and Plateaus"
+        },
+        {
+          "startTime": 1517.6342909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Troubleshooting Setbacks and Plateaus and Chapter 8 Integrating Mini Habits for Multiple Areas of Life"
+        },
+        {
+          "startTime": 1680.9822909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Mini Habits for Multiple Areas of Life and Chapter 9 Sustaining Mini Habits for Lifelong Growth"
+        },
+        {
+          "startTime": 1821.8968739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Mini Habits for Lifelong Growth and Chapter 10 The Mini Habit Mindset—Living with Gentle Progress"
+        },
+        {
+          "startTime": 1961.2957909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Mini Habit Mindset—Living with Gentle Progress and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "761",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T07:17:58.923Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

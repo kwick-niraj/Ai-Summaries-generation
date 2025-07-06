@@ -1,0 +1,480 @@
+{
+  "bookId": "617",
+  "timestamp": "2025-07-04T22:14:34.815Z",
+  "success": false,
+  "processingTime": -1751666846808,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5040,
+    "totalAudioFiles": 13,
+    "totalDuration": 2337.321082
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2337.321082
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/617/optimized_text/617.md",
+    "fileSize": 842,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "617.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/617/metadata/617_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2337.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/617/metadata/617_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/617/metadata/617_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/617/617_complete.wav",
+    "duration": 2337.321083,
+    "fileSize": 112191490,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/617/introduction.wav",
+          "duration": 106.973,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.973,
+          "startTime": 0,
+          "endTime": 106.973
+        },
+        {
+          "path": "Audio/output/617/chapter_01.wav",
+          "duration": 246.444042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Promise and Struggle of the Russian Revolution",
+          "actualDuration": 246.444042,
+          "startTime": 108.473,
+          "endTime": 354.917042
+        },
+        {
+          "path": "Audio/output/617/chapter_02.wav",
+          "duration": 241.102333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Bureaucracy and the Loss of Workers’ Power",
+          "actualDuration": 241.102333,
+          "startTime": 356.417042,
+          "endTime": 597.519375
+        },
+        {
+          "path": "Audio/output/617/chapter_03.wav",
+          "duration": 231.180625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The New Rulers and the Everyday Reality of Soviet Life",
+          "actualDuration": 231.180625,
+          "startTime": 599.019375,
+          "endTime": 830.1999999999999
+        },
+        {
+          "path": "Audio/output/617/chapter_04.wav",
+          "duration": 214.318708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Suppression of Dissent and the Betrayal of Internationalism",
+          "actualDuration": 214.318708,
+          "startTime": 831.6999999999999,
+          "endTime": 1046.0187079999998
+        },
+        {
+          "path": "Audio/output/617/chapter_05.wav",
+          "duration": 145.870667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Future at a Crossroads—Stagnation or Renewal",
+          "actualDuration": 145.870667,
+          "startTime": 1047.5187079999998,
+          "endTime": 1193.3893749999997
+        },
+        {
+          "path": "Audio/output/617/chapter_06.wav",
+          "duration": 201.16575,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Machinery of Control—How Bureaucracy Sustains Itself",
+          "actualDuration": 201.16575,
+          "startTime": 1194.8893749999997,
+          "endTime": 1396.0551249999999
+        },
+        {
+          "path": "Audio/output/617/chapter_07.wav",
+          "duration": 182.446375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Economy of Shortages—Planned Chaos and Everyday Survival",
+          "actualDuration": 182.446375,
+          "startTime": 1397.5551249999999,
+          "endTime": 1580.0014999999999
+        },
+        {
+          "path": "Audio/output/617/chapter_08.wav",
+          "duration": 184.002708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cult of Leadership—Stalin and the New Orthodoxy",
+          "actualDuration": 184.002708,
+          "startTime": 1581.5014999999999,
+          "endTime": 1765.5042079999998
+        },
+        {
+          "path": "Audio/output/617/chapter_09.wav",
+          "duration": 171.530083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Shadow of Terror—Purges and the Politics of Fear",
+          "actualDuration": 171.530083,
+          "startTime": 1767.0042079999998,
+          "endTime": 1938.534291
+        },
+        {
+          "path": "Audio/output/617/chapter_10.wav",
+          "duration": 160.21275,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Question of Revolution—Can the System Be Changed?",
+          "actualDuration": 160.21275,
+          "startTime": 1940.034291,
+          "endTime": 2100.247041
+        },
+        {
+          "path": "Audio/output/617/chapter_11.wav",
+          "duration": 128.234458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Lessons for the World—The Fate of Socialism and the Human Spirit",
+          "actualDuration": 128.234458,
+          "startTime": 2101.747041,
+          "endTime": 2229.981499
+        },
+        {
+          "path": "Audio/output/617/conclusion.wav",
+          "duration": 123.839583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.839583,
+          "startTime": 2231.481499,
+          "endTime": 2355.321082
+        }
+      ],
+      "totalDuration": 2355.321082,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.97,
+          "actualStart": 0,
+          "actualEnd": 106.973,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Promise and Struggle of the Russian Revolution",
+          "expectedStart": 106.97,
+          "expectedEnd": 353.41,
+          "actualStart": 108.473,
+          "actualEnd": 354.917042,
+          "timeDifference": 1.5030000000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Bureaucracy and the Loss of Workers’ Power",
+          "expectedStart": 353.41,
+          "expectedEnd": 594.51,
+          "actualStart": 356.417042,
+          "actualEnd": 597.519375,
+          "timeDifference": 3.007041999999956
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The New Rulers and the Everyday Reality of Soviet Life",
+          "expectedStart": 594.51,
+          "expectedEnd": 825.69,
+          "actualStart": 599.019375,
+          "actualEnd": 830.1999999999999,
+          "timeDifference": 4.509374999999977
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Suppression of Dissent and the Betrayal of Internationalism",
+          "expectedStart": 825.69,
+          "expectedEnd": 1040.01,
+          "actualStart": 831.6999999999999,
+          "actualEnd": 1046.0187079999998,
+          "timeDifference": 6.009999999999877
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Future at a Crossroads—Stagnation or Renewal",
+          "expectedStart": 1040.01,
+          "expectedEnd": 1185.88,
+          "actualStart": 1047.5187079999998,
+          "actualEnd": 1193.3893749999997,
+          "timeDifference": 7.508707999999842
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Machinery of Control—How Bureaucracy Sustains Itself",
+          "expectedStart": 1185.88,
+          "expectedEnd": 1387.05,
+          "actualStart": 1194.8893749999997,
+          "actualEnd": 1396.0551249999999,
+          "timeDifference": 9.009374999999636
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Economy of Shortages—Planned Chaos and Everyday Survival",
+          "expectedStart": 1387.05,
+          "expectedEnd": 1569.5,
+          "actualStart": 1397.5551249999999,
+          "actualEnd": 1580.0014999999999,
+          "timeDifference": 10.505124999999907
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cult of Leadership—Stalin and the New Orthodoxy",
+          "expectedStart": 1569.5,
+          "expectedEnd": 1753.5,
+          "actualStart": 1581.5014999999999,
+          "actualEnd": 1765.5042079999998,
+          "timeDifference": 12.00149999999985
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Shadow of Terror—Purges and the Politics of Fear",
+          "expectedStart": 1753.5,
+          "expectedEnd": 1925.03,
+          "actualStart": 1767.0042079999998,
+          "actualEnd": 1938.534291,
+          "timeDifference": 13.504207999999835
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Question of Revolution—Can the System Be Changed?",
+          "expectedStart": 1925.03,
+          "expectedEnd": 2085.24,
+          "actualStart": 1940.034291,
+          "actualEnd": 2100.247041,
+          "timeDifference": 15.004290999999967
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Lessons for the World—The Fate of Socialism and the Human Spirit",
+          "expectedStart": 2085.24,
+          "expectedEnd": 2213.47,
+          "actualStart": 2101.747041,
+          "actualEnd": 2229.981499,
+          "timeDifference": 16.5070410000003
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2213.47,
+          "expectedEnd": 2337.31,
+          "actualStart": 2231.481499,
+          "actualEnd": 2355.321082,
+          "timeDifference": 18.011499000000185
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.973,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Promise and Struggle of the Russian Revolution"
+        },
+        {
+          "startTime": 354.917042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Promise and Struggle of the Russian Revolution and Chapter 2 The Rise of Bureaucracy and the Loss of Workers’ Power"
+        },
+        {
+          "startTime": 597.519375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Bureaucracy and the Loss of Workers’ Power and Chapter 3 The New Rulers and the Everyday Reality of Soviet Life"
+        },
+        {
+          "startTime": 830.1999999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The New Rulers and the Everyday Reality of Soviet Life and Chapter 4 The Suppression of Dissent and the Betrayal of Internationalism"
+        },
+        {
+          "startTime": 1046.0187079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Suppression of Dissent and the Betrayal of Internationalism and Chapter 5 The Future at a Crossroads—Stagnation or Renewal"
+        },
+        {
+          "startTime": 1193.3893749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Future at a Crossroads—Stagnation or Renewal and Chapter 6 The Machinery of Control—How Bureaucracy Sustains Itself"
+        },
+        {
+          "startTime": 1396.0551249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Machinery of Control—How Bureaucracy Sustains Itself and Chapter 7 The Economy of Shortages—Planned Chaos and Everyday Survival"
+        },
+        {
+          "startTime": 1580.0014999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Economy of Shortages—Planned Chaos and Everyday Survival and Chapter 8 The Cult of Leadership—Stalin and the New Orthodoxy"
+        },
+        {
+          "startTime": 1765.5042079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cult of Leadership—Stalin and the New Orthodoxy and Chapter 9 The Shadow of Terror—Purges and the Politics of Fear"
+        },
+        {
+          "startTime": 1938.534291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Shadow of Terror—Purges and the Politics of Fear and Chapter 10 The Question of Revolution—Can the System Be Changed?"
+        },
+        {
+          "startTime": 2100.247041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Question of Revolution—Can the System Be Changed? and Chapter 11 Lessons for the World—The Fate of Socialism and the Human Spirit"
+        },
+        {
+          "startTime": 2229.981499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Lessons for the World—The Fate of Socialism and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "617",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T22:07:28.446Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

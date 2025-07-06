@@ -1,0 +1,456 @@
+{
+  "bookId": "779",
+  "timestamp": "2025-07-05T08:16:48.564Z",
+  "success": false,
+  "processingTime": -1751703124616,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4230,
+    "totalAudioFiles": 12,
+    "totalDuration": 2045.1992910000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2045.1992910000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/779/optimized_text/779.md",
+    "fileSize": 724,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "779.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/779/metadata/779_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2045.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/779/metadata/779_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/779/metadata/779_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/779/779_complete.wav",
+    "duration": 2045.199292,
+    "fileSize": 98169644,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/779/introduction.wav",
+          "duration": 82.518,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.518,
+          "startTime": 0,
+          "endTime": 82.518
+        },
+        {
+          "path": "Audio/output/779/chapter_01.wav",
+          "duration": 223.252125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Renaissance Spirit for Personal Growth",
+          "actualDuration": 223.252125,
+          "startTime": 84.018,
+          "endTime": 307.270125
+        },
+        {
+          "path": "Audio/output/779/chapter_02.wav",
+          "duration": 192.913292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Engaging with Symbolic Archetypes for Self-Reflection",
+          "actualDuration": 192.913292,
+          "startTime": 308.770125,
+          "endTime": 501.683417
+        },
+        {
+          "path": "Audio/output/779/chapter_03.wav",
+          "duration": 190.103833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Integrating Mind, Body, and Spirit for Holistic Change",
+          "actualDuration": 190.103833,
+          "startTime": 503.183417,
+          "endTime": 693.2872500000001
+        },
+        {
+          "path": "Audio/output/779/chapter_04.wav",
+          "duration": 219.390875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creative Practices for Unlocking Inner Potential",
+          "actualDuration": 219.390875,
+          "startTime": 694.7872500000001,
+          "endTime": 914.1781250000001
+        },
+        {
+          "path": "Audio/output/779/chapter_05.wav",
+          "duration": 202.50275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindfulness and Intentional Living through Symbolic Tools",
+          "actualDuration": 202.50275,
+          "startTime": 915.6781250000001,
+          "endTime": 1118.180875
+        },
+        {
+          "path": "Audio/output/779/chapter_06.wav",
+          "duration": 144.525125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Self-Inquiry: Advanced Symbolic Dialogue",
+          "actualDuration": 144.525125,
+          "startTime": 1119.680875,
+          "endTime": 1264.2060000000001
+        },
+        {
+          "path": "Audio/output/779/chapter_07.wav",
+          "duration": 165.489583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Life’s Challenges with Renaissance Resilience",
+          "actualDuration": 165.489583,
+          "startTime": 1265.7060000000001,
+          "endTime": 1431.1955830000002
+        },
+        {
+          "path": "Audio/output/779/chapter_08.wav",
+          "duration": 181.899833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Cultivating Virtue: Living the Renaissance Values",
+          "actualDuration": 181.899833,
+          "startTime": 1432.6955830000002,
+          "endTime": 1614.5954160000001
+        },
+        {
+          "path": "Audio/output/779/chapter_09.wav",
+          "duration": 159.470667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Designing Personal Rituals for Lasting Change",
+          "actualDuration": 159.470667,
+          "startTime": 1616.0954160000001,
+          "endTime": 1775.5660830000002
+        },
+        {
+          "path": "Audio/output/779/chapter_10.wav",
+          "duration": 146.199333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: The Renaissance Cycle of Renewal",
+          "actualDuration": 146.199333,
+          "startTime": 1777.0660830000002,
+          "endTime": 1923.2654160000002
+        },
+        {
+          "path": "Audio/output/779/conclusion.wav",
+          "duration": 136.933875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.933875,
+          "startTime": 1924.7654160000002,
+          "endTime": 2061.6992910000004
+        }
+      ],
+      "totalDuration": 2061.6992910000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.52,
+          "actualStart": 0,
+          "actualEnd": 82.518,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Renaissance Spirit for Personal Growth",
+          "expectedStart": 82.52,
+          "expectedEnd": 305.77,
+          "actualStart": 84.018,
+          "actualEnd": 307.270125,
+          "timeDifference": 1.4980000000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Engaging with Symbolic Archetypes for Self-Reflection",
+          "expectedStart": 305.77,
+          "expectedEnd": 498.68,
+          "actualStart": 308.770125,
+          "actualEnd": 501.683417,
+          "timeDifference": 3.0001250000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Integrating Mind, Body, and Spirit for Holistic Change",
+          "expectedStart": 498.68,
+          "expectedEnd": 688.78,
+          "actualStart": 503.183417,
+          "actualEnd": 693.2872500000001,
+          "timeDifference": 4.503417000000013
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creative Practices for Unlocking Inner Potential",
+          "expectedStart": 688.78,
+          "expectedEnd": 908.17,
+          "actualStart": 694.7872500000001,
+          "actualEnd": 914.1781250000001,
+          "timeDifference": 6.007250000000113
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindfulness and Intentional Living through Symbolic Tools",
+          "expectedStart": 908.17,
+          "expectedEnd": 1110.67,
+          "actualStart": 915.6781250000001,
+          "actualEnd": 1118.180875,
+          "timeDifference": 7.508125000000177
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Self-Inquiry: Advanced Symbolic Dialogue",
+          "expectedStart": 1110.67,
+          "expectedEnd": 1255.2,
+          "actualStart": 1119.680875,
+          "actualEnd": 1264.2060000000001,
+          "timeDifference": 9.010874999999942
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Life’s Challenges with Renaissance Resilience",
+          "expectedStart": 1255.2,
+          "expectedEnd": 1420.69,
+          "actualStart": 1265.7060000000001,
+          "actualEnd": 1431.1955830000002,
+          "timeDifference": 10.506000000000085
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Cultivating Virtue: Living the Renaissance Values",
+          "expectedStart": 1420.69,
+          "expectedEnd": 1602.59,
+          "actualStart": 1432.6955830000002,
+          "actualEnd": 1614.5954160000001,
+          "timeDifference": 12.005583000000115
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Designing Personal Rituals for Lasting Change",
+          "expectedStart": 1602.59,
+          "expectedEnd": 1762.06,
+          "actualStart": 1616.0954160000001,
+          "actualEnd": 1775.5660830000002,
+          "timeDifference": 13.505416000000196
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: The Renaissance Cycle of Renewal",
+          "expectedStart": 1762.06,
+          "expectedEnd": 1908.26,
+          "actualStart": 1777.0660830000002,
+          "actualEnd": 1923.2654160000002,
+          "timeDifference": 15.006083000000217
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1908.26,
+          "expectedEnd": 2045.19,
+          "actualStart": 1924.7654160000002,
+          "actualEnd": 2061.6992910000004,
+          "timeDifference": 16.505416000000196
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.518,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Renaissance Spirit for Personal Growth"
+        },
+        {
+          "startTime": 307.270125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Renaissance Spirit for Personal Growth and Chapter 2 Engaging with Symbolic Archetypes for Self-Reflection"
+        },
+        {
+          "startTime": 501.683417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Engaging with Symbolic Archetypes for Self-Reflection and Chapter 3 Integrating Mind, Body, and Spirit for Holistic Change"
+        },
+        {
+          "startTime": 693.2872500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Integrating Mind, Body, and Spirit for Holistic Change and Chapter 4 Creative Practices for Unlocking Inner Potential"
+        },
+        {
+          "startTime": 914.1781250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creative Practices for Unlocking Inner Potential and Chapter 5 Mindfulness and Intentional Living through Symbolic Tools"
+        },
+        {
+          "startTime": 1118.180875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindfulness and Intentional Living through Symbolic Tools and Chapter 6 Deepening Self-Inquiry: Advanced Symbolic Dialogue"
+        },
+        {
+          "startTime": 1264.2060000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Self-Inquiry: Advanced Symbolic Dialogue and Chapter 7 Navigating Life’s Challenges with Renaissance Resilience"
+        },
+        {
+          "startTime": 1431.1955830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Life’s Challenges with Renaissance Resilience and Chapter 8 Cultivating Virtue: Living the Renaissance Values"
+        },
+        {
+          "startTime": 1614.5954160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Cultivating Virtue: Living the Renaissance Values and Chapter 9 Designing Personal Rituals for Lasting Change"
+        },
+        {
+          "startTime": 1775.5660830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Designing Personal Rituals for Lasting Change and Chapter 10 Sustaining Growth: The Renaissance Cycle of Renewal"
+        },
+        {
+          "startTime": 1923.2654160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: The Renaissance Cycle of Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "779",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T08:12:05.273Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

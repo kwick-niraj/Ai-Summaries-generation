@@ -1,0 +1,432 @@
+{
+  "bookId": "595",
+  "timestamp": "2025-07-04T21:00:19.055Z",
+  "success": false,
+  "processingTime": -1751662454265,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3507,
+    "totalAudioFiles": 11,
+    "totalDuration": 1849.8569590000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1849.8569590000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/595/optimized_text/595.md",
+    "fileSize": 669,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "595.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/595/metadata/595_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1849.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/595/metadata/595_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/595/metadata/595_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/595/595_complete.wav",
+    "duration": 1849.856958,
+    "fileSize": 88793212,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/595/introduction.wav",
+          "duration": 106.775458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.775458,
+          "startTime": 0,
+          "endTime": 106.775458
+        },
+        {
+          "path": "Audio/output/595/chapter_01.wav",
+          "duration": 202.109333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Procrastination: Beyond Laziness and Willpower",
+          "actualDuration": 202.109333,
+          "startTime": 108.275458,
+          "endTime": 310.384791
+        },
+        {
+          "path": "Audio/output/595/chapter_02.wav",
+          "duration": 208.220542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Reframing Self-Talk and Building a Foundation of Self-Compassion",
+          "actualDuration": 208.220542,
+          "startTime": 311.884791,
+          "endTime": 520.105333
+        },
+        {
+          "path": "Audio/output/595/chapter_03.wav",
+          "duration": 204.274375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Unschedule: Planning Play to Unlock Productivity",
+          "actualDuration": 204.274375,
+          "startTime": 521.605333,
+          "endTime": 725.8797079999999
+        },
+        {
+          "path": "Audio/output/595/chapter_04.wav",
+          "duration": 169.423125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Working in Short Bursts and Embracing Imperfection",
+          "actualDuration": 169.423125,
+          "startTime": 727.3797079999999,
+          "endTime": 896.802833
+        },
+        {
+          "path": "Audio/output/595/chapter_05.wav",
+          "duration": 178.8275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Guilt-Free Play and Redefining Success",
+          "actualDuration": 178.8275,
+          "startTime": 898.302833,
+          "endTime": 1077.130333
+        },
+        {
+          "path": "Audio/output/595/chapter_06.wav",
+          "duration": 161.775542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Troubleshooting Setbacks: Navigating Relapses and Resistance",
+          "actualDuration": 161.775542,
+          "startTime": 1078.630333,
+          "endTime": 1240.4058750000002
+        },
+        {
+          "path": "Audio/output/595/chapter_07.wav",
+          "duration": 173.496042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Procrastination-Resistant Environment",
+          "actualDuration": 173.496042,
+          "startTime": 1241.9058750000002,
+          "endTime": 1415.4019170000001
+        },
+        {
+          "path": "Audio/output/595/chapter_08.wav",
+          "duration": 159.458625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Deepening Self-Awareness: Identifying Patterns and Triggers",
+          "actualDuration": 159.458625,
+          "startTime": 1416.9019170000001,
+          "endTime": 1576.3605420000001
+        },
+        {
+          "path": "Audio/output/595/chapter_09.wav",
+          "duration": 153.206292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Now Habit into Daily Life",
+          "actualDuration": 153.206292,
+          "startTime": 1577.8605420000001,
+          "endTime": 1731.0668340000002
+        },
+        {
+          "path": "Audio/output/595/conclusion.wav",
+          "duration": 132.290125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.290125,
+          "startTime": 1732.5668340000002,
+          "endTime": 1864.8569590000002
+        }
+      ],
+      "totalDuration": 1864.8569590000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.78,
+          "actualStart": 0,
+          "actualEnd": 106.775458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Procrastination: Beyond Laziness and Willpower",
+          "expectedStart": 106.78,
+          "expectedEnd": 308.89,
+          "actualStart": 108.275458,
+          "actualEnd": 310.384791,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Reframing Self-Talk and Building a Foundation of Self-Compassion",
+          "expectedStart": 308.89,
+          "expectedEnd": 517.11,
+          "actualStart": 311.884791,
+          "actualEnd": 520.105333,
+          "timeDifference": 2.9947910000000206
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Unschedule: Planning Play to Unlock Productivity",
+          "expectedStart": 517.11,
+          "expectedEnd": 721.38,
+          "actualStart": 521.605333,
+          "actualEnd": 725.8797079999999,
+          "timeDifference": 4.49533299999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Working in Short Bursts and Embracing Imperfection",
+          "expectedStart": 721.38,
+          "expectedEnd": 890.8,
+          "actualStart": 727.3797079999999,
+          "actualEnd": 896.802833,
+          "timeDifference": 5.999707999999941
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Guilt-Free Play and Redefining Success",
+          "expectedStart": 890.8,
+          "expectedEnd": 1069.63,
+          "actualStart": 898.302833,
+          "actualEnd": 1077.130333,
+          "timeDifference": 7.50283300000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Troubleshooting Setbacks: Navigating Relapses and Resistance",
+          "expectedStart": 1069.63,
+          "expectedEnd": 1231.41,
+          "actualStart": 1078.630333,
+          "actualEnd": 1240.4058750000002,
+          "timeDifference": 9.000332999999955
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Procrastination-Resistant Environment",
+          "expectedStart": 1231.41,
+          "expectedEnd": 1404.91,
+          "actualStart": 1241.9058750000002,
+          "actualEnd": 1415.4019170000001,
+          "timeDifference": 10.49587500000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Deepening Self-Awareness: Identifying Patterns and Triggers",
+          "expectedStart": 1404.91,
+          "expectedEnd": 1564.37,
+          "actualStart": 1416.9019170000001,
+          "actualEnd": 1576.3605420000001,
+          "timeDifference": 11.991917000000058
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Now Habit into Daily Life",
+          "expectedStart": 1564.37,
+          "expectedEnd": 1717.58,
+          "actualStart": 1577.8605420000001,
+          "actualEnd": 1731.0668340000002,
+          "timeDifference": 13.490542000000232
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1717.58,
+          "expectedEnd": 1849.87,
+          "actualStart": 1732.5668340000002,
+          "actualEnd": 1864.8569590000002,
+          "timeDifference": 14.986834000000272
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.775458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Procrastination: Beyond Laziness and Willpower"
+        },
+        {
+          "startTime": 310.384791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Procrastination: Beyond Laziness and Willpower and Chapter 2 Reframing Self-Talk and Building a Foundation of Self-Compassion"
+        },
+        {
+          "startTime": 520.105333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Reframing Self-Talk and Building a Foundation of Self-Compassion and Chapter 3 The Unschedule: Planning Play to Unlock Productivity"
+        },
+        {
+          "startTime": 725.8797079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Unschedule: Planning Play to Unlock Productivity and Chapter 4 Working in Short Bursts and Embracing Imperfection"
+        },
+        {
+          "startTime": 896.802833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Working in Short Bursts and Embracing Imperfection and Chapter 5 Integrating Guilt-Free Play and Redefining Success"
+        },
+        {
+          "startTime": 1077.130333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Guilt-Free Play and Redefining Success and Chapter 6 Troubleshooting Setbacks: Navigating Relapses and Resistance"
+        },
+        {
+          "startTime": 1240.4058750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Troubleshooting Setbacks: Navigating Relapses and Resistance and Chapter 7 Building a Procrastination-Resistant Environment"
+        },
+        {
+          "startTime": 1415.4019170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Procrastination-Resistant Environment and Chapter 8 Deepening Self-Awareness: Identifying Patterns and Triggers"
+        },
+        {
+          "startTime": 1576.3605420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Deepening Self-Awareness: Identifying Patterns and Triggers and Chapter 9 Integrating the Now Habit into Daily Life"
+        },
+        {
+          "startTime": 1731.0668340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Now Habit into Daily Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "595",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T20:54:15.555Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

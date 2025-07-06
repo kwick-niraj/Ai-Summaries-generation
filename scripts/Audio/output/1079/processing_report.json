@@ -1,0 +1,455 @@
+{
+  "bookId": "1079",
+  "timestamp": "2025-07-06T11:53:08.318Z",
+  "success": false,
+  "processingTime": -1751802496535,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4243,
+    "totalAudioFiles": 12,
+    "totalDuration": 1722.447417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1722.447417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1079/optimized_text/1079.md",
+    "fileSize": 768,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "1079.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1079/metadata/1079_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1722.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1079/metadata/1079_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1079/metadata/1079_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1079/1079_complete.wav",
+    "duration": 1722.447417,
+    "fileSize": 82677554,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1079/introduction.wav",
+          "duration": 90.966667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.966667,
+          "startTime": 0,
+          "endTime": 90.966667
+        },
+        {
+          "path": "Audio/output/1079/chapter_01.wav",
+          "duration": 196.186625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into the World of Women and Writing",
+          "actualDuration": 196.186625,
+          "startTime": 92.466667,
+          "endTime": 288.65329199999996
+        },
+        {
+          "path": "Audio/output/1079/chapter_02.wav",
+          "duration": 175.824208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Money and Space in Shaping Creativity",
+          "actualDuration": 175.824208,
+          "startTime": 290.15329199999996,
+          "endTime": 465.97749999999996
+        },
+        {
+          "path": "Audio/output/1079/chapter_03.wav",
+          "duration": 174.548167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Long Shadow of History and the Silence of Women’s Voices",
+          "actualDuration": 174.548167,
+          "startTime": 467.47749999999996,
+          "endTime": 642.025667
+        },
+        {
+          "path": "Audio/output/1079/chapter_04.wav",
+          "duration": 172.737625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Expectations and the Struggle for Authenticity",
+          "actualDuration": 172.737625,
+          "startTime": 643.525667,
+          "endTime": 816.263292
+        },
+        {
+          "path": "Audio/output/1079/chapter_05.wav",
+          "duration": 161.606375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Literary Canon and the Invisible Hand of Power",
+          "actualDuration": 161.606375,
+          "startTime": 817.763292,
+          "endTime": 979.3696669999999
+        },
+        {
+          "path": "Audio/output/1079/chapter_06.wav",
+          "duration": 136.692,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ghosts of the Past and the Inheritance of Silence",
+          "actualDuration": 136.692,
+          "startTime": 980.8696669999999,
+          "endTime": 1117.561667
+        },
+        {
+          "path": "Audio/output/1079/chapter_07.wav",
+          "duration": 137.314333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fictional Sister: Imagining Judith Shakespeare",
+          "actualDuration": 137.314333,
+          "startTime": 1119.061667,
+          "endTime": 1256.376
+        },
+        {
+          "path": "Audio/output/1079/chapter_08.wav",
+          "duration": 129.078167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Mirror of Literature: Women as Reflections, Not Subjects",
+          "actualDuration": 129.078167,
+          "startTime": 1257.876,
+          "endTime": 1386.9541669999999
+        },
+        {
+          "path": "Audio/output/1079/chapter_09.wav",
+          "duration": 133.072625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Challenge of Writing Freely: Anger, Honesty, and the Search for Truth",
+          "actualDuration": 133.072625,
+          "startTime": 1388.4541669999999,
+          "endTime": 1521.526792
+        },
+        {
+          "path": "Audio/output/1079/chapter_10.wav",
+          "duration": 120.584833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Women’s Writing: Possibility and Responsibility",
+          "actualDuration": 120.584833,
+          "startTime": 1523.026792,
+          "endTime": 1643.611625
+        },
+        {
+          "path": "Audio/output/1079/conclusion.wav",
+          "duration": 93.835792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.835792,
+          "startTime": 1645.111625,
+          "endTime": 1738.947417
+        }
+      ],
+      "totalDuration": 1738.947417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.97,
+          "actualStart": 0,
+          "actualEnd": 90.966667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into the World of Women and Writing",
+          "expectedStart": 90.97,
+          "expectedEnd": 287.16,
+          "actualStart": 92.466667,
+          "actualEnd": 288.65329199999996,
+          "timeDifference": 1.4966670000000022
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Money and Space in Shaping Creativity",
+          "expectedStart": 287.16,
+          "expectedEnd": 462.98,
+          "actualStart": 290.15329199999996,
+          "actualEnd": 465.97749999999996,
+          "timeDifference": 2.99329199999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Long Shadow of History and the Silence of Women’s Voices",
+          "expectedStart": 462.98,
+          "expectedEnd": 637.53,
+          "actualStart": 467.47749999999996,
+          "actualEnd": 642.025667,
+          "timeDifference": 4.497499999999945
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Expectations and the Struggle for Authenticity",
+          "expectedStart": 637.53,
+          "expectedEnd": 810.27,
+          "actualStart": 643.525667,
+          "actualEnd": 816.263292,
+          "timeDifference": 5.995667000000026
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Literary Canon and the Invisible Hand of Power",
+          "expectedStart": 810.27,
+          "expectedEnd": 971.88,
+          "actualStart": 817.763292,
+          "actualEnd": 979.3696669999999,
+          "timeDifference": 7.493291999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ghosts of the Past and the Inheritance of Silence",
+          "expectedStart": 971.88,
+          "expectedEnd": 1108.57,
+          "actualStart": 980.8696669999999,
+          "actualEnd": 1117.561667,
+          "timeDifference": 8.98966699999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fictional Sister: Imagining Judith Shakespeare",
+          "expectedStart": 1108.57,
+          "expectedEnd": 1245.88,
+          "actualStart": 1119.061667,
+          "actualEnd": 1256.376,
+          "timeDifference": 10.491667000000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Mirror of Literature: Women as Reflections, Not Subjects",
+          "expectedStart": 1245.88,
+          "expectedEnd": 1374.96,
+          "actualStart": 1257.876,
+          "actualEnd": 1386.9541669999999,
+          "timeDifference": 11.995999999999867
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Challenge of Writing Freely: Anger, Honesty, and the Search for Truth",
+          "expectedStart": 1374.96,
+          "expectedEnd": 1508.03,
+          "actualStart": 1388.4541669999999,
+          "actualEnd": 1521.526792,
+          "timeDifference": 13.494166999999834
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Women’s Writing: Possibility and Responsibility",
+          "expectedStart": 1508.03,
+          "expectedEnd": 1628.61,
+          "actualStart": 1523.026792,
+          "actualEnd": 1643.611625,
+          "timeDifference": 14.996791999999914
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1628.61,
+          "expectedEnd": 1722.45,
+          "actualStart": 1645.111625,
+          "actualEnd": 1738.947417,
+          "timeDifference": 16.501625000000104
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.966667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into the World of Women and Writing"
+        },
+        {
+          "startTime": 288.65329199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into the World of Women and Writing and Chapter 2 The Power of Money and Space in Shaping Creativity"
+        },
+        {
+          "startTime": 465.97749999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Money and Space in Shaping Creativity and Chapter 3 The Long Shadow of History and the Silence of Women’s Voices"
+        },
+        {
+          "startTime": 642.025667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Long Shadow of History and the Silence of Women’s Voices and Chapter 4 The Weight of Expectations and the Struggle for Authenticity"
+        },
+        {
+          "startTime": 816.263292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Expectations and the Struggle for Authenticity and Chapter 5 The Literary Canon and the Invisible Hand of Power"
+        },
+        {
+          "startTime": 979.3696669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Literary Canon and the Invisible Hand of Power and Chapter 6 The Ghosts of the Past and the Inheritance of Silence"
+        },
+        {
+          "startTime": 1117.561667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ghosts of the Past and the Inheritance of Silence and Chapter 7 The Fictional Sister: Imagining Judith Shakespeare"
+        },
+        {
+          "startTime": 1256.376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fictional Sister: Imagining Judith Shakespeare and Chapter 8 The Mirror of Literature: Women as Reflections, Not Subjects"
+        },
+        {
+          "startTime": 1386.9541669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Mirror of Literature: Women as Reflections, Not Subjects and Chapter 9 The Challenge of Writing Freely: Anger, Honesty, and the Search for Truth"
+        },
+        {
+          "startTime": 1521.526792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Challenge of Writing Freely: Anger, Honesty, and the Search for Truth and Chapter 10 The Future of Women’s Writing: Possibility and Responsibility"
+        },
+        {
+          "startTime": 1643.611625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Women’s Writing: Possibility and Responsibility and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1079",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:48:18.089Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

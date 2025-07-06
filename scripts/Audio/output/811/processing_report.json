@@ -1,0 +1,431 @@
+{
+  "bookId": "811",
+  "timestamp": "2025-07-05T10:01:12.183Z",
+  "success": false,
+  "processingTime": -1751709313119,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4204,
+    "totalAudioFiles": 11,
+    "totalDuration": 1753.585083
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1753.585083
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/811/optimized_text/811.md",
+    "fileSize": 667,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "811.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/811/metadata/811_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1753.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/811/metadata/811_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/811/metadata/811_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/811/811_complete.wav",
+    "duration": 1753.585083,
+    "fileSize": 84172162,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/811/introduction.wav",
+          "duration": 110.547875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.547875,
+          "startTime": 0,
+          "endTime": 110.547875
+        },
+        {
+          "path": "Audio/output/811/chapter_01.wav",
+          "duration": 193.86175,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Family’s World Upended by War and Suspicion",
+          "actualDuration": 193.86175,
+          "startTime": 112.047875,
+          "endTime": 305.909625
+        },
+        {
+          "path": "Audio/output/811/chapter_02.wav",
+          "duration": 192.953875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life Inside the Barbed Wire—Adapting to a New Reality",
+          "actualDuration": 192.953875,
+          "startTime": 307.409625,
+          "endTime": 500.36350000000004
+        },
+        {
+          "path": "Audio/output/811/chapter_03.wav",
+          "duration": 195.551583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Family Bonds Tested by Injustice and Uncertainty",
+          "actualDuration": 195.551583,
+          "startTime": 501.86350000000004,
+          "endTime": 697.4150830000001
+        },
+        {
+          "path": "Audio/output/811/chapter_04.wav",
+          "duration": 168.80275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Searching for Identity Amidst Cultural Conflict",
+          "actualDuration": 168.80275,
+          "startTime": 698.9150830000001,
+          "endTime": 867.7178330000002
+        },
+        {
+          "path": "Audio/output/811/chapter_05.wav",
+          "duration": 181.490083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The End of Internment and the Challenge of Starting Over",
+          "actualDuration": 181.490083,
+          "startTime": 869.2178330000002,
+          "endTime": 1050.707916
+        },
+        {
+          "path": "Audio/output/811/chapter_06.wav",
+          "duration": 163.175708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow—Living with the Aftermath",
+          "actualDuration": 163.175708,
+          "startTime": 1052.207916,
+          "endTime": 1215.383624
+        },
+        {
+          "path": "Audio/output/811/chapter_07.wav",
+          "duration": 161.046667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rebuilding Trust—Bridging Generations and Communities",
+          "actualDuration": 161.046667,
+          "startTime": 1216.883624,
+          "endTime": 1377.9302910000001
+        },
+        {
+          "path": "Audio/output/811/chapter_08.wav",
+          "duration": 147.346542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Speaking the Unspoken—Memory, Silence, and the Power of Story",
+          "actualDuration": 147.346542,
+          "startTime": 1379.4302910000001,
+          "endTime": 1526.7768330000001
+        },
+        {
+          "path": "Audio/output/811/chapter_09.wav",
+          "duration": 130.029167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Seeking Justice—Redress, Apology, and the Long Road to Recognition",
+          "actualDuration": 130.029167,
+          "startTime": 1528.2768330000001,
+          "endTime": 1658.306
+        },
+        {
+          "path": "Audio/output/811/conclusion.wav",
+          "duration": 108.779083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.779083,
+          "startTime": 1659.806,
+          "endTime": 1768.585083
+        }
+      ],
+      "totalDuration": 1768.585083,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.55,
+          "actualStart": 0,
+          "actualEnd": 110.547875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Family’s World Upended by War and Suspicion",
+          "expectedStart": 110.55,
+          "expectedEnd": 304.41,
+          "actualStart": 112.047875,
+          "actualEnd": 305.909625,
+          "timeDifference": 1.4978750000000076
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life Inside the Barbed Wire—Adapting to a New Reality",
+          "expectedStart": 304.41,
+          "expectedEnd": 497.36,
+          "actualStart": 307.409625,
+          "actualEnd": 500.36350000000004,
+          "timeDifference": 2.9996249999999804
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Family Bonds Tested by Injustice and Uncertainty",
+          "expectedStart": 497.36,
+          "expectedEnd": 692.91,
+          "actualStart": 501.86350000000004,
+          "actualEnd": 697.4150830000001,
+          "timeDifference": 4.503500000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Searching for Identity Amidst Cultural Conflict",
+          "expectedStart": 692.91,
+          "expectedEnd": 861.71,
+          "actualStart": 698.9150830000001,
+          "actualEnd": 867.7178330000002,
+          "timeDifference": 6.005083000000127
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The End of Internment and the Challenge of Starting Over",
+          "expectedStart": 861.71,
+          "expectedEnd": 1043.2,
+          "actualStart": 869.2178330000002,
+          "actualEnd": 1050.707916,
+          "timeDifference": 7.507833000000119
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow—Living with the Aftermath",
+          "expectedStart": 1043.2,
+          "expectedEnd": 1206.38,
+          "actualStart": 1052.207916,
+          "actualEnd": 1215.383624,
+          "timeDifference": 9.007916000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rebuilding Trust—Bridging Generations and Communities",
+          "expectedStart": 1206.38,
+          "expectedEnd": 1367.43,
+          "actualStart": 1216.883624,
+          "actualEnd": 1377.9302910000001,
+          "timeDifference": 10.503623999999945
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Speaking the Unspoken—Memory, Silence, and the Power of Story",
+          "expectedStart": 1367.43,
+          "expectedEnd": 1514.78,
+          "actualStart": 1379.4302910000001,
+          "actualEnd": 1526.7768330000001,
+          "timeDifference": 12.000291000000061
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Seeking Justice—Redress, Apology, and the Long Road to Recognition",
+          "expectedStart": 1514.78,
+          "expectedEnd": 1644.81,
+          "actualStart": 1528.2768330000001,
+          "actualEnd": 1658.306,
+          "timeDifference": 13.496833000000152
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1644.81,
+          "expectedEnd": 1753.59,
+          "actualStart": 1659.806,
+          "actualEnd": 1768.585083,
+          "timeDifference": 14.996000000000095
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.547875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Family’s World Upended by War and Suspicion"
+        },
+        {
+          "startTime": 305.909625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Family’s World Upended by War and Suspicion and Chapter 2 Life Inside the Barbed Wire—Adapting to a New Reality"
+        },
+        {
+          "startTime": 500.36350000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life Inside the Barbed Wire—Adapting to a New Reality and Chapter 3 Family Bonds Tested by Injustice and Uncertainty"
+        },
+        {
+          "startTime": 697.4150830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Family Bonds Tested by Injustice and Uncertainty and Chapter 4 Searching for Identity Amidst Cultural Conflict"
+        },
+        {
+          "startTime": 867.7178330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Searching for Identity Amidst Cultural Conflict and Chapter 5 The End of Internment and the Challenge of Starting Over"
+        },
+        {
+          "startTime": 1050.707916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The End of Internment and the Challenge of Starting Over and Chapter 6 The Long Shadow—Living with the Aftermath"
+        },
+        {
+          "startTime": 1215.383624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow—Living with the Aftermath and Chapter 7 Rebuilding Trust—Bridging Generations and Communities"
+        },
+        {
+          "startTime": 1377.9302910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rebuilding Trust—Bridging Generations and Communities and Chapter 8 Speaking the Unspoken—Memory, Silence, and the Power of Story"
+        },
+        {
+          "startTime": 1526.7768330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Speaking the Unspoken—Memory, Silence, and the Power of Story and Chapter 9 Seeking Justice—Redress, Apology, and the Long Road to Recognition"
+        },
+        {
+          "startTime": 1658.306,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Seeking Justice—Redress, Apology, and the Long Road to Recognition and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "811",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T09:55:14.596Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

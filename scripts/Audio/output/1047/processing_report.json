@@ -1,0 +1,456 @@
+{
+  "bookId": "1047",
+  "timestamp": "2025-07-06T10:07:13.399Z",
+  "success": false,
+  "processingTime": -1751796052983,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4176,
+    "totalAudioFiles": 12,
+    "totalDuration": 1956.5494980000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1956.5494980000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1047/optimized_text/1047.md",
+    "fileSize": 674,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1047.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1047/metadata/1047_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1956.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1047/metadata/1047_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1047/metadata/1047_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1047/1047_complete.wav",
+    "duration": 1956.5495,
+    "fileSize": 93914454,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1047/introduction.wav",
+          "duration": 96.871208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.871208,
+          "startTime": 0,
+          "endTime": 96.871208
+        },
+        {
+          "path": "Audio/output/1047/chapter_01.wav",
+          "duration": 181.627333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Wrestling with Doubt and the Search for Honest Answers",
+          "actualDuration": 181.627333,
+          "startTime": 98.371208,
+          "endTime": 279.998541
+        },
+        {
+          "path": "Audio/output/1047/chapter_02.wav",
+          "duration": 190.637625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing the Problem of Suffering and Evil",
+          "actualDuration": 190.637625,
+          "startTime": 281.498541,
+          "endTime": 472.136166
+        },
+        {
+          "path": "Audio/output/1047/chapter_03.wav",
+          "duration": 184.875458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Exploring the Possibility of Miracles",
+          "actualDuration": 184.875458,
+          "startTime": 473.636166,
+          "endTime": 658.511624
+        },
+        {
+          "path": "Audio/output/1047/chapter_04.wav",
+          "duration": 208.368208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Science, Reason, and the Question of God",
+          "actualDuration": 208.368208,
+          "startTime": 660.011624,
+          "endTime": 868.379832
+        },
+        {
+          "path": "Audio/output/1047/chapter_05.wav",
+          "duration": 180.337875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Challenge of Christianity’s Exclusivity",
+          "actualDuration": 180.337875,
+          "startTime": 869.879832,
+          "endTime": 1050.217707
+        },
+        {
+          "path": "Audio/output/1047/chapter_06.wav",
+          "duration": 172.1545,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shadows of Hypocrisy and the Wounds of the Church",
+          "actualDuration": 172.1545,
+          "startTime": 1051.717707,
+          "endTime": 1223.8722070000001
+        },
+        {
+          "path": "Audio/output/1047/chapter_07.wav",
+          "duration": 142.109333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Doubt, Hell, and the Fear of Judgment",
+          "actualDuration": 142.109333,
+          "startTime": 1225.3722070000001,
+          "endTime": 1367.4815400000002
+        },
+        {
+          "path": "Audio/output/1047/chapter_08.wav",
+          "duration": 168.982542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Scandal of Grace and the Struggle to Accept Forgiveness",
+          "actualDuration": 168.982542,
+          "startTime": 1368.9815400000002,
+          "endTime": 1537.9640820000002
+        },
+        {
+          "path": "Audio/output/1047/chapter_09.wav",
+          "duration": 165.0985,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Faith in the Face of Tragedy: Stories of Transformation",
+          "actualDuration": 165.0985,
+          "startTime": 1539.4640820000002,
+          "endTime": 1704.5625820000002
+        },
+        {
+          "path": "Audio/output/1047/chapter_10.wav",
+          "duration": 142.129958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Mystery: Embracing Unanswered Questions",
+          "actualDuration": 142.129958,
+          "startTime": 1706.0625820000002,
+          "endTime": 1848.1925400000002
+        },
+        {
+          "path": "Audio/output/1047/conclusion.wav",
+          "duration": 123.356958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.356958,
+          "startTime": 1849.6925400000002,
+          "endTime": 1973.0494980000003
+        }
+      ],
+      "totalDuration": 1973.0494980000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.87,
+          "actualStart": 0,
+          "actualEnd": 96.871208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Wrestling with Doubt and the Search for Honest Answers",
+          "expectedStart": 96.87,
+          "expectedEnd": 278.5,
+          "actualStart": 98.371208,
+          "actualEnd": 279.998541,
+          "timeDifference": 1.5012079999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing the Problem of Suffering and Evil",
+          "expectedStart": 278.5,
+          "expectedEnd": 469.14,
+          "actualStart": 281.498541,
+          "actualEnd": 472.136166,
+          "timeDifference": 2.998540999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Exploring the Possibility of Miracles",
+          "expectedStart": 469.14,
+          "expectedEnd": 654.02,
+          "actualStart": 473.636166,
+          "actualEnd": 658.511624,
+          "timeDifference": 4.4961660000000165
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Science, Reason, and the Question of God",
+          "expectedStart": 654.02,
+          "expectedEnd": 862.39,
+          "actualStart": 660.011624,
+          "actualEnd": 868.379832,
+          "timeDifference": 5.991624000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Challenge of Christianity’s Exclusivity",
+          "expectedStart": 862.39,
+          "expectedEnd": 1042.73,
+          "actualStart": 869.879832,
+          "actualEnd": 1050.217707,
+          "timeDifference": 7.4898319999999785
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shadows of Hypocrisy and the Wounds of the Church",
+          "expectedStart": 1042.73,
+          "expectedEnd": 1214.88,
+          "actualStart": 1051.717707,
+          "actualEnd": 1223.8722070000001,
+          "timeDifference": 8.987707
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Doubt, Hell, and the Fear of Judgment",
+          "expectedStart": 1214.88,
+          "expectedEnd": 1356.99,
+          "actualStart": 1225.3722070000001,
+          "actualEnd": 1367.4815400000002,
+          "timeDifference": 10.492207000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Scandal of Grace and the Struggle to Accept Forgiveness",
+          "expectedStart": 1356.99,
+          "expectedEnd": 1525.97,
+          "actualStart": 1368.9815400000002,
+          "actualEnd": 1537.9640820000002,
+          "timeDifference": 11.991540000000214
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Faith in the Face of Tragedy: Stories of Transformation",
+          "expectedStart": 1525.97,
+          "expectedEnd": 1691.07,
+          "actualStart": 1539.4640820000002,
+          "actualEnd": 1704.5625820000002,
+          "timeDifference": 13.494082000000162
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Mystery: Embracing Unanswered Questions",
+          "expectedStart": 1691.07,
+          "expectedEnd": 1833.2,
+          "actualStart": 1706.0625820000002,
+          "actualEnd": 1848.1925400000002,
+          "timeDifference": 14.992582000000311
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1833.2,
+          "expectedEnd": 1956.56,
+          "actualStart": 1849.6925400000002,
+          "actualEnd": 1973.0494980000003,
+          "timeDifference": 16.49254000000019
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.871208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Wrestling with Doubt and the Search for Honest Answers"
+        },
+        {
+          "startTime": 279.998541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Wrestling with Doubt and the Search for Honest Answers and Chapter 2 Facing the Problem of Suffering and Evil"
+        },
+        {
+          "startTime": 472.136166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing the Problem of Suffering and Evil and Chapter 3 Exploring the Possibility of Miracles"
+        },
+        {
+          "startTime": 658.511624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Exploring the Possibility of Miracles and Chapter 4 Science, Reason, and the Question of God"
+        },
+        {
+          "startTime": 868.379832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Science, Reason, and the Question of God and Chapter 5 The Challenge of Christianity’s Exclusivity"
+        },
+        {
+          "startTime": 1050.217707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Challenge of Christianity’s Exclusivity and Chapter 6 The Shadows of Hypocrisy and the Wounds of the Church"
+        },
+        {
+          "startTime": 1223.8722070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shadows of Hypocrisy and the Wounds of the Church and Chapter 7 Doubt, Hell, and the Fear of Judgment"
+        },
+        {
+          "startTime": 1367.4815400000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Doubt, Hell, and the Fear of Judgment and Chapter 8 The Scandal of Grace and the Struggle to Accept Forgiveness"
+        },
+        {
+          "startTime": 1537.9640820000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Scandal of Grace and the Struggle to Accept Forgiveness and Chapter 9 Faith in the Face of Tragedy: Stories of Transformation"
+        },
+        {
+          "startTime": 1704.5625820000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Faith in the Face of Tragedy: Stories of Transformation and Chapter 10 Living with Mystery: Embracing Unanswered Questions"
+        },
+        {
+          "startTime": 1848.1925400000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Mystery: Embracing Unanswered Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1047",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T10:00:53.009Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

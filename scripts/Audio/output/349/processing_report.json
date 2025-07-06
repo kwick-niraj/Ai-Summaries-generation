@@ -1,0 +1,456 @@
+{
+  "bookId": "349",
+  "timestamp": "2025-07-03T19:29:55.110Z",
+  "success": false,
+  "processingTime": -1751570231122,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5192,
+    "totalAudioFiles": 12,
+    "totalDuration": 2707.351627
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2707.351627
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/349/optimized_text/349.md",
+    "fileSize": 751,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "349.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/349/metadata/349_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2707.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/349/metadata/349_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/349/metadata/349_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/349/349_complete.wav",
+    "duration": 2707.351625,
+    "fileSize": 129952956,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/349/introduction.wav",
+          "duration": 84.830292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.830292,
+          "startTime": 0,
+          "endTime": 84.830292
+        },
+        {
+          "path": "Audio/output/349/chapter_01.wav",
+          "duration": 207.836417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Changing World and the Need for a New Approach",
+          "actualDuration": 207.836417,
+          "startTime": 86.330292,
+          "endTime": 294.166709
+        },
+        {
+          "path": "Audio/output/349/chapter_02.wav",
+          "duration": 241.747125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Voice: The Intersection of Talent, Passion, Conscience, and Need",
+          "actualDuration": 241.747125,
+          "startTime": 295.666709,
+          "endTime": 537.4138340000001
+        },
+        {
+          "path": "Audio/output/349/chapter_03.wav",
+          "duration": 284.430375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Moving from Effectiveness to Greatness: The 8th Habit in Action",
+          "actualDuration": 284.430375,
+          "startTime": 538.9138340000001,
+          "endTime": 823.3442090000001
+        },
+        {
+          "path": "Audio/output/349/chapter_04.wav",
+          "duration": 303.993958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leadership in the Knowledge Worker Age: Empowerment and Trust",
+          "actualDuration": 303.993958,
+          "startTime": 824.8442090000001,
+          "endTime": 1128.838167
+        },
+        {
+          "path": "Audio/output/349/chapter_05.wav",
+          "duration": 320.008417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aligning Systems and Structures with Core Values",
+          "actualDuration": 320.008417,
+          "startTime": 1130.338167,
+          "endTime": 1450.3465840000001
+        },
+        {
+          "path": "Audio/output/349/chapter_06.wav",
+          "duration": 241.92725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Modeling: The Power of Example in Leadership",
+          "actualDuration": 241.92725,
+          "startTime": 1451.8465840000001,
+          "endTime": 1693.773834
+        },
+        {
+          "path": "Audio/output/349/chapter_07.wav",
+          "duration": 195.718792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mentoring: Multiplying Greatness Through Others",
+          "actualDuration": 195.718792,
+          "startTime": 1695.273834,
+          "endTime": 1890.9926260000002
+        },
+        {
+          "path": "Audio/output/349/chapter_08.wav",
+          "duration": 260.884042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Discipline of Execution: Turning Vision into Reality",
+          "actualDuration": 260.884042,
+          "startTime": 1892.4926260000002,
+          "endTime": 2153.3766680000003
+        },
+        {
+          "path": "Audio/output/349/chapter_09.wav",
+          "duration": 218.634792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Renewal: Sustaining Greatness Through Self-Care and Growth",
+          "actualDuration": 218.634792,
+          "startTime": 2154.8766680000003,
+          "endTime": 2373.51146
+        },
+        {
+          "path": "Audio/output/349/chapter_10.wav",
+          "duration": 191.833542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Contribution: Leaving a Legacy of Greatness",
+          "actualDuration": 191.833542,
+          "startTime": 2375.01146,
+          "endTime": 2566.845002
+        },
+        {
+          "path": "Audio/output/349/conclusion.wav",
+          "duration": 155.506625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.506625,
+          "startTime": 2568.345002,
+          "endTime": 2723.851627
+        }
+      ],
+      "totalDuration": 2723.851627,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.83,
+          "actualStart": 0,
+          "actualEnd": 84.830292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Changing World and the Need for a New Approach",
+          "expectedStart": 84.83,
+          "expectedEnd": 292.67,
+          "actualStart": 86.330292,
+          "actualEnd": 294.166709,
+          "timeDifference": 1.5002920000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Voice: The Intersection of Talent, Passion, Conscience, and Need",
+          "expectedStart": 292.67,
+          "expectedEnd": 534.42,
+          "actualStart": 295.666709,
+          "actualEnd": 537.4138340000001,
+          "timeDifference": 2.99670900000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Moving from Effectiveness to Greatness: The 8th Habit in Action",
+          "expectedStart": 534.42,
+          "expectedEnd": 818.85,
+          "actualStart": 538.9138340000001,
+          "actualEnd": 823.3442090000001,
+          "timeDifference": 4.493834000000106
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leadership in the Knowledge Worker Age: Empowerment and Trust",
+          "expectedStart": 818.85,
+          "expectedEnd": 1122.84,
+          "actualStart": 824.8442090000001,
+          "actualEnd": 1128.838167,
+          "timeDifference": 5.994209000000069
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aligning Systems and Structures with Core Values",
+          "expectedStart": 1122.84,
+          "expectedEnd": 1442.85,
+          "actualStart": 1130.338167,
+          "actualEnd": 1450.3465840000001,
+          "timeDifference": 7.498167000000194
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Modeling: The Power of Example in Leadership",
+          "expectedStart": 1442.85,
+          "expectedEnd": 1684.78,
+          "actualStart": 1451.8465840000001,
+          "actualEnd": 1693.773834,
+          "timeDifference": 8.996584000000212
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mentoring: Multiplying Greatness Through Others",
+          "expectedStart": 1684.78,
+          "expectedEnd": 1880.5,
+          "actualStart": 1695.273834,
+          "actualEnd": 1890.9926260000002,
+          "timeDifference": 10.493834000000106
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Discipline of Execution: Turning Vision into Reality",
+          "expectedStart": 1880.5,
+          "expectedEnd": 2141.38,
+          "actualStart": 1892.4926260000002,
+          "actualEnd": 2153.3766680000003,
+          "timeDifference": 11.9926260000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Renewal: Sustaining Greatness Through Self-Care and Growth",
+          "expectedStart": 2141.38,
+          "expectedEnd": 2360.01,
+          "actualStart": 2154.8766680000003,
+          "actualEnd": 2373.51146,
+          "timeDifference": 13.496668000000227
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Contribution: Leaving a Legacy of Greatness",
+          "expectedStart": 2360.01,
+          "expectedEnd": 2551.84,
+          "actualStart": 2375.01146,
+          "actualEnd": 2566.845002,
+          "timeDifference": 15.001459999999952
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2551.84,
+          "expectedEnd": 2707.35,
+          "actualStart": 2568.345002,
+          "actualEnd": 2723.851627,
+          "timeDifference": 16.505001999999877
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.830292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Changing World and the Need for a New Approach"
+        },
+        {
+          "startTime": 294.166709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Changing World and the Need for a New Approach and Chapter 2 Understanding Voice: The Intersection of Talent, Passion, Conscience, and Need"
+        },
+        {
+          "startTime": 537.4138340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Voice: The Intersection of Talent, Passion, Conscience, and Need and Chapter 3 Moving from Effectiveness to Greatness: The 8th Habit in Action"
+        },
+        {
+          "startTime": 823.3442090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Moving from Effectiveness to Greatness: The 8th Habit in Action and Chapter 4 Leadership in the Knowledge Worker Age: Empowerment and Trust"
+        },
+        {
+          "startTime": 1128.838167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leadership in the Knowledge Worker Age: Empowerment and Trust and Chapter 5 Aligning Systems and Structures with Core Values"
+        },
+        {
+          "startTime": 1450.3465840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aligning Systems and Structures with Core Values and Chapter 6 Modeling: The Power of Example in Leadership"
+        },
+        {
+          "startTime": 1693.773834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Modeling: The Power of Example in Leadership and Chapter 7 Mentoring: Multiplying Greatness Through Others"
+        },
+        {
+          "startTime": 1890.9926260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mentoring: Multiplying Greatness Through Others and Chapter 8 The Discipline of Execution: Turning Vision into Reality"
+        },
+        {
+          "startTime": 2153.3766680000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Discipline of Execution: Turning Vision into Reality and Chapter 9 Renewal: Sustaining Greatness Through Self-Care and Growth"
+        },
+        {
+          "startTime": 2373.51146,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Renewal: Sustaining Greatness Through Self-Care and Growth and Chapter 10 Contribution: Leaving a Legacy of Greatness"
+        },
+        {
+          "startTime": 2566.845002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Contribution: Leaving a Legacy of Greatness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "349",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T19:17:12.321Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "621",
+  "timestamp": "2025-07-04T22:34:37.845Z",
+  "success": false,
+  "processingTime": -1751667937444,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5149,
+    "totalAudioFiles": 12,
+    "totalDuration": 2395.3519580000006
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2395.3519580000006
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/621/optimized_text/621.md",
+    "fileSize": 811,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "621.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/621/metadata/621_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2395.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/621/metadata/621_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/621/metadata/621_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/621/621_complete.wav",
+    "duration": 2395.351958,
+    "fileSize": 114976972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/621/introduction.wav",
+          "duration": 96.2805,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.2805,
+          "startTime": 0,
+          "endTime": 96.2805
+        },
+        {
+          "path": "Audio/output/621/chapter_01.wav",
+          "duration": 251.571958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Trap of Overthinking and the Promise of Presence",
+          "actualDuration": 251.571958,
+          "startTime": 97.7805,
+          "endTime": 349.352458
+        },
+        {
+          "path": "Audio/output/621/chapter_02.wav",
+          "duration": 218.798625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Mind’s Role in Suffering and the Nature of the Ego",
+          "actualDuration": 218.798625,
+          "startTime": 350.852458,
+          "endTime": 569.651083
+        },
+        {
+          "path": "Audio/output/621/chapter_03.wav",
+          "duration": 262.358042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Practice of Presence: Anchoring Awareness in the Now",
+          "actualDuration": 262.358042,
+          "startTime": 571.151083,
+          "endTime": 833.509125
+        },
+        {
+          "path": "Audio/output/621/chapter_04.wav",
+          "duration": 237.985833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Free from the Pain-Body: Healing Emotional Patterns Through Awareness",
+          "actualDuration": 237.985833,
+          "startTime": 835.009125,
+          "endTime": 1072.994958
+        },
+        {
+          "path": "Audio/output/621/chapter_05.wav",
+          "duration": 246.091333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Acceptance, Surrender, and the Foundation of Spiritual Awakening",
+          "actualDuration": 246.091333,
+          "startTime": 1074.494958,
+          "endTime": 1320.586291
+        },
+        {
+          "path": "Audio/output/621/chapter_06.wav",
+          "duration": 193.222958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dissolution of the Ego: Living Beyond the Stories of Self",
+          "actualDuration": 193.222958,
+          "startTime": 1322.086291,
+          "endTime": 1515.3092490000001
+        },
+        {
+          "path": "Audio/output/621/chapter_07.wav",
+          "duration": 204.60875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Relationships as a Mirror: Presence in Connection",
+          "actualDuration": 204.60875,
+          "startTime": 1516.8092490000001,
+          "endTime": 1721.4179990000002
+        },
+        {
+          "path": "Audio/output/621/chapter_08.wav",
+          "duration": 184.865667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Stillness: Finding Peace in Everyday Life",
+          "actualDuration": 184.865667,
+          "startTime": 1722.9179990000002,
+          "endTime": 1907.7836660000003
+        },
+        {
+          "path": "Audio/output/621/chapter_09.wav",
+          "duration": 186.768292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Inner and Outer Purpose: Aligning with Life’s Flow",
+          "actualDuration": 186.768292,
+          "startTime": 1909.2836660000003,
+          "endTime": 2096.0519580000005
+        },
+        {
+          "path": "Audio/output/621/chapter_10.wav",
+          "duration": 170.415125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Everyday Awakening: Integrating Presence into Daily Life",
+          "actualDuration": 170.415125,
+          "startTime": 2097.5519580000005,
+          "endTime": 2267.9670830000005
+        },
+        {
+          "path": "Audio/output/621/conclusion.wav",
+          "duration": 142.384875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.384875,
+          "startTime": 2269.4670830000005,
+          "endTime": 2411.8519580000006
+        }
+      ],
+      "totalDuration": 2411.8519580000006,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.28,
+          "actualStart": 0,
+          "actualEnd": 96.2805,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Trap of Overthinking and the Promise of Presence",
+          "expectedStart": 96.28,
+          "expectedEnd": 347.85,
+          "actualStart": 97.7805,
+          "actualEnd": 349.352458,
+          "timeDifference": 1.5005000000000024
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Mind’s Role in Suffering and the Nature of the Ego",
+          "expectedStart": 347.85,
+          "expectedEnd": 566.65,
+          "actualStart": 350.852458,
+          "actualEnd": 569.651083,
+          "timeDifference": 3.00245799999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Practice of Presence: Anchoring Awareness in the Now",
+          "expectedStart": 566.65,
+          "expectedEnd": 829.01,
+          "actualStart": 571.151083,
+          "actualEnd": 833.509125,
+          "timeDifference": 4.501082999999994
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Free from the Pain-Body: Healing Emotional Patterns Through Awareness",
+          "expectedStart": 829.01,
+          "expectedEnd": 1067,
+          "actualStart": 835.009125,
+          "actualEnd": 1072.994958,
+          "timeDifference": 5.999125000000049
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Acceptance, Surrender, and the Foundation of Spiritual Awakening",
+          "expectedStart": 1067,
+          "expectedEnd": 1313.09,
+          "actualStart": 1074.494958,
+          "actualEnd": 1320.586291,
+          "timeDifference": 7.494957999999997
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dissolution of the Ego: Living Beyond the Stories of Self",
+          "expectedStart": 1313.09,
+          "expectedEnd": 1506.31,
+          "actualStart": 1322.086291,
+          "actualEnd": 1515.3092490000001,
+          "timeDifference": 8.996291000000156
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Relationships as a Mirror: Presence in Connection",
+          "expectedStart": 1506.31,
+          "expectedEnd": 1710.92,
+          "actualStart": 1516.8092490000001,
+          "actualEnd": 1721.4179990000002,
+          "timeDifference": 10.49924900000019
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Stillness: Finding Peace in Everyday Life",
+          "expectedStart": 1710.92,
+          "expectedEnd": 1895.79,
+          "actualStart": 1722.9179990000002,
+          "actualEnd": 1907.7836660000003,
+          "timeDifference": 11.997999000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Inner and Outer Purpose: Aligning with Life’s Flow",
+          "expectedStart": 1895.79,
+          "expectedEnd": 2082.56,
+          "actualStart": 1909.2836660000003,
+          "actualEnd": 2096.0519580000005,
+          "timeDifference": 13.493666000000303
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Everyday Awakening: Integrating Presence into Daily Life",
+          "expectedStart": 2082.56,
+          "expectedEnd": 2252.98,
+          "actualStart": 2097.5519580000005,
+          "actualEnd": 2267.9670830000005,
+          "timeDifference": 14.991958000000523
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2252.98,
+          "expectedEnd": 2395.36,
+          "actualStart": 2269.4670830000005,
+          "actualEnd": 2411.8519580000006,
+          "timeDifference": 16.48708300000044
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.2805,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Trap of Overthinking and the Promise of Presence"
+        },
+        {
+          "startTime": 349.352458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Trap of Overthinking and the Promise of Presence and Chapter 2 Understanding the Mind’s Role in Suffering and the Nature of the Ego"
+        },
+        {
+          "startTime": 569.651083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Mind’s Role in Suffering and the Nature of the Ego and Chapter 3 The Practice of Presence: Anchoring Awareness in the Now"
+        },
+        {
+          "startTime": 833.509125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Practice of Presence: Anchoring Awareness in the Now and Chapter 4 Breaking Free from the Pain-Body: Healing Emotional Patterns Through Awareness"
+        },
+        {
+          "startTime": 1072.994958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Free from the Pain-Body: Healing Emotional Patterns Through Awareness and Chapter 5 Acceptance, Surrender, and the Foundation of Spiritual Awakening"
+        },
+        {
+          "startTime": 1320.586291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Acceptance, Surrender, and the Foundation of Spiritual Awakening and Chapter 6 The Dissolution of the Ego: Living Beyond the Stories of Self"
+        },
+        {
+          "startTime": 1515.3092490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dissolution of the Ego: Living Beyond the Stories of Self and Chapter 7 Relationships as a Mirror: Presence in Connection"
+        },
+        {
+          "startTime": 1721.4179990000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Relationships as a Mirror: Presence in Connection and Chapter 8 The Power of Stillness: Finding Peace in Everyday Life"
+        },
+        {
+          "startTime": 1907.7836660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Stillness: Finding Peace in Everyday Life and Chapter 9 The Inner and Outer Purpose: Aligning with Life’s Flow"
+        },
+        {
+          "startTime": 2096.0519580000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Inner and Outer Purpose: Aligning with Life’s Flow and Chapter 10 Everyday Awakening: Integrating Presence into Daily Life"
+        },
+        {
+          "startTime": 2267.9670830000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Everyday Awakening: Integrating Presence into Daily Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "621",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T22:25:38.957Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "532",
+  "timestamp": "2025-07-04T17:22:53.041Z",
+  "success": false,
+  "processingTime": -1751649406650,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4387,
+    "totalAudioFiles": 12,
+    "totalDuration": 2322.6316269999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2322.6316269999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/532/optimized_text/532.md",
+    "fileSize": 548,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "532.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/532/metadata/532_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2322.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/532/metadata/532_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/532/metadata/532_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/532/532_complete.wav",
+    "duration": 2322.631625,
+    "fileSize": 111486396,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/532/introduction.wav",
+          "duration": 89.072417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.072417,
+          "startTime": 0,
+          "endTime": 89.072417
+        },
+        {
+          "path": "Audio/output/532/chapter_01.wav",
+          "duration": 278.802917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Periodic Table as a Map of Human Curiosity",
+          "actualDuration": 278.802917,
+          "startTime": 90.572417,
+          "endTime": 369.37533399999995
+        },
+        {
+          "path": "Audio/output/532/chapter_02.wav",
+          "duration": 272.942625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rivalries, Accidents, and the Human Side of Discovery",
+          "actualDuration": 272.942625,
+          "startTime": 370.87533399999995,
+          "endTime": 643.817959
+        },
+        {
+          "path": "Audio/output/532/chapter_03.wav",
+          "duration": 232.767542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Elements That Changed the World",
+          "actualDuration": 232.767542,
+          "startTime": 645.317959,
+          "endTime": 878.085501
+        },
+        {
+          "path": "Audio/output/532/chapter_04.wav",
+          "duration": 224.682792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Strangeness and Beauty of the Elements",
+          "actualDuration": 224.682792,
+          "startTime": 879.585501,
+          "endTime": 1104.268293
+        },
+        {
+          "path": "Audio/output/532/chapter_05.wav",
+          "duration": 225.697417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Chemistry’s Role in Society and Change",
+          "actualDuration": 225.697417,
+          "startTime": 1105.768293,
+          "endTime": 1331.4657100000002
+        },
+        {
+          "path": "Audio/output/532/chapter_06.wav",
+          "duration": 182.424292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Elements of Life and Death",
+          "actualDuration": 182.424292,
+          "startTime": 1332.9657100000002,
+          "endTime": 1515.390002
+        },
+        {
+          "path": "Audio/output/532/chapter_07.wav",
+          "duration": 217.423917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Alchemy of Innovation",
+          "actualDuration": 217.423917,
+          "startTime": 1516.890002,
+          "endTime": 1734.3139190000002
+        },
+        {
+          "path": "Audio/output/532/chapter_08.wav",
+          "duration": 176.156333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Dark Side of the Elements",
+          "actualDuration": 176.156333,
+          "startTime": 1735.8139190000002,
+          "endTime": 1911.970252
+        },
+        {
+          "path": "Audio/output/532/chapter_09.wav",
+          "duration": 157.903,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of the Table",
+          "actualDuration": 157.903,
+          "startTime": 1913.470252,
+          "endTime": 2071.373252
+        },
+        {
+          "path": "Audio/output/532/chapter_10.wav",
+          "duration": 133.62875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Table as a Human Story",
+          "actualDuration": 133.62875,
+          "startTime": 2072.873252,
+          "endTime": 2206.5020019999997
+        },
+        {
+          "path": "Audio/output/532/conclusion.wav",
+          "duration": 131.129625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.129625,
+          "startTime": 2208.0020019999997,
+          "endTime": 2339.1316269999998
+        }
+      ],
+      "totalDuration": 2339.1316269999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.07,
+          "actualStart": 0,
+          "actualEnd": 89.072417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Periodic Table as a Map of Human Curiosity",
+          "expectedStart": 89.07,
+          "expectedEnd": 367.87,
+          "actualStart": 90.572417,
+          "actualEnd": 369.37533399999995,
+          "timeDifference": 1.5024170000000083
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rivalries, Accidents, and the Human Side of Discovery",
+          "expectedStart": 367.87,
+          "expectedEnd": 640.81,
+          "actualStart": 370.87533399999995,
+          "actualEnd": 643.817959,
+          "timeDifference": 3.005333999999948
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Elements That Changed the World",
+          "expectedStart": 640.81,
+          "expectedEnd": 873.58,
+          "actualStart": 645.317959,
+          "actualEnd": 878.085501,
+          "timeDifference": 4.507959000000028
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Strangeness and Beauty of the Elements",
+          "expectedStart": 873.58,
+          "expectedEnd": 1098.26,
+          "actualStart": 879.585501,
+          "actualEnd": 1104.268293,
+          "timeDifference": 6.005500999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Chemistry’s Role in Society and Change",
+          "expectedStart": 1098.26,
+          "expectedEnd": 1323.96,
+          "actualStart": 1105.768293,
+          "actualEnd": 1331.4657100000002,
+          "timeDifference": 7.508293000000094
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Elements of Life and Death",
+          "expectedStart": 1323.96,
+          "expectedEnd": 1506.38,
+          "actualStart": 1332.9657100000002,
+          "actualEnd": 1515.390002,
+          "timeDifference": 9.005710000000136
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Alchemy of Innovation",
+          "expectedStart": 1506.38,
+          "expectedEnd": 1723.8,
+          "actualStart": 1516.890002,
+          "actualEnd": 1734.3139190000002,
+          "timeDifference": 10.510001999999986
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Dark Side of the Elements",
+          "expectedStart": 1723.8,
+          "expectedEnd": 1899.96,
+          "actualStart": 1735.8139190000002,
+          "actualEnd": 1911.970252,
+          "timeDifference": 12.013919000000215
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of the Table",
+          "expectedStart": 1899.96,
+          "expectedEnd": 2057.86,
+          "actualStart": 1913.470252,
+          "actualEnd": 2071.373252,
+          "timeDifference": 13.510252000000037
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Table as a Human Story",
+          "expectedStart": 2057.86,
+          "expectedEnd": 2191.49,
+          "actualStart": 2072.873252,
+          "actualEnd": 2206.5020019999997,
+          "timeDifference": 15.013251999999738
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2191.49,
+          "expectedEnd": 2322.62,
+          "actualStart": 2208.0020019999997,
+          "actualEnd": 2339.1316269999998,
+          "timeDifference": 16.51200199999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.072417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Periodic Table as a Map of Human Curiosity"
+        },
+        {
+          "startTime": 369.37533399999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Periodic Table as a Map of Human Curiosity and Chapter 2 Rivalries, Accidents, and the Human Side of Discovery"
+        },
+        {
+          "startTime": 643.817959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rivalries, Accidents, and the Human Side of Discovery and Chapter 3 Elements That Changed the World"
+        },
+        {
+          "startTime": 878.085501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Elements That Changed the World and Chapter 4 The Strangeness and Beauty of the Elements"
+        },
+        {
+          "startTime": 1104.268293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Strangeness and Beauty of the Elements and Chapter 5 Chemistry’s Role in Society and Change"
+        },
+        {
+          "startTime": 1331.4657100000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Chemistry’s Role in Society and Change and Chapter 6 The Elements of Life and Death"
+        },
+        {
+          "startTime": 1515.390002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Elements of Life and Death and Chapter 7 The Alchemy of Innovation"
+        },
+        {
+          "startTime": 1734.3139190000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Alchemy of Innovation and Chapter 8 The Dark Side of the Elements"
+        },
+        {
+          "startTime": 1911.970252,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Dark Side of the Elements and Chapter 9 The Future of the Table"
+        },
+        {
+          "startTime": 2071.373252,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of the Table and Chapter 10 The Table as a Human Story"
+        },
+        {
+          "startTime": 2206.5020019999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Table as a Human Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "532",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T17:16:48.063Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

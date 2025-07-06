@@ -1,0 +1,576 @@
+{
+  "bookId": "341",
+  "timestamp": "2025-07-03T18:35:23.382Z",
+  "success": false,
+  "processingTime": -1751567172906,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5310,
+    "totalAudioFiles": 17,
+    "totalDuration": 2407.6845420000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2407.6845420000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/341/optimized_text/341.md",
+    "fileSize": 905,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "341.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/341/metadata/341_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2407.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/341/metadata/341_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/341/metadata/341_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/341/341_complete.wav",
+    "duration": 2407.684542,
+    "fileSize": 115568936,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/341/introduction.wav",
+          "duration": 87.671167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.671167,
+          "startTime": 0,
+          "endTime": 87.671167
+        },
+        {
+          "path": "Audio/output/341/chapter_01.wav",
+          "duration": 195.63775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Parenting Grows Up but Worry Remains",
+          "actualDuration": 195.63775,
+          "startTime": 89.171167,
+          "endTime": 284.808917
+        },
+        {
+          "path": "Audio/output/341/chapter_02.wav",
+          "duration": 212.178333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Quiet Strength of Interceding for Grown Children",
+          "actualDuration": 212.178333,
+          "startTime": 286.308917,
+          "endTime": 498.48725
+        },
+        {
+          "path": "Audio/output/341/chapter_03.wav",
+          "duration": 160.241708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Letting Go Without Losing Heart",
+          "actualDuration": 160.241708,
+          "startTime": 499.98725,
+          "endTime": 660.228958
+        },
+        {
+          "path": "Audio/output/341/chapter_04.wav",
+          "duration": 192.907,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Praying Through the Unique Challenges of Adulthood",
+          "actualDuration": 192.907,
+          "startTime": 661.728958,
+          "endTime": 854.6359580000001
+        },
+        {
+          "path": "Audio/output/341/chapter_05.wav",
+          "duration": 157.151458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Holding On to Hope and Faith When Answers Are Slow",
+          "actualDuration": 157.151458,
+          "startTime": 856.1359580000001,
+          "endTime": 1013.2874160000001
+        },
+        {
+          "path": "Audio/output/341/chapter_06.wav",
+          "duration": 160.486875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Praying for Relationships and Community",
+          "actualDuration": 160.486875,
+          "startTime": 1014.7874160000001,
+          "endTime": 1175.2742910000002
+        },
+        {
+          "path": "Audio/output/341/chapter_07.wav",
+          "duration": 143.445167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Crisis and Uncertainty with Prayer",
+          "actualDuration": 143.445167,
+          "startTime": 1176.7742910000002,
+          "endTime": 1320.2194580000003
+        },
+        {
+          "path": "Audio/output/341/chapter_08.wav",
+          "duration": 124.60125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Praying for Purpose, Direction, and Calling",
+          "actualDuration": 124.60125,
+          "startTime": 1321.7194580000003,
+          "endTime": 1446.3207080000002
+        },
+        {
+          "path": "Audio/output/341/chapter_09.wav",
+          "duration": 130.629208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Praying for Faith and Spiritual Growth",
+          "actualDuration": 130.629208,
+          "startTime": 1447.8207080000002,
+          "endTime": 1578.4499160000003
+        },
+        {
+          "path": "Audio/output/341/chapter_10.wav",
+          "duration": 120.299625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Praying for Protection and Safety",
+          "actualDuration": 120.299625,
+          "startTime": 1579.9499160000003,
+          "endTime": 1700.2495410000004
+        },
+        {
+          "path": "Audio/output/341/chapter_11.wav",
+          "duration": 115.369667,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Praying for Healing and Restoration",
+          "actualDuration": 115.369667,
+          "startTime": 1701.7495410000004,
+          "endTime": 1817.1192080000003
+        },
+        {
+          "path": "Audio/output/341/chapter_12.wav",
+          "duration": 119.718917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Praying for Wisdom and Decision-Making",
+          "actualDuration": 119.718917,
+          "startTime": 1818.6192080000003,
+          "endTime": 1938.3381250000002
+        },
+        {
+          "path": "Audio/output/341/chapter_13.wav",
+          "duration": 122.095625,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Praying for Peace in Times of Conflict",
+          "actualDuration": 122.095625,
+          "startTime": 1939.8381250000002,
+          "endTime": 2061.93375
+        },
+        {
+          "path": "Audio/output/341/chapter_14.wav",
+          "duration": 119.01575,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Praying for Joy and Gratitude",
+          "actualDuration": 119.01575,
+          "startTime": 2063.43375,
+          "endTime": 2182.4495
+        },
+        {
+          "path": "Audio/output/341/chapter_15.wav",
+          "duration": 119.774292,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Ongoing Journey—Praying Through Every Season",
+          "actualDuration": 119.774292,
+          "startTime": 2183.9495,
+          "endTime": 2303.7237920000002
+        },
+        {
+          "path": "Audio/output/341/conclusion.wav",
+          "duration": 126.46075,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.46075,
+          "startTime": 2305.2237920000002,
+          "endTime": 2431.6845420000004
+        }
+      ],
+      "totalDuration": 2431.6845420000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.67,
+          "actualStart": 0,
+          "actualEnd": 87.671167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Parenting Grows Up but Worry Remains",
+          "expectedStart": 87.67,
+          "expectedEnd": 283.31,
+          "actualStart": 89.171167,
+          "actualEnd": 284.808917,
+          "timeDifference": 1.5011669999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Quiet Strength of Interceding for Grown Children",
+          "expectedStart": 283.31,
+          "expectedEnd": 495.49,
+          "actualStart": 286.308917,
+          "actualEnd": 498.48725,
+          "timeDifference": 2.998917000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Letting Go Without Losing Heart",
+          "expectedStart": 495.49,
+          "expectedEnd": 655.73,
+          "actualStart": 499.98725,
+          "actualEnd": 660.228958,
+          "timeDifference": 4.497250000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Praying Through the Unique Challenges of Adulthood",
+          "expectedStart": 655.73,
+          "expectedEnd": 848.64,
+          "actualStart": 661.728958,
+          "actualEnd": 854.6359580000001,
+          "timeDifference": 5.998958000000016
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Holding On to Hope and Faith When Answers Are Slow",
+          "expectedStart": 848.64,
+          "expectedEnd": 1005.79,
+          "actualStart": 856.1359580000001,
+          "actualEnd": 1013.2874160000001,
+          "timeDifference": 7.495958000000087
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Praying for Relationships and Community",
+          "expectedStart": 1005.79,
+          "expectedEnd": 1166.28,
+          "actualStart": 1014.7874160000001,
+          "actualEnd": 1175.2742910000002,
+          "timeDifference": 8.997416000000158
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Crisis and Uncertainty with Prayer",
+          "expectedStart": 1166.28,
+          "expectedEnd": 1309.73,
+          "actualStart": 1176.7742910000002,
+          "actualEnd": 1320.2194580000003,
+          "timeDifference": 10.494291000000203
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Praying for Purpose, Direction, and Calling",
+          "expectedStart": 1309.73,
+          "expectedEnd": 1434.33,
+          "actualStart": 1321.7194580000003,
+          "actualEnd": 1446.3207080000002,
+          "timeDifference": 11.98945800000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Praying for Faith and Spiritual Growth",
+          "expectedStart": 1434.33,
+          "expectedEnd": 1564.96,
+          "actualStart": 1447.8207080000002,
+          "actualEnd": 1578.4499160000003,
+          "timeDifference": 13.490708000000268
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Praying for Protection and Safety",
+          "expectedStart": 1564.96,
+          "expectedEnd": 1685.26,
+          "actualStart": 1579.9499160000003,
+          "actualEnd": 1700.2495410000004,
+          "timeDifference": 14.989916000000221
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Praying for Healing and Restoration",
+          "expectedStart": 1685.26,
+          "expectedEnd": 1800.63,
+          "actualStart": 1701.7495410000004,
+          "actualEnd": 1817.1192080000003,
+          "timeDifference": 16.489541000000372
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Praying for Wisdom and Decision-Making",
+          "expectedStart": 1800.63,
+          "expectedEnd": 1920.35,
+          "actualStart": 1818.6192080000003,
+          "actualEnd": 1938.3381250000002,
+          "timeDifference": 17.98920800000019
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Praying for Peace in Times of Conflict",
+          "expectedStart": 1920.35,
+          "expectedEnd": 2042.45,
+          "actualStart": 1939.8381250000002,
+          "actualEnd": 2061.93375,
+          "timeDifference": 19.48812500000031
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Praying for Joy and Gratitude",
+          "expectedStart": 2042.45,
+          "expectedEnd": 2161.47,
+          "actualStart": 2063.43375,
+          "actualEnd": 2182.4495,
+          "timeDifference": 20.9837500000001
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Ongoing Journey—Praying Through Every Season",
+          "expectedStart": 2161.47,
+          "expectedEnd": 2281.24,
+          "actualStart": 2183.9495,
+          "actualEnd": 2303.7237920000002,
+          "timeDifference": 22.47950000000037
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2281.24,
+          "expectedEnd": 2407.7,
+          "actualStart": 2305.2237920000002,
+          "actualEnd": 2431.6845420000004,
+          "timeDifference": 23.98379200000045
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.671167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Parenting Grows Up but Worry Remains"
+        },
+        {
+          "startTime": 284.808917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Parenting Grows Up but Worry Remains and Chapter 2 The Quiet Strength of Interceding for Grown Children"
+        },
+        {
+          "startTime": 498.48725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Quiet Strength of Interceding for Grown Children and Chapter 3 Letting Go Without Losing Heart"
+        },
+        {
+          "startTime": 660.228958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Letting Go Without Losing Heart and Chapter 4 Praying Through the Unique Challenges of Adulthood"
+        },
+        {
+          "startTime": 854.6359580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Praying Through the Unique Challenges of Adulthood and Chapter 5 Holding On to Hope and Faith When Answers Are Slow"
+        },
+        {
+          "startTime": 1013.2874160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Holding On to Hope and Faith When Answers Are Slow and Chapter 6 Praying for Relationships and Community"
+        },
+        {
+          "startTime": 1175.2742910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Praying for Relationships and Community and Chapter 7 Navigating Crisis and Uncertainty with Prayer"
+        },
+        {
+          "startTime": 1320.2194580000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Crisis and Uncertainty with Prayer and Chapter 8 Praying for Purpose, Direction, and Calling"
+        },
+        {
+          "startTime": 1446.3207080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Praying for Purpose, Direction, and Calling and Chapter 9 Praying for Faith and Spiritual Growth"
+        },
+        {
+          "startTime": 1578.4499160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Praying for Faith and Spiritual Growth and Chapter 10 Praying for Protection and Safety"
+        },
+        {
+          "startTime": 1700.2495410000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Praying for Protection and Safety and Chapter 11 Praying for Healing and Restoration"
+        },
+        {
+          "startTime": 1817.1192080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Praying for Healing and Restoration and Chapter 12 Praying for Wisdom and Decision-Making"
+        },
+        {
+          "startTime": 1938.3381250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Praying for Wisdom and Decision-Making and Chapter 13 Praying for Peace in Times of Conflict"
+        },
+        {
+          "startTime": 2061.93375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Praying for Peace in Times of Conflict and Chapter 14 Praying for Joy and Gratitude"
+        },
+        {
+          "startTime": 2182.4495,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Praying for Joy and Gratitude and Chapter 15 The Ongoing Journey—Praying Through Every Season"
+        },
+        {
+          "startTime": 2303.7237920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Ongoing Journey—Praying Through Every Season and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "341",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T18:26:14.117Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1139",
+  "timestamp": "2025-07-06T16:48:36.908Z",
+  "success": false,
+  "processingTime": -1751820036257,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4778,
+    "totalAudioFiles": 12,
+    "totalDuration": 2165.218416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2165.218416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1139/optimized_text/1139.md",
+    "fileSize": 776,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1139.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1139/metadata/1139_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2165.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1139/metadata/1139_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1139/metadata/1139_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1139/1139_complete.wav",
+    "duration": 2165.218417,
+    "fileSize": 103930562,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1139/introduction.wav",
+          "duration": 87.501,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.501,
+          "startTime": 0,
+          "endTime": 87.501
+        },
+        {
+          "path": "Audio/output/1139/chapter_01.wav",
+          "duration": 245.783333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Fragile Balance Between People and Their Environment",
+          "actualDuration": 245.783333,
+          "startTime": 89.001,
+          "endTime": 334.784333
+        },
+        {
+          "path": "Audio/output/1139/chapter_02.wav",
+          "duration": 266.24875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Lessons from Lost Worlds—Easter Island, the Anasazi, and the Maya",
+          "actualDuration": 266.24875,
+          "startTime": 336.284333,
+          "endTime": 602.533083
+        },
+        {
+          "path": "Audio/output/1139/chapter_03.wav",
+          "duration": 233.535,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Adaptation—Societies That Survived",
+          "actualDuration": 233.535,
+          "startTime": 604.033083,
+          "endTime": 837.568083
+        },
+        {
+          "path": "Audio/output/1139/chapter_04.wav",
+          "duration": 246.402792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Web of Interconnected Problems—Why Collapse Is Rarely Simple",
+          "actualDuration": 246.402792,
+          "startTime": 839.068083,
+          "endTime": 1085.470875
+        },
+        {
+          "path": "Audio/output/1139/chapter_05.wav",
+          "duration": 203.818833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Decision-Making and the Role of Leadership in Societal Survival",
+          "actualDuration": 203.818833,
+          "startTime": 1086.970875,
+          "endTime": 1290.789708
+        },
+        {
+          "path": "Audio/output/1139/chapter_06.wav",
+          "duration": 150.235292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Modern Echoes—Montana’s Struggle with Its Own Limits",
+          "actualDuration": 150.235292,
+          "startTime": 1292.289708,
+          "endTime": 1442.525
+        },
+        {
+          "path": "Audio/output/1139/chapter_07.wav",
+          "duration": 172.65275,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Global Web—How Interconnectedness Changes Everything",
+          "actualDuration": 172.65275,
+          "startTime": 1444.025,
+          "endTime": 1616.67775
+        },
+        {
+          "path": "Audio/output/1139/chapter_08.wav",
+          "duration": 159.755458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Big Business and Technology—Promise and Peril",
+          "actualDuration": 159.755458,
+          "startTime": 1618.17775,
+          "endTime": 1777.9332080000001
+        },
+        {
+          "path": "Audio/output/1139/chapter_09.wav",
+          "duration": 150.514833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Choices for the Future—Learning from the Past",
+          "actualDuration": 150.514833,
+          "startTime": 1779.4332080000001,
+          "endTime": 1929.948041
+        },
+        {
+          "path": "Audio/output/1139/chapter_10.wav",
+          "duration": 92.630667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Hope and Responsibility—Building a Resilient World",
+          "actualDuration": 92.630667,
+          "startTime": 1931.448041,
+          "endTime": 2024.078708
+        },
+        {
+          "path": "Audio/output/1139/conclusion.wav",
+          "duration": 156.139708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 156.139708,
+          "startTime": 2025.578708,
+          "endTime": 2181.718416
+        }
+      ],
+      "totalDuration": 2181.718416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.5,
+          "actualStart": 0,
+          "actualEnd": 87.501,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Fragile Balance Between People and Their Environment",
+          "expectedStart": 87.5,
+          "expectedEnd": 333.28,
+          "actualStart": 89.001,
+          "actualEnd": 334.784333,
+          "timeDifference": 1.5010000000000048
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Lessons from Lost Worlds—Easter Island, the Anasazi, and the Maya",
+          "expectedStart": 333.28,
+          "expectedEnd": 599.53,
+          "actualStart": 336.284333,
+          "actualEnd": 602.533083,
+          "timeDifference": 3.004333000000031
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Adaptation—Societies That Survived",
+          "expectedStart": 599.53,
+          "expectedEnd": 833.07,
+          "actualStart": 604.033083,
+          "actualEnd": 837.568083,
+          "timeDifference": 4.503083000000061
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Web of Interconnected Problems—Why Collapse Is Rarely Simple",
+          "expectedStart": 833.07,
+          "expectedEnd": 1079.47,
+          "actualStart": 839.068083,
+          "actualEnd": 1085.470875,
+          "timeDifference": 5.998082999999951
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Decision-Making and the Role of Leadership in Societal Survival",
+          "expectedStart": 1079.47,
+          "expectedEnd": 1283.29,
+          "actualStart": 1086.970875,
+          "actualEnd": 1290.789708,
+          "timeDifference": 7.500874999999951
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Modern Echoes—Montana’s Struggle with Its Own Limits",
+          "expectedStart": 1283.29,
+          "expectedEnd": 1433.53,
+          "actualStart": 1292.289708,
+          "actualEnd": 1442.525,
+          "timeDifference": 8.999708000000055
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Global Web—How Interconnectedness Changes Everything",
+          "expectedStart": 1433.53,
+          "expectedEnd": 1606.18,
+          "actualStart": 1444.025,
+          "actualEnd": 1616.67775,
+          "timeDifference": 10.495000000000118
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Big Business and Technology—Promise and Peril",
+          "expectedStart": 1606.18,
+          "expectedEnd": 1765.94,
+          "actualStart": 1618.17775,
+          "actualEnd": 1777.9332080000001,
+          "timeDifference": 11.997749999999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Choices for the Future—Learning from the Past",
+          "expectedStart": 1765.94,
+          "expectedEnd": 1916.45,
+          "actualStart": 1779.4332080000001,
+          "actualEnd": 1929.948041,
+          "timeDifference": 13.493208000000095
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Hope and Responsibility—Building a Resilient World",
+          "expectedStart": 1916.45,
+          "expectedEnd": 2009.08,
+          "actualStart": 1931.448041,
+          "actualEnd": 2024.078708,
+          "timeDifference": 14.998041000000057
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2009.08,
+          "expectedEnd": 2165.22,
+          "actualStart": 2025.578708,
+          "actualEnd": 2181.718416,
+          "timeDifference": 16.49870800000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.501,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Fragile Balance Between People and Their Environment"
+        },
+        {
+          "startTime": 334.784333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Fragile Balance Between People and Their Environment and Chapter 2 Lessons from Lost Worlds—Easter Island, the Anasazi, and the Maya"
+        },
+        {
+          "startTime": 602.533083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Lessons from Lost Worlds—Easter Island, the Anasazi, and the Maya and Chapter 3 The Power of Adaptation—Societies That Survived"
+        },
+        {
+          "startTime": 837.568083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Adaptation—Societies That Survived and Chapter 4 The Web of Interconnected Problems—Why Collapse Is Rarely Simple"
+        },
+        {
+          "startTime": 1085.470875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Web of Interconnected Problems—Why Collapse Is Rarely Simple and Chapter 5 Decision-Making and the Role of Leadership in Societal Survival"
+        },
+        {
+          "startTime": 1290.789708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Decision-Making and the Role of Leadership in Societal Survival and Chapter 6 Modern Echoes—Montana’s Struggle with Its Own Limits"
+        },
+        {
+          "startTime": 1442.525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Modern Echoes—Montana’s Struggle with Its Own Limits and Chapter 7 The Global Web—How Interconnectedness Changes Everything"
+        },
+        {
+          "startTime": 1616.67775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Global Web—How Interconnectedness Changes Everything and Chapter 8 The Role of Big Business and Technology—Promise and Peril"
+        },
+        {
+          "startTime": 1777.9332080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Big Business and Technology—Promise and Peril and Chapter 9 Choices for the Future—Learning from the Past"
+        },
+        {
+          "startTime": 1929.948041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Choices for the Future—Learning from the Past and Chapter 10 Hope and Responsibility—Building a Resilient World"
+        },
+        {
+          "startTime": 2024.078708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Hope and Responsibility—Building a Resilient World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1139",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T16:40:37.418Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

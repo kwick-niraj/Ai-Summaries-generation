@@ -1,0 +1,455 @@
+{
+  "bookId": "1042",
+  "timestamp": "2025-07-06T10:00:51.980Z",
+  "success": false,
+  "processingTime": -1751795683320,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4377,
+    "totalAudioFiles": 12,
+    "totalDuration": 1766.1318310000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1766.1318310000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1042/optimized_text/1042.md",
+    "fileSize": 711,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "1042.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1042/metadata/1042_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1766.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1042/metadata/1042_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1042/metadata/1042_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1042/1042_complete.wav",
+    "duration": 1766.131833,
+    "fileSize": 84774406,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1042/introduction.wav",
+          "duration": 75.213708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.213708,
+          "startTime": 0,
+          "endTime": 75.213708
+        },
+        {
+          "path": "Audio/output/1042/chapter_01.wav",
+          "duration": 183.021083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Hopes and Quiet Turmoil: Beginnings of a Poetic Voice",
+          "actualDuration": 183.021083,
+          "startTime": 76.713708,
+          "endTime": 259.734791
+        },
+        {
+          "path": "Audio/output/1042/chapter_02.wav",
+          "duration": 174.200125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family, Memory, and the Weight of the Past",
+          "actualDuration": 174.200125,
+          "startTime": 261.234791,
+          "endTime": 435.434916
+        },
+        {
+          "path": "Audio/output/1042/chapter_03.wav",
+          "duration": 156.898333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Love, Longing, and the Search for Connection",
+          "actualDuration": 156.898333,
+          "startTime": 436.934916,
+          "endTime": 593.833249
+        },
+        {
+          "path": "Audio/output/1042/chapter_04.wav",
+          "duration": 157.219,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Nature, Imagination, and the World Beyond",
+          "actualDuration": 157.219,
+          "startTime": 595.333249,
+          "endTime": 752.5522490000001
+        },
+        {
+          "path": "Audio/output/1042/chapter_05.wav",
+          "duration": 179.412208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Struggle, Identity, and the Search for Meaning",
+          "actualDuration": 179.412208,
+          "startTime": 754.0522490000001,
+          "endTime": 933.464457
+        },
+        {
+          "path": "Audio/output/1042/chapter_06.wav",
+          "duration": 147.047208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Descent: Shadows, Illness, and the Edge of Despair",
+          "actualDuration": 147.047208,
+          "startTime": 934.964457,
+          "endTime": 1082.011665
+        },
+        {
+          "path": "Audio/output/1042/chapter_07.wav",
+          "duration": 156.251167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Motherhood, Domesticity, and the Double-Edged Home",
+          "actualDuration": 156.251167,
+          "startTime": 1083.511665,
+          "endTime": 1239.762832
+        },
+        {
+          "path": "Audio/output/1042/chapter_08.wav",
+          "duration": 156.478458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Mirror and the Mask: Self-Reflection and Performance",
+          "actualDuration": 156.478458,
+          "startTime": 1241.262832,
+          "endTime": 1397.74129
+        },
+        {
+          "path": "Audio/output/1042/chapter_09.wav",
+          "duration": 141.626083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Fury and the Fire: Anger, Art, and the Drive to Create",
+          "actualDuration": 141.626083,
+          "startTime": 1399.24129,
+          "endTime": 1540.867373
+        },
+        {
+          "path": "Audio/output/1042/chapter_10.wav",
+          "duration": 129.376833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Facing the Abyss: Death, Rebirth, and the Search for Peace",
+          "actualDuration": 129.376833,
+          "startTime": 1542.367373,
+          "endTime": 1671.744206
+        },
+        {
+          "path": "Audio/output/1042/conclusion.wav",
+          "duration": 109.387625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.387625,
+          "startTime": 1673.244206,
+          "endTime": 1782.6318310000001
+        }
+      ],
+      "totalDuration": 1782.6318310000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.21,
+          "actualStart": 0,
+          "actualEnd": 75.213708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Hopes and Quiet Turmoil: Beginnings of a Poetic Voice",
+          "expectedStart": 75.21,
+          "expectedEnd": 258.23,
+          "actualStart": 76.713708,
+          "actualEnd": 259.734791,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family, Memory, and the Weight of the Past",
+          "expectedStart": 258.23,
+          "expectedEnd": 432.43,
+          "actualStart": 261.234791,
+          "actualEnd": 435.434916,
+          "timeDifference": 3.0047909999999547
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Love, Longing, and the Search for Connection",
+          "expectedStart": 432.43,
+          "expectedEnd": 589.33,
+          "actualStart": 436.934916,
+          "actualEnd": 593.833249,
+          "timeDifference": 4.50491599999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Nature, Imagination, and the World Beyond",
+          "expectedStart": 589.33,
+          "expectedEnd": 746.55,
+          "actualStart": 595.333249,
+          "actualEnd": 752.5522490000001,
+          "timeDifference": 6.0032489999999825
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Struggle, Identity, and the Search for Meaning",
+          "expectedStart": 746.55,
+          "expectedEnd": 925.96,
+          "actualStart": 754.0522490000001,
+          "actualEnd": 933.464457,
+          "timeDifference": 7.50224900000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Descent: Shadows, Illness, and the Edge of Despair",
+          "expectedStart": 925.96,
+          "expectedEnd": 1073.01,
+          "actualStart": 934.964457,
+          "actualEnd": 1082.011665,
+          "timeDifference": 9.004457000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Motherhood, Domesticity, and the Double-Edged Home",
+          "expectedStart": 1073.01,
+          "expectedEnd": 1229.26,
+          "actualStart": 1083.511665,
+          "actualEnd": 1239.762832,
+          "timeDifference": 10.501665000000003
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Mirror and the Mask: Self-Reflection and Performance",
+          "expectedStart": 1229.26,
+          "expectedEnd": 1385.74,
+          "actualStart": 1241.262832,
+          "actualEnd": 1397.74129,
+          "timeDifference": 12.002831999999898
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Fury and the Fire: Anger, Art, and the Drive to Create",
+          "expectedStart": 1385.74,
+          "expectedEnd": 1527.37,
+          "actualStart": 1399.24129,
+          "actualEnd": 1540.867373,
+          "timeDifference": 13.501289999999926
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Facing the Abyss: Death, Rebirth, and the Search for Peace",
+          "expectedStart": 1527.37,
+          "expectedEnd": 1656.75,
+          "actualStart": 1542.367373,
+          "actualEnd": 1671.744206,
+          "timeDifference": 14.997373000000152
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1656.75,
+          "expectedEnd": 1766.14,
+          "actualStart": 1673.244206,
+          "actualEnd": 1782.6318310000001,
+          "timeDifference": 16.494206000000077
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.213708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Hopes and Quiet Turmoil: Beginnings of a Poetic Voice"
+        },
+        {
+          "startTime": 259.734791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Hopes and Quiet Turmoil: Beginnings of a Poetic Voice and Chapter 2 Family, Memory, and the Weight of the Past"
+        },
+        {
+          "startTime": 435.434916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family, Memory, and the Weight of the Past and Chapter 3 Love, Longing, and the Search for Connection"
+        },
+        {
+          "startTime": 593.833249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Love, Longing, and the Search for Connection and Chapter 4 Nature, Imagination, and the World Beyond"
+        },
+        {
+          "startTime": 752.5522490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Nature, Imagination, and the World Beyond and Chapter 5 Struggle, Identity, and the Search for Meaning"
+        },
+        {
+          "startTime": 933.464457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Struggle, Identity, and the Search for Meaning and Chapter 6 The Descent: Shadows, Illness, and the Edge of Despair"
+        },
+        {
+          "startTime": 1082.011665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Descent: Shadows, Illness, and the Edge of Despair and Chapter 7 Motherhood, Domesticity, and the Double-Edged Home"
+        },
+        {
+          "startTime": 1239.762832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Motherhood, Domesticity, and the Double-Edged Home and Chapter 8 The Mirror and the Mask: Self-Reflection and Performance"
+        },
+        {
+          "startTime": 1397.74129,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Mirror and the Mask: Self-Reflection and Performance and Chapter 9 The Fury and the Fire: Anger, Art, and the Drive to Create"
+        },
+        {
+          "startTime": 1540.867373,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Fury and the Fire: Anger, Art, and the Drive to Create and Chapter 10 Facing the Abyss: Death, Rebirth, and the Search for Peace"
+        },
+        {
+          "startTime": 1671.744206,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Facing the Abyss: Death, Rebirth, and the Search for Peace and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1042",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T09:54:44.927Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

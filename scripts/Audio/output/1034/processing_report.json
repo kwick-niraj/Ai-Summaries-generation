@@ -1,0 +1,456 @@
+{
+  "bookId": "1034",
+  "timestamp": "2025-07-06T09:19:36.944Z",
+  "success": false,
+  "processingTime": -1751793042374,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4562,
+    "totalAudioFiles": 12,
+    "totalDuration": 2246.9461240000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2246.9461240000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1034/optimized_text/1034.md",
+    "fileSize": 802,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "1034.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1034/metadata/1034_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2246.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1034/metadata/1034_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1034/metadata/1034_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1034/1034_complete.wav",
+    "duration": 2246.946125,
+    "fileSize": 107853492,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1034/introduction.wav",
+          "duration": 112.816125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.816125,
+          "startTime": 0,
+          "endTime": 112.816125
+        },
+        {
+          "path": "Audio/output/1034/chapter_01.wav",
+          "duration": 275.216125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The First Secret Messages and the Birth of Hidden Writing",
+          "actualDuration": 275.216125,
+          "startTime": 114.316125,
+          "endTime": 389.53225
+        },
+        {
+          "path": "Audio/output/1034/chapter_02.wav",
+          "duration": 242.709333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Codebreakers and the Power Struggles of Secrecy",
+          "actualDuration": 242.709333,
+          "startTime": 391.03225,
+          "endTime": 633.741583
+        },
+        {
+          "path": "Audio/output/1034/chapter_03.wav",
+          "duration": 283.793917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 War, Machines, and the Turning Point of Modern Cryptography",
+          "actualDuration": 283.793917,
+          "startTime": 635.241583,
+          "endTime": 919.0355
+        },
+        {
+          "path": "Audio/output/1034/chapter_04.wav",
+          "duration": 243.828833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Mathematics of Secrecy and the Dawn of Public Key Cryptography",
+          "actualDuration": 243.828833,
+          "startTime": 920.5355,
+          "endTime": 1164.364333
+        },
+        {
+          "path": "Audio/output/1034/chapter_05.wav",
+          "duration": 206.329208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Codes, Freedom, and the Social Impact of Encryption",
+          "actualDuration": 206.329208,
+          "startTime": 1165.864333,
+          "endTime": 1372.193541
+        },
+        {
+          "path": "Audio/output/1034/chapter_06.wav",
+          "duration": 187.233625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quantum Threat and the Next Great Challenge",
+          "actualDuration": 187.233625,
+          "startTime": 1373.693541,
+          "endTime": 1560.9271660000002
+        },
+        {
+          "path": "Audio/output/1034/chapter_07.wav",
+          "duration": 177.561792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Everyday Encryption—From Smartphones to Social Movements",
+          "actualDuration": 177.561792,
+          "startTime": 1562.4271660000002,
+          "endTime": 1739.9889580000001
+        },
+        {
+          "path": "Audio/output/1034/chapter_08.wav",
+          "duration": 132.424958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Side of Code—Trust, Betrayal, and the Limits of Secrecy",
+          "actualDuration": 132.424958,
+          "startTime": 1741.4889580000001,
+          "endTime": 1873.9139160000002
+        },
+        {
+          "path": "Audio/output/1034/chapter_09.wav",
+          "duration": 151.624917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Battle—Openness, Surveillance, and the Future of Privacy",
+          "actualDuration": 151.624917,
+          "startTime": 1875.4139160000002,
+          "endTime": 2027.0388330000003
+        },
+        {
+          "path": "Audio/output/1034/chapter_10.wav",
+          "duration": 131.299458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Unfinished Story—Learning from the Past, Shaping the Future",
+          "actualDuration": 131.299458,
+          "startTime": 2028.5388330000003,
+          "endTime": 2159.8382910000005
+        },
+        {
+          "path": "Audio/output/1034/conclusion.wav",
+          "duration": 102.107833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.107833,
+          "startTime": 2161.3382910000005,
+          "endTime": 2263.4461240000005
+        }
+      ],
+      "totalDuration": 2263.4461240000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.82,
+          "actualStart": 0,
+          "actualEnd": 112.816125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The First Secret Messages and the Birth of Hidden Writing",
+          "expectedStart": 112.82,
+          "expectedEnd": 388.04,
+          "actualStart": 114.316125,
+          "actualEnd": 389.53225,
+          "timeDifference": 1.4961250000000064
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Codebreakers and the Power Struggles of Secrecy",
+          "expectedStart": 388.04,
+          "expectedEnd": 630.75,
+          "actualStart": 391.03225,
+          "actualEnd": 633.741583,
+          "timeDifference": 2.992249999999956
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 War, Machines, and the Turning Point of Modern Cryptography",
+          "expectedStart": 630.75,
+          "expectedEnd": 914.54,
+          "actualStart": 635.241583,
+          "actualEnd": 919.0355,
+          "timeDifference": 4.491582999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Mathematics of Secrecy and the Dawn of Public Key Cryptography",
+          "expectedStart": 914.54,
+          "expectedEnd": 1158.37,
+          "actualStart": 920.5355,
+          "actualEnd": 1164.364333,
+          "timeDifference": 5.995499999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Codes, Freedom, and the Social Impact of Encryption",
+          "expectedStart": 1158.37,
+          "expectedEnd": 1364.7,
+          "actualStart": 1165.864333,
+          "actualEnd": 1372.193541,
+          "timeDifference": 7.494333000000097
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quantum Threat and the Next Great Challenge",
+          "expectedStart": 1364.7,
+          "expectedEnd": 1551.93,
+          "actualStart": 1373.693541,
+          "actualEnd": 1560.9271660000002,
+          "timeDifference": 8.99354100000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Everyday Encryption—From Smartphones to Social Movements",
+          "expectedStart": 1551.93,
+          "expectedEnd": 1729.49,
+          "actualStart": 1562.4271660000002,
+          "actualEnd": 1739.9889580000001,
+          "timeDifference": 10.497166000000107
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Side of Code—Trust, Betrayal, and the Limits of Secrecy",
+          "expectedStart": 1729.49,
+          "expectedEnd": 1861.91,
+          "actualStart": 1741.4889580000001,
+          "actualEnd": 1873.9139160000002,
+          "timeDifference": 11.99895800000013
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Battle—Openness, Surveillance, and the Future of Privacy",
+          "expectedStart": 1861.91,
+          "expectedEnd": 2013.53,
+          "actualStart": 1875.4139160000002,
+          "actualEnd": 2027.0388330000003,
+          "timeDifference": 13.503916000000117
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Unfinished Story—Learning from the Past, Shaping the Future",
+          "expectedStart": 2013.53,
+          "expectedEnd": 2144.83,
+          "actualStart": 2028.5388330000003,
+          "actualEnd": 2159.8382910000005,
+          "timeDifference": 15.008833000000322
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2144.83,
+          "expectedEnd": 2246.94,
+          "actualStart": 2161.3382910000005,
+          "actualEnd": 2263.4461240000005,
+          "timeDifference": 16.508291000000554
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.816125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The First Secret Messages and the Birth of Hidden Writing"
+        },
+        {
+          "startTime": 389.53225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The First Secret Messages and the Birth of Hidden Writing and Chapter 2 The Rise of Codebreakers and the Power Struggles of Secrecy"
+        },
+        {
+          "startTime": 633.741583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Codebreakers and the Power Struggles of Secrecy and Chapter 3 War, Machines, and the Turning Point of Modern Cryptography"
+        },
+        {
+          "startTime": 919.0355,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 War, Machines, and the Turning Point of Modern Cryptography and Chapter 4 The Mathematics of Secrecy and the Dawn of Public Key Cryptography"
+        },
+        {
+          "startTime": 1164.364333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Mathematics of Secrecy and the Dawn of Public Key Cryptography and Chapter 5 Codes, Freedom, and the Social Impact of Encryption"
+        },
+        {
+          "startTime": 1372.193541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Codes, Freedom, and the Social Impact of Encryption and Chapter 6 The Quantum Threat and the Next Great Challenge"
+        },
+        {
+          "startTime": 1560.9271660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quantum Threat and the Next Great Challenge and Chapter 7 Everyday Encryption—From Smartphones to Social Movements"
+        },
+        {
+          "startTime": 1739.9889580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Everyday Encryption—From Smartphones to Social Movements and Chapter 8 The Human Side of Code—Trust, Betrayal, and the Limits of Secrecy"
+        },
+        {
+          "startTime": 1873.9139160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Side of Code—Trust, Betrayal, and the Limits of Secrecy and Chapter 9 The Ongoing Battle—Openness, Surveillance, and the Future of Privacy"
+        },
+        {
+          "startTime": 2027.0388330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Battle—Openness, Surveillance, and the Future of Privacy and Chapter 10 The Unfinished Story—Learning from the Past, Shaping the Future"
+        },
+        {
+          "startTime": 2159.8382910000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Unfinished Story—Learning from the Past, Shaping the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1034",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T09:10:42.877Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

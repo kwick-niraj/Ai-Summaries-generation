@@ -1,0 +1,456 @@
+{
+  "bookId": "741",
+  "timestamp": "2025-07-05T05:31:54.603Z",
+  "success": false,
+  "processingTime": -1751693242006,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5105,
+    "totalAudioFiles": 12,
+    "totalDuration": 2078.427417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2078.427417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/741/optimized_text/741.md",
+    "fileSize": 697,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "741.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/741/metadata/741_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2078.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/741/metadata/741_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/741/metadata/741_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/741/741_complete.wav",
+    "duration": 2078.427417,
+    "fileSize": 99764594,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/741/introduction.wav",
+          "duration": 78.058625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.058625,
+          "startTime": 0,
+          "endTime": 78.058625
+        },
+        {
+          "path": "Audio/output/741/chapter_01.wav",
+          "duration": 246.41825,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking What Love Means in Everyday Life",
+          "actualDuration": 246.41825,
+          "startTime": 79.558625,
+          "endTime": 325.976875
+        },
+        {
+          "path": "Audio/output/741/chapter_02.wav",
+          "duration": 213.660542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Impact of Childhood and Family on How Love Is Learned",
+          "actualDuration": 213.660542,
+          "startTime": 327.476875,
+          "endTime": 541.137417
+        },
+        {
+          "path": "Audio/output/741/chapter_03.wav",
+          "duration": 223.235375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Honesty, Openness, and the Courage to Be Vulnerable",
+          "actualDuration": 223.235375,
+          "startTime": 542.637417,
+          "endTime": 765.872792
+        },
+        {
+          "path": "Audio/output/741/chapter_04.wav",
+          "duration": 203.484333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Self-Love in Building Healthy Relationships",
+          "actualDuration": 203.484333,
+          "startTime": 767.372792,
+          "endTime": 970.857125
+        },
+        {
+          "path": "Audio/output/741/chapter_05.wav",
+          "duration": 202.977792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Cultural Norms That Distort Love",
+          "actualDuration": 202.977792,
+          "startTime": 972.357125,
+          "endTime": 1175.334917
+        },
+        {
+          "path": "Audio/output/741/chapter_06.wav",
+          "duration": 181.093042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Healing Old Wounds: Love as a Path to Wholeness",
+          "actualDuration": 181.093042,
+          "startTime": 1176.834917,
+          "endTime": 1357.9279589999999
+        },
+        {
+          "path": "Audio/output/741/chapter_07.wav",
+          "duration": 151.568833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love and Justice: Expanding Compassion Beyond the Personal",
+          "actualDuration": 151.568833,
+          "startTime": 1359.4279589999999,
+          "endTime": 1510.996792
+        },
+        {
+          "path": "Audio/output/741/chapter_08.wav",
+          "duration": 183.352583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Love in Action: Building Community and Connection",
+          "actualDuration": 183.352583,
+          "startTime": 1512.496792,
+          "endTime": 1695.849375
+        },
+        {
+          "path": "Audio/output/741/chapter_09.wav",
+          "duration": 160.79175,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love and Loss: Navigating Grief and Letting Go",
+          "actualDuration": 160.79175,
+          "startTime": 1697.349375,
+          "endTime": 1858.141125
+        },
+        {
+          "path": "Audio/output/741/chapter_10.wav",
+          "duration": 134.977125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 New Visions: Reimagining Love for the Future",
+          "actualDuration": 134.977125,
+          "startTime": 1859.641125,
+          "endTime": 1994.61825
+        },
+        {
+          "path": "Audio/output/741/conclusion.wav",
+          "duration": 98.809167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.809167,
+          "startTime": 1996.11825,
+          "endTime": 2094.927417
+        }
+      ],
+      "totalDuration": 2094.927417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.06,
+          "actualStart": 0,
+          "actualEnd": 78.058625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking What Love Means in Everyday Life",
+          "expectedStart": 78.06,
+          "expectedEnd": 324.48,
+          "actualStart": 79.558625,
+          "actualEnd": 325.976875,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Impact of Childhood and Family on How Love Is Learned",
+          "expectedStart": 324.48,
+          "expectedEnd": 538.14,
+          "actualStart": 327.476875,
+          "actualEnd": 541.137417,
+          "timeDifference": 2.9968749999999886
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Honesty, Openness, and the Courage to Be Vulnerable",
+          "expectedStart": 538.14,
+          "expectedEnd": 761.38,
+          "actualStart": 542.637417,
+          "actualEnd": 765.872792,
+          "timeDifference": 4.497417000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Self-Love in Building Healthy Relationships",
+          "expectedStart": 761.38,
+          "expectedEnd": 964.86,
+          "actualStart": 767.372792,
+          "actualEnd": 970.857125,
+          "timeDifference": 5.992792000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Cultural Norms That Distort Love",
+          "expectedStart": 964.86,
+          "expectedEnd": 1167.84,
+          "actualStart": 972.357125,
+          "actualEnd": 1175.334917,
+          "timeDifference": 7.497124999999983
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Healing Old Wounds: Love as a Path to Wholeness",
+          "expectedStart": 1167.84,
+          "expectedEnd": 1348.93,
+          "actualStart": 1176.834917,
+          "actualEnd": 1357.9279589999999,
+          "timeDifference": 8.994916999999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love and Justice: Expanding Compassion Beyond the Personal",
+          "expectedStart": 1348.93,
+          "expectedEnd": 1500.5,
+          "actualStart": 1359.4279589999999,
+          "actualEnd": 1510.996792,
+          "timeDifference": 10.49795899999981
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Love in Action: Building Community and Connection",
+          "expectedStart": 1500.5,
+          "expectedEnd": 1683.85,
+          "actualStart": 1512.496792,
+          "actualEnd": 1695.849375,
+          "timeDifference": 11.996791999999914
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love and Loss: Navigating Grief and Letting Go",
+          "expectedStart": 1683.85,
+          "expectedEnd": 1844.64,
+          "actualStart": 1697.349375,
+          "actualEnd": 1858.141125,
+          "timeDifference": 13.4993750000001
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 New Visions: Reimagining Love for the Future",
+          "expectedStart": 1844.64,
+          "expectedEnd": 1979.62,
+          "actualStart": 1859.641125,
+          "actualEnd": 1994.61825,
+          "timeDifference": 15.001125000000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1979.62,
+          "expectedEnd": 2078.43,
+          "actualStart": 1996.11825,
+          "actualEnd": 2094.927417,
+          "timeDifference": 16.4982500000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.058625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking What Love Means in Everyday Life"
+        },
+        {
+          "startTime": 325.976875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking What Love Means in Everyday Life and Chapter 2 The Impact of Childhood and Family on How Love Is Learned"
+        },
+        {
+          "startTime": 541.137417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Impact of Childhood and Family on How Love Is Learned and Chapter 3 Honesty, Openness, and the Courage to Be Vulnerable"
+        },
+        {
+          "startTime": 765.872792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Honesty, Openness, and the Courage to Be Vulnerable and Chapter 4 The Role of Self-Love in Building Healthy Relationships"
+        },
+        {
+          "startTime": 970.857125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Self-Love in Building Healthy Relationships and Chapter 5 Challenging Cultural Norms That Distort Love"
+        },
+        {
+          "startTime": 1175.334917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Cultural Norms That Distort Love and Chapter 6 Healing Old Wounds: Love as a Path to Wholeness"
+        },
+        {
+          "startTime": 1357.9279589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Healing Old Wounds: Love as a Path to Wholeness and Chapter 7 Love and Justice: Expanding Compassion Beyond the Personal"
+        },
+        {
+          "startTime": 1510.996792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love and Justice: Expanding Compassion Beyond the Personal and Chapter 8 Love in Action: Building Community and Connection"
+        },
+        {
+          "startTime": 1695.849375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Love in Action: Building Community and Connection and Chapter 9 Love and Loss: Navigating Grief and Letting Go"
+        },
+        {
+          "startTime": 1858.141125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love and Loss: Navigating Grief and Letting Go and Chapter 10 New Visions: Reimagining Love for the Future"
+        },
+        {
+          "startTime": 1994.61825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 New Visions: Reimagining Love for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "741",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T05:27:22.016Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

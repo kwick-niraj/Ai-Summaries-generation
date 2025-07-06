@@ -1,0 +1,456 @@
+{
+  "bookId": "610",
+  "timestamp": "2025-07-04T21:53:13.606Z",
+  "success": false,
+  "processingTime": -1751665620473,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4860,
+    "totalAudioFiles": 12,
+    "totalDuration": 2119.76875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2119.76875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/610/optimized_text/610.md",
+    "fileSize": 713,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "610.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/610/metadata/610_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2119.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/610/metadata/610_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/610/metadata/610_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/610/610_complete.wav",
+    "duration": 2119.76875,
+    "fileSize": 101748978,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/610/introduction.wav",
+          "duration": 84.137292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.137292,
+          "startTime": 0,
+          "endTime": 84.137292
+        },
+        {
+          "path": "Audio/output/610/chapter_01.wav",
+          "duration": 218.895833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Early Days of Flight and the Call of the Unknown",
+          "actualDuration": 218.895833,
+          "startTime": 85.637292,
+          "endTime": 304.53312500000004
+        },
+        {
+          "path": "Audio/output/610/chapter_02.wav",
+          "duration": 233.186583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Nature’s Power and the Limits of Control",
+          "actualDuration": 233.186583,
+          "startTime": 306.03312500000004,
+          "endTime": 539.2197080000001
+        },
+        {
+          "path": "Audio/output/610/chapter_03.wav",
+          "duration": 191.397625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Solitude, Reflection, and the Search for Meaning",
+          "actualDuration": 191.397625,
+          "startTime": 540.7197080000001,
+          "endTime": 732.1173330000001
+        },
+        {
+          "path": "Audio/output/610/chapter_04.wav",
+          "duration": 211.461958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Brotherhood, Duty, and the Bonds Forged in Adversity",
+          "actualDuration": 211.461958,
+          "startTime": 733.6173330000001,
+          "endTime": 945.0792910000001
+        },
+        {
+          "path": "Audio/output/610/chapter_05.wav",
+          "duration": 200.993083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Beauty and Fragility of Ordinary Courage",
+          "actualDuration": 200.993083,
+          "startTime": 946.5792910000001,
+          "endTime": 1147.572374
+        },
+        {
+          "path": "Audio/output/610/chapter_06.wav",
+          "duration": 194.984958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Encounters with the Unknown and the Transformative Power of Adversity",
+          "actualDuration": 194.984958,
+          "startTime": 1149.072374,
+          "endTime": 1344.057332
+        },
+        {
+          "path": "Audio/output/610/chapter_07.wav",
+          "duration": 171.622792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The People of the Land—Encounters Beyond the Cockpit",
+          "actualDuration": 171.622792,
+          "startTime": 1345.557332,
+          "endTime": 1517.180124
+        },
+        {
+          "path": "Audio/output/610/chapter_08.wav",
+          "duration": 175.024417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Weight of Responsibility and the Meaning of Work",
+          "actualDuration": 175.024417,
+          "startTime": 1518.680124,
+          "endTime": 1693.704541
+        },
+        {
+          "path": "Audio/output/610/chapter_09.wav",
+          "duration": 143.203042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Loss, Memory, and the Enduring Spirit",
+          "actualDuration": 143.203042,
+          "startTime": 1695.204541,
+          "endTime": 1838.4075830000002
+        },
+        {
+          "path": "Audio/output/610/chapter_10.wav",
+          "duration": 155.327625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of Flight—Lessons for Life on the Ground",
+          "actualDuration": 155.327625,
+          "startTime": 1839.9075830000002,
+          "endTime": 1995.235208
+        },
+        {
+          "path": "Audio/output/610/conclusion.wav",
+          "duration": 139.533542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.533542,
+          "startTime": 1996.735208,
+          "endTime": 2136.26875
+        }
+      ],
+      "totalDuration": 2136.26875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.14,
+          "actualStart": 0,
+          "actualEnd": 84.137292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Early Days of Flight and the Call of the Unknown",
+          "expectedStart": 84.14,
+          "expectedEnd": 303.04,
+          "actualStart": 85.637292,
+          "actualEnd": 304.53312500000004,
+          "timeDifference": 1.4972920000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Nature’s Power and the Limits of Control",
+          "expectedStart": 303.04,
+          "expectedEnd": 536.23,
+          "actualStart": 306.03312500000004,
+          "actualEnd": 539.2197080000001,
+          "timeDifference": 2.9931250000000205
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Solitude, Reflection, and the Search for Meaning",
+          "expectedStart": 536.23,
+          "expectedEnd": 727.63,
+          "actualStart": 540.7197080000001,
+          "actualEnd": 732.1173330000001,
+          "timeDifference": 4.489708000000064
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Brotherhood, Duty, and the Bonds Forged in Adversity",
+          "expectedStart": 727.63,
+          "expectedEnd": 939.09,
+          "actualStart": 733.6173330000001,
+          "actualEnd": 945.0792910000001,
+          "timeDifference": 5.987333000000149
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Beauty and Fragility of Ordinary Courage",
+          "expectedStart": 939.09,
+          "expectedEnd": 1140.08,
+          "actualStart": 946.5792910000001,
+          "actualEnd": 1147.572374,
+          "timeDifference": 7.489291000000094
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Encounters with the Unknown and the Transformative Power of Adversity",
+          "expectedStart": 1140.08,
+          "expectedEnd": 1335.06,
+          "actualStart": 1149.072374,
+          "actualEnd": 1344.057332,
+          "timeDifference": 8.992374000000154
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The People of the Land—Encounters Beyond the Cockpit",
+          "expectedStart": 1335.06,
+          "expectedEnd": 1506.68,
+          "actualStart": 1345.557332,
+          "actualEnd": 1517.180124,
+          "timeDifference": 10.497332000000142
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Weight of Responsibility and the Meaning of Work",
+          "expectedStart": 1506.68,
+          "expectedEnd": 1681.7,
+          "actualStart": 1518.680124,
+          "actualEnd": 1693.704541,
+          "timeDifference": 12.000123999999914
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Loss, Memory, and the Enduring Spirit",
+          "expectedStart": 1681.7,
+          "expectedEnd": 1824.9,
+          "actualStart": 1695.204541,
+          "actualEnd": 1838.4075830000002,
+          "timeDifference": 13.504541000000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of Flight—Lessons for Life on the Ground",
+          "expectedStart": 1824.9,
+          "expectedEnd": 1980.23,
+          "actualStart": 1839.9075830000002,
+          "actualEnd": 1995.235208,
+          "timeDifference": 15.007583000000068
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1980.23,
+          "expectedEnd": 2119.76,
+          "actualStart": 1996.735208,
+          "actualEnd": 2136.26875,
+          "timeDifference": 16.50520800000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.137292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Early Days of Flight and the Call of the Unknown"
+        },
+        {
+          "startTime": 304.53312500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Early Days of Flight and the Call of the Unknown and Chapter 2 Facing Nature’s Power and the Limits of Control"
+        },
+        {
+          "startTime": 539.2197080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Nature’s Power and the Limits of Control and Chapter 3 Solitude, Reflection, and the Search for Meaning"
+        },
+        {
+          "startTime": 732.1173330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Solitude, Reflection, and the Search for Meaning and Chapter 4 Brotherhood, Duty, and the Bonds Forged in Adversity"
+        },
+        {
+          "startTime": 945.0792910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Brotherhood, Duty, and the Bonds Forged in Adversity and Chapter 5 The Beauty and Fragility of Ordinary Courage"
+        },
+        {
+          "startTime": 1147.572374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Beauty and Fragility of Ordinary Courage and Chapter 6 Encounters with the Unknown and the Transformative Power of Adversity"
+        },
+        {
+          "startTime": 1344.057332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Encounters with the Unknown and the Transformative Power of Adversity and Chapter 7 The People of the Land—Encounters Beyond the Cockpit"
+        },
+        {
+          "startTime": 1517.180124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The People of the Land—Encounters Beyond the Cockpit and Chapter 8 The Weight of Responsibility and the Meaning of Work"
+        },
+        {
+          "startTime": 1693.704541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Weight of Responsibility and the Meaning of Work and Chapter 9 Loss, Memory, and the Enduring Spirit"
+        },
+        {
+          "startTime": 1838.4075830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Loss, Memory, and the Enduring Spirit and Chapter 10 The Legacy of Flight—Lessons for Life on the Ground"
+        },
+        {
+          "startTime": 1995.235208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of Flight—Lessons for Life on the Ground and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "610",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:47:01.699Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

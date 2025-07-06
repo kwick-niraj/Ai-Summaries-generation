@@ -1,0 +1,408 @@
+{
+  "bookId": "1070",
+  "timestamp": "2025-07-06T11:16:47.893Z",
+  "success": false,
+  "processingTime": -1751800304046,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4425,
+    "totalAudioFiles": 11,
+    "totalDuration": 1895.175125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1895.175125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1070/optimized_text/1070.md",
+    "fileSize": 653,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1070.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1070/metadata/1070_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1895.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1070/metadata/1070_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1070/metadata/1070_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1070/1070_complete.wav",
+    "duration": 1895.175125,
+    "fileSize": 90968484,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1070/introduction.wav",
+          "duration": 80.592083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.592083,
+          "startTime": 0,
+          "endTime": 80.592083
+        },
+        {
+          "path": "Audio/output/1070/chapter_01.wav",
+          "duration": 234.095375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Birth of Fast Food and the American Dream",
+          "actualDuration": 234.095375,
+          "startTime": 82.092083,
+          "endTime": 316.187458
+        },
+        {
+          "path": "Audio/output/1070/chapter_02.wav",
+          "duration": 240.825167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Behind the Counter—The Realities of Fast Food Work",
+          "actualDuration": 240.825167,
+          "startTime": 317.687458,
+          "endTime": 558.512625
+        },
+        {
+          "path": "Audio/output/1070/chapter_04.wav",
+          "duration": 241.353875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Marketing, Children, and the Shaping of Food Culture",
+          "actualDuration": 241.353875,
+          "startTime": 560.012625,
+          "endTime": 801.3665
+        },
+        {
+          "path": "Audio/output/1070/chapter_05.wav",
+          "duration": 190.947083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Wider Impact—Health, Environment, and Society",
+          "actualDuration": 190.947083,
+          "startTime": 802.8665,
+          "endTime": 993.813583
+        },
+        {
+          "path": "Audio/output/1070/chapter_06.wav",
+          "duration": 229.273042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power Behind the Counter—Corporate Influence and Political Clout",
+          "actualDuration": 229.273042,
+          "startTime": 995.313583,
+          "endTime": 1224.586625
+        },
+        {
+          "path": "Audio/output/1070/chapter_07.wav",
+          "duration": 208.076333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Globalization—Fast Food’s Worldwide Journey",
+          "actualDuration": 208.076333,
+          "startTime": 1226.086625,
+          "endTime": 1434.162958
+        },
+        {
+          "path": "Audio/output/1070/chapter_08.wav",
+          "duration": 197.205417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resistance and Reform—Voices for Change",
+          "actualDuration": 197.205417,
+          "startTime": 1435.662958,
+          "endTime": 1632.868375
+        },
+        {
+          "path": "Audio/output/1070/chapter_09.wav",
+          "duration": 146.44325,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Food—Possibilities and Unanswered Questions",
+          "actualDuration": 146.44325,
+          "startTime": 1634.368375,
+          "endTime": 1780.811625
+        },
+        {
+          "path": "Audio/output/1070/conclusion.wav",
+          "duration": 126.3635,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.3635,
+          "startTime": 1782.311625,
+          "endTime": 1908.675125
+        }
+      ],
+      "totalDuration": 1908.675125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.59,
+          "actualStart": 0,
+          "actualEnd": 80.592083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Birth of Fast Food and the American Dream",
+          "expectedStart": 80.59,
+          "expectedEnd": 314.69,
+          "actualStart": 82.092083,
+          "actualEnd": 316.187458,
+          "timeDifference": 1.502082999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Behind the Counter—The Realities of Fast Food Work",
+          "expectedStart": 314.69,
+          "expectedEnd": 555.52,
+          "actualStart": 317.687458,
+          "actualEnd": 558.512625,
+          "timeDifference": 2.9974579999999946
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Marketing, Children, and the Shaping of Food Culture",
+          "expectedStart": 555.52,
+          "expectedEnd": 796.87,
+          "actualStart": 560.012625,
+          "actualEnd": 801.3665,
+          "timeDifference": 4.492624999999975
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Wider Impact—Health, Environment, and Society",
+          "expectedStart": 796.87,
+          "expectedEnd": 987.82,
+          "actualStart": 802.8665,
+          "actualEnd": 993.813583,
+          "timeDifference": 5.996499999999969
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power Behind the Counter—Corporate Influence and Political Clout",
+          "expectedStart": 987.82,
+          "expectedEnd": 1217.09,
+          "actualStart": 995.313583,
+          "actualEnd": 1224.586625,
+          "timeDifference": 7.493582999999944
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Globalization—Fast Food’s Worldwide Journey",
+          "expectedStart": 1217.09,
+          "expectedEnd": 1425.17,
+          "actualStart": 1226.086625,
+          "actualEnd": 1434.162958,
+          "timeDifference": 8.996624999999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resistance and Reform—Voices for Change",
+          "expectedStart": 1425.17,
+          "expectedEnd": 1622.38,
+          "actualStart": 1435.662958,
+          "actualEnd": 1632.868375,
+          "timeDifference": 10.492957999999817
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Food—Possibilities and Unanswered Questions",
+          "expectedStart": 1622.38,
+          "expectedEnd": 1768.82,
+          "actualStart": 1634.368375,
+          "actualEnd": 1780.811625,
+          "timeDifference": 11.988374999999905
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1768.82,
+          "expectedEnd": 1895.18,
+          "actualStart": 1782.311625,
+          "actualEnd": 1908.675125,
+          "timeDifference": 13.491625000000113
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.592083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Birth of Fast Food and the American Dream"
+        },
+        {
+          "startTime": 316.187458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Birth of Fast Food and the American Dream and Chapter 2 Behind the Counter—The Realities of Fast Food Work"
+        },
+        {
+          "startTime": 558.512625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Behind the Counter—The Realities of Fast Food Work and Chapter 4 Marketing, Children, and the Shaping of Food Culture"
+        },
+        {
+          "startTime": 801.3665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Marketing, Children, and the Shaping of Food Culture and Chapter 5 The Wider Impact—Health, Environment, and Society"
+        },
+        {
+          "startTime": 993.813583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Wider Impact—Health, Environment, and Society and Chapter 6 The Power Behind the Counter—Corporate Influence and Political Clout"
+        },
+        {
+          "startTime": 1224.586625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power Behind the Counter—Corporate Influence and Political Clout and Chapter 7 Globalization—Fast Food’s Worldwide Journey"
+        },
+        {
+          "startTime": 1434.162958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Globalization—Fast Food’s Worldwide Journey and Chapter 8 Resistance and Reform—Voices for Change"
+        },
+        {
+          "startTime": 1632.868375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resistance and Reform—Voices for Change and Chapter 9 The Future of Food—Possibilities and Unanswered Questions"
+        },
+        {
+          "startTime": 1780.811625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Food—Possibilities and Unanswered Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1070",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T11:11:45.494Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

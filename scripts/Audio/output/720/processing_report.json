@@ -1,0 +1,385 @@
+{
+  "bookId": "720",
+  "timestamp": "2025-07-05T04:35:12.480Z",
+  "success": false,
+  "processingTime": -1751689844577,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4486,
+    "totalAudioFiles": 12,
+    "totalDuration": 1562.220833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 9,
+    "failed": 3,
+    "duration": 1562.220833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/720/optimized_text/720.md",
+    "fileSize": 675,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "720.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/720/metadata/720_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1562.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/720/metadata/720_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/720/metadata/720_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/720/720_complete.wav",
+    "duration": 1562.220833,
+    "fileSize": 74986678,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/720/chapter_02.wav",
+          "duration": 254.936458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Morning Everything Changed",
+          "actualDuration": 254.936458,
+          "startTime": 0,
+          "endTime": 254.936458
+        },
+        {
+          "path": "Audio/output/720/chapter_03.wav",
+          "duration": 237.215542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Inside the Mind: Experiencing the Brain’s Two Sides",
+          "actualDuration": 237.215542,
+          "startTime": 256.436458,
+          "endTime": 493.65200000000004
+        },
+        {
+          "path": "Audio/output/720/chapter_05.wav",
+          "duration": 186.272625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons in Compassion, Mindfulness, and the Power of Choice",
+          "actualDuration": 186.272625,
+          "startTime": 495.15200000000004,
+          "endTime": 681.4246250000001
+        },
+        {
+          "path": "Audio/output/720/chapter_06.wav",
+          "duration": 158.590375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating the Two Selves: Rebuilding Identity",
+          "actualDuration": 158.590375,
+          "startTime": 682.9246250000001,
+          "endTime": 841.5150000000001
+        },
+        {
+          "path": "Audio/output/720/chapter_07.wav",
+          "duration": 149.773,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Caregivers: Love, Patience, and Presence",
+          "actualDuration": 149.773,
+          "startTime": 843.0150000000001,
+          "endTime": 992.7880000000001
+        },
+        {
+          "path": "Audio/output/720/chapter_08.wav",
+          "duration": 162.946375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Lasting Impact: Relationships, Work, and the World Beyond",
+          "actualDuration": 162.946375,
+          "startTime": 994.2880000000001,
+          "endTime": 1157.234375
+        },
+        {
+          "path": "Audio/output/720/chapter_09.wav",
+          "duration": 150.362708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Brain’s Wisdom: Living with Intention and Grace",
+          "actualDuration": 150.362708,
+          "startTime": 1158.734375,
+          "endTime": 1309.097083
+        },
+        {
+          "path": "Audio/output/720/chapter_10.wav",
+          "duration": 126.799458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 A New Understanding of Self and Spirit",
+          "actualDuration": 126.799458,
+          "startTime": 1310.597083,
+          "endTime": 1437.396541
+        },
+        {
+          "path": "Audio/output/720/conclusion.wav",
+          "duration": 135.324292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.324292,
+          "startTime": 1438.896541,
+          "endTime": 1574.220833
+        }
+      ],
+      "totalDuration": 1574.220833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Morning Everything Changed",
+          "expectedStart": 0,
+          "expectedEnd": 254.94,
+          "actualStart": 0,
+          "actualEnd": 254.936458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Inside the Mind: Experiencing the Brain’s Two Sides",
+          "expectedStart": 254.94,
+          "expectedEnd": 492.16,
+          "actualStart": 256.436458,
+          "actualEnd": 493.65200000000004,
+          "timeDifference": 1.4964580000000183
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons in Compassion, Mindfulness, and the Power of Choice",
+          "expectedStart": 492.16,
+          "expectedEnd": 678.43,
+          "actualStart": 495.15200000000004,
+          "actualEnd": 681.4246250000001,
+          "timeDifference": 2.9920000000000186
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating the Two Selves: Rebuilding Identity",
+          "expectedStart": 678.43,
+          "expectedEnd": 837.02,
+          "actualStart": 682.9246250000001,
+          "actualEnd": 841.5150000000001,
+          "timeDifference": 4.4946250000001555
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Caregivers: Love, Patience, and Presence",
+          "expectedStart": 837.02,
+          "expectedEnd": 986.79,
+          "actualStart": 843.0150000000001,
+          "actualEnd": 992.7880000000001,
+          "timeDifference": 5.995000000000118
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Lasting Impact: Relationships, Work, and the World Beyond",
+          "expectedStart": 986.79,
+          "expectedEnd": 1149.74,
+          "actualStart": 994.2880000000001,
+          "actualEnd": 1157.234375,
+          "timeDifference": 7.498000000000161
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Brain’s Wisdom: Living with Intention and Grace",
+          "expectedStart": 1149.74,
+          "expectedEnd": 1300.1,
+          "actualStart": 1158.734375,
+          "actualEnd": 1309.097083,
+          "timeDifference": 8.994374999999991
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 A New Understanding of Self and Spirit",
+          "expectedStart": 1300.1,
+          "expectedEnd": 1426.9,
+          "actualStart": 1310.597083,
+          "actualEnd": 1437.396541,
+          "timeDifference": 10.497083000000202
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1426.9,
+          "expectedEnd": 1562.22,
+          "actualStart": 1438.896541,
+          "actualEnd": 1574.220833,
+          "timeDifference": 11.99654099999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 254.936458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Morning Everything Changed and Chapter 3 Inside the Mind: Experiencing the Brain’s Two Sides"
+        },
+        {
+          "startTime": 493.65200000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Inside the Mind: Experiencing the Brain’s Two Sides and Chapter 5 Lessons in Compassion, Mindfulness, and the Power of Choice"
+        },
+        {
+          "startTime": 681.4246250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons in Compassion, Mindfulness, and the Power of Choice and Chapter 6 Integrating the Two Selves: Rebuilding Identity"
+        },
+        {
+          "startTime": 841.5150000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating the Two Selves: Rebuilding Identity and Chapter 7 The Role of Caregivers: Love, Patience, and Presence"
+        },
+        {
+          "startTime": 992.7880000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Caregivers: Love, Patience, and Presence and Chapter 8 The Lasting Impact: Relationships, Work, and the World Beyond"
+        },
+        {
+          "startTime": 1157.234375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Lasting Impact: Relationships, Work, and the World Beyond and Chapter 9 The Brain’s Wisdom: Living with Intention and Grace"
+        },
+        {
+          "startTime": 1309.097083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Brain’s Wisdom: Living with Intention and Grace and Chapter 10 A New Understanding of Self and Spirit"
+        },
+        {
+          "startTime": 1437.396541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 A New Understanding of Self and Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 9
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "720",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T04:30:45.101Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

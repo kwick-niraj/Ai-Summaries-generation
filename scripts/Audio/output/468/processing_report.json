@@ -1,0 +1,456 @@
+{
+  "bookId": "468",
+  "timestamp": "2025-07-04T05:06:31.562Z",
+  "success": false,
+  "processingTime": -1751605205238,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3864,
+    "totalAudioFiles": 12,
+    "totalDuration": 2062.6485000000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2062.6485000000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/468/optimized_text/468.md",
+    "fileSize": 673,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "468.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/468/metadata/468_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2062.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/468/metadata/468_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/468/metadata/468_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/468/468_complete.wav",
+    "duration": 2062.6485,
+    "fileSize": 99007206,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/468/introduction.wav",
+          "duration": 107.4855,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.4855,
+          "startTime": 0,
+          "endTime": 107.4855
+        },
+        {
+          "path": "Audio/output/468/chapter_01.wav",
+          "duration": 175.286875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Self-Motivation and Taking Ownership",
+          "actualDuration": 175.286875,
+          "startTime": 108.9855,
+          "endTime": 284.272375
+        },
+        {
+          "path": "Audio/output/468/chapter_02.wav",
+          "duration": 206.613542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Momentum Through Small Actions and Consistent Habits",
+          "actualDuration": 206.613542,
+          "startTime": 285.772375,
+          "endTime": 492.385917
+        },
+        {
+          "path": "Audio/output/468/chapter_03.wav",
+          "duration": 203.558625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Harnessing the Power of Visualization and Positive Thinking",
+          "actualDuration": 203.558625,
+          "startTime": 493.885917,
+          "endTime": 697.444542
+        },
+        {
+          "path": "Audio/output/468/chapter_04.wav",
+          "duration": 212.493333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Overcoming Fear, Doubt, and Procrastination",
+          "actualDuration": 212.493333,
+          "startTime": 698.944542,
+          "endTime": 911.437875
+        },
+        {
+          "path": "Audio/output/468/chapter_05.wav",
+          "duration": 188.662833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Failure and Adapting for Growth",
+          "actualDuration": 188.662833,
+          "startTime": 912.937875,
+          "endTime": 1101.600708
+        },
+        {
+          "path": "Audio/output/468/chapter_06.wav",
+          "duration": 177.956625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Supportive Environments and Relationships",
+          "actualDuration": 177.956625,
+          "startTime": 1103.100708,
+          "endTime": 1281.057333
+        },
+        {
+          "path": "Audio/output/468/chapter_07.wav",
+          "duration": 164.169292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mastering Self-Discipline and Willpower",
+          "actualDuration": 164.169292,
+          "startTime": 1282.557333,
+          "endTime": 1446.726625
+        },
+        {
+          "path": "Audio/output/468/chapter_08.wav",
+          "duration": 183.049792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reigniting Motivation During Slumps and Setbacks",
+          "actualDuration": 183.049792,
+          "startTime": 1448.226625,
+          "endTime": 1631.276417
+        },
+        {
+          "path": "Audio/output/468/chapter_09.wav",
+          "duration": 168.820083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Motivation into Daily Life",
+          "actualDuration": 168.820083,
+          "startTime": 1632.776417,
+          "endTime": 1801.5965
+        },
+        {
+          "path": "Audio/output/468/chapter_10.wav",
+          "duration": 132.026917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth and Inspiring Others",
+          "actualDuration": 132.026917,
+          "startTime": 1803.0965,
+          "endTime": 1935.123417
+        },
+        {
+          "path": "Audio/output/468/conclusion.wav",
+          "duration": 142.525083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.525083,
+          "startTime": 1936.623417,
+          "endTime": 2079.1485000000002
+        }
+      ],
+      "totalDuration": 2079.1485000000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.49,
+          "actualStart": 0,
+          "actualEnd": 107.4855,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Self-Motivation and Taking Ownership",
+          "expectedStart": 107.49,
+          "expectedEnd": 282.78,
+          "actualStart": 108.9855,
+          "actualEnd": 284.272375,
+          "timeDifference": 1.495500000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Momentum Through Small Actions and Consistent Habits",
+          "expectedStart": 282.78,
+          "expectedEnd": 489.39,
+          "actualStart": 285.772375,
+          "actualEnd": 492.385917,
+          "timeDifference": 2.992375000000038
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Harnessing the Power of Visualization and Positive Thinking",
+          "expectedStart": 489.39,
+          "expectedEnd": 692.95,
+          "actualStart": 493.885917,
+          "actualEnd": 697.444542,
+          "timeDifference": 4.49591700000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Overcoming Fear, Doubt, and Procrastination",
+          "expectedStart": 692.95,
+          "expectedEnd": 905.44,
+          "actualStart": 698.944542,
+          "actualEnd": 911.437875,
+          "timeDifference": 5.99454199999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Failure and Adapting for Growth",
+          "expectedStart": 905.44,
+          "expectedEnd": 1094.1,
+          "actualStart": 912.937875,
+          "actualEnd": 1101.600708,
+          "timeDifference": 7.497874999999908
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Supportive Environments and Relationships",
+          "expectedStart": 1094.1,
+          "expectedEnd": 1272.06,
+          "actualStart": 1103.100708,
+          "actualEnd": 1281.057333,
+          "timeDifference": 9.000708000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mastering Self-Discipline and Willpower",
+          "expectedStart": 1272.06,
+          "expectedEnd": 1436.23,
+          "actualStart": 1282.557333,
+          "actualEnd": 1446.726625,
+          "timeDifference": 10.497333000000026
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reigniting Motivation During Slumps and Setbacks",
+          "expectedStart": 1436.23,
+          "expectedEnd": 1619.28,
+          "actualStart": 1448.226625,
+          "actualEnd": 1631.276417,
+          "timeDifference": 11.996624999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Motivation into Daily Life",
+          "expectedStart": 1619.28,
+          "expectedEnd": 1788.1,
+          "actualStart": 1632.776417,
+          "actualEnd": 1801.5965,
+          "timeDifference": 13.496417000000065
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth and Inspiring Others",
+          "expectedStart": 1788.1,
+          "expectedEnd": 1920.13,
+          "actualStart": 1803.0965,
+          "actualEnd": 1935.123417,
+          "timeDifference": 14.996500000000196
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1920.13,
+          "expectedEnd": 2062.66,
+          "actualStart": 1936.623417,
+          "actualEnd": 2079.1485000000002,
+          "timeDifference": 16.49341699999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.4855,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Self-Motivation and Taking Ownership"
+        },
+        {
+          "startTime": 284.272375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Self-Motivation and Taking Ownership and Chapter 2 Building Momentum Through Small Actions and Consistent Habits"
+        },
+        {
+          "startTime": 492.385917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Momentum Through Small Actions and Consistent Habits and Chapter 3 Harnessing the Power of Visualization and Positive Thinking"
+        },
+        {
+          "startTime": 697.444542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Harnessing the Power of Visualization and Positive Thinking and Chapter 4 Overcoming Fear, Doubt, and Procrastination"
+        },
+        {
+          "startTime": 911.437875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Overcoming Fear, Doubt, and Procrastination and Chapter 5 Embracing Failure and Adapting for Growth"
+        },
+        {
+          "startTime": 1101.600708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Failure and Adapting for Growth and Chapter 6 Cultivating Supportive Environments and Relationships"
+        },
+        {
+          "startTime": 1281.057333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Supportive Environments and Relationships and Chapter 7 Mastering Self-Discipline and Willpower"
+        },
+        {
+          "startTime": 1446.726625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mastering Self-Discipline and Willpower and Chapter 8 Reigniting Motivation During Slumps and Setbacks"
+        },
+        {
+          "startTime": 1631.276417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reigniting Motivation During Slumps and Setbacks and Chapter 9 Integrating Motivation into Daily Life"
+        },
+        {
+          "startTime": 1801.5965,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Motivation into Daily Life and Chapter 10 Sustaining Growth and Inspiring Others"
+        },
+        {
+          "startTime": 1935.123417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "468",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T05:00:05.830Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "bookId": "1157",
+  "timestamp": "2025-07-06T18:04:04.192Z",
+  "success": false,
+  "processingTime": -1751824602611,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5338,
+    "totalAudioFiles": 14,
+    "totalDuration": 2430.3477929999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2430.3477929999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1157/optimized_text/1157.md",
+    "fileSize": 890,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "1157.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1157/metadata/1157_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2430.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1157/metadata/1157_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1157/metadata/1157_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1157/1157_complete.wav",
+    "duration": 2430.347792,
+    "fileSize": 116656772,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1157/introduction.wav",
+          "duration": 108.130792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.130792,
+          "startTime": 0,
+          "endTime": 108.130792
+        },
+        {
+          "path": "Audio/output/1157/chapter_01.wav",
+          "duration": 205.681417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in Paris: The First Taste of Uncertainty",
+          "actualDuration": 205.681417,
+          "startTime": 109.630792,
+          "endTime": 315.312209
+        },
+        {
+          "path": "Audio/output/1157/chapter_02.wav",
+          "duration": 214.012708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life Among the Working Poor: The World of the Paris Kitchens",
+          "actualDuration": 214.012708,
+          "startTime": 316.812209,
+          "endTime": 530.824917
+        },
+        {
+          "path": "Audio/output/1157/chapter_03.wav",
+          "duration": 213.368625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Descent into Destitution: Hunger, Shame, and Survival",
+          "actualDuration": 213.368625,
+          "startTime": 532.324917,
+          "endTime": 745.693542
+        },
+        {
+          "path": "Audio/output/1157/chapter_04.wav",
+          "duration": 235.668625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Crossing the Channel: New Hardships in London",
+          "actualDuration": 235.668625,
+          "startTime": 747.193542,
+          "endTime": 982.862167
+        },
+        {
+          "path": "Audio/output/1157/chapter_05.wav",
+          "duration": 179.841833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Hidden Realities of Poverty: Lessons from the Margins",
+          "actualDuration": 179.841833,
+          "startTime": 984.362167,
+          "endTime": 1164.204
+        },
+        {
+          "path": "Audio/output/1157/chapter_06.wav",
+          "duration": 215.880667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Routine of the Road: Life as a Tramp",
+          "actualDuration": 215.880667,
+          "startTime": 1165.704,
+          "endTime": 1381.5846669999999
+        },
+        {
+          "path": "Audio/output/1157/chapter_07.wav",
+          "duration": 173.750542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Machinery of Charity: Shelters, Workhouses, and the System",
+          "actualDuration": 173.750542,
+          "startTime": 1383.0846669999999,
+          "endTime": 1556.8352089999998
+        },
+        {
+          "path": "Audio/output/1157/chapter_08.wav",
+          "duration": 153.891042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Social Web: Friendship, Betrayal, and Solidarity",
+          "actualDuration": 153.891042,
+          "startTime": 1558.3352089999998,
+          "endTime": 1712.2262509999998
+        },
+        {
+          "path": "Audio/output/1157/chapter_09.wav",
+          "duration": 160.359042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Psychology of Poverty: Shame, Resilience, and Identity",
+          "actualDuration": 160.359042,
+          "startTime": 1713.7262509999998,
+          "endTime": 1874.0852929999999
+        },
+        {
+          "path": "Audio/output/1157/chapter_10.wav",
+          "duration": 166.399125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Invisible Barriers: Class, Prejudice, and the Limits of Empathy",
+          "actualDuration": 166.399125,
+          "startTime": 1875.5852929999999,
+          "endTime": 2041.9844179999998
+        },
+        {
+          "path": "Audio/output/1157/chapter_11.wav",
+          "duration": 129.69525,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Cost of Survival: Health, Safety, and the Body",
+          "actualDuration": 129.69525,
+          "startTime": 2043.4844179999998,
+          "endTime": 2173.1796679999998
+        },
+        {
+          "path": "Audio/output/1157/chapter_12.wav",
+          "duration": 130.782417,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Enduring Spirit: Hope, Humor, and the Will to Live",
+          "actualDuration": 130.782417,
+          "startTime": 2174.6796679999998,
+          "endTime": 2305.4620849999997
+        },
+        {
+          "path": "Audio/output/1157/conclusion.wav",
+          "duration": 142.885708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.885708,
+          "startTime": 2306.9620849999997,
+          "endTime": 2449.8477929999995
+        }
+      ],
+      "totalDuration": 2449.8477929999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.13,
+          "actualStart": 0,
+          "actualEnd": 108.130792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in Paris: The First Taste of Uncertainty",
+          "expectedStart": 108.13,
+          "expectedEnd": 313.81,
+          "actualStart": 109.630792,
+          "actualEnd": 315.312209,
+          "timeDifference": 1.5007920000000041
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life Among the Working Poor: The World of the Paris Kitchens",
+          "expectedStart": 313.81,
+          "expectedEnd": 527.82,
+          "actualStart": 316.812209,
+          "actualEnd": 530.824917,
+          "timeDifference": 3.0022089999999935
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Descent into Destitution: Hunger, Shame, and Survival",
+          "expectedStart": 527.82,
+          "expectedEnd": 741.19,
+          "actualStart": 532.324917,
+          "actualEnd": 745.693542,
+          "timeDifference": 4.504916999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Crossing the Channel: New Hardships in London",
+          "expectedStart": 741.19,
+          "expectedEnd": 976.86,
+          "actualStart": 747.193542,
+          "actualEnd": 982.862167,
+          "timeDifference": 6.003541999999925
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Hidden Realities of Poverty: Lessons from the Margins",
+          "expectedStart": 976.86,
+          "expectedEnd": 1156.7,
+          "actualStart": 984.362167,
+          "actualEnd": 1164.204,
+          "timeDifference": 7.502166999999986
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Routine of the Road: Life as a Tramp",
+          "expectedStart": 1156.7,
+          "expectedEnd": 1372.58,
+          "actualStart": 1165.704,
+          "actualEnd": 1381.5846669999999,
+          "timeDifference": 9.003999999999905
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Machinery of Charity: Shelters, Workhouses, and the System",
+          "expectedStart": 1372.58,
+          "expectedEnd": 1546.33,
+          "actualStart": 1383.0846669999999,
+          "actualEnd": 1556.8352089999998,
+          "timeDifference": 10.504666999999927
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Social Web: Friendship, Betrayal, and Solidarity",
+          "expectedStart": 1546.33,
+          "expectedEnd": 1700.22,
+          "actualStart": 1558.3352089999998,
+          "actualEnd": 1712.2262509999998,
+          "timeDifference": 12.005208999999923
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Psychology of Poverty: Shame, Resilience, and Identity",
+          "expectedStart": 1700.22,
+          "expectedEnd": 1860.58,
+          "actualStart": 1713.7262509999998,
+          "actualEnd": 1874.0852929999999,
+          "timeDifference": 13.506250999999793
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Invisible Barriers: Class, Prejudice, and the Limits of Empathy",
+          "expectedStart": 1860.58,
+          "expectedEnd": 2026.98,
+          "actualStart": 1875.5852929999999,
+          "actualEnd": 2041.9844179999998,
+          "timeDifference": 15.005292999999938
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Cost of Survival: Health, Safety, and the Body",
+          "expectedStart": 2026.98,
+          "expectedEnd": 2156.68,
+          "actualStart": 2043.4844179999998,
+          "actualEnd": 2173.1796679999998,
+          "timeDifference": 16.50441799999976
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Enduring Spirit: Hope, Humor, and the Will to Live",
+          "expectedStart": 2156.68,
+          "expectedEnd": 2287.46,
+          "actualStart": 2174.6796679999998,
+          "actualEnd": 2305.4620849999997,
+          "timeDifference": 17.99966799999993
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2287.46,
+          "expectedEnd": 2430.35,
+          "actualStart": 2306.9620849999997,
+          "actualEnd": 2449.8477929999995,
+          "timeDifference": 19.502084999999624
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.130792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in Paris: The First Taste of Uncertainty"
+        },
+        {
+          "startTime": 315.312209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in Paris: The First Taste of Uncertainty and Chapter 2 Life Among the Working Poor: The World of the Paris Kitchens"
+        },
+        {
+          "startTime": 530.824917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life Among the Working Poor: The World of the Paris Kitchens and Chapter 3 The Descent into Destitution: Hunger, Shame, and Survival"
+        },
+        {
+          "startTime": 745.693542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Descent into Destitution: Hunger, Shame, and Survival and Chapter 4 Crossing the Channel: New Hardships in London"
+        },
+        {
+          "startTime": 982.862167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Crossing the Channel: New Hardships in London and Chapter 5 The Hidden Realities of Poverty: Lessons from the Margins"
+        },
+        {
+          "startTime": 1164.204,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Hidden Realities of Poverty: Lessons from the Margins and Chapter 6 The Routine of the Road: Life as a Tramp"
+        },
+        {
+          "startTime": 1381.5846669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Routine of the Road: Life as a Tramp and Chapter 7 The Machinery of Charity: Shelters, Workhouses, and the System"
+        },
+        {
+          "startTime": 1556.8352089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Machinery of Charity: Shelters, Workhouses, and the System and Chapter 8 The Social Web: Friendship, Betrayal, and Solidarity"
+        },
+        {
+          "startTime": 1712.2262509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Social Web: Friendship, Betrayal, and Solidarity and Chapter 9 The Psychology of Poverty: Shame, Resilience, and Identity"
+        },
+        {
+          "startTime": 1874.0852929999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Psychology of Poverty: Shame, Resilience, and Identity and Chapter 10 The Invisible Barriers: Class, Prejudice, and the Limits of Empathy"
+        },
+        {
+          "startTime": 2041.9844179999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Invisible Barriers: Class, Prejudice, and the Limits of Empathy and Chapter 11 The Cost of Survival: Health, Safety, and the Body"
+        },
+        {
+          "startTime": 2173.1796679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Cost of Survival: Health, Safety, and the Body and Chapter 12 The Enduring Spirit: Hope, Humor, and the Will to Live"
+        },
+        {
+          "startTime": 2305.4620849999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Enduring Spirit: Hope, Humor, and the Will to Live and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1157",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T17:56:43.789Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

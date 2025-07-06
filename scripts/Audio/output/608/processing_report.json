@@ -1,0 +1,456 @@
+{
+  "bookId": "608",
+  "timestamp": "2025-07-04T21:39:53.185Z",
+  "success": false,
+  "processingTime": -1751664804422,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3875,
+    "totalAudioFiles": 12,
+    "totalDuration": 1971.2708760000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1971.2708760000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/608/optimized_text/608.md",
+    "fileSize": 699,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "608.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/608/metadata/608_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1971.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/608/metadata/608_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/608/metadata/608_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/608/608_complete.wav",
+    "duration": 1971.270875,
+    "fileSize": 94621080,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/608/introduction.wav",
+          "duration": 94.746417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.746417,
+          "startTime": 0,
+          "endTime": 94.746417
+        },
+        {
+          "path": "Audio/output/608/chapter_01.wav",
+          "duration": 212.588417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Big Changes Often Fail and Small Steps Succeed",
+          "actualDuration": 212.588417,
+          "startTime": 96.246417,
+          "endTime": 308.834834
+        },
+        {
+          "path": "Audio/output/608/chapter_02.wav",
+          "duration": 193.76275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science Behind Small Steps and the Brain’s Response to Change",
+          "actualDuration": 193.76275,
+          "startTime": 310.334834,
+          "endTime": 504.097584
+        },
+        {
+          "path": "Audio/output/608/chapter_03.wav",
+          "duration": 164.961208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Asking Small Questions to Spark Change",
+          "actualDuration": 164.961208,
+          "startTime": 505.597584,
+          "endTime": 670.558792
+        },
+        {
+          "path": "Audio/output/608/chapter_04.wav",
+          "duration": 180.343417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Taking Small Actions to Build Momentum",
+          "actualDuration": 180.343417,
+          "startTime": 672.058792,
+          "endTime": 852.4022090000001
+        },
+        {
+          "path": "Audio/output/608/chapter_05.wav",
+          "duration": 193.974542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Using Visualization and Mindfulness to Support Small Changes",
+          "actualDuration": 193.974542,
+          "startTime": 853.9022090000001,
+          "endTime": 1047.876751
+        },
+        {
+          "path": "Audio/output/608/chapter_06.wav",
+          "duration": 164.20175,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Overcoming Plateaus and Sustaining Motivation",
+          "actualDuration": 164.20175,
+          "startTime": 1049.376751,
+          "endTime": 1213.578501
+        },
+        {
+          "path": "Audio/output/608/chapter_07.wav",
+          "duration": 179.39725,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Kaizen into Work and Team Environments",
+          "actualDuration": 179.39725,
+          "startTime": 1215.078501,
+          "endTime": 1394.475751
+        },
+        {
+          "path": "Audio/output/608/chapter_08.wav",
+          "duration": 146.060167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying Kaizen to Relationships and Communication",
+          "actualDuration": 146.060167,
+          "startTime": 1395.975751,
+          "endTime": 1542.035918
+        },
+        {
+          "path": "Audio/output/608/chapter_09.wav",
+          "duration": 144.896625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Building Resilience",
+          "actualDuration": 144.896625,
+          "startTime": 1543.535918,
+          "endTime": 1688.4325430000001
+        },
+        {
+          "path": "Audio/output/608/chapter_10.wav",
+          "duration": 159.201375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Personal Kaizen Practice for Lifelong Growth",
+          "actualDuration": 159.201375,
+          "startTime": 1689.9325430000001,
+          "endTime": 1849.1339180000002
+        },
+        {
+          "path": "Audio/output/608/conclusion.wav",
+          "duration": 137.136958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.136958,
+          "startTime": 1850.6339180000002,
+          "endTime": 1987.7708760000003
+        }
+      ],
+      "totalDuration": 1987.7708760000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.75,
+          "actualStart": 0,
+          "actualEnd": 94.746417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Big Changes Often Fail and Small Steps Succeed",
+          "expectedStart": 94.75,
+          "expectedEnd": 307.34,
+          "actualStart": 96.246417,
+          "actualEnd": 308.834834,
+          "timeDifference": 1.496416999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science Behind Small Steps and the Brain’s Response to Change",
+          "expectedStart": 307.34,
+          "expectedEnd": 501.1,
+          "actualStart": 310.334834,
+          "actualEnd": 504.097584,
+          "timeDifference": 2.9948340000000258
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Asking Small Questions to Spark Change",
+          "expectedStart": 501.1,
+          "expectedEnd": 666.06,
+          "actualStart": 505.597584,
+          "actualEnd": 670.558792,
+          "timeDifference": 4.497583999999961
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Taking Small Actions to Build Momentum",
+          "expectedStart": 666.06,
+          "expectedEnd": 846.4,
+          "actualStart": 672.058792,
+          "actualEnd": 852.4022090000001,
+          "timeDifference": 5.998792000000094
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Using Visualization and Mindfulness to Support Small Changes",
+          "expectedStart": 846.4,
+          "expectedEnd": 1040.37,
+          "actualStart": 853.9022090000001,
+          "actualEnd": 1047.876751,
+          "timeDifference": 7.502209000000107
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Overcoming Plateaus and Sustaining Motivation",
+          "expectedStart": 1040.37,
+          "expectedEnd": 1204.57,
+          "actualStart": 1049.376751,
+          "actualEnd": 1213.578501,
+          "timeDifference": 9.006751000000122
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Kaizen into Work and Team Environments",
+          "expectedStart": 1204.57,
+          "expectedEnd": 1383.97,
+          "actualStart": 1215.078501,
+          "actualEnd": 1394.475751,
+          "timeDifference": 10.508501000000024
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying Kaizen to Relationships and Communication",
+          "expectedStart": 1383.97,
+          "expectedEnd": 1530.03,
+          "actualStart": 1395.975751,
+          "actualEnd": 1542.035918,
+          "timeDifference": 12.005750999999918
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Building Resilience",
+          "expectedStart": 1530.03,
+          "expectedEnd": 1674.93,
+          "actualStart": 1543.535918,
+          "actualEnd": 1688.4325430000001,
+          "timeDifference": 13.505918000000065
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Personal Kaizen Practice for Lifelong Growth",
+          "expectedStart": 1674.93,
+          "expectedEnd": 1834.13,
+          "actualStart": 1689.9325430000001,
+          "actualEnd": 1849.1339180000002,
+          "timeDifference": 15.00254300000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1834.13,
+          "expectedEnd": 1971.27,
+          "actualStart": 1850.6339180000002,
+          "actualEnd": 1987.7708760000003,
+          "timeDifference": 16.503918000000112
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.746417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Big Changes Often Fail and Small Steps Succeed"
+        },
+        {
+          "startTime": 308.834834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Big Changes Often Fail and Small Steps Succeed and Chapter 2 The Science Behind Small Steps and the Brain’s Response to Change"
+        },
+        {
+          "startTime": 504.097584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science Behind Small Steps and the Brain’s Response to Change and Chapter 3 Asking Small Questions to Spark Change"
+        },
+        {
+          "startTime": 670.558792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Asking Small Questions to Spark Change and Chapter 4 Taking Small Actions to Build Momentum"
+        },
+        {
+          "startTime": 852.4022090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Taking Small Actions to Build Momentum and Chapter 5 Using Visualization and Mindfulness to Support Small Changes"
+        },
+        {
+          "startTime": 1047.876751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Using Visualization and Mindfulness to Support Small Changes and Chapter 6 Overcoming Plateaus and Sustaining Motivation"
+        },
+        {
+          "startTime": 1213.578501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Overcoming Plateaus and Sustaining Motivation and Chapter 7 Integrating Kaizen into Work and Team Environments"
+        },
+        {
+          "startTime": 1394.475751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Kaizen into Work and Team Environments and Chapter 8 Applying Kaizen to Relationships and Communication"
+        },
+        {
+          "startTime": 1542.035918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying Kaizen to Relationships and Communication and Chapter 9 Navigating Setbacks and Building Resilience"
+        },
+        {
+          "startTime": 1688.4325430000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Building Resilience and Chapter 10 Creating a Personal Kaizen Practice for Lifelong Growth"
+        },
+        {
+          "startTime": 1849.1339180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Personal Kaizen Practice for Lifelong Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "608",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T21:33:25.636Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

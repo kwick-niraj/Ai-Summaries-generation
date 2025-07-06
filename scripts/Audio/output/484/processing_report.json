@@ -1,0 +1,456 @@
+{
+  "bookId": "484",
+  "timestamp": "2025-07-04T06:19:15.075Z",
+  "success": false,
+  "processingTime": -1751609604192,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4035,
+    "totalAudioFiles": 12,
+    "totalDuration": 2025.671707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2025.671707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/484/optimized_text/484.md",
+    "fileSize": 749,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "484.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/484/metadata/484_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2025.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/484/metadata/484_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/484/metadata/484_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/484/484_complete.wav",
+    "duration": 2025.671708,
+    "fileSize": 97232320,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/484/introduction.wav",
+          "duration": 103.589333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.589333,
+          "startTime": 0,
+          "endTime": 103.589333
+        },
+        {
+          "path": "Audio/output/484/chapter_01.wav",
+          "duration": 170.457958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Talent: Skill as a Grown, Not Given, Ability",
+          "actualDuration": 170.457958,
+          "startTime": 105.089333,
+          "endTime": 275.547291
+        },
+        {
+          "path": "Audio/output/484/chapter_02.wav",
+          "duration": 194.501333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Brain’s Secret Ingredient: How Myelin Shapes Skill",
+          "actualDuration": 194.501333,
+          "startTime": 277.047291,
+          "endTime": 471.54862399999996
+        },
+        {
+          "path": "Audio/output/484/chapter_03.wav",
+          "duration": 204.184708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Deep Practice: The Art of Struggling at the Edge",
+          "actualDuration": 204.184708,
+          "startTime": 473.04862399999996,
+          "endTime": 677.233332
+        },
+        {
+          "path": "Audio/output/484/chapter_04.wav",
+          "duration": 207.247625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Motivation: Ignition and the Drive to Improve",
+          "actualDuration": 207.247625,
+          "startTime": 678.733332,
+          "endTime": 885.980957
+        },
+        {
+          "path": "Audio/output/484/chapter_05.wav",
+          "duration": 223.590708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Coaching: Guiding, Challenging, and Inspiring Growth",
+          "actualDuration": 223.590708,
+          "startTime": 887.480957,
+          "endTime": 1111.071665
+        },
+        {
+          "path": "Audio/output/484/chapter_06.wav",
+          "duration": 190.283792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Talent Hotbeds: How Environment Shapes Skill",
+          "actualDuration": 190.283792,
+          "startTime": 1112.571665,
+          "endTime": 1302.855457
+        },
+        {
+          "path": "Audio/output/484/chapter_07.wav",
+          "duration": 149.495125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Culture Code: Beliefs and Behaviors That Fuel Growth",
+          "actualDuration": 149.495125,
+          "startTime": 1304.355457,
+          "endTime": 1453.8505819999998
+        },
+        {
+          "path": "Audio/output/484/chapter_08.wav",
+          "duration": 179.126667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Practical Tools: Applying the Talent Code in Daily Life",
+          "actualDuration": 179.126667,
+          "startTime": 1455.3505819999998,
+          "endTime": 1634.4772489999998
+        },
+        {
+          "path": "Audio/output/484/chapter_09.wav",
+          "duration": 157.328958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Obstacles: Navigating Plateaus and Setbacks",
+          "actualDuration": 157.328958,
+          "startTime": 1635.9772489999998,
+          "endTime": 1793.3062069999999
+        },
+        {
+          "path": "Audio/output/484/chapter_10.wav",
+          "duration": 121.156167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long View: Lifelong Learning and the Ongoing Journey",
+          "actualDuration": 121.156167,
+          "startTime": 1794.8062069999999,
+          "endTime": 1915.962374
+        },
+        {
+          "path": "Audio/output/484/conclusion.wav",
+          "duration": 124.709333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.709333,
+          "startTime": 1917.462374,
+          "endTime": 2042.171707
+        }
+      ],
+      "totalDuration": 2042.171707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.59,
+          "actualStart": 0,
+          "actualEnd": 103.589333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Talent: Skill as a Grown, Not Given, Ability",
+          "expectedStart": 103.59,
+          "expectedEnd": 274.05,
+          "actualStart": 105.089333,
+          "actualEnd": 275.547291,
+          "timeDifference": 1.499332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Brain’s Secret Ingredient: How Myelin Shapes Skill",
+          "expectedStart": 274.05,
+          "expectedEnd": 468.55,
+          "actualStart": 277.047291,
+          "actualEnd": 471.54862399999996,
+          "timeDifference": 2.9972909999999615
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Deep Practice: The Art of Struggling at the Edge",
+          "expectedStart": 468.55,
+          "expectedEnd": 672.73,
+          "actualStart": 473.04862399999996,
+          "actualEnd": 677.233332,
+          "timeDifference": 4.49862399999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Motivation: Ignition and the Drive to Improve",
+          "expectedStart": 672.73,
+          "expectedEnd": 879.98,
+          "actualStart": 678.733332,
+          "actualEnd": 885.980957,
+          "timeDifference": 6.003332
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Coaching: Guiding, Challenging, and Inspiring Growth",
+          "expectedStart": 879.98,
+          "expectedEnd": 1103.57,
+          "actualStart": 887.480957,
+          "actualEnd": 1111.071665,
+          "timeDifference": 7.500956999999971
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Talent Hotbeds: How Environment Shapes Skill",
+          "expectedStart": 1103.57,
+          "expectedEnd": 1293.85,
+          "actualStart": 1112.571665,
+          "actualEnd": 1302.855457,
+          "timeDifference": 9.001665000000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Culture Code: Beliefs and Behaviors That Fuel Growth",
+          "expectedStart": 1293.85,
+          "expectedEnd": 1443.35,
+          "actualStart": 1304.355457,
+          "actualEnd": 1453.8505819999998,
+          "timeDifference": 10.505456999999979
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Practical Tools: Applying the Talent Code in Daily Life",
+          "expectedStart": 1443.35,
+          "expectedEnd": 1622.48,
+          "actualStart": 1455.3505819999998,
+          "actualEnd": 1634.4772489999998,
+          "timeDifference": 12.000581999999895
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Obstacles: Navigating Plateaus and Setbacks",
+          "expectedStart": 1622.48,
+          "expectedEnd": 1779.81,
+          "actualStart": 1635.9772489999998,
+          "actualEnd": 1793.3062069999999,
+          "timeDifference": 13.497248999999783
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long View: Lifelong Learning and the Ongoing Journey",
+          "expectedStart": 1779.81,
+          "expectedEnd": 1900.97,
+          "actualStart": 1794.8062069999999,
+          "actualEnd": 1915.962374,
+          "timeDifference": 14.996206999999913
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1900.97,
+          "expectedEnd": 2025.68,
+          "actualStart": 1917.462374,
+          "actualEnd": 2042.171707,
+          "timeDifference": 16.492373999999927
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.589333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Talent: Skill as a Grown, Not Given, Ability"
+        },
+        {
+          "startTime": 275.547291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Talent: Skill as a Grown, Not Given, Ability and Chapter 2 The Brain’s Secret Ingredient: How Myelin Shapes Skill"
+        },
+        {
+          "startTime": 471.54862399999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Brain’s Secret Ingredient: How Myelin Shapes Skill and Chapter 3 Deep Practice: The Art of Struggling at the Edge"
+        },
+        {
+          "startTime": 677.233332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Deep Practice: The Art of Struggling at the Edge and Chapter 4 The Power of Motivation: Ignition and the Drive to Improve"
+        },
+        {
+          "startTime": 885.980957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Motivation: Ignition and the Drive to Improve and Chapter 5 The Role of Coaching: Guiding, Challenging, and Inspiring Growth"
+        },
+        {
+          "startTime": 1111.071665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Coaching: Guiding, Challenging, and Inspiring Growth and Chapter 6 Talent Hotbeds: How Environment Shapes Skill"
+        },
+        {
+          "startTime": 1302.855457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Talent Hotbeds: How Environment Shapes Skill and Chapter 7 The Culture Code: Beliefs and Behaviors That Fuel Growth"
+        },
+        {
+          "startTime": 1453.8505819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Culture Code: Beliefs and Behaviors That Fuel Growth and Chapter 8 Practical Tools: Applying the Talent Code in Daily Life"
+        },
+        {
+          "startTime": 1634.4772489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Practical Tools: Applying the Talent Code in Daily Life and Chapter 9 Overcoming Obstacles: Navigating Plateaus and Setbacks"
+        },
+        {
+          "startTime": 1793.3062069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Obstacles: Navigating Plateaus and Setbacks and Chapter 10 The Long View: Lifelong Learning and the Ongoing Journey"
+        },
+        {
+          "startTime": 1915.962374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long View: Lifelong Learning and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "484",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T06:13:25.899Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

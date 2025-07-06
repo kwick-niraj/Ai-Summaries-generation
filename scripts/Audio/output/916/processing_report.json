@@ -1,0 +1,456 @@
+{
+  "bookId": "916",
+  "timestamp": "2025-07-05T15:37:53.953Z",
+  "success": false,
+  "processingTime": -1751729569405,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4014,
+    "totalAudioFiles": 12,
+    "totalDuration": 2023.0201669999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2023.0201669999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/916/optimized_text/916.md",
+    "fileSize": 804,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "916.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/916/metadata/916_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2023.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/916/metadata/916_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/916/metadata/916_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/916/916_complete.wav",
+    "duration": 2023.020167,
+    "fileSize": 97105046,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/916/introduction.wav",
+          "duration": 101.861667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.861667,
+          "startTime": 0,
+          "endTime": 101.861667
+        },
+        {
+          "path": "Audio/output/916/chapter_01.wav",
+          "duration": 196.278083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Willpower: The Foundation of Self-Control",
+          "actualDuration": 196.278083,
+          "startTime": 103.361667,
+          "endTime": 299.63975
+        },
+        {
+          "path": "Audio/output/916/chapter_02.wav",
+          "duration": 191.506625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science of Ego Depletion: Why Self-Control Wears Down",
+          "actualDuration": 191.506625,
+          "startTime": 301.13975,
+          "endTime": 492.64637500000003
+        },
+        {
+          "path": "Audio/output/916/chapter_03.wav",
+          "duration": 191.353458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Setting Goals and Monitoring Progress: The Structure of Self-Regulation",
+          "actualDuration": 191.353458,
+          "startTime": 494.14637500000003,
+          "endTime": 685.4998330000001
+        },
+        {
+          "path": "Audio/output/916/chapter_04.wav",
+          "duration": 145.803042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Willpower Through Small Acts and Habits",
+          "actualDuration": 145.803042,
+          "startTime": 686.9998330000001,
+          "endTime": 832.8028750000001
+        },
+        {
+          "path": "Audio/output/916/chapter_05.wav",
+          "duration": 171.796167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Planning for Setbacks and Creating Supportive Environments",
+          "actualDuration": 171.796167,
+          "startTime": 834.3028750000001,
+          "endTime": 1006.099042
+        },
+        {
+          "path": "Audio/output/916/chapter_06.wav",
+          "duration": 183.544833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Willpower in Health: Managing Cravings, Diet, and Addiction",
+          "actualDuration": 183.544833,
+          "startTime": 1007.599042,
+          "endTime": 1191.143875
+        },
+        {
+          "path": "Audio/output/916/chapter_07.wav",
+          "duration": 187.080583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Willpower at Work: Focus, Procrastination, and Productivity",
+          "actualDuration": 187.080583,
+          "startTime": 1192.643875,
+          "endTime": 1379.724458
+        },
+        {
+          "path": "Audio/output/916/chapter_08.wav",
+          "duration": 192.582542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Willpower in Relationships: Patience, Forgiveness, and Emotional Regulation",
+          "actualDuration": 192.582542,
+          "startTime": 1381.224458,
+          "endTime": 1573.8069999999998
+        },
+        {
+          "path": "Audio/output/916/chapter_09.wav",
+          "duration": 158.063167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Willpower: Self-Compassion and Acceptance",
+          "actualDuration": 158.063167,
+          "startTime": 1575.3069999999998,
+          "endTime": 1733.3701669999998
+        },
+        {
+          "path": "Audio/output/916/chapter_10.wav",
+          "duration": 162.172375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Willpower: Rituals, Meaning, and Long-Term Motivation",
+          "actualDuration": 162.172375,
+          "startTime": 1734.8701669999998,
+          "endTime": 1897.0425419999997
+        },
+        {
+          "path": "Audio/output/916/conclusion.wav",
+          "duration": 140.977625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.977625,
+          "startTime": 1898.5425419999997,
+          "endTime": 2039.5201669999997
+        }
+      ],
+      "totalDuration": 2039.5201669999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.86,
+          "actualStart": 0,
+          "actualEnd": 101.861667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Willpower: The Foundation of Self-Control",
+          "expectedStart": 101.86,
+          "expectedEnd": 298.14,
+          "actualStart": 103.361667,
+          "actualEnd": 299.63975,
+          "timeDifference": 1.5016669999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science of Ego Depletion: Why Self-Control Wears Down",
+          "expectedStart": 298.14,
+          "expectedEnd": 489.65,
+          "actualStart": 301.13975,
+          "actualEnd": 492.64637500000003,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Setting Goals and Monitoring Progress: The Structure of Self-Regulation",
+          "expectedStart": 489.65,
+          "expectedEnd": 681,
+          "actualStart": 494.14637500000003,
+          "actualEnd": 685.4998330000001,
+          "timeDifference": 4.496375000000057
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Willpower Through Small Acts and Habits",
+          "expectedStart": 681,
+          "expectedEnd": 826.8,
+          "actualStart": 686.9998330000001,
+          "actualEnd": 832.8028750000001,
+          "timeDifference": 5.999833000000081
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Planning for Setbacks and Creating Supportive Environments",
+          "expectedStart": 826.8,
+          "expectedEnd": 998.6,
+          "actualStart": 834.3028750000001,
+          "actualEnd": 1006.099042,
+          "timeDifference": 7.502875000000131
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Willpower in Health: Managing Cravings, Diet, and Addiction",
+          "expectedStart": 998.6,
+          "expectedEnd": 1182.14,
+          "actualStart": 1007.599042,
+          "actualEnd": 1191.143875,
+          "timeDifference": 8.999042000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Willpower at Work: Focus, Procrastination, and Productivity",
+          "expectedStart": 1182.14,
+          "expectedEnd": 1369.22,
+          "actualStart": 1192.643875,
+          "actualEnd": 1379.724458,
+          "timeDifference": 10.50387499999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Willpower in Relationships: Patience, Forgiveness, and Emotional Regulation",
+          "expectedStart": 1369.22,
+          "expectedEnd": 1561.8,
+          "actualStart": 1381.224458,
+          "actualEnd": 1573.8069999999998,
+          "timeDifference": 12.004457999999886
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Willpower: Self-Compassion and Acceptance",
+          "expectedStart": 1561.8,
+          "expectedEnd": 1719.86,
+          "actualStart": 1575.3069999999998,
+          "actualEnd": 1733.3701669999998,
+          "timeDifference": 13.506999999999834
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Willpower: Rituals, Meaning, and Long-Term Motivation",
+          "expectedStart": 1719.86,
+          "expectedEnd": 1882.03,
+          "actualStart": 1734.8701669999998,
+          "actualEnd": 1897.0425419999997,
+          "timeDifference": 15.01016699999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1882.03,
+          "expectedEnd": 2023.01,
+          "actualStart": 1898.5425419999997,
+          "actualEnd": 2039.5201669999997,
+          "timeDifference": 16.512541999999712
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.861667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Willpower: The Foundation of Self-Control"
+        },
+        {
+          "startTime": 299.63975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Willpower: The Foundation of Self-Control and Chapter 2 The Science of Ego Depletion: Why Self-Control Wears Down"
+        },
+        {
+          "startTime": 492.64637500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science of Ego Depletion: Why Self-Control Wears Down and Chapter 3 Setting Goals and Monitoring Progress: The Structure of Self-Regulation"
+        },
+        {
+          "startTime": 685.4998330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Setting Goals and Monitoring Progress: The Structure of Self-Regulation and Chapter 4 Building Willpower Through Small Acts and Habits"
+        },
+        {
+          "startTime": 832.8028750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Willpower Through Small Acts and Habits and Chapter 5 Planning for Setbacks and Creating Supportive Environments"
+        },
+        {
+          "startTime": 1006.099042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Planning for Setbacks and Creating Supportive Environments and Chapter 6 Willpower in Health: Managing Cravings, Diet, and Addiction"
+        },
+        {
+          "startTime": 1191.143875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Willpower in Health: Managing Cravings, Diet, and Addiction and Chapter 7 Willpower at Work: Focus, Procrastination, and Productivity"
+        },
+        {
+          "startTime": 1379.724458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Willpower at Work: Focus, Procrastination, and Productivity and Chapter 8 Willpower in Relationships: Patience, Forgiveness, and Emotional Regulation"
+        },
+        {
+          "startTime": 1573.8069999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Willpower in Relationships: Patience, Forgiveness, and Emotional Regulation and Chapter 9 The Limits of Willpower: Self-Compassion and Acceptance"
+        },
+        {
+          "startTime": 1733.3701669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Willpower: Self-Compassion and Acceptance and Chapter 10 Sustaining Willpower: Rituals, Meaning, and Long-Term Motivation"
+        },
+        {
+          "startTime": 1897.0425419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Willpower: Rituals, Meaning, and Long-Term Motivation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "916",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:32:51.261Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

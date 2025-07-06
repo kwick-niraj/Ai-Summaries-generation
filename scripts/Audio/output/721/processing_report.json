@@ -1,0 +1,455 @@
+{
+  "bookId": "721",
+  "timestamp": "2025-07-05T04:39:01.163Z",
+  "success": false,
+  "processingTime": -1751690113484,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4604,
+    "totalAudioFiles": 12,
+    "totalDuration": 1981.9697919999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1981.9697919999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/721/optimized_text/721.md",
+    "fileSize": 586,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "721.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/721/metadata/721_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1981.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/721/metadata/721_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/721/metadata/721_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/721/721_complete.wav",
+    "duration": 1981.969792,
+    "fileSize": 95134628,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/721/introduction.wav",
+          "duration": 66.849375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 66.849375,
+          "startTime": 0,
+          "endTime": 66.849375
+        },
+        {
+          "path": "Audio/output/721/chapter_01.wav",
+          "duration": 221.62125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Stories We’re Told and the Ones We Never Hear",
+          "actualDuration": 221.62125,
+          "startTime": 68.349375,
+          "endTime": 289.970625
+        },
+        {
+          "path": "Audio/output/721/chapter_02.wav",
+          "duration": 248.209417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Africa’s Civilizations: More Than a Footnote",
+          "actualDuration": 248.209417,
+          "startTime": 291.470625,
+          "endTime": 539.680042
+        },
+        {
+          "path": "Audio/output/721/chapter_03.wav",
+          "duration": 209.783083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Colonization Shaped the World We Live In",
+          "actualDuration": 209.783083,
+          "startTime": 541.180042,
+          "endTime": 750.963125
+        },
+        {
+          "path": "Audio/output/721/chapter_04.wav",
+          "duration": 192.882667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Power, Truth, and the Making of History",
+          "actualDuration": 192.882667,
+          "startTime": 752.463125,
+          "endTime": 945.345792
+        },
+        {
+          "path": "Audio/output/721/chapter_05.wav",
+          "duration": 175.5085,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Questioning What We Think We Know",
+          "actualDuration": 175.5085,
+          "startTime": 946.845792,
+          "endTime": 1122.354292
+        },
+        {
+          "path": "Audio/output/721/chapter_06.wav",
+          "duration": 176.744833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Hidden Costs of Forgetting",
+          "actualDuration": 176.744833,
+          "startTime": 1123.854292,
+          "endTime": 1300.599125
+        },
+        {
+          "path": "Audio/output/721/chapter_07.wav",
+          "duration": 155.341958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Education: The Double-Edged Sword",
+          "actualDuration": 155.341958,
+          "startTime": 1302.099125,
+          "endTime": 1457.441083
+        },
+        {
+          "path": "Audio/output/721/chapter_08.wav",
+          "duration": 138.012667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Voices: Stories from the Margins",
+          "actualDuration": 138.012667,
+          "startTime": 1458.941083,
+          "endTime": 1596.95375
+        },
+        {
+          "path": "Audio/output/721/chapter_09.wav",
+          "duration": 160.149375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Memory and the Work of Healing",
+          "actualDuration": 160.149375,
+          "startTime": 1598.45375,
+          "endTime": 1758.6031249999999
+        },
+        {
+          "path": "Audio/output/721/chapter_10.wav",
+          "duration": 128.608125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Imagining New Futures",
+          "actualDuration": 128.608125,
+          "startTime": 1760.1031249999999,
+          "endTime": 1888.7112499999998
+        },
+        {
+          "path": "Audio/output/721/conclusion.wav",
+          "duration": 108.258542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.258542,
+          "startTime": 1890.2112499999998,
+          "endTime": 1998.4697919999999
+        }
+      ],
+      "totalDuration": 1998.4697919999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 66.85,
+          "actualStart": 0,
+          "actualEnd": 66.849375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Stories We’re Told and the Ones We Never Hear",
+          "expectedStart": 66.85,
+          "expectedEnd": 288.47,
+          "actualStart": 68.349375,
+          "actualEnd": 289.970625,
+          "timeDifference": 1.4993750000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Africa’s Civilizations: More Than a Footnote",
+          "expectedStart": 288.47,
+          "expectedEnd": 536.68,
+          "actualStart": 291.470625,
+          "actualEnd": 539.680042,
+          "timeDifference": 3.000624999999957
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Colonization Shaped the World We Live In",
+          "expectedStart": 536.68,
+          "expectedEnd": 746.46,
+          "actualStart": 541.180042,
+          "actualEnd": 750.963125,
+          "timeDifference": 4.500042000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Power, Truth, and the Making of History",
+          "expectedStart": 746.46,
+          "expectedEnd": 939.34,
+          "actualStart": 752.463125,
+          "actualEnd": 945.345792,
+          "timeDifference": 6.0031249999999545
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Questioning What We Think We Know",
+          "expectedStart": 939.34,
+          "expectedEnd": 1114.85,
+          "actualStart": 946.845792,
+          "actualEnd": 1122.354292,
+          "timeDifference": 7.5057919999999285
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Hidden Costs of Forgetting",
+          "expectedStart": 1114.85,
+          "expectedEnd": 1291.59,
+          "actualStart": 1123.854292,
+          "actualEnd": 1300.599125,
+          "timeDifference": 9.004292000000078
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Education: The Double-Edged Sword",
+          "expectedStart": 1291.59,
+          "expectedEnd": 1446.93,
+          "actualStart": 1302.099125,
+          "actualEnd": 1457.441083,
+          "timeDifference": 10.50912500000004
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Voices: Stories from the Margins",
+          "expectedStart": 1446.93,
+          "expectedEnd": 1584.94,
+          "actualStart": 1458.941083,
+          "actualEnd": 1596.95375,
+          "timeDifference": 12.011082999999871
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Memory and the Work of Healing",
+          "expectedStart": 1584.94,
+          "expectedEnd": 1745.09,
+          "actualStart": 1598.45375,
+          "actualEnd": 1758.6031249999999,
+          "timeDifference": 13.513749999999845
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Imagining New Futures",
+          "expectedStart": 1745.09,
+          "expectedEnd": 1873.7,
+          "actualStart": 1760.1031249999999,
+          "actualEnd": 1888.7112499999998,
+          "timeDifference": 15.013124999999945
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1873.7,
+          "expectedEnd": 1981.96,
+          "actualStart": 1890.2112499999998,
+          "actualEnd": 1998.4697919999999,
+          "timeDifference": 16.51124999999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 66.849375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Stories We’re Told and the Ones We Never Hear"
+        },
+        {
+          "startTime": 289.970625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Stories We’re Told and the Ones We Never Hear and Chapter 2 Africa’s Civilizations: More Than a Footnote"
+        },
+        {
+          "startTime": 539.680042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Africa’s Civilizations: More Than a Footnote and Chapter 3 How Colonization Shaped the World We Live In"
+        },
+        {
+          "startTime": 750.963125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Colonization Shaped the World We Live In and Chapter 4 Power, Truth, and the Making of History"
+        },
+        {
+          "startTime": 945.345792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Power, Truth, and the Making of History and Chapter 5 Questioning What We Think We Know"
+        },
+        {
+          "startTime": 1122.354292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Questioning What We Think We Know and Chapter 6 The Hidden Costs of Forgetting"
+        },
+        {
+          "startTime": 1300.599125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Hidden Costs of Forgetting and Chapter 7 Education: The Double-Edged Sword"
+        },
+        {
+          "startTime": 1457.441083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Education: The Double-Edged Sword and Chapter 8 Reclaiming Voices: Stories from the Margins"
+        },
+        {
+          "startTime": 1596.95375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Voices: Stories from the Margins and Chapter 9 The Power of Memory and the Work of Healing"
+        },
+        {
+          "startTime": 1758.6031249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Memory and the Work of Healing and Chapter 10 Imagining New Futures"
+        },
+        {
+          "startTime": 1888.7112499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Imagining New Futures and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "721",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T04:35:14.034Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

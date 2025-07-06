@@ -1,0 +1,456 @@
+{
+  "bookId": "1022",
+  "timestamp": "2025-07-06T08:23:00.937Z",
+  "success": false,
+  "processingTime": -1751789691139,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5067,
+    "totalAudioFiles": 12,
+    "totalDuration": 2205.513207
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2205.513207
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1022/optimized_text/1022.md",
+    "fileSize": 726,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1022.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1022/metadata/1022_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2205.52,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1022/metadata/1022_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1022/metadata/1022_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1022/1022_complete.wav",
+    "duration": 2205.513208,
+    "fileSize": 105864712,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1022/introduction.wav",
+          "duration": 90.930708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.930708,
+          "startTime": 0,
+          "endTime": 90.930708
+        },
+        {
+          "path": "Audio/output/1022/chapter_01.wav",
+          "duration": 209.834083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Shadows: The Roots of Lincoln’s Emotional Struggles",
+          "actualDuration": 209.834083,
+          "startTime": 92.430708,
+          "endTime": 302.264791
+        },
+        {
+          "path": "Audio/output/1022/chapter_02.wav",
+          "duration": 226.332042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Despair: Lincoln’s Struggles as a Young Adult",
+          "actualDuration": 226.332042,
+          "startTime": 303.764791,
+          "endTime": 530.0968330000001
+        },
+        {
+          "path": "Audio/output/1022/chapter_03.wav",
+          "duration": 233.398833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Suffering into Strength: The Making of a Leader",
+          "actualDuration": 233.398833,
+          "startTime": 531.5968330000001,
+          "endTime": 764.995666
+        },
+        {
+          "path": "Audio/output/1022/chapter_04.wav",
+          "duration": 183.535458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Stigma of Sadness: Depression and Public Life",
+          "actualDuration": 183.535458,
+          "startTime": 766.495666,
+          "endTime": 950.0311240000001
+        },
+        {
+          "path": "Audio/output/1022/chapter_05.wav",
+          "duration": 170.078542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Melancholy and Meaning: The Path to the Presidency",
+          "actualDuration": 170.078542,
+          "startTime": 951.5311240000001,
+          "endTime": 1121.609666
+        },
+        {
+          "path": "Audio/output/1022/chapter_06.wav",
+          "duration": 217.637958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of War: Melancholy in the White House",
+          "actualDuration": 217.637958,
+          "startTime": 1123.109666,
+          "endTime": 1340.747624
+        },
+        {
+          "path": "Audio/output/1022/chapter_07.wav",
+          "duration": 186.612792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Humor and Humanity: Finding Light in the Darkness",
+          "actualDuration": 186.612792,
+          "startTime": 1342.247624,
+          "endTime": 1528.860416
+        },
+        {
+          "path": "Audio/output/1022/chapter_08.wav",
+          "duration": 208.4765,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Faith, Doubt, and the Search for Meaning",
+          "actualDuration": 208.4765,
+          "startTime": 1530.360416,
+          "endTime": 1738.836916
+        },
+        {
+          "path": "Audio/output/1022/chapter_09.wav",
+          "duration": 204.126958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Trials: Loss, Legacy, and the End of the War",
+          "actualDuration": 204.126958,
+          "startTime": 1740.336916,
+          "endTime": 1944.463874
+        },
+        {
+          "path": "Audio/output/1022/chapter_10.wav",
+          "duration": 146.729125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Lessons: Lincoln’s Melancholy and the Shape of History",
+          "actualDuration": 146.729125,
+          "startTime": 1945.963874,
+          "endTime": 2092.692999
+        },
+        {
+          "path": "Audio/output/1022/conclusion.wav",
+          "duration": 127.820208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.820208,
+          "startTime": 2094.192999,
+          "endTime": 2222.013207
+        }
+      ],
+      "totalDuration": 2222.013207,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.93,
+          "actualStart": 0,
+          "actualEnd": 90.930708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Shadows: The Roots of Lincoln’s Emotional Struggles",
+          "expectedStart": 90.93,
+          "expectedEnd": 300.76,
+          "actualStart": 92.430708,
+          "actualEnd": 302.264791,
+          "timeDifference": 1.5007079999999888
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Despair: Lincoln’s Struggles as a Young Adult",
+          "expectedStart": 300.76,
+          "expectedEnd": 527.09,
+          "actualStart": 303.764791,
+          "actualEnd": 530.0968330000001,
+          "timeDifference": 3.0047910000000115
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Suffering into Strength: The Making of a Leader",
+          "expectedStart": 527.09,
+          "expectedEnd": 760.49,
+          "actualStart": 531.5968330000001,
+          "actualEnd": 764.995666,
+          "timeDifference": 4.506833000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Stigma of Sadness: Depression and Public Life",
+          "expectedStart": 760.49,
+          "expectedEnd": 944.03,
+          "actualStart": 766.495666,
+          "actualEnd": 950.0311240000001,
+          "timeDifference": 6.005666000000019
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Melancholy and Meaning: The Path to the Presidency",
+          "expectedStart": 944.03,
+          "expectedEnd": 1114.11,
+          "actualStart": 951.5311240000001,
+          "actualEnd": 1121.609666,
+          "timeDifference": 7.501124000000118
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of War: Melancholy in the White House",
+          "expectedStart": 1114.11,
+          "expectedEnd": 1331.75,
+          "actualStart": 1123.109666,
+          "actualEnd": 1340.747624,
+          "timeDifference": 8.999666000000161
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Humor and Humanity: Finding Light in the Darkness",
+          "expectedStart": 1331.75,
+          "expectedEnd": 1518.36,
+          "actualStart": 1342.247624,
+          "actualEnd": 1528.860416,
+          "timeDifference": 10.497624000000087
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Faith, Doubt, and the Search for Meaning",
+          "expectedStart": 1518.36,
+          "expectedEnd": 1726.84,
+          "actualStart": 1530.360416,
+          "actualEnd": 1738.836916,
+          "timeDifference": 12.000416000000087
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Trials: Loss, Legacy, and the End of the War",
+          "expectedStart": 1726.84,
+          "expectedEnd": 1930.97,
+          "actualStart": 1740.336916,
+          "actualEnd": 1944.463874,
+          "timeDifference": 13.496916000000056
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Lessons: Lincoln’s Melancholy and the Shape of History",
+          "expectedStart": 1930.97,
+          "expectedEnd": 2077.7,
+          "actualStart": 1945.963874,
+          "actualEnd": 2092.692999,
+          "timeDifference": 14.993874000000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2077.7,
+          "expectedEnd": 2205.52,
+          "actualStart": 2094.192999,
+          "actualEnd": 2222.013207,
+          "timeDifference": 16.492999000000054
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.930708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Shadows: The Roots of Lincoln’s Emotional Struggles"
+        },
+        {
+          "startTime": 302.264791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Shadows: The Roots of Lincoln’s Emotional Struggles and Chapter 2 Facing Despair: Lincoln’s Struggles as a Young Adult"
+        },
+        {
+          "startTime": 530.0968330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Despair: Lincoln’s Struggles as a Young Adult and Chapter 3 Turning Suffering into Strength: The Making of a Leader"
+        },
+        {
+          "startTime": 764.995666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Suffering into Strength: The Making of a Leader and Chapter 4 The Stigma of Sadness: Depression and Public Life"
+        },
+        {
+          "startTime": 950.0311240000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Stigma of Sadness: Depression and Public Life and Chapter 5 Melancholy and Meaning: The Path to the Presidency"
+        },
+        {
+          "startTime": 1121.609666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Melancholy and Meaning: The Path to the Presidency and Chapter 6 The Weight of War: Melancholy in the White House"
+        },
+        {
+          "startTime": 1340.747624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of War: Melancholy in the White House and Chapter 7 Humor and Humanity: Finding Light in the Darkness"
+        },
+        {
+          "startTime": 1528.860416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Humor and Humanity: Finding Light in the Darkness and Chapter 8 Faith, Doubt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1738.836916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Faith, Doubt, and the Search for Meaning and Chapter 9 The Final Trials: Loss, Legacy, and the End of the War"
+        },
+        {
+          "startTime": 1944.463874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Trials: Loss, Legacy, and the End of the War and Chapter 10 Enduring Lessons: Lincoln’s Melancholy and the Shape of History"
+        },
+        {
+          "startTime": 2092.692999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Lessons: Lincoln’s Melancholy and the Shape of History and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1022",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T08:14:52.732Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

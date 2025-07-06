@@ -1,0 +1,456 @@
+{
+  "bookId": "545",
+  "timestamp": "2025-07-04T18:27:30.018Z",
+  "success": false,
+  "processingTime": -1751653307246,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4916,
+    "totalAudioFiles": 12,
+    "totalDuration": 2118.6564590000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2118.6564590000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/545/optimized_text/545.md",
+    "fileSize": 556,
+    "wordCount": 71,
+    "format": "markdown",
+    "filename": "545.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/545/metadata/545_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2118.67,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/545/metadata/545_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/545/metadata/545_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/545/545_complete.wav",
+    "duration": 2118.656458,
+    "fileSize": 101695588,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/545/introduction.wav",
+          "duration": 66.162292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 66.162292,
+          "startTime": 0,
+          "endTime": 66.162292
+        },
+        {
+          "path": "Audio/output/545/chapter_01.wav",
+          "duration": 247.455292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Gratitude in Everyday Life",
+          "actualDuration": 247.455292,
+          "startTime": 67.662292,
+          "endTime": 315.11758399999997
+        },
+        {
+          "path": "Audio/output/545/chapter_02.wav",
+          "duration": 214.416792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Strength Through Life’s Challenges",
+          "actualDuration": 214.416792,
+          "startTime": 316.61758399999997,
+          "endTime": 531.034376
+        },
+        {
+          "path": "Audio/output/545/chapter_03.wav",
+          "duration": 228.058083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living with Intention and Authenticity",
+          "actualDuration": 228.058083,
+          "startTime": 532.534376,
+          "endTime": 760.592459
+        },
+        {
+          "path": "Audio/output/545/chapter_04.wav",
+          "duration": 226.228333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Joy and Balance in the Present",
+          "actualDuration": 226.228333,
+          "startTime": 762.092459,
+          "endTime": 988.320792
+        },
+        {
+          "path": "Audio/output/545/chapter_05.wav",
+          "duration": 176.90375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Growing Through Self-Awareness and Compassion",
+          "actualDuration": 176.90375,
+          "startTime": 989.820792,
+          "endTime": 1166.724542
+        },
+        {
+          "path": "Audio/output/545/chapter_06.wav",
+          "duration": 179.741792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Power of Kindness",
+          "actualDuration": 179.741792,
+          "startTime": 1168.224542,
+          "endTime": 1347.966334
+        },
+        {
+          "path": "Audio/output/545/chapter_07.wav",
+          "duration": 195.907417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Embracing Vulnerability and Courage",
+          "actualDuration": 195.907417,
+          "startTime": 1349.466334,
+          "endTime": 1545.373751
+        },
+        {
+          "path": "Audio/output/545/chapter_08.wav",
+          "duration": 201.369708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Tapping Into Inner Power and Purpose",
+          "actualDuration": 201.369708,
+          "startTime": 1546.873751,
+          "endTime": 1748.243459
+        },
+        {
+          "path": "Audio/output/545/chapter_09.wav",
+          "duration": 168.169333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creating Meaning and Fulfillment",
+          "actualDuration": 168.169333,
+          "startTime": 1749.743459,
+          "endTime": 1917.912792
+        },
+        {
+          "path": "Audio/output/545/chapter_10.wav",
+          "duration": 113.918167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey",
+          "actualDuration": 113.918167,
+          "startTime": 1919.412792,
+          "endTime": 2033.3309590000001
+        },
+        {
+          "path": "Audio/output/545/conclusion.wav",
+          "duration": 100.3255,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 100.3255,
+          "startTime": 2034.8309590000001,
+          "endTime": 2135.1564590000003
+        }
+      ],
+      "totalDuration": 2135.1564590000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 66.16,
+          "actualStart": 0,
+          "actualEnd": 66.162292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Gratitude in Everyday Life",
+          "expectedStart": 66.16,
+          "expectedEnd": 313.62,
+          "actualStart": 67.662292,
+          "actualEnd": 315.11758399999997,
+          "timeDifference": 1.502291999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Strength Through Life’s Challenges",
+          "expectedStart": 313.62,
+          "expectedEnd": 528.04,
+          "actualStart": 316.61758399999997,
+          "actualEnd": 531.034376,
+          "timeDifference": 2.9975839999999607
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living with Intention and Authenticity",
+          "expectedStart": 528.04,
+          "expectedEnd": 756.1,
+          "actualStart": 532.534376,
+          "actualEnd": 760.592459,
+          "timeDifference": 4.494375999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Joy and Balance in the Present",
+          "expectedStart": 756.1,
+          "expectedEnd": 982.33,
+          "actualStart": 762.092459,
+          "actualEnd": 988.320792,
+          "timeDifference": 5.99245899999994
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Growing Through Self-Awareness and Compassion",
+          "expectedStart": 982.33,
+          "expectedEnd": 1159.23,
+          "actualStart": 989.820792,
+          "actualEnd": 1166.724542,
+          "timeDifference": 7.490791999999942
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Power of Kindness",
+          "expectedStart": 1159.23,
+          "expectedEnd": 1338.97,
+          "actualStart": 1168.224542,
+          "actualEnd": 1347.966334,
+          "timeDifference": 8.99454199999991
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Embracing Vulnerability and Courage",
+          "expectedStart": 1338.97,
+          "expectedEnd": 1534.88,
+          "actualStart": 1349.466334,
+          "actualEnd": 1545.373751,
+          "timeDifference": 10.496333999999933
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Tapping Into Inner Power and Purpose",
+          "expectedStart": 1534.88,
+          "expectedEnd": 1736.25,
+          "actualStart": 1546.873751,
+          "actualEnd": 1748.243459,
+          "timeDifference": 11.993750999999975
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creating Meaning and Fulfillment",
+          "expectedStart": 1736.25,
+          "expectedEnd": 1904.42,
+          "actualStart": 1749.743459,
+          "actualEnd": 1917.912792,
+          "timeDifference": 13.49345900000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey",
+          "expectedStart": 1904.42,
+          "expectedEnd": 2018.34,
+          "actualStart": 1919.412792,
+          "actualEnd": 2033.3309590000001,
+          "timeDifference": 14.992792000000009
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2018.34,
+          "expectedEnd": 2118.67,
+          "actualStart": 2034.8309590000001,
+          "actualEnd": 2135.1564590000003,
+          "timeDifference": 16.490959000000203
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 66.162292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Gratitude in Everyday Life"
+        },
+        {
+          "startTime": 315.11758399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Gratitude in Everyday Life and Chapter 2 Building Strength Through Life’s Challenges"
+        },
+        {
+          "startTime": 531.034376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Strength Through Life’s Challenges and Chapter 3 Living with Intention and Authenticity"
+        },
+        {
+          "startTime": 760.592459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living with Intention and Authenticity and Chapter 4 Finding Joy and Balance in the Present"
+        },
+        {
+          "startTime": 988.320792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Joy and Balance in the Present and Chapter 5 Growing Through Self-Awareness and Compassion"
+        },
+        {
+          "startTime": 1166.724542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Growing Through Self-Awareness and Compassion and Chapter 6 The Quiet Power of Kindness"
+        },
+        {
+          "startTime": 1347.966334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Power of Kindness and Chapter 7 Embracing Vulnerability and Courage"
+        },
+        {
+          "startTime": 1545.373751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Embracing Vulnerability and Courage and Chapter 8 Tapping Into Inner Power and Purpose"
+        },
+        {
+          "startTime": 1748.243459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Tapping Into Inner Power and Purpose and Chapter 9 Creating Meaning and Fulfillment"
+        },
+        {
+          "startTime": 1917.912792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creating Meaning and Fulfillment and Chapter 10 The Ongoing Journey"
+        },
+        {
+          "startTime": 2033.3309590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "545",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T18:21:48.868Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

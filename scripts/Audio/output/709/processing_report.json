@@ -1,0 +1,433 @@
+{
+  "bookId": "709",
+  "timestamp": "2025-07-05T03:54:57.509Z",
+  "success": false,
+  "processingTime": -1751687410511,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4251,
+    "totalAudioFiles": 12,
+    "totalDuration": 1923.037666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1923.037666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/709/optimized_text/709.md",
+    "fileSize": 683,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "709.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/709/metadata/709_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1923.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/709/metadata/709_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/709/metadata/709_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/709/709_complete.wav",
+    "duration": 1923.037667,
+    "fileSize": 92305886,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/709/chapter_01.wav",
+          "duration": 257.965583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Loss and the Weight of Judgment",
+          "actualDuration": 257.965583,
+          "startTime": 0,
+          "endTime": 257.965583
+        },
+        {
+          "path": "Audio/output/709/chapter_02.wav",
+          "duration": 221.918167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Love, Betrayal, and the Search for Meaning",
+          "actualDuration": 221.918167,
+          "startTime": 259.465583,
+          "endTime": 481.38374999999996
+        },
+        {
+          "path": "Audio/output/709/chapter_03.wav",
+          "duration": 160.490625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Suffering as a Path to Self-Discovery",
+          "actualDuration": 160.490625,
+          "startTime": 482.88374999999996,
+          "endTime": 643.374375
+        },
+        {
+          "path": "Audio/output/709/chapter_04.wav",
+          "duration": 198.008333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Art, Beauty, and the Power of Creativity in Hardship",
+          "actualDuration": 198.008333,
+          "startTime": 644.874375,
+          "endTime": 842.882708
+        },
+        {
+          "path": "Audio/output/709/chapter_05.wav",
+          "duration": 166.596083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Forgiveness, Humility, and the Hope for Redemption",
+          "actualDuration": 166.596083,
+          "startTime": 844.382708,
+          "endTime": 1010.978791
+        },
+        {
+          "path": "Audio/output/709/chapter_06.wav",
+          "duration": 171.622417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Spiritual Renewal and the Quiet Rebuilding of the Soul",
+          "actualDuration": 171.622417,
+          "startTime": 1012.478791,
+          "endTime": 1184.101208
+        },
+        {
+          "path": "Audio/output/709/chapter_07.wav",
+          "duration": 174.087875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Hypocrisy of Society and the Cost of Conformity",
+          "actualDuration": 174.087875,
+          "startTime": 1185.601208,
+          "endTime": 1359.689083
+        },
+        {
+          "path": "Audio/output/709/chapter_08.wav",
+          "duration": 155.068833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Compassion, Empathy, and the Shared Burden of Suffering",
+          "actualDuration": 155.068833,
+          "startTime": 1361.189083,
+          "endTime": 1516.257916
+        },
+        {
+          "path": "Audio/output/709/chapter_09.wav",
+          "duration": 143.45775,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Long Road to Self-Acceptance",
+          "actualDuration": 143.45775,
+          "startTime": 1517.757916,
+          "endTime": 1661.215666
+        },
+        {
+          "path": "Audio/output/709/chapter_10.wav",
+          "duration": 144.306083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose: The Enduring Value of Kindness and Understanding",
+          "actualDuration": 144.306083,
+          "startTime": 1662.715666,
+          "endTime": 1807.021749
+        },
+        {
+          "path": "Audio/output/709/conclusion.wav",
+          "duration": 129.515917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.515917,
+          "startTime": 1808.521749,
+          "endTime": 1938.037666
+        }
+      ],
+      "totalDuration": 1938.037666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Loss and the Weight of Judgment",
+          "expectedStart": 0,
+          "expectedEnd": 257.97,
+          "actualStart": 0,
+          "actualEnd": 257.965583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Love, Betrayal, and the Search for Meaning",
+          "expectedStart": 257.97,
+          "expectedEnd": 479.89,
+          "actualStart": 259.465583,
+          "actualEnd": 481.38374999999996,
+          "timeDifference": 1.4955829999999537
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Suffering as a Path to Self-Discovery",
+          "expectedStart": 479.89,
+          "expectedEnd": 640.38,
+          "actualStart": 482.88374999999996,
+          "actualEnd": 643.374375,
+          "timeDifference": 2.9937499999999773
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Art, Beauty, and the Power of Creativity in Hardship",
+          "expectedStart": 640.38,
+          "expectedEnd": 838.39,
+          "actualStart": 644.874375,
+          "actualEnd": 842.882708,
+          "timeDifference": 4.494374999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Forgiveness, Humility, and the Hope for Redemption",
+          "expectedStart": 838.39,
+          "expectedEnd": 1004.99,
+          "actualStart": 844.382708,
+          "actualEnd": 1010.978791,
+          "timeDifference": 5.992707999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Spiritual Renewal and the Quiet Rebuilding of the Soul",
+          "expectedStart": 1004.99,
+          "expectedEnd": 1176.61,
+          "actualStart": 1012.478791,
+          "actualEnd": 1184.101208,
+          "timeDifference": 7.488790999999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Hypocrisy of Society and the Cost of Conformity",
+          "expectedStart": 1176.61,
+          "expectedEnd": 1350.7,
+          "actualStart": 1185.601208,
+          "actualEnd": 1359.689083,
+          "timeDifference": 8.991208000000142
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Compassion, Empathy, and the Shared Burden of Suffering",
+          "expectedStart": 1350.7,
+          "expectedEnd": 1505.77,
+          "actualStart": 1361.189083,
+          "actualEnd": 1516.257916,
+          "timeDifference": 10.489082999999937
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Long Road to Self-Acceptance",
+          "expectedStart": 1505.77,
+          "expectedEnd": 1649.23,
+          "actualStart": 1517.757916,
+          "actualEnd": 1661.215666,
+          "timeDifference": 11.987916000000041
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose: The Enduring Value of Kindness and Understanding",
+          "expectedStart": 1649.23,
+          "expectedEnd": 1793.54,
+          "actualStart": 1662.715666,
+          "actualEnd": 1807.021749,
+          "timeDifference": 13.485666000000037
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1793.54,
+          "expectedEnd": 1923.06,
+          "actualStart": 1808.521749,
+          "actualEnd": 1938.037666,
+          "timeDifference": 14.981749000000036
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 257.965583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Loss and the Weight of Judgment and Chapter 2 Love, Betrayal, and the Search for Meaning"
+        },
+        {
+          "startTime": 481.38374999999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Love, Betrayal, and the Search for Meaning and Chapter 3 Suffering as a Path to Self-Discovery"
+        },
+        {
+          "startTime": 643.374375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Suffering as a Path to Self-Discovery and Chapter 4 Art, Beauty, and the Power of Creativity in Hardship"
+        },
+        {
+          "startTime": 842.882708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Art, Beauty, and the Power of Creativity in Hardship and Chapter 5 Forgiveness, Humility, and the Hope for Redemption"
+        },
+        {
+          "startTime": 1010.978791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Forgiveness, Humility, and the Hope for Redemption and Chapter 6 Spiritual Renewal and the Quiet Rebuilding of the Soul"
+        },
+        {
+          "startTime": 1184.101208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Spiritual Renewal and the Quiet Rebuilding of the Soul and Chapter 7 The Hypocrisy of Society and the Cost of Conformity"
+        },
+        {
+          "startTime": 1359.689083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Hypocrisy of Society and the Cost of Conformity and Chapter 8 Compassion, Empathy, and the Shared Burden of Suffering"
+        },
+        {
+          "startTime": 1516.257916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Compassion, Empathy, and the Shared Burden of Suffering and Chapter 9 The Long Road to Self-Acceptance"
+        },
+        {
+          "startTime": 1661.215666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Long Road to Self-Acceptance and Chapter 10 Living with Purpose: The Enduring Value of Kindness and Understanding"
+        },
+        {
+          "startTime": 1807.021749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose: The Enduring Value of Kindness and Understanding and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "709",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T03:50:11.037Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

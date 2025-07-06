@@ -1,0 +1,456 @@
+{
+  "bookId": "843",
+  "timestamp": "2025-07-05T11:51:01.817Z",
+  "success": false,
+  "processingTime": -1751715915535,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4364,
+    "totalAudioFiles": 12,
+    "totalDuration": 2206.6782479999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2206.6782479999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/843/optimized_text/843.md",
+    "fileSize": 744,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "843.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/843/metadata/843_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2206.67,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/843/metadata/843_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/843/metadata/843_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/843/843_complete.wav",
+    "duration": 2206.67825,
+    "fileSize": 105920634,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/843/introduction.wav",
+          "duration": 95.07025,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.07025,
+          "startTime": 0,
+          "endTime": 95.07025
+        },
+        {
+          "path": "Audio/output/843/chapter_01.wav",
+          "duration": 263.411458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out Without a Plan: A Journey Begins in Nepal",
+          "actualDuration": 263.411458,
+          "startTime": 96.57025,
+          "endTime": 359.98170799999997
+        },
+        {
+          "path": "Audio/output/843/chapter_02.wav",
+          "duration": 267.859875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering the Hidden Crisis: The Reality of Child Trafficking",
+          "actualDuration": 267.859875,
+          "startTime": 361.48170799999997,
+          "endTime": 629.3415829999999
+        },
+        {
+          "path": "Audio/output/843/chapter_03.wav",
+          "duration": 227.457458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Trust and Facing Obstacles: Life Inside the Orphanage",
+          "actualDuration": 227.457458,
+          "startTime": 630.8415829999999,
+          "endTime": 858.2990409999999
+        },
+        {
+          "path": "Audio/output/843/chapter_04.wav",
+          "duration": 231.681083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Searching for Lost Families: The Beginning of a Mission",
+          "actualDuration": 231.681083,
+          "startTime": 859.7990409999999,
+          "endTime": 1091.480124
+        },
+        {
+          "path": "Audio/output/843/chapter_05.wav",
+          "duration": 187.134708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Corruption and Building a New Home for Children",
+          "actualDuration": 187.134708,
+          "startTime": 1092.980124,
+          "endTime": 1280.114832
+        },
+        {
+          "path": "Audio/output/843/chapter_06.wav",
+          "duration": 184.43475,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search Expands: Into the Mountains and Beyond",
+          "actualDuration": 184.43475,
+          "startTime": 1281.614832,
+          "endTime": 1466.049582
+        },
+        {
+          "path": "Audio/output/843/chapter_07.wav",
+          "duration": 183.80525,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Community: Allies, Setbacks, and Small Victories",
+          "actualDuration": 183.80525,
+          "startTime": 1467.549582,
+          "endTime": 1651.354832
+        },
+        {
+          "path": "Audio/output/843/chapter_08.wav",
+          "duration": 161.968208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Return Home: Reunions and New Beginnings",
+          "actualDuration": 161.968208,
+          "startTime": 1652.854832,
+          "endTime": 1814.82304
+        },
+        {
+          "path": "Audio/output/843/chapter_09.wav",
+          "duration": 175.723458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Growing the Mission: Next Steps and New Challenges",
+          "actualDuration": 175.723458,
+          "startTime": 1816.32304,
+          "endTime": 1992.046498
+        },
+        {
+          "path": "Audio/output/843/chapter_10.wav",
+          "duration": 123.344,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lasting Impact: Lessons Learned and the Road Ahead",
+          "actualDuration": 123.344,
+          "startTime": 1993.546498,
+          "endTime": 2116.8904979999998
+        },
+        {
+          "path": "Audio/output/843/conclusion.wav",
+          "duration": 104.78775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.78775,
+          "startTime": 2118.3904979999998,
+          "endTime": 2223.1782479999997
+        }
+      ],
+      "totalDuration": 2223.1782479999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.07,
+          "actualStart": 0,
+          "actualEnd": 95.07025,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out Without a Plan: A Journey Begins in Nepal",
+          "expectedStart": 95.07,
+          "expectedEnd": 358.48,
+          "actualStart": 96.57025,
+          "actualEnd": 359.98170799999997,
+          "timeDifference": 1.5002500000000083
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering the Hidden Crisis: The Reality of Child Trafficking",
+          "expectedStart": 358.48,
+          "expectedEnd": 626.34,
+          "actualStart": 361.48170799999997,
+          "actualEnd": 629.3415829999999,
+          "timeDifference": 3.001707999999951
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Trust and Facing Obstacles: Life Inside the Orphanage",
+          "expectedStart": 626.34,
+          "expectedEnd": 853.8,
+          "actualStart": 630.8415829999999,
+          "actualEnd": 858.2990409999999,
+          "timeDifference": 4.501582999999869
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Searching for Lost Families: The Beginning of a Mission",
+          "expectedStart": 853.8,
+          "expectedEnd": 1085.48,
+          "actualStart": 859.7990409999999,
+          "actualEnd": 1091.480124,
+          "timeDifference": 5.99904099999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Corruption and Building a New Home for Children",
+          "expectedStart": 1085.48,
+          "expectedEnd": 1272.61,
+          "actualStart": 1092.980124,
+          "actualEnd": 1280.114832,
+          "timeDifference": 7.500123999999914
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search Expands: Into the Mountains and Beyond",
+          "expectedStart": 1272.61,
+          "expectedEnd": 1457.04,
+          "actualStart": 1281.614832,
+          "actualEnd": 1466.049582,
+          "timeDifference": 9.004832000000079
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Community: Allies, Setbacks, and Small Victories",
+          "expectedStart": 1457.04,
+          "expectedEnd": 1640.85,
+          "actualStart": 1467.549582,
+          "actualEnd": 1651.354832,
+          "timeDifference": 10.509582000000137
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Return Home: Reunions and New Beginnings",
+          "expectedStart": 1640.85,
+          "expectedEnd": 1802.82,
+          "actualStart": 1652.854832,
+          "actualEnd": 1814.82304,
+          "timeDifference": 12.004832000000079
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Growing the Mission: Next Steps and New Challenges",
+          "expectedStart": 1802.82,
+          "expectedEnd": 1978.54,
+          "actualStart": 1816.32304,
+          "actualEnd": 1992.046498,
+          "timeDifference": 13.503040000000055
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lasting Impact: Lessons Learned and the Road Ahead",
+          "expectedStart": 1978.54,
+          "expectedEnd": 2101.88,
+          "actualStart": 1993.546498,
+          "actualEnd": 2116.8904979999998,
+          "timeDifference": 15.006497999999965
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2101.88,
+          "expectedEnd": 2206.67,
+          "actualStart": 2118.3904979999998,
+          "actualEnd": 2223.1782479999997,
+          "timeDifference": 16.510497999999643
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.07025,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out Without a Plan: A Journey Begins in Nepal"
+        },
+        {
+          "startTime": 359.98170799999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out Without a Plan: A Journey Begins in Nepal and Chapter 2 Discovering the Hidden Crisis: The Reality of Child Trafficking"
+        },
+        {
+          "startTime": 629.3415829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering the Hidden Crisis: The Reality of Child Trafficking and Chapter 3 Building Trust and Facing Obstacles: Life Inside the Orphanage"
+        },
+        {
+          "startTime": 858.2990409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Trust and Facing Obstacles: Life Inside the Orphanage and Chapter 4 Searching for Lost Families: The Beginning of a Mission"
+        },
+        {
+          "startTime": 1091.480124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Searching for Lost Families: The Beginning of a Mission and Chapter 5 Facing Corruption and Building a New Home for Children"
+        },
+        {
+          "startTime": 1280.114832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Corruption and Building a New Home for Children and Chapter 6 The Search Expands: Into the Mountains and Beyond"
+        },
+        {
+          "startTime": 1466.049582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search Expands: Into the Mountains and Beyond and Chapter 7 The Power of Community: Allies, Setbacks, and Small Victories"
+        },
+        {
+          "startTime": 1651.354832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Community: Allies, Setbacks, and Small Victories and Chapter 8 The Return Home: Reunions and New Beginnings"
+        },
+        {
+          "startTime": 1814.82304,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Return Home: Reunions and New Beginnings and Chapter 9 Growing the Mission: Next Steps and New Challenges"
+        },
+        {
+          "startTime": 1992.046498,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Growing the Mission: Next Steps and New Challenges and Chapter 10 Lasting Impact: Lessons Learned and the Road Ahead"
+        },
+        {
+          "startTime": 2116.8904979999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lasting Impact: Lessons Learned and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "843",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T11:45:16.111Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1160",
+  "timestamp": "2025-07-06T18:15:57.250Z",
+  "success": false,
+  "processingTime": -1751825410612,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4442,
+    "totalAudioFiles": 12,
+    "totalDuration": 1940.2298339999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1940.2298339999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1160/optimized_text/1160.md",
+    "fileSize": 719,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "1160.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1160/metadata/1160_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1940.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1160/metadata/1160_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1160/metadata/1160_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1160/1160_complete.wav",
+    "duration": 1940.229833,
+    "fileSize": 93131110,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1160/introduction.wav",
+          "duration": 91.826542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.826542,
+          "startTime": 0,
+          "endTime": 91.826542
+        },
+        {
+          "path": "Audio/output/1160/chapter_01.wav",
+          "duration": 205.3425,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Life Shaped by Curiosity and Observation",
+          "actualDuration": 205.3425,
+          "startTime": 93.326542,
+          "endTime": 298.669042
+        },
+        {
+          "path": "Audio/output/1160/chapter_02.wav",
+          "duration": 198.902333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Drawing as a Way of Understanding the World",
+          "actualDuration": 198.902333,
+          "startTime": 300.169042,
+          "endTime": 499.071375
+        },
+        {
+          "path": "Audio/output/1160/chapter_03.wav",
+          "duration": 202.494167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Body: Anatomy, Movement, and the Search for Truth",
+          "actualDuration": 202.494167,
+          "startTime": 500.571375,
+          "endTime": 703.065542
+        },
+        {
+          "path": "Audio/output/1160/chapter_04.wav",
+          "duration": 207.141125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Nature as Teacher: Learning from Water, Plants, and the Elements",
+          "actualDuration": 207.141125,
+          "startTime": 704.565542,
+          "endTime": 911.706667
+        },
+        {
+          "path": "Audio/output/1160/chapter_05.wav",
+          "duration": 175.910167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Invention and the Art of Problem Solving",
+          "actualDuration": 175.910167,
+          "startTime": 913.206667,
+          "endTime": 1089.116834
+        },
+        {
+          "path": "Audio/output/1160/chapter_06.wav",
+          "duration": 176.928708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Philosophy of Learning: Embracing Uncertainty and Change",
+          "actualDuration": 176.928708,
+          "startTime": 1090.616834,
+          "endTime": 1267.5455419999998
+        },
+        {
+          "path": "Audio/output/1160/chapter_07.wav",
+          "duration": 148.584167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Practice of Journaling: Memory, Reflection, and Growth",
+          "actualDuration": 148.584167,
+          "startTime": 1269.0455419999998,
+          "endTime": 1417.6297089999998
+        },
+        {
+          "path": "Audio/output/1160/chapter_08.wav",
+          "duration": 143.7205,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Art and Science: Bridging Two Worlds",
+          "actualDuration": 143.7205,
+          "startTime": 1419.1297089999998,
+          "endTime": 1562.8502089999997
+        },
+        {
+          "path": "Audio/output/1160/chapter_09.wav",
+          "duration": 143.052875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Curiosity: Teaching, Mentoring, and Inspiring Others",
+          "actualDuration": 143.052875,
+          "startTime": 1564.3502089999997,
+          "endTime": 1707.4030839999998
+        },
+        {
+          "path": "Audio/output/1160/chapter_10.wav",
+          "duration": 127.492833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Lessons: Living with Wonder and Purpose",
+          "actualDuration": 127.492833,
+          "startTime": 1708.9030839999998,
+          "endTime": 1836.3959169999998
+        },
+        {
+          "path": "Audio/output/1160/conclusion.wav",
+          "duration": 118.833917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.833917,
+          "startTime": 1837.8959169999998,
+          "endTime": 1956.7298339999998
+        }
+      ],
+      "totalDuration": 1956.7298339999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.83,
+          "actualStart": 0,
+          "actualEnd": 91.826542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Life Shaped by Curiosity and Observation",
+          "expectedStart": 91.83,
+          "expectedEnd": 297.17,
+          "actualStart": 93.326542,
+          "actualEnd": 298.669042,
+          "timeDifference": 1.4965420000000051
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Drawing as a Way of Understanding the World",
+          "expectedStart": 297.17,
+          "expectedEnd": 496.07,
+          "actualStart": 300.169042,
+          "actualEnd": 499.071375,
+          "timeDifference": 2.9990419999999745
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Body: Anatomy, Movement, and the Search for Truth",
+          "expectedStart": 496.07,
+          "expectedEnd": 698.56,
+          "actualStart": 500.571375,
+          "actualEnd": 703.065542,
+          "timeDifference": 4.501374999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Nature as Teacher: Learning from Water, Plants, and the Elements",
+          "expectedStart": 698.56,
+          "expectedEnd": 905.7,
+          "actualStart": 704.565542,
+          "actualEnd": 911.706667,
+          "timeDifference": 6.005542000000105
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Invention and the Art of Problem Solving",
+          "expectedStart": 905.7,
+          "expectedEnd": 1081.61,
+          "actualStart": 913.206667,
+          "actualEnd": 1089.116834,
+          "timeDifference": 7.506666999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Philosophy of Learning: Embracing Uncertainty and Change",
+          "expectedStart": 1081.61,
+          "expectedEnd": 1258.54,
+          "actualStart": 1090.616834,
+          "actualEnd": 1267.5455419999998,
+          "timeDifference": 9.006834000000026
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Practice of Journaling: Memory, Reflection, and Growth",
+          "expectedStart": 1258.54,
+          "expectedEnd": 1407.12,
+          "actualStart": 1269.0455419999998,
+          "actualEnd": 1417.6297089999998,
+          "timeDifference": 10.505541999999878
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Art and Science: Bridging Two Worlds",
+          "expectedStart": 1407.12,
+          "expectedEnd": 1550.84,
+          "actualStart": 1419.1297089999998,
+          "actualEnd": 1562.8502089999997,
+          "timeDifference": 12.00970899999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Curiosity: Teaching, Mentoring, and Inspiring Others",
+          "expectedStart": 1550.84,
+          "expectedEnd": 1693.89,
+          "actualStart": 1564.3502089999997,
+          "actualEnd": 1707.4030839999998,
+          "timeDifference": 13.510208999999804
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Lessons: Living with Wonder and Purpose",
+          "expectedStart": 1693.89,
+          "expectedEnd": 1821.38,
+          "actualStart": 1708.9030839999998,
+          "actualEnd": 1836.3959169999998,
+          "timeDifference": 15.013083999999708
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1821.38,
+          "expectedEnd": 1940.21,
+          "actualStart": 1837.8959169999998,
+          "actualEnd": 1956.7298339999998,
+          "timeDifference": 16.515916999999718
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.826542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Life Shaped by Curiosity and Observation"
+        },
+        {
+          "startTime": 298.669042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Life Shaped by Curiosity and Observation and Chapter 2 Drawing as a Way of Understanding the World"
+        },
+        {
+          "startTime": 499.071375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Drawing as a Way of Understanding the World and Chapter 3 The Human Body: Anatomy, Movement, and the Search for Truth"
+        },
+        {
+          "startTime": 703.065542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Body: Anatomy, Movement, and the Search for Truth and Chapter 4 Nature as Teacher: Learning from Water, Plants, and the Elements"
+        },
+        {
+          "startTime": 911.706667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Nature as Teacher: Learning from Water, Plants, and the Elements and Chapter 5 Invention and the Art of Problem Solving"
+        },
+        {
+          "startTime": 1089.116834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Invention and the Art of Problem Solving and Chapter 6 The Philosophy of Learning: Embracing Uncertainty and Change"
+        },
+        {
+          "startTime": 1267.5455419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Philosophy of Learning: Embracing Uncertainty and Change and Chapter 7 The Practice of Journaling: Memory, Reflection, and Growth"
+        },
+        {
+          "startTime": 1417.6297089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Practice of Journaling: Memory, Reflection, and Growth and Chapter 8 Art and Science: Bridging Two Worlds"
+        },
+        {
+          "startTime": 1562.8502089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Art and Science: Bridging Two Worlds and Chapter 9 The Legacy of Curiosity: Teaching, Mentoring, and Inspiring Others"
+        },
+        {
+          "startTime": 1707.4030839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Curiosity: Teaching, Mentoring, and Inspiring Others and Chapter 10 Enduring Lessons: Living with Wonder and Purpose"
+        },
+        {
+          "startTime": 1836.3959169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Lessons: Living with Wonder and Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1160",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T18:10:11.915Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

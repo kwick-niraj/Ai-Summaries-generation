@@ -1,0 +1,456 @@
+{
+  "bookId": "851",
+  "timestamp": "2025-07-05T12:09:26.439Z",
+  "success": false,
+  "processingTime": -1751717043633,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4570,
+    "totalAudioFiles": 12,
+    "totalDuration": 2223.7457080000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2223.7457080000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/851/optimized_text/851.md",
+    "fileSize": 863,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "851.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/851/metadata/851_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2223.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/851/metadata/851_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/851/metadata/851_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/851/851_complete.wav",
+    "duration": 2223.745708,
+    "fileSize": 106739872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/851/introduction.wav",
+          "duration": 88.5545,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.5545,
+          "startTime": 0,
+          "endTime": 88.5545
+        },
+        {
+          "path": "Audio/output/851/chapter_01.wav",
+          "duration": 235.312375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Roots in the Hill Country—How Place and Family Shape Ambition",
+          "actualDuration": 235.312375,
+          "startTime": 90.0545,
+          "endTime": 325.366875
+        },
+        {
+          "path": "Audio/output/851/chapter_02.wav",
+          "duration": 246.929917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Early Lessons in Power—School, Community, and the First Taste of Leadership",
+          "actualDuration": 246.929917,
+          "startTime": 326.866875,
+          "endTime": 573.796792
+        },
+        {
+          "path": "Audio/output/851/chapter_03.wav",
+          "duration": 254.302833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The College Years—Ambition Meets Opportunity and Hard Realities",
+          "actualDuration": 254.302833,
+          "startTime": 575.296792,
+          "endTime": 829.599625
+        },
+        {
+          "path": "Audio/output/851/chapter_04.wav",
+          "duration": 228.431125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Entering the Political Arena—Building Influence and Navigating Ethics",
+          "actualDuration": 228.431125,
+          "startTime": 831.099625,
+          "endTime": 1059.53075
+        },
+        {
+          "path": "Audio/output/851/chapter_05.wav",
+          "duration": 207.357667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The First Campaign—Testing Limits and Facing the Realities of Power",
+          "actualDuration": 207.357667,
+          "startTime": 1061.03075,
+          "endTime": 1268.388417
+        },
+        {
+          "path": "Audio/output/851/chapter_06.wav",
+          "duration": 205.587833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Office—Responsibility, Doubt, and the Search for Purpose",
+          "actualDuration": 205.587833,
+          "startTime": 1269.888417,
+          "endTime": 1475.47625
+        },
+        {
+          "path": "Audio/output/851/chapter_07.wav",
+          "duration": 164.54,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Allies and Adversaries—The Art of Building Coalitions",
+          "actualDuration": 164.54,
+          "startTime": 1476.97625,
+          "endTime": 1641.51625
+        },
+        {
+          "path": "Audio/output/851/chapter_08.wav",
+          "duration": 157.157292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Cost of Ambition—Sacrifice, Loneliness, and the Shadow Side of Power",
+          "actualDuration": 157.157292,
+          "startTime": 1643.01625,
+          "endTime": 1800.173542
+        },
+        {
+          "path": "Audio/output/851/chapter_09.wav",
+          "duration": 166.799958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and Letting Go—The Final Lessons of Power",
+          "actualDuration": 166.799958,
+          "startTime": 1801.673542,
+          "endTime": 1968.4735
+        },
+        {
+          "path": "Audio/output/851/chapter_10.wav",
+          "duration": 132.175333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections—The Enduring Lessons of a Life in Pursuit of Power",
+          "actualDuration": 132.175333,
+          "startTime": 1969.9735,
+          "endTime": 2102.148833
+        },
+        {
+          "path": "Audio/output/851/conclusion.wav",
+          "duration": 136.596875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.596875,
+          "startTime": 2103.648833,
+          "endTime": 2240.2457080000004
+        }
+      ],
+      "totalDuration": 2240.2457080000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.55,
+          "actualStart": 0,
+          "actualEnd": 88.5545,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Roots in the Hill Country—How Place and Family Shape Ambition",
+          "expectedStart": 88.55,
+          "expectedEnd": 323.86,
+          "actualStart": 90.0545,
+          "actualEnd": 325.366875,
+          "timeDifference": 1.5045000000000073
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Early Lessons in Power—School, Community, and the First Taste of Leadership",
+          "expectedStart": 323.86,
+          "expectedEnd": 570.79,
+          "actualStart": 326.866875,
+          "actualEnd": 573.796792,
+          "timeDifference": 3.0068749999999795
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The College Years—Ambition Meets Opportunity and Hard Realities",
+          "expectedStart": 570.79,
+          "expectedEnd": 825.09,
+          "actualStart": 575.296792,
+          "actualEnd": 829.599625,
+          "timeDifference": 4.506792000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Entering the Political Arena—Building Influence and Navigating Ethics",
+          "expectedStart": 825.09,
+          "expectedEnd": 1053.52,
+          "actualStart": 831.099625,
+          "actualEnd": 1059.53075,
+          "timeDifference": 6.0096249999999145
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The First Campaign—Testing Limits and Facing the Realities of Power",
+          "expectedStart": 1053.52,
+          "expectedEnd": 1260.88,
+          "actualStart": 1061.03075,
+          "actualEnd": 1268.388417,
+          "timeDifference": 7.510749999999916
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Office—Responsibility, Doubt, and the Search for Purpose",
+          "expectedStart": 1260.88,
+          "expectedEnd": 1466.47,
+          "actualStart": 1269.888417,
+          "actualEnd": 1475.47625,
+          "timeDifference": 9.008416999999781
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Allies and Adversaries—The Art of Building Coalitions",
+          "expectedStart": 1466.47,
+          "expectedEnd": 1631.01,
+          "actualStart": 1476.97625,
+          "actualEnd": 1641.51625,
+          "timeDifference": 10.506249999999909
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Cost of Ambition—Sacrifice, Loneliness, and the Shadow Side of Power",
+          "expectedStart": 1631.01,
+          "expectedEnd": 1788.17,
+          "actualStart": 1643.01625,
+          "actualEnd": 1800.173542,
+          "timeDifference": 12.006249999999909
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and Letting Go—The Final Lessons of Power",
+          "expectedStart": 1788.17,
+          "expectedEnd": 1954.97,
+          "actualStart": 1801.673542,
+          "actualEnd": 1968.4735,
+          "timeDifference": 13.503541999999925
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections—The Enduring Lessons of a Life in Pursuit of Power",
+          "expectedStart": 1954.97,
+          "expectedEnd": 2087.15,
+          "actualStart": 1969.9735,
+          "actualEnd": 2102.148833,
+          "timeDifference": 15.003500000000031
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2087.15,
+          "expectedEnd": 2223.75,
+          "actualStart": 2103.648833,
+          "actualEnd": 2240.2457080000004,
+          "timeDifference": 16.498833000000104
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.5545,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Roots in the Hill Country—How Place and Family Shape Ambition"
+        },
+        {
+          "startTime": 325.366875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Roots in the Hill Country—How Place and Family Shape Ambition and Chapter 2 Early Lessons in Power—School, Community, and the First Taste of Leadership"
+        },
+        {
+          "startTime": 573.796792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Early Lessons in Power—School, Community, and the First Taste of Leadership and Chapter 3 The College Years—Ambition Meets Opportunity and Hard Realities"
+        },
+        {
+          "startTime": 829.599625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The College Years—Ambition Meets Opportunity and Hard Realities and Chapter 4 Entering the Political Arena—Building Influence and Navigating Ethics"
+        },
+        {
+          "startTime": 1059.53075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Entering the Political Arena—Building Influence and Navigating Ethics and Chapter 5 The First Campaign—Testing Limits and Facing the Realities of Power"
+        },
+        {
+          "startTime": 1268.388417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The First Campaign—Testing Limits and Facing the Realities of Power and Chapter 6 The Weight of Office—Responsibility, Doubt, and the Search for Purpose"
+        },
+        {
+          "startTime": 1475.47625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Office—Responsibility, Doubt, and the Search for Purpose and Chapter 7 Allies and Adversaries—The Art of Building Coalitions"
+        },
+        {
+          "startTime": 1641.51625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Allies and Adversaries—The Art of Building Coalitions and Chapter 8 The Cost of Ambition—Sacrifice, Loneliness, and the Shadow Side of Power"
+        },
+        {
+          "startTime": 1800.173542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Cost of Ambition—Sacrifice, Loneliness, and the Shadow Side of Power and Chapter 9 Legacy and Letting Go—The Final Lessons of Power"
+        },
+        {
+          "startTime": 1968.4735,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and Letting Go—The Final Lessons of Power and Chapter 10 Reflections—The Enduring Lessons of a Life in Pursuit of Power"
+        },
+        {
+          "startTime": 2102.148833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections—The Enduring Lessons of a Life in Pursuit of Power and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "851",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T12:04:05.226Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

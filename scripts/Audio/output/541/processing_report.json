@@ -1,0 +1,455 @@
+{
+  "bookId": "541",
+  "timestamp": "2025-07-04T18:03:34.302Z",
+  "success": false,
+  "processingTime": -1751651900199,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4203,
+    "totalAudioFiles": 12,
+    "totalDuration": 1932.2863340000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1932.2863340000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/541/optimized_text/541.md",
+    "fileSize": 763,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "541.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/541/metadata/541_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1932.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/541/metadata/541_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/541/metadata/541_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/541/541_complete.wav",
+    "duration": 1932.286333,
+    "fileSize": 92749822,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/541/introduction.wav",
+          "duration": 100.921833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.921833,
+          "startTime": 0,
+          "endTime": 100.921833
+        },
+        {
+          "path": "Audio/output/541/chapter_01.wav",
+          "duration": 207.222417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Groundwork—Defining Feminism and Questioning Gender Norms",
+          "actualDuration": 207.222417,
+          "startTime": 102.421833,
+          "endTime": 309.64425
+        },
+        {
+          "path": "Audio/output/541/chapter_02.wav",
+          "duration": 169.828167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Encouraging Independence, Self-Worth, and the Power of Choice",
+          "actualDuration": 169.828167,
+          "startTime": 311.14425,
+          "endTime": 480.972417
+        },
+        {
+          "path": "Audio/output/541/chapter_03.wav",
+          "duration": 205.701375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Language, Stories, and the Subtle Shaping of Identity",
+          "actualDuration": 205.701375,
+          "startTime": 482.472417,
+          "endTime": 688.173792
+        },
+        {
+          "path": "Audio/output/541/chapter_04.wav",
+          "duration": 182.214875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Teaching Consent, Bodily Autonomy, and Respect for Boundaries",
+          "actualDuration": 182.214875,
+          "startTime": 689.673792,
+          "endTime": 871.888667
+        },
+        {
+          "path": "Audio/output/541/chapter_05.wav",
+          "duration": 197.805083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Modeling Equality and Shared Responsibility at Home",
+          "actualDuration": 197.805083,
+          "startTime": 873.388667,
+          "endTime": 1071.1937500000001
+        },
+        {
+          "path": "Audio/output/541/chapter_06.wav",
+          "duration": 167.71925,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Nurturing Ambition and Redefining Success",
+          "actualDuration": 167.71925,
+          "startTime": 1072.6937500000001,
+          "endTime": 1240.413
+        },
+        {
+          "path": "Audio/output/541/chapter_07.wav",
+          "duration": 161.458708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Resisting Social Pressure and Building Resilience",
+          "actualDuration": 161.458708,
+          "startTime": 1241.913,
+          "endTime": 1403.3717080000001
+        },
+        {
+          "path": "Audio/output/541/chapter_08.wav",
+          "duration": 135.084,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Intersectionality—Understanding Overlapping Identities",
+          "actualDuration": 135.084,
+          "startTime": 1404.8717080000001,
+          "endTime": 1539.9557080000002
+        },
+        {
+          "path": "Audio/output/541/chapter_09.wav",
+          "duration": 143.617667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Media, Technology, and the Wider World",
+          "actualDuration": 143.617667,
+          "startTime": 1541.4557080000002,
+          "endTime": 1685.0733750000002
+        },
+        {
+          "path": "Audio/output/541/chapter_10.wav",
+          "duration": 117.702542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Process—Reflection, Adaptation, and Community",
+          "actualDuration": 117.702542,
+          "startTime": 1686.5733750000002,
+          "endTime": 1804.2759170000002
+        },
+        {
+          "path": "Audio/output/541/conclusion.wav",
+          "duration": 143.010417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.010417,
+          "startTime": 1805.7759170000002,
+          "endTime": 1948.7863340000001
+        }
+      ],
+      "totalDuration": 1948.7863340000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.92,
+          "actualStart": 0,
+          "actualEnd": 100.921833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Groundwork—Defining Feminism and Questioning Gender Norms",
+          "expectedStart": 100.92,
+          "expectedEnd": 308.14,
+          "actualStart": 102.421833,
+          "actualEnd": 309.64425,
+          "timeDifference": 1.5018330000000049
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Encouraging Independence, Self-Worth, and the Power of Choice",
+          "expectedStart": 308.14,
+          "expectedEnd": 477.97,
+          "actualStart": 311.14425,
+          "actualEnd": 480.972417,
+          "timeDifference": 3.004250000000013
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Language, Stories, and the Subtle Shaping of Identity",
+          "expectedStart": 477.97,
+          "expectedEnd": 683.67,
+          "actualStart": 482.472417,
+          "actualEnd": 688.173792,
+          "timeDifference": 4.50241699999998
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Teaching Consent, Bodily Autonomy, and Respect for Boundaries",
+          "expectedStart": 683.67,
+          "expectedEnd": 865.88,
+          "actualStart": 689.673792,
+          "actualEnd": 871.888667,
+          "timeDifference": 6.0037920000000895
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Modeling Equality and Shared Responsibility at Home",
+          "expectedStart": 865.88,
+          "expectedEnd": 1063.69,
+          "actualStart": 873.388667,
+          "actualEnd": 1071.1937500000001,
+          "timeDifference": 7.5086670000000595
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Nurturing Ambition and Redefining Success",
+          "expectedStart": 1063.69,
+          "expectedEnd": 1231.41,
+          "actualStart": 1072.6937500000001,
+          "actualEnd": 1240.413,
+          "timeDifference": 9.003750000000082
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Resisting Social Pressure and Building Resilience",
+          "expectedStart": 1231.41,
+          "expectedEnd": 1392.87,
+          "actualStart": 1241.913,
+          "actualEnd": 1403.3717080000001,
+          "timeDifference": 10.502999999999929
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Intersectionality—Understanding Overlapping Identities",
+          "expectedStart": 1392.87,
+          "expectedEnd": 1527.95,
+          "actualStart": 1404.8717080000001,
+          "actualEnd": 1539.9557080000002,
+          "timeDifference": 12.001708000000235
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Media, Technology, and the Wider World",
+          "expectedStart": 1527.95,
+          "expectedEnd": 1671.57,
+          "actualStart": 1541.4557080000002,
+          "actualEnd": 1685.0733750000002,
+          "timeDifference": 13.50570800000014
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Process—Reflection, Adaptation, and Community",
+          "expectedStart": 1671.57,
+          "expectedEnd": 1789.27,
+          "actualStart": 1686.5733750000002,
+          "actualEnd": 1804.2759170000002,
+          "timeDifference": 15.003375000000233
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1789.27,
+          "expectedEnd": 1932.28,
+          "actualStart": 1805.7759170000002,
+          "actualEnd": 1948.7863340000001,
+          "timeDifference": 16.50591700000018
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.921833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Groundwork—Defining Feminism and Questioning Gender Norms"
+        },
+        {
+          "startTime": 309.64425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Groundwork—Defining Feminism and Questioning Gender Norms and Chapter 2 Encouraging Independence, Self-Worth, and the Power of Choice"
+        },
+        {
+          "startTime": 480.972417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Encouraging Independence, Self-Worth, and the Power of Choice and Chapter 3 Language, Stories, and the Subtle Shaping of Identity"
+        },
+        {
+          "startTime": 688.173792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Language, Stories, and the Subtle Shaping of Identity and Chapter 4 Teaching Consent, Bodily Autonomy, and Respect for Boundaries"
+        },
+        {
+          "startTime": 871.888667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Teaching Consent, Bodily Autonomy, and Respect for Boundaries and Chapter 5 Modeling Equality and Shared Responsibility at Home"
+        },
+        {
+          "startTime": 1071.1937500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Modeling Equality and Shared Responsibility at Home and Chapter 6 Nurturing Ambition and Redefining Success"
+        },
+        {
+          "startTime": 1240.413,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Nurturing Ambition and Redefining Success and Chapter 7 Resisting Social Pressure and Building Resilience"
+        },
+        {
+          "startTime": 1403.3717080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Resisting Social Pressure and Building Resilience and Chapter 8 Embracing Intersectionality—Understanding Overlapping Identities"
+        },
+        {
+          "startTime": 1539.9557080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Intersectionality—Understanding Overlapping Identities and Chapter 9 Navigating Media, Technology, and the Wider World"
+        },
+        {
+          "startTime": 1685.0733750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Media, Technology, and the Wider World and Chapter 10 The Ongoing Process—Reflection, Adaptation, and Community"
+        },
+        {
+          "startTime": 1804.2759170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Process—Reflection, Adaptation, and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "541",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T17:58:21.971Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

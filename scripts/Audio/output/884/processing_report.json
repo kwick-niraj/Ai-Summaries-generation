@@ -1,0 +1,456 @@
+{
+  "bookId": "884",
+  "timestamp": "2025-07-05T13:57:20.189Z",
+  "success": false,
+  "processingTime": -1751723517686,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3868,
+    "totalAudioFiles": 12,
+    "totalDuration": 1849.99871
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1849.99871
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/884/optimized_text/884.md",
+    "fileSize": 587,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "884.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/884/metadata/884_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1849.98,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/884/metadata/884_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/884/metadata/884_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/884/884_complete.wav",
+    "duration": 1849.998708,
+    "fileSize": 88800016,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/884/introduction.wav",
+          "duration": 94.413667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.413667,
+          "startTime": 0,
+          "endTime": 94.413667
+        },
+        {
+          "path": "Audio/output/884/chapter_01.wav",
+          "duration": 229.434792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Between Faith and Doubt",
+          "actualDuration": 229.434792,
+          "startTime": 95.913667,
+          "endTime": 325.348459
+        },
+        {
+          "path": "Audio/output/884/chapter_02.wav",
+          "duration": 210.283833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Pull of Family and Tradition",
+          "actualDuration": 210.283833,
+          "startTime": 326.848459,
+          "endTime": 537.132292
+        },
+        {
+          "path": "Audio/output/884/chapter_03.wav",
+          "duration": 183.545625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Wrestling with Belief in a Secular World",
+          "actualDuration": 183.545625,
+          "startTime": 538.632292,
+          "endTime": 722.177917
+        },
+        {
+          "path": "Audio/output/884/chapter_04.wav",
+          "duration": 177.026917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rediscovering Meaning Through Community and Practice",
+          "actualDuration": 177.026917,
+          "startTime": 723.677917,
+          "endTime": 900.704834
+        },
+        {
+          "path": "Audio/output/884/chapter_05.wav",
+          "duration": 142.914667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Making Peace with Inheritance and Identity",
+          "actualDuration": 142.914667,
+          "startTime": 902.204834,
+          "endTime": 1045.1195010000001
+        },
+        {
+          "path": "Audio/output/884/chapter_06.wav",
+          "duration": 158.110917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Reconciliation",
+          "actualDuration": 158.110917,
+          "startTime": 1046.6195010000001,
+          "endTime": 1204.730418
+        },
+        {
+          "path": "Audio/output/884/chapter_07.wav",
+          "duration": 145.151292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Intellect, Emotion, and the Spiritual Life",
+          "actualDuration": 145.151292,
+          "startTime": 1206.230418,
+          "endTime": 1351.38171
+        },
+        {
+          "path": "Audio/output/884/chapter_08.wav",
+          "duration": 129.6215,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Belonging in a Secular Age",
+          "actualDuration": 129.6215,
+          "startTime": 1352.88171,
+          "endTime": 1482.50321
+        },
+        {
+          "path": "Audio/output/884/chapter_09.wav",
+          "duration": 119.77025,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Complexity and Ambiguity",
+          "actualDuration": 119.77025,
+          "startTime": 1484.00321,
+          "endTime": 1603.7734600000001
+        },
+        {
+          "path": "Audio/output/884/chapter_10.wav",
+          "duration": 134.682667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Finding Peace: Living with Questions",
+          "actualDuration": 134.682667,
+          "startTime": 1605.2734600000001,
+          "endTime": 1739.9561270000002
+        },
+        {
+          "path": "Audio/output/884/conclusion.wav",
+          "duration": 125.042583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.042583,
+          "startTime": 1741.4561270000002,
+          "endTime": 1866.49871
+        }
+      ],
+      "totalDuration": 1866.49871,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.41,
+          "actualStart": 0,
+          "actualEnd": 94.413667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Between Faith and Doubt",
+          "expectedStart": 94.41,
+          "expectedEnd": 323.84,
+          "actualStart": 95.913667,
+          "actualEnd": 325.348459,
+          "timeDifference": 1.5036670000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Pull of Family and Tradition",
+          "expectedStart": 323.84,
+          "expectedEnd": 534.12,
+          "actualStart": 326.848459,
+          "actualEnd": 537.132292,
+          "timeDifference": 3.008459000000016
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Wrestling with Belief in a Secular World",
+          "expectedStart": 534.12,
+          "expectedEnd": 717.67,
+          "actualStart": 538.632292,
+          "actualEnd": 722.177917,
+          "timeDifference": 4.512292000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rediscovering Meaning Through Community and Practice",
+          "expectedStart": 717.67,
+          "expectedEnd": 894.7,
+          "actualStart": 723.677917,
+          "actualEnd": 900.704834,
+          "timeDifference": 6.00791700000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Making Peace with Inheritance and Identity",
+          "expectedStart": 894.7,
+          "expectedEnd": 1037.61,
+          "actualStart": 902.204834,
+          "actualEnd": 1045.1195010000001,
+          "timeDifference": 7.50483399999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Reconciliation",
+          "expectedStart": 1037.61,
+          "expectedEnd": 1195.72,
+          "actualStart": 1046.6195010000001,
+          "actualEnd": 1204.730418,
+          "timeDifference": 9.009501000000228
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Intellect, Emotion, and the Spiritual Life",
+          "expectedStart": 1195.72,
+          "expectedEnd": 1340.87,
+          "actualStart": 1206.230418,
+          "actualEnd": 1351.38171,
+          "timeDifference": 10.510418000000072
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Belonging in a Secular Age",
+          "expectedStart": 1340.87,
+          "expectedEnd": 1470.49,
+          "actualStart": 1352.88171,
+          "actualEnd": 1482.50321,
+          "timeDifference": 12.011710000000221
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Complexity and Ambiguity",
+          "expectedStart": 1470.49,
+          "expectedEnd": 1590.26,
+          "actualStart": 1484.00321,
+          "actualEnd": 1603.7734600000001,
+          "timeDifference": 13.513210000000072
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Finding Peace: Living with Questions",
+          "expectedStart": 1590.26,
+          "expectedEnd": 1724.94,
+          "actualStart": 1605.2734600000001,
+          "actualEnd": 1739.9561270000002,
+          "timeDifference": 15.013460000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1724.94,
+          "expectedEnd": 1849.98,
+          "actualStart": 1741.4561270000002,
+          "actualEnd": 1866.49871,
+          "timeDifference": 16.516127000000097
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.413667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Between Faith and Doubt"
+        },
+        {
+          "startTime": 325.348459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Between Faith and Doubt and Chapter 2 The Pull of Family and Tradition"
+        },
+        {
+          "startTime": 537.132292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Pull of Family and Tradition and Chapter 3 Wrestling with Belief in a Secular World"
+        },
+        {
+          "startTime": 722.177917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Wrestling with Belief in a Secular World and Chapter 4 Rediscovering Meaning Through Community and Practice"
+        },
+        {
+          "startTime": 900.704834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rediscovering Meaning Through Community and Practice and Chapter 5 Making Peace with Inheritance and Identity"
+        },
+        {
+          "startTime": 1045.1195010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Making Peace with Inheritance and Identity and Chapter 6 The Long Road to Reconciliation"
+        },
+        {
+          "startTime": 1204.730418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Reconciliation and Chapter 7 Intellect, Emotion, and the Spiritual Life"
+        },
+        {
+          "startTime": 1351.38171,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Intellect, Emotion, and the Spiritual Life and Chapter 8 The Search for Belonging in a Secular Age"
+        },
+        {
+          "startTime": 1482.50321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Belonging in a Secular Age and Chapter 9 Embracing Complexity and Ambiguity"
+        },
+        {
+          "startTime": 1603.7734600000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Complexity and Ambiguity and Chapter 10 Finding Peace: Living with Questions"
+        },
+        {
+          "startTime": 1739.9561270000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Finding Peace: Living with Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "884",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T13:51:59.204Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

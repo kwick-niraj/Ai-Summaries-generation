@@ -1,0 +1,431 @@
+{
+  "bookId": "919",
+  "timestamp": "2025-07-05T15:54:19.116Z",
+  "success": false,
+  "processingTime": -1751730635101,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3957,
+    "totalAudioFiles": 12,
+    "totalDuration": 1592.545084
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1592.545084
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/919/optimized_text/919.md",
+    "fileSize": 796,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "919.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/919/metadata/919_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1592.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/919/metadata/919_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/919/metadata/919_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/919/919_complete.wav",
+    "duration": 1592.545083,
+    "fileSize": 76442242,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/919/introduction.wav",
+          "duration": 95.318833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.318833,
+          "startTime": 0,
+          "endTime": 95.318833
+        },
+        {
+          "path": "Audio/output/919/chapter_02.wav",
+          "duration": 201.65625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Entering Versailles and Navigating a Foreign Court",
+          "actualDuration": 201.65625,
+          "startTime": 96.818833,
+          "endTime": 298.475083
+        },
+        {
+          "path": "Audio/output/919/chapter_03.wav",
+          "duration": 191.261292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of the Crown and the Search for Belonging",
+          "actualDuration": 191.261292,
+          "startTime": 299.975083,
+          "endTime": 491.23637499999995
+        },
+        {
+          "path": "Audio/output/919/chapter_04.wav",
+          "duration": 157.756042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Rise of Hostility and the Power of Public Opinion",
+          "actualDuration": 157.756042,
+          "startTime": 492.73637499999995,
+          "endTime": 650.4924169999999
+        },
+        {
+          "path": "Audio/output/919/chapter_05.wav",
+          "duration": 154.91375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Collapse of the Old Order and the Descent into Revolution",
+          "actualDuration": 154.91375,
+          "startTime": 651.9924169999999,
+          "endTime": 806.9061669999999
+        },
+        {
+          "path": "Audio/output/919/chapter_06.wav",
+          "duration": 155.712792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath—A Family Torn Apart",
+          "actualDuration": 155.712792,
+          "startTime": 808.4061669999999,
+          "endTime": 964.1189589999999
+        },
+        {
+          "path": "Audio/output/919/chapter_07.wav",
+          "duration": 138.191,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Making of a Myth—Stories, Scapegoats, and the Search for Meaning",
+          "actualDuration": 138.191,
+          "startTime": 965.6189589999999,
+          "endTime": 1103.809959
+        },
+        {
+          "path": "Audio/output/919/chapter_08.wav",
+          "duration": 140.208208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Queen in Exile—Memory, Mourning, and the Long Reach of History",
+          "actualDuration": 140.208208,
+          "startTime": 1105.309959,
+          "endTime": 1245.518167
+        },
+        {
+          "path": "Audio/output/919/chapter_09.wav",
+          "duration": 124.812042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reinterpretation and Revival—Marie Antoinette in Art, Literature, and Popular Culture",
+          "actualDuration": 124.812042,
+          "startTime": 1247.018167,
+          "endTime": 1371.830209
+        },
+        {
+          "path": "Audio/output/919/chapter_10.wav",
+          "duration": 123.890417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from a Life—Empathy, Judgment, and the Human Cost of Power",
+          "actualDuration": 123.890417,
+          "startTime": 1373.330209,
+          "endTime": 1497.220626
+        },
+        {
+          "path": "Audio/output/919/conclusion.wav",
+          "duration": 108.824458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.824458,
+          "startTime": 1498.720626,
+          "endTime": 1607.545084
+        }
+      ],
+      "totalDuration": 1607.545084,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.32,
+          "actualStart": 0,
+          "actualEnd": 95.318833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Entering Versailles and Navigating a Foreign Court",
+          "expectedStart": 95.32,
+          "expectedEnd": 296.98,
+          "actualStart": 96.818833,
+          "actualEnd": 298.475083,
+          "timeDifference": 1.4988330000000047
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of the Crown and the Search for Belonging",
+          "expectedStart": 296.98,
+          "expectedEnd": 488.24,
+          "actualStart": 299.975083,
+          "actualEnd": 491.23637499999995,
+          "timeDifference": 2.9950829999999655
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Rise of Hostility and the Power of Public Opinion",
+          "expectedStart": 488.24,
+          "expectedEnd": 646,
+          "actualStart": 492.73637499999995,
+          "actualEnd": 650.4924169999999,
+          "timeDifference": 4.496374999999944
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Collapse of the Old Order and the Descent into Revolution",
+          "expectedStart": 646,
+          "expectedEnd": 800.91,
+          "actualStart": 651.9924169999999,
+          "actualEnd": 806.9061669999999,
+          "timeDifference": 5.992416999999932
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath—A Family Torn Apart",
+          "expectedStart": 800.91,
+          "expectedEnd": 956.62,
+          "actualStart": 808.4061669999999,
+          "actualEnd": 964.1189589999999,
+          "timeDifference": 7.4961669999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Making of a Myth—Stories, Scapegoats, and the Search for Meaning",
+          "expectedStart": 956.62,
+          "expectedEnd": 1094.81,
+          "actualStart": 965.6189589999999,
+          "actualEnd": 1103.809959,
+          "timeDifference": 8.9989589999999
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Queen in Exile—Memory, Mourning, and the Long Reach of History",
+          "expectedStart": 1094.81,
+          "expectedEnd": 1235.02,
+          "actualStart": 1105.309959,
+          "actualEnd": 1245.518167,
+          "timeDifference": 10.49995899999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reinterpretation and Revival—Marie Antoinette in Art, Literature, and Popular Culture",
+          "expectedStart": 1235.02,
+          "expectedEnd": 1359.83,
+          "actualStart": 1247.018167,
+          "actualEnd": 1371.830209,
+          "timeDifference": 11.998166999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from a Life—Empathy, Judgment, and the Human Cost of Power",
+          "expectedStart": 1359.83,
+          "expectedEnd": 1483.72,
+          "actualStart": 1373.330209,
+          "actualEnd": 1497.220626,
+          "timeDifference": 13.50020900000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1483.72,
+          "expectedEnd": 1592.54,
+          "actualStart": 1498.720626,
+          "actualEnd": 1607.545084,
+          "timeDifference": 15.000626000000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.318833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 Entering Versailles and Navigating a Foreign Court"
+        },
+        {
+          "startTime": 298.475083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Entering Versailles and Navigating a Foreign Court and Chapter 3 The Weight of the Crown and the Search for Belonging"
+        },
+        {
+          "startTime": 491.23637499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of the Crown and the Search for Belonging and Chapter 4 The Rise of Hostility and the Power of Public Opinion"
+        },
+        {
+          "startTime": 650.4924169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Rise of Hostility and the Power of Public Opinion and Chapter 5 The Collapse of the Old Order and the Descent into Revolution"
+        },
+        {
+          "startTime": 806.9061669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Collapse of the Old Order and the Descent into Revolution and Chapter 6 The Aftermath—A Family Torn Apart"
+        },
+        {
+          "startTime": 964.1189589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath—A Family Torn Apart and Chapter 7 The Making of a Myth—Stories, Scapegoats, and the Search for Meaning"
+        },
+        {
+          "startTime": 1103.809959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Making of a Myth—Stories, Scapegoats, and the Search for Meaning and Chapter 8 The Queen in Exile—Memory, Mourning, and the Long Reach of History"
+        },
+        {
+          "startTime": 1245.518167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Queen in Exile—Memory, Mourning, and the Long Reach of History and Chapter 9 Reinterpretation and Revival—Marie Antoinette in Art, Literature, and Popular Culture"
+        },
+        {
+          "startTime": 1371.830209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reinterpretation and Revival—Marie Antoinette in Art, Literature, and Popular Culture and Chapter 10 Lessons from a Life—Empathy, Judgment, and the Human Cost of Power"
+        },
+        {
+          "startTime": 1497.220626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from a Life—Empathy, Judgment, and the Human Cost of Power and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "919",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T15:50:37.495Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

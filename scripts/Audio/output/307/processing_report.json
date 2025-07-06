@@ -1,0 +1,456 @@
+{
+  "bookId": "307",
+  "timestamp": "2025-07-03T16:59:29.503Z",
+  "success": false,
+  "processingTime": -1751561673808,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4055,
+    "totalAudioFiles": 12,
+    "totalDuration": 1869.138501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1869.138501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/307/optimized_text/307.md",
+    "fileSize": 547,
+    "wordCount": 79,
+    "format": "markdown",
+    "filename": "307.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/307/metadata/307_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1869.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/307/metadata/307_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/307/metadata/307_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/307/307_complete.wav",
+    "duration": 1869.1385,
+    "fileSize": 89718726,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/307/introduction.wav",
+          "duration": 87.552917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.552917,
+          "startTime": 0,
+          "endTime": 87.552917
+        },
+        {
+          "path": "Audio/output/307/chapter_01.wav",
+          "duration": 201.436333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Weight of Conscience in Public Life",
+          "actualDuration": 201.436333,
+          "startTime": 89.052917,
+          "endTime": 290.48924999999997
+        },
+        {
+          "path": "Audio/output/307/chapter_02.wav",
+          "duration": 196.190125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Standing Alone Against the Tide",
+          "actualDuration": 196.190125,
+          "startTime": 291.98924999999997,
+          "endTime": 488.17937499999994
+        },
+        {
+          "path": "Audio/output/307/chapter_03.wav",
+          "duration": 190.235792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cost of Integrity in a Divided Nation",
+          "actualDuration": 190.235792,
+          "startTime": 489.67937499999994,
+          "endTime": 679.9151669999999
+        },
+        {
+          "path": "Audio/output/307/chapter_04.wav",
+          "duration": 181.1785,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle Between Principle and Popularity",
+          "actualDuration": 181.1785,
+          "startTime": 681.4151669999999,
+          "endTime": 862.5936669999999
+        },
+        {
+          "path": "Audio/output/307/chapter_05.wav",
+          "duration": 189.931417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Legacy of Courage in American Democracy",
+          "actualDuration": 189.931417,
+          "startTime": 864.0936669999999,
+          "endTime": 1054.0250839999999
+        },
+        {
+          "path": "Audio/output/307/chapter_06.wav",
+          "duration": 169.87325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Sacrifice of Principle",
+          "actualDuration": 169.87325,
+          "startTime": 1055.5250839999999,
+          "endTime": 1225.398334
+        },
+        {
+          "path": "Audio/output/307/chapter_07.wav",
+          "duration": 148.775208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Burden of Betrayal",
+          "actualDuration": 148.775208,
+          "startTime": 1226.898334,
+          "endTime": 1375.673542
+        },
+        {
+          "path": "Audio/output/307/chapter_08.wav",
+          "duration": 114.840083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow of Unpopular Decisions",
+          "actualDuration": 114.840083,
+          "startTime": 1377.173542,
+          "endTime": 1492.013625
+        },
+        {
+          "path": "Audio/output/307/chapter_09.wav",
+          "duration": 118.311542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Redemption",
+          "actualDuration": 118.311542,
+          "startTime": 1493.513625,
+          "endTime": 1611.825167
+        },
+        {
+          "path": "Audio/output/307/chapter_10.wav",
+          "duration": 140.443542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit of Courage",
+          "actualDuration": 140.443542,
+          "startTime": 1613.325167,
+          "endTime": 1753.768709
+        },
+        {
+          "path": "Audio/output/307/conclusion.wav",
+          "duration": 130.369792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.369792,
+          "startTime": 1755.268709,
+          "endTime": 1885.638501
+        }
+      ],
+      "totalDuration": 1885.638501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.55,
+          "actualStart": 0,
+          "actualEnd": 87.552917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Weight of Conscience in Public Life",
+          "expectedStart": 87.55,
+          "expectedEnd": 288.99,
+          "actualStart": 89.052917,
+          "actualEnd": 290.48924999999997,
+          "timeDifference": 1.5029169999999965
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Standing Alone Against the Tide",
+          "expectedStart": 288.99,
+          "expectedEnd": 485.18,
+          "actualStart": 291.98924999999997,
+          "actualEnd": 488.17937499999994,
+          "timeDifference": 2.999249999999961
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cost of Integrity in a Divided Nation",
+          "expectedStart": 485.18,
+          "expectedEnd": 675.42,
+          "actualStart": 489.67937499999994,
+          "actualEnd": 679.9151669999999,
+          "timeDifference": 4.4993749999999295
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle Between Principle and Popularity",
+          "expectedStart": 675.42,
+          "expectedEnd": 856.6,
+          "actualStart": 681.4151669999999,
+          "actualEnd": 862.5936669999999,
+          "timeDifference": 5.995166999999924
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Legacy of Courage in American Democracy",
+          "expectedStart": 856.6,
+          "expectedEnd": 1046.53,
+          "actualStart": 864.0936669999999,
+          "actualEnd": 1054.0250839999999,
+          "timeDifference": 7.493666999999846
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Sacrifice of Principle",
+          "expectedStart": 1046.53,
+          "expectedEnd": 1216.4,
+          "actualStart": 1055.5250839999999,
+          "actualEnd": 1225.398334,
+          "timeDifference": 8.995083999999906
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Burden of Betrayal",
+          "expectedStart": 1216.4,
+          "expectedEnd": 1365.18,
+          "actualStart": 1226.898334,
+          "actualEnd": 1375.673542,
+          "timeDifference": 10.498333999999886
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow of Unpopular Decisions",
+          "expectedStart": 1365.18,
+          "expectedEnd": 1480.02,
+          "actualStart": 1377.173542,
+          "actualEnd": 1492.013625,
+          "timeDifference": 11.993541999999934
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Redemption",
+          "expectedStart": 1480.02,
+          "expectedEnd": 1598.33,
+          "actualStart": 1493.513625,
+          "actualEnd": 1611.825167,
+          "timeDifference": 13.493625000000065
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit of Courage",
+          "expectedStart": 1598.33,
+          "expectedEnd": 1738.77,
+          "actualStart": 1613.325167,
+          "actualEnd": 1753.768709,
+          "timeDifference": 14.995167000000038
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1738.77,
+          "expectedEnd": 1869.14,
+          "actualStart": 1755.268709,
+          "actualEnd": 1885.638501,
+          "timeDifference": 16.498708999999963
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.552917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Weight of Conscience in Public Life"
+        },
+        {
+          "startTime": 290.48924999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Weight of Conscience in Public Life and Chapter 2 Standing Alone Against the Tide"
+        },
+        {
+          "startTime": 488.17937499999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Standing Alone Against the Tide and Chapter 3 The Cost of Integrity in a Divided Nation"
+        },
+        {
+          "startTime": 679.9151669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cost of Integrity in a Divided Nation and Chapter 4 The Struggle Between Principle and Popularity"
+        },
+        {
+          "startTime": 862.5936669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle Between Principle and Popularity and Chapter 5 The Legacy of Courage in American Democracy"
+        },
+        {
+          "startTime": 1054.0250839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Legacy of Courage in American Democracy and Chapter 6 The Quiet Sacrifice of Principle"
+        },
+        {
+          "startTime": 1225.398334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Sacrifice of Principle and Chapter 7 The Burden of Betrayal"
+        },
+        {
+          "startTime": 1375.673542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Burden of Betrayal and Chapter 8 The Long Shadow of Unpopular Decisions"
+        },
+        {
+          "startTime": 1492.013625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow of Unpopular Decisions and Chapter 9 The Power of Redemption"
+        },
+        {
+          "startTime": 1611.825167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Redemption and Chapter 10 The Enduring Spirit of Courage"
+        },
+        {
+          "startTime": 1753.768709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit of Courage and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "307",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T16:54:35.027Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

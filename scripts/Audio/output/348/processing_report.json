@@ -1,0 +1,456 @@
+{
+  "bookId": "348",
+  "timestamp": "2025-07-03T19:17:10.118Z",
+  "success": false,
+  "processingTime": -1751569851073,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4792,
+    "totalAudioFiles": 12,
+    "totalDuration": 2236.746625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2236.746625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/348/optimized_text/348.md",
+    "fileSize": 792,
+    "wordCount": 117,
+    "format": "markdown",
+    "filename": "348.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/348/metadata/348_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2236.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/348/metadata/348_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/348/metadata/348_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/348/348_complete.wav",
+    "duration": 2236.746625,
+    "fileSize": 107363916,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/348/introduction.wav",
+          "duration": 81.404333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.404333,
+          "startTime": 0,
+          "endTime": 81.404333
+        },
+        {
+          "path": "Audio/output/348/chapter_01.wav",
+          "duration": 222.6985,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Weight of Inheritance: A New President Faces Old Wars",
+          "actualDuration": 222.6985,
+          "startTime": 82.904333,
+          "endTime": 305.602833
+        },
+        {
+          "path": "Audio/output/348/chapter_02.wav",
+          "duration": 230.631958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Afghanistan Dilemma: Searching for a Way Forward",
+          "actualDuration": 230.631958,
+          "startTime": 307.102833,
+          "endTime": 537.734791
+        },
+        {
+          "path": "Audio/output/348/chapter_03.wav",
+          "duration": 251.845708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Push and Pull of Military and Civilian Power",
+          "actualDuration": 251.845708,
+          "startTime": 539.234791,
+          "endTime": 791.0804989999999
+        },
+        {
+          "path": "Audio/output/348/chapter_04.wav",
+          "duration": 214.751792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Pakistan Puzzle: Allies, Enemies, and Uncertainty",
+          "actualDuration": 214.751792,
+          "startTime": 792.5804989999999,
+          "endTime": 1007.3322909999999
+        },
+        {
+          "path": "Audio/output/348/chapter_05.wav",
+          "duration": 209.736417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Strain of Decision: Personalities, Politics, and the Limits of Power",
+          "actualDuration": 209.736417,
+          "startTime": 1008.8322909999999,
+          "endTime": 1218.568708
+        },
+        {
+          "path": "Audio/output/348/chapter_06.wav",
+          "duration": 219.356292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Surge Gamble: Betting on More Boots and a New Approach",
+          "actualDuration": 219.356292,
+          "startTime": 1220.068708,
+          "endTime": 1439.425
+        },
+        {
+          "path": "Audio/output/348/chapter_07.wav",
+          "duration": 174.031208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Home Front: Public Opinion and the Politics of War",
+          "actualDuration": 174.031208,
+          "startTime": 1440.925,
+          "endTime": 1614.956208
+        },
+        {
+          "path": "Audio/output/348/chapter_08.wav",
+          "duration": 198.001,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Afghan Reality: Corruption, Culture, and the Limits of Influence",
+          "actualDuration": 198.001,
+          "startTime": 1616.456208,
+          "endTime": 1814.457208
+        },
+        {
+          "path": "Audio/output/348/chapter_09.wav",
+          "duration": 175.476542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Intelligence Game: Secrets, Drones, and the Shadow War",
+          "actualDuration": 175.476542,
+          "startTime": 1815.957208,
+          "endTime": 1991.4337500000001
+        },
+        {
+          "path": "Audio/output/348/chapter_10.wav",
+          "duration": 145.310792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Endgame: Withdrawal, Unfinished Business, and the Cost of Choices",
+          "actualDuration": 145.310792,
+          "startTime": 1992.9337500000001,
+          "endTime": 2138.2445420000004
+        },
+        {
+          "path": "Audio/output/348/conclusion.wav",
+          "duration": 113.502083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.502083,
+          "startTime": 2139.7445420000004,
+          "endTime": 2253.246625
+        }
+      ],
+      "totalDuration": 2253.246625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.4,
+          "actualStart": 0,
+          "actualEnd": 81.404333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Weight of Inheritance: A New President Faces Old Wars",
+          "expectedStart": 81.4,
+          "expectedEnd": 304.1,
+          "actualStart": 82.904333,
+          "actualEnd": 305.602833,
+          "timeDifference": 1.5043329999999884
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Afghanistan Dilemma: Searching for a Way Forward",
+          "expectedStart": 304.1,
+          "expectedEnd": 534.73,
+          "actualStart": 307.102833,
+          "actualEnd": 537.734791,
+          "timeDifference": 3.002832999999953
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Push and Pull of Military and Civilian Power",
+          "expectedStart": 534.73,
+          "expectedEnd": 786.58,
+          "actualStart": 539.234791,
+          "actualEnd": 791.0804989999999,
+          "timeDifference": 4.504790999999955
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Pakistan Puzzle: Allies, Enemies, and Uncertainty",
+          "expectedStart": 786.58,
+          "expectedEnd": 1001.33,
+          "actualStart": 792.5804989999999,
+          "actualEnd": 1007.3322909999999,
+          "timeDifference": 6.000498999999877
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Strain of Decision: Personalities, Politics, and the Limits of Power",
+          "expectedStart": 1001.33,
+          "expectedEnd": 1211.07,
+          "actualStart": 1008.8322909999999,
+          "actualEnd": 1218.568708,
+          "timeDifference": 7.5022909999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Surge Gamble: Betting on More Boots and a New Approach",
+          "expectedStart": 1211.07,
+          "expectedEnd": 1430.43,
+          "actualStart": 1220.068708,
+          "actualEnd": 1439.425,
+          "timeDifference": 8.998708000000079
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Home Front: Public Opinion and the Politics of War",
+          "expectedStart": 1430.43,
+          "expectedEnd": 1604.46,
+          "actualStart": 1440.925,
+          "actualEnd": 1614.956208,
+          "timeDifference": 10.49499999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Afghan Reality: Corruption, Culture, and the Limits of Influence",
+          "expectedStart": 1604.46,
+          "expectedEnd": 1802.46,
+          "actualStart": 1616.456208,
+          "actualEnd": 1814.457208,
+          "timeDifference": 11.996208000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Intelligence Game: Secrets, Drones, and the Shadow War",
+          "expectedStart": 1802.46,
+          "expectedEnd": 1977.94,
+          "actualStart": 1815.957208,
+          "actualEnd": 1991.4337500000001,
+          "timeDifference": 13.497208
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Endgame: Withdrawal, Unfinished Business, and the Cost of Choices",
+          "expectedStart": 1977.94,
+          "expectedEnd": 2123.25,
+          "actualStart": 1992.9337500000001,
+          "actualEnd": 2138.2445420000004,
+          "timeDifference": 14.993750000000091
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2123.25,
+          "expectedEnd": 2236.75,
+          "actualStart": 2139.7445420000004,
+          "actualEnd": 2253.246625,
+          "timeDifference": 16.494542000000365
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.404333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Weight of Inheritance: A New President Faces Old Wars"
+        },
+        {
+          "startTime": 305.602833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Weight of Inheritance: A New President Faces Old Wars and Chapter 2 The Afghanistan Dilemma: Searching for a Way Forward"
+        },
+        {
+          "startTime": 537.734791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Afghanistan Dilemma: Searching for a Way Forward and Chapter 3 The Push and Pull of Military and Civilian Power"
+        },
+        {
+          "startTime": 791.0804989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Push and Pull of Military and Civilian Power and Chapter 4 The Pakistan Puzzle: Allies, Enemies, and Uncertainty"
+        },
+        {
+          "startTime": 1007.3322909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Pakistan Puzzle: Allies, Enemies, and Uncertainty and Chapter 5 The Strain of Decision: Personalities, Politics, and the Limits of Power"
+        },
+        {
+          "startTime": 1218.568708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Strain of Decision: Personalities, Politics, and the Limits of Power and Chapter 6 The Surge Gamble: Betting on More Boots and a New Approach"
+        },
+        {
+          "startTime": 1439.425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Surge Gamble: Betting on More Boots and a New Approach and Chapter 7 The Home Front: Public Opinion and the Politics of War"
+        },
+        {
+          "startTime": 1614.956208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Home Front: Public Opinion and the Politics of War and Chapter 8 The Afghan Reality: Corruption, Culture, and the Limits of Influence"
+        },
+        {
+          "startTime": 1814.457208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Afghan Reality: Corruption, Culture, and the Limits of Influence and Chapter 9 The Intelligence Game: Secrets, Drones, and the Shadow War"
+        },
+        {
+          "startTime": 1991.4337500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Intelligence Game: Secrets, Drones, and the Shadow War and Chapter 10 The Endgame: Withdrawal, Unfinished Business, and the Cost of Choices"
+        },
+        {
+          "startTime": 2138.2445420000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Endgame: Withdrawal, Unfinished Business, and the Cost of Choices and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "348",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-03T19:10:52.270Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

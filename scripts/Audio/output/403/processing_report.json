@@ -1,0 +1,432 @@
+{
+  "bookId": "403",
+  "timestamp": "2025-07-04T01:11:16.060Z",
+  "success": false,
+  "processingTime": -1751591229709,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4357,
+    "totalAudioFiles": 12,
+    "totalDuration": 1709.827709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1709.827709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/403/optimized_text/403.md",
+    "fileSize": 753,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "403.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/403/metadata/403_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1709.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/403/metadata/403_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/403/metadata/403_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/403/403_complete.wav",
+    "duration": 1709.827708,
+    "fileSize": 82071808,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/403/introduction.wav",
+          "duration": 88.213667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.213667,
+          "startTime": 0,
+          "endTime": 88.213667
+        },
+        {
+          "path": "Audio/output/403/chapter_01.wav",
+          "duration": 182.34075,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Meeting Life as It Is: The Courage to Begin",
+          "actualDuration": 182.34075,
+          "startTime": 89.713667,
+          "endTime": 272.054417
+        },
+        {
+          "path": "Audio/output/403/chapter_02.wav",
+          "duration": 175.5245,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Pain and Discomfort Without Running Away",
+          "actualDuration": 175.5245,
+          "startTime": 273.554417,
+          "endTime": 449.078917
+        },
+        {
+          "path": "Audio/output/403/chapter_04.wav",
+          "duration": 177.775708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Transforming Self-Judgment with Patience and Acceptance",
+          "actualDuration": 177.775708,
+          "startTime": 450.578917,
+          "endTime": 628.3546249999999
+        },
+        {
+          "path": "Audio/output/403/chapter_05.wav",
+          "duration": 157.895792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Opening the Heart: Extending Kindness Inward and Outward",
+          "actualDuration": 157.895792,
+          "startTime": 629.8546249999999,
+          "endTime": 787.750417
+        },
+        {
+          "path": "Audio/output/403/chapter_06.wav",
+          "duration": 188.344667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Breaking the Habit: Stepping Out of Old Patterns",
+          "actualDuration": 188.344667,
+          "startTime": 789.250417,
+          "endTime": 977.5950839999999
+        },
+        {
+          "path": "Audio/output/403/chapter_07.wav",
+          "duration": 165.006542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Embracing Uncertainty: Learning to Live with Not Knowing",
+          "actualDuration": 165.006542,
+          "startTime": 979.0950839999999,
+          "endTime": 1144.101626
+        },
+        {
+          "path": "Audio/output/403/chapter_08.wav",
+          "duration": 166.702167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Deepening Mindfulness: Bringing Awareness to Everyday Life",
+          "actualDuration": 166.702167,
+          "startTime": 1145.601626,
+          "endTime": 1312.3037929999998
+        },
+        {
+          "path": "Audio/output/403/chapter_09.wav",
+          "duration": 149.994625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Compassion in Action: Turning Insight into Everyday Care",
+          "actualDuration": 149.994625,
+          "startTime": 1313.8037929999998,
+          "endTime": 1463.7984179999999
+        },
+        {
+          "path": "Audio/output/403/chapter_10.wav",
+          "duration": 146.850083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Trusting the Path of Compassionate Living",
+          "actualDuration": 146.850083,
+          "startTime": 1465.2984179999999,
+          "endTime": 1612.148501
+        },
+        {
+          "path": "Audio/output/403/conclusion.wav",
+          "duration": 111.179208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.179208,
+          "startTime": 1613.648501,
+          "endTime": 1724.827709
+        }
+      ],
+      "totalDuration": 1724.827709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.21,
+          "actualStart": 0,
+          "actualEnd": 88.213667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Meeting Life as It Is: The Courage to Begin",
+          "expectedStart": 88.21,
+          "expectedEnd": 270.55,
+          "actualStart": 89.713667,
+          "actualEnd": 272.054417,
+          "timeDifference": 1.5036670000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Pain and Discomfort Without Running Away",
+          "expectedStart": 270.55,
+          "expectedEnd": 446.07,
+          "actualStart": 273.554417,
+          "actualEnd": 449.078917,
+          "timeDifference": 3.0044169999999895
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Transforming Self-Judgment with Patience and Acceptance",
+          "expectedStart": 446.07,
+          "expectedEnd": 623.85,
+          "actualStart": 450.578917,
+          "actualEnd": 628.3546249999999,
+          "timeDifference": 4.508916999999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Opening the Heart: Extending Kindness Inward and Outward",
+          "expectedStart": 623.85,
+          "expectedEnd": 781.75,
+          "actualStart": 629.8546249999999,
+          "actualEnd": 787.750417,
+          "timeDifference": 6.004624999999919
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Breaking the Habit: Stepping Out of Old Patterns",
+          "expectedStart": 781.75,
+          "expectedEnd": 970.09,
+          "actualStart": 789.250417,
+          "actualEnd": 977.5950839999999,
+          "timeDifference": 7.50041699999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Embracing Uncertainty: Learning to Live with Not Knowing",
+          "expectedStart": 970.09,
+          "expectedEnd": 1135.1,
+          "actualStart": 979.0950839999999,
+          "actualEnd": 1144.101626,
+          "timeDifference": 9.005083999999897
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Deepening Mindfulness: Bringing Awareness to Everyday Life",
+          "expectedStart": 1135.1,
+          "expectedEnd": 1301.8,
+          "actualStart": 1145.601626,
+          "actualEnd": 1312.3037929999998,
+          "timeDifference": 10.501625999999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Compassion in Action: Turning Insight into Everyday Care",
+          "expectedStart": 1301.8,
+          "expectedEnd": 1451.79,
+          "actualStart": 1313.8037929999998,
+          "actualEnd": 1463.7984179999999,
+          "timeDifference": 12.00379299999986
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Trusting the Path of Compassionate Living",
+          "expectedStart": 1451.79,
+          "expectedEnd": 1598.64,
+          "actualStart": 1465.2984179999999,
+          "actualEnd": 1612.148501,
+          "timeDifference": 13.508417999999892
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1598.64,
+          "expectedEnd": 1709.82,
+          "actualStart": 1613.648501,
+          "actualEnd": 1724.827709,
+          "timeDifference": 15.008500999999796
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.213667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Meeting Life as It Is: The Courage to Begin"
+        },
+        {
+          "startTime": 272.054417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Meeting Life as It Is: The Courage to Begin and Chapter 2 Facing Pain and Discomfort Without Running Away"
+        },
+        {
+          "startTime": 449.078917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Pain and Discomfort Without Running Away and Chapter 4 Transforming Self-Judgment with Patience and Acceptance"
+        },
+        {
+          "startTime": 628.3546249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Transforming Self-Judgment with Patience and Acceptance and Chapter 5 Opening the Heart: Extending Kindness Inward and Outward"
+        },
+        {
+          "startTime": 787.750417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Opening the Heart: Extending Kindness Inward and Outward and Chapter 6 Breaking the Habit: Stepping Out of Old Patterns"
+        },
+        {
+          "startTime": 977.5950839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Breaking the Habit: Stepping Out of Old Patterns and Chapter 7 Embracing Uncertainty: Learning to Live with Not Knowing"
+        },
+        {
+          "startTime": 1144.101626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Embracing Uncertainty: Learning to Live with Not Knowing and Chapter 8 Deepening Mindfulness: Bringing Awareness to Everyday Life"
+        },
+        {
+          "startTime": 1312.3037929999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Deepening Mindfulness: Bringing Awareness to Everyday Life and Chapter 9 Compassion in Action: Turning Insight into Everyday Care"
+        },
+        {
+          "startTime": 1463.7984179999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Compassion in Action: Turning Insight into Everyday Care and Chapter 10 The Ongoing Journey: Trusting the Path of Compassionate Living"
+        },
+        {
+          "startTime": 1612.148501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Trusting the Path of Compassionate Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "403",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-04T01:07:10.302Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
