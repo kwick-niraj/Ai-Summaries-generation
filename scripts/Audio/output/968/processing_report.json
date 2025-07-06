@@ -1,0 +1,432 @@
+{
+  "bookId": "968",
+  "timestamp": "2025-07-05T19:02:23.248Z",
+  "success": false,
+  "processingTime": -1751741897027,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4652,
+    "totalAudioFiles": 12,
+    "totalDuration": 1948.793791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1948.793791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/968/optimized_text/968.md",
+    "fileSize": 708,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "968.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/968/metadata/968_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1948.8,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/968/metadata/968_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/968/metadata/968_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/968/968_complete.wav",
+    "duration": 1948.793792,
+    "fileSize": 93542180,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/968/introduction.wav",
+          "duration": 95.116833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.116833,
+          "startTime": 0,
+          "endTime": 95.116833
+        },
+        {
+          "path": "Audio/output/968/chapter_02.wav",
+          "duration": 219.142667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Segregationist and Assimilationist Ideas",
+          "actualDuration": 219.142667,
+          "startTime": 96.616833,
+          "endTime": 315.7595
+        },
+        {
+          "path": "Audio/output/968/chapter_03.wav",
+          "duration": 217.616,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Emancipation and Its Aftermath",
+          "actualDuration": 217.616,
+          "startTime": 317.2595,
+          "endTime": 534.8755
+        },
+        {
+          "path": "Audio/output/968/chapter_04.wav",
+          "duration": 215.09775,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Age of Scientific Racism and the Fight for Civil Rights",
+          "actualDuration": 215.09775,
+          "startTime": 536.3755,
+          "endTime": 751.47325
+        },
+        {
+          "path": "Audio/output/968/chapter_05.wav",
+          "duration": 161.473583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Struggle Against Racist Ideas",
+          "actualDuration": 161.473583,
+          "startTime": 752.97325,
+          "endTime": 914.446833
+        },
+        {
+          "path": "Audio/output/968/chapter_06.wav",
+          "duration": 205.753958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Illusion of Colorblindness and the Rise of “Post-Racial” America",
+          "actualDuration": 205.753958,
+          "startTime": 915.946833,
+          "endTime": 1121.700791
+        },
+        {
+          "path": "Audio/output/968/chapter_07.wav",
+          "duration": 198.987542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The War on Drugs and the New Jim Crow",
+          "actualDuration": 198.987542,
+          "startTime": 1123.200791,
+          "endTime": 1322.188333
+        },
+        {
+          "path": "Audio/output/968/chapter_08.wav",
+          "duration": 188.68875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Backlash to Progress and the Politics of Division",
+          "actualDuration": 188.68875,
+          "startTime": 1323.688333,
+          "endTime": 1512.377083
+        },
+        {
+          "path": "Audio/output/968/chapter_09.wav",
+          "duration": 157.040458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Resistance and the Reimagining of Justice",
+          "actualDuration": 157.040458,
+          "startTime": 1513.877083,
+          "endTime": 1670.917541
+        },
+        {
+          "path": "Audio/output/968/chapter_10.wav",
+          "duration": 151.618375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Work of Unlearning and Rebuilding",
+          "actualDuration": 151.618375,
+          "startTime": 1672.417541,
+          "endTime": 1824.035916
+        },
+        {
+          "path": "Audio/output/968/conclusion.wav",
+          "duration": 138.257875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.257875,
+          "startTime": 1825.535916,
+          "endTime": 1963.793791
+        }
+      ],
+      "totalDuration": 1963.793791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.12,
+          "actualStart": 0,
+          "actualEnd": 95.116833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Segregationist and Assimilationist Ideas",
+          "expectedStart": 95.12,
+          "expectedEnd": 314.26,
+          "actualStart": 96.616833,
+          "actualEnd": 315.7595,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Emancipation and Its Aftermath",
+          "expectedStart": 314.26,
+          "expectedEnd": 531.88,
+          "actualStart": 317.2595,
+          "actualEnd": 534.8755,
+          "timeDifference": 2.999500000000012
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Age of Scientific Racism and the Fight for Civil Rights",
+          "expectedStart": 531.88,
+          "expectedEnd": 746.98,
+          "actualStart": 536.3755,
+          "actualEnd": 751.47325,
+          "timeDifference": 4.495499999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Struggle Against Racist Ideas",
+          "expectedStart": 746.98,
+          "expectedEnd": 908.45,
+          "actualStart": 752.97325,
+          "actualEnd": 914.446833,
+          "timeDifference": 5.993249999999989
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Illusion of Colorblindness and the Rise of “Post-Racial” America",
+          "expectedStart": 908.45,
+          "expectedEnd": 1114.2,
+          "actualStart": 915.946833,
+          "actualEnd": 1121.700791,
+          "timeDifference": 7.496832999999924
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The War on Drugs and the New Jim Crow",
+          "expectedStart": 1114.2,
+          "expectedEnd": 1313.19,
+          "actualStart": 1123.200791,
+          "actualEnd": 1322.188333,
+          "timeDifference": 9.000790999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Backlash to Progress and the Politics of Division",
+          "expectedStart": 1313.19,
+          "expectedEnd": 1501.88,
+          "actualStart": 1323.688333,
+          "actualEnd": 1512.377083,
+          "timeDifference": 10.498333000000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Resistance and the Reimagining of Justice",
+          "expectedStart": 1501.88,
+          "expectedEnd": 1658.92,
+          "actualStart": 1513.877083,
+          "actualEnd": 1670.917541,
+          "timeDifference": 11.997082999999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Work of Unlearning and Rebuilding",
+          "expectedStart": 1658.92,
+          "expectedEnd": 1810.54,
+          "actualStart": 1672.417541,
+          "actualEnd": 1824.035916,
+          "timeDifference": 13.497540999999956
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1810.54,
+          "expectedEnd": 1948.8,
+          "actualStart": 1825.535916,
+          "actualEnd": 1963.793791,
+          "timeDifference": 14.99591600000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.116833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 The Rise of Segregationist and Assimilationist Ideas"
+        },
+        {
+          "startTime": 315.7595,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Segregationist and Assimilationist Ideas and Chapter 3 The Struggle for Emancipation and Its Aftermath"
+        },
+        {
+          "startTime": 534.8755,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Emancipation and Its Aftermath and Chapter 4 The Age of Scientific Racism and the Fight for Civil Rights"
+        },
+        {
+          "startTime": 751.47325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Age of Scientific Racism and the Fight for Civil Rights and Chapter 5 The Ongoing Struggle Against Racist Ideas"
+        },
+        {
+          "startTime": 914.446833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Struggle Against Racist Ideas and Chapter 6 The Illusion of Colorblindness and the Rise of “Post-Racial” America"
+        },
+        {
+          "startTime": 1121.700791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Illusion of Colorblindness and the Rise of “Post-Racial” America and Chapter 7 The War on Drugs and the New Jim Crow"
+        },
+        {
+          "startTime": 1322.188333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The War on Drugs and the New Jim Crow and Chapter 8 The Backlash to Progress and the Politics of Division"
+        },
+        {
+          "startTime": 1512.377083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Backlash to Progress and the Politics of Division and Chapter 9 The Power of Resistance and the Reimagining of Justice"
+        },
+        {
+          "startTime": 1670.917541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Resistance and the Reimagining of Justice and Chapter 10 The Ongoing Work of Unlearning and Rebuilding"
+        },
+        {
+          "startTime": 1824.035916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Work of Unlearning and Rebuilding and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "968",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T18:58:18.618Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "977",
+  "timestamp": "2025-07-05T19:23:29.972Z",
+  "success": false,
+  "processingTime": -1751743184670,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3931,
+    "totalAudioFiles": 12,
+    "totalDuration": 1774.949834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1774.949834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/977/optimized_text/977.md",
+    "fileSize": 551,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "977.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/977/metadata/977_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1774.96,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/977/metadata/977_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/977/metadata/977_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/977/977_complete.wav",
+    "duration": 1774.949833,
+    "fileSize": 85197670,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/977/introduction.wav",
+          "duration": 87.879333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.879333,
+          "startTime": 0,
+          "endTime": 87.879333
+        },
+        {
+          "path": "Audio/output/977/chapter_01.wav",
+          "duration": 161.688292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Unseen Power of Sports Media",
+          "actualDuration": 161.688292,
+          "startTime": 89.379333,
+          "endTime": 251.067625
+        },
+        {
+          "path": "Audio/output/977/chapter_02.wav",
+          "duration": 165.389667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Myth of the Flawless Sports Hero",
+          "actualDuration": 165.389667,
+          "startTime": 252.567625,
+          "endTime": 417.957292
+        },
+        {
+          "path": "Audio/output/977/chapter_03.wav",
+          "duration": 170.528708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Business Behind the Broadcast",
+          "actualDuration": 170.528708,
+          "startTime": 419.457292,
+          "endTime": 589.986
+        },
+        {
+          "path": "Audio/output/977/chapter_04.wav",
+          "duration": 183.035458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Chasing Ratings and Fame",
+          "actualDuration": 183.035458,
+          "startTime": 591.486,
+          "endTime": 774.5214579999999
+        },
+        {
+          "path": "Audio/output/977/chapter_05.wav",
+          "duration": 173.445875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Blurred Line Between Sports and Entertainment",
+          "actualDuration": 173.445875,
+          "startTime": 776.0214579999999,
+          "endTime": 949.4673329999999
+        },
+        {
+          "path": "Audio/output/977/chapter_06.wav",
+          "duration": 173.221042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Erosion of Ethics",
+          "actualDuration": 173.221042,
+          "startTime": 950.9673329999999,
+          "endTime": 1124.188375
+        },
+        {
+          "path": "Audio/output/977/chapter_07.wav",
+          "duration": 134.426083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cultural Mirror of Sports",
+          "actualDuration": 134.426083,
+          "startTime": 1125.688375,
+          "endTime": 1260.114458
+        },
+        {
+          "path": "Audio/output/977/chapter_08.wav",
+          "duration": 136.363875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Need for Independent Voices",
+          "actualDuration": 136.363875,
+          "startTime": 1261.614458,
+          "endTime": 1397.978333
+        },
+        {
+          "path": "Audio/output/977/chapter_09.wav",
+          "duration": 142.882042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Cost of the Spotlight",
+          "actualDuration": 142.882042,
+          "startTime": 1399.478333,
+          "endTime": 1542.360375
+        },
+        {
+          "path": "Audio/output/977/chapter_10.wav",
+          "duration": 108.230792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rediscovering the Heart of the Game",
+          "actualDuration": 108.230792,
+          "startTime": 1543.860375,
+          "endTime": 1652.091167
+        },
+        {
+          "path": "Audio/output/977/conclusion.wav",
+          "duration": 137.858667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.858667,
+          "startTime": 1653.591167,
+          "endTime": 1791.449834
+        }
+      ],
+      "totalDuration": 1791.449834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.88,
+          "actualStart": 0,
+          "actualEnd": 87.879333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Unseen Power of Sports Media",
+          "expectedStart": 87.88,
+          "expectedEnd": 249.57,
+          "actualStart": 89.379333,
+          "actualEnd": 251.067625,
+          "timeDifference": 1.4993330000000071
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Myth of the Flawless Sports Hero",
+          "expectedStart": 249.57,
+          "expectedEnd": 414.96,
+          "actualStart": 252.567625,
+          "actualEnd": 417.957292,
+          "timeDifference": 2.9976249999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Business Behind the Broadcast",
+          "expectedStart": 414.96,
+          "expectedEnd": 585.49,
+          "actualStart": 419.457292,
+          "actualEnd": 589.986,
+          "timeDifference": 4.497292000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Chasing Ratings and Fame",
+          "expectedStart": 585.49,
+          "expectedEnd": 768.53,
+          "actualStart": 591.486,
+          "actualEnd": 774.5214579999999,
+          "timeDifference": 5.995999999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Blurred Line Between Sports and Entertainment",
+          "expectedStart": 768.53,
+          "expectedEnd": 941.98,
+          "actualStart": 776.0214579999999,
+          "actualEnd": 949.4673329999999,
+          "timeDifference": 7.491457999999966
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Erosion of Ethics",
+          "expectedStart": 941.98,
+          "expectedEnd": 1115.2,
+          "actualStart": 950.9673329999999,
+          "actualEnd": 1124.188375,
+          "timeDifference": 8.987332999999921
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cultural Mirror of Sports",
+          "expectedStart": 1115.2,
+          "expectedEnd": 1249.63,
+          "actualStart": 1125.688375,
+          "actualEnd": 1260.114458,
+          "timeDifference": 10.488374999999905
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Need for Independent Voices",
+          "expectedStart": 1249.63,
+          "expectedEnd": 1385.99,
+          "actualStart": 1261.614458,
+          "actualEnd": 1397.978333,
+          "timeDifference": 11.984457999999904
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Cost of the Spotlight",
+          "expectedStart": 1385.99,
+          "expectedEnd": 1528.87,
+          "actualStart": 1399.478333,
+          "actualEnd": 1542.360375,
+          "timeDifference": 13.488333000000011
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rediscovering the Heart of the Game",
+          "expectedStart": 1528.87,
+          "expectedEnd": 1637.1,
+          "actualStart": 1543.860375,
+          "actualEnd": 1652.091167,
+          "timeDifference": 14.990375000000085
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1637.1,
+          "expectedEnd": 1774.96,
+          "actualStart": 1653.591167,
+          "actualEnd": 1791.449834,
+          "timeDifference": 16.491167000000132
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.879333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Unseen Power of Sports Media"
+        },
+        {
+          "startTime": 251.067625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Unseen Power of Sports Media and Chapter 2 The Myth of the Flawless Sports Hero"
+        },
+        {
+          "startTime": 417.957292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Myth of the Flawless Sports Hero and Chapter 3 The Business Behind the Broadcast"
+        },
+        {
+          "startTime": 589.986,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Business Behind the Broadcast and Chapter 4 The Cost of Chasing Ratings and Fame"
+        },
+        {
+          "startTime": 774.5214579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Chasing Ratings and Fame and Chapter 5 The Blurred Line Between Sports and Entertainment"
+        },
+        {
+          "startTime": 949.4673329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Blurred Line Between Sports and Entertainment and Chapter 6 The Quiet Erosion of Ethics"
+        },
+        {
+          "startTime": 1124.188375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Erosion of Ethics and Chapter 7 The Cultural Mirror of Sports"
+        },
+        {
+          "startTime": 1260.114458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cultural Mirror of Sports and Chapter 8 The Enduring Need for Independent Voices"
+        },
+        {
+          "startTime": 1397.978333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Need for Independent Voices and Chapter 9 The Human Cost of the Spotlight"
+        },
+        {
+          "startTime": 1542.360375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Cost of the Spotlight and Chapter 10 Rediscovering the Heart of the Game"
+        },
+        {
+          "startTime": 1652.091167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rediscovering the Heart of the Game and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "977",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T19:19:45.143Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

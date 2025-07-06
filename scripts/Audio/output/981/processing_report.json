@@ -1,0 +1,456 @@
+{
+  "bookId": "981",
+  "timestamp": "2025-07-05T19:37:39.036Z",
+  "success": false,
+  "processingTime": -1751743995953,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5564,
+    "totalAudioFiles": 12,
+    "totalDuration": 2703.756334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2703.756334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/981/optimized_text/981.md",
+    "fileSize": 754,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "981.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/981/metadata/981_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2703.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/981/metadata/981_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/981/metadata/981_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/981/981_complete.wav",
+    "duration": 2703.756333,
+    "fileSize": 129780382,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/981/introduction.wav",
+          "duration": 101.550167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.550167,
+          "startTime": 0,
+          "endTime": 101.550167
+        },
+        {
+          "path": "Audio/output/981/chapter_01.wav",
+          "duration": 264.235625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Patterns as the Foundation of Human-Centered Design",
+          "actualDuration": 264.235625,
+          "startTime": 103.050167,
+          "endTime": 367.285792
+        },
+        {
+          "path": "Audio/output/981/chapter_02.wav",
+          "duration": 293.649792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Shaping Regions and Towns for Community and Belonging",
+          "actualDuration": 293.649792,
+          "startTime": 368.785792,
+          "endTime": 662.4355840000001
+        },
+        {
+          "path": "Audio/output/981/chapter_03.wav",
+          "duration": 275.363375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Designing Neighborhoods and Public Spaces for Everyday Life",
+          "actualDuration": 275.363375,
+          "startTime": 663.9355840000001,
+          "endTime": 939.2989590000001
+        },
+        {
+          "path": "Audio/output/981/chapter_04.wav",
+          "duration": 264.434167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Crafting Buildings That Support Human Activity and Well-Being",
+          "actualDuration": 264.434167,
+          "startTime": 940.7989590000001,
+          "endTime": 1205.233126
+        },
+        {
+          "path": "Audio/output/981/chapter_05.wav",
+          "duration": 246.701042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Detailing Rooms and Construction for Everyday Comfort",
+          "actualDuration": 246.701042,
+          "startTime": 1206.733126,
+          "endTime": 1453.434168
+        },
+        {
+          "path": "Audio/output/981/chapter_06.wav",
+          "duration": 219.791375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Patterns for Social Life and Shared Spaces",
+          "actualDuration": 219.791375,
+          "startTime": 1454.934168,
+          "endTime": 1674.725543
+        },
+        {
+          "path": "Audio/output/981/chapter_07.wav",
+          "duration": 208.945667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Patterns for Work, Learning, and Creativity",
+          "actualDuration": 208.945667,
+          "startTime": 1676.225543,
+          "endTime": 1885.17121
+        },
+        {
+          "path": "Audio/output/981/chapter_08.wav",
+          "duration": 236.82125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Patterns for Movement, Flow, and Wayfinding",
+          "actualDuration": 236.82125,
+          "startTime": 1886.67121,
+          "endTime": 2123.49246
+        },
+        {
+          "path": "Audio/output/981/chapter_09.wav",
+          "duration": 226.530083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Patterns for Adaptation, Repair, and Long-Term Stewardship",
+          "actualDuration": 226.530083,
+          "startTime": 2124.99246,
+          "endTime": 2351.522543
+        },
+        {
+          "path": "Audio/output/981/chapter_10.wav",
+          "duration": 211.464958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Patterns for Participation, Empowerment, and the Ongoing Creation of Place",
+          "actualDuration": 211.464958,
+          "startTime": 2353.022543,
+          "endTime": 2564.487501
+        },
+        {
+          "path": "Audio/output/981/conclusion.wav",
+          "duration": 154.268833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 154.268833,
+          "startTime": 2565.987501,
+          "endTime": 2720.256334
+        }
+      ],
+      "totalDuration": 2720.256334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.55,
+          "actualStart": 0,
+          "actualEnd": 101.550167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Patterns as the Foundation of Human-Centered Design",
+          "expectedStart": 101.55,
+          "expectedEnd": 365.79,
+          "actualStart": 103.050167,
+          "actualEnd": 367.285792,
+          "timeDifference": 1.5001670000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Shaping Regions and Towns for Community and Belonging",
+          "expectedStart": 365.79,
+          "expectedEnd": 659.44,
+          "actualStart": 368.785792,
+          "actualEnd": 662.4355840000001,
+          "timeDifference": 2.9957919999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Designing Neighborhoods and Public Spaces for Everyday Life",
+          "expectedStart": 659.44,
+          "expectedEnd": 934.8,
+          "actualStart": 663.9355840000001,
+          "actualEnd": 939.2989590000001,
+          "timeDifference": 4.495584000000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Crafting Buildings That Support Human Activity and Well-Being",
+          "expectedStart": 934.8,
+          "expectedEnd": 1199.23,
+          "actualStart": 940.7989590000001,
+          "actualEnd": 1205.233126,
+          "timeDifference": 5.998959000000127
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Detailing Rooms and Construction for Everyday Comfort",
+          "expectedStart": 1199.23,
+          "expectedEnd": 1445.93,
+          "actualStart": 1206.733126,
+          "actualEnd": 1453.434168,
+          "timeDifference": 7.503126000000066
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Patterns for Social Life and Shared Spaces",
+          "expectedStart": 1445.93,
+          "expectedEnd": 1665.72,
+          "actualStart": 1454.934168,
+          "actualEnd": 1674.725543,
+          "timeDifference": 9.004167999999936
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Patterns for Work, Learning, and Creativity",
+          "expectedStart": 1665.72,
+          "expectedEnd": 1874.67,
+          "actualStart": 1676.225543,
+          "actualEnd": 1885.17121,
+          "timeDifference": 10.505542999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Patterns for Movement, Flow, and Wayfinding",
+          "expectedStart": 1874.67,
+          "expectedEnd": 2111.49,
+          "actualStart": 1886.67121,
+          "actualEnd": 2123.49246,
+          "timeDifference": 12.001209999999901
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Patterns for Adaptation, Repair, and Long-Term Stewardship",
+          "expectedStart": 2111.49,
+          "expectedEnd": 2338.02,
+          "actualStart": 2124.99246,
+          "actualEnd": 2351.522543,
+          "timeDifference": 13.502460000000156
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Patterns for Participation, Empowerment, and the Ongoing Creation of Place",
+          "expectedStart": 2338.02,
+          "expectedEnd": 2549.48,
+          "actualStart": 2353.022543,
+          "actualEnd": 2564.487501,
+          "timeDifference": 15.00254300000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2549.48,
+          "expectedEnd": 2703.75,
+          "actualStart": 2565.987501,
+          "actualEnd": 2720.256334,
+          "timeDifference": 16.507501000000047
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.550167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Patterns as the Foundation of Human-Centered Design"
+        },
+        {
+          "startTime": 367.285792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Patterns as the Foundation of Human-Centered Design and Chapter 2 Shaping Regions and Towns for Community and Belonging"
+        },
+        {
+          "startTime": 662.4355840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Shaping Regions and Towns for Community and Belonging and Chapter 3 Designing Neighborhoods and Public Spaces for Everyday Life"
+        },
+        {
+          "startTime": 939.2989590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Designing Neighborhoods and Public Spaces for Everyday Life and Chapter 4 Crafting Buildings That Support Human Activity and Well-Being"
+        },
+        {
+          "startTime": 1205.233126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Crafting Buildings That Support Human Activity and Well-Being and Chapter 5 Detailing Rooms and Construction for Everyday Comfort"
+        },
+        {
+          "startTime": 1453.434168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Detailing Rooms and Construction for Everyday Comfort and Chapter 6 Patterns for Social Life and Shared Spaces"
+        },
+        {
+          "startTime": 1674.725543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Patterns for Social Life and Shared Spaces and Chapter 7 Patterns for Work, Learning, and Creativity"
+        },
+        {
+          "startTime": 1885.17121,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Patterns for Work, Learning, and Creativity and Chapter 8 Patterns for Movement, Flow, and Wayfinding"
+        },
+        {
+          "startTime": 2123.49246,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Patterns for Movement, Flow, and Wayfinding and Chapter 9 Patterns for Adaptation, Repair, and Long-Term Stewardship"
+        },
+        {
+          "startTime": 2351.522543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Patterns for Adaptation, Repair, and Long-Term Stewardship and Chapter 10 Patterns for Participation, Empowerment, and the Ongoing Creation of Place"
+        },
+        {
+          "startTime": 2564.487501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Patterns for Participation, Empowerment, and the Ongoing Creation of Place and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "981",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T19:33:16.614Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

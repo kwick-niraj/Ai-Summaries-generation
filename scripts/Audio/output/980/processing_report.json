@@ -1,0 +1,504 @@
+{
+  "bookId": "980",
+  "timestamp": "2025-07-05T19:33:14.949Z",
+  "success": false,
+  "processingTime": -1751743704478,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5321,
+    "totalAudioFiles": 14,
+    "totalDuration": 2349.7961240000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2349.7961240000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/980/optimized_text/980.md",
+    "fileSize": 778,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "980.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/980/metadata/980_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2349.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/980/metadata/980_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/980/metadata/980_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/980/980_complete.wav",
+    "duration": 2349.796125,
+    "fileSize": 112790292,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/980/introduction.wav",
+          "duration": 79.764208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.764208,
+          "startTime": 0,
+          "endTime": 79.764208
+        },
+        {
+          "path": "Audio/output/980/chapter_01.wav",
+          "duration": 252.31625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Constant Rush and the Myth of Having It All",
+          "actualDuration": 252.31625,
+          "startTime": 81.264208,
+          "endTime": 333.580458
+        },
+        {
+          "path": "Audio/output/980/chapter_02.wav",
+          "duration": 225.187583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of the Mental Load",
+          "actualDuration": 225.187583,
+          "startTime": 335.080458,
+          "endTime": 560.268041
+        },
+        {
+          "path": "Audio/output/980/chapter_03.wav",
+          "duration": 211.013125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Culture of Busyness and Its Impact on Well-Being",
+          "actualDuration": 211.013125,
+          "startTime": 561.768041,
+          "endTime": 772.781166
+        },
+        {
+          "path": "Audio/output/980/chapter_04.wav",
+          "duration": 224.158,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Gender Inequality at Home and Work",
+          "actualDuration": 224.158,
+          "startTime": 774.281166,
+          "endTime": 998.439166
+        },
+        {
+          "path": "Audio/output/980/chapter_05.wav",
+          "duration": 196.253083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Leisure, Productivity, and What Matters Most",
+          "actualDuration": 196.253083,
+          "startTime": 999.939166,
+          "endTime": 1196.192249
+        },
+        {
+          "path": "Audio/output/980/chapter_06.wav",
+          "duration": 160.055625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search for Time—Why Solutions Aren’t Simple",
+          "actualDuration": 160.055625,
+          "startTime": 1197.692249,
+          "endTime": 1357.747874
+        },
+        {
+          "path": "Audio/output/980/chapter_07.wav",
+          "duration": 162.231375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Saying No and Setting Boundaries",
+          "actualDuration": 162.231375,
+          "startTime": 1359.247874,
+          "endTime": 1521.479249
+        },
+        {
+          "path": "Audio/output/980/chapter_08.wav",
+          "duration": 150.587083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Community and Shared Responsibility",
+          "actualDuration": 150.587083,
+          "startTime": 1522.979249,
+          "endTime": 1673.5663319999999
+        },
+        {
+          "path": "Audio/output/980/chapter_09.wav",
+          "duration": 152.516292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Policy, Culture, and the Path to Real Change",
+          "actualDuration": 152.516292,
+          "startTime": 1675.0663319999999,
+          "endTime": 1827.582624
+        },
+        {
+          "path": "Audio/output/980/chapter_10.wav",
+          "duration": 176.294583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Personal Stories of Transformation",
+          "actualDuration": 176.294583,
+          "startTime": 1829.082624,
+          "endTime": 2005.377207
+        },
+        {
+          "path": "Audio/output/980/chapter_11.wav",
+          "duration": 129.100542,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Reimagining Success and Redefining Enough",
+          "actualDuration": 129.100542,
+          "startTime": 2006.877207,
+          "endTime": 2135.977749
+        },
+        {
+          "path": "Audio/output/980/chapter_12.wav",
+          "duration": 114.154625,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Moving Forward—Practical Pathways to a Balanced Life",
+          "actualDuration": 114.154625,
+          "startTime": 2137.477749,
+          "endTime": 2251.6323740000003
+        },
+        {
+          "path": "Audio/output/980/conclusion.wav",
+          "duration": 116.16375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.16375,
+          "startTime": 2253.1323740000003,
+          "endTime": 2369.2961240000004
+        }
+      ],
+      "totalDuration": 2369.2961240000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.76,
+          "actualStart": 0,
+          "actualEnd": 79.764208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Constant Rush and the Myth of Having It All",
+          "expectedStart": 79.76,
+          "expectedEnd": 332.08,
+          "actualStart": 81.264208,
+          "actualEnd": 333.580458,
+          "timeDifference": 1.5042079999999913
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of the Mental Load",
+          "expectedStart": 332.08,
+          "expectedEnd": 557.27,
+          "actualStart": 335.080458,
+          "actualEnd": 560.268041,
+          "timeDifference": 3.0004580000000374
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Culture of Busyness and Its Impact on Well-Being",
+          "expectedStart": 557.27,
+          "expectedEnd": 768.28,
+          "actualStart": 561.768041,
+          "actualEnd": 772.781166,
+          "timeDifference": 4.4980410000000575
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Gender Inequality at Home and Work",
+          "expectedStart": 768.28,
+          "expectedEnd": 992.44,
+          "actualStart": 774.281166,
+          "actualEnd": 998.439166,
+          "timeDifference": 6.001166000000012
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Leisure, Productivity, and What Matters Most",
+          "expectedStart": 992.44,
+          "expectedEnd": 1188.69,
+          "actualStart": 999.939166,
+          "actualEnd": 1196.192249,
+          "timeDifference": 7.499165999999946
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search for Time—Why Solutions Aren’t Simple",
+          "expectedStart": 1188.69,
+          "expectedEnd": 1348.75,
+          "actualStart": 1197.692249,
+          "actualEnd": 1357.747874,
+          "timeDifference": 9.002248999999892
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Saying No and Setting Boundaries",
+          "expectedStart": 1348.75,
+          "expectedEnd": 1510.98,
+          "actualStart": 1359.247874,
+          "actualEnd": 1521.479249,
+          "timeDifference": 10.49787399999991
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Community and Shared Responsibility",
+          "expectedStart": 1510.98,
+          "expectedEnd": 1661.57,
+          "actualStart": 1522.979249,
+          "actualEnd": 1673.5663319999999,
+          "timeDifference": 11.999248999999963
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Policy, Culture, and the Path to Real Change",
+          "expectedStart": 1661.57,
+          "expectedEnd": 1814.09,
+          "actualStart": 1675.0663319999999,
+          "actualEnd": 1827.582624,
+          "timeDifference": 13.496331999999938
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Personal Stories of Transformation",
+          "expectedStart": 1814.09,
+          "expectedEnd": 1990.38,
+          "actualStart": 1829.082624,
+          "actualEnd": 2005.377207,
+          "timeDifference": 14.992623999999978
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Reimagining Success and Redefining Enough",
+          "expectedStart": 1990.38,
+          "expectedEnd": 2119.48,
+          "actualStart": 2006.877207,
+          "actualEnd": 2135.977749,
+          "timeDifference": 16.49720699999989
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Moving Forward—Practical Pathways to a Balanced Life",
+          "expectedStart": 2119.48,
+          "expectedEnd": 2233.63,
+          "actualStart": 2137.477749,
+          "actualEnd": 2251.6323740000003,
+          "timeDifference": 17.997749000000113
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2233.63,
+          "expectedEnd": 2349.79,
+          "actualStart": 2253.1323740000003,
+          "actualEnd": 2369.2961240000004,
+          "timeDifference": 19.502374000000145
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.764208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Constant Rush and the Myth of Having It All"
+        },
+        {
+          "startTime": 333.580458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Constant Rush and the Myth of Having It All and Chapter 2 The Hidden Costs of the Mental Load"
+        },
+        {
+          "startTime": 560.268041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of the Mental Load and Chapter 3 The Culture of Busyness and Its Impact on Well-Being"
+        },
+        {
+          "startTime": 772.781166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Culture of Busyness and Its Impact on Well-Being and Chapter 4 Gender Inequality at Home and Work"
+        },
+        {
+          "startTime": 998.439166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Gender Inequality at Home and Work and Chapter 5 Rethinking Leisure, Productivity, and What Matters Most"
+        },
+        {
+          "startTime": 1196.192249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Leisure, Productivity, and What Matters Most and Chapter 6 The Search for Time—Why Solutions Aren’t Simple"
+        },
+        {
+          "startTime": 1357.747874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search for Time—Why Solutions Aren’t Simple and Chapter 7 The Power of Saying No and Setting Boundaries"
+        },
+        {
+          "startTime": 1521.479249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Saying No and Setting Boundaries and Chapter 8 The Role of Community and Shared Responsibility"
+        },
+        {
+          "startTime": 1673.5663319999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Community and Shared Responsibility and Chapter 9 Policy, Culture, and the Path to Real Change"
+        },
+        {
+          "startTime": 1827.582624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Policy, Culture, and the Path to Real Change and Chapter 10 Personal Stories of Transformation"
+        },
+        {
+          "startTime": 2005.377207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Personal Stories of Transformation and Chapter 11 Reimagining Success and Redefining Enough"
+        },
+        {
+          "startTime": 2135.977749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Reimagining Success and Redefining Enough and Chapter 12 Moving Forward—Practical Pathways to a Balanced Life"
+        },
+        {
+          "startTime": 2251.6323740000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Moving Forward—Practical Pathways to a Balanced Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "980",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-05T19:28:25.023Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
