@@ -6,6 +6,7 @@ export const audioConfig = {
   inputDir: './FinalAllSummaries',
   outputDir: './Audio/output',
   logDir: './Audio/logs',
+  logFile: './Audio/logs/processed_book_ids.csv',
 
   // TTS Provider Configuration
   tts: {

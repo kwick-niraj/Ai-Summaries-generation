@@ -1,0 +1,456 @@
+{
+  "bookId": "1440",
+  "timestamp": "2025-07-07T17:35:20.342Z",
+  "success": false,
+  "processingTime": -1751909103776,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3397,
+    "totalAudioFiles": 12,
+    "totalDuration": 1730.6074569999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1730.6074569999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1440/optimized_text/1440.md",
+    "fileSize": 649,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "1440.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1440/metadata/1440_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1730.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1440/metadata/1440_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1440/metadata/1440_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1440/1440_complete.wav",
+    "duration": 1730.607458,
+    "fileSize": 83069236,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1440/introduction.wav",
+          "duration": 83.398125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.398125,
+          "startTime": 0,
+          "endTime": 83.398125
+        },
+        {
+          "path": "Audio/output/1440/chapter_01.wav",
+          "duration": 205.911292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years: Searching for Belonging and Understanding",
+          "actualDuration": 205.911292,
+          "startTime": 84.898125,
+          "endTime": 290.809417
+        },
+        {
+          "path": "Audio/output/1440/chapter_02.wav",
+          "duration": 181.737208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Trauma and the Long Road to Healing",
+          "actualDuration": 181.737208,
+          "startTime": 292.309417,
+          "endTime": 474.046625
+        },
+        {
+          "path": "Audio/output/1440/chapter_03.wav",
+          "duration": 184.517792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle with Addiction and the Search for Control",
+          "actualDuration": 184.517792,
+          "startTime": 475.546625,
+          "endTime": 660.064417
+        },
+        {
+          "path": "Audio/output/1440/chapter_04.wav",
+          "duration": 143.76975,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Identity and Living Authentically",
+          "actualDuration": 143.76975,
+          "startTime": 661.564417,
+          "endTime": 805.334167
+        },
+        {
+          "path": "Audio/output/1440/chapter_05.wav",
+          "duration": 136.195083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Stigma and Finding Power in Vulnerability",
+          "actualDuration": 136.195083,
+          "startTime": 806.834167,
+          "endTime": 943.02925
+        },
+        {
+          "path": "Audio/output/1440/chapter_06.wav",
+          "duration": 134.785833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Community and Chosen Family",
+          "actualDuration": 134.785833,
+          "startTime": 944.52925,
+          "endTime": 1079.315083
+        },
+        {
+          "path": "Audio/output/1440/chapter_07.wav",
+          "duration": 141.634333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Finding Purpose Through Passion and Service",
+          "actualDuration": 141.634333,
+          "startTime": 1080.815083,
+          "endTime": 1222.449416
+        },
+        {
+          "path": "Audio/output/1440/chapter_08.wav",
+          "duration": 147.572458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Success, Setbacks, and the Spotlight",
+          "actualDuration": 147.572458,
+          "startTime": 1223.949416,
+          "endTime": 1371.521874
+        },
+        {
+          "path": "Audio/output/1440/chapter_09.wav",
+          "duration": 143.132333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Practice of Self-Love",
+          "actualDuration": 143.132333,
+          "startTime": 1373.021874,
+          "endTime": 1516.154207
+        },
+        {
+          "path": "Audio/output/1440/chapter_10.wav",
+          "duration": 121.279083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sharing the Story and Inspiring Others",
+          "actualDuration": 121.279083,
+          "startTime": 1517.654207,
+          "endTime": 1638.93329
+        },
+        {
+          "path": "Audio/output/1440/conclusion.wav",
+          "duration": 106.674167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.674167,
+          "startTime": 1640.43329,
+          "endTime": 1747.1074569999998
+        }
+      ],
+      "totalDuration": 1747.1074569999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.4,
+          "actualStart": 0,
+          "actualEnd": 83.398125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years: Searching for Belonging and Understanding",
+          "expectedStart": 83.4,
+          "expectedEnd": 289.31,
+          "actualStart": 84.898125,
+          "actualEnd": 290.809417,
+          "timeDifference": 1.4981249999999875
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Trauma and the Long Road to Healing",
+          "expectedStart": 289.31,
+          "expectedEnd": 471.05,
+          "actualStart": 292.309417,
+          "actualEnd": 474.046625,
+          "timeDifference": 2.999416999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle with Addiction and the Search for Control",
+          "expectedStart": 471.05,
+          "expectedEnd": 655.57,
+          "actualStart": 475.546625,
+          "actualEnd": 660.064417,
+          "timeDifference": 4.4966249999999945
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Identity and Living Authentically",
+          "expectedStart": 655.57,
+          "expectedEnd": 799.34,
+          "actualStart": 661.564417,
+          "actualEnd": 805.334167,
+          "timeDifference": 5.9944169999999986
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Stigma and Finding Power in Vulnerability",
+          "expectedStart": 799.34,
+          "expectedEnd": 935.54,
+          "actualStart": 806.834167,
+          "actualEnd": 943.02925,
+          "timeDifference": 7.494166999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Community and Chosen Family",
+          "expectedStart": 935.54,
+          "expectedEnd": 1070.33,
+          "actualStart": 944.52925,
+          "actualEnd": 1079.315083,
+          "timeDifference": 8.989250000000084
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Finding Purpose Through Passion and Service",
+          "expectedStart": 1070.33,
+          "expectedEnd": 1211.96,
+          "actualStart": 1080.815083,
+          "actualEnd": 1222.449416,
+          "timeDifference": 10.485083000000031
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Success, Setbacks, and the Spotlight",
+          "expectedStart": 1211.96,
+          "expectedEnd": 1359.53,
+          "actualStart": 1223.949416,
+          "actualEnd": 1371.521874,
+          "timeDifference": 11.989415999999892
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Practice of Self-Love",
+          "expectedStart": 1359.53,
+          "expectedEnd": 1502.66,
+          "actualStart": 1373.021874,
+          "actualEnd": 1516.154207,
+          "timeDifference": 13.491874000000053
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sharing the Story and Inspiring Others",
+          "expectedStart": 1502.66,
+          "expectedEnd": 1623.94,
+          "actualStart": 1517.654207,
+          "actualEnd": 1638.93329,
+          "timeDifference": 14.99420699999996
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1623.94,
+          "expectedEnd": 1730.61,
+          "actualStart": 1640.43329,
+          "actualEnd": 1747.1074569999998,
+          "timeDifference": 16.493289999999888
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.398125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years: Searching for Belonging and Understanding"
+        },
+        {
+          "startTime": 290.809417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years: Searching for Belonging and Understanding and Chapter 2 Facing Trauma and the Long Road to Healing"
+        },
+        {
+          "startTime": 474.046625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Trauma and the Long Road to Healing and Chapter 3 The Struggle with Addiction and the Search for Control"
+        },
+        {
+          "startTime": 660.064417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle with Addiction and the Search for Control and Chapter 4 Embracing Identity and Living Authentically"
+        },
+        {
+          "startTime": 805.334167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Identity and Living Authentically and Chapter 5 Navigating Stigma and Finding Power in Vulnerability"
+        },
+        {
+          "startTime": 943.02925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Stigma and Finding Power in Vulnerability and Chapter 6 The Power of Community and Chosen Family"
+        },
+        {
+          "startTime": 1079.315083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Community and Chosen Family and Chapter 7 Finding Purpose Through Passion and Service"
+        },
+        {
+          "startTime": 1222.449416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Finding Purpose Through Passion and Service and Chapter 8 Navigating Success, Setbacks, and the Spotlight"
+        },
+        {
+          "startTime": 1371.521874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Success, Setbacks, and the Spotlight and Chapter 9 The Ongoing Practice of Self-Love"
+        },
+        {
+          "startTime": 1516.154207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Practice of Self-Love and Chapter 10 Sharing the Story and Inspiring Others"
+        },
+        {
+          "startTime": 1638.93329,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sharing the Story and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1440",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T17:25:05.300Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

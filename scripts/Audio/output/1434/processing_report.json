@@ -1,0 +1,456 @@
+{
+  "bookId": "1434",
+  "timestamp": "2025-07-07T15:42:39.798Z",
+  "success": false,
+  "processingTime": -1751902635096,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4926,
+    "totalAudioFiles": 12,
+    "totalDuration": 2223.407416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2223.407416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1434/optimized_text/1434.md",
+    "fileSize": 704,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "1434.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1434/metadata/1434_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2223.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1434/metadata/1434_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1434/metadata/1434_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1434/1434_complete.wav",
+    "duration": 2223.407417,
+    "fileSize": 106723634,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1434/introduction.wav",
+          "duration": 102.61725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.61725,
+          "startTime": 0,
+          "endTime": 102.61725
+        },
+        {
+          "path": "Audio/output/1434/chapter_01.wav",
+          "duration": 198.979375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Unraveling a Village Mystery and the Seeds of Doubt",
+          "actualDuration": 198.979375,
+          "startTime": 104.11725,
+          "endTime": 303.096625
+        },
+        {
+          "path": "Audio/output/1434/chapter_02.wav",
+          "duration": 242.62525,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Grail Legend and the Power of Symbols",
+          "actualDuration": 242.62525,
+          "startTime": 304.596625,
+          "endTime": 547.221875
+        },
+        {
+          "path": "Audio/output/1434/chapter_03.wav",
+          "duration": 234.804667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Secret Societies and the Hidden Hand of History",
+          "actualDuration": 234.804667,
+          "startTime": 548.721875,
+          "endTime": 783.526542
+        },
+        {
+          "path": "Audio/output/1434/chapter_04.wav",
+          "duration": 229.867542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reimagining the Life of Jesus and the Birth of a Bloodline",
+          "actualDuration": 229.867542,
+          "startTime": 785.026542,
+          "endTime": 1014.8940839999999
+        },
+        {
+          "path": "Audio/output/1434/chapter_05.wav",
+          "duration": 243.290583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Templars, Heresy, and the Struggle for Truth",
+          "actualDuration": 243.290583,
+          "startTime": 1016.3940839999999,
+          "endTime": 1259.684667
+        },
+        {
+          "path": "Audio/output/1434/chapter_06.wav",
+          "duration": 215.287208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Web of Dynasties and the Shadow of the Merovingians",
+          "actualDuration": 215.287208,
+          "startTime": 1261.184667,
+          "endTime": 1476.471875
+        },
+        {
+          "path": "Audio/output/1434/chapter_07.wav",
+          "duration": 190.11825,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Church, Orthodoxy, and the Art of Suppression",
+          "actualDuration": 190.11825,
+          "startTime": 1477.971875,
+          "endTime": 1668.090125
+        },
+        {
+          "path": "Audio/output/1434/chapter_08.wav",
+          "duration": 189.154875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Skepticism, Hoaxes, and the Search for Evidence",
+          "actualDuration": 189.154875,
+          "startTime": 1669.590125,
+          "endTime": 1858.745
+        },
+        {
+          "path": "Audio/output/1434/chapter_09.wav",
+          "duration": 156.499833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Modern Grail Quest and the Allure of Mystery",
+          "actualDuration": 156.499833,
+          "startTime": 1860.245,
+          "endTime": 2016.744833
+        },
+        {
+          "path": "Audio/output/1434/chapter_10.wav",
+          "duration": 100.17125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Story and the Human Need for Wonder",
+          "actualDuration": 100.17125,
+          "startTime": 2018.244833,
+          "endTime": 2118.416083
+        },
+        {
+          "path": "Audio/output/1434/conclusion.wav",
+          "duration": 119.991333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.991333,
+          "startTime": 2119.916083,
+          "endTime": 2239.907416
+        }
+      ],
+      "totalDuration": 2239.907416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.62,
+          "actualStart": 0,
+          "actualEnd": 102.61725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Unraveling a Village Mystery and the Seeds of Doubt",
+          "expectedStart": 102.62,
+          "expectedEnd": 301.6,
+          "actualStart": 104.11725,
+          "actualEnd": 303.096625,
+          "timeDifference": 1.497249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Grail Legend and the Power of Symbols",
+          "expectedStart": 301.6,
+          "expectedEnd": 544.23,
+          "actualStart": 304.596625,
+          "actualEnd": 547.221875,
+          "timeDifference": 2.9966249999999945
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Secret Societies and the Hidden Hand of History",
+          "expectedStart": 544.23,
+          "expectedEnd": 779.03,
+          "actualStart": 548.721875,
+          "actualEnd": 783.526542,
+          "timeDifference": 4.491874999999936
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reimagining the Life of Jesus and the Birth of a Bloodline",
+          "expectedStart": 779.03,
+          "expectedEnd": 1008.9,
+          "actualStart": 785.026542,
+          "actualEnd": 1014.8940839999999,
+          "timeDifference": 5.996541999999977
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Templars, Heresy, and the Struggle for Truth",
+          "expectedStart": 1008.9,
+          "expectedEnd": 1252.19,
+          "actualStart": 1016.3940839999999,
+          "actualEnd": 1259.684667,
+          "timeDifference": 7.49408399999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Web of Dynasties and the Shadow of the Merovingians",
+          "expectedStart": 1252.19,
+          "expectedEnd": 1467.48,
+          "actualStart": 1261.184667,
+          "actualEnd": 1476.471875,
+          "timeDifference": 8.994666999999936
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Church, Orthodoxy, and the Art of Suppression",
+          "expectedStart": 1467.48,
+          "expectedEnd": 1657.6,
+          "actualStart": 1477.971875,
+          "actualEnd": 1668.090125,
+          "timeDifference": 10.491874999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Skepticism, Hoaxes, and the Search for Evidence",
+          "expectedStart": 1657.6,
+          "expectedEnd": 1846.75,
+          "actualStart": 1669.590125,
+          "actualEnd": 1858.745,
+          "timeDifference": 11.990125000000035
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Modern Grail Quest and the Allure of Mystery",
+          "expectedStart": 1846.75,
+          "expectedEnd": 2003.25,
+          "actualStart": 1860.245,
+          "actualEnd": 2016.744833,
+          "timeDifference": 13.49499999999989
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Story and the Human Need for Wonder",
+          "expectedStart": 2003.25,
+          "expectedEnd": 2103.42,
+          "actualStart": 2018.244833,
+          "actualEnd": 2118.416083,
+          "timeDifference": 14.994832999999971
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2103.42,
+          "expectedEnd": 2223.41,
+          "actualStart": 2119.916083,
+          "actualEnd": 2239.907416,
+          "timeDifference": 16.496083
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.61725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Unraveling a Village Mystery and the Seeds of Doubt"
+        },
+        {
+          "startTime": 303.096625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Unraveling a Village Mystery and the Seeds of Doubt and Chapter 2 The Grail Legend and the Power of Symbols"
+        },
+        {
+          "startTime": 547.221875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Grail Legend and the Power of Symbols and Chapter 3 Secret Societies and the Hidden Hand of History"
+        },
+        {
+          "startTime": 783.526542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Secret Societies and the Hidden Hand of History and Chapter 4 Reimagining the Life of Jesus and the Birth of a Bloodline"
+        },
+        {
+          "startTime": 1014.8940839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reimagining the Life of Jesus and the Birth of a Bloodline and Chapter 5 The Templars, Heresy, and the Struggle for Truth"
+        },
+        {
+          "startTime": 1259.684667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Templars, Heresy, and the Struggle for Truth and Chapter 6 The Web of Dynasties and the Shadow of the Merovingians"
+        },
+        {
+          "startTime": 1476.471875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Web of Dynasties and the Shadow of the Merovingians and Chapter 7 The Church, Orthodoxy, and the Art of Suppression"
+        },
+        {
+          "startTime": 1668.090125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Church, Orthodoxy, and the Art of Suppression and Chapter 8 Skepticism, Hoaxes, and the Search for Evidence"
+        },
+        {
+          "startTime": 1858.745,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Skepticism, Hoaxes, and the Search for Evidence and Chapter 9 The Modern Grail Quest and the Allure of Mystery"
+        },
+        {
+          "startTime": 2016.744833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Modern Grail Quest and the Allure of Mystery and Chapter 10 The Enduring Power of Story and the Human Need for Wonder"
+        },
+        {
+          "startTime": 2118.416083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Story and the Human Need for Wonder and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1434",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T15:37:16.623Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
