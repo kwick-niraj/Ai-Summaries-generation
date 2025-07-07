@@ -66,7 +66,6 @@ async function main() {
   const tracker = loadTracker();
   const allFolders = await fs.readdir(BOOKS_DIR);
 
-  // Filter numeric folder names, <1444, not yet processed
   const eligibleBookIds = allFolders
     .filter((folder) => /^\d+$/.test(folder))
     .map(Number)
@@ -97,7 +96,7 @@ async function main() {
       for (const id of batchBookIds) {
         tracker[id] = { isZipped: true, isUploaded: false };
       }
-      saveTracker(tracker); // Save tracker after zipping
+      saveTracker(tracker);
 
       console.log(`☁️ Uploading ${zipName} to S3...`);
       await uploadToS3(zipName, zipPath);
@@ -105,39 +104,15 @@ async function main() {
       for (const id of batchBookIds) {
         tracker[id].isUploaded = true;
       }
-      saveTracker(tracker); // Save again after upload
+      saveTracker(tracker);
+
+      console.log(`🧹 Deleting local zip: ${zipPath}`);
+      await fs.remove(zipPath);
 
       console.log(`✅ Batch ${zipName} complete.`);
     } catch (err) {
       console.error(`❌ Failed processing batch ${zipName}:`, err);
     }
-  };
-  // Only process 1 batch per run
-  const lastBookId = batchBookIds[batchBookIds.length - 1];
-  const zipName = `${lastBookId}.zip`;
-  const zipPath = path.join(ZIP_DIR, zipName);
-
-  try {
-    console.log(`🔐 Zipping batch ending at ${lastBookId}...`);
-    await zipFolders(batchBookIds, zipPath);
-
-    for (const id of batchBookIds) {
-      tracker[id] = { isZipped: true, isUploaded: false };
-    }
-    saveTracker(tracker);
-
-    console.log(`☁️ Uploading ${zipName} to S3...`);
-    await uploadToS3(zipName, zipPath);
-
-    for (const id of batchBookIds) {
-      tracker[id].isUploaded = true;
-    }
-    saveTracker(tracker);
-
-    console.log(`✅ Batch ${zipName} complete.`);
-
-  } catch (err) {
-    console.error(`❌ Failed processing batch ${zipName}:`, err);
   }
 }
 
