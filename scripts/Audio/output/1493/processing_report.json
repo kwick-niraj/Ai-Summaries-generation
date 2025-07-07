@@ -1,0 +1,432 @@
+{
+  "bookId": "1493",
+  "timestamp": "2025-07-07T20:40:13.636Z",
+  "success": false,
+  "processingTime": -1751920585946,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3650,
+    "totalAudioFiles": 11,
+    "totalDuration": 1887.939875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1887.939875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1493/optimized_text/1493.md",
+    "fileSize": 659,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1493.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1493/metadata/1493_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1887.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1493/metadata/1493_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1493/metadata/1493_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1493/1493_complete.wav",
+    "duration": 1887.939875,
+    "fileSize": 90621192,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1493/introduction.wav",
+          "duration": 101.637458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.637458,
+          "startTime": 0,
+          "endTime": 101.637458
+        },
+        {
+          "path": "Audio/output/1493/chapter_01.wav",
+          "duration": 205.598083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Power of Passion and Authenticity in Public Speaking",
+          "actualDuration": 205.598083,
+          "startTime": 103.137458,
+          "endTime": 308.735541
+        },
+        {
+          "path": "Audio/output/1493/chapter_02.wav",
+          "duration": 226.777125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Storytelling as the Heart of Memorable Presentations",
+          "actualDuration": 226.777125,
+          "startTime": 310.235541,
+          "endTime": 537.0126660000001
+        },
+        {
+          "path": "Audio/output/1493/chapter_03.wav",
+          "duration": 205.622708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Teaching Something New and Creating Moments of Surprise",
+          "actualDuration": 205.622708,
+          "startTime": 538.5126660000001,
+          "endTime": 744.1353740000001
+        },
+        {
+          "path": "Audio/output/1493/chapter_04.wav",
+          "duration": 216.455542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Art of Simplicity, Clarity, and Visual Communication",
+          "actualDuration": 216.455542,
+          "startTime": 745.6353740000001,
+          "endTime": 962.0909160000001
+        },
+        {
+          "path": "Audio/output/1493/chapter_05.wav",
+          "duration": 182.0385,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practice, Confidence, and the Power of Conciseness",
+          "actualDuration": 182.0385,
+          "startTime": 963.5909160000001,
+          "endTime": 1145.6294160000002
+        },
+        {
+          "path": "Audio/output/1493/chapter_06.wav",
+          "duration": 182.198792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Conversational Delivery and the Power of Presence",
+          "actualDuration": 182.198792,
+          "startTime": 1147.1294160000002,
+          "endTime": 1329.3282080000001
+        },
+        {
+          "path": "Audio/output/1493/chapter_07.wav",
+          "duration": 134.343125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Emotional Resonance—Making the Audience Feel",
+          "actualDuration": 134.343125,
+          "startTime": 1330.8282080000001,
+          "endTime": 1465.1713330000002
+        },
+        {
+          "path": "Audio/output/1493/chapter_08.wav",
+          "duration": 139.819,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Inspiring Optimism and Offering a Vision",
+          "actualDuration": 139.819,
+          "startTime": 1466.6713330000002,
+          "endTime": 1606.4903330000002
+        },
+        {
+          "path": "Audio/output/1493/chapter_09.wav",
+          "duration": 150.2405,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating the Elements—Crafting a Cohesive, Impactful Presentation",
+          "actualDuration": 150.2405,
+          "startTime": 1607.9903330000002,
+          "endTime": 1758.230833
+        },
+        {
+          "path": "Audio/output/1493/conclusion.wav",
+          "duration": 143.209042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.209042,
+          "startTime": 1759.730833,
+          "endTime": 1902.939875
+        }
+      ],
+      "totalDuration": 1902.939875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.64,
+          "actualStart": 0,
+          "actualEnd": 101.637458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Power of Passion and Authenticity in Public Speaking",
+          "expectedStart": 101.64,
+          "expectedEnd": 307.24,
+          "actualStart": 103.137458,
+          "actualEnd": 308.735541,
+          "timeDifference": 1.4974579999999946
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Storytelling as the Heart of Memorable Presentations",
+          "expectedStart": 307.24,
+          "expectedEnd": 534.02,
+          "actualStart": 310.235541,
+          "actualEnd": 537.0126660000001,
+          "timeDifference": 2.995541000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Teaching Something New and Creating Moments of Surprise",
+          "expectedStart": 534.02,
+          "expectedEnd": 739.64,
+          "actualStart": 538.5126660000001,
+          "actualEnd": 744.1353740000001,
+          "timeDifference": 4.492666000000099
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Art of Simplicity, Clarity, and Visual Communication",
+          "expectedStart": 739.64,
+          "expectedEnd": 956.1,
+          "actualStart": 745.6353740000001,
+          "actualEnd": 962.0909160000001,
+          "timeDifference": 5.9953740000000835
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practice, Confidence, and the Power of Conciseness",
+          "expectedStart": 956.1,
+          "expectedEnd": 1138.14,
+          "actualStart": 963.5909160000001,
+          "actualEnd": 1145.6294160000002,
+          "timeDifference": 7.490916000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Conversational Delivery and the Power of Presence",
+          "expectedStart": 1138.14,
+          "expectedEnd": 1320.34,
+          "actualStart": 1147.1294160000002,
+          "actualEnd": 1329.3282080000001,
+          "timeDifference": 8.98941600000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Emotional Resonance—Making the Audience Feel",
+          "expectedStart": 1320.34,
+          "expectedEnd": 1454.68,
+          "actualStart": 1330.8282080000001,
+          "actualEnd": 1465.1713330000002,
+          "timeDifference": 10.488208000000213
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Inspiring Optimism and Offering a Vision",
+          "expectedStart": 1454.68,
+          "expectedEnd": 1594.5,
+          "actualStart": 1466.6713330000002,
+          "actualEnd": 1606.4903330000002,
+          "timeDifference": 11.991333000000168
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating the Elements—Crafting a Cohesive, Impactful Presentation",
+          "expectedStart": 1594.5,
+          "expectedEnd": 1744.74,
+          "actualStart": 1607.9903330000002,
+          "actualEnd": 1758.230833,
+          "timeDifference": 13.490333000000192
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1744.74,
+          "expectedEnd": 1887.95,
+          "actualStart": 1759.730833,
+          "actualEnd": 1902.939875,
+          "timeDifference": 14.990833000000066
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.637458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Power of Passion and Authenticity in Public Speaking"
+        },
+        {
+          "startTime": 308.735541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Power of Passion and Authenticity in Public Speaking and Chapter 2 Storytelling as the Heart of Memorable Presentations"
+        },
+        {
+          "startTime": 537.0126660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Storytelling as the Heart of Memorable Presentations and Chapter 3 Teaching Something New and Creating Moments of Surprise"
+        },
+        {
+          "startTime": 744.1353740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Teaching Something New and Creating Moments of Surprise and Chapter 4 The Art of Simplicity, Clarity, and Visual Communication"
+        },
+        {
+          "startTime": 962.0909160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Art of Simplicity, Clarity, and Visual Communication and Chapter 5 Practice, Confidence, and the Power of Conciseness"
+        },
+        {
+          "startTime": 1145.6294160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practice, Confidence, and the Power of Conciseness and Chapter 6 Conversational Delivery and the Power of Presence"
+        },
+        {
+          "startTime": 1329.3282080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Conversational Delivery and the Power of Presence and Chapter 7 Emotional Resonance—Making the Audience Feel"
+        },
+        {
+          "startTime": 1465.1713330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Emotional Resonance—Making the Audience Feel and Chapter 8 Inspiring Optimism and Offering a Vision"
+        },
+        {
+          "startTime": 1606.4903330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Inspiring Optimism and Offering a Vision and Chapter 9 Integrating the Elements—Crafting a Cohesive, Impactful Presentation"
+        },
+        {
+          "startTime": 1758.230833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating the Elements—Crafting a Cohesive, Impactful Presentation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1493",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:36:26.516Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

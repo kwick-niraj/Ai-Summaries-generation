@@ -1,0 +1,408 @@
+{
+  "bookId": "1477",
+  "timestamp": "2025-07-07T20:13:48.005Z",
+  "success": false,
+  "processingTime": -1751918836021,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5076,
+    "totalAudioFiles": 12,
+    "totalDuration": 2015.919209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 2015.919209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1477/optimized_text/1477.md",
+    "fileSize": 647,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1477.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1477/metadata/1477_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2015.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1477/metadata/1477_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1477/metadata/1477_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1477/1477_complete.wav",
+    "duration": 2015.919208,
+    "fileSize": 96764200,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1477/introduction.wav",
+          "duration": 115.611958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 115.611958,
+          "startTime": 0,
+          "endTime": 115.611958
+        },
+        {
+          "path": "Audio/output/1477/chapter_01.wav",
+          "duration": 274.317292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Before Everything Changed",
+          "actualDuration": 274.317292,
+          "startTime": 117.111958,
+          "endTime": 391.42925
+        },
+        {
+          "path": "Audio/output/1477/chapter_03.wav",
+          "duration": 268.968833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Disease, Death, and the Unseen Forces That Shaped the World",
+          "actualDuration": 268.968833,
+          "startTime": 392.92925,
+          "endTime": 661.898083
+        },
+        {
+          "path": "Audio/output/1477/chapter_05.wav",
+          "duration": 245.797917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 New Ecologies and the Unintended Consequences of Connection",
+          "actualDuration": 245.797917,
+          "startTime": 663.398083,
+          "endTime": 909.196
+        },
+        {
+          "path": "Audio/output/1477/chapter_06.wav",
+          "duration": 235.128167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Rise of Hybrid Societies and Blended Cultures",
+          "actualDuration": 235.128167,
+          "startTime": 910.696,
+          "endTime": 1145.824167
+        },
+        {
+          "path": "Audio/output/1477/chapter_07.wav",
+          "duration": 234.937667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Spread of Faith, Ideas, and Resistance",
+          "actualDuration": 234.937667,
+          "startTime": 1147.324167,
+          "endTime": 1382.261834
+        },
+        {
+          "path": "Audio/output/1477/chapter_08.wav",
+          "duration": 186.295333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Legacy—From Past to Present",
+          "actualDuration": 186.295333,
+          "startTime": 1383.761834,
+          "endTime": 1570.057167
+        },
+        {
+          "path": "Audio/output/1477/chapter_09.wav",
+          "duration": 161.122167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for a Connected World",
+          "actualDuration": 161.122167,
+          "startTime": 1571.557167,
+          "endTime": 1732.679334
+        },
+        {
+          "path": "Audio/output/1477/chapter_10.wav",
+          "duration": 140.48175,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward—Carrying the Story On",
+          "actualDuration": 140.48175,
+          "startTime": 1734.179334,
+          "endTime": 1874.6610839999998
+        },
+        {
+          "path": "Audio/output/1477/conclusion.wav",
+          "duration": 153.258125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 153.258125,
+          "startTime": 1876.1610839999998,
+          "endTime": 2029.419209
+        }
+      ],
+      "totalDuration": 2029.419209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 115.61,
+          "actualStart": 0,
+          "actualEnd": 115.611958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Before Everything Changed",
+          "expectedStart": 115.61,
+          "expectedEnd": 389.93,
+          "actualStart": 117.111958,
+          "actualEnd": 391.42925,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Disease, Death, and the Unseen Forces That Shaped the World",
+          "expectedStart": 389.93,
+          "expectedEnd": 658.9,
+          "actualStart": 392.92925,
+          "actualEnd": 661.898083,
+          "timeDifference": 2.9992500000000177
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 New Ecologies and the Unintended Consequences of Connection",
+          "expectedStart": 658.9,
+          "expectedEnd": 904.7,
+          "actualStart": 663.398083,
+          "actualEnd": 909.196,
+          "timeDifference": 4.498083000000065
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Rise of Hybrid Societies and Blended Cultures",
+          "expectedStart": 904.7,
+          "expectedEnd": 1139.83,
+          "actualStart": 910.696,
+          "actualEnd": 1145.824167,
+          "timeDifference": 5.995999999999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Spread of Faith, Ideas, and Resistance",
+          "expectedStart": 1139.83,
+          "expectedEnd": 1374.77,
+          "actualStart": 1147.324167,
+          "actualEnd": 1382.261834,
+          "timeDifference": 7.494167000000061
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Legacy—From Past to Present",
+          "expectedStart": 1374.77,
+          "expectedEnd": 1561.07,
+          "actualStart": 1383.761834,
+          "actualEnd": 1570.057167,
+          "timeDifference": 8.991833999999926
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for a Connected World",
+          "expectedStart": 1561.07,
+          "expectedEnd": 1722.19,
+          "actualStart": 1571.557167,
+          "actualEnd": 1732.679334,
+          "timeDifference": 10.487167
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward—Carrying the Story On",
+          "expectedStart": 1722.19,
+          "expectedEnd": 1862.67,
+          "actualStart": 1734.179334,
+          "actualEnd": 1874.6610839999998,
+          "timeDifference": 11.989333999999872
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1862.67,
+          "expectedEnd": 2015.93,
+          "actualStart": 1876.1610839999998,
+          "actualEnd": 2029.419209,
+          "timeDifference": 13.491083999999773
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 115.611958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Before Everything Changed"
+        },
+        {
+          "startTime": 391.42925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Before Everything Changed and Chapter 3 Disease, Death, and the Unseen Forces That Shaped the World"
+        },
+        {
+          "startTime": 661.898083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Disease, Death, and the Unseen Forces That Shaped the World and Chapter 5 New Ecologies and the Unintended Consequences of Connection"
+        },
+        {
+          "startTime": 909.196,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 New Ecologies and the Unintended Consequences of Connection and Chapter 6 The Rise of Hybrid Societies and Blended Cultures"
+        },
+        {
+          "startTime": 1145.824167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Rise of Hybrid Societies and Blended Cultures and Chapter 7 The Spread of Faith, Ideas, and Resistance"
+        },
+        {
+          "startTime": 1382.261834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Spread of Faith, Ideas, and Resistance and Chapter 8 The Ongoing Legacy—From Past to Present"
+        },
+        {
+          "startTime": 1570.057167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Legacy—From Past to Present and Chapter 9 Lessons for a Connected World"
+        },
+        {
+          "startTime": 1732.679334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for a Connected World and Chapter 10 Looking Forward—Carrying the Story On"
+        },
+        {
+          "startTime": 1874.6610839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward—Carrying the Story On and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1477",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:07:16.635Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

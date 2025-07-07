@@ -1,0 +1,455 @@
+{
+  "bookId": "1460",
+  "timestamp": "2025-07-07T19:17:26.427Z",
+  "success": false,
+  "processingTime": -1751915599646,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4044,
+    "totalAudioFiles": 12,
+    "totalDuration": 1728.2755009999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1728.2755009999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1460/optimized_text/1460.md",
+    "fileSize": 688,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "1460.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1460/metadata/1460_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1728.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1460/metadata/1460_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1460/metadata/1460_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1460/1460_complete.wav",
+    "duration": 1728.2755,
+    "fileSize": 82957302,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1460/introduction.wav",
+          "duration": 75.591542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.591542,
+          "startTime": 0,
+          "endTime": 75.591542
+        },
+        {
+          "path": "Audio/output/1460/chapter_01.wav",
+          "duration": 194.579875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Encounters with Danger and the Unpredictability of Life",
+          "actualDuration": 194.579875,
+          "startTime": 77.091542,
+          "endTime": 271.671417
+        },
+        {
+          "path": "Audio/output/1460/chapter_02.wav",
+          "duration": 194.41075,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Illness, Recovery, and the Body’s Unseen Battles",
+          "actualDuration": 194.41075,
+          "startTime": 273.171417,
+          "endTime": 467.582167
+        },
+        {
+          "path": "Audio/output/1460/chapter_03.wav",
+          "duration": 166.450333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Accidents, Near Misses, and the Thin Line Between Life and Death",
+          "actualDuration": 166.450333,
+          "startTime": 469.082167,
+          "endTime": 635.5325
+        },
+        {
+          "path": "Audio/output/1460/chapter_04.wav",
+          "duration": 197.038542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Motherhood, Family, and the Deepening of Love Through Vulnerability",
+          "actualDuration": 197.038542,
+          "startTime": 637.0325,
+          "endTime": 834.071042
+        },
+        {
+          "path": "Audio/output/1460/chapter_05.wav",
+          "duration": 148.177125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Storytelling, and the Search for Meaning",
+          "actualDuration": 148.177125,
+          "startTime": 835.571042,
+          "endTime": 983.748167
+        },
+        {
+          "path": "Audio/output/1460/chapter_06.wav",
+          "duration": 160.258167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Dangers and the Weight of Anxiety",
+          "actualDuration": 160.258167,
+          "startTime": 985.248167,
+          "endTime": 1145.506334
+        },
+        {
+          "path": "Audio/output/1460/chapter_07.wav",
+          "duration": 131.214292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Body’s Memory and the Echoes of Trauma",
+          "actualDuration": 131.214292,
+          "startTime": 1147.006334,
+          "endTime": 1278.2206259999998
+        },
+        {
+          "path": "Audio/output/1460/chapter_08.wav",
+          "duration": 121.5405,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Gifts and Burdens of Survival",
+          "actualDuration": 121.5405,
+          "startTime": 1279.7206259999998,
+          "endTime": 1401.2611259999999
+        },
+        {
+          "path": "Audio/output/1460/chapter_09.wav",
+          "duration": 111.649083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Evolution of Resilience",
+          "actualDuration": 111.649083,
+          "startTime": 1402.7611259999999,
+          "endTime": 1514.410209
+        },
+        {
+          "path": "Audio/output/1460/chapter_10.wav",
+          "duration": 117.475542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Acceptance, Letting Go, and the Ongoing Journey",
+          "actualDuration": 117.475542,
+          "startTime": 1515.910209,
+          "endTime": 1633.3857509999998
+        },
+        {
+          "path": "Audio/output/1460/conclusion.wav",
+          "duration": 109.88975,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.88975,
+          "startTime": 1634.8857509999998,
+          "endTime": 1744.7755009999998
+        }
+      ],
+      "totalDuration": 1744.7755009999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.59,
+          "actualStart": 0,
+          "actualEnd": 75.591542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Encounters with Danger and the Unpredictability of Life",
+          "expectedStart": 75.59,
+          "expectedEnd": 270.17,
+          "actualStart": 77.091542,
+          "actualEnd": 271.671417,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Illness, Recovery, and the Body’s Unseen Battles",
+          "expectedStart": 270.17,
+          "expectedEnd": 464.58,
+          "actualStart": 273.171417,
+          "actualEnd": 467.582167,
+          "timeDifference": 3.0014170000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Accidents, Near Misses, and the Thin Line Between Life and Death",
+          "expectedStart": 464.58,
+          "expectedEnd": 631.03,
+          "actualStart": 469.082167,
+          "actualEnd": 635.5325,
+          "timeDifference": 4.502167000000043
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Motherhood, Family, and the Deepening of Love Through Vulnerability",
+          "expectedStart": 631.03,
+          "expectedEnd": 828.07,
+          "actualStart": 637.0325,
+          "actualEnd": 834.071042,
+          "timeDifference": 6.002500000000055
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Storytelling, and the Search for Meaning",
+          "expectedStart": 828.07,
+          "expectedEnd": 976.25,
+          "actualStart": 835.571042,
+          "actualEnd": 983.748167,
+          "timeDifference": 7.501041999999984
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Dangers and the Weight of Anxiety",
+          "expectedStart": 976.25,
+          "expectedEnd": 1136.51,
+          "actualStart": 985.248167,
+          "actualEnd": 1145.506334,
+          "timeDifference": 8.998166999999967
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Body’s Memory and the Echoes of Trauma",
+          "expectedStart": 1136.51,
+          "expectedEnd": 1267.72,
+          "actualStart": 1147.006334,
+          "actualEnd": 1278.2206259999998,
+          "timeDifference": 10.496333999999933
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Gifts and Burdens of Survival",
+          "expectedStart": 1267.72,
+          "expectedEnd": 1389.26,
+          "actualStart": 1279.7206259999998,
+          "actualEnd": 1401.2611259999999,
+          "timeDifference": 12.000625999999784
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Evolution of Resilience",
+          "expectedStart": 1389.26,
+          "expectedEnd": 1500.91,
+          "actualStart": 1402.7611259999999,
+          "actualEnd": 1514.410209,
+          "timeDifference": 13.501125999999886
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Acceptance, Letting Go, and the Ongoing Journey",
+          "expectedStart": 1500.91,
+          "expectedEnd": 1618.39,
+          "actualStart": 1515.910209,
+          "actualEnd": 1633.3857509999998,
+          "timeDifference": 15.000208999999813
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1618.39,
+          "expectedEnd": 1728.28,
+          "actualStart": 1634.8857509999998,
+          "actualEnd": 1744.7755009999998,
+          "timeDifference": 16.4957509999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.591542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Encounters with Danger and the Unpredictability of Life"
+        },
+        {
+          "startTime": 271.671417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Encounters with Danger and the Unpredictability of Life and Chapter 2 Illness, Recovery, and the Body’s Unseen Battles"
+        },
+        {
+          "startTime": 467.582167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Illness, Recovery, and the Body’s Unseen Battles and Chapter 3 Accidents, Near Misses, and the Thin Line Between Life and Death"
+        },
+        {
+          "startTime": 635.5325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Accidents, Near Misses, and the Thin Line Between Life and Death and Chapter 4 Motherhood, Family, and the Deepening of Love Through Vulnerability"
+        },
+        {
+          "startTime": 834.071042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Motherhood, Family, and the Deepening of Love Through Vulnerability and Chapter 5 Memory, Storytelling, and the Search for Meaning"
+        },
+        {
+          "startTime": 983.748167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Storytelling, and the Search for Meaning and Chapter 6 The Unseen Dangers and the Weight of Anxiety"
+        },
+        {
+          "startTime": 1145.506334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Dangers and the Weight of Anxiety and Chapter 7 The Body’s Memory and the Echoes of Trauma"
+        },
+        {
+          "startTime": 1278.2206259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Body’s Memory and the Echoes of Trauma and Chapter 8 The Gifts and Burdens of Survival"
+        },
+        {
+          "startTime": 1401.2611259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Gifts and Burdens of Survival and Chapter 9 The Evolution of Resilience"
+        },
+        {
+          "startTime": 1514.410209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Evolution of Resilience and Chapter 10 Acceptance, Letting Go, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1633.3857509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Acceptance, Letting Go, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1460",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T19:13:20.175Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1487",
+  "timestamp": "2025-07-07T20:27:21.345Z",
+  "success": false,
+  "processingTime": -1751919751472,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4936,
+    "totalAudioFiles": 12,
+    "totalDuration": 2292.3435000000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2292.3435000000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1487/optimized_text/1487.md",
+    "fileSize": 652,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "1487.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1487/metadata/1487_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2292.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1487/metadata/1487_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1487/metadata/1487_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1487/1487_complete.wav",
+    "duration": 2292.3435,
+    "fileSize": 110032566,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1487/introduction.wav",
+          "duration": 99.377083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.377083,
+          "startTime": 0,
+          "endTime": 99.377083
+        },
+        {
+          "path": "Audio/output/1487/chapter_01.wav",
+          "duration": 254.415875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Power of Stillness in a Noisy World",
+          "actualDuration": 254.415875,
+          "startTime": 100.877083,
+          "endTime": 355.292958
+        },
+        {
+          "path": "Audio/output/1487/chapter_02.wav",
+          "duration": 236.825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Listening for God Beyond Words and Thoughts",
+          "actualDuration": 236.825,
+          "startTime": 356.792958,
+          "endTime": 593.617958
+        },
+        {
+          "path": "Audio/output/1487/chapter_03.wav",
+          "duration": 225.638583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Making Space for God in Everyday Life",
+          "actualDuration": 225.638583,
+          "startTime": 595.117958,
+          "endTime": 820.7565410000001
+        },
+        {
+          "path": "Audio/output/1487/chapter_04.wav",
+          "duration": 190.716792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Trust, Surrender, and the Path to Spiritual Growth",
+          "actualDuration": 190.716792,
+          "startTime": 822.2565410000001,
+          "endTime": 1012.9733330000001
+        },
+        {
+          "path": "Audio/output/1487/chapter_05.wav",
+          "duration": 212.9255,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Distractions and Deepening Connection",
+          "actualDuration": 212.9255,
+          "startTime": 1014.4733330000001,
+          "endTime": 1227.3988330000002
+        },
+        {
+          "path": "Audio/output/1487/chapter_06.wav",
+          "duration": 214.974792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating Contemplative Practice into the Flow of Life",
+          "actualDuration": 214.974792,
+          "startTime": 1228.8988330000002,
+          "endTime": 1443.8736250000002
+        },
+        {
+          "path": "Audio/output/1487/chapter_07.wav",
+          "duration": 190.208208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Community in the Contemplative Journey",
+          "actualDuration": 190.208208,
+          "startTime": 1445.3736250000002,
+          "endTime": 1635.5818330000002
+        },
+        {
+          "path": "Audio/output/1487/chapter_08.wav",
+          "duration": 174.928958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Dryness, Doubt, and the Dark Night",
+          "actualDuration": 174.928958,
+          "startTime": 1637.0818330000002,
+          "endTime": 1812.0107910000002
+        },
+        {
+          "path": "Audio/output/1487/chapter_09.wav",
+          "duration": 162.614667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Transformation Through Presence",
+          "actualDuration": 162.614667,
+          "startTime": 1813.5107910000002,
+          "endTime": 1976.1254580000002
+        },
+        {
+          "path": "Audio/output/1487/chapter_10.wav",
+          "duration": 161.727,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living from the Center—A New Way Forward",
+          "actualDuration": 161.727,
+          "startTime": 1977.6254580000002,
+          "endTime": 2139.3524580000003
+        },
+        {
+          "path": "Audio/output/1487/conclusion.wav",
+          "duration": 167.991042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 167.991042,
+          "startTime": 2140.8524580000003,
+          "endTime": 2308.8435000000004
+        }
+      ],
+      "totalDuration": 2308.8435000000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.38,
+          "actualStart": 0,
+          "actualEnd": 99.377083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Power of Stillness in a Noisy World",
+          "expectedStart": 99.38,
+          "expectedEnd": 353.8,
+          "actualStart": 100.877083,
+          "actualEnd": 355.292958,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Listening for God Beyond Words and Thoughts",
+          "expectedStart": 353.8,
+          "expectedEnd": 590.63,
+          "actualStart": 356.792958,
+          "actualEnd": 593.617958,
+          "timeDifference": 2.9929579999999874
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Making Space for God in Everyday Life",
+          "expectedStart": 590.63,
+          "expectedEnd": 816.27,
+          "actualStart": 595.117958,
+          "actualEnd": 820.7565410000001,
+          "timeDifference": 4.487958000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Trust, Surrender, and the Path to Spiritual Growth",
+          "expectedStart": 816.27,
+          "expectedEnd": 1006.99,
+          "actualStart": 822.2565410000001,
+          "actualEnd": 1012.9733330000001,
+          "timeDifference": 5.986541000000102
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Distractions and Deepening Connection",
+          "expectedStart": 1006.99,
+          "expectedEnd": 1219.92,
+          "actualStart": 1014.4733330000001,
+          "actualEnd": 1227.3988330000002,
+          "timeDifference": 7.48333300000013
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating Contemplative Practice into the Flow of Life",
+          "expectedStart": 1219.92,
+          "expectedEnd": 1434.89,
+          "actualStart": 1228.8988330000002,
+          "actualEnd": 1443.8736250000002,
+          "timeDifference": 8.978833000000122
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Community in the Contemplative Journey",
+          "expectedStart": 1434.89,
+          "expectedEnd": 1625.1,
+          "actualStart": 1445.3736250000002,
+          "actualEnd": 1635.5818330000002,
+          "timeDifference": 10.483625000000075
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Dryness, Doubt, and the Dark Night",
+          "expectedStart": 1625.1,
+          "expectedEnd": 1800.03,
+          "actualStart": 1637.0818330000002,
+          "actualEnd": 1812.0107910000002,
+          "timeDifference": 11.981833000000279
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Transformation Through Presence",
+          "expectedStart": 1800.03,
+          "expectedEnd": 1962.64,
+          "actualStart": 1813.5107910000002,
+          "actualEnd": 1976.1254580000002,
+          "timeDifference": 13.480791000000181
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living from the Center—A New Way Forward",
+          "expectedStart": 1962.64,
+          "expectedEnd": 2124.37,
+          "actualStart": 1977.6254580000002,
+          "actualEnd": 2139.3524580000003,
+          "timeDifference": 14.985458000000108
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2124.37,
+          "expectedEnd": 2292.36,
+          "actualStart": 2140.8524580000003,
+          "actualEnd": 2308.8435000000004,
+          "timeDifference": 16.482458000000406
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.377083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Power of Stillness in a Noisy World"
+        },
+        {
+          "startTime": 355.292958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Power of Stillness in a Noisy World and Chapter 2 Listening for God Beyond Words and Thoughts"
+        },
+        {
+          "startTime": 593.617958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Listening for God Beyond Words and Thoughts and Chapter 3 Making Space for God in Everyday Life"
+        },
+        {
+          "startTime": 820.7565410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Making Space for God in Everyday Life and Chapter 4 Trust, Surrender, and the Path to Spiritual Growth"
+        },
+        {
+          "startTime": 1012.9733330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Trust, Surrender, and the Path to Spiritual Growth and Chapter 5 Overcoming Distractions and Deepening Connection"
+        },
+        {
+          "startTime": 1227.3988330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Distractions and Deepening Connection and Chapter 6 Integrating Contemplative Practice into the Flow of Life"
+        },
+        {
+          "startTime": 1443.8736250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating Contemplative Practice into the Flow of Life and Chapter 7 The Role of Community in the Contemplative Journey"
+        },
+        {
+          "startTime": 1635.5818330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Community in the Contemplative Journey and Chapter 8 Facing Dryness, Doubt, and the Dark Night"
+        },
+        {
+          "startTime": 1812.0107910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Dryness, Doubt, and the Dark Night and Chapter 9 Transformation Through Presence"
+        },
+        {
+          "startTime": 1976.1254580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Transformation Through Presence and Chapter 10 Living from the Center—A New Way Forward"
+        },
+        {
+          "startTime": 2139.3524580000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living from the Center—A New Way Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1487",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:22:32.031Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

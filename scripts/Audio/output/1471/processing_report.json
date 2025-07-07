@@ -1,0 +1,455 @@
+{
+  "bookId": "1471",
+  "timestamp": "2025-07-07T19:59:27.497Z",
+  "success": false,
+  "processingTime": -1751918115596,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4803,
+    "totalAudioFiles": 12,
+    "totalDuration": 2011.938626
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2011.938626
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1471/optimized_text/1471.md",
+    "fileSize": 744,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "1471.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1471/metadata/1471_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2011.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1471/metadata/1471_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1471/metadata/1471_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1471/1471_complete.wav",
+    "duration": 2011.938625,
+    "fileSize": 96573132,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1471/introduction.wav",
+          "duration": 91.35525,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.35525,
+          "startTime": 0,
+          "endTime": 91.35525
+        },
+        {
+          "path": "Audio/output/1471/chapter_01.wav",
+          "duration": 219.280167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Online and the Shaping of Identity",
+          "actualDuration": 219.280167,
+          "startTime": 92.85525,
+          "endTime": 312.135417
+        },
+        {
+          "path": "Audio/output/1471/chapter_02.wav",
+          "duration": 200.802292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Illusion of Choice and the Power of Cultural Forces",
+          "actualDuration": 200.802292,
+          "startTime": 313.635417,
+          "endTime": 514.437709
+        },
+        {
+          "path": "Audio/output/1471/chapter_03.wav",
+          "duration": 195.948292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Internet’s Role in Self-Mythologizing and Performance",
+          "actualDuration": 195.948292,
+          "startTime": 515.937709,
+          "endTime": 711.8860010000001
+        },
+        {
+          "path": "Audio/output/1471/chapter_04.wav",
+          "duration": 222.380958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Feminism, Capitalism, and the Commodification of Empowerment",
+          "actualDuration": 222.380958,
+          "startTime": 713.3860010000001,
+          "endTime": 935.766959
+        },
+        {
+          "path": "Audio/output/1471/chapter_05.wav",
+          "duration": 170.873875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Spectacle of Modern Life and the Search for Meaning",
+          "actualDuration": 170.873875,
+          "startTime": 937.266959,
+          "endTime": 1108.140834
+        },
+        {
+          "path": "Audio/output/1471/chapter_06.wav",
+          "duration": 189.855917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Trap of Self-Delusion and the Difficulty of Seeing Clearly",
+          "actualDuration": 189.855917,
+          "startTime": 1109.640834,
+          "endTime": 1299.4967510000001
+        },
+        {
+          "path": "Audio/output/1471/chapter_07.wav",
+          "duration": 149.230542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Language and the Stories We Tell",
+          "actualDuration": 149.230542,
+          "startTime": 1300.9967510000001,
+          "endTime": 1450.2272930000001
+        },
+        {
+          "path": "Audio/output/1471/chapter_08.wav",
+          "duration": 167.80025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Limits of Irony and the Longing for Sincerity",
+          "actualDuration": 167.80025,
+          "startTime": 1451.7272930000001,
+          "endTime": 1619.5275430000002
+        },
+        {
+          "path": "Audio/output/1471/chapter_09.wav",
+          "duration": 151.568333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Challenge of Living Honestly in a Culture of Performance",
+          "actualDuration": 151.568333,
+          "startTime": 1621.0275430000002,
+          "endTime": 1772.595876
+        },
+        {
+          "path": "Audio/output/1471/chapter_10.wav",
+          "duration": 130.539792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Imagining New Ways of Being: Hope Beyond the Mirror",
+          "actualDuration": 130.539792,
+          "startTime": 1774.095876,
+          "endTime": 1904.6356680000001
+        },
+        {
+          "path": "Audio/output/1471/conclusion.wav",
+          "duration": 122.302958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.302958,
+          "startTime": 1906.1356680000001,
+          "endTime": 2028.438626
+        }
+      ],
+      "totalDuration": 2028.438626,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.36,
+          "actualStart": 0,
+          "actualEnd": 91.35525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Online and the Shaping of Identity",
+          "expectedStart": 91.36,
+          "expectedEnd": 310.64,
+          "actualStart": 92.85525,
+          "actualEnd": 312.135417,
+          "timeDifference": 1.4952499999999986
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Illusion of Choice and the Power of Cultural Forces",
+          "expectedStart": 310.64,
+          "expectedEnd": 511.44,
+          "actualStart": 313.635417,
+          "actualEnd": 514.437709,
+          "timeDifference": 2.9954170000000317
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Internet’s Role in Self-Mythologizing and Performance",
+          "expectedStart": 511.44,
+          "expectedEnd": 707.39,
+          "actualStart": 515.937709,
+          "actualEnd": 711.8860010000001,
+          "timeDifference": 4.497709000000043
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Feminism, Capitalism, and the Commodification of Empowerment",
+          "expectedStart": 707.39,
+          "expectedEnd": 929.77,
+          "actualStart": 713.3860010000001,
+          "actualEnd": 935.766959,
+          "timeDifference": 5.996001000000092
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Spectacle of Modern Life and the Search for Meaning",
+          "expectedStart": 929.77,
+          "expectedEnd": 1100.64,
+          "actualStart": 937.266959,
+          "actualEnd": 1108.140834,
+          "timeDifference": 7.496959000000061
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Trap of Self-Delusion and the Difficulty of Seeing Clearly",
+          "expectedStart": 1100.64,
+          "expectedEnd": 1290.5,
+          "actualStart": 1109.640834,
+          "actualEnd": 1299.4967510000001,
+          "timeDifference": 9.00083399999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Language and the Stories We Tell",
+          "expectedStart": 1290.5,
+          "expectedEnd": 1439.73,
+          "actualStart": 1300.9967510000001,
+          "actualEnd": 1450.2272930000001,
+          "timeDifference": 10.496751000000131
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Limits of Irony and the Longing for Sincerity",
+          "expectedStart": 1439.73,
+          "expectedEnd": 1607.53,
+          "actualStart": 1451.7272930000001,
+          "actualEnd": 1619.5275430000002,
+          "timeDifference": 11.997293000000127
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Challenge of Living Honestly in a Culture of Performance",
+          "expectedStart": 1607.53,
+          "expectedEnd": 1759.1,
+          "actualStart": 1621.0275430000002,
+          "actualEnd": 1772.595876,
+          "timeDifference": 13.497543000000178
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Imagining New Ways of Being: Hope Beyond the Mirror",
+          "expectedStart": 1759.1,
+          "expectedEnd": 1889.64,
+          "actualStart": 1774.095876,
+          "actualEnd": 1904.6356680000001,
+          "timeDifference": 14.99587600000018
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1889.64,
+          "expectedEnd": 2011.94,
+          "actualStart": 1906.1356680000001,
+          "actualEnd": 2028.438626,
+          "timeDifference": 16.495668000000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.35525,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Online and the Shaping of Identity"
+        },
+        {
+          "startTime": 312.135417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Online and the Shaping of Identity and Chapter 2 The Illusion of Choice and the Power of Cultural Forces"
+        },
+        {
+          "startTime": 514.437709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Illusion of Choice and the Power of Cultural Forces and Chapter 3 The Internet’s Role in Self-Mythologizing and Performance"
+        },
+        {
+          "startTime": 711.8860010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Internet’s Role in Self-Mythologizing and Performance and Chapter 4 Feminism, Capitalism, and the Commodification of Empowerment"
+        },
+        {
+          "startTime": 935.766959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Feminism, Capitalism, and the Commodification of Empowerment and Chapter 5 The Spectacle of Modern Life and the Search for Meaning"
+        },
+        {
+          "startTime": 1108.140834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Spectacle of Modern Life and the Search for Meaning and Chapter 6 The Trap of Self-Delusion and the Difficulty of Seeing Clearly"
+        },
+        {
+          "startTime": 1299.4967510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Trap of Self-Delusion and the Difficulty of Seeing Clearly and Chapter 7 The Power of Language and the Stories We Tell"
+        },
+        {
+          "startTime": 1450.2272930000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Language and the Stories We Tell and Chapter 8 The Limits of Irony and the Longing for Sincerity"
+        },
+        {
+          "startTime": 1619.5275430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Limits of Irony and the Longing for Sincerity and Chapter 9 The Challenge of Living Honestly in a Culture of Performance"
+        },
+        {
+          "startTime": 1772.595876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Challenge of Living Honestly in a Culture of Performance and Chapter 10 Imagining New Ways of Being: Hope Beyond the Mirror"
+        },
+        {
+          "startTime": 1904.6356680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Imagining New Ways of Being: Hope Beyond the Mirror and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1471",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T19:55:16.773Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

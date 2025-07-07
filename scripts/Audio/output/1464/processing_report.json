@@ -1,0 +1,456 @@
+{
+  "bookId": "1464",
+  "timestamp": "2025-07-07T19:29:08.192Z",
+  "success": false,
+  "processingTime": -1751916296936,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5115,
+    "totalAudioFiles": 12,
+    "totalDuration": 2162.110751
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2162.110751
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1464/optimized_text/1464.md",
+    "fileSize": 820,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "1464.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1464/metadata/1464_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2162.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1464/metadata/1464_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1464/metadata/1464_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1464/1464_complete.wav",
+    "duration": 2162.11075,
+    "fileSize": 103781394,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1464/introduction.wav",
+          "duration": 85.554167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.554167,
+          "startTime": 0,
+          "endTime": 85.554167
+        },
+        {
+          "path": "Audio/output/1464/chapter_01.wav",
+          "duration": 239.38525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Uncertainty and Ambition",
+          "actualDuration": 239.38525,
+          "startTime": 87.054167,
+          "endTime": 326.43941700000005
+        },
+        {
+          "path": "Audio/output/1464/chapter_02.wav",
+          "duration": 233.526958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning Leadership Through Conflict and Disappointment",
+          "actualDuration": 233.526958,
+          "startTime": 327.93941700000005,
+          "endTime": 561.4663750000001
+        },
+        {
+          "path": "Audio/output/1464/chapter_03.wav",
+          "duration": 261.528375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Reluctant Revolutionary and the Weight of Command",
+          "actualDuration": 261.528375,
+          "startTime": 562.9663750000001,
+          "endTime": 824.4947500000001
+        },
+        {
+          "path": "Audio/output/1464/chapter_04.wav",
+          "duration": 269.519458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building a Nation and the Struggle for Unity",
+          "actualDuration": 269.519458,
+          "startTime": 825.9947500000001,
+          "endTime": 1095.514208
+        },
+        {
+          "path": "Audio/output/1464/chapter_05.wav",
+          "duration": 167.016542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Private Struggles, Public Legacy, and the Question of Slavery",
+          "actualDuration": 167.016542,
+          "startTime": 1097.014208,
+          "endTime": 1264.0307500000001
+        },
+        {
+          "path": "Audio/output/1464/chapter_06.wav",
+          "duration": 206.990792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Final Years—A Return to Mount Vernon and the Quiet Weight of Legacy",
+          "actualDuration": 206.990792,
+          "startTime": 1265.5307500000001,
+          "endTime": 1472.5215420000002
+        },
+        {
+          "path": "Audio/output/1464/chapter_07.wav",
+          "duration": 185.090542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Making of a Myth—Memory, Mourning, and the Birth of American Identity",
+          "actualDuration": 185.090542,
+          "startTime": 1474.0215420000002,
+          "endTime": 1659.112084
+        },
+        {
+          "path": "Audio/output/1464/chapter_08.wav",
+          "duration": 144.698,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Evolving Legacy—Controversy, Critique, and the Search for Truth",
+          "actualDuration": 144.698,
+          "startTime": 1660.612084,
+          "endTime": 1805.3100840000002
+        },
+        {
+          "path": "Audio/output/1464/chapter_09.wav",
+          "duration": 122.279167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for Today—Leadership, Character, and the American Experiment",
+          "actualDuration": 122.279167,
+          "startTime": 1806.8100840000002,
+          "endTime": 1929.089251
+        },
+        {
+          "path": "Audio/output/1464/chapter_10.wav",
+          "duration": 131.478875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Impact—A Nation’s Reflection and the Call to Action",
+          "actualDuration": 131.478875,
+          "startTime": 1930.589251,
+          "endTime": 2062.068126
+        },
+        {
+          "path": "Audio/output/1464/conclusion.wav",
+          "duration": 115.042625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.042625,
+          "startTime": 2063.568126,
+          "endTime": 2178.610751
+        }
+      ],
+      "totalDuration": 2178.610751,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.55,
+          "actualStart": 0,
+          "actualEnd": 85.554167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Uncertainty and Ambition",
+          "expectedStart": 85.55,
+          "expectedEnd": 324.94,
+          "actualStart": 87.054167,
+          "actualEnd": 326.43941700000005,
+          "timeDifference": 1.5041670000000096
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning Leadership Through Conflict and Disappointment",
+          "expectedStart": 324.94,
+          "expectedEnd": 558.47,
+          "actualStart": 327.93941700000005,
+          "actualEnd": 561.4663750000001,
+          "timeDifference": 2.999417000000051
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Reluctant Revolutionary and the Weight of Command",
+          "expectedStart": 558.47,
+          "expectedEnd": 820,
+          "actualStart": 562.9663750000001,
+          "actualEnd": 824.4947500000001,
+          "timeDifference": 4.496375000000057
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building a Nation and the Struggle for Unity",
+          "expectedStart": 820,
+          "expectedEnd": 1089.52,
+          "actualStart": 825.9947500000001,
+          "actualEnd": 1095.514208,
+          "timeDifference": 5.994750000000067
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Private Struggles, Public Legacy, and the Question of Slavery",
+          "expectedStart": 1089.52,
+          "expectedEnd": 1256.54,
+          "actualStart": 1097.014208,
+          "actualEnd": 1264.0307500000001,
+          "timeDifference": 7.4942080000000715
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Final Years—A Return to Mount Vernon and the Quiet Weight of Legacy",
+          "expectedStart": 1256.54,
+          "expectedEnd": 1463.53,
+          "actualStart": 1265.5307500000001,
+          "actualEnd": 1472.5215420000002,
+          "timeDifference": 8.990750000000162
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Making of a Myth—Memory, Mourning, and the Birth of American Identity",
+          "expectedStart": 1463.53,
+          "expectedEnd": 1648.62,
+          "actualStart": 1474.0215420000002,
+          "actualEnd": 1659.112084,
+          "timeDifference": 10.491542000000209
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Evolving Legacy—Controversy, Critique, and the Search for Truth",
+          "expectedStart": 1648.62,
+          "expectedEnd": 1793.32,
+          "actualStart": 1660.612084,
+          "actualEnd": 1805.3100840000002,
+          "timeDifference": 11.992084000000204
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for Today—Leadership, Character, and the American Experiment",
+          "expectedStart": 1793.32,
+          "expectedEnd": 1915.6,
+          "actualStart": 1806.8100840000002,
+          "actualEnd": 1929.089251,
+          "timeDifference": 13.490084000000252
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Impact—A Nation’s Reflection and the Call to Action",
+          "expectedStart": 1915.6,
+          "expectedEnd": 2047.08,
+          "actualStart": 1930.589251,
+          "actualEnd": 2062.068126,
+          "timeDifference": 14.989251000000195
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2047.08,
+          "expectedEnd": 2162.12,
+          "actualStart": 2063.568126,
+          "actualEnd": 2178.610751,
+          "timeDifference": 16.488126000000193
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.554167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Uncertainty and Ambition"
+        },
+        {
+          "startTime": 326.43941700000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Uncertainty and Ambition and Chapter 2 Learning Leadership Through Conflict and Disappointment"
+        },
+        {
+          "startTime": 561.4663750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning Leadership Through Conflict and Disappointment and Chapter 3 The Reluctant Revolutionary and the Weight of Command"
+        },
+        {
+          "startTime": 824.4947500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Reluctant Revolutionary and the Weight of Command and Chapter 4 Building a Nation and the Struggle for Unity"
+        },
+        {
+          "startTime": 1095.514208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building a Nation and the Struggle for Unity and Chapter 5 Private Struggles, Public Legacy, and the Question of Slavery"
+        },
+        {
+          "startTime": 1264.0307500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Private Struggles, Public Legacy, and the Question of Slavery and Chapter 6 The Final Years—A Return to Mount Vernon and the Quiet Weight of Legacy"
+        },
+        {
+          "startTime": 1472.5215420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Final Years—A Return to Mount Vernon and the Quiet Weight of Legacy and Chapter 7 The Making of a Myth—Memory, Mourning, and the Birth of American Identity"
+        },
+        {
+          "startTime": 1659.112084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Making of a Myth—Memory, Mourning, and the Birth of American Identity and Chapter 8 The Evolving Legacy—Controversy, Critique, and the Search for Truth"
+        },
+        {
+          "startTime": 1805.3100840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Evolving Legacy—Controversy, Critique, and the Search for Truth and Chapter 9 Lessons for Today—Leadership, Character, and the American Experiment"
+        },
+        {
+          "startTime": 1929.089251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for Today—Leadership, Character, and the American Experiment and Chapter 10 The Enduring Impact—A Nation’s Reflection and the Call to Action"
+        },
+        {
+          "startTime": 2062.068126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Impact—A Nation’s Reflection and the Call to Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1464",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T19:24:57.516Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}
