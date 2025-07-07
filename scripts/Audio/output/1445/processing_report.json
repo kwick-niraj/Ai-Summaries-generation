@@ -1,0 +1,456 @@
+{
+  "bookId": "1445",
+  "timestamp": "2025-07-07T18:08:42.765Z",
+  "success": false,
+  "processingTime": -1751911187077,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4019,
+    "totalAudioFiles": 12,
+    "totalDuration": 1907.2700839999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1907.2700839999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1445/optimized_text/1445.md",
+    "fileSize": 672,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1445.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1445/metadata/1445_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1907.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1445/metadata/1445_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1445/metadata/1445_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1445/1445_complete.wav",
+    "duration": 1907.270083,
+    "fileSize": 91549042,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1445/introduction.wav",
+          "duration": 109.250875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.250875,
+          "startTime": 0,
+          "endTime": 109.250875
+        },
+        {
+          "path": "Audio/output/1445/chapter_01.wav",
+          "duration": 186.839417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the True Cost of Clutter",
+          "actualDuration": 186.839417,
+          "startTime": 110.750875,
+          "endTime": 297.590292
+        },
+        {
+          "path": "Audio/output/1445/chapter_02.wav",
+          "duration": 196.068417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Clarifying What Matters Most Before Letting Go",
+          "actualDuration": 196.068417,
+          "startTime": 299.090292,
+          "endTime": 495.158709
+        },
+        {
+          "path": "Audio/output/1445/chapter_03.wav",
+          "duration": 200.958625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Tackling Clutter Room by Room with a Systematic Approach",
+          "actualDuration": 200.958625,
+          "startTime": 496.658709,
+          "endTime": 697.617334
+        },
+        {
+          "path": "Audio/output/1445/chapter_04.wav",
+          "duration": 200.417667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Letting Go of Emotional Attachments and Guilt",
+          "actualDuration": 200.417667,
+          "startTime": 699.117334,
+          "endTime": 899.535001
+        },
+        {
+          "path": "Audio/output/1445/chapter_05.wav",
+          "duration": 208.769125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Lasting Systems to Prevent Future Clutter",
+          "actualDuration": 208.769125,
+          "startTime": 901.035001,
+          "endTime": 1109.804126
+        },
+        {
+          "path": "Audio/output/1445/chapter_06.wav",
+          "duration": 129.02675,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Mindful Habits for Everyday Order",
+          "actualDuration": 129.02675,
+          "startTime": 1111.304126,
+          "endTime": 1240.330876
+        },
+        {
+          "path": "Audio/output/1445/chapter_07.wav",
+          "duration": 155.347708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Shared Spaces and Family Dynamics",
+          "actualDuration": 155.347708,
+          "startTime": 1241.830876,
+          "endTime": 1397.178584
+        },
+        {
+          "path": "Audio/output/1445/chapter_08.wav",
+          "duration": 132.882042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing the Emotional Benefits of Simplicity",
+          "actualDuration": 132.882042,
+          "startTime": 1398.678584,
+          "endTime": 1531.560626
+        },
+        {
+          "path": "Audio/output/1445/chapter_09.wav",
+          "duration": 144.38475,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Redefining Abundance and Letting Go of Scarcity Thinking",
+          "actualDuration": 144.38475,
+          "startTime": 1533.060626,
+          "endTime": 1677.445376
+        },
+        {
+          "path": "Audio/output/1445/chapter_10.wav",
+          "duration": 144.214458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Simplicity Through Life’s Changes",
+          "actualDuration": 144.214458,
+          "startTime": 1678.945376,
+          "endTime": 1823.1598339999998
+        },
+        {
+          "path": "Audio/output/1445/conclusion.wav",
+          "duration": 99.11025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.11025,
+          "startTime": 1824.6598339999998,
+          "endTime": 1923.7700839999998
+        }
+      ],
+      "totalDuration": 1923.7700839999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.25,
+          "actualStart": 0,
+          "actualEnd": 109.250875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the True Cost of Clutter",
+          "expectedStart": 109.25,
+          "expectedEnd": 296.09,
+          "actualStart": 110.750875,
+          "actualEnd": 297.590292,
+          "timeDifference": 1.5008749999999935
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Clarifying What Matters Most Before Letting Go",
+          "expectedStart": 296.09,
+          "expectedEnd": 492.16,
+          "actualStart": 299.090292,
+          "actualEnd": 495.158709,
+          "timeDifference": 3.0002920000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Tackling Clutter Room by Room with a Systematic Approach",
+          "expectedStart": 492.16,
+          "expectedEnd": 693.12,
+          "actualStart": 496.658709,
+          "actualEnd": 697.617334,
+          "timeDifference": 4.4987089999999625
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Letting Go of Emotional Attachments and Guilt",
+          "expectedStart": 693.12,
+          "expectedEnd": 893.54,
+          "actualStart": 699.117334,
+          "actualEnd": 899.535001,
+          "timeDifference": 5.9973340000000235
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Lasting Systems to Prevent Future Clutter",
+          "expectedStart": 893.54,
+          "expectedEnd": 1102.31,
+          "actualStart": 901.035001,
+          "actualEnd": 1109.804126,
+          "timeDifference": 7.495001000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Mindful Habits for Everyday Order",
+          "expectedStart": 1102.31,
+          "expectedEnd": 1231.34,
+          "actualStart": 1111.304126,
+          "actualEnd": 1240.330876,
+          "timeDifference": 8.994126000000051
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Shared Spaces and Family Dynamics",
+          "expectedStart": 1231.34,
+          "expectedEnd": 1386.69,
+          "actualStart": 1241.830876,
+          "actualEnd": 1397.178584,
+          "timeDifference": 10.490876000000071
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing the Emotional Benefits of Simplicity",
+          "expectedStart": 1386.69,
+          "expectedEnd": 1519.57,
+          "actualStart": 1398.678584,
+          "actualEnd": 1531.560626,
+          "timeDifference": 11.988583999999946
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Redefining Abundance and Letting Go of Scarcity Thinking",
+          "expectedStart": 1519.57,
+          "expectedEnd": 1663.95,
+          "actualStart": 1533.060626,
+          "actualEnd": 1677.445376,
+          "timeDifference": 13.49062600000002
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Simplicity Through Life’s Changes",
+          "expectedStart": 1663.95,
+          "expectedEnd": 1808.16,
+          "actualStart": 1678.945376,
+          "actualEnd": 1823.1598339999998,
+          "timeDifference": 14.995375999999851
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1808.16,
+          "expectedEnd": 1907.27,
+          "actualStart": 1824.6598339999998,
+          "actualEnd": 1923.7700839999998,
+          "timeDifference": 16.499833999999737
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.250875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the True Cost of Clutter"
+        },
+        {
+          "startTime": 297.590292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the True Cost of Clutter and Chapter 2 Clarifying What Matters Most Before Letting Go"
+        },
+        {
+          "startTime": 495.158709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Clarifying What Matters Most Before Letting Go and Chapter 3 Tackling Clutter Room by Room with a Systematic Approach"
+        },
+        {
+          "startTime": 697.617334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Tackling Clutter Room by Room with a Systematic Approach and Chapter 4 Letting Go of Emotional Attachments and Guilt"
+        },
+        {
+          "startTime": 899.535001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Letting Go of Emotional Attachments and Guilt and Chapter 5 Creating Lasting Systems to Prevent Future Clutter"
+        },
+        {
+          "startTime": 1109.804126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Lasting Systems to Prevent Future Clutter and Chapter 6 Building Mindful Habits for Everyday Order"
+        },
+        {
+          "startTime": 1240.330876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Mindful Habits for Everyday Order and Chapter 7 Navigating Shared Spaces and Family Dynamics"
+        },
+        {
+          "startTime": 1397.178584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Shared Spaces and Family Dynamics and Chapter 8 Embracing the Emotional Benefits of Simplicity"
+        },
+        {
+          "startTime": 1531.560626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing the Emotional Benefits of Simplicity and Chapter 9 Redefining Abundance and Letting Go of Scarcity Thinking"
+        },
+        {
+          "startTime": 1677.445376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Redefining Abundance and Letting Go of Scarcity Thinking and Chapter 10 Sustaining Simplicity Through Life’s Changes"
+        },
+        {
+          "startTime": 1823.1598339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Simplicity Through Life’s Changes and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1445",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T17:59:48.621Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

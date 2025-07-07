@@ -1,0 +1,432 @@
+{
+  "bookId": "1442",
+  "timestamp": "2025-07-07T17:41:57.886Z",
+  "success": false,
+  "processingTime": -1751909721347,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 5364,
+    "totalAudioFiles": 11,
+    "totalDuration": 2258.713709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2258.713709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1442/optimized_text/1442.md",
+    "fileSize": 620,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "1442.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1442/metadata/1442_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2258.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1442/metadata/1442_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1442/metadata/1442_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1442/1442_complete.wav",
+    "duration": 2258.713708,
+    "fileSize": 108418336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1442/introduction.wav",
+          "duration": 105.427583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.427583,
+          "startTime": 0,
+          "endTime": 105.427583
+        },
+        {
+          "path": "Audio/output/1442/chapter_01.wav",
+          "duration": 267.186792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Early Relationships Shape Us and Our Parenting",
+          "actualDuration": 267.186792,
+          "startTime": 106.927583,
+          "endTime": 374.114375
+        },
+        {
+          "path": "Audio/output/1442/chapter_02.wav",
+          "duration": 264.682292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Emotional Connection and Secure Attachment",
+          "actualDuration": 264.682292,
+          "startTime": 375.614375,
+          "endTime": 640.2966670000001
+        },
+        {
+          "path": "Audio/output/1442/chapter_03.wav",
+          "duration": 263.403042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Negative Cycles and Creating New Patterns",
+          "actualDuration": 263.403042,
+          "startTime": 641.7966670000001,
+          "endTime": 905.1997090000001
+        },
+        {
+          "path": "Audio/output/1442/chapter_04.wav",
+          "duration": 250.366375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Understanding and Managing Emotions—For Parents and Children",
+          "actualDuration": 250.366375,
+          "startTime": 906.6997090000001,
+          "endTime": 1157.066084
+        },
+        {
+          "path": "Audio/output/1442/chapter_05.wav",
+          "duration": 205.336125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Self-Reflection in Parenting",
+          "actualDuration": 205.336125,
+          "startTime": 1158.566084,
+          "endTime": 1363.902209
+        },
+        {
+          "path": "Audio/output/1442/chapter_06.wav",
+          "duration": 218.693833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Boundaries: The Invisible Framework of Family Life",
+          "actualDuration": 218.693833,
+          "startTime": 1365.402209,
+          "endTime": 1584.0960420000001
+        },
+        {
+          "path": "Audio/output/1442/chapter_07.wav",
+          "duration": 229.280583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Self-Care: Filling Your Own Cup",
+          "actualDuration": 229.280583,
+          "startTime": 1585.5960420000001,
+          "endTime": 1814.876625
+        },
+        {
+          "path": "Audio/output/1442/chapter_08.wav",
+          "duration": 181.75725,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Conflict and Repair",
+          "actualDuration": 181.75725,
+          "startTime": 1816.376625,
+          "endTime": 1998.133875
+        },
+        {
+          "path": "Audio/output/1442/chapter_09.wav",
+          "duration": 151.284917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Growing Up Together: Parenting as a Lifelong Journey",
+          "actualDuration": 151.284917,
+          "startTime": 1999.633875,
+          "endTime": 2150.918792
+        },
+        {
+          "path": "Audio/output/1442/conclusion.wav",
+          "duration": 121.294917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.294917,
+          "startTime": 2152.418792,
+          "endTime": 2273.713709
+        }
+      ],
+      "totalDuration": 2273.713709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.43,
+          "actualStart": 0,
+          "actualEnd": 105.427583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Early Relationships Shape Us and Our Parenting",
+          "expectedStart": 105.43,
+          "expectedEnd": 372.62,
+          "actualStart": 106.927583,
+          "actualEnd": 374.114375,
+          "timeDifference": 1.4975829999999917
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Emotional Connection and Secure Attachment",
+          "expectedStart": 372.62,
+          "expectedEnd": 637.3,
+          "actualStart": 375.614375,
+          "actualEnd": 640.2966670000001,
+          "timeDifference": 2.994374999999991
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Negative Cycles and Creating New Patterns",
+          "expectedStart": 637.3,
+          "expectedEnd": 900.7,
+          "actualStart": 641.7966670000001,
+          "actualEnd": 905.1997090000001,
+          "timeDifference": 4.496667000000116
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Understanding and Managing Emotions—For Parents and Children",
+          "expectedStart": 900.7,
+          "expectedEnd": 1151.07,
+          "actualStart": 906.6997090000001,
+          "actualEnd": 1157.066084,
+          "timeDifference": 5.999709000000053
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Self-Reflection in Parenting",
+          "expectedStart": 1151.07,
+          "expectedEnd": 1356.41,
+          "actualStart": 1158.566084,
+          "actualEnd": 1363.902209,
+          "timeDifference": 7.49608400000011
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Boundaries: The Invisible Framework of Family Life",
+          "expectedStart": 1356.41,
+          "expectedEnd": 1575.1,
+          "actualStart": 1365.402209,
+          "actualEnd": 1584.0960420000001,
+          "timeDifference": 8.992209000000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Self-Care: Filling Your Own Cup",
+          "expectedStart": 1575.1,
+          "expectedEnd": 1804.38,
+          "actualStart": 1585.5960420000001,
+          "actualEnd": 1814.876625,
+          "timeDifference": 10.496042000000216
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Conflict and Repair",
+          "expectedStart": 1804.38,
+          "expectedEnd": 1986.14,
+          "actualStart": 1816.376625,
+          "actualEnd": 1998.133875,
+          "timeDifference": 11.996624999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Growing Up Together: Parenting as a Lifelong Journey",
+          "expectedStart": 1986.14,
+          "expectedEnd": 2137.42,
+          "actualStart": 1999.633875,
+          "actualEnd": 2150.918792,
+          "timeDifference": 13.493874999999889
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2137.42,
+          "expectedEnd": 2258.71,
+          "actualStart": 2152.418792,
+          "actualEnd": 2273.713709,
+          "timeDifference": 14.998791999999867
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.427583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Early Relationships Shape Us and Our Parenting"
+        },
+        {
+          "startTime": 374.114375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Early Relationships Shape Us and Our Parenting and Chapter 2 Building Emotional Connection and Secure Attachment"
+        },
+        {
+          "startTime": 640.2966670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Emotional Connection and Secure Attachment and Chapter 3 Breaking Negative Cycles and Creating New Patterns"
+        },
+        {
+          "startTime": 905.1997090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Negative Cycles and Creating New Patterns and Chapter 4 Understanding and Managing Emotions—For Parents and Children"
+        },
+        {
+          "startTime": 1157.066084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Understanding and Managing Emotions—For Parents and Children and Chapter 5 The Power of Self-Reflection in Parenting"
+        },
+        {
+          "startTime": 1363.902209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Self-Reflection in Parenting and Chapter 6 Boundaries: The Invisible Framework of Family Life"
+        },
+        {
+          "startTime": 1584.0960420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Boundaries: The Invisible Framework of Family Life and Chapter 7 The Importance of Self-Care: Filling Your Own Cup"
+        },
+        {
+          "startTime": 1814.876625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Self-Care: Filling Your Own Cup and Chapter 8 Navigating Conflict and Repair"
+        },
+        {
+          "startTime": 1998.133875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Conflict and Repair and Chapter 9 Growing Up Together: Parenting as a Lifelong Journey"
+        },
+        {
+          "startTime": 2150.918792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Growing Up Together: Parenting as a Lifelong Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1442",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T17:35:22.940Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
