@@ -1,0 +1,456 @@
+{
+  "bookId": "1223",
+  "timestamp": "2025-07-06T22:11:01.616Z",
+  "success": false,
+  "processingTime": -1751839334819,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5252,
+    "totalAudioFiles": 12,
+    "totalDuration": 2364.288042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2364.288042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1223/optimized_text/1223.md",
+    "fileSize": 727,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1223.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1223/metadata/1223_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2364.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1223/metadata/1223_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1223/metadata/1223_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1223/1223_complete.wav",
+    "duration": 2364.288042,
+    "fileSize": 113485904,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1223/introduction.wav",
+          "duration": 86.965792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.965792,
+          "startTime": 0,
+          "endTime": 86.965792
+        },
+        {
+          "path": "Audio/output/1223/chapter_01.wav",
+          "duration": 218.944042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Karma Beyond Reward and Punishment",
+          "actualDuration": 218.944042,
+          "startTime": 88.465792,
+          "endTime": 307.409834
+        },
+        {
+          "path": "Audio/output/1223/chapter_02.wav",
+          "duration": 258.236167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mechanics of Karma: Memory, Habit, and Unconscious Living",
+          "actualDuration": 258.236167,
+          "startTime": 308.909834,
+          "endTime": 567.1460010000001
+        },
+        {
+          "path": "Audio/output/1223/chapter_03.wav",
+          "duration": 217.145833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Taking Ownership: Responsibility and the Power of Choice",
+          "actualDuration": 217.145833,
+          "startTime": 568.6460010000001,
+          "endTime": 785.7918340000001
+        },
+        {
+          "path": "Audio/output/1223/chapter_04.wav",
+          "duration": 244.312875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Conscious Action: Breaking Free from Compulsive Patterns",
+          "actualDuration": 244.312875,
+          "startTime": 787.2918340000001,
+          "endTime": 1031.6047090000002
+        },
+        {
+          "path": "Audio/output/1223/chapter_05.wav",
+          "duration": 213.451667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Awareness and Inner Clarity: The Path to Freedom",
+          "actualDuration": 213.451667,
+          "startTime": 1033.1047090000002,
+          "endTime": 1246.5563760000002
+        },
+        {
+          "path": "Audio/output/1223/chapter_06.wav",
+          "duration": 215.775625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Dissolving Old Karma: Healing Through Presence",
+          "actualDuration": 215.775625,
+          "startTime": 1248.0563760000002,
+          "endTime": 1463.8320010000002
+        },
+        {
+          "path": "Audio/output/1223/chapter_07.wav",
+          "duration": 184.508333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Non-Attachment: Letting Go Without Losing Heart",
+          "actualDuration": 184.508333,
+          "startTime": 1465.3320010000002,
+          "endTime": 1649.8403340000002
+        },
+        {
+          "path": "Audio/output/1223/chapter_08.wav",
+          "duration": 222.874375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Karma and Relationships: The Dance of Connection",
+          "actualDuration": 222.874375,
+          "startTime": 1651.3403340000002,
+          "endTime": 1874.2147090000003
+        },
+        {
+          "path": "Audio/output/1223/chapter_09.wav",
+          "duration": 185.867417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Wisdom: Tools for Crafting Your Destiny",
+          "actualDuration": 185.867417,
+          "startTime": 1875.7147090000003,
+          "endTime": 2061.5821260000002
+        },
+        {
+          "path": "Audio/output/1223/chapter_10.wav",
+          "duration": 180.258708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Karma: Freedom, Joy, and the Unfolding Journey",
+          "actualDuration": 180.258708,
+          "startTime": 2063.0821260000002,
+          "endTime": 2243.340834
+        },
+        {
+          "path": "Audio/output/1223/conclusion.wav",
+          "duration": 135.947208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.947208,
+          "startTime": 2244.840834,
+          "endTime": 2380.788042
+        }
+      ],
+      "totalDuration": 2380.788042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.97,
+          "actualStart": 0,
+          "actualEnd": 86.965792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Karma Beyond Reward and Punishment",
+          "expectedStart": 86.97,
+          "expectedEnd": 305.91,
+          "actualStart": 88.465792,
+          "actualEnd": 307.409834,
+          "timeDifference": 1.4957919999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mechanics of Karma: Memory, Habit, and Unconscious Living",
+          "expectedStart": 305.91,
+          "expectedEnd": 564.15,
+          "actualStart": 308.909834,
+          "actualEnd": 567.1460010000001,
+          "timeDifference": 2.9998339999999644
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Taking Ownership: Responsibility and the Power of Choice",
+          "expectedStart": 564.15,
+          "expectedEnd": 781.3,
+          "actualStart": 568.6460010000001,
+          "actualEnd": 785.7918340000001,
+          "timeDifference": 4.496001000000092
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Conscious Action: Breaking Free from Compulsive Patterns",
+          "expectedStart": 781.3,
+          "expectedEnd": 1025.61,
+          "actualStart": 787.2918340000001,
+          "actualEnd": 1031.6047090000002,
+          "timeDifference": 5.9918340000001535
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Awareness and Inner Clarity: The Path to Freedom",
+          "expectedStart": 1025.61,
+          "expectedEnd": 1239.06,
+          "actualStart": 1033.1047090000002,
+          "actualEnd": 1246.5563760000002,
+          "timeDifference": 7.4947090000002845
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Dissolving Old Karma: Healing Through Presence",
+          "expectedStart": 1239.06,
+          "expectedEnd": 1454.84,
+          "actualStart": 1248.0563760000002,
+          "actualEnd": 1463.8320010000002,
+          "timeDifference": 8.996376000000282
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Non-Attachment: Letting Go Without Losing Heart",
+          "expectedStart": 1454.84,
+          "expectedEnd": 1639.35,
+          "actualStart": 1465.3320010000002,
+          "actualEnd": 1649.8403340000002,
+          "timeDifference": 10.4920010000003
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Karma and Relationships: The Dance of Connection",
+          "expectedStart": 1639.35,
+          "expectedEnd": 1862.22,
+          "actualStart": 1651.3403340000002,
+          "actualEnd": 1874.2147090000003,
+          "timeDifference": 11.990334000000303
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Wisdom: Tools for Crafting Your Destiny",
+          "expectedStart": 1862.22,
+          "expectedEnd": 2048.09,
+          "actualStart": 1875.7147090000003,
+          "actualEnd": 2061.5821260000002,
+          "timeDifference": 13.494709000000285
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Karma: Freedom, Joy, and the Unfolding Journey",
+          "expectedStart": 2048.09,
+          "expectedEnd": 2228.35,
+          "actualStart": 2063.0821260000002,
+          "actualEnd": 2243.340834,
+          "timeDifference": 14.992126000000098
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2228.35,
+          "expectedEnd": 2364.3,
+          "actualStart": 2244.840834,
+          "actualEnd": 2380.788042,
+          "timeDifference": 16.490834000000177
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.965792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Karma Beyond Reward and Punishment"
+        },
+        {
+          "startTime": 307.409834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Karma Beyond Reward and Punishment and Chapter 2 The Mechanics of Karma: Memory, Habit, and Unconscious Living"
+        },
+        {
+          "startTime": 567.1460010000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mechanics of Karma: Memory, Habit, and Unconscious Living and Chapter 3 Taking Ownership: Responsibility and the Power of Choice"
+        },
+        {
+          "startTime": 785.7918340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Taking Ownership: Responsibility and the Power of Choice and Chapter 4 Conscious Action: Breaking Free from Compulsive Patterns"
+        },
+        {
+          "startTime": 1031.6047090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Conscious Action: Breaking Free from Compulsive Patterns and Chapter 5 Awareness and Inner Clarity: The Path to Freedom"
+        },
+        {
+          "startTime": 1246.5563760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Awareness and Inner Clarity: The Path to Freedom and Chapter 6 Dissolving Old Karma: Healing Through Presence"
+        },
+        {
+          "startTime": 1463.8320010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Dissolving Old Karma: Healing Through Presence and Chapter 7 The Role of Non-Attachment: Letting Go Without Losing Heart"
+        },
+        {
+          "startTime": 1649.8403340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Non-Attachment: Letting Go Without Losing Heart and Chapter 8 Karma and Relationships: The Dance of Connection"
+        },
+        {
+          "startTime": 1874.2147090000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Karma and Relationships: The Dance of Connection and Chapter 9 Practical Wisdom: Tools for Crafting Your Destiny"
+        },
+        {
+          "startTime": 2061.5821260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Wisdom: Tools for Crafting Your Destiny and Chapter 10 Living Karma: Freedom, Joy, and the Unfolding Journey"
+        },
+        {
+          "startTime": 2243.340834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Karma: Freedom, Joy, and the Unfolding Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1223",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T22:02:16.013Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

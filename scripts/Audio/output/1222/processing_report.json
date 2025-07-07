@@ -1,0 +1,456 @@
+{
+  "bookId": "1222",
+  "timestamp": "2025-07-06T22:02:13.814Z",
+  "success": false,
+  "processingTime": -1751838842992,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4515,
+    "totalAudioFiles": 12,
+    "totalDuration": 2244.2164159999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2244.2164159999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1222/optimized_text/1222.md",
+    "fileSize": 704,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1222.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1222/metadata/1222_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2244.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1222/metadata/1222_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1222/metadata/1222_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1222/1222_complete.wav",
+    "duration": 2244.216417,
+    "fileSize": 107722466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1222/introduction.wav",
+          "duration": 101.764375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.764375,
+          "startTime": 0,
+          "endTime": 101.764375
+        },
+        {
+          "path": "Audio/output/1222/chapter_01.wav",
+          "duration": 269.533167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Entering the World of Secrets and Suspicion",
+          "actualDuration": 269.533167,
+          "startTime": 103.264375,
+          "endTime": 372.797542
+        },
+        {
+          "path": "Audio/output/1222/chapter_02.wav",
+          "duration": 227.167208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating Power, Paranoia, and Internal Rivalries",
+          "actualDuration": 227.167208,
+          "startTime": 374.297542,
+          "endTime": 601.46475
+        },
+        {
+          "path": "Audio/output/1222/chapter_03.wav",
+          "duration": 197.684,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost of Espionage and the Erosion of Identity",
+          "actualDuration": 197.684,
+          "startTime": 602.96475,
+          "endTime": 800.64875
+        },
+        {
+          "path": "Audio/output/1222/chapter_04.wav",
+          "duration": 202.852708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Political Intrigue and the Machinery of Regime Survival",
+          "actualDuration": 202.852708,
+          "startTime": 802.14875,
+          "endTime": 1005.001458
+        },
+        {
+          "path": "Audio/output/1222/chapter_05.wav",
+          "duration": 196.917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Disillusionment and the Search for Meaning",
+          "actualDuration": 196.917,
+          "startTime": 1006.501458,
+          "endTime": 1203.4184579999999
+        },
+        {
+          "path": "Audio/output/1222/chapter_06.wav",
+          "duration": 204.511208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Breaking Point: When Loyalty Collides with Conscience",
+          "actualDuration": 204.511208,
+          "startTime": 1204.9184579999999,
+          "endTime": 1409.429666
+        },
+        {
+          "path": "Audio/output/1222/chapter_07.wav",
+          "duration": 221.111833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Leaving the Shadows: The Cost and Consequence of Escape",
+          "actualDuration": 221.111833,
+          "startTime": 1410.929666,
+          "endTime": 1632.041499
+        },
+        {
+          "path": "Audio/output/1222/chapter_08.wav",
+          "duration": 180.740667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Legacy of Fear: How the System Endures",
+          "actualDuration": 180.740667,
+          "startTime": 1633.541499,
+          "endTime": 1814.282166
+        },
+        {
+          "path": "Audio/output/1222/chapter_09.wav",
+          "duration": 180.13425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Searching for Redemption: Truth, Memory, and the Hope for Change",
+          "actualDuration": 180.13425,
+          "startTime": 1815.782166,
+          "endTime": 1995.916416
+        },
+        {
+          "path": "Audio/output/1222/chapter_10.wav",
+          "duration": 132.814208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons from the Shadows: What Remains",
+          "actualDuration": 132.814208,
+          "startTime": 1997.416416,
+          "endTime": 2130.230624
+        },
+        {
+          "path": "Audio/output/1222/conclusion.wav",
+          "duration": 128.985792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.985792,
+          "startTime": 2131.730624,
+          "endTime": 2260.7164159999998
+        }
+      ],
+      "totalDuration": 2260.7164159999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.76,
+          "actualStart": 0,
+          "actualEnd": 101.764375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Entering the World of Secrets and Suspicion",
+          "expectedStart": 101.76,
+          "expectedEnd": 371.29,
+          "actualStart": 103.264375,
+          "actualEnd": 372.797542,
+          "timeDifference": 1.504374999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating Power, Paranoia, and Internal Rivalries",
+          "expectedStart": 371.29,
+          "expectedEnd": 598.46,
+          "actualStart": 374.297542,
+          "actualEnd": 601.46475,
+          "timeDifference": 3.007542000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost of Espionage and the Erosion of Identity",
+          "expectedStart": 598.46,
+          "expectedEnd": 796.14,
+          "actualStart": 602.96475,
+          "actualEnd": 800.64875,
+          "timeDifference": 4.5047499999999445
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Political Intrigue and the Machinery of Regime Survival",
+          "expectedStart": 796.14,
+          "expectedEnd": 998.99,
+          "actualStart": 802.14875,
+          "actualEnd": 1005.001458,
+          "timeDifference": 6.008749999999964
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Disillusionment and the Search for Meaning",
+          "expectedStart": 998.99,
+          "expectedEnd": 1195.91,
+          "actualStart": 1006.501458,
+          "actualEnd": 1203.4184579999999,
+          "timeDifference": 7.511457999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Breaking Point: When Loyalty Collides with Conscience",
+          "expectedStart": 1195.91,
+          "expectedEnd": 1400.42,
+          "actualStart": 1204.9184579999999,
+          "actualEnd": 1409.429666,
+          "timeDifference": 9.008457999999791
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Leaving the Shadows: The Cost and Consequence of Escape",
+          "expectedStart": 1400.42,
+          "expectedEnd": 1621.53,
+          "actualStart": 1410.929666,
+          "actualEnd": 1632.041499,
+          "timeDifference": 10.509665999999925
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Legacy of Fear: How the System Endures",
+          "expectedStart": 1621.53,
+          "expectedEnd": 1802.27,
+          "actualStart": 1633.541499,
+          "actualEnd": 1814.282166,
+          "timeDifference": 12.011498999999958
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Searching for Redemption: Truth, Memory, and the Hope for Change",
+          "expectedStart": 1802.27,
+          "expectedEnd": 1982.4,
+          "actualStart": 1815.782166,
+          "actualEnd": 1995.916416,
+          "timeDifference": 13.51216599999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons from the Shadows: What Remains",
+          "expectedStart": 1982.4,
+          "expectedEnd": 2115.21,
+          "actualStart": 1997.416416,
+          "actualEnd": 2130.230624,
+          "timeDifference": 15.016415999999936
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2115.21,
+          "expectedEnd": 2244.2,
+          "actualStart": 2131.730624,
+          "actualEnd": 2260.7164159999998,
+          "timeDifference": 16.52062399999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.764375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Entering the World of Secrets and Suspicion"
+        },
+        {
+          "startTime": 372.797542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Entering the World of Secrets and Suspicion and Chapter 2 Navigating Power, Paranoia, and Internal Rivalries"
+        },
+        {
+          "startTime": 601.46475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating Power, Paranoia, and Internal Rivalries and Chapter 3 The Human Cost of Espionage and the Erosion of Identity"
+        },
+        {
+          "startTime": 800.64875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost of Espionage and the Erosion of Identity and Chapter 4 Political Intrigue and the Machinery of Regime Survival"
+        },
+        {
+          "startTime": 1005.001458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Political Intrigue and the Machinery of Regime Survival and Chapter 5 Disillusionment and the Search for Meaning"
+        },
+        {
+          "startTime": 1203.4184579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Disillusionment and the Search for Meaning and Chapter 6 The Breaking Point: When Loyalty Collides with Conscience"
+        },
+        {
+          "startTime": 1409.429666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Breaking Point: When Loyalty Collides with Conscience and Chapter 7 Leaving the Shadows: The Cost and Consequence of Escape"
+        },
+        {
+          "startTime": 1632.041499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Leaving the Shadows: The Cost and Consequence of Escape and Chapter 8 The Legacy of Fear: How the System Endures"
+        },
+        {
+          "startTime": 1814.282166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Legacy of Fear: How the System Endures and Chapter 9 Searching for Redemption: Truth, Memory, and the Hope for Change"
+        },
+        {
+          "startTime": 1995.916416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Searching for Redemption: Truth, Memory, and the Hope for Change and Chapter 10 Lessons from the Shadows: What Remains"
+        },
+        {
+          "startTime": 2130.230624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons from the Shadows: What Remains and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1222",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T21:54:04.280Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

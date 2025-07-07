@@ -1,0 +1,456 @@
+{
+  "bookId": "1271",
+  "timestamp": "2025-07-07T01:59:59.109Z",
+  "success": false,
+  "processingTime": -1751853044804,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4678,
+    "totalAudioFiles": 12,
+    "totalDuration": 2448.8792919999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2448.8792919999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1271/optimized_text/1271.md",
+    "fileSize": 673,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "1271.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1271/metadata/1271_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2448.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1271/metadata/1271_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1271/metadata/1271_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1271/1271_complete.wav",
+    "duration": 2448.879292,
+    "fileSize": 117546284,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1271/introduction.wav",
+          "duration": 87.779333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.779333,
+          "startTime": 0,
+          "endTime": 87.779333
+        },
+        {
+          "path": "Audio/output/1271/chapter_01.wav",
+          "duration": 230.868792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Challenge of Predicting the Future",
+          "actualDuration": 230.868792,
+          "startTime": 89.279333,
+          "endTime": 320.148125
+        },
+        {
+          "path": "Audio/output/1271/chapter_02.wav",
+          "duration": 270.487083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Traits and Habits of Exceptional Forecasters",
+          "actualDuration": 270.487083,
+          "startTime": 321.648125,
+          "endTime": 592.1352079999999
+        },
+        {
+          "path": "Audio/output/1271/chapter_03.wav",
+          "duration": 281.945417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking Down Problems and Thinking in Probabilities",
+          "actualDuration": 281.945417,
+          "startTime": 593.6352079999999,
+          "endTime": 875.5806249999999
+        },
+        {
+          "path": "Audio/output/1271/chapter_04.wav",
+          "duration": 236.983167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Updating and Learning from Feedback",
+          "actualDuration": 236.983167,
+          "startTime": 877.0806249999999,
+          "endTime": 1114.063792
+        },
+        {
+          "path": "Audio/output/1271/chapter_05.wav",
+          "duration": 241.140792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Value of Teamwork and Aggregation in Forecasting",
+          "actualDuration": 241.140792,
+          "startTime": 1115.563792,
+          "endTime": 1356.7045839999998
+        },
+        {
+          "path": "Audio/output/1271/chapter_06.wav",
+          "duration": 202.008708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating a Superforecaster’s Mindset",
+          "actualDuration": 202.008708,
+          "startTime": 1358.2045839999998,
+          "endTime": 1560.213292
+        },
+        {
+          "path": "Audio/output/1271/chapter_07.wav",
+          "duration": 211.755125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Tools and Techniques for Everyday Forecasting",
+          "actualDuration": 211.755125,
+          "startTime": 1561.713292,
+          "endTime": 1773.4684169999998
+        },
+        {
+          "path": "Audio/output/1271/chapter_08.wav",
+          "duration": 219.670125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Cognitive Biases and Emotional Traps",
+          "actualDuration": 219.670125,
+          "startTime": 1774.9684169999998,
+          "endTime": 1994.638542
+        },
+        {
+          "path": "Audio/output/1271/chapter_09.wav",
+          "duration": 138.115125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Limits of Prediction and the Value of Humility",
+          "actualDuration": 138.115125,
+          "startTime": 1996.138542,
+          "endTime": 2134.253667
+        },
+        {
+          "path": "Audio/output/1271/chapter_10.wav",
+          "duration": 181.550958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Becoming a Better Forecaster: A Lifelong Practice",
+          "actualDuration": 181.550958,
+          "startTime": 2135.753667,
+          "endTime": 2317.3046249999998
+        },
+        {
+          "path": "Audio/output/1271/conclusion.wav",
+          "duration": 146.574667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 146.574667,
+          "startTime": 2318.8046249999998,
+          "endTime": 2465.3792919999996
+        }
+      ],
+      "totalDuration": 2465.3792919999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.78,
+          "actualStart": 0,
+          "actualEnd": 87.779333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Challenge of Predicting the Future",
+          "expectedStart": 87.78,
+          "expectedEnd": 318.65,
+          "actualStart": 89.279333,
+          "actualEnd": 320.148125,
+          "timeDifference": 1.499332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Traits and Habits of Exceptional Forecasters",
+          "expectedStart": 318.65,
+          "expectedEnd": 589.14,
+          "actualStart": 321.648125,
+          "actualEnd": 592.1352079999999,
+          "timeDifference": 2.998125000000016
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking Down Problems and Thinking in Probabilities",
+          "expectedStart": 589.14,
+          "expectedEnd": 871.09,
+          "actualStart": 593.6352079999999,
+          "actualEnd": 875.5806249999999,
+          "timeDifference": 4.495207999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Updating and Learning from Feedback",
+          "expectedStart": 871.09,
+          "expectedEnd": 1108.07,
+          "actualStart": 877.0806249999999,
+          "actualEnd": 1114.063792,
+          "timeDifference": 5.990624999999909
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Value of Teamwork and Aggregation in Forecasting",
+          "expectedStart": 1108.07,
+          "expectedEnd": 1349.21,
+          "actualStart": 1115.563792,
+          "actualEnd": 1356.7045839999998,
+          "timeDifference": 7.493791999999985
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating a Superforecaster’s Mindset",
+          "expectedStart": 1349.21,
+          "expectedEnd": 1551.22,
+          "actualStart": 1358.2045839999998,
+          "actualEnd": 1560.213292,
+          "timeDifference": 8.994583999999804
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Tools and Techniques for Everyday Forecasting",
+          "expectedStart": 1551.22,
+          "expectedEnd": 1762.98,
+          "actualStart": 1561.713292,
+          "actualEnd": 1773.4684169999998,
+          "timeDifference": 10.493291999999883
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Cognitive Biases and Emotional Traps",
+          "expectedStart": 1762.98,
+          "expectedEnd": 1982.65,
+          "actualStart": 1774.9684169999998,
+          "actualEnd": 1994.638542,
+          "timeDifference": 11.9884169999998
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Limits of Prediction and the Value of Humility",
+          "expectedStart": 1982.65,
+          "expectedEnd": 2120.77,
+          "actualStart": 1996.138542,
+          "actualEnd": 2134.253667,
+          "timeDifference": 13.488541999999825
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Becoming a Better Forecaster: A Lifelong Practice",
+          "expectedStart": 2120.77,
+          "expectedEnd": 2302.32,
+          "actualStart": 2135.753667,
+          "actualEnd": 2317.3046249999998,
+          "timeDifference": 14.983666999999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2302.32,
+          "expectedEnd": 2448.89,
+          "actualStart": 2318.8046249999998,
+          "actualEnd": 2465.3792919999996,
+          "timeDifference": 16.484624999999596
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.779333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Challenge of Predicting the Future"
+        },
+        {
+          "startTime": 320.148125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Challenge of Predicting the Future and Chapter 2 The Traits and Habits of Exceptional Forecasters"
+        },
+        {
+          "startTime": 592.1352079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Traits and Habits of Exceptional Forecasters and Chapter 3 Breaking Down Problems and Thinking in Probabilities"
+        },
+        {
+          "startTime": 875.5806249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking Down Problems and Thinking in Probabilities and Chapter 4 The Power of Updating and Learning from Feedback"
+        },
+        {
+          "startTime": 1114.063792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Updating and Learning from Feedback and Chapter 5 The Value of Teamwork and Aggregation in Forecasting"
+        },
+        {
+          "startTime": 1356.7045839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Value of Teamwork and Aggregation in Forecasting and Chapter 6 Cultivating a Superforecaster’s Mindset"
+        },
+        {
+          "startTime": 1560.213292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating a Superforecaster’s Mindset and Chapter 7 Tools and Techniques for Everyday Forecasting"
+        },
+        {
+          "startTime": 1773.4684169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Tools and Techniques for Everyday Forecasting and Chapter 8 Navigating Cognitive Biases and Emotional Traps"
+        },
+        {
+          "startTime": 1994.638542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Cognitive Biases and Emotional Traps and Chapter 9 The Limits of Prediction and the Value of Humility"
+        },
+        {
+          "startTime": 2134.253667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Limits of Prediction and the Value of Humility and Chapter 10 Becoming a Better Forecaster: A Lifelong Practice"
+        },
+        {
+          "startTime": 2317.3046249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Becoming a Better Forecaster: A Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1271",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T01:50:45.998Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

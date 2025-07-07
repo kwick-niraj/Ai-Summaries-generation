@@ -1,0 +1,455 @@
+{
+  "bookId": "1403",
+  "timestamp": "2025-07-07T13:25:31.478Z",
+  "success": false,
+  "processingTime": -1751894416453,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5748,
+    "totalAudioFiles": 12,
+    "totalDuration": 2255.516543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2255.516543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1403/optimized_text/1403.md",
+    "fileSize": 523,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "1403.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1403/metadata/1403_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2255.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1403/metadata/1403_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1403/metadata/1403_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1403/1403_complete.wav",
+    "duration": 2255.516542,
+    "fileSize": 108264872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1403/introduction.wav",
+          "duration": 113.804542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.804542,
+          "startTime": 0,
+          "endTime": 113.804542
+        },
+        {
+          "path": "Audio/output/1403/chapter_01.wav",
+          "duration": 300.8525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary People Drawn to an Extraordinary Purpose",
+          "actualDuration": 300.8525,
+          "startTime": 115.304542,
+          "endTime": 416.15704200000005
+        },
+        {
+          "path": "Audio/output/1403/chapter_02.wav",
+          "duration": 253.552,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust in a World of Uncertainty",
+          "actualDuration": 253.552,
+          "startTime": 417.65704200000005,
+          "endTime": 671.2090420000001
+        },
+        {
+          "path": "Audio/output/1403/chapter_03.wav",
+          "duration": 263.707417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The First Steps Toward Contact",
+          "actualDuration": 263.707417,
+          "startTime": 672.7090420000001,
+          "endTime": 936.416459
+        },
+        {
+          "path": "Audio/output/1403/chapter_04.wav",
+          "duration": 262.316542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cost of Commitment",
+          "actualDuration": 262.316542,
+          "startTime": 937.916459,
+          "endTime": 1200.233001
+        },
+        {
+          "path": "Audio/output/1403/chapter_05.wav",
+          "duration": 206.80475,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Forgiveness and the Seeds of New Life",
+          "actualDuration": 206.80475,
+          "startTime": 1201.733001,
+          "endTime": 1408.537751
+        },
+        {
+          "path": "Audio/output/1403/chapter_06.wav",
+          "duration": 185.739542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples Through the Rainforest",
+          "actualDuration": 185.739542,
+          "startTime": 1410.037751,
+          "endTime": 1595.777293
+        },
+        {
+          "path": "Audio/output/1403/chapter_07.wav",
+          "duration": 185.358167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 A New Chapter for the Waorani",
+          "actualDuration": 185.358167,
+          "startTime": 1597.277293,
+          "endTime": 1782.6354600000002
+        },
+        {
+          "path": "Audio/output/1403/chapter_08.wav",
+          "duration": 159.521583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Story Spreads Beyond the Jungle",
+          "actualDuration": 159.521583,
+          "startTime": 1784.1354600000002,
+          "endTime": 1943.6570430000002
+        },
+        {
+          "path": "Audio/output/1403/chapter_09.wav",
+          "duration": 153.313625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living With the Legacy",
+          "actualDuration": 153.313625,
+          "startTime": 1945.1570430000002,
+          "endTime": 2098.470668
+        },
+        {
+          "path": "Audio/output/1403/chapter_10.wav",
+          "duration": 67.619375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Hope",
+          "actualDuration": 67.619375,
+          "startTime": 2099.970668,
+          "endTime": 2167.590043
+        },
+        {
+          "path": "Audio/output/1403/conclusion.wav",
+          "duration": 102.9265,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.9265,
+          "startTime": 2169.090043,
+          "endTime": 2272.016543
+        }
+      ],
+      "totalDuration": 2272.016543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.8,
+          "actualStart": 0,
+          "actualEnd": 113.804542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ordinary People Drawn to an Extraordinary Purpose",
+          "expectedStart": 113.8,
+          "expectedEnd": 414.65,
+          "actualStart": 115.304542,
+          "actualEnd": 416.15704200000005,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust in a World of Uncertainty",
+          "expectedStart": 414.65,
+          "expectedEnd": 668.2,
+          "actualStart": 417.65704200000005,
+          "actualEnd": 671.2090420000001,
+          "timeDifference": 3.0070420000000695
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The First Steps Toward Contact",
+          "expectedStart": 668.2,
+          "expectedEnd": 931.91,
+          "actualStart": 672.7090420000001,
+          "actualEnd": 936.416459,
+          "timeDifference": 4.509042000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cost of Commitment",
+          "expectedStart": 931.91,
+          "expectedEnd": 1194.23,
+          "actualStart": 937.916459,
+          "actualEnd": 1200.233001,
+          "timeDifference": 6.0064590000000635
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Forgiveness and the Seeds of New Life",
+          "expectedStart": 1194.23,
+          "expectedEnd": 1401.03,
+          "actualStart": 1201.733001,
+          "actualEnd": 1408.537751,
+          "timeDifference": 7.50300100000004
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples Through the Rainforest",
+          "expectedStart": 1401.03,
+          "expectedEnd": 1586.77,
+          "actualStart": 1410.037751,
+          "actualEnd": 1595.777293,
+          "timeDifference": 9.007751000000098
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 A New Chapter for the Waorani",
+          "expectedStart": 1586.77,
+          "expectedEnd": 1772.13,
+          "actualStart": 1597.277293,
+          "actualEnd": 1782.6354600000002,
+          "timeDifference": 10.507293000000118
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Story Spreads Beyond the Jungle",
+          "expectedStart": 1772.13,
+          "expectedEnd": 1931.65,
+          "actualStart": 1784.1354600000002,
+          "actualEnd": 1943.6570430000002,
+          "timeDifference": 12.005460000000085
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living With the Legacy",
+          "expectedStart": 1931.65,
+          "expectedEnd": 2084.96,
+          "actualStart": 1945.1570430000002,
+          "actualEnd": 2098.470668,
+          "timeDifference": 13.507043000000067
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Hope",
+          "expectedStart": 2084.96,
+          "expectedEnd": 2152.58,
+          "actualStart": 2099.970668,
+          "actualEnd": 2167.590043,
+          "timeDifference": 15.010667999999896
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2152.58,
+          "expectedEnd": 2255.51,
+          "actualStart": 2169.090043,
+          "actualEnd": 2272.016543,
+          "timeDifference": 16.510043000000223
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.804542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ordinary People Drawn to an Extraordinary Purpose"
+        },
+        {
+          "startTime": 416.15704200000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary People Drawn to an Extraordinary Purpose and Chapter 2 Building Trust in a World of Uncertainty"
+        },
+        {
+          "startTime": 671.2090420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust in a World of Uncertainty and Chapter 3 The First Steps Toward Contact"
+        },
+        {
+          "startTime": 936.416459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The First Steps Toward Contact and Chapter 4 The Cost of Commitment"
+        },
+        {
+          "startTime": 1200.233001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cost of Commitment and Chapter 5 Forgiveness and the Seeds of New Life"
+        },
+        {
+          "startTime": 1408.537751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Forgiveness and the Seeds of New Life and Chapter 6 Ripples Through the Rainforest"
+        },
+        {
+          "startTime": 1595.777293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples Through the Rainforest and Chapter 7 A New Chapter for the Waorani"
+        },
+        {
+          "startTime": 1782.6354600000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 A New Chapter for the Waorani and Chapter 8 The Story Spreads Beyond the Jungle"
+        },
+        {
+          "startTime": 1943.6570430000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Story Spreads Beyond the Jungle and Chapter 9 Living With the Legacy"
+        },
+        {
+          "startTime": 2098.470668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living With the Legacy and Chapter 10 The Enduring Power of Hope"
+        },
+        {
+          "startTime": 2167.590043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1403",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T13:20:16.462Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

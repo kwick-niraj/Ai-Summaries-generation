@@ -1,0 +1,456 @@
+{
+  "bookId": "1171",
+  "timestamp": "2025-07-06T18:44:20.473Z",
+  "success": false,
+  "processingTime": -1751826936897,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5740,
+    "totalAudioFiles": 12,
+    "totalDuration": 2811.3962919999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2811.3962919999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1171/optimized_text/1171.md",
+    "fileSize": 819,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1171.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1171/metadata/1171_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2811.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1171/metadata/1171_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1171/metadata/1171_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1171/1171_complete.wav",
+    "duration": 2811.396292,
+    "fileSize": 134947100,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1171/introduction.wav",
+          "duration": 85.129792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.129792,
+          "startTime": 0,
+          "endTime": 85.129792
+        },
+        {
+          "path": "Audio/output/1171/chapter_01.wav",
+          "duration": 271.638958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation—Principles and Proactive Family Life",
+          "actualDuration": 271.638958,
+          "startTime": 86.629792,
+          "endTime": 358.26875
+        },
+        {
+          "path": "Audio/output/1171/chapter_02.wav",
+          "duration": 257.12625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Defining Purpose—Creating a Shared Family Vision",
+          "actualDuration": 257.12625,
+          "startTime": 359.76875,
+          "endTime": 616.895
+        },
+        {
+          "path": "Audio/output/1171/chapter_03.wav",
+          "duration": 282.207,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Prioritizing What Matters—Focusing on Family Connections",
+          "actualDuration": 282.207,
+          "startTime": 618.395,
+          "endTime": 900.602
+        },
+        {
+          "path": "Audio/output/1171/chapter_04.wav",
+          "duration": 287.081125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Trust—Creating a Culture of Mutual Respect and Cooperation",
+          "actualDuration": 287.081125,
+          "startTime": 902.102,
+          "endTime": 1189.183125
+        },
+        {
+          "path": "Audio/output/1171/chapter_05.wav",
+          "duration": 299.454292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Communicating with Empathy—Listening and Understanding Each Other",
+          "actualDuration": 299.454292,
+          "startTime": 1190.683125,
+          "endTime": 1490.137417
+        },
+        {
+          "path": "Audio/output/1171/chapter_06.wav",
+          "duration": 226.917958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Valuing Differences—Harnessing Individual Strengths for Family Growth",
+          "actualDuration": 226.917958,
+          "startTime": 1491.637417,
+          "endTime": 1718.555375
+        },
+        {
+          "path": "Audio/output/1171/chapter_07.wav",
+          "duration": 276.238125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Creative Problem-Solving—Turning Challenges into Opportunities",
+          "actualDuration": 276.238125,
+          "startTime": 1720.055375,
+          "endTime": 1996.2935
+        },
+        {
+          "path": "Audio/output/1171/chapter_08.wav",
+          "duration": 267.495417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Renewing the Family—Caring for Body, Mind, Heart, and Spirit",
+          "actualDuration": 267.495417,
+          "startTime": 1997.7935,
+          "endTime": 2265.288917
+        },
+        {
+          "path": "Audio/output/1171/chapter_09.wav",
+          "duration": 188.010625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Setbacks—Healing, Forgiveness, and Moving Forward",
+          "actualDuration": 188.010625,
+          "startTime": 2266.788917,
+          "endTime": 2454.7995419999997
+        },
+        {
+          "path": "Audio/output/1171/chapter_10.wav",
+          "duration": 226.361333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth—Continuous Improvement and Legacy",
+          "actualDuration": 226.361333,
+          "startTime": 2456.2995419999997,
+          "endTime": 2682.6608749999996
+        },
+        {
+          "path": "Audio/output/1171/conclusion.wav",
+          "duration": 143.735417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 143.735417,
+          "startTime": 2684.1608749999996,
+          "endTime": 2827.8962919999994
+        }
+      ],
+      "totalDuration": 2827.8962919999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.13,
+          "actualStart": 0,
+          "actualEnd": 85.129792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation—Principles and Proactive Family Life",
+          "expectedStart": 85.13,
+          "expectedEnd": 356.77,
+          "actualStart": 86.629792,
+          "actualEnd": 358.26875,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Defining Purpose—Creating a Shared Family Vision",
+          "expectedStart": 356.77,
+          "expectedEnd": 613.9,
+          "actualStart": 359.76875,
+          "actualEnd": 616.895,
+          "timeDifference": 2.9987500000000296
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Prioritizing What Matters—Focusing on Family Connections",
+          "expectedStart": 613.9,
+          "expectedEnd": 896.11,
+          "actualStart": 618.395,
+          "actualEnd": 900.602,
+          "timeDifference": 4.4950000000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Trust—Creating a Culture of Mutual Respect and Cooperation",
+          "expectedStart": 896.11,
+          "expectedEnd": 1183.19,
+          "actualStart": 902.102,
+          "actualEnd": 1189.183125,
+          "timeDifference": 5.991999999999962
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Communicating with Empathy—Listening and Understanding Each Other",
+          "expectedStart": 1183.19,
+          "expectedEnd": 1482.64,
+          "actualStart": 1190.683125,
+          "actualEnd": 1490.137417,
+          "timeDifference": 7.493124999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Valuing Differences—Harnessing Individual Strengths for Family Growth",
+          "expectedStart": 1482.64,
+          "expectedEnd": 1709.56,
+          "actualStart": 1491.637417,
+          "actualEnd": 1718.555375,
+          "timeDifference": 8.997416999999814
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Creative Problem-Solving—Turning Challenges into Opportunities",
+          "expectedStart": 1709.56,
+          "expectedEnd": 1985.8,
+          "actualStart": 1720.055375,
+          "actualEnd": 1996.2935,
+          "timeDifference": 10.495374999999967
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Renewing the Family—Caring for Body, Mind, Heart, and Spirit",
+          "expectedStart": 1985.8,
+          "expectedEnd": 2253.3,
+          "actualStart": 1997.7935,
+          "actualEnd": 2265.288917,
+          "timeDifference": 11.99350000000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Setbacks—Healing, Forgiveness, and Moving Forward",
+          "expectedStart": 2253.3,
+          "expectedEnd": 2441.31,
+          "actualStart": 2266.788917,
+          "actualEnd": 2454.7995419999997,
+          "timeDifference": 13.488916999999674
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth—Continuous Improvement and Legacy",
+          "expectedStart": 2441.31,
+          "expectedEnd": 2667.67,
+          "actualStart": 2456.2995419999997,
+          "actualEnd": 2682.6608749999996,
+          "timeDifference": 14.989541999999801
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2667.67,
+          "expectedEnd": 2811.41,
+          "actualStart": 2684.1608749999996,
+          "actualEnd": 2827.8962919999994,
+          "timeDifference": 16.490874999999505
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.129792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation—Principles and Proactive Family Life"
+        },
+        {
+          "startTime": 358.26875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation—Principles and Proactive Family Life and Chapter 2 Defining Purpose—Creating a Shared Family Vision"
+        },
+        {
+          "startTime": 616.895,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Defining Purpose—Creating a Shared Family Vision and Chapter 3 Prioritizing What Matters—Focusing on Family Connections"
+        },
+        {
+          "startTime": 900.602,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Prioritizing What Matters—Focusing on Family Connections and Chapter 4 Building Trust—Creating a Culture of Mutual Respect and Cooperation"
+        },
+        {
+          "startTime": 1189.183125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Trust—Creating a Culture of Mutual Respect and Cooperation and Chapter 5 Communicating with Empathy—Listening and Understanding Each Other"
+        },
+        {
+          "startTime": 1490.137417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Communicating with Empathy—Listening and Understanding Each Other and Chapter 6 Valuing Differences—Harnessing Individual Strengths for Family Growth"
+        },
+        {
+          "startTime": 1718.555375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Valuing Differences—Harnessing Individual Strengths for Family Growth and Chapter 7 Creative Problem-Solving—Turning Challenges into Opportunities"
+        },
+        {
+          "startTime": 1996.2935,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Creative Problem-Solving—Turning Challenges into Opportunities and Chapter 8 Renewing the Family—Caring for Body, Mind, Heart, and Spirit"
+        },
+        {
+          "startTime": 2265.288917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Renewing the Family—Caring for Body, Mind, Heart, and Spirit and Chapter 9 Overcoming Setbacks—Healing, Forgiveness, and Moving Forward"
+        },
+        {
+          "startTime": 2454.7995419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Setbacks—Healing, Forgiveness, and Moving Forward and Chapter 10 Sustaining Growth—Continuous Improvement and Legacy"
+        },
+        {
+          "startTime": 2682.6608749999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth—Continuous Improvement and Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1171",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T18:35:38.179Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

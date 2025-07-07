@@ -1,0 +1,456 @@
+{
+  "bookId": "1314",
+  "timestamp": "2025-07-07T05:45:34.610Z",
+  "success": false,
+  "processingTime": -1751866590709,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4375,
+    "totalAudioFiles": 12,
+    "totalDuration": 2024.617543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2024.617543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1314/optimized_text/1314.md",
+    "fileSize": 768,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "1314.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1314/metadata/1314_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2024.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1314/metadata/1314_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1314/metadata/1314_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1314/1314_complete.wav",
+    "duration": 2024.617542,
+    "fileSize": 97181720,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1314/introduction.wav",
+          "duration": 90.845167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.845167,
+          "startTime": 0,
+          "endTime": 90.845167
+        },
+        {
+          "path": "Audio/output/1314/chapter_01.wav",
+          "duration": 239.403417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a Family Shaped by Laughter and Loss",
+          "actualDuration": 239.403417,
+          "startTime": 92.345167,
+          "endTime": 331.748584
+        },
+        {
+          "path": "Audio/output/1314/chapter_02.wav",
+          "duration": 230.12025,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering the Power of Performance and Friendship",
+          "actualDuration": 230.12025,
+          "startTime": 333.248584,
+          "endTime": 563.368834
+        },
+        {
+          "path": "Audio/output/1314/chapter_03.wav",
+          "duration": 213.185833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking into the Spotlight and Navigating New Worlds",
+          "actualDuration": 213.185833,
+          "startTime": 564.868834,
+          "endTime": 778.054667
+        },
+        {
+          "path": "Audio/output/1314/chapter_04.wav",
+          "duration": 208.363917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Love, Family, and the Realities of Life Beyond the Stage",
+          "actualDuration": 208.363917,
+          "startTime": 779.554667,
+          "endTime": 987.918584
+        },
+        {
+          "path": "Audio/output/1314/chapter_05.wav",
+          "duration": 197.211458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reinvention, Collaboration, and the Enduring Power of Humor",
+          "actualDuration": 197.211458,
+          "startTime": 989.418584,
+          "endTime": 1186.630042
+        },
+        {
+          "path": "Audio/output/1314/chapter_06.wav",
+          "duration": 175.6575,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing the Shadows—Struggles, Setbacks, and the Search for Meaning",
+          "actualDuration": 175.6575,
+          "startTime": 1188.130042,
+          "endTime": 1363.787542
+        },
+        {
+          "path": "Audio/output/1314/chapter_07.wav",
+          "duration": 162.691167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Gift of Giving Back—Mentorship, Advocacy, and Community",
+          "actualDuration": 162.691167,
+          "startTime": 1365.287542,
+          "endTime": 1527.978709
+        },
+        {
+          "path": "Audio/output/1314/chapter_08.wav",
+          "duration": 120.738167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy, Loss, and the Stories We Leave Behind",
+          "actualDuration": 120.738167,
+          "startTime": 1529.478709,
+          "endTime": 1650.216876
+        },
+        {
+          "path": "Audio/output/1314/chapter_09.wav",
+          "duration": 129.401542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Evolving Art of Comedy—Staying Relevant in a Changing World",
+          "actualDuration": 129.401542,
+          "startTime": 1651.716876,
+          "endTime": 1781.118418
+        },
+        {
+          "path": "Audio/output/1314/chapter_10.wav",
+          "duration": 122.862292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections on Resilience, Joy, and the Meaning of It All",
+          "actualDuration": 122.862292,
+          "startTime": 1782.618418,
+          "endTime": 1905.48071
+        },
+        {
+          "path": "Audio/output/1314/conclusion.wav",
+          "duration": 134.136833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.136833,
+          "startTime": 1906.98071,
+          "endTime": 2041.117543
+        }
+      ],
+      "totalDuration": 2041.117543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.85,
+          "actualStart": 0,
+          "actualEnd": 90.845167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a Family Shaped by Laughter and Loss",
+          "expectedStart": 90.85,
+          "expectedEnd": 330.25,
+          "actualStart": 92.345167,
+          "actualEnd": 331.748584,
+          "timeDifference": 1.4951670000000092
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering the Power of Performance and Friendship",
+          "expectedStart": 330.25,
+          "expectedEnd": 560.37,
+          "actualStart": 333.248584,
+          "actualEnd": 563.368834,
+          "timeDifference": 2.998583999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking into the Spotlight and Navigating New Worlds",
+          "expectedStart": 560.37,
+          "expectedEnd": 773.56,
+          "actualStart": 564.868834,
+          "actualEnd": 778.054667,
+          "timeDifference": 4.498833999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Love, Family, and the Realities of Life Beyond the Stage",
+          "expectedStart": 773.56,
+          "expectedEnd": 981.92,
+          "actualStart": 779.554667,
+          "actualEnd": 987.918584,
+          "timeDifference": 5.9946670000000495
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reinvention, Collaboration, and the Enduring Power of Humor",
+          "expectedStart": 981.92,
+          "expectedEnd": 1179.13,
+          "actualStart": 989.418584,
+          "actualEnd": 1186.630042,
+          "timeDifference": 7.498584000000051
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing the Shadows—Struggles, Setbacks, and the Search for Meaning",
+          "expectedStart": 1179.13,
+          "expectedEnd": 1354.79,
+          "actualStart": 1188.130042,
+          "actualEnd": 1363.787542,
+          "timeDifference": 9.000041999999894
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Gift of Giving Back—Mentorship, Advocacy, and Community",
+          "expectedStart": 1354.79,
+          "expectedEnd": 1517.48,
+          "actualStart": 1365.287542,
+          "actualEnd": 1527.978709,
+          "timeDifference": 10.497542000000067
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy, Loss, and the Stories We Leave Behind",
+          "expectedStart": 1517.48,
+          "expectedEnd": 1638.22,
+          "actualStart": 1529.478709,
+          "actualEnd": 1650.216876,
+          "timeDifference": 11.998708999999963
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Evolving Art of Comedy—Staying Relevant in a Changing World",
+          "expectedStart": 1638.22,
+          "expectedEnd": 1767.62,
+          "actualStart": 1651.716876,
+          "actualEnd": 1781.118418,
+          "timeDifference": 13.49687599999993
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections on Resilience, Joy, and the Meaning of It All",
+          "expectedStart": 1767.62,
+          "expectedEnd": 1890.48,
+          "actualStart": 1782.618418,
+          "actualEnd": 1905.48071,
+          "timeDifference": 14.998418000000129
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1890.48,
+          "expectedEnd": 2024.62,
+          "actualStart": 1906.98071,
+          "actualEnd": 2041.117543,
+          "timeDifference": 16.500710000000026
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.845167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a Family Shaped by Laughter and Loss"
+        },
+        {
+          "startTime": 331.748584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a Family Shaped by Laughter and Loss and Chapter 2 Discovering the Power of Performance and Friendship"
+        },
+        {
+          "startTime": 563.368834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering the Power of Performance and Friendship and Chapter 3 Breaking into the Spotlight and Navigating New Worlds"
+        },
+        {
+          "startTime": 778.054667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking into the Spotlight and Navigating New Worlds and Chapter 4 Love, Family, and the Realities of Life Beyond the Stage"
+        },
+        {
+          "startTime": 987.918584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Love, Family, and the Realities of Life Beyond the Stage and Chapter 5 Reinvention, Collaboration, and the Enduring Power of Humor"
+        },
+        {
+          "startTime": 1186.630042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reinvention, Collaboration, and the Enduring Power of Humor and Chapter 6 Facing the Shadows—Struggles, Setbacks, and the Search for Meaning"
+        },
+        {
+          "startTime": 1363.787542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing the Shadows—Struggles, Setbacks, and the Search for Meaning and Chapter 7 The Gift of Giving Back—Mentorship, Advocacy, and Community"
+        },
+        {
+          "startTime": 1527.978709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Gift of Giving Back—Mentorship, Advocacy, and Community and Chapter 8 Legacy, Loss, and the Stories We Leave Behind"
+        },
+        {
+          "startTime": 1650.216876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy, Loss, and the Stories We Leave Behind and Chapter 9 The Evolving Art of Comedy—Staying Relevant in a Changing World"
+        },
+        {
+          "startTime": 1781.118418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Evolving Art of Comedy—Staying Relevant in a Changing World and Chapter 10 Reflections on Resilience, Joy, and the Meaning of It All"
+        },
+        {
+          "startTime": 1905.48071,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections on Resilience, Joy, and the Meaning of It All and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1314",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T05:36:32.204Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

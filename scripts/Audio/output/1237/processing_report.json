@@ -1,0 +1,456 @@
+{
+  "bookId": "1237",
+  "timestamp": "2025-07-06T23:23:47.196Z",
+  "success": false,
+  "processingTime": -1751843729031,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3604,
+    "totalAudioFiles": 12,
+    "totalDuration": 1859.4944580000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1859.4944580000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1237/optimized_text/1237.md",
+    "fileSize": 790,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "1237.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1237/metadata/1237_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1859.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1237/metadata/1237_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1237/metadata/1237_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1237/1237_complete.wav",
+    "duration": 1859.494458,
+    "fileSize": 89255812,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1237/introduction.wav",
+          "duration": 83.2355,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.2355,
+          "startTime": 0,
+          "endTime": 83.2355
+        },
+        {
+          "path": "Audio/output/1237/chapter_01.wav",
+          "duration": 148.922708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for a Fair Society: Rethinking Justice",
+          "actualDuration": 148.922708,
+          "startTime": 84.7355,
+          "endTime": 233.658208
+        },
+        {
+          "path": "Audio/output/1237/chapter_02.wav",
+          "duration": 157.541958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Original Position and the Veil of Ignorance: Designing Fair Principles",
+          "actualDuration": 157.541958,
+          "startTime": 235.158208,
+          "endTime": 392.70016599999997
+        },
+        {
+          "path": "Audio/output/1237/chapter_03.wav",
+          "duration": 204.825542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Two Principles of Justice: Foundations for a Just Society",
+          "actualDuration": 204.825542,
+          "startTime": 394.20016599999997,
+          "endTime": 599.025708
+        },
+        {
+          "path": "Audio/output/1237/chapter_04.wav",
+          "duration": 167.70275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Critique of Utilitarianism and the Priority of Rights",
+          "actualDuration": 167.70275,
+          "startTime": 600.525708,
+          "endTime": 768.228458
+        },
+        {
+          "path": "Audio/output/1237/chapter_05.wav",
+          "duration": 147.7195,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reflective Equilibrium: Balancing Intuition and Theory",
+          "actualDuration": 147.7195,
+          "startTime": 769.728458,
+          "endTime": 917.4479580000001
+        },
+        {
+          "path": "Audio/output/1237/chapter_06.wav",
+          "duration": 188.508542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Structure of Institutions: Embedding Justice in Social Systems",
+          "actualDuration": 188.508542,
+          "startTime": 918.9479580000001,
+          "endTime": 1107.4565
+        },
+        {
+          "path": "Audio/output/1237/chapter_07.wav",
+          "duration": 173.228667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Democratic Participation: The Role of Equal Voice",
+          "actualDuration": 173.228667,
+          "startTime": 1108.9565,
+          "endTime": 1282.185167
+        },
+        {
+          "path": "Audio/output/1237/chapter_08.wav",
+          "duration": 169.906833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Distributive Justice: Applying the Difference Principle",
+          "actualDuration": 169.906833,
+          "startTime": 1283.685167,
+          "endTime": 1453.592
+        },
+        {
+          "path": "Audio/output/1237/chapter_09.wav",
+          "duration": 158.948917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Stability and the Sense of Justice: Why People Support Fair Systems",
+          "actualDuration": 158.948917,
+          "startTime": 1455.092,
+          "endTime": 1614.040917
+        },
+        {
+          "path": "Audio/output/1237/chapter_10.wav",
+          "duration": 139.052333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Justice as Fairness in Practice: Challenges and Adaptations",
+          "actualDuration": 139.052333,
+          "startTime": 1615.540917,
+          "endTime": 1754.5932500000001
+        },
+        {
+          "path": "Audio/output/1237/conclusion.wav",
+          "duration": 119.901208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.901208,
+          "startTime": 1756.0932500000001,
+          "endTime": 1875.9944580000001
+        }
+      ],
+      "totalDuration": 1875.9944580000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.24,
+          "actualStart": 0,
+          "actualEnd": 83.2355,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for a Fair Society: Rethinking Justice",
+          "expectedStart": 83.24,
+          "expectedEnd": 232.16,
+          "actualStart": 84.7355,
+          "actualEnd": 233.658208,
+          "timeDifference": 1.495500000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Original Position and the Veil of Ignorance: Designing Fair Principles",
+          "expectedStart": 232.16,
+          "expectedEnd": 389.7,
+          "actualStart": 235.158208,
+          "actualEnd": 392.70016599999997,
+          "timeDifference": 2.9982080000000053
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Two Principles of Justice: Foundations for a Just Society",
+          "expectedStart": 389.7,
+          "expectedEnd": 594.53,
+          "actualStart": 394.20016599999997,
+          "actualEnd": 599.025708,
+          "timeDifference": 4.500165999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Critique of Utilitarianism and the Priority of Rights",
+          "expectedStart": 594.53,
+          "expectedEnd": 762.23,
+          "actualStart": 600.525708,
+          "actualEnd": 768.228458,
+          "timeDifference": 5.995708000000036
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reflective Equilibrium: Balancing Intuition and Theory",
+          "expectedStart": 762.23,
+          "expectedEnd": 909.95,
+          "actualStart": 769.728458,
+          "actualEnd": 917.4479580000001,
+          "timeDifference": 7.498458000000028
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Structure of Institutions: Embedding Justice in Social Systems",
+          "expectedStart": 909.95,
+          "expectedEnd": 1098.46,
+          "actualStart": 918.9479580000001,
+          "actualEnd": 1107.4565,
+          "timeDifference": 8.99795800000004
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Democratic Participation: The Role of Equal Voice",
+          "expectedStart": 1098.46,
+          "expectedEnd": 1271.69,
+          "actualStart": 1108.9565,
+          "actualEnd": 1282.185167,
+          "timeDifference": 10.496499999999969
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Distributive Justice: Applying the Difference Principle",
+          "expectedStart": 1271.69,
+          "expectedEnd": 1441.6,
+          "actualStart": 1283.685167,
+          "actualEnd": 1453.592,
+          "timeDifference": 11.995167000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Stability and the Sense of Justice: Why People Support Fair Systems",
+          "expectedStart": 1441.6,
+          "expectedEnd": 1600.55,
+          "actualStart": 1455.092,
+          "actualEnd": 1614.040917,
+          "timeDifference": 13.49200000000019
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Justice as Fairness in Practice: Challenges and Adaptations",
+          "expectedStart": 1600.55,
+          "expectedEnd": 1739.6,
+          "actualStart": 1615.540917,
+          "actualEnd": 1754.5932500000001,
+          "timeDifference": 14.990917000000081
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1739.6,
+          "expectedEnd": 1859.5,
+          "actualStart": 1756.0932500000001,
+          "actualEnd": 1875.9944580000001,
+          "timeDifference": 16.493250000000216
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.2355,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for a Fair Society: Rethinking Justice"
+        },
+        {
+          "startTime": 233.658208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for a Fair Society: Rethinking Justice and Chapter 2 The Original Position and the Veil of Ignorance: Designing Fair Principles"
+        },
+        {
+          "startTime": 392.70016599999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Original Position and the Veil of Ignorance: Designing Fair Principles and Chapter 3 The Two Principles of Justice: Foundations for a Just Society"
+        },
+        {
+          "startTime": 599.025708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Two Principles of Justice: Foundations for a Just Society and Chapter 4 Critique of Utilitarianism and the Priority of Rights"
+        },
+        {
+          "startTime": 768.228458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Critique of Utilitarianism and the Priority of Rights and Chapter 5 Reflective Equilibrium: Balancing Intuition and Theory"
+        },
+        {
+          "startTime": 917.4479580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reflective Equilibrium: Balancing Intuition and Theory and Chapter 6 The Structure of Institutions: Embedding Justice in Social Systems"
+        },
+        {
+          "startTime": 1107.4565,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Structure of Institutions: Embedding Justice in Social Systems and Chapter 7 Democratic Participation: The Role of Equal Voice"
+        },
+        {
+          "startTime": 1282.185167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Democratic Participation: The Role of Equal Voice and Chapter 8 Distributive Justice: Applying the Difference Principle"
+        },
+        {
+          "startTime": 1453.592,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Distributive Justice: Applying the Difference Principle and Chapter 9 Stability and the Sense of Justice: Why People Support Fair Systems"
+        },
+        {
+          "startTime": 1614.040917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Stability and the Sense of Justice: Why People Support Fair Systems and Chapter 10 Justice as Fairness in Practice: Challenges and Adaptations"
+        },
+        {
+          "startTime": 1754.5932500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Justice as Fairness in Practice: Challenges and Adaptations and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1237",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T23:15:30.228Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

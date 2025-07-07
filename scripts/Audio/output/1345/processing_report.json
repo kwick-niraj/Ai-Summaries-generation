@@ -1,0 +1,456 @@
+{
+  "bookId": "1345",
+  "timestamp": "2025-07-07T08:40:37.224Z",
+  "success": false,
+  "processingTime": -1751876995883,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3796,
+    "totalAudioFiles": 12,
+    "totalDuration": 1817.0450419999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1817.0450419999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1345/optimized_text/1345.md",
+    "fileSize": 619,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1345.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1345/metadata/1345_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1817.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1345/metadata/1345_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1345/metadata/1345_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1345/1345_complete.wav",
+    "duration": 1817.045042,
+    "fileSize": 87218240,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1345/introduction.wav",
+          "duration": 84.668417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.668417,
+          "startTime": 0,
+          "endTime": 84.668417
+        },
+        {
+          "path": "Audio/output/1345/chapter_01.wav",
+          "duration": 195.473167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Forgotten Fleet and the Mystery of Lost Voyages",
+          "actualDuration": 195.473167,
+          "startTime": 86.168417,
+          "endTime": 281.64158399999997
+        },
+        {
+          "path": "Audio/output/1345/chapter_02.wav",
+          "duration": 208.909375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The World as Seen from China’s Shores",
+          "actualDuration": 208.909375,
+          "startTime": 283.14158399999997,
+          "endTime": 492.050959
+        },
+        {
+          "path": "Audio/output/1345/chapter_03.wav",
+          "duration": 187.742875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Tracing the Clues—Maps, Artifacts, and Unanswered Questions",
+          "actualDuration": 187.742875,
+          "startTime": 493.550959,
+          "endTime": 681.293834
+        },
+        {
+          "path": "Audio/output/1345/chapter_04.wav",
+          "duration": 173.127042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power and Limits of Evidence",
+          "actualDuration": 173.127042,
+          "startTime": 682.793834,
+          "endTime": 855.9208759999999
+        },
+        {
+          "path": "Audio/output/1345/chapter_05.wav",
+          "duration": 164.616708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking the Story of Discovery",
+          "actualDuration": 164.616708,
+          "startTime": 857.4208759999999,
+          "endTime": 1022.0375839999999
+        },
+        {
+          "path": "Audio/output/1345/chapter_06.wav",
+          "duration": 127.975375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Echoes of Forgotten Encounters",
+          "actualDuration": 127.975375,
+          "startTime": 1023.5375839999999,
+          "endTime": 1151.512959
+        },
+        {
+          "path": "Audio/output/1345/chapter_07.wav",
+          "duration": 147.155833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Turning Tide—Why the Voyages Stopped",
+          "actualDuration": 147.155833,
+          "startTime": 1153.012959,
+          "endTime": 1300.168792
+        },
+        {
+          "path": "Audio/output/1345/chapter_08.wav",
+          "duration": 149.511292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Debate Rekindled—Modern Voices, Old Questions",
+          "actualDuration": 149.511292,
+          "startTime": 1301.668792,
+          "endTime": 1451.1800839999999
+        },
+        {
+          "path": "Audio/output/1345/chapter_09.wav",
+          "duration": 155.006417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of the Ming Voyages",
+          "actualDuration": 155.006417,
+          "startTime": 1452.6800839999999,
+          "endTime": 1607.686501
+        },
+        {
+          "path": "Audio/output/1345/chapter_10.wav",
+          "duration": 106.619458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rediscovering the World—A New Way of Seeing",
+          "actualDuration": 106.619458,
+          "startTime": 1609.186501,
+          "endTime": 1715.8059589999998
+        },
+        {
+          "path": "Audio/output/1345/conclusion.wav",
+          "duration": 116.239083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.239083,
+          "startTime": 1717.3059589999998,
+          "endTime": 1833.5450419999997
+        }
+      ],
+      "totalDuration": 1833.5450419999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.67,
+          "actualStart": 0,
+          "actualEnd": 84.668417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Forgotten Fleet and the Mystery of Lost Voyages",
+          "expectedStart": 84.67,
+          "expectedEnd": 280.14,
+          "actualStart": 86.168417,
+          "actualEnd": 281.64158399999997,
+          "timeDifference": 1.4984170000000034
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The World as Seen from China’s Shores",
+          "expectedStart": 280.14,
+          "expectedEnd": 489.05,
+          "actualStart": 283.14158399999997,
+          "actualEnd": 492.050959,
+          "timeDifference": 3.00158399999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Tracing the Clues—Maps, Artifacts, and Unanswered Questions",
+          "expectedStart": 489.05,
+          "expectedEnd": 676.79,
+          "actualStart": 493.550959,
+          "actualEnd": 681.293834,
+          "timeDifference": 4.500958999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power and Limits of Evidence",
+          "expectedStart": 676.79,
+          "expectedEnd": 849.92,
+          "actualStart": 682.793834,
+          "actualEnd": 855.9208759999999,
+          "timeDifference": 6.0038339999999835
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking the Story of Discovery",
+          "expectedStart": 849.92,
+          "expectedEnd": 1014.54,
+          "actualStart": 857.4208759999999,
+          "actualEnd": 1022.0375839999999,
+          "timeDifference": 7.500875999999948
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Echoes of Forgotten Encounters",
+          "expectedStart": 1014.54,
+          "expectedEnd": 1142.52,
+          "actualStart": 1023.5375839999999,
+          "actualEnd": 1151.512959,
+          "timeDifference": 8.99758399999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Turning Tide—Why the Voyages Stopped",
+          "expectedStart": 1142.52,
+          "expectedEnd": 1289.68,
+          "actualStart": 1153.012959,
+          "actualEnd": 1300.168792,
+          "timeDifference": 10.492958999999928
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Debate Rekindled—Modern Voices, Old Questions",
+          "expectedStart": 1289.68,
+          "expectedEnd": 1439.19,
+          "actualStart": 1301.668792,
+          "actualEnd": 1451.1800839999999,
+          "timeDifference": 11.988791999999876
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of the Ming Voyages",
+          "expectedStart": 1439.19,
+          "expectedEnd": 1594.2,
+          "actualStart": 1452.6800839999999,
+          "actualEnd": 1607.686501,
+          "timeDifference": 13.490083999999797
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rediscovering the World—A New Way of Seeing",
+          "expectedStart": 1594.2,
+          "expectedEnd": 1700.82,
+          "actualStart": 1609.186501,
+          "actualEnd": 1715.8059589999998,
+          "timeDifference": 14.986500999999862
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1700.82,
+          "expectedEnd": 1817.06,
+          "actualStart": 1717.3059589999998,
+          "actualEnd": 1833.5450419999997,
+          "timeDifference": 16.485958999999866
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.668417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Forgotten Fleet and the Mystery of Lost Voyages"
+        },
+        {
+          "startTime": 281.64158399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Forgotten Fleet and the Mystery of Lost Voyages and Chapter 2 The World as Seen from China’s Shores"
+        },
+        {
+          "startTime": 492.050959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The World as Seen from China’s Shores and Chapter 3 Tracing the Clues—Maps, Artifacts, and Unanswered Questions"
+        },
+        {
+          "startTime": 681.293834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Tracing the Clues—Maps, Artifacts, and Unanswered Questions and Chapter 4 The Power and Limits of Evidence"
+        },
+        {
+          "startTime": 855.9208759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power and Limits of Evidence and Chapter 5 Rethinking the Story of Discovery"
+        },
+        {
+          "startTime": 1022.0375839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking the Story of Discovery and Chapter 6 The Echoes of Forgotten Encounters"
+        },
+        {
+          "startTime": 1151.512959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Echoes of Forgotten Encounters and Chapter 7 The Turning Tide—Why the Voyages Stopped"
+        },
+        {
+          "startTime": 1300.168792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Turning Tide—Why the Voyages Stopped and Chapter 8 The Debate Rekindled—Modern Voices, Old Questions"
+        },
+        {
+          "startTime": 1451.1800839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Debate Rekindled—Modern Voices, Old Questions and Chapter 9 The Legacy of the Ming Voyages"
+        },
+        {
+          "startTime": 1607.686501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of the Ming Voyages and Chapter 10 Rediscovering the World—A New Way of Seeing"
+        },
+        {
+          "startTime": 1715.8059589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rediscovering the World—A New Way of Seeing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1345",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T08:29:57.398Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

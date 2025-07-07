@@ -1,0 +1,456 @@
+{
+  "bookId": "1243",
+  "timestamp": "2025-07-07T00:08:13.590Z",
+  "success": false,
+  "processingTime": -1751846512187,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4877,
+    "totalAudioFiles": 12,
+    "totalDuration": 2545.792208
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2545.792208
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1243/optimized_text/1243.md",
+    "fileSize": 722,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1243.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1243/metadata/1243_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2545.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1243/metadata/1243_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1243/metadata/1243_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1243/1243_complete.wav",
+    "duration": 2545.792208,
+    "fileSize": 122198104,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1243/introduction.wav",
+          "duration": 90.284792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.284792,
+          "startTime": 0,
+          "endTime": 90.284792
+        },
+        {
+          "path": "Audio/output/1243/chapter_01.wav",
+          "duration": 275.165958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Brain’s Role in Emotions and Behavior",
+          "actualDuration": 275.165958,
+          "startTime": 91.784792,
+          "endTime": 366.95074999999997
+        },
+        {
+          "path": "Audio/output/1243/chapter_02.wav",
+          "duration": 283.487625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying Brain Patterns Behind Common Emotional Struggles",
+          "actualDuration": 283.487625,
+          "startTime": 368.45074999999997,
+          "endTime": 651.938375
+        },
+        {
+          "path": "Audio/output/1243/chapter_03.wav",
+          "duration": 324.641625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Practical Strategies for Balancing Brain Function",
+          "actualDuration": 324.641625,
+          "startTime": 653.438375,
+          "endTime": 978.0799999999999
+        },
+        {
+          "path": "Audio/output/1243/chapter_04.wav",
+          "duration": 268.911458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Recognizing and Replacing Destructive Thought Patterns",
+          "actualDuration": 268.911458,
+          "startTime": 979.5799999999999,
+          "endTime": 1248.491458
+        },
+        {
+          "path": "Audio/output/1243/chapter_05.wav",
+          "duration": 232.426333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Lasting Change Through Small, Consistent Habits",
+          "actualDuration": 232.426333,
+          "startTime": 1249.991458,
+          "endTime": 1482.4177909999999
+        },
+        {
+          "path": "Audio/output/1243/chapter_06.wav",
+          "duration": 209.653167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating Brain-Based Strategies into Daily Routines",
+          "actualDuration": 209.653167,
+          "startTime": 1483.9177909999999,
+          "endTime": 1693.5709579999998
+        },
+        {
+          "path": "Audio/output/1243/chapter_07.wav",
+          "duration": 191.71175,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Setbacks and Plateaus with Self-Compassion",
+          "actualDuration": 191.71175,
+          "startTime": 1695.0709579999998,
+          "endTime": 1886.7827079999997
+        },
+        {
+          "path": "Audio/output/1243/chapter_08.wav",
+          "duration": 227.293167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Case Examples—Personalizing Brain-Based Change",
+          "actualDuration": 227.293167,
+          "startTime": 1888.2827079999997,
+          "endTime": 2115.5758749999995
+        },
+        {
+          "path": "Audio/output/1243/chapter_09.wav",
+          "duration": 166.200417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Relationships and Social Connection",
+          "actualDuration": 166.200417,
+          "startTime": 2117.0758749999995,
+          "endTime": 2283.2762919999996
+        },
+        {
+          "path": "Audio/output/1243/chapter_10.wav",
+          "duration": 157.945458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Brain Health for the Long Term",
+          "actualDuration": 157.945458,
+          "startTime": 2284.7762919999996,
+          "endTime": 2442.7217499999997
+        },
+        {
+          "path": "Audio/output/1243/conclusion.wav",
+          "duration": 118.070458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.070458,
+          "startTime": 2444.2217499999997,
+          "endTime": 2562.292208
+        }
+      ],
+      "totalDuration": 2562.292208,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.28,
+          "actualStart": 0,
+          "actualEnd": 90.284792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Brain’s Role in Emotions and Behavior",
+          "expectedStart": 90.28,
+          "expectedEnd": 365.45,
+          "actualStart": 91.784792,
+          "actualEnd": 366.95074999999997,
+          "timeDifference": 1.5047919999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying Brain Patterns Behind Common Emotional Struggles",
+          "expectedStart": 365.45,
+          "expectedEnd": 648.94,
+          "actualStart": 368.45074999999997,
+          "actualEnd": 651.938375,
+          "timeDifference": 3.0007499999999823
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Practical Strategies for Balancing Brain Function",
+          "expectedStart": 648.94,
+          "expectedEnd": 973.58,
+          "actualStart": 653.438375,
+          "actualEnd": 978.0799999999999,
+          "timeDifference": 4.498374999999896
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Recognizing and Replacing Destructive Thought Patterns",
+          "expectedStart": 973.58,
+          "expectedEnd": 1242.49,
+          "actualStart": 979.5799999999999,
+          "actualEnd": 1248.491458,
+          "timeDifference": 5.999999999999886
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Lasting Change Through Small, Consistent Habits",
+          "expectedStart": 1242.49,
+          "expectedEnd": 1474.92,
+          "actualStart": 1249.991458,
+          "actualEnd": 1482.4177909999999,
+          "timeDifference": 7.501457999999957
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating Brain-Based Strategies into Daily Routines",
+          "expectedStart": 1474.92,
+          "expectedEnd": 1684.57,
+          "actualStart": 1483.9177909999999,
+          "actualEnd": 1693.5709579999998,
+          "timeDifference": 8.99779099999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Setbacks and Plateaus with Self-Compassion",
+          "expectedStart": 1684.57,
+          "expectedEnd": 1876.28,
+          "actualStart": 1695.0709579999998,
+          "actualEnd": 1886.7827079999997,
+          "timeDifference": 10.500957999999855
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Case Examples—Personalizing Brain-Based Change",
+          "expectedStart": 1876.28,
+          "expectedEnd": 2103.57,
+          "actualStart": 1888.2827079999997,
+          "actualEnd": 2115.5758749999995,
+          "timeDifference": 12.002707999999757
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Relationships and Social Connection",
+          "expectedStart": 2103.57,
+          "expectedEnd": 2269.77,
+          "actualStart": 2117.0758749999995,
+          "actualEnd": 2283.2762919999996,
+          "timeDifference": 13.505874999999378
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Brain Health for the Long Term",
+          "expectedStart": 2269.77,
+          "expectedEnd": 2427.72,
+          "actualStart": 2284.7762919999996,
+          "actualEnd": 2442.7217499999997,
+          "timeDifference": 15.006291999999576
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2427.72,
+          "expectedEnd": 2545.79,
+          "actualStart": 2444.2217499999997,
+          "actualEnd": 2562.292208,
+          "timeDifference": 16.5017499999999
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.284792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Brain’s Role in Emotions and Behavior"
+        },
+        {
+          "startTime": 366.95074999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Brain’s Role in Emotions and Behavior and Chapter 2 Identifying Brain Patterns Behind Common Emotional Struggles"
+        },
+        {
+          "startTime": 651.938375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying Brain Patterns Behind Common Emotional Struggles and Chapter 3 Practical Strategies for Balancing Brain Function"
+        },
+        {
+          "startTime": 978.0799999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Practical Strategies for Balancing Brain Function and Chapter 4 Recognizing and Replacing Destructive Thought Patterns"
+        },
+        {
+          "startTime": 1248.491458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Recognizing and Replacing Destructive Thought Patterns and Chapter 5 Building Lasting Change Through Small, Consistent Habits"
+        },
+        {
+          "startTime": 1482.4177909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Lasting Change Through Small, Consistent Habits and Chapter 6 Integrating Brain-Based Strategies into Daily Routines"
+        },
+        {
+          "startTime": 1693.5709579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating Brain-Based Strategies into Daily Routines and Chapter 7 Navigating Setbacks and Plateaus with Self-Compassion"
+        },
+        {
+          "startTime": 1886.7827079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Setbacks and Plateaus with Self-Compassion and Chapter 8 Case Examples—Personalizing Brain-Based Change"
+        },
+        {
+          "startTime": 2115.5758749999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Case Examples—Personalizing Brain-Based Change and Chapter 9 The Role of Relationships and Social Connection"
+        },
+        {
+          "startTime": 2283.2762919999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Relationships and Social Connection and Chapter 10 Sustaining Brain Health for the Long Term"
+        },
+        {
+          "startTime": 2442.7217499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Brain Health for the Long Term and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1243",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:01:53.482Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1328",
+  "timestamp": "2025-07-07T07:00:19.275Z",
+  "success": false,
+  "processingTime": -1751871259400,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4171,
+    "totalAudioFiles": 12,
+    "totalDuration": 1962.836791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1962.836791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1328/optimized_text/1328.md",
+    "fileSize": 677,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1328.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1328/metadata/1328_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1962.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1328/metadata/1328_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1328/metadata/1328_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1328/1328_complete.wav",
+    "duration": 1962.836792,
+    "fileSize": 94216244,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1328/introduction.wav",
+          "duration": 97.777542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.777542,
+          "startTime": 0,
+          "endTime": 97.777542
+        },
+        {
+          "path": "Audio/output/1328/chapter_01.wav",
+          "duration": 179.534542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building Self-Awareness: The Foundation for Lasting Change",
+          "actualDuration": 179.534542,
+          "startTime": 99.277542,
+          "endTime": 278.81208399999997
+        },
+        {
+          "path": "Audio/output/1328/chapter_02.wav",
+          "duration": 199.007208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Clarifying Intentions and Setting Meaningful Goals",
+          "actualDuration": 199.007208,
+          "startTime": 280.31208399999997,
+          "endTime": 479.31929199999996
+        },
+        {
+          "path": "Audio/output/1328/chapter_03.wav",
+          "duration": 189.591958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shaping Identity and Transforming Self-Talk",
+          "actualDuration": 189.591958,
+          "startTime": 480.81929199999996,
+          "endTime": 670.41125
+        },
+        {
+          "path": "Audio/output/1328/chapter_04.wav",
+          "duration": 178.406583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Supportive Boundaries for Habits to Thrive",
+          "actualDuration": 178.406583,
+          "startTime": 671.91125,
+          "endTime": 850.3178330000001
+        },
+        {
+          "path": "Audio/output/1328/chapter_05.wav",
+          "duration": 167.919833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Daily Practice and the Power of Small Steps",
+          "actualDuration": 167.919833,
+          "startTime": 851.8178330000001,
+          "endTime": 1019.7376660000001
+        },
+        {
+          "path": "Audio/output/1328/chapter_06.wav",
+          "duration": 201.582667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Resistance and Overcoming Setbacks",
+          "actualDuration": 201.582667,
+          "startTime": 1021.2376660000001,
+          "endTime": 1222.8203330000001
+        },
+        {
+          "path": "Audio/output/1328/chapter_07.wav",
+          "duration": 157.656542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Harnessing Accountability and Social Support",
+          "actualDuration": 157.656542,
+          "startTime": 1224.3203330000001,
+          "endTime": 1381.976875
+        },
+        {
+          "path": "Audio/output/1328/chapter_08.wav",
+          "duration": 145.914833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Celebrating Progress and Reinforcing Success",
+          "actualDuration": 145.914833,
+          "startTime": 1383.476875,
+          "endTime": 1529.391708
+        },
+        {
+          "path": "Audio/output/1328/chapter_09.wav",
+          "duration": 138.943333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Adapting and Evolving Habits for Lifelong Growth",
+          "actualDuration": 138.943333,
+          "startTime": 1530.891708,
+          "endTime": 1669.835041
+        },
+        {
+          "path": "Audio/output/1328/chapter_10.wav",
+          "duration": 170.1685,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum and Mastering the Habit Loop",
+          "actualDuration": 170.1685,
+          "startTime": 1671.335041,
+          "endTime": 1841.503541
+        },
+        {
+          "path": "Audio/output/1328/conclusion.wav",
+          "duration": 136.33325,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.33325,
+          "startTime": 1843.003541,
+          "endTime": 1979.336791
+        }
+      ],
+      "totalDuration": 1979.336791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.78,
+          "actualStart": 0,
+          "actualEnd": 97.777542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building Self-Awareness: The Foundation for Lasting Change",
+          "expectedStart": 97.78,
+          "expectedEnd": 277.31,
+          "actualStart": 99.277542,
+          "actualEnd": 278.81208399999997,
+          "timeDifference": 1.4975419999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Clarifying Intentions and Setting Meaningful Goals",
+          "expectedStart": 277.31,
+          "expectedEnd": 476.32,
+          "actualStart": 280.31208399999997,
+          "actualEnd": 479.31929199999996,
+          "timeDifference": 3.002083999999968
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shaping Identity and Transforming Self-Talk",
+          "expectedStart": 476.32,
+          "expectedEnd": 665.91,
+          "actualStart": 480.81929199999996,
+          "actualEnd": 670.41125,
+          "timeDifference": 4.4992919999999685
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Supportive Boundaries for Habits to Thrive",
+          "expectedStart": 665.91,
+          "expectedEnd": 844.32,
+          "actualStart": 671.91125,
+          "actualEnd": 850.3178330000001,
+          "timeDifference": 6.001250000000027
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Daily Practice and the Power of Small Steps",
+          "expectedStart": 844.32,
+          "expectedEnd": 1012.24,
+          "actualStart": 851.8178330000001,
+          "actualEnd": 1019.7376660000001,
+          "timeDifference": 7.497833000000014
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Resistance and Overcoming Setbacks",
+          "expectedStart": 1012.24,
+          "expectedEnd": 1213.82,
+          "actualStart": 1021.2376660000001,
+          "actualEnd": 1222.8203330000001,
+          "timeDifference": 8.997666000000095
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Harnessing Accountability and Social Support",
+          "expectedStart": 1213.82,
+          "expectedEnd": 1371.48,
+          "actualStart": 1224.3203330000001,
+          "actualEnd": 1381.976875,
+          "timeDifference": 10.500333000000182
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Celebrating Progress and Reinforcing Success",
+          "expectedStart": 1371.48,
+          "expectedEnd": 1517.39,
+          "actualStart": 1383.476875,
+          "actualEnd": 1529.391708,
+          "timeDifference": 11.996875000000045
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Adapting and Evolving Habits for Lifelong Growth",
+          "expectedStart": 1517.39,
+          "expectedEnd": 1656.33,
+          "actualStart": 1530.891708,
+          "actualEnd": 1669.835041,
+          "timeDifference": 13.501708000000008
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum and Mastering the Habit Loop",
+          "expectedStart": 1656.33,
+          "expectedEnd": 1826.5,
+          "actualStart": 1671.335041,
+          "actualEnd": 1841.503541,
+          "timeDifference": 15.00504100000012
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1826.5,
+          "expectedEnd": 1962.83,
+          "actualStart": 1843.003541,
+          "actualEnd": 1979.336791,
+          "timeDifference": 16.50354100000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.777542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building Self-Awareness: The Foundation for Lasting Change"
+        },
+        {
+          "startTime": 278.81208399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building Self-Awareness: The Foundation for Lasting Change and Chapter 2 Clarifying Intentions and Setting Meaningful Goals"
+        },
+        {
+          "startTime": 479.31929199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Clarifying Intentions and Setting Meaningful Goals and Chapter 3 Shaping Identity and Transforming Self-Talk"
+        },
+        {
+          "startTime": 670.41125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shaping Identity and Transforming Self-Talk and Chapter 4 Creating Supportive Boundaries for Habits to Thrive"
+        },
+        {
+          "startTime": 850.3178330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Supportive Boundaries for Habits to Thrive and Chapter 5 Daily Practice and the Power of Small Steps"
+        },
+        {
+          "startTime": 1019.7376660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Daily Practice and the Power of Small Steps and Chapter 6 Navigating Resistance and Overcoming Setbacks"
+        },
+        {
+          "startTime": 1222.8203330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Resistance and Overcoming Setbacks and Chapter 7 Harnessing Accountability and Social Support"
+        },
+        {
+          "startTime": 1381.976875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Harnessing Accountability and Social Support and Chapter 8 Celebrating Progress and Reinforcing Success"
+        },
+        {
+          "startTime": 1529.391708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Celebrating Progress and Reinforcing Success and Chapter 9 Adapting and Evolving Habits for Lifelong Growth"
+        },
+        {
+          "startTime": 1669.835041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Adapting and Evolving Habits for Lifelong Growth and Chapter 10 Sustaining Momentum and Mastering the Habit Loop"
+        },
+        {
+          "startTime": 1841.503541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum and Mastering the Habit Loop and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1328",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T06:54:20.668Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1196",
+  "timestamp": "2025-07-06T20:31:32.096Z",
+  "success": false,
+  "processingTime": -1751833361391,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3943,
+    "totalAudioFiles": 12,
+    "totalDuration": 2040.2530000000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2040.2530000000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1196/optimized_text/1196.md",
+    "fileSize": 711,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "1196.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1196/metadata/1196_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2040.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1196/metadata/1196_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1196/metadata/1196_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1196/1196_complete.wav",
+    "duration": 2040.253,
+    "fileSize": 97932222,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1196/introduction.wav",
+          "duration": 98.273083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.273083,
+          "startTime": 0,
+          "endTime": 98.273083
+        },
+        {
+          "path": "Audio/output/1196/chapter_01.wav",
+          "duration": 192.728833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the New Reality of Job Searching",
+          "actualDuration": 192.728833,
+          "startTime": 99.773083,
+          "endTime": 292.501916
+        },
+        {
+          "path": "Audio/output/1196/chapter_02.wav",
+          "duration": 190.265625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Laying the Groundwork with Self-Assessment and Clarity",
+          "actualDuration": 190.265625,
+          "startTime": 294.001916,
+          "endTime": 484.267541
+        },
+        {
+          "path": "Audio/output/1196/chapter_03.wav",
+          "duration": 202.655292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Proactive Job Search Strategy",
+          "actualDuration": 202.655292,
+          "startTime": 485.767541,
+          "endTime": 688.422833
+        },
+        {
+          "path": "Audio/output/1196/chapter_04.wav",
+          "duration": 237.856375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mastering Networking and Unlocking Hidden Opportunities",
+          "actualDuration": 237.856375,
+          "startTime": 689.922833,
+          "endTime": 927.7792079999999
+        },
+        {
+          "path": "Audio/output/1196/chapter_05.wav",
+          "duration": 214.924167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Maintaining Motivation and Building Emotional Resilience",
+          "actualDuration": 214.924167,
+          "startTime": 929.2792079999999,
+          "endTime": 1144.203375
+        },
+        {
+          "path": "Audio/output/1196/chapter_06.wav",
+          "duration": 164.993875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Expanding Skills and Staying Relevant",
+          "actualDuration": 164.993875,
+          "startTime": 1145.703375,
+          "endTime": 1310.6972500000002
+        },
+        {
+          "path": "Audio/output/1196/chapter_07.wav",
+          "duration": 162.337792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Crafting a Standout Application and Personal Brand",
+          "actualDuration": 162.337792,
+          "startTime": 1312.1972500000002,
+          "endTime": 1474.5350420000002
+        },
+        {
+          "path": "Audio/output/1196/chapter_08.wav",
+          "duration": 181.361542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Interviews with Confidence and Authenticity",
+          "actualDuration": 181.361542,
+          "startTime": 1476.0350420000002,
+          "endTime": 1657.396584
+        },
+        {
+          "path": "Audio/output/1196/chapter_09.wav",
+          "duration": 146.072083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Exploring Alternative Paths and Creating Your Own Opportunities",
+          "actualDuration": 146.072083,
+          "startTime": 1658.896584,
+          "endTime": 1804.968667
+        },
+        {
+          "path": "Audio/output/1196/chapter_10.wav",
+          "duration": 136.256,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Planning for Long-Term Career Growth and Adaptability",
+          "actualDuration": 136.256,
+          "startTime": 1806.468667,
+          "endTime": 1942.7246670000002
+        },
+        {
+          "path": "Audio/output/1196/conclusion.wav",
+          "duration": 112.528333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.528333,
+          "startTime": 1944.2246670000002,
+          "endTime": 2056.753
+        }
+      ],
+      "totalDuration": 2056.753,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.27,
+          "actualStart": 0,
+          "actualEnd": 98.273083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the New Reality of Job Searching",
+          "expectedStart": 98.27,
+          "expectedEnd": 291,
+          "actualStart": 99.773083,
+          "actualEnd": 292.501916,
+          "timeDifference": 1.5030830000000037
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Laying the Groundwork with Self-Assessment and Clarity",
+          "expectedStart": 291,
+          "expectedEnd": 481.27,
+          "actualStart": 294.001916,
+          "actualEnd": 484.267541,
+          "timeDifference": 3.0019159999999943
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Proactive Job Search Strategy",
+          "expectedStart": 481.27,
+          "expectedEnd": 683.93,
+          "actualStart": 485.767541,
+          "actualEnd": 688.422833,
+          "timeDifference": 4.4975410000000124
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mastering Networking and Unlocking Hidden Opportunities",
+          "expectedStart": 683.93,
+          "expectedEnd": 921.79,
+          "actualStart": 689.922833,
+          "actualEnd": 927.7792079999999,
+          "timeDifference": 5.992833000000019
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Maintaining Motivation and Building Emotional Resilience",
+          "expectedStart": 921.79,
+          "expectedEnd": 1136.71,
+          "actualStart": 929.2792079999999,
+          "actualEnd": 1144.203375,
+          "timeDifference": 7.489207999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Expanding Skills and Staying Relevant",
+          "expectedStart": 1136.71,
+          "expectedEnd": 1301.7,
+          "actualStart": 1145.703375,
+          "actualEnd": 1310.6972500000002,
+          "timeDifference": 8.993375000000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Crafting a Standout Application and Personal Brand",
+          "expectedStart": 1301.7,
+          "expectedEnd": 1464.04,
+          "actualStart": 1312.1972500000002,
+          "actualEnd": 1474.5350420000002,
+          "timeDifference": 10.497250000000122
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Interviews with Confidence and Authenticity",
+          "expectedStart": 1464.04,
+          "expectedEnd": 1645.4,
+          "actualStart": 1476.0350420000002,
+          "actualEnd": 1657.396584,
+          "timeDifference": 11.99504200000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Exploring Alternative Paths and Creating Your Own Opportunities",
+          "expectedStart": 1645.4,
+          "expectedEnd": 1791.47,
+          "actualStart": 1658.896584,
+          "actualEnd": 1804.968667,
+          "timeDifference": 13.496583999999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Planning for Long-Term Career Growth and Adaptability",
+          "expectedStart": 1791.47,
+          "expectedEnd": 1927.73,
+          "actualStart": 1806.468667,
+          "actualEnd": 1942.7246670000002,
+          "timeDifference": 14.998667000000069
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1927.73,
+          "expectedEnd": 2040.26,
+          "actualStart": 1944.2246670000002,
+          "actualEnd": 2056.753,
+          "timeDifference": 16.494667000000163
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.273083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the New Reality of Job Searching"
+        },
+        {
+          "startTime": 292.501916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the New Reality of Job Searching and Chapter 2 Laying the Groundwork with Self-Assessment and Clarity"
+        },
+        {
+          "startTime": 484.267541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Laying the Groundwork with Self-Assessment and Clarity and Chapter 3 Building a Proactive Job Search Strategy"
+        },
+        {
+          "startTime": 688.422833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Proactive Job Search Strategy and Chapter 4 Mastering Networking and Unlocking Hidden Opportunities"
+        },
+        {
+          "startTime": 927.7792079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mastering Networking and Unlocking Hidden Opportunities and Chapter 5 Maintaining Motivation and Building Emotional Resilience"
+        },
+        {
+          "startTime": 1144.203375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Maintaining Motivation and Building Emotional Resilience and Chapter 6 Expanding Skills and Staying Relevant"
+        },
+        {
+          "startTime": 1310.6972500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Expanding Skills and Staying Relevant and Chapter 7 Crafting a Standout Application and Personal Brand"
+        },
+        {
+          "startTime": 1474.5350420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Crafting a Standout Application and Personal Brand and Chapter 8 Navigating Interviews with Confidence and Authenticity"
+        },
+        {
+          "startTime": 1657.396584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Interviews with Confidence and Authenticity and Chapter 9 Exploring Alternative Paths and Creating Your Own Opportunities"
+        },
+        {
+          "startTime": 1804.968667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Exploring Alternative Paths and Creating Your Own Opportunities and Chapter 10 Planning for Long-Term Career Growth and Adaptability"
+        },
+        {
+          "startTime": 1942.7246670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Planning for Long-Term Career Growth and Adaptability and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1196",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T20:22:42.696Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "bookId": "1244",
+  "timestamp": "2025-07-07T00:23:02.069Z",
+  "success": false,
+  "processingTime": -1751846894594,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4793,
+    "totalAudioFiles": 12,
+    "totalDuration": 1165.702167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 8,
+    "failed": 4,
+    "duration": 1165.702167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1244/optimized_text/1244.md",
+    "fileSize": 6177,
+    "wordCount": 993,
+    "format": "markdown",
+    "filename": "1244.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1244/metadata/1244_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1165.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1244/metadata/1244_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1244/metadata/1244_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1244/1244_complete.wav",
+    "duration": 1165.702167,
+    "fileSize": 55953782,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1244/introduction.wav",
+          "duration": 77.972,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.972,
+          "startTime": 0,
+          "endTime": 77.972
+        },
+        {
+          "path": "Audio/output/1244/chapter_04.wav",
+          "duration": 211.62525,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Women: Strength, Suffering, and Small Acts of Defiance",
+          "actualDuration": 211.62525,
+          "startTime": 79.472,
+          "endTime": 291.09725
+        },
+        {
+          "path": "Audio/output/1244/chapter_06.wav",
+          "duration": 168.729458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Tides of War: Rumors, Hope, and the Shifting Winds of Fate",
+          "actualDuration": 168.729458,
+          "startTime": 292.59725,
+          "endTime": 461.32670799999994
+        },
+        {
+          "path": "Audio/output/1244/chapter_07.wav",
+          "duration": 169.363792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Liberation: Chaos, Relief, and the First Steps Toward Freedom",
+          "actualDuration": 169.363792,
+          "startTime": 462.82670799999994,
+          "endTime": 632.1904999999999
+        },
+        {
+          "path": "Audio/output/1244/chapter_08.wav",
+          "duration": 173.878,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Aftermath: Searching for Family, Rebuilding Identity, and Facing the World",
+          "actualDuration": 173.878,
+          "startTime": 633.6904999999999,
+          "endTime": 807.5684999999999
+        },
+        {
+          "path": "Audio/output/1244/chapter_09.wav",
+          "duration": 127.081042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bearing Witness: The Responsibility of Memory and the Power of Testimony",
+          "actualDuration": 127.081042,
+          "startTime": 809.0684999999999,
+          "endTime": 936.1495419999999
+        },
+        {
+          "path": "Audio/output/1244/chapter_10.wav",
+          "duration": 134.401708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons of Survival: Resilience, Humanity, and the Enduring Need for Hope",
+          "actualDuration": 134.401708,
+          "startTime": 937.6495419999999,
+          "endTime": 1072.05125
+        },
+        {
+          "path": "Audio/output/1244/conclusion.wav",
+          "duration": 102.650917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.650917,
+          "startTime": 1073.55125,
+          "endTime": 1176.202167
+        }
+      ],
+      "totalDuration": 1176.202167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.97,
+          "actualStart": 0,
+          "actualEnd": 77.972,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Women: Strength, Suffering, and Small Acts of Defiance",
+          "expectedStart": 77.97,
+          "expectedEnd": 289.6,
+          "actualStart": 79.472,
+          "actualEnd": 291.09725,
+          "timeDifference": 1.5019999999999953
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Tides of War: Rumors, Hope, and the Shifting Winds of Fate",
+          "expectedStart": 289.6,
+          "expectedEnd": 458.33,
+          "actualStart": 292.59725,
+          "actualEnd": 461.32670799999994,
+          "timeDifference": 2.9972499999999513
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Liberation: Chaos, Relief, and the First Steps Toward Freedom",
+          "expectedStart": 458.33,
+          "expectedEnd": 627.69,
+          "actualStart": 462.82670799999994,
+          "actualEnd": 632.1904999999999,
+          "timeDifference": 4.4967079999999555
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Aftermath: Searching for Family, Rebuilding Identity, and Facing the World",
+          "expectedStart": 627.69,
+          "expectedEnd": 801.57,
+          "actualStart": 633.6904999999999,
+          "actualEnd": 807.5684999999999,
+          "timeDifference": 6.0004999999998745
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bearing Witness: The Responsibility of Memory and the Power of Testimony",
+          "expectedStart": 801.57,
+          "expectedEnd": 928.65,
+          "actualStart": 809.0684999999999,
+          "actualEnd": 936.1495419999999,
+          "timeDifference": 7.498499999999808
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons of Survival: Resilience, Humanity, and the Enduring Need for Hope",
+          "expectedStart": 928.65,
+          "expectedEnd": 1063.05,
+          "actualStart": 937.6495419999999,
+          "actualEnd": 1072.05125,
+          "timeDifference": 8.999541999999906
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1063.05,
+          "expectedEnd": 1165.7,
+          "actualStart": 1073.55125,
+          "actualEnd": 1176.202167,
+          "timeDifference": 10.501250000000027
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.972,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 4 The Role of Women: Strength, Suffering, and Small Acts of Defiance"
+        },
+        {
+          "startTime": 291.09725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Women: Strength, Suffering, and Small Acts of Defiance and Chapter 6 The Tides of War: Rumors, Hope, and the Shifting Winds of Fate"
+        },
+        {
+          "startTime": 461.32670799999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Tides of War: Rumors, Hope, and the Shifting Winds of Fate and Chapter 7 Liberation: Chaos, Relief, and the First Steps Toward Freedom"
+        },
+        {
+          "startTime": 632.1904999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Liberation: Chaos, Relief, and the First Steps Toward Freedom and Chapter 8 Aftermath: Searching for Family, Rebuilding Identity, and Facing the World"
+        },
+        {
+          "startTime": 807.5684999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Aftermath: Searching for Family, Rebuilding Identity, and Facing the World and Chapter 9 Bearing Witness: The Responsibility of Memory and the Power of Testimony"
+        },
+        {
+          "startTime": 936.1495419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bearing Witness: The Responsibility of Memory and the Power of Testimony and Chapter 10 Lessons of Survival: Resilience, Humanity, and the Enduring Need for Hope"
+        },
+        {
+          "startTime": 1072.05125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons of Survival: Resilience, Humanity, and the Enduring Need for Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 8
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1244",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:08:15.783Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

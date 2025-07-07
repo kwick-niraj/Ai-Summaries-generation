@@ -1,0 +1,456 @@
+{
+  "bookId": "1325",
+  "timestamp": "2025-07-07T06:35:45.527Z",
+  "success": false,
+  "processingTime": -1751869604282,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3939,
+    "totalAudioFiles": 12,
+    "totalDuration": 1923.579167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1923.579167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1325/optimized_text/1325.md",
+    "fileSize": 663,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1325.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1325/metadata/1325_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1923.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1325/metadata/1325_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1325/metadata/1325_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1325/1325_complete.wav",
+    "duration": 1923.579167,
+    "fileSize": 92331878,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1325/introduction.wav",
+          "duration": 92.675917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.675917,
+          "startTime": 0,
+          "endTime": 92.675917
+        },
+        {
+          "path": "Audio/output/1325/chapter_01.wav",
+          "duration": 196.939125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Hidden Patterns Shaping Daily Life",
+          "actualDuration": 196.939125,
+          "startTime": 94.175917,
+          "endTime": 291.115042
+        },
+        {
+          "path": "Audio/output/1325/chapter_02.wav",
+          "duration": 212.863417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Matching Tasks to the Right Time of Day",
+          "actualDuration": 212.863417,
+          "startTime": 292.615042,
+          "endTime": 505.47845900000004
+        },
+        {
+          "path": "Audio/output/1325/chapter_03.wav",
+          "duration": 198.022,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Breaks and Rest for Sustained Performance",
+          "actualDuration": 198.022,
+          "startTime": 506.97845900000004,
+          "endTime": 705.0004590000001
+        },
+        {
+          "path": "Audio/output/1325/chapter_04.wav",
+          "duration": 204.909375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Beginnings, Middles, and Endings Shape Behavior",
+          "actualDuration": 204.909375,
+          "startTime": 706.5004590000001,
+          "endTime": 911.409834
+        },
+        {
+          "path": "Audio/output/1325/chapter_05.wav",
+          "duration": 158.957458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Timing Decisions for Better Outcomes",
+          "actualDuration": 158.957458,
+          "startTime": 912.909834,
+          "endTime": 1071.8672920000001
+        },
+        {
+          "path": "Audio/output/1325/chapter_06.wav",
+          "duration": 174.630167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Harnessing the Power of Motivation Through Timing",
+          "actualDuration": 174.630167,
+          "startTime": 1073.3672920000001,
+          "endTime": 1247.9974590000002
+        },
+        {
+          "path": "Audio/output/1325/chapter_07.wav",
+          "duration": 167.543708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Timing and Well-Being: The Role of Synchronization",
+          "actualDuration": 167.543708,
+          "startTime": 1249.4974590000002,
+          "endTime": 1417.041167
+        },
+        {
+          "path": "Audio/output/1325/chapter_08.wav",
+          "duration": 137.065125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Transitions: Making the Most of Change",
+          "actualDuration": 137.065125,
+          "startTime": 1418.541167,
+          "endTime": 1555.6062920000002
+        },
+        {
+          "path": "Audio/output/1325/chapter_09.wav",
+          "duration": 155.78775,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Tools and Techniques for Better Timing",
+          "actualDuration": 155.78775,
+          "startTime": 1557.1062920000002,
+          "endTime": 1712.8940420000001
+        },
+        {
+          "path": "Audio/output/1325/chapter_10.wav",
+          "duration": 124.419458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Long-Term Planning: Designing a Life with Timing in Mind",
+          "actualDuration": 124.419458,
+          "startTime": 1714.3940420000001,
+          "endTime": 1838.8135000000002
+        },
+        {
+          "path": "Audio/output/1325/conclusion.wav",
+          "duration": 99.765667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.765667,
+          "startTime": 1840.3135000000002,
+          "endTime": 1940.079167
+        }
+      ],
+      "totalDuration": 1940.079167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.68,
+          "actualStart": 0,
+          "actualEnd": 92.675917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Hidden Patterns Shaping Daily Life",
+          "expectedStart": 92.68,
+          "expectedEnd": 289.62,
+          "actualStart": 94.175917,
+          "actualEnd": 291.115042,
+          "timeDifference": 1.4959169999999915
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Matching Tasks to the Right Time of Day",
+          "expectedStart": 289.62,
+          "expectedEnd": 502.48,
+          "actualStart": 292.615042,
+          "actualEnd": 505.47845900000004,
+          "timeDifference": 2.995042000000012
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Breaks and Rest for Sustained Performance",
+          "expectedStart": 502.48,
+          "expectedEnd": 700.5,
+          "actualStart": 506.97845900000004,
+          "actualEnd": 705.0004590000001,
+          "timeDifference": 4.498459000000025
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Beginnings, Middles, and Endings Shape Behavior",
+          "expectedStart": 700.5,
+          "expectedEnd": 905.41,
+          "actualStart": 706.5004590000001,
+          "actualEnd": 911.409834,
+          "timeDifference": 6.000459000000092
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Timing Decisions for Better Outcomes",
+          "expectedStart": 905.41,
+          "expectedEnd": 1064.37,
+          "actualStart": 912.909834,
+          "actualEnd": 1071.8672920000001,
+          "timeDifference": 7.499834000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Harnessing the Power of Motivation Through Timing",
+          "expectedStart": 1064.37,
+          "expectedEnd": 1239,
+          "actualStart": 1073.3672920000001,
+          "actualEnd": 1247.9974590000002,
+          "timeDifference": 8.997292000000243
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Timing and Well-Being: The Role of Synchronization",
+          "expectedStart": 1239,
+          "expectedEnd": 1406.54,
+          "actualStart": 1249.4974590000002,
+          "actualEnd": 1417.041167,
+          "timeDifference": 10.497459000000163
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Transitions: Making the Most of Change",
+          "expectedStart": 1406.54,
+          "expectedEnd": 1543.61,
+          "actualStart": 1418.541167,
+          "actualEnd": 1555.6062920000002,
+          "timeDifference": 12.001167000000123
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Tools and Techniques for Better Timing",
+          "expectedStart": 1543.61,
+          "expectedEnd": 1699.4,
+          "actualStart": 1557.1062920000002,
+          "actualEnd": 1712.8940420000001,
+          "timeDifference": 13.496292000000267
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Long-Term Planning: Designing a Life with Timing in Mind",
+          "expectedStart": 1699.4,
+          "expectedEnd": 1823.82,
+          "actualStart": 1714.3940420000001,
+          "actualEnd": 1838.8135000000002,
+          "timeDifference": 14.994042000000036
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823.82,
+          "expectedEnd": 1923.59,
+          "actualStart": 1840.3135000000002,
+          "actualEnd": 1940.079167,
+          "timeDifference": 16.493500000000267
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.675917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Hidden Patterns Shaping Daily Life"
+        },
+        {
+          "startTime": 291.115042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Hidden Patterns Shaping Daily Life and Chapter 2 Matching Tasks to the Right Time of Day"
+        },
+        {
+          "startTime": 505.47845900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Matching Tasks to the Right Time of Day and Chapter 3 The Power of Breaks and Rest for Sustained Performance"
+        },
+        {
+          "startTime": 705.0004590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Breaks and Rest for Sustained Performance and Chapter 4 How Beginnings, Middles, and Endings Shape Behavior"
+        },
+        {
+          "startTime": 911.409834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Beginnings, Middles, and Endings Shape Behavior and Chapter 5 Timing Decisions for Better Outcomes"
+        },
+        {
+          "startTime": 1071.8672920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Timing Decisions for Better Outcomes and Chapter 6 Harnessing the Power of Motivation Through Timing"
+        },
+        {
+          "startTime": 1247.9974590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Harnessing the Power of Motivation Through Timing and Chapter 7 Timing and Well-Being: The Role of Synchronization"
+        },
+        {
+          "startTime": 1417.041167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Timing and Well-Being: The Role of Synchronization and Chapter 8 Navigating Transitions: Making the Most of Change"
+        },
+        {
+          "startTime": 1555.6062920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Transitions: Making the Most of Change and Chapter 9 Tools and Techniques for Better Timing"
+        },
+        {
+          "startTime": 1712.8940420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Tools and Techniques for Better Timing and Chapter 10 Long-Term Planning: Designing a Life with Timing in Mind"
+        },
+        {
+          "startTime": 1838.8135000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Long-Term Planning: Designing a Life with Timing in Mind and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1325",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T06:26:44.302Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

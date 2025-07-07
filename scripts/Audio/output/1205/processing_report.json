@@ -1,0 +1,455 @@
+{
+  "bookId": "1205",
+  "timestamp": "2025-07-06T20:54:53.101Z",
+  "success": false,
+  "processingTime": -1751834971781,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4628,
+    "totalAudioFiles": 12,
+    "totalDuration": 1964.2236240000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1964.2236240000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1205/optimized_text/1205.md",
+    "fileSize": 603,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "1205.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1205/metadata/1205_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1964.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1205/metadata/1205_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1205/metadata/1205_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1205/1205_complete.wav",
+    "duration": 1964.223625,
+    "fileSize": 94282812,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1205/introduction.wav",
+          "duration": 95.666833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.666833,
+          "startTime": 0,
+          "endTime": 95.666833
+        },
+        {
+          "path": "Audio/output/1205/chapter_01.wav",
+          "duration": 196.854042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a New World Through Food and Curiosity",
+          "actualDuration": 196.854042,
+          "startTime": 97.166833,
+          "endTime": 294.020875
+        },
+        {
+          "path": "Audio/output/1205/chapter_02.wav",
+          "duration": 219.824958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning the Language of Russian Kitchens",
+          "actualDuration": 219.824958,
+          "startTime": 295.520875,
+          "endTime": 515.345833
+        },
+        {
+          "path": "Audio/output/1205/chapter_03.wav",
+          "duration": 205.892375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Social Life of the Russian Table",
+          "actualDuration": 205.892375,
+          "startTime": 516.845833,
+          "endTime": 722.738208
+        },
+        {
+          "path": "Audio/output/1205/chapter_04.wav",
+          "duration": 197.715583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Everyday Life and the Art of Adaptation",
+          "actualDuration": 197.715583,
+          "startTime": 724.238208,
+          "endTime": 921.953791
+        },
+        {
+          "path": "Audio/output/1205/chapter_05.wav",
+          "duration": 168.444375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Recipes as Stories and Bridges Between Worlds",
+          "actualDuration": 168.444375,
+          "startTime": 923.453791,
+          "endTime": 1091.898166
+        },
+        {
+          "path": "Audio/output/1205/chapter_06.wav",
+          "duration": 186.845583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unspoken Rules of Russian Hospitality",
+          "actualDuration": 186.845583,
+          "startTime": 1093.398166,
+          "endTime": 1280.243749
+        },
+        {
+          "path": "Audio/output/1205/chapter_07.wav",
+          "duration": 156.996167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Friendship Across Cultures",
+          "actualDuration": 156.996167,
+          "startTime": 1281.743749,
+          "endTime": 1438.739916
+        },
+        {
+          "path": "Audio/output/1205/chapter_08.wav",
+          "duration": 165.352458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Holidays, Rituals, and the Taste of Memory",
+          "actualDuration": 165.352458,
+          "startTime": 1440.239916,
+          "endTime": 1605.592374
+        },
+        {
+          "path": "Audio/output/1205/chapter_09.wav",
+          "duration": 136.460917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Lessons of Daily Life",
+          "actualDuration": 136.460917,
+          "startTime": 1607.092374,
+          "endTime": 1743.5532910000002
+        },
+        {
+          "path": "Audio/output/1205/chapter_10.wav",
+          "duration": 122.330083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Aftertaste—What Remains",
+          "actualDuration": 122.330083,
+          "startTime": 1745.0532910000002,
+          "endTime": 1867.3833740000002
+        },
+        {
+          "path": "Audio/output/1205/conclusion.wav",
+          "duration": 111.84025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.84025,
+          "startTime": 1868.8833740000002,
+          "endTime": 1980.7236240000002
+        }
+      ],
+      "totalDuration": 1980.7236240000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.67,
+          "actualStart": 0,
+          "actualEnd": 95.666833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a New World Through Food and Curiosity",
+          "expectedStart": 95.67,
+          "expectedEnd": 292.52,
+          "actualStart": 97.166833,
+          "actualEnd": 294.020875,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning the Language of Russian Kitchens",
+          "expectedStart": 292.52,
+          "expectedEnd": 512.34,
+          "actualStart": 295.520875,
+          "actualEnd": 515.345833,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Social Life of the Russian Table",
+          "expectedStart": 512.34,
+          "expectedEnd": 718.23,
+          "actualStart": 516.845833,
+          "actualEnd": 722.738208,
+          "timeDifference": 4.505832999999939
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Everyday Life and the Art of Adaptation",
+          "expectedStart": 718.23,
+          "expectedEnd": 915.95,
+          "actualStart": 724.238208,
+          "actualEnd": 921.953791,
+          "timeDifference": 6.008207999999968
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Recipes as Stories and Bridges Between Worlds",
+          "expectedStart": 915.95,
+          "expectedEnd": 1084.39,
+          "actualStart": 923.453791,
+          "actualEnd": 1091.898166,
+          "timeDifference": 7.503790999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unspoken Rules of Russian Hospitality",
+          "expectedStart": 1084.39,
+          "expectedEnd": 1271.24,
+          "actualStart": 1093.398166,
+          "actualEnd": 1280.243749,
+          "timeDifference": 9.008165999999846
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Friendship Across Cultures",
+          "expectedStart": 1271.24,
+          "expectedEnd": 1428.24,
+          "actualStart": 1281.743749,
+          "actualEnd": 1438.739916,
+          "timeDifference": 10.50374899999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Holidays, Rituals, and the Taste of Memory",
+          "expectedStart": 1428.24,
+          "expectedEnd": 1593.59,
+          "actualStart": 1440.239916,
+          "actualEnd": 1605.592374,
+          "timeDifference": 11.999915999999985
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Lessons of Daily Life",
+          "expectedStart": 1593.59,
+          "expectedEnd": 1730.05,
+          "actualStart": 1607.092374,
+          "actualEnd": 1743.5532910000002,
+          "timeDifference": 13.502374000000145
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Aftertaste—What Remains",
+          "expectedStart": 1730.05,
+          "expectedEnd": 1852.38,
+          "actualStart": 1745.0532910000002,
+          "actualEnd": 1867.3833740000002,
+          "timeDifference": 15.003291000000218
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1852.38,
+          "expectedEnd": 1964.22,
+          "actualStart": 1868.8833740000002,
+          "actualEnd": 1980.7236240000002,
+          "timeDifference": 16.50337400000012
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.666833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a New World Through Food and Curiosity"
+        },
+        {
+          "startTime": 294.020875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a New World Through Food and Curiosity and Chapter 2 Learning the Language of Russian Kitchens"
+        },
+        {
+          "startTime": 515.345833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning the Language of Russian Kitchens and Chapter 3 The Social Life of the Russian Table"
+        },
+        {
+          "startTime": 722.738208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Social Life of the Russian Table and Chapter 4 Everyday Life and the Art of Adaptation"
+        },
+        {
+          "startTime": 921.953791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Everyday Life and the Art of Adaptation and Chapter 5 Recipes as Stories and Bridges Between Worlds"
+        },
+        {
+          "startTime": 1091.898166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Recipes as Stories and Bridges Between Worlds and Chapter 6 The Unspoken Rules of Russian Hospitality"
+        },
+        {
+          "startTime": 1280.243749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unspoken Rules of Russian Hospitality and Chapter 7 Navigating Friendship Across Cultures"
+        },
+        {
+          "startTime": 1438.739916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Friendship Across Cultures and Chapter 8 Holidays, Rituals, and the Taste of Memory"
+        },
+        {
+          "startTime": 1605.592374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Holidays, Rituals, and the Taste of Memory and Chapter 9 The Quiet Lessons of Daily Life"
+        },
+        {
+          "startTime": 1743.5532910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Lessons of Daily Life and Chapter 10 Carrying the Aftertaste—What Remains"
+        },
+        {
+          "startTime": 1867.3833740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Aftertaste—What Remains and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1205",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T20:49:32.283Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

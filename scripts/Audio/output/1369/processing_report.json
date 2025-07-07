@@ -1,0 +1,456 @@
+{
+  "bookId": "1369",
+  "timestamp": "2025-07-07T10:36:52.136Z",
+  "success": false,
+  "processingTime": -1751883992023,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5419,
+    "totalAudioFiles": 12,
+    "totalDuration": 2389.664668
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2389.664668
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1369/optimized_text/1369.md",
+    "fileSize": 591,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "1369.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1369/metadata/1369_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2389.67,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1369/metadata/1369_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1369/metadata/1369_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1369/1369_complete.wav",
+    "duration": 2389.664667,
+    "fileSize": 114703982,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1369/introduction.wav",
+          "duration": 111.049167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.049167,
+          "startTime": 0,
+          "endTime": 111.049167
+        },
+        {
+          "path": "Audio/output/1369/chapter_01.wav",
+          "duration": 245.468167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Who We Really Are",
+          "actualDuration": 245.468167,
+          "startTime": 112.549167,
+          "endTime": 358.017334
+        },
+        {
+          "path": "Audio/output/1369/chapter_02.wav",
+          "duration": 277.65275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Society Shapes Our Sense of Self",
+          "actualDuration": 277.65275,
+          "startTime": 359.517334,
+          "endTime": 637.1700840000001
+        },
+        {
+          "path": "Audio/output/1369/chapter_03.wav",
+          "duration": 269.285042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Illusion of Separation and the Roots of Alienation",
+          "actualDuration": 269.285042,
+          "startTime": 638.6700840000001,
+          "endTime": 907.9551260000001
+        },
+        {
+          "path": "Audio/output/1369/chapter_04.wav",
+          "duration": 253.572125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Taboo Against Self-Knowledge",
+          "actualDuration": 253.572125,
+          "startTime": 909.4551260000001,
+          "endTime": 1163.027251
+        },
+        {
+          "path": "Audio/output/1369/chapter_05.wav",
+          "duration": 223.767208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Insights from Eastern and Western Perspectives",
+          "actualDuration": 223.767208,
+          "startTime": 1164.527251,
+          "endTime": 1388.294459
+        },
+        {
+          "path": "Audio/output/1369/chapter_06.wav",
+          "duration": 201.919542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Science, Spirituality, and the Dance of Reality",
+          "actualDuration": 201.919542,
+          "startTime": 1389.794459,
+          "endTime": 1591.714001
+        },
+        {
+          "path": "Audio/output/1369/chapter_07.wav",
+          "duration": 171.292042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Practical Freedom of Letting Go",
+          "actualDuration": 171.292042,
+          "startTime": 1593.214001,
+          "endTime": 1764.506043
+        },
+        {
+          "path": "Audio/output/1369/chapter_08.wav",
+          "duration": 173.881667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Living Without a Fixed Identity",
+          "actualDuration": 173.881667,
+          "startTime": 1766.006043,
+          "endTime": 1939.88771
+        },
+        {
+          "path": "Audio/output/1369/chapter_09.wav",
+          "duration": 165.268667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Courage to See Clearly",
+          "actualDuration": 165.268667,
+          "startTime": 1941.38771,
+          "endTime": 2106.656377
+        },
+        {
+          "path": "Audio/output/1369/chapter_10.wav",
+          "duration": 167.036833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Returning to the World: Connection and Compassion",
+          "actualDuration": 167.036833,
+          "startTime": 2108.156377,
+          "endTime": 2275.19321
+        },
+        {
+          "path": "Audio/output/1369/conclusion.wav",
+          "duration": 129.471458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.471458,
+          "startTime": 2276.69321,
+          "endTime": 2406.164668
+        }
+      ],
+      "totalDuration": 2406.164668,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.05,
+          "actualStart": 0,
+          "actualEnd": 111.049167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Who We Really Are",
+          "expectedStart": 111.05,
+          "expectedEnd": 356.52,
+          "actualStart": 112.549167,
+          "actualEnd": 358.017334,
+          "timeDifference": 1.499167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Society Shapes Our Sense of Self",
+          "expectedStart": 356.52,
+          "expectedEnd": 634.17,
+          "actualStart": 359.517334,
+          "actualEnd": 637.1700840000001,
+          "timeDifference": 2.9973340000000235
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Illusion of Separation and the Roots of Alienation",
+          "expectedStart": 634.17,
+          "expectedEnd": 903.46,
+          "actualStart": 638.6700840000001,
+          "actualEnd": 907.9551260000001,
+          "timeDifference": 4.500084000000129
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Taboo Against Self-Knowledge",
+          "expectedStart": 903.46,
+          "expectedEnd": 1157.03,
+          "actualStart": 909.4551260000001,
+          "actualEnd": 1163.027251,
+          "timeDifference": 5.9951260000000275
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Insights from Eastern and Western Perspectives",
+          "expectedStart": 1157.03,
+          "expectedEnd": 1380.8,
+          "actualStart": 1164.527251,
+          "actualEnd": 1388.294459,
+          "timeDifference": 7.497251000000006
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Science, Spirituality, and the Dance of Reality",
+          "expectedStart": 1380.8,
+          "expectedEnd": 1582.72,
+          "actualStart": 1389.794459,
+          "actualEnd": 1591.714001,
+          "timeDifference": 8.994459000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Practical Freedom of Letting Go",
+          "expectedStart": 1582.72,
+          "expectedEnd": 1754.01,
+          "actualStart": 1593.214001,
+          "actualEnd": 1764.506043,
+          "timeDifference": 10.494001000000026
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Living Without a Fixed Identity",
+          "expectedStart": 1754.01,
+          "expectedEnd": 1927.89,
+          "actualStart": 1766.006043,
+          "actualEnd": 1939.88771,
+          "timeDifference": 11.9960430000001
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Courage to See Clearly",
+          "expectedStart": 1927.89,
+          "expectedEnd": 2093.16,
+          "actualStart": 1941.38771,
+          "actualEnd": 2106.656377,
+          "timeDifference": 13.49770999999987
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Returning to the World: Connection and Compassion",
+          "expectedStart": 2093.16,
+          "expectedEnd": 2260.2,
+          "actualStart": 2108.156377,
+          "actualEnd": 2275.19321,
+          "timeDifference": 14.996376999999939
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2260.2,
+          "expectedEnd": 2389.67,
+          "actualStart": 2276.69321,
+          "actualEnd": 2406.164668,
+          "timeDifference": 16.49321000000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.049167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Who We Really Are"
+        },
+        {
+          "startTime": 358.017334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Who We Really Are and Chapter 2 How Society Shapes Our Sense of Self"
+        },
+        {
+          "startTime": 637.1700840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Society Shapes Our Sense of Self and Chapter 3 The Illusion of Separation and the Roots of Alienation"
+        },
+        {
+          "startTime": 907.9551260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Illusion of Separation and the Roots of Alienation and Chapter 4 The Taboo Against Self-Knowledge"
+        },
+        {
+          "startTime": 1163.027251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Taboo Against Self-Knowledge and Chapter 5 Insights from Eastern and Western Perspectives"
+        },
+        {
+          "startTime": 1388.294459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Insights from Eastern and Western Perspectives and Chapter 6 Science, Spirituality, and the Dance of Reality"
+        },
+        {
+          "startTime": 1591.714001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Science, Spirituality, and the Dance of Reality and Chapter 7 The Practical Freedom of Letting Go"
+        },
+        {
+          "startTime": 1764.506043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Practical Freedom of Letting Go and Chapter 8 Living Without a Fixed Identity"
+        },
+        {
+          "startTime": 1939.88771,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Living Without a Fixed Identity and Chapter 9 The Courage to See Clearly"
+        },
+        {
+          "startTime": 2106.656377,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Courage to See Clearly and Chapter 10 Returning to the World: Connection and Compassion"
+        },
+        {
+          "startTime": 2275.19321,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Returning to the World: Connection and Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1369",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T10:26:33.242Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

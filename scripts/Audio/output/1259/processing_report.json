@@ -1,0 +1,455 @@
+{
+  "bookId": "1259",
+  "timestamp": "2025-07-07T01:22:23.345Z",
+  "success": false,
+  "processingTime": -1751850862083,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4624,
+    "totalAudioFiles": 12,
+    "totalDuration": 1855.1114160000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1855.1114160000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1259/optimized_text/1259.md",
+    "fileSize": 561,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "1259.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1259/metadata/1259_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1855.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1259/metadata/1259_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1259/metadata/1259_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1259/1259_complete.wav",
+    "duration": 1855.111417,
+    "fileSize": 89045426,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1259/introduction.wav",
+          "duration": 75.755375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.755375,
+          "startTime": 0,
+          "endTime": 75.755375
+        },
+        {
+          "path": "Audio/output/1259/chapter_01.wav",
+          "duration": 239.712333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years Shaped by Family and Place",
+          "actualDuration": 239.712333,
+          "startTime": 77.255375,
+          "endTime": 316.967708
+        },
+        {
+          "path": "Audio/output/1259/chapter_02.wav",
+          "duration": 208.101875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering Ambition and Facing Early Setbacks",
+          "actualDuration": 208.101875,
+          "startTime": 318.467708,
+          "endTime": 526.569583
+        },
+        {
+          "path": "Audio/output/1259/chapter_03.wav",
+          "duration": 242.735042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Change and Seizing New Opportunities",
+          "actualDuration": 242.735042,
+          "startTime": 528.069583,
+          "endTime": 770.804625
+        },
+        {
+          "path": "Audio/output/1259/chapter_04.wav",
+          "duration": 202.077125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Adversity and Building Inner Strength",
+          "actualDuration": 202.077125,
+          "startTime": 772.304625,
+          "endTime": 974.38175
+        },
+        {
+          "path": "Audio/output/1259/chapter_05.wav",
+          "duration": 146.892292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Purpose and Making a Lasting Impact",
+          "actualDuration": 146.892292,
+          "startTime": 975.88175,
+          "endTime": 1122.774042
+        },
+        {
+          "path": "Audio/output/1259/chapter_06.wav",
+          "duration": 140.763833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Leadership Forged in Quiet Moments",
+          "actualDuration": 140.763833,
+          "startTime": 1124.274042,
+          "endTime": 1265.037875
+        },
+        {
+          "path": "Audio/output/1259/chapter_07.wav",
+          "duration": 142.355375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost and Gift of Sacrifice",
+          "actualDuration": 142.355375,
+          "startTime": 1266.537875,
+          "endTime": 1408.89325
+        },
+        {
+          "path": "Audio/output/1259/chapter_08.wav",
+          "duration": 122.581542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy in the Making",
+          "actualDuration": 122.581542,
+          "startTime": 1410.39325,
+          "endTime": 1532.974792
+        },
+        {
+          "path": "Audio/output/1259/chapter_09.wav",
+          "duration": 132.445333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections on Meaning and Mortality",
+          "actualDuration": 132.445333,
+          "startTime": 1534.474792,
+          "endTime": 1666.920125
+        },
+        {
+          "path": "Audio/output/1259/chapter_10.wav",
+          "duration": 98.152333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Passing the Torch",
+          "actualDuration": 98.152333,
+          "startTime": 1668.420125,
+          "endTime": 1766.572458
+        },
+        {
+          "path": "Audio/output/1259/conclusion.wav",
+          "duration": 103.538958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 103.538958,
+          "startTime": 1768.072458,
+          "endTime": 1871.6114160000002
+        }
+      ],
+      "totalDuration": 1871.6114160000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.76,
+          "actualStart": 0,
+          "actualEnd": 75.755375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years Shaped by Family and Place",
+          "expectedStart": 75.76,
+          "expectedEnd": 315.47,
+          "actualStart": 77.255375,
+          "actualEnd": 316.967708,
+          "timeDifference": 1.4953749999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering Ambition and Facing Early Setbacks",
+          "expectedStart": 315.47,
+          "expectedEnd": 523.57,
+          "actualStart": 318.467708,
+          "actualEnd": 526.569583,
+          "timeDifference": 2.9977079999999887
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Change and Seizing New Opportunities",
+          "expectedStart": 523.57,
+          "expectedEnd": 766.31,
+          "actualStart": 528.069583,
+          "actualEnd": 770.804625,
+          "timeDifference": 4.499582999999916
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Adversity and Building Inner Strength",
+          "expectedStart": 766.31,
+          "expectedEnd": 968.39,
+          "actualStart": 772.304625,
+          "actualEnd": 974.38175,
+          "timeDifference": 5.994625000000042
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Purpose and Making a Lasting Impact",
+          "expectedStart": 968.39,
+          "expectedEnd": 1115.28,
+          "actualStart": 975.88175,
+          "actualEnd": 1122.774042,
+          "timeDifference": 7.491750000000025
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Leadership Forged in Quiet Moments",
+          "expectedStart": 1115.28,
+          "expectedEnd": 1256.04,
+          "actualStart": 1124.274042,
+          "actualEnd": 1265.037875,
+          "timeDifference": 8.994042000000036
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost and Gift of Sacrifice",
+          "expectedStart": 1256.04,
+          "expectedEnd": 1398.4,
+          "actualStart": 1266.537875,
+          "actualEnd": 1408.89325,
+          "timeDifference": 10.497875000000022
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy in the Making",
+          "expectedStart": 1398.4,
+          "expectedEnd": 1520.98,
+          "actualStart": 1410.39325,
+          "actualEnd": 1532.974792,
+          "timeDifference": 11.993249999999989
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections on Meaning and Mortality",
+          "expectedStart": 1520.98,
+          "expectedEnd": 1653.43,
+          "actualStart": 1534.474792,
+          "actualEnd": 1666.920125,
+          "timeDifference": 13.494791999999961
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Passing the Torch",
+          "expectedStart": 1653.43,
+          "expectedEnd": 1751.58,
+          "actualStart": 1668.420125,
+          "actualEnd": 1766.572458,
+          "timeDifference": 14.990125000000035
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1751.58,
+          "expectedEnd": 1855.12,
+          "actualStart": 1768.072458,
+          "actualEnd": 1871.6114160000002,
+          "timeDifference": 16.49245800000017
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.755375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years Shaped by Family and Place"
+        },
+        {
+          "startTime": 316.967708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years Shaped by Family and Place and Chapter 2 Discovering Ambition and Facing Early Setbacks"
+        },
+        {
+          "startTime": 526.569583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering Ambition and Facing Early Setbacks and Chapter 3 Embracing Change and Seizing New Opportunities"
+        },
+        {
+          "startTime": 770.804625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Change and Seizing New Opportunities and Chapter 4 Navigating Adversity and Building Inner Strength"
+        },
+        {
+          "startTime": 974.38175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Adversity and Building Inner Strength and Chapter 5 Finding Purpose and Making a Lasting Impact"
+        },
+        {
+          "startTime": 1122.774042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Purpose and Making a Lasting Impact and Chapter 6 Leadership Forged in Quiet Moments"
+        },
+        {
+          "startTime": 1265.037875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Leadership Forged in Quiet Moments and Chapter 7 The Cost and Gift of Sacrifice"
+        },
+        {
+          "startTime": 1408.89325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost and Gift of Sacrifice and Chapter 8 Legacy in the Making"
+        },
+        {
+          "startTime": 1532.974792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy in the Making and Chapter 9 Reflections on Meaning and Mortality"
+        },
+        {
+          "startTime": 1666.920125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections on Meaning and Mortality and Chapter 10 Passing the Torch"
+        },
+        {
+          "startTime": 1766.572458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Passing the Torch and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1259",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T01:14:23.283Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

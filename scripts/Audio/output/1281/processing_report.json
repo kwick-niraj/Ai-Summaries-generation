@@ -1,0 +1,552 @@
+{
+  "bookId": "1281",
+  "timestamp": "2025-07-07T03:10:48.090Z",
+  "success": false,
+  "processingTime": -1751857393421,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5468,
+    "totalAudioFiles": 16,
+    "totalDuration": 2662.4848349999993
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2662.4848349999993
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1281/optimized_text/1281.md",
+    "fileSize": 887,
+    "wordCount": 126,
+    "format": "markdown",
+    "filename": "1281.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1281/metadata/1281_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2662.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1281/metadata/1281_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1281/metadata/1281_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1281/1281_complete.wav",
+    "duration": 2662.484833,
+    "fileSize": 127799350,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1281/introduction.wav",
+          "duration": 108.340667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.340667,
+          "startTime": 0,
+          "endTime": 108.340667
+        },
+        {
+          "path": "Audio/output/1281/chapter_01.wav",
+          "duration": 204.777958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering Awe in a World That Forgets",
+          "actualDuration": 204.777958,
+          "startTime": 109.840667,
+          "endTime": 314.618625
+        },
+        {
+          "path": "Audio/output/1281/chapter_02.wav",
+          "duration": 220.94475,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Danger of a Diminished View of God",
+          "actualDuration": 220.94475,
+          "startTime": 316.118625,
+          "endTime": 537.063375
+        },
+        {
+          "path": "Audio/output/1281/chapter_03.wav",
+          "duration": 189.147125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mystery and Majesty of God’s Nature",
+          "actualDuration": 189.147125,
+          "startTime": 538.563375,
+          "endTime": 727.7104999999999
+        },
+        {
+          "path": "Audio/output/1281/chapter_04.wav",
+          "duration": 194.321583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Understanding God’s Attributes and Their Impact on Life",
+          "actualDuration": 194.321583,
+          "startTime": 729.2104999999999,
+          "endTime": 923.532083
+        },
+        {
+          "path": "Audio/output/1281/chapter_05.wav",
+          "duration": 225.023792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Heart of True Worship and the Call to Reverence",
+          "actualDuration": 225.023792,
+          "startTime": 925.032083,
+          "endTime": 1150.055875
+        },
+        {
+          "path": "Audio/output/1281/chapter_06.wav",
+          "duration": 180.070417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 God’s Holiness—The Center of His Being",
+          "actualDuration": 180.070417,
+          "startTime": 1151.555875,
+          "endTime": 1331.626292
+        },
+        {
+          "path": "Audio/output/1281/chapter_07.wav",
+          "duration": 173.430167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Love of God—A Surprising Kindness",
+          "actualDuration": 173.430167,
+          "startTime": 1333.126292,
+          "endTime": 1506.556459
+        },
+        {
+          "path": "Audio/output/1281/chapter_08.wav",
+          "duration": 157.030667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 God’s Wisdom—Trusting the Unseen Path",
+          "actualDuration": 157.030667,
+          "startTime": 1508.056459,
+          "endTime": 1665.087126
+        },
+        {
+          "path": "Audio/output/1281/chapter_09.wav",
+          "duration": 148.252167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Justice and Mercy of God—Holding Tension",
+          "actualDuration": 148.252167,
+          "startTime": 1666.587126,
+          "endTime": 1814.839293
+        },
+        {
+          "path": "Audio/output/1281/chapter_10.wav",
+          "duration": 142.028083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 God’s Immutability—The Anchor in a Changing World",
+          "actualDuration": 142.028083,
+          "startTime": 1816.339293,
+          "endTime": 1958.367376
+        },
+        {
+          "path": "Audio/output/1281/chapter_11.wav",
+          "duration": 152.061,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 God’s Omnipresence—Nearer Than We Think",
+          "actualDuration": 152.061,
+          "startTime": 1959.867376,
+          "endTime": 2111.928376
+        },
+        {
+          "path": "Audio/output/1281/chapter_12.wav",
+          "duration": 164.658292,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Sovereignty of God—Resting in His Reign",
+          "actualDuration": 164.658292,
+          "startTime": 2113.428376,
+          "endTime": 2278.086668
+        },
+        {
+          "path": "Audio/output/1281/chapter_13.wav",
+          "duration": 122.947625,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Call to Know God—A Lifelong Journey",
+          "actualDuration": 122.947625,
+          "startTime": 2279.586668,
+          "endTime": 2402.5342929999997
+        },
+        {
+          "path": "Audio/output/1281/chapter_14.wav",
+          "duration": 125.96775,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Living in Light of God’s Majesty",
+          "actualDuration": 125.96775,
+          "startTime": 2404.0342929999997,
+          "endTime": 2530.0020429999995
+        },
+        {
+          "path": "Audio/output/1281/conclusion.wav",
+          "duration": 153.482792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 153.482792,
+          "startTime": 2531.5020429999995,
+          "endTime": 2684.9848349999993
+        }
+      ],
+      "totalDuration": 2684.9848349999993,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.34,
+          "actualStart": 0,
+          "actualEnd": 108.340667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering Awe in a World That Forgets",
+          "expectedStart": 108.34,
+          "expectedEnd": 313.12,
+          "actualStart": 109.840667,
+          "actualEnd": 314.618625,
+          "timeDifference": 1.5006669999999929
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Danger of a Diminished View of God",
+          "expectedStart": 313.12,
+          "expectedEnd": 534.06,
+          "actualStart": 316.118625,
+          "actualEnd": 537.063375,
+          "timeDifference": 2.998625000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mystery and Majesty of God’s Nature",
+          "expectedStart": 534.06,
+          "expectedEnd": 723.21,
+          "actualStart": 538.563375,
+          "actualEnd": 727.7104999999999,
+          "timeDifference": 4.5033750000000055
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Understanding God’s Attributes and Their Impact on Life",
+          "expectedStart": 723.21,
+          "expectedEnd": 917.53,
+          "actualStart": 729.2104999999999,
+          "actualEnd": 923.532083,
+          "timeDifference": 6.0004999999998745
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Heart of True Worship and the Call to Reverence",
+          "expectedStart": 917.53,
+          "expectedEnd": 1142.55,
+          "actualStart": 925.032083,
+          "actualEnd": 1150.055875,
+          "timeDifference": 7.5020829999999705
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 God’s Holiness—The Center of His Being",
+          "expectedStart": 1142.55,
+          "expectedEnd": 1322.62,
+          "actualStart": 1151.555875,
+          "actualEnd": 1331.626292,
+          "timeDifference": 9.00587500000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Love of God—A Surprising Kindness",
+          "expectedStart": 1322.62,
+          "expectedEnd": 1496.05,
+          "actualStart": 1333.126292,
+          "actualEnd": 1506.556459,
+          "timeDifference": 10.50629200000003
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 God’s Wisdom—Trusting the Unseen Path",
+          "expectedStart": 1496.05,
+          "expectedEnd": 1653.08,
+          "actualStart": 1508.056459,
+          "actualEnd": 1665.087126,
+          "timeDifference": 12.00645899999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Justice and Mercy of God—Holding Tension",
+          "expectedStart": 1653.08,
+          "expectedEnd": 1801.33,
+          "actualStart": 1666.587126,
+          "actualEnd": 1814.839293,
+          "timeDifference": 13.507125999999971
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 God’s Immutability—The Anchor in a Changing World",
+          "expectedStart": 1801.33,
+          "expectedEnd": 1943.36,
+          "actualStart": 1816.339293,
+          "actualEnd": 1958.367376,
+          "timeDifference": 15.00929300000007
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 God’s Omnipresence—Nearer Than We Think",
+          "expectedStart": 1943.36,
+          "expectedEnd": 2095.42,
+          "actualStart": 1959.867376,
+          "actualEnd": 2111.928376,
+          "timeDifference": 16.507376000000022
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Sovereignty of God—Resting in His Reign",
+          "expectedStart": 2095.42,
+          "expectedEnd": 2260.08,
+          "actualStart": 2113.428376,
+          "actualEnd": 2278.086668,
+          "timeDifference": 18.00837599999977
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Call to Know God—A Lifelong Journey",
+          "expectedStart": 2260.08,
+          "expectedEnd": 2383.03,
+          "actualStart": 2279.586668,
+          "actualEnd": 2402.5342929999997,
+          "timeDifference": 19.50666799999999
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Living in Light of God’s Majesty",
+          "expectedStart": 2383.03,
+          "expectedEnd": 2509,
+          "actualStart": 2404.0342929999997,
+          "actualEnd": 2530.0020429999995,
+          "timeDifference": 21.004292999999507
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2509,
+          "expectedEnd": 2662.48,
+          "actualStart": 2531.5020429999995,
+          "actualEnd": 2684.9848349999993,
+          "timeDifference": 22.502042999999503
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.340667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering Awe in a World That Forgets"
+        },
+        {
+          "startTime": 314.618625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering Awe in a World That Forgets and Chapter 2 The Danger of a Diminished View of God"
+        },
+        {
+          "startTime": 537.063375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Danger of a Diminished View of God and Chapter 3 The Mystery and Majesty of God’s Nature"
+        },
+        {
+          "startTime": 727.7104999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mystery and Majesty of God’s Nature and Chapter 4 Understanding God’s Attributes and Their Impact on Life"
+        },
+        {
+          "startTime": 923.532083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Understanding God’s Attributes and Their Impact on Life and Chapter 5 The Heart of True Worship and the Call to Reverence"
+        },
+        {
+          "startTime": 1150.055875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Heart of True Worship and the Call to Reverence and Chapter 6 God’s Holiness—The Center of His Being"
+        },
+        {
+          "startTime": 1331.626292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 God’s Holiness—The Center of His Being and Chapter 7 The Love of God—A Surprising Kindness"
+        },
+        {
+          "startTime": 1506.556459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Love of God—A Surprising Kindness and Chapter 8 God’s Wisdom—Trusting the Unseen Path"
+        },
+        {
+          "startTime": 1665.087126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 God’s Wisdom—Trusting the Unseen Path and Chapter 9 The Justice and Mercy of God—Holding Tension"
+        },
+        {
+          "startTime": 1814.839293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Justice and Mercy of God—Holding Tension and Chapter 10 God’s Immutability—The Anchor in a Changing World"
+        },
+        {
+          "startTime": 1958.367376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 God’s Immutability—The Anchor in a Changing World and Chapter 11 God’s Omnipresence—Nearer Than We Think"
+        },
+        {
+          "startTime": 2111.928376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 God’s Omnipresence—Nearer Than We Think and Chapter 12 The Sovereignty of God—Resting in His Reign"
+        },
+        {
+          "startTime": 2278.086668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Sovereignty of God—Resting in His Reign and Chapter 13 The Call to Know God—A Lifelong Journey"
+        },
+        {
+          "startTime": 2402.5342929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Call to Know God—A Lifelong Journey and Chapter 14 Living in Light of God’s Majesty"
+        },
+        {
+          "startTime": 2530.0020429999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Living in Light of God’s Majesty and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1281",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T03:03:14.607Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

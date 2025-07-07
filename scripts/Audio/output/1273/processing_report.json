@@ -1,0 +1,504 @@
+{
+  "bookId": "1273",
+  "timestamp": "2025-07-07T02:17:34.315Z",
+  "success": false,
+  "processingTime": -1751854165611,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5617,
+    "totalAudioFiles": 14,
+    "totalDuration": 2634.2658329999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2634.2658329999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1273/optimized_text/1273.md",
+    "fileSize": 828,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "1273.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1273/metadata/1273_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2634.26,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1273/metadata/1273_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1273/metadata/1273_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1273/1273_complete.wav",
+    "duration": 2634.265833,
+    "fileSize": 126444838,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1273/introduction.wav",
+          "duration": 107.050208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.050208,
+          "startTime": 0,
+          "endTime": 107.050208
+        },
+        {
+          "path": "Audio/output/1273/chapter_01.wav",
+          "duration": 230.15,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Real Self Beneath Everyday Roles",
+          "actualDuration": 230.15,
+          "startTime": 108.550208,
+          "endTime": 338.700208
+        },
+        {
+          "path": "Audio/output/1273/chapter_02.wav",
+          "duration": 224.561125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Free from Old Patterns and Conditioning",
+          "actualDuration": 224.561125,
+          "startTime": 340.200208,
+          "endTime": 564.7613329999999
+        },
+        {
+          "path": "Audio/output/1273/chapter_03.wav",
+          "duration": 208.2035,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mindfulness and the Power of Present-Moment Awareness",
+          "actualDuration": 208.2035,
+          "startTime": 566.2613329999999,
+          "endTime": 774.4648329999999
+        },
+        {
+          "path": "Audio/output/1273/chapter_04.wav",
+          "duration": 221.789458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Challenges into Opportunities for Growth",
+          "actualDuration": 221.789458,
+          "startTime": 775.9648329999999,
+          "endTime": 997.7542909999999
+        },
+        {
+          "path": "Audio/output/1273/chapter_05.wav",
+          "duration": 208.897875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Spiritual Insights into Everyday Life",
+          "actualDuration": 208.897875,
+          "startTime": 999.2542909999999,
+          "endTime": 1208.1521659999999
+        },
+        {
+          "path": "Audio/output/1273/chapter_06.wav",
+          "duration": 229.661958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing Self-Acceptance: Making Peace with Imperfection",
+          "actualDuration": 229.661958,
+          "startTime": 1209.6521659999999,
+          "endTime": 1439.3141239999998
+        },
+        {
+          "path": "Audio/output/1273/chapter_07.wav",
+          "duration": 209.725375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Balancing Mind and Body: The Foundation of Well-Being",
+          "actualDuration": 209.725375,
+          "startTime": 1440.8141239999998,
+          "endTime": 1650.5394989999998
+        },
+        {
+          "path": "Audio/output/1273/chapter_08.wav",
+          "duration": 200.732375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Relationships: Mirrors for the Self",
+          "actualDuration": 200.732375,
+          "startTime": 1652.0394989999998,
+          "endTime": 1852.7718739999998
+        },
+        {
+          "path": "Audio/output/1273/chapter_09.wav",
+          "duration": 174.162875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Transformation: Habits for a Lifetime",
+          "actualDuration": 174.162875,
+          "startTime": 1854.2718739999998,
+          "endTime": 2028.4347489999998
+        },
+        {
+          "path": "Audio/output/1273/chapter_10.wav",
+          "duration": 175.484917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose: Aligning Actions with Values",
+          "actualDuration": 175.484917,
+          "startTime": 2029.9347489999998,
+          "endTime": 2205.419666
+        },
+        {
+          "path": "Audio/output/1273/chapter_11.wav",
+          "duration": 162.389542,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Navigating Uncertainty: Trusting the Process",
+          "actualDuration": 162.389542,
+          "startTime": 2206.919666,
+          "endTime": 2369.3092079999997
+        },
+        {
+          "path": "Audio/output/1273/chapter_12.wav",
+          "duration": 162.058583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ripple Effect: Sharing Growth with Others",
+          "actualDuration": 162.058583,
+          "startTime": 2370.8092079999997,
+          "endTime": 2532.8677909999997
+        },
+        {
+          "path": "Audio/output/1273/conclusion.wav",
+          "duration": 119.398042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.398042,
+          "startTime": 2534.3677909999997,
+          "endTime": 2653.7658329999995
+        }
+      ],
+      "totalDuration": 2653.7658329999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.05,
+          "actualStart": 0,
+          "actualEnd": 107.050208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Real Self Beneath Everyday Roles",
+          "expectedStart": 107.05,
+          "expectedEnd": 337.2,
+          "actualStart": 108.550208,
+          "actualEnd": 338.700208,
+          "timeDifference": 1.5002080000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Free from Old Patterns and Conditioning",
+          "expectedStart": 337.2,
+          "expectedEnd": 561.76,
+          "actualStart": 340.200208,
+          "actualEnd": 564.7613329999999,
+          "timeDifference": 3.0002079999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mindfulness and the Power of Present-Moment Awareness",
+          "expectedStart": 561.76,
+          "expectedEnd": 769.96,
+          "actualStart": 566.2613329999999,
+          "actualEnd": 774.4648329999999,
+          "timeDifference": 4.501332999999931
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Challenges into Opportunities for Growth",
+          "expectedStart": 769.96,
+          "expectedEnd": 991.75,
+          "actualStart": 775.9648329999999,
+          "actualEnd": 997.7542909999999,
+          "timeDifference": 6.004832999999849
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Spiritual Insights into Everyday Life",
+          "expectedStart": 991.75,
+          "expectedEnd": 1200.65,
+          "actualStart": 999.2542909999999,
+          "actualEnd": 1208.1521659999999,
+          "timeDifference": 7.504290999999853
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing Self-Acceptance: Making Peace with Imperfection",
+          "expectedStart": 1200.65,
+          "expectedEnd": 1430.31,
+          "actualStart": 1209.6521659999999,
+          "actualEnd": 1439.3141239999998,
+          "timeDifference": 9.002165999999761
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Balancing Mind and Body: The Foundation of Well-Being",
+          "expectedStart": 1430.31,
+          "expectedEnd": 1640.04,
+          "actualStart": 1440.8141239999998,
+          "actualEnd": 1650.5394989999998,
+          "timeDifference": 10.50412399999982
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Relationships: Mirrors for the Self",
+          "expectedStart": 1640.04,
+          "expectedEnd": 1840.77,
+          "actualStart": 1652.0394989999998,
+          "actualEnd": 1852.7718739999998,
+          "timeDifference": 11.999498999999787
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Transformation: Habits for a Lifetime",
+          "expectedStart": 1840.77,
+          "expectedEnd": 2014.93,
+          "actualStart": 1854.2718739999998,
+          "actualEnd": 2028.4347489999998,
+          "timeDifference": 13.501873999999816
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose: Aligning Actions with Values",
+          "expectedStart": 2014.93,
+          "expectedEnd": 2190.41,
+          "actualStart": 2029.9347489999998,
+          "actualEnd": 2205.419666,
+          "timeDifference": 15.00474899999972
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Navigating Uncertainty: Trusting the Process",
+          "expectedStart": 2190.41,
+          "expectedEnd": 2352.8,
+          "actualStart": 2206.919666,
+          "actualEnd": 2369.3092079999997,
+          "timeDifference": 16.509665999999925
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ripple Effect: Sharing Growth with Others",
+          "expectedStart": 2352.8,
+          "expectedEnd": 2514.86,
+          "actualStart": 2370.8092079999997,
+          "actualEnd": 2532.8677909999997,
+          "timeDifference": 18.00920799999949
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2514.86,
+          "expectedEnd": 2634.26,
+          "actualStart": 2534.3677909999997,
+          "actualEnd": 2653.7658329999995,
+          "timeDifference": 19.507790999999543
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.050208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Real Self Beneath Everyday Roles"
+        },
+        {
+          "startTime": 338.700208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Real Self Beneath Everyday Roles and Chapter 2 Breaking Free from Old Patterns and Conditioning"
+        },
+        {
+          "startTime": 564.7613329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Free from Old Patterns and Conditioning and Chapter 3 Mindfulness and the Power of Present-Moment Awareness"
+        },
+        {
+          "startTime": 774.4648329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mindfulness and the Power of Present-Moment Awareness and Chapter 4 Turning Challenges into Opportunities for Growth"
+        },
+        {
+          "startTime": 997.7542909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Challenges into Opportunities for Growth and Chapter 5 Integrating Spiritual Insights into Everyday Life"
+        },
+        {
+          "startTime": 1208.1521659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Spiritual Insights into Everyday Life and Chapter 6 Embracing Self-Acceptance: Making Peace with Imperfection"
+        },
+        {
+          "startTime": 1439.3141239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing Self-Acceptance: Making Peace with Imperfection and Chapter 7 Balancing Mind and Body: The Foundation of Well-Being"
+        },
+        {
+          "startTime": 1650.5394989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Balancing Mind and Body: The Foundation of Well-Being and Chapter 8 The Role of Relationships: Mirrors for the Self"
+        },
+        {
+          "startTime": 1852.7718739999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Relationships: Mirrors for the Self and Chapter 9 Sustaining Transformation: Habits for a Lifetime"
+        },
+        {
+          "startTime": 2028.4347489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Transformation: Habits for a Lifetime and Chapter 10 Living with Purpose: Aligning Actions with Values"
+        },
+        {
+          "startTime": 2205.419666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose: Aligning Actions with Values and Chapter 11 Navigating Uncertainty: Trusting the Process"
+        },
+        {
+          "startTime": 2369.3092079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Navigating Uncertainty: Trusting the Process and Chapter 12 The Ripple Effect: Sharing Growth with Others"
+        },
+        {
+          "startTime": 2532.8677909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ripple Effect: Sharing Growth with Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1273",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T02:09:26.800Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1240",
+  "timestamp": "2025-07-06T23:44:48.727Z",
+  "success": false,
+  "processingTime": -1751845121481,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5708,
+    "totalAudioFiles": 12,
+    "totalDuration": 2796.868749
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2796.868749
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1240/optimized_text/1240.md",
+    "fileSize": 657,
+    "wordCount": 76,
+    "format": "markdown",
+    "filename": "1240.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1240/metadata/1240_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2796.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1240/metadata/1240_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1240/metadata/1240_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 82,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1240/1240_complete.wav",
+    "duration": 2796.86875,
+    "fileSize": 134249778,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1240/introduction.wav",
+          "duration": 95.562167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.562167,
+          "startTime": 0,
+          "endTime": 95.562167
+        },
+        {
+          "path": "Audio/output/1240/chapter_01.wav",
+          "duration": 235.727208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing Gendered Barriers and Building Awareness",
+          "actualDuration": 235.727208,
+          "startTime": 97.062167,
+          "endTime": 332.789375
+        },
+        {
+          "path": "Audio/output/1240/chapter_02.wav",
+          "duration": 247.59275,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Cultivating Resilience and a Growth Mindset",
+          "actualDuration": 247.59275,
+          "startTime": 334.289375,
+          "endTime": 581.882125
+        },
+        {
+          "path": "Audio/output/1240/chapter_03.wav",
+          "duration": 311.004583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building and Leveraging Supportive Networks",
+          "actualDuration": 311.004583,
+          "startTime": 583.382125,
+          "endTime": 894.386708
+        },
+        {
+          "path": "Audio/output/1240/chapter_04.wav",
+          "duration": 284.89825,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mastering Self-Advocacy and Personal Branding",
+          "actualDuration": 284.89825,
+          "startTime": 895.886708,
+          "endTime": 1180.784958
+        },
+        {
+          "path": "Audio/output/1240/chapter_05.wav",
+          "duration": 245.5605,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aligning Authenticity with Strategic Career Planning",
+          "actualDuration": 245.5605,
+          "startTime": 1182.284958,
+          "endTime": 1427.845458
+        },
+        {
+          "path": "Audio/output/1240/chapter_06.wav",
+          "duration": 308.195292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Organizational Politics with Integrity",
+          "actualDuration": 308.195292,
+          "startTime": 1429.345458,
+          "endTime": 1737.5407500000001
+        },
+        {
+          "path": "Audio/output/1240/chapter_07.wav",
+          "duration": 276.799333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining Leadership Presence and Influence",
+          "actualDuration": 276.799333,
+          "startTime": 1739.0407500000001,
+          "endTime": 2015.840083
+        },
+        {
+          "path": "Audio/output/1240/chapter_08.wav",
+          "duration": 197.707625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Championing Diversity, Equity, and Inclusion",
+          "actualDuration": 197.707625,
+          "startTime": 2017.340083,
+          "endTime": 2215.047708
+        },
+        {
+          "path": "Audio/output/1240/chapter_09.wav",
+          "duration": 218.365333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Mentoring and Sponsoring the Next Generation",
+          "actualDuration": 218.365333,
+          "startTime": 2216.547708,
+          "endTime": 2434.9130410000002
+        },
+        {
+          "path": "Audio/output/1240/chapter_10.wav",
+          "duration": 213.559208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leading Through Change and Uncertainty",
+          "actualDuration": 213.559208,
+          "startTime": 2436.4130410000002,
+          "endTime": 2649.9722490000004
+        },
+        {
+          "path": "Audio/output/1240/conclusion.wav",
+          "duration": 161.8965,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 161.8965,
+          "startTime": 2651.4722490000004,
+          "endTime": 2813.368749
+        }
+      ],
+      "totalDuration": 2813.368749,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.56,
+          "actualStart": 0,
+          "actualEnd": 95.562167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing Gendered Barriers and Building Awareness",
+          "expectedStart": 95.56,
+          "expectedEnd": 331.29,
+          "actualStart": 97.062167,
+          "actualEnd": 332.789375,
+          "timeDifference": 1.502167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Cultivating Resilience and a Growth Mindset",
+          "expectedStart": 331.29,
+          "expectedEnd": 578.88,
+          "actualStart": 334.289375,
+          "actualEnd": 581.882125,
+          "timeDifference": 2.9993749999999864
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building and Leveraging Supportive Networks",
+          "expectedStart": 578.88,
+          "expectedEnd": 889.88,
+          "actualStart": 583.382125,
+          "actualEnd": 894.386708,
+          "timeDifference": 4.502124999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mastering Self-Advocacy and Personal Branding",
+          "expectedStart": 889.88,
+          "expectedEnd": 1174.78,
+          "actualStart": 895.886708,
+          "actualEnd": 1180.784958,
+          "timeDifference": 6.006708000000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aligning Authenticity with Strategic Career Planning",
+          "expectedStart": 1174.78,
+          "expectedEnd": 1420.34,
+          "actualStart": 1182.284958,
+          "actualEnd": 1427.845458,
+          "timeDifference": 7.504957999999988
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Organizational Politics with Integrity",
+          "expectedStart": 1420.34,
+          "expectedEnd": 1728.54,
+          "actualStart": 1429.345458,
+          "actualEnd": 1737.5407500000001,
+          "timeDifference": 9.00545800000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining Leadership Presence and Influence",
+          "expectedStart": 1728.54,
+          "expectedEnd": 2005.34,
+          "actualStart": 1739.0407500000001,
+          "actualEnd": 2015.840083,
+          "timeDifference": 10.500750000000153
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Championing Diversity, Equity, and Inclusion",
+          "expectedStart": 2005.34,
+          "expectedEnd": 2203.05,
+          "actualStart": 2017.340083,
+          "actualEnd": 2215.047708,
+          "timeDifference": 12.000083000000132
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Mentoring and Sponsoring the Next Generation",
+          "expectedStart": 2203.05,
+          "expectedEnd": 2421.42,
+          "actualStart": 2216.547708,
+          "actualEnd": 2434.9130410000002,
+          "timeDifference": 13.497707999999875
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leading Through Change and Uncertainty",
+          "expectedStart": 2421.42,
+          "expectedEnd": 2634.98,
+          "actualStart": 2436.4130410000002,
+          "actualEnd": 2649.9722490000004,
+          "timeDifference": 14.993041000000176
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2634.98,
+          "expectedEnd": 2796.88,
+          "actualStart": 2651.4722490000004,
+          "actualEnd": 2813.368749,
+          "timeDifference": 16.492249000000356
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.562167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing Gendered Barriers and Building Awareness"
+        },
+        {
+          "startTime": 332.789375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing Gendered Barriers and Building Awareness and Chapter 2 Cultivating Resilience and a Growth Mindset"
+        },
+        {
+          "startTime": 581.882125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Cultivating Resilience and a Growth Mindset and Chapter 3 Building and Leveraging Supportive Networks"
+        },
+        {
+          "startTime": 894.386708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building and Leveraging Supportive Networks and Chapter 4 Mastering Self-Advocacy and Personal Branding"
+        },
+        {
+          "startTime": 1180.784958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mastering Self-Advocacy and Personal Branding and Chapter 5 Aligning Authenticity with Strategic Career Planning"
+        },
+        {
+          "startTime": 1427.845458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aligning Authenticity with Strategic Career Planning and Chapter 6 Navigating Organizational Politics with Integrity"
+        },
+        {
+          "startTime": 1737.5407500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Organizational Politics with Integrity and Chapter 7 Sustaining Leadership Presence and Influence"
+        },
+        {
+          "startTime": 2015.840083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining Leadership Presence and Influence and Chapter 8 Championing Diversity, Equity, and Inclusion"
+        },
+        {
+          "startTime": 2215.047708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Championing Diversity, Equity, and Inclusion and Chapter 9 Mentoring and Sponsoring the Next Generation"
+        },
+        {
+          "startTime": 2434.9130410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Mentoring and Sponsoring the Next Generation and Chapter 10 Leading Through Change and Uncertainty"
+        },
+        {
+          "startTime": 2649.9722490000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leading Through Change and Uncertainty and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1240",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 82,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T23:38:42.674Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

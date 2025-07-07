@@ -1,0 +1,456 @@
+{
+  "bookId": "1185",
+  "timestamp": "2025-07-06T19:53:01.185Z",
+  "success": false,
+  "processingTime": -1751831055059,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4078,
+    "totalAudioFiles": 12,
+    "totalDuration": 1940.5524169999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1940.5524169999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1185/optimized_text/1185.md",
+    "fileSize": 773,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1185.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1185/metadata/1185_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1940.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1185/metadata/1185_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1185/metadata/1185_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1185/1185_complete.wav",
+    "duration": 1940.552417,
+    "fileSize": 93146594,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1185/introduction.wav",
+          "duration": 112.632583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.632583,
+          "startTime": 0,
+          "endTime": 112.632583
+        },
+        {
+          "path": "Audio/output/1185/chapter_01.wav",
+          "duration": 213.846375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Groundwork—Questioning What Can Be Known",
+          "actualDuration": 213.846375,
+          "startTime": 114.132583,
+          "endTime": 327.978958
+        },
+        {
+          "path": "Audio/output/1185/chapter_02.wav",
+          "duration": 188.024958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Systematic Doubt—Clearing the Slate for Certainty",
+          "actualDuration": 188.024958,
+          "startTime": 329.478958,
+          "endTime": 517.503916
+        },
+        {
+          "path": "Audio/output/1185/chapter_03.wav",
+          "duration": 167.32425,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The First Principle—The Thinking Self as the Foundation",
+          "actualDuration": 167.32425,
+          "startTime": 519.003916,
+          "endTime": 686.328166
+        },
+        {
+          "path": "Audio/output/1185/chapter_04.wav",
+          "duration": 158.866917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Existence of God—Securing the Foundation of Knowledge",
+          "actualDuration": 158.866917,
+          "startTime": 687.828166,
+          "endTime": 846.6950830000001
+        },
+        {
+          "path": "Audio/output/1185/chapter_05.wav",
+          "duration": 176.745792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Nature of Reality—Mind, Body, and the External World",
+          "actualDuration": 176.745792,
+          "startTime": 848.1950830000001,
+          "endTime": 1024.940875
+        },
+        {
+          "path": "Audio/output/1185/chapter_06.wav",
+          "duration": 182.491542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Path to Scientific Knowledge—From Certainty to Method",
+          "actualDuration": 182.491542,
+          "startTime": 1026.440875,
+          "endTime": 1208.932417
+        },
+        {
+          "path": "Audio/output/1185/chapter_07.wav",
+          "duration": 170.129333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Limits of Human Understanding—Error, Will, and Judgment",
+          "actualDuration": 170.129333,
+          "startTime": 1210.432417,
+          "endTime": 1380.56175
+        },
+        {
+          "path": "Audio/output/1185/chapter_08.wav",
+          "duration": 147.788167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of the Senses—Navigating the World with Caution",
+          "actualDuration": 147.788167,
+          "startTime": 1382.06175,
+          "endTime": 1529.849917
+        },
+        {
+          "path": "Audio/output/1185/chapter_09.wav",
+          "duration": 162.877875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Pursuit of Wisdom—Integrating Knowledge, Virtue, and Action",
+          "actualDuration": 162.877875,
+          "startTime": 1531.349917,
+          "endTime": 1694.227792
+        },
+        {
+          "path": "Audio/output/1185/chapter_10.wav",
+          "duration": 142.686625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Method—A Framework for Everyday Life",
+          "actualDuration": 142.686625,
+          "startTime": 1695.727792,
+          "endTime": 1838.414417
+        },
+        {
+          "path": "Audio/output/1185/conclusion.wav",
+          "duration": 117.138,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.138,
+          "startTime": 1839.914417,
+          "endTime": 1957.0524169999999
+        }
+      ],
+      "totalDuration": 1957.0524169999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.63,
+          "actualStart": 0,
+          "actualEnd": 112.632583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Groundwork—Questioning What Can Be Known",
+          "expectedStart": 112.63,
+          "expectedEnd": 326.48,
+          "actualStart": 114.132583,
+          "actualEnd": 327.978958,
+          "timeDifference": 1.5025830000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Systematic Doubt—Clearing the Slate for Certainty",
+          "expectedStart": 326.48,
+          "expectedEnd": 514.5,
+          "actualStart": 329.478958,
+          "actualEnd": 517.503916,
+          "timeDifference": 2.998957999999959
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The First Principle—The Thinking Self as the Foundation",
+          "expectedStart": 514.5,
+          "expectedEnd": 681.82,
+          "actualStart": 519.003916,
+          "actualEnd": 686.328166,
+          "timeDifference": 4.503916000000004
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Existence of God—Securing the Foundation of Knowledge",
+          "expectedStart": 681.82,
+          "expectedEnd": 840.69,
+          "actualStart": 687.828166,
+          "actualEnd": 846.6950830000001,
+          "timeDifference": 6.00816599999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Nature of Reality—Mind, Body, and the External World",
+          "expectedStart": 840.69,
+          "expectedEnd": 1017.44,
+          "actualStart": 848.1950830000001,
+          "actualEnd": 1024.940875,
+          "timeDifference": 7.505083000000013
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Path to Scientific Knowledge—From Certainty to Method",
+          "expectedStart": 1017.44,
+          "expectedEnd": 1199.93,
+          "actualStart": 1026.440875,
+          "actualEnd": 1208.932417,
+          "timeDifference": 9.00087499999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Limits of Human Understanding—Error, Will, and Judgment",
+          "expectedStart": 1199.93,
+          "expectedEnd": 1370.06,
+          "actualStart": 1210.432417,
+          "actualEnd": 1380.56175,
+          "timeDifference": 10.502416999999923
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of the Senses—Navigating the World with Caution",
+          "expectedStart": 1370.06,
+          "expectedEnd": 1517.85,
+          "actualStart": 1382.06175,
+          "actualEnd": 1529.849917,
+          "timeDifference": 12.00175000000013
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Pursuit of Wisdom—Integrating Knowledge, Virtue, and Action",
+          "expectedStart": 1517.85,
+          "expectedEnd": 1680.73,
+          "actualStart": 1531.349917,
+          "actualEnd": 1694.227792,
+          "timeDifference": 13.499917000000096
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Method—A Framework for Everyday Life",
+          "expectedStart": 1680.73,
+          "expectedEnd": 1823.42,
+          "actualStart": 1695.727792,
+          "actualEnd": 1838.414417,
+          "timeDifference": 14.99779199999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823.42,
+          "expectedEnd": 1940.56,
+          "actualStart": 1839.914417,
+          "actualEnd": 1957.0524169999999,
+          "timeDifference": 16.494416999999885
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.632583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Groundwork—Questioning What Can Be Known"
+        },
+        {
+          "startTime": 327.978958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Groundwork—Questioning What Can Be Known and Chapter 2 Systematic Doubt—Clearing the Slate for Certainty"
+        },
+        {
+          "startTime": 517.503916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Systematic Doubt—Clearing the Slate for Certainty and Chapter 3 The First Principle—The Thinking Self as the Foundation"
+        },
+        {
+          "startTime": 686.328166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The First Principle—The Thinking Self as the Foundation and Chapter 4 The Existence of God—Securing the Foundation of Knowledge"
+        },
+        {
+          "startTime": 846.6950830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Existence of God—Securing the Foundation of Knowledge and Chapter 5 The Nature of Reality—Mind, Body, and the External World"
+        },
+        {
+          "startTime": 1024.940875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Nature of Reality—Mind, Body, and the External World and Chapter 6 The Path to Scientific Knowledge—From Certainty to Method"
+        },
+        {
+          "startTime": 1208.932417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Path to Scientific Knowledge—From Certainty to Method and Chapter 7 The Limits of Human Understanding—Error, Will, and Judgment"
+        },
+        {
+          "startTime": 1380.56175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Limits of Human Understanding—Error, Will, and Judgment and Chapter 8 The Role of the Senses—Navigating the World with Caution"
+        },
+        {
+          "startTime": 1529.849917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of the Senses—Navigating the World with Caution and Chapter 9 The Pursuit of Wisdom—Integrating Knowledge, Virtue, and Action"
+        },
+        {
+          "startTime": 1694.227792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Pursuit of Wisdom—Integrating Knowledge, Virtue, and Action and Chapter 10 Living the Method—A Framework for Everyday Life"
+        },
+        {
+          "startTime": 1838.414417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Method—A Framework for Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1185",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T19:44:16.229Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

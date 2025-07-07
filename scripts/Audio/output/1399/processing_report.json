@@ -1,0 +1,456 @@
+{
+  "bookId": "1399",
+  "timestamp": "2025-07-07T13:14:39.547Z",
+  "success": false,
+  "processingTime": -1751893805006,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4752,
+    "totalAudioFiles": 12,
+    "totalDuration": 2040.498668
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2040.498668
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1399/optimized_text/1399.md",
+    "fileSize": 670,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1399.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1399/metadata/1399_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2040.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1399/metadata/1399_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1399/metadata/1399_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1399/1399_complete.wav",
+    "duration": 2040.498667,
+    "fileSize": 97944014,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1399/introduction.wav",
+          "duration": 89.38225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.38225,
+          "startTime": 0,
+          "endTime": 89.38225
+        },
+        {
+          "path": "Audio/output/1399/chapter_01.wav",
+          "duration": 206.446042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Curiosity and the Seeds of a Lifelong Obsession",
+          "actualDuration": 206.446042,
+          "startTime": 90.88225,
+          "endTime": 297.32829200000003
+        },
+        {
+          "path": "Audio/output/1399/chapter_02.wav",
+          "duration": 242.745333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Mentors and the Power of Value",
+          "actualDuration": 242.745333,
+          "startTime": 298.82829200000003,
+          "endTime": 541.573625
+        },
+        {
+          "path": "Audio/output/1399/chapter_03.wav",
+          "duration": 177.591417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Reputation and the Importance of Trust",
+          "actualDuration": 177.591417,
+          "startTime": 543.073625,
+          "endTime": 720.665042
+        },
+        {
+          "path": "Audio/output/1399/chapter_04.wav",
+          "duration": 212.555583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Snowball Effect: Compounding Success Over Time",
+          "actualDuration": 212.555583,
+          "startTime": 722.165042,
+          "endTime": 934.7206249999999
+        },
+        {
+          "path": "Audio/output/1399/chapter_05.wav",
+          "duration": 183.017792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Ambition with Personal Values",
+          "actualDuration": 183.017792,
+          "startTime": 936.2206249999999,
+          "endTime": 1119.238417
+        },
+        {
+          "path": "Audio/output/1399/chapter_06.wav",
+          "duration": 161.87375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Weathering Storms and Staying the Course",
+          "actualDuration": 161.87375,
+          "startTime": 1120.738417,
+          "endTime": 1282.612167
+        },
+        {
+          "path": "Audio/output/1399/chapter_07.wav",
+          "duration": 173.459917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Partnerships, Loyalty, and the Power of Shared Success",
+          "actualDuration": 173.459917,
+          "startTime": 1284.112167,
+          "endTime": 1457.572084
+        },
+        {
+          "path": "Audio/output/1399/chapter_08.wav",
+          "duration": 184.613125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Art of Saying No and the Discipline of Focus",
+          "actualDuration": 184.613125,
+          "startTime": 1459.072084,
+          "endTime": 1643.685209
+        },
+        {
+          "path": "Audio/output/1399/chapter_09.wav",
+          "duration": 142.202917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Philanthropy, Legacy, and the Meaning of Wealth",
+          "actualDuration": 142.202917,
+          "startTime": 1645.185209,
+          "endTime": 1787.388126
+        },
+        {
+          "path": "Audio/output/1399/chapter_10.wav",
+          "duration": 157.864167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wisdom, Simplicity, and the Ongoing Journey",
+          "actualDuration": 157.864167,
+          "startTime": 1788.888126,
+          "endTime": 1946.752293
+        },
+        {
+          "path": "Audio/output/1399/conclusion.wav",
+          "duration": 108.746375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.746375,
+          "startTime": 1948.252293,
+          "endTime": 2056.998668
+        }
+      ],
+      "totalDuration": 2056.998668,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.38,
+          "actualStart": 0,
+          "actualEnd": 89.38225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Curiosity and the Seeds of a Lifelong Obsession",
+          "expectedStart": 89.38,
+          "expectedEnd": 295.83,
+          "actualStart": 90.88225,
+          "actualEnd": 297.32829200000003,
+          "timeDifference": 1.5022500000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Mentors and the Power of Value",
+          "expectedStart": 295.83,
+          "expectedEnd": 538.58,
+          "actualStart": 298.82829200000003,
+          "actualEnd": 541.573625,
+          "timeDifference": 2.998292000000049
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Reputation and the Importance of Trust",
+          "expectedStart": 538.58,
+          "expectedEnd": 716.17,
+          "actualStart": 543.073625,
+          "actualEnd": 720.665042,
+          "timeDifference": 4.493624999999952
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Snowball Effect: Compounding Success Over Time",
+          "expectedStart": 716.17,
+          "expectedEnd": 928.73,
+          "actualStart": 722.165042,
+          "actualEnd": 934.7206249999999,
+          "timeDifference": 5.995042000000012
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Ambition with Personal Values",
+          "expectedStart": 928.73,
+          "expectedEnd": 1111.75,
+          "actualStart": 936.2206249999999,
+          "actualEnd": 1119.238417,
+          "timeDifference": 7.490624999999909
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Weathering Storms and Staying the Course",
+          "expectedStart": 1111.75,
+          "expectedEnd": 1273.62,
+          "actualStart": 1120.738417,
+          "actualEnd": 1282.612167,
+          "timeDifference": 8.988417000000027
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Partnerships, Loyalty, and the Power of Shared Success",
+          "expectedStart": 1273.62,
+          "expectedEnd": 1447.08,
+          "actualStart": 1284.112167,
+          "actualEnd": 1457.572084,
+          "timeDifference": 10.492167000000109
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Art of Saying No and the Discipline of Focus",
+          "expectedStart": 1447.08,
+          "expectedEnd": 1631.69,
+          "actualStart": 1459.072084,
+          "actualEnd": 1643.685209,
+          "timeDifference": 11.992083999999977
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Philanthropy, Legacy, and the Meaning of Wealth",
+          "expectedStart": 1631.69,
+          "expectedEnd": 1773.89,
+          "actualStart": 1645.185209,
+          "actualEnd": 1787.388126,
+          "timeDifference": 13.495208999999932
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wisdom, Simplicity, and the Ongoing Journey",
+          "expectedStart": 1773.89,
+          "expectedEnd": 1931.75,
+          "actualStart": 1788.888126,
+          "actualEnd": 1946.752293,
+          "timeDifference": 14.998125999999957
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1931.75,
+          "expectedEnd": 2040.5,
+          "actualStart": 1948.252293,
+          "actualEnd": 2056.998668,
+          "timeDifference": 16.50229300000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.38225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Curiosity and the Seeds of a Lifelong Obsession"
+        },
+        {
+          "startTime": 297.32829200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Curiosity and the Seeds of a Lifelong Obsession and Chapter 2 Learning from Mentors and the Power of Value"
+        },
+        {
+          "startTime": 541.573625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Mentors and the Power of Value and Chapter 3 Building a Reputation and the Importance of Trust"
+        },
+        {
+          "startTime": 720.665042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Reputation and the Importance of Trust and Chapter 4 The Snowball Effect: Compounding Success Over Time"
+        },
+        {
+          "startTime": 934.7206249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Snowball Effect: Compounding Success Over Time and Chapter 5 Balancing Ambition with Personal Values"
+        },
+        {
+          "startTime": 1119.238417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Ambition with Personal Values and Chapter 6 Weathering Storms and Staying the Course"
+        },
+        {
+          "startTime": 1282.612167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Weathering Storms and Staying the Course and Chapter 7 Partnerships, Loyalty, and the Power of Shared Success"
+        },
+        {
+          "startTime": 1457.572084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Partnerships, Loyalty, and the Power of Shared Success and Chapter 8 The Art of Saying No and the Discipline of Focus"
+        },
+        {
+          "startTime": 1643.685209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Art of Saying No and the Discipline of Focus and Chapter 9 Philanthropy, Legacy, and the Meaning of Wealth"
+        },
+        {
+          "startTime": 1787.388126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Philanthropy, Legacy, and the Meaning of Wealth and Chapter 10 Wisdom, Simplicity, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1946.752293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wisdom, Simplicity, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1399",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T13:10:06.178Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

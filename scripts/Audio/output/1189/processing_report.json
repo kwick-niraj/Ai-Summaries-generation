@@ -1,0 +1,456 @@
+{
+  "bookId": "1189",
+  "timestamp": "2025-07-06T20:10:21.523Z",
+  "success": false,
+  "processingTime": -1751832168321,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4146,
+    "totalAudioFiles": 12,
+    "totalDuration": 2038.273417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2038.273417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1189/optimized_text/1189.md",
+    "fileSize": 623,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "1189.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1189/metadata/1189_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2038.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1189/metadata/1189_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1189/metadata/1189_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1189/1189_complete.wav",
+    "duration": 2038.273417,
+    "fileSize": 97837202,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1189/introduction.wav",
+          "duration": 108.080708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.080708,
+          "startTime": 0,
+          "endTime": 108.080708
+        },
+        {
+          "path": "Audio/output/1189/chapter_01.wav",
+          "duration": 265.983458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Foreign Arrival and the Shadow of Old Crimes",
+          "actualDuration": 265.983458,
+          "startTime": 109.580708,
+          "endTime": 375.564166
+        },
+        {
+          "path": "Audio/output/1189/chapter_02.wav",
+          "duration": 226.977167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Murders and the Making of a Legend",
+          "actualDuration": 226.977167,
+          "startTime": 377.064166,
+          "endTime": 604.041333
+        },
+        {
+          "path": "Audio/output/1189/chapter_03.wav",
+          "duration": 229.362958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Investigation’s Twists and the Cost of Obsession",
+          "actualDuration": 229.362958,
+          "startTime": 605.541333,
+          "endTime": 834.9042910000001
+        },
+        {
+          "path": "Audio/output/1189/chapter_04.wav",
+          "duration": 204.850083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Media, Public Opinion, and the Dangers of Conspiracy",
+          "actualDuration": 204.850083,
+          "startTime": 836.4042910000001,
+          "endTime": 1041.254374
+        },
+        {
+          "path": "Audio/output/1189/chapter_05.wav",
+          "duration": 178.434375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Personal Toll and the Search for Meaning",
+          "actualDuration": 178.434375,
+          "startTime": 1042.754374,
+          "endTime": 1221.1887490000001
+        },
+        {
+          "path": "Audio/output/1189/chapter_06.wav",
+          "duration": 159.088292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath: Echoes in the Hills",
+          "actualDuration": 159.088292,
+          "startTime": 1222.6887490000001,
+          "endTime": 1381.777041
+        },
+        {
+          "path": "Audio/output/1189/chapter_07.wav",
+          "duration": 141.419167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ongoing Hunt: New Theories, Old Fears",
+          "actualDuration": 141.419167,
+          "startTime": 1383.277041,
+          "endTime": 1524.696208
+        },
+        {
+          "path": "Audio/output/1189/chapter_08.wav",
+          "duration": 149.150292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Justice on Trial: The System’s Struggle",
+          "actualDuration": 149.150292,
+          "startTime": 1526.196208,
+          "endTime": 1675.3465
+        },
+        {
+          "path": "Audio/output/1189/chapter_09.wav",
+          "duration": 123.617667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Heart: Fear, Memory, and Resilience",
+          "actualDuration": 123.617667,
+          "startTime": 1676.8465,
+          "endTime": 1800.464167
+        },
+        {
+          "path": "Audio/output/1189/chapter_10.wav",
+          "duration": 126.241292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections: What Remains",
+          "actualDuration": 126.241292,
+          "startTime": 1801.964167,
+          "endTime": 1928.205459
+        },
+        {
+          "path": "Audio/output/1189/conclusion.wav",
+          "duration": 125.067958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.067958,
+          "startTime": 1929.705459,
+          "endTime": 2054.773417
+        }
+      ],
+      "totalDuration": 2054.773417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.08,
+          "actualStart": 0,
+          "actualEnd": 108.080708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Foreign Arrival and the Shadow of Old Crimes",
+          "expectedStart": 108.08,
+          "expectedEnd": 374.06,
+          "actualStart": 109.580708,
+          "actualEnd": 375.564166,
+          "timeDifference": 1.500708000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Murders and the Making of a Legend",
+          "expectedStart": 374.06,
+          "expectedEnd": 601.04,
+          "actualStart": 377.064166,
+          "actualEnd": 604.041333,
+          "timeDifference": 3.004165999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Investigation’s Twists and the Cost of Obsession",
+          "expectedStart": 601.04,
+          "expectedEnd": 830.4,
+          "actualStart": 605.541333,
+          "actualEnd": 834.9042910000001,
+          "timeDifference": 4.501333000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Media, Public Opinion, and the Dangers of Conspiracy",
+          "expectedStart": 830.4,
+          "expectedEnd": 1035.25,
+          "actualStart": 836.4042910000001,
+          "actualEnd": 1041.254374,
+          "timeDifference": 6.00429100000008
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Personal Toll and the Search for Meaning",
+          "expectedStart": 1035.25,
+          "expectedEnd": 1213.68,
+          "actualStart": 1042.754374,
+          "actualEnd": 1221.1887490000001,
+          "timeDifference": 7.504374000000098
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath: Echoes in the Hills",
+          "expectedStart": 1213.68,
+          "expectedEnd": 1372.77,
+          "actualStart": 1222.6887490000001,
+          "actualEnd": 1381.777041,
+          "timeDifference": 9.00874900000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ongoing Hunt: New Theories, Old Fears",
+          "expectedStart": 1372.77,
+          "expectedEnd": 1514.19,
+          "actualStart": 1383.277041,
+          "actualEnd": 1524.696208,
+          "timeDifference": 10.507041000000072
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Justice on Trial: The System’s Struggle",
+          "expectedStart": 1514.19,
+          "expectedEnd": 1663.34,
+          "actualStart": 1526.196208,
+          "actualEnd": 1675.3465,
+          "timeDifference": 12.006208000000015
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Heart: Fear, Memory, and Resilience",
+          "expectedStart": 1663.34,
+          "expectedEnd": 1786.96,
+          "actualStart": 1676.8465,
+          "actualEnd": 1800.464167,
+          "timeDifference": 13.506500000000187
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections: What Remains",
+          "expectedStart": 1786.96,
+          "expectedEnd": 1913.2,
+          "actualStart": 1801.964167,
+          "actualEnd": 1928.205459,
+          "timeDifference": 15.004167000000052
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1913.2,
+          "expectedEnd": 2038.27,
+          "actualStart": 1929.705459,
+          "actualEnd": 2054.773417,
+          "timeDifference": 16.505458999999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.080708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Foreign Arrival and the Shadow of Old Crimes"
+        },
+        {
+          "startTime": 375.564166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Foreign Arrival and the Shadow of Old Crimes and Chapter 2 The Murders and the Making of a Legend"
+        },
+        {
+          "startTime": 604.041333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Murders and the Making of a Legend and Chapter 3 The Investigation’s Twists and the Cost of Obsession"
+        },
+        {
+          "startTime": 834.9042910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Investigation’s Twists and the Cost of Obsession and Chapter 4 Media, Public Opinion, and the Dangers of Conspiracy"
+        },
+        {
+          "startTime": 1041.254374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Media, Public Opinion, and the Dangers of Conspiracy and Chapter 5 The Personal Toll and the Search for Meaning"
+        },
+        {
+          "startTime": 1221.1887490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Personal Toll and the Search for Meaning and Chapter 6 The Aftermath: Echoes in the Hills"
+        },
+        {
+          "startTime": 1381.777041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath: Echoes in the Hills and Chapter 7 The Ongoing Hunt: New Theories, Old Fears"
+        },
+        {
+          "startTime": 1524.696208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ongoing Hunt: New Theories, Old Fears and Chapter 8 Justice on Trial: The System’s Struggle"
+        },
+        {
+          "startTime": 1675.3465,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Justice on Trial: The System’s Struggle and Chapter 9 The Human Heart: Fear, Memory, and Resilience"
+        },
+        {
+          "startTime": 1800.464167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Heart: Fear, Memory, and Resilience and Chapter 10 Reflections: What Remains"
+        },
+        {
+          "startTime": 1928.205459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections: What Remains and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1189",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T20:02:49.515Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

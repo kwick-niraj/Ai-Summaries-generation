@@ -1,0 +1,503 @@
+{
+  "bookId": "1289",
+  "timestamp": "2025-07-07T03:53:51.021Z",
+  "success": false,
+  "processingTime": -1751859752722,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5369,
+    "totalAudioFiles": 14,
+    "totalDuration": 2292.2852080000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2292.2852080000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1289/optimized_text/1289.md",
+    "fileSize": 865,
+    "wordCount": 122,
+    "format": "markdown",
+    "filename": "1289.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1289/metadata/1289_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2292.29,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1289/metadata/1289_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1289/metadata/1289_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1289/1289_complete.wav",
+    "duration": 2292.285208,
+    "fileSize": 110029768,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1289/introduction.wav",
+          "duration": 103.955792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.955792,
+          "startTime": 0,
+          "endTime": 103.955792
+        },
+        {
+          "path": "Audio/output/1289/chapter_01.wav",
+          "duration": 294.303542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a New World and Facing Unfamiliar Realities",
+          "actualDuration": 294.303542,
+          "startTime": 105.455792,
+          "endTime": 399.75933399999997
+        },
+        {
+          "path": "Audio/output/1289/chapter_02.wav",
+          "duration": 247.662292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Trust and Navigating Cultural Barriers",
+          "actualDuration": 247.662292,
+          "startTime": 401.25933399999997,
+          "endTime": 648.921626
+        },
+        {
+          "path": "Audio/output/1289/chapter_03.wav",
+          "duration": 218.760125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power and Peril of Women’s Work",
+          "actualDuration": 218.760125,
+          "startTime": 650.421626,
+          "endTime": 869.181751
+        },
+        {
+          "path": "Audio/output/1289/chapter_04.wav",
+          "duration": 198.225708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Friendship, Family, and the Complexities of Aid",
+          "actualDuration": 198.225708,
+          "startTime": 870.681751,
+          "endTime": 1068.907459
+        },
+        {
+          "path": "Audio/output/1289/chapter_05.wav",
+          "duration": 154.38325,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Resilience, Hope, and the Ongoing Struggle for Change",
+          "actualDuration": 154.38325,
+          "startTime": 1070.407459,
+          "endTime": 1224.790709
+        },
+        {
+          "path": "Audio/output/1289/chapter_06.wav",
+          "duration": 170.212333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Classroom as Sanctuary and Stage",
+          "actualDuration": 170.212333,
+          "startTime": 1226.290709,
+          "endTime": 1396.503042
+        },
+        {
+          "path": "Audio/output/1289/chapter_07.wav",
+          "duration": 147.936083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Weddings, Rituals, and the Business of Beauty",
+          "actualDuration": 147.936083,
+          "startTime": 1398.003042,
+          "endTime": 1545.939125
+        },
+        {
+          "path": "Audio/output/1289/chapter_08.wav",
+          "duration": 150.110958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shadows of the Past and the Weight of Secrets",
+          "actualDuration": 150.110958,
+          "startTime": 1547.439125,
+          "endTime": 1697.550083
+        },
+        {
+          "path": "Audio/output/1289/chapter_09.wav",
+          "duration": 138.286167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ties That Bind—Friendship, Loyalty, and Betrayal",
+          "actualDuration": 138.286167,
+          "startTime": 1699.050083,
+          "endTime": 1837.33625
+        },
+        {
+          "path": "Audio/output/1289/chapter_10.wav",
+          "duration": 137.3425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Cost of Change—Sacrifice, Loss, and the Price of Progress",
+          "actualDuration": 137.3425,
+          "startTime": 1838.83625,
+          "endTime": 1976.17875
+        },
+        {
+          "path": "Audio/output/1289/chapter_11.wav",
+          "duration": 120.828833,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ripple Effect—Family, Community, and the Seeds of Transformation",
+          "actualDuration": 120.828833,
+          "startTime": 1977.67875,
+          "endTime": 2098.507583
+        },
+        {
+          "path": "Audio/output/1289/chapter_12.wav",
+          "duration": 108.560708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Saying Goodbye—Endings, New Beginnings, and the Legacy of the School",
+          "actualDuration": 108.560708,
+          "startTime": 2100.007583,
+          "endTime": 2208.568291
+        },
+        {
+          "path": "Audio/output/1289/conclusion.wav",
+          "duration": 101.716917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.716917,
+          "startTime": 2210.068291,
+          "endTime": 2311.7852080000002
+        }
+      ],
+      "totalDuration": 2311.7852080000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.96,
+          "actualStart": 0,
+          "actualEnd": 103.955792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a New World and Facing Unfamiliar Realities",
+          "expectedStart": 103.96,
+          "expectedEnd": 398.26,
+          "actualStart": 105.455792,
+          "actualEnd": 399.75933399999997,
+          "timeDifference": 1.4957920000000087
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Trust and Navigating Cultural Barriers",
+          "expectedStart": 398.26,
+          "expectedEnd": 645.92,
+          "actualStart": 401.25933399999997,
+          "actualEnd": 648.921626,
+          "timeDifference": 2.999333999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power and Peril of Women’s Work",
+          "expectedStart": 645.92,
+          "expectedEnd": 864.68,
+          "actualStart": 650.421626,
+          "actualEnd": 869.181751,
+          "timeDifference": 4.5016259999999875
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Friendship, Family, and the Complexities of Aid",
+          "expectedStart": 864.68,
+          "expectedEnd": 1062.91,
+          "actualStart": 870.681751,
+          "actualEnd": 1068.907459,
+          "timeDifference": 6.001751000000013
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Resilience, Hope, and the Ongoing Struggle for Change",
+          "expectedStart": 1062.91,
+          "expectedEnd": 1217.29,
+          "actualStart": 1070.407459,
+          "actualEnd": 1224.790709,
+          "timeDifference": 7.497458999999935
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Classroom as Sanctuary and Stage",
+          "expectedStart": 1217.29,
+          "expectedEnd": 1387.5,
+          "actualStart": 1226.290709,
+          "actualEnd": 1396.503042,
+          "timeDifference": 9.000709000000143
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Weddings, Rituals, and the Business of Beauty",
+          "expectedStart": 1387.5,
+          "expectedEnd": 1535.44,
+          "actualStart": 1398.003042,
+          "actualEnd": 1545.939125,
+          "timeDifference": 10.50304200000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shadows of the Past and the Weight of Secrets",
+          "expectedStart": 1535.44,
+          "expectedEnd": 1685.55,
+          "actualStart": 1547.439125,
+          "actualEnd": 1697.550083,
+          "timeDifference": 11.99912500000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ties That Bind—Friendship, Loyalty, and Betrayal",
+          "expectedStart": 1685.55,
+          "expectedEnd": 1823.84,
+          "actualStart": 1699.050083,
+          "actualEnd": 1837.33625,
+          "timeDifference": 13.500083000000132
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Cost of Change—Sacrifice, Loss, and the Price of Progress",
+          "expectedStart": 1823.84,
+          "expectedEnd": 1961.18,
+          "actualStart": 1838.83625,
+          "actualEnd": 1976.17875,
+          "timeDifference": 14.996250000000146
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ripple Effect—Family, Community, and the Seeds of Transformation",
+          "expectedStart": 1961.18,
+          "expectedEnd": 2082.01,
+          "actualStart": 1977.67875,
+          "actualEnd": 2098.507583,
+          "timeDifference": 16.498749999999973
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Saying Goodbye—Endings, New Beginnings, and the Legacy of the School",
+          "expectedStart": 2082.01,
+          "expectedEnd": 2190.57,
+          "actualStart": 2100.007583,
+          "actualEnd": 2208.568291,
+          "timeDifference": 17.99758299999985
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2190.57,
+          "expectedEnd": 2292.29,
+          "actualStart": 2210.068291,
+          "actualEnd": 2311.7852080000002,
+          "timeDifference": 19.49829099999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.955792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a New World and Facing Unfamiliar Realities"
+        },
+        {
+          "startTime": 399.75933399999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a New World and Facing Unfamiliar Realities and Chapter 2 Building Trust and Navigating Cultural Barriers"
+        },
+        {
+          "startTime": 648.921626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Trust and Navigating Cultural Barriers and Chapter 3 The Power and Peril of Women’s Work"
+        },
+        {
+          "startTime": 869.181751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power and Peril of Women’s Work and Chapter 4 Friendship, Family, and the Complexities of Aid"
+        },
+        {
+          "startTime": 1068.907459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Friendship, Family, and the Complexities of Aid and Chapter 5 Resilience, Hope, and the Ongoing Struggle for Change"
+        },
+        {
+          "startTime": 1224.790709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Resilience, Hope, and the Ongoing Struggle for Change and Chapter 6 The Classroom as Sanctuary and Stage"
+        },
+        {
+          "startTime": 1396.503042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Classroom as Sanctuary and Stage and Chapter 7 Weddings, Rituals, and the Business of Beauty"
+        },
+        {
+          "startTime": 1545.939125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Weddings, Rituals, and the Business of Beauty and Chapter 8 The Shadows of the Past and the Weight of Secrets"
+        },
+        {
+          "startTime": 1697.550083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shadows of the Past and the Weight of Secrets and Chapter 9 The Ties That Bind—Friendship, Loyalty, and Betrayal"
+        },
+        {
+          "startTime": 1837.33625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ties That Bind—Friendship, Loyalty, and Betrayal and Chapter 10 The Cost of Change—Sacrifice, Loss, and the Price of Progress"
+        },
+        {
+          "startTime": 1976.17875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Cost of Change—Sacrifice, Loss, and the Price of Progress and Chapter 11 The Ripple Effect—Family, Community, and the Seeds of Transformation"
+        },
+        {
+          "startTime": 2098.507583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ripple Effect—Family, Community, and the Seeds of Transformation and Chapter 12 Saying Goodbye—Endings, New Beginnings, and the Legacy of the School"
+        },
+        {
+          "startTime": 2208.568291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Saying Goodbye—Endings, New Beginnings, and the Legacy of the School and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1289",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T03:42:33.236Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

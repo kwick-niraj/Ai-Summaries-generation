@@ -1,0 +1,504 @@
+{
+  "bookId": "1385",
+  "timestamp": "2025-07-07T12:22:27.633Z",
+  "success": false,
+  "processingTime": -1751890475590,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4868,
+    "totalAudioFiles": 14,
+    "totalDuration": 2193.834417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2193.834417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1385/optimized_text/1385.md",
+    "fileSize": 743,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1385.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1385/metadata/1385_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2193.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1385/metadata/1385_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1385/metadata/1385_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1385/1385_complete.wav",
+    "duration": 2193.834417,
+    "fileSize": 105304130,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1385/introduction.wav",
+          "duration": 80.783292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.783292,
+          "startTime": 0,
+          "endTime": 80.783292
+        },
+        {
+          "path": "Audio/output/1385/chapter_01.wav",
+          "duration": 211.48425,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Everyday Thoughts Shape Life’s Direction",
+          "actualDuration": 211.48425,
+          "startTime": 82.283292,
+          "endTime": 293.767542
+        },
+        {
+          "path": "Audio/output/1385/chapter_02.wav",
+          "duration": 233.9245,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Letting Go of Limiting Beliefs and Old Stories",
+          "actualDuration": 233.9245,
+          "startTime": 295.267542,
+          "endTime": 529.192042
+        },
+        {
+          "path": "Audio/output/1385/chapter_03.wav",
+          "duration": 224.086167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Discomfort and Uncertainty for Growth",
+          "actualDuration": 224.086167,
+          "startTime": 530.692042,
+          "endTime": 754.7782090000001
+        },
+        {
+          "path": "Audio/output/1385/chapter_04.wav",
+          "duration": 197.519667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Healing Through Acceptance and Intentional Action",
+          "actualDuration": 197.519667,
+          "startTime": 756.2782090000001,
+          "endTime": 953.7978760000001
+        },
+        {
+          "path": "Audio/output/1385/chapter_05.wav",
+          "duration": 170.138875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living Authentically by Aligning Values and Actions",
+          "actualDuration": 170.138875,
+          "startTime": 955.2978760000001,
+          "endTime": 1125.4367510000002
+        },
+        {
+          "path": "Audio/output/1385/chapter_06.wav",
+          "duration": 153.215083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Perspective—Reframing the Story",
+          "actualDuration": 153.215083,
+          "startTime": 1126.9367510000002,
+          "endTime": 1280.1518340000002
+        },
+        {
+          "path": "Audio/output/1385/chapter_07.wav",
+          "duration": 155.766042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Finding Meaning in Adversity",
+          "actualDuration": 155.766042,
+          "startTime": 1281.6518340000002,
+          "endTime": 1437.4178760000002
+        },
+        {
+          "path": "Audio/output/1385/chapter_08.wav",
+          "duration": 127.830458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Subtle Art of Self-Compassion",
+          "actualDuration": 127.830458,
+          "startTime": 1438.9178760000002,
+          "endTime": 1566.748334
+        },
+        {
+          "path": "Audio/output/1385/chapter_09.wav",
+          "duration": 135.5295,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Strength of Boundaries",
+          "actualDuration": 135.5295,
+          "startTime": 1568.248334,
+          "endTime": 1703.7778340000002
+        },
+        {
+          "path": "Audio/output/1385/chapter_10.wav",
+          "duration": 117.325625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Practice of Gratitude and Presence",
+          "actualDuration": 117.325625,
+          "startTime": 1705.2778340000002,
+          "endTime": 1822.6034590000002
+        },
+        {
+          "path": "Audio/output/1385/chapter_11.wav",
+          "duration": 124.90475,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Courage to Choose—Redefining Success",
+          "actualDuration": 124.90475,
+          "startTime": 1824.1034590000002,
+          "endTime": 1949.008209
+        },
+        {
+          "path": "Audio/output/1385/chapter_12.wav",
+          "duration": 124.892125,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Journey of Personal Transformation",
+          "actualDuration": 124.892125,
+          "startTime": 1950.508209,
+          "endTime": 2075.400334
+        },
+        {
+          "path": "Audio/output/1385/conclusion.wav",
+          "duration": 136.434083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.434083,
+          "startTime": 2076.900334,
+          "endTime": 2213.334417
+        }
+      ],
+      "totalDuration": 2213.334417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.78,
+          "actualStart": 0,
+          "actualEnd": 80.783292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Everyday Thoughts Shape Life’s Direction",
+          "expectedStart": 80.78,
+          "expectedEnd": 292.26,
+          "actualStart": 82.283292,
+          "actualEnd": 293.767542,
+          "timeDifference": 1.5032920000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Letting Go of Limiting Beliefs and Old Stories",
+          "expectedStart": 292.26,
+          "expectedEnd": 526.18,
+          "actualStart": 295.267542,
+          "actualEnd": 529.192042,
+          "timeDifference": 3.007542000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Discomfort and Uncertainty for Growth",
+          "expectedStart": 526.18,
+          "expectedEnd": 750.27,
+          "actualStart": 530.692042,
+          "actualEnd": 754.7782090000001,
+          "timeDifference": 4.512042000000065
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Healing Through Acceptance and Intentional Action",
+          "expectedStart": 750.27,
+          "expectedEnd": 947.79,
+          "actualStart": 756.2782090000001,
+          "actualEnd": 953.7978760000001,
+          "timeDifference": 6.008209000000079
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living Authentically by Aligning Values and Actions",
+          "expectedStart": 947.79,
+          "expectedEnd": 1117.93,
+          "actualStart": 955.2978760000001,
+          "actualEnd": 1125.4367510000002,
+          "timeDifference": 7.507876000000124
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Perspective—Reframing the Story",
+          "expectedStart": 1117.93,
+          "expectedEnd": 1271.15,
+          "actualStart": 1126.9367510000002,
+          "actualEnd": 1280.1518340000002,
+          "timeDifference": 9.006751000000122
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Finding Meaning in Adversity",
+          "expectedStart": 1271.15,
+          "expectedEnd": 1426.92,
+          "actualStart": 1281.6518340000002,
+          "actualEnd": 1437.4178760000002,
+          "timeDifference": 10.501834000000144
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Subtle Art of Self-Compassion",
+          "expectedStart": 1426.92,
+          "expectedEnd": 1554.75,
+          "actualStart": 1438.9178760000002,
+          "actualEnd": 1566.748334,
+          "timeDifference": 11.997876000000133
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Strength of Boundaries",
+          "expectedStart": 1554.75,
+          "expectedEnd": 1690.28,
+          "actualStart": 1568.248334,
+          "actualEnd": 1703.7778340000002,
+          "timeDifference": 13.498334000000114
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Practice of Gratitude and Presence",
+          "expectedStart": 1690.28,
+          "expectedEnd": 1807.61,
+          "actualStart": 1705.2778340000002,
+          "actualEnd": 1822.6034590000002,
+          "timeDifference": 14.997834000000239
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Courage to Choose—Redefining Success",
+          "expectedStart": 1807.61,
+          "expectedEnd": 1932.51,
+          "actualStart": 1824.1034590000002,
+          "actualEnd": 1949.008209,
+          "timeDifference": 16.493459000000257
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Journey of Personal Transformation",
+          "expectedStart": 1932.51,
+          "expectedEnd": 2057.4,
+          "actualStart": 1950.508209,
+          "actualEnd": 2075.400334,
+          "timeDifference": 17.998209000000088
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2057.4,
+          "expectedEnd": 2193.83,
+          "actualStart": 2076.900334,
+          "actualEnd": 2213.334417,
+          "timeDifference": 19.50033399999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.783292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Everyday Thoughts Shape Life’s Direction"
+        },
+        {
+          "startTime": 293.767542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Everyday Thoughts Shape Life’s Direction and Chapter 2 Letting Go of Limiting Beliefs and Old Stories"
+        },
+        {
+          "startTime": 529.192042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Letting Go of Limiting Beliefs and Old Stories and Chapter 3 Embracing Discomfort and Uncertainty for Growth"
+        },
+        {
+          "startTime": 754.7782090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Discomfort and Uncertainty for Growth and Chapter 4 Healing Through Acceptance and Intentional Action"
+        },
+        {
+          "startTime": 953.7978760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Healing Through Acceptance and Intentional Action and Chapter 5 Living Authentically by Aligning Values and Actions"
+        },
+        {
+          "startTime": 1125.4367510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living Authentically by Aligning Values and Actions and Chapter 6 The Power of Perspective—Reframing the Story"
+        },
+        {
+          "startTime": 1280.1518340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Perspective—Reframing the Story and Chapter 7 Finding Meaning in Adversity"
+        },
+        {
+          "startTime": 1437.4178760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Finding Meaning in Adversity and Chapter 8 The Subtle Art of Self-Compassion"
+        },
+        {
+          "startTime": 1566.748334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Subtle Art of Self-Compassion and Chapter 9 The Quiet Strength of Boundaries"
+        },
+        {
+          "startTime": 1703.7778340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Strength of Boundaries and Chapter 10 The Practice of Gratitude and Presence"
+        },
+        {
+          "startTime": 1822.6034590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Practice of Gratitude and Presence and Chapter 11 The Courage to Choose—Redefining Success"
+        },
+        {
+          "startTime": 1949.008209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Courage to Choose—Redefining Success and Chapter 12 The Ongoing Journey of Personal Transformation"
+        },
+        {
+          "startTime": 2075.400334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Journey of Personal Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1385",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T12:14:37.203Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

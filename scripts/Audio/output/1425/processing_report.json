@@ -1,0 +1,455 @@
+{
+  "bookId": "1425",
+  "timestamp": "2025-07-07T15:15:08.410Z",
+  "success": false,
+  "processingTime": -1751900661660,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4493,
+    "totalAudioFiles": 12,
+    "totalDuration": 1931.606376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1931.606376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1425/optimized_text/1425.md",
+    "fileSize": 461,
+    "wordCount": 69,
+    "format": "markdown",
+    "filename": "1425.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1425/metadata/1425_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1931.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1425/metadata/1425_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1425/metadata/1425_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1425/1425_complete.wav",
+    "duration": 1931.606375,
+    "fileSize": 92717184,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1425/introduction.wav",
+          "duration": 93.057208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.057208,
+          "startTime": 0,
+          "endTime": 93.057208
+        },
+        {
+          "path": "Audio/output/1425/chapter_01.wav",
+          "duration": 219.1065,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World on the Edge of Change",
+          "actualDuration": 219.1065,
+          "startTime": 94.557208,
+          "endTime": 313.66370800000004
+        },
+        {
+          "path": "Audio/output/1425/chapter_02.wav",
+          "duration": 238.970167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The People Who Shaped Destiny",
+          "actualDuration": 238.970167,
+          "startTime": 315.16370800000004,
+          "endTime": 554.133875
+        },
+        {
+          "path": "Audio/output/1425/chapter_03.wav",
+          "duration": 188.488,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Road to Partition",
+          "actualDuration": 188.488,
+          "startTime": 555.633875,
+          "endTime": 744.121875
+        },
+        {
+          "path": "Audio/output/1425/chapter_04.wav",
+          "duration": 217.946833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost of Independence",
+          "actualDuration": 217.946833,
+          "startTime": 745.621875,
+          "endTime": 963.568708
+        },
+        {
+          "path": "Audio/output/1425/chapter_05.wav",
+          "duration": 161.670292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle to Build New Nations",
+          "actualDuration": 161.670292,
+          "startTime": 965.068708,
+          "endTime": 1126.739
+        },
+        {
+          "path": "Audio/output/1425/chapter_06.wav",
+          "duration": 157.556167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces",
+          "actualDuration": 157.556167,
+          "startTime": 1128.239,
+          "endTime": 1285.795167
+        },
+        {
+          "path": "Audio/output/1425/chapter_07.wav",
+          "duration": 145.45475,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Memory",
+          "actualDuration": 145.45475,
+          "startTime": 1287.295167,
+          "endTime": 1432.749917
+        },
+        {
+          "path": "Audio/output/1425/chapter_08.wav",
+          "duration": 140.99525,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Gandhi’s Final Days",
+          "actualDuration": 140.99525,
+          "startTime": 1434.249917,
+          "endTime": 1575.245167
+        },
+        {
+          "path": "Audio/output/1425/chapter_09.wav",
+          "duration": 129.827417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Borders That Never Healed",
+          "actualDuration": 129.827417,
+          "startTime": 1576.745167,
+          "endTime": 1706.572584
+        },
+        {
+          "path": "Audio/output/1425/chapter_10.wav",
+          "duration": 139.548292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Echoes of Partition",
+          "actualDuration": 139.548292,
+          "startTime": 1708.072584,
+          "endTime": 1847.620876
+        },
+        {
+          "path": "Audio/output/1425/conclusion.wav",
+          "duration": 98.9855,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.9855,
+          "startTime": 1849.120876,
+          "endTime": 1948.106376
+        }
+      ],
+      "totalDuration": 1948.106376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.06,
+          "actualStart": 0,
+          "actualEnd": 93.057208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World on the Edge of Change",
+          "expectedStart": 93.06,
+          "expectedEnd": 312.17,
+          "actualStart": 94.557208,
+          "actualEnd": 313.66370800000004,
+          "timeDifference": 1.4972080000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The People Who Shaped Destiny",
+          "expectedStart": 312.17,
+          "expectedEnd": 551.14,
+          "actualStart": 315.16370800000004,
+          "actualEnd": 554.133875,
+          "timeDifference": 2.9937080000000265
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Road to Partition",
+          "expectedStart": 551.14,
+          "expectedEnd": 739.63,
+          "actualStart": 555.633875,
+          "actualEnd": 744.121875,
+          "timeDifference": 4.493875000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost of Independence",
+          "expectedStart": 739.63,
+          "expectedEnd": 957.58,
+          "actualStart": 745.621875,
+          "actualEnd": 963.568708,
+          "timeDifference": 5.99187500000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle to Build New Nations",
+          "expectedStart": 957.58,
+          "expectedEnd": 1119.25,
+          "actualStart": 965.068708,
+          "actualEnd": 1126.739,
+          "timeDifference": 7.488707999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces",
+          "expectedStart": 1119.25,
+          "expectedEnd": 1276.81,
+          "actualStart": 1128.239,
+          "actualEnd": 1285.795167,
+          "timeDifference": 8.989000000000033
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Memory",
+          "expectedStart": 1276.81,
+          "expectedEnd": 1422.26,
+          "actualStart": 1287.295167,
+          "actualEnd": 1432.749917,
+          "timeDifference": 10.485167000000047
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Gandhi’s Final Days",
+          "expectedStart": 1422.26,
+          "expectedEnd": 1563.26,
+          "actualStart": 1434.249917,
+          "actualEnd": 1575.245167,
+          "timeDifference": 11.989917000000105
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Borders That Never Healed",
+          "expectedStart": 1563.26,
+          "expectedEnd": 1693.09,
+          "actualStart": 1576.745167,
+          "actualEnd": 1706.572584,
+          "timeDifference": 13.485167000000047
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Echoes of Partition",
+          "expectedStart": 1693.09,
+          "expectedEnd": 1832.64,
+          "actualStart": 1708.072584,
+          "actualEnd": 1847.620876,
+          "timeDifference": 14.982584000000088
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1832.64,
+          "expectedEnd": 1931.63,
+          "actualStart": 1849.120876,
+          "actualEnd": 1948.106376,
+          "timeDifference": 16.480875999999853
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.057208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World on the Edge of Change"
+        },
+        {
+          "startTime": 313.66370800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World on the Edge of Change and Chapter 2 The People Who Shaped Destiny"
+        },
+        {
+          "startTime": 554.133875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The People Who Shaped Destiny and Chapter 3 The Road to Partition"
+        },
+        {
+          "startTime": 744.121875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Road to Partition and Chapter 4 The Human Cost of Independence"
+        },
+        {
+          "startTime": 963.568708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost of Independence and Chapter 5 The Struggle to Build New Nations"
+        },
+        {
+          "startTime": 1126.739,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle to Build New Nations and Chapter 6 Picking Up the Pieces"
+        },
+        {
+          "startTime": 1285.795167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces and Chapter 7 The Weight of Memory"
+        },
+        {
+          "startTime": 1432.749917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Memory and Chapter 8 Gandhi’s Final Days"
+        },
+        {
+          "startTime": 1575.245167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Gandhi’s Final Days and Chapter 9 The Borders That Never Healed"
+        },
+        {
+          "startTime": 1706.572584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Borders That Never Healed and Chapter 10 The Echoes of Partition"
+        },
+        {
+          "startTime": 1847.620876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Echoes of Partition and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1425",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T15:04:21.674Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1428",
+  "timestamp": "2025-07-07T15:24:37.592Z",
+  "success": false,
+  "processingTime": -1751901309413,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4160,
+    "totalAudioFiles": 12,
+    "totalDuration": 2170.200082
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2170.200082
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1428/optimized_text/1428.md",
+    "fileSize": 788,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "1428.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1428/metadata/1428_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2170.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1428/metadata/1428_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1428/metadata/1428_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1428/1428_complete.wav",
+    "duration": 2170.200083,
+    "fileSize": 104169682,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1428/introduction.wav",
+          "duration": 85.294458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.294458,
+          "startTime": 0,
+          "endTime": 85.294458
+        },
+        {
+          "path": "Audio/output/1428/chapter_01.wav",
+          "duration": 230.871833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Intentional Planning Matters in a Distracted World",
+          "actualDuration": 230.871833,
+          "startTime": 86.794458,
+          "endTime": 317.666291
+        },
+        {
+          "path": "Audio/output/1428/chapter_02.wav",
+          "duration": 226.203708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Core Structure: How the Bullet Journal Organizes Thoughts and Tasks",
+          "actualDuration": 226.203708,
+          "startTime": 319.166291,
+          "endTime": 545.369999
+        },
+        {
+          "path": "Audio/output/1428/chapter_03.wav",
+          "duration": 222.499333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Reflection and Review: Turning Daily Notes into Meaningful Progress",
+          "actualDuration": 222.499333,
+          "startTime": 546.869999,
+          "endTime": 769.369332
+        },
+        {
+          "path": "Audio/output/1428/chapter_04.wav",
+          "duration": 190.009375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Customization and Minimalism: Adapting the System to Fit Individual Needs",
+          "actualDuration": 190.009375,
+          "startTime": 770.869332,
+          "endTime": 960.878707
+        },
+        {
+          "path": "Audio/output/1428/chapter_05.wav",
+          "duration": 197.910875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mindful Productivity: Focusing on What Truly Matters",
+          "actualDuration": 197.910875,
+          "startTime": 962.378707,
+          "endTime": 1160.2895819999999
+        },
+        {
+          "path": "Audio/output/1428/chapter_06.wav",
+          "duration": 187.06475,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Techniques: Deepening the Practice for Greater Clarity",
+          "actualDuration": 187.06475,
+          "startTime": 1161.7895819999999,
+          "endTime": 1348.8543319999999
+        },
+        {
+          "path": "Audio/output/1428/chapter_07.wav",
+          "duration": 189.296875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Troubleshooting and Overcoming Common Challenges",
+          "actualDuration": 189.296875,
+          "startTime": 1350.3543319999999,
+          "endTime": 1539.6512069999999
+        },
+        {
+          "path": "Audio/output/1428/chapter_08.wav",
+          "duration": 166.244917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining the Practice: Building a Long-Term Habit",
+          "actualDuration": 166.244917,
+          "startTime": 1541.1512069999999,
+          "endTime": 1707.3961239999999
+        },
+        {
+          "path": "Audio/output/1428/chapter_09.wav",
+          "duration": 163.327458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Bullet Journal as a Tool for Self-Discovery",
+          "actualDuration": 163.327458,
+          "startTime": 1708.8961239999999,
+          "endTime": 1872.2235819999999
+        },
+        {
+          "path": "Audio/output/1428/chapter_10.wav",
+          "duration": 161.263917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bringing It All Together: Living with Clarity and Intention",
+          "actualDuration": 161.263917,
+          "startTime": 1873.7235819999999,
+          "endTime": 2034.9874989999998
+        },
+        {
+          "path": "Audio/output/1428/conclusion.wav",
+          "duration": 150.212583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.212583,
+          "startTime": 2036.4874989999998,
+          "endTime": 2186.700082
+        }
+      ],
+      "totalDuration": 2186.700082,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.29,
+          "actualStart": 0,
+          "actualEnd": 85.294458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Intentional Planning Matters in a Distracted World",
+          "expectedStart": 85.29,
+          "expectedEnd": 316.16,
+          "actualStart": 86.794458,
+          "actualEnd": 317.666291,
+          "timeDifference": 1.5044579999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Core Structure: How the Bullet Journal Organizes Thoughts and Tasks",
+          "expectedStart": 316.16,
+          "expectedEnd": 542.36,
+          "actualStart": 319.166291,
+          "actualEnd": 545.369999,
+          "timeDifference": 3.006290999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Reflection and Review: Turning Daily Notes into Meaningful Progress",
+          "expectedStart": 542.36,
+          "expectedEnd": 764.86,
+          "actualStart": 546.869999,
+          "actualEnd": 769.369332,
+          "timeDifference": 4.509998999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Customization and Minimalism: Adapting the System to Fit Individual Needs",
+          "expectedStart": 764.86,
+          "expectedEnd": 954.87,
+          "actualStart": 770.869332,
+          "actualEnd": 960.878707,
+          "timeDifference": 6.009331999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mindful Productivity: Focusing on What Truly Matters",
+          "expectedStart": 954.87,
+          "expectedEnd": 1152.78,
+          "actualStart": 962.378707,
+          "actualEnd": 1160.2895819999999,
+          "timeDifference": 7.5087069999999585
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Techniques: Deepening the Practice for Greater Clarity",
+          "expectedStart": 1152.78,
+          "expectedEnd": 1339.84,
+          "actualStart": 1161.7895819999999,
+          "actualEnd": 1348.8543319999999,
+          "timeDifference": 9.00958199999991
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Troubleshooting and Overcoming Common Challenges",
+          "expectedStart": 1339.84,
+          "expectedEnd": 1529.14,
+          "actualStart": 1350.3543319999999,
+          "actualEnd": 1539.6512069999999,
+          "timeDifference": 10.514331999999968
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining the Practice: Building a Long-Term Habit",
+          "expectedStart": 1529.14,
+          "expectedEnd": 1695.38,
+          "actualStart": 1541.1512069999999,
+          "actualEnd": 1707.3961239999999,
+          "timeDifference": 12.011206999999786
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Bullet Journal as a Tool for Self-Discovery",
+          "expectedStart": 1695.38,
+          "expectedEnd": 1858.71,
+          "actualStart": 1708.8961239999999,
+          "actualEnd": 1872.2235819999999,
+          "timeDifference": 13.516123999999763
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bringing It All Together: Living with Clarity and Intention",
+          "expectedStart": 1858.71,
+          "expectedEnd": 2019.97,
+          "actualStart": 1873.7235819999999,
+          "actualEnd": 2034.9874989999998,
+          "timeDifference": 15.013581999999815
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2019.97,
+          "expectedEnd": 2170.18,
+          "actualStart": 2036.4874989999998,
+          "actualEnd": 2186.700082,
+          "timeDifference": 16.517498999999816
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.294458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Intentional Planning Matters in a Distracted World"
+        },
+        {
+          "startTime": 317.666291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Intentional Planning Matters in a Distracted World and Chapter 2 The Core Structure: How the Bullet Journal Organizes Thoughts and Tasks"
+        },
+        {
+          "startTime": 545.369999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Core Structure: How the Bullet Journal Organizes Thoughts and Tasks and Chapter 3 Reflection and Review: Turning Daily Notes into Meaningful Progress"
+        },
+        {
+          "startTime": 769.369332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Reflection and Review: Turning Daily Notes into Meaningful Progress and Chapter 4 Customization and Minimalism: Adapting the System to Fit Individual Needs"
+        },
+        {
+          "startTime": 960.878707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Customization and Minimalism: Adapting the System to Fit Individual Needs and Chapter 5 Mindful Productivity: Focusing on What Truly Matters"
+        },
+        {
+          "startTime": 1160.2895819999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mindful Productivity: Focusing on What Truly Matters and Chapter 6 Advanced Techniques: Deepening the Practice for Greater Clarity"
+        },
+        {
+          "startTime": 1348.8543319999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Techniques: Deepening the Practice for Greater Clarity and Chapter 7 Troubleshooting and Overcoming Common Challenges"
+        },
+        {
+          "startTime": 1539.6512069999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Troubleshooting and Overcoming Common Challenges and Chapter 8 Sustaining the Practice: Building a Long-Term Habit"
+        },
+        {
+          "startTime": 1707.3961239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining the Practice: Building a Long-Term Habit and Chapter 9 The Bullet Journal as a Tool for Self-Discovery"
+        },
+        {
+          "startTime": 1872.2235819999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Bullet Journal as a Tool for Self-Discovery and Chapter 10 Bringing It All Together: Living with Clarity and Intention"
+        },
+        {
+          "startTime": 2034.9874989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bringing It All Together: Living with Clarity and Intention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1428",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T15:15:10.615Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

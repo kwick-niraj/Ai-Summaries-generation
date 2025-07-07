@@ -1,0 +1,455 @@
+{
+  "bookId": "1280",
+  "timestamp": "2025-07-07T03:03:12.418Z",
+  "success": false,
+  "processingTime": -1751857007522,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5347,
+    "totalAudioFiles": 12,
+    "totalDuration": 2556.940417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2556.940417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1280/optimized_text/1280.md",
+    "fileSize": 799,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1280.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1280/metadata/1280_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2556.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1280/metadata/1280_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1280/metadata/1280_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1280/1280_complete.wav",
+    "duration": 2556.940417,
+    "fileSize": 122733218,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1280/introduction.wav",
+          "duration": 85.389792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.389792,
+          "startTime": 0,
+          "endTime": 85.389792
+        },
+        {
+          "path": "Audio/output/1280/chapter_01.wav",
+          "duration": 268.094292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Groundwork: Understanding the Digital Marketplace",
+          "actualDuration": 268.094292,
+          "startTime": 86.889792,
+          "endTime": 354.984084
+        },
+        {
+          "path": "Audio/output/1280/chapter_02.wav",
+          "duration": 331.448292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Attracting Attention: Building Visibility and Reach Online",
+          "actualDuration": 331.448292,
+          "startTime": 356.484084,
+          "endTime": 687.932376
+        },
+        {
+          "path": "Audio/output/1280/chapter_03.wav",
+          "duration": 301.45725,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Turning Interest into Action: Conversion and Sales Optimization",
+          "actualDuration": 301.45725,
+          "startTime": 689.432376,
+          "endTime": 990.8896259999999
+        },
+        {
+          "path": "Audio/output/1280/chapter_04.wav",
+          "duration": 240.207917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Measuring Success: Tracking, Analyzing, and Improving Results",
+          "actualDuration": 240.207917,
+          "startTime": 992.3896259999999,
+          "endTime": 1232.5975429999999
+        },
+        {
+          "path": "Audio/output/1280/chapter_05.wav",
+          "duration": 222.408333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Avoiding Pitfalls: Common Mistakes and How to Overcome Them",
+          "actualDuration": 222.408333,
+          "startTime": 1234.0975429999999,
+          "endTime": 1456.505876
+        },
+        {
+          "path": "Audio/output/1280/chapter_06.wav",
+          "duration": 213.950125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Scaling Up: Systems, Automation, and Delegation",
+          "actualDuration": 213.950125,
+          "startTime": 1458.005876,
+          "endTime": 1671.956001
+        },
+        {
+          "path": "Audio/output/1280/chapter_07.wav",
+          "duration": 197.605875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Advanced Marketing: Personalization, Community, and Partnerships",
+          "actualDuration": 197.605875,
+          "startTime": 1673.456001,
+          "endTime": 1871.061876
+        },
+        {
+          "path": "Audio/output/1280/chapter_08.wav",
+          "duration": 195.748458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Long-Term Sustainability: Retention, Recurring Revenue, and Brand Evolution",
+          "actualDuration": 195.748458,
+          "startTime": 1872.561876,
+          "endTime": 2068.310334
+        },
+        {
+          "path": "Audio/output/1280/chapter_09.wav",
+          "duration": 180.781208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Change: Adapting to Trends and Overcoming Setbacks",
+          "actualDuration": 180.781208,
+          "startTime": 2069.810334,
+          "endTime": 2250.5915419999997
+        },
+        {
+          "path": "Audio/output/1280/chapter_10.wav",
+          "duration": 184.837583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Human Side: Leadership, Mindset, and Purpose",
+          "actualDuration": 184.837583,
+          "startTime": 2252.0915419999997,
+          "endTime": 2436.9291249999997
+        },
+        {
+          "path": "Audio/output/1280/conclusion.wav",
+          "duration": 135.011292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.011292,
+          "startTime": 2438.4291249999997,
+          "endTime": 2573.440417
+        }
+      ],
+      "totalDuration": 2573.440417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.39,
+          "actualStart": 0,
+          "actualEnd": 85.389792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Groundwork: Understanding the Digital Marketplace",
+          "expectedStart": 85.39,
+          "expectedEnd": 353.48,
+          "actualStart": 86.889792,
+          "actualEnd": 354.984084,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Attracting Attention: Building Visibility and Reach Online",
+          "expectedStart": 353.48,
+          "expectedEnd": 684.93,
+          "actualStart": 356.484084,
+          "actualEnd": 687.932376,
+          "timeDifference": 3.0040839999999776
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Turning Interest into Action: Conversion and Sales Optimization",
+          "expectedStart": 684.93,
+          "expectedEnd": 986.39,
+          "actualStart": 689.432376,
+          "actualEnd": 990.8896259999999,
+          "timeDifference": 4.502376000000027
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Measuring Success: Tracking, Analyzing, and Improving Results",
+          "expectedStart": 986.39,
+          "expectedEnd": 1226.6,
+          "actualStart": 992.3896259999999,
+          "actualEnd": 1232.5975429999999,
+          "timeDifference": 5.999625999999921
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Avoiding Pitfalls: Common Mistakes and How to Overcome Them",
+          "expectedStart": 1226.6,
+          "expectedEnd": 1449.01,
+          "actualStart": 1234.0975429999999,
+          "actualEnd": 1456.505876,
+          "timeDifference": 7.4975429999999506
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Scaling Up: Systems, Automation, and Delegation",
+          "expectedStart": 1449.01,
+          "expectedEnd": 1662.96,
+          "actualStart": 1458.005876,
+          "actualEnd": 1671.956001,
+          "timeDifference": 8.995875999999953
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Advanced Marketing: Personalization, Community, and Partnerships",
+          "expectedStart": 1662.96,
+          "expectedEnd": 1860.57,
+          "actualStart": 1673.456001,
+          "actualEnd": 1871.061876,
+          "timeDifference": 10.496000999999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Long-Term Sustainability: Retention, Recurring Revenue, and Brand Evolution",
+          "expectedStart": 1860.57,
+          "expectedEnd": 2056.32,
+          "actualStart": 1872.561876,
+          "actualEnd": 2068.310334,
+          "timeDifference": 11.991876000000047
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Change: Adapting to Trends and Overcoming Setbacks",
+          "expectedStart": 2056.32,
+          "expectedEnd": 2237.1,
+          "actualStart": 2069.810334,
+          "actualEnd": 2250.5915419999997,
+          "timeDifference": 13.49033399999962
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Human Side: Leadership, Mindset, and Purpose",
+          "expectedStart": 2237.1,
+          "expectedEnd": 2421.94,
+          "actualStart": 2252.0915419999997,
+          "actualEnd": 2436.9291249999997,
+          "timeDifference": 14.991541999999754
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2421.94,
+          "expectedEnd": 2556.95,
+          "actualStart": 2438.4291249999997,
+          "actualEnd": 2573.440417,
+          "timeDifference": 16.489124999999603
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.389792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Groundwork: Understanding the Digital Marketplace"
+        },
+        {
+          "startTime": 354.984084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Groundwork: Understanding the Digital Marketplace and Chapter 2 Attracting Attention: Building Visibility and Reach Online"
+        },
+        {
+          "startTime": 687.932376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Attracting Attention: Building Visibility and Reach Online and Chapter 3 Turning Interest into Action: Conversion and Sales Optimization"
+        },
+        {
+          "startTime": 990.8896259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Turning Interest into Action: Conversion and Sales Optimization and Chapter 4 Measuring Success: Tracking, Analyzing, and Improving Results"
+        },
+        {
+          "startTime": 1232.5975429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Measuring Success: Tracking, Analyzing, and Improving Results and Chapter 5 Avoiding Pitfalls: Common Mistakes and How to Overcome Them"
+        },
+        {
+          "startTime": 1456.505876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Avoiding Pitfalls: Common Mistakes and How to Overcome Them and Chapter 6 Scaling Up: Systems, Automation, and Delegation"
+        },
+        {
+          "startTime": 1671.956001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Scaling Up: Systems, Automation, and Delegation and Chapter 7 Advanced Marketing: Personalization, Community, and Partnerships"
+        },
+        {
+          "startTime": 1871.061876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Advanced Marketing: Personalization, Community, and Partnerships and Chapter 8 Long-Term Sustainability: Retention, Recurring Revenue, and Brand Evolution"
+        },
+        {
+          "startTime": 2068.310334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Long-Term Sustainability: Retention, Recurring Revenue, and Brand Evolution and Chapter 9 Navigating Change: Adapting to Trends and Overcoming Setbacks"
+        },
+        {
+          "startTime": 2250.5915419999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Change: Adapting to Trends and Overcoming Setbacks and Chapter 10 The Human Side: Leadership, Mindset, and Purpose"
+        },
+        {
+          "startTime": 2436.9291249999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Human Side: Leadership, Mindset, and Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1280",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T02:56:48.827Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

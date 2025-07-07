@@ -1,0 +1,455 @@
+{
+  "bookId": "1373",
+  "timestamp": "2025-07-07T11:10:17.163Z",
+  "success": false,
+  "processingTime": -1751885852839,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4851,
+    "totalAudioFiles": 12,
+    "totalDuration": 2077.988499
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2077.988499
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1373/optimized_text/1373.md",
+    "fileSize": 758,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "1373.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1373/metadata/1373_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2077.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1373/metadata/1373_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1373/metadata/1373_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1373/1373_complete.wav",
+    "duration": 2077.9885,
+    "fileSize": 99743526,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1373/introduction.wav",
+          "duration": 94.811333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.811333,
+          "startTime": 0,
+          "endTime": 94.811333
+        },
+        {
+          "path": "Audio/output/1373/chapter_01.wav",
+          "duration": 223.145917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Blurred Lines Between Art, Science, and Everyday Life",
+          "actualDuration": 223.145917,
+          "startTime": 96.311333,
+          "endTime": 319.45725
+        },
+        {
+          "path": "Audio/output/1373/chapter_02.wav",
+          "duration": 207.267458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Gender, Embodiment, and the Creative Process",
+          "actualDuration": 207.267458,
+          "startTime": 320.95725,
+          "endTime": 528.224708
+        },
+        {
+          "path": "Audio/output/1373/chapter_03.wav",
+          "duration": 189.183208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 American Identity: Contradictions, Layers, and the Search for Meaning",
+          "actualDuration": 189.183208,
+          "startTime": 529.724708,
+          "endTime": 718.907916
+        },
+        {
+          "path": "Audio/output/1373/chapter_04.wav",
+          "duration": 206.173583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Memory, Perception, and the Shaping of Experience",
+          "actualDuration": 206.173583,
+          "startTime": 720.407916,
+          "endTime": 926.581499
+        },
+        {
+          "path": "Audio/output/1373/chapter_05.wav",
+          "duration": 195.328583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of the Self in Criticism and Creation",
+          "actualDuration": 195.328583,
+          "startTime": 928.081499,
+          "endTime": 1123.410082
+        },
+        {
+          "path": "Audio/output/1373/chapter_06.wav",
+          "duration": 183.3975,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ornament, Excess, and the Value of Beauty",
+          "actualDuration": 183.3975,
+          "startTime": 1124.910082,
+          "endTime": 1308.3075820000001
+        },
+        {
+          "path": "Audio/output/1373/chapter_07.wav",
+          "duration": 155.638542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Edge of Knowing: Uncertainty, Doubt, and the Creative Life",
+          "actualDuration": 155.638542,
+          "startTime": 1309.8075820000001,
+          "endTime": 1465.446124
+        },
+        {
+          "path": "Audio/output/1373/chapter_08.wav",
+          "duration": 143.481458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Social Life of Art: Community, Conversation, and Belonging",
+          "actualDuration": 143.481458,
+          "startTime": 1466.946124,
+          "endTime": 1610.427582
+        },
+        {
+          "path": "Audio/output/1373/chapter_09.wav",
+          "duration": 157.718667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Politics of Taste: Power, Privilege, and Whose Stories Get Told",
+          "actualDuration": 157.718667,
+          "startTime": 1611.927582,
+          "endTime": 1769.6462490000001
+        },
+        {
+          "path": "Audio/output/1373/chapter_10.wav",
+          "duration": 183.339875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Art: Technology, Change, and the Human Touch",
+          "actualDuration": 183.339875,
+          "startTime": 1771.1462490000001,
+          "endTime": 1954.486124
+        },
+        {
+          "path": "Audio/output/1373/conclusion.wav",
+          "duration": 138.502375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.502375,
+          "startTime": 1955.986124,
+          "endTime": 2094.488499
+        }
+      ],
+      "totalDuration": 2094.488499,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.81,
+          "actualStart": 0,
+          "actualEnd": 94.811333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Blurred Lines Between Art, Science, and Everyday Life",
+          "expectedStart": 94.81,
+          "expectedEnd": 317.96,
+          "actualStart": 96.311333,
+          "actualEnd": 319.45725,
+          "timeDifference": 1.5013330000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Gender, Embodiment, and the Creative Process",
+          "expectedStart": 317.96,
+          "expectedEnd": 525.23,
+          "actualStart": 320.95725,
+          "actualEnd": 528.224708,
+          "timeDifference": 2.997250000000008
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 American Identity: Contradictions, Layers, and the Search for Meaning",
+          "expectedStart": 525.23,
+          "expectedEnd": 714.41,
+          "actualStart": 529.724708,
+          "actualEnd": 718.907916,
+          "timeDifference": 4.494707999999946
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Memory, Perception, and the Shaping of Experience",
+          "expectedStart": 714.41,
+          "expectedEnd": 920.58,
+          "actualStart": 720.407916,
+          "actualEnd": 926.581499,
+          "timeDifference": 5.997916000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of the Self in Criticism and Creation",
+          "expectedStart": 920.58,
+          "expectedEnd": 1115.91,
+          "actualStart": 928.081499,
+          "actualEnd": 1123.410082,
+          "timeDifference": 7.501498999999967
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ornament, Excess, and the Value of Beauty",
+          "expectedStart": 1115.91,
+          "expectedEnd": 1299.31,
+          "actualStart": 1124.910082,
+          "actualEnd": 1308.3075820000001,
+          "timeDifference": 9.00008200000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Edge of Knowing: Uncertainty, Doubt, and the Creative Life",
+          "expectedStart": 1299.31,
+          "expectedEnd": 1454.95,
+          "actualStart": 1309.8075820000001,
+          "actualEnd": 1465.446124,
+          "timeDifference": 10.497582000000193
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Social Life of Art: Community, Conversation, and Belonging",
+          "expectedStart": 1454.95,
+          "expectedEnd": 1598.43,
+          "actualStart": 1466.946124,
+          "actualEnd": 1610.427582,
+          "timeDifference": 11.996124000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Politics of Taste: Power, Privilege, and Whose Stories Get Told",
+          "expectedStart": 1598.43,
+          "expectedEnd": 1756.15,
+          "actualStart": 1611.927582,
+          "actualEnd": 1769.6462490000001,
+          "timeDifference": 13.497581999999966
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Art: Technology, Change, and the Human Touch",
+          "expectedStart": 1756.15,
+          "expectedEnd": 1939.49,
+          "actualStart": 1771.1462490000001,
+          "actualEnd": 1954.486124,
+          "timeDifference": 14.996249000000034
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1939.49,
+          "expectedEnd": 2077.99,
+          "actualStart": 1955.986124,
+          "actualEnd": 2094.488499,
+          "timeDifference": 16.49612400000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.811333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Blurred Lines Between Art, Science, and Everyday Life"
+        },
+        {
+          "startTime": 319.45725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Blurred Lines Between Art, Science, and Everyday Life and Chapter 2 Gender, Embodiment, and the Creative Process"
+        },
+        {
+          "startTime": 528.224708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Gender, Embodiment, and the Creative Process and Chapter 3 American Identity: Contradictions, Layers, and the Search for Meaning"
+        },
+        {
+          "startTime": 718.907916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 American Identity: Contradictions, Layers, and the Search for Meaning and Chapter 4 Memory, Perception, and the Shaping of Experience"
+        },
+        {
+          "startTime": 926.581499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Memory, Perception, and the Shaping of Experience and Chapter 5 The Role of the Self in Criticism and Creation"
+        },
+        {
+          "startTime": 1123.410082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of the Self in Criticism and Creation and Chapter 6 Ornament, Excess, and the Value of Beauty"
+        },
+        {
+          "startTime": 1308.3075820000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ornament, Excess, and the Value of Beauty and Chapter 7 The Edge of Knowing: Uncertainty, Doubt, and the Creative Life"
+        },
+        {
+          "startTime": 1465.446124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Edge of Knowing: Uncertainty, Doubt, and the Creative Life and Chapter 8 The Social Life of Art: Community, Conversation, and Belonging"
+        },
+        {
+          "startTime": 1610.427582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Social Life of Art: Community, Conversation, and Belonging and Chapter 9 The Politics of Taste: Power, Privilege, and Whose Stories Get Told"
+        },
+        {
+          "startTime": 1769.6462490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Politics of Taste: Power, Privilege, and Whose Stories Get Told and Chapter 10 The Future of Art: Technology, Change, and the Human Touch"
+        },
+        {
+          "startTime": 1954.486124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Art: Technology, Change, and the Human Touch and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1373",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T10:57:34.017Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

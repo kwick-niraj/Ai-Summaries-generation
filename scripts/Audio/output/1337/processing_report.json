@@ -1,0 +1,456 @@
+{
+  "bookId": "1337",
+  "timestamp": "2025-07-07T08:00:31.287Z",
+  "success": false,
+  "processingTime": -1751874627584,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4450,
+    "totalAudioFiles": 12,
+    "totalDuration": 2039.758292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2039.758292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1337/optimized_text/1337.md",
+    "fileSize": 754,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1337.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1337/metadata/1337_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2039.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1337/metadata/1337_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1337/metadata/1337_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1337/1337_complete.wav",
+    "duration": 2039.758292,
+    "fileSize": 97908476,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1337/introduction.wav",
+          "duration": 82.432625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.432625,
+          "startTime": 0,
+          "endTime": 82.432625
+        },
+        {
+          "path": "Audio/output/1337/chapter_01.wav",
+          "duration": 181.280125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Clutter as a Barrier to Joy and Freedom",
+          "actualDuration": 181.280125,
+          "startTime": 83.932625,
+          "endTime": 265.21275
+        },
+        {
+          "path": "Audio/output/1337/chapter_02.wav",
+          "duration": 223.756917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Taking Responsibility and Embracing Intentional Change",
+          "actualDuration": 223.756917,
+          "startTime": 266.71275,
+          "endTime": 490.469667
+        },
+        {
+          "path": "Audio/output/1337/chapter_03.wav",
+          "duration": 202.81525,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Clearing Physical Spaces to Create Room for Peace",
+          "actualDuration": 202.81525,
+          "startTime": 491.969667,
+          "endTime": 694.784917
+        },
+        {
+          "path": "Audio/output/1337/chapter_04.wav",
+          "duration": 231.456833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Addressing Emotional and Relational Clutter for Deeper Connection",
+          "actualDuration": 231.456833,
+          "startTime": 696.284917,
+          "endTime": 927.7417499999999
+        },
+        {
+          "path": "Audio/output/1337/chapter_05.wav",
+          "duration": 219.01375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Simplifying Schedules, Finances, and Digital Life for Lasting Balance",
+          "actualDuration": 219.01375,
+          "startTime": 929.2417499999999,
+          "endTime": 1148.2555
+        },
+        {
+          "path": "Audio/output/1337/chapter_06.wav",
+          "duration": 193.496292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Spiritual Decluttering: Making Room for Faith and Inner Stillness",
+          "actualDuration": 193.496292,
+          "startTime": 1149.7555,
+          "endTime": 1343.251792
+        },
+        {
+          "path": "Audio/output/1337/chapter_07.wav",
+          "duration": 179.487625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining Change: Building Habits and Systems for a Clutter-Free Life",
+          "actualDuration": 179.487625,
+          "startTime": 1344.751792,
+          "endTime": 1524.239417
+        },
+        {
+          "path": "Audio/output/1337/chapter_08.wav",
+          "duration": 158.159333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and Embracing Grace",
+          "actualDuration": 158.159333,
+          "startTime": 1525.739417,
+          "endTime": 1683.89875
+        },
+        {
+          "path": "Audio/output/1337/chapter_09.wav",
+          "duration": 139.063292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Decluttering with Faith and Purpose",
+          "actualDuration": 139.063292,
+          "startTime": 1685.39875,
+          "endTime": 1824.462042
+        },
+        {
+          "path": "Audio/output/1337/chapter_10.wav",
+          "duration": 121.630708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living a Life of Ongoing Freedom and Joy",
+          "actualDuration": 121.630708,
+          "startTime": 1825.962042,
+          "endTime": 1947.59275
+        },
+        {
+          "path": "Audio/output/1337/conclusion.wav",
+          "duration": 107.165542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.165542,
+          "startTime": 1949.09275,
+          "endTime": 2056.258292
+        }
+      ],
+      "totalDuration": 2056.258292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.43,
+          "actualStart": 0,
+          "actualEnd": 82.432625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Clutter as a Barrier to Joy and Freedom",
+          "expectedStart": 82.43,
+          "expectedEnd": 263.71,
+          "actualStart": 83.932625,
+          "actualEnd": 265.21275,
+          "timeDifference": 1.5026249999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Taking Responsibility and Embracing Intentional Change",
+          "expectedStart": 263.71,
+          "expectedEnd": 487.47,
+          "actualStart": 266.71275,
+          "actualEnd": 490.469667,
+          "timeDifference": 3.0027500000000487
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Clearing Physical Spaces to Create Room for Peace",
+          "expectedStart": 487.47,
+          "expectedEnd": 690.29,
+          "actualStart": 491.969667,
+          "actualEnd": 694.784917,
+          "timeDifference": 4.499666999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Addressing Emotional and Relational Clutter for Deeper Connection",
+          "expectedStart": 690.29,
+          "expectedEnd": 921.75,
+          "actualStart": 696.284917,
+          "actualEnd": 927.7417499999999,
+          "timeDifference": 5.994916999999987
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Simplifying Schedules, Finances, and Digital Life for Lasting Balance",
+          "expectedStart": 921.75,
+          "expectedEnd": 1140.76,
+          "actualStart": 929.2417499999999,
+          "actualEnd": 1148.2555,
+          "timeDifference": 7.491749999999911
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Spiritual Decluttering: Making Room for Faith and Inner Stillness",
+          "expectedStart": 1140.76,
+          "expectedEnd": 1334.26,
+          "actualStart": 1149.7555,
+          "actualEnd": 1343.251792,
+          "timeDifference": 8.995499999999993
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining Change: Building Habits and Systems for a Clutter-Free Life",
+          "expectedStart": 1334.26,
+          "expectedEnd": 1513.75,
+          "actualStart": 1344.751792,
+          "actualEnd": 1524.239417,
+          "timeDifference": 10.491792000000032
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and Embracing Grace",
+          "expectedStart": 1513.75,
+          "expectedEnd": 1671.91,
+          "actualStart": 1525.739417,
+          "actualEnd": 1683.89875,
+          "timeDifference": 11.989417000000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Decluttering with Faith and Purpose",
+          "expectedStart": 1671.91,
+          "expectedEnd": 1810.97,
+          "actualStart": 1685.39875,
+          "actualEnd": 1824.462042,
+          "timeDifference": 13.488749999999982
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living a Life of Ongoing Freedom and Joy",
+          "expectedStart": 1810.97,
+          "expectedEnd": 1932.6,
+          "actualStart": 1825.962042,
+          "actualEnd": 1947.59275,
+          "timeDifference": 14.992042000000083
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1932.6,
+          "expectedEnd": 2039.77,
+          "actualStart": 1949.09275,
+          "actualEnd": 2056.258292,
+          "timeDifference": 16.492750000000115
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.432625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Clutter as a Barrier to Joy and Freedom"
+        },
+        {
+          "startTime": 265.21275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Clutter as a Barrier to Joy and Freedom and Chapter 2 Taking Responsibility and Embracing Intentional Change"
+        },
+        {
+          "startTime": 490.469667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Taking Responsibility and Embracing Intentional Change and Chapter 3 Clearing Physical Spaces to Create Room for Peace"
+        },
+        {
+          "startTime": 694.784917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Clearing Physical Spaces to Create Room for Peace and Chapter 4 Addressing Emotional and Relational Clutter for Deeper Connection"
+        },
+        {
+          "startTime": 927.7417499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Addressing Emotional and Relational Clutter for Deeper Connection and Chapter 5 Simplifying Schedules, Finances, and Digital Life for Lasting Balance"
+        },
+        {
+          "startTime": 1148.2555,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Simplifying Schedules, Finances, and Digital Life for Lasting Balance and Chapter 6 Spiritual Decluttering: Making Room for Faith and Inner Stillness"
+        },
+        {
+          "startTime": 1343.251792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Spiritual Decluttering: Making Room for Faith and Inner Stillness and Chapter 7 Sustaining Change: Building Habits and Systems for a Clutter-Free Life"
+        },
+        {
+          "startTime": 1524.239417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining Change: Building Habits and Systems for a Clutter-Free Life and Chapter 8 Navigating Setbacks and Embracing Grace"
+        },
+        {
+          "startTime": 1683.89875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and Embracing Grace and Chapter 9 Integrating Decluttering with Faith and Purpose"
+        },
+        {
+          "startTime": 1824.462042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Decluttering with Faith and Purpose and Chapter 10 Living a Life of Ongoing Freedom and Joy"
+        },
+        {
+          "startTime": 1947.59275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living a Life of Ongoing Freedom and Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1337",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T07:50:29.162Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

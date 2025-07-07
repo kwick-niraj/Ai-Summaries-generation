@@ -1,0 +1,456 @@
+{
+  "bookId": "1423",
+  "timestamp": "2025-07-07T15:04:20.656Z",
+  "success": false,
+  "processingTime": -1751900356111,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4057,
+    "totalAudioFiles": 12,
+    "totalDuration": 1998.33554
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1998.33554
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1423/optimized_text/1423.md",
+    "fileSize": 768,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "1423.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1423/metadata/1423_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1998.34,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1423/metadata/1423_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1423/metadata/1423_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1423/1423_complete.wav",
+    "duration": 1998.335542,
+    "fileSize": 95920184,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1423/introduction.wav",
+          "duration": 87.016333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.016333,
+          "startTime": 0,
+          "endTime": 87.016333
+        },
+        {
+          "path": "Audio/output/1423/chapter_01.wav",
+          "duration": 174.994917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Answers in the World of Running",
+          "actualDuration": 174.994917,
+          "startTime": 88.516333,
+          "endTime": 263.51125
+        },
+        {
+          "path": "Audio/output/1423/chapter_02.wav",
+          "duration": 219.124208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Meeting the Tarahumara: A Life Built Around Running",
+          "actualDuration": 219.124208,
+          "startTime": 265.01125,
+          "endTime": 484.135458
+        },
+        {
+          "path": "Audio/output/1423/chapter_03.wav",
+          "duration": 221.480542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rethinking Running: The Science of Human Endurance",
+          "actualDuration": 221.480542,
+          "startTime": 485.635458,
+          "endTime": 707.116
+        },
+        {
+          "path": "Audio/output/1423/chapter_04.wav",
+          "duration": 172.075708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rediscovering Joy: Running as Play and Community",
+          "actualDuration": 172.075708,
+          "startTime": 708.616,
+          "endTime": 880.691708
+        },
+        {
+          "path": "Audio/output/1423/chapter_05.wav",
+          "duration": 187.755083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Modern Beliefs: Simplicity, Listening, and Trusting the Body",
+          "actualDuration": 187.755083,
+          "startTime": 882.191708,
+          "endTime": 1069.9467909999998
+        },
+        {
+          "path": "Audio/output/1423/chapter_06.wav",
+          "duration": 205.598625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gathering: Outsiders and the Dream of the Ultimate Race",
+          "actualDuration": 205.598625,
+          "startTime": 1071.4467909999998,
+          "endTime": 1277.045416
+        },
+        {
+          "path": "Audio/output/1423/chapter_07.wav",
+          "duration": 202.15025,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Race: Pushing Limits and Finding Connection",
+          "actualDuration": 202.15025,
+          "startTime": 1278.545416,
+          "endTime": 1480.6956659999998
+        },
+        {
+          "path": "Audio/output/1423/chapter_08.wav",
+          "duration": 147.312333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons from the Canyons: Healing, Resilience, and the Power of Story",
+          "actualDuration": 147.312333,
+          "startTime": 1482.1956659999998,
+          "endTime": 1629.507999
+        },
+        {
+          "path": "Audio/output/1423/chapter_09.wav",
+          "duration": 128.550375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Rethinking Health: Movement, Food, and the Spirit of Play",
+          "actualDuration": 128.550375,
+          "startTime": 1631.007999,
+          "endTime": 1759.558374
+        },
+        {
+          "path": "Audio/output/1423/chapter_10.wav",
+          "duration": 125.551208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit: What the Tarahumara Teach Us About Being Human",
+          "actualDuration": 125.551208,
+          "startTime": 1761.058374,
+          "endTime": 1886.609582
+        },
+        {
+          "path": "Audio/output/1423/conclusion.wav",
+          "duration": 126.725958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.725958,
+          "startTime": 1888.109582,
+          "endTime": 2014.83554
+        }
+      ],
+      "totalDuration": 2014.83554,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.02,
+          "actualStart": 0,
+          "actualEnd": 87.016333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Answers in the World of Running",
+          "expectedStart": 87.02,
+          "expectedEnd": 262.01,
+          "actualStart": 88.516333,
+          "actualEnd": 263.51125,
+          "timeDifference": 1.496333000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Meeting the Tarahumara: A Life Built Around Running",
+          "expectedStart": 262.01,
+          "expectedEnd": 481.13,
+          "actualStart": 265.01125,
+          "actualEnd": 484.135458,
+          "timeDifference": 3.0012500000000273
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rethinking Running: The Science of Human Endurance",
+          "expectedStart": 481.13,
+          "expectedEnd": 702.61,
+          "actualStart": 485.635458,
+          "actualEnd": 707.116,
+          "timeDifference": 4.505458000000033
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rediscovering Joy: Running as Play and Community",
+          "expectedStart": 702.61,
+          "expectedEnd": 874.69,
+          "actualStart": 708.616,
+          "actualEnd": 880.691708,
+          "timeDifference": 6.005999999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Modern Beliefs: Simplicity, Listening, and Trusting the Body",
+          "expectedStart": 874.69,
+          "expectedEnd": 1062.45,
+          "actualStart": 882.191708,
+          "actualEnd": 1069.9467909999998,
+          "timeDifference": 7.501707999999894
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gathering: Outsiders and the Dream of the Ultimate Race",
+          "expectedStart": 1062.45,
+          "expectedEnd": 1268.05,
+          "actualStart": 1071.4467909999998,
+          "actualEnd": 1277.045416,
+          "timeDifference": 8.996790999999803
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Race: Pushing Limits and Finding Connection",
+          "expectedStart": 1268.05,
+          "expectedEnd": 1470.2,
+          "actualStart": 1278.545416,
+          "actualEnd": 1480.6956659999998,
+          "timeDifference": 10.495415999999977
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons from the Canyons: Healing, Resilience, and the Power of Story",
+          "expectedStart": 1470.2,
+          "expectedEnd": 1617.51,
+          "actualStart": 1482.1956659999998,
+          "actualEnd": 1629.507999,
+          "timeDifference": 11.995665999999801
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Rethinking Health: Movement, Food, and the Spirit of Play",
+          "expectedStart": 1617.51,
+          "expectedEnd": 1746.06,
+          "actualStart": 1631.007999,
+          "actualEnd": 1759.558374,
+          "timeDifference": 13.497998999999936
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit: What the Tarahumara Teach Us About Being Human",
+          "expectedStart": 1746.06,
+          "expectedEnd": 1871.61,
+          "actualStart": 1761.058374,
+          "actualEnd": 1886.609582,
+          "timeDifference": 14.998374000000013
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1871.61,
+          "expectedEnd": 1998.34,
+          "actualStart": 1888.109582,
+          "actualEnd": 2014.83554,
+          "timeDifference": 16.499582000000146
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.016333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Answers in the World of Running"
+        },
+        {
+          "startTime": 263.51125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Answers in the World of Running and Chapter 2 Meeting the Tarahumara: A Life Built Around Running"
+        },
+        {
+          "startTime": 484.135458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Meeting the Tarahumara: A Life Built Around Running and Chapter 3 Rethinking Running: The Science of Human Endurance"
+        },
+        {
+          "startTime": 707.116,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rethinking Running: The Science of Human Endurance and Chapter 4 Rediscovering Joy: Running as Play and Community"
+        },
+        {
+          "startTime": 880.691708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rediscovering Joy: Running as Play and Community and Chapter 5 Challenging Modern Beliefs: Simplicity, Listening, and Trusting the Body"
+        },
+        {
+          "startTime": 1069.9467909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Modern Beliefs: Simplicity, Listening, and Trusting the Body and Chapter 6 The Gathering: Outsiders and the Dream of the Ultimate Race"
+        },
+        {
+          "startTime": 1277.045416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gathering: Outsiders and the Dream of the Ultimate Race and Chapter 7 The Race: Pushing Limits and Finding Connection"
+        },
+        {
+          "startTime": 1480.6956659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Race: Pushing Limits and Finding Connection and Chapter 8 Lessons from the Canyons: Healing, Resilience, and the Power of Story"
+        },
+        {
+          "startTime": 1629.507999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons from the Canyons: Healing, Resilience, and the Power of Story and Chapter 9 Rethinking Health: Movement, Food, and the Spirit of Play"
+        },
+        {
+          "startTime": 1759.558374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Rethinking Health: Movement, Food, and the Spirit of Play and Chapter 10 The Enduring Spirit: What the Tarahumara Teach Us About Being Human"
+        },
+        {
+          "startTime": 1886.609582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit: What the Tarahumara Teach Us About Being Human and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1423",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T14:59:17.421Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1260",
+  "timestamp": "2025-07-07T01:29:42.016Z",
+  "success": false,
+  "processingTime": -1751851344349,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5105,
+    "totalAudioFiles": 12,
+    "totalDuration": 2265.758583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2265.758583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1260/optimized_text/1260.md",
+    "fileSize": 776,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "1260.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1260/metadata/1260_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2265.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1260/metadata/1260_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1260/metadata/1260_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1260/1260_complete.wav",
+    "duration": 2265.758583,
+    "fileSize": 108756490,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1260/introduction.wav",
+          "duration": 98.533417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.533417,
+          "startTime": 0,
+          "endTime": 98.533417
+        },
+        {
+          "path": "Audio/output/1260/chapter_01.wav",
+          "duration": 278.034417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A World Turned Upside Down: Arrival at Auschwitz",
+          "actualDuration": 278.034417,
+          "startTime": 100.033417,
+          "endTime": 378.067834
+        },
+        {
+          "path": "Audio/output/1260/chapter_02.wav",
+          "duration": 242.698875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Secret Library: Books as Lifelines",
+          "actualDuration": 242.698875,
+          "startTime": 379.567834,
+          "endTime": 622.266709
+        },
+        {
+          "path": "Audio/output/1260/chapter_03.wav",
+          "duration": 250.830458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Acts of Defiance: Education and Imagination as Resistance",
+          "actualDuration": 250.830458,
+          "startTime": 623.766709,
+          "endTime": 874.597167
+        },
+        {
+          "path": "Audio/output/1260/chapter_04.wav",
+          "duration": 217.270333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Holding On to Dignity: Community, Solidarity, and the Fight for Humanity",
+          "actualDuration": 217.270333,
+          "startTime": 876.097167,
+          "endTime": 1093.3675
+        },
+        {
+          "path": "Audio/output/1260/chapter_05.wav",
+          "duration": 177.614292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Shadow of Danger: Loss, Fear, and the Will to Endure",
+          "actualDuration": 177.614292,
+          "startTime": 1094.8675,
+          "endTime": 1272.481792
+        },
+        {
+          "path": "Audio/output/1260/chapter_06.wav",
+          "duration": 183.550292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Tipping Point: Rumors, Uncertainty, and the Weight of Hope",
+          "actualDuration": 183.550292,
+          "startTime": 1273.981792,
+          "endTime": 1457.532084
+        },
+        {
+          "path": "Audio/output/1260/chapter_07.wav",
+          "duration": 186.77325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Final Days: Choices, Sacrifice, and the Cost of Survival",
+          "actualDuration": 186.77325,
+          "startTime": 1459.032084,
+          "endTime": 1645.805334
+        },
+        {
+          "path": "Audio/output/1260/chapter_08.wav",
+          "duration": 169.131375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Liberation and Aftermath: Memory, Guilt, and the Search for Meaning",
+          "actualDuration": 169.131375,
+          "startTime": 1647.305334,
+          "endTime": 1816.4367089999998
+        },
+        {
+          "path": "Audio/output/1260/chapter_09.wav",
+          "duration": 160.083333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bearing Witness: The Power of Story and the Responsibility to Remember",
+          "actualDuration": 160.083333,
+          "startTime": 1817.9367089999998,
+          "endTime": 1978.0200419999999
+        },
+        {
+          "path": "Audio/output/1260/chapter_10.wav",
+          "duration": 173.170458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Lessons for the Future",
+          "actualDuration": 173.170458,
+          "startTime": 1979.5200419999999,
+          "endTime": 2152.6904999999997
+        },
+        {
+          "path": "Audio/output/1260/conclusion.wav",
+          "duration": 128.068083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.068083,
+          "startTime": 2154.1904999999997,
+          "endTime": 2282.258583
+        }
+      ],
+      "totalDuration": 2282.258583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.53,
+          "actualStart": 0,
+          "actualEnd": 98.533417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A World Turned Upside Down: Arrival at Auschwitz",
+          "expectedStart": 98.53,
+          "expectedEnd": 376.56,
+          "actualStart": 100.033417,
+          "actualEnd": 378.067834,
+          "timeDifference": 1.503416999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Secret Library: Books as Lifelines",
+          "expectedStart": 376.56,
+          "expectedEnd": 619.26,
+          "actualStart": 379.567834,
+          "actualEnd": 622.266709,
+          "timeDifference": 3.0078340000000026
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Acts of Defiance: Education and Imagination as Resistance",
+          "expectedStart": 619.26,
+          "expectedEnd": 870.09,
+          "actualStart": 623.766709,
+          "actualEnd": 874.597167,
+          "timeDifference": 4.506709000000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Holding On to Dignity: Community, Solidarity, and the Fight for Humanity",
+          "expectedStart": 870.09,
+          "expectedEnd": 1087.36,
+          "actualStart": 876.097167,
+          "actualEnd": 1093.3675,
+          "timeDifference": 6.007166999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Shadow of Danger: Loss, Fear, and the Will to Endure",
+          "expectedStart": 1087.36,
+          "expectedEnd": 1264.97,
+          "actualStart": 1094.8675,
+          "actualEnd": 1272.481792,
+          "timeDifference": 7.507500000000164
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Tipping Point: Rumors, Uncertainty, and the Weight of Hope",
+          "expectedStart": 1264.97,
+          "expectedEnd": 1448.52,
+          "actualStart": 1273.981792,
+          "actualEnd": 1457.532084,
+          "timeDifference": 9.011792000000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Final Days: Choices, Sacrifice, and the Cost of Survival",
+          "expectedStart": 1448.52,
+          "expectedEnd": 1635.29,
+          "actualStart": 1459.032084,
+          "actualEnd": 1645.805334,
+          "timeDifference": 10.512083999999959
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Liberation and Aftermath: Memory, Guilt, and the Search for Meaning",
+          "expectedStart": 1635.29,
+          "expectedEnd": 1804.42,
+          "actualStart": 1647.305334,
+          "actualEnd": 1816.4367089999998,
+          "timeDifference": 12.015333999999939
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bearing Witness: The Power of Story and the Responsibility to Remember",
+          "expectedStart": 1804.42,
+          "expectedEnd": 1964.5,
+          "actualStart": 1817.9367089999998,
+          "actualEnd": 1978.0200419999999,
+          "timeDifference": 13.516708999999764
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Lessons for the Future",
+          "expectedStart": 1964.5,
+          "expectedEnd": 2137.67,
+          "actualStart": 1979.5200419999999,
+          "actualEnd": 2152.6904999999997,
+          "timeDifference": 15.020041999999876
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2137.67,
+          "expectedEnd": 2265.74,
+          "actualStart": 2154.1904999999997,
+          "actualEnd": 2282.258583,
+          "timeDifference": 16.52049999999963
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.533417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A World Turned Upside Down: Arrival at Auschwitz"
+        },
+        {
+          "startTime": 378.067834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A World Turned Upside Down: Arrival at Auschwitz and Chapter 2 The Secret Library: Books as Lifelines"
+        },
+        {
+          "startTime": 622.266709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Secret Library: Books as Lifelines and Chapter 3 Acts of Defiance: Education and Imagination as Resistance"
+        },
+        {
+          "startTime": 874.597167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Acts of Defiance: Education and Imagination as Resistance and Chapter 4 Holding On to Dignity: Community, Solidarity, and the Fight for Humanity"
+        },
+        {
+          "startTime": 1093.3675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Holding On to Dignity: Community, Solidarity, and the Fight for Humanity and Chapter 5 The Shadow of Danger: Loss, Fear, and the Will to Endure"
+        },
+        {
+          "startTime": 1272.481792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Shadow of Danger: Loss, Fear, and the Will to Endure and Chapter 6 The Tipping Point: Rumors, Uncertainty, and the Weight of Hope"
+        },
+        {
+          "startTime": 1457.532084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Tipping Point: Rumors, Uncertainty, and the Weight of Hope and Chapter 7 The Final Days: Choices, Sacrifice, and the Cost of Survival"
+        },
+        {
+          "startTime": 1645.805334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Final Days: Choices, Sacrifice, and the Cost of Survival and Chapter 8 Liberation and Aftermath: Memory, Guilt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1816.4367089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Liberation and Aftermath: Memory, Guilt, and the Search for Meaning and Chapter 9 Bearing Witness: The Power of Story and the Responsibility to Remember"
+        },
+        {
+          "startTime": 1978.0200419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bearing Witness: The Power of Story and the Responsibility to Remember and Chapter 10 The Enduring Legacy: Lessons for the Future"
+        },
+        {
+          "startTime": 2152.6904999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Lessons for the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1260",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T01:22:25.535Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

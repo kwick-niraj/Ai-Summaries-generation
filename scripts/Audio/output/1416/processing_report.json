@@ -1,0 +1,456 @@
+{
+  "bookId": "1416",
+  "timestamp": "2025-07-07T14:30:58.891Z",
+  "success": false,
+  "processingTime": -1751898118541,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4565,
+    "totalAudioFiles": 12,
+    "totalDuration": 1946.7297089999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1946.7297089999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1416/optimized_text/1416.md",
+    "fileSize": 764,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1416.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1416/metadata/1416_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1946.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1416/metadata/1416_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1416/metadata/1416_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1416/1416_complete.wav",
+    "duration": 1946.729708,
+    "fileSize": 93443104,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1416/introduction.wav",
+          "duration": 91.915875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.915875,
+          "startTime": 0,
+          "endTime": 91.915875
+        },
+        {
+          "path": "Audio/output/1416/chapter_01.wav",
+          "duration": 202.275333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Why Tidying Matters: The Foundation for Change",
+          "actualDuration": 202.275333,
+          "startTime": 93.415875,
+          "endTime": 295.69120799999996
+        },
+        {
+          "path": "Audio/output/1416/chapter_02.wav",
+          "duration": 187.641542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Joy Principle: Deciding What to Keep",
+          "actualDuration": 187.641542,
+          "startTime": 297.19120799999996,
+          "endTime": 484.8327499999999
+        },
+        {
+          "path": "Audio/output/1416/chapter_03.wav",
+          "duration": 218.739458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Organizing by Category: A Systematic Approach",
+          "actualDuration": 218.739458,
+          "startTime": 486.3327499999999,
+          "endTime": 705.0722079999999
+        },
+        {
+          "path": "Audio/output/1416/chapter_04.wav",
+          "duration": 177.399417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Letting Go with Gratitude: Navigating Emotional Attachments",
+          "actualDuration": 177.399417,
+          "startTime": 706.5722079999999,
+          "endTime": 883.9716249999999
+        },
+        {
+          "path": "Audio/output/1416/chapter_05.wav",
+          "duration": 174.558667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Order: Practical Storage and Respect for Belongings",
+          "actualDuration": 174.558667,
+          "startTime": 885.4716249999999,
+          "endTime": 1060.030292
+        },
+        {
+          "path": "Audio/output/1416/chapter_06.wav",
+          "duration": 156.421083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Maintaining Tidiness: Building Habits for the Long Term",
+          "actualDuration": 156.421083,
+          "startTime": 1061.530292,
+          "endTime": 1217.9513749999999
+        },
+        {
+          "path": "Audio/output/1416/chapter_07.wav",
+          "duration": 175.421167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Self-Awareness: Learning from What You Keep",
+          "actualDuration": 175.421167,
+          "startTime": 1219.4513749999999,
+          "endTime": 1394.8725419999998
+        },
+        {
+          "path": "Audio/output/1416/chapter_08.wav",
+          "duration": 165.376292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Joyful Living: Extending Principles Beyond the Home",
+          "actualDuration": 165.376292,
+          "startTime": 1396.3725419999998,
+          "endTime": 1561.7488339999998
+        },
+        {
+          "path": "Audio/output/1416/chapter_09.wav",
+          "duration": 140.095667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks: Compassionate Strategies for Staying on Track",
+          "actualDuration": 140.095667,
+          "startTime": 1563.2488339999998,
+          "endTime": 1703.3445009999998
+        },
+        {
+          "path": "Audio/output/1416/chapter_10.wav",
+          "duration": 134.451083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sharing the Journey: Inspiring Others and Building Community",
+          "actualDuration": 134.451083,
+          "startTime": 1704.8445009999998,
+          "endTime": 1839.2955839999997
+        },
+        {
+          "path": "Audio/output/1416/conclusion.wav",
+          "duration": 122.434125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.434125,
+          "startTime": 1840.7955839999997,
+          "endTime": 1963.2297089999997
+        }
+      ],
+      "totalDuration": 1963.2297089999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.92,
+          "actualStart": 0,
+          "actualEnd": 91.915875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Why Tidying Matters: The Foundation for Change",
+          "expectedStart": 91.92,
+          "expectedEnd": 294.2,
+          "actualStart": 93.415875,
+          "actualEnd": 295.69120799999996,
+          "timeDifference": 1.495874999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Joy Principle: Deciding What to Keep",
+          "expectedStart": 294.2,
+          "expectedEnd": 481.84,
+          "actualStart": 297.19120799999996,
+          "actualEnd": 484.8327499999999,
+          "timeDifference": 2.991207999999972
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Organizing by Category: A Systematic Approach",
+          "expectedStart": 481.84,
+          "expectedEnd": 700.58,
+          "actualStart": 486.3327499999999,
+          "actualEnd": 705.0722079999999,
+          "timeDifference": 4.492749999999944
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Letting Go with Gratitude: Navigating Emotional Attachments",
+          "expectedStart": 700.58,
+          "expectedEnd": 877.98,
+          "actualStart": 706.5722079999999,
+          "actualEnd": 883.9716249999999,
+          "timeDifference": 5.992207999999891
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Order: Practical Storage and Respect for Belongings",
+          "expectedStart": 877.98,
+          "expectedEnd": 1052.54,
+          "actualStart": 885.4716249999999,
+          "actualEnd": 1060.030292,
+          "timeDifference": 7.491624999999885
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Maintaining Tidiness: Building Habits for the Long Term",
+          "expectedStart": 1052.54,
+          "expectedEnd": 1208.96,
+          "actualStart": 1061.530292,
+          "actualEnd": 1217.9513749999999,
+          "timeDifference": 8.990291999999954
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Self-Awareness: Learning from What You Keep",
+          "expectedStart": 1208.96,
+          "expectedEnd": 1384.38,
+          "actualStart": 1219.4513749999999,
+          "actualEnd": 1394.8725419999998,
+          "timeDifference": 10.491374999999834
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Joyful Living: Extending Principles Beyond the Home",
+          "expectedStart": 1384.38,
+          "expectedEnd": 1549.76,
+          "actualStart": 1396.3725419999998,
+          "actualEnd": 1561.7488339999998,
+          "timeDifference": 11.99254199999973
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks: Compassionate Strategies for Staying on Track",
+          "expectedStart": 1549.76,
+          "expectedEnd": 1689.86,
+          "actualStart": 1563.2488339999998,
+          "actualEnd": 1703.3445009999998,
+          "timeDifference": 13.48883399999977
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sharing the Journey: Inspiring Others and Building Community",
+          "expectedStart": 1689.86,
+          "expectedEnd": 1824.31,
+          "actualStart": 1704.8445009999998,
+          "actualEnd": 1839.2955839999997,
+          "timeDifference": 14.98450099999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1824.31,
+          "expectedEnd": 1946.74,
+          "actualStart": 1840.7955839999997,
+          "actualEnd": 1963.2297089999997,
+          "timeDifference": 16.48558399999979
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.915875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Why Tidying Matters: The Foundation for Change"
+        },
+        {
+          "startTime": 295.69120799999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Why Tidying Matters: The Foundation for Change and Chapter 2 The Joy Principle: Deciding What to Keep"
+        },
+        {
+          "startTime": 484.8327499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Joy Principle: Deciding What to Keep and Chapter 3 Organizing by Category: A Systematic Approach"
+        },
+        {
+          "startTime": 705.0722079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Organizing by Category: A Systematic Approach and Chapter 4 Letting Go with Gratitude: Navigating Emotional Attachments"
+        },
+        {
+          "startTime": 883.9716249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Letting Go with Gratitude: Navigating Emotional Attachments and Chapter 5 Creating Order: Practical Storage and Respect for Belongings"
+        },
+        {
+          "startTime": 1060.030292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Order: Practical Storage and Respect for Belongings and Chapter 6 Maintaining Tidiness: Building Habits for the Long Term"
+        },
+        {
+          "startTime": 1217.9513749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Maintaining Tidiness: Building Habits for the Long Term and Chapter 7 Deepening Self-Awareness: Learning from What You Keep"
+        },
+        {
+          "startTime": 1394.8725419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Self-Awareness: Learning from What You Keep and Chapter 8 Integrating Joyful Living: Extending Principles Beyond the Home"
+        },
+        {
+          "startTime": 1561.7488339999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Joyful Living: Extending Principles Beyond the Home and Chapter 9 Navigating Setbacks: Compassionate Strategies for Staying on Track"
+        },
+        {
+          "startTime": 1703.3445009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks: Compassionate Strategies for Staying on Track and Chapter 10 Sharing the Journey: Inspiring Others and Building Community"
+        },
+        {
+          "startTime": 1839.2955839999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sharing the Journey: Inspiring Others and Building Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1416",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T14:22:00.279Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

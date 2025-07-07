@@ -1,0 +1,455 @@
+{
+  "bookId": "1412",
+  "timestamp": "2025-07-07T14:10:06.430Z",
+  "success": false,
+  "processingTime": -1751896873087,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5183,
+    "totalAudioFiles": 12,
+    "totalDuration": 2102.805041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2102.805041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1412/optimized_text/1412.md",
+    "fileSize": 741,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "1412.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1412/metadata/1412_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2102.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1412/metadata/1412_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1412/metadata/1412_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1412/1412_complete.wav",
+    "duration": 2102.805042,
+    "fileSize": 100934720,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1412/introduction.wav",
+          "duration": 99.011292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.011292,
+          "startTime": 0,
+          "endTime": 99.011292
+        },
+        {
+          "path": "Audio/output/1412/chapter_01.wav",
+          "duration": 300.597708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Surrounded by Loss and Love in Rural Mississippi",
+          "actualDuration": 300.597708,
+          "startTime": 100.511292,
+          "endTime": 401.10900000000004
+        },
+        {
+          "path": "Audio/output/1412/chapter_02.wav",
+          "duration": 242.32975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of History and the Inheritance of Struggle",
+          "actualDuration": 242.32975,
+          "startTime": 402.60900000000004,
+          "endTime": 644.93875
+        },
+        {
+          "path": "Audio/output/1412/chapter_03.wav",
+          "duration": 228.0585,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Fragility of Black Masculinity and the Shadow of Violence",
+          "actualDuration": 228.0585,
+          "startTime": 646.43875,
+          "endTime": 874.49725
+        },
+        {
+          "path": "Audio/output/1412/chapter_04.wav",
+          "duration": 240.347333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family Bonds, Maternal Strength, and the Struggle to Protect",
+          "actualDuration": 240.347333,
+          "startTime": 875.99725,
+          "endTime": 1116.344583
+        },
+        {
+          "path": "Audio/output/1412/chapter_05.wav",
+          "duration": 164.976125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bearing Witness and the Power of Remembering",
+          "actualDuration": 164.976125,
+          "startTime": 1117.844583,
+          "endTime": 1282.820708
+        },
+        {
+          "path": "Audio/output/1412/chapter_06.wav",
+          "duration": 151.35125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Cycles of Trauma and the Search for Healing",
+          "actualDuration": 151.35125,
+          "startTime": 1284.320708,
+          "endTime": 1435.671958
+        },
+        {
+          "path": "Audio/output/1412/chapter_07.wav",
+          "duration": 157.391,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Education, Aspiration, and the Barriers to Change",
+          "actualDuration": 157.391,
+          "startTime": 1437.171958,
+          "endTime": 1594.562958
+        },
+        {
+          "path": "Audio/output/1412/chapter_08.wav",
+          "duration": 154.403625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Faith, Spirituality, and the Role of the Church",
+          "actualDuration": 154.403625,
+          "startTime": 1596.062958,
+          "endTime": 1750.466583
+        },
+        {
+          "path": "Audio/output/1412/chapter_09.wav",
+          "duration": 140.763083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Long Reach of Incarceration and the Struggle for Redemption",
+          "actualDuration": 140.763083,
+          "startTime": 1751.966583,
+          "endTime": 1892.729666
+        },
+        {
+          "path": "Audio/output/1412/chapter_10.wav",
+          "duration": 109.398917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Power of Community and the Hope for Change",
+          "actualDuration": 109.398917,
+          "startTime": 1894.229666,
+          "endTime": 2003.628583
+        },
+        {
+          "path": "Audio/output/1412/conclusion.wav",
+          "duration": 114.176458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.176458,
+          "startTime": 2005.128583,
+          "endTime": 2119.305041
+        }
+      ],
+      "totalDuration": 2119.305041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.01,
+          "actualStart": 0,
+          "actualEnd": 99.011292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Surrounded by Loss and Love in Rural Mississippi",
+          "expectedStart": 99.01,
+          "expectedEnd": 399.61,
+          "actualStart": 100.511292,
+          "actualEnd": 401.10900000000004,
+          "timeDifference": 1.5012919999999923
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of History and the Inheritance of Struggle",
+          "expectedStart": 399.61,
+          "expectedEnd": 641.94,
+          "actualStart": 402.60900000000004,
+          "actualEnd": 644.93875,
+          "timeDifference": 2.9990000000000236
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Fragility of Black Masculinity and the Shadow of Violence",
+          "expectedStart": 641.94,
+          "expectedEnd": 870,
+          "actualStart": 646.43875,
+          "actualEnd": 874.49725,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family Bonds, Maternal Strength, and the Struggle to Protect",
+          "expectedStart": 870,
+          "expectedEnd": 1110.35,
+          "actualStart": 875.99725,
+          "actualEnd": 1116.344583,
+          "timeDifference": 5.997250000000008
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bearing Witness and the Power of Remembering",
+          "expectedStart": 1110.35,
+          "expectedEnd": 1275.33,
+          "actualStart": 1117.844583,
+          "actualEnd": 1282.820708,
+          "timeDifference": 7.494583000000148
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Cycles of Trauma and the Search for Healing",
+          "expectedStart": 1275.33,
+          "expectedEnd": 1426.68,
+          "actualStart": 1284.320708,
+          "actualEnd": 1435.671958,
+          "timeDifference": 8.99070800000004
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Education, Aspiration, and the Barriers to Change",
+          "expectedStart": 1426.68,
+          "expectedEnd": 1584.07,
+          "actualStart": 1437.171958,
+          "actualEnd": 1594.562958,
+          "timeDifference": 10.49195799999984
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Faith, Spirituality, and the Role of the Church",
+          "expectedStart": 1584.07,
+          "expectedEnd": 1738.47,
+          "actualStart": 1596.062958,
+          "actualEnd": 1750.466583,
+          "timeDifference": 11.992958000000044
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Long Reach of Incarceration and the Struggle for Redemption",
+          "expectedStart": 1738.47,
+          "expectedEnd": 1879.23,
+          "actualStart": 1751.966583,
+          "actualEnd": 1892.729666,
+          "timeDifference": 13.496582999999873
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Power of Community and the Hope for Change",
+          "expectedStart": 1879.23,
+          "expectedEnd": 1988.63,
+          "actualStart": 1894.229666,
+          "actualEnd": 2003.628583,
+          "timeDifference": 14.999665999999934
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1988.63,
+          "expectedEnd": 2102.81,
+          "actualStart": 2005.128583,
+          "actualEnd": 2119.305041,
+          "timeDifference": 16.498582999999826
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.011292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Surrounded by Loss and Love in Rural Mississippi"
+        },
+        {
+          "startTime": 401.10900000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Surrounded by Loss and Love in Rural Mississippi and Chapter 2 The Weight of History and the Inheritance of Struggle"
+        },
+        {
+          "startTime": 644.93875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of History and the Inheritance of Struggle and Chapter 3 The Fragility of Black Masculinity and the Shadow of Violence"
+        },
+        {
+          "startTime": 874.49725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Fragility of Black Masculinity and the Shadow of Violence and Chapter 4 Family Bonds, Maternal Strength, and the Struggle to Protect"
+        },
+        {
+          "startTime": 1116.344583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family Bonds, Maternal Strength, and the Struggle to Protect and Chapter 5 Bearing Witness and the Power of Remembering"
+        },
+        {
+          "startTime": 1282.820708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bearing Witness and the Power of Remembering and Chapter 6 The Cycles of Trauma and the Search for Healing"
+        },
+        {
+          "startTime": 1435.671958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Cycles of Trauma and the Search for Healing and Chapter 7 Education, Aspiration, and the Barriers to Change"
+        },
+        {
+          "startTime": 1594.562958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Education, Aspiration, and the Barriers to Change and Chapter 8 Faith, Spirituality, and the Role of the Church"
+        },
+        {
+          "startTime": 1750.466583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Faith, Spirituality, and the Role of the Church and Chapter 9 The Long Reach of Incarceration and the Struggle for Redemption"
+        },
+        {
+          "startTime": 1892.729666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Long Reach of Incarceration and the Struggle for Redemption and Chapter 10 The Enduring Power of Community and the Hope for Change"
+        },
+        {
+          "startTime": 2003.628583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Power of Community and the Hope for Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1412",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T14:01:14.286Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

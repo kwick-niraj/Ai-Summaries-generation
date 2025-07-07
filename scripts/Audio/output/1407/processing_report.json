@@ -1,0 +1,480 @@
+{
+  "bookId": "1407",
+  "timestamp": "2025-07-07T13:43:59.076Z",
+  "success": false,
+  "processingTime": -1751895463776,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5597,
+    "totalAudioFiles": 13,
+    "totalDuration": 2496.715791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2496.715791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1407/optimized_text/1407.md",
+    "fileSize": 866,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "1407.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1407/metadata/1407_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2496.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1407/metadata/1407_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1407/metadata/1407_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1407/1407_complete.wav",
+    "duration": 2496.715792,
+    "fileSize": 119842436,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1407/introduction.wav",
+          "duration": 75.971042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.971042,
+          "startTime": 0,
+          "endTime": 75.971042
+        },
+        {
+          "path": "Audio/output/1407/chapter_01.wav",
+          "duration": 259.349208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Roots of Ambition: Family, History, and the Seeds of Drive",
+          "actualDuration": 259.349208,
+          "startTime": 77.471042,
+          "endTime": 336.82025
+        },
+        {
+          "path": "Audio/output/1407/chapter_02.wav",
+          "duration": 263.92125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Making of a Competitor: High School, College, and the Fire Within",
+          "actualDuration": 263.92125,
+          "startTime": 338.32025,
+          "endTime": 602.2415
+        },
+        {
+          "path": "Audio/output/1407/chapter_03.wav",
+          "duration": 243.889125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Entering the Spotlight: NBA Beginnings and the Price of Stardom",
+          "actualDuration": 243.889125,
+          "startTime": 603.7415,
+          "endTime": 847.630625
+        },
+        {
+          "path": "Audio/output/1407/chapter_04.wav",
+          "duration": 210.983833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Relentless Pursuit: Leadership, Conflict, and the Making of a Champion",
+          "actualDuration": 210.983833,
+          "startTime": 849.130625,
+          "endTime": 1060.114458
+        },
+        {
+          "path": "Audio/output/1407/chapter_05.wav",
+          "duration": 204.304958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Beyond the Game: Race, Culture, and the Rise of a Global Icon",
+          "actualDuration": 204.304958,
+          "startTime": 1061.614458,
+          "endTime": 1265.919416
+        },
+        {
+          "path": "Audio/output/1407/chapter_06.wav",
+          "duration": 204.624833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Summit: Triumph, Turmoil, and the Cost of Winning",
+          "actualDuration": 204.624833,
+          "startTime": 1267.419416,
+          "endTime": 1472.044249
+        },
+        {
+          "path": "Audio/output/1407/chapter_07.wav",
+          "duration": 185.73325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Loss, Grief, and the First Goodbye",
+          "actualDuration": 185.73325,
+          "startTime": 1473.544249,
+          "endTime": 1659.277499
+        },
+        {
+          "path": "Audio/output/1407/chapter_08.wav",
+          "duration": 196.5915,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Return and Redemption: The Second Act",
+          "actualDuration": 196.5915,
+          "startTime": 1660.777499,
+          "endTime": 1857.368999
+        },
+        {
+          "path": "Audio/output/1407/chapter_09.wav",
+          "duration": 184.7165,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Run: Legacy, Farewell, and the Weight of History",
+          "actualDuration": 184.7165,
+          "startTime": 1858.868999,
+          "endTime": 2043.585499
+        },
+        {
+          "path": "Audio/output/1407/chapter_10.wav",
+          "duration": 160.863375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 After the Applause: Business, Ownership, and the Search for Purpose",
+          "actualDuration": 160.863375,
+          "startTime": 2045.085499,
+          "endTime": 2205.948874
+        },
+        {
+          "path": "Audio/output/1407/chapter_11.wav",
+          "duration": 166.490917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Man Behind the Myth: Vulnerability, Family, and the Ongoing Journey",
+          "actualDuration": 166.490917,
+          "startTime": 2207.448874,
+          "endTime": 2373.9397910000002
+        },
+        {
+          "path": "Audio/output/1407/conclusion.wav",
+          "duration": 139.276,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.276,
+          "startTime": 2375.4397910000002,
+          "endTime": 2514.715791
+        }
+      ],
+      "totalDuration": 2514.715791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.97,
+          "actualStart": 0,
+          "actualEnd": 75.971042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Roots of Ambition: Family, History, and the Seeds of Drive",
+          "expectedStart": 75.97,
+          "expectedEnd": 335.32,
+          "actualStart": 77.471042,
+          "actualEnd": 336.82025,
+          "timeDifference": 1.5010419999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Making of a Competitor: High School, College, and the Fire Within",
+          "expectedStart": 335.32,
+          "expectedEnd": 599.24,
+          "actualStart": 338.32025,
+          "actualEnd": 602.2415,
+          "timeDifference": 3.000249999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Entering the Spotlight: NBA Beginnings and the Price of Stardom",
+          "expectedStart": 599.24,
+          "expectedEnd": 843.13,
+          "actualStart": 603.7415,
+          "actualEnd": 847.630625,
+          "timeDifference": 4.5014999999999645
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Relentless Pursuit: Leadership, Conflict, and the Making of a Champion",
+          "expectedStart": 843.13,
+          "expectedEnd": 1054.11,
+          "actualStart": 849.130625,
+          "actualEnd": 1060.114458,
+          "timeDifference": 6.000625000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Beyond the Game: Race, Culture, and the Rise of a Global Icon",
+          "expectedStart": 1054.11,
+          "expectedEnd": 1258.41,
+          "actualStart": 1061.614458,
+          "actualEnd": 1265.919416,
+          "timeDifference": 7.504458000000113
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Summit: Triumph, Turmoil, and the Cost of Winning",
+          "expectedStart": 1258.41,
+          "expectedEnd": 1463.03,
+          "actualStart": 1267.419416,
+          "actualEnd": 1472.044249,
+          "timeDifference": 9.009415999999874
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Loss, Grief, and the First Goodbye",
+          "expectedStart": 1463.03,
+          "expectedEnd": 1648.76,
+          "actualStart": 1473.544249,
+          "actualEnd": 1659.277499,
+          "timeDifference": 10.514249000000063
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Return and Redemption: The Second Act",
+          "expectedStart": 1648.76,
+          "expectedEnd": 1845.35,
+          "actualStart": 1660.777499,
+          "actualEnd": 1857.368999,
+          "timeDifference": 12.017499000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Run: Legacy, Farewell, and the Weight of History",
+          "expectedStart": 1845.35,
+          "expectedEnd": 2030.07,
+          "actualStart": 1858.868999,
+          "actualEnd": 2043.585499,
+          "timeDifference": 13.518999000000122
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 After the Applause: Business, Ownership, and the Search for Purpose",
+          "expectedStart": 2030.07,
+          "expectedEnd": 2190.93,
+          "actualStart": 2045.085499,
+          "actualEnd": 2205.948874,
+          "timeDifference": 15.01549900000009
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Man Behind the Myth: Vulnerability, Family, and the Ongoing Journey",
+          "expectedStart": 2190.93,
+          "expectedEnd": 2357.42,
+          "actualStart": 2207.448874,
+          "actualEnd": 2373.9397910000002,
+          "timeDifference": 16.518874000000324
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2357.42,
+          "expectedEnd": 2496.7,
+          "actualStart": 2375.4397910000002,
+          "actualEnd": 2514.715791,
+          "timeDifference": 18.01979100000017
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.971042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Roots of Ambition: Family, History, and the Seeds of Drive"
+        },
+        {
+          "startTime": 336.82025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Roots of Ambition: Family, History, and the Seeds of Drive and Chapter 2 The Making of a Competitor: High School, College, and the Fire Within"
+        },
+        {
+          "startTime": 602.2415,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Making of a Competitor: High School, College, and the Fire Within and Chapter 3 Entering the Spotlight: NBA Beginnings and the Price of Stardom"
+        },
+        {
+          "startTime": 847.630625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Entering the Spotlight: NBA Beginnings and the Price of Stardom and Chapter 4 The Relentless Pursuit: Leadership, Conflict, and the Making of a Champion"
+        },
+        {
+          "startTime": 1060.114458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Relentless Pursuit: Leadership, Conflict, and the Making of a Champion and Chapter 5 Beyond the Game: Race, Culture, and the Rise of a Global Icon"
+        },
+        {
+          "startTime": 1265.919416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Beyond the Game: Race, Culture, and the Rise of a Global Icon and Chapter 6 The Summit: Triumph, Turmoil, and the Cost of Winning"
+        },
+        {
+          "startTime": 1472.044249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Summit: Triumph, Turmoil, and the Cost of Winning and Chapter 7 Loss, Grief, and the First Goodbye"
+        },
+        {
+          "startTime": 1659.277499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Loss, Grief, and the First Goodbye and Chapter 8 Return and Redemption: The Second Act"
+        },
+        {
+          "startTime": 1857.368999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Return and Redemption: The Second Act and Chapter 9 The Final Run: Legacy, Farewell, and the Weight of History"
+        },
+        {
+          "startTime": 2043.585499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Run: Legacy, Farewell, and the Weight of History and Chapter 10 After the Applause: Business, Ownership, and the Search for Purpose"
+        },
+        {
+          "startTime": 2205.948874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 After the Applause: Business, Ownership, and the Search for Purpose and Chapter 11 The Man Behind the Myth: Vulnerability, Family, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2373.9397910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Man Behind the Myth: Vulnerability, Family, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1407",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T13:37:44.960Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

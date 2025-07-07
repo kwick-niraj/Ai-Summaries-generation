@@ -1,0 +1,456 @@
+{
+  "bookId": "1252",
+  "timestamp": "2025-07-07T00:45:42.288Z",
+  "success": false,
+  "processingTime": -1751848875788,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4185,
+    "totalAudioFiles": 12,
+    "totalDuration": 1949.653917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1949.653917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1252/optimized_text/1252.md",
+    "fileSize": 635,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "1252.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1252/metadata/1252_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1949.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1252/metadata/1252_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1252/metadata/1252_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1252/1252_complete.wav",
+    "duration": 1949.653917,
+    "fileSize": 93583466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1252/introduction.wav",
+          "duration": 102.9765,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.9765,
+          "startTime": 0,
+          "endTime": 102.9765
+        },
+        {
+          "path": "Audio/output/1252/chapter_01.wav",
+          "duration": 190.190292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Hemophilia and the Meaning of Normal",
+          "actualDuration": 190.190292,
+          "startTime": 104.4765,
+          "endTime": 294.666792
+        },
+        {
+          "path": "Audio/output/1252/chapter_02.wav",
+          "duration": 196.067583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Diagnosis That Changed Everything",
+          "actualDuration": 196.067583,
+          "startTime": 296.166792,
+          "endTime": 492.234375
+        },
+        {
+          "path": "Audio/output/1252/chapter_03.wav",
+          "duration": 189.55475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Stigma and the Fight for Acceptance",
+          "actualDuration": 189.55475,
+          "startTime": 493.734375,
+          "endTime": 683.289125
+        },
+        {
+          "path": "Audio/output/1252/chapter_04.wav",
+          "duration": 189.03475,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Strength in Family and Friendship",
+          "actualDuration": 189.03475,
+          "startTime": 684.789125,
+          "endTime": 873.823875
+        },
+        {
+          "path": "Audio/output/1252/chapter_05.wav",
+          "duration": 174.249458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Becoming a Voice for Change and Hope",
+          "actualDuration": 174.249458,
+          "startTime": 875.323875,
+          "endTime": 1049.573333
+        },
+        {
+          "path": "Audio/output/1252/chapter_06.wav",
+          "duration": 185.9395,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect—Changing Hearts, One Story at a Time",
+          "actualDuration": 185.9395,
+          "startTime": 1051.073333,
+          "endTime": 1237.012833
+        },
+        {
+          "path": "Audio/output/1252/chapter_07.wav",
+          "duration": 144.185042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Loss and Finding Meaning",
+          "actualDuration": 144.185042,
+          "startTime": 1238.512833,
+          "endTime": 1382.697875
+        },
+        {
+          "path": "Audio/output/1252/chapter_08.wav",
+          "duration": 184.945417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Community and the Road to Change",
+          "actualDuration": 184.945417,
+          "startTime": 1384.197875,
+          "endTime": 1569.143292
+        },
+        {
+          "path": "Audio/output/1252/chapter_09.wav",
+          "duration": 156.310417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with Uncertainty—Hope, Fear, and the Everyday",
+          "actualDuration": 156.310417,
+          "startTime": 1570.643292,
+          "endTime": 1726.953709
+        },
+        {
+          "path": "Audio/output/1252/chapter_10.wav",
+          "duration": 122.584708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy—A Life That Changed the World",
+          "actualDuration": 122.584708,
+          "startTime": 1728.453709,
+          "endTime": 1851.038417
+        },
+        {
+          "path": "Audio/output/1252/conclusion.wav",
+          "duration": 113.6155,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.6155,
+          "startTime": 1852.538417,
+          "endTime": 1966.153917
+        }
+      ],
+      "totalDuration": 1966.153917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.98,
+          "actualStart": 0,
+          "actualEnd": 102.9765,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Hemophilia and the Meaning of Normal",
+          "expectedStart": 102.98,
+          "expectedEnd": 293.17,
+          "actualStart": 104.4765,
+          "actualEnd": 294.666792,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Diagnosis That Changed Everything",
+          "expectedStart": 293.17,
+          "expectedEnd": 489.24,
+          "actualStart": 296.166792,
+          "actualEnd": 492.234375,
+          "timeDifference": 2.996791999999971
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Stigma and the Fight for Acceptance",
+          "expectedStart": 489.24,
+          "expectedEnd": 678.79,
+          "actualStart": 493.734375,
+          "actualEnd": 683.289125,
+          "timeDifference": 4.494374999999991
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Strength in Family and Friendship",
+          "expectedStart": 678.79,
+          "expectedEnd": 867.82,
+          "actualStart": 684.789125,
+          "actualEnd": 873.823875,
+          "timeDifference": 5.999125000000049
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Becoming a Voice for Change and Hope",
+          "expectedStart": 867.82,
+          "expectedEnd": 1042.07,
+          "actualStart": 875.323875,
+          "actualEnd": 1049.573333,
+          "timeDifference": 7.503874999999994
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect—Changing Hearts, One Story at a Time",
+          "expectedStart": 1042.07,
+          "expectedEnd": 1228.01,
+          "actualStart": 1051.073333,
+          "actualEnd": 1237.012833,
+          "timeDifference": 9.003333000000111
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Loss and Finding Meaning",
+          "expectedStart": 1228.01,
+          "expectedEnd": 1372.2,
+          "actualStart": 1238.512833,
+          "actualEnd": 1382.697875,
+          "timeDifference": 10.50283300000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Community and the Road to Change",
+          "expectedStart": 1372.2,
+          "expectedEnd": 1557.15,
+          "actualStart": 1384.197875,
+          "actualEnd": 1569.143292,
+          "timeDifference": 11.997875000000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with Uncertainty—Hope, Fear, and the Everyday",
+          "expectedStart": 1557.15,
+          "expectedEnd": 1713.46,
+          "actualStart": 1570.643292,
+          "actualEnd": 1726.953709,
+          "timeDifference": 13.493291999999883
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy—A Life That Changed the World",
+          "expectedStart": 1713.46,
+          "expectedEnd": 1836.04,
+          "actualStart": 1728.453709,
+          "actualEnd": 1851.038417,
+          "timeDifference": 14.993708999999853
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1836.04,
+          "expectedEnd": 1949.66,
+          "actualStart": 1852.538417,
+          "actualEnd": 1966.153917,
+          "timeDifference": 16.498417000000018
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.9765,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Hemophilia and the Meaning of Normal"
+        },
+        {
+          "startTime": 294.666792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Hemophilia and the Meaning of Normal and Chapter 2 The Diagnosis That Changed Everything"
+        },
+        {
+          "startTime": 492.234375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Diagnosis That Changed Everything and Chapter 3 Facing Stigma and the Fight for Acceptance"
+        },
+        {
+          "startTime": 683.289125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Stigma and the Fight for Acceptance and Chapter 4 Finding Strength in Family and Friendship"
+        },
+        {
+          "startTime": 873.823875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Strength in Family and Friendship and Chapter 5 Becoming a Voice for Change and Hope"
+        },
+        {
+          "startTime": 1049.573333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Becoming a Voice for Change and Hope and Chapter 6 The Ripple Effect—Changing Hearts, One Story at a Time"
+        },
+        {
+          "startTime": 1237.012833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect—Changing Hearts, One Story at a Time and Chapter 7 Facing Loss and Finding Meaning"
+        },
+        {
+          "startTime": 1382.697875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Loss and Finding Meaning and Chapter 8 The Power of Community and the Road to Change"
+        },
+        {
+          "startTime": 1569.143292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Community and the Road to Change and Chapter 9 Living with Uncertainty—Hope, Fear, and the Everyday"
+        },
+        {
+          "startTime": 1726.953709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with Uncertainty—Hope, Fear, and the Everyday and Chapter 10 Legacy—A Life That Changed the World"
+        },
+        {
+          "startTime": 1851.038417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy—A Life That Changed the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1252",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:41:17.094Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

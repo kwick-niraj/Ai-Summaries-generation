@@ -1,0 +1,455 @@
+{
+  "bookId": "1357",
+  "timestamp": "2025-07-07T09:25:01.491Z",
+  "success": false,
+  "processingTime": -1751879652610,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4667,
+    "totalAudioFiles": 12,
+    "totalDuration": 1935.0611660000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1935.0611660000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1357/optimized_text/1357.md",
+    "fileSize": 643,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1357.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1357/metadata/1357_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1935.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1357/metadata/1357_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1357/metadata/1357_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1357/1357_complete.wav",
+    "duration": 1935.061167,
+    "fileSize": 92883014,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1357/introduction.wav",
+          "duration": 84.79275,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.79275,
+          "startTime": 0,
+          "endTime": 84.79275
+        },
+        {
+          "path": "Audio/output/1357/chapter_01.wav",
+          "duration": 194.221167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Shadows Over a Divided World",
+          "actualDuration": 194.221167,
+          "startTime": 86.29275,
+          "endTime": 280.513917
+        },
+        {
+          "path": "Audio/output/1357/chapter_02.wav",
+          "duration": 224.6815,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Secret War of Codes and Wires",
+          "actualDuration": 224.6815,
+          "startTime": 282.013917,
+          "endTime": 506.695417
+        },
+        {
+          "path": "Audio/output/1357/chapter_03.wav",
+          "duration": 214.38175,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 A Dangerous Proposal Revealed",
+          "actualDuration": 214.38175,
+          "startTime": 508.195417,
+          "endTime": 722.577167
+        },
+        {
+          "path": "Audio/output/1357/chapter_04.wav",
+          "duration": 209.612333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Ripple Effect—From Secret to Storm",
+          "actualDuration": 209.612333,
+          "startTime": 724.077167,
+          "endTime": 933.6895000000001
+        },
+        {
+          "path": "Audio/output/1357/chapter_05.wav",
+          "duration": 146.720458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Lessons from a World Changed by Secrets",
+          "actualDuration": 146.720458,
+          "startTime": 935.1895000000001,
+          "endTime": 1081.9099580000002
+        },
+        {
+          "path": "Audio/output/1357/chapter_06.wav",
+          "duration": 179.714792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The War Transformed—America Steps Onto the World Stage",
+          "actualDuration": 179.714792,
+          "startTime": 1083.4099580000002,
+          "endTime": 1263.1247500000002
+        },
+        {
+          "path": "Audio/output/1357/chapter_07.wav",
+          "duration": 155.390833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of Espionage—A New Age of Intelligence",
+          "actualDuration": 155.390833,
+          "startTime": 1264.6247500000002,
+          "endTime": 1420.015583
+        },
+        {
+          "path": "Audio/output/1357/chapter_08.wav",
+          "duration": 160.922708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow—Diplomacy and Distrust in a Changed World",
+          "actualDuration": 160.922708,
+          "startTime": 1421.515583,
+          "endTime": 1582.4382910000002
+        },
+        {
+          "path": "Audio/output/1357/chapter_09.wav",
+          "duration": 129.474542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Echoes Through Time—The Legacy of the Telegram",
+          "actualDuration": 129.474542,
+          "startTime": 1583.9382910000002,
+          "endTime": 1713.412833
+        },
+        {
+          "path": "Audio/output/1357/chapter_10.wav",
+          "duration": 115.763333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections—What the Zimmermann Telegram Means Today",
+          "actualDuration": 115.763333,
+          "startTime": 1714.912833,
+          "endTime": 1830.6761660000002
+        },
+        {
+          "path": "Audio/output/1357/conclusion.wav",
+          "duration": 119.385,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.385,
+          "startTime": 1832.1761660000002,
+          "endTime": 1951.5611660000002
+        }
+      ],
+      "totalDuration": 1951.5611660000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.79,
+          "actualStart": 0,
+          "actualEnd": 84.79275,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Shadows Over a Divided World",
+          "expectedStart": 84.79,
+          "expectedEnd": 279.01,
+          "actualStart": 86.29275,
+          "actualEnd": 280.513917,
+          "timeDifference": 1.5027499999999918
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Secret War of Codes and Wires",
+          "expectedStart": 279.01,
+          "expectedEnd": 503.69,
+          "actualStart": 282.013917,
+          "actualEnd": 506.695417,
+          "timeDifference": 3.0039170000000013
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 A Dangerous Proposal Revealed",
+          "expectedStart": 503.69,
+          "expectedEnd": 718.07,
+          "actualStart": 508.195417,
+          "actualEnd": 722.577167,
+          "timeDifference": 4.505417000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Ripple Effect—From Secret to Storm",
+          "expectedStart": 718.07,
+          "expectedEnd": 927.68,
+          "actualStart": 724.077167,
+          "actualEnd": 933.6895000000001,
+          "timeDifference": 6.007166999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Lessons from a World Changed by Secrets",
+          "expectedStart": 927.68,
+          "expectedEnd": 1074.4,
+          "actualStart": 935.1895000000001,
+          "actualEnd": 1081.9099580000002,
+          "timeDifference": 7.509500000000116
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The War Transformed—America Steps Onto the World Stage",
+          "expectedStart": 1074.4,
+          "expectedEnd": 1254.11,
+          "actualStart": 1083.4099580000002,
+          "actualEnd": 1263.1247500000002,
+          "timeDifference": 9.009958000000097
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of Espionage—A New Age of Intelligence",
+          "expectedStart": 1254.11,
+          "expectedEnd": 1409.5,
+          "actualStart": 1264.6247500000002,
+          "actualEnd": 1420.015583,
+          "timeDifference": 10.514750000000276
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow—Diplomacy and Distrust in a Changed World",
+          "expectedStart": 1409.5,
+          "expectedEnd": 1570.42,
+          "actualStart": 1421.515583,
+          "actualEnd": 1582.4382910000002,
+          "timeDifference": 12.015583000000106
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Echoes Through Time—The Legacy of the Telegram",
+          "expectedStart": 1570.42,
+          "expectedEnd": 1699.89,
+          "actualStart": 1583.9382910000002,
+          "actualEnd": 1713.412833,
+          "timeDifference": 13.51829100000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections—What the Zimmermann Telegram Means Today",
+          "expectedStart": 1699.89,
+          "expectedEnd": 1815.65,
+          "actualStart": 1714.912833,
+          "actualEnd": 1830.6761660000002,
+          "timeDifference": 15.022832999999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1815.65,
+          "expectedEnd": 1935.04,
+          "actualStart": 1832.1761660000002,
+          "actualEnd": 1951.5611660000002,
+          "timeDifference": 16.526166000000103
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.79275,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Shadows Over a Divided World"
+        },
+        {
+          "startTime": 280.513917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Shadows Over a Divided World and Chapter 2 The Secret War of Codes and Wires"
+        },
+        {
+          "startTime": 506.695417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Secret War of Codes and Wires and Chapter 3 A Dangerous Proposal Revealed"
+        },
+        {
+          "startTime": 722.577167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 A Dangerous Proposal Revealed and Chapter 4 The Ripple Effect—From Secret to Storm"
+        },
+        {
+          "startTime": 933.6895000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Ripple Effect—From Secret to Storm and Chapter 5 Lessons from a World Changed by Secrets"
+        },
+        {
+          "startTime": 1081.9099580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Lessons from a World Changed by Secrets and Chapter 6 The War Transformed—America Steps Onto the World Stage"
+        },
+        {
+          "startTime": 1263.1247500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The War Transformed—America Steps Onto the World Stage and Chapter 7 The Evolution of Espionage—A New Age of Intelligence"
+        },
+        {
+          "startTime": 1420.015583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of Espionage—A New Age of Intelligence and Chapter 8 The Long Shadow—Diplomacy and Distrust in a Changed World"
+        },
+        {
+          "startTime": 1582.4382910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow—Diplomacy and Distrust in a Changed World and Chapter 9 Echoes Through Time—The Legacy of the Telegram"
+        },
+        {
+          "startTime": 1713.412833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Echoes Through Time—The Legacy of the Telegram and Chapter 10 Reflections—What the Zimmermann Telegram Means Today"
+        },
+        {
+          "startTime": 1830.6761660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections—What the Zimmermann Telegram Means Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1357",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T09:14:13.771Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

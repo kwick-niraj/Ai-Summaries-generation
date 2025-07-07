@@ -1,0 +1,456 @@
+{
+  "bookId": "1251",
+  "timestamp": "2025-07-07T00:41:14.785Z",
+  "success": false,
+  "processingTime": -1751848549647,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4611,
+    "totalAudioFiles": 12,
+    "totalDuration": 2226.2997499999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2226.2997499999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1251/optimized_text/1251.md",
+    "fileSize": 841,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "1251.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1251/metadata/1251_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2226.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1251/metadata/1251_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1251/metadata/1251_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1251/1251_complete.wav",
+    "duration": 2226.29975,
+    "fileSize": 106862466,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1251/introduction.wav",
+          "duration": 87.659542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.659542,
+          "startTime": 0,
+          "endTime": 87.659542
+        },
+        {
+          "path": "Audio/output/1251/chapter_01.wav",
+          "duration": 223.626167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Dreams and Desperation: The West’s Thirst for Water",
+          "actualDuration": 223.626167,
+          "startTime": 89.159542,
+          "endTime": 312.785709
+        },
+        {
+          "path": "Audio/output/1251/chapter_02.wav",
+          "duration": 241.989958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building the Impossible: Dams, Canals, and the Rise of Water Empires",
+          "actualDuration": 241.989958,
+          "startTime": 314.285709,
+          "endTime": 556.275667
+        },
+        {
+          "path": "Audio/output/1251/chapter_03.wav",
+          "duration": 270.900333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Politics of Water: Power, Promises, and Broken Deals",
+          "actualDuration": 270.900333,
+          "startTime": 557.775667,
+          "endTime": 828.6759999999999
+        },
+        {
+          "path": "Audio/output/1251/chapter_04.wav",
+          "duration": 230.389042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Nature’s Limits: Environmental Costs and Unintended Consequences",
+          "actualDuration": 230.389042,
+          "startTime": 830.1759999999999,
+          "endTime": 1060.565042
+        },
+        {
+          "path": "Audio/output/1251/chapter_05.wav",
+          "duration": 192.335292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Mirage of Endless Growth: Overuse, Conflict, and a Precarious Future",
+          "actualDuration": 192.335292,
+          "startTime": 1062.065042,
+          "endTime": 1254.400334
+        },
+        {
+          "path": "Audio/output/1251/chapter_06.wav",
+          "duration": 170.324208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reckoning with Reality: Drought, Decline, and the Search for Answers",
+          "actualDuration": 170.324208,
+          "startTime": 1255.900334,
+          "endTime": 1426.224542
+        },
+        {
+          "path": "Audio/output/1251/chapter_07.wav",
+          "duration": 186.589083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Rethinking the System: Conservation, Innovation, and the Return to Balance",
+          "actualDuration": 186.589083,
+          "startTime": 1427.724542,
+          "endTime": 1614.313625
+        },
+        {
+          "path": "Audio/output/1251/chapter_08.wav",
+          "duration": 169.395125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Return of the River: Restoration, Resistance, and Hope",
+          "actualDuration": 169.395125,
+          "startTime": 1615.813625,
+          "endTime": 1785.20875
+        },
+        {
+          "path": "Audio/output/1251/chapter_09.wav",
+          "duration": 155.67375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from the Edge: Indigenous Wisdom and the Long View",
+          "actualDuration": 155.67375,
+          "startTime": 1786.70875,
+          "endTime": 1942.3825
+        },
+        {
+          "path": "Audio/output/1251/chapter_10.wav",
+          "duration": 140.773458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Facing the Future: Uncertainty, Resilience, and the Ongoing Story",
+          "actualDuration": 140.773458,
+          "startTime": 1943.8825,
+          "endTime": 2084.655958
+        },
+        {
+          "path": "Audio/output/1251/conclusion.wav",
+          "duration": 156.643792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 156.643792,
+          "startTime": 2086.155958,
+          "endTime": 2242.7997499999997
+        }
+      ],
+      "totalDuration": 2242.7997499999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.66,
+          "actualStart": 0,
+          "actualEnd": 87.659542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Dreams and Desperation: The West’s Thirst for Water",
+          "expectedStart": 87.66,
+          "expectedEnd": 311.29,
+          "actualStart": 89.159542,
+          "actualEnd": 312.785709,
+          "timeDifference": 1.4995420000000053
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building the Impossible: Dams, Canals, and the Rise of Water Empires",
+          "expectedStart": 311.29,
+          "expectedEnd": 553.28,
+          "actualStart": 314.285709,
+          "actualEnd": 556.275667,
+          "timeDifference": 2.9957089999999766
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Politics of Water: Power, Promises, and Broken Deals",
+          "expectedStart": 553.28,
+          "expectedEnd": 824.18,
+          "actualStart": 557.775667,
+          "actualEnd": 828.6759999999999,
+          "timeDifference": 4.495667000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Nature’s Limits: Environmental Costs and Unintended Consequences",
+          "expectedStart": 824.18,
+          "expectedEnd": 1054.57,
+          "actualStart": 830.1759999999999,
+          "actualEnd": 1060.565042,
+          "timeDifference": 5.995999999999981
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Mirage of Endless Growth: Overuse, Conflict, and a Precarious Future",
+          "expectedStart": 1054.57,
+          "expectedEnd": 1246.91,
+          "actualStart": 1062.065042,
+          "actualEnd": 1254.400334,
+          "timeDifference": 7.495042000000012
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reckoning with Reality: Drought, Decline, and the Search for Answers",
+          "expectedStart": 1246.91,
+          "expectedEnd": 1417.23,
+          "actualStart": 1255.900334,
+          "actualEnd": 1426.224542,
+          "timeDifference": 8.990333999999848
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Rethinking the System: Conservation, Innovation, and the Return to Balance",
+          "expectedStart": 1417.23,
+          "expectedEnd": 1603.82,
+          "actualStart": 1427.724542,
+          "actualEnd": 1614.313625,
+          "timeDifference": 10.49454199999991
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Return of the River: Restoration, Resistance, and Hope",
+          "expectedStart": 1603.82,
+          "expectedEnd": 1773.22,
+          "actualStart": 1615.813625,
+          "actualEnd": 1785.20875,
+          "timeDifference": 11.993625000000065
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from the Edge: Indigenous Wisdom and the Long View",
+          "expectedStart": 1773.22,
+          "expectedEnd": 1928.89,
+          "actualStart": 1786.70875,
+          "actualEnd": 1942.3825,
+          "timeDifference": 13.488749999999982
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Facing the Future: Uncertainty, Resilience, and the Ongoing Story",
+          "expectedStart": 1928.89,
+          "expectedEnd": 2069.66,
+          "actualStart": 1943.8825,
+          "actualEnd": 2084.655958,
+          "timeDifference": 14.992499999999836
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2069.66,
+          "expectedEnd": 2226.3,
+          "actualStart": 2086.155958,
+          "actualEnd": 2242.7997499999997,
+          "timeDifference": 16.495957999999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.659542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Dreams and Desperation: The West’s Thirst for Water"
+        },
+        {
+          "startTime": 312.785709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Dreams and Desperation: The West’s Thirst for Water and Chapter 2 Building the Impossible: Dams, Canals, and the Rise of Water Empires"
+        },
+        {
+          "startTime": 556.275667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building the Impossible: Dams, Canals, and the Rise of Water Empires and Chapter 3 The Politics of Water: Power, Promises, and Broken Deals"
+        },
+        {
+          "startTime": 828.6759999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Politics of Water: Power, Promises, and Broken Deals and Chapter 4 Nature’s Limits: Environmental Costs and Unintended Consequences"
+        },
+        {
+          "startTime": 1060.565042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Nature’s Limits: Environmental Costs and Unintended Consequences and Chapter 5 The Mirage of Endless Growth: Overuse, Conflict, and a Precarious Future"
+        },
+        {
+          "startTime": 1254.400334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Mirage of Endless Growth: Overuse, Conflict, and a Precarious Future and Chapter 6 Reckoning with Reality: Drought, Decline, and the Search for Answers"
+        },
+        {
+          "startTime": 1426.224542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reckoning with Reality: Drought, Decline, and the Search for Answers and Chapter 7 Rethinking the System: Conservation, Innovation, and the Return to Balance"
+        },
+        {
+          "startTime": 1614.313625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Rethinking the System: Conservation, Innovation, and the Return to Balance and Chapter 8 The Return of the River: Restoration, Resistance, and Hope"
+        },
+        {
+          "startTime": 1785.20875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Return of the River: Restoration, Resistance, and Hope and Chapter 9 Lessons from the Edge: Indigenous Wisdom and the Long View"
+        },
+        {
+          "startTime": 1942.3825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from the Edge: Indigenous Wisdom and the Long View and Chapter 10 Facing the Future: Uncertainty, Resilience, and the Ongoing Story"
+        },
+        {
+          "startTime": 2084.655958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Facing the Future: Uncertainty, Resilience, and the Ongoing Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1251",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:35:50.839Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1364",
+  "timestamp": "2025-07-07T09:58:44.465Z",
+  "success": false,
+  "processingTime": -1751881643124,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4152,
+    "totalAudioFiles": 12,
+    "totalDuration": 2066.14246
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2066.14246
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1364/optimized_text/1364.md",
+    "fileSize": 691,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1364.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1364/metadata/1364_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2066.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1364/metadata/1364_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1364/metadata/1364_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1364/1364_complete.wav",
+    "duration": 2066.142458,
+    "fileSize": 99174916,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1364/introduction.wav",
+          "duration": 100.642042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.642042,
+          "startTime": 0,
+          "endTime": 100.642042
+        },
+        {
+          "path": "Audio/output/1364/chapter_01.wav",
+          "duration": 172.986167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding What Can and Cannot Be Controlled",
+          "actualDuration": 172.986167,
+          "startTime": 102.142042,
+          "endTime": 275.12820899999997
+        },
+        {
+          "path": "Audio/output/1364/chapter_02.wav",
+          "duration": 207.655667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Cultivating Inner Freedom Through Self-Mastery",
+          "actualDuration": 207.655667,
+          "startTime": 276.62820899999997,
+          "endTime": 484.28387599999996
+        },
+        {
+          "path": "Audio/output/1364/chapter_03.wav",
+          "duration": 202.85575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living in Harmony with Nature and Accepting Fate",
+          "actualDuration": 202.85575,
+          "startTime": 485.78387599999996,
+          "endTime": 688.6396259999999
+        },
+        {
+          "path": "Audio/output/1364/chapter_04.wav",
+          "duration": 211.013542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practicing Virtue as the True Source of Happiness",
+          "actualDuration": 211.013542,
+          "startTime": 690.1396259999999,
+          "endTime": 901.1531679999999
+        },
+        {
+          "path": "Audio/output/1364/chapter_05.wav",
+          "duration": 207.312833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Responding to Life with Equanimity and Practical Effectiveness",
+          "actualDuration": 207.312833,
+          "startTime": 902.6531679999999,
+          "endTime": 1109.966001
+        },
+        {
+          "path": "Audio/output/1364/chapter_06.wav",
+          "duration": 197.011,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Relating to Others with Wisdom and Compassion",
+          "actualDuration": 197.011,
+          "startTime": 1111.466001,
+          "endTime": 1308.477001
+        },
+        {
+          "path": "Audio/output/1364/chapter_07.wav",
+          "duration": 176.629125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Engaging with Community and the Common Good",
+          "actualDuration": 176.629125,
+          "startTime": 1309.977001,
+          "endTime": 1486.606126
+        },
+        {
+          "path": "Audio/output/1364/chapter_08.wav",
+          "duration": 155.529792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing Adversity and Change with Resilience",
+          "actualDuration": 155.529792,
+          "startTime": 1488.106126,
+          "endTime": 1643.635918
+        },
+        {
+          "path": "Audio/output/1364/chapter_09.wav",
+          "duration": 146.028417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Growth Through Reflection and Daily Practice",
+          "actualDuration": 146.028417,
+          "startTime": 1645.135918,
+          "endTime": 1791.164335
+        },
+        {
+          "path": "Audio/output/1364/chapter_10.wav",
+          "duration": 164.284,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Journey: Living with Purpose and Joy",
+          "actualDuration": 164.284,
+          "startTime": 1792.664335,
+          "endTime": 1956.948335
+        },
+        {
+          "path": "Audio/output/1364/conclusion.wav",
+          "duration": 124.194125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.194125,
+          "startTime": 1958.448335,
+          "endTime": 2082.64246
+        }
+      ],
+      "totalDuration": 2082.64246,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.64,
+          "actualStart": 0,
+          "actualEnd": 100.642042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding What Can and Cannot Be Controlled",
+          "expectedStart": 100.64,
+          "expectedEnd": 273.63,
+          "actualStart": 102.142042,
+          "actualEnd": 275.12820899999997,
+          "timeDifference": 1.502042000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Cultivating Inner Freedom Through Self-Mastery",
+          "expectedStart": 273.63,
+          "expectedEnd": 481.29,
+          "actualStart": 276.62820899999997,
+          "actualEnd": 484.28387599999996,
+          "timeDifference": 2.9982089999999744
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living in Harmony with Nature and Accepting Fate",
+          "expectedStart": 481.29,
+          "expectedEnd": 684.15,
+          "actualStart": 485.78387599999996,
+          "actualEnd": 688.6396259999999,
+          "timeDifference": 4.493875999999943
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practicing Virtue as the True Source of Happiness",
+          "expectedStart": 684.15,
+          "expectedEnd": 895.16,
+          "actualStart": 690.1396259999999,
+          "actualEnd": 901.1531679999999,
+          "timeDifference": 5.98962599999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Responding to Life with Equanimity and Practical Effectiveness",
+          "expectedStart": 895.16,
+          "expectedEnd": 1102.47,
+          "actualStart": 902.6531679999999,
+          "actualEnd": 1109.966001,
+          "timeDifference": 7.493167999999969
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Relating to Others with Wisdom and Compassion",
+          "expectedStart": 1102.47,
+          "expectedEnd": 1299.48,
+          "actualStart": 1111.466001,
+          "actualEnd": 1308.477001,
+          "timeDifference": 8.996000999999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Engaging with Community and the Common Good",
+          "expectedStart": 1299.48,
+          "expectedEnd": 1476.11,
+          "actualStart": 1309.977001,
+          "actualEnd": 1486.606126,
+          "timeDifference": 10.497000999999955
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing Adversity and Change with Resilience",
+          "expectedStart": 1476.11,
+          "expectedEnd": 1631.64,
+          "actualStart": 1488.106126,
+          "actualEnd": 1643.635918,
+          "timeDifference": 11.996126000000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Growth Through Reflection and Daily Practice",
+          "expectedStart": 1631.64,
+          "expectedEnd": 1777.67,
+          "actualStart": 1645.135918,
+          "actualEnd": 1791.164335,
+          "timeDifference": 13.495917999999847
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Journey: Living with Purpose and Joy",
+          "expectedStart": 1777.67,
+          "expectedEnd": 1941.95,
+          "actualStart": 1792.664335,
+          "actualEnd": 1956.948335,
+          "timeDifference": 14.994334999999865
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1941.95,
+          "expectedEnd": 2066.14,
+          "actualStart": 1958.448335,
+          "actualEnd": 2082.64246,
+          "timeDifference": 16.498334999999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.642042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding What Can and Cannot Be Controlled"
+        },
+        {
+          "startTime": 275.12820899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding What Can and Cannot Be Controlled and Chapter 2 Cultivating Inner Freedom Through Self-Mastery"
+        },
+        {
+          "startTime": 484.28387599999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Cultivating Inner Freedom Through Self-Mastery and Chapter 3 Living in Harmony with Nature and Accepting Fate"
+        },
+        {
+          "startTime": 688.6396259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living in Harmony with Nature and Accepting Fate and Chapter 4 Practicing Virtue as the True Source of Happiness"
+        },
+        {
+          "startTime": 901.1531679999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practicing Virtue as the True Source of Happiness and Chapter 5 Responding to Life with Equanimity and Practical Effectiveness"
+        },
+        {
+          "startTime": 1109.966001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Responding to Life with Equanimity and Practical Effectiveness and Chapter 6 Relating to Others with Wisdom and Compassion"
+        },
+        {
+          "startTime": 1308.477001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Relating to Others with Wisdom and Compassion and Chapter 7 Engaging with Community and the Common Good"
+        },
+        {
+          "startTime": 1486.606126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Engaging with Community and the Common Good and Chapter 8 Facing Adversity and Change with Resilience"
+        },
+        {
+          "startTime": 1643.635918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing Adversity and Change with Resilience and Chapter 9 Sustaining Growth Through Reflection and Daily Practice"
+        },
+        {
+          "startTime": 1791.164335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Growth Through Reflection and Daily Practice and Chapter 10 Embracing the Journey: Living with Purpose and Joy"
+        },
+        {
+          "startTime": 1956.948335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Journey: Living with Purpose and Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1364",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T09:47:24.440Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

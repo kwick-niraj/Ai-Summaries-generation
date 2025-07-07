@@ -1,0 +1,456 @@
+{
+  "bookId": "1343",
+  "timestamp": "2025-07-07T08:29:54.880Z",
+  "success": false,
+  "processingTime": -1751876560684,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3856,
+    "totalAudioFiles": 12,
+    "totalDuration": 1834.445001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1834.445001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1343/optimized_text/1343.md",
+    "fileSize": 821,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1343.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1343/metadata/1343_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1834.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1343/metadata/1343_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1343/metadata/1343_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1343/1343_complete.wav",
+    "duration": 1834.445,
+    "fileSize": 88053438,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1343/introduction.wav",
+          "duration": 100.229917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.229917,
+          "startTime": 0,
+          "endTime": 100.229917
+        },
+        {
+          "path": "Audio/output/1343/chapter_01.wav",
+          "duration": 198.402333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Foundations of White Supremacy and Privilege",
+          "actualDuration": 198.402333,
+          "startTime": 101.729917,
+          "endTime": 300.13225
+        },
+        {
+          "path": "Audio/output/1343/chapter_02.wav",
+          "duration": 188.762667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Examining Internalized Beliefs and Everyday Complicity",
+          "actualDuration": 188.762667,
+          "startTime": 301.63225,
+          "endTime": 490.39491699999996
+        },
+        {
+          "path": "Audio/output/1343/chapter_03.wav",
+          "duration": 191.075375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Confronting Barriers: Fragility, Denial, and Defensive Reactions",
+          "actualDuration": 191.075375,
+          "startTime": 491.89491699999996,
+          "endTime": 682.970292
+        },
+        {
+          "path": "Audio/output/1343/chapter_04.wav",
+          "duration": 178.159958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Moving from Awareness to Accountability and Action",
+          "actualDuration": 178.159958,
+          "startTime": 684.470292,
+          "endTime": 862.6302499999999
+        },
+        {
+          "path": "Audio/output/1343/chapter_05.wav",
+          "duration": 147.470042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Lifelong Antiracist Habits and Considering Legacy",
+          "actualDuration": 147.470042,
+          "startTime": 864.1302499999999,
+          "endTime": 1011.600292
+        },
+        {
+          "path": "Audio/output/1343/chapter_06.wav",
+          "duration": 152.749917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Collective Responsibility: Community, Relationships, and Shared Power",
+          "actualDuration": 152.749917,
+          "startTime": 1013.100292,
+          "endTime": 1165.850209
+        },
+        {
+          "path": "Audio/output/1343/chapter_07.wav",
+          "duration": 148.266792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Mistakes, Repair, and Recommitment",
+          "actualDuration": 148.266792,
+          "startTime": 1167.350209,
+          "endTime": 1315.617001
+        },
+        {
+          "path": "Audio/output/1343/chapter_08.wav",
+          "duration": 138.566542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Momentum: Avoiding Burnout and Cultivating Resilience",
+          "actualDuration": 138.566542,
+          "startTime": 1317.117001,
+          "endTime": 1455.683543
+        },
+        {
+          "path": "Audio/output/1343/chapter_09.wav",
+          "duration": 148.661083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Engaging Systems and Institutions: Advocacy, Policy, and Structural Change",
+          "actualDuration": 148.661083,
+          "startTime": 1457.183543,
+          "endTime": 1605.844626
+        },
+        {
+          "path": "Audio/output/1343/chapter_10.wav",
+          "duration": 120.31125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embodying Antiracism: Everyday Practice and Becoming a Good Ancestor",
+          "actualDuration": 120.31125,
+          "startTime": 1607.344626,
+          "endTime": 1727.655876
+        },
+        {
+          "path": "Audio/output/1343/conclusion.wav",
+          "duration": 121.789125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.789125,
+          "startTime": 1729.155876,
+          "endTime": 1850.945001
+        }
+      ],
+      "totalDuration": 1850.945001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.23,
+          "actualStart": 0,
+          "actualEnd": 100.229917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Foundations of White Supremacy and Privilege",
+          "expectedStart": 100.23,
+          "expectedEnd": 298.63,
+          "actualStart": 101.729917,
+          "actualEnd": 300.13225,
+          "timeDifference": 1.4999169999999964
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Examining Internalized Beliefs and Everyday Complicity",
+          "expectedStart": 298.63,
+          "expectedEnd": 487.39,
+          "actualStart": 301.63225,
+          "actualEnd": 490.39491699999996,
+          "timeDifference": 3.0022500000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Confronting Barriers: Fragility, Denial, and Defensive Reactions",
+          "expectedStart": 487.39,
+          "expectedEnd": 678.47,
+          "actualStart": 491.89491699999996,
+          "actualEnd": 682.970292,
+          "timeDifference": 4.504916999999978
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Moving from Awareness to Accountability and Action",
+          "expectedStart": 678.47,
+          "expectedEnd": 856.63,
+          "actualStart": 684.470292,
+          "actualEnd": 862.6302499999999,
+          "timeDifference": 6.000291999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Lifelong Antiracist Habits and Considering Legacy",
+          "expectedStart": 856.63,
+          "expectedEnd": 1004.1,
+          "actualStart": 864.1302499999999,
+          "actualEnd": 1011.600292,
+          "timeDifference": 7.500249999999937
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Collective Responsibility: Community, Relationships, and Shared Power",
+          "expectedStart": 1004.1,
+          "expectedEnd": 1156.85,
+          "actualStart": 1013.100292,
+          "actualEnd": 1165.850209,
+          "timeDifference": 9.000291999999945
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Mistakes, Repair, and Recommitment",
+          "expectedStart": 1156.85,
+          "expectedEnd": 1305.12,
+          "actualStart": 1167.350209,
+          "actualEnd": 1315.617001,
+          "timeDifference": 10.50020900000004
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Momentum: Avoiding Burnout and Cultivating Resilience",
+          "expectedStart": 1305.12,
+          "expectedEnd": 1443.69,
+          "actualStart": 1317.117001,
+          "actualEnd": 1455.683543,
+          "timeDifference": 11.997001000000182
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Engaging Systems and Institutions: Advocacy, Policy, and Structural Change",
+          "expectedStart": 1443.69,
+          "expectedEnd": 1592.35,
+          "actualStart": 1457.183543,
+          "actualEnd": 1605.844626,
+          "timeDifference": 13.493543000000045
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embodying Antiracism: Everyday Practice and Becoming a Good Ancestor",
+          "expectedStart": 1592.35,
+          "expectedEnd": 1712.66,
+          "actualStart": 1607.344626,
+          "actualEnd": 1727.655876,
+          "timeDifference": 14.994626000000153
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1712.66,
+          "expectedEnd": 1834.45,
+          "actualStart": 1729.155876,
+          "actualEnd": 1850.945001,
+          "timeDifference": 16.495875999999953
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.229917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Foundations of White Supremacy and Privilege"
+        },
+        {
+          "startTime": 300.13225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Foundations of White Supremacy and Privilege and Chapter 2 Examining Internalized Beliefs and Everyday Complicity"
+        },
+        {
+          "startTime": 490.39491699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Examining Internalized Beliefs and Everyday Complicity and Chapter 3 Confronting Barriers: Fragility, Denial, and Defensive Reactions"
+        },
+        {
+          "startTime": 682.970292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Confronting Barriers: Fragility, Denial, and Defensive Reactions and Chapter 4 Moving from Awareness to Accountability and Action"
+        },
+        {
+          "startTime": 862.6302499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Moving from Awareness to Accountability and Action and Chapter 5 Building Lifelong Antiracist Habits and Considering Legacy"
+        },
+        {
+          "startTime": 1011.600292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Lifelong Antiracist Habits and Considering Legacy and Chapter 6 Deepening Collective Responsibility: Community, Relationships, and Shared Power"
+        },
+        {
+          "startTime": 1165.850209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Collective Responsibility: Community, Relationships, and Shared Power and Chapter 7 Navigating Mistakes, Repair, and Recommitment"
+        },
+        {
+          "startTime": 1315.617001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Mistakes, Repair, and Recommitment and Chapter 8 Sustaining Momentum: Avoiding Burnout and Cultivating Resilience"
+        },
+        {
+          "startTime": 1455.683543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Momentum: Avoiding Burnout and Cultivating Resilience and Chapter 9 Engaging Systems and Institutions: Advocacy, Policy, and Structural Change"
+        },
+        {
+          "startTime": 1605.844626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Engaging Systems and Institutions: Advocacy, Policy, and Structural Change and Chapter 10 Embodying Antiracism: Everyday Practice and Becoming a Good Ancestor"
+        },
+        {
+          "startTime": 1727.655876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embodying Antiracism: Everyday Practice and Becoming a Good Ancestor and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1343",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T08:22:42.382Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

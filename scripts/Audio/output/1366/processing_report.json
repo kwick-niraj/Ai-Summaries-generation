@@ -1,0 +1,456 @@
+{
+  "bookId": "1366",
+  "timestamp": "2025-07-07T10:06:15.151Z",
+  "success": false,
+  "processingTime": -1751882325468,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3945,
+    "totalAudioFiles": 12,
+    "totalDuration": 2029.0176250000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2029.0176250000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1366/optimized_text/1366.md",
+    "fileSize": 718,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "1366.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1366/metadata/1366_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2029.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1366/metadata/1366_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1366/metadata/1366_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1366/1366_complete.wav",
+    "duration": 2029.017625,
+    "fileSize": 97392924,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1366/introduction.wav",
+          "duration": 101.821542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.821542,
+          "startTime": 0,
+          "endTime": 101.821542
+        },
+        {
+          "path": "Audio/output/1366/chapter_01.wav",
+          "duration": 204.264958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons and the Making of a Leader",
+          "actualDuration": 204.264958,
+          "startTime": 103.321542,
+          "endTime": 307.5865
+        },
+        {
+          "path": "Audio/output/1366/chapter_02.wav",
+          "duration": 229.47975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Down Barriers and Building a New Culture",
+          "actualDuration": 229.47975,
+          "startTime": 309.0865,
+          "endTime": 538.56625
+        },
+        {
+          "path": "Audio/output/1366/chapter_03.wav",
+          "duration": 218.924583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Candor and the 20-70-10 Approach",
+          "actualDuration": 218.924583,
+          "startTime": 540.06625,
+          "endTime": 758.990833
+        },
+        {
+          "path": "Audio/output/1366/chapter_04.wav",
+          "duration": 193.124,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Driving Change and Embracing Risk",
+          "actualDuration": 193.124,
+          "startTime": 760.490833,
+          "endTime": 953.614833
+        },
+        {
+          "path": "Audio/output/1366/chapter_05.wav",
+          "duration": 166.015917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Empowering People and Building for the Future",
+          "actualDuration": 166.015917,
+          "startTime": 955.114833,
+          "endTime": 1121.13075
+        },
+        {
+          "path": "Audio/output/1366/chapter_06.wav",
+          "duration": 169.502708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Turbulence: Crisis, Competition, and the Will to Win",
+          "actualDuration": 169.502708,
+          "startTime": 1122.63075,
+          "endTime": 1292.133458
+        },
+        {
+          "path": "Audio/output/1366/chapter_07.wav",
+          "duration": 174.42125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Going Global: The Challenge and Promise of Expansion",
+          "actualDuration": 174.42125,
+          "startTime": 1293.633458,
+          "endTime": 1468.0547080000001
+        },
+        {
+          "path": "Audio/output/1366/chapter_08.wav",
+          "duration": 169.74975,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reinventing the Company: Digital Transformation and the Internet Age",
+          "actualDuration": 169.74975,
+          "startTime": 1469.5547080000001,
+          "endTime": 1639.304458
+        },
+        {
+          "path": "Audio/output/1366/chapter_09.wav",
+          "duration": 147.850417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Side of Leadership: Mistakes, Growth, and Legacy",
+          "actualDuration": 147.850417,
+          "startTime": 1640.804458,
+          "endTime": 1788.6548750000002
+        },
+        {
+          "path": "Audio/output/1366/chapter_10.wav",
+          "duration": 132.157542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Passing the Torch: Succession, Reflection, and Enduring Wisdom",
+          "actualDuration": 132.157542,
+          "startTime": 1790.1548750000002,
+          "endTime": 1922.312417
+        },
+        {
+          "path": "Audio/output/1366/conclusion.wav",
+          "duration": 121.705208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.705208,
+          "startTime": 1923.812417,
+          "endTime": 2045.5176250000002
+        }
+      ],
+      "totalDuration": 2045.5176250000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.82,
+          "actualStart": 0,
+          "actualEnd": 101.821542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons and the Making of a Leader",
+          "expectedStart": 101.82,
+          "expectedEnd": 306.08,
+          "actualStart": 103.321542,
+          "actualEnd": 307.5865,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Down Barriers and Building a New Culture",
+          "expectedStart": 306.08,
+          "expectedEnd": 535.56,
+          "actualStart": 309.0865,
+          "actualEnd": 538.56625,
+          "timeDifference": 3.006500000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Candor and the 20-70-10 Approach",
+          "expectedStart": 535.56,
+          "expectedEnd": 754.48,
+          "actualStart": 540.06625,
+          "actualEnd": 758.990833,
+          "timeDifference": 4.506250000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Driving Change and Embracing Risk",
+          "expectedStart": 754.48,
+          "expectedEnd": 947.6,
+          "actualStart": 760.490833,
+          "actualEnd": 953.614833,
+          "timeDifference": 6.010832999999934
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Empowering People and Building for the Future",
+          "expectedStart": 947.6,
+          "expectedEnd": 1113.62,
+          "actualStart": 955.114833,
+          "actualEnd": 1121.13075,
+          "timeDifference": 7.514832999999953
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Turbulence: Crisis, Competition, and the Will to Win",
+          "expectedStart": 1113.62,
+          "expectedEnd": 1283.12,
+          "actualStart": 1122.63075,
+          "actualEnd": 1292.133458,
+          "timeDifference": 9.010750000000144
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Going Global: The Challenge and Promise of Expansion",
+          "expectedStart": 1283.12,
+          "expectedEnd": 1457.54,
+          "actualStart": 1293.633458,
+          "actualEnd": 1468.0547080000001,
+          "timeDifference": 10.513458000000128
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reinventing the Company: Digital Transformation and the Internet Age",
+          "expectedStart": 1457.54,
+          "expectedEnd": 1627.29,
+          "actualStart": 1469.5547080000001,
+          "actualEnd": 1639.304458,
+          "timeDifference": 12.014708000000155
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Side of Leadership: Mistakes, Growth, and Legacy",
+          "expectedStart": 1627.29,
+          "expectedEnd": 1775.14,
+          "actualStart": 1640.804458,
+          "actualEnd": 1788.6548750000002,
+          "timeDifference": 13.514458000000104
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Passing the Torch: Succession, Reflection, and Enduring Wisdom",
+          "expectedStart": 1775.14,
+          "expectedEnd": 1907.3,
+          "actualStart": 1790.1548750000002,
+          "actualEnd": 1922.312417,
+          "timeDifference": 15.014875000000075
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1907.3,
+          "expectedEnd": 2029.01,
+          "actualStart": 1923.812417,
+          "actualEnd": 2045.5176250000002,
+          "timeDifference": 16.51241700000014
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.821542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons and the Making of a Leader"
+        },
+        {
+          "startTime": 307.5865,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons and the Making of a Leader and Chapter 2 Breaking Down Barriers and Building a New Culture"
+        },
+        {
+          "startTime": 538.56625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Down Barriers and Building a New Culture and Chapter 3 The Power of Candor and the 20-70-10 Approach"
+        },
+        {
+          "startTime": 758.990833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Candor and the 20-70-10 Approach and Chapter 4 Driving Change and Embracing Risk"
+        },
+        {
+          "startTime": 953.614833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Driving Change and Embracing Risk and Chapter 5 Empowering People and Building for the Future"
+        },
+        {
+          "startTime": 1121.13075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Empowering People and Building for the Future and Chapter 6 Navigating Turbulence: Crisis, Competition, and the Will to Win"
+        },
+        {
+          "startTime": 1292.133458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Turbulence: Crisis, Competition, and the Will to Win and Chapter 7 Going Global: The Challenge and Promise of Expansion"
+        },
+        {
+          "startTime": 1468.0547080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Going Global: The Challenge and Promise of Expansion and Chapter 8 Reinventing the Company: Digital Transformation and the Internet Age"
+        },
+        {
+          "startTime": 1639.304458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reinventing the Company: Digital Transformation and the Internet Age and Chapter 9 The Human Side of Leadership: Mistakes, Growth, and Legacy"
+        },
+        {
+          "startTime": 1788.6548750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Side of Leadership: Mistakes, Growth, and Legacy and Chapter 10 Passing the Torch: Succession, Reflection, and Enduring Wisdom"
+        },
+        {
+          "startTime": 1922.312417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Passing the Torch: Succession, Reflection, and Enduring Wisdom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1366",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T09:58:46.637Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

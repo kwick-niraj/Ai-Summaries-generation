@@ -1,0 +1,456 @@
+{
+  "bookId": "1415",
+  "timestamp": "2025-07-07T14:21:57.538Z",
+  "success": false,
+  "processingTime": -1751897742250,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3921,
+    "totalAudioFiles": 12,
+    "totalDuration": 1977.3276689999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1977.3276689999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1415/optimized_text/1415.md",
+    "fileSize": 701,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1415.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1415/metadata/1415_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1977.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1415/metadata/1415_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1415/metadata/1415_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1415/1415_complete.wav",
+    "duration": 1977.327667,
+    "fileSize": 94911806,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1415/introduction.wav",
+          "duration": 72.8225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.8225,
+          "startTime": 0,
+          "endTime": 72.8225
+        },
+        {
+          "path": "Audio/output/1415/chapter_01.wav",
+          "duration": 224.075417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation: How Everyday Choices Shape Health",
+          "actualDuration": 224.075417,
+          "startTime": 74.3225,
+          "endTime": 298.397917
+        },
+        {
+          "path": "Audio/output/1415/chapter_02.wav",
+          "duration": 217.058167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Eating Well: Small Shifts for Lasting Energy",
+          "actualDuration": 217.058167,
+          "startTime": 299.897917,
+          "endTime": 516.956084
+        },
+        {
+          "path": "Audio/output/1415/chapter_03.wav",
+          "duration": 176.774625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Moving More: Building Activity into Everyday Life",
+          "actualDuration": 176.774625,
+          "startTime": 518.456084,
+          "endTime": 695.230709
+        },
+        {
+          "path": "Audio/output/1415/chapter_04.wav",
+          "duration": 193.511625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sleep as a Cornerstone: Restoring Body and Mind",
+          "actualDuration": 193.511625,
+          "startTime": 696.730709,
+          "endTime": 890.242334
+        },
+        {
+          "path": "Audio/output/1415/chapter_05.wav",
+          "duration": 207.880042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Tiny Habits: Making Change Stick",
+          "actualDuration": 207.880042,
+          "startTime": 891.742334,
+          "endTime": 1099.622376
+        },
+        {
+          "path": "Audio/output/1415/chapter_06.wav",
+          "duration": 155.699167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating the Three Pillars: Creating Synergy in Daily Life",
+          "actualDuration": 155.699167,
+          "startTime": 1101.122376,
+          "endTime": 1256.821543
+        },
+        {
+          "path": "Audio/output/1415/chapter_07.wav",
+          "duration": 143.876292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Obstacles: Overcoming Common Barriers",
+          "actualDuration": 143.876292,
+          "startTime": 1258.321543,
+          "endTime": 1402.197835
+        },
+        {
+          "path": "Audio/output/1415/chapter_08.wav",
+          "duration": 151.086792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindset Matters: Cultivating a Growth-Oriented Approach",
+          "actualDuration": 151.086792,
+          "startTime": 1403.697835,
+          "endTime": 1554.784627
+        },
+        {
+          "path": "Audio/output/1415/chapter_09.wav",
+          "duration": 139.210917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Tools and Strategies for Long-Term Success",
+          "actualDuration": 139.210917,
+          "startTime": 1556.284627,
+          "endTime": 1695.4955439999999
+        },
+        {
+          "path": "Audio/output/1415/chapter_10.wav",
+          "duration": 153.541,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum: The Role of Community and Environment",
+          "actualDuration": 153.541,
+          "startTime": 1696.9955439999999,
+          "endTime": 1850.5365439999998
+        },
+        {
+          "path": "Audio/output/1415/conclusion.wav",
+          "duration": 141.791125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.791125,
+          "startTime": 1852.0365439999998,
+          "endTime": 1993.8276689999998
+        }
+      ],
+      "totalDuration": 1993.8276689999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.82,
+          "actualStart": 0,
+          "actualEnd": 72.8225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation: How Everyday Choices Shape Health",
+          "expectedStart": 72.82,
+          "expectedEnd": 296.9,
+          "actualStart": 74.3225,
+          "actualEnd": 298.397917,
+          "timeDifference": 1.502500000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Eating Well: Small Shifts for Lasting Energy",
+          "expectedStart": 296.9,
+          "expectedEnd": 513.96,
+          "actualStart": 299.897917,
+          "actualEnd": 516.956084,
+          "timeDifference": 2.9979170000000295
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Moving More: Building Activity into Everyday Life",
+          "expectedStart": 513.96,
+          "expectedEnd": 690.73,
+          "actualStart": 518.456084,
+          "actualEnd": 695.230709,
+          "timeDifference": 4.496083999999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sleep as a Cornerstone: Restoring Body and Mind",
+          "expectedStart": 690.73,
+          "expectedEnd": 884.24,
+          "actualStart": 696.730709,
+          "actualEnd": 890.242334,
+          "timeDifference": 6.000709000000029
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Tiny Habits: Making Change Stick",
+          "expectedStart": 884.24,
+          "expectedEnd": 1092.12,
+          "actualStart": 891.742334,
+          "actualEnd": 1099.622376,
+          "timeDifference": 7.502334000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating the Three Pillars: Creating Synergy in Daily Life",
+          "expectedStart": 1092.12,
+          "expectedEnd": 1247.82,
+          "actualStart": 1101.122376,
+          "actualEnd": 1256.821543,
+          "timeDifference": 9.00237600000014
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Obstacles: Overcoming Common Barriers",
+          "expectedStart": 1247.82,
+          "expectedEnd": 1391.7,
+          "actualStart": 1258.321543,
+          "actualEnd": 1402.197835,
+          "timeDifference": 10.501543000000083
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindset Matters: Cultivating a Growth-Oriented Approach",
+          "expectedStart": 1391.7,
+          "expectedEnd": 1542.79,
+          "actualStart": 1403.697835,
+          "actualEnd": 1554.784627,
+          "timeDifference": 11.997834999999895
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Tools and Strategies for Long-Term Success",
+          "expectedStart": 1542.79,
+          "expectedEnd": 1682,
+          "actualStart": 1556.284627,
+          "actualEnd": 1695.4955439999999,
+          "timeDifference": 13.494627000000037
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum: The Role of Community and Environment",
+          "expectedStart": 1682,
+          "expectedEnd": 1835.54,
+          "actualStart": 1696.9955439999999,
+          "actualEnd": 1850.5365439999998,
+          "timeDifference": 14.995543999999882
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1835.54,
+          "expectedEnd": 1977.33,
+          "actualStart": 1852.0365439999998,
+          "actualEnd": 1993.8276689999998,
+          "timeDifference": 16.496543999999858
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.8225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation: How Everyday Choices Shape Health"
+        },
+        {
+          "startTime": 298.397917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation: How Everyday Choices Shape Health and Chapter 2 Eating Well: Small Shifts for Lasting Energy"
+        },
+        {
+          "startTime": 516.956084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Eating Well: Small Shifts for Lasting Energy and Chapter 3 Moving More: Building Activity into Everyday Life"
+        },
+        {
+          "startTime": 695.230709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Moving More: Building Activity into Everyday Life and Chapter 4 Sleep as a Cornerstone: Restoring Body and Mind"
+        },
+        {
+          "startTime": 890.242334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sleep as a Cornerstone: Restoring Body and Mind and Chapter 5 The Power of Tiny Habits: Making Change Stick"
+        },
+        {
+          "startTime": 1099.622376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Tiny Habits: Making Change Stick and Chapter 6 Integrating the Three Pillars: Creating Synergy in Daily Life"
+        },
+        {
+          "startTime": 1256.821543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating the Three Pillars: Creating Synergy in Daily Life and Chapter 7 Navigating Obstacles: Overcoming Common Barriers"
+        },
+        {
+          "startTime": 1402.197835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Obstacles: Overcoming Common Barriers and Chapter 8 Mindset Matters: Cultivating a Growth-Oriented Approach"
+        },
+        {
+          "startTime": 1554.784627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindset Matters: Cultivating a Growth-Oriented Approach and Chapter 9 Tools and Strategies for Long-Term Success"
+        },
+        {
+          "startTime": 1695.4955439999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Tools and Strategies for Long-Term Success and Chapter 10 Sustaining Momentum: The Role of Community and Environment"
+        },
+        {
+          "startTime": 1850.5365439999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum: The Role of Community and Environment and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1415",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T14:15:43.450Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

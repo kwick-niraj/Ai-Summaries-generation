@@ -1,0 +1,432 @@
+{
+  "bookId": "1342",
+  "timestamp": "2025-07-07T08:22:39.681Z",
+  "success": false,
+  "processingTime": -1751876115585,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4475,
+    "totalAudioFiles": 11,
+    "totalDuration": 2009.562041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2009.562041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1342/optimized_text/1342.md",
+    "fileSize": 567,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "1342.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1342/metadata/1342_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2009.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1342/metadata/1342_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1342/metadata/1342_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1342/1342_complete.wav",
+    "duration": 2009.562042,
+    "fileSize": 96459056,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1342/introduction.wav",
+          "duration": 91.047958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.047958,
+          "startTime": 0,
+          "endTime": 91.047958
+        },
+        {
+          "path": "Audio/output/1342/chapter_01.wav",
+          "duration": 292.732667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood Interrupted by Fear and Uncertainty",
+          "actualDuration": 292.732667,
+          "startTime": 92.547958,
+          "endTime": 385.280625
+        },
+        {
+          "path": "Audio/output/1342/chapter_02.wav",
+          "duration": 262.802292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Life Behind Barbed Wire and the Struggle for Dignity",
+          "actualDuration": 262.802292,
+          "startTime": 386.780625,
+          "endTime": 649.582917
+        },
+        {
+          "path": "Audio/output/1342/chapter_03.wav",
+          "duration": 217.149708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Family Bonds and the Power of Community",
+          "actualDuration": 217.149708,
+          "startTime": 651.082917,
+          "endTime": 868.232625
+        },
+        {
+          "path": "Audio/output/1342/chapter_04.wav",
+          "duration": 217.530875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Confronting Injustice and the Fight for Civil Rights",
+          "actualDuration": 217.530875,
+          "startTime": 869.732625,
+          "endTime": 1087.2635
+        },
+        {
+          "path": "Audio/output/1342/chapter_05.wav",
+          "duration": 188.982167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Long Road Home and the Weight of Return",
+          "actualDuration": 188.982167,
+          "startTime": 1088.7635,
+          "endTime": 1277.7456670000001
+        },
+        {
+          "path": "Audio/output/1342/chapter_06.wav",
+          "duration": 210.527333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Struggle for Acceptance",
+          "actualDuration": 210.527333,
+          "startTime": 1279.2456670000001,
+          "endTime": 1489.7730000000001
+        },
+        {
+          "path": "Audio/output/1342/chapter_07.wav",
+          "duration": 177.875208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Speaking Out and the Power of Remembrance",
+          "actualDuration": 177.875208,
+          "startTime": 1491.2730000000001,
+          "endTime": 1669.148208
+        },
+        {
+          "path": "Audio/output/1342/chapter_08.wav",
+          "duration": 130.283583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons for the Next Generation",
+          "actualDuration": 130.283583,
+          "startTime": 1670.648208,
+          "endTime": 1800.931791
+        },
+        {
+          "path": "Audio/output/1342/chapter_09.wav",
+          "duration": 111.797583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Struggle for Justice and Belonging",
+          "actualDuration": 111.797583,
+          "startTime": 1802.431791,
+          "endTime": 1914.229374
+        },
+        {
+          "path": "Audio/output/1342/conclusion.wav",
+          "duration": 108.832667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.832667,
+          "startTime": 1915.729374,
+          "endTime": 2024.562041
+        }
+      ],
+      "totalDuration": 2024.562041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.05,
+          "actualStart": 0,
+          "actualEnd": 91.047958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood Interrupted by Fear and Uncertainty",
+          "expectedStart": 91.05,
+          "expectedEnd": 383.78,
+          "actualStart": 92.547958,
+          "actualEnd": 385.280625,
+          "timeDifference": 1.497957999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Life Behind Barbed Wire and the Struggle for Dignity",
+          "expectedStart": 383.78,
+          "expectedEnd": 646.58,
+          "actualStart": 386.780625,
+          "actualEnd": 649.582917,
+          "timeDifference": 3.0006250000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Family Bonds and the Power of Community",
+          "expectedStart": 646.58,
+          "expectedEnd": 863.73,
+          "actualStart": 651.082917,
+          "actualEnd": 868.232625,
+          "timeDifference": 4.502916999999911
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Confronting Injustice and the Fight for Civil Rights",
+          "expectedStart": 863.73,
+          "expectedEnd": 1081.26,
+          "actualStart": 869.732625,
+          "actualEnd": 1087.2635,
+          "timeDifference": 6.002624999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Long Road Home and the Weight of Return",
+          "expectedStart": 1081.26,
+          "expectedEnd": 1270.24,
+          "actualStart": 1088.7635,
+          "actualEnd": 1277.7456670000001,
+          "timeDifference": 7.503500000000031
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Struggle for Acceptance",
+          "expectedStart": 1270.24,
+          "expectedEnd": 1480.77,
+          "actualStart": 1279.2456670000001,
+          "actualEnd": 1489.7730000000001,
+          "timeDifference": 9.00566700000013
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Speaking Out and the Power of Remembrance",
+          "expectedStart": 1480.77,
+          "expectedEnd": 1658.65,
+          "actualStart": 1491.2730000000001,
+          "actualEnd": 1669.148208,
+          "timeDifference": 10.503000000000156
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons for the Next Generation",
+          "expectedStart": 1658.65,
+          "expectedEnd": 1788.93,
+          "actualStart": 1670.648208,
+          "actualEnd": 1800.931791,
+          "timeDifference": 11.998207999999977
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Struggle for Justice and Belonging",
+          "expectedStart": 1788.93,
+          "expectedEnd": 1900.73,
+          "actualStart": 1802.431791,
+          "actualEnd": 1914.229374,
+          "timeDifference": 13.501790999999912
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1900.73,
+          "expectedEnd": 2009.56,
+          "actualStart": 1915.729374,
+          "actualEnd": 2024.562041,
+          "timeDifference": 14.999373999999989
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.047958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood Interrupted by Fear and Uncertainty"
+        },
+        {
+          "startTime": 385.280625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood Interrupted by Fear and Uncertainty and Chapter 2 Life Behind Barbed Wire and the Struggle for Dignity"
+        },
+        {
+          "startTime": 649.582917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Life Behind Barbed Wire and the Struggle for Dignity and Chapter 3 Family Bonds and the Power of Community"
+        },
+        {
+          "startTime": 868.232625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Family Bonds and the Power of Community and Chapter 4 Confronting Injustice and the Fight for Civil Rights"
+        },
+        {
+          "startTime": 1087.2635,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Confronting Injustice and the Fight for Civil Rights and Chapter 5 The Long Road Home and the Weight of Return"
+        },
+        {
+          "startTime": 1277.7456670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Long Road Home and the Weight of Return and Chapter 6 The Quiet Struggle for Acceptance"
+        },
+        {
+          "startTime": 1489.7730000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Struggle for Acceptance and Chapter 7 Speaking Out and the Power of Remembrance"
+        },
+        {
+          "startTime": 1669.148208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Speaking Out and the Power of Remembrance and Chapter 8 Lessons for the Next Generation"
+        },
+        {
+          "startTime": 1800.931791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons for the Next Generation and Chapter 9 The Ongoing Struggle for Justice and Belonging"
+        },
+        {
+          "startTime": 1914.229374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Struggle for Justice and Belonging and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1342",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T08:15:17.160Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

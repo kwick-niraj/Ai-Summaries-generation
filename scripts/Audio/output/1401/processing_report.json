@@ -1,0 +1,456 @@
+{
+  "bookId": "1401",
+  "timestamp": "2025-07-07T13:20:15.451Z",
+  "success": false,
+  "processingTime": -1751894080550,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4485,
+    "totalAudioFiles": 12,
+    "totalDuration": 2140.7313329999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2140.7313329999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1401/optimized_text/1401.md",
+    "fileSize": 677,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "1401.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1401/metadata/1401_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2140.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1401/metadata/1401_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1401/metadata/1401_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1401/1401_complete.wav",
+    "duration": 2140.731333,
+    "fileSize": 102755182,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1401/introduction.wav",
+          "duration": 115.531458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 115.531458,
+          "startTime": 0,
+          "endTime": 115.531458
+        },
+        {
+          "path": "Audio/output/1401/chapter_01.wav",
+          "duration": 223.803083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A New Kind of President Arrives in Washington",
+          "actualDuration": 223.803083,
+          "startTime": 117.031458,
+          "endTime": 340.834541
+        },
+        {
+          "path": "Audio/output/1401/chapter_02.wav",
+          "duration": 252.006458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Personality and the Making of a Leader",
+          "actualDuration": 252.006458,
+          "startTime": 342.334541,
+          "endTime": 594.340999
+        },
+        {
+          "path": "Audio/output/1401/chapter_03.wav",
+          "duration": 172.474208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle Over Federal Power and States’ Rights",
+          "actualDuration": 172.474208,
+          "startTime": 595.840999,
+          "endTime": 768.315207
+        },
+        {
+          "path": "Audio/output/1401/chapter_04.wav",
+          "duration": 224.988667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Battle for Democracy and the Limits of Populism",
+          "actualDuration": 224.988667,
+          "startTime": 769.815207,
+          "endTime": 994.803874
+        },
+        {
+          "path": "Audio/output/1401/chapter_05.wav",
+          "duration": 224.144542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Loyalty, Rivalry, and the Human Side of Power",
+          "actualDuration": 224.144542,
+          "startTime": 996.303874,
+          "endTime": 1220.448416
+        },
+        {
+          "path": "Audio/output/1401/chapter_06.wav",
+          "duration": 208.064375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Bank War and the Battle for Economic Power",
+          "actualDuration": 208.064375,
+          "startTime": 1221.948416,
+          "endTime": 1430.0127909999999
+        },
+        {
+          "path": "Audio/output/1401/chapter_07.wav",
+          "duration": 180.579042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Evolution of the Presidency",
+          "actualDuration": 180.579042,
+          "startTime": 1431.5127909999999,
+          "endTime": 1612.091833
+        },
+        {
+          "path": "Audio/output/1401/chapter_08.wav",
+          "duration": 160.063667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shadow of Slavery and the Unfinished Promise",
+          "actualDuration": 160.063667,
+          "startTime": 1613.591833,
+          "endTime": 1773.6554999999998
+        },
+        {
+          "path": "Audio/output/1401/chapter_09.wav",
+          "duration": 134.464583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Toll of Leadership and the Weight of Legacy",
+          "actualDuration": 134.464583,
+          "startTime": 1775.1554999999998,
+          "endTime": 1909.6200829999998
+        },
+        {
+          "path": "Audio/output/1401/chapter_10.wav",
+          "duration": 134.341417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Impact and the Lessons of Jackson’s America",
+          "actualDuration": 134.341417,
+          "startTime": 1911.1200829999998,
+          "endTime": 2045.4615
+        },
+        {
+          "path": "Audio/output/1401/conclusion.wav",
+          "duration": 110.269833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.269833,
+          "startTime": 2046.9615,
+          "endTime": 2157.2313329999997
+        }
+      ],
+      "totalDuration": 2157.2313329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 115.53,
+          "actualStart": 0,
+          "actualEnd": 115.531458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A New Kind of President Arrives in Washington",
+          "expectedStart": 115.53,
+          "expectedEnd": 339.33,
+          "actualStart": 117.031458,
+          "actualEnd": 340.834541,
+          "timeDifference": 1.5014579999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Personality and the Making of a Leader",
+          "expectedStart": 339.33,
+          "expectedEnd": 591.34,
+          "actualStart": 342.334541,
+          "actualEnd": 594.340999,
+          "timeDifference": 3.0045410000000174
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle Over Federal Power and States’ Rights",
+          "expectedStart": 591.34,
+          "expectedEnd": 763.81,
+          "actualStart": 595.840999,
+          "actualEnd": 768.315207,
+          "timeDifference": 4.500998999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Battle for Democracy and the Limits of Populism",
+          "expectedStart": 763.81,
+          "expectedEnd": 988.8,
+          "actualStart": 769.815207,
+          "actualEnd": 994.803874,
+          "timeDifference": 6.005207000000041
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Loyalty, Rivalry, and the Human Side of Power",
+          "expectedStart": 988.8,
+          "expectedEnd": 1212.94,
+          "actualStart": 996.303874,
+          "actualEnd": 1220.448416,
+          "timeDifference": 7.503873999999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Bank War and the Battle for Economic Power",
+          "expectedStart": 1212.94,
+          "expectedEnd": 1421,
+          "actualStart": 1221.948416,
+          "actualEnd": 1430.0127909999999,
+          "timeDifference": 9.008415999999897
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Evolution of the Presidency",
+          "expectedStart": 1421,
+          "expectedEnd": 1601.58,
+          "actualStart": 1431.5127909999999,
+          "actualEnd": 1612.091833,
+          "timeDifference": 10.51279099999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shadow of Slavery and the Unfinished Promise",
+          "expectedStart": 1601.58,
+          "expectedEnd": 1761.64,
+          "actualStart": 1613.591833,
+          "actualEnd": 1773.6554999999998,
+          "timeDifference": 12.011833000000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Toll of Leadership and the Weight of Legacy",
+          "expectedStart": 1761.64,
+          "expectedEnd": 1896.1,
+          "actualStart": 1775.1554999999998,
+          "actualEnd": 1909.6200829999998,
+          "timeDifference": 13.515499999999747
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Impact and the Lessons of Jackson’s America",
+          "expectedStart": 1896.1,
+          "expectedEnd": 2030.44,
+          "actualStart": 1911.1200829999998,
+          "actualEnd": 2045.4615,
+          "timeDifference": 15.020082999999886
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2030.44,
+          "expectedEnd": 2140.71,
+          "actualStart": 2046.9615,
+          "actualEnd": 2157.2313329999997,
+          "timeDifference": 16.521499999999833
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 115.531458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A New Kind of President Arrives in Washington"
+        },
+        {
+          "startTime": 340.834541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A New Kind of President Arrives in Washington and Chapter 2 The Power of Personality and the Making of a Leader"
+        },
+        {
+          "startTime": 594.340999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Personality and the Making of a Leader and Chapter 3 The Struggle Over Federal Power and States’ Rights"
+        },
+        {
+          "startTime": 768.315207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle Over Federal Power and States’ Rights and Chapter 4 The Battle for Democracy and the Limits of Populism"
+        },
+        {
+          "startTime": 994.803874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Battle for Democracy and the Limits of Populism and Chapter 5 Loyalty, Rivalry, and the Human Side of Power"
+        },
+        {
+          "startTime": 1220.448416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Loyalty, Rivalry, and the Human Side of Power and Chapter 6 The Bank War and the Battle for Economic Power"
+        },
+        {
+          "startTime": 1430.0127909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Bank War and the Battle for Economic Power and Chapter 7 The Evolution of the Presidency"
+        },
+        {
+          "startTime": 1612.091833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Evolution of the Presidency and Chapter 8 The Shadow of Slavery and the Unfinished Promise"
+        },
+        {
+          "startTime": 1773.6554999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shadow of Slavery and the Unfinished Promise and Chapter 9 The Toll of Leadership and the Weight of Legacy"
+        },
+        {
+          "startTime": 1909.6200829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Toll of Leadership and the Weight of Legacy and Chapter 10 The Enduring Impact and the Lessons of Jackson’s America"
+        },
+        {
+          "startTime": 2045.4615,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Impact and the Lessons of Jackson’s America and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1401",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T13:14:41.031Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

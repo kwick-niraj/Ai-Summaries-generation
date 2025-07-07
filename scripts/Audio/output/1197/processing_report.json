@@ -1,0 +1,433 @@
+{
+  "bookId": "1197",
+  "timestamp": "2025-07-06T20:37:08.289Z",
+  "success": false,
+  "processingTime": -1751833893099,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5044,
+    "totalAudioFiles": 12,
+    "totalDuration": 2303.17621
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2303.17621
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1197/optimized_text/1197.md",
+    "fileSize": 762,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1197.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1197/metadata/1197_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2303.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1197/metadata/1197_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1197/metadata/1197_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1197/1197_complete.wav",
+    "duration": 2303.176208,
+    "fileSize": 110552536,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1197/chapter_01.wav",
+          "duration": 276.5015,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How People First Made Sense of Leadership",
+          "actualDuration": 276.5015,
+          "startTime": 0,
+          "endTime": 276.5015
+        },
+        {
+          "path": "Audio/output/1197/chapter_02.wav",
+          "duration": 312.718417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Shift from Traits to Actions and Relationships",
+          "actualDuration": 312.718417,
+          "startTime": 278.0015,
+          "endTime": 590.719917
+        },
+        {
+          "path": "Audio/output/1197/chapter_03.wav",
+          "duration": 230.095208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Rise of Transformational Leadership and New Ways of Inspiring Others",
+          "actualDuration": 230.095208,
+          "startTime": 592.219917,
+          "endTime": 822.3151250000001
+        },
+        {
+          "path": "Audio/output/1197/chapter_04.wav",
+          "duration": 248.677917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Influence of Culture, Context, and Ethics on Leadership",
+          "actualDuration": 248.677917,
+          "startTime": 823.8151250000001,
+          "endTime": 1072.493042
+        },
+        {
+          "path": "Audio/output/1197/chapter_05.wav",
+          "duration": 227.156792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Modern Leader: Adaptability, Emotional Intelligence, and the Power of Teams",
+          "actualDuration": 227.156792,
+          "startTime": 1073.993042,
+          "endTime": 1301.149834
+        },
+        {
+          "path": "Audio/output/1197/chapter_06.wav",
+          "duration": 198.361042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Digital Age: Technology, Connection, and the New Face of Leadership",
+          "actualDuration": 198.361042,
+          "startTime": 1302.649834,
+          "endTime": 1501.010876
+        },
+        {
+          "path": "Audio/output/1197/chapter_07.wav",
+          "duration": 198.26675,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Globalization and the Expanding Horizon of Leadership",
+          "actualDuration": 198.26675,
+          "startTime": 1502.510876,
+          "endTime": 1700.777626
+        },
+        {
+          "path": "Audio/output/1197/chapter_08.wav",
+          "duration": 169.461167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Evolving Role of Purpose and Meaning",
+          "actualDuration": 169.461167,
+          "startTime": 1702.277626,
+          "endTime": 1871.738793
+        },
+        {
+          "path": "Audio/output/1197/chapter_09.wav",
+          "duration": 180.660292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future of Leadership: Agility, Inclusion, and Shared Power",
+          "actualDuration": 180.660292,
+          "startTime": 1873.238793,
+          "endTime": 2053.899085
+        },
+        {
+          "path": "Audio/output/1197/chapter_10.wav",
+          "duration": 119.824167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leadership as a Lifelong Journey",
+          "actualDuration": 119.824167,
+          "startTime": 2055.399085,
+          "endTime": 2175.2232520000002
+        },
+        {
+          "path": "Audio/output/1197/conclusion.wav",
+          "duration": 141.452958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 141.452958,
+          "startTime": 2176.7232520000002,
+          "endTime": 2318.17621
+        }
+      ],
+      "totalDuration": 2318.17621,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How People First Made Sense of Leadership",
+          "expectedStart": 0,
+          "expectedEnd": 276.5,
+          "actualStart": 0,
+          "actualEnd": 276.5015,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Shift from Traits to Actions and Relationships",
+          "expectedStart": 276.5,
+          "expectedEnd": 589.22,
+          "actualStart": 278.0015,
+          "actualEnd": 590.719917,
+          "timeDifference": 1.5015000000000214
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Rise of Transformational Leadership and New Ways of Inspiring Others",
+          "expectedStart": 589.22,
+          "expectedEnd": 819.32,
+          "actualStart": 592.219917,
+          "actualEnd": 822.3151250000001,
+          "timeDifference": 2.999916999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Influence of Culture, Context, and Ethics on Leadership",
+          "expectedStart": 819.32,
+          "expectedEnd": 1068,
+          "actualStart": 823.8151250000001,
+          "actualEnd": 1072.493042,
+          "timeDifference": 4.49512500000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Modern Leader: Adaptability, Emotional Intelligence, and the Power of Teams",
+          "expectedStart": 1068,
+          "expectedEnd": 1295.16,
+          "actualStart": 1073.993042,
+          "actualEnd": 1301.149834,
+          "timeDifference": 5.9930420000000595
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Digital Age: Technology, Connection, and the New Face of Leadership",
+          "expectedStart": 1295.16,
+          "expectedEnd": 1493.52,
+          "actualStart": 1302.649834,
+          "actualEnd": 1501.010876,
+          "timeDifference": 7.4898339999999735
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Globalization and the Expanding Horizon of Leadership",
+          "expectedStart": 1493.52,
+          "expectedEnd": 1691.79,
+          "actualStart": 1502.510876,
+          "actualEnd": 1700.777626,
+          "timeDifference": 8.990876000000071
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Evolving Role of Purpose and Meaning",
+          "expectedStart": 1691.79,
+          "expectedEnd": 1861.25,
+          "actualStart": 1702.277626,
+          "actualEnd": 1871.738793,
+          "timeDifference": 10.487626000000091
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future of Leadership: Agility, Inclusion, and Shared Power",
+          "expectedStart": 1861.25,
+          "expectedEnd": 2041.91,
+          "actualStart": 1873.238793,
+          "actualEnd": 2053.899085,
+          "timeDifference": 11.988792999999987
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leadership as a Lifelong Journey",
+          "expectedStart": 2041.91,
+          "expectedEnd": 2161.73,
+          "actualStart": 2055.399085,
+          "actualEnd": 2175.2232520000002,
+          "timeDifference": 13.489084999999932
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2161.73,
+          "expectedEnd": 2303.18,
+          "actualStart": 2176.7232520000002,
+          "actualEnd": 2318.17621,
+          "timeDifference": 14.993252000000211
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 276.5015,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How People First Made Sense of Leadership and Chapter 2 The Shift from Traits to Actions and Relationships"
+        },
+        {
+          "startTime": 590.719917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Shift from Traits to Actions and Relationships and Chapter 3 The Rise of Transformational Leadership and New Ways of Inspiring Others"
+        },
+        {
+          "startTime": 822.3151250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Rise of Transformational Leadership and New Ways of Inspiring Others and Chapter 4 The Influence of Culture, Context, and Ethics on Leadership"
+        },
+        {
+          "startTime": 1072.493042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Influence of Culture, Context, and Ethics on Leadership and Chapter 5 The Modern Leader: Adaptability, Emotional Intelligence, and the Power of Teams"
+        },
+        {
+          "startTime": 1301.149834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Modern Leader: Adaptability, Emotional Intelligence, and the Power of Teams and Chapter 6 The Digital Age: Technology, Connection, and the New Face of Leadership"
+        },
+        {
+          "startTime": 1501.010876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Digital Age: Technology, Connection, and the New Face of Leadership and Chapter 7 Globalization and the Expanding Horizon of Leadership"
+        },
+        {
+          "startTime": 1700.777626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Globalization and the Expanding Horizon of Leadership and Chapter 8 The Evolving Role of Purpose and Meaning"
+        },
+        {
+          "startTime": 1871.738793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Evolving Role of Purpose and Meaning and Chapter 9 The Future of Leadership: Agility, Inclusion, and Shared Power"
+        },
+        {
+          "startTime": 2053.899085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future of Leadership: Agility, Inclusion, and Shared Power and Chapter 10 Leadership as a Lifelong Journey"
+        },
+        {
+          "startTime": 2175.2232520000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leadership as a Lifelong Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1197",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T20:31:34.402Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "bookId": "1299",
+  "timestamp": "2025-07-07T04:34:08.034Z",
+  "success": false,
+  "processingTime": -1751862406951,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 6292,
+    "totalAudioFiles": 14,
+    "totalDuration": 2802.7076690000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2802.7076690000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1299/optimized_text/1299.md",
+    "fileSize": 822,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "1299.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1299/metadata/1299_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2802.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1299/metadata/1299_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1299/metadata/1299_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1299/1299_complete.wav",
+    "duration": 2802.707667,
+    "fileSize": 134530046,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1299/introduction.wav",
+          "duration": 109.407292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 109.407292,
+          "startTime": 0,
+          "endTime": 109.407292
+        },
+        {
+          "path": "Audio/output/1299/chapter_01.wav",
+          "duration": 225.609917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life’s Questions Meet the Voice Within",
+          "actualDuration": 225.609917,
+          "startTime": 110.907292,
+          "endTime": 336.517209
+        },
+        {
+          "path": "Audio/output/1299/chapter_02.wav",
+          "duration": 243.70725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rethinking God, Religion, and the Nature of Truth",
+          "actualDuration": 243.70725,
+          "startTime": 338.017209,
+          "endTime": 581.724459
+        },
+        {
+          "path": "Audio/output/1299/chapter_03.wav",
+          "duration": 244.651708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Creation and Personal Responsibility",
+          "actualDuration": 244.651708,
+          "startTime": 583.224459,
+          "endTime": 827.876167
+        },
+        {
+          "path": "Audio/output/1299/chapter_04.wav",
+          "duration": 244.264875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Love, Fear, and the Choices That Shape Our Lives",
+          "actualDuration": 244.264875,
+          "startTime": 829.376167,
+          "endTime": 1073.641042
+        },
+        {
+          "path": "Audio/output/1299/chapter_05.wav",
+          "duration": 220.743417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living Authentically and Embracing the Journey",
+          "actualDuration": 220.743417,
+          "startTime": 1075.141042,
+          "endTime": 1295.8844589999999
+        },
+        {
+          "path": "Audio/output/1299/chapter_06.wav",
+          "duration": 222.227542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dance of Relationships: Mirrors, Lessons, and Unfinished Business",
+          "actualDuration": 222.227542,
+          "startTime": 1297.3844589999999,
+          "endTime": 1519.612001
+        },
+        {
+          "path": "Audio/output/1299/chapter_07.wav",
+          "duration": 209.095042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Money, Work, and the Myth of Scarcity",
+          "actualDuration": 209.095042,
+          "startTime": 1521.112001,
+          "endTime": 1730.2070429999999
+        },
+        {
+          "path": "Audio/output/1299/chapter_08.wav",
+          "duration": 206.109417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Health, Healing, and the Wisdom of the Body",
+          "actualDuration": 206.109417,
+          "startTime": 1731.7070429999999,
+          "endTime": 1937.81646
+        },
+        {
+          "path": "Audio/output/1299/chapter_09.wav",
+          "duration": 198.384875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Parenting, Children, and the Cycle of Growth",
+          "actualDuration": 198.384875,
+          "startTime": 1939.31646,
+          "endTime": 2137.701335
+        },
+        {
+          "path": "Audio/output/1299/chapter_10.wav",
+          "duration": 194.830417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Death, Loss, and the Mystery of What Comes Next",
+          "actualDuration": 194.830417,
+          "startTime": 2139.201335,
+          "endTime": 2334.0317520000003
+        },
+        {
+          "path": "Audio/output/1299/chapter_11.wav",
+          "duration": 186.398292,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Spiritual Practice: Listening, Trusting, and Creating Ritual",
+          "actualDuration": 186.398292,
+          "startTime": 2335.5317520000003,
+          "endTime": 2521.930044
+        },
+        {
+          "path": "Audio/output/1299/chapter_12.wav",
+          "duration": 146.45825,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Conversation: Living the Questions",
+          "actualDuration": 146.45825,
+          "startTime": 2523.430044,
+          "endTime": 2669.8882940000003
+        },
+        {
+          "path": "Audio/output/1299/conclusion.wav",
+          "duration": 150.819375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 150.819375,
+          "startTime": 2671.3882940000003,
+          "endTime": 2822.2076690000004
+        }
+      ],
+      "totalDuration": 2822.2076690000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 109.41,
+          "actualStart": 0,
+          "actualEnd": 109.407292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life’s Questions Meet the Voice Within",
+          "expectedStart": 109.41,
+          "expectedEnd": 335.02,
+          "actualStart": 110.907292,
+          "actualEnd": 336.517209,
+          "timeDifference": 1.4972920000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rethinking God, Religion, and the Nature of Truth",
+          "expectedStart": 335.02,
+          "expectedEnd": 578.73,
+          "actualStart": 338.017209,
+          "actualEnd": 581.724459,
+          "timeDifference": 2.997208999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Creation and Personal Responsibility",
+          "expectedStart": 578.73,
+          "expectedEnd": 823.38,
+          "actualStart": 583.224459,
+          "actualEnd": 827.876167,
+          "timeDifference": 4.494459000000006
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Love, Fear, and the Choices That Shape Our Lives",
+          "expectedStart": 823.38,
+          "expectedEnd": 1067.64,
+          "actualStart": 829.376167,
+          "actualEnd": 1073.641042,
+          "timeDifference": 5.996167000000014
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living Authentically and Embracing the Journey",
+          "expectedStart": 1067.64,
+          "expectedEnd": 1288.38,
+          "actualStart": 1075.141042,
+          "actualEnd": 1295.8844589999999,
+          "timeDifference": 7.50104199999987
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dance of Relationships: Mirrors, Lessons, and Unfinished Business",
+          "expectedStart": 1288.38,
+          "expectedEnd": 1510.61,
+          "actualStart": 1297.3844589999999,
+          "actualEnd": 1519.612001,
+          "timeDifference": 9.00445899999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Money, Work, and the Myth of Scarcity",
+          "expectedStart": 1510.61,
+          "expectedEnd": 1719.71,
+          "actualStart": 1521.112001,
+          "actualEnd": 1730.2070429999999,
+          "timeDifference": 10.502001000000064
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Health, Healing, and the Wisdom of the Body",
+          "expectedStart": 1719.71,
+          "expectedEnd": 1925.82,
+          "actualStart": 1731.7070429999999,
+          "actualEnd": 1937.81646,
+          "timeDifference": 11.997042999999849
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Parenting, Children, and the Cycle of Growth",
+          "expectedStart": 1925.82,
+          "expectedEnd": 2124.2,
+          "actualStart": 1939.31646,
+          "actualEnd": 2137.701335,
+          "timeDifference": 13.49646000000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Death, Loss, and the Mystery of What Comes Next",
+          "expectedStart": 2124.2,
+          "expectedEnd": 2319.03,
+          "actualStart": 2139.201335,
+          "actualEnd": 2334.0317520000003,
+          "timeDifference": 15.001335000000381
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Spiritual Practice: Listening, Trusting, and Creating Ritual",
+          "expectedStart": 2319.03,
+          "expectedEnd": 2505.43,
+          "actualStart": 2335.5317520000003,
+          "actualEnd": 2521.930044,
+          "timeDifference": 16.501752000000124
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Conversation: Living the Questions",
+          "expectedStart": 2505.43,
+          "expectedEnd": 2651.89,
+          "actualStart": 2523.430044,
+          "actualEnd": 2669.8882940000003,
+          "timeDifference": 18.000044000000344
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2651.89,
+          "expectedEnd": 2802.71,
+          "actualStart": 2671.3882940000003,
+          "actualEnd": 2822.2076690000004,
+          "timeDifference": 19.498294000000442
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 109.407292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life’s Questions Meet the Voice Within"
+        },
+        {
+          "startTime": 336.517209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life’s Questions Meet the Voice Within and Chapter 2 Rethinking God, Religion, and the Nature of Truth"
+        },
+        {
+          "startTime": 581.724459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rethinking God, Religion, and the Nature of Truth and Chapter 3 The Power of Creation and Personal Responsibility"
+        },
+        {
+          "startTime": 827.876167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Creation and Personal Responsibility and Chapter 4 Love, Fear, and the Choices That Shape Our Lives"
+        },
+        {
+          "startTime": 1073.641042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Love, Fear, and the Choices That Shape Our Lives and Chapter 5 Living Authentically and Embracing the Journey"
+        },
+        {
+          "startTime": 1295.8844589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living Authentically and Embracing the Journey and Chapter 6 The Dance of Relationships: Mirrors, Lessons, and Unfinished Business"
+        },
+        {
+          "startTime": 1519.612001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dance of Relationships: Mirrors, Lessons, and Unfinished Business and Chapter 7 Money, Work, and the Myth of Scarcity"
+        },
+        {
+          "startTime": 1730.2070429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Money, Work, and the Myth of Scarcity and Chapter 8 Health, Healing, and the Wisdom of the Body"
+        },
+        {
+          "startTime": 1937.81646,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Health, Healing, and the Wisdom of the Body and Chapter 9 Parenting, Children, and the Cycle of Growth"
+        },
+        {
+          "startTime": 2137.701335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Parenting, Children, and the Cycle of Growth and Chapter 10 Death, Loss, and the Mystery of What Comes Next"
+        },
+        {
+          "startTime": 2334.0317520000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Death, Loss, and the Mystery of What Comes Next and Chapter 11 Spiritual Practice: Listening, Trusting, and Creating Ritual"
+        },
+        {
+          "startTime": 2521.930044,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Spiritual Practice: Listening, Trusting, and Creating Ritual and Chapter 12 The Ongoing Conversation: Living the Questions"
+        },
+        {
+          "startTime": 2669.8882940000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Conversation: Living the Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1299",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T04:26:46.970Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

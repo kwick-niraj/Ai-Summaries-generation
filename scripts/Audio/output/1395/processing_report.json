@@ -1,0 +1,456 @@
+{
+  "bookId": "1395",
+  "timestamp": "2025-07-07T12:57:47.915Z",
+  "success": false,
+  "processingTime": -1751892679796,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4459,
+    "totalAudioFiles": 12,
+    "totalDuration": 2071.6545849999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2071.6545849999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1395/optimized_text/1395.md",
+    "fileSize": 662,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1395.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1395/metadata/1395_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2071.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1395/metadata/1395_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1395/metadata/1395_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1395/1395_complete.wav",
+    "duration": 2071.654583,
+    "fileSize": 99439498,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1395/introduction.wav",
+          "duration": 101.501875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.501875,
+          "startTime": 0,
+          "endTime": 101.501875
+        },
+        {
+          "path": "Audio/output/1395/chapter_01.wav",
+          "duration": 213.348917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stories as Lifelines: Why Imagination Matters",
+          "actualDuration": 213.348917,
+          "startTime": 103.001875,
+          "endTime": 316.350792
+        },
+        {
+          "path": "Audio/output/1395/chapter_02.wav",
+          "duration": 213.99825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Influence of Books, Art, and Culture on Everyday Life",
+          "actualDuration": 213.99825,
+          "startTime": 317.850792,
+          "endTime": 531.849042
+        },
+        {
+          "path": "Audio/output/1395/chapter_03.wav",
+          "duration": 183.644667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Defending Libraries, Books, and the Freedom to Read",
+          "actualDuration": 183.644667,
+          "startTime": 533.349042,
+          "endTime": 716.9937090000001
+        },
+        {
+          "path": "Audio/output/1395/chapter_04.wav",
+          "duration": 220.084375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Creative Life: Struggles, Joys, and the Value of Making Things",
+          "actualDuration": 220.084375,
+          "startTime": 718.4937090000001,
+          "endTime": 938.5780840000001
+        },
+        {
+          "path": "Audio/output/1395/chapter_05.wav",
+          "duration": 230.806583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Celebrating Creators and the Impact of Their Work",
+          "actualDuration": 230.806583,
+          "startTime": 940.0780840000001,
+          "endTime": 1170.884667
+        },
+        {
+          "path": "Audio/output/1395/chapter_06.wav",
+          "duration": 203.81075,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mentors, Guides, and the Power of Encouragement",
+          "actualDuration": 203.81075,
+          "startTime": 1172.384667,
+          "endTime": 1376.1954170000001
+        },
+        {
+          "path": "Audio/output/1395/chapter_07.wav",
+          "duration": 187.846292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Battle for Creative Freedom",
+          "actualDuration": 187.846292,
+          "startTime": 1377.6954170000001,
+          "endTime": 1565.541709
+        },
+        {
+          "path": "Audio/output/1395/chapter_08.wav",
+          "duration": 145.101542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Value of Stories in Shaping Society",
+          "actualDuration": 145.101542,
+          "startTime": 1567.041709,
+          "endTime": 1712.143251
+        },
+        {
+          "path": "Audio/output/1395/chapter_09.wav",
+          "duration": 136.50175,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Work of Hope",
+          "actualDuration": 136.50175,
+          "startTime": 1713.643251,
+          "endTime": 1850.1450009999999
+        },
+        {
+          "path": "Audio/output/1395/chapter_10.wav",
+          "duration": 120.223792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Stories: Lessons for a Lifetime",
+          "actualDuration": 120.223792,
+          "startTime": 1851.6450009999999,
+          "endTime": 1971.8687929999999
+        },
+        {
+          "path": "Audio/output/1395/conclusion.wav",
+          "duration": 114.785792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.785792,
+          "startTime": 1973.3687929999999,
+          "endTime": 2088.1545849999998
+        }
+      ],
+      "totalDuration": 2088.1545849999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.5,
+          "actualStart": 0,
+          "actualEnd": 101.501875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stories as Lifelines: Why Imagination Matters",
+          "expectedStart": 101.5,
+          "expectedEnd": 314.85,
+          "actualStart": 103.001875,
+          "actualEnd": 316.350792,
+          "timeDifference": 1.5018749999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Influence of Books, Art, and Culture on Everyday Life",
+          "expectedStart": 314.85,
+          "expectedEnd": 528.85,
+          "actualStart": 317.850792,
+          "actualEnd": 531.849042,
+          "timeDifference": 3.00079199999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Defending Libraries, Books, and the Freedom to Read",
+          "expectedStart": 528.85,
+          "expectedEnd": 712.49,
+          "actualStart": 533.349042,
+          "actualEnd": 716.9937090000001,
+          "timeDifference": 4.499042000000031
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Creative Life: Struggles, Joys, and the Value of Making Things",
+          "expectedStart": 712.49,
+          "expectedEnd": 932.57,
+          "actualStart": 718.4937090000001,
+          "actualEnd": 938.5780840000001,
+          "timeDifference": 6.003709000000072
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Celebrating Creators and the Impact of Their Work",
+          "expectedStart": 932.57,
+          "expectedEnd": 1163.38,
+          "actualStart": 940.0780840000001,
+          "actualEnd": 1170.884667,
+          "timeDifference": 7.5080840000000535
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mentors, Guides, and the Power of Encouragement",
+          "expectedStart": 1163.38,
+          "expectedEnd": 1367.19,
+          "actualStart": 1172.384667,
+          "actualEnd": 1376.1954170000001,
+          "timeDifference": 9.004666999999927
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Battle for Creative Freedom",
+          "expectedStart": 1367.19,
+          "expectedEnd": 1555.04,
+          "actualStart": 1377.6954170000001,
+          "actualEnd": 1565.541709,
+          "timeDifference": 10.50541700000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Value of Stories in Shaping Society",
+          "expectedStart": 1555.04,
+          "expectedEnd": 1700.14,
+          "actualStart": 1567.041709,
+          "actualEnd": 1712.143251,
+          "timeDifference": 12.001709000000119
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Work of Hope",
+          "expectedStart": 1700.14,
+          "expectedEnd": 1836.64,
+          "actualStart": 1713.643251,
+          "actualEnd": 1850.1450009999999,
+          "timeDifference": 13.503250999999864
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Stories: Lessons for a Lifetime",
+          "expectedStart": 1836.64,
+          "expectedEnd": 1956.86,
+          "actualStart": 1851.6450009999999,
+          "actualEnd": 1971.8687929999999,
+          "timeDifference": 15.005000999999766
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1956.86,
+          "expectedEnd": 2071.65,
+          "actualStart": 1973.3687929999999,
+          "actualEnd": 2088.1545849999998,
+          "timeDifference": 16.50879299999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.501875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stories as Lifelines: Why Imagination Matters"
+        },
+        {
+          "startTime": 316.350792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stories as Lifelines: Why Imagination Matters and Chapter 2 The Influence of Books, Art, and Culture on Everyday Life"
+        },
+        {
+          "startTime": 531.849042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Influence of Books, Art, and Culture on Everyday Life and Chapter 3 Defending Libraries, Books, and the Freedom to Read"
+        },
+        {
+          "startTime": 716.9937090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Defending Libraries, Books, and the Freedom to Read and Chapter 4 The Creative Life: Struggles, Joys, and the Value of Making Things"
+        },
+        {
+          "startTime": 938.5780840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Creative Life: Struggles, Joys, and the Value of Making Things and Chapter 5 Celebrating Creators and the Impact of Their Work"
+        },
+        {
+          "startTime": 1170.884667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Celebrating Creators and the Impact of Their Work and Chapter 6 Mentors, Guides, and the Power of Encouragement"
+        },
+        {
+          "startTime": 1376.1954170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mentors, Guides, and the Power of Encouragement and Chapter 7 The Battle for Creative Freedom"
+        },
+        {
+          "startTime": 1565.541709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Battle for Creative Freedom and Chapter 8 The Enduring Value of Stories in Shaping Society"
+        },
+        {
+          "startTime": 1712.143251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Value of Stories in Shaping Society and Chapter 9 The Quiet Work of Hope"
+        },
+        {
+          "startTime": 1850.1450009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Work of Hope and Chapter 10 Living with Stories: Lessons for a Lifetime"
+        },
+        {
+          "startTime": 1971.8687929999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Stories: Lessons for a Lifetime and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1395",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T12:51:21.328Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

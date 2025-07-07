@@ -1,0 +1,456 @@
+{
+  "bookId": "1172",
+  "timestamp": "2025-07-06T18:51:47.256Z",
+  "success": false,
+  "processingTime": -1751827461475,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4062,
+    "totalAudioFiles": 12,
+    "totalDuration": 2093.745292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2093.745292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1172/optimized_text/1172.md",
+    "fileSize": 674,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "1172.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1172/metadata/1172_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2093.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1172/metadata/1172_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1172/metadata/1172_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1172/1172_complete.wav",
+    "duration": 2093.745292,
+    "fileSize": 100499852,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1172/introduction.wav",
+          "duration": 75.01225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.01225,
+          "startTime": 0,
+          "endTime": 75.01225
+        },
+        {
+          "path": "Audio/output/1172/chapter_01.wav",
+          "duration": 254.809417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Modern Dating and Its Hidden Challenges",
+          "actualDuration": 254.809417,
+          "startTime": 76.51225,
+          "endTime": 331.321667
+        },
+        {
+          "path": "Audio/output/1172/chapter_02.wav",
+          "duration": 233.957,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Courtship as a Purposeful Alternative",
+          "actualDuration": 233.957,
+          "startTime": 332.821667,
+          "endTime": 566.778667
+        },
+        {
+          "path": "Audio/output/1172/chapter_03.wav",
+          "duration": 186.922292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Guarding the Heart—Emotional and Physical Purity",
+          "actualDuration": 186.922292,
+          "startTime": 568.278667,
+          "endTime": 755.200959
+        },
+        {
+          "path": "Audio/output/1172/chapter_04.wav",
+          "duration": 229.92475,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Community, Mentors, and Family in Relationships",
+          "actualDuration": 229.92475,
+          "startTime": 756.700959,
+          "endTime": 986.625709
+        },
+        {
+          "path": "Audio/output/1172/chapter_05.wav",
+          "duration": 178.565083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Waiting on God’s Timing and Trusting the Process",
+          "actualDuration": 178.565083,
+          "startTime": 988.125709,
+          "endTime": 1166.690792
+        },
+        {
+          "path": "Audio/output/1172/chapter_06.wav",
+          "duration": 167.103583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Honest Communication and Emotional Safety",
+          "actualDuration": 167.103583,
+          "startTime": 1168.190792,
+          "endTime": 1335.2943750000002
+        },
+        {
+          "path": "Audio/output/1172/chapter_07.wav",
+          "duration": 150.552458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Discernment—Making Wise Choices Together",
+          "actualDuration": 150.552458,
+          "startTime": 1336.7943750000002,
+          "endTime": 1487.346833
+        },
+        {
+          "path": "Audio/output/1172/chapter_08.wav",
+          "duration": 164.243417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Conflict and Embracing Forgiveness",
+          "actualDuration": 164.243417,
+          "startTime": 1488.846833,
+          "endTime": 1653.09025
+        },
+        {
+          "path": "Audio/output/1172/chapter_09.wav",
+          "duration": 163.983792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Preparing for Engagement and Marriage",
+          "actualDuration": 163.983792,
+          "startTime": 1654.59025,
+          "endTime": 1818.574042
+        },
+        {
+          "path": "Audio/output/1172/chapter_10.wav",
+          "duration": 142.884417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Out a God-Centered Marriage",
+          "actualDuration": 142.884417,
+          "startTime": 1820.074042,
+          "endTime": 1962.958459
+        },
+        {
+          "path": "Audio/output/1172/conclusion.wav",
+          "duration": 145.786833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.786833,
+          "startTime": 1964.458459,
+          "endTime": 2110.245292
+        }
+      ],
+      "totalDuration": 2110.245292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.01,
+          "actualStart": 0,
+          "actualEnd": 75.01225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Modern Dating and Its Hidden Challenges",
+          "expectedStart": 75.01,
+          "expectedEnd": 329.82,
+          "actualStart": 76.51225,
+          "actualEnd": 331.321667,
+          "timeDifference": 1.5022499999999894
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Courtship as a Purposeful Alternative",
+          "expectedStart": 329.82,
+          "expectedEnd": 563.78,
+          "actualStart": 332.821667,
+          "actualEnd": 566.778667,
+          "timeDifference": 3.0016669999999976
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Guarding the Heart—Emotional and Physical Purity",
+          "expectedStart": 563.78,
+          "expectedEnd": 750.7,
+          "actualStart": 568.278667,
+          "actualEnd": 755.200959,
+          "timeDifference": 4.498667000000069
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Community, Mentors, and Family in Relationships",
+          "expectedStart": 750.7,
+          "expectedEnd": 980.62,
+          "actualStart": 756.700959,
+          "actualEnd": 986.625709,
+          "timeDifference": 6.000958999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Waiting on God’s Timing and Trusting the Process",
+          "expectedStart": 980.62,
+          "expectedEnd": 1159.19,
+          "actualStart": 988.125709,
+          "actualEnd": 1166.690792,
+          "timeDifference": 7.505709000000024
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Honest Communication and Emotional Safety",
+          "expectedStart": 1159.19,
+          "expectedEnd": 1326.29,
+          "actualStart": 1168.190792,
+          "actualEnd": 1335.2943750000002,
+          "timeDifference": 9.000792000000047
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Discernment—Making Wise Choices Together",
+          "expectedStart": 1326.29,
+          "expectedEnd": 1476.84,
+          "actualStart": 1336.7943750000002,
+          "actualEnd": 1487.346833,
+          "timeDifference": 10.50437500000021
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Conflict and Embracing Forgiveness",
+          "expectedStart": 1476.84,
+          "expectedEnd": 1641.08,
+          "actualStart": 1488.846833,
+          "actualEnd": 1653.09025,
+          "timeDifference": 12.006833000000142
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Preparing for Engagement and Marriage",
+          "expectedStart": 1641.08,
+          "expectedEnd": 1805.06,
+          "actualStart": 1654.59025,
+          "actualEnd": 1818.574042,
+          "timeDifference": 13.510250000000042
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Out a God-Centered Marriage",
+          "expectedStart": 1805.06,
+          "expectedEnd": 1947.94,
+          "actualStart": 1820.074042,
+          "actualEnd": 1962.958459,
+          "timeDifference": 15.014042000000018
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1947.94,
+          "expectedEnd": 2093.73,
+          "actualStart": 1964.458459,
+          "actualEnd": 2110.245292,
+          "timeDifference": 16.518458999999893
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.01225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Modern Dating and Its Hidden Challenges"
+        },
+        {
+          "startTime": 331.321667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Modern Dating and Its Hidden Challenges and Chapter 2 Understanding Courtship as a Purposeful Alternative"
+        },
+        {
+          "startTime": 566.778667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Courtship as a Purposeful Alternative and Chapter 3 Guarding the Heart—Emotional and Physical Purity"
+        },
+        {
+          "startTime": 755.200959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Guarding the Heart—Emotional and Physical Purity and Chapter 4 The Role of Community, Mentors, and Family in Relationships"
+        },
+        {
+          "startTime": 986.625709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Community, Mentors, and Family in Relationships and Chapter 5 Waiting on God’s Timing and Trusting the Process"
+        },
+        {
+          "startTime": 1166.690792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Waiting on God’s Timing and Trusting the Process and Chapter 6 Cultivating Honest Communication and Emotional Safety"
+        },
+        {
+          "startTime": 1335.2943750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Honest Communication and Emotional Safety and Chapter 7 Discernment—Making Wise Choices Together"
+        },
+        {
+          "startTime": 1487.346833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Discernment—Making Wise Choices Together and Chapter 8 Navigating Conflict and Embracing Forgiveness"
+        },
+        {
+          "startTime": 1653.09025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Conflict and Embracing Forgiveness and Chapter 9 Preparing for Engagement and Marriage"
+        },
+        {
+          "startTime": 1818.574042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Preparing for Engagement and Marriage and Chapter 10 Living Out a God-Centered Marriage"
+        },
+        {
+          "startTime": 1962.958459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Out a God-Centered Marriage and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1172",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T18:44:22.699Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

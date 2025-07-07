@@ -1,0 +1,456 @@
+{
+  "bookId": "1245",
+  "timestamp": "2025-07-07T00:27:53.486Z",
+  "success": false,
+  "processingTime": -1751847783073,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4593,
+    "totalAudioFiles": 12,
+    "totalDuration": 2180.604873
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2180.604873
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1245/optimized_text/1245.md",
+    "fileSize": 637,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "1245.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1245/metadata/1245_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2180.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1245/metadata/1245_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1245/metadata/1245_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1245/1245_complete.wav",
+    "duration": 2180.604875,
+    "fileSize": 104669112,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1245/introduction.wav",
+          "duration": 99.012167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.012167,
+          "startTime": 0,
+          "endTime": 99.012167
+        },
+        {
+          "path": "Audio/output/1245/chapter_01.wav",
+          "duration": 264.888083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Food Choices Shape Our Inner and Outer Worlds",
+          "actualDuration": 264.888083,
+          "startTime": 100.512167,
+          "endTime": 365.40025
+        },
+        {
+          "path": "Audio/output/1245/chapter_02.wav",
+          "duration": 247.883583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Costs of Animal Agriculture",
+          "actualDuration": 247.883583,
+          "startTime": 366.90025,
+          "endTime": 614.783833
+        },
+        {
+          "path": "Audio/output/1245/chapter_03.wav",
+          "duration": 226.846,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cultural Stories and the Normalization of Harm",
+          "actualDuration": 226.846,
+          "startTime": 616.283833,
+          "endTime": 843.129833
+        },
+        {
+          "path": "Audio/output/1245/chapter_04.wav",
+          "duration": 199.128042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Path of Compassion and Nonviolence",
+          "actualDuration": 199.128042,
+          "startTime": 844.629833,
+          "endTime": 1043.757875
+        },
+        {
+          "path": "Audio/output/1245/chapter_05.wav",
+          "duration": 162.1025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Awakening Through Mindful Eating and Gratitude",
+          "actualDuration": 162.1025,
+          "startTime": 1045.257875,
+          "endTime": 1207.360375
+        },
+        {
+          "path": "Audio/output/1245/chapter_06.wav",
+          "duration": 192.111333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Healing the Body, Mind, and Spirit",
+          "actualDuration": 192.111333,
+          "startTime": 1208.860375,
+          "endTime": 1400.971708
+        },
+        {
+          "path": "Audio/output/1245/chapter_07.wav",
+          "duration": 195.139208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Social Currents and Finding Community",
+          "actualDuration": 195.139208,
+          "startTime": 1402.471708,
+          "endTime": 1597.610916
+        },
+        {
+          "path": "Audio/output/1245/chapter_08.wav",
+          "duration": 187.892083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect: Transforming Society and Systems",
+          "actualDuration": 187.892083,
+          "startTime": 1599.110916,
+          "endTime": 1787.002999
+        },
+        {
+          "path": "Audio/output/1245/chapter_09.wav",
+          "duration": 166.966083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing Challenges and Embracing Growth",
+          "actualDuration": 166.966083,
+          "startTime": 1788.502999,
+          "endTime": 1955.469082
+        },
+        {
+          "path": "Audio/output/1245/chapter_10.wav",
+          "duration": 110.306458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the World Peace Diet: Everyday Practice",
+          "actualDuration": 110.306458,
+          "startTime": 1956.969082,
+          "endTime": 2067.27554
+        },
+        {
+          "path": "Audio/output/1245/conclusion.wav",
+          "duration": 128.329333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.329333,
+          "startTime": 2068.77554,
+          "endTime": 2197.104873
+        }
+      ],
+      "totalDuration": 2197.104873,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.01,
+          "actualStart": 0,
+          "actualEnd": 99.012167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Food Choices Shape Our Inner and Outer Worlds",
+          "expectedStart": 99.01,
+          "expectedEnd": 363.9,
+          "actualStart": 100.512167,
+          "actualEnd": 365.40025,
+          "timeDifference": 1.502167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Costs of Animal Agriculture",
+          "expectedStart": 363.9,
+          "expectedEnd": 611.78,
+          "actualStart": 366.90025,
+          "actualEnd": 614.783833,
+          "timeDifference": 3.000250000000051
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cultural Stories and the Normalization of Harm",
+          "expectedStart": 611.78,
+          "expectedEnd": 838.63,
+          "actualStart": 616.283833,
+          "actualEnd": 843.129833,
+          "timeDifference": 4.503832999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Path of Compassion and Nonviolence",
+          "expectedStart": 838.63,
+          "expectedEnd": 1037.76,
+          "actualStart": 844.629833,
+          "actualEnd": 1043.757875,
+          "timeDifference": 5.999832999999967
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Awakening Through Mindful Eating and Gratitude",
+          "expectedStart": 1037.76,
+          "expectedEnd": 1199.86,
+          "actualStart": 1045.257875,
+          "actualEnd": 1207.360375,
+          "timeDifference": 7.497875000000022
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Healing the Body, Mind, and Spirit",
+          "expectedStart": 1199.86,
+          "expectedEnd": 1391.97,
+          "actualStart": 1208.860375,
+          "actualEnd": 1400.971708,
+          "timeDifference": 9.000375000000076
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Social Currents and Finding Community",
+          "expectedStart": 1391.97,
+          "expectedEnd": 1587.11,
+          "actualStart": 1402.471708,
+          "actualEnd": 1597.610916,
+          "timeDifference": 10.501708000000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect: Transforming Society and Systems",
+          "expectedStart": 1587.11,
+          "expectedEnd": 1775,
+          "actualStart": 1599.110916,
+          "actualEnd": 1787.002999,
+          "timeDifference": 12.000916000000188
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing Challenges and Embracing Growth",
+          "expectedStart": 1775,
+          "expectedEnd": 1941.97,
+          "actualStart": 1788.502999,
+          "actualEnd": 1955.469082,
+          "timeDifference": 13.502999000000045
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the World Peace Diet: Everyday Practice",
+          "expectedStart": 1941.97,
+          "expectedEnd": 2052.28,
+          "actualStart": 1956.969082,
+          "actualEnd": 2067.27554,
+          "timeDifference": 14.999082000000044
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2052.28,
+          "expectedEnd": 2180.61,
+          "actualStart": 2068.77554,
+          "actualEnd": 2197.104873,
+          "timeDifference": 16.49553999999989
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.012167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Food Choices Shape Our Inner and Outer Worlds"
+        },
+        {
+          "startTime": 365.40025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Food Choices Shape Our Inner and Outer Worlds and Chapter 2 The Hidden Costs of Animal Agriculture"
+        },
+        {
+          "startTime": 614.783833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Costs of Animal Agriculture and Chapter 3 Cultural Stories and the Normalization of Harm"
+        },
+        {
+          "startTime": 843.129833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cultural Stories and the Normalization of Harm and Chapter 4 The Path of Compassion and Nonviolence"
+        },
+        {
+          "startTime": 1043.757875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Path of Compassion and Nonviolence and Chapter 5 Awakening Through Mindful Eating and Gratitude"
+        },
+        {
+          "startTime": 1207.360375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Awakening Through Mindful Eating and Gratitude and Chapter 6 Healing the Body, Mind, and Spirit"
+        },
+        {
+          "startTime": 1400.971708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Healing the Body, Mind, and Spirit and Chapter 7 Navigating Social Currents and Finding Community"
+        },
+        {
+          "startTime": 1597.610916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Social Currents and Finding Community and Chapter 8 The Ripple Effect: Transforming Society and Systems"
+        },
+        {
+          "startTime": 1787.002999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect: Transforming Society and Systems and Chapter 9 Facing Challenges and Embracing Growth"
+        },
+        {
+          "startTime": 1955.469082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing Challenges and Embracing Growth and Chapter 10 Living the World Peace Diet: Everyday Practice"
+        },
+        {
+          "startTime": 2067.27554,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the World Peace Diet: Everyday Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1245",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:23:04.260Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

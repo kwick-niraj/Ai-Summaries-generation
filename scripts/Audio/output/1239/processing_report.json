@@ -1,0 +1,432 @@
+{
+  "bookId": "1239",
+  "timestamp": "2025-07-06T23:38:40.478Z",
+  "success": false,
+  "processingTime": -1751844549589,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5060,
+    "totalAudioFiles": 12,
+    "totalDuration": 2353.582499
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2353.582499
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1239/optimized_text/1239.md",
+    "fileSize": 705,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "1239.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1239/metadata/1239_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2353.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1239/metadata/1239_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1239/metadata/1239_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1239/1239_complete.wav",
+    "duration": 2353.5825,
+    "fileSize": 112972038,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1239/introduction.wav",
+          "duration": 112.9335,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.9335,
+          "startTime": 0,
+          "endTime": 112.9335
+        },
+        {
+          "path": "Audio/output/1239/chapter_01.wav",
+          "duration": 270.814083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Evolution of Competitive Gaming into a Global Industry",
+          "actualDuration": 270.814083,
+          "startTime": 114.4335,
+          "endTime": 385.24758299999996
+        },
+        {
+          "path": "Audio/output/1239/chapter_02.wav",
+          "duration": 261.666708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mapping the Esports Ecosystem and Its Key Stakeholders",
+          "actualDuration": 261.666708,
+          "startTime": 386.74758299999996,
+          "endTime": 648.414291
+        },
+        {
+          "path": "Audio/output/1239/chapter_03.wav",
+          "duration": 276.639458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Revenue Streams and the Business Model of Esports",
+          "actualDuration": 276.639458,
+          "startTime": 649.914291,
+          "endTime": 926.553749
+        },
+        {
+          "path": "Audio/output/1239/chapter_04.wav",
+          "duration": 223.863625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Brands and Engaging Audiences in Esports",
+          "actualDuration": 223.863625,
+          "startTime": 928.053749,
+          "endTime": 1151.917374
+        },
+        {
+          "path": "Audio/output/1239/chapter_05.wav",
+          "duration": 245.0205,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Organizing and Managing Esports Events",
+          "actualDuration": 245.0205,
+          "startTime": 1153.417374,
+          "endTime": 1398.4378740000002
+        },
+        {
+          "path": "Audio/output/1239/chapter_06.wav",
+          "duration": 231.70875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Monetization Challenges and Sustainable Growth",
+          "actualDuration": 231.70875,
+          "startTime": 1399.9378740000002,
+          "endTime": 1631.6466240000002
+        },
+        {
+          "path": "Audio/output/1239/chapter_07.wav",
+          "duration": 209.135083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Stakeholder Tensions and Industry Governance",
+          "actualDuration": 209.135083,
+          "startTime": 1633.1466240000002,
+          "endTime": 1842.281707
+        },
+        {
+          "path": "Audio/output/1239/chapter_08.wav",
+          "duration": 212.246083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legal, Ethical, and Regulatory Considerations",
+          "actualDuration": 212.246083,
+          "startTime": 1843.781707,
+          "endTime": 2056.02779
+        },
+        {
+          "path": "Audio/output/1239/chapter_10.wav",
+          "duration": 193.454292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future Outlook—Innovation, Risks, and the Road Ahead",
+          "actualDuration": 193.454292,
+          "startTime": 2057.52779,
+          "endTime": 2250.982082
+        },
+        {
+          "path": "Audio/output/1239/conclusion.wav",
+          "duration": 116.100417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.100417,
+          "startTime": 2252.482082,
+          "endTime": 2368.582499
+        }
+      ],
+      "totalDuration": 2368.582499,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.93,
+          "actualStart": 0,
+          "actualEnd": 112.9335,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Evolution of Competitive Gaming into a Global Industry",
+          "expectedStart": 112.93,
+          "expectedEnd": 383.74,
+          "actualStart": 114.4335,
+          "actualEnd": 385.24758299999996,
+          "timeDifference": 1.5034999999999883
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mapping the Esports Ecosystem and Its Key Stakeholders",
+          "expectedStart": 383.74,
+          "expectedEnd": 645.41,
+          "actualStart": 386.74758299999996,
+          "actualEnd": 648.414291,
+          "timeDifference": 3.007582999999954
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Revenue Streams and the Business Model of Esports",
+          "expectedStart": 645.41,
+          "expectedEnd": 922.05,
+          "actualStart": 649.914291,
+          "actualEnd": 926.553749,
+          "timeDifference": 4.50429100000008
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Brands and Engaging Audiences in Esports",
+          "expectedStart": 922.05,
+          "expectedEnd": 1145.91,
+          "actualStart": 928.053749,
+          "actualEnd": 1151.917374,
+          "timeDifference": 6.003749000000084
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Organizing and Managing Esports Events",
+          "expectedStart": 1145.91,
+          "expectedEnd": 1390.93,
+          "actualStart": 1153.417374,
+          "actualEnd": 1398.4378740000002,
+          "timeDifference": 7.507374000000027
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Monetization Challenges and Sustainable Growth",
+          "expectedStart": 1390.93,
+          "expectedEnd": 1622.64,
+          "actualStart": 1399.9378740000002,
+          "actualEnd": 1631.6466240000002,
+          "timeDifference": 9.007874000000129
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Stakeholder Tensions and Industry Governance",
+          "expectedStart": 1622.64,
+          "expectedEnd": 1831.78,
+          "actualStart": 1633.1466240000002,
+          "actualEnd": 1842.281707,
+          "timeDifference": 10.506624000000102
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legal, Ethical, and Regulatory Considerations",
+          "expectedStart": 1831.78,
+          "expectedEnd": 2044.03,
+          "actualStart": 1843.781707,
+          "actualEnd": 2056.02779,
+          "timeDifference": 12.001707000000124
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future Outlook—Innovation, Risks, and the Road Ahead",
+          "expectedStart": 2044.03,
+          "expectedEnd": 2237.48,
+          "actualStart": 2057.52779,
+          "actualEnd": 2250.982082,
+          "timeDifference": 13.497790000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2237.48,
+          "expectedEnd": 2353.58,
+          "actualStart": 2252.482082,
+          "actualEnd": 2368.582499,
+          "timeDifference": 15.002081999999973
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.9335,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Evolution of Competitive Gaming into a Global Industry"
+        },
+        {
+          "startTime": 385.24758299999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Evolution of Competitive Gaming into a Global Industry and Chapter 2 Mapping the Esports Ecosystem and Its Key Stakeholders"
+        },
+        {
+          "startTime": 648.414291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mapping the Esports Ecosystem and Its Key Stakeholders and Chapter 3 Revenue Streams and the Business Model of Esports"
+        },
+        {
+          "startTime": 926.553749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Revenue Streams and the Business Model of Esports and Chapter 4 Building Brands and Engaging Audiences in Esports"
+        },
+        {
+          "startTime": 1151.917374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Brands and Engaging Audiences in Esports and Chapter 5 Organizing and Managing Esports Events"
+        },
+        {
+          "startTime": 1398.4378740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Organizing and Managing Esports Events and Chapter 6 Monetization Challenges and Sustainable Growth"
+        },
+        {
+          "startTime": 1631.6466240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Monetization Challenges and Sustainable Growth and Chapter 7 Navigating Stakeholder Tensions and Industry Governance"
+        },
+        {
+          "startTime": 1842.281707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Stakeholder Tensions and Industry Governance and Chapter 8 Legal, Ethical, and Regulatory Considerations"
+        },
+        {
+          "startTime": 2056.02779,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legal, Ethical, and Regulatory Considerations and Chapter 10 The Future Outlook—Innovation, Risks, and the Road Ahead"
+        },
+        {
+          "startTime": 2250.982082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future Outlook—Innovation, Risks, and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1239",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T23:29:10.769Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

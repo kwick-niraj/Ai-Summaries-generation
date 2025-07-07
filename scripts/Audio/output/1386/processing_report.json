@@ -1,0 +1,432 @@
+{
+  "bookId": "1386",
+  "timestamp": "2025-07-07T12:28:11.780Z",
+  "success": false,
+  "processingTime": -1751890948636,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5519,
+    "totalAudioFiles": 12,
+    "totalDuration": 2304.874667
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2304.874667
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1386/optimized_text/1386.md",
+    "fileSize": 835,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "1386.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1386/metadata/1386_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2304.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1386/metadata/1386_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1386/metadata/1386_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1386/1386_complete.wav",
+    "duration": 2304.874667,
+    "fileSize": 110634062,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1386/introduction.wav",
+          "duration": 96.925958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.925958,
+          "startTime": 0,
+          "endTime": 96.925958
+        },
+        {
+          "path": "Audio/output/1386/chapter_01.wav",
+          "duration": 216.583792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Century Begins—Hopes, Fears, and the Shape of a Continent",
+          "actualDuration": 216.583792,
+          "startTime": 98.425958,
+          "endTime": 315.00975
+        },
+        {
+          "path": "Audio/output/1386/chapter_02.wav",
+          "duration": 233.42375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 War and Its Shadows—Lives Upended by Conflict",
+          "actualDuration": 233.42375,
+          "startTime": 316.50975,
+          "endTime": 549.9335
+        },
+        {
+          "path": "Audio/output/1386/chapter_03.wav",
+          "duration": 253.250583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Between Extremes—Ideologies, Dictators, and the Struggle for Identity",
+          "actualDuration": 253.250583,
+          "startTime": 551.4335,
+          "endTime": 804.684083
+        },
+        {
+          "path": "Audio/output/1386/chapter_05.wav",
+          "duration": 251.117458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Picking Up the Pieces—Reconstruction, Memory, and the Seeds of Unity",
+          "actualDuration": 251.117458,
+          "startTime": 806.184083,
+          "endTime": 1057.301541
+        },
+        {
+          "path": "Audio/output/1386/chapter_06.wav",
+          "duration": 243.415542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Lines Drawn—The Cold War and Everyday Life Behind the Curtain",
+          "actualDuration": 243.415542,
+          "startTime": 1058.801541,
+          "endTime": 1302.217083
+        },
+        {
+          "path": "Audio/output/1386/chapter_07.wav",
+          "duration": 234.140667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cracks in the Wall—Dissent, Hope, and the Winds of Change",
+          "actualDuration": 234.140667,
+          "startTime": 1303.717083,
+          "endTime": 1537.8577500000001
+        },
+        {
+          "path": "Audio/output/1386/chapter_08.wav",
+          "duration": 214.356917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 New Beginnings—Reunification, Transition, and the Price of Freedom",
+          "actualDuration": 214.356917,
+          "startTime": 1539.3577500000001,
+          "endTime": 1753.7146670000002
+        },
+        {
+          "path": "Audio/output/1386/chapter_09.wav",
+          "duration": 227.642292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 A Continent in Motion—Migration, Memory, and the Search for Home",
+          "actualDuration": 227.642292,
+          "startTime": 1755.2146670000002,
+          "endTime": 1982.8569590000002
+        },
+        {
+          "path": "Audio/output/1386/chapter_10.wav",
+          "duration": 207.9525,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Facing the Future—Unity, Uncertainty, and the Ongoing Journey",
+          "actualDuration": 207.9525,
+          "startTime": 1984.3569590000002,
+          "endTime": 2192.309459
+        },
+        {
+          "path": "Audio/output/1386/conclusion.wav",
+          "duration": 126.065208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.065208,
+          "startTime": 2193.809459,
+          "endTime": 2319.874667
+        }
+      ],
+      "totalDuration": 2319.874667,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.93,
+          "actualStart": 0,
+          "actualEnd": 96.925958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Century Begins—Hopes, Fears, and the Shape of a Continent",
+          "expectedStart": 96.93,
+          "expectedEnd": 313.51,
+          "actualStart": 98.425958,
+          "actualEnd": 315.00975,
+          "timeDifference": 1.4959579999999875
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 War and Its Shadows—Lives Upended by Conflict",
+          "expectedStart": 313.51,
+          "expectedEnd": 546.93,
+          "actualStart": 316.50975,
+          "actualEnd": 549.9335,
+          "timeDifference": 2.999750000000006
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Between Extremes—Ideologies, Dictators, and the Struggle for Identity",
+          "expectedStart": 546.93,
+          "expectedEnd": 800.18,
+          "actualStart": 551.4335,
+          "actualEnd": 804.684083,
+          "timeDifference": 4.503500000000031
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Picking Up the Pieces—Reconstruction, Memory, and the Seeds of Unity",
+          "expectedStart": 800.18,
+          "expectedEnd": 1051.3,
+          "actualStart": 806.184083,
+          "actualEnd": 1057.301541,
+          "timeDifference": 6.004083000000037
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Lines Drawn—The Cold War and Everyday Life Behind the Curtain",
+          "expectedStart": 1051.3,
+          "expectedEnd": 1294.72,
+          "actualStart": 1058.801541,
+          "actualEnd": 1302.217083,
+          "timeDifference": 7.501541000000088
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cracks in the Wall—Dissent, Hope, and the Winds of Change",
+          "expectedStart": 1294.72,
+          "expectedEnd": 1528.86,
+          "actualStart": 1303.717083,
+          "actualEnd": 1537.8577500000001,
+          "timeDifference": 8.997082999999975
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 New Beginnings—Reunification, Transition, and the Price of Freedom",
+          "expectedStart": 1528.86,
+          "expectedEnd": 1743.22,
+          "actualStart": 1539.3577500000001,
+          "actualEnd": 1753.7146670000002,
+          "timeDifference": 10.497750000000224
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 A Continent in Motion—Migration, Memory, and the Search for Home",
+          "expectedStart": 1743.22,
+          "expectedEnd": 1970.86,
+          "actualStart": 1755.2146670000002,
+          "actualEnd": 1982.8569590000002,
+          "timeDifference": 11.994667000000163
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Facing the Future—Unity, Uncertainty, and the Ongoing Journey",
+          "expectedStart": 1970.86,
+          "expectedEnd": 2178.81,
+          "actualStart": 1984.3569590000002,
+          "actualEnd": 2192.309459,
+          "timeDifference": 13.496959000000288
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2178.81,
+          "expectedEnd": 2304.88,
+          "actualStart": 2193.809459,
+          "actualEnd": 2319.874667,
+          "timeDifference": 14.999459000000115
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.925958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Century Begins—Hopes, Fears, and the Shape of a Continent"
+        },
+        {
+          "startTime": 315.00975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Century Begins—Hopes, Fears, and the Shape of a Continent and Chapter 2 War and Its Shadows—Lives Upended by Conflict"
+        },
+        {
+          "startTime": 549.9335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 War and Its Shadows—Lives Upended by Conflict and Chapter 3 Between Extremes—Ideologies, Dictators, and the Struggle for Identity"
+        },
+        {
+          "startTime": 804.684083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Between Extremes—Ideologies, Dictators, and the Struggle for Identity and Chapter 5 Picking Up the Pieces—Reconstruction, Memory, and the Seeds of Unity"
+        },
+        {
+          "startTime": 1057.301541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Picking Up the Pieces—Reconstruction, Memory, and the Seeds of Unity and Chapter 6 Lines Drawn—The Cold War and Everyday Life Behind the Curtain"
+        },
+        {
+          "startTime": 1302.217083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Lines Drawn—The Cold War and Everyday Life Behind the Curtain and Chapter 7 Cracks in the Wall—Dissent, Hope, and the Winds of Change"
+        },
+        {
+          "startTime": 1537.8577500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cracks in the Wall—Dissent, Hope, and the Winds of Change and Chapter 8 New Beginnings—Reunification, Transition, and the Price of Freedom"
+        },
+        {
+          "startTime": 1753.7146670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 New Beginnings—Reunification, Transition, and the Price of Freedom and Chapter 9 A Continent in Motion—Migration, Memory, and the Search for Home"
+        },
+        {
+          "startTime": 1982.8569590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 A Continent in Motion—Migration, Memory, and the Search for Home and Chapter 10 Facing the Future—Unity, Uncertainty, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2192.309459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Facing the Future—Unity, Uncertainty, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1386",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T12:22:29.776Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

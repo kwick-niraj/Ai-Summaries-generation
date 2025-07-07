@@ -1,0 +1,456 @@
+{
+  "bookId": "1286",
+  "timestamp": "2025-07-07T03:37:36.265Z",
+  "success": false,
+  "processingTime": -1751858842330,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4246,
+    "totalAudioFiles": 12,
+    "totalDuration": 2046.932542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2046.932542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1286/optimized_text/1286.md",
+    "fileSize": 657,
+    "wordCount": 80,
+    "format": "markdown",
+    "filename": "1286.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1286/metadata/1286_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2046.92,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1286/metadata/1286_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1286/metadata/1286_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1286/1286_complete.wav",
+    "duration": 2046.932542,
+    "fileSize": 98252840,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1286/introduction.wav",
+          "duration": 88.9095,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.9095,
+          "startTime": 0,
+          "endTime": 88.9095
+        },
+        {
+          "path": "Audio/output/1286/chapter_01.wav",
+          "duration": 205.472875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Personality Matters in Everyday Life",
+          "actualDuration": 205.472875,
+          "startTime": 90.4095,
+          "endTime": 295.88237499999997
+        },
+        {
+          "path": "Audio/output/1286/chapter_02.wav",
+          "duration": 217.623833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Limits of Personality Frameworks",
+          "actualDuration": 217.623833,
+          "startTime": 297.38237499999997,
+          "endTime": 515.006208
+        },
+        {
+          "path": "Audio/output/1286/chapter_03.wav",
+          "duration": 285.449542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Exploring Major Personality Frameworks",
+          "actualDuration": 285.449542,
+          "startTime": 516.506208,
+          "endTime": 801.9557500000001
+        },
+        {
+          "path": "Audio/output/1286/chapter_04.wav",
+          "duration": 175.3735,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Self-Awareness as the Foundation for Growth",
+          "actualDuration": 175.3735,
+          "startTime": 803.4557500000001,
+          "endTime": 978.8292500000001
+        },
+        {
+          "path": "Audio/output/1286/chapter_05.wav",
+          "duration": 190.233417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Understanding Others: Empathy and Compassion in Action",
+          "actualDuration": 190.233417,
+          "startTime": 980.3292500000001,
+          "endTime": 1170.5626670000001
+        },
+        {
+          "path": "Audio/output/1286/chapter_06.wav",
+          "duration": 177.521375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Applying Personality Insights in Daily Life",
+          "actualDuration": 177.521375,
+          "startTime": 1172.0626670000001,
+          "endTime": 1349.5840420000002
+        },
+        {
+          "path": "Audio/output/1286/chapter_07.wav",
+          "duration": 174.918917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Conflict with Personality Awareness",
+          "actualDuration": 174.918917,
+          "startTime": 1351.0840420000002,
+          "endTime": 1526.0029590000001
+        },
+        {
+          "path": "Audio/output/1286/chapter_08.wav",
+          "duration": 148.898958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Growing Beyond the Frameworks: Flexibility and Change",
+          "actualDuration": 148.898958,
+          "startTime": 1527.5029590000001,
+          "endTime": 1676.4019170000001
+        },
+        {
+          "path": "Audio/output/1286/chapter_09.wav",
+          "duration": 139.787,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Healthy, Lasting Relationships",
+          "actualDuration": 139.787,
+          "startTime": 1677.9019170000001,
+          "endTime": 1817.6889170000002
+        },
+        {
+          "path": "Audio/output/1286/chapter_10.wav",
+          "duration": 124.300208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: Lifelong Curiosity and Compassion",
+          "actualDuration": 124.300208,
+          "startTime": 1819.1889170000002,
+          "endTime": 1943.489125
+        },
+        {
+          "path": "Audio/output/1286/conclusion.wav",
+          "duration": 118.443417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 118.443417,
+          "startTime": 1944.989125,
+          "endTime": 2063.432542
+        }
+      ],
+      "totalDuration": 2063.432542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.91,
+          "actualStart": 0,
+          "actualEnd": 88.9095,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Personality Matters in Everyday Life",
+          "expectedStart": 88.91,
+          "expectedEnd": 294.38,
+          "actualStart": 90.4095,
+          "actualEnd": 295.88237499999997,
+          "timeDifference": 1.4994999999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Limits of Personality Frameworks",
+          "expectedStart": 294.38,
+          "expectedEnd": 512,
+          "actualStart": 297.38237499999997,
+          "actualEnd": 515.006208,
+          "timeDifference": 3.0023749999999723
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Exploring Major Personality Frameworks",
+          "expectedStart": 512,
+          "expectedEnd": 797.45,
+          "actualStart": 516.506208,
+          "actualEnd": 801.9557500000001,
+          "timeDifference": 4.506208000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Self-Awareness as the Foundation for Growth",
+          "expectedStart": 797.45,
+          "expectedEnd": 972.82,
+          "actualStart": 803.4557500000001,
+          "actualEnd": 978.8292500000001,
+          "timeDifference": 6.005750000000035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Understanding Others: Empathy and Compassion in Action",
+          "expectedStart": 972.82,
+          "expectedEnd": 1163.05,
+          "actualStart": 980.3292500000001,
+          "actualEnd": 1170.5626670000001,
+          "timeDifference": 7.5092500000000655
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Applying Personality Insights in Daily Life",
+          "expectedStart": 1163.05,
+          "expectedEnd": 1340.57,
+          "actualStart": 1172.0626670000001,
+          "actualEnd": 1349.5840420000002,
+          "timeDifference": 9.012667000000192
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Conflict with Personality Awareness",
+          "expectedStart": 1340.57,
+          "expectedEnd": 1515.49,
+          "actualStart": 1351.0840420000002,
+          "actualEnd": 1526.0029590000001,
+          "timeDifference": 10.514042000000245
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Growing Beyond the Frameworks: Flexibility and Change",
+          "expectedStart": 1515.49,
+          "expectedEnd": 1664.39,
+          "actualStart": 1527.5029590000001,
+          "actualEnd": 1676.4019170000001,
+          "timeDifference": 12.012959000000137
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Healthy, Lasting Relationships",
+          "expectedStart": 1664.39,
+          "expectedEnd": 1804.18,
+          "actualStart": 1677.9019170000001,
+          "actualEnd": 1817.6889170000002,
+          "timeDifference": 13.51191700000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: Lifelong Curiosity and Compassion",
+          "expectedStart": 1804.18,
+          "expectedEnd": 1928.48,
+          "actualStart": 1819.1889170000002,
+          "actualEnd": 1943.489125,
+          "timeDifference": 15.00891700000011
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1928.48,
+          "expectedEnd": 2046.92,
+          "actualStart": 1944.989125,
+          "actualEnd": 2063.432542,
+          "timeDifference": 16.50912500000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.9095,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Personality Matters in Everyday Life"
+        },
+        {
+          "startTime": 295.88237499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Personality Matters in Everyday Life and Chapter 2 The Power and Limits of Personality Frameworks"
+        },
+        {
+          "startTime": 515.006208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Limits of Personality Frameworks and Chapter 3 Exploring Major Personality Frameworks"
+        },
+        {
+          "startTime": 801.9557500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Exploring Major Personality Frameworks and Chapter 4 Self-Awareness as the Foundation for Growth"
+        },
+        {
+          "startTime": 978.8292500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Self-Awareness as the Foundation for Growth and Chapter 5 Understanding Others: Empathy and Compassion in Action"
+        },
+        {
+          "startTime": 1170.5626670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Understanding Others: Empathy and Compassion in Action and Chapter 6 Applying Personality Insights in Daily Life"
+        },
+        {
+          "startTime": 1349.5840420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Applying Personality Insights in Daily Life and Chapter 7 Navigating Conflict with Personality Awareness"
+        },
+        {
+          "startTime": 1526.0029590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Conflict with Personality Awareness and Chapter 8 Growing Beyond the Frameworks: Flexibility and Change"
+        },
+        {
+          "startTime": 1676.4019170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Growing Beyond the Frameworks: Flexibility and Change and Chapter 9 Building Healthy, Lasting Relationships"
+        },
+        {
+          "startTime": 1817.6889170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Healthy, Lasting Relationships and Chapter 10 Sustaining Growth: Lifelong Curiosity and Compassion"
+        },
+        {
+          "startTime": 1943.489125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: Lifelong Curiosity and Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1286",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T03:27:22.344Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

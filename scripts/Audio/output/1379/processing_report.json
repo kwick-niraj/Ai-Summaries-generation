@@ -1,0 +1,432 @@
+{
+  "bookId": "1379",
+  "timestamp": "2025-07-07T11:44:23.337Z",
+  "success": false,
+  "processingTime": -1751888311070,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4847,
+    "totalAudioFiles": 12,
+    "totalDuration": 1889.782917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1889.782917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1379/optimized_text/1379.md",
+    "fileSize": 875,
+    "wordCount": 136,
+    "format": "markdown",
+    "filename": "1379.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1379/metadata/1379_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1889.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1379/metadata/1379_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1379/metadata/1379_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1379/1379_complete.wav",
+    "duration": 1889.782917,
+    "fileSize": 90709658,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1379/introduction.wav",
+          "duration": 85.540083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.540083,
+          "startTime": 0,
+          "endTime": 85.540083
+        },
+        {
+          "path": "Audio/output/1379/chapter_01.wav",
+          "duration": 199.68575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Holds Its Breath — The Stakes and the Waiting",
+          "actualDuration": 199.68575,
+          "startTime": 87.040083,
+          "endTime": 286.725833
+        },
+        {
+          "path": "Audio/output/1379/chapter_02.wav",
+          "duration": 257.630417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Planning the Impossible — Strategy, Secrecy, and the Burden of Command",
+          "actualDuration": 257.630417,
+          "startTime": 288.225833,
+          "endTime": 545.85625
+        },
+        {
+          "path": "Audio/output/1379/chapter_03.wav",
+          "duration": 200.5045,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Night Before — Paratroopers, Gliders, and the First Steps into Darkness",
+          "actualDuration": 200.5045,
+          "startTime": 547.35625,
+          "endTime": 747.86075
+        },
+        {
+          "path": "Audio/output/1379/chapter_05.wav",
+          "duration": 204.364458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Holding On and Moving Forward — The First Day’s Aftermath",
+          "actualDuration": 204.364458,
+          "startTime": 749.36075,
+          "endTime": 953.7252080000001
+        },
+        {
+          "path": "Audio/output/1379/chapter_06.wav",
+          "duration": 198.043667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Into the Bocage — The Battle for the Hedgerows",
+          "actualDuration": 198.043667,
+          "startTime": 955.2252080000001,
+          "endTime": 1153.268875
+        },
+        {
+          "path": "Audio/output/1379/chapter_07.wav",
+          "duration": 156.612292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Price of Progress — Sacrifice, Loss, and the Weight of Command",
+          "actualDuration": 156.612292,
+          "startTime": 1154.768875,
+          "endTime": 1311.381167
+        },
+        {
+          "path": "Audio/output/1379/chapter_08.wav",
+          "duration": 160.187875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Liberation of Normandy — Civilians, Resistance, and the Joy of Freedom",
+          "actualDuration": 160.187875,
+          "startTime": 1312.881167,
+          "endTime": 1473.069042
+        },
+        {
+          "path": "Audio/output/1379/chapter_09.wav",
+          "duration": 198.975625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Road to Paris — Breakout, Pursuit, and the Collapse of German Resistance",
+          "actualDuration": 198.975625,
+          "startTime": 1474.569042,
+          "endTime": 1673.5446670000001
+        },
+        {
+          "path": "Audio/output/1379/chapter_10.wav",
+          "duration": 119.881792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Legacy of D-Day — Memory, Meaning, and the Lessons of Sacrifice",
+          "actualDuration": 119.881792,
+          "startTime": 1675.0446670000001,
+          "endTime": 1794.926459
+        },
+        {
+          "path": "Audio/output/1379/conclusion.wav",
+          "duration": 108.356458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.356458,
+          "startTime": 1796.426459,
+          "endTime": 1904.782917
+        }
+      ],
+      "totalDuration": 1904.782917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.54,
+          "actualStart": 0,
+          "actualEnd": 85.540083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Holds Its Breath — The Stakes and the Waiting",
+          "expectedStart": 85.54,
+          "expectedEnd": 285.23,
+          "actualStart": 87.040083,
+          "actualEnd": 286.725833,
+          "timeDifference": 1.5000829999999894
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Planning the Impossible — Strategy, Secrecy, and the Burden of Command",
+          "expectedStart": 285.23,
+          "expectedEnd": 542.86,
+          "actualStart": 288.225833,
+          "actualEnd": 545.85625,
+          "timeDifference": 2.9958330000000046
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Night Before — Paratroopers, Gliders, and the First Steps into Darkness",
+          "expectedStart": 542.86,
+          "expectedEnd": 743.36,
+          "actualStart": 547.35625,
+          "actualEnd": 747.86075,
+          "timeDifference": 4.496250000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Holding On and Moving Forward — The First Day’s Aftermath",
+          "expectedStart": 743.36,
+          "expectedEnd": 947.72,
+          "actualStart": 749.36075,
+          "actualEnd": 953.7252080000001,
+          "timeDifference": 6.000750000000039
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Into the Bocage — The Battle for the Hedgerows",
+          "expectedStart": 947.72,
+          "expectedEnd": 1145.76,
+          "actualStart": 955.2252080000001,
+          "actualEnd": 1153.268875,
+          "timeDifference": 7.505208000000039
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Price of Progress — Sacrifice, Loss, and the Weight of Command",
+          "expectedStart": 1145.76,
+          "expectedEnd": 1302.37,
+          "actualStart": 1154.768875,
+          "actualEnd": 1311.381167,
+          "timeDifference": 9.008874999999989
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Liberation of Normandy — Civilians, Resistance, and the Joy of Freedom",
+          "expectedStart": 1302.37,
+          "expectedEnd": 1462.56,
+          "actualStart": 1312.881167,
+          "actualEnd": 1473.069042,
+          "timeDifference": 10.511167000000114
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Road to Paris — Breakout, Pursuit, and the Collapse of German Resistance",
+          "expectedStart": 1462.56,
+          "expectedEnd": 1661.54,
+          "actualStart": 1474.569042,
+          "actualEnd": 1673.5446670000001,
+          "timeDifference": 12.009042000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Legacy of D-Day — Memory, Meaning, and the Lessons of Sacrifice",
+          "expectedStart": 1661.54,
+          "expectedEnd": 1781.42,
+          "actualStart": 1675.0446670000001,
+          "actualEnd": 1794.926459,
+          "timeDifference": 13.504667000000154
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1781.42,
+          "expectedEnd": 1889.78,
+          "actualStart": 1796.426459,
+          "actualEnd": 1904.782917,
+          "timeDifference": 15.00645899999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.540083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Holds Its Breath — The Stakes and the Waiting"
+        },
+        {
+          "startTime": 286.725833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Holds Its Breath — The Stakes and the Waiting and Chapter 2 Planning the Impossible — Strategy, Secrecy, and the Burden of Command"
+        },
+        {
+          "startTime": 545.85625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Planning the Impossible — Strategy, Secrecy, and the Burden of Command and Chapter 3 The Night Before — Paratroopers, Gliders, and the First Steps into Darkness"
+        },
+        {
+          "startTime": 747.86075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Night Before — Paratroopers, Gliders, and the First Steps into Darkness and Chapter 5 Holding On and Moving Forward — The First Day’s Aftermath"
+        },
+        {
+          "startTime": 953.7252080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Holding On and Moving Forward — The First Day’s Aftermath and Chapter 6 Into the Bocage — The Battle for the Hedgerows"
+        },
+        {
+          "startTime": 1153.268875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Into the Bocage — The Battle for the Hedgerows and Chapter 7 The Price of Progress — Sacrifice, Loss, and the Weight of Command"
+        },
+        {
+          "startTime": 1311.381167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Price of Progress — Sacrifice, Loss, and the Weight of Command and Chapter 8 The Liberation of Normandy — Civilians, Resistance, and the Joy of Freedom"
+        },
+        {
+          "startTime": 1473.069042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Liberation of Normandy — Civilians, Resistance, and the Joy of Freedom and Chapter 9 The Road to Paris — Breakout, Pursuit, and the Collapse of German Resistance"
+        },
+        {
+          "startTime": 1673.5446670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Road to Paris — Breakout, Pursuit, and the Collapse of German Resistance and Chapter 10 The Legacy of D-Day — Memory, Meaning, and the Lessons of Sacrifice"
+        },
+        {
+          "startTime": 1794.926459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Legacy of D-Day — Memory, Meaning, and the Lessons of Sacrifice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1379",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T11:38:32.362Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "bookId": "1329",
+  "timestamp": "2025-07-07T07:12:13.559Z",
+  "success": false,
+  "processingTime": -1751871620277,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5571,
+    "totalAudioFiles": 16,
+    "totalDuration": 2988.046581
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2988.046581
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1329/optimized_text/1329.md",
+    "fileSize": 926,
+    "wordCount": 129,
+    "format": "markdown",
+    "filename": "1329.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1329/metadata/1329_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2988.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1329/metadata/1329_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1329/metadata/1329_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1329/1329_complete.wav",
+    "duration": 2988.046583,
+    "fileSize": 143426314,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1329/introduction.wav",
+          "duration": 116.257875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.257875,
+          "startTime": 0,
+          "endTime": 116.257875
+        },
+        {
+          "path": "Audio/output/1329/chapter_01.wav",
+          "duration": 254.546583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Living in a World of Images and Appearances",
+          "actualDuration": 254.546583,
+          "startTime": 117.757875,
+          "endTime": 372.304458
+        },
+        {
+          "path": "Audio/output/1329/chapter_02.wav",
+          "duration": 259.197333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Commodities Shape Social Life",
+          "actualDuration": 259.197333,
+          "startTime": 373.804458,
+          "endTime": 633.001791
+        },
+        {
+          "path": "Audio/output/1329/chapter_03.wav",
+          "duration": 245.579833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Spectacle’s Power to Distract and Pacify",
+          "actualDuration": 245.579833,
+          "startTime": 634.501791,
+          "endTime": 880.081624
+        },
+        {
+          "path": "Audio/output/1329/chapter_04.wav",
+          "duration": 247.827208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Loss of Authentic Experience and the Search for Meaning",
+          "actualDuration": 247.827208,
+          "startTime": 881.581624,
+          "endTime": 1129.408832
+        },
+        {
+          "path": "Audio/output/1329/chapter_05.wav",
+          "duration": 246.505208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Spectacle’s Grip on History and Revolution",
+          "actualDuration": 246.505208,
+          "startTime": 1130.908832,
+          "endTime": 1377.41404
+        },
+        {
+          "path": "Audio/output/1329/chapter_06.wav",
+          "duration": 189.474208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Spectacle’s Quiet Colonization of Everyday Consciousness",
+          "actualDuration": 189.474208,
+          "startTime": 1378.91404,
+          "endTime": 1568.3882480000002
+        },
+        {
+          "path": "Audio/output/1329/chapter_07.wav",
+          "duration": 208.404417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Manufactured Unity and Isolation of Modern Society",
+          "actualDuration": 208.404417,
+          "startTime": 1569.8882480000002,
+          "endTime": 1778.2926650000002
+        },
+        {
+          "path": "Audio/output/1329/chapter_08.wav",
+          "duration": 188.300208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Spectacle’s Role in Shaping Desire and Consumption",
+          "actualDuration": 188.300208,
+          "startTime": 1779.7926650000002,
+          "endTime": 1968.092873
+        },
+        {
+          "path": "Audio/output/1329/chapter_09.wav",
+          "duration": 170.580958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Spectacle and the Fragmentation of Time",
+          "actualDuration": 170.580958,
+          "startTime": 1969.592873,
+          "endTime": 2140.173831
+        },
+        {
+          "path": "Audio/output/1329/chapter_10.wav",
+          "duration": 176.684625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Spectacle’s Influence on Work and Labor",
+          "actualDuration": 176.684625,
+          "startTime": 2141.673831,
+          "endTime": 2318.358456
+        },
+        {
+          "path": "Audio/output/1329/chapter_11.wav",
+          "duration": 149.629625,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Spectacle and the Crisis of Truth",
+          "actualDuration": 149.629625,
+          "startTime": 2319.858456,
+          "endTime": 2469.488081
+        },
+        {
+          "path": "Audio/output/1329/chapter_12.wav",
+          "duration": 133.321708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Spectacle’s Impact on Art and Creativity",
+          "actualDuration": 133.321708,
+          "startTime": 2470.988081,
+          "endTime": 2604.309789
+        },
+        {
+          "path": "Audio/output/1329/chapter_13.wav",
+          "duration": 136.822542,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Spectacle and the Possibility of Resistance",
+          "actualDuration": 136.822542,
+          "startTime": 2605.809789,
+          "endTime": 2742.632331
+        },
+        {
+          "path": "Audio/output/1329/chapter_14.wav",
+          "duration": 107.181292,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Reclaiming Authentic Social Life",
+          "actualDuration": 107.181292,
+          "startTime": 2744.132331,
+          "endTime": 2851.313623
+        },
+        {
+          "path": "Audio/output/1329/conclusion.wav",
+          "duration": 157.732958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 157.732958,
+          "startTime": 2852.813623,
+          "endTime": 3010.546581
+        }
+      ],
+      "totalDuration": 3010.546581,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.26,
+          "actualStart": 0,
+          "actualEnd": 116.257875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Living in a World of Images and Appearances",
+          "expectedStart": 116.26,
+          "expectedEnd": 370.81,
+          "actualStart": 117.757875,
+          "actualEnd": 372.304458,
+          "timeDifference": 1.4978749999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Commodities Shape Social Life",
+          "expectedStart": 370.81,
+          "expectedEnd": 630.01,
+          "actualStart": 373.804458,
+          "actualEnd": 633.001791,
+          "timeDifference": 2.9944580000000087
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Spectacle’s Power to Distract and Pacify",
+          "expectedStart": 630.01,
+          "expectedEnd": 875.59,
+          "actualStart": 634.501791,
+          "actualEnd": 880.081624,
+          "timeDifference": 4.491791000000035
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Loss of Authentic Experience and the Search for Meaning",
+          "expectedStart": 875.59,
+          "expectedEnd": 1123.42,
+          "actualStart": 881.581624,
+          "actualEnd": 1129.408832,
+          "timeDifference": 5.991624000000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Spectacle’s Grip on History and Revolution",
+          "expectedStart": 1123.42,
+          "expectedEnd": 1369.93,
+          "actualStart": 1130.908832,
+          "actualEnd": 1377.41404,
+          "timeDifference": 7.488832000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Spectacle’s Quiet Colonization of Everyday Consciousness",
+          "expectedStart": 1369.93,
+          "expectedEnd": 1559.4,
+          "actualStart": 1378.91404,
+          "actualEnd": 1568.3882480000002,
+          "timeDifference": 8.98404000000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Manufactured Unity and Isolation of Modern Society",
+          "expectedStart": 1559.4,
+          "expectedEnd": 1767.8,
+          "actualStart": 1569.8882480000002,
+          "actualEnd": 1778.2926650000002,
+          "timeDifference": 10.488248000000112
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Spectacle’s Role in Shaping Desire and Consumption",
+          "expectedStart": 1767.8,
+          "expectedEnd": 1956.1,
+          "actualStart": 1779.7926650000002,
+          "actualEnd": 1968.092873,
+          "timeDifference": 11.992665000000216
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Spectacle and the Fragmentation of Time",
+          "expectedStart": 1956.1,
+          "expectedEnd": 2126.68,
+          "actualStart": 1969.592873,
+          "actualEnd": 2140.173831,
+          "timeDifference": 13.492873000000145
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Spectacle’s Influence on Work and Labor",
+          "expectedStart": 2126.68,
+          "expectedEnd": 2303.36,
+          "actualStart": 2141.673831,
+          "actualEnd": 2318.358456,
+          "timeDifference": 14.993831000000228
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Spectacle and the Crisis of Truth",
+          "expectedStart": 2303.36,
+          "expectedEnd": 2452.99,
+          "actualStart": 2319.858456,
+          "actualEnd": 2469.488081,
+          "timeDifference": 16.498455999999805
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Spectacle’s Impact on Art and Creativity",
+          "expectedStart": 2452.99,
+          "expectedEnd": 2586.31,
+          "actualStart": 2470.988081,
+          "actualEnd": 2604.309789,
+          "timeDifference": 17.998081000000184
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Spectacle and the Possibility of Resistance",
+          "expectedStart": 2586.31,
+          "expectedEnd": 2723.13,
+          "actualStart": 2605.809789,
+          "actualEnd": 2742.632331,
+          "timeDifference": 19.499788999999964
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Reclaiming Authentic Social Life",
+          "expectedStart": 2723.13,
+          "expectedEnd": 2830.31,
+          "actualStart": 2744.132331,
+          "actualEnd": 2851.313623,
+          "timeDifference": 21.002330999999685
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2830.31,
+          "expectedEnd": 2988.04,
+          "actualStart": 2852.813623,
+          "actualEnd": 3010.546581,
+          "timeDifference": 22.50362300000006
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.257875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Living in a World of Images and Appearances"
+        },
+        {
+          "startTime": 372.304458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Living in a World of Images and Appearances and Chapter 2 How Commodities Shape Social Life"
+        },
+        {
+          "startTime": 633.001791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Commodities Shape Social Life and Chapter 3 The Spectacle’s Power to Distract and Pacify"
+        },
+        {
+          "startTime": 880.081624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Spectacle’s Power to Distract and Pacify and Chapter 4 The Loss of Authentic Experience and the Search for Meaning"
+        },
+        {
+          "startTime": 1129.408832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Loss of Authentic Experience and the Search for Meaning and Chapter 5 The Spectacle’s Grip on History and Revolution"
+        },
+        {
+          "startTime": 1377.41404,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Spectacle’s Grip on History and Revolution and Chapter 6 The Spectacle’s Quiet Colonization of Everyday Consciousness"
+        },
+        {
+          "startTime": 1568.3882480000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Spectacle’s Quiet Colonization of Everyday Consciousness and Chapter 7 The Manufactured Unity and Isolation of Modern Society"
+        },
+        {
+          "startTime": 1778.2926650000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Manufactured Unity and Isolation of Modern Society and Chapter 8 The Spectacle’s Role in Shaping Desire and Consumption"
+        },
+        {
+          "startTime": 1968.092873,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Spectacle’s Role in Shaping Desire and Consumption and Chapter 9 The Spectacle and the Fragmentation of Time"
+        },
+        {
+          "startTime": 2140.173831,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Spectacle and the Fragmentation of Time and Chapter 10 The Spectacle’s Influence on Work and Labor"
+        },
+        {
+          "startTime": 2318.358456,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Spectacle’s Influence on Work and Labor and Chapter 11 The Spectacle and the Crisis of Truth"
+        },
+        {
+          "startTime": 2469.488081,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Spectacle and the Crisis of Truth and Chapter 12 The Spectacle’s Impact on Art and Creativity"
+        },
+        {
+          "startTime": 2604.309789,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Spectacle’s Impact on Art and Creativity and Chapter 13 The Spectacle and the Possibility of Resistance"
+        },
+        {
+          "startTime": 2742.632331,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Spectacle and the Possibility of Resistance and Chapter 14 Reclaiming Authentic Social Life"
+        },
+        {
+          "startTime": 2851.313623,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Reclaiming Authentic Social Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1329",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T07:00:21.447Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

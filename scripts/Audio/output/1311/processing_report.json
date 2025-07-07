@@ -1,0 +1,455 @@
+{
+  "bookId": "1311",
+  "timestamp": "2025-07-07T05:17:23.765Z",
+  "success": false,
+  "processingTime": -1751865063637,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3948,
+    "totalAudioFiles": 12,
+    "totalDuration": 1948.868539
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1948.868539
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1311/optimized_text/1311.md",
+    "fileSize": 758,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1311.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1311/metadata/1311_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1948.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1311/metadata/1311_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1311/metadata/1311_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1311/1311_complete.wav",
+    "duration": 1948.868542,
+    "fileSize": 93545768,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1311/introduction.wav",
+          "duration": 83.850833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.850833,
+          "startTime": 0,
+          "endTime": 83.850833
+        },
+        {
+          "path": "Audio/output/1311/chapter_01.wav",
+          "duration": 220.952917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Battle for Faith and Identity",
+          "actualDuration": 220.952917,
+          "startTime": 85.350833,
+          "endTime": 306.30375000000004
+        },
+        {
+          "path": "Audio/output/1311/chapter_02.wav",
+          "duration": 198.208708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Spiritual Authority and the Power of Choice",
+          "actualDuration": 198.208708,
+          "startTime": 307.80375000000004,
+          "endTime": 506.01245800000004
+        },
+        {
+          "path": "Audio/output/1311/chapter_03.wav",
+          "duration": 205.534458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Healing Wounds and Restoring Relationships through Faith",
+          "actualDuration": 205.534458,
+          "startTime": 507.51245800000004,
+          "endTime": 713.046916
+        },
+        {
+          "path": "Audio/output/1311/chapter_04.wav",
+          "duration": 184.681958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reclaiming Personal Identity and Purpose in Christ",
+          "actualDuration": 184.681958,
+          "startTime": 714.546916,
+          "endTime": 899.228874
+        },
+        {
+          "path": "Audio/output/1311/chapter_05.wav",
+          "duration": 192.460583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Taking Practical Steps to Reclaim Faith, Family, and Future",
+          "actualDuration": 192.460583,
+          "startTime": 900.728874,
+          "endTime": 1093.189457
+        },
+        {
+          "path": "Audio/output/1311/chapter_06.wav",
+          "duration": 167.198458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Spiritual Resilience in Everyday Life",
+          "actualDuration": 167.198458,
+          "startTime": 1094.689457,
+          "endTime": 1261.887915
+        },
+        {
+          "path": "Audio/output/1311/chapter_07.wav",
+          "duration": 145.41975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Guarding the Mind—Renewing Thought Patterns for Lasting Change",
+          "actualDuration": 145.41975,
+          "startTime": 1263.387915,
+          "endTime": 1408.807665
+        },
+        {
+          "path": "Audio/output/1311/chapter_08.wav",
+          "duration": 145.772208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and Embracing Grace",
+          "actualDuration": 145.772208,
+          "startTime": 1410.307665,
+          "endTime": 1556.0798730000001
+        },
+        {
+          "path": "Audio/output/1311/chapter_09.wav",
+          "duration": 142.197833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Transformation—Building a Life of Ongoing Renewal",
+          "actualDuration": 142.197833,
+          "startTime": 1557.5798730000001,
+          "endTime": 1699.777706
+        },
+        {
+          "path": "Audio/output/1311/chapter_10.wav",
+          "duration": 136.734,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Out Spiritual Authority—Empowering Others and Creating Lasting Impact",
+          "actualDuration": 136.734,
+          "startTime": 1701.277706,
+          "endTime": 1838.011706
+        },
+        {
+          "path": "Audio/output/1311/conclusion.wav",
+          "duration": 125.856833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.856833,
+          "startTime": 1839.511706,
+          "endTime": 1965.368539
+        }
+      ],
+      "totalDuration": 1965.368539,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.85,
+          "actualStart": 0,
+          "actualEnd": 83.850833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Battle for Faith and Identity",
+          "expectedStart": 83.85,
+          "expectedEnd": 304.8,
+          "actualStart": 85.350833,
+          "actualEnd": 306.30375000000004,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Spiritual Authority and the Power of Choice",
+          "expectedStart": 304.8,
+          "expectedEnd": 503.01,
+          "actualStart": 307.80375000000004,
+          "actualEnd": 506.01245800000004,
+          "timeDifference": 3.003750000000025
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Healing Wounds and Restoring Relationships through Faith",
+          "expectedStart": 503.01,
+          "expectedEnd": 708.54,
+          "actualStart": 507.51245800000004,
+          "actualEnd": 713.046916,
+          "timeDifference": 4.502458000000047
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reclaiming Personal Identity and Purpose in Christ",
+          "expectedStart": 708.54,
+          "expectedEnd": 893.22,
+          "actualStart": 714.546916,
+          "actualEnd": 899.228874,
+          "timeDifference": 6.0069160000000466
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Taking Practical Steps to Reclaim Faith, Family, and Future",
+          "expectedStart": 893.22,
+          "expectedEnd": 1085.68,
+          "actualStart": 900.728874,
+          "actualEnd": 1093.189457,
+          "timeDifference": 7.508873999999992
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Spiritual Resilience in Everyday Life",
+          "expectedStart": 1085.68,
+          "expectedEnd": 1252.88,
+          "actualStart": 1094.689457,
+          "actualEnd": 1261.887915,
+          "timeDifference": 9.009456999999884
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Guarding the Mind—Renewing Thought Patterns for Lasting Change",
+          "expectedStart": 1252.88,
+          "expectedEnd": 1398.3,
+          "actualStart": 1263.387915,
+          "actualEnd": 1408.807665,
+          "timeDifference": 10.507914999999912
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and Embracing Grace",
+          "expectedStart": 1398.3,
+          "expectedEnd": 1544.07,
+          "actualStart": 1410.307665,
+          "actualEnd": 1556.0798730000001,
+          "timeDifference": 12.007665000000088
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Transformation—Building a Life of Ongoing Renewal",
+          "expectedStart": 1544.07,
+          "expectedEnd": 1686.27,
+          "actualStart": 1557.5798730000001,
+          "actualEnd": 1699.777706,
+          "timeDifference": 13.509873000000198
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Out Spiritual Authority—Empowering Others and Creating Lasting Impact",
+          "expectedStart": 1686.27,
+          "expectedEnd": 1823,
+          "actualStart": 1701.277706,
+          "actualEnd": 1838.011706,
+          "timeDifference": 15.007706000000098
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823,
+          "expectedEnd": 1948.86,
+          "actualStart": 1839.511706,
+          "actualEnd": 1965.368539,
+          "timeDifference": 16.511706000000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.850833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Battle for Faith and Identity"
+        },
+        {
+          "startTime": 306.30375000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Battle for Faith and Identity and Chapter 2 Embracing Spiritual Authority and the Power of Choice"
+        },
+        {
+          "startTime": 506.01245800000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Spiritual Authority and the Power of Choice and Chapter 3 Healing Wounds and Restoring Relationships through Faith"
+        },
+        {
+          "startTime": 713.046916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Healing Wounds and Restoring Relationships through Faith and Chapter 4 Reclaiming Personal Identity and Purpose in Christ"
+        },
+        {
+          "startTime": 899.228874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reclaiming Personal Identity and Purpose in Christ and Chapter 5 Taking Practical Steps to Reclaim Faith, Family, and Future"
+        },
+        {
+          "startTime": 1093.189457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Taking Practical Steps to Reclaim Faith, Family, and Future and Chapter 6 Cultivating Spiritual Resilience in Everyday Life"
+        },
+        {
+          "startTime": 1261.887915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Spiritual Resilience in Everyday Life and Chapter 7 Guarding the Mind—Renewing Thought Patterns for Lasting Change"
+        },
+        {
+          "startTime": 1408.807665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Guarding the Mind—Renewing Thought Patterns for Lasting Change and Chapter 8 Navigating Setbacks and Embracing Grace"
+        },
+        {
+          "startTime": 1556.0798730000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and Embracing Grace and Chapter 9 Sustaining Transformation—Building a Life of Ongoing Renewal"
+        },
+        {
+          "startTime": 1699.777706,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Transformation—Building a Life of Ongoing Renewal and Chapter 10 Living Out Spiritual Authority—Empowering Others and Creating Lasting Impact"
+        },
+        {
+          "startTime": 1838.011706,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Out Spiritual Authority—Empowering Others and Creating Lasting Impact and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1311",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T05:11:05.129Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

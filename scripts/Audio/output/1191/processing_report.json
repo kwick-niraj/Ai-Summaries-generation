@@ -1,0 +1,551 @@
+{
+  "bookId": "1191",
+  "timestamp": "2025-07-06T20:22:40.387Z",
+  "success": false,
+  "processingTime": -1751832622526,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 6551,
+    "totalAudioFiles": 16,
+    "totalDuration": 2597.3066670000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2597.3066670000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1191/optimized_text/1191.md",
+    "fileSize": 842,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1191.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1191/metadata/1191_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2597.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1191/metadata/1191_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1191/metadata/1191_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1191/1191_complete.wav",
+    "duration": 2597.306667,
+    "fileSize": 124670798,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1191/introduction.wav",
+          "duration": 77.873292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.873292,
+          "startTime": 0,
+          "endTime": 77.873292
+        },
+        {
+          "path": "Audio/output/1191/chapter_01.wav",
+          "duration": 202.413833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Loss Shapes the Way We See the World",
+          "actualDuration": 202.413833,
+          "startTime": 79.373292,
+          "endTime": 281.787125
+        },
+        {
+          "path": "Audio/output/1191/chapter_02.wav",
+          "duration": 212.206417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Practice of Noticing Small Blessings",
+          "actualDuration": 212.206417,
+          "startTime": 283.287125,
+          "endTime": 495.493542
+        },
+        {
+          "path": "Audio/output/1191/chapter_03.wav",
+          "duration": 199.739292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Gratitude as a Path Through Suffering",
+          "actualDuration": 199.739292,
+          "startTime": 496.993542,
+          "endTime": 696.732834
+        },
+        {
+          "path": "Audio/output/1191/chapter_04.wav",
+          "duration": 195.115333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Slowing Down to Experience Presence and Grace",
+          "actualDuration": 195.115333,
+          "startTime": 698.232834,
+          "endTime": 893.348167
+        },
+        {
+          "path": "Audio/output/1191/chapter_05.wav",
+          "duration": 209.050042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Joy in the Ordinary and the Difficult",
+          "actualDuration": 209.050042,
+          "startTime": 894.848167,
+          "endTime": 1103.898209
+        },
+        {
+          "path": "Audio/output/1191/chapter_06.wav",
+          "duration": 191.894667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courage to Receive and the Humility to Accept",
+          "actualDuration": 191.894667,
+          "startTime": 1105.398209,
+          "endTime": 1297.292876
+        },
+        {
+          "path": "Audio/output/1191/chapter_07.wav",
+          "duration": 156.008375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Eucharisteo—The Heart of Thankfulness",
+          "actualDuration": 156.008375,
+          "startTime": 1298.792876,
+          "endTime": 1454.8012509999999
+        },
+        {
+          "path": "Audio/output/1191/chapter_08.wav",
+          "duration": 161.633292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Transforming Power of Brokenness",
+          "actualDuration": 161.633292,
+          "startTime": 1456.3012509999999,
+          "endTime": 1617.9345429999998
+        },
+        {
+          "path": "Audio/output/1191/chapter_09.wav",
+          "duration": 161.8215,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living Fully in the Present",
+          "actualDuration": 161.8215,
+          "startTime": 1619.4345429999998,
+          "endTime": 1781.2560429999999
+        },
+        {
+          "path": "Audio/output/1191/chapter_10.wav",
+          "duration": 149.48125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect—How Gratitude Changes Relationships",
+          "actualDuration": 149.48125,
+          "startTime": 1782.7560429999999,
+          "endTime": 1932.237293
+        },
+        {
+          "path": "Audio/output/1191/chapter_11.wav",
+          "duration": 143.261208,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Challenge of Trusting in the Midst of Uncertainty",
+          "actualDuration": 143.261208,
+          "startTime": 1933.737293,
+          "endTime": 2076.998501
+        },
+        {
+          "path": "Audio/output/1191/chapter_12.wav",
+          "duration": 139.307083,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Gift of Enough",
+          "actualDuration": 139.307083,
+          "startTime": 2078.498501,
+          "endTime": 2217.805584
+        },
+        {
+          "path": "Audio/output/1191/chapter_13.wav",
+          "duration": 130.871542,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Gratitude as a Way of Seeing God",
+          "actualDuration": 130.871542,
+          "startTime": 2219.305584,
+          "endTime": 2350.177126
+        },
+        {
+          "path": "Audio/output/1191/chapter_14.wav",
+          "duration": 128.878208,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Ongoing Journey—Choosing Gratitude Every Day",
+          "actualDuration": 128.878208,
+          "startTime": 2351.677126,
+          "endTime": 2480.555334
+        },
+        {
+          "path": "Audio/output/1191/conclusion.wav",
+          "duration": 137.751333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.751333,
+          "startTime": 2482.055334,
+          "endTime": 2619.8066670000003
+        }
+      ],
+      "totalDuration": 2619.8066670000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.87,
+          "actualStart": 0,
+          "actualEnd": 77.873292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Loss Shapes the Way We See the World",
+          "expectedStart": 77.87,
+          "expectedEnd": 280.28,
+          "actualStart": 79.373292,
+          "actualEnd": 281.787125,
+          "timeDifference": 1.5032920000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Practice of Noticing Small Blessings",
+          "expectedStart": 280.28,
+          "expectedEnd": 492.49,
+          "actualStart": 283.287125,
+          "actualEnd": 495.493542,
+          "timeDifference": 3.0071250000000305
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Gratitude as a Path Through Suffering",
+          "expectedStart": 492.49,
+          "expectedEnd": 692.23,
+          "actualStart": 496.993542,
+          "actualEnd": 696.732834,
+          "timeDifference": 4.503541999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Slowing Down to Experience Presence and Grace",
+          "expectedStart": 692.23,
+          "expectedEnd": 887.35,
+          "actualStart": 698.232834,
+          "actualEnd": 893.348167,
+          "timeDifference": 6.002834000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Joy in the Ordinary and the Difficult",
+          "expectedStart": 887.35,
+          "expectedEnd": 1096.4,
+          "actualStart": 894.848167,
+          "actualEnd": 1103.898209,
+          "timeDifference": 7.498166999999967
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courage to Receive and the Humility to Accept",
+          "expectedStart": 1096.4,
+          "expectedEnd": 1288.29,
+          "actualStart": 1105.398209,
+          "actualEnd": 1297.292876,
+          "timeDifference": 8.99820899999986
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Eucharisteo—The Heart of Thankfulness",
+          "expectedStart": 1288.29,
+          "expectedEnd": 1444.3,
+          "actualStart": 1298.792876,
+          "actualEnd": 1454.8012509999999,
+          "timeDifference": 10.502876000000015
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Transforming Power of Brokenness",
+          "expectedStart": 1444.3,
+          "expectedEnd": 1605.93,
+          "actualStart": 1456.3012509999999,
+          "actualEnd": 1617.9345429999998,
+          "timeDifference": 12.001250999999911
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living Fully in the Present",
+          "expectedStart": 1605.93,
+          "expectedEnd": 1767.75,
+          "actualStart": 1619.4345429999998,
+          "actualEnd": 1781.2560429999999,
+          "timeDifference": 13.504542999999785
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect—How Gratitude Changes Relationships",
+          "expectedStart": 1767.75,
+          "expectedEnd": 1917.23,
+          "actualStart": 1782.7560429999999,
+          "actualEnd": 1932.237293,
+          "timeDifference": 15.006042999999863
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Challenge of Trusting in the Midst of Uncertainty",
+          "expectedStart": 1917.23,
+          "expectedEnd": 2060.49,
+          "actualStart": 1933.737293,
+          "actualEnd": 2076.998501,
+          "timeDifference": 16.50729299999989
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Gift of Enough",
+          "expectedStart": 2060.49,
+          "expectedEnd": 2199.8,
+          "actualStart": 2078.498501,
+          "actualEnd": 2217.805584,
+          "timeDifference": 18.00850100000025
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Gratitude as a Way of Seeing God",
+          "expectedStart": 2199.8,
+          "expectedEnd": 2330.67,
+          "actualStart": 2219.305584,
+          "actualEnd": 2350.177126,
+          "timeDifference": 19.505584
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Ongoing Journey—Choosing Gratitude Every Day",
+          "expectedStart": 2330.67,
+          "expectedEnd": 2459.55,
+          "actualStart": 2351.677126,
+          "actualEnd": 2480.555334,
+          "timeDifference": 21.00712599999997
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2459.55,
+          "expectedEnd": 2597.3,
+          "actualStart": 2482.055334,
+          "actualEnd": 2619.8066670000003,
+          "timeDifference": 22.505333999999948
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.873292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Loss Shapes the Way We See the World"
+        },
+        {
+          "startTime": 281.787125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Loss Shapes the Way We See the World and Chapter 2 The Practice of Noticing Small Blessings"
+        },
+        {
+          "startTime": 495.493542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Practice of Noticing Small Blessings and Chapter 3 Gratitude as a Path Through Suffering"
+        },
+        {
+          "startTime": 696.732834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Gratitude as a Path Through Suffering and Chapter 4 Slowing Down to Experience Presence and Grace"
+        },
+        {
+          "startTime": 893.348167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Slowing Down to Experience Presence and Grace and Chapter 5 Finding Joy in the Ordinary and the Difficult"
+        },
+        {
+          "startTime": 1103.898209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Joy in the Ordinary and the Difficult and Chapter 6 The Courage to Receive and the Humility to Accept"
+        },
+        {
+          "startTime": 1297.292876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courage to Receive and the Humility to Accept and Chapter 7 Eucharisteo—The Heart of Thankfulness"
+        },
+        {
+          "startTime": 1454.8012509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Eucharisteo—The Heart of Thankfulness and Chapter 8 The Transforming Power of Brokenness"
+        },
+        {
+          "startTime": 1617.9345429999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Transforming Power of Brokenness and Chapter 9 Living Fully in the Present"
+        },
+        {
+          "startTime": 1781.2560429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living Fully in the Present and Chapter 10 The Ripple Effect—How Gratitude Changes Relationships"
+        },
+        {
+          "startTime": 1932.237293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect—How Gratitude Changes Relationships and Chapter 11 The Challenge of Trusting in the Midst of Uncertainty"
+        },
+        {
+          "startTime": 2076.998501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Challenge of Trusting in the Midst of Uncertainty and Chapter 12 The Gift of Enough"
+        },
+        {
+          "startTime": 2217.805584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Gift of Enough and Chapter 13 Gratitude as a Way of Seeing God"
+        },
+        {
+          "startTime": 2350.177126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Gratitude as a Way of Seeing God and Chapter 14 The Ongoing Journey—Choosing Gratitude Every Day"
+        },
+        {
+          "startTime": 2480.555334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Ongoing Journey—Choosing Gratitude Every Day and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1191",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T20:10:23.699Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

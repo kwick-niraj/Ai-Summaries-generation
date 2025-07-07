@@ -1,0 +1,455 @@
+{
+  "bookId": "1305",
+  "timestamp": "2025-07-07T05:01:13.516Z",
+  "success": false,
+  "processingTime": -1751864182294,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4061,
+    "totalAudioFiles": 12,
+    "totalDuration": 2097.094583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2097.094583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1305/optimized_text/1305.md",
+    "fileSize": 823,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "1305.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1305/metadata/1305_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2097.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1305/metadata/1305_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1305/metadata/1305_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1305/1305_complete.wav",
+    "duration": 2097.094583,
+    "fileSize": 100660618,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1305/introduction.wav",
+          "duration": 98.387375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.387375,
+          "startTime": 0,
+          "endTime": 98.387375
+        },
+        {
+          "path": "Audio/output/1305/chapter_01.wav",
+          "duration": 211.90525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The New Era: How AI Is Reshaping Digital Marketing Foundations",
+          "actualDuration": 211.90525,
+          "startTime": 99.887375,
+          "endTime": 311.792625
+        },
+        {
+          "path": "Audio/output/1305/chapter_02.wav",
+          "duration": 203.485333,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Personalization at Scale: AI’s Role in Creating Unique Customer Experiences",
+          "actualDuration": 203.485333,
+          "startTime": 313.292625,
+          "endTime": 516.777958
+        },
+        {
+          "path": "Audio/output/1305/chapter_03.wav",
+          "duration": 234.949875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Data-Driven Decisions: Advanced Analytics and Predictive Power",
+          "actualDuration": 234.949875,
+          "startTime": 518.277958,
+          "endTime": 753.227833
+        },
+        {
+          "path": "Audio/output/1305/chapter_04.wav",
+          "duration": 205.20125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Automation and Efficiency: Streamlining Marketing Processes with AI",
+          "actualDuration": 205.20125,
+          "startTime": 754.727833,
+          "endTime": 959.929083
+        },
+        {
+          "path": "Audio/output/1305/chapter_05.wav",
+          "duration": 222.384,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Conversational AI: Transforming Customer Service and Engagement",
+          "actualDuration": 222.384,
+          "startTime": 961.429083,
+          "endTime": 1183.813083
+        },
+        {
+          "path": "Audio/output/1305/chapter_06.wav",
+          "duration": 181.784167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ethics and Trust: Navigating the Human Side of AI in Marketing",
+          "actualDuration": 181.784167,
+          "startTime": 1185.313083,
+          "endTime": 1367.09725
+        },
+        {
+          "path": "Audio/output/1305/chapter_07.wav",
+          "duration": 185.751583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Emerging Trends: The Next Wave of AI in Digital Marketing",
+          "actualDuration": 185.751583,
+          "startTime": 1368.59725,
+          "endTime": 1554.348833
+        },
+        {
+          "path": "Audio/output/1305/chapter_08.wav",
+          "duration": 155.376833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Human-AI Collaboration: Redefining Roles and Skills",
+          "actualDuration": 155.376833,
+          "startTime": 1555.848833,
+          "endTime": 1711.225666
+        },
+        {
+          "path": "Audio/output/1305/chapter_09.wav",
+          "duration": 180.87225,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Future-Proofing: Building Resilient Strategies in the Age of AI",
+          "actualDuration": 180.87225,
+          "startTime": 1712.725666,
+          "endTime": 1893.5979160000002
+        },
+        {
+          "path": "Audio/output/1305/chapter_10.wav",
+          "duration": 105.52625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Road Ahead: Integrating AI with Purpose and Humanity",
+          "actualDuration": 105.52625,
+          "startTime": 1895.0979160000002,
+          "endTime": 2000.624166
+        },
+        {
+          "path": "Audio/output/1305/conclusion.wav",
+          "duration": 111.470417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.470417,
+          "startTime": 2002.124166,
+          "endTime": 2113.594583
+        }
+      ],
+      "totalDuration": 2113.594583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.39,
+          "actualStart": 0,
+          "actualEnd": 98.387375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The New Era: How AI Is Reshaping Digital Marketing Foundations",
+          "expectedStart": 98.39,
+          "expectedEnd": 310.3,
+          "actualStart": 99.887375,
+          "actualEnd": 311.792625,
+          "timeDifference": 1.4973750000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Personalization at Scale: AI’s Role in Creating Unique Customer Experiences",
+          "expectedStart": 310.3,
+          "expectedEnd": 513.79,
+          "actualStart": 313.292625,
+          "actualEnd": 516.777958,
+          "timeDifference": 2.9926249999999754
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Data-Driven Decisions: Advanced Analytics and Predictive Power",
+          "expectedStart": 513.79,
+          "expectedEnd": 748.74,
+          "actualStart": 518.277958,
+          "actualEnd": 753.227833,
+          "timeDifference": 4.487958000000049
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Automation and Efficiency: Streamlining Marketing Processes with AI",
+          "expectedStart": 748.74,
+          "expectedEnd": 953.94,
+          "actualStart": 754.727833,
+          "actualEnd": 959.929083,
+          "timeDifference": 5.987833000000023
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Conversational AI: Transforming Customer Service and Engagement",
+          "expectedStart": 953.94,
+          "expectedEnd": 1176.32,
+          "actualStart": 961.429083,
+          "actualEnd": 1183.813083,
+          "timeDifference": 7.489082999999937
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ethics and Trust: Navigating the Human Side of AI in Marketing",
+          "expectedStart": 1176.32,
+          "expectedEnd": 1358.1,
+          "actualStart": 1185.313083,
+          "actualEnd": 1367.09725,
+          "timeDifference": 8.99308300000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Emerging Trends: The Next Wave of AI in Digital Marketing",
+          "expectedStart": 1358.1,
+          "expectedEnd": 1543.85,
+          "actualStart": 1368.59725,
+          "actualEnd": 1554.348833,
+          "timeDifference": 10.497250000000122
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Human-AI Collaboration: Redefining Roles and Skills",
+          "expectedStart": 1543.85,
+          "expectedEnd": 1699.23,
+          "actualStart": 1555.848833,
+          "actualEnd": 1711.225666,
+          "timeDifference": 11.998833000000104
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Future-Proofing: Building Resilient Strategies in the Age of AI",
+          "expectedStart": 1699.23,
+          "expectedEnd": 1880.1,
+          "actualStart": 1712.725666,
+          "actualEnd": 1893.5979160000002,
+          "timeDifference": 13.495666000000028
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Road Ahead: Integrating AI with Purpose and Humanity",
+          "expectedStart": 1880.1,
+          "expectedEnd": 1985.63,
+          "actualStart": 1895.0979160000002,
+          "actualEnd": 2000.624166,
+          "timeDifference": 14.99791600000026
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1985.63,
+          "expectedEnd": 2097.1,
+          "actualStart": 2002.124166,
+          "actualEnd": 2113.594583,
+          "timeDifference": 16.49416599999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.387375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The New Era: How AI Is Reshaping Digital Marketing Foundations"
+        },
+        {
+          "startTime": 311.792625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The New Era: How AI Is Reshaping Digital Marketing Foundations and Chapter 2 Personalization at Scale: AI’s Role in Creating Unique Customer Experiences"
+        },
+        {
+          "startTime": 516.777958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Personalization at Scale: AI’s Role in Creating Unique Customer Experiences and Chapter 3 Data-Driven Decisions: Advanced Analytics and Predictive Power"
+        },
+        {
+          "startTime": 753.227833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Data-Driven Decisions: Advanced Analytics and Predictive Power and Chapter 4 Automation and Efficiency: Streamlining Marketing Processes with AI"
+        },
+        {
+          "startTime": 959.929083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Automation and Efficiency: Streamlining Marketing Processes with AI and Chapter 5 Conversational AI: Transforming Customer Service and Engagement"
+        },
+        {
+          "startTime": 1183.813083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Conversational AI: Transforming Customer Service and Engagement and Chapter 6 Ethics and Trust: Navigating the Human Side of AI in Marketing"
+        },
+        {
+          "startTime": 1367.09725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ethics and Trust: Navigating the Human Side of AI in Marketing and Chapter 7 Emerging Trends: The Next Wave of AI in Digital Marketing"
+        },
+        {
+          "startTime": 1554.348833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Emerging Trends: The Next Wave of AI in Digital Marketing and Chapter 8 Human-AI Collaboration: Redefining Roles and Skills"
+        },
+        {
+          "startTime": 1711.225666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Human-AI Collaboration: Redefining Roles and Skills and Chapter 9 Future-Proofing: Building Resilient Strategies in the Age of AI"
+        },
+        {
+          "startTime": 1893.5979160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Future-Proofing: Building Resilient Strategies in the Age of AI and Chapter 10 The Road Ahead: Integrating AI with Purpose and Humanity"
+        },
+        {
+          "startTime": 2000.624166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Road Ahead: Integrating AI with Purpose and Humanity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1305",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T04:56:23.485Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

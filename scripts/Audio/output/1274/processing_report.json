@@ -1,0 +1,455 @@
+{
+  "bookId": "1274",
+  "timestamp": "2025-07-07T02:25:10.371Z",
+  "success": false,
+  "processingTime": -1751854655319,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4755,
+    "totalAudioFiles": 12,
+    "totalDuration": 1922.8646660000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1922.8646660000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1274/optimized_text/1274.md",
+    "fileSize": 688,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1274.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1274/metadata/1274_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1922.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1274/metadata/1274_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1274/metadata/1274_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1274/1274_complete.wav",
+    "duration": 1922.864667,
+    "fileSize": 92297582,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1274/introduction.wav",
+          "duration": 85.978042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.978042,
+          "startTime": 0,
+          "endTime": 85.978042
+        },
+        {
+          "path": "Audio/output/1274/chapter_01.wav",
+          "duration": 217.256458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Meaning in Familiar Spaces",
+          "actualDuration": 217.256458,
+          "startTime": 87.478042,
+          "endTime": 304.7345
+        },
+        {
+          "path": "Audio/output/1274/chapter_02.wav",
+          "duration": 198.812833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Arrival of June and the Unraveling of Certainty",
+          "actualDuration": 198.812833,
+          "startTime": 306.2345,
+          "endTime": 505.04733300000004
+        },
+        {
+          "path": "Audio/output/1274/chapter_03.wav",
+          "duration": 202.936917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Desire and the Risks of Honesty",
+          "actualDuration": 202.936917,
+          "startTime": 506.54733300000004,
+          "endTime": 709.48425
+        },
+        {
+          "path": "Audio/output/1274/chapter_04.wav",
+          "duration": 191.226708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creativity, Vulnerability, and the Power of Unconventional Relationships",
+          "actualDuration": 191.226708,
+          "startTime": 710.98425,
+          "endTime": 902.210958
+        },
+        {
+          "path": "Audio/output/1274/chapter_05.wav",
+          "duration": 207.418375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Interplay of Passion, Destruction, and Self-Discovery",
+          "actualDuration": 207.418375,
+          "startTime": 903.710958,
+          "endTime": 1111.129333
+        },
+        {
+          "path": "Audio/output/1274/chapter_06.wav",
+          "duration": 161.55925,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Aftermath of Intimacy: Navigating the Fallout",
+          "actualDuration": 161.55925,
+          "startTime": 1112.629333,
+          "endTime": 1274.188583
+        },
+        {
+          "path": "Audio/output/1274/chapter_07.wav",
+          "duration": 132.106083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Slow Work of Healing and Rebuilding",
+          "actualDuration": 132.106083,
+          "startTime": 1275.688583,
+          "endTime": 1407.7946660000002
+        },
+        {
+          "path": "Audio/output/1274/chapter_08.wav",
+          "duration": 138.994,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Deepening of Self-Knowledge",
+          "actualDuration": 138.994,
+          "startTime": 1409.2946660000002,
+          "endTime": 1548.2886660000001
+        },
+        {
+          "path": "Audio/output/1274/chapter_09.wav",
+          "duration": 146.076583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creativity Reborn: Art as a Path to Wholeness",
+          "actualDuration": 146.076583,
+          "startTime": 1549.7886660000001,
+          "endTime": 1695.8652490000002
+        },
+        {
+          "path": "Audio/output/1274/chapter_10.wav",
+          "duration": 114.491542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lasting Impact: Identity, Memory, and the Ongoing Search",
+          "actualDuration": 114.491542,
+          "startTime": 1697.3652490000002,
+          "endTime": 1811.8567910000002
+        },
+        {
+          "path": "Audio/output/1274/conclusion.wav",
+          "duration": 126.007875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.007875,
+          "startTime": 1813.3567910000002,
+          "endTime": 1939.3646660000002
+        }
+      ],
+      "totalDuration": 1939.3646660000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.98,
+          "actualStart": 0,
+          "actualEnd": 85.978042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Meaning in Familiar Spaces",
+          "expectedStart": 85.98,
+          "expectedEnd": 303.24,
+          "actualStart": 87.478042,
+          "actualEnd": 304.7345,
+          "timeDifference": 1.498041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Arrival of June and the Unraveling of Certainty",
+          "expectedStart": 303.24,
+          "expectedEnd": 502.05,
+          "actualStart": 306.2345,
+          "actualEnd": 505.04733300000004,
+          "timeDifference": 2.9945000000000164
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Desire and the Risks of Honesty",
+          "expectedStart": 502.05,
+          "expectedEnd": 704.99,
+          "actualStart": 506.54733300000004,
+          "actualEnd": 709.48425,
+          "timeDifference": 4.497333000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creativity, Vulnerability, and the Power of Unconventional Relationships",
+          "expectedStart": 704.99,
+          "expectedEnd": 896.22,
+          "actualStart": 710.98425,
+          "actualEnd": 902.210958,
+          "timeDifference": 5.994249999999965
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Interplay of Passion, Destruction, and Self-Discovery",
+          "expectedStart": 896.22,
+          "expectedEnd": 1103.64,
+          "actualStart": 903.710958,
+          "actualEnd": 1111.129333,
+          "timeDifference": 7.490957999999978
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Aftermath of Intimacy: Navigating the Fallout",
+          "expectedStart": 1103.64,
+          "expectedEnd": 1265.2,
+          "actualStart": 1112.629333,
+          "actualEnd": 1274.188583,
+          "timeDifference": 8.989332999999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Slow Work of Healing and Rebuilding",
+          "expectedStart": 1265.2,
+          "expectedEnd": 1397.31,
+          "actualStart": 1275.688583,
+          "actualEnd": 1407.7946660000002,
+          "timeDifference": 10.488583000000062
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Deepening of Self-Knowledge",
+          "expectedStart": 1397.31,
+          "expectedEnd": 1536.3,
+          "actualStart": 1409.2946660000002,
+          "actualEnd": 1548.2886660000001,
+          "timeDifference": 11.984666000000288
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creativity Reborn: Art as a Path to Wholeness",
+          "expectedStart": 1536.3,
+          "expectedEnd": 1682.38,
+          "actualStart": 1549.7886660000001,
+          "actualEnd": 1695.8652490000002,
+          "timeDifference": 13.488666000000194
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lasting Impact: Identity, Memory, and the Ongoing Search",
+          "expectedStart": 1682.38,
+          "expectedEnd": 1796.87,
+          "actualStart": 1697.3652490000002,
+          "actualEnd": 1811.8567910000002,
+          "timeDifference": 14.985249000000067
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1796.87,
+          "expectedEnd": 1922.88,
+          "actualStart": 1813.3567910000002,
+          "actualEnd": 1939.3646660000002,
+          "timeDifference": 16.486791000000267
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.978042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Meaning in Familiar Spaces"
+        },
+        {
+          "startTime": 304.7345,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Meaning in Familiar Spaces and Chapter 2 The Arrival of June and the Unraveling of Certainty"
+        },
+        {
+          "startTime": 505.04733300000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Arrival of June and the Unraveling of Certainty and Chapter 3 Embracing Desire and the Risks of Honesty"
+        },
+        {
+          "startTime": 709.48425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Desire and the Risks of Honesty and Chapter 4 Creativity, Vulnerability, and the Power of Unconventional Relationships"
+        },
+        {
+          "startTime": 902.210958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creativity, Vulnerability, and the Power of Unconventional Relationships and Chapter 5 The Interplay of Passion, Destruction, and Self-Discovery"
+        },
+        {
+          "startTime": 1111.129333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Interplay of Passion, Destruction, and Self-Discovery and Chapter 6 The Aftermath of Intimacy: Navigating the Fallout"
+        },
+        {
+          "startTime": 1274.188583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Aftermath of Intimacy: Navigating the Fallout and Chapter 7 The Slow Work of Healing and Rebuilding"
+        },
+        {
+          "startTime": 1407.7946660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Slow Work of Healing and Rebuilding and Chapter 8 The Deepening of Self-Knowledge"
+        },
+        {
+          "startTime": 1548.2886660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Deepening of Self-Knowledge and Chapter 9 Creativity Reborn: Art as a Path to Wholeness"
+        },
+        {
+          "startTime": 1695.8652490000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creativity Reborn: Art as a Path to Wholeness and Chapter 10 The Lasting Impact: Identity, Memory, and the Ongoing Search"
+        },
+        {
+          "startTime": 1811.8567910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lasting Impact: Identity, Memory, and the Ongoing Search and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1274",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T02:17:36.627Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

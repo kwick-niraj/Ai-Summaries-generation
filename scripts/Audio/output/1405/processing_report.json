@@ -1,0 +1,456 @@
+{
+  "bookId": "1405",
+  "timestamp": "2025-07-07T13:31:23.831Z",
+  "success": false,
+  "processingTime": -1751894732480,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4571,
+    "totalAudioFiles": 12,
+    "totalDuration": 2042.71125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2042.71125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1405/optimized_text/1405.md",
+    "fileSize": 689,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1405.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1405/metadata/1405_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2042.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1405/metadata/1405_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1405/metadata/1405_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1405/1405_complete.wav",
+    "duration": 2042.71125,
+    "fileSize": 98050218,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1405/introduction.wav",
+          "duration": 78.359125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.359125,
+          "startTime": 0,
+          "endTime": 78.359125
+        },
+        {
+          "path": "Audio/output/1405/chapter_01.wav",
+          "duration": 204.840333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Ordinary Days Turn Into Unimaginable Moments",
+          "actualDuration": 204.840333,
+          "startTime": 79.859125,
+          "endTime": 284.699458
+        },
+        {
+          "path": "Audio/output/1405/chapter_02.wav",
+          "duration": 235.04975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Bonds Between Strangers",
+          "actualDuration": 235.04975,
+          "startTime": 286.199458,
+          "endTime": 521.249208
+        },
+        {
+          "path": "Audio/output/1405/chapter_03.wav",
+          "duration": 220.974292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Emotional Landscape of Grief and Healing",
+          "actualDuration": 220.974292,
+          "startTime": 522.749208,
+          "endTime": 743.7235
+        },
+        {
+          "path": "Audio/output/1405/chapter_04.wav",
+          "duration": 190.587833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Healthcare Teams in Compassionate Care",
+          "actualDuration": 190.587833,
+          "startTime": 745.2235,
+          "endTime": 935.8113329999999
+        },
+        {
+          "path": "Audio/output/1405/chapter_05.wav",
+          "duration": 181.206833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Myths, Misconceptions, and the Power of Conversation",
+          "actualDuration": 181.206833,
+          "startTime": 937.3113329999999,
+          "endTime": 1118.5181659999998
+        },
+        {
+          "path": "Audio/output/1405/chapter_06.wav",
+          "duration": 176.25325,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect: How One Gift Changes Many Lives",
+          "actualDuration": 176.25325,
+          "startTime": 1120.0181659999998,
+          "endTime": 1296.2714159999998
+        },
+        {
+          "path": "Audio/output/1405/chapter_07.wav",
+          "duration": 179.258,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Letters Across the Divide: When Donor Families and Recipients Connect",
+          "actualDuration": 179.258,
+          "startTime": 1297.7714159999998,
+          "endTime": 1477.0294159999999
+        },
+        {
+          "path": "Audio/output/1405/chapter_08.wav",
+          "duration": 169.816208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Ethical Crossroads: Navigating Difficult Choices",
+          "actualDuration": 169.816208,
+          "startTime": 1478.5294159999999,
+          "endTime": 1648.3456239999998
+        },
+        {
+          "path": "Audio/output/1405/chapter_09.wav",
+          "duration": 141.208417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Lasting Legacy: Honoring the Gift",
+          "actualDuration": 141.208417,
+          "startTime": 1649.8456239999998,
+          "endTime": 1791.0540409999999
+        },
+        {
+          "path": "Audio/output/1405/chapter_10.wav",
+          "duration": 131.921792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Embracing Life After Loss and Renewal",
+          "actualDuration": 131.921792,
+          "startTime": 1792.5540409999999,
+          "endTime": 1924.475833
+        },
+        {
+          "path": "Audio/output/1405/conclusion.wav",
+          "duration": 133.235417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.235417,
+          "startTime": 1925.975833,
+          "endTime": 2059.21125
+        }
+      ],
+      "totalDuration": 2059.21125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.36,
+          "actualStart": 0,
+          "actualEnd": 78.359125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Ordinary Days Turn Into Unimaginable Moments",
+          "expectedStart": 78.36,
+          "expectedEnd": 283.2,
+          "actualStart": 79.859125,
+          "actualEnd": 284.699458,
+          "timeDifference": 1.4991250000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Bonds Between Strangers",
+          "expectedStart": 283.2,
+          "expectedEnd": 518.25,
+          "actualStart": 286.199458,
+          "actualEnd": 521.249208,
+          "timeDifference": 2.999458000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Emotional Landscape of Grief and Healing",
+          "expectedStart": 518.25,
+          "expectedEnd": 739.22,
+          "actualStart": 522.749208,
+          "actualEnd": 743.7235,
+          "timeDifference": 4.499207999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Healthcare Teams in Compassionate Care",
+          "expectedStart": 739.22,
+          "expectedEnd": 929.81,
+          "actualStart": 745.2235,
+          "actualEnd": 935.8113329999999,
+          "timeDifference": 6.003499999999917
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Myths, Misconceptions, and the Power of Conversation",
+          "expectedStart": 929.81,
+          "expectedEnd": 1111.02,
+          "actualStart": 937.3113329999999,
+          "actualEnd": 1118.5181659999998,
+          "timeDifference": 7.501332999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect: How One Gift Changes Many Lives",
+          "expectedStart": 1111.02,
+          "expectedEnd": 1287.27,
+          "actualStart": 1120.0181659999998,
+          "actualEnd": 1296.2714159999998,
+          "timeDifference": 8.998165999999856
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Letters Across the Divide: When Donor Families and Recipients Connect",
+          "expectedStart": 1287.27,
+          "expectedEnd": 1466.53,
+          "actualStart": 1297.7714159999998,
+          "actualEnd": 1477.0294159999999,
+          "timeDifference": 10.501415999999836
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Ethical Crossroads: Navigating Difficult Choices",
+          "expectedStart": 1466.53,
+          "expectedEnd": 1636.35,
+          "actualStart": 1478.5294159999999,
+          "actualEnd": 1648.3456239999998,
+          "timeDifference": 11.999415999999883
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Lasting Legacy: Honoring the Gift",
+          "expectedStart": 1636.35,
+          "expectedEnd": 1777.56,
+          "actualStart": 1649.8456239999998,
+          "actualEnd": 1791.0540409999999,
+          "timeDifference": 13.495623999999907
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Embracing Life After Loss and Renewal",
+          "expectedStart": 1777.56,
+          "expectedEnd": 1909.48,
+          "actualStart": 1792.5540409999999,
+          "actualEnd": 1924.475833,
+          "timeDifference": 14.994040999999925
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1909.48,
+          "expectedEnd": 2042.72,
+          "actualStart": 1925.975833,
+          "actualEnd": 2059.21125,
+          "timeDifference": 16.495832999999948
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.359125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Ordinary Days Turn Into Unimaginable Moments"
+        },
+        {
+          "startTime": 284.699458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Ordinary Days Turn Into Unimaginable Moments and Chapter 2 The Hidden Bonds Between Strangers"
+        },
+        {
+          "startTime": 521.249208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Bonds Between Strangers and Chapter 3 The Emotional Landscape of Grief and Healing"
+        },
+        {
+          "startTime": 743.7235,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Emotional Landscape of Grief and Healing and Chapter 4 The Role of Healthcare Teams in Compassionate Care"
+        },
+        {
+          "startTime": 935.8113329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Healthcare Teams in Compassionate Care and Chapter 5 Myths, Misconceptions, and the Power of Conversation"
+        },
+        {
+          "startTime": 1118.5181659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Myths, Misconceptions, and the Power of Conversation and Chapter 6 The Ripple Effect: How One Gift Changes Many Lives"
+        },
+        {
+          "startTime": 1296.2714159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect: How One Gift Changes Many Lives and Chapter 7 Letters Across the Divide: When Donor Families and Recipients Connect"
+        },
+        {
+          "startTime": 1477.0294159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Letters Across the Divide: When Donor Families and Recipients Connect and Chapter 8 Ethical Crossroads: Navigating Difficult Choices"
+        },
+        {
+          "startTime": 1648.3456239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Ethical Crossroads: Navigating Difficult Choices and Chapter 9 The Lasting Legacy: Honoring the Gift"
+        },
+        {
+          "startTime": 1791.0540409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Lasting Legacy: Honoring the Gift and Chapter 10 Moving Forward: Embracing Life After Loss and Renewal"
+        },
+        {
+          "startTime": 1924.475833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Embracing Life After Loss and Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1405",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T13:25:33.619Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

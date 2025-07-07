@@ -1,0 +1,456 @@
+{
+  "bookId": "1330",
+  "timestamp": "2025-07-07T07:18:46.538Z",
+  "success": false,
+  "processingTime": -1751872334562,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4102,
+    "totalAudioFiles": 12,
+    "totalDuration": 1985.1310830000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1985.1310830000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1330/optimized_text/1330.md",
+    "fileSize": 546,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "1330.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1330/metadata/1330_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1985.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1330/metadata/1330_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1330/metadata/1330_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1330/1330_complete.wav",
+    "duration": 1985.131083,
+    "fileSize": 95286370,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1330/introduction.wav",
+          "duration": 93.527625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.527625,
+          "startTime": 0,
+          "endTime": 93.527625
+        },
+        {
+          "path": "Audio/output/1330/chapter_01.wav",
+          "duration": 232.815625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Feels Stuck and Out of Reach",
+          "actualDuration": 232.815625,
+          "startTime": 95.027625,
+          "endTime": 327.84325
+        },
+        {
+          "path": "Audio/output/1330/chapter_02.wav",
+          "duration": 206.066583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Compassion in the Face of Suffering",
+          "actualDuration": 206.066583,
+          "startTime": 329.34325,
+          "endTime": 535.409833
+        },
+        {
+          "path": "Audio/output/1330/chapter_03.wav",
+          "duration": 197.022875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faith That Grows in the Middle of Doubt",
+          "actualDuration": 197.022875,
+          "startTime": 536.909833,
+          "endTime": 733.932708
+        },
+        {
+          "path": "Audio/output/1330/chapter_04.wav",
+          "duration": 164.69,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 God’s Presence in the Middle of Brokenness",
+          "actualDuration": 164.69,
+          "startTime": 735.432708,
+          "endTime": 900.1227080000001
+        },
+        {
+          "path": "Audio/output/1330/chapter_05.wav",
+          "duration": 186.620083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 When the Impossible Becomes Possible",
+          "actualDuration": 186.620083,
+          "startTime": 901.6227080000001,
+          "endTime": 1088.2427910000001
+        },
+        {
+          "path": "Audio/output/1330/chapter_06.wav",
+          "duration": 163.245792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Miracles Hidden in Everyday Life",
+          "actualDuration": 163.245792,
+          "startTime": 1089.7427910000001,
+          "endTime": 1252.988583
+        },
+        {
+          "path": "Audio/output/1330/chapter_07.wav",
+          "duration": 180.914625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Gift of Second Chances",
+          "actualDuration": 180.914625,
+          "startTime": 1254.488583,
+          "endTime": 1435.4032080000002
+        },
+        {
+          "path": "Audio/output/1330/chapter_08.wav",
+          "duration": 146.417083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Strength to Endure",
+          "actualDuration": 146.417083,
+          "startTime": 1436.9032080000002,
+          "endTime": 1583.3202910000002
+        },
+        {
+          "path": "Audio/output/1330/chapter_09.wav",
+          "duration": 139.702708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect of Hope",
+          "actualDuration": 139.702708,
+          "startTime": 1584.8202910000002,
+          "endTime": 1724.5229990000003
+        },
+        {
+          "path": "Audio/output/1330/chapter_10.wav",
+          "duration": 153.029542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Expectation",
+          "actualDuration": 153.029542,
+          "startTime": 1726.0229990000003,
+          "endTime": 1879.0525410000002
+        },
+        {
+          "path": "Audio/output/1330/conclusion.wav",
+          "duration": 121.078542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.078542,
+          "startTime": 1880.5525410000002,
+          "endTime": 2001.6310830000002
+        }
+      ],
+      "totalDuration": 2001.6310830000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.53,
+          "actualStart": 0,
+          "actualEnd": 93.527625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Feels Stuck and Out of Reach",
+          "expectedStart": 93.53,
+          "expectedEnd": 326.35,
+          "actualStart": 95.027625,
+          "actualEnd": 327.84325,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Compassion in the Face of Suffering",
+          "expectedStart": 326.35,
+          "expectedEnd": 532.42,
+          "actualStart": 329.34325,
+          "actualEnd": 535.409833,
+          "timeDifference": 2.993249999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faith That Grows in the Middle of Doubt",
+          "expectedStart": 532.42,
+          "expectedEnd": 729.44,
+          "actualStart": 536.909833,
+          "actualEnd": 733.932708,
+          "timeDifference": 4.48983300000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 God’s Presence in the Middle of Brokenness",
+          "expectedStart": 729.44,
+          "expectedEnd": 894.13,
+          "actualStart": 735.432708,
+          "actualEnd": 900.1227080000001,
+          "timeDifference": 5.992707999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 When the Impossible Becomes Possible",
+          "expectedStart": 894.13,
+          "expectedEnd": 1080.75,
+          "actualStart": 901.6227080000001,
+          "actualEnd": 1088.2427910000001,
+          "timeDifference": 7.492708000000107
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Miracles Hidden in Everyday Life",
+          "expectedStart": 1080.75,
+          "expectedEnd": 1244,
+          "actualStart": 1089.7427910000001,
+          "actualEnd": 1252.988583,
+          "timeDifference": 8.992791000000125
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Gift of Second Chances",
+          "expectedStart": 1244,
+          "expectedEnd": 1424.91,
+          "actualStart": 1254.488583,
+          "actualEnd": 1435.4032080000002,
+          "timeDifference": 10.488583000000062
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Strength to Endure",
+          "expectedStart": 1424.91,
+          "expectedEnd": 1571.33,
+          "actualStart": 1436.9032080000002,
+          "actualEnd": 1583.3202910000002,
+          "timeDifference": 11.993208000000095
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect of Hope",
+          "expectedStart": 1571.33,
+          "expectedEnd": 1711.03,
+          "actualStart": 1584.8202910000002,
+          "actualEnd": 1724.5229990000003,
+          "timeDifference": 13.490291000000298
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Expectation",
+          "expectedStart": 1711.03,
+          "expectedEnd": 1864.06,
+          "actualStart": 1726.0229990000003,
+          "actualEnd": 1879.0525410000002,
+          "timeDifference": 14.992999000000282
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1864.06,
+          "expectedEnd": 1985.14,
+          "actualStart": 1880.5525410000002,
+          "actualEnd": 2001.6310830000002,
+          "timeDifference": 16.4925410000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.527625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Feels Stuck and Out of Reach"
+        },
+        {
+          "startTime": 327.84325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Feels Stuck and Out of Reach and Chapter 2 The Power of Compassion in the Face of Suffering"
+        },
+        {
+          "startTime": 535.409833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Compassion in the Face of Suffering and Chapter 3 Faith That Grows in the Middle of Doubt"
+        },
+        {
+          "startTime": 733.932708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faith That Grows in the Middle of Doubt and Chapter 4 God’s Presence in the Middle of Brokenness"
+        },
+        {
+          "startTime": 900.1227080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 God’s Presence in the Middle of Brokenness and Chapter 5 When the Impossible Becomes Possible"
+        },
+        {
+          "startTime": 1088.2427910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 When the Impossible Becomes Possible and Chapter 6 The Quiet Miracles Hidden in Everyday Life"
+        },
+        {
+          "startTime": 1252.988583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Miracles Hidden in Everyday Life and Chapter 7 The Gift of Second Chances"
+        },
+        {
+          "startTime": 1435.4032080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Gift of Second Chances and Chapter 8 The Strength to Endure"
+        },
+        {
+          "startTime": 1583.3202910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Strength to Endure and Chapter 9 The Ripple Effect of Hope"
+        },
+        {
+          "startTime": 1724.5229990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect of Hope and Chapter 10 Living with Expectation"
+        },
+        {
+          "startTime": 1879.0525410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Expectation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1330",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T07:12:14.570Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

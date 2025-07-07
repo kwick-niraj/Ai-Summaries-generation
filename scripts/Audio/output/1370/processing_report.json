@@ -1,0 +1,456 @@
+{
+  "bookId": "1370",
+  "timestamp": "2025-07-07T10:46:14.716Z",
+  "success": false,
+  "processingTime": -1751884613139,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3909,
+    "totalAudioFiles": 12,
+    "totalDuration": 2013.8052500000001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2013.8052500000001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1370/optimized_text/1370.md",
+    "fileSize": 745,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1370.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1370/metadata/1370_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2013.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1370/metadata/1370_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1370/metadata/1370_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1370/1370_complete.wav",
+    "duration": 2013.80525,
+    "fileSize": 96662730,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1370/introduction.wav",
+          "duration": 80.1695,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.1695,
+          "startTime": 0,
+          "endTime": 80.1695
+        },
+        {
+          "path": "Audio/output/1370/chapter_01.wav",
+          "duration": 210.617583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Optimism and Pessimism",
+          "actualDuration": 210.617583,
+          "startTime": 81.6695,
+          "endTime": 292.287083
+        },
+        {
+          "path": "Audio/output/1370/chapter_02.wav",
+          "duration": 246.3895,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Explanatory Style in Everyday Life",
+          "actualDuration": 246.3895,
+          "startTime": 293.787083,
+          "endTime": 540.1765829999999
+        },
+        {
+          "path": "Audio/output/1370/chapter_03.wav",
+          "duration": 220.915125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Science of Learned Helplessness and Its Reversal",
+          "actualDuration": 220.915125,
+          "startTime": 541.6765829999999,
+          "endTime": 762.5917079999999
+        },
+        {
+          "path": "Audio/output/1370/chapter_04.wav",
+          "duration": 209.393833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Optimism Through Cognitive Techniques",
+          "actualDuration": 209.393833,
+          "startTime": 764.0917079999999,
+          "endTime": 973.4855409999999
+        },
+        {
+          "path": "Audio/output/1370/chapter_05.wav",
+          "duration": 160.263375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Benefits of Optimism for Health, Achievement, and Relationships",
+          "actualDuration": 160.263375,
+          "startTime": 974.9855409999999,
+          "endTime": 1135.248916
+        },
+        {
+          "path": "Audio/output/1370/chapter_06.wav",
+          "duration": 170.748458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Teaching Optimism to Children: Foundations for a Resilient Future",
+          "actualDuration": 170.748458,
+          "startTime": 1136.748916,
+          "endTime": 1307.497374
+        },
+        {
+          "path": "Audio/output/1370/chapter_07.wav",
+          "duration": 136.215625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Optimism into Daily Habits and Routines",
+          "actualDuration": 136.215625,
+          "startTime": 1308.997374,
+          "endTime": 1445.212999
+        },
+        {
+          "path": "Audio/output/1370/chapter_08.wav",
+          "duration": 150.016292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Setbacks and Preventing Relapse into Pessimism",
+          "actualDuration": 150.016292,
+          "startTime": 1446.712999,
+          "endTime": 1596.729291
+        },
+        {
+          "path": "Audio/output/1370/chapter_09.wav",
+          "duration": 177.795292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Spreading Optimism in Families, Workplaces, and Communities",
+          "actualDuration": 177.795292,
+          "startTime": 1598.229291,
+          "endTime": 1776.0245830000001
+        },
+        {
+          "path": "Audio/output/1370/chapter_10.wav",
+          "duration": 141.201875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Optimism: Lifelong Practice and Growth",
+          "actualDuration": 141.201875,
+          "startTime": 1777.5245830000001,
+          "endTime": 1918.726458
+        },
+        {
+          "path": "Audio/output/1370/conclusion.wav",
+          "duration": 110.078792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.078792,
+          "startTime": 1920.226458,
+          "endTime": 2030.3052500000001
+        }
+      ],
+      "totalDuration": 2030.3052500000001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.17,
+          "actualStart": 0,
+          "actualEnd": 80.1695,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Optimism and Pessimism",
+          "expectedStart": 80.17,
+          "expectedEnd": 290.79,
+          "actualStart": 81.6695,
+          "actualEnd": 292.287083,
+          "timeDifference": 1.4994999999999976
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Explanatory Style in Everyday Life",
+          "expectedStart": 290.79,
+          "expectedEnd": 537.18,
+          "actualStart": 293.787083,
+          "actualEnd": 540.1765829999999,
+          "timeDifference": 2.997082999999975
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Science of Learned Helplessness and Its Reversal",
+          "expectedStart": 537.18,
+          "expectedEnd": 758.1,
+          "actualStart": 541.6765829999999,
+          "actualEnd": 762.5917079999999,
+          "timeDifference": 4.496582999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Optimism Through Cognitive Techniques",
+          "expectedStart": 758.1,
+          "expectedEnd": 967.49,
+          "actualStart": 764.0917079999999,
+          "actualEnd": 973.4855409999999,
+          "timeDifference": 5.991707999999903
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Benefits of Optimism for Health, Achievement, and Relationships",
+          "expectedStart": 967.49,
+          "expectedEnd": 1127.75,
+          "actualStart": 974.9855409999999,
+          "actualEnd": 1135.248916,
+          "timeDifference": 7.495540999999889
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Teaching Optimism to Children: Foundations for a Resilient Future",
+          "expectedStart": 1127.75,
+          "expectedEnd": 1298.5,
+          "actualStart": 1136.748916,
+          "actualEnd": 1307.497374,
+          "timeDifference": 8.998916000000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Optimism into Daily Habits and Routines",
+          "expectedStart": 1298.5,
+          "expectedEnd": 1434.72,
+          "actualStart": 1308.997374,
+          "actualEnd": 1445.212999,
+          "timeDifference": 10.497374000000036
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Setbacks and Preventing Relapse into Pessimism",
+          "expectedStart": 1434.72,
+          "expectedEnd": 1584.74,
+          "actualStart": 1446.712999,
+          "actualEnd": 1596.729291,
+          "timeDifference": 11.992999000000054
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Spreading Optimism in Families, Workplaces, and Communities",
+          "expectedStart": 1584.74,
+          "expectedEnd": 1762.54,
+          "actualStart": 1598.229291,
+          "actualEnd": 1776.0245830000001,
+          "timeDifference": 13.489291000000094
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Optimism: Lifelong Practice and Growth",
+          "expectedStart": 1762.54,
+          "expectedEnd": 1903.74,
+          "actualStart": 1777.5245830000001,
+          "actualEnd": 1918.726458,
+          "timeDifference": 14.984583000000157
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1903.74,
+          "expectedEnd": 2013.82,
+          "actualStart": 1920.226458,
+          "actualEnd": 2030.3052500000001,
+          "timeDifference": 16.486458000000084
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.1695,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Optimism and Pessimism"
+        },
+        {
+          "startTime": 292.287083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Optimism and Pessimism and Chapter 2 The Power of Explanatory Style in Everyday Life"
+        },
+        {
+          "startTime": 540.1765829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Explanatory Style in Everyday Life and Chapter 3 The Science of Learned Helplessness and Its Reversal"
+        },
+        {
+          "startTime": 762.5917079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Science of Learned Helplessness and Its Reversal and Chapter 4 Building Optimism Through Cognitive Techniques"
+        },
+        {
+          "startTime": 973.4855409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Optimism Through Cognitive Techniques and Chapter 5 The Benefits of Optimism for Health, Achievement, and Relationships"
+        },
+        {
+          "startTime": 1135.248916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Benefits of Optimism for Health, Achievement, and Relationships and Chapter 6 Teaching Optimism to Children: Foundations for a Resilient Future"
+        },
+        {
+          "startTime": 1307.497374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Teaching Optimism to Children: Foundations for a Resilient Future and Chapter 7 Integrating Optimism into Daily Habits and Routines"
+        },
+        {
+          "startTime": 1445.212999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Optimism into Daily Habits and Routines and Chapter 8 Overcoming Setbacks and Preventing Relapse into Pessimism"
+        },
+        {
+          "startTime": 1596.729291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Setbacks and Preventing Relapse into Pessimism and Chapter 9 Spreading Optimism in Families, Workplaces, and Communities"
+        },
+        {
+          "startTime": 1776.0245830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Spreading Optimism in Families, Workplaces, and Communities and Chapter 10 Sustaining Optimism: Lifelong Practice and Growth"
+        },
+        {
+          "startTime": 1918.726458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Optimism: Lifelong Practice and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1370",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T10:36:54.326Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

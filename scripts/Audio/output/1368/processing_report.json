@@ -1,0 +1,456 @@
+{
+  "bookId": "1368",
+  "timestamp": "2025-07-07T10:26:31.020Z",
+  "success": false,
+  "processingTime": -1751883498275,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3968,
+    "totalAudioFiles": 12,
+    "totalDuration": 1855.916457
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1855.916457
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1368/optimized_text/1368.md",
+    "fileSize": 869,
+    "wordCount": 132,
+    "format": "markdown",
+    "filename": "1368.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1368/metadata/1368_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1855.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1368/metadata/1368_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1368/metadata/1368_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1368/1368_complete.wav",
+    "duration": 1855.916458,
+    "fileSize": 89084068,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1368/introduction.wav",
+          "duration": 92.8245,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.8245,
+          "startTime": 0,
+          "endTime": 92.8245
+        },
+        {
+          "path": "Audio/output/1368/chapter_01.wav",
+          "duration": 228.647417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 From Ferries to Fortunes — The Humble Beginnings of a Dynasty",
+          "actualDuration": 228.647417,
+          "startTime": 94.3245,
+          "endTime": 322.97191699999996
+        },
+        {
+          "path": "Audio/output/1368/chapter_02.wav",
+          "duration": 231.97025,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Gilded Age Glory — Wealth, Power, and the Price of Ambition",
+          "actualDuration": 231.97025,
+          "startTime": 324.47191699999996,
+          "endTime": 556.4421669999999
+        },
+        {
+          "path": "Audio/output/1368/chapter_03.wav",
+          "duration": 208.74375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Inheritance and Identity — The Struggle to Define a Legacy",
+          "actualDuration": 208.74375,
+          "startTime": 557.9421669999999,
+          "endTime": 766.6859169999999
+        },
+        {
+          "path": "Audio/output/1368/chapter_04.wav",
+          "duration": 186.412333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The High Cost of Privilege — Scandal, Loss, and the Erosion of Fortune",
+          "actualDuration": 186.412333,
+          "startTime": 768.1859169999999,
+          "endTime": 954.5982499999999
+        },
+        {
+          "path": "Audio/output/1368/chapter_05.wav",
+          "duration": 142.413667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Searching for Meaning — Reflection, Reinvention, and the Enduring Power of Family Stories",
+          "actualDuration": 142.413667,
+          "startTime": 956.0982499999999,
+          "endTime": 1098.5119169999998
+        },
+        {
+          "path": "Audio/output/1368/chapter_06.wav",
+          "duration": 158.619083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Next Generation — Inheritance, Expectation, and the Search for Purpose",
+          "actualDuration": 158.619083,
+          "startTime": 1100.0119169999998,
+          "endTime": 1258.6309999999999
+        },
+        {
+          "path": "Audio/output/1368/chapter_07.wav",
+          "duration": 131.434958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Public Eye — Fame, Scrutiny, and the Burden of a Name",
+          "actualDuration": 131.434958,
+          "startTime": 1260.1309999999999,
+          "endTime": 1391.565958
+        },
+        {
+          "path": "Audio/output/1368/chapter_08.wav",
+          "duration": 138.419875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reinvention and Renewal — New Paths, New Values",
+          "actualDuration": 138.419875,
+          "startTime": 1393.065958,
+          "endTime": 1531.485833
+        },
+        {
+          "path": "Audio/output/1368/chapter_09.wav",
+          "duration": 122.325208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Cultural Legacy — Myths, Memories, and the American Imagination",
+          "actualDuration": 122.325208,
+          "startTime": 1532.985833,
+          "endTime": 1655.311041
+        },
+        {
+          "path": "Audio/output/1368/chapter_10.wav",
+          "duration": 116.213958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for Today — Legacy, Identity, and the Meaning of Success",
+          "actualDuration": 116.213958,
+          "startTime": 1656.811041,
+          "endTime": 1773.024999
+        },
+        {
+          "path": "Audio/output/1368/conclusion.wav",
+          "duration": 97.891458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 97.891458,
+          "startTime": 1774.524999,
+          "endTime": 1872.416457
+        }
+      ],
+      "totalDuration": 1872.416457,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.82,
+          "actualStart": 0,
+          "actualEnd": 92.8245,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 From Ferries to Fortunes — The Humble Beginnings of a Dynasty",
+          "expectedStart": 92.82,
+          "expectedEnd": 321.47,
+          "actualStart": 94.3245,
+          "actualEnd": 322.97191699999996,
+          "timeDifference": 1.5045000000000073
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Gilded Age Glory — Wealth, Power, and the Price of Ambition",
+          "expectedStart": 321.47,
+          "expectedEnd": 553.44,
+          "actualStart": 324.47191699999996,
+          "actualEnd": 556.4421669999999,
+          "timeDifference": 3.001916999999935
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Inheritance and Identity — The Struggle to Define a Legacy",
+          "expectedStart": 553.44,
+          "expectedEnd": 762.18,
+          "actualStart": 557.9421669999999,
+          "actualEnd": 766.6859169999999,
+          "timeDifference": 4.502166999999872
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The High Cost of Privilege — Scandal, Loss, and the Erosion of Fortune",
+          "expectedStart": 762.18,
+          "expectedEnd": 948.59,
+          "actualStart": 768.1859169999999,
+          "actualEnd": 954.5982499999999,
+          "timeDifference": 6.005916999999954
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Searching for Meaning — Reflection, Reinvention, and the Enduring Power of Family Stories",
+          "expectedStart": 948.59,
+          "expectedEnd": 1091,
+          "actualStart": 956.0982499999999,
+          "actualEnd": 1098.5119169999998,
+          "timeDifference": 7.508249999999862
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Next Generation — Inheritance, Expectation, and the Search for Purpose",
+          "expectedStart": 1091,
+          "expectedEnd": 1249.62,
+          "actualStart": 1100.0119169999998,
+          "actualEnd": 1258.6309999999999,
+          "timeDifference": 9.011916999999812
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Public Eye — Fame, Scrutiny, and the Burden of a Name",
+          "expectedStart": 1249.62,
+          "expectedEnd": 1381.05,
+          "actualStart": 1260.1309999999999,
+          "actualEnd": 1391.565958,
+          "timeDifference": 10.510999999999967
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reinvention and Renewal — New Paths, New Values",
+          "expectedStart": 1381.05,
+          "expectedEnd": 1519.47,
+          "actualStart": 1393.065958,
+          "actualEnd": 1531.485833,
+          "timeDifference": 12.015957999999955
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Cultural Legacy — Myths, Memories, and the American Imagination",
+          "expectedStart": 1519.47,
+          "expectedEnd": 1641.8,
+          "actualStart": 1532.985833,
+          "actualEnd": 1655.311041,
+          "timeDifference": 13.51583299999993
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for Today — Legacy, Identity, and the Meaning of Success",
+          "expectedStart": 1641.8,
+          "expectedEnd": 1758.01,
+          "actualStart": 1656.811041,
+          "actualEnd": 1773.024999,
+          "timeDifference": 15.011040999999977
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1758.01,
+          "expectedEnd": 1855.9,
+          "actualStart": 1774.524999,
+          "actualEnd": 1872.416457,
+          "timeDifference": 16.51499899999999
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.8245,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 From Ferries to Fortunes — The Humble Beginnings of a Dynasty"
+        },
+        {
+          "startTime": 322.97191699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 From Ferries to Fortunes — The Humble Beginnings of a Dynasty and Chapter 2 Gilded Age Glory — Wealth, Power, and the Price of Ambition"
+        },
+        {
+          "startTime": 556.4421669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Gilded Age Glory — Wealth, Power, and the Price of Ambition and Chapter 3 Inheritance and Identity — The Struggle to Define a Legacy"
+        },
+        {
+          "startTime": 766.6859169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Inheritance and Identity — The Struggle to Define a Legacy and Chapter 4 The High Cost of Privilege — Scandal, Loss, and the Erosion of Fortune"
+        },
+        {
+          "startTime": 954.5982499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The High Cost of Privilege — Scandal, Loss, and the Erosion of Fortune and Chapter 5 Searching for Meaning — Reflection, Reinvention, and the Enduring Power of Family Stories"
+        },
+        {
+          "startTime": 1098.5119169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Searching for Meaning — Reflection, Reinvention, and the Enduring Power of Family Stories and Chapter 6 The Next Generation — Inheritance, Expectation, and the Search for Purpose"
+        },
+        {
+          "startTime": 1258.6309999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Next Generation — Inheritance, Expectation, and the Search for Purpose and Chapter 7 The Public Eye — Fame, Scrutiny, and the Burden of a Name"
+        },
+        {
+          "startTime": 1391.565958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Public Eye — Fame, Scrutiny, and the Burden of a Name and Chapter 8 Reinvention and Renewal — New Paths, New Values"
+        },
+        {
+          "startTime": 1531.485833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reinvention and Renewal — New Paths, New Values and Chapter 9 The Cultural Legacy — Myths, Memories, and the American Imagination"
+        },
+        {
+          "startTime": 1655.311041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Cultural Legacy — Myths, Memories, and the American Imagination and Chapter 10 Lessons for Today — Legacy, Identity, and the Meaning of Success"
+        },
+        {
+          "startTime": 1773.024999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for Today — Legacy, Identity, and the Meaning of Success and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1368",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T10:18:19.446Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

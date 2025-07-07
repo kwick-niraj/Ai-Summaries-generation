@@ -1,0 +1,455 @@
+{
+  "bookId": "1295",
+  "timestamp": "2025-07-07T04:03:12.347Z",
+  "success": false,
+  "processingTime": -1751860721973,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4050,
+    "totalAudioFiles": 12,
+    "totalDuration": 1874.575834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1874.575834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1295/optimized_text/1295.md",
+    "fileSize": 503,
+    "wordCount": 74,
+    "format": "markdown",
+    "filename": "1295.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1295/metadata/1295_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1874.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1295/metadata/1295_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1295/metadata/1295_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1295/1295_complete.wav",
+    "duration": 1874.575833,
+    "fileSize": 89979718,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1295/introduction.wav",
+          "duration": 87.236542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.236542,
+          "startTime": 0,
+          "endTime": 87.236542
+        },
+        {
+          "path": "Audio/output/1295/chapter_01.wav",
+          "duration": 198.318833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up on the Edge of Nowhere",
+          "actualDuration": 198.318833,
+          "startTime": 88.736542,
+          "endTime": 287.055375
+        },
+        {
+          "path": "Audio/output/1295/chapter_02.wav",
+          "duration": 228.524417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Family Ties and Fractures",
+          "actualDuration": 228.524417,
+          "startTime": 288.555375,
+          "endTime": 517.079792
+        },
+        {
+          "path": "Audio/output/1295/chapter_03.wav",
+          "duration": 196.042833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight of Poverty and Rural Life",
+          "actualDuration": 196.042833,
+          "startTime": 518.579792,
+          "endTime": 714.622625
+        },
+        {
+          "path": "Audio/output/1295/chapter_04.wav",
+          "duration": 207.340542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Escaping Through Imagination and Pop Culture",
+          "actualDuration": 207.340542,
+          "startTime": 716.122625,
+          "endTime": 923.463167
+        },
+        {
+          "path": "Audio/output/1295/chapter_05.wav",
+          "duration": 176.33475,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Strength in Honesty and Ambition",
+          "actualDuration": 176.33475,
+          "startTime": 924.963167,
+          "endTime": 1101.297917
+        },
+        {
+          "path": "Audio/output/1295/chapter_06.wav",
+          "duration": 158.897458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The First Steps Out",
+          "actualDuration": 158.897458,
+          "startTime": 1102.797917,
+          "endTime": 1261.695375
+        },
+        {
+          "path": "Audio/output/1295/chapter_07.wav",
+          "duration": 148.427625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Loss, and Learning to Trust",
+          "actualDuration": 148.427625,
+          "startTime": 1263.195375,
+          "endTime": 1411.623
+        },
+        {
+          "path": "Audio/output/1295/chapter_08.wav",
+          "duration": 149.302125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shadow of the Past",
+          "actualDuration": 149.302125,
+          "startTime": 1413.123,
+          "endTime": 1562.425125
+        },
+        {
+          "path": "Audio/output/1295/chapter_09.wav",
+          "duration": 115.981917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Redefining Success",
+          "actualDuration": 115.981917,
+          "startTime": 1563.925125,
+          "endTime": 1679.907042
+        },
+        {
+          "path": "Audio/output/1295/chapter_10.wav",
+          "duration": 114.05925,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Giving Back and Moving Forward",
+          "actualDuration": 114.05925,
+          "startTime": 1681.407042,
+          "endTime": 1795.466292
+        },
+        {
+          "path": "Audio/output/1295/conclusion.wav",
+          "duration": 94.109542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 94.109542,
+          "startTime": 1796.966292,
+          "endTime": 1891.075834
+        }
+      ],
+      "totalDuration": 1891.075834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.24,
+          "actualStart": 0,
+          "actualEnd": 87.236542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up on the Edge of Nowhere",
+          "expectedStart": 87.24,
+          "expectedEnd": 285.56,
+          "actualStart": 88.736542,
+          "actualEnd": 287.055375,
+          "timeDifference": 1.4965420000000051
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Family Ties and Fractures",
+          "expectedStart": 285.56,
+          "expectedEnd": 514.08,
+          "actualStart": 288.555375,
+          "actualEnd": 517.079792,
+          "timeDifference": 2.995375000000024
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight of Poverty and Rural Life",
+          "expectedStart": 514.08,
+          "expectedEnd": 710.12,
+          "actualStart": 518.579792,
+          "actualEnd": 714.622625,
+          "timeDifference": 4.499791999999957
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Escaping Through Imagination and Pop Culture",
+          "expectedStart": 710.12,
+          "expectedEnd": 917.46,
+          "actualStart": 716.122625,
+          "actualEnd": 923.463167,
+          "timeDifference": 6.002624999999966
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Strength in Honesty and Ambition",
+          "expectedStart": 917.46,
+          "expectedEnd": 1093.79,
+          "actualStart": 924.963167,
+          "actualEnd": 1101.297917,
+          "timeDifference": 7.503166999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The First Steps Out",
+          "expectedStart": 1093.79,
+          "expectedEnd": 1252.69,
+          "actualStart": 1102.797917,
+          "actualEnd": 1261.695375,
+          "timeDifference": 9.007917000000134
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Loss, and Learning to Trust",
+          "expectedStart": 1252.69,
+          "expectedEnd": 1401.12,
+          "actualStart": 1263.195375,
+          "actualEnd": 1411.623,
+          "timeDifference": 10.505374999999958
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shadow of the Past",
+          "expectedStart": 1401.12,
+          "expectedEnd": 1550.42,
+          "actualStart": 1413.123,
+          "actualEnd": 1562.425125,
+          "timeDifference": 12.003000000000156
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Redefining Success",
+          "expectedStart": 1550.42,
+          "expectedEnd": 1666.4,
+          "actualStart": 1563.925125,
+          "actualEnd": 1679.907042,
+          "timeDifference": 13.505124999999907
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Giving Back and Moving Forward",
+          "expectedStart": 1666.4,
+          "expectedEnd": 1780.46,
+          "actualStart": 1681.407042,
+          "actualEnd": 1795.466292,
+          "timeDifference": 15.007041999999956
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1780.46,
+          "expectedEnd": 1874.57,
+          "actualStart": 1796.966292,
+          "actualEnd": 1891.075834,
+          "timeDifference": 16.50629200000003
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.236542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up on the Edge of Nowhere"
+        },
+        {
+          "startTime": 287.055375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up on the Edge of Nowhere and Chapter 2 Family Ties and Fractures"
+        },
+        {
+          "startTime": 517.079792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Family Ties and Fractures and Chapter 3 The Weight of Poverty and Rural Life"
+        },
+        {
+          "startTime": 714.622625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight of Poverty and Rural Life and Chapter 4 Escaping Through Imagination and Pop Culture"
+        },
+        {
+          "startTime": 923.463167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Escaping Through Imagination and Pop Culture and Chapter 5 Finding Strength in Honesty and Ambition"
+        },
+        {
+          "startTime": 1101.297917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Strength in Honesty and Ambition and Chapter 6 The First Steps Out"
+        },
+        {
+          "startTime": 1261.695375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The First Steps Out and Chapter 7 Love, Loss, and Learning to Trust"
+        },
+        {
+          "startTime": 1411.623,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Loss, and Learning to Trust and Chapter 8 The Shadow of the Past"
+        },
+        {
+          "startTime": 1562.425125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shadow of the Past and Chapter 9 Redefining Success"
+        },
+        {
+          "startTime": 1679.907042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Redefining Success and Chapter 10 Giving Back and Moving Forward"
+        },
+        {
+          "startTime": 1795.466292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Giving Back and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1295",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T03:58:42.483Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

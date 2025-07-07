@@ -1,0 +1,457 @@
+{
+  "bookId": "1254",
+  "timestamp": "2025-07-07T01:00:41.498Z",
+  "success": false,
+  "processingTime": -1751849678261,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4112,
+    "totalAudioFiles": 12,
+    "totalDuration": 2351.841459
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2351.841459
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1254/optimized_text/1254.md",
+    "fileSize": 1181,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1254.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1254/metadata/1254_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2351.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1254/metadata/1254_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1254/metadata/1254_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1254/1254_complete.wav",
+    "duration": 2351.841458,
+    "fileSize": 112888468,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1254/introduction.wav",
+          "duration": 107.097917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.097917,
+          "startTime": 0,
+          "endTime": 107.097917
+        },
+        {
+          "path": "Audio/output/1254/chapter_01.wav",
+          "duration": 251.682958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "الفصل الأول: بدايات في أرض قاحلة – الجذور والطفولة في مكة",
+          "actualDuration": 251.682958,
+          "startTime": 108.597917,
+          "endTime": 360.28087500000004
+        },
+        {
+          "path": "Audio/output/1254/chapter_02.wav",
+          "duration": 282.49325,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "الفصل الثاني: بداية الرسالة – الوحي والصدمة الأولى",
+          "actualDuration": 282.49325,
+          "startTime": 361.78087500000004,
+          "endTime": 644.274125
+        },
+        {
+          "path": "Audio/output/1254/chapter_03.wav",
+          "duration": 263.490792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "الفصل الثالث: سنوات الصبر والمواجهة – التحديات في مكة",
+          "actualDuration": 263.490792,
+          "startTime": 645.774125,
+          "endTime": 909.264917
+        },
+        {
+          "path": "Audio/output/1254/chapter_04.wav",
+          "duration": 262.484,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "الفصل الرابع: الهجرة إلى المدينة – بداية مجتمع جديد",
+          "actualDuration": 262.484,
+          "startTime": 910.764917,
+          "endTime": 1173.248917
+        },
+        {
+          "path": "Audio/output/1254/chapter_05.wav",
+          "duration": 244.639875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "الفصل الخامس: بناء الدولة ومواجهة التحديات – الغزوات والصلح",
+          "actualDuration": 244.639875,
+          "startTime": 1174.748917,
+          "endTime": 1419.388792
+        },
+        {
+          "path": "Audio/output/1254/chapter_06.wav",
+          "duration": 202.278625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "الفصل السادس: فتح مكة – لحظة الانتصار والتسامح",
+          "actualDuration": 202.278625,
+          "startTime": 1420.888792,
+          "endTime": 1623.167417
+        },
+        {
+          "path": "Audio/output/1254/chapter_07.wav",
+          "duration": 174.710125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "الفصل السابع: بناء الإنسان والمجتمع – التشريع والرحمة في الحياة اليومية",
+          "actualDuration": 174.710125,
+          "startTime": 1624.667417,
+          "endTime": 1799.377542
+        },
+        {
+          "path": "Audio/output/1254/chapter_08.wav",
+          "duration": 149.806208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "الفصل الثامن: التحديات الأخيرة – الوفود، الوداع، ورسالة البقاء",
+          "actualDuration": 149.806208,
+          "startTime": 1800.877542,
+          "endTime": 1950.68375
+        },
+        {
+          "path": "Audio/output/1254/chapter_09.wav",
+          "duration": 135.112292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "الفصل التاسع: إرث النبوة – أثر السيرة في القلوب والعقول",
+          "actualDuration": 135.112292,
+          "startTime": 1952.18375,
+          "endTime": 2087.296042
+        },
+        {
+          "path": "Audio/output/1254/chapter_10.wav",
+          "duration": 150.941667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "الفصل العاشر: السيرة في مرآة اليوم – دروس للزمن الحديث",
+          "actualDuration": 150.941667,
+          "startTime": 2088.796042,
+          "endTime": 2239.737709
+        },
+        {
+          "path": "Audio/output/1254/chapter_11.wav",
+          "duration": 127.10375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "الخاتمة: كيف نعيش السيرة اليوم؟",
+          "actualDuration": 127.10375,
+          "startTime": 2241.237709,
+          "endTime": 2368.341459
+        }
+      ],
+      "totalDuration": 2368.341459,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.1,
+          "actualStart": 0,
+          "actualEnd": 107.097917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "الفصل الأول: بدايات في أرض قاحلة – الجذور والطفولة في مكة",
+          "expectedStart": 107.1,
+          "expectedEnd": 358.78,
+          "actualStart": 108.597917,
+          "actualEnd": 360.28087500000004,
+          "timeDifference": 1.497917000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "الفصل الثاني: بداية الرسالة – الوحي والصدمة الأولى",
+          "expectedStart": 358.78,
+          "expectedEnd": 641.27,
+          "actualStart": 361.78087500000004,
+          "actualEnd": 644.274125,
+          "timeDifference": 3.0008750000000646
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "الفصل الثالث: سنوات الصبر والمواجهة – التحديات في مكة",
+          "expectedStart": 641.27,
+          "expectedEnd": 904.76,
+          "actualStart": 645.774125,
+          "actualEnd": 909.264917,
+          "timeDifference": 4.504125000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "الفصل الرابع: الهجرة إلى المدينة – بداية مجتمع جديد",
+          "expectedStart": 904.76,
+          "expectedEnd": 1167.24,
+          "actualStart": 910.764917,
+          "actualEnd": 1173.248917,
+          "timeDifference": 6.004916999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "الفصل الخامس: بناء الدولة ومواجهة التحديات – الغزوات والصلح",
+          "expectedStart": 1167.24,
+          "expectedEnd": 1411.88,
+          "actualStart": 1174.748917,
+          "actualEnd": 1419.388792,
+          "timeDifference": 7.508916999999883
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "الفصل السادس: فتح مكة – لحظة الانتصار والتسامح",
+          "expectedStart": 1411.88,
+          "expectedEnd": 1614.16,
+          "actualStart": 1420.888792,
+          "actualEnd": 1623.167417,
+          "timeDifference": 9.008791999999858
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "الفصل السابع: بناء الإنسان والمجتمع – التشريع والرحمة في الحياة اليومية",
+          "expectedStart": 1614.16,
+          "expectedEnd": 1788.87,
+          "actualStart": 1624.667417,
+          "actualEnd": 1799.377542,
+          "timeDifference": 10.507416999999805
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "الفصل الثامن: التحديات الأخيرة – الوفود، الوداع، ورسالة البقاء",
+          "expectedStart": 1788.87,
+          "expectedEnd": 1938.68,
+          "actualStart": 1800.877542,
+          "actualEnd": 1950.68375,
+          "timeDifference": 12.007542000000058
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "الفصل التاسع: إرث النبوة – أثر السيرة في القلوب والعقول",
+          "expectedStart": 1938.68,
+          "expectedEnd": 2073.79,
+          "actualStart": 1952.18375,
+          "actualEnd": 2087.296042,
+          "timeDifference": 13.503749999999854
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "الفصل العاشر: السيرة في مرآة اليوم – دروس للزمن الحديث",
+          "expectedStart": 2073.79,
+          "expectedEnd": 2224.73,
+          "actualStart": 2088.796042,
+          "actualEnd": 2239.737709,
+          "timeDifference": 15.00604199999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "الخاتمة: كيف نعيش السيرة اليوم؟",
+          "expectedStart": 2224.73,
+          "expectedEnd": 2351.83,
+          "actualStart": 2241.237709,
+          "actualEnd": 2368.341459,
+          "timeDifference": 16.507708999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.097917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and الفصل الأول: بدايات في أرض قاحلة – الجذور والطفولة في مكة"
+        },
+        {
+          "startTime": 360.28087500000004,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الأول: بدايات في أرض قاحلة – الجذور والطفولة في مكة and الفصل الثاني: بداية الرسالة – الوحي والصدمة الأولى"
+        },
+        {
+          "startTime": 644.274125,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الثاني: بداية الرسالة – الوحي والصدمة الأولى and الفصل الثالث: سنوات الصبر والمواجهة – التحديات في مكة"
+        },
+        {
+          "startTime": 909.264917,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الثالث: سنوات الصبر والمواجهة – التحديات في مكة and الفصل الرابع: الهجرة إلى المدينة – بداية مجتمع جديد"
+        },
+        {
+          "startTime": 1173.248917,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الرابع: الهجرة إلى المدينة – بداية مجتمع جديد and الفصل الخامس: بناء الدولة ومواجهة التحديات – الغزوات والصلح"
+        },
+        {
+          "startTime": 1419.388792,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الخامس: بناء الدولة ومواجهة التحديات – الغزوات والصلح and الفصل السادس: فتح مكة – لحظة الانتصار والتسامح"
+        },
+        {
+          "startTime": 1623.167417,
+          "duration": 1.5,
+          "reason": "Gap between الفصل السادس: فتح مكة – لحظة الانتصار والتسامح and الفصل السابع: بناء الإنسان والمجتمع – التشريع والرحمة في الحياة اليومية"
+        },
+        {
+          "startTime": 1799.377542,
+          "duration": 1.5,
+          "reason": "Gap between الفصل السابع: بناء الإنسان والمجتمع – التشريع والرحمة في الحياة اليومية and الفصل الثامن: التحديات الأخيرة – الوفود، الوداع، ورسالة البقاء"
+        },
+        {
+          "startTime": 1950.68375,
+          "duration": 1.5,
+          "reason": "Gap between الفصل الثامن: التحديات الأخيرة – الوفود، الوداع، ورسالة البقاء and الفصل التاسع: إرث النبوة – أثر السيرة في القلوب والعقول"
+        },
+        {
+          "startTime": 2087.296042,
+          "duration": 1.5,
+          "reason": "Gap between الفصل التاسع: إرث النبوة – أثر السيرة في القلوب والعقول and الفصل العاشر: السيرة في مرآة اليوم – دروس للزمن الحديث"
+        },
+        {
+          "startTime": 2239.737709,
+          "duration": 1.5,
+          "reason": "Gap between الفصل العاشر: السيرة في مرآة اليوم – دروس للزمن الحديث and الخاتمة: كيف نعيش السيرة اليوم؟"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1254",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T00:54:39.441Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

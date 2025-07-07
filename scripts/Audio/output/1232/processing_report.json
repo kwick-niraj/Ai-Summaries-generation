@@ -1,0 +1,456 @@
+{
+  "bookId": "1232",
+  "timestamp": "2025-07-06T22:55:57.324Z",
+  "success": false,
+  "processingTime": -1751842291698,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4114,
+    "totalAudioFiles": 12,
+    "totalDuration": 2109.4354590000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2109.4354590000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1232/optimized_text/1232.md",
+    "fileSize": 791,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1232.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1232/metadata/1232_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2109.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1232/metadata/1232_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1232/metadata/1232_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1232/1232_complete.wav",
+    "duration": 2109.435458,
+    "fileSize": 101252980,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1232/introduction.wav",
+          "duration": 102.324542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.324542,
+          "startTime": 0,
+          "endTime": 102.324542
+        },
+        {
+          "path": "Audio/output/1232/chapter_01.wav",
+          "duration": 243.603542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Creativity—From Lone Genius to Open Process",
+          "actualDuration": 243.603542,
+          "startTime": 103.824542,
+          "endTime": 347.428084
+        },
+        {
+          "path": "Audio/output/1232/chapter_02.wav",
+          "duration": 205.671625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Being an Amateur and Embracing the Learner’s Mindset",
+          "actualDuration": 205.671625,
+          "startTime": 348.928084,
+          "endTime": 554.5997090000001
+        },
+        {
+          "path": "Audio/output/1232/chapter_03.wav",
+          "duration": 251.859917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Documenting the Journey—Making the Invisible Visible",
+          "actualDuration": 251.859917,
+          "startTime": 556.0997090000001,
+          "endTime": 807.9596260000001
+        },
+        {
+          "path": "Audio/output/1232/chapter_04.wav",
+          "duration": 236.366417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Sharing Generously—Teaching, Inspiring, and Building Community",
+          "actualDuration": 236.366417,
+          "startTime": 809.4596260000001,
+          "endTime": 1045.826043
+        },
+        {
+          "path": "Audio/output/1232/chapter_05.wav",
+          "duration": 215.754083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Self-Promotion—Staying Authentic and Avoiding “Human Spam”",
+          "actualDuration": 215.754083,
+          "startTime": 1047.326043,
+          "endTime": 1263.080126
+        },
+        {
+          "path": "Audio/output/1232/chapter_06.wav",
+          "duration": 173.55775,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Rhythm of Consistency—Showing Up Every Day",
+          "actualDuration": 173.55775,
+          "startTime": 1264.580126,
+          "endTime": 1438.137876
+        },
+        {
+          "path": "Audio/output/1232/chapter_07.wav",
+          "duration": 152.630333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Learning to Take Criticism—Building Resilience and Perspective",
+          "actualDuration": 152.630333,
+          "startTime": 1439.637876,
+          "endTime": 1592.268209
+        },
+        {
+          "path": "Audio/output/1232/chapter_08.wav",
+          "duration": 136.25475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Finding Your People—Connecting with Like Minds",
+          "actualDuration": 136.25475,
+          "startTime": 1593.768209,
+          "endTime": 1730.0229590000001
+        },
+        {
+          "path": "Audio/output/1232/chapter_09.wav",
+          "duration": 137.06575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Staying True as You Grow—Evolving Without Losing Yourself",
+          "actualDuration": 137.06575,
+          "startTime": 1731.5229590000001,
+          "endTime": 1868.588709
+        },
+        {
+          "path": "Audio/output/1232/chapter_10.wav",
+          "duration": 132.752958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Game—Sustaining Creativity Over a Lifetime",
+          "actualDuration": 132.752958,
+          "startTime": 1870.088709,
+          "endTime": 2002.8416670000001
+        },
+        {
+          "path": "Audio/output/1232/conclusion.wav",
+          "duration": 121.593792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.593792,
+          "startTime": 2004.3416670000001,
+          "endTime": 2125.9354590000003
+        }
+      ],
+      "totalDuration": 2125.9354590000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.32,
+          "actualStart": 0,
+          "actualEnd": 102.324542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Creativity—From Lone Genius to Open Process",
+          "expectedStart": 102.32,
+          "expectedEnd": 345.92,
+          "actualStart": 103.824542,
+          "actualEnd": 347.428084,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Being an Amateur and Embracing the Learner’s Mindset",
+          "expectedStart": 345.92,
+          "expectedEnd": 551.59,
+          "actualStart": 348.928084,
+          "actualEnd": 554.5997090000001,
+          "timeDifference": 3.0080839999999966
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Documenting the Journey—Making the Invisible Visible",
+          "expectedStart": 551.59,
+          "expectedEnd": 803.45,
+          "actualStart": 556.0997090000001,
+          "actualEnd": 807.9596260000001,
+          "timeDifference": 4.5097090000000435
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Sharing Generously—Teaching, Inspiring, and Building Community",
+          "expectedStart": 803.45,
+          "expectedEnd": 1039.82,
+          "actualStart": 809.4596260000001,
+          "actualEnd": 1045.826043,
+          "timeDifference": 6.009626000000026
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Self-Promotion—Staying Authentic and Avoiding “Human Spam”",
+          "expectedStart": 1039.82,
+          "expectedEnd": 1255.57,
+          "actualStart": 1047.326043,
+          "actualEnd": 1263.080126,
+          "timeDifference": 7.506043000000091
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Rhythm of Consistency—Showing Up Every Day",
+          "expectedStart": 1255.57,
+          "expectedEnd": 1429.13,
+          "actualStart": 1264.580126,
+          "actualEnd": 1438.137876,
+          "timeDifference": 9.010126000000128
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Learning to Take Criticism—Building Resilience and Perspective",
+          "expectedStart": 1429.13,
+          "expectedEnd": 1581.76,
+          "actualStart": 1439.637876,
+          "actualEnd": 1592.268209,
+          "timeDifference": 10.507875999999897
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Finding Your People—Connecting with Like Minds",
+          "expectedStart": 1581.76,
+          "expectedEnd": 1718.01,
+          "actualStart": 1593.768209,
+          "actualEnd": 1730.0229590000001,
+          "timeDifference": 12.008209000000079
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Staying True as You Grow—Evolving Without Losing Yourself",
+          "expectedStart": 1718.01,
+          "expectedEnd": 1855.08,
+          "actualStart": 1731.5229590000001,
+          "actualEnd": 1868.588709,
+          "timeDifference": 13.512959000000137
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Game—Sustaining Creativity Over a Lifetime",
+          "expectedStart": 1855.08,
+          "expectedEnd": 1987.83,
+          "actualStart": 1870.088709,
+          "actualEnd": 2002.8416670000001,
+          "timeDifference": 15.00870900000018
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1987.83,
+          "expectedEnd": 2109.42,
+          "actualStart": 2004.3416670000001,
+          "actualEnd": 2125.9354590000003,
+          "timeDifference": 16.511667000000216
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.324542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Creativity—From Lone Genius to Open Process"
+        },
+        {
+          "startTime": 347.428084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Creativity—From Lone Genius to Open Process and Chapter 2 The Power of Being an Amateur and Embracing the Learner’s Mindset"
+        },
+        {
+          "startTime": 554.5997090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Being an Amateur and Embracing the Learner’s Mindset and Chapter 3 Documenting the Journey—Making the Invisible Visible"
+        },
+        {
+          "startTime": 807.9596260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Documenting the Journey—Making the Invisible Visible and Chapter 4 Sharing Generously—Teaching, Inspiring, and Building Community"
+        },
+        {
+          "startTime": 1045.826043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Sharing Generously—Teaching, Inspiring, and Building Community and Chapter 5 Navigating Self-Promotion—Staying Authentic and Avoiding “Human Spam”"
+        },
+        {
+          "startTime": 1263.080126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Self-Promotion—Staying Authentic and Avoiding “Human Spam” and Chapter 6 The Rhythm of Consistency—Showing Up Every Day"
+        },
+        {
+          "startTime": 1438.137876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Rhythm of Consistency—Showing Up Every Day and Chapter 7 Learning to Take Criticism—Building Resilience and Perspective"
+        },
+        {
+          "startTime": 1592.268209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Learning to Take Criticism—Building Resilience and Perspective and Chapter 8 Finding Your People—Connecting with Like Minds"
+        },
+        {
+          "startTime": 1730.0229590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Finding Your People—Connecting with Like Minds and Chapter 9 Staying True as You Grow—Evolving Without Losing Yourself"
+        },
+        {
+          "startTime": 1868.588709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Staying True as You Grow—Evolving Without Losing Yourself and Chapter 10 The Long Game—Sustaining Creativity Over a Lifetime"
+        },
+        {
+          "startTime": 2002.8416670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Game—Sustaining Creativity Over a Lifetime and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1232",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T22:51:32.893Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

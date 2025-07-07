@@ -1,0 +1,456 @@
+{
+  "bookId": "1228",
+  "timestamp": "2025-07-06T22:39:41.560Z",
+  "success": false,
+  "processingTime": -1751841292274,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4298,
+    "totalAudioFiles": 12,
+    "totalDuration": 2205.205584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2205.205584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1228/optimized_text/1228.md",
+    "fileSize": 677,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "1228.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1228/metadata/1228_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2205.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1228/metadata/1228_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1228/metadata/1228_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1228/1228_complete.wav",
+    "duration": 2205.205583,
+    "fileSize": 105849946,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1228/introduction.wav",
+          "duration": 96.193042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.193042,
+          "startTime": 0,
+          "endTime": 96.193042
+        },
+        {
+          "path": "Audio/output/1228/chapter_01.wav",
+          "duration": 183.322667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Aging: From Decline to Opportunity",
+          "actualDuration": 183.322667,
+          "startTime": 97.693042,
+          "endTime": 281.015709
+        },
+        {
+          "path": "Audio/output/1228/chapter_02.wav",
+          "duration": 203.161125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Positive Mindset for Lifelong Enthusiasm",
+          "actualDuration": 203.161125,
+          "startTime": 282.515709,
+          "endTime": 485.676834
+        },
+        {
+          "path": "Audio/output/1228/chapter_03.wav",
+          "duration": 197.444917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Physical Vitality: The Cornerstone of Healthy Aging",
+          "actualDuration": 197.444917,
+          "startTime": 487.176834,
+          "endTime": 684.621751
+        },
+        {
+          "path": "Audio/output/1228/chapter_04.wav",
+          "duration": 190.902875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Keeping the Mind Sharp and Engaged",
+          "actualDuration": 190.902875,
+          "startTime": 686.121751,
+          "endTime": 877.024626
+        },
+        {
+          "path": "Audio/output/1228/chapter_05.wav",
+          "duration": 203.113583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Emotional Wellness and the Power of Resilience",
+          "actualDuration": 203.113583,
+          "startTime": 878.524626,
+          "endTime": 1081.638209
+        },
+        {
+          "path": "Audio/output/1228/chapter_06.wav",
+          "duration": 208.932625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Vital Role of Social Connection",
+          "actualDuration": 208.932625,
+          "startTime": 1083.138209,
+          "endTime": 1292.0708339999999
+        },
+        {
+          "path": "Audio/output/1228/chapter_07.wav",
+          "duration": 190.255625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Purpose and Meaning: The Heartbeat of Rejuvenaging",
+          "actualDuration": 190.255625,
+          "startTime": 1293.5708339999999,
+          "endTime": 1483.8264589999999
+        },
+        {
+          "path": "Audio/output/1228/chapter_08.wav",
+          "duration": 198.597417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Principles: Daily Practices for Rejuvenaging",
+          "actualDuration": 198.597417,
+          "startTime": 1485.3264589999999,
+          "endTime": 1683.9238759999998
+        },
+        {
+          "path": "Audio/output/1228/chapter_09.wav",
+          "duration": 189.248458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Transitions and Embracing Change",
+          "actualDuration": 189.248458,
+          "startTime": 1685.4238759999998,
+          "endTime": 1874.6723339999999
+        },
+        {
+          "path": "Audio/output/1228/chapter_10.wav",
+          "duration": 189.323,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Enthusiasm: The Ongoing Practice of Rejuvenaging",
+          "actualDuration": 189.323,
+          "startTime": 1876.1723339999999,
+          "endTime": 2065.4953339999997
+        },
+        {
+          "path": "Audio/output/1228/conclusion.wav",
+          "duration": 154.71025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 154.71025,
+          "startTime": 2066.9953339999997,
+          "endTime": 2221.705584
+        }
+      ],
+      "totalDuration": 2221.705584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.19,
+          "actualStart": 0,
+          "actualEnd": 96.193042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Aging: From Decline to Opportunity",
+          "expectedStart": 96.19,
+          "expectedEnd": 279.51,
+          "actualStart": 97.693042,
+          "actualEnd": 281.015709,
+          "timeDifference": 1.5030420000000078
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Positive Mindset for Lifelong Enthusiasm",
+          "expectedStart": 279.51,
+          "expectedEnd": 482.67,
+          "actualStart": 282.515709,
+          "actualEnd": 485.676834,
+          "timeDifference": 3.0057090000000244
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Physical Vitality: The Cornerstone of Healthy Aging",
+          "expectedStart": 482.67,
+          "expectedEnd": 680.11,
+          "actualStart": 487.176834,
+          "actualEnd": 684.621751,
+          "timeDifference": 4.506833999999969
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Keeping the Mind Sharp and Engaged",
+          "expectedStart": 680.11,
+          "expectedEnd": 871.01,
+          "actualStart": 686.121751,
+          "actualEnd": 877.024626,
+          "timeDifference": 6.011751000000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Emotional Wellness and the Power of Resilience",
+          "expectedStart": 871.01,
+          "expectedEnd": 1074.12,
+          "actualStart": 878.524626,
+          "actualEnd": 1081.638209,
+          "timeDifference": 7.514626000000021
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Vital Role of Social Connection",
+          "expectedStart": 1074.12,
+          "expectedEnd": 1283.05,
+          "actualStart": 1083.138209,
+          "actualEnd": 1292.0708339999999,
+          "timeDifference": 9.01820900000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Purpose and Meaning: The Heartbeat of Rejuvenaging",
+          "expectedStart": 1283.05,
+          "expectedEnd": 1473.31,
+          "actualStart": 1293.5708339999999,
+          "actualEnd": 1483.8264589999999,
+          "timeDifference": 10.520833999999923
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Principles: Daily Practices for Rejuvenaging",
+          "expectedStart": 1473.31,
+          "expectedEnd": 1671.91,
+          "actualStart": 1485.3264589999999,
+          "actualEnd": 1683.9238759999998,
+          "timeDifference": 12.01645899999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Transitions and Embracing Change",
+          "expectedStart": 1671.91,
+          "expectedEnd": 1861.16,
+          "actualStart": 1685.4238759999998,
+          "actualEnd": 1874.6723339999999,
+          "timeDifference": 13.513875999999755
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Enthusiasm: The Ongoing Practice of Rejuvenaging",
+          "expectedStart": 1861.16,
+          "expectedEnd": 2050.48,
+          "actualStart": 1876.1723339999999,
+          "actualEnd": 2065.4953339999997,
+          "timeDifference": 15.012333999999782
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2050.48,
+          "expectedEnd": 2205.19,
+          "actualStart": 2066.9953339999997,
+          "actualEnd": 2221.705584,
+          "timeDifference": 16.51533399999971
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.193042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Aging: From Decline to Opportunity"
+        },
+        {
+          "startTime": 281.015709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Aging: From Decline to Opportunity and Chapter 2 Building a Positive Mindset for Lifelong Enthusiasm"
+        },
+        {
+          "startTime": 485.676834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Positive Mindset for Lifelong Enthusiasm and Chapter 3 Physical Vitality: The Cornerstone of Healthy Aging"
+        },
+        {
+          "startTime": 684.621751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Physical Vitality: The Cornerstone of Healthy Aging and Chapter 4 Keeping the Mind Sharp and Engaged"
+        },
+        {
+          "startTime": 877.024626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Keeping the Mind Sharp and Engaged and Chapter 5 Emotional Wellness and the Power of Resilience"
+        },
+        {
+          "startTime": 1081.638209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Emotional Wellness and the Power of Resilience and Chapter 6 The Vital Role of Social Connection"
+        },
+        {
+          "startTime": 1292.0708339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Vital Role of Social Connection and Chapter 7 Purpose and Meaning: The Heartbeat of Rejuvenaging"
+        },
+        {
+          "startTime": 1483.8264589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Purpose and Meaning: The Heartbeat of Rejuvenaging and Chapter 8 Integrating the Principles: Daily Practices for Rejuvenaging"
+        },
+        {
+          "startTime": 1683.9238759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Principles: Daily Practices for Rejuvenaging and Chapter 9 Navigating Transitions and Embracing Change"
+        },
+        {
+          "startTime": 1874.6723339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Transitions and Embracing Change and Chapter 10 Sustaining Enthusiasm: The Ongoing Practice of Rejuvenaging"
+        },
+        {
+          "startTime": 2065.4953339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Enthusiasm: The Ongoing Practice of Rejuvenaging and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1228",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T22:34:53.465Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

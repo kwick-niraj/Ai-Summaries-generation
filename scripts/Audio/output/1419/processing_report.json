@@ -1,0 +1,456 @@
+{
+  "bookId": "1419",
+  "timestamp": "2025-07-07T14:46:32.742Z",
+  "success": false,
+  "processingTime": -1751899089142,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4837,
+    "totalAudioFiles": 12,
+    "totalDuration": 2104.8095
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2104.8095
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1419/optimized_text/1419.md",
+    "fileSize": 511,
+    "wordCount": 74,
+    "format": "markdown",
+    "filename": "1419.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1419/metadata/1419_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2104.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1419/metadata/1419_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1419/metadata/1419_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1419/1419_complete.wav",
+    "duration": 2104.8095,
+    "fileSize": 101030934,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1419/introduction.wav",
+          "duration": 108.307292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.307292,
+          "startTime": 0,
+          "endTime": 108.307292
+        },
+        {
+          "path": "Audio/output/1419/chapter_01.wav",
+          "duration": 208.022292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Land of Stories and Paths",
+          "actualDuration": 208.022292,
+          "startTime": 109.807292,
+          "endTime": 317.829584
+        },
+        {
+          "path": "Audio/output/1419/chapter_02.wav",
+          "duration": 204.071583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Meeting the Keepers of Memory",
+          "actualDuration": 204.071583,
+          "startTime": 319.329584,
+          "endTime": 523.401167
+        },
+        {
+          "path": "Audio/output/1419/chapter_03.wav",
+          "duration": 202.521792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Land as a Living Map",
+          "actualDuration": 202.521792,
+          "startTime": 524.901167,
+          "endTime": 727.422959
+        },
+        {
+          "path": "Audio/output/1419/chapter_04.wav",
+          "duration": 183.337167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Universal Pull of Wandering",
+          "actualDuration": 183.337167,
+          "startTime": 728.922959,
+          "endTime": 912.260126
+        },
+        {
+          "path": "Audio/output/1419/chapter_05.wav",
+          "duration": 179.694417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Stories, Memory, and the Search for Meaning",
+          "actualDuration": 179.694417,
+          "startTime": 913.760126,
+          "endTime": 1093.454543
+        },
+        {
+          "path": "Audio/output/1419/chapter_06.wav",
+          "duration": 211.15625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Fragile Bridge Between Worlds",
+          "actualDuration": 211.15625,
+          "startTime": 1094.954543,
+          "endTime": 1306.110793
+        },
+        {
+          "path": "Audio/output/1419/chapter_07.wav",
+          "duration": 181.881083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Silence Between the Songs",
+          "actualDuration": 181.881083,
+          "startTime": 1307.610793,
+          "endTime": 1489.491876
+        },
+        {
+          "path": "Audio/output/1419/chapter_08.wav",
+          "duration": 199.858083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Challenge of Translation",
+          "actualDuration": 199.858083,
+          "startTime": 1490.991876,
+          "endTime": 1690.8499590000001
+        },
+        {
+          "path": "Audio/output/1419/chapter_09.wav",
+          "duration": 184.309333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Relevance of Songlines",
+          "actualDuration": 184.309333,
+          "startTime": 1692.3499590000001,
+          "endTime": 1876.659292
+        },
+        {
+          "path": "Audio/output/1419/chapter_10.wav",
+          "duration": 127.171625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Returning Changed",
+          "actualDuration": 127.171625,
+          "startTime": 1878.159292,
+          "endTime": 2005.330917
+        },
+        {
+          "path": "Audio/output/1419/conclusion.wav",
+          "duration": 114.478583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.478583,
+          "startTime": 2006.830917,
+          "endTime": 2121.3095
+        }
+      ],
+      "totalDuration": 2121.3095,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.31,
+          "actualStart": 0,
+          "actualEnd": 108.307292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Land of Stories and Paths",
+          "expectedStart": 108.31,
+          "expectedEnd": 316.33,
+          "actualStart": 109.807292,
+          "actualEnd": 317.829584,
+          "timeDifference": 1.4972920000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Meeting the Keepers of Memory",
+          "expectedStart": 316.33,
+          "expectedEnd": 520.4,
+          "actualStart": 319.329584,
+          "actualEnd": 523.401167,
+          "timeDifference": 2.999584000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Land as a Living Map",
+          "expectedStart": 520.4,
+          "expectedEnd": 722.92,
+          "actualStart": 524.901167,
+          "actualEnd": 727.422959,
+          "timeDifference": 4.5011670000000095
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Universal Pull of Wandering",
+          "expectedStart": 722.92,
+          "expectedEnd": 906.26,
+          "actualStart": 728.922959,
+          "actualEnd": 912.260126,
+          "timeDifference": 6.002959000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Stories, Memory, and the Search for Meaning",
+          "expectedStart": 906.26,
+          "expectedEnd": 1085.95,
+          "actualStart": 913.760126,
+          "actualEnd": 1093.454543,
+          "timeDifference": 7.500126000000023
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Fragile Bridge Between Worlds",
+          "expectedStart": 1085.95,
+          "expectedEnd": 1297.11,
+          "actualStart": 1094.954543,
+          "actualEnd": 1306.110793,
+          "timeDifference": 9.004543000000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Silence Between the Songs",
+          "expectedStart": 1297.11,
+          "expectedEnd": 1478.99,
+          "actualStart": 1307.610793,
+          "actualEnd": 1489.491876,
+          "timeDifference": 10.500793000000158
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Challenge of Translation",
+          "expectedStart": 1478.99,
+          "expectedEnd": 1678.85,
+          "actualStart": 1490.991876,
+          "actualEnd": 1690.8499590000001,
+          "timeDifference": 12.001876000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Relevance of Songlines",
+          "expectedStart": 1678.85,
+          "expectedEnd": 1863.16,
+          "actualStart": 1692.3499590000001,
+          "actualEnd": 1876.659292,
+          "timeDifference": 13.499959000000217
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Returning Changed",
+          "expectedStart": 1863.16,
+          "expectedEnd": 1990.33,
+          "actualStart": 1878.159292,
+          "actualEnd": 2005.330917,
+          "timeDifference": 14.999291999999969
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1990.33,
+          "expectedEnd": 2104.81,
+          "actualStart": 2006.830917,
+          "actualEnd": 2121.3095,
+          "timeDifference": 16.500917000000072
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.307292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Land of Stories and Paths"
+        },
+        {
+          "startTime": 317.829584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Land of Stories and Paths and Chapter 2 Meeting the Keepers of Memory"
+        },
+        {
+          "startTime": 523.401167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Meeting the Keepers of Memory and Chapter 3 The Land as a Living Map"
+        },
+        {
+          "startTime": 727.422959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Land as a Living Map and Chapter 4 The Universal Pull of Wandering"
+        },
+        {
+          "startTime": 912.260126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Universal Pull of Wandering and Chapter 5 Stories, Memory, and the Search for Meaning"
+        },
+        {
+          "startTime": 1093.454543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Stories, Memory, and the Search for Meaning and Chapter 6 The Fragile Bridge Between Worlds"
+        },
+        {
+          "startTime": 1306.110793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Fragile Bridge Between Worlds and Chapter 7 The Silence Between the Songs"
+        },
+        {
+          "startTime": 1489.491876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Silence Between the Songs and Chapter 8 The Challenge of Translation"
+        },
+        {
+          "startTime": 1690.8499590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Challenge of Translation and Chapter 9 The Enduring Relevance of Songlines"
+        },
+        {
+          "startTime": 1876.659292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Relevance of Songlines and Chapter 10 Returning Changed"
+        },
+        {
+          "startTime": 2005.330917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Returning Changed and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1419",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T14:38:10.348Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

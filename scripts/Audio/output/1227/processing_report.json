@@ -1,0 +1,456 @@
+{
+  "bookId": "1227",
+  "timestamp": "2025-07-06T22:34:51.271Z",
+  "success": false,
+  "processingTime": -1751840866769,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5314,
+    "totalAudioFiles": 12,
+    "totalDuration": 2651.563708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2651.563708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1227/optimized_text/1227.md",
+    "fileSize": 629,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1227.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1227/metadata/1227_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2651.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1227/metadata/1227_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1227/metadata/1227_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1227/1227_complete.wav",
+    "duration": 2651.563708,
+    "fileSize": 127275136,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1227/introduction.wav",
+          "duration": 88.373083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.373083,
+          "startTime": 0,
+          "endTime": 88.373083
+        },
+        {
+          "path": "Audio/output/1227/chapter_01.wav",
+          "duration": 281.514042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Making of a Leader",
+          "actualDuration": 281.514042,
+          "startTime": 89.873083,
+          "endTime": 371.387125
+        },
+        {
+          "path": "Audio/output/1227/chapter_02.wav",
+          "duration": 318.759,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Ambition, Love, and the Seizure of Power",
+          "actualDuration": 318.759,
+          "startTime": 372.887125,
+          "endTime": 691.646125
+        },
+        {
+          "path": "Audio/output/1227/chapter_03.wav",
+          "duration": 355.692875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Reforming France and Building an Empire",
+          "actualDuration": 355.692875,
+          "startTime": 693.146125,
+          "endTime": 1048.839
+        },
+        {
+          "path": "Audio/output/1227/chapter_04.wav",
+          "duration": 285.272167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 War, Innovation, and the Limits of Power",
+          "actualDuration": 285.272167,
+          "startTime": 1050.339,
+          "endTime": 1335.611167
+        },
+        {
+          "path": "Audio/output/1227/chapter_05.wav",
+          "duration": 215.787625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Fall and the Enduring Legacy",
+          "actualDuration": 215.787625,
+          "startTime": 1337.111167,
+          "endTime": 1552.898792
+        },
+        {
+          "path": "Audio/output/1227/chapter_06.wav",
+          "duration": 224.865458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Exile, Memory, and the Birth of a Legend",
+          "actualDuration": 224.865458,
+          "startTime": 1554.398792,
+          "endTime": 1779.26425
+        },
+        {
+          "path": "Audio/output/1227/chapter_07.wav",
+          "duration": 207.599417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadow of Napoleon—Europe After the Empire",
+          "actualDuration": 207.599417,
+          "startTime": 1780.76425,
+          "endTime": 1988.3636669999999
+        },
+        {
+          "path": "Audio/output/1227/chapter_08.wav",
+          "duration": 221.714458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Making of a Modern World",
+          "actualDuration": 221.714458,
+          "startTime": 1989.8636669999999,
+          "endTime": 2211.578125
+        },
+        {
+          "path": "Audio/output/1227/chapter_09.wav",
+          "duration": 183.7565,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Personal Cost—Family, Friends, and the Price of Greatness",
+          "actualDuration": 183.7565,
+          "startTime": 2213.078125,
+          "endTime": 2396.834625
+        },
+        {
+          "path": "Audio/output/1227/chapter_10.wav",
+          "duration": 139.431125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Debate—Hero, Tyrant, or Something More?",
+          "actualDuration": 139.431125,
+          "startTime": 2398.334625,
+          "endTime": 2537.76575
+        },
+        {
+          "path": "Audio/output/1227/conclusion.wav",
+          "duration": 128.797958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.797958,
+          "startTime": 2539.26575,
+          "endTime": 2668.063708
+        }
+      ],
+      "totalDuration": 2668.063708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.37,
+          "actualStart": 0,
+          "actualEnd": 88.373083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Making of a Leader",
+          "expectedStart": 88.37,
+          "expectedEnd": 369.88,
+          "actualStart": 89.873083,
+          "actualEnd": 371.387125,
+          "timeDifference": 1.5030829999999895
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Ambition, Love, and the Seizure of Power",
+          "expectedStart": 369.88,
+          "expectedEnd": 688.64,
+          "actualStart": 372.887125,
+          "actualEnd": 691.646125,
+          "timeDifference": 3.0071250000000305
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Reforming France and Building an Empire",
+          "expectedStart": 688.64,
+          "expectedEnd": 1044.33,
+          "actualStart": 693.146125,
+          "actualEnd": 1048.839,
+          "timeDifference": 4.506124999999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 War, Innovation, and the Limits of Power",
+          "expectedStart": 1044.33,
+          "expectedEnd": 1329.6,
+          "actualStart": 1050.339,
+          "actualEnd": 1335.611167,
+          "timeDifference": 6.0090000000000146
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Fall and the Enduring Legacy",
+          "expectedStart": 1329.6,
+          "expectedEnd": 1545.39,
+          "actualStart": 1337.111167,
+          "actualEnd": 1552.898792,
+          "timeDifference": 7.511167000000114
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Exile, Memory, and the Birth of a Legend",
+          "expectedStart": 1545.39,
+          "expectedEnd": 1770.26,
+          "actualStart": 1554.398792,
+          "actualEnd": 1779.26425,
+          "timeDifference": 9.008791999999858
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadow of Napoleon—Europe After the Empire",
+          "expectedStart": 1770.26,
+          "expectedEnd": 1977.86,
+          "actualStart": 1780.76425,
+          "actualEnd": 1988.3636669999999,
+          "timeDifference": 10.504249999999956
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Making of a Modern World",
+          "expectedStart": 1977.86,
+          "expectedEnd": 2199.57,
+          "actualStart": 1989.8636669999999,
+          "actualEnd": 2211.578125,
+          "timeDifference": 12.00366699999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Personal Cost—Family, Friends, and the Price of Greatness",
+          "expectedStart": 2199.57,
+          "expectedEnd": 2383.33,
+          "actualStart": 2213.078125,
+          "actualEnd": 2396.834625,
+          "timeDifference": 13.508124999999836
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Debate—Hero, Tyrant, or Something More?",
+          "expectedStart": 2383.33,
+          "expectedEnd": 2522.76,
+          "actualStart": 2398.334625,
+          "actualEnd": 2537.76575,
+          "timeDifference": 15.004625000000033
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2522.76,
+          "expectedEnd": 2651.56,
+          "actualStart": 2539.26575,
+          "actualEnd": 2668.063708,
+          "timeDifference": 16.505749999999807
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.373083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Struggles and the Making of a Leader"
+        },
+        {
+          "startTime": 371.387125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Making of a Leader and Chapter 2 Ambition, Love, and the Seizure of Power"
+        },
+        {
+          "startTime": 691.646125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Ambition, Love, and the Seizure of Power and Chapter 3 Reforming France and Building an Empire"
+        },
+        {
+          "startTime": 1048.839,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Reforming France and Building an Empire and Chapter 4 War, Innovation, and the Limits of Power"
+        },
+        {
+          "startTime": 1335.611167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 War, Innovation, and the Limits of Power and Chapter 5 The Fall and the Enduring Legacy"
+        },
+        {
+          "startTime": 1552.898792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Fall and the Enduring Legacy and Chapter 6 Exile, Memory, and the Birth of a Legend"
+        },
+        {
+          "startTime": 1779.26425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Exile, Memory, and the Birth of a Legend and Chapter 7 The Shadow of Napoleon—Europe After the Empire"
+        },
+        {
+          "startTime": 1988.3636669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadow of Napoleon—Europe After the Empire and Chapter 8 The Making of a Modern World"
+        },
+        {
+          "startTime": 2211.578125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Making of a Modern World and Chapter 9 The Personal Cost—Family, Friends, and the Price of Greatness"
+        },
+        {
+          "startTime": 2396.834625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Personal Cost—Family, Friends, and the Price of Greatness and Chapter 10 The Enduring Debate—Hero, Tyrant, or Something More?"
+        },
+        {
+          "startTime": 2537.76575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Debate—Hero, Tyrant, or Something More? and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1227",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T22:27:47.275Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

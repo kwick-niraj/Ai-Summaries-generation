@@ -1,0 +1,456 @@
+{
+  "bookId": "1355",
+  "timestamp": "2025-07-07T09:06:11.252Z",
+  "success": false,
+  "processingTime": -1751878866670,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4514,
+    "totalAudioFiles": 12,
+    "totalDuration": 1967.727207
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1967.727207
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1355/optimized_text/1355.md",
+    "fileSize": 527,
+    "wordCount": 73,
+    "format": "markdown",
+    "filename": "1355.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1355/metadata/1355_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1967.72,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1355/metadata/1355_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1355/metadata/1355_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1355/1355_complete.wav",
+    "duration": 1967.727208,
+    "fileSize": 94450984,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1355/introduction.wav",
+          "duration": 72.894292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.894292,
+          "startTime": 0,
+          "endTime": 72.894292
+        },
+        {
+          "path": "Audio/output/1355/chapter_01.wav",
+          "duration": 240.88275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Between Two Worlds",
+          "actualDuration": 240.88275,
+          "startTime": 74.394292,
+          "endTime": 315.277042
+        },
+        {
+          "path": "Audio/output/1355/chapter_02.wav",
+          "duration": 221.56475,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Memory and Exile",
+          "actualDuration": 221.56475,
+          "startTime": 316.777042,
+          "endTime": 538.3417919999999
+        },
+        {
+          "path": "Audio/output/1355/chapter_03.wav",
+          "duration": 225.163875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Food as a Bridge Between Generations",
+          "actualDuration": 225.163875,
+          "startTime": 539.8417919999999,
+          "endTime": 765.0056669999999
+        },
+        {
+          "path": "Audio/output/1355/chapter_04.wav",
+          "duration": 198.221958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Identity and Belonging",
+          "actualDuration": 198.221958,
+          "startTime": 766.5056669999999,
+          "endTime": 964.7276249999999
+        },
+        {
+          "path": "Audio/output/1355/chapter_05.wav",
+          "duration": 182.106333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Healing Through Stories and Shared Meals",
+          "actualDuration": 182.106333,
+          "startTime": 966.2276249999999,
+          "endTime": 1148.333958
+        },
+        {
+          "path": "Audio/output/1355/chapter_06.wav",
+          "duration": 177.80925,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rediscovering Roots in a Changing World",
+          "actualDuration": 177.80925,
+          "startTime": 1149.833958,
+          "endTime": 1327.643208
+        },
+        {
+          "path": "Audio/output/1355/chapter_07.wav",
+          "duration": 146.429208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Resilience of Everyday Rituals",
+          "actualDuration": 146.429208,
+          "startTime": 1329.143208,
+          "endTime": 1475.572416
+        },
+        {
+          "path": "Audio/output/1355/chapter_08.wav",
+          "duration": 141.846333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Passing the Torch",
+          "actualDuration": 141.846333,
+          "startTime": 1477.072416,
+          "endTime": 1618.918749
+        },
+        {
+          "path": "Audio/output/1355/chapter_09.wav",
+          "duration": 123.03125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Home in Unexpected Places",
+          "actualDuration": 123.03125,
+          "startTime": 1620.418749,
+          "endTime": 1743.449999
+        },
+        {
+          "path": "Audio/output/1355/chapter_10.wav",
+          "duration": 133.107833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Evolving Meaning of Belonging",
+          "actualDuration": 133.107833,
+          "startTime": 1744.949999,
+          "endTime": 1878.057832
+        },
+        {
+          "path": "Audio/output/1355/conclusion.wav",
+          "duration": 104.669375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.669375,
+          "startTime": 1879.557832,
+          "endTime": 1984.227207
+        }
+      ],
+      "totalDuration": 1984.227207,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.89,
+          "actualStart": 0,
+          "actualEnd": 72.894292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Between Two Worlds",
+          "expectedStart": 72.89,
+          "expectedEnd": 313.77,
+          "actualStart": 74.394292,
+          "actualEnd": 315.277042,
+          "timeDifference": 1.5042919999999924
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Memory and Exile",
+          "expectedStart": 313.77,
+          "expectedEnd": 535.33,
+          "actualStart": 316.777042,
+          "actualEnd": 538.3417919999999,
+          "timeDifference": 3.0070420000000126
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Food as a Bridge Between Generations",
+          "expectedStart": 535.33,
+          "expectedEnd": 760.49,
+          "actualStart": 539.8417919999999,
+          "actualEnd": 765.0056669999999,
+          "timeDifference": 4.5117919999999
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Identity and Belonging",
+          "expectedStart": 760.49,
+          "expectedEnd": 958.71,
+          "actualStart": 766.5056669999999,
+          "actualEnd": 964.7276249999999,
+          "timeDifference": 6.015666999999894
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Healing Through Stories and Shared Meals",
+          "expectedStart": 958.71,
+          "expectedEnd": 1140.82,
+          "actualStart": 966.2276249999999,
+          "actualEnd": 1148.333958,
+          "timeDifference": 7.517624999999839
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rediscovering Roots in a Changing World",
+          "expectedStart": 1140.82,
+          "expectedEnd": 1318.63,
+          "actualStart": 1149.833958,
+          "actualEnd": 1327.643208,
+          "timeDifference": 9.013958000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Resilience of Everyday Rituals",
+          "expectedStart": 1318.63,
+          "expectedEnd": 1465.06,
+          "actualStart": 1329.143208,
+          "actualEnd": 1475.572416,
+          "timeDifference": 10.51320799999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Passing the Torch",
+          "expectedStart": 1465.06,
+          "expectedEnd": 1606.91,
+          "actualStart": 1477.072416,
+          "actualEnd": 1618.918749,
+          "timeDifference": 12.01241600000003
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Home in Unexpected Places",
+          "expectedStart": 1606.91,
+          "expectedEnd": 1729.94,
+          "actualStart": 1620.418749,
+          "actualEnd": 1743.449999,
+          "timeDifference": 13.508748999999852
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Evolving Meaning of Belonging",
+          "expectedStart": 1729.94,
+          "expectedEnd": 1863.05,
+          "actualStart": 1744.949999,
+          "actualEnd": 1878.057832,
+          "timeDifference": 15.00999899999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1863.05,
+          "expectedEnd": 1967.72,
+          "actualStart": 1879.557832,
+          "actualEnd": 1984.227207,
+          "timeDifference": 16.507832000000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.894292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Between Two Worlds"
+        },
+        {
+          "startTime": 315.277042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Between Two Worlds and Chapter 2 The Weight of Memory and Exile"
+        },
+        {
+          "startTime": 538.3417919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Memory and Exile and Chapter 3 Food as a Bridge Between Generations"
+        },
+        {
+          "startTime": 765.0056669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Food as a Bridge Between Generations and Chapter 4 Navigating Identity and Belonging"
+        },
+        {
+          "startTime": 964.7276249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Identity and Belonging and Chapter 5 Healing Through Stories and Shared Meals"
+        },
+        {
+          "startTime": 1148.333958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Healing Through Stories and Shared Meals and Chapter 6 Rediscovering Roots in a Changing World"
+        },
+        {
+          "startTime": 1327.643208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rediscovering Roots in a Changing World and Chapter 7 The Resilience of Everyday Rituals"
+        },
+        {
+          "startTime": 1475.572416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Resilience of Everyday Rituals and Chapter 8 Passing the Torch"
+        },
+        {
+          "startTime": 1618.918749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Passing the Torch and Chapter 9 Finding Home in Unexpected Places"
+        },
+        {
+          "startTime": 1743.449999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Home in Unexpected Places and Chapter 10 The Evolving Meaning of Belonging"
+        },
+        {
+          "startTime": 1878.057832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Evolving Meaning of Belonging and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1355",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T09:01:07.232Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "bookId": "1213",
+  "timestamp": "2025-07-06T21:15:02.353Z",
+  "success": false,
+  "processingTime": -1751836207659,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4280,
+    "totalAudioFiles": 12,
+    "totalDuration": 2247.1516659999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": false
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2247.1516659999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1213/optimized_text/1213.md",
+    "fileSize": 1145,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1213.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1213/metadata/1213_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2247.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1213/metadata/1213_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1213/metadata/1213_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1213/1213_complete.wav",
+    "duration": 2247.151667,
+    "fileSize": 107863358,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1213/introduction.wav",
+          "duration": 102.367083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.367083,
+          "startTime": 0,
+          "endTime": 102.367083
+        },
+        {
+          "path": "Audio/output/1213/chapter_01.wav",
+          "duration": 228.637958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 بداية الطريق: الانجذاب إلى عالم الظلال",
+          "actualDuration": 228.637958,
+          "startTime": 103.867083,
+          "endTime": 332.505041
+        },
+        {
+          "path": "Audio/output/1213/chapter_02.wav",
+          "duration": 224.27125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 داخل الجهاز: تفاصيل الحياة اليومية في المخابرات",
+          "actualDuration": 224.27125,
+          "startTime": 334.005041,
+          "endTime": 558.276291
+        },
+        {
+          "path": "Audio/output/1213/chapter_03.wav",
+          "duration": 238.963375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 الولاء والشك: كيف تُبنى الثقة في عالم الخوف",
+          "actualDuration": 238.963375,
+          "startTime": 559.776291,
+          "endTime": 798.739666
+        },
+        {
+          "path": "Audio/output/1213/chapter_04.wav",
+          "duration": 226.404167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 صناعة الخوف: كيف تتحكم الأجهزة الأمنية في المجتمع",
+          "actualDuration": 226.404167,
+          "startTime": 800.239666,
+          "endTime": 1026.643833
+        },
+        {
+          "path": "Audio/output/1213/chapter_05.wav",
+          "duration": 205.919125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 الإنسان خلف الواجهة: أثر العمل الأمني على النفس والعلاقات",
+          "actualDuration": 205.919125,
+          "startTime": 1028.143833,
+          "endTime": 1234.062958
+        },
+        {
+          "path": "Audio/output/1213/chapter_06.wav",
+          "duration": 203.986958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 التحولات الكبرى: من روتين الخوف إلى عواصف التغيير",
+          "actualDuration": 203.986958,
+          "startTime": 1235.562958,
+          "endTime": 1439.549916
+        },
+        {
+          "path": "Audio/output/1213/chapter_07.wav",
+          "duration": 189.630917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 الانكسار: عندما يصبح الجهاز عبئاً على أفراده",
+          "actualDuration": 189.630917,
+          "startTime": 1441.049916,
+          "endTime": 1630.680833
+        },
+        {
+          "path": "Audio/output/1213/chapter_08.wav",
+          "duration": 165.8835,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 محاولات الفكاك: البحث عن الخلاص في عالم مغلق",
+          "actualDuration": 165.8835,
+          "startTime": 1632.180833,
+          "endTime": 1798.0643329999998
+        },
+        {
+          "path": "Audio/output/1213/chapter_09.wav",
+          "duration": 176.804875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 مواجهة الذات: الاعتراف والندم وإعادة بناء الحياة",
+          "actualDuration": 176.804875,
+          "startTime": 1799.5643329999998,
+          "endTime": 1976.3692079999998
+        },
+        {
+          "path": "Audio/output/1213/chapter_10.wav",
+          "duration": 151.714875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 الدروس المستخلصة: ماذا يبقى بعد سنوات في عالم الظلال؟",
+          "actualDuration": 151.714875,
+          "startTime": 1977.8692079999998,
+          "endTime": 2129.5840829999997
+        },
+        {
+          "path": "Audio/output/1213/chapter_11.wav",
+          "duration": 132.567583,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "الخاتمة: كيف تعيد بناء نفسك بعد الخروج من الظل؟",
+          "actualDuration": 132.567583,
+          "startTime": 2131.0840829999997,
+          "endTime": 2263.6516659999998
+        }
+      ],
+      "totalDuration": 2263.6516659999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.37,
+          "actualStart": 0,
+          "actualEnd": 102.367083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 بداية الطريق: الانجذاب إلى عالم الظلال",
+          "expectedStart": 102.37,
+          "expectedEnd": 331.01,
+          "actualStart": 103.867083,
+          "actualEnd": 332.505041,
+          "timeDifference": 1.4970829999999893
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 داخل الجهاز: تفاصيل الحياة اليومية في المخابرات",
+          "expectedStart": 331.01,
+          "expectedEnd": 555.28,
+          "actualStart": 334.005041,
+          "actualEnd": 558.276291,
+          "timeDifference": 2.9950410000000147
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 الولاء والشك: كيف تُبنى الثقة في عالم الخوف",
+          "expectedStart": 555.28,
+          "expectedEnd": 794.24,
+          "actualStart": 559.776291,
+          "actualEnd": 798.739666,
+          "timeDifference": 4.496291000000042
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 صناعة الخوف: كيف تتحكم الأجهزة الأمنية في المجتمع",
+          "expectedStart": 794.24,
+          "expectedEnd": 1020.64,
+          "actualStart": 800.239666,
+          "actualEnd": 1026.643833,
+          "timeDifference": 5.9996660000000475
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 الإنسان خلف الواجهة: أثر العمل الأمني على النفس والعلاقات",
+          "expectedStart": 1020.64,
+          "expectedEnd": 1226.56,
+          "actualStart": 1028.143833,
+          "actualEnd": 1234.062958,
+          "timeDifference": 7.5038330000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 التحولات الكبرى: من روتين الخوف إلى عواصف التغيير",
+          "expectedStart": 1226.56,
+          "expectedEnd": 1430.55,
+          "actualStart": 1235.562958,
+          "actualEnd": 1439.549916,
+          "timeDifference": 9.002958000000035
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 الانكسار: عندما يصبح الجهاز عبئاً على أفراده",
+          "expectedStart": 1430.55,
+          "expectedEnd": 1620.18,
+          "actualStart": 1441.049916,
+          "actualEnd": 1630.680833,
+          "timeDifference": 10.499915999999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 محاولات الفكاك: البحث عن الخلاص في عالم مغلق",
+          "expectedStart": 1620.18,
+          "expectedEnd": 1786.06,
+          "actualStart": 1632.180833,
+          "actualEnd": 1798.0643329999998,
+          "timeDifference": 12.00083299999983
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 مواجهة الذات: الاعتراف والندم وإعادة بناء الحياة",
+          "expectedStart": 1786.06,
+          "expectedEnd": 1962.86,
+          "actualStart": 1799.5643329999998,
+          "actualEnd": 1976.3692079999998,
+          "timeDifference": 13.50433299999986
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 الدروس المستخلصة: ماذا يبقى بعد سنوات في عالم الظلال؟",
+          "expectedStart": 1962.86,
+          "expectedEnd": 2114.57,
+          "actualStart": 1977.8692079999998,
+          "actualEnd": 2129.5840829999997,
+          "timeDifference": 15.009207999999944
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "الخاتمة: كيف تعيد بناء نفسك بعد الخروج من الظل؟",
+          "expectedStart": 2114.57,
+          "expectedEnd": 2247.14,
+          "actualStart": 2131.0840829999997,
+          "actualEnd": 2263.6516659999998,
+          "timeDifference": 16.514082999999573
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.367083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 بداية الطريق: الانجذاب إلى عالم الظلال"
+        },
+        {
+          "startTime": 332.505041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 بداية الطريق: الانجذاب إلى عالم الظلال and Chapter 2 داخل الجهاز: تفاصيل الحياة اليومية في المخابرات"
+        },
+        {
+          "startTime": 558.276291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 داخل الجهاز: تفاصيل الحياة اليومية في المخابرات and Chapter 3 الولاء والشك: كيف تُبنى الثقة في عالم الخوف"
+        },
+        {
+          "startTime": 798.739666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 الولاء والشك: كيف تُبنى الثقة في عالم الخوف and Chapter 4 صناعة الخوف: كيف تتحكم الأجهزة الأمنية في المجتمع"
+        },
+        {
+          "startTime": 1026.643833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 صناعة الخوف: كيف تتحكم الأجهزة الأمنية في المجتمع and Chapter 5 الإنسان خلف الواجهة: أثر العمل الأمني على النفس والعلاقات"
+        },
+        {
+          "startTime": 1234.062958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 الإنسان خلف الواجهة: أثر العمل الأمني على النفس والعلاقات and Chapter 6 التحولات الكبرى: من روتين الخوف إلى عواصف التغيير"
+        },
+        {
+          "startTime": 1439.549916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 التحولات الكبرى: من روتين الخوف إلى عواصف التغيير and Chapter 7 الانكسار: عندما يصبح الجهاز عبئاً على أفراده"
+        },
+        {
+          "startTime": 1630.680833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 الانكسار: عندما يصبح الجهاز عبئاً على أفراده and Chapter 8 محاولات الفكاك: البحث عن الخلاص في عالم مغلق"
+        },
+        {
+          "startTime": 1798.0643329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 محاولات الفكاك: البحث عن الخلاص في عالم مغلق and Chapter 9 مواجهة الذات: الاعتراف والندم وإعادة بناء الحياة"
+        },
+        {
+          "startTime": 1976.3692079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 مواجهة الذات: الاعتراف والندم وإعادة بناء الحياة and Chapter 10 الدروس المستخلصة: ماذا يبقى بعد سنوات في عالم الظلال؟"
+        },
+        {
+          "startTime": 2129.5840829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 الدروس المستخلصة: ماذا يبقى بعد سنوات في عالم الظلال؟ and الخاتمة: كيف تعيد بناء نفسك بعد الخروج من الظل؟"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1213",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-06T21:10:08.156Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

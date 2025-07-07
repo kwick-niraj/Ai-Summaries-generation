@@ -1,0 +1,455 @@
+{
+  "bookId": "1376",
+  "timestamp": "2025-07-07T11:30:18.644Z",
+  "success": false,
+  "processingTime": -1751887239064,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5205,
+    "totalAudioFiles": 12,
+    "totalDuration": 2217.7719159999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2217.7719159999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1376/optimized_text/1376.md",
+    "fileSize": 925,
+    "wordCount": 129,
+    "format": "markdown",
+    "filename": "1376.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1376/metadata/1376_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2217.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1376/metadata/1376_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1376/metadata/1376_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1376/1376_complete.wav",
+    "duration": 2217.771917,
+    "fileSize": 106453130,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1376/introduction.wav",
+          "duration": 104.289833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.289833,
+          "startTime": 0,
+          "endTime": 104.289833
+        },
+        {
+          "path": "Audio/output/1376/chapter_01.wav",
+          "duration": 216.872458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Revisiting the Ripper: The Power of Modern Forensics in Old Mysteries",
+          "actualDuration": 216.872458,
+          "startTime": 105.789833,
+          "endTime": 322.662291
+        },
+        {
+          "path": "Audio/output/1376/chapter_02.wav",
+          "duration": 226.965792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Murders and Their World: Victorian London’s Shadows and the Ripper’s Victims",
+          "actualDuration": 226.965792,
+          "startTime": 324.162291,
+          "endTime": 551.128083
+        },
+        {
+          "path": "Audio/output/1376/chapter_03.wav",
+          "duration": 250.773167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Re-examining the Evidence: Letters, Forensics, and the Search for Truth",
+          "actualDuration": 250.773167,
+          "startTime": 552.628083,
+          "endTime": 803.4012499999999
+        },
+        {
+          "path": "Audio/output/1376/chapter_04.wav",
+          "duration": 240.901417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Suspect Reconsidered: Walter Sickert and the Intersection of Art and Crime",
+          "actualDuration": 240.901417,
+          "startTime": 804.9012499999999,
+          "endTime": 1045.802667
+        },
+        {
+          "path": "Audio/output/1376/chapter_05.wav",
+          "duration": 220.592208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Profiling the Killer: Psychology, Motive, and the Limits of Certainty",
+          "actualDuration": 220.592208,
+          "startTime": 1047.302667,
+          "endTime": 1267.894875
+        },
+        {
+          "path": "Audio/output/1376/chapter_06.wav",
+          "duration": 206.691542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Web of Evidence: Connecting Threads and Eliminating Doubt",
+          "actualDuration": 206.691542,
+          "startTime": 1269.394875,
+          "endTime": 1476.086417
+        },
+        {
+          "path": "Audio/output/1376/chapter_07.wav",
+          "duration": 183.139583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Public Reaction, Media, and the Shaping of Memory",
+          "actualDuration": 183.139583,
+          "startTime": 1477.586417,
+          "endTime": 1660.7259999999999
+        },
+        {
+          "path": "Audio/output/1376/chapter_08.wav",
+          "duration": 176.936208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons for Modern Investigation: Science, Skepticism, and the Pursuit of Justice",
+          "actualDuration": 176.936208,
+          "startTime": 1662.2259999999999,
+          "endTime": 1839.162208
+        },
+        {
+          "path": "Audio/output/1376/chapter_09.wav",
+          "duration": 146.073625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Cost: Remembering the Victims and Restoring Dignity",
+          "actualDuration": 146.073625,
+          "startTime": 1840.662208,
+          "endTime": 1986.735833
+        },
+        {
+          "path": "Audio/output/1376/chapter_10.wav",
+          "duration": 135.471125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Closure and Continuity: What the Ripper Case Teaches Us About Unsolved Mysteries",
+          "actualDuration": 135.471125,
+          "startTime": 1988.235833,
+          "endTime": 2123.7069579999998
+        },
+        {
+          "path": "Audio/output/1376/conclusion.wav",
+          "duration": 109.064958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.064958,
+          "startTime": 2125.2069579999998,
+          "endTime": 2234.2719159999997
+        }
+      ],
+      "totalDuration": 2234.2719159999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.29,
+          "actualStart": 0,
+          "actualEnd": 104.289833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Revisiting the Ripper: The Power of Modern Forensics in Old Mysteries",
+          "expectedStart": 104.29,
+          "expectedEnd": 321.16,
+          "actualStart": 105.789833,
+          "actualEnd": 322.662291,
+          "timeDifference": 1.4998329999999953
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Murders and Their World: Victorian London’s Shadows and the Ripper’s Victims",
+          "expectedStart": 321.16,
+          "expectedEnd": 548.13,
+          "actualStart": 324.162291,
+          "actualEnd": 551.128083,
+          "timeDifference": 3.002290999999957
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Re-examining the Evidence: Letters, Forensics, and the Search for Truth",
+          "expectedStart": 548.13,
+          "expectedEnd": 798.9,
+          "actualStart": 552.628083,
+          "actualEnd": 803.4012499999999,
+          "timeDifference": 4.498082999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Suspect Reconsidered: Walter Sickert and the Intersection of Art and Crime",
+          "expectedStart": 798.9,
+          "expectedEnd": 1039.8,
+          "actualStart": 804.9012499999999,
+          "actualEnd": 1045.802667,
+          "timeDifference": 6.001249999999914
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Profiling the Killer: Psychology, Motive, and the Limits of Certainty",
+          "expectedStart": 1039.8,
+          "expectedEnd": 1260.39,
+          "actualStart": 1047.302667,
+          "actualEnd": 1267.894875,
+          "timeDifference": 7.502666999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Web of Evidence: Connecting Threads and Eliminating Doubt",
+          "expectedStart": 1260.39,
+          "expectedEnd": 1467.08,
+          "actualStart": 1269.394875,
+          "actualEnd": 1476.086417,
+          "timeDifference": 9.004874999999856
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Public Reaction, Media, and the Shaping of Memory",
+          "expectedStart": 1467.08,
+          "expectedEnd": 1650.22,
+          "actualStart": 1477.586417,
+          "actualEnd": 1660.7259999999999,
+          "timeDifference": 10.506417000000056
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons for Modern Investigation: Science, Skepticism, and the Pursuit of Justice",
+          "expectedStart": 1650.22,
+          "expectedEnd": 1827.16,
+          "actualStart": 1662.2259999999999,
+          "actualEnd": 1839.162208,
+          "timeDifference": 12.005999999999858
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Cost: Remembering the Victims and Restoring Dignity",
+          "expectedStart": 1827.16,
+          "expectedEnd": 1973.23,
+          "actualStart": 1840.662208,
+          "actualEnd": 1986.735833,
+          "timeDifference": 13.502207999999882
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Closure and Continuity: What the Ripper Case Teaches Us About Unsolved Mysteries",
+          "expectedStart": 1973.23,
+          "expectedEnd": 2108.7,
+          "actualStart": 1988.235833,
+          "actualEnd": 2123.7069579999998,
+          "timeDifference": 15.005832999999939
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2108.7,
+          "expectedEnd": 2217.76,
+          "actualStart": 2125.2069579999998,
+          "actualEnd": 2234.2719159999997,
+          "timeDifference": 16.50695799999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.289833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Revisiting the Ripper: The Power of Modern Forensics in Old Mysteries"
+        },
+        {
+          "startTime": 322.662291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Revisiting the Ripper: The Power of Modern Forensics in Old Mysteries and Chapter 2 The Murders and Their World: Victorian London’s Shadows and the Ripper’s Victims"
+        },
+        {
+          "startTime": 551.128083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Murders and Their World: Victorian London’s Shadows and the Ripper’s Victims and Chapter 3 Re-examining the Evidence: Letters, Forensics, and the Search for Truth"
+        },
+        {
+          "startTime": 803.4012499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Re-examining the Evidence: Letters, Forensics, and the Search for Truth and Chapter 4 The Suspect Reconsidered: Walter Sickert and the Intersection of Art and Crime"
+        },
+        {
+          "startTime": 1045.802667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Suspect Reconsidered: Walter Sickert and the Intersection of Art and Crime and Chapter 5 Profiling the Killer: Psychology, Motive, and the Limits of Certainty"
+        },
+        {
+          "startTime": 1267.894875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Profiling the Killer: Psychology, Motive, and the Limits of Certainty and Chapter 6 The Web of Evidence: Connecting Threads and Eliminating Doubt"
+        },
+        {
+          "startTime": 1476.086417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Web of Evidence: Connecting Threads and Eliminating Doubt and Chapter 7 The Ripple Effect: Public Reaction, Media, and the Shaping of Memory"
+        },
+        {
+          "startTime": 1660.7259999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Public Reaction, Media, and the Shaping of Memory and Chapter 8 Lessons for Modern Investigation: Science, Skepticism, and the Pursuit of Justice"
+        },
+        {
+          "startTime": 1839.162208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons for Modern Investigation: Science, Skepticism, and the Pursuit of Justice and Chapter 9 The Human Cost: Remembering the Victims and Restoring Dignity"
+        },
+        {
+          "startTime": 1986.735833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Cost: Remembering the Victims and Restoring Dignity and Chapter 10 Closure and Continuity: What the Ripper Case Teaches Us About Unsolved Mysteries"
+        },
+        {
+          "startTime": 2123.7069579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Closure and Continuity: What the Ripper Case Teaches Us About Unsolved Mysteries and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1376",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T11:20:40.228Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
