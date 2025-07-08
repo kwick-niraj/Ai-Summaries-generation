@@ -1,0 +1,455 @@
+{
+  "bookId": "1503",
+  "timestamp": "2025-07-07T21:02:52.321Z",
+  "success": false,
+  "processingTime": -1751921917377,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5158,
+    "totalAudioFiles": 12,
+    "totalDuration": 2214.310124
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2214.310124
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1503/optimized_text/1503.md",
+    "fileSize": 743,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "1503.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1503/metadata/1503_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2214.32,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1503/metadata/1503_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1503/metadata/1503_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1503/1503_complete.wav",
+    "duration": 2214.310125,
+    "fileSize": 106286964,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1503/introduction.wav",
+          "duration": 111.356458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.356458,
+          "startTime": 0,
+          "endTime": 111.356458
+        },
+        {
+          "path": "Audio/output/1503/chapter_01.wav",
+          "duration": 274.761583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Young Queen Steps Into a World of Doubt and Danger",
+          "actualDuration": 274.761583,
+          "startTime": 112.856458,
+          "endTime": 387.61804099999995
+        },
+        {
+          "path": "Audio/output/1503/chapter_02.wav",
+          "duration": 248.018417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Balancing Power, Image, and the Demands of Marriage",
+          "actualDuration": 248.018417,
+          "startTime": 389.11804099999995,
+          "endTime": 637.136458
+        },
+        {
+          "path": "Audio/output/1503/chapter_03.wav",
+          "duration": 275.209083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating Court Intrigue, Rivalries, and the Art of Survival",
+          "actualDuration": 275.209083,
+          "startTime": 638.636458,
+          "endTime": 913.8455409999999
+        },
+        {
+          "path": "Audio/output/1503/chapter_04.wav",
+          "duration": 258.866917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Threats at Home and Abroad With Cunning and Resolve",
+          "actualDuration": 258.866917,
+          "startTime": 915.3455409999999,
+          "endTime": 1174.212458
+        },
+        {
+          "path": "Audio/output/1503/chapter_05.wav",
+          "duration": 185.306208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Personal Cost of Power and the Making of a Legend",
+          "actualDuration": 185.306208,
+          "startTime": 1175.712458,
+          "endTime": 1361.018666
+        },
+        {
+          "path": "Audio/output/1503/chapter_06.wav",
+          "duration": 182.240125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Waning Light: Elizabeth in Her Final Years",
+          "actualDuration": 182.240125,
+          "startTime": 1362.518666,
+          "endTime": 1544.758791
+        },
+        {
+          "path": "Audio/output/1503/chapter_07.wav",
+          "duration": 142.822875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Question of Succession and the Shadow of Mortality",
+          "actualDuration": 142.822875,
+          "startTime": 1546.258791,
+          "endTime": 1689.081666
+        },
+        {
+          "path": "Audio/output/1503/chapter_08.wav",
+          "duration": 152.245167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Making of a Myth: How Elizabeth Became Immortal",
+          "actualDuration": 152.245167,
+          "startTime": 1690.581666,
+          "endTime": 1842.826833
+        },
+        {
+          "path": "Audio/output/1503/chapter_09.wav",
+          "duration": 152.263833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons in Leadership: What Elizabeth’s Life Teaches Us",
+          "actualDuration": 152.263833,
+          "startTime": 1844.326833,
+          "endTime": 1996.590666
+        },
+        {
+          "path": "Audio/output/1503/chapter_10.wav",
+          "duration": 105.340875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Elizabeth’s Influence on the World",
+          "actualDuration": 105.340875,
+          "startTime": 1998.090666,
+          "endTime": 2103.431541
+        },
+        {
+          "path": "Audio/output/1503/conclusion.wav",
+          "duration": 125.878583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.878583,
+          "startTime": 2104.931541,
+          "endTime": 2230.810124
+        }
+      ],
+      "totalDuration": 2230.810124,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.36,
+          "actualStart": 0,
+          "actualEnd": 111.356458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Young Queen Steps Into a World of Doubt and Danger",
+          "expectedStart": 111.36,
+          "expectedEnd": 386.12,
+          "actualStart": 112.856458,
+          "actualEnd": 387.61804099999995,
+          "timeDifference": 1.496458000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Balancing Power, Image, and the Demands of Marriage",
+          "expectedStart": 386.12,
+          "expectedEnd": 634.14,
+          "actualStart": 389.11804099999995,
+          "actualEnd": 637.136458,
+          "timeDifference": 2.998040999999944
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating Court Intrigue, Rivalries, and the Art of Survival",
+          "expectedStart": 634.14,
+          "expectedEnd": 909.35,
+          "actualStart": 638.636458,
+          "actualEnd": 913.8455409999999,
+          "timeDifference": 4.496457999999961
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Threats at Home and Abroad With Cunning and Resolve",
+          "expectedStart": 909.35,
+          "expectedEnd": 1168.22,
+          "actualStart": 915.3455409999999,
+          "actualEnd": 1174.212458,
+          "timeDifference": 5.995540999999889
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Personal Cost of Power and the Making of a Legend",
+          "expectedStart": 1168.22,
+          "expectedEnd": 1353.53,
+          "actualStart": 1175.712458,
+          "actualEnd": 1361.018666,
+          "timeDifference": 7.492457999999942
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Waning Light: Elizabeth in Her Final Years",
+          "expectedStart": 1353.53,
+          "expectedEnd": 1535.77,
+          "actualStart": 1362.518666,
+          "actualEnd": 1544.758791,
+          "timeDifference": 8.988665999999967
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Question of Succession and the Shadow of Mortality",
+          "expectedStart": 1535.77,
+          "expectedEnd": 1678.59,
+          "actualStart": 1546.258791,
+          "actualEnd": 1689.081666,
+          "timeDifference": 10.488790999999992
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Making of a Myth: How Elizabeth Became Immortal",
+          "expectedStart": 1678.59,
+          "expectedEnd": 1830.84,
+          "actualStart": 1690.581666,
+          "actualEnd": 1842.826833,
+          "timeDifference": 11.991666000000123
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons in Leadership: What Elizabeth’s Life Teaches Us",
+          "expectedStart": 1830.84,
+          "expectedEnd": 1983.1,
+          "actualStart": 1844.326833,
+          "actualEnd": 1996.590666,
+          "timeDifference": 13.48683300000016
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Elizabeth’s Influence on the World",
+          "expectedStart": 1983.1,
+          "expectedEnd": 2088.44,
+          "actualStart": 1998.090666,
+          "actualEnd": 2103.431541,
+          "timeDifference": 14.990666000000147
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2088.44,
+          "expectedEnd": 2214.32,
+          "actualStart": 2104.931541,
+          "actualEnd": 2230.810124,
+          "timeDifference": 16.49154099999987
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.356458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Young Queen Steps Into a World of Doubt and Danger"
+        },
+        {
+          "startTime": 387.61804099999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Young Queen Steps Into a World of Doubt and Danger and Chapter 2 Balancing Power, Image, and the Demands of Marriage"
+        },
+        {
+          "startTime": 637.136458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Balancing Power, Image, and the Demands of Marriage and Chapter 3 Navigating Court Intrigue, Rivalries, and the Art of Survival"
+        },
+        {
+          "startTime": 913.8455409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating Court Intrigue, Rivalries, and the Art of Survival and Chapter 4 Facing Threats at Home and Abroad With Cunning and Resolve"
+        },
+        {
+          "startTime": 1174.212458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Threats at Home and Abroad With Cunning and Resolve and Chapter 5 The Personal Cost of Power and the Making of a Legend"
+        },
+        {
+          "startTime": 1361.018666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Personal Cost of Power and the Making of a Legend and Chapter 6 The Waning Light: Elizabeth in Her Final Years"
+        },
+        {
+          "startTime": 1544.758791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Waning Light: Elizabeth in Her Final Years and Chapter 7 The Question of Succession and the Shadow of Mortality"
+        },
+        {
+          "startTime": 1689.081666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Question of Succession and the Shadow of Mortality and Chapter 8 The Making of a Myth: How Elizabeth Became Immortal"
+        },
+        {
+          "startTime": 1842.826833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Making of a Myth: How Elizabeth Became Immortal and Chapter 9 Lessons in Leadership: What Elizabeth’s Life Teaches Us"
+        },
+        {
+          "startTime": 1996.590666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons in Leadership: What Elizabeth’s Life Teaches Us and Chapter 10 The Enduring Legacy: Elizabeth’s Influence on the World"
+        },
+        {
+          "startTime": 2103.431541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Elizabeth’s Influence on the World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1503",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:58:37.902Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

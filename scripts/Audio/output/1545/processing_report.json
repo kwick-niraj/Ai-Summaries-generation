@@ -1,0 +1,455 @@
+{
+  "bookId": "1545",
+  "timestamp": "2025-07-07T23:11:30.919Z",
+  "success": false,
+  "processingTime": -1751929619782,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4539,
+    "totalAudioFiles": 12,
+    "totalDuration": 1938.4330009999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1938.4330009999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1545/optimized_text/1545.md",
+    "fileSize": 765,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "1545.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1545/metadata/1545_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1938.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1545/metadata/1545_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1545/metadata/1545_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1545/1545_complete.wav",
+    "duration": 1938.433,
+    "fileSize": 93044862,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1545/introduction.wav",
+          "duration": 91.723583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.723583,
+          "startTime": 0,
+          "endTime": 91.723583
+        },
+        {
+          "path": "Audio/output/1545/chapter_01.wav",
+          "duration": 243.513917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Call of the Ice",
+          "actualDuration": 243.513917,
+          "startTime": 93.223583,
+          "endTime": 336.7375
+        },
+        {
+          "path": "Audio/output/1545/chapter_02.wav",
+          "duration": 253.7715,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Trapped by the Ice: The Slow Realization of Danger",
+          "actualDuration": 253.7715,
+          "startTime": 338.2375,
+          "endTime": 592.009
+        },
+        {
+          "path": "Audio/output/1545/chapter_03.wav",
+          "duration": 228.179917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Surviving the Impossible: Leadership, Unity, and the Will to Go On",
+          "actualDuration": 228.179917,
+          "startTime": 593.509,
+          "endTime": 821.688917
+        },
+        {
+          "path": "Audio/output/1545/chapter_04.wav",
+          "duration": 222.067583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Journey to Rescue: Risk, Sacrifice, and the Power of Hope",
+          "actualDuration": 222.067583,
+          "startTime": 823.188917,
+          "endTime": 1045.2565
+        },
+        {
+          "path": "Audio/output/1545/chapter_05.wav",
+          "duration": 139.611,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Remembering the Journey: Lessons in Endurance and the Human Spirit",
+          "actualDuration": 139.611,
+          "startTime": 1046.7565,
+          "endTime": 1186.3674999999998
+        },
+        {
+          "path": "Audio/output/1545/chapter_06.wav",
+          "duration": 131.681583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Return Home: Facing a Changed World",
+          "actualDuration": 131.681583,
+          "startTime": 1187.8674999999998,
+          "endTime": 1319.5490829999999
+        },
+        {
+          "path": "Audio/output/1545/chapter_07.wav",
+          "duration": 143.086792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Legacy of Leadership: Shackleton’s Quiet Influence",
+          "actualDuration": 143.086792,
+          "startTime": 1321.0490829999999,
+          "endTime": 1464.135875
+        },
+        {
+          "path": "Audio/output/1545/chapter_08.wav",
+          "duration": 130.293667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unseen Costs: Trauma, Memory, and Moving Forward",
+          "actualDuration": 130.293667,
+          "startTime": 1465.635875,
+          "endTime": 1595.9295419999999
+        },
+        {
+          "path": "Audio/output/1545/chapter_09.wav",
+          "duration": 115.800917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for a New Generation: Endurance in Everyday Life",
+          "actualDuration": 115.800917,
+          "startTime": 1597.4295419999999,
+          "endTime": 1713.2304589999999
+        },
+        {
+          "path": "Audio/output/1545/chapter_10.wav",
+          "duration": 119.583417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit: Why the Story Still Matters",
+          "actualDuration": 119.583417,
+          "startTime": 1714.7304589999999,
+          "endTime": 1834.313876
+        },
+        {
+          "path": "Audio/output/1545/conclusion.wav",
+          "duration": 119.119125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.119125,
+          "startTime": 1835.813876,
+          "endTime": 1954.9330009999999
+        }
+      ],
+      "totalDuration": 1954.9330009999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.72,
+          "actualStart": 0,
+          "actualEnd": 91.723583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Call of the Ice",
+          "expectedStart": 91.72,
+          "expectedEnd": 335.23,
+          "actualStart": 93.223583,
+          "actualEnd": 336.7375,
+          "timeDifference": 1.503583000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Trapped by the Ice: The Slow Realization of Danger",
+          "expectedStart": 335.23,
+          "expectedEnd": 589,
+          "actualStart": 338.2375,
+          "actualEnd": 592.009,
+          "timeDifference": 3.007499999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Surviving the Impossible: Leadership, Unity, and the Will to Go On",
+          "expectedStart": 589,
+          "expectedEnd": 817.18,
+          "actualStart": 593.509,
+          "actualEnd": 821.688917,
+          "timeDifference": 4.5090000000000146
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Journey to Rescue: Risk, Sacrifice, and the Power of Hope",
+          "expectedStart": 817.18,
+          "expectedEnd": 1039.25,
+          "actualStart": 823.188917,
+          "actualEnd": 1045.2565,
+          "timeDifference": 6.008916999999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Remembering the Journey: Lessons in Endurance and the Human Spirit",
+          "expectedStart": 1039.25,
+          "expectedEnd": 1178.86,
+          "actualStart": 1046.7565,
+          "actualEnd": 1186.3674999999998,
+          "timeDifference": 7.50649999999996
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Return Home: Facing a Changed World",
+          "expectedStart": 1178.86,
+          "expectedEnd": 1310.54,
+          "actualStart": 1187.8674999999998,
+          "actualEnd": 1319.5490829999999,
+          "timeDifference": 9.007499999999936
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Legacy of Leadership: Shackleton’s Quiet Influence",
+          "expectedStart": 1310.54,
+          "expectedEnd": 1453.63,
+          "actualStart": 1321.0490829999999,
+          "actualEnd": 1464.135875,
+          "timeDifference": 10.509082999999919
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unseen Costs: Trauma, Memory, and Moving Forward",
+          "expectedStart": 1453.63,
+          "expectedEnd": 1583.92,
+          "actualStart": 1465.635875,
+          "actualEnd": 1595.9295419999999,
+          "timeDifference": 12.005874999999833
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for a New Generation: Endurance in Everyday Life",
+          "expectedStart": 1583.92,
+          "expectedEnd": 1699.72,
+          "actualStart": 1597.4295419999999,
+          "actualEnd": 1713.2304589999999,
+          "timeDifference": 13.509541999999783
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit: Why the Story Still Matters",
+          "expectedStart": 1699.72,
+          "expectedEnd": 1819.3,
+          "actualStart": 1714.7304589999999,
+          "actualEnd": 1834.313876,
+          "timeDifference": 15.010458999999855
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1819.3,
+          "expectedEnd": 1938.42,
+          "actualStart": 1835.813876,
+          "actualEnd": 1954.9330009999999,
+          "timeDifference": 16.513875999999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.723583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Call of the Ice"
+        },
+        {
+          "startTime": 336.7375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out for the Unknown: Dreams, Doubts, and the Call of the Ice and Chapter 2 Trapped by the Ice: The Slow Realization of Danger"
+        },
+        {
+          "startTime": 592.009,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Trapped by the Ice: The Slow Realization of Danger and Chapter 3 Surviving the Impossible: Leadership, Unity, and the Will to Go On"
+        },
+        {
+          "startTime": 821.688917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Surviving the Impossible: Leadership, Unity, and the Will to Go On and Chapter 4 The Journey to Rescue: Risk, Sacrifice, and the Power of Hope"
+        },
+        {
+          "startTime": 1045.2565,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Journey to Rescue: Risk, Sacrifice, and the Power of Hope and Chapter 5 Remembering the Journey: Lessons in Endurance and the Human Spirit"
+        },
+        {
+          "startTime": 1186.3674999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Remembering the Journey: Lessons in Endurance and the Human Spirit and Chapter 6 The Return Home: Facing a Changed World"
+        },
+        {
+          "startTime": 1319.5490829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Return Home: Facing a Changed World and Chapter 7 The Legacy of Leadership: Shackleton’s Quiet Influence"
+        },
+        {
+          "startTime": 1464.135875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Legacy of Leadership: Shackleton’s Quiet Influence and Chapter 8 The Unseen Costs: Trauma, Memory, and Moving Forward"
+        },
+        {
+          "startTime": 1595.9295419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unseen Costs: Trauma, Memory, and Moving Forward and Chapter 9 Lessons for a New Generation: Endurance in Everyday Life"
+        },
+        {
+          "startTime": 1713.2304589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for a New Generation: Endurance in Everyday Life and Chapter 10 The Enduring Spirit: Why the Story Still Matters"
+        },
+        {
+          "startTime": 1834.313876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit: Why the Story Still Matters and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1545",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T23:07:01.310Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "bookId": "1656",
+  "timestamp": "2025-07-08T04:19:01.550Z",
+  "success": false,
+  "processingTime": -1751948036738,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5602,
+    "totalAudioFiles": 14,
+    "totalDuration": 2640.4874990000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2640.4874990000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1656/optimized_text/1656.md",
+    "fileSize": 896,
+    "wordCount": 128,
+    "format": "markdown",
+    "filename": "1656.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1656/metadata/1656_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2640.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1656/metadata/1656_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1656/metadata/1656_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1656/1656_complete.wav",
+    "duration": 2640.4875,
+    "fileSize": 126743478,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1656/introduction.wav",
+          "duration": 120.635208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 120.635208,
+          "startTime": 0,
+          "endTime": 120.635208
+        },
+        {
+          "path": "Audio/output/1656/chapter_01.wav",
+          "duration": 200.3705,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Book of Mormon’s Central Message: Christ at the Heart",
+          "actualDuration": 200.3705,
+          "startTime": 122.135208,
+          "endTime": 322.505708
+        },
+        {
+          "path": "Audio/output/1656/chapter_02.wav",
+          "duration": 222.79,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Prophets and Promises: Messianic Testimonies Before Christ’s Birth",
+          "actualDuration": 222.79,
+          "startTime": 324.005708,
+          "endTime": 546.795708
+        },
+        {
+          "path": "Audio/output/1656/chapter_03.wav",
+          "duration": 210.70475,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Covenants: God’s Promises and Our Commitments",
+          "actualDuration": 210.70475,
+          "startTime": 548.295708,
+          "endTime": 759.000458
+        },
+        {
+          "path": "Audio/output/1656/chapter_04.wav",
+          "duration": 234.070958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Redemption and Transformation: The Atonement’s Reach",
+          "actualDuration": 234.070958,
+          "startTime": 760.500458,
+          "endTime": 994.571416
+        },
+        {
+          "path": "Audio/output/1656/chapter_05.wav",
+          "duration": 231.701792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Book of Mormon’s Role in Restoring Lost Truths",
+          "actualDuration": 231.701792,
+          "startTime": 996.071416,
+          "endTime": 1227.773208
+        },
+        {
+          "path": "Audio/output/1656/chapter_06.wav",
+          "duration": 192.732708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Faith in Action: Living the Teachings of Christ",
+          "actualDuration": 192.732708,
+          "startTime": 1229.273208,
+          "endTime": 1422.005916
+        },
+        {
+          "path": "Audio/output/1656/chapter_07.wav",
+          "duration": 192.09875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Gift of the Holy Ghost: Guidance and Comfort in Daily Life",
+          "actualDuration": 192.09875,
+          "startTime": 1423.505916,
+          "endTime": 1615.6046660000002
+        },
+        {
+          "path": "Audio/output/1656/chapter_08.wav",
+          "duration": 185.593583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Enduring Trials: Hope and Strength in the Face of Adversity",
+          "actualDuration": 185.593583,
+          "startTime": 1617.1046660000002,
+          "endTime": 1802.6982490000003
+        },
+        {
+          "path": "Audio/output/1656/chapter_09.wav",
+          "duration": 206.920333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Forgiveness and Reconciliation: Healing Wounds Through Christ",
+          "actualDuration": 206.920333,
+          "startTime": 1804.1982490000003,
+          "endTime": 2011.1185820000003
+        },
+        {
+          "path": "Audio/output/1656/chapter_10.wav",
+          "duration": 181.120667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Gathering of Israel: A Promise for All Generations",
+          "actualDuration": 181.120667,
+          "startTime": 2012.6185820000003,
+          "endTime": 2193.739249
+        },
+        {
+          "path": "Audio/output/1656/chapter_11.wav",
+          "duration": 174.99175,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Role of Prophets: Voices for Our Time",
+          "actualDuration": 174.99175,
+          "startTime": 2195.239249,
+          "endTime": 2370.2309990000003
+        },
+        {
+          "path": "Audio/output/1656/chapter_12.wav",
+          "duration": 150.175333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Final Invitation: Coming Unto Christ",
+          "actualDuration": 150.175333,
+          "startTime": 2371.7309990000003,
+          "endTime": 2521.9063320000005
+        },
+        {
+          "path": "Audio/output/1656/conclusion.wav",
+          "duration": 136.581167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.581167,
+          "startTime": 2523.4063320000005,
+          "endTime": 2659.9874990000003
+        }
+      ],
+      "totalDuration": 2659.9874990000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 120.64,
+          "actualStart": 0,
+          "actualEnd": 120.635208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Book of Mormon’s Central Message: Christ at the Heart",
+          "expectedStart": 120.64,
+          "expectedEnd": 321.01,
+          "actualStart": 122.135208,
+          "actualEnd": 322.505708,
+          "timeDifference": 1.4952080000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Prophets and Promises: Messianic Testimonies Before Christ’s Birth",
+          "expectedStart": 321.01,
+          "expectedEnd": 543.8,
+          "actualStart": 324.005708,
+          "actualEnd": 546.795708,
+          "timeDifference": 2.995708000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Covenants: God’s Promises and Our Commitments",
+          "expectedStart": 543.8,
+          "expectedEnd": 754.5,
+          "actualStart": 548.295708,
+          "actualEnd": 759.000458,
+          "timeDifference": 4.495708000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Redemption and Transformation: The Atonement’s Reach",
+          "expectedStart": 754.5,
+          "expectedEnd": 988.57,
+          "actualStart": 760.500458,
+          "actualEnd": 994.571416,
+          "timeDifference": 6.0004579999999805
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Book of Mormon’s Role in Restoring Lost Truths",
+          "expectedStart": 988.57,
+          "expectedEnd": 1220.27,
+          "actualStart": 996.071416,
+          "actualEnd": 1227.773208,
+          "timeDifference": 7.501415999999949
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Faith in Action: Living the Teachings of Christ",
+          "expectedStart": 1220.27,
+          "expectedEnd": 1413,
+          "actualStart": 1229.273208,
+          "actualEnd": 1422.005916,
+          "timeDifference": 9.003208000000086
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Gift of the Holy Ghost: Guidance and Comfort in Daily Life",
+          "expectedStart": 1413,
+          "expectedEnd": 1605.1,
+          "actualStart": 1423.505916,
+          "actualEnd": 1615.6046660000002,
+          "timeDifference": 10.50591600000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Enduring Trials: Hope and Strength in the Face of Adversity",
+          "expectedStart": 1605.1,
+          "expectedEnd": 1790.69,
+          "actualStart": 1617.1046660000002,
+          "actualEnd": 1802.6982490000003,
+          "timeDifference": 12.00466600000027
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Forgiveness and Reconciliation: Healing Wounds Through Christ",
+          "expectedStart": 1790.69,
+          "expectedEnd": 1997.61,
+          "actualStart": 1804.1982490000003,
+          "actualEnd": 2011.1185820000003,
+          "timeDifference": 13.508249000000205
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Gathering of Israel: A Promise for All Generations",
+          "expectedStart": 1997.61,
+          "expectedEnd": 2178.73,
+          "actualStart": 2012.6185820000003,
+          "actualEnd": 2193.739249,
+          "timeDifference": 15.008582000000388
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Role of Prophets: Voices for Our Time",
+          "expectedStart": 2178.73,
+          "expectedEnd": 2353.72,
+          "actualStart": 2195.239249,
+          "actualEnd": 2370.2309990000003,
+          "timeDifference": 16.50924900000018
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Final Invitation: Coming Unto Christ",
+          "expectedStart": 2353.72,
+          "expectedEnd": 2503.9,
+          "actualStart": 2371.7309990000003,
+          "actualEnd": 2521.9063320000005,
+          "timeDifference": 18.010999000000538
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2503.9,
+          "expectedEnd": 2640.48,
+          "actualStart": 2523.4063320000005,
+          "actualEnd": 2659.9874990000003,
+          "timeDifference": 19.506332000000384
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 120.635208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Book of Mormon’s Central Message: Christ at the Heart"
+        },
+        {
+          "startTime": 322.505708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Book of Mormon’s Central Message: Christ at the Heart and Chapter 2 Prophets and Promises: Messianic Testimonies Before Christ’s Birth"
+        },
+        {
+          "startTime": 546.795708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Prophets and Promises: Messianic Testimonies Before Christ’s Birth and Chapter 3 The Power of Covenants: God’s Promises and Our Commitments"
+        },
+        {
+          "startTime": 759.000458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Covenants: God’s Promises and Our Commitments and Chapter 4 Redemption and Transformation: The Atonement’s Reach"
+        },
+        {
+          "startTime": 994.571416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Redemption and Transformation: The Atonement’s Reach and Chapter 5 The Book of Mormon’s Role in Restoring Lost Truths"
+        },
+        {
+          "startTime": 1227.773208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Book of Mormon’s Role in Restoring Lost Truths and Chapter 6 Faith in Action: Living the Teachings of Christ"
+        },
+        {
+          "startTime": 1422.005916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Faith in Action: Living the Teachings of Christ and Chapter 7 The Gift of the Holy Ghost: Guidance and Comfort in Daily Life"
+        },
+        {
+          "startTime": 1615.6046660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Gift of the Holy Ghost: Guidance and Comfort in Daily Life and Chapter 8 Enduring Trials: Hope and Strength in the Face of Adversity"
+        },
+        {
+          "startTime": 1802.6982490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Enduring Trials: Hope and Strength in the Face of Adversity and Chapter 9 Forgiveness and Reconciliation: Healing Wounds Through Christ"
+        },
+        {
+          "startTime": 2011.1185820000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Forgiveness and Reconciliation: Healing Wounds Through Christ and Chapter 10 The Gathering of Israel: A Promise for All Generations"
+        },
+        {
+          "startTime": 2193.739249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Gathering of Israel: A Promise for All Generations and Chapter 11 The Role of Prophets: Voices for Our Time"
+        },
+        {
+          "startTime": 2370.2309990000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Role of Prophets: Voices for Our Time and Chapter 12 The Final Invitation: Coming Unto Christ"
+        },
+        {
+          "startTime": 2521.9063320000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Final Invitation: Coming Unto Christ and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1656",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T04:13:57.242Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

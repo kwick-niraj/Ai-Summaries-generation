@@ -1,0 +1,455 @@
+{
+  "bookId": "1558",
+  "timestamp": "2025-07-07T23:31:23.056Z",
+  "success": false,
+  "processingTime": -1751930873970,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4101,
+    "totalAudioFiles": 12,
+    "totalDuration": 1774.6147090000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1774.6147090000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1558/optimized_text/1558.md",
+    "fileSize": 614,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1558.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1558/metadata/1558_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1774.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1558/metadata/1558_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1558/metadata/1558_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1558/1558_complete.wav",
+    "duration": 1774.614708,
+    "fileSize": 85181584,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1558/introduction.wav",
+          "duration": 66.290667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 66.290667,
+          "startTime": 0,
+          "endTime": 66.290667
+        },
+        {
+          "path": "Audio/output/1558/chapter_01.wav",
+          "duration": 226.580083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a Land Shaped by Crisis",
+          "actualDuration": 226.580083,
+          "startTime": 67.790667,
+          "endTime": 294.37075
+        },
+        {
+          "path": "Audio/output/1558/chapter_02.wav",
+          "duration": 200.033583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Navigating Danger and Uncertainty Every Day",
+          "actualDuration": 200.033583,
+          "startTime": 295.87075,
+          "endTime": 495.90433299999995
+        },
+        {
+          "path": "Audio/output/1558/chapter_03.wav",
+          "duration": 184.499,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Emotional Cost of Bearing Witness",
+          "actualDuration": 184.499,
+          "startTime": 497.40433299999995,
+          "endTime": 681.903333
+        },
+        {
+          "path": "Audio/output/1558/chapter_04.wav",
+          "duration": 203.374792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Complexities of Delivering Aid",
+          "actualDuration": 203.374792,
+          "startTime": 683.403333,
+          "endTime": 886.778125
+        },
+        {
+          "path": "Audio/output/1558/chapter_05.wav",
+          "duration": 157.5975,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Encounters Across Cultures and the Limits of Understanding",
+          "actualDuration": 157.5975,
+          "startTime": 888.278125,
+          "endTime": 1045.8756250000001
+        },
+        {
+          "path": "Audio/output/1558/chapter_06.wav",
+          "duration": 159.717417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Resilience in the Face of Relentless Hardship",
+          "actualDuration": 159.717417,
+          "startTime": 1047.3756250000001,
+          "endTime": 1207.0930420000002
+        },
+        {
+          "path": "Audio/output/1558/chapter_07.wav",
+          "duration": 133.314292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Moral Ambiguity and the Weight of Choices",
+          "actualDuration": 133.314292,
+          "startTime": 1208.5930420000002,
+          "endTime": 1341.9073340000002
+        },
+        {
+          "path": "Audio/output/1558/chapter_08.wav",
+          "duration": 129.011417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enduring Impact—On Darfur and Those Who Serve",
+          "actualDuration": 129.011417,
+          "startTime": 1343.4073340000002,
+          "endTime": 1472.4187510000002
+        },
+        {
+          "path": "Audio/output/1558/chapter_09.wav",
+          "duration": 111.597667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bearing Witness and the Power of Story",
+          "actualDuration": 111.597667,
+          "startTime": 1473.9187510000002,
+          "endTime": 1585.5164180000002
+        },
+        {
+          "path": "Audio/output/1558/chapter_10.wav",
+          "duration": 108.149958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Leaving Darfur—What Remains",
+          "actualDuration": 108.149958,
+          "startTime": 1587.0164180000002,
+          "endTime": 1695.1663760000001
+        },
+        {
+          "path": "Audio/output/1558/conclusion.wav",
+          "duration": 94.448333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 94.448333,
+          "startTime": 1696.6663760000001,
+          "endTime": 1791.1147090000002
+        }
+      ],
+      "totalDuration": 1791.1147090000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 66.29,
+          "actualStart": 0,
+          "actualEnd": 66.290667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a Land Shaped by Crisis",
+          "expectedStart": 66.29,
+          "expectedEnd": 292.87,
+          "actualStart": 67.790667,
+          "actualEnd": 294.37075,
+          "timeDifference": 1.5006669999999929
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Navigating Danger and Uncertainty Every Day",
+          "expectedStart": 292.87,
+          "expectedEnd": 492.9,
+          "actualStart": 295.87075,
+          "actualEnd": 495.90433299999995,
+          "timeDifference": 3.0007499999999823
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Emotional Cost of Bearing Witness",
+          "expectedStart": 492.9,
+          "expectedEnd": 677.4,
+          "actualStart": 497.40433299999995,
+          "actualEnd": 681.903333,
+          "timeDifference": 4.504332999999974
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Complexities of Delivering Aid",
+          "expectedStart": 677.4,
+          "expectedEnd": 880.77,
+          "actualStart": 683.403333,
+          "actualEnd": 886.778125,
+          "timeDifference": 6.003332999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Encounters Across Cultures and the Limits of Understanding",
+          "expectedStart": 880.77,
+          "expectedEnd": 1038.37,
+          "actualStart": 888.278125,
+          "actualEnd": 1045.8756250000001,
+          "timeDifference": 7.508125000000064
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Resilience in the Face of Relentless Hardship",
+          "expectedStart": 1038.37,
+          "expectedEnd": 1198.09,
+          "actualStart": 1047.3756250000001,
+          "actualEnd": 1207.0930420000002,
+          "timeDifference": 9.005625000000236
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Moral Ambiguity and the Weight of Choices",
+          "expectedStart": 1198.09,
+          "expectedEnd": 1331.4,
+          "actualStart": 1208.5930420000002,
+          "actualEnd": 1341.9073340000002,
+          "timeDifference": 10.503042000000278
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enduring Impact—On Darfur and Those Who Serve",
+          "expectedStart": 1331.4,
+          "expectedEnd": 1460.41,
+          "actualStart": 1343.4073340000002,
+          "actualEnd": 1472.4187510000002,
+          "timeDifference": 12.007334000000128
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bearing Witness and the Power of Story",
+          "expectedStart": 1460.41,
+          "expectedEnd": 1572.01,
+          "actualStart": 1473.9187510000002,
+          "actualEnd": 1585.5164180000002,
+          "timeDifference": 13.508751000000075
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Leaving Darfur—What Remains",
+          "expectedStart": 1572.01,
+          "expectedEnd": 1680.16,
+          "actualStart": 1587.0164180000002,
+          "actualEnd": 1695.1663760000001,
+          "timeDifference": 15.006418000000167
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1680.16,
+          "expectedEnd": 1774.61,
+          "actualStart": 1696.6663760000001,
+          "actualEnd": 1791.1147090000002,
+          "timeDifference": 16.506376000000046
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 66.290667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a Land Shaped by Crisis"
+        },
+        {
+          "startTime": 294.37075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a Land Shaped by Crisis and Chapter 2 Navigating Danger and Uncertainty Every Day"
+        },
+        {
+          "startTime": 495.90433299999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Navigating Danger and Uncertainty Every Day and Chapter 3 The Emotional Cost of Bearing Witness"
+        },
+        {
+          "startTime": 681.903333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Emotional Cost of Bearing Witness and Chapter 4 The Complexities of Delivering Aid"
+        },
+        {
+          "startTime": 886.778125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Complexities of Delivering Aid and Chapter 5 Encounters Across Cultures and the Limits of Understanding"
+        },
+        {
+          "startTime": 1045.8756250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Encounters Across Cultures and the Limits of Understanding and Chapter 6 Resilience in the Face of Relentless Hardship"
+        },
+        {
+          "startTime": 1207.0930420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Resilience in the Face of Relentless Hardship and Chapter 7 Moral Ambiguity and the Weight of Choices"
+        },
+        {
+          "startTime": 1341.9073340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Moral Ambiguity and the Weight of Choices and Chapter 8 The Enduring Impact—On Darfur and Those Who Serve"
+        },
+        {
+          "startTime": 1472.4187510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enduring Impact—On Darfur and Those Who Serve and Chapter 9 Bearing Witness and the Power of Story"
+        },
+        {
+          "startTime": 1585.5164180000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bearing Witness and the Power of Story and Chapter 10 Leaving Darfur—What Remains"
+        },
+        {
+          "startTime": 1695.1663760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Leaving Darfur—What Remains and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1558",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T23:27:54.531Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

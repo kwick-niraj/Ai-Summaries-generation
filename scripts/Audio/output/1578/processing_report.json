@@ -1,0 +1,455 @@
+{
+  "bookId": "1578",
+  "timestamp": "2025-07-08T00:22:48.536Z",
+  "success": false,
+  "processingTime": -1751933927534,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4804,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.746585
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.746585
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1578/optimized_text/1578.md",
+    "fileSize": 651,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1578.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1578/metadata/1578_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1578/metadata/1578_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1578/metadata/1578_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1578/1578_complete.wav",
+    "duration": 1995.746583,
+    "fileSize": 95795914,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1578/introduction.wav",
+          "duration": 80.282458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.282458,
+          "startTime": 0,
+          "endTime": 80.282458
+        },
+        {
+          "path": "Audio/output/1578/chapter_01.wav",
+          "duration": 223.297667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Stories Shape What We See and Ignore",
+          "actualDuration": 223.297667,
+          "startTime": 81.782458,
+          "endTime": 305.080125
+        },
+        {
+          "path": "Audio/output/1578/chapter_02.wav",
+          "duration": 245.862875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Myth of Progress and the Denial of Harm",
+          "actualDuration": 245.862875,
+          "startTime": 306.580125,
+          "endTime": 552.443
+        },
+        {
+          "path": "Audio/output/1578/chapter_03.wav",
+          "duration": 235.863917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Pop Culture’s Role in Reinforcing and Challenging Norms",
+          "actualDuration": 235.863917,
+          "startTime": 553.943,
+          "endTime": 789.806917
+        },
+        {
+          "path": "Audio/output/1578/chapter_04.wav",
+          "duration": 200.911292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Backlash Against Social Progress and the Power of Anger",
+          "actualDuration": 200.911292,
+          "startTime": 791.306917,
+          "endTime": 992.218209
+        },
+        {
+          "path": "Audio/output/1578/chapter_05.wav",
+          "duration": 171.5015,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Everyday Choices and the Demand for Accountability",
+          "actualDuration": 171.5015,
+          "startTime": 993.718209,
+          "endTime": 1165.219709
+        },
+        {
+          "path": "Audio/output/1578/chapter_06.wav",
+          "duration": 178.51275,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Where the Personal and Political Collide",
+          "actualDuration": 178.51275,
+          "startTime": 1166.719709,
+          "endTime": 1345.232459
+        },
+        {
+          "path": "Audio/output/1578/chapter_07.wav",
+          "duration": 139.37175,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reclaiming “Witchiness” as Power",
+          "actualDuration": 139.37175,
+          "startTime": 1346.732459,
+          "endTime": 1486.104209
+        },
+        {
+          "path": "Audio/output/1578/chapter_08.wav",
+          "duration": 136.6005,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Necessity of Resistance",
+          "actualDuration": 136.6005,
+          "startTime": 1487.604209,
+          "endTime": 1624.204709
+        },
+        {
+          "path": "Audio/output/1578/chapter_09.wav",
+          "duration": 130.499792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Critique as Care: The Importance of Speaking Up",
+          "actualDuration": 130.499792,
+          "startTime": 1625.704709,
+          "endTime": 1756.2045010000002
+        },
+        {
+          "path": "Audio/output/1578/chapter_10.wav",
+          "duration": 126.941167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living With Uncertainty and Choosing Hope",
+          "actualDuration": 126.941167,
+          "startTime": 1757.7045010000002,
+          "endTime": 1884.6456680000001
+        },
+        {
+          "path": "Audio/output/1578/conclusion.wav",
+          "duration": 126.100917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.100917,
+          "startTime": 1886.1456680000001,
+          "endTime": 2012.246585
+        }
+      ],
+      "totalDuration": 2012.246585,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.28,
+          "actualStart": 0,
+          "actualEnd": 80.282458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Stories Shape What We See and Ignore",
+          "expectedStart": 80.28,
+          "expectedEnd": 303.58,
+          "actualStart": 81.782458,
+          "actualEnd": 305.080125,
+          "timeDifference": 1.5024580000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Myth of Progress and the Denial of Harm",
+          "expectedStart": 303.58,
+          "expectedEnd": 549.44,
+          "actualStart": 306.580125,
+          "actualEnd": 552.443,
+          "timeDifference": 3.0001250000000255
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Pop Culture’s Role in Reinforcing and Challenging Norms",
+          "expectedStart": 549.44,
+          "expectedEnd": 785.3,
+          "actualStart": 553.943,
+          "actualEnd": 789.806917,
+          "timeDifference": 4.502999999999929
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Backlash Against Social Progress and the Power of Anger",
+          "expectedStart": 785.3,
+          "expectedEnd": 986.21,
+          "actualStart": 791.306917,
+          "actualEnd": 992.218209,
+          "timeDifference": 6.006917000000044
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Everyday Choices and the Demand for Accountability",
+          "expectedStart": 986.21,
+          "expectedEnd": 1157.71,
+          "actualStart": 993.718209,
+          "actualEnd": 1165.219709,
+          "timeDifference": 7.508208999999965
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Where the Personal and Political Collide",
+          "expectedStart": 1157.71,
+          "expectedEnd": 1336.22,
+          "actualStart": 1166.719709,
+          "actualEnd": 1345.232459,
+          "timeDifference": 9.00970899999993
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reclaiming “Witchiness” as Power",
+          "expectedStart": 1336.22,
+          "expectedEnd": 1475.59,
+          "actualStart": 1346.732459,
+          "actualEnd": 1486.104209,
+          "timeDifference": 10.512459000000035
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Necessity of Resistance",
+          "expectedStart": 1475.59,
+          "expectedEnd": 1612.19,
+          "actualStart": 1487.604209,
+          "actualEnd": 1624.204709,
+          "timeDifference": 12.014209000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Critique as Care: The Importance of Speaking Up",
+          "expectedStart": 1612.19,
+          "expectedEnd": 1742.69,
+          "actualStart": 1625.704709,
+          "actualEnd": 1756.2045010000002,
+          "timeDifference": 13.514709000000039
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living With Uncertainty and Choosing Hope",
+          "expectedStart": 1742.69,
+          "expectedEnd": 1869.63,
+          "actualStart": 1757.7045010000002,
+          "actualEnd": 1884.6456680000001,
+          "timeDifference": 15.01450100000011
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1869.63,
+          "expectedEnd": 1995.73,
+          "actualStart": 1886.1456680000001,
+          "actualEnd": 2012.246585,
+          "timeDifference": 16.515668000000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.282458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Stories Shape What We See and Ignore"
+        },
+        {
+          "startTime": 305.080125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Stories Shape What We See and Ignore and Chapter 2 The Myth of Progress and the Denial of Harm"
+        },
+        {
+          "startTime": 552.443,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Myth of Progress and the Denial of Harm and Chapter 3 Pop Culture’s Role in Reinforcing and Challenging Norms"
+        },
+        {
+          "startTime": 789.806917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Pop Culture’s Role in Reinforcing and Challenging Norms and Chapter 4 The Backlash Against Social Progress and the Power of Anger"
+        },
+        {
+          "startTime": 992.218209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Backlash Against Social Progress and the Power of Anger and Chapter 5 Everyday Choices and the Demand for Accountability"
+        },
+        {
+          "startTime": 1165.219709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Everyday Choices and the Demand for Accountability and Chapter 6 Where the Personal and Political Collide"
+        },
+        {
+          "startTime": 1345.232459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Where the Personal and Political Collide and Chapter 7 Reclaiming “Witchiness” as Power"
+        },
+        {
+          "startTime": 1486.104209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reclaiming “Witchiness” as Power and Chapter 8 The Ongoing Necessity of Resistance"
+        },
+        {
+          "startTime": 1624.204709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Necessity of Resistance and Chapter 9 Critique as Care: The Importance of Speaking Up"
+        },
+        {
+          "startTime": 1756.2045010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Critique as Care: The Importance of Speaking Up and Chapter 10 Living With Uncertainty and Choosing Hope"
+        },
+        {
+          "startTime": 1884.6456680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living With Uncertainty and Choosing Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1578",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:18:48.065Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

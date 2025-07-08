@@ -1,0 +1,456 @@
+{
+  "bookId": "1591",
+  "timestamp": "2025-07-08T00:39:51.074Z",
+  "success": false,
+  "processingTime": -1751934899582,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5804,
+    "totalAudioFiles": 12,
+    "totalDuration": 2443.731667
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2443.731667
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1591/optimized_text/1591.md",
+    "fileSize": 703,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "1591.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1591/metadata/1591_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2443.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1591/metadata/1591_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1591/metadata/1591_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1591/1591_complete.wav",
+    "duration": 2443.731667,
+    "fileSize": 117299198,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1591/introduction.wav",
+          "duration": 88.539167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.539167,
+          "startTime": 0,
+          "endTime": 88.539167
+        },
+        {
+          "path": "Audio/output/1591/chapter_01.wav",
+          "duration": 325.415125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Country Divided by History and Fear",
+          "actualDuration": 325.415125,
+          "startTime": 90.039167,
+          "endTime": 415.454292
+        },
+        {
+          "path": "Audio/output/1591/chapter_02.wav",
+          "duration": 297.284458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Mandela’s Quiet Revolution: Winning Over Old Foes",
+          "actualDuration": 297.284458,
+          "startTime": 416.954292,
+          "endTime": 714.23875
+        },
+        {
+          "path": "Audio/output/1591/chapter_03.wav",
+          "duration": 258.851833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Springboks: From Symbol of Division to Hope",
+          "actualDuration": 258.851833,
+          "startTime": 715.73875,
+          "endTime": 974.5905829999999
+        },
+        {
+          "path": "Audio/output/1591/chapter_04.wav",
+          "duration": 232.916792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The World Cup: A Nation Holds Its Breath",
+          "actualDuration": 232.916792,
+          "startTime": 976.0905829999999,
+          "endTime": 1209.007375
+        },
+        {
+          "path": "Audio/output/1591/chapter_05.wav",
+          "duration": 206.501042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Forgiveness, Identity, and the Long Road Ahead",
+          "actualDuration": 206.501042,
+          "startTime": 1210.507375,
+          "endTime": 1417.008417
+        },
+        {
+          "path": "Audio/output/1591/chapter_06.wav",
+          "duration": 229.068708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 After the Cheers: The Unfinished Work of Reconciliation",
+          "actualDuration": 229.068708,
+          "startTime": 1418.508417,
+          "endTime": 1647.577125
+        },
+        {
+          "path": "Audio/output/1591/chapter_07.wav",
+          "duration": 197.128042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Cost of Forgiveness: Struggles and Sacrifices",
+          "actualDuration": 197.128042,
+          "startTime": 1649.077125,
+          "endTime": 1846.205167
+        },
+        {
+          "path": "Audio/output/1591/chapter_08.wav",
+          "duration": 184.936583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Game’s Enduring Legacy: Sport as a Bridge",
+          "actualDuration": 184.936583,
+          "startTime": 1847.705167,
+          "endTime": 2032.64175
+        },
+        {
+          "path": "Audio/output/1591/chapter_09.wav",
+          "duration": 155.243375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Mandela’s Final Years: Wisdom, Wounds, and the Weight of History",
+          "actualDuration": 155.243375,
+          "startTime": 2034.14175,
+          "endTime": 2189.385125
+        },
+        {
+          "path": "Audio/output/1591/chapter_10.wav",
+          "duration": 146.631167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the World: The Power of Empathy and Shared Purpose",
+          "actualDuration": 146.631167,
+          "startTime": 2190.885125,
+          "endTime": 2337.516292
+        },
+        {
+          "path": "Audio/output/1591/conclusion.wav",
+          "duration": 121.215375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.215375,
+          "startTime": 2339.016292,
+          "endTime": 2460.231667
+        }
+      ],
+      "totalDuration": 2460.231667,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.54,
+          "actualStart": 0,
+          "actualEnd": 88.539167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Country Divided by History and Fear",
+          "expectedStart": 88.54,
+          "expectedEnd": 413.96,
+          "actualStart": 90.039167,
+          "actualEnd": 415.454292,
+          "timeDifference": 1.499167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Mandela’s Quiet Revolution: Winning Over Old Foes",
+          "expectedStart": 413.96,
+          "expectedEnd": 711.24,
+          "actualStart": 416.954292,
+          "actualEnd": 714.23875,
+          "timeDifference": 2.99429200000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Springboks: From Symbol of Division to Hope",
+          "expectedStart": 711.24,
+          "expectedEnd": 970.09,
+          "actualStart": 715.73875,
+          "actualEnd": 974.5905829999999,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The World Cup: A Nation Holds Its Breath",
+          "expectedStart": 970.09,
+          "expectedEnd": 1203.01,
+          "actualStart": 976.0905829999999,
+          "actualEnd": 1209.007375,
+          "timeDifference": 6.000582999999892
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Forgiveness, Identity, and the Long Road Ahead",
+          "expectedStart": 1203.01,
+          "expectedEnd": 1409.51,
+          "actualStart": 1210.507375,
+          "actualEnd": 1417.008417,
+          "timeDifference": 7.49737499999992
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 After the Cheers: The Unfinished Work of Reconciliation",
+          "expectedStart": 1409.51,
+          "expectedEnd": 1638.58,
+          "actualStart": 1418.508417,
+          "actualEnd": 1647.577125,
+          "timeDifference": 8.998417000000018
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Cost of Forgiveness: Struggles and Sacrifices",
+          "expectedStart": 1638.58,
+          "expectedEnd": 1835.71,
+          "actualStart": 1649.077125,
+          "actualEnd": 1846.205167,
+          "timeDifference": 10.497125000000096
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Game’s Enduring Legacy: Sport as a Bridge",
+          "expectedStart": 1835.71,
+          "expectedEnd": 2020.65,
+          "actualStart": 1847.705167,
+          "actualEnd": 2032.64175,
+          "timeDifference": 11.995167000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Mandela’s Final Years: Wisdom, Wounds, and the Weight of History",
+          "expectedStart": 2020.65,
+          "expectedEnd": 2175.89,
+          "actualStart": 2034.14175,
+          "actualEnd": 2189.385125,
+          "timeDifference": 13.49174999999991
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the World: The Power of Empathy and Shared Purpose",
+          "expectedStart": 2175.89,
+          "expectedEnd": 2322.52,
+          "actualStart": 2190.885125,
+          "actualEnd": 2337.516292,
+          "timeDifference": 14.995124999999916
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2322.52,
+          "expectedEnd": 2443.74,
+          "actualStart": 2339.016292,
+          "actualEnd": 2460.231667,
+          "timeDifference": 16.496291999999812
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.539167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Country Divided by History and Fear"
+        },
+        {
+          "startTime": 415.454292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Country Divided by History and Fear and Chapter 2 Mandela’s Quiet Revolution: Winning Over Old Foes"
+        },
+        {
+          "startTime": 714.23875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Mandela’s Quiet Revolution: Winning Over Old Foes and Chapter 3 The Springboks: From Symbol of Division to Hope"
+        },
+        {
+          "startTime": 974.5905829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Springboks: From Symbol of Division to Hope and Chapter 4 The World Cup: A Nation Holds Its Breath"
+        },
+        {
+          "startTime": 1209.007375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The World Cup: A Nation Holds Its Breath and Chapter 5 Forgiveness, Identity, and the Long Road Ahead"
+        },
+        {
+          "startTime": 1417.008417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Forgiveness, Identity, and the Long Road Ahead and Chapter 6 After the Cheers: The Unfinished Work of Reconciliation"
+        },
+        {
+          "startTime": 1647.577125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 After the Cheers: The Unfinished Work of Reconciliation and Chapter 7 The Cost of Forgiveness: Struggles and Sacrifices"
+        },
+        {
+          "startTime": 1846.205167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Cost of Forgiveness: Struggles and Sacrifices and Chapter 8 The Game’s Enduring Legacy: Sport as a Bridge"
+        },
+        {
+          "startTime": 2032.64175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Game’s Enduring Legacy: Sport as a Bridge and Chapter 9 Mandela’s Final Years: Wisdom, Wounds, and the Weight of History"
+        },
+        {
+          "startTime": 2189.385125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Mandela’s Final Years: Wisdom, Wounds, and the Weight of History and Chapter 10 Lessons for the World: The Power of Empathy and Shared Purpose"
+        },
+        {
+          "startTime": 2337.516292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the World: The Power of Empathy and Shared Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1591",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:35:00.144Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

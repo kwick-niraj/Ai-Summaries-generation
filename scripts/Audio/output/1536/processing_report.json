@@ -1,0 +1,456 @@
+{
+  "bookId": "1536",
+  "timestamp": "2025-07-07T22:40:46.907Z",
+  "success": false,
+  "processingTime": -1751927791484,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4757,
+    "totalAudioFiles": 12,
+    "totalDuration": 2120.5887079999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2120.5887079999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1536/optimized_text/1536.md",
+    "fileSize": 705,
+    "wordCount": 113,
+    "format": "markdown",
+    "filename": "1536.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1536/metadata/1536_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2120.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1536/metadata/1536_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1536/metadata/1536_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1536/1536_complete.wav",
+    "duration": 2120.588708,
+    "fileSize": 101788336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1536/introduction.wav",
+          "duration": 106.866917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.866917,
+          "startTime": 0,
+          "endTime": 106.866917
+        },
+        {
+          "path": "Audio/output/1536/chapter_01.wav",
+          "duration": 251.12375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Lasting Happiness and the Reality of Suffering",
+          "actualDuration": 251.12375,
+          "startTime": 108.366917,
+          "endTime": 359.49066700000003
+        },
+        {
+          "path": "Audio/output/1536/chapter_02.wav",
+          "duration": 243.753,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Restless Drive of Will and the Trap of Desire",
+          "actualDuration": 243.753,
+          "startTime": 360.99066700000003,
+          "endTime": 604.743667
+        },
+        {
+          "path": "Audio/output/1536/chapter_03.wav",
+          "duration": 220.331708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Value of Solitude and the Power of Introspection",
+          "actualDuration": 220.331708,
+          "startTime": 606.243667,
+          "endTime": 826.5753749999999
+        },
+        {
+          "path": "Audio/output/1536/chapter_04.wav",
+          "duration": 217.748708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Illusion of Optimism and the Pitfalls of Popular Opinion",
+          "actualDuration": 217.748708,
+          "startTime": 828.0753749999999,
+          "endTime": 1045.824083
+        },
+        {
+          "path": "Audio/output/1536/chapter_05.wav",
+          "duration": 158.89875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Knowledge and the Search for Meaning",
+          "actualDuration": 158.89875,
+          "startTime": 1047.324083,
+          "endTime": 1206.222833
+        },
+        {
+          "path": "Audio/output/1536/chapter_06.wav",
+          "duration": 169.112083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Wisdom of Detachment and the Art of Letting Go",
+          "actualDuration": 169.112083,
+          "startTime": 1207.722833,
+          "endTime": 1376.834916
+        },
+        {
+          "path": "Audio/output/1536/chapter_07.wav",
+          "duration": 181.396583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Art and Beauty in a Difficult World",
+          "actualDuration": 181.396583,
+          "startTime": 1378.334916,
+          "endTime": 1559.731499
+        },
+        {
+          "path": "Audio/output/1536/chapter_08.wav",
+          "duration": 146.399125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Practice of Compassion and the Limits of Empathy",
+          "actualDuration": 146.399125,
+          "startTime": 1561.231499,
+          "endTime": 1707.630624
+        },
+        {
+          "path": "Audio/output/1536/chapter_09.wav",
+          "duration": 146.163042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Power of Acceptance",
+          "actualDuration": 146.163042,
+          "startTime": 1709.130624,
+          "endTime": 1855.2936659999998
+        },
+        {
+          "path": "Audio/output/1536/chapter_10.wav",
+          "duration": 140.863167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Clarity and the Practice of Daily Wisdom",
+          "actualDuration": 140.863167,
+          "startTime": 1856.7936659999998,
+          "endTime": 1997.6568329999998
+        },
+        {
+          "path": "Audio/output/1536/conclusion.wav",
+          "duration": 137.931875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.931875,
+          "startTime": 1999.1568329999998,
+          "endTime": 2137.0887079999998
+        }
+      ],
+      "totalDuration": 2137.0887079999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.87,
+          "actualStart": 0,
+          "actualEnd": 106.866917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Lasting Happiness and the Reality of Suffering",
+          "expectedStart": 106.87,
+          "expectedEnd": 357.99,
+          "actualStart": 108.366917,
+          "actualEnd": 359.49066700000003,
+          "timeDifference": 1.4969169999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Restless Drive of Will and the Trap of Desire",
+          "expectedStart": 357.99,
+          "expectedEnd": 601.74,
+          "actualStart": 360.99066700000003,
+          "actualEnd": 604.743667,
+          "timeDifference": 3.0006670000000213
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Value of Solitude and the Power of Introspection",
+          "expectedStart": 601.74,
+          "expectedEnd": 822.07,
+          "actualStart": 606.243667,
+          "actualEnd": 826.5753749999999,
+          "timeDifference": 4.50366699999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Illusion of Optimism and the Pitfalls of Popular Opinion",
+          "expectedStart": 822.07,
+          "expectedEnd": 1039.82,
+          "actualStart": 828.0753749999999,
+          "actualEnd": 1045.824083,
+          "timeDifference": 6.0053749999998445
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Knowledge and the Search for Meaning",
+          "expectedStart": 1039.82,
+          "expectedEnd": 1198.72,
+          "actualStart": 1047.324083,
+          "actualEnd": 1206.222833,
+          "timeDifference": 7.504083000000037
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Wisdom of Detachment and the Art of Letting Go",
+          "expectedStart": 1198.72,
+          "expectedEnd": 1367.83,
+          "actualStart": 1207.722833,
+          "actualEnd": 1376.834916,
+          "timeDifference": 9.00283300000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Art and Beauty in a Difficult World",
+          "expectedStart": 1367.83,
+          "expectedEnd": 1549.23,
+          "actualStart": 1378.334916,
+          "actualEnd": 1559.731499,
+          "timeDifference": 10.504916000000094
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Practice of Compassion and the Limits of Empathy",
+          "expectedStart": 1549.23,
+          "expectedEnd": 1695.63,
+          "actualStart": 1561.231499,
+          "actualEnd": 1707.630624,
+          "timeDifference": 12.001498999999967
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Power of Acceptance",
+          "expectedStart": 1695.63,
+          "expectedEnd": 1841.79,
+          "actualStart": 1709.130624,
+          "actualEnd": 1855.2936659999998,
+          "timeDifference": 13.500623999999789
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Clarity and the Practice of Daily Wisdom",
+          "expectedStart": 1841.79,
+          "expectedEnd": 1982.65,
+          "actualStart": 1856.7936659999998,
+          "actualEnd": 1997.6568329999998,
+          "timeDifference": 15.00366599999984
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1982.65,
+          "expectedEnd": 2120.58,
+          "actualStart": 1999.1568329999998,
+          "actualEnd": 2137.0887079999998,
+          "timeDifference": 16.506832999999688
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.866917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Lasting Happiness and the Reality of Suffering"
+        },
+        {
+          "startTime": 359.49066700000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Lasting Happiness and the Reality of Suffering and Chapter 2 The Restless Drive of Will and the Trap of Desire"
+        },
+        {
+          "startTime": 604.743667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Restless Drive of Will and the Trap of Desire and Chapter 3 The Value of Solitude and the Power of Introspection"
+        },
+        {
+          "startTime": 826.5753749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Value of Solitude and the Power of Introspection and Chapter 4 The Illusion of Optimism and the Pitfalls of Popular Opinion"
+        },
+        {
+          "startTime": 1045.824083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Illusion of Optimism and the Pitfalls of Popular Opinion and Chapter 5 The Limits of Knowledge and the Search for Meaning"
+        },
+        {
+          "startTime": 1206.222833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Knowledge and the Search for Meaning and Chapter 6 The Wisdom of Detachment and the Art of Letting Go"
+        },
+        {
+          "startTime": 1376.834916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Wisdom of Detachment and the Art of Letting Go and Chapter 7 The Role of Art and Beauty in a Difficult World"
+        },
+        {
+          "startTime": 1559.731499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Art and Beauty in a Difficult World and Chapter 8 The Practice of Compassion and the Limits of Empathy"
+        },
+        {
+          "startTime": 1707.630624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Practice of Compassion and the Limits of Empathy and Chapter 9 The Quiet Power of Acceptance"
+        },
+        {
+          "startTime": 1855.2936659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Power of Acceptance and Chapter 10 Living with Clarity and the Practice of Daily Wisdom"
+        },
+        {
+          "startTime": 1997.6568329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Clarity and the Practice of Daily Wisdom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1536",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:36:32.649Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

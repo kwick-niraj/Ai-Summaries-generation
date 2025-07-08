@@ -1,0 +1,456 @@
+{
+  "bookId": "1505",
+  "timestamp": "2025-07-07T21:11:30.177Z",
+  "success": false,
+  "processingTime": -1751922456386,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4579,
+    "totalAudioFiles": 12,
+    "totalDuration": 2019.3016659999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2019.3016659999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1505/optimized_text/1505.md",
+    "fileSize": 792,
+    "wordCount": 115,
+    "format": "markdown",
+    "filename": "1505.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1505/metadata/1505_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2019.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1505/metadata/1505_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1505/metadata/1505_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1505/1505_complete.wav",
+    "duration": 2019.301667,
+    "fileSize": 96926558,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1505/introduction.wav",
+          "duration": 79.5865,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.5865,
+          "startTime": 0,
+          "endTime": 79.5865
+        },
+        {
+          "path": "Audio/output/1505/chapter_01.wav",
+          "duration": 263.487417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into the Hospital: The First Days of a Junior Doctor",
+          "actualDuration": 263.487417,
+          "startTime": 81.0865,
+          "endTime": 344.573917
+        },
+        {
+          "path": "Audio/output/1505/chapter_02.wav",
+          "duration": 245.225708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Relentless Pace: Long Hours, High Stakes, and Little Rest",
+          "actualDuration": 245.225708,
+          "startTime": 346.073917,
+          "endTime": 591.299625
+        },
+        {
+          "path": "Audio/output/1505/chapter_03.wav",
+          "duration": 219.221958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Side of Medicine: Patients, Families, and Unexpected Moments",
+          "actualDuration": 219.221958,
+          "startTime": 592.799625,
+          "endTime": 812.021583
+        },
+        {
+          "path": "Audio/output/1505/chapter_04.wav",
+          "duration": 224.361333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Coping With Trauma: Stress, Mistakes, and the Need for Humor",
+          "actualDuration": 224.361333,
+          "startTime": 813.521583,
+          "endTime": 1037.882916
+        },
+        {
+          "path": "Audio/output/1505/chapter_05.wav",
+          "duration": 199.710417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Personal Cost: Balancing Duty and Life Outside the Hospital",
+          "actualDuration": 199.710417,
+          "startTime": 1039.382916,
+          "endTime": 1239.093333
+        },
+        {
+          "path": "Audio/output/1505/chapter_06.wav",
+          "duration": 180.686292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The System’s Strain: Navigating Bureaucracy and Broken Promises",
+          "actualDuration": 180.686292,
+          "startTime": 1240.593333,
+          "endTime": 1421.2796250000001
+        },
+        {
+          "path": "Audio/output/1505/chapter_07.wav",
+          "duration": 139.174875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Moments of Joy: Small Victories and the Power of Connection",
+          "actualDuration": 139.174875,
+          "startTime": 1422.7796250000001,
+          "endTime": 1561.9545
+        },
+        {
+          "path": "Audio/output/1505/chapter_08.wav",
+          "duration": 137.419958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Breaking Point: Burnout, Sacrifice, and the Call for Change",
+          "actualDuration": 137.419958,
+          "startTime": 1563.4545,
+          "endTime": 1700.874458
+        },
+        {
+          "path": "Audio/output/1505/chapter_09.wav",
+          "duration": 101.096,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Meaning: Why They Stay",
+          "actualDuration": 101.096,
+          "startTime": 1702.374458,
+          "endTime": 1803.470458
+        },
+        {
+          "path": "Audio/output/1505/chapter_10.wav",
+          "duration": 111.557625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward: Hope, Change, and the Future of Medicine",
+          "actualDuration": 111.557625,
+          "startTime": 1804.970458,
+          "endTime": 1916.528083
+        },
+        {
+          "path": "Audio/output/1505/conclusion.wav",
+          "duration": 117.773583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.773583,
+          "startTime": 1918.028083,
+          "endTime": 2035.8016659999998
+        }
+      ],
+      "totalDuration": 2035.8016659999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.59,
+          "actualStart": 0,
+          "actualEnd": 79.5865,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into the Hospital: The First Days of a Junior Doctor",
+          "expectedStart": 79.59,
+          "expectedEnd": 343.08,
+          "actualStart": 81.0865,
+          "actualEnd": 344.573917,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Relentless Pace: Long Hours, High Stakes, and Little Rest",
+          "expectedStart": 343.08,
+          "expectedEnd": 588.31,
+          "actualStart": 346.073917,
+          "actualEnd": 591.299625,
+          "timeDifference": 2.9939170000000104
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Side of Medicine: Patients, Families, and Unexpected Moments",
+          "expectedStart": 588.31,
+          "expectedEnd": 807.53,
+          "actualStart": 592.799625,
+          "actualEnd": 812.021583,
+          "timeDifference": 4.489625000000046
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Coping With Trauma: Stress, Mistakes, and the Need for Humor",
+          "expectedStart": 807.53,
+          "expectedEnd": 1031.89,
+          "actualStart": 813.521583,
+          "actualEnd": 1037.882916,
+          "timeDifference": 5.991582999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Personal Cost: Balancing Duty and Life Outside the Hospital",
+          "expectedStart": 1031.89,
+          "expectedEnd": 1231.6,
+          "actualStart": 1039.382916,
+          "actualEnd": 1239.093333,
+          "timeDifference": 7.492915999999923
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The System’s Strain: Navigating Bureaucracy and Broken Promises",
+          "expectedStart": 1231.6,
+          "expectedEnd": 1412.29,
+          "actualStart": 1240.593333,
+          "actualEnd": 1421.2796250000001,
+          "timeDifference": 8.99333300000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Moments of Joy: Small Victories and the Power of Connection",
+          "expectedStart": 1412.29,
+          "expectedEnd": 1551.46,
+          "actualStart": 1422.7796250000001,
+          "actualEnd": 1561.9545,
+          "timeDifference": 10.48962500000016
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Breaking Point: Burnout, Sacrifice, and the Call for Change",
+          "expectedStart": 1551.46,
+          "expectedEnd": 1688.88,
+          "actualStart": 1563.4545,
+          "actualEnd": 1700.874458,
+          "timeDifference": 11.994500000000016
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Meaning: Why They Stay",
+          "expectedStart": 1688.88,
+          "expectedEnd": 1789.98,
+          "actualStart": 1702.374458,
+          "actualEnd": 1803.470458,
+          "timeDifference": 13.494457999999895
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward: Hope, Change, and the Future of Medicine",
+          "expectedStart": 1789.98,
+          "expectedEnd": 1901.54,
+          "actualStart": 1804.970458,
+          "actualEnd": 1916.528083,
+          "timeDifference": 14.99045799999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1901.54,
+          "expectedEnd": 2019.31,
+          "actualStart": 1918.028083,
+          "actualEnd": 2035.8016659999998,
+          "timeDifference": 16.48808299999996
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.5865,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into the Hospital: The First Days of a Junior Doctor"
+        },
+        {
+          "startTime": 344.573917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into the Hospital: The First Days of a Junior Doctor and Chapter 2 The Relentless Pace: Long Hours, High Stakes, and Little Rest"
+        },
+        {
+          "startTime": 591.299625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Relentless Pace: Long Hours, High Stakes, and Little Rest and Chapter 3 The Human Side of Medicine: Patients, Families, and Unexpected Moments"
+        },
+        {
+          "startTime": 812.021583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Side of Medicine: Patients, Families, and Unexpected Moments and Chapter 4 Coping With Trauma: Stress, Mistakes, and the Need for Humor"
+        },
+        {
+          "startTime": 1037.882916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Coping With Trauma: Stress, Mistakes, and the Need for Humor and Chapter 5 The Personal Cost: Balancing Duty and Life Outside the Hospital"
+        },
+        {
+          "startTime": 1239.093333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Personal Cost: Balancing Duty and Life Outside the Hospital and Chapter 6 The System’s Strain: Navigating Bureaucracy and Broken Promises"
+        },
+        {
+          "startTime": 1421.2796250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The System’s Strain: Navigating Bureaucracy and Broken Promises and Chapter 7 Moments of Joy: Small Victories and the Power of Connection"
+        },
+        {
+          "startTime": 1561.9545,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Moments of Joy: Small Victories and the Power of Connection and Chapter 8 The Breaking Point: Burnout, Sacrifice, and the Call for Change"
+        },
+        {
+          "startTime": 1700.874458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Breaking Point: Burnout, Sacrifice, and the Call for Change and Chapter 9 Finding Meaning: Why They Stay"
+        },
+        {
+          "startTime": 1803.470458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Meaning: Why They Stay and Chapter 10 Looking Forward: Hope, Change, and the Future of Medicine"
+        },
+        {
+          "startTime": 1916.528083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward: Hope, Change, and the Future of Medicine and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1505",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T21:07:36.975Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

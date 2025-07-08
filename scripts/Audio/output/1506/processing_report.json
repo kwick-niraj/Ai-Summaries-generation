@@ -1,0 +1,456 @@
+{
+  "bookId": "1506",
+  "timestamp": "2025-07-07T21:15:33.281Z",
+  "success": false,
+  "processingTime": -1751922691182,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4332,
+    "totalAudioFiles": 12,
+    "totalDuration": 1961.6479170000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1961.6479170000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1506/optimized_text/1506.md",
+    "fileSize": 768,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1506.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1506/metadata/1506_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1961.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1506/metadata/1506_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1506/metadata/1506_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1506/1506_complete.wav",
+    "duration": 1961.647917,
+    "fileSize": 94159178,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1506/introduction.wav",
+          "duration": 68.077083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 68.077083,
+          "startTime": 0,
+          "endTime": 68.077083
+        },
+        {
+          "path": "Audio/output/1506/chapter_01.wav",
+          "duration": 200.6435,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Modern Challenge: Why Attention Feels Scarce",
+          "actualDuration": 200.6435,
+          "startTime": 69.577083,
+          "endTime": 270.220583
+        },
+        {
+          "path": "Audio/output/1506/chapter_02.wav",
+          "duration": 208.161,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Choosing a Daily Highlight: Focusing on What Matters Most",
+          "actualDuration": 208.161,
+          "startTime": 271.720583,
+          "endTime": 479.881583
+        },
+        {
+          "path": "Audio/output/1506/chapter_03.wav",
+          "duration": 224.544958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Managing Attention: Creating Space for Deep Focus",
+          "actualDuration": 224.544958,
+          "startTime": 481.381583,
+          "endTime": 705.926541
+        },
+        {
+          "path": "Audio/output/1506/chapter_04.wav",
+          "duration": 241.24225,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reducing Distractions: Taking Control of Digital and Environmental Interruptions",
+          "actualDuration": 241.24225,
+          "startTime": 707.426541,
+          "endTime": 948.668791
+        },
+        {
+          "path": "Audio/output/1506/chapter_05.wav",
+          "duration": 216.521875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Boosting Energy: Supporting Focus Through Healthy Habits",
+          "actualDuration": 216.521875,
+          "startTime": 950.168791,
+          "endTime": 1166.690666
+        },
+        {
+          "path": "Audio/output/1506/chapter_06.wav",
+          "duration": 154.725625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Reflecting and Iterating: Building a Personal Feedback Loop",
+          "actualDuration": 154.725625,
+          "startTime": 1168.190666,
+          "endTime": 1322.916291
+        },
+        {
+          "path": "Audio/output/1506/chapter_07.wav",
+          "duration": 152.461917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Setbacks: Embracing Imperfection and Resilience",
+          "actualDuration": 152.461917,
+          "startTime": 1324.416291,
+          "endTime": 1476.878208
+        },
+        {
+          "path": "Audio/output/1506/chapter_08.wav",
+          "duration": 118.33025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Framework: Making It a Natural Part of Life",
+          "actualDuration": 118.33025,
+          "startTime": 1478.378208,
+          "endTime": 1596.708458
+        },
+        {
+          "path": "Audio/output/1506/chapter_09.wav",
+          "duration": 126.788875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Adapting the System: Customizing for Different Seasons and Contexts",
+          "actualDuration": 126.788875,
+          "startTime": 1598.208458,
+          "endTime": 1724.997333
+        },
+        {
+          "path": "Audio/output/1506/chapter_10.wav",
+          "duration": 113.995417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Change: The Long View",
+          "actualDuration": 113.995417,
+          "startTime": 1726.497333,
+          "endTime": 1840.4927500000001
+        },
+        {
+          "path": "Audio/output/1506/conclusion.wav",
+          "duration": 136.155167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.155167,
+          "startTime": 1841.9927500000001,
+          "endTime": 1978.1479170000002
+        }
+      ],
+      "totalDuration": 1978.1479170000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 68.08,
+          "actualStart": 0,
+          "actualEnd": 68.077083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Modern Challenge: Why Attention Feels Scarce",
+          "expectedStart": 68.08,
+          "expectedEnd": 268.72,
+          "actualStart": 69.577083,
+          "actualEnd": 270.220583,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Choosing a Daily Highlight: Focusing on What Matters Most",
+          "expectedStart": 268.72,
+          "expectedEnd": 476.88,
+          "actualStart": 271.720583,
+          "actualEnd": 479.881583,
+          "timeDifference": 3.000582999999949
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Managing Attention: Creating Space for Deep Focus",
+          "expectedStart": 476.88,
+          "expectedEnd": 701.42,
+          "actualStart": 481.381583,
+          "actualEnd": 705.926541,
+          "timeDifference": 4.501582999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reducing Distractions: Taking Control of Digital and Environmental Interruptions",
+          "expectedStart": 701.42,
+          "expectedEnd": 942.66,
+          "actualStart": 707.426541,
+          "actualEnd": 948.668791,
+          "timeDifference": 6.006541000000084
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Boosting Energy: Supporting Focus Through Healthy Habits",
+          "expectedStart": 942.66,
+          "expectedEnd": 1159.18,
+          "actualStart": 950.168791,
+          "actualEnd": 1166.690666,
+          "timeDifference": 7.5087910000000875
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Reflecting and Iterating: Building a Personal Feedback Loop",
+          "expectedStart": 1159.18,
+          "expectedEnd": 1313.91,
+          "actualStart": 1168.190666,
+          "actualEnd": 1322.916291,
+          "timeDifference": 9.010665999999901
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Setbacks: Embracing Imperfection and Resilience",
+          "expectedStart": 1313.91,
+          "expectedEnd": 1466.37,
+          "actualStart": 1324.416291,
+          "actualEnd": 1476.878208,
+          "timeDifference": 10.50629099999992
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Framework: Making It a Natural Part of Life",
+          "expectedStart": 1466.37,
+          "expectedEnd": 1584.7,
+          "actualStart": 1478.378208,
+          "actualEnd": 1596.708458,
+          "timeDifference": 12.008208000000195
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Adapting the System: Customizing for Different Seasons and Contexts",
+          "expectedStart": 1584.7,
+          "expectedEnd": 1711.49,
+          "actualStart": 1598.208458,
+          "actualEnd": 1724.997333,
+          "timeDifference": 13.508458000000019
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Change: The Long View",
+          "expectedStart": 1711.49,
+          "expectedEnd": 1825.49,
+          "actualStart": 1726.497333,
+          "actualEnd": 1840.4927500000001,
+          "timeDifference": 15.007333000000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1825.49,
+          "expectedEnd": 1961.65,
+          "actualStart": 1841.9927500000001,
+          "actualEnd": 1978.1479170000002,
+          "timeDifference": 16.502750000000106
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 68.077083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Modern Challenge: Why Attention Feels Scarce"
+        },
+        {
+          "startTime": 270.220583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Modern Challenge: Why Attention Feels Scarce and Chapter 2 Choosing a Daily Highlight: Focusing on What Matters Most"
+        },
+        {
+          "startTime": 479.881583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Choosing a Daily Highlight: Focusing on What Matters Most and Chapter 3 Managing Attention: Creating Space for Deep Focus"
+        },
+        {
+          "startTime": 705.926541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Managing Attention: Creating Space for Deep Focus and Chapter 4 Reducing Distractions: Taking Control of Digital and Environmental Interruptions"
+        },
+        {
+          "startTime": 948.668791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reducing Distractions: Taking Control of Digital and Environmental Interruptions and Chapter 5 Boosting Energy: Supporting Focus Through Healthy Habits"
+        },
+        {
+          "startTime": 1166.690666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Boosting Energy: Supporting Focus Through Healthy Habits and Chapter 6 Reflecting and Iterating: Building a Personal Feedback Loop"
+        },
+        {
+          "startTime": 1322.916291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Reflecting and Iterating: Building a Personal Feedback Loop and Chapter 7 Navigating Setbacks: Embracing Imperfection and Resilience"
+        },
+        {
+          "startTime": 1476.878208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Setbacks: Embracing Imperfection and Resilience and Chapter 8 Integrating the Framework: Making It a Natural Part of Life"
+        },
+        {
+          "startTime": 1596.708458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Framework: Making It a Natural Part of Life and Chapter 9 Adapting the System: Customizing for Different Seasons and Contexts"
+        },
+        {
+          "startTime": 1724.997333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Adapting the System: Customizing for Different Seasons and Contexts and Chapter 10 Sustaining Change: The Long View"
+        },
+        {
+          "startTime": 1840.4927500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Change: The Long View and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1506",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T21:11:31.685Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

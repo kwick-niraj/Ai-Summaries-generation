@@ -1,0 +1,456 @@
+{
+  "bookId": "1498",
+  "timestamp": "2025-07-07T20:50:43.594Z",
+  "success": false,
+  "processingTime": -1751921102888,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3863,
+    "totalAudioFiles": 12,
+    "totalDuration": 2009.675584
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2009.675584
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1498/optimized_text/1498.md",
+    "fileSize": 722,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1498.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1498/metadata/1498_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2009.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1498/metadata/1498_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1498/metadata/1498_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1498/1498_complete.wav",
+    "duration": 2009.675583,
+    "fileSize": 96464506,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1498/introduction.wav",
+          "duration": 92.40175,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.40175,
+          "startTime": 0,
+          "endTime": 92.40175
+        },
+        {
+          "path": "Audio/output/1498/chapter_01.wav",
+          "duration": 232.362208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Never-Ending Race for Survival and Change",
+          "actualDuration": 232.362208,
+          "startTime": 93.90175,
+          "endTime": 326.263958
+        },
+        {
+          "path": "Audio/output/1498/chapter_02.wav",
+          "duration": 195.647042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Why Sex Exists and How It Shapes Life",
+          "actualDuration": 195.647042,
+          "startTime": 327.763958,
+          "endTime": 523.4110000000001
+        },
+        {
+          "path": "Audio/output/1498/chapter_03.wav",
+          "duration": 185.540917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Battle of the Sexes: Strategies and Differences",
+          "actualDuration": 185.540917,
+          "startTime": 524.9110000000001,
+          "endTime": 710.4519170000001
+        },
+        {
+          "path": "Audio/output/1498/chapter_04.wav",
+          "duration": 211.487917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Choice: How Mate Selection Drives Evolution",
+          "actualDuration": 211.487917,
+          "startTime": 711.9519170000001,
+          "endTime": 923.4398340000001
+        },
+        {
+          "path": "Audio/output/1498/chapter_05.wav",
+          "duration": 184.05725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Evolution of Human Nature: Intelligence, Desire, and the Mind",
+          "actualDuration": 184.05725,
+          "startTime": 924.9398340000001,
+          "endTime": 1108.997084
+        },
+        {
+          "path": "Audio/output/1498/chapter_06.wav",
+          "duration": 189.945167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Roots of Human Attraction: Signals, Status, and Subtle Games",
+          "actualDuration": 189.945167,
+          "startTime": 1110.497084,
+          "endTime": 1300.4422510000002
+        },
+        {
+          "path": "Audio/output/1498/chapter_07.wav",
+          "duration": 173.654375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Puzzle of Monogamy and Fidelity",
+          "actualDuration": 173.654375,
+          "startTime": 1301.9422510000002,
+          "endTime": 1475.5966260000002
+        },
+        {
+          "path": "Audio/output/1498/chapter_08.wav",
+          "duration": 174.744458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Secret Lives of Genes: Cheating, Cooperation, and the Unexpected",
+          "actualDuration": 174.744458,
+          "startTime": 1477.0966260000002,
+          "endTime": 1651.8410840000001
+        },
+        {
+          "path": "Audio/output/1498/chapter_09.wav",
+          "duration": 149.186792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dance of Culture and Biology",
+          "actualDuration": 149.186792,
+          "startTime": 1653.3410840000001,
+          "endTime": 1802.527876
+        },
+        {
+          "path": "Audio/output/1498/chapter_10.wav",
+          "duration": 107.485375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of the Red Queen’s Race: Technology, Change, and Hope",
+          "actualDuration": 107.485375,
+          "startTime": 1804.027876,
+          "endTime": 1911.513251
+        },
+        {
+          "path": "Audio/output/1498/conclusion.wav",
+          "duration": 113.162333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.162333,
+          "startTime": 1913.013251,
+          "endTime": 2026.175584
+        }
+      ],
+      "totalDuration": 2026.175584,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.4,
+          "actualStart": 0,
+          "actualEnd": 92.40175,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Never-Ending Race for Survival and Change",
+          "expectedStart": 92.4,
+          "expectedEnd": 324.76,
+          "actualStart": 93.90175,
+          "actualEnd": 326.263958,
+          "timeDifference": 1.5017500000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Why Sex Exists and How It Shapes Life",
+          "expectedStart": 324.76,
+          "expectedEnd": 520.41,
+          "actualStart": 327.763958,
+          "actualEnd": 523.4110000000001,
+          "timeDifference": 3.0039580000000115
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Battle of the Sexes: Strategies and Differences",
+          "expectedStart": 520.41,
+          "expectedEnd": 705.95,
+          "actualStart": 524.9110000000001,
+          "actualEnd": 710.4519170000001,
+          "timeDifference": 4.50100000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Choice: How Mate Selection Drives Evolution",
+          "expectedStart": 705.95,
+          "expectedEnd": 917.44,
+          "actualStart": 711.9519170000001,
+          "actualEnd": 923.4398340000001,
+          "timeDifference": 6.001917000000049
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Evolution of Human Nature: Intelligence, Desire, and the Mind",
+          "expectedStart": 917.44,
+          "expectedEnd": 1101.5,
+          "actualStart": 924.9398340000001,
+          "actualEnd": 1108.997084,
+          "timeDifference": 7.499834000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Roots of Human Attraction: Signals, Status, and Subtle Games",
+          "expectedStart": 1101.5,
+          "expectedEnd": 1291.45,
+          "actualStart": 1110.497084,
+          "actualEnd": 1300.4422510000002,
+          "timeDifference": 8.997084000000086
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Puzzle of Monogamy and Fidelity",
+          "expectedStart": 1291.45,
+          "expectedEnd": 1465.1,
+          "actualStart": 1301.9422510000002,
+          "actualEnd": 1475.5966260000002,
+          "timeDifference": 10.492251000000124
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Secret Lives of Genes: Cheating, Cooperation, and the Unexpected",
+          "expectedStart": 1465.1,
+          "expectedEnd": 1639.84,
+          "actualStart": 1477.0966260000002,
+          "actualEnd": 1651.8410840000001,
+          "timeDifference": 11.996626000000333
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dance of Culture and Biology",
+          "expectedStart": 1639.84,
+          "expectedEnd": 1789.03,
+          "actualStart": 1653.3410840000001,
+          "actualEnd": 1802.527876,
+          "timeDifference": 13.501084000000219
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of the Red Queen’s Race: Technology, Change, and Hope",
+          "expectedStart": 1789.03,
+          "expectedEnd": 1896.52,
+          "actualStart": 1804.027876,
+          "actualEnd": 1911.513251,
+          "timeDifference": 14.997876000000133
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1896.52,
+          "expectedEnd": 2009.68,
+          "actualStart": 1913.013251,
+          "actualEnd": 2026.175584,
+          "timeDifference": 16.4932510000001
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.40175,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Never-Ending Race for Survival and Change"
+        },
+        {
+          "startTime": 326.263958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Never-Ending Race for Survival and Change and Chapter 2 Why Sex Exists and How It Shapes Life"
+        },
+        {
+          "startTime": 523.4110000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Why Sex Exists and How It Shapes Life and Chapter 3 The Battle of the Sexes: Strategies and Differences"
+        },
+        {
+          "startTime": 710.4519170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Battle of the Sexes: Strategies and Differences and Chapter 4 The Power of Choice: How Mate Selection Drives Evolution"
+        },
+        {
+          "startTime": 923.4398340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Choice: How Mate Selection Drives Evolution and Chapter 5 The Evolution of Human Nature: Intelligence, Desire, and the Mind"
+        },
+        {
+          "startTime": 1108.997084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Evolution of Human Nature: Intelligence, Desire, and the Mind and Chapter 6 The Roots of Human Attraction: Signals, Status, and Subtle Games"
+        },
+        {
+          "startTime": 1300.4422510000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Roots of Human Attraction: Signals, Status, and Subtle Games and Chapter 7 The Puzzle of Monogamy and Fidelity"
+        },
+        {
+          "startTime": 1475.5966260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Puzzle of Monogamy and Fidelity and Chapter 8 The Secret Lives of Genes: Cheating, Cooperation, and the Unexpected"
+        },
+        {
+          "startTime": 1651.8410840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Secret Lives of Genes: Cheating, Cooperation, and the Unexpected and Chapter 9 The Dance of Culture and Biology"
+        },
+        {
+          "startTime": 1802.527876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dance of Culture and Biology and Chapter 10 The Future of the Red Queen’s Race: Technology, Change, and Hope"
+        },
+        {
+          "startTime": 1911.513251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of the Red Queen’s Race: Technology, Change, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1498",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:45:03.384Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

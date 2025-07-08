@@ -1,0 +1,456 @@
+{
+  "bookId": "1574",
+  "timestamp": "2025-07-08T00:06:56.901Z",
+  "success": false,
+  "processingTime": -1751932916593,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4162,
+    "totalAudioFiles": 12,
+    "totalDuration": 1973.527
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1973.527
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1574/optimized_text/1574.md",
+    "fileSize": 783,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "1574.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1574/metadata/1574_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1973.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1574/metadata/1574_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1574/metadata/1574_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1574/1574_complete.wav",
+    "duration": 1973.527,
+    "fileSize": 94729374,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1574/introduction.wav",
+          "duration": 88.384167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.384167,
+          "startTime": 0,
+          "endTime": 88.384167
+        },
+        {
+          "path": "Audio/output/1574/chapter_01.wav",
+          "duration": 185.631375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Calm in a Restless World",
+          "actualDuration": 185.631375,
+          "startTime": 89.884167,
+          "endTime": 275.515542
+        },
+        {
+          "path": "Audio/output/1574/chapter_02.wav",
+          "duration": 197.979167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Clearing the Mind: Letting Go of Distraction and Noise",
+          "actualDuration": 197.979167,
+          "startTime": 277.015542,
+          "endTime": 474.99470899999994
+        },
+        {
+          "path": "Audio/output/1574/chapter_03.wav",
+          "duration": 207.905167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Emotional Balance: Mastering Reactions and Finding Peace",
+          "actualDuration": 207.905167,
+          "startTime": 476.49470899999994,
+          "endTime": 684.399876
+        },
+        {
+          "path": "Audio/output/1574/chapter_04.wav",
+          "duration": 173.418208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of the Body: Creating Routines and Environments for Stillness",
+          "actualDuration": 173.418208,
+          "startTime": 685.899876,
+          "endTime": 859.318084
+        },
+        {
+          "path": "Audio/output/1574/chapter_05.wav",
+          "duration": 178.90275,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reflection and Solitude: The Tools for Deep Insight",
+          "actualDuration": 178.90275,
+          "startTime": 860.818084,
+          "endTime": 1039.720834
+        },
+        {
+          "path": "Audio/output/1574/chapter_06.wav",
+          "duration": 183.556167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating Stillness into Daily Life: Small Acts, Big Shifts",
+          "actualDuration": 183.556167,
+          "startTime": 1041.220834,
+          "endTime": 1224.777001
+        },
+        {
+          "path": "Audio/output/1574/chapter_07.wav",
+          "duration": 152.597083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Stillness and Creativity: Opening the Door to Inspiration",
+          "actualDuration": 152.597083,
+          "startTime": 1226.277001,
+          "endTime": 1378.874084
+        },
+        {
+          "path": "Audio/output/1574/chapter_08.wav",
+          "duration": 166.340208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Stillness in Leadership: Calm at the Center of the Storm",
+          "actualDuration": 166.340208,
+          "startTime": 1380.374084,
+          "endTime": 1546.7142920000001
+        },
+        {
+          "path": "Audio/output/1574/chapter_09.wav",
+          "duration": 160.674542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Stillness: Navigating Setbacks and Staying the Course",
+          "actualDuration": 160.674542,
+          "startTime": 1548.2142920000001,
+          "endTime": 1708.888834
+        },
+        {
+          "path": "Audio/output/1574/chapter_10.wav",
+          "duration": 151.420083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: How Stillness Transforms Relationships and Community",
+          "actualDuration": 151.420083,
+          "startTime": 1710.388834,
+          "endTime": 1861.808917
+        },
+        {
+          "path": "Audio/output/1574/conclusion.wav",
+          "duration": 126.718083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.718083,
+          "startTime": 1863.308917,
+          "endTime": 1990.027
+        }
+      ],
+      "totalDuration": 1990.027,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.38,
+          "actualStart": 0,
+          "actualEnd": 88.384167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Calm in a Restless World",
+          "expectedStart": 88.38,
+          "expectedEnd": 274.01,
+          "actualStart": 89.884167,
+          "actualEnd": 275.515542,
+          "timeDifference": 1.5041670000000096
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Clearing the Mind: Letting Go of Distraction and Noise",
+          "expectedStart": 274.01,
+          "expectedEnd": 471.99,
+          "actualStart": 277.015542,
+          "actualEnd": 474.99470899999994,
+          "timeDifference": 3.0055419999999913
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Emotional Balance: Mastering Reactions and Finding Peace",
+          "expectedStart": 471.99,
+          "expectedEnd": 679.9,
+          "actualStart": 476.49470899999994,
+          "actualEnd": 684.399876,
+          "timeDifference": 4.504708999999934
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of the Body: Creating Routines and Environments for Stillness",
+          "expectedStart": 679.9,
+          "expectedEnd": 853.32,
+          "actualStart": 685.899876,
+          "actualEnd": 859.318084,
+          "timeDifference": 5.999875999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reflection and Solitude: The Tools for Deep Insight",
+          "expectedStart": 853.32,
+          "expectedEnd": 1032.22,
+          "actualStart": 860.818084,
+          "actualEnd": 1039.720834,
+          "timeDifference": 7.498083999999949
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating Stillness into Daily Life: Small Acts, Big Shifts",
+          "expectedStart": 1032.22,
+          "expectedEnd": 1215.78,
+          "actualStart": 1041.220834,
+          "actualEnd": 1224.777001,
+          "timeDifference": 9.00083399999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Stillness and Creativity: Opening the Door to Inspiration",
+          "expectedStart": 1215.78,
+          "expectedEnd": 1368.38,
+          "actualStart": 1226.277001,
+          "actualEnd": 1378.874084,
+          "timeDifference": 10.497000999999955
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Stillness in Leadership: Calm at the Center of the Storm",
+          "expectedStart": 1368.38,
+          "expectedEnd": 1534.72,
+          "actualStart": 1380.374084,
+          "actualEnd": 1546.7142920000001,
+          "timeDifference": 11.99408399999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Stillness: Navigating Setbacks and Staying the Course",
+          "expectedStart": 1534.72,
+          "expectedEnd": 1695.39,
+          "actualStart": 1548.2142920000001,
+          "actualEnd": 1708.888834,
+          "timeDifference": 13.494292000000087
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: How Stillness Transforms Relationships and Community",
+          "expectedStart": 1695.39,
+          "expectedEnd": 1846.81,
+          "actualStart": 1710.388834,
+          "actualEnd": 1861.808917,
+          "timeDifference": 14.998833999999988
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1846.81,
+          "expectedEnd": 1973.53,
+          "actualStart": 1863.308917,
+          "actualEnd": 1990.027,
+          "timeDifference": 16.49891700000012
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.384167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Calm in a Restless World"
+        },
+        {
+          "startTime": 275.515542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Calm in a Restless World and Chapter 2 Clearing the Mind: Letting Go of Distraction and Noise"
+        },
+        {
+          "startTime": 474.99470899999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Clearing the Mind: Letting Go of Distraction and Noise and Chapter 3 Emotional Balance: Mastering Reactions and Finding Peace"
+        },
+        {
+          "startTime": 684.399876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Emotional Balance: Mastering Reactions and Finding Peace and Chapter 4 The Power of the Body: Creating Routines and Environments for Stillness"
+        },
+        {
+          "startTime": 859.318084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of the Body: Creating Routines and Environments for Stillness and Chapter 5 Reflection and Solitude: The Tools for Deep Insight"
+        },
+        {
+          "startTime": 1039.720834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reflection and Solitude: The Tools for Deep Insight and Chapter 6 Integrating Stillness into Daily Life: Small Acts, Big Shifts"
+        },
+        {
+          "startTime": 1224.777001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating Stillness into Daily Life: Small Acts, Big Shifts and Chapter 7 Stillness and Creativity: Opening the Door to Inspiration"
+        },
+        {
+          "startTime": 1378.874084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Stillness and Creativity: Opening the Door to Inspiration and Chapter 8 Stillness in Leadership: Calm at the Center of the Storm"
+        },
+        {
+          "startTime": 1546.7142920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Stillness in Leadership: Calm at the Center of the Storm and Chapter 9 Sustaining Stillness: Navigating Setbacks and Staying the Course"
+        },
+        {
+          "startTime": 1708.888834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Stillness: Navigating Setbacks and Staying the Course and Chapter 10 The Ripple Effect: How Stillness Transforms Relationships and Community"
+        },
+        {
+          "startTime": 1861.808917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: How Stillness Transforms Relationships and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1574",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:01:57.085Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

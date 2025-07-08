@@ -1,0 +1,456 @@
+{
+  "bookId": "1631",
+  "timestamp": "2025-07-08T02:59:50.042Z",
+  "success": false,
+  "processingTime": -1751943268003,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4651,
+    "totalAudioFiles": 12,
+    "totalDuration": 2190.0186240000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2190.0186240000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1631/optimized_text/1631.md",
+    "fileSize": 612,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "1631.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1631/metadata/1631_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2190.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1631/metadata/1631_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1631/metadata/1631_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1631/1631_complete.wav",
+    "duration": 2190.018625,
+    "fileSize": 105120972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1631/introduction.wav",
+          "duration": 97.086708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.086708,
+          "startTime": 0,
+          "endTime": 97.086708
+        },
+        {
+          "path": "Audio/output/1631/chapter_01.wav",
+          "duration": 228.944583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Wondering Where Everything Begins",
+          "actualDuration": 228.944583,
+          "startTime": 98.586708,
+          "endTime": 327.531291
+        },
+        {
+          "path": "Audio/output/1631/chapter_02.wav",
+          "duration": 224.289458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for Meaning Beyond Science",
+          "actualDuration": 224.289458,
+          "startTime": 329.031291,
+          "endTime": 553.320749
+        },
+        {
+          "path": "Audio/output/1631/chapter_03.wav",
+          "duration": 202.473292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Universe’s Laws and the Limits of Knowledge",
+          "actualDuration": 202.473292,
+          "startTime": 554.820749,
+          "endTime": 757.294041
+        },
+        {
+          "path": "Audio/output/1631/chapter_04.wav",
+          "duration": 241.737292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Time, Black Holes, and the Possibility of Time Travel",
+          "actualDuration": 241.737292,
+          "startTime": 758.794041,
+          "endTime": 1000.531333
+        },
+        {
+          "path": "Audio/output/1631/chapter_05.wav",
+          "duration": 182.1805,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Rise of Artificial Intelligence and the Future of Humanity",
+          "actualDuration": 182.1805,
+          "startTime": 1002.031333,
+          "endTime": 1184.211833
+        },
+        {
+          "path": "Audio/output/1631/chapter_06.wav",
+          "duration": 216.838833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing the Threats to Our Survival",
+          "actualDuration": 216.838833,
+          "startTime": 1185.711833,
+          "endTime": 1402.550666
+        },
+        {
+          "path": "Audio/output/1631/chapter_07.wav",
+          "duration": 195.01,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Next Great Adventure—Exploring Space",
+          "actualDuration": 195.01,
+          "startTime": 1404.050666,
+          "endTime": 1599.060666
+        },
+        {
+          "path": "Audio/output/1631/chapter_08.wav",
+          "duration": 166.533208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Life Beyond Earth",
+          "actualDuration": 166.533208,
+          "startTime": 1600.560666,
+          "endTime": 1767.0938740000001
+        },
+        {
+          "path": "Audio/output/1631/chapter_09.wav",
+          "duration": 160.851083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power and Limits of Science",
+          "actualDuration": 160.851083,
+          "startTime": 1768.5938740000001,
+          "endTime": 1929.4449570000002
+        },
+        {
+          "path": "Audio/output/1631/chapter_10.wav",
+          "duration": 128.62475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Curiosity, Hope, and the Human Spirit",
+          "actualDuration": 128.62475,
+          "startTime": 1930.9449570000002,
+          "endTime": 2059.569707
+        },
+        {
+          "path": "Audio/output/1631/conclusion.wav",
+          "duration": 145.448917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.448917,
+          "startTime": 2061.069707,
+          "endTime": 2206.5186240000003
+        }
+      ],
+      "totalDuration": 2206.5186240000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.09,
+          "actualStart": 0,
+          "actualEnd": 97.086708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Wondering Where Everything Begins",
+          "expectedStart": 97.09,
+          "expectedEnd": 326.03,
+          "actualStart": 98.586708,
+          "actualEnd": 327.531291,
+          "timeDifference": 1.4967079999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for Meaning Beyond Science",
+          "expectedStart": 326.03,
+          "expectedEnd": 550.32,
+          "actualStart": 329.031291,
+          "actualEnd": 553.320749,
+          "timeDifference": 3.0012910000000375
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Universe’s Laws and the Limits of Knowledge",
+          "expectedStart": 550.32,
+          "expectedEnd": 752.79,
+          "actualStart": 554.820749,
+          "actualEnd": 757.294041,
+          "timeDifference": 4.500748999999928
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Time, Black Holes, and the Possibility of Time Travel",
+          "expectedStart": 752.79,
+          "expectedEnd": 994.53,
+          "actualStart": 758.794041,
+          "actualEnd": 1000.531333,
+          "timeDifference": 6.004041000000029
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Rise of Artificial Intelligence and the Future of Humanity",
+          "expectedStart": 994.53,
+          "expectedEnd": 1176.71,
+          "actualStart": 1002.031333,
+          "actualEnd": 1184.211833,
+          "timeDifference": 7.501333000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing the Threats to Our Survival",
+          "expectedStart": 1176.71,
+          "expectedEnd": 1393.55,
+          "actualStart": 1185.711833,
+          "actualEnd": 1402.550666,
+          "timeDifference": 9.001833000000033
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Next Great Adventure—Exploring Space",
+          "expectedStart": 1393.55,
+          "expectedEnd": 1588.56,
+          "actualStart": 1404.050666,
+          "actualEnd": 1599.060666,
+          "timeDifference": 10.500666000000138
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Life Beyond Earth",
+          "expectedStart": 1588.56,
+          "expectedEnd": 1755.09,
+          "actualStart": 1600.560666,
+          "actualEnd": 1767.0938740000001,
+          "timeDifference": 12.000666000000138
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power and Limits of Science",
+          "expectedStart": 1755.09,
+          "expectedEnd": 1915.94,
+          "actualStart": 1768.5938740000001,
+          "actualEnd": 1929.4449570000002,
+          "timeDifference": 13.503874000000224
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Curiosity, Hope, and the Human Spirit",
+          "expectedStart": 1915.94,
+          "expectedEnd": 2044.56,
+          "actualStart": 1930.9449570000002,
+          "actualEnd": 2059.569707,
+          "timeDifference": 15.004957000000104
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2044.56,
+          "expectedEnd": 2190.01,
+          "actualStart": 2061.069707,
+          "actualEnd": 2206.5186240000003,
+          "timeDifference": 16.509707000000162
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.086708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Wondering Where Everything Begins"
+        },
+        {
+          "startTime": 327.531291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Wondering Where Everything Begins and Chapter 2 Searching for Meaning Beyond Science"
+        },
+        {
+          "startTime": 553.320749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for Meaning Beyond Science and Chapter 3 The Universe’s Laws and the Limits of Knowledge"
+        },
+        {
+          "startTime": 757.294041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Universe’s Laws and the Limits of Knowledge and Chapter 4 Time, Black Holes, and the Possibility of Time Travel"
+        },
+        {
+          "startTime": 1000.531333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Time, Black Holes, and the Possibility of Time Travel and Chapter 5 The Rise of Artificial Intelligence and the Future of Humanity"
+        },
+        {
+          "startTime": 1184.211833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Rise of Artificial Intelligence and the Future of Humanity and Chapter 6 Facing the Threats to Our Survival"
+        },
+        {
+          "startTime": 1402.550666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing the Threats to Our Survival and Chapter 7 The Next Great Adventure—Exploring Space"
+        },
+        {
+          "startTime": 1599.060666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Next Great Adventure—Exploring Space and Chapter 8 The Search for Life Beyond Earth"
+        },
+        {
+          "startTime": 1767.0938740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Life Beyond Earth and Chapter 9 The Power and Limits of Science"
+        },
+        {
+          "startTime": 1929.4449570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power and Limits of Science and Chapter 10 Curiosity, Hope, and the Human Spirit"
+        },
+        {
+          "startTime": 2059.569707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Curiosity, Hope, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1631",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:54:28.582Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

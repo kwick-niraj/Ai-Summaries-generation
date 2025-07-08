@@ -1,0 +1,456 @@
+{
+  "bookId": "1649",
+  "timestamp": "2025-07-08T03:57:00.719Z",
+  "success": false,
+  "processingTime": -1751946690430,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4477,
+    "totalAudioFiles": 12,
+    "totalDuration": 2119.394626
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2119.394626
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1649/optimized_text/1649.md",
+    "fileSize": 642,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1649.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1649/metadata/1649_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2119.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1649/metadata/1649_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1649/metadata/1649_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1649/1649_complete.wav",
+    "duration": 2119.394625,
+    "fileSize": 101731020,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1649/introduction.wav",
+          "duration": 98.577,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.577,
+          "startTime": 0,
+          "endTime": 98.577
+        },
+        {
+          "path": "Audio/output/1649/chapter_01.wav",
+          "duration": 213.396875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World That Doesn’t See You",
+          "actualDuration": 213.396875,
+          "startTime": 100.077,
+          "endTime": 313.473875
+        },
+        {
+          "path": "Audio/output/1649/chapter_02.wav",
+          "duration": 206.160542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Language and the Struggle to Belong",
+          "actualDuration": 206.160542,
+          "startTime": 314.973875,
+          "endTime": 521.134417
+        },
+        {
+          "path": "Audio/output/1649/chapter_03.wav",
+          "duration": 200.509167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Trap of Wanting to Be Accepted",
+          "actualDuration": 200.509167,
+          "startTime": 522.634417,
+          "endTime": 723.1435839999999
+        },
+        {
+          "path": "Audio/output/1649/chapter_04.wav",
+          "duration": 234.036875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Pain of Internalized Inferiority",
+          "actualDuration": 234.036875,
+          "startTime": 724.6435839999999,
+          "endTime": 958.6804589999999
+        },
+        {
+          "path": "Audio/output/1649/chapter_05.wav",
+          "duration": 180.741292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Search for Dignity and the Path to Liberation",
+          "actualDuration": 180.741292,
+          "startTime": 960.1804589999999,
+          "endTime": 1140.9217509999999
+        },
+        {
+          "path": "Audio/output/1649/chapter_06.wav",
+          "duration": 189.384208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Mirror of Desire and the Struggle for Recognition",
+          "actualDuration": 189.384208,
+          "startTime": 1142.4217509999999,
+          "endTime": 1331.8059589999998
+        },
+        {
+          "path": "Audio/output/1649/chapter_07.wav",
+          "duration": 191.124167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Masks We Wear and the Cost of Survival",
+          "actualDuration": 191.124167,
+          "startTime": 1333.3059589999998,
+          "endTime": 1524.4301259999997
+        },
+        {
+          "path": "Audio/output/1649/chapter_08.wav",
+          "duration": 157.649083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Burden of History and the Inheritance of Pain",
+          "actualDuration": 157.649083,
+          "startTime": 1525.9301259999997,
+          "endTime": 1683.5792089999998
+        },
+        {
+          "path": "Audio/output/1649/chapter_09.wav",
+          "duration": 142.707542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Struggle for Rehumanization",
+          "actualDuration": 142.707542,
+          "startTime": 1685.0792089999998,
+          "endTime": 1827.7867509999996
+        },
+        {
+          "path": "Audio/output/1649/chapter_10.wav",
+          "duration": 138.764417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Quest for Liberation and Self-Acceptance",
+          "actualDuration": 138.764417,
+          "startTime": 1829.2867509999996,
+          "endTime": 1968.0511679999997
+        },
+        {
+          "path": "Audio/output/1649/conclusion.wav",
+          "duration": 166.343458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 166.343458,
+          "startTime": 1969.5511679999997,
+          "endTime": 2135.894626
+        }
+      ],
+      "totalDuration": 2135.894626,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.58,
+          "actualStart": 0,
+          "actualEnd": 98.577,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World That Doesn’t See You",
+          "expectedStart": 98.58,
+          "expectedEnd": 311.98,
+          "actualStart": 100.077,
+          "actualEnd": 313.473875,
+          "timeDifference": 1.4969999999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Language and the Struggle to Belong",
+          "expectedStart": 311.98,
+          "expectedEnd": 518.14,
+          "actualStart": 314.973875,
+          "actualEnd": 521.134417,
+          "timeDifference": 2.9938750000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Trap of Wanting to Be Accepted",
+          "expectedStart": 518.14,
+          "expectedEnd": 718.65,
+          "actualStart": 522.634417,
+          "actualEnd": 723.1435839999999,
+          "timeDifference": 4.4944169999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Pain of Internalized Inferiority",
+          "expectedStart": 718.65,
+          "expectedEnd": 952.69,
+          "actualStart": 724.6435839999999,
+          "actualEnd": 958.6804589999999,
+          "timeDifference": 5.993583999999942
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Search for Dignity and the Path to Liberation",
+          "expectedStart": 952.69,
+          "expectedEnd": 1133.43,
+          "actualStart": 960.1804589999999,
+          "actualEnd": 1140.9217509999999,
+          "timeDifference": 7.490458999999873
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Mirror of Desire and the Struggle for Recognition",
+          "expectedStart": 1133.43,
+          "expectedEnd": 1322.81,
+          "actualStart": 1142.4217509999999,
+          "actualEnd": 1331.8059589999998,
+          "timeDifference": 8.991750999999795
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Masks We Wear and the Cost of Survival",
+          "expectedStart": 1322.81,
+          "expectedEnd": 1513.93,
+          "actualStart": 1333.3059589999998,
+          "actualEnd": 1524.4301259999997,
+          "timeDifference": 10.495958999999857
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Burden of History and the Inheritance of Pain",
+          "expectedStart": 1513.93,
+          "expectedEnd": 1671.58,
+          "actualStart": 1525.9301259999997,
+          "actualEnd": 1683.5792089999998,
+          "timeDifference": 12.000125999999682
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Struggle for Rehumanization",
+          "expectedStart": 1671.58,
+          "expectedEnd": 1814.29,
+          "actualStart": 1685.0792089999998,
+          "actualEnd": 1827.7867509999996,
+          "timeDifference": 13.499208999999837
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Quest for Liberation and Self-Acceptance",
+          "expectedStart": 1814.29,
+          "expectedEnd": 1953.05,
+          "actualStart": 1829.2867509999996,
+          "actualEnd": 1968.0511679999997,
+          "timeDifference": 14.996750999999676
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1953.05,
+          "expectedEnd": 2119.39,
+          "actualStart": 1969.5511679999997,
+          "actualEnd": 2135.894626,
+          "timeDifference": 16.50116799999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.577,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World That Doesn’t See You"
+        },
+        {
+          "startTime": 313.473875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World That Doesn’t See You and Chapter 2 The Weight of Language and the Struggle to Belong"
+        },
+        {
+          "startTime": 521.134417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Language and the Struggle to Belong and Chapter 3 The Trap of Wanting to Be Accepted"
+        },
+        {
+          "startTime": 723.1435839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Trap of Wanting to Be Accepted and Chapter 4 The Pain of Internalized Inferiority"
+        },
+        {
+          "startTime": 958.6804589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Pain of Internalized Inferiority and Chapter 5 The Search for Dignity and the Path to Liberation"
+        },
+        {
+          "startTime": 1140.9217509999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Search for Dignity and the Path to Liberation and Chapter 6 The Mirror of Desire and the Struggle for Recognition"
+        },
+        {
+          "startTime": 1331.8059589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Mirror of Desire and the Struggle for Recognition and Chapter 7 The Masks We Wear and the Cost of Survival"
+        },
+        {
+          "startTime": 1524.4301259999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Masks We Wear and the Cost of Survival and Chapter 8 The Burden of History and the Inheritance of Pain"
+        },
+        {
+          "startTime": 1683.5792089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Burden of History and the Inheritance of Pain and Chapter 9 The Struggle for Rehumanization"
+        },
+        {
+          "startTime": 1827.7867509999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Struggle for Rehumanization and Chapter 10 The Ongoing Quest for Liberation and Self-Acceptance"
+        },
+        {
+          "startTime": 1968.0511679999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Quest for Liberation and Self-Acceptance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1649",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T03:51:30.989Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

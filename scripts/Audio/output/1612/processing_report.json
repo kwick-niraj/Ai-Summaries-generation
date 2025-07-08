@@ -1,0 +1,480 @@
+{
+  "bookId": "1612",
+  "timestamp": "2025-07-08T01:45:59.580Z",
+  "success": false,
+  "processingTime": -1751938911639,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4544,
+    "totalAudioFiles": 13,
+    "totalDuration": 2234.993708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2234.993708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1612/optimized_text/1612.md",
+    "fileSize": 547,
+    "wordCount": 75,
+    "format": "markdown",
+    "filename": "1612.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1612/metadata/1612_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2235,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1612/metadata/1612_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1612/metadata/1612_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1612/1612_complete.wav",
+    "duration": 2234.993708,
+    "fileSize": 107279776,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1612/introduction.wav",
+          "duration": 92.609958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.609958,
+          "startTime": 0,
+          "endTime": 92.609958
+        },
+        {
+          "path": "Audio/output/1612/chapter_01.wav",
+          "duration": 196.5325,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out on the Journey Back Through Time",
+          "actualDuration": 196.5325,
+          "startTime": 94.109958,
+          "endTime": 290.64245800000003
+        },
+        {
+          "path": "Audio/output/1612/chapter_02.wav",
+          "duration": 208.82875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Meeting Our Closest Relatives",
+          "actualDuration": 208.82875,
+          "startTime": 292.14245800000003,
+          "endTime": 500.97120800000005
+        },
+        {
+          "path": "Audio/output/1612/chapter_03.wav",
+          "duration": 214.830292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Reuniting with the Mammalian Family",
+          "actualDuration": 214.830292,
+          "startTime": 502.47120800000005,
+          "endTime": 717.3015
+        },
+        {
+          "path": "Audio/output/1612/chapter_04.wav",
+          "duration": 192.56275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Crossing Paths with the Vertebrate Lineage",
+          "actualDuration": 192.56275,
+          "startTime": 718.8015,
+          "endTime": 911.3642500000001
+        },
+        {
+          "path": "Audio/output/1612/chapter_05.wav",
+          "duration": 230.909542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Uniting with the Animal Kingdom",
+          "actualDuration": 230.909542,
+          "startTime": 912.8642500000001,
+          "endTime": 1143.773792
+        },
+        {
+          "path": "Audio/output/1612/chapter_06.wav",
+          "duration": 154.77575,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dawn of Multicellularity",
+          "actualDuration": 154.77575,
+          "startTime": 1145.273792,
+          "endTime": 1300.049542
+        },
+        {
+          "path": "Audio/output/1612/chapter_07.wav",
+          "duration": 183.065958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The World of Single Cells",
+          "actualDuration": 183.065958,
+          "startTime": 1301.549542,
+          "endTime": 1484.6154999999999
+        },
+        {
+          "path": "Audio/output/1612/chapter_08.wav",
+          "duration": 155.642208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Bacterial Heritage",
+          "actualDuration": 155.642208,
+          "startTime": 1486.1154999999999,
+          "endTime": 1641.7577079999999
+        },
+        {
+          "path": "Audio/output/1612/chapter_09.wav",
+          "duration": 159.4565,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Archaean Connection",
+          "actualDuration": 159.4565,
+          "startTime": 1643.2577079999999,
+          "endTime": 1802.7142079999999
+        },
+        {
+          "path": "Audio/output/1612/chapter_10.wav",
+          "duration": 170.377375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Origin of Life",
+          "actualDuration": 170.377375,
+          "startTime": 1804.2142079999999,
+          "endTime": 1974.591583
+        },
+        {
+          "path": "Audio/output/1612/chapter_11.wav",
+          "duration": 136.792292,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Reflections on the Pilgrimage",
+          "actualDuration": 136.792292,
+          "startTime": 1976.091583,
+          "endTime": 2112.883875
+        },
+        {
+          "path": "Audio/output/1612/conclusion.wav",
+          "duration": 138.609833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.609833,
+          "startTime": 2114.383875,
+          "endTime": 2252.993708
+        }
+      ],
+      "totalDuration": 2252.993708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.61,
+          "actualStart": 0,
+          "actualEnd": 92.609958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out on the Journey Back Through Time",
+          "expectedStart": 92.61,
+          "expectedEnd": 289.14,
+          "actualStart": 94.109958,
+          "actualEnd": 290.64245800000003,
+          "timeDifference": 1.4999580000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Meeting Our Closest Relatives",
+          "expectedStart": 289.14,
+          "expectedEnd": 497.97,
+          "actualStart": 292.14245800000003,
+          "actualEnd": 500.97120800000005,
+          "timeDifference": 3.002458000000047
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Reuniting with the Mammalian Family",
+          "expectedStart": 497.97,
+          "expectedEnd": 712.8,
+          "actualStart": 502.47120800000005,
+          "actualEnd": 717.3015,
+          "timeDifference": 4.50120800000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Crossing Paths with the Vertebrate Lineage",
+          "expectedStart": 712.8,
+          "expectedEnd": 905.36,
+          "actualStart": 718.8015,
+          "actualEnd": 911.3642500000001,
+          "timeDifference": 6.001500000000078
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Uniting with the Animal Kingdom",
+          "expectedStart": 905.36,
+          "expectedEnd": 1136.27,
+          "actualStart": 912.8642500000001,
+          "actualEnd": 1143.773792,
+          "timeDifference": 7.50425000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dawn of Multicellularity",
+          "expectedStart": 1136.27,
+          "expectedEnd": 1291.05,
+          "actualStart": 1145.273792,
+          "actualEnd": 1300.049542,
+          "timeDifference": 9.003791999999976
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The World of Single Cells",
+          "expectedStart": 1291.05,
+          "expectedEnd": 1474.12,
+          "actualStart": 1301.549542,
+          "actualEnd": 1484.6154999999999,
+          "timeDifference": 10.49954200000002
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Bacterial Heritage",
+          "expectedStart": 1474.12,
+          "expectedEnd": 1629.76,
+          "actualStart": 1486.1154999999999,
+          "actualEnd": 1641.7577079999999,
+          "timeDifference": 11.995499999999993
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Archaean Connection",
+          "expectedStart": 1629.76,
+          "expectedEnd": 1789.22,
+          "actualStart": 1643.2577079999999,
+          "actualEnd": 1802.7142079999999,
+          "timeDifference": 13.497707999999875
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Origin of Life",
+          "expectedStart": 1789.22,
+          "expectedEnd": 1959.6,
+          "actualStart": 1804.2142079999999,
+          "actualEnd": 1974.591583,
+          "timeDifference": 14.994207999999844
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Reflections on the Pilgrimage",
+          "expectedStart": 1959.6,
+          "expectedEnd": 2096.39,
+          "actualStart": 1976.091583,
+          "actualEnd": 2112.883875,
+          "timeDifference": 16.49158299999999
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2096.39,
+          "expectedEnd": 2235,
+          "actualStart": 2114.383875,
+          "actualEnd": 2252.993708,
+          "timeDifference": 17.993875000000116
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.609958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out on the Journey Back Through Time"
+        },
+        {
+          "startTime": 290.64245800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out on the Journey Back Through Time and Chapter 2 Meeting Our Closest Relatives"
+        },
+        {
+          "startTime": 500.97120800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Meeting Our Closest Relatives and Chapter 3 Reuniting with the Mammalian Family"
+        },
+        {
+          "startTime": 717.3015,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Reuniting with the Mammalian Family and Chapter 4 Crossing Paths with the Vertebrate Lineage"
+        },
+        {
+          "startTime": 911.3642500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Crossing Paths with the Vertebrate Lineage and Chapter 5 Uniting with the Animal Kingdom"
+        },
+        {
+          "startTime": 1143.773792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Uniting with the Animal Kingdom and Chapter 6 The Dawn of Multicellularity"
+        },
+        {
+          "startTime": 1300.049542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dawn of Multicellularity and Chapter 7 The World of Single Cells"
+        },
+        {
+          "startTime": 1484.6154999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The World of Single Cells and Chapter 8 The Bacterial Heritage"
+        },
+        {
+          "startTime": 1641.7577079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Bacterial Heritage and Chapter 9 The Archaean Connection"
+        },
+        {
+          "startTime": 1802.7142079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Archaean Connection and Chapter 10 The Origin of Life"
+        },
+        {
+          "startTime": 1974.591583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Origin of Life and Chapter 11 Reflections on the Pilgrimage"
+        },
+        {
+          "startTime": 2112.883875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Reflections on the Pilgrimage and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1612",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T01:41:52.168Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

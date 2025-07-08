@@ -1,0 +1,480 @@
+{
+  "bookId": "1623",
+  "timestamp": "2025-07-08T02:29:14.874Z",
+  "success": false,
+  "processingTime": -1751941200103,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5123,
+    "totalAudioFiles": 13,
+    "totalDuration": 2796.8056250000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2796.8056250000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1623/optimized_text/1623.md",
+    "fileSize": 796,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "1623.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1623/metadata/1623_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2796.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1623/metadata/1623_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1623/metadata/1623_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1623/1623_complete.wav",
+    "duration": 2796.805625,
+    "fileSize": 134246748,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1623/introduction.wav",
+          "duration": 90.190875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.190875,
+          "startTime": 0,
+          "endTime": 90.190875
+        },
+        {
+          "path": "Audio/output/1623/chapter_01.wav",
+          "duration": 257.265667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Seeing the World Through a Sociological Lens",
+          "actualDuration": 257.265667,
+          "startTime": 91.690875,
+          "endTime": 348.956542
+        },
+        {
+          "path": "Audio/output/1623/chapter_02.wav",
+          "duration": 278.616208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Culture, Norms, and the Process of Socialization",
+          "actualDuration": 278.616208,
+          "startTime": 350.456542,
+          "endTime": 629.07275
+        },
+        {
+          "path": "Audio/output/1623/chapter_03.wav",
+          "duration": 274.788125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Social Structure and the Organization of Collective Life",
+          "actualDuration": 274.788125,
+          "startTime": 630.57275,
+          "endTime": 905.3608750000001
+        },
+        {
+          "path": "Audio/output/1623/chapter_04.wav",
+          "duration": 251.43325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Deviance, Social Control, and the Boundaries of Normalcy",
+          "actualDuration": 251.43325,
+          "startTime": 906.8608750000001,
+          "endTime": 1158.2941250000001
+        },
+        {
+          "path": "Audio/output/1623/chapter_05.wav",
+          "duration": 268.237625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Inequality, Power, and the Lines That Divide",
+          "actualDuration": 268.237625,
+          "startTime": 1159.7941250000001,
+          "endTime": 1428.03175
+        },
+        {
+          "path": "Audio/output/1623/chapter_06.wav",
+          "duration": 263.122042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Social Change and the Engines of Transformation",
+          "actualDuration": 263.122042,
+          "startTime": 1429.53175,
+          "endTime": 1692.653792
+        },
+        {
+          "path": "Audio/output/1623/chapter_07.wav",
+          "duration": 207.06425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Collective Behavior, Social Movements, and the Power of Groups",
+          "actualDuration": 207.06425,
+          "startTime": 1694.153792,
+          "endTime": 1901.218042
+        },
+        {
+          "path": "Audio/output/1623/chapter_08.wav",
+          "duration": 235.0365,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Institutions in Flux—Family, Education, Religion, and Work",
+          "actualDuration": 235.0365,
+          "startTime": 1902.718042,
+          "endTime": 2137.754542
+        },
+        {
+          "path": "Audio/output/1623/chapter_09.wav",
+          "duration": 177.310583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Socialization Across the Life Course—From Childhood to Old Age",
+          "actualDuration": 177.310583,
+          "startTime": 2139.254542,
+          "endTime": 2316.565125
+        },
+        {
+          "path": "Audio/output/1623/chapter_10.wav",
+          "duration": 187.166,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Globalization and the Interconnected World",
+          "actualDuration": 187.166,
+          "startTime": 2318.065125,
+          "endTime": 2505.2311250000002
+        },
+        {
+          "path": "Audio/output/1623/chapter_11.wav",
+          "duration": 166.509958,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Future of Society—Challenges and Possibilities",
+          "actualDuration": 166.509958,
+          "startTime": 2506.7311250000002,
+          "endTime": 2673.2410830000003
+        },
+        {
+          "path": "Audio/output/1623/conclusion.wav",
+          "duration": 140.064542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.064542,
+          "startTime": 2674.7410830000003,
+          "endTime": 2814.8056250000004
+        }
+      ],
+      "totalDuration": 2814.8056250000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.19,
+          "actualStart": 0,
+          "actualEnd": 90.190875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Seeing the World Through a Sociological Lens",
+          "expectedStart": 90.19,
+          "expectedEnd": 347.46,
+          "actualStart": 91.690875,
+          "actualEnd": 348.956542,
+          "timeDifference": 1.5008750000000077
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Culture, Norms, and the Process of Socialization",
+          "expectedStart": 347.46,
+          "expectedEnd": 626.08,
+          "actualStart": 350.456542,
+          "actualEnd": 629.07275,
+          "timeDifference": 2.9965420000000336
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Social Structure and the Organization of Collective Life",
+          "expectedStart": 626.08,
+          "expectedEnd": 900.87,
+          "actualStart": 630.57275,
+          "actualEnd": 905.3608750000001,
+          "timeDifference": 4.492750000000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Deviance, Social Control, and the Boundaries of Normalcy",
+          "expectedStart": 900.87,
+          "expectedEnd": 1152.3,
+          "actualStart": 906.8608750000001,
+          "actualEnd": 1158.2941250000001,
+          "timeDifference": 5.990875000000074
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Inequality, Power, and the Lines That Divide",
+          "expectedStart": 1152.3,
+          "expectedEnd": 1420.54,
+          "actualStart": 1159.7941250000001,
+          "actualEnd": 1428.03175,
+          "timeDifference": 7.494125000000167
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Social Change and the Engines of Transformation",
+          "expectedStart": 1420.54,
+          "expectedEnd": 1683.66,
+          "actualStart": 1429.53175,
+          "actualEnd": 1692.653792,
+          "timeDifference": 8.991750000000138
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Collective Behavior, Social Movements, and the Power of Groups",
+          "expectedStart": 1683.66,
+          "expectedEnd": 1890.72,
+          "actualStart": 1694.153792,
+          "actualEnd": 1901.218042,
+          "timeDifference": 10.493791999999985
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Institutions in Flux—Family, Education, Religion, and Work",
+          "expectedStart": 1890.72,
+          "expectedEnd": 2125.76,
+          "actualStart": 1902.718042,
+          "actualEnd": 2137.754542,
+          "timeDifference": 11.998041999999941
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Socialization Across the Life Course—From Childhood to Old Age",
+          "expectedStart": 2125.76,
+          "expectedEnd": 2303.07,
+          "actualStart": 2139.254542,
+          "actualEnd": 2316.565125,
+          "timeDifference": 13.49454199999991
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Globalization and the Interconnected World",
+          "expectedStart": 2303.07,
+          "expectedEnd": 2490.24,
+          "actualStart": 2318.065125,
+          "actualEnd": 2505.2311250000002,
+          "timeDifference": 14.995124999999916
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Future of Society—Challenges and Possibilities",
+          "expectedStart": 2490.24,
+          "expectedEnd": 2656.75,
+          "actualStart": 2506.7311250000002,
+          "actualEnd": 2673.2410830000003,
+          "timeDifference": 16.491125000000466
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2656.75,
+          "expectedEnd": 2796.81,
+          "actualStart": 2674.7410830000003,
+          "actualEnd": 2814.8056250000004,
+          "timeDifference": 17.991083000000344
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.190875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Seeing the World Through a Sociological Lens"
+        },
+        {
+          "startTime": 348.956542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Seeing the World Through a Sociological Lens and Chapter 2 Culture, Norms, and the Process of Socialization"
+        },
+        {
+          "startTime": 629.07275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Culture, Norms, and the Process of Socialization and Chapter 3 Social Structure and the Organization of Collective Life"
+        },
+        {
+          "startTime": 905.3608750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Social Structure and the Organization of Collective Life and Chapter 4 Deviance, Social Control, and the Boundaries of Normalcy"
+        },
+        {
+          "startTime": 1158.2941250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Deviance, Social Control, and the Boundaries of Normalcy and Chapter 5 Inequality, Power, and the Lines That Divide"
+        },
+        {
+          "startTime": 1428.03175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Inequality, Power, and the Lines That Divide and Chapter 6 Social Change and the Engines of Transformation"
+        },
+        {
+          "startTime": 1692.653792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Social Change and the Engines of Transformation and Chapter 7 Collective Behavior, Social Movements, and the Power of Groups"
+        },
+        {
+          "startTime": 1901.218042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Collective Behavior, Social Movements, and the Power of Groups and Chapter 8 Institutions in Flux—Family, Education, Religion, and Work"
+        },
+        {
+          "startTime": 2137.754542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Institutions in Flux—Family, Education, Religion, and Work and Chapter 9 Socialization Across the Life Course—From Childhood to Old Age"
+        },
+        {
+          "startTime": 2316.565125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Socialization Across the Life Course—From Childhood to Old Age and Chapter 10 Globalization and the Interconnected World"
+        },
+        {
+          "startTime": 2505.2311250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Globalization and the Interconnected World and Chapter 11 The Future of Society—Challenges and Possibilities"
+        },
+        {
+          "startTime": 2673.2410830000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Future of Society—Challenges and Possibilities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1623",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:20:00.597Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

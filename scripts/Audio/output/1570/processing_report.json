@@ -1,0 +1,456 @@
+{
+  "bookId": "1570",
+  "timestamp": "2025-07-07T23:53:15.732Z",
+  "success": false,
+  "processingTime": -1751932111615,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4789,
+    "totalAudioFiles": 12,
+    "totalDuration": 2243.569291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2243.569291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1570/optimized_text/1570.md",
+    "fileSize": 735,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1570.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1570/metadata/1570_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2243.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1570/metadata/1570_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1570/metadata/1570_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1570/1570_complete.wav",
+    "duration": 2243.569292,
+    "fileSize": 107691404,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1570/introduction.wav",
+          "duration": 100.745625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.745625,
+          "startTime": 0,
+          "endTime": 100.745625
+        },
+        {
+          "path": "Audio/output/1570/chapter_01.wav",
+          "duration": 232.62725,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Choices and the Hidden Rules of Value",
+          "actualDuration": 232.62725,
+          "startTime": 102.245625,
+          "endTime": 334.872875
+        },
+        {
+          "path": "Audio/output/1570/chapter_02.wav",
+          "duration": 257.063542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Prices and the Dance of Supply and Demand",
+          "actualDuration": 257.063542,
+          "startTime": 336.372875,
+          "endTime": 593.436417
+        },
+        {
+          "path": "Audio/output/1570/chapter_03.wav",
+          "duration": 229.976208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Market Power, Competition, and the Winners Behind the Scenes",
+          "actualDuration": 229.976208,
+          "startTime": 594.936417,
+          "endTime": 824.912625
+        },
+        {
+          "path": "Audio/output/1570/chapter_04.wav",
+          "duration": 231.100208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Problem of Hidden Information and Why Used Cars Are Tricky",
+          "actualDuration": 231.100208,
+          "startTime": 826.412625,
+          "endTime": 1057.512833
+        },
+        {
+          "path": "Audio/output/1570/chapter_05.wav",
+          "duration": 214.990125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 When Markets Fail and the Cost of Unintended Consequences",
+          "actualDuration": 214.990125,
+          "startTime": 1059.012833,
+          "endTime": 1274.002958
+        },
+        {
+          "path": "Audio/output/1570/chapter_06.wav",
+          "duration": 227.836917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Global Web—How Markets Connect the World",
+          "actualDuration": 227.836917,
+          "startTime": 1275.502958,
+          "endTime": 1503.3398750000001
+        },
+        {
+          "path": "Audio/output/1570/chapter_07.wav",
+          "duration": 164.93425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Incentives—The Quiet Engine of Human Behavior",
+          "actualDuration": 164.93425,
+          "startTime": 1504.8398750000001,
+          "endTime": 1669.7741250000001
+        },
+        {
+          "path": "Audio/output/1570/chapter_08.wav",
+          "duration": 163.013583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Government’s Role—Referee, Player, or Both?",
+          "actualDuration": 163.013583,
+          "startTime": 1671.2741250000001,
+          "endTime": 1834.287708
+        },
+        {
+          "path": "Audio/output/1570/chapter_09.wav",
+          "duration": 158.751208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Price of Fairness—Who Pays, Who Gains?",
+          "actualDuration": 158.751208,
+          "startTime": 1835.787708,
+          "endTime": 1994.538916
+        },
+        {
+          "path": "Audio/output/1570/chapter_10.wav",
+          "duration": 108.2855,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Seeing the Unseen—How Economics Changes the Way We Look at Life",
+          "actualDuration": 108.2855,
+          "startTime": 1996.038916,
+          "endTime": 2104.324416
+        },
+        {
+          "path": "Audio/output/1570/conclusion.wav",
+          "duration": 154.244875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 154.244875,
+          "startTime": 2105.824416,
+          "endTime": 2260.069291
+        }
+      ],
+      "totalDuration": 2260.069291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.75,
+          "actualStart": 0,
+          "actualEnd": 100.745625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Choices and the Hidden Rules of Value",
+          "expectedStart": 100.75,
+          "expectedEnd": 333.38,
+          "actualStart": 102.245625,
+          "actualEnd": 334.872875,
+          "timeDifference": 1.495625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Prices and the Dance of Supply and Demand",
+          "expectedStart": 333.38,
+          "expectedEnd": 590.44,
+          "actualStart": 336.372875,
+          "actualEnd": 593.436417,
+          "timeDifference": 2.9928750000000264
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Market Power, Competition, and the Winners Behind the Scenes",
+          "expectedStart": 590.44,
+          "expectedEnd": 820.42,
+          "actualStart": 594.936417,
+          "actualEnd": 824.912625,
+          "timeDifference": 4.496416999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Problem of Hidden Information and Why Used Cars Are Tricky",
+          "expectedStart": 820.42,
+          "expectedEnd": 1051.52,
+          "actualStart": 826.412625,
+          "actualEnd": 1057.512833,
+          "timeDifference": 5.992625000000089
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 When Markets Fail and the Cost of Unintended Consequences",
+          "expectedStart": 1051.52,
+          "expectedEnd": 1266.51,
+          "actualStart": 1059.012833,
+          "actualEnd": 1274.002958,
+          "timeDifference": 7.492833000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Global Web—How Markets Connect the World",
+          "expectedStart": 1266.51,
+          "expectedEnd": 1494.35,
+          "actualStart": 1275.502958,
+          "actualEnd": 1503.3398750000001,
+          "timeDifference": 8.992958000000044
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Incentives—The Quiet Engine of Human Behavior",
+          "expectedStart": 1494.35,
+          "expectedEnd": 1659.28,
+          "actualStart": 1504.8398750000001,
+          "actualEnd": 1669.7741250000001,
+          "timeDifference": 10.489875000000211
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Government’s Role—Referee, Player, or Both?",
+          "expectedStart": 1659.28,
+          "expectedEnd": 1822.29,
+          "actualStart": 1671.2741250000001,
+          "actualEnd": 1834.287708,
+          "timeDifference": 11.994125000000167
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Price of Fairness—Who Pays, Who Gains?",
+          "expectedStart": 1822.29,
+          "expectedEnd": 1981.04,
+          "actualStart": 1835.787708,
+          "actualEnd": 1994.538916,
+          "timeDifference": 13.497708000000102
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Seeing the Unseen—How Economics Changes the Way We Look at Life",
+          "expectedStart": 1981.04,
+          "expectedEnd": 2089.33,
+          "actualStart": 1996.038916,
+          "actualEnd": 2104.324416,
+          "timeDifference": 14.998916000000008
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2089.33,
+          "expectedEnd": 2243.57,
+          "actualStart": 2105.824416,
+          "actualEnd": 2260.069291,
+          "timeDifference": 16.494416
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.745625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Choices and the Hidden Rules of Value"
+        },
+        {
+          "startTime": 334.872875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Choices and the Hidden Rules of Value and Chapter 2 The Power of Prices and the Dance of Supply and Demand"
+        },
+        {
+          "startTime": 593.436417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Prices and the Dance of Supply and Demand and Chapter 3 Market Power, Competition, and the Winners Behind the Scenes"
+        },
+        {
+          "startTime": 824.912625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Market Power, Competition, and the Winners Behind the Scenes and Chapter 4 The Problem of Hidden Information and Why Used Cars Are Tricky"
+        },
+        {
+          "startTime": 1057.512833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Problem of Hidden Information and Why Used Cars Are Tricky and Chapter 5 When Markets Fail and the Cost of Unintended Consequences"
+        },
+        {
+          "startTime": 1274.002958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 When Markets Fail and the Cost of Unintended Consequences and Chapter 6 The Global Web—How Markets Connect the World"
+        },
+        {
+          "startTime": 1503.3398750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Global Web—How Markets Connect the World and Chapter 7 Incentives—The Quiet Engine of Human Behavior"
+        },
+        {
+          "startTime": 1669.7741250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Incentives—The Quiet Engine of Human Behavior and Chapter 8 The Government’s Role—Referee, Player, or Both?"
+        },
+        {
+          "startTime": 1834.287708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Government’s Role—Referee, Player, or Both? and Chapter 9 The Price of Fairness—Who Pays, Who Gains?"
+        },
+        {
+          "startTime": 1994.538916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Price of Fairness—Who Pays, Who Gains? and Chapter 10 Seeing the Unseen—How Economics Changes the Way We Look at Life"
+        },
+        {
+          "startTime": 2104.324416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Seeing the Unseen—How Economics Changes the Way We Look at Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1570",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T23:48:33.246Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "bookId": "1662",
+  "timestamp": "2025-07-08T05:04:28.803Z",
+  "success": false,
+  "processingTime": -1751950278856,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5263,
+    "totalAudioFiles": 14,
+    "totalDuration": 2378.4091670000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2378.4091670000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1662/optimized_text/1662.md",
+    "fileSize": 852,
+    "wordCount": 130,
+    "format": "markdown",
+    "filename": "1662.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1662/metadata/1662_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2378.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1662/metadata/1662_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1662/metadata/1662_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1662/1662_complete.wav",
+    "duration": 2378.409167,
+    "fileSize": 114163718,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1662/introduction.wav",
+          "duration": 74.383667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 74.383667,
+          "startTime": 0,
+          "endTime": 74.383667
+        },
+        {
+          "path": "Audio/output/1662/chapter_01.wav",
+          "duration": 215.767042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Belief Replaces Reason in Public Life",
+          "actualDuration": 215.767042,
+          "startTime": 75.883667,
+          "endTime": 291.650709
+        },
+        {
+          "path": "Audio/output/1662/chapter_02.wav",
+          "duration": 225.31075,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The New Secular Creed in Schools and Courts",
+          "actualDuration": 225.31075,
+          "startTime": 293.150709,
+          "endTime": 518.461459
+        },
+        {
+          "path": "Audio/output/1662/chapter_03.wav",
+          "duration": 182.791292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Science as Sacred Doctrine and the Limits of Debate",
+          "actualDuration": 182.791292,
+          "startTime": 519.961459,
+          "endTime": 702.752751
+        },
+        {
+          "path": "Audio/output/1662/chapter_04.wav",
+          "duration": 200.506583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Hypocrisy and Moral Relativism in Political Life",
+          "actualDuration": 200.506583,
+          "startTime": 704.252751,
+          "endTime": 904.759334
+        },
+        {
+          "path": "Audio/output/1662/chapter_05.wav",
+          "duration": 216.083083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Media and Academia in Shaping Belief",
+          "actualDuration": 216.083083,
+          "startTime": 906.259334,
+          "endTime": 1122.3424169999998
+        },
+        {
+          "path": "Audio/output/1662/chapter_06.wav",
+          "duration": 187.22025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Politics of Victimhood and the Power of Identity",
+          "actualDuration": 187.22025,
+          "startTime": 1123.8424169999998,
+          "endTime": 1311.062667
+        },
+        {
+          "path": "Audio/output/1662/chapter_07.wav",
+          "duration": 198.063875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Sacredness of Abortion and the Redefinition of Life",
+          "actualDuration": 198.063875,
+          "startTime": 1312.562667,
+          "endTime": 1510.626542
+        },
+        {
+          "path": "Audio/output/1662/chapter_08.wav",
+          "duration": 185.189792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Church of Environmentalism and the Search for Redemption",
+          "actualDuration": 185.189792,
+          "startTime": 1512.126542,
+          "endTime": 1697.316334
+        },
+        {
+          "path": "Audio/output/1662/chapter_09.wav",
+          "duration": 181.798208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Rituals of Secular Faith and the Loss of Transcendence",
+          "actualDuration": 181.798208,
+          "startTime": 1698.816334,
+          "endTime": 1880.614542
+        },
+        {
+          "path": "Audio/output/1662/chapter_10.wav",
+          "duration": 147.799583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Cost of Dissent and the Courage to Question",
+          "actualDuration": 147.799583,
+          "startTime": 1882.114542,
+          "endTime": 2029.914125
+        },
+        {
+          "path": "Audio/output/1662/chapter_11.wav",
+          "duration": 134.137167,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Human Need for Faith and the Limits of Secularism",
+          "actualDuration": 134.137167,
+          "startTime": 2031.414125,
+          "endTime": 2165.551292
+        },
+        {
+          "path": "Audio/output/1662/chapter_12.wav",
+          "duration": 121.427583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Reclaiming Debate, Pluralism, and the Freedom to Believe",
+          "actualDuration": 121.427583,
+          "startTime": 2167.051292,
+          "endTime": 2288.4788750000002
+        },
+        {
+          "path": "Audio/output/1662/conclusion.wav",
+          "duration": 107.930292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.930292,
+          "startTime": 2289.9788750000002,
+          "endTime": 2397.9091670000003
+        }
+      ],
+      "totalDuration": 2397.9091670000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 74.38,
+          "actualStart": 0,
+          "actualEnd": 74.383667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Belief Replaces Reason in Public Life",
+          "expectedStart": 74.38,
+          "expectedEnd": 290.15,
+          "actualStart": 75.883667,
+          "actualEnd": 291.650709,
+          "timeDifference": 1.5036670000000072
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The New Secular Creed in Schools and Courts",
+          "expectedStart": 290.15,
+          "expectedEnd": 515.46,
+          "actualStart": 293.150709,
+          "actualEnd": 518.461459,
+          "timeDifference": 3.000709000000029
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Science as Sacred Doctrine and the Limits of Debate",
+          "expectedStart": 515.46,
+          "expectedEnd": 698.25,
+          "actualStart": 519.961459,
+          "actualEnd": 702.752751,
+          "timeDifference": 4.501458999999954
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Hypocrisy and Moral Relativism in Political Life",
+          "expectedStart": 698.25,
+          "expectedEnd": 898.76,
+          "actualStart": 704.252751,
+          "actualEnd": 904.759334,
+          "timeDifference": 6.002750999999989
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Media and Academia in Shaping Belief",
+          "expectedStart": 898.76,
+          "expectedEnd": 1114.84,
+          "actualStart": 906.259334,
+          "actualEnd": 1122.3424169999998,
+          "timeDifference": 7.499333999999976
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Politics of Victimhood and the Power of Identity",
+          "expectedStart": 1114.84,
+          "expectedEnd": 1302.06,
+          "actualStart": 1123.8424169999998,
+          "actualEnd": 1311.062667,
+          "timeDifference": 9.002416999999923
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Sacredness of Abortion and the Redefinition of Life",
+          "expectedStart": 1302.06,
+          "expectedEnd": 1500.12,
+          "actualStart": 1312.562667,
+          "actualEnd": 1510.626542,
+          "timeDifference": 10.502666999999974
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Church of Environmentalism and the Search for Redemption",
+          "expectedStart": 1500.12,
+          "expectedEnd": 1685.31,
+          "actualStart": 1512.126542,
+          "actualEnd": 1697.316334,
+          "timeDifference": 12.006542000000081
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Rituals of Secular Faith and the Loss of Transcendence",
+          "expectedStart": 1685.31,
+          "expectedEnd": 1867.11,
+          "actualStart": 1698.816334,
+          "actualEnd": 1880.614542,
+          "timeDifference": 13.506334000000152
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Cost of Dissent and the Courage to Question",
+          "expectedStart": 1867.11,
+          "expectedEnd": 2014.91,
+          "actualStart": 1882.114542,
+          "actualEnd": 2029.914125,
+          "timeDifference": 15.004542000000129
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Human Need for Faith and the Limits of Secularism",
+          "expectedStart": 2014.91,
+          "expectedEnd": 2149.05,
+          "actualStart": 2031.414125,
+          "actualEnd": 2165.551292,
+          "timeDifference": 16.50412499999993
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Reclaiming Debate, Pluralism, and the Freedom to Believe",
+          "expectedStart": 2149.05,
+          "expectedEnd": 2270.48,
+          "actualStart": 2167.051292,
+          "actualEnd": 2288.4788750000002,
+          "timeDifference": 18.00129199999992
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2270.48,
+          "expectedEnd": 2378.41,
+          "actualStart": 2289.9788750000002,
+          "actualEnd": 2397.9091670000003,
+          "timeDifference": 19.498875000000226
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 74.383667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Belief Replaces Reason in Public Life"
+        },
+        {
+          "startTime": 291.650709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Belief Replaces Reason in Public Life and Chapter 2 The New Secular Creed in Schools and Courts"
+        },
+        {
+          "startTime": 518.461459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The New Secular Creed in Schools and Courts and Chapter 3 Science as Sacred Doctrine and the Limits of Debate"
+        },
+        {
+          "startTime": 702.752751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Science as Sacred Doctrine and the Limits of Debate and Chapter 4 Hypocrisy and Moral Relativism in Political Life"
+        },
+        {
+          "startTime": 904.759334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Hypocrisy and Moral Relativism in Political Life and Chapter 5 The Role of Media and Academia in Shaping Belief"
+        },
+        {
+          "startTime": 1122.3424169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Media and Academia in Shaping Belief and Chapter 6 The Politics of Victimhood and the Power of Identity"
+        },
+        {
+          "startTime": 1311.062667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Politics of Victimhood and the Power of Identity and Chapter 7 The Sacredness of Abortion and the Redefinition of Life"
+        },
+        {
+          "startTime": 1510.626542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Sacredness of Abortion and the Redefinition of Life and Chapter 8 The Church of Environmentalism and the Search for Redemption"
+        },
+        {
+          "startTime": 1697.316334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Church of Environmentalism and the Search for Redemption and Chapter 9 The Rituals of Secular Faith and the Loss of Transcendence"
+        },
+        {
+          "startTime": 1880.614542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Rituals of Secular Faith and the Loss of Transcendence and Chapter 10 The Cost of Dissent and the Courage to Question"
+        },
+        {
+          "startTime": 2029.914125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Cost of Dissent and the Courage to Question and Chapter 11 The Human Need for Faith and the Limits of Secularism"
+        },
+        {
+          "startTime": 2165.551292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Human Need for Faith and the Limits of Secularism and Chapter 12 Reclaiming Debate, Pluralism, and the Freedom to Believe"
+        },
+        {
+          "startTime": 2288.4788750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Reclaiming Debate, Pluralism, and the Freedom to Believe and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1662",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T04:51:20.061Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

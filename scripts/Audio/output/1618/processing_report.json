@@ -1,0 +1,456 @@
+{
+  "bookId": "1618",
+  "timestamp": "2025-07-08T02:10:40.587Z",
+  "success": false,
+  "processingTime": -1751940329758,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4413,
+    "totalAudioFiles": 12,
+    "totalDuration": 2139.5547500000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2139.5547500000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1618/optimized_text/1618.md",
+    "fileSize": 881,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "1618.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1618/metadata/1618_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2139.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1618/metadata/1618_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1618/metadata/1618_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1618/1618_complete.wav",
+    "duration": 2139.55475,
+    "fileSize": 102698706,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1618/introduction.wav",
+          "duration": 92.391,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.391,
+          "startTime": 0,
+          "endTime": 92.391
+        },
+        {
+          "path": "Audio/output/1618/chapter_01.wav",
+          "duration": 237.780917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Willpower: The Science Behind Self-Control",
+          "actualDuration": 237.780917,
+          "startTime": 93.891,
+          "endTime": 331.671917
+        },
+        {
+          "path": "Audio/output/1618/chapter_02.wav",
+          "duration": 213.829875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Biological Roots of Self-Control: How the Body and Brain Shape Choices",
+          "actualDuration": 213.829875,
+          "startTime": 333.171917,
+          "endTime": 547.001792
+        },
+        {
+          "path": "Audio/output/1618/chapter_03.wav",
+          "duration": 218.250417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Awareness: Mindfulness as a Tool for Self-Control",
+          "actualDuration": 218.250417,
+          "startTime": 548.501792,
+          "endTime": 766.752209
+        },
+        {
+          "path": "Audio/output/1618/chapter_04.wav",
+          "duration": 222.999667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Dynamics of Temptation: Why Willpower Fails and How to Learn from Setbacks",
+          "actualDuration": 222.999667,
+          "startTime": 768.252209,
+          "endTime": 991.251876
+        },
+        {
+          "path": "Audio/output/1618/chapter_05.wav",
+          "duration": 215.599458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Setting Goals and Building Habits: Small Steps Toward Lasting Change",
+          "actualDuration": 215.599458,
+          "startTime": 992.751876,
+          "endTime": 1208.351334
+        },
+        {
+          "path": "Audio/output/1618/chapter_06.wav",
+          "duration": 174.840875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Harnessing the Power of Immediate Rewards: Making Self-Control Satisfying",
+          "actualDuration": 174.840875,
+          "startTime": 1209.851334,
+          "endTime": 1384.692209
+        },
+        {
+          "path": "Audio/output/1618/chapter_07.wav",
+          "duration": 166.892875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Influence of Environment: Shaping Spaces for Success",
+          "actualDuration": 166.892875,
+          "startTime": 1386.192209,
+          "endTime": 1553.085084
+        },
+        {
+          "path": "Audio/output/1618/chapter_08.wav",
+          "duration": 149.161458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Aligning Actions with Values: The Deeper Motivation for Change",
+          "actualDuration": 149.161458,
+          "startTime": 1554.585084,
+          "endTime": 1703.746542
+        },
+        {
+          "path": "Audio/output/1618/chapter_09.wav",
+          "duration": 173.134458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Social Influences: The Power of Community and Accountability",
+          "actualDuration": 173.134458,
+          "startTime": 1705.246542,
+          "endTime": 1878.381
+        },
+        {
+          "path": "Audio/output/1618/chapter_10.wav",
+          "duration": 162.3025,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Applying Willpower to Everyday Life: Health, Productivity, and Personal Growth",
+          "actualDuration": 162.3025,
+          "startTime": 1879.881,
+          "endTime": 2042.1835
+        },
+        {
+          "path": "Audio/output/1618/conclusion.wav",
+          "duration": 112.37125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.37125,
+          "startTime": 2043.6835,
+          "endTime": 2156.0547500000002
+        }
+      ],
+      "totalDuration": 2156.0547500000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.39,
+          "actualStart": 0,
+          "actualEnd": 92.391,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Willpower: The Science Behind Self-Control",
+          "expectedStart": 92.39,
+          "expectedEnd": 330.17,
+          "actualStart": 93.891,
+          "actualEnd": 331.671917,
+          "timeDifference": 1.5010000000000048
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Biological Roots of Self-Control: How the Body and Brain Shape Choices",
+          "expectedStart": 330.17,
+          "expectedEnd": 544,
+          "actualStart": 333.171917,
+          "actualEnd": 547.001792,
+          "timeDifference": 3.0019169999999917
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Awareness: Mindfulness as a Tool for Self-Control",
+          "expectedStart": 544,
+          "expectedEnd": 762.25,
+          "actualStart": 548.501792,
+          "actualEnd": 766.752209,
+          "timeDifference": 4.501792000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Dynamics of Temptation: Why Willpower Fails and How to Learn from Setbacks",
+          "expectedStart": 762.25,
+          "expectedEnd": 985.25,
+          "actualStart": 768.252209,
+          "actualEnd": 991.251876,
+          "timeDifference": 6.0022089999999935
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Setting Goals and Building Habits: Small Steps Toward Lasting Change",
+          "expectedStart": 985.25,
+          "expectedEnd": 1200.85,
+          "actualStart": 992.751876,
+          "actualEnd": 1208.351334,
+          "timeDifference": 7.501876000000038
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Harnessing the Power of Immediate Rewards: Making Self-Control Satisfying",
+          "expectedStart": 1200.85,
+          "expectedEnd": 1375.69,
+          "actualStart": 1209.851334,
+          "actualEnd": 1384.692209,
+          "timeDifference": 9.001334000000043
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Influence of Environment: Shaping Spaces for Success",
+          "expectedStart": 1375.69,
+          "expectedEnd": 1542.58,
+          "actualStart": 1386.192209,
+          "actualEnd": 1553.085084,
+          "timeDifference": 10.502208999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Aligning Actions with Values: The Deeper Motivation for Change",
+          "expectedStart": 1542.58,
+          "expectedEnd": 1691.74,
+          "actualStart": 1554.585084,
+          "actualEnd": 1703.746542,
+          "timeDifference": 12.005084000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Social Influences: The Power of Community and Accountability",
+          "expectedStart": 1691.74,
+          "expectedEnd": 1864.87,
+          "actualStart": 1705.246542,
+          "actualEnd": 1878.381,
+          "timeDifference": 13.506542000000081
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Applying Willpower to Everyday Life: Health, Productivity, and Personal Growth",
+          "expectedStart": 1864.87,
+          "expectedEnd": 2027.17,
+          "actualStart": 1879.881,
+          "actualEnd": 2042.1835,
+          "timeDifference": 15.011000000000195
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2027.17,
+          "expectedEnd": 2139.54,
+          "actualStart": 2043.6835,
+          "actualEnd": 2156.0547500000002,
+          "timeDifference": 16.513500000000022
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.391,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Willpower: The Science Behind Self-Control"
+        },
+        {
+          "startTime": 331.671917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Willpower: The Science Behind Self-Control and Chapter 2 The Biological Roots of Self-Control: How the Body and Brain Shape Choices"
+        },
+        {
+          "startTime": 547.001792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Biological Roots of Self-Control: How the Body and Brain Shape Choices and Chapter 3 The Power of Awareness: Mindfulness as a Tool for Self-Control"
+        },
+        {
+          "startTime": 766.752209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Awareness: Mindfulness as a Tool for Self-Control and Chapter 4 The Dynamics of Temptation: Why Willpower Fails and How to Learn from Setbacks"
+        },
+        {
+          "startTime": 991.251876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Dynamics of Temptation: Why Willpower Fails and How to Learn from Setbacks and Chapter 5 Setting Goals and Building Habits: Small Steps Toward Lasting Change"
+        },
+        {
+          "startTime": 1208.351334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Setting Goals and Building Habits: Small Steps Toward Lasting Change and Chapter 6 Harnessing the Power of Immediate Rewards: Making Self-Control Satisfying"
+        },
+        {
+          "startTime": 1384.692209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Harnessing the Power of Immediate Rewards: Making Self-Control Satisfying and Chapter 7 The Influence of Environment: Shaping Spaces for Success"
+        },
+        {
+          "startTime": 1553.085084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Influence of Environment: Shaping Spaces for Success and Chapter 8 Aligning Actions with Values: The Deeper Motivation for Change"
+        },
+        {
+          "startTime": 1703.746542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Aligning Actions with Values: The Deeper Motivation for Change and Chapter 9 Navigating Social Influences: The Power of Community and Accountability"
+        },
+        {
+          "startTime": 1878.381,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Social Influences: The Power of Community and Accountability and Chapter 10 Applying Willpower to Everyday Life: Health, Productivity, and Personal Growth"
+        },
+        {
+          "startTime": 2042.1835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Applying Willpower to Everyday Life: Health, Productivity, and Personal Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1618",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:05:30.340Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

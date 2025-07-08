@@ -1,0 +1,576 @@
+{
+  "bookId": "1638",
+  "timestamp": "2025-07-08T03:16:52.936Z",
+  "success": false,
+  "processingTime": -1751944285464,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5049,
+    "totalAudioFiles": 17,
+    "totalDuration": 2415.7467100000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2415.7467100000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1638/optimized_text/1638.md",
+    "fileSize": 973,
+    "wordCount": 139,
+    "format": "markdown",
+    "filename": "1638.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1638/metadata/1638_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2415.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1638/metadata/1638_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1638/metadata/1638_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1638/1638_complete.wav",
+    "duration": 2415.746708,
+    "fileSize": 115955920,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1638/introduction.wav",
+          "duration": 88.233958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.233958,
+          "startTime": 0,
+          "endTime": 88.233958
+        },
+        {
+          "path": "Audio/output/1638/chapter_01.wav",
+          "duration": 184.473667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Struggle to Understand Faith Beyond Reason",
+          "actualDuration": 184.473667,
+          "startTime": 89.733958,
+          "endTime": 274.207625
+        },
+        {
+          "path": "Audio/output/1638/chapter_02.wav",
+          "duration": 195.705917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Paradox of the Individual and the Universal",
+          "actualDuration": 195.705917,
+          "startTime": 275.707625,
+          "endTime": 471.413542
+        },
+        {
+          "path": "Audio/output/1638/chapter_03.wav",
+          "duration": 216.84275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Leap of Faith and the Absurd",
+          "actualDuration": 216.84275,
+          "startTime": 472.913542,
+          "endTime": 689.756292
+        },
+        {
+          "path": "Audio/output/1638/chapter_04.wav",
+          "duration": 191.231208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Knight of Faith and Everyday Life",
+          "actualDuration": 191.231208,
+          "startTime": 691.256292,
+          "endTime": 882.4875000000001
+        },
+        {
+          "path": "Audio/output/1638/chapter_05.wav",
+          "duration": 165.311167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Agony and Authenticity of True Faith",
+          "actualDuration": 165.311167,
+          "startTime": 883.9875000000001,
+          "endTime": 1049.298667
+        },
+        {
+          "path": "Audio/output/1638/chapter_06.wav",
+          "duration": 147.141167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Silent Struggle: Faith’s Incommunicable Secret",
+          "actualDuration": 147.141167,
+          "startTime": 1050.798667,
+          "endTime": 1197.939834
+        },
+        {
+          "path": "Audio/output/1638/chapter_07.wav",
+          "duration": 133.012292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Double Movement: Resignation and Faith",
+          "actualDuration": 133.012292,
+          "startTime": 1199.439834,
+          "endTime": 1332.4521260000001
+        },
+        {
+          "path": "Audio/output/1638/chapter_08.wav",
+          "duration": 152.088708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ethical Suspension: When Faith Transcends Morality",
+          "actualDuration": 152.088708,
+          "startTime": 1333.9521260000001,
+          "endTime": 1486.0408340000001
+        },
+        {
+          "path": "Audio/output/1638/chapter_09.wav",
+          "duration": 129.992125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Subjective Truth: Faith as a Personal Relationship",
+          "actualDuration": 129.992125,
+          "startTime": 1487.5408340000001,
+          "endTime": 1617.5329590000001
+        },
+        {
+          "path": "Audio/output/1638/chapter_10.wav",
+          "duration": 129.83425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Temptation of the Tragic Hero",
+          "actualDuration": 129.83425,
+          "startTime": 1619.0329590000001,
+          "endTime": 1748.867209
+        },
+        {
+          "path": "Audio/output/1638/chapter_11.wav",
+          "duration": 122.507125,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Anxiety of Decision: Living with Uncertainty",
+          "actualDuration": 122.507125,
+          "startTime": 1750.367209,
+          "endTime": 1872.874334
+        },
+        {
+          "path": "Audio/output/1638/chapter_12.wav",
+          "duration": 125.834917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Repetition of Faith: Returning to the Ordinary",
+          "actualDuration": 125.834917,
+          "startTime": 1874.374334,
+          "endTime": 2000.209251
+        },
+        {
+          "path": "Audio/output/1638/chapter_13.wav",
+          "duration": 103.445333,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Scandal of Faith: Offense and Understanding",
+          "actualDuration": 103.445333,
+          "startTime": 2001.709251,
+          "endTime": 2105.154584
+        },
+        {
+          "path": "Audio/output/1638/chapter_14.wav",
+          "duration": 98.582667,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Teacher and the Disciple: Learning from Abraham",
+          "actualDuration": 98.582667,
+          "startTime": 2106.654584,
+          "endTime": 2205.237251
+        },
+        {
+          "path": "Audio/output/1638/chapter_15.wav",
+          "duration": 111.971292,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Enduring Relevance: Faith in a Modern World",
+          "actualDuration": 111.971292,
+          "startTime": 2206.737251,
+          "endTime": 2318.708543
+        },
+        {
+          "path": "Audio/output/1638/conclusion.wav",
+          "duration": 119.538167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.538167,
+          "startTime": 2320.208543,
+          "endTime": 2439.7467100000003
+        }
+      ],
+      "totalDuration": 2439.7467100000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.23,
+          "actualStart": 0,
+          "actualEnd": 88.233958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Struggle to Understand Faith Beyond Reason",
+          "expectedStart": 88.23,
+          "expectedEnd": 272.7,
+          "actualStart": 89.733958,
+          "actualEnd": 274.207625,
+          "timeDifference": 1.5039579999999972
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Paradox of the Individual and the Universal",
+          "expectedStart": 272.7,
+          "expectedEnd": 468.41,
+          "actualStart": 275.707625,
+          "actualEnd": 471.413542,
+          "timeDifference": 3.0076250000000186
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Leap of Faith and the Absurd",
+          "expectedStart": 468.41,
+          "expectedEnd": 685.25,
+          "actualStart": 472.913542,
+          "actualEnd": 689.756292,
+          "timeDifference": 4.503541999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Knight of Faith and Everyday Life",
+          "expectedStart": 685.25,
+          "expectedEnd": 876.48,
+          "actualStart": 691.256292,
+          "actualEnd": 882.4875000000001,
+          "timeDifference": 6.00629200000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Agony and Authenticity of True Faith",
+          "expectedStart": 876.48,
+          "expectedEnd": 1041.79,
+          "actualStart": 883.9875000000001,
+          "actualEnd": 1049.298667,
+          "timeDifference": 7.50750000000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Silent Struggle: Faith’s Incommunicable Secret",
+          "expectedStart": 1041.79,
+          "expectedEnd": 1188.93,
+          "actualStart": 1050.798667,
+          "actualEnd": 1197.939834,
+          "timeDifference": 9.00866700000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Double Movement: Resignation and Faith",
+          "expectedStart": 1188.93,
+          "expectedEnd": 1321.94,
+          "actualStart": 1199.439834,
+          "actualEnd": 1332.4521260000001,
+          "timeDifference": 10.509833999999955
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ethical Suspension: When Faith Transcends Morality",
+          "expectedStart": 1321.94,
+          "expectedEnd": 1474.03,
+          "actualStart": 1333.9521260000001,
+          "actualEnd": 1486.0408340000001,
+          "timeDifference": 12.01212600000008
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Subjective Truth: Faith as a Personal Relationship",
+          "expectedStart": 1474.03,
+          "expectedEnd": 1604.02,
+          "actualStart": 1487.5408340000001,
+          "actualEnd": 1617.5329590000001,
+          "timeDifference": 13.510834000000159
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Temptation of the Tragic Hero",
+          "expectedStart": 1604.02,
+          "expectedEnd": 1733.85,
+          "actualStart": 1619.0329590000001,
+          "actualEnd": 1748.867209,
+          "timeDifference": 15.012959000000137
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Anxiety of Decision: Living with Uncertainty",
+          "expectedStart": 1733.85,
+          "expectedEnd": 1856.36,
+          "actualStart": 1750.367209,
+          "actualEnd": 1872.874334,
+          "timeDifference": 16.517209000000094
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Repetition of Faith: Returning to the Ordinary",
+          "expectedStart": 1856.36,
+          "expectedEnd": 1982.19,
+          "actualStart": 1874.374334,
+          "actualEnd": 2000.209251,
+          "timeDifference": 18.01433400000019
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Scandal of Faith: Offense and Understanding",
+          "expectedStart": 1982.19,
+          "expectedEnd": 2085.64,
+          "actualStart": 2001.709251,
+          "actualEnd": 2105.154584,
+          "timeDifference": 19.51925099999994
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Teacher and the Disciple: Learning from Abraham",
+          "expectedStart": 2085.64,
+          "expectedEnd": 2184.22,
+          "actualStart": 2106.654584,
+          "actualEnd": 2205.237251,
+          "timeDifference": 21.014584000000013
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Enduring Relevance: Faith in a Modern World",
+          "expectedStart": 2184.22,
+          "expectedEnd": 2296.19,
+          "actualStart": 2206.737251,
+          "actualEnd": 2318.708543,
+          "timeDifference": 22.517251000000215
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2296.19,
+          "expectedEnd": 2415.73,
+          "actualStart": 2320.208543,
+          "actualEnd": 2439.7467100000003,
+          "timeDifference": 24.018543000000136
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.233958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Struggle to Understand Faith Beyond Reason"
+        },
+        {
+          "startTime": 274.207625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Struggle to Understand Faith Beyond Reason and Chapter 2 The Paradox of the Individual and the Universal"
+        },
+        {
+          "startTime": 471.413542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Paradox of the Individual and the Universal and Chapter 3 The Leap of Faith and the Absurd"
+        },
+        {
+          "startTime": 689.756292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Leap of Faith and the Absurd and Chapter 4 The Knight of Faith and Everyday Life"
+        },
+        {
+          "startTime": 882.4875000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Knight of Faith and Everyday Life and Chapter 5 The Agony and Authenticity of True Faith"
+        },
+        {
+          "startTime": 1049.298667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Agony and Authenticity of True Faith and Chapter 6 The Silent Struggle: Faith’s Incommunicable Secret"
+        },
+        {
+          "startTime": 1197.939834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Silent Struggle: Faith’s Incommunicable Secret and Chapter 7 The Double Movement: Resignation and Faith"
+        },
+        {
+          "startTime": 1332.4521260000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Double Movement: Resignation and Faith and Chapter 8 The Ethical Suspension: When Faith Transcends Morality"
+        },
+        {
+          "startTime": 1486.0408340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ethical Suspension: When Faith Transcends Morality and Chapter 9 The Subjective Truth: Faith as a Personal Relationship"
+        },
+        {
+          "startTime": 1617.5329590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Subjective Truth: Faith as a Personal Relationship and Chapter 10 The Temptation of the Tragic Hero"
+        },
+        {
+          "startTime": 1748.867209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Temptation of the Tragic Hero and Chapter 11 The Anxiety of Decision: Living with Uncertainty"
+        },
+        {
+          "startTime": 1872.874334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Anxiety of Decision: Living with Uncertainty and Chapter 12 The Repetition of Faith: Returning to the Ordinary"
+        },
+        {
+          "startTime": 2000.209251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Repetition of Faith: Returning to the Ordinary and Chapter 13 The Scandal of Faith: Offense and Understanding"
+        },
+        {
+          "startTime": 2105.154584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Scandal of Faith: Offense and Understanding and Chapter 14 The Teacher and the Disciple: Learning from Abraham"
+        },
+        {
+          "startTime": 2205.237251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Teacher and the Disciple: Learning from Abraham and Chapter 15 The Enduring Relevance: Faith in a Modern World"
+        },
+        {
+          "startTime": 2318.708543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Enduring Relevance: Faith in a Modern World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1638",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T03:11:26.009Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "1526",
+  "timestamp": "2025-07-07T22:03:26.366Z",
+  "success": false,
+  "processingTime": -1751925574924,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4423,
+    "totalAudioFiles": 12,
+    "totalDuration": 2000.762959
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2000.762959
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1526/optimized_text/1526.md",
+    "fileSize": 578,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "1526.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1526/metadata/1526_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2000.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1526/metadata/1526_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1526/metadata/1526_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1526/1526_complete.wav",
+    "duration": 2000.762958,
+    "fileSize": 96036700,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1526/introduction.wav",
+          "duration": 87.676458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.676458,
+          "startTime": 0,
+          "endTime": 87.676458
+        },
+        {
+          "path": "Audio/output/1526/chapter_01.wav",
+          "duration": 235.746917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Gut’s Hidden World",
+          "actualDuration": 235.746917,
+          "startTime": 89.176458,
+          "endTime": 324.92337499999996
+        },
+        {
+          "path": "Audio/output/1526/chapter_02.wav",
+          "duration": 244.536792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Digestion Works from Start to Finish",
+          "actualDuration": 244.536792,
+          "startTime": 326.42337499999996,
+          "endTime": 570.960167
+        },
+        {
+          "path": "Audio/output/1526/chapter_03.wav",
+          "duration": 242.598542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Gut’s Role in Health and Immunity",
+          "actualDuration": 242.598542,
+          "startTime": 572.460167,
+          "endTime": 815.0587089999999
+        },
+        {
+          "path": "Audio/output/1526/chapter_04.wav",
+          "duration": 238.360583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Microbiome: Our Invisible Partners",
+          "actualDuration": 238.360583,
+          "startTime": 816.5587089999999,
+          "endTime": 1054.9192919999998
+        },
+        {
+          "path": "Audio/output/1526/chapter_05.wav",
+          "duration": 156.822417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Gut-Brain Connection and Everyday Well-Being",
+          "actualDuration": 156.822417,
+          "startTime": 1056.4192919999998,
+          "endTime": 1213.241709
+        },
+        {
+          "path": "Audio/output/1526/chapter_06.wav",
+          "duration": 180.832625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Everyday Habits That Shape Gut Health",
+          "actualDuration": 180.832625,
+          "startTime": 1214.741709,
+          "endTime": 1395.574334
+        },
+        {
+          "path": "Audio/output/1526/chapter_07.wav",
+          "duration": 150.656667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 When Things Go Wrong: Common Digestive Troubles",
+          "actualDuration": 150.656667,
+          "startTime": 1397.074334,
+          "endTime": 1547.7310009999999
+        },
+        {
+          "path": "Audio/output/1526/chapter_08.wav",
+          "duration": 145.239792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Breaking Taboos",
+          "actualDuration": 145.239792,
+          "startTime": 1549.2310009999999,
+          "endTime": 1694.470793
+        },
+        {
+          "path": "Audio/output/1526/chapter_09.wav",
+          "duration": 110.95825,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Listening to the Gut’s Wisdom",
+          "actualDuration": 110.95825,
+          "startTime": 1695.970793,
+          "endTime": 1806.9290429999999
+        },
+        {
+          "path": "Audio/output/1526/chapter_10.wav",
+          "duration": 93.147583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Gut as a Lifelong Companion",
+          "actualDuration": 93.147583,
+          "startTime": 1808.4290429999999,
+          "endTime": 1901.5766259999998
+        },
+        {
+          "path": "Audio/output/1526/conclusion.wav",
+          "duration": 114.186333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.186333,
+          "startTime": 1903.0766259999998,
+          "endTime": 2017.262959
+        }
+      ],
+      "totalDuration": 2017.262959,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.68,
+          "actualStart": 0,
+          "actualEnd": 87.676458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Gut’s Hidden World",
+          "expectedStart": 87.68,
+          "expectedEnd": 323.43,
+          "actualStart": 89.176458,
+          "actualEnd": 324.92337499999996,
+          "timeDifference": 1.4964579999999899
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Digestion Works from Start to Finish",
+          "expectedStart": 323.43,
+          "expectedEnd": 567.97,
+          "actualStart": 326.42337499999996,
+          "actualEnd": 570.960167,
+          "timeDifference": 2.9933749999999577
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Gut’s Role in Health and Immunity",
+          "expectedStart": 567.97,
+          "expectedEnd": 810.57,
+          "actualStart": 572.460167,
+          "actualEnd": 815.0587089999999,
+          "timeDifference": 4.4901669999999285
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Microbiome: Our Invisible Partners",
+          "expectedStart": 810.57,
+          "expectedEnd": 1048.93,
+          "actualStart": 816.5587089999999,
+          "actualEnd": 1054.9192919999998,
+          "timeDifference": 5.988708999999858
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Gut-Brain Connection and Everyday Well-Being",
+          "expectedStart": 1048.93,
+          "expectedEnd": 1205.75,
+          "actualStart": 1056.4192919999998,
+          "actualEnd": 1213.241709,
+          "timeDifference": 7.48929199999975
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Everyday Habits That Shape Gut Health",
+          "expectedStart": 1205.75,
+          "expectedEnd": 1386.58,
+          "actualStart": 1214.741709,
+          "actualEnd": 1395.574334,
+          "timeDifference": 8.9917089999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 When Things Go Wrong: Common Digestive Troubles",
+          "expectedStart": 1386.58,
+          "expectedEnd": 1537.24,
+          "actualStart": 1397.074334,
+          "actualEnd": 1547.7310009999999,
+          "timeDifference": 10.49433399999998
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Breaking Taboos",
+          "expectedStart": 1537.24,
+          "expectedEnd": 1682.48,
+          "actualStart": 1549.2310009999999,
+          "actualEnd": 1694.470793,
+          "timeDifference": 11.99100099999987
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Listening to the Gut’s Wisdom",
+          "expectedStart": 1682.48,
+          "expectedEnd": 1793.44,
+          "actualStart": 1695.970793,
+          "actualEnd": 1806.9290429999999,
+          "timeDifference": 13.49079299999994
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Gut as a Lifelong Companion",
+          "expectedStart": 1793.44,
+          "expectedEnd": 1886.59,
+          "actualStart": 1808.4290429999999,
+          "actualEnd": 1901.5766259999998,
+          "timeDifference": 14.98904299999981
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1886.59,
+          "expectedEnd": 2000.78,
+          "actualStart": 1903.0766259999998,
+          "actualEnd": 2017.262959,
+          "timeDifference": 16.486625999999887
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.676458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Gut’s Hidden World"
+        },
+        {
+          "startTime": 324.92337499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Gut’s Hidden World and Chapter 2 How Digestion Works from Start to Finish"
+        },
+        {
+          "startTime": 570.960167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Digestion Works from Start to Finish and Chapter 3 The Gut’s Role in Health and Immunity"
+        },
+        {
+          "startTime": 815.0587089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Gut’s Role in Health and Immunity and Chapter 4 The Microbiome: Our Invisible Partners"
+        },
+        {
+          "startTime": 1054.9192919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Microbiome: Our Invisible Partners and Chapter 5 The Gut-Brain Connection and Everyday Well-Being"
+        },
+        {
+          "startTime": 1213.241709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Gut-Brain Connection and Everyday Well-Being and Chapter 6 Everyday Habits That Shape Gut Health"
+        },
+        {
+          "startTime": 1395.574334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Everyday Habits That Shape Gut Health and Chapter 7 When Things Go Wrong: Common Digestive Troubles"
+        },
+        {
+          "startTime": 1547.7310009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 When Things Go Wrong: Common Digestive Troubles and Chapter 8 The Power of Breaking Taboos"
+        },
+        {
+          "startTime": 1694.470793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Breaking Taboos and Chapter 9 Listening to the Gut’s Wisdom"
+        },
+        {
+          "startTime": 1806.9290429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Listening to the Gut’s Wisdom and Chapter 10 The Gut as a Lifelong Companion"
+        },
+        {
+          "startTime": 1901.5766259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Gut as a Lifelong Companion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1526",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T21:59:35.504Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "bookId": "1539",
+  "timestamp": "2025-07-07T22:49:11.963Z",
+  "success": false,
+  "processingTime": -1751928309281,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4751,
+    "totalAudioFiles": 13,
+    "totalDuration": 1999.56525
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 1999.56525
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1539/optimized_text/1539.md",
+    "fileSize": 659,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "1539.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1539/metadata/1539_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 1999.58,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1539/metadata/1539_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1539/metadata/1539_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1539/1539_complete.wav",
+    "duration": 1999.56525,
+    "fileSize": 95979210,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1539/introduction.wav",
+          "duration": 98.026958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.026958,
+          "startTime": 0,
+          "endTime": 98.026958
+        },
+        {
+          "path": "Audio/output/1539/chapter_01.wav",
+          "duration": 196.931292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Setting Out to Find the America Remembered",
+          "actualDuration": 196.931292,
+          "startTime": 99.526958,
+          "endTime": 296.45825
+        },
+        {
+          "path": "Audio/output/1539/chapter_02.wav",
+          "duration": 183.55625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Quirks and Realities of Small-Town Life",
+          "actualDuration": 183.55625,
+          "startTime": 297.95825,
+          "endTime": 481.5145
+        },
+        {
+          "path": "Audio/output/1539/chapter_03.wav",
+          "duration": 183.819083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Clash Between Nostalgia and Reality",
+          "actualDuration": 183.819083,
+          "startTime": 483.0145,
+          "endTime": 666.833583
+        },
+        {
+          "path": "Audio/output/1539/chapter_04.wav",
+          "duration": 175.302417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Humor as a Lens on American Culture",
+          "actualDuration": 175.302417,
+          "startTime": 668.333583,
+          "endTime": 843.636
+        },
+        {
+          "path": "Audio/output/1539/chapter_05.wav",
+          "duration": 170.325042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Searching for Belonging and Identity on the Road",
+          "actualDuration": 170.325042,
+          "startTime": 845.136,
+          "endTime": 1015.4610419999999
+        },
+        {
+          "path": "Audio/output/1539/chapter_06.wav",
+          "duration": 167.414542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Roadside America That Time Forgot",
+          "actualDuration": 167.414542,
+          "startTime": 1016.9610419999999,
+          "endTime": 1184.375584
+        },
+        {
+          "path": "Audio/output/1539/chapter_07.wav",
+          "duration": 144.786125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The People Who Stay and the People Who Leave",
+          "actualDuration": 144.786125,
+          "startTime": 1185.875584,
+          "endTime": 1330.661709
+        },
+        {
+          "path": "Audio/output/1539/chapter_08.wav",
+          "duration": 140.291083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Shadows of the Past",
+          "actualDuration": 140.291083,
+          "startTime": 1332.161709,
+          "endTime": 1472.452792
+        },
+        {
+          "path": "Audio/output/1539/chapter_09.wav",
+          "duration": 139.325542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Beauty and Boredom of the Ordinary",
+          "actualDuration": 139.325542,
+          "startTime": 1473.952792,
+          "endTime": 1613.278334
+        },
+        {
+          "path": "Audio/output/1539/chapter_10.wav",
+          "duration": 146.348,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Changing Face of the American Dream",
+          "actualDuration": 146.348,
+          "startTime": 1614.778334,
+          "endTime": 1761.126334
+        },
+        {
+          "path": "Audio/output/1539/chapter_11.wav",
+          "duration": 128.576333,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Pull of the Past and the Promise of the Future",
+          "actualDuration": 128.576333,
+          "startTime": 1762.626334,
+          "endTime": 1891.202667
+        },
+        {
+          "path": "Audio/output/1539/conclusion.wav",
+          "duration": 124.862583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.862583,
+          "startTime": 1892.702667,
+          "endTime": 2017.56525
+        }
+      ],
+      "totalDuration": 2017.56525,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.03,
+          "actualStart": 0,
+          "actualEnd": 98.026958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Setting Out to Find the America Remembered",
+          "expectedStart": 98.03,
+          "expectedEnd": 294.96,
+          "actualStart": 99.526958,
+          "actualEnd": 296.45825,
+          "timeDifference": 1.4969579999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Quirks and Realities of Small-Town Life",
+          "expectedStart": 294.96,
+          "expectedEnd": 478.52,
+          "actualStart": 297.95825,
+          "actualEnd": 481.5145,
+          "timeDifference": 2.9982500000000414
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Clash Between Nostalgia and Reality",
+          "expectedStart": 478.52,
+          "expectedEnd": 662.34,
+          "actualStart": 483.0145,
+          "actualEnd": 666.833583,
+          "timeDifference": 4.494500000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Humor as a Lens on American Culture",
+          "expectedStart": 662.34,
+          "expectedEnd": 837.64,
+          "actualStart": 668.333583,
+          "actualEnd": 843.636,
+          "timeDifference": 5.993582999999944
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Searching for Belonging and Identity on the Road",
+          "expectedStart": 837.64,
+          "expectedEnd": 1007.97,
+          "actualStart": 845.136,
+          "actualEnd": 1015.4610419999999,
+          "timeDifference": 7.495999999999981
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Roadside America That Time Forgot",
+          "expectedStart": 1007.97,
+          "expectedEnd": 1175.38,
+          "actualStart": 1016.9610419999999,
+          "actualEnd": 1184.375584,
+          "timeDifference": 8.99104199999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The People Who Stay and the People Who Leave",
+          "expectedStart": 1175.38,
+          "expectedEnd": 1320.17,
+          "actualStart": 1185.875584,
+          "actualEnd": 1330.661709,
+          "timeDifference": 10.49558399999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Shadows of the Past",
+          "expectedStart": 1320.17,
+          "expectedEnd": 1460.46,
+          "actualStart": 1332.161709,
+          "actualEnd": 1472.452792,
+          "timeDifference": 11.9917089999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Beauty and Boredom of the Ordinary",
+          "expectedStart": 1460.46,
+          "expectedEnd": 1599.79,
+          "actualStart": 1473.952792,
+          "actualEnd": 1613.278334,
+          "timeDifference": 13.492792000000009
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Changing Face of the American Dream",
+          "expectedStart": 1599.79,
+          "expectedEnd": 1746.14,
+          "actualStart": 1614.778334,
+          "actualEnd": 1761.126334,
+          "timeDifference": 14.988334000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Pull of the Past and the Promise of the Future",
+          "expectedStart": 1746.14,
+          "expectedEnd": 1874.72,
+          "actualStart": 1762.626334,
+          "actualEnd": 1891.202667,
+          "timeDifference": 16.486333999999943
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1874.72,
+          "expectedEnd": 1999.58,
+          "actualStart": 1892.702667,
+          "actualEnd": 2017.56525,
+          "timeDifference": 17.982666999999992
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.026958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Setting Out to Find the America Remembered"
+        },
+        {
+          "startTime": 296.45825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Setting Out to Find the America Remembered and Chapter 2 The Quirks and Realities of Small-Town Life"
+        },
+        {
+          "startTime": 481.5145,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Quirks and Realities of Small-Town Life and Chapter 3 The Clash Between Nostalgia and Reality"
+        },
+        {
+          "startTime": 666.833583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Clash Between Nostalgia and Reality and Chapter 4 Humor as a Lens on American Culture"
+        },
+        {
+          "startTime": 843.636,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Humor as a Lens on American Culture and Chapter 5 Searching for Belonging and Identity on the Road"
+        },
+        {
+          "startTime": 1015.4610419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Searching for Belonging and Identity on the Road and Chapter 6 The Roadside America That Time Forgot"
+        },
+        {
+          "startTime": 1184.375584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Roadside America That Time Forgot and Chapter 7 The People Who Stay and the People Who Leave"
+        },
+        {
+          "startTime": 1330.661709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The People Who Stay and the People Who Leave and Chapter 8 The Shadows of the Past"
+        },
+        {
+          "startTime": 1472.452792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Shadows of the Past and Chapter 9 The Beauty and Boredom of the Ordinary"
+        },
+        {
+          "startTime": 1613.278334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Beauty and Boredom of the Ordinary and Chapter 10 The Changing Face of the American Dream"
+        },
+        {
+          "startTime": 1761.126334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Changing Face of the American Dream and Chapter 11 The Pull of the Past and the Promise of the Future"
+        },
+        {
+          "startTime": 1891.202667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Pull of the Past and the Promise of the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1539",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:45:09.303Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

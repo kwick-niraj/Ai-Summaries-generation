@@ -1,0 +1,456 @@
+{
+  "bookId": "1647",
+  "timestamp": "2025-07-08T03:47:07.924Z",
+  "success": false,
+  "processingTime": -1751946152908,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3770,
+    "totalAudioFiles": 12,
+    "totalDuration": 1947.2041689999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1947.2041689999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1647/optimized_text/1647.md",
+    "fileSize": 825,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1647.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1647/metadata/1647_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1947.19,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1647/metadata/1647_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1647/metadata/1647_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1647/1647_complete.wav",
+    "duration": 1947.204167,
+    "fileSize": 93465878,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1647/introduction.wav",
+          "duration": 78.690958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.690958,
+          "startTime": 0,
+          "endTime": 78.690958
+        },
+        {
+          "path": "Audio/output/1647/chapter_01.wav",
+          "duration": 194.030042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Academic Success—Why Working Smarter Beats Working Harder",
+          "actualDuration": 194.030042,
+          "startTime": 80.190958,
+          "endTime": 274.221
+        },
+        {
+          "path": "Audio/output/1647/chapter_02.wav",
+          "duration": 217.004417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Foundation—Organizing Time, Tasks, and Materials",
+          "actualDuration": 217.004417,
+          "startTime": 275.721,
+          "endTime": 492.725417
+        },
+        {
+          "path": "Audio/output/1647/chapter_03.wav",
+          "duration": 179.260583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mastering Efficient Study—Active Recall, Self-Testing, and Focused Sessions",
+          "actualDuration": 179.260583,
+          "startTime": 494.225417,
+          "endTime": 673.486
+        },
+        {
+          "path": "Audio/output/1647/chapter_04.wav",
+          "duration": 183.508292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Preparing for Exams—Strategic Review and Smart Test-Taking",
+          "actualDuration": 183.508292,
+          "startTime": 674.986,
+          "endTime": 858.494292
+        },
+        {
+          "path": "Audio/output/1647/chapter_05.wav",
+          "duration": 202.883667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Writing Papers with Less Stress—A Step-by-Step System",
+          "actualDuration": 202.883667,
+          "startTime": 859.994292,
+          "endTime": 1062.877959
+        },
+        {
+          "path": "Audio/output/1647/chapter_06.wav",
+          "duration": 179.488292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Balancing Academics and Life—Sustaining Motivation and Well-Being",
+          "actualDuration": 179.488292,
+          "startTime": 1064.377959,
+          "endTime": 1243.866251
+        },
+        {
+          "path": "Audio/output/1647/chapter_07.wav",
+          "duration": 155.2485,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Managing Distractions—Building Focus in a Noisy World",
+          "actualDuration": 155.2485,
+          "startTime": 1245.366251,
+          "endTime": 1400.6147509999998
+        },
+        {
+          "path": "Audio/output/1647/chapter_08.wav",
+          "duration": 141.754042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Leveraging Campus Resources—Seeking Help and Building Networks",
+          "actualDuration": 141.754042,
+          "startTime": 1402.1147509999998,
+          "endTime": 1543.8687929999999
+        },
+        {
+          "path": "Audio/output/1647/chapter_09.wav",
+          "duration": 152.751292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Adapting and Improving—Learning from Setbacks and Feedback",
+          "actualDuration": 152.751292,
+          "startTime": 1545.3687929999999,
+          "endTime": 1698.1200849999998
+        },
+        {
+          "path": "Audio/output/1647/chapter_10.wav",
+          "duration": 140.364667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Success—Building Habits for the Long Run",
+          "actualDuration": 140.364667,
+          "startTime": 1699.6200849999998,
+          "endTime": 1839.9847519999998
+        },
+        {
+          "path": "Audio/output/1647/conclusion.wav",
+          "duration": 122.219417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.219417,
+          "startTime": 1841.4847519999998,
+          "endTime": 1963.7041689999999
+        }
+      ],
+      "totalDuration": 1963.7041689999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.69,
+          "actualStart": 0,
+          "actualEnd": 78.690958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Academic Success—Why Working Smarter Beats Working Harder",
+          "expectedStart": 78.69,
+          "expectedEnd": 272.72,
+          "actualStart": 80.190958,
+          "actualEnd": 274.221,
+          "timeDifference": 1.5009579999999971
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Foundation—Organizing Time, Tasks, and Materials",
+          "expectedStart": 272.72,
+          "expectedEnd": 489.72,
+          "actualStart": 275.721,
+          "actualEnd": 492.725417,
+          "timeDifference": 3.0009999999999764
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mastering Efficient Study—Active Recall, Self-Testing, and Focused Sessions",
+          "expectedStart": 489.72,
+          "expectedEnd": 668.98,
+          "actualStart": 494.225417,
+          "actualEnd": 673.486,
+          "timeDifference": 4.505416999999966
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Preparing for Exams—Strategic Review and Smart Test-Taking",
+          "expectedStart": 668.98,
+          "expectedEnd": 852.49,
+          "actualStart": 674.986,
+          "actualEnd": 858.494292,
+          "timeDifference": 6.005999999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Writing Papers with Less Stress—A Step-by-Step System",
+          "expectedStart": 852.49,
+          "expectedEnd": 1055.37,
+          "actualStart": 859.994292,
+          "actualEnd": 1062.877959,
+          "timeDifference": 7.504291999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Balancing Academics and Life—Sustaining Motivation and Well-Being",
+          "expectedStart": 1055.37,
+          "expectedEnd": 1234.86,
+          "actualStart": 1064.377959,
+          "actualEnd": 1243.866251,
+          "timeDifference": 9.007959000000028
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Managing Distractions—Building Focus in a Noisy World",
+          "expectedStart": 1234.86,
+          "expectedEnd": 1390.11,
+          "actualStart": 1245.366251,
+          "actualEnd": 1400.6147509999998,
+          "timeDifference": 10.50625100000002
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Leveraging Campus Resources—Seeking Help and Building Networks",
+          "expectedStart": 1390.11,
+          "expectedEnd": 1531.86,
+          "actualStart": 1402.1147509999998,
+          "actualEnd": 1543.8687929999999,
+          "timeDifference": 12.004750999999942
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Adapting and Improving—Learning from Setbacks and Feedback",
+          "expectedStart": 1531.86,
+          "expectedEnd": 1684.61,
+          "actualStart": 1545.3687929999999,
+          "actualEnd": 1698.1200849999998,
+          "timeDifference": 13.508792999999969
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Success—Building Habits for the Long Run",
+          "expectedStart": 1684.61,
+          "expectedEnd": 1824.97,
+          "actualStart": 1699.6200849999998,
+          "actualEnd": 1839.9847519999998,
+          "timeDifference": 15.01008499999989
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1824.97,
+          "expectedEnd": 1947.19,
+          "actualStart": 1841.4847519999998,
+          "actualEnd": 1963.7041689999999,
+          "timeDifference": 16.514751999999817
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.690958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Academic Success—Why Working Smarter Beats Working Harder"
+        },
+        {
+          "startTime": 274.221,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Academic Success—Why Working Smarter Beats Working Harder and Chapter 2 Building a Foundation—Organizing Time, Tasks, and Materials"
+        },
+        {
+          "startTime": 492.725417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Foundation—Organizing Time, Tasks, and Materials and Chapter 3 Mastering Efficient Study—Active Recall, Self-Testing, and Focused Sessions"
+        },
+        {
+          "startTime": 673.486,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mastering Efficient Study—Active Recall, Self-Testing, and Focused Sessions and Chapter 4 Preparing for Exams—Strategic Review and Smart Test-Taking"
+        },
+        {
+          "startTime": 858.494292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Preparing for Exams—Strategic Review and Smart Test-Taking and Chapter 5 Writing Papers with Less Stress—A Step-by-Step System"
+        },
+        {
+          "startTime": 1062.877959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Writing Papers with Less Stress—A Step-by-Step System and Chapter 6 Balancing Academics and Life—Sustaining Motivation and Well-Being"
+        },
+        {
+          "startTime": 1243.866251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Balancing Academics and Life—Sustaining Motivation and Well-Being and Chapter 7 Managing Distractions—Building Focus in a Noisy World"
+        },
+        {
+          "startTime": 1400.6147509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Managing Distractions—Building Focus in a Noisy World and Chapter 8 Leveraging Campus Resources—Seeking Help and Building Networks"
+        },
+        {
+          "startTime": 1543.8687929999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Leveraging Campus Resources—Seeking Help and Building Networks and Chapter 9 Adapting and Improving—Learning from Setbacks and Feedback"
+        },
+        {
+          "startTime": 1698.1200849999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Adapting and Improving—Learning from Setbacks and Feedback and Chapter 10 Sustaining Success—Building Habits for the Long Run"
+        },
+        {
+          "startTime": 1839.9847519999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Success—Building Habits for the Long Run and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1647",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T03:42:34.598Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

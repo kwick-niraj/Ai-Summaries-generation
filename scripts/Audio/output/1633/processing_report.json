@@ -1,0 +1,576 @@
+{
+  "bookId": "1633",
+  "timestamp": "2025-07-08T03:06:40.693Z",
+  "success": false,
+  "processingTime": -1751943591047,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5364,
+    "totalAudioFiles": 17,
+    "totalDuration": 2572.742543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2572.742543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1633/optimized_text/1633.md",
+    "fileSize": 1109,
+    "wordCount": 171,
+    "format": "markdown",
+    "filename": "1633.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1633/metadata/1633_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2572.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1633/metadata/1633_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1633/metadata/1633_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1633/1633_complete.wav",
+    "duration": 2572.742542,
+    "fileSize": 123491720,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1633/introduction.wav",
+          "duration": 103.647625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.647625,
+          "startTime": 0,
+          "endTime": 103.647625
+        },
+        {
+          "path": "Audio/output/1633/chapter_01.wav",
+          "duration": 206.863,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Trap of Certainty and the Limits of What We Know",
+          "actualDuration": 206.863,
+          "startTime": 105.147625,
+          "endTime": 312.010625
+        },
+        {
+          "path": "Audio/output/1633/chapter_02.wav",
+          "duration": 173.603625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Illusion of Control and the Dangers of Forcing Order",
+          "actualDuration": 173.603625,
+          "startTime": 313.510625,
+          "endTime": 487.11424999999997
+        },
+        {
+          "path": "Audio/output/1633/chapter_03.wav",
+          "duration": 173.796792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Unpredictable Events and the Limits of Prediction",
+          "actualDuration": 173.796792,
+          "startTime": 488.61424999999997,
+          "endTime": 662.411042
+        },
+        {
+          "path": "Audio/output/1633/chapter_04.wav",
+          "duration": 197.438792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Ancient Wisdom Versus Modern Theories",
+          "actualDuration": 197.438792,
+          "startTime": 663.911042,
+          "endTime": 861.349834
+        },
+        {
+          "path": "Audio/output/1633/chapter_05.wav",
+          "duration": 150.9205,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Humility, Skepticism, and the Strength of Adaptability",
+          "actualDuration": 150.9205,
+          "startTime": 862.849834,
+          "endTime": 1013.770334
+        },
+        {
+          "path": "Audio/output/1633/chapter_06.wav",
+          "duration": 175.203625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Seduction of Simplicity and the Cost of Over-Simplification",
+          "actualDuration": 175.203625,
+          "startTime": 1015.270334,
+          "endTime": 1190.473959
+        },
+        {
+          "path": "Audio/output/1633/chapter_07.wav",
+          "duration": 159.421583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Tyranny of Measurement and the Value of the Immeasurable",
+          "actualDuration": 159.421583,
+          "startTime": 1191.973959,
+          "endTime": 1351.395542
+        },
+        {
+          "path": "Audio/output/1633/chapter_08.wav",
+          "duration": 153.944375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Dangers of Overconfidence and the Gift of Doubt",
+          "actualDuration": 153.944375,
+          "startTime": 1352.895542,
+          "endTime": 1506.839917
+        },
+        {
+          "path": "Audio/output/1633/chapter_09.wav",
+          "duration": 154.357417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Subtlety of Wisdom and the Pitfalls of Cleverness",
+          "actualDuration": 154.357417,
+          "startTime": 1508.339917,
+          "endTime": 1662.697334
+        },
+        {
+          "path": "Audio/output/1633/chapter_10.wav",
+          "duration": 156.169833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Beauty of Asymmetry and the Wisdom of Accepting Imbalance",
+          "actualDuration": 156.169833,
+          "startTime": 1664.197334,
+          "endTime": 1820.3671669999999
+        },
+        {
+          "path": "Audio/output/1633/chapter_11.wav",
+          "duration": 131.729042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Quiet Power of Restraint and the Art of Doing Less",
+          "actualDuration": 131.729042,
+          "startTime": 1821.8671669999999,
+          "endTime": 1953.5962089999998
+        },
+        {
+          "path": "Audio/output/1633/chapter_12.wav",
+          "duration": 134.705708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Paradox of Strength and the Wisdom of Vulnerability",
+          "actualDuration": 134.705708,
+          "startTime": 1955.0962089999998,
+          "endTime": 2089.801917
+        },
+        {
+          "path": "Audio/output/1633/chapter_13.wav",
+          "duration": 130.579917,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Limits of Rationality and the Role of Emotion",
+          "actualDuration": 130.579917,
+          "startTime": 2091.301917,
+          "endTime": 2221.881834
+        },
+        {
+          "path": "Audio/output/1633/chapter_14.wav",
+          "duration": 133.254,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Value of Silence and the Wisdom of Listening",
+          "actualDuration": 133.254,
+          "startTime": 2223.381834,
+          "endTime": 2356.6358339999997
+        },
+        {
+          "path": "Audio/output/1633/chapter_15.wav",
+          "duration": 125.580917,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Freedom of Letting Go and the Art of Acceptance",
+          "actualDuration": 125.580917,
+          "startTime": 2358.1358339999997,
+          "endTime": 2483.716751
+        },
+        {
+          "path": "Audio/output/1633/conclusion.wav",
+          "duration": 111.525792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.525792,
+          "startTime": 2485.216751,
+          "endTime": 2596.742543
+        }
+      ],
+      "totalDuration": 2596.742543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.65,
+          "actualStart": 0,
+          "actualEnd": 103.647625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Trap of Certainty and the Limits of What We Know",
+          "expectedStart": 103.65,
+          "expectedEnd": 310.51,
+          "actualStart": 105.147625,
+          "actualEnd": 312.010625,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Illusion of Control and the Dangers of Forcing Order",
+          "expectedStart": 310.51,
+          "expectedEnd": 484.11,
+          "actualStart": 313.510625,
+          "actualEnd": 487.11424999999997,
+          "timeDifference": 3.0006250000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Unpredictable Events and the Limits of Prediction",
+          "expectedStart": 484.11,
+          "expectedEnd": 657.91,
+          "actualStart": 488.61424999999997,
+          "actualEnd": 662.411042,
+          "timeDifference": 4.504249999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Ancient Wisdom Versus Modern Theories",
+          "expectedStart": 657.91,
+          "expectedEnd": 855.35,
+          "actualStart": 663.911042,
+          "actualEnd": 861.349834,
+          "timeDifference": 6.001041999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Humility, Skepticism, and the Strength of Adaptability",
+          "expectedStart": 855.35,
+          "expectedEnd": 1006.27,
+          "actualStart": 862.849834,
+          "actualEnd": 1013.770334,
+          "timeDifference": 7.499833999999964
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Seduction of Simplicity and the Cost of Over-Simplification",
+          "expectedStart": 1006.27,
+          "expectedEnd": 1181.47,
+          "actualStart": 1015.270334,
+          "actualEnd": 1190.473959,
+          "timeDifference": 9.000334000000066
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Tyranny of Measurement and the Value of the Immeasurable",
+          "expectedStart": 1181.47,
+          "expectedEnd": 1340.89,
+          "actualStart": 1191.973959,
+          "actualEnd": 1351.395542,
+          "timeDifference": 10.503958999999895
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Dangers of Overconfidence and the Gift of Doubt",
+          "expectedStart": 1340.89,
+          "expectedEnd": 1494.83,
+          "actualStart": 1352.895542,
+          "actualEnd": 1506.839917,
+          "timeDifference": 12.005541999999878
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Subtlety of Wisdom and the Pitfalls of Cleverness",
+          "expectedStart": 1494.83,
+          "expectedEnd": 1649.19,
+          "actualStart": 1508.339917,
+          "actualEnd": 1662.697334,
+          "timeDifference": 13.509917000000087
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Beauty of Asymmetry and the Wisdom of Accepting Imbalance",
+          "expectedStart": 1649.19,
+          "expectedEnd": 1805.36,
+          "actualStart": 1664.197334,
+          "actualEnd": 1820.3671669999999,
+          "timeDifference": 15.0073339999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Quiet Power of Restraint and the Art of Doing Less",
+          "expectedStart": 1805.36,
+          "expectedEnd": 1937.09,
+          "actualStart": 1821.8671669999999,
+          "actualEnd": 1953.5962089999998,
+          "timeDifference": 16.50716699999998
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Paradox of Strength and the Wisdom of Vulnerability",
+          "expectedStart": 1937.09,
+          "expectedEnd": 2071.8,
+          "actualStart": 1955.0962089999998,
+          "actualEnd": 2089.801917,
+          "timeDifference": 18.0062089999999
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Limits of Rationality and the Role of Emotion",
+          "expectedStart": 2071.8,
+          "expectedEnd": 2202.38,
+          "actualStart": 2091.301917,
+          "actualEnd": 2221.881834,
+          "timeDifference": 19.501916999999594
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Value of Silence and the Wisdom of Listening",
+          "expectedStart": 2202.38,
+          "expectedEnd": 2335.63,
+          "actualStart": 2223.381834,
+          "actualEnd": 2356.6358339999997,
+          "timeDifference": 21.00183399999969
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Freedom of Letting Go and the Art of Acceptance",
+          "expectedStart": 2335.63,
+          "expectedEnd": 2461.21,
+          "actualStart": 2358.1358339999997,
+          "actualEnd": 2483.716751,
+          "timeDifference": 22.505833999999595
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2461.21,
+          "expectedEnd": 2572.74,
+          "actualStart": 2485.216751,
+          "actualEnd": 2596.742543,
+          "timeDifference": 24.006750999999895
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.647625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Trap of Certainty and the Limits of What We Know"
+        },
+        {
+          "startTime": 312.010625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Trap of Certainty and the Limits of What We Know and Chapter 2 The Illusion of Control and the Dangers of Forcing Order"
+        },
+        {
+          "startTime": 487.11424999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Illusion of Control and the Dangers of Forcing Order and Chapter 3 The Power of Unpredictable Events and the Limits of Prediction"
+        },
+        {
+          "startTime": 662.411042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Unpredictable Events and the Limits of Prediction and Chapter 4 Ancient Wisdom Versus Modern Theories"
+        },
+        {
+          "startTime": 861.349834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Ancient Wisdom Versus Modern Theories and Chapter 5 Embracing Humility, Skepticism, and the Strength of Adaptability"
+        },
+        {
+          "startTime": 1013.770334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Humility, Skepticism, and the Strength of Adaptability and Chapter 6 The Seduction of Simplicity and the Cost of Over-Simplification"
+        },
+        {
+          "startTime": 1190.473959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Seduction of Simplicity and the Cost of Over-Simplification and Chapter 7 The Tyranny of Measurement and the Value of the Immeasurable"
+        },
+        {
+          "startTime": 1351.395542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Tyranny of Measurement and the Value of the Immeasurable and Chapter 8 The Dangers of Overconfidence and the Gift of Doubt"
+        },
+        {
+          "startTime": 1506.839917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Dangers of Overconfidence and the Gift of Doubt and Chapter 9 The Subtlety of Wisdom and the Pitfalls of Cleverness"
+        },
+        {
+          "startTime": 1662.697334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Subtlety of Wisdom and the Pitfalls of Cleverness and Chapter 10 The Beauty of Asymmetry and the Wisdom of Accepting Imbalance"
+        },
+        {
+          "startTime": 1820.3671669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Beauty of Asymmetry and the Wisdom of Accepting Imbalance and Chapter 11 The Quiet Power of Restraint and the Art of Doing Less"
+        },
+        {
+          "startTime": 1953.5962089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Quiet Power of Restraint and the Art of Doing Less and Chapter 12 The Paradox of Strength and the Wisdom of Vulnerability"
+        },
+        {
+          "startTime": 2089.801917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Paradox of Strength and the Wisdom of Vulnerability and Chapter 13 The Limits of Rationality and the Role of Emotion"
+        },
+        {
+          "startTime": 2221.881834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Limits of Rationality and the Role of Emotion and Chapter 14 The Value of Silence and the Wisdom of Listening"
+        },
+        {
+          "startTime": 2356.6358339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Value of Silence and the Wisdom of Listening and Chapter 15 The Freedom of Letting Go and the Art of Acceptance"
+        },
+        {
+          "startTime": 2483.716751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Freedom of Letting Go and the Art of Acceptance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1633",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:59:52.651Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

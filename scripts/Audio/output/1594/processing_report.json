@@ -1,0 +1,504 @@
+{
+  "bookId": "1594",
+  "timestamp": "2025-07-08T00:46:49.224Z",
+  "success": false,
+  "processingTime": -1751935192079,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5183,
+    "totalAudioFiles": 14,
+    "totalDuration": 2292.867416
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2292.867416
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1594/optimized_text/1594.md",
+    "fileSize": 846,
+    "wordCount": 124,
+    "format": "markdown",
+    "filename": "1594.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1594/metadata/1594_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2292.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1594/metadata/1594_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1594/metadata/1594_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1594/1594_complete.wav",
+    "duration": 2292.867417,
+    "fileSize": 110057714,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1594/introduction.wav",
+          "duration": 101.730833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.730833,
+          "startTime": 0,
+          "endTime": 101.730833
+        },
+        {
+          "path": "Audio/output/1594/chapter_01.wav",
+          "duration": 195.031083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for India’s Heart in a Time of Upheaval",
+          "actualDuration": 195.031083,
+          "startTime": 103.230833,
+          "endTime": 298.261916
+        },
+        {
+          "path": "Audio/output/1594/chapter_02.wav",
+          "duration": 249.185458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Tapestry of Ancient Civilizations and Enduring Traditions",
+          "actualDuration": 249.185458,
+          "startTime": 299.761916,
+          "endTime": 548.947374
+        },
+        {
+          "path": "Audio/output/1594/chapter_03.wav",
+          "duration": 212.588667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Meeting of Faiths, Ideas, and Empires",
+          "actualDuration": 212.588667,
+          "startTime": 550.447374,
+          "endTime": 763.036041
+        },
+        {
+          "path": "Audio/output/1594/chapter_04.wav",
+          "duration": 221.920583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Colonial Shadows and the Awakening of National Identity",
+          "actualDuration": 221.920583,
+          "startTime": 764.536041,
+          "endTime": 986.4566239999999
+        },
+        {
+          "path": "Audio/output/1594/chapter_05.wav",
+          "duration": 201.298333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle for Freedom and the Vision of a New India",
+          "actualDuration": 201.298333,
+          "startTime": 987.9566239999999,
+          "endTime": 1189.2549569999999
+        },
+        {
+          "path": "Audio/output/1594/chapter_06.wav",
+          "duration": 157.991167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Dawn of Independence and the Weight of Partition",
+          "actualDuration": 157.991167,
+          "startTime": 1190.7549569999999,
+          "endTime": 1348.7461239999998
+        },
+        {
+          "path": "Audio/output/1594/chapter_07.wav",
+          "duration": 149.943958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building a Nation—Dreams, Doubts, and the Work of Democracy",
+          "actualDuration": 149.943958,
+          "startTime": 1350.2461239999998,
+          "endTime": 1500.1900819999998
+        },
+        {
+          "path": "Audio/output/1594/chapter_08.wav",
+          "duration": 148.374542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Challenge of Unity in Diversity",
+          "actualDuration": 148.374542,
+          "startTime": 1501.6900819999998,
+          "endTime": 1650.0646239999999
+        },
+        {
+          "path": "Audio/output/1594/chapter_09.wav",
+          "duration": 172.478667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Long Road to Social and Economic Justice",
+          "actualDuration": 172.478667,
+          "startTime": 1651.5646239999999,
+          "endTime": 1824.043291
+        },
+        {
+          "path": "Audio/output/1594/chapter_10.wav",
+          "duration": 107.123167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Search for Identity and Meaning",
+          "actualDuration": 107.123167,
+          "startTime": 1825.543291,
+          "endTime": 1932.666458
+        },
+        {
+          "path": "Audio/output/1594/chapter_11.wav",
+          "duration": 146.472375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 India and the World—A Conversation Across Borders",
+          "actualDuration": 146.472375,
+          "startTime": 1934.166458,
+          "endTime": 2080.638833
+        },
+        {
+          "path": "Audio/output/1594/chapter_12.wav",
+          "duration": 112.8725,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Enduring Legacy—Memory, Hope, and the Spirit of India",
+          "actualDuration": 112.8725,
+          "startTime": 2082.138833,
+          "endTime": 2195.011333
+        },
+        {
+          "path": "Audio/output/1594/conclusion.wav",
+          "duration": 115.856083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.856083,
+          "startTime": 2196.511333,
+          "endTime": 2312.367416
+        }
+      ],
+      "totalDuration": 2312.367416,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.73,
+          "actualStart": 0,
+          "actualEnd": 101.730833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for India’s Heart in a Time of Upheaval",
+          "expectedStart": 101.73,
+          "expectedEnd": 296.76,
+          "actualStart": 103.230833,
+          "actualEnd": 298.261916,
+          "timeDifference": 1.500833
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Tapestry of Ancient Civilizations and Enduring Traditions",
+          "expectedStart": 296.76,
+          "expectedEnd": 545.95,
+          "actualStart": 299.761916,
+          "actualEnd": 548.947374,
+          "timeDifference": 3.0019159999999943
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Meeting of Faiths, Ideas, and Empires",
+          "expectedStart": 545.95,
+          "expectedEnd": 758.54,
+          "actualStart": 550.447374,
+          "actualEnd": 763.036041,
+          "timeDifference": 4.4973739999999225
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Colonial Shadows and the Awakening of National Identity",
+          "expectedStart": 758.54,
+          "expectedEnd": 980.46,
+          "actualStart": 764.536041,
+          "actualEnd": 986.4566239999999,
+          "timeDifference": 5.996040999999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle for Freedom and the Vision of a New India",
+          "expectedStart": 980.46,
+          "expectedEnd": 1181.76,
+          "actualStart": 987.9566239999999,
+          "actualEnd": 1189.2549569999999,
+          "timeDifference": 7.496623999999883
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Dawn of Independence and the Weight of Partition",
+          "expectedStart": 1181.76,
+          "expectedEnd": 1339.75,
+          "actualStart": 1190.7549569999999,
+          "actualEnd": 1348.7461239999998,
+          "timeDifference": 8.994956999999886
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building a Nation—Dreams, Doubts, and the Work of Democracy",
+          "expectedStart": 1339.75,
+          "expectedEnd": 1489.69,
+          "actualStart": 1350.2461239999998,
+          "actualEnd": 1500.1900819999998,
+          "timeDifference": 10.496123999999782
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Challenge of Unity in Diversity",
+          "expectedStart": 1489.69,
+          "expectedEnd": 1638.06,
+          "actualStart": 1501.6900819999998,
+          "actualEnd": 1650.0646239999999,
+          "timeDifference": 12.000081999999793
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Long Road to Social and Economic Justice",
+          "expectedStart": 1638.06,
+          "expectedEnd": 1810.54,
+          "actualStart": 1651.5646239999999,
+          "actualEnd": 1824.043291,
+          "timeDifference": 13.504623999999922
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Search for Identity and Meaning",
+          "expectedStart": 1810.54,
+          "expectedEnd": 1917.66,
+          "actualStart": 1825.543291,
+          "actualEnd": 1932.666458,
+          "timeDifference": 15.00329099999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 India and the World—A Conversation Across Borders",
+          "expectedStart": 1917.66,
+          "expectedEnd": 2064.13,
+          "actualStart": 1934.166458,
+          "actualEnd": 2080.638833,
+          "timeDifference": 16.50645799999984
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Enduring Legacy—Memory, Hope, and the Spirit of India",
+          "expectedStart": 2064.13,
+          "expectedEnd": 2177,
+          "actualStart": 2082.138833,
+          "actualEnd": 2195.011333,
+          "timeDifference": 18.008832999999868
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2177,
+          "expectedEnd": 2292.86,
+          "actualStart": 2196.511333,
+          "actualEnd": 2312.367416,
+          "timeDifference": 19.511332999999922
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.730833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for India’s Heart in a Time of Upheaval"
+        },
+        {
+          "startTime": 298.261916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for India’s Heart in a Time of Upheaval and Chapter 2 The Tapestry of Ancient Civilizations and Enduring Traditions"
+        },
+        {
+          "startTime": 548.947374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Tapestry of Ancient Civilizations and Enduring Traditions and Chapter 3 The Meeting of Faiths, Ideas, and Empires"
+        },
+        {
+          "startTime": 763.036041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Meeting of Faiths, Ideas, and Empires and Chapter 4 Colonial Shadows and the Awakening of National Identity"
+        },
+        {
+          "startTime": 986.4566239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Colonial Shadows and the Awakening of National Identity and Chapter 5 The Struggle for Freedom and the Vision of a New India"
+        },
+        {
+          "startTime": 1189.2549569999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle for Freedom and the Vision of a New India and Chapter 6 The Dawn of Independence and the Weight of Partition"
+        },
+        {
+          "startTime": 1348.7461239999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Dawn of Independence and the Weight of Partition and Chapter 7 Building a Nation—Dreams, Doubts, and the Work of Democracy"
+        },
+        {
+          "startTime": 1500.1900819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building a Nation—Dreams, Doubts, and the Work of Democracy and Chapter 8 The Challenge of Unity in Diversity"
+        },
+        {
+          "startTime": 1650.0646239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Challenge of Unity in Diversity and Chapter 9 The Long Road to Social and Economic Justice"
+        },
+        {
+          "startTime": 1824.043291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Long Road to Social and Economic Justice and Chapter 10 The Ongoing Search for Identity and Meaning"
+        },
+        {
+          "startTime": 1932.666458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Search for Identity and Meaning and Chapter 11 India and the World—A Conversation Across Borders"
+        },
+        {
+          "startTime": 2080.638833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 India and the World—A Conversation Across Borders and Chapter 12 The Enduring Legacy—Memory, Hope, and the Spirit of India"
+        },
+        {
+          "startTime": 2195.011333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Enduring Legacy—Memory, Hope, and the Spirit of India and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1594",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:39:52.666Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

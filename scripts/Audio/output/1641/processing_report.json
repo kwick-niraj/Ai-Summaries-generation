@@ -1,0 +1,456 @@
+{
+  "bookId": "1641",
+  "timestamp": "2025-07-08T03:29:34.625Z",
+  "success": false,
+  "processingTime": -1751945153742,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3632,
+    "totalAudioFiles": 12,
+    "totalDuration": 1664.7696669999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1664.7696669999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1641/optimized_text/1641.md",
+    "fileSize": 641,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "1641.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1641/metadata/1641_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1664.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1641/metadata/1641_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1641/metadata/1641_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1641/1641_complete.wav",
+    "duration": 1664.769667,
+    "fileSize": 79909022,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1641/introduction.wav",
+          "duration": 77.739833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.739833,
+          "startTime": 0,
+          "endTime": 77.739833
+        },
+        {
+          "path": "Audio/output/1641/chapter_01.wav",
+          "duration": 165.375667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Making Good Food Possible in a Busy Life",
+          "actualDuration": 165.375667,
+          "startTime": 79.239833,
+          "endTime": 244.6155
+        },
+        {
+          "path": "Audio/output/1641/chapter_02.wav",
+          "duration": 197.211,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Flexible Pantry for Fast Cooking",
+          "actualDuration": 197.211,
+          "startTime": 246.1155,
+          "endTime": 443.3265
+        },
+        {
+          "path": "Audio/output/1641/chapter_03.wav",
+          "duration": 195.523875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Streamlining Preparation and Embracing Shortcuts",
+          "actualDuration": 195.523875,
+          "startTime": 444.8265,
+          "endTime": 640.350375
+        },
+        {
+          "path": "Audio/output/1641/chapter_04.wav",
+          "duration": 196.842708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Flavorful Meals with Minimal Effort",
+          "actualDuration": 196.842708,
+          "startTime": 641.850375,
+          "endTime": 838.693083
+        },
+        {
+          "path": "Audio/output/1641/chapter_05.wav",
+          "duration": 139.993042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Adapting Recipes and Embracing Flexibility",
+          "actualDuration": 139.993042,
+          "startTime": 840.193083,
+          "endTime": 980.186125
+        },
+        {
+          "path": "Audio/output/1641/chapter_06.wav",
+          "duration": 125.878792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Gentle Meal Planning for Real Life",
+          "actualDuration": 125.878792,
+          "startTime": 981.686125,
+          "endTime": 1107.564917
+        },
+        {
+          "path": "Audio/output/1641/chapter_07.wav",
+          "duration": 144.415375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Cooking for Others—Entertaining Without Stress",
+          "actualDuration": 144.415375,
+          "startTime": 1109.064917,
+          "endTime": 1253.480292
+        },
+        {
+          "path": "Audio/output/1641/chapter_08.wav",
+          "duration": 115.344,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Setbacks and Sustaining a Relaxed Approach",
+          "actualDuration": 115.344,
+          "startTime": 1254.980292,
+          "endTime": 1370.324292
+        },
+        {
+          "path": "Audio/output/1641/chapter_09.wav",
+          "duration": 93.871792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Food, Ritual, and Everyday Joy",
+          "actualDuration": 93.871792,
+          "startTime": 1371.824292,
+          "endTime": 1465.696084
+        },
+        {
+          "path": "Audio/output/1641/chapter_10.wav",
+          "duration": 93.197708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Bringing It All Together—A Sustainable, Joyful Kitchen",
+          "actualDuration": 93.197708,
+          "startTime": 1467.196084,
+          "endTime": 1560.3937919999998
+        },
+        {
+          "path": "Audio/output/1641/conclusion.wav",
+          "duration": 119.375875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.375875,
+          "startTime": 1561.8937919999998,
+          "endTime": 1681.2696669999998
+        }
+      ],
+      "totalDuration": 1681.2696669999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.74,
+          "actualStart": 0,
+          "actualEnd": 77.739833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Making Good Food Possible in a Busy Life",
+          "expectedStart": 77.74,
+          "expectedEnd": 243.12,
+          "actualStart": 79.239833,
+          "actualEnd": 244.6155,
+          "timeDifference": 1.4998330000000095
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Flexible Pantry for Fast Cooking",
+          "expectedStart": 243.12,
+          "expectedEnd": 440.33,
+          "actualStart": 246.1155,
+          "actualEnd": 443.3265,
+          "timeDifference": 2.9954999999999927
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Streamlining Preparation and Embracing Shortcuts",
+          "expectedStart": 440.33,
+          "expectedEnd": 635.85,
+          "actualStart": 444.8265,
+          "actualEnd": 640.350375,
+          "timeDifference": 4.496500000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Flavorful Meals with Minimal Effort",
+          "expectedStart": 635.85,
+          "expectedEnd": 832.69,
+          "actualStart": 641.850375,
+          "actualEnd": 838.693083,
+          "timeDifference": 6.000374999999963
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Adapting Recipes and Embracing Flexibility",
+          "expectedStart": 832.69,
+          "expectedEnd": 972.68,
+          "actualStart": 840.193083,
+          "actualEnd": 980.186125,
+          "timeDifference": 7.503082999999947
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Gentle Meal Planning for Real Life",
+          "expectedStart": 972.68,
+          "expectedEnd": 1098.56,
+          "actualStart": 981.686125,
+          "actualEnd": 1107.564917,
+          "timeDifference": 9.006124999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Cooking for Others—Entertaining Without Stress",
+          "expectedStart": 1098.56,
+          "expectedEnd": 1242.98,
+          "actualStart": 1109.064917,
+          "actualEnd": 1253.480292,
+          "timeDifference": 10.504916999999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Setbacks and Sustaining a Relaxed Approach",
+          "expectedStart": 1242.98,
+          "expectedEnd": 1358.32,
+          "actualStart": 1254.980292,
+          "actualEnd": 1370.324292,
+          "timeDifference": 12.000291999999945
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Food, Ritual, and Everyday Joy",
+          "expectedStart": 1358.32,
+          "expectedEnd": 1452.19,
+          "actualStart": 1371.824292,
+          "actualEnd": 1465.696084,
+          "timeDifference": 13.504292000000078
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Bringing It All Together—A Sustainable, Joyful Kitchen",
+          "expectedStart": 1452.19,
+          "expectedEnd": 1545.39,
+          "actualStart": 1467.196084,
+          "actualEnd": 1560.3937919999998,
+          "timeDifference": 15.006083999999873
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1545.39,
+          "expectedEnd": 1664.77,
+          "actualStart": 1561.8937919999998,
+          "actualEnd": 1681.2696669999998,
+          "timeDifference": 16.50379199999975
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.739833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Making Good Food Possible in a Busy Life"
+        },
+        {
+          "startTime": 244.6155,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Making Good Food Possible in a Busy Life and Chapter 2 Building a Flexible Pantry for Fast Cooking"
+        },
+        {
+          "startTime": 443.3265,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Flexible Pantry for Fast Cooking and Chapter 3 Streamlining Preparation and Embracing Shortcuts"
+        },
+        {
+          "startTime": 640.350375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Streamlining Preparation and Embracing Shortcuts and Chapter 4 Creating Flavorful Meals with Minimal Effort"
+        },
+        {
+          "startTime": 838.693083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Flavorful Meals with Minimal Effort and Chapter 5 Adapting Recipes and Embracing Flexibility"
+        },
+        {
+          "startTime": 980.186125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Adapting Recipes and Embracing Flexibility and Chapter 6 Gentle Meal Planning for Real Life"
+        },
+        {
+          "startTime": 1107.564917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Gentle Meal Planning for Real Life and Chapter 7 Cooking for Others—Entertaining Without Stress"
+        },
+        {
+          "startTime": 1253.480292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Cooking for Others—Entertaining Without Stress and Chapter 8 Navigating Setbacks and Sustaining a Relaxed Approach"
+        },
+        {
+          "startTime": 1370.324292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Setbacks and Sustaining a Relaxed Approach and Chapter 9 Food, Ritual, and Everyday Joy"
+        },
+        {
+          "startTime": 1465.696084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Food, Ritual, and Everyday Joy and Chapter 10 Bringing It All Together—A Sustainable, Joyful Kitchen"
+        },
+        {
+          "startTime": 1560.3937919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Bringing It All Together—A Sustainable, Joyful Kitchen and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1641",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T03:25:54.262Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

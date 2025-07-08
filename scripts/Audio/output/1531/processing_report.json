@@ -1,0 +1,456 @@
+{
+  "bookId": "1531",
+  "timestamp": "2025-07-07T22:20:38.366Z",
+  "success": false,
+  "processingTime": -1751926505772,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4740,
+    "totalAudioFiles": 12,
+    "totalDuration": 2266.648334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2266.648334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1531/optimized_text/1531.md",
+    "fileSize": 893,
+    "wordCount": 138,
+    "format": "markdown",
+    "filename": "1531.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1531/metadata/1531_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2266.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1531/metadata/1531_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1531/metadata/1531_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1531/1531_complete.wav",
+    "duration": 2266.648333,
+    "fileSize": 108799198,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1531/introduction.wav",
+          "duration": 108.477125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.477125,
+          "startTime": 0,
+          "endTime": 108.477125
+        },
+        {
+          "path": "Audio/output/1531/chapter_01.wav",
+          "duration": 263.261417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arrival in the Industrial City — First Encounters with Urban Life",
+          "actualDuration": 263.261417,
+          "startTime": 109.977125,
+          "endTime": 373.238542
+        },
+        {
+          "path": "Audio/output/1531/chapter_02.wav",
+          "duration": 222.864042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Reality of Factory Work — Long Hours, Low Wages, and Constant Danger",
+          "actualDuration": 222.864042,
+          "startTime": 374.738542,
+          "endTime": 597.602584
+        },
+        {
+          "path": "Audio/output/1531/chapter_03.wav",
+          "duration": 230.206042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life at Home — Overcrowding, Illness, and the Struggle for Dignity",
+          "actualDuration": 230.206042,
+          "startTime": 599.102584,
+          "endTime": 829.308626
+        },
+        {
+          "path": "Audio/output/1531/chapter_04.wav",
+          "duration": 242.680458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Roots of Inequality — Wealth, Power, and the Making of a Divided Society",
+          "actualDuration": 242.680458,
+          "startTime": 830.808626,
+          "endTime": 1073.489084
+        },
+        {
+          "path": "Audio/output/1531/chapter_05.wav",
+          "duration": 210.19925,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Hidden Cost of Progress — Public Health, Housing, and the Fight for Reform",
+          "actualDuration": 210.19925,
+          "startTime": 1074.989084,
+          "endTime": 1285.188334
+        },
+        {
+          "path": "Audio/output/1531/chapter_06.wav",
+          "duration": 205.596333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Awakening — The Birth of Working-Class Consciousness",
+          "actualDuration": 205.596333,
+          "startTime": 1286.688334,
+          "endTime": 1492.284667
+        },
+        {
+          "path": "Audio/output/1531/chapter_07.wav",
+          "duration": 215.416167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Organizing for Change — Unions, Strikes, and the Power of Solidarity",
+          "actualDuration": 215.416167,
+          "startTime": 1493.784667,
+          "endTime": 1709.200834
+        },
+        {
+          "path": "Audio/output/1531/chapter_08.wav",
+          "duration": 170.37725,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Struggle for Rights — Politics, Reform, and the Long Road to Justice",
+          "actualDuration": 170.37725,
+          "startTime": 1710.700834,
+          "endTime": 1881.078084
+        },
+        {
+          "path": "Audio/output/1531/chapter_09.wav",
+          "duration": 137.161167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Cost — Memory, Loss, and the Price of Progress",
+          "actualDuration": 137.161167,
+          "startTime": 1882.578084,
+          "endTime": 2019.739251
+        },
+        {
+          "path": "Audio/output/1531/chapter_10.wav",
+          "duration": 137.90975,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a New Society — Hope, Solidarity, and the Ongoing Struggle",
+          "actualDuration": 137.90975,
+          "startTime": 2021.239251,
+          "endTime": 2159.1490009999998
+        },
+        {
+          "path": "Audio/output/1531/conclusion.wav",
+          "duration": 122.499333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.499333,
+          "startTime": 2160.6490009999998,
+          "endTime": 2283.148334
+        }
+      ],
+      "totalDuration": 2283.148334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.48,
+          "actualStart": 0,
+          "actualEnd": 108.477125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arrival in the Industrial City — First Encounters with Urban Life",
+          "expectedStart": 108.48,
+          "expectedEnd": 371.74,
+          "actualStart": 109.977125,
+          "actualEnd": 373.238542,
+          "timeDifference": 1.497124999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Reality of Factory Work — Long Hours, Low Wages, and Constant Danger",
+          "expectedStart": 371.74,
+          "expectedEnd": 594.6,
+          "actualStart": 374.738542,
+          "actualEnd": 597.602584,
+          "timeDifference": 2.9985419999999863
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life at Home — Overcrowding, Illness, and the Struggle for Dignity",
+          "expectedStart": 594.6,
+          "expectedEnd": 824.81,
+          "actualStart": 599.102584,
+          "actualEnd": 829.308626,
+          "timeDifference": 4.502583999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Roots of Inequality — Wealth, Power, and the Making of a Divided Society",
+          "expectedStart": 824.81,
+          "expectedEnd": 1067.49,
+          "actualStart": 830.808626,
+          "actualEnd": 1073.489084,
+          "timeDifference": 5.998626000000058
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Hidden Cost of Progress — Public Health, Housing, and the Fight for Reform",
+          "expectedStart": 1067.49,
+          "expectedEnd": 1277.69,
+          "actualStart": 1074.989084,
+          "actualEnd": 1285.188334,
+          "timeDifference": 7.499084000000039
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Awakening — The Birth of Working-Class Consciousness",
+          "expectedStart": 1277.69,
+          "expectedEnd": 1483.29,
+          "actualStart": 1286.688334,
+          "actualEnd": 1492.284667,
+          "timeDifference": 8.998333999999886
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Organizing for Change — Unions, Strikes, and the Power of Solidarity",
+          "expectedStart": 1483.29,
+          "expectedEnd": 1698.71,
+          "actualStart": 1493.784667,
+          "actualEnd": 1709.200834,
+          "timeDifference": 10.494666999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Struggle for Rights — Politics, Reform, and the Long Road to Justice",
+          "expectedStart": 1698.71,
+          "expectedEnd": 1869.09,
+          "actualStart": 1710.700834,
+          "actualEnd": 1881.078084,
+          "timeDifference": 11.99083399999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Cost — Memory, Loss, and the Price of Progress",
+          "expectedStart": 1869.09,
+          "expectedEnd": 2006.25,
+          "actualStart": 1882.578084,
+          "actualEnd": 2019.739251,
+          "timeDifference": 13.488084000000072
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a New Society — Hope, Solidarity, and the Ongoing Struggle",
+          "expectedStart": 2006.25,
+          "expectedEnd": 2144.16,
+          "actualStart": 2021.239251,
+          "actualEnd": 2159.1490009999998,
+          "timeDifference": 14.989250999999967
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2144.16,
+          "expectedEnd": 2266.66,
+          "actualStart": 2160.6490009999998,
+          "actualEnd": 2283.148334,
+          "timeDifference": 16.489000999999917
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.477125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arrival in the Industrial City — First Encounters with Urban Life"
+        },
+        {
+          "startTime": 373.238542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arrival in the Industrial City — First Encounters with Urban Life and Chapter 2 The Reality of Factory Work — Long Hours, Low Wages, and Constant Danger"
+        },
+        {
+          "startTime": 597.602584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Reality of Factory Work — Long Hours, Low Wages, and Constant Danger and Chapter 3 Life at Home — Overcrowding, Illness, and the Struggle for Dignity"
+        },
+        {
+          "startTime": 829.308626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life at Home — Overcrowding, Illness, and the Struggle for Dignity and Chapter 4 The Roots of Inequality — Wealth, Power, and the Making of a Divided Society"
+        },
+        {
+          "startTime": 1073.489084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Roots of Inequality — Wealth, Power, and the Making of a Divided Society and Chapter 5 The Hidden Cost of Progress — Public Health, Housing, and the Fight for Reform"
+        },
+        {
+          "startTime": 1285.188334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Hidden Cost of Progress — Public Health, Housing, and the Fight for Reform and Chapter 6 Awakening — The Birth of Working-Class Consciousness"
+        },
+        {
+          "startTime": 1492.284667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Awakening — The Birth of Working-Class Consciousness and Chapter 7 Organizing for Change — Unions, Strikes, and the Power of Solidarity"
+        },
+        {
+          "startTime": 1709.200834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Organizing for Change — Unions, Strikes, and the Power of Solidarity and Chapter 8 The Struggle for Rights — Politics, Reform, and the Long Road to Justice"
+        },
+        {
+          "startTime": 1881.078084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Struggle for Rights — Politics, Reform, and the Long Road to Justice and Chapter 9 The Human Cost — Memory, Loss, and the Price of Progress"
+        },
+        {
+          "startTime": 2019.739251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Cost — Memory, Loss, and the Price of Progress and Chapter 10 Toward a New Society — Hope, Solidarity, and the Ongoing Struggle"
+        },
+        {
+          "startTime": 2159.1490009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a New Society — Hope, Solidarity, and the Ongoing Struggle and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1531",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:15:06.355Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

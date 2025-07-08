@@ -1,0 +1,432 @@
+{
+  "bookId": "1559",
+  "timestamp": "2025-07-07T23:38:07.426Z",
+  "success": false,
+  "processingTime": -1751931084061,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4519,
+    "totalAudioFiles": 12,
+    "totalDuration": 1743.0545
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1743.0545
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1559/optimized_text/1559.md",
+    "fileSize": 684,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1559.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1559/metadata/1559_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1743.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1559/metadata/1559_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1559/metadata/1559_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1559/1559_complete.wav",
+    "duration": 1743.0545,
+    "fileSize": 83666694,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1559/introduction.wav",
+          "duration": 98.374792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.374792,
+          "startTime": 0,
+          "endTime": 98.374792
+        },
+        {
+          "path": "Audio/output/1559/chapter_02.wav",
+          "duration": 227.983833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Human Error and the Limits of Control",
+          "actualDuration": 227.983833,
+          "startTime": 99.874792,
+          "endTime": 327.858625
+        },
+        {
+          "path": "Audio/output/1559/chapter_03.wav",
+          "duration": 198.877833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Accidents, Near Misses, and the Myth of Safety",
+          "actualDuration": 198.877833,
+          "startTime": 329.358625,
+          "endTime": 528.2364580000001
+        },
+        {
+          "path": "Audio/output/1559/chapter_04.wav",
+          "duration": 205.813792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Secrecy, Bureaucracy, and the Struggle for Accountability",
+          "actualDuration": 205.813792,
+          "startTime": 529.7364580000001,
+          "endTime": 735.5502500000001
+        },
+        {
+          "path": "Audio/output/1559/chapter_05.wav",
+          "duration": 165.6325,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Weight of Responsibility and the Need for Humility",
+          "actualDuration": 165.6325,
+          "startTime": 737.0502500000001,
+          "endTime": 902.6827500000002
+        },
+        {
+          "path": "Audio/output/1559/chapter_06.wav",
+          "duration": 172.380375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Systemic Vulnerabilities: When Small Flaws Become Catastrophic",
+          "actualDuration": 172.380375,
+          "startTime": 904.1827500000002,
+          "endTime": 1076.5631250000001
+        },
+        {
+          "path": "Audio/output/1559/chapter_07.wav",
+          "duration": 151.641042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons Learned—and Forgotten",
+          "actualDuration": 151.641042,
+          "startTime": 1078.0631250000001,
+          "endTime": 1229.704167
+        },
+        {
+          "path": "Audio/output/1559/chapter_08.wav",
+          "duration": 160.100583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Challenge: Managing Nuclear Risk in a Changing World",
+          "actualDuration": 160.100583,
+          "startTime": 1231.204167,
+          "endTime": 1391.30475
+        },
+        {
+          "path": "Audio/output/1559/chapter_09.wav",
+          "duration": 112.770958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Cost: Living with the Unthinkable",
+          "actualDuration": 112.770958,
+          "startTime": 1392.80475,
+          "endTime": 1505.575708
+        },
+        {
+          "path": "Audio/output/1559/chapter_10.wav",
+          "duration": 127.22975,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rethinking Security: Toward a Safer Future",
+          "actualDuration": 127.22975,
+          "startTime": 1507.075708,
+          "endTime": 1634.305458
+        },
+        {
+          "path": "Audio/output/1559/conclusion.wav",
+          "duration": 122.249042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.249042,
+          "startTime": 1635.805458,
+          "endTime": 1758.0545
+        }
+      ],
+      "totalDuration": 1758.0545,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.37,
+          "actualStart": 0,
+          "actualEnd": 98.374792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Human Error and the Limits of Control",
+          "expectedStart": 98.37,
+          "expectedEnd": 326.35,
+          "actualStart": 99.874792,
+          "actualEnd": 327.858625,
+          "timeDifference": 1.5047919999999948
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Accidents, Near Misses, and the Myth of Safety",
+          "expectedStart": 326.35,
+          "expectedEnd": 525.23,
+          "actualStart": 329.358625,
+          "actualEnd": 528.2364580000001,
+          "timeDifference": 3.008624999999995
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Secrecy, Bureaucracy, and the Struggle for Accountability",
+          "expectedStart": 525.23,
+          "expectedEnd": 731.04,
+          "actualStart": 529.7364580000001,
+          "actualEnd": 735.5502500000001,
+          "timeDifference": 4.506458000000066
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Weight of Responsibility and the Need for Humility",
+          "expectedStart": 731.04,
+          "expectedEnd": 896.67,
+          "actualStart": 737.0502500000001,
+          "actualEnd": 902.6827500000002,
+          "timeDifference": 6.0102500000001555
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Systemic Vulnerabilities: When Small Flaws Become Catastrophic",
+          "expectedStart": 896.67,
+          "expectedEnd": 1069.05,
+          "actualStart": 904.1827500000002,
+          "actualEnd": 1076.5631250000001,
+          "timeDifference": 7.51275000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons Learned—and Forgotten",
+          "expectedStart": 1069.05,
+          "expectedEnd": 1220.69,
+          "actualStart": 1078.0631250000001,
+          "actualEnd": 1229.704167,
+          "timeDifference": 9.013125000000173
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Challenge: Managing Nuclear Risk in a Changing World",
+          "expectedStart": 1220.69,
+          "expectedEnd": 1380.79,
+          "actualStart": 1231.204167,
+          "actualEnd": 1391.30475,
+          "timeDifference": 10.514167000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Cost: Living with the Unthinkable",
+          "expectedStart": 1380.79,
+          "expectedEnd": 1493.56,
+          "actualStart": 1392.80475,
+          "actualEnd": 1505.575708,
+          "timeDifference": 12.01475000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rethinking Security: Toward a Safer Future",
+          "expectedStart": 1493.56,
+          "expectedEnd": 1620.79,
+          "actualStart": 1507.075708,
+          "actualEnd": 1634.305458,
+          "timeDifference": 13.515708000000132
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1620.79,
+          "expectedEnd": 1743.04,
+          "actualStart": 1635.805458,
+          "actualEnd": 1758.0545,
+          "timeDifference": 15.01545800000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.374792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 Human Error and the Limits of Control"
+        },
+        {
+          "startTime": 327.858625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Human Error and the Limits of Control and Chapter 3 Accidents, Near Misses, and the Myth of Safety"
+        },
+        {
+          "startTime": 528.2364580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Accidents, Near Misses, and the Myth of Safety and Chapter 4 Secrecy, Bureaucracy, and the Struggle for Accountability"
+        },
+        {
+          "startTime": 735.5502500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Secrecy, Bureaucracy, and the Struggle for Accountability and Chapter 5 The Weight of Responsibility and the Need for Humility"
+        },
+        {
+          "startTime": 902.6827500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Weight of Responsibility and the Need for Humility and Chapter 6 Systemic Vulnerabilities: When Small Flaws Become Catastrophic"
+        },
+        {
+          "startTime": 1076.5631250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Systemic Vulnerabilities: When Small Flaws Become Catastrophic and Chapter 7 Lessons Learned—and Forgotten"
+        },
+        {
+          "startTime": 1229.704167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons Learned—and Forgotten and Chapter 8 The Ongoing Challenge: Managing Nuclear Risk in a Changing World"
+        },
+        {
+          "startTime": 1391.30475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Challenge: Managing Nuclear Risk in a Changing World and Chapter 9 The Human Cost: Living with the Unthinkable"
+        },
+        {
+          "startTime": 1505.575708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Cost: Living with the Unthinkable and Chapter 10 Rethinking Security: Toward a Safer Future"
+        },
+        {
+          "startTime": 1634.305458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rethinking Security: Toward a Safer Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1559",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T23:31:24.603Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1542",
+  "timestamp": "2025-07-07T22:57:43.465Z",
+  "success": false,
+  "processingTime": -1751928840073,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4995,
+    "totalAudioFiles": 12,
+    "totalDuration": 2099.76525
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2099.76525
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1542/optimized_text/1542.md",
+    "fileSize": 547,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "1542.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1542/metadata/1542_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2099.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1542/metadata/1542_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1542/metadata/1542_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1542/1542_complete.wav",
+    "duration": 2099.76525,
+    "fileSize": 100788810,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1542/introduction.wav",
+          "duration": 100.043375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.043375,
+          "startTime": 0,
+          "endTime": 100.043375
+        },
+        {
+          "path": "Audio/output/1542/chapter_01.wav",
+          "duration": 249.074167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When a Familiar Face Becomes a Mystery",
+          "actualDuration": 249.074167,
+          "startTime": 101.543375,
+          "endTime": 350.61754199999996
+        },
+        {
+          "path": "Audio/output/1542/chapter_02.wav",
+          "duration": 230.866292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Search for Truth and the Limits of Knowing",
+          "actualDuration": 230.866292,
+          "startTime": 352.11754199999996,
+          "endTime": 582.9838339999999
+        },
+        {
+          "path": "Audio/output/1542/chapter_03.wav",
+          "duration": 244.34825,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Many Faces of Identity",
+          "actualDuration": 244.34825,
+          "startTime": 584.4838339999999,
+          "endTime": 828.8320839999999
+        },
+        {
+          "path": "Audio/output/1542/chapter_04.wav",
+          "duration": 216.511,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Grief, Memory, and the Stories We Tell Ourselves",
+          "actualDuration": 216.511,
+          "startTime": 830.3320839999999,
+          "endTime": 1046.8430839999999
+        },
+        {
+          "path": "Audio/output/1542/chapter_05.wav",
+          "duration": 189.760083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Legal Definitions and the Limits of Personhood",
+          "actualDuration": 189.760083,
+          "startTime": 1048.3430839999999,
+          "endTime": 1238.1031669999998
+        },
+        {
+          "path": "Audio/output/1542/chapter_06.wav",
+          "duration": 175.4655,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Echoes of the Past",
+          "actualDuration": 175.4655,
+          "startTime": 1239.6031669999998,
+          "endTime": 1415.0686669999998
+        },
+        {
+          "path": "Audio/output/1542/chapter_07.wav",
+          "duration": 167.762833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Forgiveness",
+          "actualDuration": 167.762833,
+          "startTime": 1416.5686669999998,
+          "endTime": 1584.3314999999998
+        },
+        {
+          "path": "Audio/output/1542/chapter_08.wav",
+          "duration": 148.315833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Fragile Threads of Connection",
+          "actualDuration": 148.315833,
+          "startTime": 1585.8314999999998,
+          "endTime": 1734.147333
+        },
+        {
+          "path": "Audio/output/1542/chapter_09.wav",
+          "duration": 127.303292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unfinished Story",
+          "actualDuration": 127.303292,
+          "startTime": 1735.647333,
+          "endTime": 1862.950625
+        },
+        {
+          "path": "Audio/output/1542/chapter_10.wav",
+          "duration": 156.614833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Reclaiming Life and Self",
+          "actualDuration": 156.614833,
+          "startTime": 1864.450625,
+          "endTime": 2021.065458
+        },
+        {
+          "path": "Audio/output/1542/conclusion.wav",
+          "duration": 93.699792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.699792,
+          "startTime": 2022.565458,
+          "endTime": 2116.26525
+        }
+      ],
+      "totalDuration": 2116.26525,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.04,
+          "actualStart": 0,
+          "actualEnd": 100.043375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When a Familiar Face Becomes a Mystery",
+          "expectedStart": 100.04,
+          "expectedEnd": 349.11,
+          "actualStart": 101.543375,
+          "actualEnd": 350.61754199999996,
+          "timeDifference": 1.5033749999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Search for Truth and the Limits of Knowing",
+          "expectedStart": 349.11,
+          "expectedEnd": 579.98,
+          "actualStart": 352.11754199999996,
+          "actualEnd": 582.9838339999999,
+          "timeDifference": 3.007541999999944
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Many Faces of Identity",
+          "expectedStart": 579.98,
+          "expectedEnd": 824.33,
+          "actualStart": 584.4838339999999,
+          "actualEnd": 828.8320839999999,
+          "timeDifference": 4.50383399999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Grief, Memory, and the Stories We Tell Ourselves",
+          "expectedStart": 824.33,
+          "expectedEnd": 1040.84,
+          "actualStart": 830.3320839999999,
+          "actualEnd": 1046.8430839999999,
+          "timeDifference": 6.002083999999854
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Legal Definitions and the Limits of Personhood",
+          "expectedStart": 1040.84,
+          "expectedEnd": 1230.6,
+          "actualStart": 1048.3430839999999,
+          "actualEnd": 1238.1031669999998,
+          "timeDifference": 7.503083999999944
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Echoes of the Past",
+          "expectedStart": 1230.6,
+          "expectedEnd": 1406.07,
+          "actualStart": 1239.6031669999998,
+          "actualEnd": 1415.0686669999998,
+          "timeDifference": 9.003166999999848
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Forgiveness",
+          "expectedStart": 1406.07,
+          "expectedEnd": 1573.83,
+          "actualStart": 1416.5686669999998,
+          "actualEnd": 1584.3314999999998,
+          "timeDifference": 10.498666999999841
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Fragile Threads of Connection",
+          "expectedStart": 1573.83,
+          "expectedEnd": 1722.15,
+          "actualStart": 1585.8314999999998,
+          "actualEnd": 1734.147333,
+          "timeDifference": 12.00149999999985
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unfinished Story",
+          "expectedStart": 1722.15,
+          "expectedEnd": 1849.45,
+          "actualStart": 1735.647333,
+          "actualEnd": 1862.950625,
+          "timeDifference": 13.497332999999799
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Reclaiming Life and Self",
+          "expectedStart": 1849.45,
+          "expectedEnd": 2006.06,
+          "actualStart": 1864.450625,
+          "actualEnd": 2021.065458,
+          "timeDifference": 15.0006249999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2006.06,
+          "expectedEnd": 2099.76,
+          "actualStart": 2022.565458,
+          "actualEnd": 2116.26525,
+          "timeDifference": 16.50545800000009
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.043375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When a Familiar Face Becomes a Mystery"
+        },
+        {
+          "startTime": 350.61754199999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When a Familiar Face Becomes a Mystery and Chapter 2 The Search for Truth and the Limits of Knowing"
+        },
+        {
+          "startTime": 582.9838339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Search for Truth and the Limits of Knowing and Chapter 3 The Many Faces of Identity"
+        },
+        {
+          "startTime": 828.8320839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Many Faces of Identity and Chapter 4 Grief, Memory, and the Stories We Tell Ourselves"
+        },
+        {
+          "startTime": 1046.8430839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Grief, Memory, and the Stories We Tell Ourselves and Chapter 5 Legal Definitions and the Limits of Personhood"
+        },
+        {
+          "startTime": 1238.1031669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Legal Definitions and the Limits of Personhood and Chapter 6 The Echoes of the Past"
+        },
+        {
+          "startTime": 1415.0686669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Echoes of the Past and Chapter 7 The Weight of Forgiveness"
+        },
+        {
+          "startTime": 1584.3314999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Forgiveness and Chapter 8 The Fragile Threads of Connection"
+        },
+        {
+          "startTime": 1734.147333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Fragile Threads of Connection and Chapter 9 The Unfinished Story"
+        },
+        {
+          "startTime": 1862.950625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unfinished Story and Chapter 10 Moving Forward: Reclaiming Life and Self"
+        },
+        {
+          "startTime": 2021.065458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Reclaiming Life and Self and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1542",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:54:00.656Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

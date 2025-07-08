@@ -1,0 +1,456 @@
+{
+  "bookId": "1606",
+  "timestamp": "2025-07-08T01:32:58.858Z",
+  "success": false,
+  "processingTime": -1751938064232,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4389,
+    "totalAudioFiles": 12,
+    "totalDuration": 2153.883168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2153.883168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1606/optimized_text/1606.md",
+    "fileSize": 740,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1606.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1606/metadata/1606_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2153.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1606/metadata/1606_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1606/metadata/1606_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1606/1606_complete.wav",
+    "duration": 2153.883167,
+    "fileSize": 103386470,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1606/introduction.wav",
+          "duration": 96.16675,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.16675,
+          "startTime": 0,
+          "endTime": 96.16675
+        },
+        {
+          "path": "Audio/output/1606/chapter_01.wav",
+          "duration": 181.957417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Mornings Shape the Rest of Life",
+          "actualDuration": 181.957417,
+          "startTime": 97.66675,
+          "endTime": 279.624167
+        },
+        {
+          "path": "Audio/output/1606/chapter_02.wav",
+          "duration": 239.149875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Barriers to Change and How to Overcome Them",
+          "actualDuration": 239.149875,
+          "startTime": 281.124167,
+          "endTime": 520.274042
+        },
+        {
+          "path": "Audio/output/1606/chapter_03.wav",
+          "duration": 259.721083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Six Essential Practices for a Transformative Morning",
+          "actualDuration": 259.721083,
+          "startTime": 521.774042,
+          "endTime": 781.495125
+        },
+        {
+          "path": "Audio/output/1606/chapter_04.wav",
+          "duration": 258.939875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Consistency and Making Habits Stick",
+          "actualDuration": 258.939875,
+          "startTime": 782.995125,
+          "endTime": 1041.935
+        },
+        {
+          "path": "Audio/output/1606/chapter_05.wav",
+          "duration": 185.781042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Personalizing the Morning Routine for Lasting Impact",
+          "actualDuration": 185.781042,
+          "startTime": 1043.435,
+          "endTime": 1229.216042
+        },
+        {
+          "path": "Audio/output/1606/chapter_06.wav",
+          "duration": 187.712167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Troubleshooting Common Challenges and Staying on Track",
+          "actualDuration": 187.712167,
+          "startTime": 1230.716042,
+          "endTime": 1418.428209
+        },
+        {
+          "path": "Audio/output/1606/chapter_07.wav",
+          "duration": 180.124875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening the Practice—From Routine to Ritual",
+          "actualDuration": 180.124875,
+          "startTime": 1419.928209,
+          "endTime": 1600.053084
+        },
+        {
+          "path": "Audio/output/1606/chapter_08.wav",
+          "duration": 155.788958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—How Morning Routines Transform the Rest of Life",
+          "actualDuration": 155.788958,
+          "startTime": 1601.553084,
+          "endTime": 1757.342042
+        },
+        {
+          "path": "Audio/output/1606/chapter_09.wav",
+          "duration": 136.933042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Adapting the Framework for Different Life Stages and Seasons",
+          "actualDuration": 136.933042,
+          "startTime": 1758.842042,
+          "endTime": 1895.7750839999999
+        },
+        {
+          "path": "Audio/output/1606/chapter_10.wav",
+          "duration": 164.641917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth—Long-Term Strategies for Fulfillment and Success",
+          "actualDuration": 164.641917,
+          "startTime": 1897.2750839999999,
+          "endTime": 2061.917001
+        },
+        {
+          "path": "Audio/output/1606/conclusion.wav",
+          "duration": 106.966167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.966167,
+          "startTime": 2063.417001,
+          "endTime": 2170.383168
+        }
+      ],
+      "totalDuration": 2170.383168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.17,
+          "actualStart": 0,
+          "actualEnd": 96.16675,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Mornings Shape the Rest of Life",
+          "expectedStart": 96.17,
+          "expectedEnd": 278.13,
+          "actualStart": 97.66675,
+          "actualEnd": 279.624167,
+          "timeDifference": 1.4967499999999916
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Barriers to Change and How to Overcome Them",
+          "expectedStart": 278.13,
+          "expectedEnd": 517.28,
+          "actualStart": 281.124167,
+          "actualEnd": 520.274042,
+          "timeDifference": 2.9941670000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Six Essential Practices for a Transformative Morning",
+          "expectedStart": 517.28,
+          "expectedEnd": 777,
+          "actualStart": 521.774042,
+          "actualEnd": 781.495125,
+          "timeDifference": 4.494042000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Consistency and Making Habits Stick",
+          "expectedStart": 777,
+          "expectedEnd": 1035.94,
+          "actualStart": 782.995125,
+          "actualEnd": 1041.935,
+          "timeDifference": 5.99512500000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Personalizing the Morning Routine for Lasting Impact",
+          "expectedStart": 1035.94,
+          "expectedEnd": 1221.72,
+          "actualStart": 1043.435,
+          "actualEnd": 1229.216042,
+          "timeDifference": 7.494999999999891
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Troubleshooting Common Challenges and Staying on Track",
+          "expectedStart": 1221.72,
+          "expectedEnd": 1409.43,
+          "actualStart": 1230.716042,
+          "actualEnd": 1418.428209,
+          "timeDifference": 8.996041999999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening the Practice—From Routine to Ritual",
+          "expectedStart": 1409.43,
+          "expectedEnd": 1589.55,
+          "actualStart": 1419.928209,
+          "actualEnd": 1600.053084,
+          "timeDifference": 10.49820899999986
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—How Morning Routines Transform the Rest of Life",
+          "expectedStart": 1589.55,
+          "expectedEnd": 1745.34,
+          "actualStart": 1601.553084,
+          "actualEnd": 1757.342042,
+          "timeDifference": 12.003083999999944
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Adapting the Framework for Different Life Stages and Seasons",
+          "expectedStart": 1745.34,
+          "expectedEnd": 1882.27,
+          "actualStart": 1758.842042,
+          "actualEnd": 1895.7750839999999,
+          "timeDifference": 13.502042000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth—Long-Term Strategies for Fulfillment and Success",
+          "expectedStart": 1882.27,
+          "expectedEnd": 2046.91,
+          "actualStart": 1897.2750839999999,
+          "actualEnd": 2061.917001,
+          "timeDifference": 15.005083999999897
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2046.91,
+          "expectedEnd": 2153.88,
+          "actualStart": 2063.417001,
+          "actualEnd": 2170.383168,
+          "timeDifference": 16.50700099999972
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.16675,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Mornings Shape the Rest of Life"
+        },
+        {
+          "startTime": 279.624167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Mornings Shape the Rest of Life and Chapter 2 The Hidden Barriers to Change and How to Overcome Them"
+        },
+        {
+          "startTime": 520.274042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Barriers to Change and How to Overcome Them and Chapter 3 The Six Essential Practices for a Transformative Morning"
+        },
+        {
+          "startTime": 781.495125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Six Essential Practices for a Transformative Morning and Chapter 4 Building Consistency and Making Habits Stick"
+        },
+        {
+          "startTime": 1041.935,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Consistency and Making Habits Stick and Chapter 5 Personalizing the Morning Routine for Lasting Impact"
+        },
+        {
+          "startTime": 1229.216042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Personalizing the Morning Routine for Lasting Impact and Chapter 6 Troubleshooting Common Challenges and Staying on Track"
+        },
+        {
+          "startTime": 1418.428209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Troubleshooting Common Challenges and Staying on Track and Chapter 7 Deepening the Practice—From Routine to Ritual"
+        },
+        {
+          "startTime": 1600.053084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening the Practice—From Routine to Ritual and Chapter 8 The Ripple Effect—How Morning Routines Transform the Rest of Life"
+        },
+        {
+          "startTime": 1757.342042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—How Morning Routines Transform the Rest of Life and Chapter 9 Adapting the Framework for Different Life Stages and Seasons"
+        },
+        {
+          "startTime": 1895.7750839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Adapting the Framework for Different Life Stages and Seasons and Chapter 10 Sustaining Growth—Long-Term Strategies for Fulfillment and Success"
+        },
+        {
+          "startTime": 2061.917001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth—Long-Term Strategies for Fulfillment and Success and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1606",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T01:27:44.797Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

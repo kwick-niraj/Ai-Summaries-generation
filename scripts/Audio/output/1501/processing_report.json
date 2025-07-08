@@ -1,0 +1,455 @@
+{
+  "bookId": "1501",
+  "timestamp": "2025-07-07T20:55:11.584Z",
+  "success": false,
+  "processingTime": -1751921444597,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4849,
+    "totalAudioFiles": 12,
+    "totalDuration": 2094.400919
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2094.400919
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1501/optimized_text/1501.md",
+    "fileSize": 666,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1501.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1501/metadata/1501_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2094.38,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1501/metadata/1501_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1501/metadata/1501_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1501/1501_complete.wav",
+    "duration": 2094.400917,
+    "fileSize": 100531322,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1501/introduction.wav",
+          "duration": 82.594542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.594542,
+          "startTime": 0,
+          "endTime": 82.594542
+        },
+        {
+          "path": "Audio/output/1501/chapter_01.wav",
+          "duration": 196.307792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Questioning the Need for Prisons in Everyday Life",
+          "actualDuration": 196.307792,
+          "startTime": 84.094542,
+          "endTime": 280.402334
+        },
+        {
+          "path": "Audio/output/1501/chapter_02.wav",
+          "duration": 212.054542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Prisons Became the Default Solution",
+          "actualDuration": 212.054542,
+          "startTime": 281.902334,
+          "endTime": 493.95687599999997
+        },
+        {
+          "path": "Audio/output/1501/chapter_03.wav",
+          "duration": 246.873417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Prison Industrial Complex and Its Hidden Interests",
+          "actualDuration": 246.873417,
+          "startTime": 495.45687599999997,
+          "endTime": 742.330293
+        },
+        {
+          "path": "Audio/output/1501/chapter_04.wav",
+          "duration": 222.298667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Deep Roots of Racism and Inequality in Punishment",
+          "actualDuration": 222.298667,
+          "startTime": 743.830293,
+          "endTime": 966.12896
+        },
+        {
+          "path": "Audio/output/1501/chapter_05.wav",
+          "duration": 193.612125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Limits of Reform and the Case for Abolition",
+          "actualDuration": 193.612125,
+          "startTime": 967.62896,
+          "endTime": 1161.241085
+        },
+        {
+          "path": "Audio/output/1501/chapter_06.wav",
+          "duration": 188.230917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Gender, Punishment, and the Forgotten Stories",
+          "actualDuration": 188.230917,
+          "startTime": 1162.741085,
+          "endTime": 1350.9720020000002
+        },
+        {
+          "path": "Audio/output/1501/chapter_07.wav",
+          "duration": 174.432,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Life Inside: The Human Cost of Incarceration",
+          "actualDuration": 174.432,
+          "startTime": 1352.4720020000002,
+          "endTime": 1526.9040020000002
+        },
+        {
+          "path": "Audio/output/1501/chapter_08.wav",
+          "duration": 169.690125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Imagining Real Alternatives: What Justice Could Look Like",
+          "actualDuration": 169.690125,
+          "startTime": 1528.4040020000002,
+          "endTime": 1698.0941270000003
+        },
+        {
+          "path": "Audio/output/1501/chapter_09.wav",
+          "duration": 162.342,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Collective Action and Community",
+          "actualDuration": 162.342,
+          "startTime": 1699.5941270000003,
+          "endTime": 1861.9361270000004
+        },
+        {
+          "path": "Audio/output/1501/chapter_10.wav",
+          "duration": 135.38375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Toward a Future Without Prisons",
+          "actualDuration": 135.38375,
+          "startTime": 1863.4361270000004,
+          "endTime": 1998.8198770000004
+        },
+        {
+          "path": "Audio/output/1501/conclusion.wav",
+          "duration": 110.581042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.581042,
+          "startTime": 2000.3198770000004,
+          "endTime": 2110.900919
+        }
+      ],
+      "totalDuration": 2110.900919,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.59,
+          "actualStart": 0,
+          "actualEnd": 82.594542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Questioning the Need for Prisons in Everyday Life",
+          "expectedStart": 82.59,
+          "expectedEnd": 278.9,
+          "actualStart": 84.094542,
+          "actualEnd": 280.402334,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Prisons Became the Default Solution",
+          "expectedStart": 278.9,
+          "expectedEnd": 490.95,
+          "actualStart": 281.902334,
+          "actualEnd": 493.95687599999997,
+          "timeDifference": 3.002334000000019
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Prison Industrial Complex and Its Hidden Interests",
+          "expectedStart": 490.95,
+          "expectedEnd": 737.82,
+          "actualStart": 495.45687599999997,
+          "actualEnd": 742.330293,
+          "timeDifference": 4.506875999999977
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Deep Roots of Racism and Inequality in Punishment",
+          "expectedStart": 737.82,
+          "expectedEnd": 960.12,
+          "actualStart": 743.830293,
+          "actualEnd": 966.12896,
+          "timeDifference": 6.010292999999933
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Limits of Reform and the Case for Abolition",
+          "expectedStart": 960.12,
+          "expectedEnd": 1153.73,
+          "actualStart": 967.62896,
+          "actualEnd": 1161.241085,
+          "timeDifference": 7.508960000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Gender, Punishment, and the Forgotten Stories",
+          "expectedStart": 1153.73,
+          "expectedEnd": 1341.96,
+          "actualStart": 1162.741085,
+          "actualEnd": 1350.9720020000002,
+          "timeDifference": 9.011085000000094
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Life Inside: The Human Cost of Incarceration",
+          "expectedStart": 1341.96,
+          "expectedEnd": 1516.39,
+          "actualStart": 1352.4720020000002,
+          "actualEnd": 1526.9040020000002,
+          "timeDifference": 10.512002000000166
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Imagining Real Alternatives: What Justice Could Look Like",
+          "expectedStart": 1516.39,
+          "expectedEnd": 1686.08,
+          "actualStart": 1528.4040020000002,
+          "actualEnd": 1698.0941270000003,
+          "timeDifference": 12.014002000000119
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Collective Action and Community",
+          "expectedStart": 1686.08,
+          "expectedEnd": 1848.42,
+          "actualStart": 1699.5941270000003,
+          "actualEnd": 1861.9361270000004,
+          "timeDifference": 13.514127000000371
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Toward a Future Without Prisons",
+          "expectedStart": 1848.42,
+          "expectedEnd": 1983.8,
+          "actualStart": 1863.4361270000004,
+          "actualEnd": 1998.8198770000004,
+          "timeDifference": 15.016127000000324
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1983.8,
+          "expectedEnd": 2094.38,
+          "actualStart": 2000.3198770000004,
+          "actualEnd": 2110.900919,
+          "timeDifference": 16.519877000000406
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.594542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Questioning the Need for Prisons in Everyday Life"
+        },
+        {
+          "startTime": 280.402334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Questioning the Need for Prisons in Everyday Life and Chapter 2 How Prisons Became the Default Solution"
+        },
+        {
+          "startTime": 493.95687599999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Prisons Became the Default Solution and Chapter 3 The Prison Industrial Complex and Its Hidden Interests"
+        },
+        {
+          "startTime": 742.330293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Prison Industrial Complex and Its Hidden Interests and Chapter 4 The Deep Roots of Racism and Inequality in Punishment"
+        },
+        {
+          "startTime": 966.12896,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Deep Roots of Racism and Inequality in Punishment and Chapter 5 The Limits of Reform and the Case for Abolition"
+        },
+        {
+          "startTime": 1161.241085,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Limits of Reform and the Case for Abolition and Chapter 6 Gender, Punishment, and the Forgotten Stories"
+        },
+        {
+          "startTime": 1350.9720020000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Gender, Punishment, and the Forgotten Stories and Chapter 7 Life Inside: The Human Cost of Incarceration"
+        },
+        {
+          "startTime": 1526.9040020000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Life Inside: The Human Cost of Incarceration and Chapter 8 Imagining Real Alternatives: What Justice Could Look Like"
+        },
+        {
+          "startTime": 1698.0941270000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Imagining Real Alternatives: What Justice Could Look Like and Chapter 9 The Power of Collective Action and Community"
+        },
+        {
+          "startTime": 1861.9361270000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Collective Action and Community and Chapter 10 Toward a Future Without Prisons"
+        },
+        {
+          "startTime": 1998.8198770000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Toward a Future Without Prisons and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1501",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:50:45.763Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

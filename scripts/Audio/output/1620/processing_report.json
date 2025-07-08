@@ -1,0 +1,456 @@
+{
+  "bookId": "1620",
+  "timestamp": "2025-07-08T02:19:59.099Z",
+  "success": false,
+  "processingTime": -1751940936962,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4337,
+    "totalAudioFiles": 12,
+    "totalDuration": 2113.7928770000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2113.7928770000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1620/optimized_text/1620.md",
+    "fileSize": 760,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1620.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1620/metadata/1620_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2113.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1620/metadata/1620_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1620/metadata/1620_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 82,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1620/1620_complete.wav",
+    "duration": 2113.792875,
+    "fileSize": 101462136,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1620/introduction.wav",
+          "duration": 86.665042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.665042,
+          "startTime": 0,
+          "endTime": 86.665042
+        },
+        {
+          "path": "Audio/output/1620/chapter_01.wav",
+          "duration": 221.929667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation: Adopting a Mindset That Anything Can Be Solved",
+          "actualDuration": 221.929667,
+          "startTime": 88.165042,
+          "endTime": 310.09470899999997
+        },
+        {
+          "path": "Audio/output/1620/chapter_02.wav",
+          "duration": 197.125875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Identifying and Challenging Limiting Beliefs",
+          "actualDuration": 197.125875,
+          "startTime": 311.59470899999997,
+          "endTime": 508.720584
+        },
+        {
+          "path": "Audio/output/1620/chapter_03.wav",
+          "duration": 223.455417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Transforming Self-Talk and Building Inner Resilience",
+          "actualDuration": 223.455417,
+          "startTime": 510.220584,
+          "endTime": 733.676001
+        },
+        {
+          "path": "Audio/output/1620/chapter_04.wav",
+          "duration": 179.5845,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Moving Beyond Excuses: Turning Fear Into Action",
+          "actualDuration": 179.5845,
+          "startTime": 735.176001,
+          "endTime": 914.760501
+        },
+        {
+          "path": "Audio/output/1620/chapter_05.wav",
+          "duration": 193.79425,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Progress Over Perfection: The Power of Starting Before Feeling Ready",
+          "actualDuration": 193.79425,
+          "startTime": 916.260501,
+          "endTime": 1110.054751
+        },
+        {
+          "path": "Audio/output/1620/chapter_06.wav",
+          "duration": 192.099292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Persistence: Navigating Setbacks and Staying the Course",
+          "actualDuration": 192.099292,
+          "startTime": 1111.554751,
+          "endTime": 1303.654043
+        },
+        {
+          "path": "Audio/output/1620/chapter_07.wav",
+          "duration": 178.412792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Resourcefulness in Action: Leveraging Creativity and Community",
+          "actualDuration": 178.412792,
+          "startTime": 1305.154043,
+          "endTime": 1483.566835
+        },
+        {
+          "path": "Audio/output/1620/chapter_08.wav",
+          "duration": 165.692875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Making Decisions and Taking Consistent Action",
+          "actualDuration": 165.692875,
+          "startTime": 1485.066835,
+          "endTime": 1650.75971
+        },
+        {
+          "path": "Audio/output/1620/chapter_09.wav",
+          "duration": 200.392,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Handling Criticism and Navigating External Doubt",
+          "actualDuration": 200.392,
+          "startTime": 1652.25971,
+          "endTime": 1852.65171
+        },
+        {
+          "path": "Audio/output/1620/chapter_10.wav",
+          "duration": 158.733375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum: Habits, Reflection, and Long-Term Growth",
+          "actualDuration": 158.733375,
+          "startTime": 1854.15171,
+          "endTime": 2012.8850850000001
+        },
+        {
+          "path": "Audio/output/1620/conclusion.wav",
+          "duration": 115.907792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.907792,
+          "startTime": 2014.3850850000001,
+          "endTime": 2130.2928770000003
+        }
+      ],
+      "totalDuration": 2130.2928770000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.67,
+          "actualStart": 0,
+          "actualEnd": 86.665042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation: Adopting a Mindset That Anything Can Be Solved",
+          "expectedStart": 86.67,
+          "expectedEnd": 308.6,
+          "actualStart": 88.165042,
+          "actualEnd": 310.09470899999997,
+          "timeDifference": 1.495041999999998
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Identifying and Challenging Limiting Beliefs",
+          "expectedStart": 308.6,
+          "expectedEnd": 505.73,
+          "actualStart": 311.59470899999997,
+          "actualEnd": 508.720584,
+          "timeDifference": 2.9947089999999434
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Transforming Self-Talk and Building Inner Resilience",
+          "expectedStart": 505.73,
+          "expectedEnd": 729.19,
+          "actualStart": 510.220584,
+          "actualEnd": 733.676001,
+          "timeDifference": 4.490583999999956
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Moving Beyond Excuses: Turning Fear Into Action",
+          "expectedStart": 729.19,
+          "expectedEnd": 908.77,
+          "actualStart": 735.176001,
+          "actualEnd": 914.760501,
+          "timeDifference": 5.9860009999999875
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Progress Over Perfection: The Power of Starting Before Feeling Ready",
+          "expectedStart": 908.77,
+          "expectedEnd": 1102.56,
+          "actualStart": 916.260501,
+          "actualEnd": 1110.054751,
+          "timeDifference": 7.490500999999995
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Persistence: Navigating Setbacks and Staying the Course",
+          "expectedStart": 1102.56,
+          "expectedEnd": 1294.66,
+          "actualStart": 1111.554751,
+          "actualEnd": 1303.654043,
+          "timeDifference": 8.994750999999951
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Resourcefulness in Action: Leveraging Creativity and Community",
+          "expectedStart": 1294.66,
+          "expectedEnd": 1473.07,
+          "actualStart": 1305.154043,
+          "actualEnd": 1483.566835,
+          "timeDifference": 10.49404299999992
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Making Decisions and Taking Consistent Action",
+          "expectedStart": 1473.07,
+          "expectedEnd": 1638.76,
+          "actualStart": 1485.066835,
+          "actualEnd": 1650.75971,
+          "timeDifference": 11.996835000000146
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Handling Criticism and Navigating External Doubt",
+          "expectedStart": 1638.76,
+          "expectedEnd": 1839.15,
+          "actualStart": 1652.25971,
+          "actualEnd": 1852.65171,
+          "timeDifference": 13.49971000000005
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum: Habits, Reflection, and Long-Term Growth",
+          "expectedStart": 1839.15,
+          "expectedEnd": 1997.88,
+          "actualStart": 1854.15171,
+          "actualEnd": 2012.8850850000001,
+          "timeDifference": 15.001710000000003
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1997.88,
+          "expectedEnd": 2113.79,
+          "actualStart": 2014.3850850000001,
+          "actualEnd": 2130.2928770000003,
+          "timeDifference": 16.505085000000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.665042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation: Adopting a Mindset That Anything Can Be Solved"
+        },
+        {
+          "startTime": 310.09470899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation: Adopting a Mindset That Anything Can Be Solved and Chapter 2 Identifying and Challenging Limiting Beliefs"
+        },
+        {
+          "startTime": 508.720584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Identifying and Challenging Limiting Beliefs and Chapter 3 Transforming Self-Talk and Building Inner Resilience"
+        },
+        {
+          "startTime": 733.676001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Transforming Self-Talk and Building Inner Resilience and Chapter 4 Moving Beyond Excuses: Turning Fear Into Action"
+        },
+        {
+          "startTime": 914.760501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Moving Beyond Excuses: Turning Fear Into Action and Chapter 5 Progress Over Perfection: The Power of Starting Before Feeling Ready"
+        },
+        {
+          "startTime": 1110.054751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Progress Over Perfection: The Power of Starting Before Feeling Ready and Chapter 6 The Power of Persistence: Navigating Setbacks and Staying the Course"
+        },
+        {
+          "startTime": 1303.654043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Persistence: Navigating Setbacks and Staying the Course and Chapter 7 Resourcefulness in Action: Leveraging Creativity and Community"
+        },
+        {
+          "startTime": 1483.566835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Resourcefulness in Action: Leveraging Creativity and Community and Chapter 8 Making Decisions and Taking Consistent Action"
+        },
+        {
+          "startTime": 1650.75971,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Making Decisions and Taking Consistent Action and Chapter 9 Handling Criticism and Navigating External Doubt"
+        },
+        {
+          "startTime": 1852.65171,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Handling Criticism and Navigating External Doubt and Chapter 10 Sustaining Momentum: Habits, Reflection, and Long-Term Growth"
+        },
+        {
+          "startTime": 2012.8850850000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum: Habits, Reflection, and Long-Term Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1620",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 82,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:15:37.453Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

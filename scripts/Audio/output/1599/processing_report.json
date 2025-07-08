@@ -1,0 +1,456 @@
+{
+  "bookId": "1599",
+  "timestamp": "2025-07-08T01:03:07.903Z",
+  "success": false,
+  "processingTime": -1751936369444,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4749,
+    "totalAudioFiles": 12,
+    "totalDuration": 1969.4279580000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1969.4279580000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1599/optimized_text/1599.md",
+    "fileSize": 583,
+    "wordCount": 77,
+    "format": "markdown",
+    "filename": "1599.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1599/metadata/1599_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1969.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1599/metadata/1599_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1599/metadata/1599_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1599/1599_complete.wav",
+    "duration": 1969.427958,
+    "fileSize": 94532620,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1599/introduction.wav",
+          "duration": 83.854625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.854625,
+          "startTime": 0,
+          "endTime": 83.854625
+        },
+        {
+          "path": "Audio/output/1599/chapter_01.wav",
+          "duration": 211.082917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Recognizing the Call to Purpose",
+          "actualDuration": 211.082917,
+          "startTime": 85.354625,
+          "endTime": 296.437542
+        },
+        {
+          "path": "Audio/output/1599/chapter_02.wav",
+          "duration": 205.79775,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Listening to Inner Guidance and Intuition",
+          "actualDuration": 205.79775,
+          "startTime": 297.937542,
+          "endTime": 503.735292
+        },
+        {
+          "path": "Audio/output/1599/chapter_03.wav",
+          "duration": 203.16575,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Overcoming Fear and Self-Doubt",
+          "actualDuration": 203.16575,
+          "startTime": 505.235292,
+          "endTime": 708.401042
+        },
+        {
+          "path": "Audio/output/1599/chapter_04.wav",
+          "duration": 206.91075,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Clarity Through Experience and Reflection",
+          "actualDuration": 206.91075,
+          "startTime": 709.901042,
+          "endTime": 916.811792
+        },
+        {
+          "path": "Audio/output/1599/chapter_05.wav",
+          "duration": 191.410583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Authenticity and Living with Intention",
+          "actualDuration": 191.410583,
+          "startTime": 918.311792,
+          "endTime": 1109.722375
+        },
+        {
+          "path": "Audio/output/1599/chapter_06.wav",
+          "duration": 175.992417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Service and Contribution",
+          "actualDuration": 175.992417,
+          "startTime": 1111.222375,
+          "endTime": 1287.214792
+        },
+        {
+          "path": "Audio/output/1599/chapter_07.wav",
+          "duration": 169.589333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Gratitude and Presence",
+          "actualDuration": 169.589333,
+          "startTime": 1288.714792,
+          "endTime": 1458.304125
+        },
+        {
+          "path": "Audio/output/1599/chapter_08.wav",
+          "duration": 154.315083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Importance of Mentorship and Community",
+          "actualDuration": 154.315083,
+          "startTime": 1459.804125,
+          "endTime": 1614.119208
+        },
+        {
+          "path": "Audio/output/1599/chapter_09.wav",
+          "duration": 154.466375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Change and Embracing Growth",
+          "actualDuration": 154.466375,
+          "startTime": 1615.619208,
+          "endTime": 1770.085583
+        },
+        {
+          "path": "Audio/output/1599/chapter_10.wav",
+          "duration": 114.817917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey of Purpose",
+          "actualDuration": 114.817917,
+          "startTime": 1771.585583,
+          "endTime": 1886.4035000000001
+        },
+        {
+          "path": "Audio/output/1599/conclusion.wav",
+          "duration": 98.024458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.024458,
+          "startTime": 1887.9035000000001,
+          "endTime": 1985.9279580000002
+        }
+      ],
+      "totalDuration": 1985.9279580000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.85,
+          "actualStart": 0,
+          "actualEnd": 83.854625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Recognizing the Call to Purpose",
+          "expectedStart": 83.85,
+          "expectedEnd": 294.93,
+          "actualStart": 85.354625,
+          "actualEnd": 296.437542,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Listening to Inner Guidance and Intuition",
+          "expectedStart": 294.93,
+          "expectedEnd": 500.73,
+          "actualStart": 297.937542,
+          "actualEnd": 503.735292,
+          "timeDifference": 3.007542000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Overcoming Fear and Self-Doubt",
+          "expectedStart": 500.73,
+          "expectedEnd": 703.9,
+          "actualStart": 505.235292,
+          "actualEnd": 708.401042,
+          "timeDifference": 4.505291999999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Clarity Through Experience and Reflection",
+          "expectedStart": 703.9,
+          "expectedEnd": 910.81,
+          "actualStart": 709.901042,
+          "actualEnd": 916.811792,
+          "timeDifference": 6.001041999999984
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Authenticity and Living with Intention",
+          "expectedStart": 910.81,
+          "expectedEnd": 1102.22,
+          "actualStart": 918.311792,
+          "actualEnd": 1109.722375,
+          "timeDifference": 7.501792000000023
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Service and Contribution",
+          "expectedStart": 1102.22,
+          "expectedEnd": 1278.21,
+          "actualStart": 1111.222375,
+          "actualEnd": 1287.214792,
+          "timeDifference": 9.002375000000029
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Gratitude and Presence",
+          "expectedStart": 1278.21,
+          "expectedEnd": 1447.8,
+          "actualStart": 1288.714792,
+          "actualEnd": 1458.304125,
+          "timeDifference": 10.504791999999952
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Importance of Mentorship and Community",
+          "expectedStart": 1447.8,
+          "expectedEnd": 1602.12,
+          "actualStart": 1459.804125,
+          "actualEnd": 1614.119208,
+          "timeDifference": 12.004125000000158
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Change and Embracing Growth",
+          "expectedStart": 1602.12,
+          "expectedEnd": 1756.59,
+          "actualStart": 1615.619208,
+          "actualEnd": 1770.085583,
+          "timeDifference": 13.49920800000018
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey of Purpose",
+          "expectedStart": 1756.59,
+          "expectedEnd": 1871.41,
+          "actualStart": 1771.585583,
+          "actualEnd": 1886.4035000000001,
+          "timeDifference": 14.995583000000124
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1871.41,
+          "expectedEnd": 1969.43,
+          "actualStart": 1887.9035000000001,
+          "actualEnd": 1985.9279580000002,
+          "timeDifference": 16.49350000000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.854625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Recognizing the Call to Purpose"
+        },
+        {
+          "startTime": 296.437542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Recognizing the Call to Purpose and Chapter 2 Listening to Inner Guidance and Intuition"
+        },
+        {
+          "startTime": 503.735292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Listening to Inner Guidance and Intuition and Chapter 3 Overcoming Fear and Self-Doubt"
+        },
+        {
+          "startTime": 708.401042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Overcoming Fear and Self-Doubt and Chapter 4 Finding Clarity Through Experience and Reflection"
+        },
+        {
+          "startTime": 916.811792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Clarity Through Experience and Reflection and Chapter 5 Embracing Authenticity and Living with Intention"
+        },
+        {
+          "startTime": 1109.722375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Authenticity and Living with Intention and Chapter 6 The Power of Service and Contribution"
+        },
+        {
+          "startTime": 1287.214792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Service and Contribution and Chapter 7 The Role of Gratitude and Presence"
+        },
+        {
+          "startTime": 1458.304125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Gratitude and Presence and Chapter 8 The Importance of Mentorship and Community"
+        },
+        {
+          "startTime": 1614.119208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Importance of Mentorship and Community and Chapter 9 Navigating Change and Embracing Growth"
+        },
+        {
+          "startTime": 1770.085583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Change and Embracing Growth and Chapter 10 The Ongoing Journey of Purpose"
+        },
+        {
+          "startTime": 1886.4035000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey of Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1599",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:59:30.684Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

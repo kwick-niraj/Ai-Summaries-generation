@@ -1,0 +1,432 @@
+{
+  "bookId": "1629",
+  "timestamp": "2025-07-08T02:49:50.819Z",
+  "success": false,
+  "processingTime": -1751942766774,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4641,
+    "totalAudioFiles": 12,
+    "totalDuration": 1835.2966660000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1835.2966660000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1629/optimized_text/1629.md",
+    "fileSize": 677,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1629.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1629/metadata/1629_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1835.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1629/metadata/1629_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1629/metadata/1629_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1629/1629_complete.wav",
+    "duration": 1835.296667,
+    "fileSize": 88094318,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1629/introduction.wav",
+          "duration": 96.297292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.297292,
+          "startTime": 0,
+          "endTime": 96.297292
+        },
+        {
+          "path": "Audio/output/1629/chapter_01.wav",
+          "duration": 205.7805,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Questions We’re Not Supposed to Ask",
+          "actualDuration": 205.7805,
+          "startTime": 97.797292,
+          "endTime": 303.577792
+        },
+        {
+          "path": "Audio/output/1629/chapter_02.wav",
+          "duration": 221.782083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What Really Happens to the Body After Death",
+          "actualDuration": 221.782083,
+          "startTime": 305.077792,
+          "endTime": 526.859875
+        },
+        {
+          "path": "Audio/output/1629/chapter_03.wav",
+          "duration": 208.814083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Truth About Corpses, Pets, and Unusual Fears",
+          "actualDuration": 208.814083,
+          "startTime": 528.359875,
+          "endTime": 737.173958
+        },
+        {
+          "path": "Audio/output/1629/chapter_04.wav",
+          "duration": 197.140042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Cultures and History Shape Our Approach to Death",
+          "actualDuration": 197.140042,
+          "startTime": 738.673958,
+          "endTime": 935.814
+        },
+        {
+          "path": "Audio/output/1629/chapter_05.wav",
+          "duration": 165.398917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Why Honest Conversations About Death Matter",
+          "actualDuration": 165.398917,
+          "startTime": 937.314,
+          "endTime": 1102.712917
+        },
+        {
+          "path": "Audio/output/1629/chapter_06.wav",
+          "duration": 192.294208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Science of Decomposition: What Nature Teaches Us",
+          "actualDuration": 192.294208,
+          "startTime": 1104.212917,
+          "endTime": 1296.507125
+        },
+        {
+          "path": "Audio/output/1629/chapter_08.wav",
+          "duration": 160.025125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Curiosity, Compassion, and the Questions That Never End",
+          "actualDuration": 160.025125,
+          "startTime": 1298.007125,
+          "endTime": 1458.0322500000002
+        },
+        {
+          "path": "Audio/output/1629/chapter_09.wav",
+          "duration": 118.062083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Importance of Rituals and Saying Goodbye",
+          "actualDuration": 118.062083,
+          "startTime": 1459.5322500000002,
+          "endTime": 1577.5943330000002
+        },
+        {
+          "path": "Audio/output/1629/chapter_10.wav",
+          "duration": 138.205333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Death: Lessons for the Living",
+          "actualDuration": 138.205333,
+          "startTime": 1579.0943330000002,
+          "endTime": 1717.2996660000003
+        },
+        {
+          "path": "Audio/output/1629/conclusion.wav",
+          "duration": 131.497,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.497,
+          "startTime": 1718.7996660000003,
+          "endTime": 1850.2966660000004
+        }
+      ],
+      "totalDuration": 1850.2966660000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.3,
+          "actualStart": 0,
+          "actualEnd": 96.297292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Questions We’re Not Supposed to Ask",
+          "expectedStart": 96.3,
+          "expectedEnd": 302.08,
+          "actualStart": 97.797292,
+          "actualEnd": 303.577792,
+          "timeDifference": 1.4972920000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What Really Happens to the Body After Death",
+          "expectedStart": 302.08,
+          "expectedEnd": 523.86,
+          "actualStart": 305.077792,
+          "actualEnd": 526.859875,
+          "timeDifference": 2.997792000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Truth About Corpses, Pets, and Unusual Fears",
+          "expectedStart": 523.86,
+          "expectedEnd": 732.67,
+          "actualStart": 528.359875,
+          "actualEnd": 737.173958,
+          "timeDifference": 4.4998749999999745
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Cultures and History Shape Our Approach to Death",
+          "expectedStart": 732.67,
+          "expectedEnd": 929.81,
+          "actualStart": 738.673958,
+          "actualEnd": 935.814,
+          "timeDifference": 6.0039580000000115
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Why Honest Conversations About Death Matter",
+          "expectedStart": 929.81,
+          "expectedEnd": 1095.21,
+          "actualStart": 937.314,
+          "actualEnd": 1102.712917,
+          "timeDifference": 7.504000000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Science of Decomposition: What Nature Teaches Us",
+          "expectedStart": 1095.21,
+          "expectedEnd": 1287.5,
+          "actualStart": 1104.212917,
+          "actualEnd": 1296.507125,
+          "timeDifference": 9.002917000000025
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Curiosity, Compassion, and the Questions That Never End",
+          "expectedStart": 1287.5,
+          "expectedEnd": 1447.53,
+          "actualStart": 1298.007125,
+          "actualEnd": 1458.0322500000002,
+          "timeDifference": 10.507125000000087
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Importance of Rituals and Saying Goodbye",
+          "expectedStart": 1447.53,
+          "expectedEnd": 1565.59,
+          "actualStart": 1459.5322500000002,
+          "actualEnd": 1577.5943330000002,
+          "timeDifference": 12.002250000000231
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Death: Lessons for the Living",
+          "expectedStart": 1565.59,
+          "expectedEnd": 1703.8,
+          "actualStart": 1579.0943330000002,
+          "actualEnd": 1717.2996660000003,
+          "timeDifference": 13.504333000000315
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1703.8,
+          "expectedEnd": 1835.3,
+          "actualStart": 1718.7996660000003,
+          "actualEnd": 1850.2966660000004,
+          "timeDifference": 14.999666000000389
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.297292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Questions We’re Not Supposed to Ask"
+        },
+        {
+          "startTime": 303.577792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Questions We’re Not Supposed to Ask and Chapter 2 What Really Happens to the Body After Death"
+        },
+        {
+          "startTime": 526.859875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What Really Happens to the Body After Death and Chapter 3 The Truth About Corpses, Pets, and Unusual Fears"
+        },
+        {
+          "startTime": 737.173958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Truth About Corpses, Pets, and Unusual Fears and Chapter 4 How Cultures and History Shape Our Approach to Death"
+        },
+        {
+          "startTime": 935.814,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Cultures and History Shape Our Approach to Death and Chapter 5 Why Honest Conversations About Death Matter"
+        },
+        {
+          "startTime": 1102.712917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Why Honest Conversations About Death Matter and Chapter 6 The Science of Decomposition: What Nature Teaches Us"
+        },
+        {
+          "startTime": 1296.507125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Science of Decomposition: What Nature Teaches Us and Chapter 8 Curiosity, Compassion, and the Questions That Never End"
+        },
+        {
+          "startTime": 1458.0322500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Curiosity, Compassion, and the Questions That Never End and Chapter 9 The Importance of Rituals and Saying Goodbye"
+        },
+        {
+          "startTime": 1577.5943330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Importance of Rituals and Saying Goodbye and Chapter 10 Living with Death: Lessons for the Living"
+        },
+        {
+          "startTime": 1717.2996660000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Death: Lessons for the Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1629",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: professional (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T02:46:07.352Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

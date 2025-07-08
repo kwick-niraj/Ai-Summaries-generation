@@ -1,0 +1,383 @@
+{
+  "bookId": "1502",
+  "timestamp": "2025-07-07T20:58:36.372Z",
+  "success": false,
+  "processingTime": -1751921712589,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4709,
+    "totalAudioFiles": 12,
+    "totalDuration": 1398.798166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 9,
+    "failed": 3,
+    "duration": 1398.798166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1502/optimized_text/1502.md",
+    "fileSize": 746,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "1502.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1502/metadata/1502_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1398.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1502/metadata/1502_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1502/metadata/1502_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1502/1502_complete.wav",
+    "duration": 1398.798167,
+    "fileSize": 67142390,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1502/introduction.wav",
+          "duration": 90.483792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.483792,
+          "startTime": 0,
+          "endTime": 90.483792
+        },
+        {
+          "path": "Audio/output/1502/chapter_01.wav",
+          "duration": 177.391958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Prejudice and Fear Set the Stage for Totalitarianism",
+          "actualDuration": 177.391958,
+          "startTime": 91.983792,
+          "endTime": 269.37575
+        },
+        {
+          "path": "Audio/output/1502/chapter_02.wav",
+          "duration": 181.180708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Collapse of the Nation-State and the Rise of Statelessness",
+          "actualDuration": 181.180708,
+          "startTime": 270.87575,
+          "endTime": 452.056458
+        },
+        {
+          "path": "Audio/output/1502/chapter_03.wav",
+          "duration": 219.804583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Imperialism and the Expansion of Power Without Limits",
+          "actualDuration": 219.804583,
+          "startTime": 453.556458,
+          "endTime": 673.361041
+        },
+        {
+          "path": "Audio/output/1502/chapter_05.wav",
+          "duration": 172.134458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Loneliness, Social Breakdown, and the Appeal of Totalitarian Movements",
+          "actualDuration": 172.134458,
+          "startTime": 674.861041,
+          "endTime": 846.995499
+        },
+        {
+          "path": "Audio/output/1502/chapter_07.wav",
+          "duration": 148.04975,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Ideology and the Destruction of Reality",
+          "actualDuration": 148.04975,
+          "startTime": 848.495499,
+          "endTime": 996.545249
+        },
+        {
+          "path": "Audio/output/1502/chapter_08.wav",
+          "duration": 162.370292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Fate of the Individual and the Loss of Human Rights",
+          "actualDuration": 162.370292,
+          "startTime": 998.045249,
+          "endTime": 1160.415541
+        },
+        {
+          "path": "Audio/output/1502/chapter_10.wav",
+          "duration": 122.49025,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons for the Present and the Fragility of Freedom",
+          "actualDuration": 122.49025,
+          "startTime": 1161.915541,
+          "endTime": 1284.4057910000001
+        },
+        {
+          "path": "Audio/output/1502/conclusion.wav",
+          "duration": 124.892375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.892375,
+          "startTime": 1285.9057910000001,
+          "endTime": 1410.798166
+        }
+      ],
+      "totalDuration": 1410.798166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.48,
+          "actualStart": 0,
+          "actualEnd": 90.483792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Prejudice and Fear Set the Stage for Totalitarianism",
+          "expectedStart": 90.48,
+          "expectedEnd": 267.87,
+          "actualStart": 91.983792,
+          "actualEnd": 269.37575,
+          "timeDifference": 1.50379199999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Collapse of the Nation-State and the Rise of Statelessness",
+          "expectedStart": 267.87,
+          "expectedEnd": 449.05,
+          "actualStart": 270.87575,
+          "actualEnd": 452.056458,
+          "timeDifference": 3.0057499999999777
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Imperialism and the Expansion of Power Without Limits",
+          "expectedStart": 449.05,
+          "expectedEnd": 668.85,
+          "actualStart": 453.556458,
+          "actualEnd": 673.361041,
+          "timeDifference": 4.506458000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Loneliness, Social Breakdown, and the Appeal of Totalitarian Movements",
+          "expectedStart": 668.85,
+          "expectedEnd": 840.98,
+          "actualStart": 674.861041,
+          "actualEnd": 846.995499,
+          "timeDifference": 6.011040999999977
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Ideology and the Destruction of Reality",
+          "expectedStart": 840.98,
+          "expectedEnd": 989.03,
+          "actualStart": 848.495499,
+          "actualEnd": 996.545249,
+          "timeDifference": 7.515498999999977
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Fate of the Individual and the Loss of Human Rights",
+          "expectedStart": 989.03,
+          "expectedEnd": 1151.4,
+          "actualStart": 998.045249,
+          "actualEnd": 1160.415541,
+          "timeDifference": 9.01524900000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons for the Present and the Fragility of Freedom",
+          "expectedStart": 1151.4,
+          "expectedEnd": 1273.89,
+          "actualStart": 1161.915541,
+          "actualEnd": 1284.4057910000001,
+          "timeDifference": 10.515540999999985
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1273.89,
+          "expectedEnd": 1398.78,
+          "actualStart": 1285.9057910000001,
+          "actualEnd": 1410.798166,
+          "timeDifference": 12.015791000000036
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.483792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Prejudice and Fear Set the Stage for Totalitarianism"
+        },
+        {
+          "startTime": 269.37575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Prejudice and Fear Set the Stage for Totalitarianism and Chapter 2 The Collapse of the Nation-State and the Rise of Statelessness"
+        },
+        {
+          "startTime": 452.056458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Collapse of the Nation-State and the Rise of Statelessness and Chapter 3 Imperialism and the Expansion of Power Without Limits"
+        },
+        {
+          "startTime": 673.361041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Imperialism and the Expansion of Power Without Limits and Chapter 5 Loneliness, Social Breakdown, and the Appeal of Totalitarian Movements"
+        },
+        {
+          "startTime": 846.995499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Loneliness, Social Breakdown, and the Appeal of Totalitarian Movements and Chapter 7 The Role of Ideology and the Destruction of Reality"
+        },
+        {
+          "startTime": 996.545249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Ideology and the Destruction of Reality and Chapter 8 The Fate of the Individual and the Loss of Human Rights"
+        },
+        {
+          "startTime": 1160.415541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Fate of the Individual and the Loss of Human Rights and Chapter 10 Lessons for the Present and the Fragility of Freedom"
+        },
+        {
+          "startTime": 1284.4057910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons for the Present and the Fragility of Freedom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 9
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1502",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T20:55:13.115Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

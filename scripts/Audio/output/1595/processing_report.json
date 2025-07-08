@@ -1,0 +1,456 @@
+{
+  "bookId": "1595",
+  "timestamp": "2025-07-08T00:51:38.597Z",
+  "success": false,
+  "processingTime": -1751935610230,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5944,
+    "totalAudioFiles": 12,
+    "totalDuration": 2683.5970409999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2683.5970409999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1595/optimized_text/1595.md",
+    "fileSize": 749,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "1595.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1595/metadata/1595_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2683.59,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1595/metadata/1595_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1595/metadata/1595_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1595/1595_complete.wav",
+    "duration": 2683.597042,
+    "fileSize": 128812736,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1595/introduction.wav",
+          "duration": 88.687208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.687208,
+          "startTime": 0,
+          "endTime": 88.687208
+        },
+        {
+          "path": "Audio/output/1595/chapter_01.wav",
+          "duration": 243.760292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Enneagram: A Map for Understanding Ourselves",
+          "actualDuration": 243.760292,
+          "startTime": 90.187208,
+          "endTime": 333.9475
+        },
+        {
+          "path": "Audio/output/1595/chapter_02.wav",
+          "duration": 357.523833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Nine Types: Patterns That Shape Our Lives",
+          "actualDuration": 357.523833,
+          "startTime": 335.4475,
+          "endTime": 692.971333
+        },
+        {
+          "path": "Audio/output/1595/chapter_03.wav",
+          "duration": 351.697708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Roots of Our Patterns: Core Motivations and Fears",
+          "actualDuration": 351.697708,
+          "startTime": 694.471333,
+          "endTime": 1046.1690409999999
+        },
+        {
+          "path": "Audio/output/1595/chapter_04.wav",
+          "duration": 294.693417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Recognizing Unhealthy Patterns and the Path to Growth",
+          "actualDuration": 294.693417,
+          "startTime": 1047.6690409999999,
+          "endTime": 1342.3624579999998
+        },
+        {
+          "path": "Audio/output/1595/chapter_05.wav",
+          "duration": 229.968708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Compassion for Self and Others: The Heart of Transformation",
+          "actualDuration": 229.968708,
+          "startTime": 1343.8624579999998,
+          "endTime": 1573.831166
+        },
+        {
+          "path": "Audio/output/1595/chapter_06.wav",
+          "duration": 220.451625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Enneagram in Everyday Life: Navigating Work, Family, and Friendship",
+          "actualDuration": 220.451625,
+          "startTime": 1575.331166,
+          "endTime": 1795.7827909999999
+        },
+        {
+          "path": "Audio/output/1595/chapter_07.wav",
+          "duration": 251.029958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Growth Paths for Each Type: Moving Beyond Old Stories",
+          "actualDuration": 251.029958,
+          "startTime": 1797.2827909999999,
+          "endTime": 2048.3127489999997
+        },
+        {
+          "path": "Audio/output/1595/chapter_08.wav",
+          "duration": 194.52425,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Enneagram and Spiritual Transformation",
+          "actualDuration": 194.52425,
+          "startTime": 2049.8127489999997,
+          "endTime": 2244.3369989999997
+        },
+        {
+          "path": "Audio/output/1595/chapter_09.wav",
+          "duration": 205.963375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enneagram in Relationships: Building Bridges, Not Walls",
+          "actualDuration": 205.963375,
+          "startTime": 2245.8369989999997,
+          "endTime": 2451.8003739999995
+        },
+        {
+          "path": "Audio/output/1595/chapter_10.wav",
+          "duration": 132.346667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey: Living with Awareness and Hope",
+          "actualDuration": 132.346667,
+          "startTime": 2453.3003739999995,
+          "endTime": 2585.6470409999993
+        },
+        {
+          "path": "Audio/output/1595/conclusion.wav",
+          "duration": 112.95,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.95,
+          "startTime": 2587.1470409999993,
+          "endTime": 2700.097040999999
+        }
+      ],
+      "totalDuration": 2700.097040999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.69,
+          "actualStart": 0,
+          "actualEnd": 88.687208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Enneagram: A Map for Understanding Ourselves",
+          "expectedStart": 88.69,
+          "expectedEnd": 332.45,
+          "actualStart": 90.187208,
+          "actualEnd": 333.9475,
+          "timeDifference": 1.4972080000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Nine Types: Patterns That Shape Our Lives",
+          "expectedStart": 332.45,
+          "expectedEnd": 689.97,
+          "actualStart": 335.4475,
+          "actualEnd": 692.971333,
+          "timeDifference": 2.9975000000000023
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Roots of Our Patterns: Core Motivations and Fears",
+          "expectedStart": 689.97,
+          "expectedEnd": 1041.67,
+          "actualStart": 694.471333,
+          "actualEnd": 1046.1690409999999,
+          "timeDifference": 4.501332999999931
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Recognizing Unhealthy Patterns and the Path to Growth",
+          "expectedStart": 1041.67,
+          "expectedEnd": 1336.36,
+          "actualStart": 1047.6690409999999,
+          "actualEnd": 1342.3624579999998,
+          "timeDifference": 5.9990409999998064
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Compassion for Self and Others: The Heart of Transformation",
+          "expectedStart": 1336.36,
+          "expectedEnd": 1566.33,
+          "actualStart": 1343.8624579999998,
+          "actualEnd": 1573.831166,
+          "timeDifference": 7.502457999999933
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Enneagram in Everyday Life: Navigating Work, Family, and Friendship",
+          "expectedStart": 1566.33,
+          "expectedEnd": 1786.78,
+          "actualStart": 1575.331166,
+          "actualEnd": 1795.7827909999999,
+          "timeDifference": 9.001166000000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Growth Paths for Each Type: Moving Beyond Old Stories",
+          "expectedStart": 1786.78,
+          "expectedEnd": 2037.81,
+          "actualStart": 1797.2827909999999,
+          "actualEnd": 2048.3127489999997,
+          "timeDifference": 10.502790999999888
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Enneagram and Spiritual Transformation",
+          "expectedStart": 2037.81,
+          "expectedEnd": 2232.33,
+          "actualStart": 2049.8127489999997,
+          "actualEnd": 2244.3369989999997,
+          "timeDifference": 12.002748999999767
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enneagram in Relationships: Building Bridges, Not Walls",
+          "expectedStart": 2232.33,
+          "expectedEnd": 2438.29,
+          "actualStart": 2245.8369989999997,
+          "actualEnd": 2451.8003739999995,
+          "timeDifference": 13.506998999999723
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey: Living with Awareness and Hope",
+          "expectedStart": 2438.29,
+          "expectedEnd": 2570.64,
+          "actualStart": 2453.3003739999995,
+          "actualEnd": 2585.6470409999993,
+          "timeDifference": 15.010373999999501
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2570.64,
+          "expectedEnd": 2683.59,
+          "actualStart": 2587.1470409999993,
+          "actualEnd": 2700.097040999999,
+          "timeDifference": 16.50704099999939
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.687208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Enneagram: A Map for Understanding Ourselves"
+        },
+        {
+          "startTime": 333.9475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Enneagram: A Map for Understanding Ourselves and Chapter 2 The Nine Types: Patterns That Shape Our Lives"
+        },
+        {
+          "startTime": 692.971333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Nine Types: Patterns That Shape Our Lives and Chapter 3 The Roots of Our Patterns: Core Motivations and Fears"
+        },
+        {
+          "startTime": 1046.1690409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Roots of Our Patterns: Core Motivations and Fears and Chapter 4 Recognizing Unhealthy Patterns and the Path to Growth"
+        },
+        {
+          "startTime": 1342.3624579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Recognizing Unhealthy Patterns and the Path to Growth and Chapter 5 Compassion for Self and Others: The Heart of Transformation"
+        },
+        {
+          "startTime": 1573.831166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Compassion for Self and Others: The Heart of Transformation and Chapter 6 The Enneagram in Everyday Life: Navigating Work, Family, and Friendship"
+        },
+        {
+          "startTime": 1795.7827909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Enneagram in Everyday Life: Navigating Work, Family, and Friendship and Chapter 7 Growth Paths for Each Type: Moving Beyond Old Stories"
+        },
+        {
+          "startTime": 2048.3127489999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Growth Paths for Each Type: Moving Beyond Old Stories and Chapter 8 The Enneagram and Spiritual Transformation"
+        },
+        {
+          "startTime": 2244.3369989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Enneagram and Spiritual Transformation and Chapter 9 The Enneagram in Relationships: Building Bridges, Not Walls"
+        },
+        {
+          "startTime": 2451.8003739999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enneagram in Relationships: Building Bridges, Not Walls and Chapter 10 The Ongoing Journey: Living with Awareness and Hope"
+        },
+        {
+          "startTime": 2585.6470409999993,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey: Living with Awareness and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1595",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:46:51.771Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1530",
+  "timestamp": "2025-07-07T22:15:04.766Z",
+  "success": false,
+  "processingTime": -1751926267670,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4640,
+    "totalAudioFiles": 12,
+    "totalDuration": 2126.5263339999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2126.5263339999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1530/optimized_text/1530.md",
+    "fileSize": 627,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1530.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1530/metadata/1530_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2126.53,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1530/metadata/1530_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1530/metadata/1530_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1530/1530_complete.wav",
+    "duration": 2126.526333,
+    "fileSize": 102073342,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1530/introduction.wav",
+          "duration": 92.136458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.136458,
+          "startTime": 0,
+          "endTime": 92.136458
+        },
+        {
+          "path": "Audio/output/1530/chapter_01.wav",
+          "duration": 291.183042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Weight Became a National Obsession",
+          "actualDuration": 291.183042,
+          "startTime": 93.636458,
+          "endTime": 384.8195
+        },
+        {
+          "path": "Audio/output/1530/chapter_02.wav",
+          "duration": 242.962083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Flawed Science Behind the “Obesity Epidemic”",
+          "actualDuration": 242.962083,
+          "startTime": 386.3195,
+          "endTime": 629.281583
+        },
+        {
+          "path": "Audio/output/1530/chapter_03.wav",
+          "duration": 247.875583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Harms of Dieting and Weight Stigma",
+          "actualDuration": 247.875583,
+          "startTime": 630.781583,
+          "endTime": 878.657166
+        },
+        {
+          "path": "Audio/output/1530/chapter_04.wav",
+          "duration": 217.014167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Cultural Roots of Fatphobia and Size Discrimination",
+          "actualDuration": 217.014167,
+          "startTime": 880.157166,
+          "endTime": 1097.171333
+        },
+        {
+          "path": "Audio/output/1530/chapter_05.wav",
+          "duration": 196.597833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Diet Industry and the Business of Body Shame",
+          "actualDuration": 196.597833,
+          "startTime": 1098.671333,
+          "endTime": 1295.269166
+        },
+        {
+          "path": "Audio/output/1530/chapter_06.wav",
+          "duration": 165.646875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 When Health Gets Hijacked by Weight",
+          "actualDuration": 165.646875,
+          "startTime": 1296.769166,
+          "endTime": 1462.416041
+        },
+        {
+          "path": "Audio/output/1530/chapter_07.wav",
+          "duration": 152.496667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Case for Size Acceptance",
+          "actualDuration": 152.496667,
+          "startTime": 1463.916041,
+          "endTime": 1616.4127079999998
+        },
+        {
+          "path": "Audio/output/1530/chapter_08.wav",
+          "duration": 147.514417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rethinking Health: Beyond the Scale",
+          "actualDuration": 147.514417,
+          "startTime": 1617.9127079999998,
+          "endTime": 1765.427125
+        },
+        {
+          "path": "Audio/output/1530/chapter_09.wav",
+          "duration": 140.243417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Path Forward: Compassion, Evidence, and Change",
+          "actualDuration": 140.243417,
+          "startTime": 1766.927125,
+          "endTime": 1907.1705419999998
+        },
+        {
+          "path": "Audio/output/1530/chapter_10.wav",
+          "duration": 120.246667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Well in a Weight-Obsessed World",
+          "actualDuration": 120.246667,
+          "startTime": 1908.6705419999998,
+          "endTime": 2028.9172089999997
+        },
+        {
+          "path": "Audio/output/1530/conclusion.wav",
+          "duration": 112.609125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.609125,
+          "startTime": 2030.4172089999997,
+          "endTime": 2143.0263339999997
+        }
+      ],
+      "totalDuration": 2143.0263339999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.14,
+          "actualStart": 0,
+          "actualEnd": 92.136458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Weight Became a National Obsession",
+          "expectedStart": 92.14,
+          "expectedEnd": 383.32,
+          "actualStart": 93.636458,
+          "actualEnd": 384.8195,
+          "timeDifference": 1.496458000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Flawed Science Behind the “Obesity Epidemic”",
+          "expectedStart": 383.32,
+          "expectedEnd": 626.28,
+          "actualStart": 386.3195,
+          "actualEnd": 629.281583,
+          "timeDifference": 2.999500000000012
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Harms of Dieting and Weight Stigma",
+          "expectedStart": 626.28,
+          "expectedEnd": 874.16,
+          "actualStart": 630.781583,
+          "actualEnd": 878.657166,
+          "timeDifference": 4.501582999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Cultural Roots of Fatphobia and Size Discrimination",
+          "expectedStart": 874.16,
+          "expectedEnd": 1091.17,
+          "actualStart": 880.157166,
+          "actualEnd": 1097.171333,
+          "timeDifference": 5.997165999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Diet Industry and the Business of Body Shame",
+          "expectedStart": 1091.17,
+          "expectedEnd": 1287.77,
+          "actualStart": 1098.671333,
+          "actualEnd": 1295.269166,
+          "timeDifference": 7.501332999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 When Health Gets Hijacked by Weight",
+          "expectedStart": 1287.77,
+          "expectedEnd": 1453.42,
+          "actualStart": 1296.769166,
+          "actualEnd": 1462.416041,
+          "timeDifference": 8.99916600000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Case for Size Acceptance",
+          "expectedStart": 1453.42,
+          "expectedEnd": 1605.92,
+          "actualStart": 1463.916041,
+          "actualEnd": 1616.4127079999998,
+          "timeDifference": 10.496040999999877
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rethinking Health: Beyond the Scale",
+          "expectedStart": 1605.92,
+          "expectedEnd": 1753.43,
+          "actualStart": 1617.9127079999998,
+          "actualEnd": 1765.427125,
+          "timeDifference": 11.992707999999766
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Path Forward: Compassion, Evidence, and Change",
+          "expectedStart": 1753.43,
+          "expectedEnd": 1893.67,
+          "actualStart": 1766.927125,
+          "actualEnd": 1907.1705419999998,
+          "timeDifference": 13.497124999999869
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Well in a Weight-Obsessed World",
+          "expectedStart": 1893.67,
+          "expectedEnd": 2013.92,
+          "actualStart": 1908.6705419999998,
+          "actualEnd": 2028.9172089999997,
+          "timeDifference": 15.000541999999768
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2013.92,
+          "expectedEnd": 2126.53,
+          "actualStart": 2030.4172089999997,
+          "actualEnd": 2143.0263339999997,
+          "timeDifference": 16.497208999999657
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.136458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Weight Became a National Obsession"
+        },
+        {
+          "startTime": 384.8195,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Weight Became a National Obsession and Chapter 2 The Flawed Science Behind the “Obesity Epidemic”"
+        },
+        {
+          "startTime": 629.281583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Flawed Science Behind the “Obesity Epidemic” and Chapter 3 The Hidden Harms of Dieting and Weight Stigma"
+        },
+        {
+          "startTime": 878.657166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Harms of Dieting and Weight Stigma and Chapter 4 The Cultural Roots of Fatphobia and Size Discrimination"
+        },
+        {
+          "startTime": 1097.171333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Cultural Roots of Fatphobia and Size Discrimination and Chapter 5 The Diet Industry and the Business of Body Shame"
+        },
+        {
+          "startTime": 1295.269166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Diet Industry and the Business of Body Shame and Chapter 6 When Health Gets Hijacked by Weight"
+        },
+        {
+          "startTime": 1462.416041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 When Health Gets Hijacked by Weight and Chapter 7 The Case for Size Acceptance"
+        },
+        {
+          "startTime": 1616.4127079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Case for Size Acceptance and Chapter 8 Rethinking Health: Beyond the Scale"
+        },
+        {
+          "startTime": 1765.427125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rethinking Health: Beyond the Scale and Chapter 9 The Path Forward: Compassion, Evidence, and Change"
+        },
+        {
+          "startTime": 1907.1705419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Path Forward: Compassion, Evidence, and Change and Chapter 10 Living Well in a Weight-Obsessed World"
+        },
+        {
+          "startTime": 2028.9172089999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Well in a Weight-Obsessed World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1530",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:11:08.244Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

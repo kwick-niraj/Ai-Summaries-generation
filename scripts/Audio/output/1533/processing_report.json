@@ -1,0 +1,383 @@
+{
+  "bookId": "1533",
+  "timestamp": "2025-07-07T22:24:34.816Z",
+  "success": false,
+  "processingTime": -1751926839371,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4858,
+    "totalAudioFiles": 12,
+    "totalDuration": 1459.960667
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 9,
+    "failed": 3,
+    "duration": 1459.960667
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1533/optimized_text/1533.md",
+    "fileSize": 2383,
+    "wordCount": 395,
+    "format": "markdown",
+    "filename": "1533.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1533/metadata/1533_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1459.95,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1533/metadata/1533_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1533/metadata/1533_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1533/1533_complete.wav",
+    "duration": 1459.960667,
+    "fileSize": 70078190,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1533/introduction.wav",
+          "duration": 106.281625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 106.281625,
+          "startTime": 0,
+          "endTime": 106.281625
+        },
+        {
+          "path": "Audio/output/1533/chapter_02.wav",
+          "duration": 235.464,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle to Survive and the Cost of Small Choices",
+          "actualDuration": 235.464,
+          "startTime": 107.781625,
+          "endTime": 343.245625
+        },
+        {
+          "path": "Audio/output/1533/chapter_04.wav",
+          "duration": 172.995542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Holding Onto Humanity in a Place Built to Destroy It",
+          "actualDuration": 172.995542,
+          "startTime": 344.745625,
+          "endTime": 517.741167
+        },
+        {
+          "path": "Audio/output/1533/chapter_05.wav",
+          "duration": 173.789375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bearing Witness and the Power of Memory",
+          "actualDuration": 173.789375,
+          "startTime": 519.241167,
+          "endTime": 693.030542
+        },
+        {
+          "path": "Audio/output/1533/chapter_06.wav",
+          "duration": 190.63175,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unseen Burdens of Survival",
+          "actualDuration": 190.63175,
+          "startTime": 694.530542,
+          "endTime": 885.162292
+        },
+        {
+          "path": "Audio/output/1533/chapter_07.wav",
+          "duration": 175.002542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Fragile Web of Trust and Community",
+          "actualDuration": 175.002542,
+          "startTime": 886.662292,
+          "endTime": 1061.664834
+        },
+        {
+          "path": "Audio/output/1533/chapter_08.wav",
+          "duration": 182.53,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Lingering Shadows of Trauma",
+          "actualDuration": 182.53,
+          "startTime": 1063.164834,
+          "endTime": 1245.694834
+        },
+        {
+          "path": "Audio/output/1533/chapter_09.wav",
+          "duration": 137.21125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Work of Remembrance",
+          "actualDuration": 137.21125,
+          "startTime": 1247.194834,
+          "endTime": 1384.406084
+        },
+        {
+          "path": "Audio/output/1533/conclusion.wav",
+          "duration": 86.054583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 86.054583,
+          "startTime": 1385.906084,
+          "endTime": 1471.960667
+        }
+      ],
+      "totalDuration": 1471.960667,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 106.28,
+          "actualStart": 0,
+          "actualEnd": 106.281625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle to Survive and the Cost of Small Choices",
+          "expectedStart": 106.28,
+          "expectedEnd": 341.74,
+          "actualStart": 107.781625,
+          "actualEnd": 343.245625,
+          "timeDifference": 1.5016250000000042
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Holding Onto Humanity in a Place Built to Destroy It",
+          "expectedStart": 341.74,
+          "expectedEnd": 514.74,
+          "actualStart": 344.745625,
+          "actualEnd": 517.741167,
+          "timeDifference": 3.005625000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bearing Witness and the Power of Memory",
+          "expectedStart": 514.74,
+          "expectedEnd": 688.53,
+          "actualStart": 519.241167,
+          "actualEnd": 693.030542,
+          "timeDifference": 4.5011670000000095
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unseen Burdens of Survival",
+          "expectedStart": 688.53,
+          "expectedEnd": 879.16,
+          "actualStart": 694.530542,
+          "actualEnd": 885.162292,
+          "timeDifference": 6.000541999999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Fragile Web of Trust and Community",
+          "expectedStart": 879.16,
+          "expectedEnd": 1054.16,
+          "actualStart": 886.662292,
+          "actualEnd": 1061.664834,
+          "timeDifference": 7.502292000000011
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Lingering Shadows of Trauma",
+          "expectedStart": 1054.16,
+          "expectedEnd": 1236.69,
+          "actualStart": 1063.164834,
+          "actualEnd": 1245.694834,
+          "timeDifference": 9.004833999999846
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Work of Remembrance",
+          "expectedStart": 1236.69,
+          "expectedEnd": 1373.9,
+          "actualStart": 1247.194834,
+          "actualEnd": 1384.406084,
+          "timeDifference": 10.504833999999846
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1373.9,
+          "expectedEnd": 1459.95,
+          "actualStart": 1385.906084,
+          "actualEnd": 1471.960667,
+          "timeDifference": 12.006083999999873
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 106.281625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 2 The Struggle to Survive and the Cost of Small Choices"
+        },
+        {
+          "startTime": 343.245625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle to Survive and the Cost of Small Choices and Chapter 4 Holding Onto Humanity in a Place Built to Destroy It"
+        },
+        {
+          "startTime": 517.741167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Holding Onto Humanity in a Place Built to Destroy It and Chapter 5 Bearing Witness and the Power of Memory"
+        },
+        {
+          "startTime": 693.030542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bearing Witness and the Power of Memory and Chapter 6 The Unseen Burdens of Survival"
+        },
+        {
+          "startTime": 885.162292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unseen Burdens of Survival and Chapter 7 The Fragile Web of Trust and Community"
+        },
+        {
+          "startTime": 1061.664834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Fragile Web of Trust and Community and Chapter 8 The Lingering Shadows of Trauma"
+        },
+        {
+          "startTime": 1245.694834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Lingering Shadows of Trauma and Chapter 9 The Quiet Work of Remembrance"
+        },
+        {
+          "startTime": 1384.406084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Work of Remembrance and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 9
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1533",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:20:40.936Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

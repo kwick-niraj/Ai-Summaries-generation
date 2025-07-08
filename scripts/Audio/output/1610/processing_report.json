@@ -1,0 +1,456 @@
+{
+  "bookId": "1610",
+  "timestamp": "2025-07-08T01:37:40.140Z",
+  "success": false,
+  "processingTime": -1751938379863,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5118,
+    "totalAudioFiles": 12,
+    "totalDuration": 2381.101332
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2381.101332
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1610/optimized_text/1610.md",
+    "fileSize": 666,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1610.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1610/metadata/1610_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2381.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1610/metadata/1610_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1610/metadata/1610_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1610/1610_complete.wav",
+    "duration": 2381.101333,
+    "fileSize": 114292942,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1610/introduction.wav",
+          "duration": 116.201,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.201,
+          "startTime": 0,
+          "endTime": 116.201
+        },
+        {
+          "path": "Audio/output/1610/chapter_01.wav",
+          "duration": 275.962042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Meaning Beyond the Surface",
+          "actualDuration": 275.962042,
+          "startTime": 117.701,
+          "endTime": 393.663042
+        },
+        {
+          "path": "Audio/output/1610/chapter_02.wav",
+          "duration": 294.412167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Language of Color and Form",
+          "actualDuration": 294.412167,
+          "startTime": 395.163042,
+          "endTime": 689.5752090000001
+        },
+        {
+          "path": "Audio/output/1610/chapter_03.wav",
+          "duration": 279.792708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Artist’s Responsibility and the Weight of Influence",
+          "actualDuration": 279.792708,
+          "startTime": 691.0752090000001,
+          "endTime": 970.867917
+        },
+        {
+          "path": "Audio/output/1610/chapter_04.wav",
+          "duration": 223.794833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Moving from Imitation to Abstraction",
+          "actualDuration": 223.794833,
+          "startTime": 972.367917,
+          "endTime": 1196.16275
+        },
+        {
+          "path": "Audio/output/1610/chapter_05.wav",
+          "duration": 227.123042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Harmony of the Senses—Art as a Kind of Music",
+          "actualDuration": 227.123042,
+          "startTime": 1197.66275,
+          "endTime": 1424.785792
+        },
+        {
+          "path": "Audio/output/1610/chapter_06.wav",
+          "duration": 200.070625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Inner Necessity—Listening to the Quiet Voice",
+          "actualDuration": 200.070625,
+          "startTime": 1426.285792,
+          "endTime": 1626.356417
+        },
+        {
+          "path": "Audio/output/1610/chapter_07.wav",
+          "duration": 149.455458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle with Doubt and the Courage to Continue",
+          "actualDuration": 149.455458,
+          "startTime": 1627.856417,
+          "endTime": 1777.3118749999999
+        },
+        {
+          "path": "Audio/output/1610/chapter_08.wav",
+          "duration": 190.798333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Spiritual Community—Finding Connection in Creation",
+          "actualDuration": 190.798333,
+          "startTime": 1778.8118749999999,
+          "endTime": 1969.6102079999998
+        },
+        {
+          "path": "Audio/output/1610/chapter_09.wav",
+          "duration": 186.055458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Evolution of Spiritual Abstraction",
+          "actualDuration": 186.055458,
+          "startTime": 1971.1102079999998,
+          "endTime": 2157.165666
+        },
+        {
+          "path": "Audio/output/1610/chapter_10.wav",
+          "duration": 113.264333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lasting Impact—Art as a Source of Renewal",
+          "actualDuration": 113.264333,
+          "startTime": 2158.665666,
+          "endTime": 2271.929999
+        },
+        {
+          "path": "Audio/output/1610/conclusion.wav",
+          "duration": 124.171333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.171333,
+          "startTime": 2273.429999,
+          "endTime": 2397.601332
+        }
+      ],
+      "totalDuration": 2397.601332,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.2,
+          "actualStart": 0,
+          "actualEnd": 116.201,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Meaning Beyond the Surface",
+          "expectedStart": 116.2,
+          "expectedEnd": 392.16,
+          "actualStart": 117.701,
+          "actualEnd": 393.663042,
+          "timeDifference": 1.5009999999999906
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Language of Color and Form",
+          "expectedStart": 392.16,
+          "expectedEnd": 686.57,
+          "actualStart": 395.163042,
+          "actualEnd": 689.5752090000001,
+          "timeDifference": 3.0030419999999935
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Artist’s Responsibility and the Weight of Influence",
+          "expectedStart": 686.57,
+          "expectedEnd": 966.36,
+          "actualStart": 691.0752090000001,
+          "actualEnd": 970.867917,
+          "timeDifference": 4.505209000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Moving from Imitation to Abstraction",
+          "expectedStart": 966.36,
+          "expectedEnd": 1190.15,
+          "actualStart": 972.367917,
+          "actualEnd": 1196.16275,
+          "timeDifference": 6.00791700000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Harmony of the Senses—Art as a Kind of Music",
+          "expectedStart": 1190.15,
+          "expectedEnd": 1417.27,
+          "actualStart": 1197.66275,
+          "actualEnd": 1424.785792,
+          "timeDifference": 7.512749999999869
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Inner Necessity—Listening to the Quiet Voice",
+          "expectedStart": 1417.27,
+          "expectedEnd": 1617.34,
+          "actualStart": 1426.285792,
+          "actualEnd": 1626.356417,
+          "timeDifference": 9.01579199999992
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle with Doubt and the Courage to Continue",
+          "expectedStart": 1617.34,
+          "expectedEnd": 1766.8,
+          "actualStart": 1627.856417,
+          "actualEnd": 1777.3118749999999,
+          "timeDifference": 10.516417000000047
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Spiritual Community—Finding Connection in Creation",
+          "expectedStart": 1766.8,
+          "expectedEnd": 1957.6,
+          "actualStart": 1778.8118749999999,
+          "actualEnd": 1969.6102079999998,
+          "timeDifference": 12.011874999999918
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Evolution of Spiritual Abstraction",
+          "expectedStart": 1957.6,
+          "expectedEnd": 2143.66,
+          "actualStart": 1971.1102079999998,
+          "actualEnd": 2157.165666,
+          "timeDifference": 13.51020799999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lasting Impact—Art as a Source of Renewal",
+          "expectedStart": 2143.66,
+          "expectedEnd": 2256.92,
+          "actualStart": 2158.665666,
+          "actualEnd": 2271.929999,
+          "timeDifference": 15.00566600000002
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2256.92,
+          "expectedEnd": 2381.09,
+          "actualStart": 2273.429999,
+          "actualEnd": 2397.601332,
+          "timeDifference": 16.50999899999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.201,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Meaning Beyond the Surface"
+        },
+        {
+          "startTime": 393.663042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Meaning Beyond the Surface and Chapter 2 The Hidden Language of Color and Form"
+        },
+        {
+          "startTime": 689.5752090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Language of Color and Form and Chapter 3 The Artist’s Responsibility and the Weight of Influence"
+        },
+        {
+          "startTime": 970.867917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Artist’s Responsibility and the Weight of Influence and Chapter 4 Moving from Imitation to Abstraction"
+        },
+        {
+          "startTime": 1196.16275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Moving from Imitation to Abstraction and Chapter 5 The Harmony of the Senses—Art as a Kind of Music"
+        },
+        {
+          "startTime": 1424.785792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Harmony of the Senses—Art as a Kind of Music and Chapter 6 The Inner Necessity—Listening to the Quiet Voice"
+        },
+        {
+          "startTime": 1626.356417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Inner Necessity—Listening to the Quiet Voice and Chapter 7 The Struggle with Doubt and the Courage to Continue"
+        },
+        {
+          "startTime": 1777.3118749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle with Doubt and the Courage to Continue and Chapter 8 The Spiritual Community—Finding Connection in Creation"
+        },
+        {
+          "startTime": 1969.6102079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Spiritual Community—Finding Connection in Creation and Chapter 9 The Evolution of Spiritual Abstraction"
+        },
+        {
+          "startTime": 2157.165666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Evolution of Spiritual Abstraction and Chapter 10 The Lasting Impact—Art as a Source of Renewal"
+        },
+        {
+          "startTime": 2271.929999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lasting Impact—Art as a Source of Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1610",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T01:33:01.055Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

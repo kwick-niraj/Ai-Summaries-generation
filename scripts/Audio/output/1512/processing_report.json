@@ -1,0 +1,456 @@
+{
+  "bookId": "1512",
+  "timestamp": "2025-07-07T21:32:38.702Z",
+  "success": false,
+  "processingTime": -1751923723528,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4305,
+    "totalAudioFiles": 12,
+    "totalDuration": 2153.600458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2153.600458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1512/optimized_text/1512.md",
+    "fileSize": 693,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "1512.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1512/metadata/1512_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2153.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1512/metadata/1512_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1512/metadata/1512_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1512/1512_complete.wav",
+    "duration": 2153.600458,
+    "fileSize": 103372900,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1512/introduction.wav",
+          "duration": 112.275708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.275708,
+          "startTime": 0,
+          "endTime": 112.275708
+        },
+        {
+          "path": "Audio/output/1512/chapter_01.wav",
+          "duration": 217.837417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Feeling of Choice and Its Hidden Roots",
+          "actualDuration": 217.837417,
+          "startTime": 113.775708,
+          "endTime": 331.61312499999997
+        },
+        {
+          "path": "Audio/output/1512/chapter_02.wav",
+          "duration": 238.39975,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 What Science Reveals About Decisions and the Brain",
+          "actualDuration": 238.39975,
+          "startTime": 333.11312499999997,
+          "endTime": 571.512875
+        },
+        {
+          "path": "Audio/output/1512/chapter_03.wav",
+          "duration": 228.042458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rethinking Responsibility, Guilt, and Punishment",
+          "actualDuration": 228.042458,
+          "startTime": 573.012875,
+          "endTime": 801.055333
+        },
+        {
+          "path": "Audio/output/1512/chapter_04.wav",
+          "duration": 204.043042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Nature of Consciousness and the Illusion of Control",
+          "actualDuration": 204.043042,
+          "startTime": 802.555333,
+          "endTime": 1006.598375
+        },
+        {
+          "path": "Audio/output/1512/chapter_05.wav",
+          "duration": 196.510333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Compassion, Change, and Living Without Free Will",
+          "actualDuration": 196.510333,
+          "startTime": 1008.098375,
+          "endTime": 1204.608708
+        },
+        {
+          "path": "Audio/output/1512/chapter_06.wav",
+          "duration": 185.066625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Daily Life Without the Myth of Free Will",
+          "actualDuration": 185.066625,
+          "startTime": 1206.108708,
+          "endTime": 1391.175333
+        },
+        {
+          "path": "Audio/output/1512/chapter_07.wav",
+          "duration": 191.362417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Justice, Fairness, and the Future of Society",
+          "actualDuration": 191.362417,
+          "startTime": 1392.675333,
+          "endTime": 1584.03775
+        },
+        {
+          "path": "Audio/output/1512/chapter_08.wav",
+          "duration": 170.170875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Meaning, Purpose, and the Search for Value",
+          "actualDuration": 170.170875,
+          "startTime": 1585.53775,
+          "endTime": 1755.708625
+        },
+        {
+          "path": "Audio/output/1512/chapter_09.wav",
+          "duration": 154.52025,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Spirituality, Mindfulness, and the Art of Letting Go",
+          "actualDuration": 154.52025,
+          "startTime": 1757.208625,
+          "endTime": 1911.728875
+        },
+        {
+          "path": "Audio/output/1512/chapter_10.wav",
+          "duration": 105.896208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living With Uncertainty and Embracing the Mystery",
+          "actualDuration": 105.896208,
+          "startTime": 1913.228875,
+          "endTime": 2019.125083
+        },
+        {
+          "path": "Audio/output/1512/conclusion.wav",
+          "duration": 149.475375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.475375,
+          "startTime": 2020.625083,
+          "endTime": 2170.100458
+        }
+      ],
+      "totalDuration": 2170.100458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112.28,
+          "actualStart": 0,
+          "actualEnd": 112.275708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Feeling of Choice and Its Hidden Roots",
+          "expectedStart": 112.28,
+          "expectedEnd": 330.12,
+          "actualStart": 113.775708,
+          "actualEnd": 331.61312499999997,
+          "timeDifference": 1.4957079999999934
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 What Science Reveals About Decisions and the Brain",
+          "expectedStart": 330.12,
+          "expectedEnd": 568.52,
+          "actualStart": 333.11312499999997,
+          "actualEnd": 571.512875,
+          "timeDifference": 2.9931249999999636
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rethinking Responsibility, Guilt, and Punishment",
+          "expectedStart": 568.52,
+          "expectedEnd": 796.56,
+          "actualStart": 573.012875,
+          "actualEnd": 801.055333,
+          "timeDifference": 4.492875000000026
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Nature of Consciousness and the Illusion of Control",
+          "expectedStart": 796.56,
+          "expectedEnd": 1000.6,
+          "actualStart": 802.555333,
+          "actualEnd": 1006.598375,
+          "timeDifference": 5.995333000000073
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Compassion, Change, and Living Without Free Will",
+          "expectedStart": 1000.6,
+          "expectedEnd": 1197.11,
+          "actualStart": 1008.098375,
+          "actualEnd": 1204.608708,
+          "timeDifference": 7.49837500000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Daily Life Without the Myth of Free Will",
+          "expectedStart": 1197.11,
+          "expectedEnd": 1382.18,
+          "actualStart": 1206.108708,
+          "actualEnd": 1391.175333,
+          "timeDifference": 8.998708000000079
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Justice, Fairness, and the Future of Society",
+          "expectedStart": 1382.18,
+          "expectedEnd": 1573.54,
+          "actualStart": 1392.675333,
+          "actualEnd": 1584.03775,
+          "timeDifference": 10.495332999999846
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Meaning, Purpose, and the Search for Value",
+          "expectedStart": 1573.54,
+          "expectedEnd": 1743.71,
+          "actualStart": 1585.53775,
+          "actualEnd": 1755.708625,
+          "timeDifference": 11.997749999999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Spirituality, Mindfulness, and the Art of Letting Go",
+          "expectedStart": 1743.71,
+          "expectedEnd": 1898.23,
+          "actualStart": 1757.208625,
+          "actualEnd": 1911.728875,
+          "timeDifference": 13.498624999999947
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living With Uncertainty and Embracing the Mystery",
+          "expectedStart": 1898.23,
+          "expectedEnd": 2004.13,
+          "actualStart": 1913.228875,
+          "actualEnd": 2019.125083,
+          "timeDifference": 14.998874999999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2004.13,
+          "expectedEnd": 2153.61,
+          "actualStart": 2020.625083,
+          "actualEnd": 2170.100458,
+          "timeDifference": 16.495082999999795
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.275708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Feeling of Choice and Its Hidden Roots"
+        },
+        {
+          "startTime": 331.61312499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Feeling of Choice and Its Hidden Roots and Chapter 2 What Science Reveals About Decisions and the Brain"
+        },
+        {
+          "startTime": 571.512875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 What Science Reveals About Decisions and the Brain and Chapter 3 Rethinking Responsibility, Guilt, and Punishment"
+        },
+        {
+          "startTime": 801.055333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rethinking Responsibility, Guilt, and Punishment and Chapter 4 The Nature of Consciousness and the Illusion of Control"
+        },
+        {
+          "startTime": 1006.598375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Nature of Consciousness and the Illusion of Control and Chapter 5 Compassion, Change, and Living Without Free Will"
+        },
+        {
+          "startTime": 1204.608708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Compassion, Change, and Living Without Free Will and Chapter 6 Navigating Daily Life Without the Myth of Free Will"
+        },
+        {
+          "startTime": 1391.175333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Daily Life Without the Myth of Free Will and Chapter 7 Justice, Fairness, and the Future of Society"
+        },
+        {
+          "startTime": 1584.03775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Justice, Fairness, and the Future of Society and Chapter 8 Meaning, Purpose, and the Search for Value"
+        },
+        {
+          "startTime": 1755.708625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Meaning, Purpose, and the Search for Value and Chapter 9 Spirituality, Mindfulness, and the Art of Letting Go"
+        },
+        {
+          "startTime": 1911.728875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Spirituality, Mindfulness, and the Art of Letting Go and Chapter 10 Living With Uncertainty and Embracing the Mystery"
+        },
+        {
+          "startTime": 2019.125083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living With Uncertainty and Embracing the Mystery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1512",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T21:28:43.996Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

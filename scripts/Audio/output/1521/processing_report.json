@@ -1,0 +1,456 @@
+{
+  "bookId": "1521",
+  "timestamp": "2025-07-07T21:49:43.883Z",
+  "success": false,
+  "processingTime": -1751924737282,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4284,
+    "totalAudioFiles": 12,
+    "totalDuration": 1898.8029179999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1898.8029179999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1521/optimized_text/1521.md",
+    "fileSize": 756,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "1521.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1521/metadata/1521_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1898.82,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1521/metadata/1521_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1521/metadata/1521_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+6) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1521/1521_complete.wav",
+    "duration": 1898.802917,
+    "fileSize": 91142618,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1521/introduction.wav",
+          "duration": 90.182333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.182333,
+          "startTime": 0,
+          "endTime": 90.182333
+        },
+        {
+          "path": "Audio/output/1521/chapter_01.wav",
+          "duration": 205.868917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Finding Joy in the Ordinary and the Absurd",
+          "actualDuration": 205.868917,
+          "startTime": 91.682333,
+          "endTime": 297.55125
+        },
+        {
+          "path": "Audio/output/1521/chapter_02.wav",
+          "duration": 194.645875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Authenticity and the Power of Being Yourself",
+          "actualDuration": 194.645875,
+          "startTime": 299.05125,
+          "endTime": 493.69712499999997
+        },
+        {
+          "path": "Audio/output/1521/chapter_03.wav",
+          "duration": 193.012958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Transformative Power of Kindness and Positivity",
+          "actualDuration": 193.012958,
+          "startTime": 495.19712499999997,
+          "endTime": 688.2100829999999
+        },
+        {
+          "path": "Audio/output/1521/chapter_04.wav",
+          "duration": 190.192292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Fame, Public Life, and the Challenge of Staying Grounded",
+          "actualDuration": 190.192292,
+          "startTime": 689.7100829999999,
+          "endTime": 879.9023749999999
+        },
+        {
+          "path": "Audio/output/1521/chapter_05.wav",
+          "duration": 169.115083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Growing Through Change and Learning to Accept Imperfection",
+          "actualDuration": 169.115083,
+          "startTime": 881.4023749999999,
+          "endTime": 1050.5174579999998
+        },
+        {
+          "path": "Audio/output/1521/chapter_06.wav",
+          "duration": 182.312417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Healing Power of Laughter and Not Taking Life Too Seriously",
+          "actualDuration": 182.312417,
+          "startTime": 1052.0174579999998,
+          "endTime": 1234.329875
+        },
+        {
+          "path": "Audio/output/1521/chapter_07.wav",
+          "duration": 151.898,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Value of Connection and Building Meaningful Relationships",
+          "actualDuration": 151.898,
+          "startTime": 1235.829875,
+          "endTime": 1387.7278749999998
+        },
+        {
+          "path": "Audio/output/1521/chapter_08.wav",
+          "duration": 130.766042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Letting Go of Control and Trusting the Journey",
+          "actualDuration": 130.766042,
+          "startTime": 1389.2278749999998,
+          "endTime": 1519.9939169999998
+        },
+        {
+          "path": "Audio/output/1521/chapter_09.wav",
+          "duration": 147.687667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Journey Toward Self-Acceptance and Joy",
+          "actualDuration": 147.687667,
+          "startTime": 1521.4939169999998,
+          "endTime": 1669.1815839999997
+        },
+        {
+          "path": "Audio/output/1521/chapter_10.wav",
+          "duration": 130.375792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Lightly: Choosing Joy, Humor, and Compassion Every Day",
+          "actualDuration": 130.375792,
+          "startTime": 1670.6815839999997,
+          "endTime": 1801.0573759999997
+        },
+        {
+          "path": "Audio/output/1521/conclusion.wav",
+          "duration": 112.745542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.745542,
+          "startTime": 1802.5573759999997,
+          "endTime": 1915.3029179999999
+        }
+      ],
+      "totalDuration": 1915.3029179999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.18,
+          "actualStart": 0,
+          "actualEnd": 90.182333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Finding Joy in the Ordinary and the Absurd",
+          "expectedStart": 90.18,
+          "expectedEnd": 296.05,
+          "actualStart": 91.682333,
+          "actualEnd": 297.55125,
+          "timeDifference": 1.502332999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Authenticity and the Power of Being Yourself",
+          "expectedStart": 296.05,
+          "expectedEnd": 490.7,
+          "actualStart": 299.05125,
+          "actualEnd": 493.69712499999997,
+          "timeDifference": 3.0012499999999704
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Transformative Power of Kindness and Positivity",
+          "expectedStart": 490.7,
+          "expectedEnd": 683.71,
+          "actualStart": 495.19712499999997,
+          "actualEnd": 688.2100829999999,
+          "timeDifference": 4.497124999999983
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Fame, Public Life, and the Challenge of Staying Grounded",
+          "expectedStart": 683.71,
+          "expectedEnd": 873.9,
+          "actualStart": 689.7100829999999,
+          "actualEnd": 879.9023749999999,
+          "timeDifference": 6.000082999999904
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Growing Through Change and Learning to Accept Imperfection",
+          "expectedStart": 873.9,
+          "expectedEnd": 1043.02,
+          "actualStart": 881.4023749999999,
+          "actualEnd": 1050.5174579999998,
+          "timeDifference": 7.502374999999915
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Healing Power of Laughter and Not Taking Life Too Seriously",
+          "expectedStart": 1043.02,
+          "expectedEnd": 1225.33,
+          "actualStart": 1052.0174579999998,
+          "actualEnd": 1234.329875,
+          "timeDifference": 8.997457999999824
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Value of Connection and Building Meaningful Relationships",
+          "expectedStart": 1225.33,
+          "expectedEnd": 1377.23,
+          "actualStart": 1235.829875,
+          "actualEnd": 1387.7278749999998,
+          "timeDifference": 10.499874999999975
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Letting Go of Control and Trusting the Journey",
+          "expectedStart": 1377.23,
+          "expectedEnd": 1508,
+          "actualStart": 1389.2278749999998,
+          "actualEnd": 1519.9939169999998,
+          "timeDifference": 11.997874999999794
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Journey Toward Self-Acceptance and Joy",
+          "expectedStart": 1508,
+          "expectedEnd": 1655.69,
+          "actualStart": 1521.4939169999998,
+          "actualEnd": 1669.1815839999997,
+          "timeDifference": 13.493916999999783
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Lightly: Choosing Joy, Humor, and Compassion Every Day",
+          "expectedStart": 1655.69,
+          "expectedEnd": 1786.07,
+          "actualStart": 1670.6815839999997,
+          "actualEnd": 1801.0573759999997,
+          "timeDifference": 14.991583999999648
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1786.07,
+          "expectedEnd": 1898.82,
+          "actualStart": 1802.5573759999997,
+          "actualEnd": 1915.3029179999999,
+          "timeDifference": 16.487375999999813
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.182333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Finding Joy in the Ordinary and the Absurd"
+        },
+        {
+          "startTime": 297.55125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Finding Joy in the Ordinary and the Absurd and Chapter 2 Embracing Authenticity and the Power of Being Yourself"
+        },
+        {
+          "startTime": 493.69712499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Authenticity and the Power of Being Yourself and Chapter 3 The Transformative Power of Kindness and Positivity"
+        },
+        {
+          "startTime": 688.2100829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Transformative Power of Kindness and Positivity and Chapter 4 Navigating Fame, Public Life, and the Challenge of Staying Grounded"
+        },
+        {
+          "startTime": 879.9023749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Fame, Public Life, and the Challenge of Staying Grounded and Chapter 5 Growing Through Change and Learning to Accept Imperfection"
+        },
+        {
+          "startTime": 1050.5174579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Growing Through Change and Learning to Accept Imperfection and Chapter 6 The Healing Power of Laughter and Not Taking Life Too Seriously"
+        },
+        {
+          "startTime": 1234.329875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Healing Power of Laughter and Not Taking Life Too Seriously and Chapter 7 The Value of Connection and Building Meaningful Relationships"
+        },
+        {
+          "startTime": 1387.7278749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Value of Connection and Building Meaningful Relationships and Chapter 8 Letting Go of Control and Trusting the Journey"
+        },
+        {
+          "startTime": 1519.9939169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Letting Go of Control and Trusting the Journey and Chapter 9 The Ongoing Journey Toward Self-Acceptance and Joy"
+        },
+        {
+          "startTime": 1669.1815839999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Journey Toward Self-Acceptance and Joy and Chapter 10 Living Lightly: Choosing Joy, Humor, and Compassion Every Day"
+        },
+        {
+          "startTime": 1801.0573759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Lightly: Choosing Joy, Humor, and Compassion Every Day and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1521",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+6) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T21:45:37.871Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

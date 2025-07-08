@@ -1,0 +1,456 @@
+{
+  "bookId": "1576",
+  "timestamp": "2025-07-08T00:18:46.530Z",
+  "success": false,
+  "processingTime": -1751933639615,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4668,
+    "totalAudioFiles": 12,
+    "totalDuration": 2325.893709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2325.893709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1576/optimized_text/1576.md",
+    "fileSize": 665,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1576.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1576/metadata/1576_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2325.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1576/metadata/1576_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1576/metadata/1576_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 73,
+    "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1576/1576_complete.wav",
+    "duration": 2325.893708,
+    "fileSize": 111642976,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1576/introduction.wav",
+          "duration": 94.981542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.981542,
+          "startTime": 0,
+          "endTime": 94.981542
+        },
+        {
+          "path": "Audio/output/1576/chapter_01.wav",
+          "duration": 243.29275,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Civil War’s Shadow in Everyday Life",
+          "actualDuration": 243.29275,
+          "startTime": 96.481542,
+          "endTime": 339.774292
+        },
+        {
+          "path": "Audio/output/1576/chapter_02.wav",
+          "duration": 262.883625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Reenactors, Rituals, and the Search for Belonging",
+          "actualDuration": 262.883625,
+          "startTime": 341.274292,
+          "endTime": 604.157917
+        },
+        {
+          "path": "Audio/output/1576/chapter_03.wav",
+          "duration": 223.376583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Symbols, Flags, and the Battle Over Meaning",
+          "actualDuration": 223.376583,
+          "startTime": 605.657917,
+          "endTime": 829.0345
+        },
+        {
+          "path": "Audio/output/1576/chapter_04.wav",
+          "duration": 222.994917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Race, Memory, and the Stories We Tell",
+          "actualDuration": 222.994917,
+          "startTime": 830.5345,
+          "endTime": 1053.529417
+        },
+        {
+          "path": "Audio/output/1576/chapter_05.wav",
+          "duration": 186.578542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Persistence of Myth and the Power of Memory",
+          "actualDuration": 186.578542,
+          "startTime": 1055.029417,
+          "endTime": 1241.607959
+        },
+        {
+          "path": "Audio/output/1576/chapter_06.wav",
+          "duration": 188.116958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Night Marches and the Weight of Authenticity",
+          "actualDuration": 188.116958,
+          "startTime": 1243.107959,
+          "endTime": 1431.224917
+        },
+        {
+          "path": "Audio/output/1576/chapter_07.wav",
+          "duration": 180.87125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ghosts of Andersonville",
+          "actualDuration": 180.87125,
+          "startTime": 1432.724917,
+          "endTime": 1613.596167
+        },
+        {
+          "path": "Audio/output/1576/chapter_08.wav",
+          "duration": 208.30775,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Civil War Economy: Relics, Tourism, and the Business of Memory",
+          "actualDuration": 208.30775,
+          "startTime": 1615.096167,
+          "endTime": 1823.4039169999999
+        },
+        {
+          "path": "Audio/output/1576/chapter_09.wav",
+          "duration": 188.636167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unfinished War: Modern Battles Over History",
+          "actualDuration": 188.636167,
+          "startTime": 1824.9039169999999,
+          "endTime": 2013.5400839999998
+        },
+        {
+          "path": "Audio/output/1576/chapter_10.wav",
+          "duration": 159.027625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Legacies: Family, Identity, and the Stories We Inherit",
+          "actualDuration": 159.027625,
+          "startTime": 2015.0400839999998,
+          "endTime": 2174.067709
+        },
+        {
+          "path": "Audio/output/1576/conclusion.wav",
+          "duration": 166.826,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 166.826,
+          "startTime": 2175.567709,
+          "endTime": 2342.393709
+        }
+      ],
+      "totalDuration": 2342.393709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.98,
+          "actualStart": 0,
+          "actualEnd": 94.981542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Civil War’s Shadow in Everyday Life",
+          "expectedStart": 94.98,
+          "expectedEnd": 338.27,
+          "actualStart": 96.481542,
+          "actualEnd": 339.774292,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Reenactors, Rituals, and the Search for Belonging",
+          "expectedStart": 338.27,
+          "expectedEnd": 601.15,
+          "actualStart": 341.274292,
+          "actualEnd": 604.157917,
+          "timeDifference": 3.004292000000021
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Symbols, Flags, and the Battle Over Meaning",
+          "expectedStart": 601.15,
+          "expectedEnd": 824.53,
+          "actualStart": 605.657917,
+          "actualEnd": 829.0345,
+          "timeDifference": 4.50791700000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Race, Memory, and the Stories We Tell",
+          "expectedStart": 824.53,
+          "expectedEnd": 1047.52,
+          "actualStart": 830.5345,
+          "actualEnd": 1053.529417,
+          "timeDifference": 6.004500000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Persistence of Myth and the Power of Memory",
+          "expectedStart": 1047.52,
+          "expectedEnd": 1234.1,
+          "actualStart": 1055.029417,
+          "actualEnd": 1241.607959,
+          "timeDifference": 7.509416999999985
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Night Marches and the Weight of Authenticity",
+          "expectedStart": 1234.1,
+          "expectedEnd": 1422.22,
+          "actualStart": 1243.107959,
+          "actualEnd": 1431.224917,
+          "timeDifference": 9.007959000000028
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ghosts of Andersonville",
+          "expectedStart": 1422.22,
+          "expectedEnd": 1603.09,
+          "actualStart": 1432.724917,
+          "actualEnd": 1613.596167,
+          "timeDifference": 10.504916999999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Civil War Economy: Relics, Tourism, and the Business of Memory",
+          "expectedStart": 1603.09,
+          "expectedEnd": 1811.4,
+          "actualStart": 1615.096167,
+          "actualEnd": 1823.4039169999999,
+          "timeDifference": 12.006167000000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unfinished War: Modern Battles Over History",
+          "expectedStart": 1811.4,
+          "expectedEnd": 2000.04,
+          "actualStart": 1824.9039169999999,
+          "actualEnd": 2013.5400839999998,
+          "timeDifference": 13.503916999999774
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Legacies: Family, Identity, and the Stories We Inherit",
+          "expectedStart": 2000.04,
+          "expectedEnd": 2159.07,
+          "actualStart": 2015.0400839999998,
+          "actualEnd": 2174.067709,
+          "timeDifference": 15.000083999999788
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2159.07,
+          "expectedEnd": 2325.9,
+          "actualStart": 2175.567709,
+          "actualEnd": 2342.393709,
+          "timeDifference": 16.49770899999976
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.981542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Civil War’s Shadow in Everyday Life"
+        },
+        {
+          "startTime": 339.774292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Civil War’s Shadow in Everyday Life and Chapter 2 Reenactors, Rituals, and the Search for Belonging"
+        },
+        {
+          "startTime": 604.157917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Reenactors, Rituals, and the Search for Belonging and Chapter 3 Symbols, Flags, and the Battle Over Meaning"
+        },
+        {
+          "startTime": 829.0345,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Symbols, Flags, and the Battle Over Meaning and Chapter 4 Race, Memory, and the Stories We Tell"
+        },
+        {
+          "startTime": 1053.529417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Race, Memory, and the Stories We Tell and Chapter 5 The Persistence of Myth and the Power of Memory"
+        },
+        {
+          "startTime": 1241.607959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Persistence of Myth and the Power of Memory and Chapter 6 Night Marches and the Weight of Authenticity"
+        },
+        {
+          "startTime": 1431.224917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Night Marches and the Weight of Authenticity and Chapter 7 The Ghosts of Andersonville"
+        },
+        {
+          "startTime": 1613.596167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ghosts of Andersonville and Chapter 8 The Civil War Economy: Relics, Tourism, and the Business of Memory"
+        },
+        {
+          "startTime": 1823.4039169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Civil War Economy: Relics, Tourism, and the Business of Memory and Chapter 9 The Unfinished War: Modern Battles Over History"
+        },
+        {
+          "startTime": 2013.5400839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unfinished War: Modern Battles Over History and Chapter 10 Living Legacies: Family, Identity, and the Stories We Inherit"
+        },
+        {
+          "startTime": 2174.067709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Legacies: Family, Identity, and the Stories We Inherit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1576",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 73,
+      "reasoning": "Hybrid: Genre match: storytelling (+8); Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:14:00.807Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

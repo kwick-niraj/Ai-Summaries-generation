@@ -1,0 +1,456 @@
+{
+  "bookId": "1529",
+  "timestamp": "2025-07-07T22:11:06.665Z",
+  "success": false,
+  "processingTime": -1751926053065,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3616,
+    "totalAudioFiles": 12,
+    "totalDuration": 1825.0844989999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1825.0844989999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1529/optimized_text/1529.md",
+    "fileSize": 729,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "1529.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1529/metadata/1529_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1825.08,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1529/metadata/1529_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1529/metadata/1529_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1529/1529_complete.wav",
+    "duration": 1825.0845,
+    "fileSize": 87604134,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1529/introduction.wav",
+          "duration": 111.960042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 111.960042,
+          "startTime": 0,
+          "endTime": 111.960042
+        },
+        {
+          "path": "Audio/output/1529/chapter_01.wav",
+          "duration": 177.691583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation: Morality Beyond Experience",
+          "actualDuration": 177.691583,
+          "startTime": 113.460042,
+          "endTime": 291.151625
+        },
+        {
+          "path": "Audio/output/1529/chapter_02.wav",
+          "duration": 146.634958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Nature of Duty: Actions, Motives, and Moral Worth",
+          "actualDuration": 146.634958,
+          "startTime": 292.651625,
+          "endTime": 439.28658300000006
+        },
+        {
+          "path": "Audio/output/1529/chapter_03.wav",
+          "duration": 204.18625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Universal Laws: The Categorical Imperative and Its Test",
+          "actualDuration": 204.18625,
+          "startTime": 440.78658300000006,
+          "endTime": 644.972833
+        },
+        {
+          "path": "Audio/output/1529/chapter_04.wav",
+          "duration": 164.011792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Respecting Humanity: Treating People as Ends, Not Means",
+          "actualDuration": 164.011792,
+          "startTime": 646.472833,
+          "endTime": 810.484625
+        },
+        {
+          "path": "Audio/output/1529/chapter_05.wav",
+          "duration": 163.615792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Autonomy of the Will: Freedom and Moral Law",
+          "actualDuration": 163.615792,
+          "startTime": 811.984625,
+          "endTime": 975.6004170000001
+        },
+        {
+          "path": "Audio/output/1529/chapter_06.wav",
+          "duration": 159.222208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Kingdom of Ends: Building a Community of Moral Law",
+          "actualDuration": 159.222208,
+          "startTime": 977.1004170000001,
+          "endTime": 1136.322625
+        },
+        {
+          "path": "Audio/output/1529/chapter_07.wav",
+          "duration": 154.514583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Limits of Reason: Human Nature and Moral Struggle",
+          "actualDuration": 154.514583,
+          "startTime": 1137.822625,
+          "endTime": 1292.337208
+        },
+        {
+          "path": "Audio/output/1529/chapter_08.wav",
+          "duration": 155.421458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Moral Law and Freedom: Reconciling Determinism and Responsibility",
+          "actualDuration": 155.421458,
+          "startTime": 1293.837208,
+          "endTime": 1449.258666
+        },
+        {
+          "path": "Audio/output/1529/chapter_09.wav",
+          "duration": 136.172417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Duty and Moral Motivation: The Role of Respect",
+          "actualDuration": 136.172417,
+          "startTime": 1450.758666,
+          "endTime": 1586.931083
+        },
+        {
+          "path": "Audio/output/1529/chapter_10.wav",
+          "duration": 151.766833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Applying the Framework: Everyday Moral Challenges",
+          "actualDuration": 151.766833,
+          "startTime": 1588.431083,
+          "endTime": 1740.1979159999999
+        },
+        {
+          "path": "Audio/output/1529/conclusion.wav",
+          "duration": 99.886583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.886583,
+          "startTime": 1741.6979159999999,
+          "endTime": 1841.5844989999998
+        }
+      ],
+      "totalDuration": 1841.5844989999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 111.96,
+          "actualStart": 0,
+          "actualEnd": 111.960042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation: Morality Beyond Experience",
+          "expectedStart": 111.96,
+          "expectedEnd": 289.65,
+          "actualStart": 113.460042,
+          "actualEnd": 291.151625,
+          "timeDifference": 1.5000420000000076
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Nature of Duty: Actions, Motives, and Moral Worth",
+          "expectedStart": 289.65,
+          "expectedEnd": 436.28,
+          "actualStart": 292.651625,
+          "actualEnd": 439.28658300000006,
+          "timeDifference": 3.001625000000047
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Universal Laws: The Categorical Imperative and Its Test",
+          "expectedStart": 436.28,
+          "expectedEnd": 640.47,
+          "actualStart": 440.78658300000006,
+          "actualEnd": 644.972833,
+          "timeDifference": 4.5065830000000915
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Respecting Humanity: Treating People as Ends, Not Means",
+          "expectedStart": 640.47,
+          "expectedEnd": 804.48,
+          "actualStart": 646.472833,
+          "actualEnd": 810.484625,
+          "timeDifference": 6.00283300000001
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Autonomy of the Will: Freedom and Moral Law",
+          "expectedStart": 804.48,
+          "expectedEnd": 968.1,
+          "actualStart": 811.984625,
+          "actualEnd": 975.6004170000001,
+          "timeDifference": 7.504625000000033
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Kingdom of Ends: Building a Community of Moral Law",
+          "expectedStart": 968.1,
+          "expectedEnd": 1127.32,
+          "actualStart": 977.1004170000001,
+          "actualEnd": 1136.322625,
+          "timeDifference": 9.000417000000084
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Limits of Reason: Human Nature and Moral Struggle",
+          "expectedStart": 1127.32,
+          "expectedEnd": 1281.83,
+          "actualStart": 1137.822625,
+          "actualEnd": 1292.337208,
+          "timeDifference": 10.50262500000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Moral Law and Freedom: Reconciling Determinism and Responsibility",
+          "expectedStart": 1281.83,
+          "expectedEnd": 1437.25,
+          "actualStart": 1293.837208,
+          "actualEnd": 1449.258666,
+          "timeDifference": 12.007207999999991
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Duty and Moral Motivation: The Role of Respect",
+          "expectedStart": 1437.25,
+          "expectedEnd": 1573.42,
+          "actualStart": 1450.758666,
+          "actualEnd": 1586.931083,
+          "timeDifference": 13.508665999999948
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Applying the Framework: Everyday Moral Challenges",
+          "expectedStart": 1573.42,
+          "expectedEnd": 1725.19,
+          "actualStart": 1588.431083,
+          "actualEnd": 1740.1979159999999,
+          "timeDifference": 15.011082999999871
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1725.19,
+          "expectedEnd": 1825.08,
+          "actualStart": 1741.6979159999999,
+          "actualEnd": 1841.5844989999998,
+          "timeDifference": 16.507915999999796
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 111.960042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation: Morality Beyond Experience"
+        },
+        {
+          "startTime": 291.151625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation: Morality Beyond Experience and Chapter 2 The Nature of Duty: Actions, Motives, and Moral Worth"
+        },
+        {
+          "startTime": 439.28658300000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Nature of Duty: Actions, Motives, and Moral Worth and Chapter 3 Universal Laws: The Categorical Imperative and Its Test"
+        },
+        {
+          "startTime": 644.972833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Universal Laws: The Categorical Imperative and Its Test and Chapter 4 Respecting Humanity: Treating People as Ends, Not Means"
+        },
+        {
+          "startTime": 810.484625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Respecting Humanity: Treating People as Ends, Not Means and Chapter 5 The Autonomy of the Will: Freedom and Moral Law"
+        },
+        {
+          "startTime": 975.6004170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Autonomy of the Will: Freedom and Moral Law and Chapter 6 The Kingdom of Ends: Building a Community of Moral Law"
+        },
+        {
+          "startTime": 1136.322625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Kingdom of Ends: Building a Community of Moral Law and Chapter 7 The Limits of Reason: Human Nature and Moral Struggle"
+        },
+        {
+          "startTime": 1292.337208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Limits of Reason: Human Nature and Moral Struggle and Chapter 8 Moral Law and Freedom: Reconciling Determinism and Responsibility"
+        },
+        {
+          "startTime": 1449.258666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Moral Law and Freedom: Reconciling Determinism and Responsibility and Chapter 9 Duty and Moral Motivation: The Role of Respect"
+        },
+        {
+          "startTime": 1586.931083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Duty and Moral Motivation: The Role of Respect and Chapter 10 Applying the Framework: Everyday Moral Challenges"
+        },
+        {
+          "startTime": 1740.1979159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Applying the Framework: Everyday Moral Challenges and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1529",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T22:07:33.634Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

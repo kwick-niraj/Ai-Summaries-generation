@@ -1,0 +1,456 @@
+{
+  "bookId": "1598",
+  "timestamp": "2025-07-08T00:59:28.439Z",
+  "success": false,
+  "processingTime": -1751936138388,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4435,
+    "totalAudioFiles": 12,
+    "totalDuration": 2289.201209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2289.201209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1598/optimized_text/1598.md",
+    "fileSize": 667,
+    "wordCount": 83,
+    "format": "markdown",
+    "filename": "1598.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1598/metadata/1598_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2289.2,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1598/metadata/1598_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1598/metadata/1598_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1598/1598_complete.wav",
+    "duration": 2289.201208,
+    "fileSize": 109881736,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1598/introduction.wav",
+          "duration": 86.150333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.150333,
+          "startTime": 0,
+          "endTime": 86.150333
+        },
+        {
+          "path": "Audio/output/1598/chapter_01.wav",
+          "duration": 235.494625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the First Americans and Their World",
+          "actualDuration": 235.494625,
+          "startTime": 87.650333,
+          "endTime": 323.14495800000003
+        },
+        {
+          "path": "Audio/output/1598/chapter_02.wav",
+          "duration": 281.717458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Great Cities and Civilizations",
+          "actualDuration": 281.717458,
+          "startTime": 324.64495800000003,
+          "endTime": 606.362416
+        },
+        {
+          "path": "Audio/output/1598/chapter_03.wav",
+          "duration": 244.635792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shaping the Land—Indigenous Environmental Stewardship",
+          "actualDuration": 244.635792,
+          "startTime": 607.862416,
+          "endTime": 852.4982080000001
+        },
+        {
+          "path": "Audio/output/1598/chapter_04.wav",
+          "duration": 214.323917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Catastrophe of Contact—Disease and Demographic Collapse",
+          "actualDuration": 214.323917,
+          "startTime": 853.9982080000001,
+          "endTime": 1068.3221250000001
+        },
+        {
+          "path": "Audio/output/1598/chapter_05.wav",
+          "duration": 186.278542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Old Narratives and Embracing New Histories",
+          "actualDuration": 186.278542,
+          "startTime": 1069.8221250000001,
+          "endTime": 1256.1006670000002
+        },
+        {
+          "path": "Audio/output/1598/chapter_06.wav",
+          "duration": 242.765,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Transformation of the Land—Aftermath and Adaptation",
+          "actualDuration": 242.765,
+          "startTime": 1257.6006670000002,
+          "endTime": 1500.365667
+        },
+        {
+          "path": "Audio/output/1598/chapter_07.wav",
+          "duration": 227.724792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Legacy of Indigenous Innovation",
+          "actualDuration": 227.724792,
+          "startTime": 1501.865667,
+          "endTime": 1729.590459
+        },
+        {
+          "path": "Audio/output/1598/chapter_08.wav",
+          "duration": 189.399667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Reinterpretation of History",
+          "actualDuration": 189.399667,
+          "startTime": 1731.090459,
+          "endTime": 1920.490126
+        },
+        {
+          "path": "Audio/output/1598/chapter_09.wav",
+          "duration": 153.466417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Memory, Identity, and the Power of Story",
+          "actualDuration": 153.466417,
+          "startTime": 1921.990126,
+          "endTime": 2075.456543
+        },
+        {
+          "path": "Audio/output/1598/chapter_10.wav",
+          "duration": 114.138458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Forward—Lessons for Today",
+          "actualDuration": 114.138458,
+          "startTime": 2076.956543,
+          "endTime": 2191.0950009999997
+        },
+        {
+          "path": "Audio/output/1598/conclusion.wav",
+          "duration": 113.106208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.106208,
+          "startTime": 2192.5950009999997,
+          "endTime": 2305.701209
+        }
+      ],
+      "totalDuration": 2305.701209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.15,
+          "actualStart": 0,
+          "actualEnd": 86.150333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the First Americans and Their World",
+          "expectedStart": 86.15,
+          "expectedEnd": 321.64,
+          "actualStart": 87.650333,
+          "actualEnd": 323.14495800000003,
+          "timeDifference": 1.5003329999999977
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Great Cities and Civilizations",
+          "expectedStart": 321.64,
+          "expectedEnd": 603.36,
+          "actualStart": 324.64495800000003,
+          "actualEnd": 606.362416,
+          "timeDifference": 3.0049580000000446
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shaping the Land—Indigenous Environmental Stewardship",
+          "expectedStart": 603.36,
+          "expectedEnd": 848,
+          "actualStart": 607.862416,
+          "actualEnd": 852.4982080000001,
+          "timeDifference": 4.502416000000039
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Catastrophe of Contact—Disease and Demographic Collapse",
+          "expectedStart": 848,
+          "expectedEnd": 1062.32,
+          "actualStart": 853.9982080000001,
+          "actualEnd": 1068.3221250000001,
+          "timeDifference": 5.998208000000091
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Old Narratives and Embracing New Histories",
+          "expectedStart": 1062.32,
+          "expectedEnd": 1248.6,
+          "actualStart": 1069.8221250000001,
+          "actualEnd": 1256.1006670000002,
+          "timeDifference": 7.5021250000002055
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Transformation of the Land—Aftermath and Adaptation",
+          "expectedStart": 1248.6,
+          "expectedEnd": 1491.36,
+          "actualStart": 1257.6006670000002,
+          "actualEnd": 1500.365667,
+          "timeDifference": 9.000667000000249
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Legacy of Indigenous Innovation",
+          "expectedStart": 1491.36,
+          "expectedEnd": 1719.08,
+          "actualStart": 1501.865667,
+          "actualEnd": 1729.590459,
+          "timeDifference": 10.50566700000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Reinterpretation of History",
+          "expectedStart": 1719.08,
+          "expectedEnd": 1908.48,
+          "actualStart": 1731.090459,
+          "actualEnd": 1920.490126,
+          "timeDifference": 12.010459000000083
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Memory, Identity, and the Power of Story",
+          "expectedStart": 1908.48,
+          "expectedEnd": 2061.95,
+          "actualStart": 1921.990126,
+          "actualEnd": 2075.456543,
+          "timeDifference": 13.5101259999999
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Forward—Lessons for Today",
+          "expectedStart": 2061.95,
+          "expectedEnd": 2176.09,
+          "actualStart": 2076.956543,
+          "actualEnd": 2191.0950009999997,
+          "timeDifference": 15.006542999999965
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2176.09,
+          "expectedEnd": 2289.2,
+          "actualStart": 2192.5950009999997,
+          "actualEnd": 2305.701209,
+          "timeDifference": 16.505000999999538
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.150333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the First Americans and Their World"
+        },
+        {
+          "startTime": 323.14495800000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the First Americans and Their World and Chapter 2 The Rise of Great Cities and Civilizations"
+        },
+        {
+          "startTime": 606.362416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Great Cities and Civilizations and Chapter 3 Shaping the Land—Indigenous Environmental Stewardship"
+        },
+        {
+          "startTime": 852.4982080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shaping the Land—Indigenous Environmental Stewardship and Chapter 4 The Catastrophe of Contact—Disease and Demographic Collapse"
+        },
+        {
+          "startTime": 1068.3221250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Catastrophe of Contact—Disease and Demographic Collapse and Chapter 5 Challenging Old Narratives and Embracing New Histories"
+        },
+        {
+          "startTime": 1256.1006670000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Old Narratives and Embracing New Histories and Chapter 6 The Transformation of the Land—Aftermath and Adaptation"
+        },
+        {
+          "startTime": 1500.365667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Transformation of the Land—Aftermath and Adaptation and Chapter 7 The Legacy of Indigenous Innovation"
+        },
+        {
+          "startTime": 1729.590459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Legacy of Indigenous Innovation and Chapter 8 The Ongoing Reinterpretation of History"
+        },
+        {
+          "startTime": 1920.490126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Reinterpretation of History and Chapter 9 Memory, Identity, and the Power of Story"
+        },
+        {
+          "startTime": 2075.456543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Memory, Identity, and the Power of Story and Chapter 10 Looking Forward—Lessons for Today"
+        },
+        {
+          "startTime": 2191.0950009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Forward—Lessons for Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1598",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T00:55:38.409Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

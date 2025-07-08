@@ -1,0 +1,456 @@
+{
+  "bookId": "1554",
+  "timestamp": "2025-07-07T23:19:56.807Z",
+  "success": false,
+  "processingTime": -1751930177489,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4301,
+    "totalAudioFiles": 12,
+    "totalDuration": 1884.5656250000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1884.5656250000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1554/optimized_text/1554.md",
+    "fileSize": 685,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "1554.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1554/metadata/1554_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1884.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1554/metadata/1554_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1554/metadata/1554_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1554/1554_complete.wav",
+    "duration": 1884.565625,
+    "fileSize": 90459228,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1554/introduction.wav",
+          "duration": 83.555958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.555958,
+          "startTime": 0,
+          "endTime": 83.555958
+        },
+        {
+          "path": "Audio/output/1554/chapter_01.wav",
+          "duration": 226.583208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ambition, Innovation, and the Birth of a New Kind of Company",
+          "actualDuration": 226.583208,
+          "startTime": 85.055958,
+          "endTime": 311.63916600000005
+        },
+        {
+          "path": "Audio/output/1554/chapter_02.wav",
+          "duration": 194.960625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of a Star and the Power of Charisma",
+          "actualDuration": 194.960625,
+          "startTime": 313.13916600000005,
+          "endTime": 508.09979100000004
+        },
+        {
+          "path": "Audio/output/1554/chapter_03.wav",
+          "duration": 176.4275,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Dangers of Complexity and the Art of Concealment",
+          "actualDuration": 176.4275,
+          "startTime": 509.59979100000004,
+          "endTime": 686.0272910000001
+        },
+        {
+          "path": "Audio/output/1554/chapter_04.wav",
+          "duration": 212.532375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Failure of Oversight and the Erosion of Trust",
+          "actualDuration": 212.532375,
+          "startTime": 687.5272910000001,
+          "endTime": 900.0596660000001
+        },
+        {
+          "path": "Audio/output/1554/chapter_05.wav",
+          "duration": 155.122667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Human Cost and the Lessons Left Behind",
+          "actualDuration": 155.122667,
+          "startTime": 901.5596660000001,
+          "endTime": 1056.6823330000002
+        },
+        {
+          "path": "Audio/output/1554/chapter_06.wav",
+          "duration": 183.751375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Unraveling—When the Truth Can’t Stay Hidden",
+          "actualDuration": 183.751375,
+          "startTime": 1058.1823330000002,
+          "endTime": 1241.9337080000003
+        },
+        {
+          "path": "Audio/output/1554/chapter_07.wav",
+          "duration": 153.510667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Whistleblowers and the Courage to Speak",
+          "actualDuration": 153.510667,
+          "startTime": 1243.4337080000003,
+          "endTime": 1396.9443750000003
+        },
+        {
+          "path": "Audio/output/1554/chapter_08.wav",
+          "duration": 132.14575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Collapse—A Company in Freefall",
+          "actualDuration": 132.14575,
+          "startTime": 1398.4443750000003,
+          "endTime": 1530.5901250000002
+        },
+        {
+          "path": "Audio/output/1554/chapter_09.wav",
+          "duration": 141.716625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Aftermath—Searching for Justice and Meaning",
+          "actualDuration": 141.716625,
+          "startTime": 1532.0901250000002,
+          "endTime": 1673.8067500000002
+        },
+        {
+          "path": "Audio/output/1554/chapter_10.wav",
+          "duration": 117.53,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Broader Impact—Lessons for Business and Society",
+          "actualDuration": 117.53,
+          "startTime": 1675.3067500000002,
+          "endTime": 1792.8367500000002
+        },
+        {
+          "path": "Audio/output/1554/conclusion.wav",
+          "duration": 106.728875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.728875,
+          "startTime": 1794.3367500000002,
+          "endTime": 1901.0656250000002
+        }
+      ],
+      "totalDuration": 1901.0656250000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.56,
+          "actualStart": 0,
+          "actualEnd": 83.555958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ambition, Innovation, and the Birth of a New Kind of Company",
+          "expectedStart": 83.56,
+          "expectedEnd": 310.14,
+          "actualStart": 85.055958,
+          "actualEnd": 311.63916600000005,
+          "timeDifference": 1.4959580000000017
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of a Star and the Power of Charisma",
+          "expectedStart": 310.14,
+          "expectedEnd": 505.1,
+          "actualStart": 313.13916600000005,
+          "actualEnd": 508.09979100000004,
+          "timeDifference": 2.9991660000000593
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Dangers of Complexity and the Art of Concealment",
+          "expectedStart": 505.1,
+          "expectedEnd": 681.53,
+          "actualStart": 509.59979100000004,
+          "actualEnd": 686.0272910000001,
+          "timeDifference": 4.499791000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Failure of Oversight and the Erosion of Trust",
+          "expectedStart": 681.53,
+          "expectedEnd": 894.06,
+          "actualStart": 687.5272910000001,
+          "actualEnd": 900.0596660000001,
+          "timeDifference": 5.997291000000132
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Human Cost and the Lessons Left Behind",
+          "expectedStart": 894.06,
+          "expectedEnd": 1049.18,
+          "actualStart": 901.5596660000001,
+          "actualEnd": 1056.6823330000002,
+          "timeDifference": 7.499666000000161
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Unraveling—When the Truth Can’t Stay Hidden",
+          "expectedStart": 1049.18,
+          "expectedEnd": 1232.93,
+          "actualStart": 1058.1823330000002,
+          "actualEnd": 1241.9337080000003,
+          "timeDifference": 9.002333000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Whistleblowers and the Courage to Speak",
+          "expectedStart": 1232.93,
+          "expectedEnd": 1386.44,
+          "actualStart": 1243.4337080000003,
+          "actualEnd": 1396.9443750000003,
+          "timeDifference": 10.503708000000188
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Collapse—A Company in Freefall",
+          "expectedStart": 1386.44,
+          "expectedEnd": 1518.59,
+          "actualStart": 1398.4443750000003,
+          "actualEnd": 1530.5901250000002,
+          "timeDifference": 12.00437500000021
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Aftermath—Searching for Justice and Meaning",
+          "expectedStart": 1518.59,
+          "expectedEnd": 1660.31,
+          "actualStart": 1532.0901250000002,
+          "actualEnd": 1673.8067500000002,
+          "timeDifference": 13.500125000000253
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Broader Impact—Lessons for Business and Society",
+          "expectedStart": 1660.31,
+          "expectedEnd": 1777.84,
+          "actualStart": 1675.3067500000002,
+          "actualEnd": 1792.8367500000002,
+          "timeDifference": 14.996750000000247
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1777.84,
+          "expectedEnd": 1884.57,
+          "actualStart": 1794.3367500000002,
+          "actualEnd": 1901.0656250000002,
+          "timeDifference": 16.496750000000247
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.555958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ambition, Innovation, and the Birth of a New Kind of Company"
+        },
+        {
+          "startTime": 311.63916600000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ambition, Innovation, and the Birth of a New Kind of Company and Chapter 2 The Rise of a Star and the Power of Charisma"
+        },
+        {
+          "startTime": 508.09979100000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of a Star and the Power of Charisma and Chapter 3 The Hidden Dangers of Complexity and the Art of Concealment"
+        },
+        {
+          "startTime": 686.0272910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Dangers of Complexity and the Art of Concealment and Chapter 4 The Failure of Oversight and the Erosion of Trust"
+        },
+        {
+          "startTime": 900.0596660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Failure of Oversight and the Erosion of Trust and Chapter 5 The Human Cost and the Lessons Left Behind"
+        },
+        {
+          "startTime": 1056.6823330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Human Cost and the Lessons Left Behind and Chapter 6 The Unraveling—When the Truth Can’t Stay Hidden"
+        },
+        {
+          "startTime": 1241.9337080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Unraveling—When the Truth Can’t Stay Hidden and Chapter 7 Whistleblowers and the Courage to Speak"
+        },
+        {
+          "startTime": 1396.9443750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Whistleblowers and the Courage to Speak and Chapter 8 The Collapse—A Company in Freefall"
+        },
+        {
+          "startTime": 1530.5901250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Collapse—A Company in Freefall and Chapter 9 The Aftermath—Searching for Justice and Meaning"
+        },
+        {
+          "startTime": 1673.8067500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Aftermath—Searching for Justice and Meaning and Chapter 10 The Broader Impact—Lessons for Business and Society"
+        },
+        {
+          "startTime": 1792.8367500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Broader Impact—Lessons for Business and Society and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1554",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-07T23:16:18.041Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}
