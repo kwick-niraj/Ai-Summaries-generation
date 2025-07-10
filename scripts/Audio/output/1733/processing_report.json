@@ -1,0 +1,432 @@
+{
+  "bookId": "1733",
+  "timestamp": "2025-07-08T10:25:05.878Z",
+  "success": false,
+  "processingTime": -1751969809191,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4162,
+    "totalAudioFiles": 11,
+    "totalDuration": 2130.781917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2130.781917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1733/optimized_text/1733.md",
+    "fileSize": 573,
+    "wordCount": 69,
+    "format": "markdown",
+    "filename": "1733.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1733/metadata/1733_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2130.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1733/metadata/1733_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1733/metadata/1733_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1733/1733_complete.wav",
+    "duration": 2130.781917,
+    "fileSize": 102277610,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1733/introduction.wav",
+          "duration": 113.880125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.880125,
+          "startTime": 0,
+          "endTime": 113.880125
+        },
+        {
+          "path": "Audio/output/1733/chapter_01.wav",
+          "duration": 228.933583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Emotional Pain and the Path to Healing",
+          "actualDuration": 228.933583,
+          "startTime": 115.380125,
+          "endTime": 344.313708
+        },
+        {
+          "path": "Audio/output/1733/chapter_02.wav",
+          "duration": 267.336667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Self-Awareness and Accepting Difficult Emotions",
+          "actualDuration": 267.336667,
+          "startTime": 345.813708,
+          "endTime": 613.1503749999999
+        },
+        {
+          "path": "Audio/output/1733/chapter_03.wav",
+          "duration": 234.169917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Small Daily Habits for Emotional Healing",
+          "actualDuration": 234.169917,
+          "startTime": 614.6503749999999,
+          "endTime": 848.8202919999999
+        },
+        {
+          "path": "Audio/output/1733/chapter_04.wav",
+          "duration": 238.002667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Resilience Through Self-Care and Boundaries",
+          "actualDuration": 238.002667,
+          "startTime": 850.3202919999999,
+          "endTime": 1088.3229589999999
+        },
+        {
+          "path": "Audio/output/1733/chapter_05.wav",
+          "duration": 211.384958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Gradual Shift Toward Inner Happiness",
+          "actualDuration": 211.384958,
+          "startTime": 1089.8229589999999,
+          "endTime": 1301.207917
+        },
+        {
+          "path": "Audio/output/1733/chapter_06.wav",
+          "duration": 187.214625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks and Embracing Imperfection",
+          "actualDuration": 187.214625,
+          "startTime": 1302.707917,
+          "endTime": 1489.922542
+        },
+        {
+          "path": "Audio/output/1733/chapter_07.wav",
+          "duration": 184.239875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Connection with Others",
+          "actualDuration": 184.239875,
+          "startTime": 1491.422542,
+          "endTime": 1675.662417
+        },
+        {
+          "path": "Audio/output/1733/chapter_08.wav",
+          "duration": 155.811875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rewriting Personal Narratives",
+          "actualDuration": 155.811875,
+          "startTime": 1677.162417,
+          "endTime": 1832.9742919999999
+        },
+        {
+          "path": "Audio/output/1733/chapter_09.wav",
+          "duration": 164.5675,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Growth and Cultivating Meaning",
+          "actualDuration": 164.5675,
+          "startTime": 1834.4742919999999,
+          "endTime": 1999.041792
+        },
+        {
+          "path": "Audio/output/1733/conclusion.wav",
+          "duration": 145.240125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.240125,
+          "startTime": 2000.541792,
+          "endTime": 2145.781917
+        }
+      ],
+      "totalDuration": 2145.781917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.88,
+          "actualStart": 0,
+          "actualEnd": 113.880125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Emotional Pain and the Path to Healing",
+          "expectedStart": 113.88,
+          "expectedEnd": 342.81,
+          "actualStart": 115.380125,
+          "actualEnd": 344.313708,
+          "timeDifference": 1.5001250000000113
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Self-Awareness and Accepting Difficult Emotions",
+          "expectedStart": 342.81,
+          "expectedEnd": 610.15,
+          "actualStart": 345.813708,
+          "actualEnd": 613.1503749999999,
+          "timeDifference": 3.0037080000000174
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Small Daily Habits for Emotional Healing",
+          "expectedStart": 610.15,
+          "expectedEnd": 844.32,
+          "actualStart": 614.6503749999999,
+          "actualEnd": 848.8202919999999,
+          "timeDifference": 4.500374999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Resilience Through Self-Care and Boundaries",
+          "expectedStart": 844.32,
+          "expectedEnd": 1082.32,
+          "actualStart": 850.3202919999999,
+          "actualEnd": 1088.3229589999999,
+          "timeDifference": 6.000291999999831
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Gradual Shift Toward Inner Happiness",
+          "expectedStart": 1082.32,
+          "expectedEnd": 1293.7,
+          "actualStart": 1089.8229589999999,
+          "actualEnd": 1301.207917,
+          "timeDifference": 7.502958999999919
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks and Embracing Imperfection",
+          "expectedStart": 1293.7,
+          "expectedEnd": 1480.91,
+          "actualStart": 1302.707917,
+          "actualEnd": 1489.922542,
+          "timeDifference": 9.007916999999907
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Connection with Others",
+          "expectedStart": 1480.91,
+          "expectedEnd": 1665.15,
+          "actualStart": 1491.422542,
+          "actualEnd": 1675.662417,
+          "timeDifference": 10.51254199999994
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rewriting Personal Narratives",
+          "expectedStart": 1665.15,
+          "expectedEnd": 1820.96,
+          "actualStart": 1677.162417,
+          "actualEnd": 1832.9742919999999,
+          "timeDifference": 12.012416999999914
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Growth and Cultivating Meaning",
+          "expectedStart": 1820.96,
+          "expectedEnd": 1985.53,
+          "actualStart": 1834.4742919999999,
+          "actualEnd": 1999.041792,
+          "timeDifference": 13.514291999999841
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1985.53,
+          "expectedEnd": 2130.77,
+          "actualStart": 2000.541792,
+          "actualEnd": 2145.781917,
+          "timeDifference": 15.011792000000014
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.880125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Emotional Pain and the Path to Healing"
+        },
+        {
+          "startTime": 344.313708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Emotional Pain and the Path to Healing and Chapter 2 Building Self-Awareness and Accepting Difficult Emotions"
+        },
+        {
+          "startTime": 613.1503749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Self-Awareness and Accepting Difficult Emotions and Chapter 3 Small Daily Habits for Emotional Healing"
+        },
+        {
+          "startTime": 848.8202919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Small Daily Habits for Emotional Healing and Chapter 4 Building Resilience Through Self-Care and Boundaries"
+        },
+        {
+          "startTime": 1088.3229589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Resilience Through Self-Care and Boundaries and Chapter 5 The Gradual Shift Toward Inner Happiness"
+        },
+        {
+          "startTime": 1301.207917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Gradual Shift Toward Inner Happiness and Chapter 6 Navigating Setbacks and Embracing Imperfection"
+        },
+        {
+          "startTime": 1489.922542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks and Embracing Imperfection and Chapter 7 Deepening Connection with Others"
+        },
+        {
+          "startTime": 1675.662417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Connection with Others and Chapter 8 Rewriting Personal Narratives"
+        },
+        {
+          "startTime": 1832.9742919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rewriting Personal Narratives and Chapter 9 Sustaining Growth and Cultivating Meaning"
+        },
+        {
+          "startTime": 1999.041792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Growth and Cultivating Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1733",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T10:16:50.361Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

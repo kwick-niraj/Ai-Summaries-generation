@@ -1,0 +1,456 @@
+{
+  "bookId": "1738",
+  "timestamp": "2025-07-08T10:30:55.725Z",
+  "success": false,
+  "processingTime": -1751970306882,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4140,
+    "totalAudioFiles": 12,
+    "totalDuration": 2231.715543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2231.715543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1738/optimized_text/1738.md",
+    "fileSize": 746,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1738.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1738/metadata/1738_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2231.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1738/metadata/1738_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1738/metadata/1738_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1738/1738_complete.wav",
+    "duration": 2231.715542,
+    "fileSize": 107122424,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1738/introduction.wav",
+          "duration": 94.004458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.004458,
+          "startTime": 0,
+          "endTime": 94.004458
+        },
+        {
+          "path": "Audio/output/1738/chapter_01.wav",
+          "duration": 218.310042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundations of Natural and Integrative Medicine",
+          "actualDuration": 218.310042,
+          "startTime": 95.504458,
+          "endTime": 313.8145
+        },
+        {
+          "path": "Audio/output/1738/chapter_02.wav",
+          "duration": 223.105667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Healing Power of Nature and the Body’s Innate Wisdom",
+          "actualDuration": 223.105667,
+          "startTime": 315.3145,
+          "endTime": 538.420167
+        },
+        {
+          "path": "Audio/output/1738/chapter_03.wav",
+          "duration": 226.937208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Treating the Whole Person: Individualized and Patient-Centered Care",
+          "actualDuration": 226.937208,
+          "startTime": 539.920167,
+          "endTime": 766.857375
+        },
+        {
+          "path": "Audio/output/1738/chapter_04.wav",
+          "duration": 226.285417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Prevention, Lifestyle, and the Central Role of Education",
+          "actualDuration": 226.285417,
+          "startTime": 768.357375,
+          "endTime": 994.6427920000001
+        },
+        {
+          "path": "Audio/output/1738/chapter_05.wav",
+          "duration": 282.946792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Natural Therapies: Tools for Healing and Wellness",
+          "actualDuration": 282.946792,
+          "startTime": 996.1427920000001,
+          "endTime": 1279.089584
+        },
+        {
+          "path": "Audio/output/1738/chapter_06.wav",
+          "duration": 187.407417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Integrating Natural and Conventional Medicine: Building a Collaborative Model",
+          "actualDuration": 187.407417,
+          "startTime": 1280.589584,
+          "endTime": 1467.9970010000002
+        },
+        {
+          "path": "Audio/output/1738/chapter_07.wav",
+          "duration": 176.143292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Case Studies: Stories of Healing in Practice",
+          "actualDuration": 176.143292,
+          "startTime": 1469.4970010000002,
+          "endTime": 1645.6402930000002
+        },
+        {
+          "path": "Audio/output/1738/chapter_08.wav",
+          "duration": 163.8135,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Challenges and Limitations",
+          "actualDuration": 163.8135,
+          "startTime": 1647.1402930000002,
+          "endTime": 1810.9537930000001
+        },
+        {
+          "path": "Audio/output/1738/chapter_09.wav",
+          "duration": 202.155417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Steps for Everyday Integration",
+          "actualDuration": 202.155417,
+          "startTime": 1812.4537930000001,
+          "endTime": 2014.60921
+        },
+        {
+          "path": "Audio/output/1738/chapter_10.wav",
+          "duration": 115.780833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Future of Integrative Medicine: A Vision for Holistic Health",
+          "actualDuration": 115.780833,
+          "startTime": 2016.10921,
+          "endTime": 2131.890043
+        },
+        {
+          "path": "Audio/output/1738/conclusion.wav",
+          "duration": 114.8255,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.8255,
+          "startTime": 2133.390043,
+          "endTime": 2248.215543
+        }
+      ],
+      "totalDuration": 2248.215543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94,
+          "actualStart": 0,
+          "actualEnd": 94.004458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundations of Natural and Integrative Medicine",
+          "expectedStart": 94,
+          "expectedEnd": 312.31,
+          "actualStart": 95.504458,
+          "actualEnd": 313.8145,
+          "timeDifference": 1.5044579999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Healing Power of Nature and the Body’s Innate Wisdom",
+          "expectedStart": 312.31,
+          "expectedEnd": 535.42,
+          "actualStart": 315.3145,
+          "actualEnd": 538.420167,
+          "timeDifference": 3.0045000000000073
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Treating the Whole Person: Individualized and Patient-Centered Care",
+          "expectedStart": 535.42,
+          "expectedEnd": 762.36,
+          "actualStart": 539.920167,
+          "actualEnd": 766.857375,
+          "timeDifference": 4.500167000000033
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Prevention, Lifestyle, and the Central Role of Education",
+          "expectedStart": 762.36,
+          "expectedEnd": 988.65,
+          "actualStart": 768.357375,
+          "actualEnd": 994.6427920000001,
+          "timeDifference": 5.997375000000034
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Natural Therapies: Tools for Healing and Wellness",
+          "expectedStart": 988.65,
+          "expectedEnd": 1271.6,
+          "actualStart": 996.1427920000001,
+          "actualEnd": 1279.089584,
+          "timeDifference": 7.492792000000122
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Integrating Natural and Conventional Medicine: Building a Collaborative Model",
+          "expectedStart": 1271.6,
+          "expectedEnd": 1459.01,
+          "actualStart": 1280.589584,
+          "actualEnd": 1467.9970010000002,
+          "timeDifference": 8.98958400000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Case Studies: Stories of Healing in Practice",
+          "expectedStart": 1459.01,
+          "expectedEnd": 1635.15,
+          "actualStart": 1469.4970010000002,
+          "actualEnd": 1645.6402930000002,
+          "timeDifference": 10.487001000000191
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Challenges and Limitations",
+          "expectedStart": 1635.15,
+          "expectedEnd": 1798.96,
+          "actualStart": 1647.1402930000002,
+          "actualEnd": 1810.9537930000001,
+          "timeDifference": 11.990293000000065
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Steps for Everyday Integration",
+          "expectedStart": 1798.96,
+          "expectedEnd": 2001.12,
+          "actualStart": 1812.4537930000001,
+          "actualEnd": 2014.60921,
+          "timeDifference": 13.493793000000096
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Future of Integrative Medicine: A Vision for Holistic Health",
+          "expectedStart": 2001.12,
+          "expectedEnd": 2116.9,
+          "actualStart": 2016.10921,
+          "actualEnd": 2131.890043,
+          "timeDifference": 14.989210000000185
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2116.9,
+          "expectedEnd": 2231.73,
+          "actualStart": 2133.390043,
+          "actualEnd": 2248.215543,
+          "timeDifference": 16.490042999999787
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.004458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundations of Natural and Integrative Medicine"
+        },
+        {
+          "startTime": 313.8145,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundations of Natural and Integrative Medicine and Chapter 2 The Healing Power of Nature and the Body’s Innate Wisdom"
+        },
+        {
+          "startTime": 538.420167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Healing Power of Nature and the Body’s Innate Wisdom and Chapter 3 Treating the Whole Person: Individualized and Patient-Centered Care"
+        },
+        {
+          "startTime": 766.857375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Treating the Whole Person: Individualized and Patient-Centered Care and Chapter 4 Prevention, Lifestyle, and the Central Role of Education"
+        },
+        {
+          "startTime": 994.6427920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Prevention, Lifestyle, and the Central Role of Education and Chapter 5 Natural Therapies: Tools for Healing and Wellness"
+        },
+        {
+          "startTime": 1279.089584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Natural Therapies: Tools for Healing and Wellness and Chapter 6 Integrating Natural and Conventional Medicine: Building a Collaborative Model"
+        },
+        {
+          "startTime": 1467.9970010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Integrating Natural and Conventional Medicine: Building a Collaborative Model and Chapter 7 Case Studies: Stories of Healing in Practice"
+        },
+        {
+          "startTime": 1645.6402930000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Case Studies: Stories of Healing in Practice and Chapter 8 Navigating Challenges and Limitations"
+        },
+        {
+          "startTime": 1810.9537930000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Challenges and Limitations and Chapter 9 Practical Steps for Everyday Integration"
+        },
+        {
+          "startTime": 2014.60921,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Steps for Everyday Integration and Chapter 10 The Future of Integrative Medicine: A Vision for Holistic Health"
+        },
+        {
+          "startTime": 2131.890043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Future of Integrative Medicine: A Vision for Holistic Health and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1738",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T10:25:08.057Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

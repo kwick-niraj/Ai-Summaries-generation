@@ -1,0 +1,456 @@
+{
+  "bookId": "2152",
+  "timestamp": "2025-07-09T22:03:41.582Z",
+  "success": false,
+  "processingTime": -1752098275447,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4541,
+    "totalAudioFiles": 12,
+    "totalDuration": 2243.3334589999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2243.3334589999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2152/optimized_text/2152.md",
+    "fileSize": 825,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2152.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2152/metadata/2152_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2243.33,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2152/metadata/2152_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2152/metadata/2152_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2152/2152_complete.wav",
+    "duration": 2243.333458,
+    "fileSize": 107680084,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2152/introduction.wav",
+          "duration": 93.680208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.680208,
+          "startTime": 0,
+          "endTime": 93.680208
+        },
+        {
+          "path": "Audio/output/2152/chapter_01.wav",
+          "duration": 209.432917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Foundations of Yoga and Vipassana—Two Paths, One Purpose",
+          "actualDuration": 209.432917,
+          "startTime": 95.180208,
+          "endTime": 304.61312499999997
+        },
+        {
+          "path": "Audio/output/2152/chapter_02.wav",
+          "duration": 250.82625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Ethical and Philosophical Groundwork for Transformation",
+          "actualDuration": 250.82625,
+          "startTime": 306.11312499999997,
+          "endTime": 556.9393749999999
+        },
+        {
+          "path": "Audio/output/2152/chapter_03.wav",
+          "duration": 211.013625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Practical Disciplines of Yoga—Body, Breath, and Mind",
+          "actualDuration": 211.013625,
+          "startTime": 558.4393749999999,
+          "endTime": 769.453
+        },
+        {
+          "path": "Audio/output/2152/chapter_04.wav",
+          "duration": 248.629417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Practice of Vipassana—Cultivating Mindfulness and Insight",
+          "actualDuration": 248.629417,
+          "startTime": 770.953,
+          "endTime": 1019.582417
+        },
+        {
+          "path": "Audio/output/2152/chapter_05.wav",
+          "duration": 217.303292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Yoga and Vipassana—A Holistic Approach to Wellbeing",
+          "actualDuration": 217.303292,
+          "startTime": 1021.082417,
+          "endTime": 1238.385709
+        },
+        {
+          "path": "Audio/output/2152/chapter_06.wav",
+          "duration": 208.654292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening Daily Practice—Bridging the Gap Between Formal and Everyday Life",
+          "actualDuration": 208.654292,
+          "startTime": 1239.885709,
+          "endTime": 1448.5400009999998
+        },
+        {
+          "path": "Audio/output/2152/chapter_07.wav",
+          "duration": 190.343083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Obstacles—Common Challenges and Skillful Responses",
+          "actualDuration": 190.343083,
+          "startTime": 1450.0400009999998,
+          "endTime": 1640.3830839999998
+        },
+        {
+          "path": "Audio/output/2152/chapter_08.wav",
+          "duration": 158.518,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Motivation—The Role of Community, Reflection, and Renewal",
+          "actualDuration": 158.518,
+          "startTime": 1641.8830839999998,
+          "endTime": 1800.4010839999999
+        },
+        {
+          "path": "Audio/output/2152/chapter_09.wav",
+          "duration": 154.825542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Fruits of Integration—Transformation in Action",
+          "actualDuration": 154.825542,
+          "startTime": 1801.9010839999999,
+          "endTime": 1956.726626
+        },
+        {
+          "path": "Audio/output/2152/chapter_10.wav",
+          "duration": 140.987458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Path—A Lifelong Journey of Growth and Service",
+          "actualDuration": 140.987458,
+          "startTime": 1958.226626,
+          "endTime": 2099.2140839999997
+        },
+        {
+          "path": "Audio/output/2152/conclusion.wav",
+          "duration": 159.119375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 159.119375,
+          "startTime": 2100.7140839999997,
+          "endTime": 2259.8334589999995
+        }
+      ],
+      "totalDuration": 2259.8334589999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.68,
+          "actualStart": 0,
+          "actualEnd": 93.680208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Foundations of Yoga and Vipassana—Two Paths, One Purpose",
+          "expectedStart": 93.68,
+          "expectedEnd": 303.11,
+          "actualStart": 95.180208,
+          "actualEnd": 304.61312499999997,
+          "timeDifference": 1.5002079999999864
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Ethical and Philosophical Groundwork for Transformation",
+          "expectedStart": 303.11,
+          "expectedEnd": 553.94,
+          "actualStart": 306.11312499999997,
+          "actualEnd": 556.9393749999999,
+          "timeDifference": 3.0031249999999545
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Practical Disciplines of Yoga—Body, Breath, and Mind",
+          "expectedStart": 553.94,
+          "expectedEnd": 764.95,
+          "actualStart": 558.4393749999999,
+          "actualEnd": 769.453,
+          "timeDifference": 4.499374999999873
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Practice of Vipassana—Cultivating Mindfulness and Insight",
+          "expectedStart": 764.95,
+          "expectedEnd": 1013.58,
+          "actualStart": 770.953,
+          "actualEnd": 1019.582417,
+          "timeDifference": 6.002999999999929
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Yoga and Vipassana—A Holistic Approach to Wellbeing",
+          "expectedStart": 1013.58,
+          "expectedEnd": 1230.88,
+          "actualStart": 1021.082417,
+          "actualEnd": 1238.385709,
+          "timeDifference": 7.502416999999923
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening Daily Practice—Bridging the Gap Between Formal and Everyday Life",
+          "expectedStart": 1230.88,
+          "expectedEnd": 1439.53,
+          "actualStart": 1239.885709,
+          "actualEnd": 1448.5400009999998,
+          "timeDifference": 9.005708999999797
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Obstacles—Common Challenges and Skillful Responses",
+          "expectedStart": 1439.53,
+          "expectedEnd": 1629.87,
+          "actualStart": 1450.0400009999998,
+          "actualEnd": 1640.3830839999998,
+          "timeDifference": 10.510000999999875
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Motivation—The Role of Community, Reflection, and Renewal",
+          "expectedStart": 1629.87,
+          "expectedEnd": 1788.39,
+          "actualStart": 1641.8830839999998,
+          "actualEnd": 1800.4010839999999,
+          "timeDifference": 12.013083999999935
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Fruits of Integration—Transformation in Action",
+          "expectedStart": 1788.39,
+          "expectedEnd": 1943.22,
+          "actualStart": 1801.9010839999999,
+          "actualEnd": 1956.726626,
+          "timeDifference": 13.511083999999755
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Path—A Lifelong Journey of Growth and Service",
+          "expectedStart": 1943.22,
+          "expectedEnd": 2084.21,
+          "actualStart": 1958.226626,
+          "actualEnd": 2099.2140839999997,
+          "timeDifference": 15.00662599999987
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2084.21,
+          "expectedEnd": 2243.33,
+          "actualStart": 2100.7140839999997,
+          "actualEnd": 2259.8334589999995,
+          "timeDifference": 16.504083999999693
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.680208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Foundations of Yoga and Vipassana—Two Paths, One Purpose"
+        },
+        {
+          "startTime": 304.61312499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Foundations of Yoga and Vipassana—Two Paths, One Purpose and Chapter 2 The Ethical and Philosophical Groundwork for Transformation"
+        },
+        {
+          "startTime": 556.9393749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Ethical and Philosophical Groundwork for Transformation and Chapter 3 The Practical Disciplines of Yoga—Body, Breath, and Mind"
+        },
+        {
+          "startTime": 769.453,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Practical Disciplines of Yoga—Body, Breath, and Mind and Chapter 4 The Practice of Vipassana—Cultivating Mindfulness and Insight"
+        },
+        {
+          "startTime": 1019.582417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Practice of Vipassana—Cultivating Mindfulness and Insight and Chapter 5 Integrating Yoga and Vipassana—A Holistic Approach to Wellbeing"
+        },
+        {
+          "startTime": 1238.385709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Yoga and Vipassana—A Holistic Approach to Wellbeing and Chapter 6 Deepening Daily Practice—Bridging the Gap Between Formal and Everyday Life"
+        },
+        {
+          "startTime": 1448.5400009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening Daily Practice—Bridging the Gap Between Formal and Everyday Life and Chapter 7 Navigating Obstacles—Common Challenges and Skillful Responses"
+        },
+        {
+          "startTime": 1640.3830839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Obstacles—Common Challenges and Skillful Responses and Chapter 8 Sustaining Motivation—The Role of Community, Reflection, and Renewal"
+        },
+        {
+          "startTime": 1800.4010839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Motivation—The Role of Community, Reflection, and Renewal and Chapter 9 The Fruits of Integration—Transformation in Action"
+        },
+        {
+          "startTime": 1956.726626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Fruits of Integration—Transformation in Action and Chapter 10 Living the Path—A Lifelong Journey of Growth and Service"
+        },
+        {
+          "startTime": 2099.2140839999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Path—A Lifelong Journey of Growth and Service and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2152",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T21:57:57.033Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2226",
+  "timestamp": "2025-07-10T01:51:40.836Z",
+  "success": false,
+  "processingTime": -1752111770138,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4790,
+    "totalAudioFiles": 12,
+    "totalDuration": 2249.104625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2249.104625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2226/optimized_text/2226.md",
+    "fileSize": 703,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2226.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2226/metadata/2226_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2249.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2226/metadata/2226_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2226/metadata/2226_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2226/2226_complete.wav",
+    "duration": 2249.104625,
+    "fileSize": 107957100,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2226/introduction.wav",
+          "duration": 78.855625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.855625,
+          "startTime": 0,
+          "endTime": 78.855625
+        },
+        {
+          "path": "Audio/output/2226/chapter_01.wav",
+          "duration": 246.500833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World of Test Pilots and the Birth of a New Hero",
+          "actualDuration": 246.500833,
+          "startTime": 80.355625,
+          "endTime": 326.856458
+        },
+        {
+          "path": "Audio/output/2226/chapter_02.wav",
+          "duration": 254.640417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Mercury Seven and the Making of American Icons",
+          "actualDuration": 254.640417,
+          "startTime": 328.356458,
+          "endTime": 582.996875
+        },
+        {
+          "path": "Audio/output/2226/chapter_03.wav",
+          "duration": 277.784792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Dangers and the Cost of Pushing Boundaries",
+          "actualDuration": 277.784792,
+          "startTime": 584.496875,
+          "endTime": 862.281667
+        },
+        {
+          "path": "Audio/output/2226/chapter_04.wav",
+          "duration": 284.873458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Media and the Creation of the Space Age Myth",
+          "actualDuration": 284.873458,
+          "startTime": 863.781667,
+          "endTime": 1148.655125
+        },
+        {
+          "path": "Audio/output/2226/chapter_05.wav",
+          "duration": 223.77325,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Camaraderie, Competition, and the Unseen Bonds",
+          "actualDuration": 223.77325,
+          "startTime": 1150.155125,
+          "endTime": 1373.928375
+        },
+        {
+          "path": "Audio/output/2226/chapter_06.wav",
+          "duration": 188.203792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Next Frontier: Gemini, Apollo, and the Expanding Dream",
+          "actualDuration": 188.203792,
+          "startTime": 1375.428375,
+          "endTime": 1563.632167
+        },
+        {
+          "path": "Audio/output/2226/chapter_07.wav",
+          "duration": 172.841375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Human Cost: Sacrifice, Loss, and the Price of Progress",
+          "actualDuration": 172.841375,
+          "startTime": 1565.132167,
+          "endTime": 1737.973542
+        },
+        {
+          "path": "Audio/output/2226/chapter_08.wav",
+          "duration": 140.55025,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Changing Face of Heroism",
+          "actualDuration": 140.55025,
+          "startTime": 1739.473542,
+          "endTime": 1880.023792
+        },
+        {
+          "path": "Audio/output/2226/chapter_09.wav",
+          "duration": 132.692833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Legacy and Reflection: The Enduring Impact of “The Right Stuff”",
+          "actualDuration": 132.692833,
+          "startTime": 1881.523792,
+          "endTime": 2014.216625
+        },
+        {
+          "path": "Audio/output/2226/chapter_10.wav",
+          "duration": 133.458667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Right Stuff in Everyday Life",
+          "actualDuration": 133.458667,
+          "startTime": 2015.716625,
+          "endTime": 2149.175292
+        },
+        {
+          "path": "Audio/output/2226/conclusion.wav",
+          "duration": 114.929333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.929333,
+          "startTime": 2150.675292,
+          "endTime": 2265.604625
+        }
+      ],
+      "totalDuration": 2265.604625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.86,
+          "actualStart": 0,
+          "actualEnd": 78.855625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World of Test Pilots and the Birth of a New Hero",
+          "expectedStart": 78.86,
+          "expectedEnd": 325.36,
+          "actualStart": 80.355625,
+          "actualEnd": 326.856458,
+          "timeDifference": 1.495625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Mercury Seven and the Making of American Icons",
+          "expectedStart": 325.36,
+          "expectedEnd": 580,
+          "actualStart": 328.356458,
+          "actualEnd": 582.996875,
+          "timeDifference": 2.9964579999999614
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Dangers and the Cost of Pushing Boundaries",
+          "expectedStart": 580,
+          "expectedEnd": 857.78,
+          "actualStart": 584.496875,
+          "actualEnd": 862.281667,
+          "timeDifference": 4.4968750000000455
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Media and the Creation of the Space Age Myth",
+          "expectedStart": 857.78,
+          "expectedEnd": 1142.65,
+          "actualStart": 863.781667,
+          "actualEnd": 1148.655125,
+          "timeDifference": 6.001666999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Camaraderie, Competition, and the Unseen Bonds",
+          "expectedStart": 1142.65,
+          "expectedEnd": 1366.42,
+          "actualStart": 1150.155125,
+          "actualEnd": 1373.928375,
+          "timeDifference": 7.505124999999907
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Next Frontier: Gemini, Apollo, and the Expanding Dream",
+          "expectedStart": 1366.42,
+          "expectedEnd": 1554.62,
+          "actualStart": 1375.428375,
+          "actualEnd": 1563.632167,
+          "timeDifference": 9.008374999999887
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Human Cost: Sacrifice, Loss, and the Price of Progress",
+          "expectedStart": 1554.62,
+          "expectedEnd": 1727.46,
+          "actualStart": 1565.132167,
+          "actualEnd": 1737.973542,
+          "timeDifference": 10.51216700000009
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Changing Face of Heroism",
+          "expectedStart": 1727.46,
+          "expectedEnd": 1868.01,
+          "actualStart": 1739.473542,
+          "actualEnd": 1880.023792,
+          "timeDifference": 12.013541999999916
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Legacy and Reflection: The Enduring Impact of “The Right Stuff”",
+          "expectedStart": 1868.01,
+          "expectedEnd": 2000.7,
+          "actualStart": 1881.523792,
+          "actualEnd": 2014.216625,
+          "timeDifference": 13.513791999999967
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Right Stuff in Everyday Life",
+          "expectedStart": 2000.7,
+          "expectedEnd": 2134.16,
+          "actualStart": 2015.716625,
+          "actualEnd": 2149.175292,
+          "timeDifference": 15.016624999999976
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2134.16,
+          "expectedEnd": 2249.09,
+          "actualStart": 2150.675292,
+          "actualEnd": 2265.604625,
+          "timeDifference": 16.515292000000045
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.855625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World of Test Pilots and the Birth of a New Hero"
+        },
+        {
+          "startTime": 326.856458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World of Test Pilots and the Birth of a New Hero and Chapter 2 The Mercury Seven and the Making of American Icons"
+        },
+        {
+          "startTime": 582.996875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Mercury Seven and the Making of American Icons and Chapter 3 The Hidden Dangers and the Cost of Pushing Boundaries"
+        },
+        {
+          "startTime": 862.281667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Dangers and the Cost of Pushing Boundaries and Chapter 4 The Role of Media and the Creation of the Space Age Myth"
+        },
+        {
+          "startTime": 1148.655125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Media and the Creation of the Space Age Myth and Chapter 5 Camaraderie, Competition, and the Unseen Bonds"
+        },
+        {
+          "startTime": 1373.928375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Camaraderie, Competition, and the Unseen Bonds and Chapter 6 The Next Frontier: Gemini, Apollo, and the Expanding Dream"
+        },
+        {
+          "startTime": 1563.632167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Next Frontier: Gemini, Apollo, and the Expanding Dream and Chapter 7 The Human Cost: Sacrifice, Loss, and the Price of Progress"
+        },
+        {
+          "startTime": 1737.973542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Human Cost: Sacrifice, Loss, and the Price of Progress and Chapter 8 The Changing Face of Heroism"
+        },
+        {
+          "startTime": 1880.023792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Changing Face of Heroism and Chapter 9 Legacy and Reflection: The Enduring Impact of “The Right Stuff”"
+        },
+        {
+          "startTime": 2014.216625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Legacy and Reflection: The Enduring Impact of “The Right Stuff” and Chapter 10 The Right Stuff in Everyday Life"
+        },
+        {
+          "startTime": 2149.175292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Right Stuff in Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2226",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T01:42:50.649Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1993",
+  "timestamp": "2025-07-09T07:27:26.835Z",
+  "success": false,
+  "processingTime": -1752045474698,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4632,
+    "totalAudioFiles": 12,
+    "totalDuration": 2122.076292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2122.076292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1993/optimized_text/1993.md",
+    "fileSize": 850,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "1993.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1993/metadata/1993_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2122.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1993/metadata/1993_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1993/metadata/1993_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1993/1993_complete.wav",
+    "duration": 2122.076292,
+    "fileSize": 101859740,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1993/introduction.wav",
+          "duration": 108.211417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.211417,
+          "startTime": 0,
+          "endTime": 108.211417
+        },
+        {
+          "path": "Audio/output/1993/chapter_01.wav",
+          "duration": 236.404375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Tree Unlike Any Other: Wonder and Reverence in the Forests of Haida Gwaii",
+          "actualDuration": 236.404375,
+          "startTime": 109.711417,
+          "endTime": 346.115792
+        },
+        {
+          "path": "Audio/output/1993/chapter_02.wav",
+          "duration": 243.150875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Rise of Logging and the Changing Face of the Land",
+          "actualDuration": 243.150875,
+          "startTime": 347.615792,
+          "endTime": 590.766667
+        },
+        {
+          "path": "Audio/output/1993/chapter_03.wav",
+          "duration": 218.6315,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Man Who Felled the Golden Spruce: Obsession, Crisis, and the Breaking Point",
+          "actualDuration": 218.6315,
+          "startTime": 592.266667,
+          "endTime": 810.898167
+        },
+        {
+          "path": "Audio/output/1993/chapter_04.wav",
+          "duration": 201.192708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Aftermath and Reckoning: Grief, Anger, and the Search for Meaning",
+          "actualDuration": 201.192708,
+          "startTime": 812.398167,
+          "endTime": 1013.590875
+        },
+        {
+          "path": "Audio/output/1993/chapter_05.wav",
+          "duration": 204.753917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Forest as Home: Indigenous Wisdom and the Struggle for Balance",
+          "actualDuration": 204.753917,
+          "startTime": 1015.090875,
+          "endTime": 1219.8447919999999
+        },
+        {
+          "path": "Audio/output/1993/chapter_06.wav",
+          "duration": 162.71725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes in the Timber: Searching for Answers in the Wake of Loss",
+          "actualDuration": 162.71725,
+          "startTime": 1221.3447919999999,
+          "endTime": 1384.0620419999998
+        },
+        {
+          "path": "Audio/output/1993/chapter_07.wav",
+          "duration": 193.901042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of History: Colonial Shadows and the Struggle for Justice",
+          "actualDuration": 193.901042,
+          "startTime": 1385.5620419999998,
+          "endTime": 1579.4630839999998
+        },
+        {
+          "path": "Audio/output/1993/chapter_08.wav",
+          "duration": 156.016,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Science, Spirit, and the Limits of Understanding",
+          "actualDuration": 156.016,
+          "startTime": 1580.9630839999998,
+          "endTime": 1736.9790839999998
+        },
+        {
+          "path": "Audio/output/1993/chapter_09.wav",
+          "duration": 150.196333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Seeds of Renewal: Restoration, Reconciliation, and the Long Road Forward",
+          "actualDuration": 150.196333,
+          "startTime": 1738.4790839999998,
+          "endTime": 1888.675417
+        },
+        {
+          "path": "Audio/output/1993/chapter_10.wav",
+          "duration": 118.551208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons in the Light: What the Golden Spruce Still Teaches",
+          "actualDuration": 118.551208,
+          "startTime": 1890.175417,
+          "endTime": 2008.726625
+        },
+        {
+          "path": "Audio/output/1993/conclusion.wav",
+          "duration": 128.349667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.349667,
+          "startTime": 2010.226625,
+          "endTime": 2138.576292
+        }
+      ],
+      "totalDuration": 2138.576292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.21,
+          "actualStart": 0,
+          "actualEnd": 108.211417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Tree Unlike Any Other: Wonder and Reverence in the Forests of Haida Gwaii",
+          "expectedStart": 108.21,
+          "expectedEnd": 344.61,
+          "actualStart": 109.711417,
+          "actualEnd": 346.115792,
+          "timeDifference": 1.5014170000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Rise of Logging and the Changing Face of the Land",
+          "expectedStart": 344.61,
+          "expectedEnd": 587.76,
+          "actualStart": 347.615792,
+          "actualEnd": 590.766667,
+          "timeDifference": 3.0057919999999854
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Man Who Felled the Golden Spruce: Obsession, Crisis, and the Breaking Point",
+          "expectedStart": 587.76,
+          "expectedEnd": 806.39,
+          "actualStart": 592.266667,
+          "actualEnd": 810.898167,
+          "timeDifference": 4.506666999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Aftermath and Reckoning: Grief, Anger, and the Search for Meaning",
+          "expectedStart": 806.39,
+          "expectedEnd": 1007.58,
+          "actualStart": 812.398167,
+          "actualEnd": 1013.590875,
+          "timeDifference": 6.008166999999958
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Forest as Home: Indigenous Wisdom and the Struggle for Balance",
+          "expectedStart": 1007.58,
+          "expectedEnd": 1212.33,
+          "actualStart": 1015.090875,
+          "actualEnd": 1219.8447919999999,
+          "timeDifference": 7.510874999999942
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes in the Timber: Searching for Answers in the Wake of Loss",
+          "expectedStart": 1212.33,
+          "expectedEnd": 1375.05,
+          "actualStart": 1221.3447919999999,
+          "actualEnd": 1384.0620419999998,
+          "timeDifference": 9.014791999999943
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of History: Colonial Shadows and the Struggle for Justice",
+          "expectedStart": 1375.05,
+          "expectedEnd": 1568.95,
+          "actualStart": 1385.5620419999998,
+          "actualEnd": 1579.4630839999998,
+          "timeDifference": 10.512041999999838
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Science, Spirit, and the Limits of Understanding",
+          "expectedStart": 1568.95,
+          "expectedEnd": 1724.97,
+          "actualStart": 1580.9630839999998,
+          "actualEnd": 1736.9790839999998,
+          "timeDifference": 12.013083999999708
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Seeds of Renewal: Restoration, Reconciliation, and the Long Road Forward",
+          "expectedStart": 1724.97,
+          "expectedEnd": 1875.17,
+          "actualStart": 1738.4790839999998,
+          "actualEnd": 1888.675417,
+          "timeDifference": 13.509083999999802
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons in the Light: What the Golden Spruce Still Teaches",
+          "expectedStart": 1875.17,
+          "expectedEnd": 1993.72,
+          "actualStart": 1890.175417,
+          "actualEnd": 2008.726625,
+          "timeDifference": 15.005416999999852
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1993.72,
+          "expectedEnd": 2122.07,
+          "actualStart": 2010.226625,
+          "actualEnd": 2138.576292,
+          "timeDifference": 16.506624999999985
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.211417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Tree Unlike Any Other: Wonder and Reverence in the Forests of Haida Gwaii"
+        },
+        {
+          "startTime": 346.115792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Tree Unlike Any Other: Wonder and Reverence in the Forests of Haida Gwaii and Chapter 2 The Rise of Logging and the Changing Face of the Land"
+        },
+        {
+          "startTime": 590.766667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Rise of Logging and the Changing Face of the Land and Chapter 3 The Man Who Felled the Golden Spruce: Obsession, Crisis, and the Breaking Point"
+        },
+        {
+          "startTime": 810.898167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Man Who Felled the Golden Spruce: Obsession, Crisis, and the Breaking Point and Chapter 4 Aftermath and Reckoning: Grief, Anger, and the Search for Meaning"
+        },
+        {
+          "startTime": 1013.590875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Aftermath and Reckoning: Grief, Anger, and the Search for Meaning and Chapter 5 The Forest as Home: Indigenous Wisdom and the Struggle for Balance"
+        },
+        {
+          "startTime": 1219.8447919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Forest as Home: Indigenous Wisdom and the Struggle for Balance and Chapter 6 Echoes in the Timber: Searching for Answers in the Wake of Loss"
+        },
+        {
+          "startTime": 1384.0620419999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes in the Timber: Searching for Answers in the Wake of Loss and Chapter 7 The Weight of History: Colonial Shadows and the Struggle for Justice"
+        },
+        {
+          "startTime": 1579.4630839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of History: Colonial Shadows and the Struggle for Justice and Chapter 8 Science, Spirit, and the Limits of Understanding"
+        },
+        {
+          "startTime": 1736.9790839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Science, Spirit, and the Limits of Understanding and Chapter 9 Seeds of Renewal: Restoration, Reconciliation, and the Long Road Forward"
+        },
+        {
+          "startTime": 1888.675417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Seeds of Renewal: Restoration, Reconciliation, and the Long Road Forward and Chapter 10 Lessons in the Light: What the Golden Spruce Still Teaches"
+        },
+        {
+          "startTime": 2008.726625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons in the Light: What the Golden Spruce Still Teaches and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1993",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T07:17:56.219Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

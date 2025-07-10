@@ -1,0 +1,456 @@
+{
+  "bookId": "2272",
+  "timestamp": "2025-07-10T08:26:31.878Z",
+  "success": false,
+  "processingTime": -1752135018012,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5761,
+    "totalAudioFiles": 12,
+    "totalDuration": 2508.924041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2508.924041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2272/optimized_text/2272.md",
+    "fileSize": 719,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2272.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2272/metadata/2272_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2508.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2272/metadata/2272_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2272/metadata/2272_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2272/2272_complete.wav",
+    "duration": 2508.924042,
+    "fileSize": 120428432,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2272/introduction.wav",
+          "duration": 84.204,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.204,
+          "startTime": 0,
+          "endTime": 84.204
+        },
+        {
+          "path": "Audio/output/2272/chapter_01.wav",
+          "duration": 337.737,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Roots of Zen: Where East and West Meet",
+          "actualDuration": 337.737,
+          "startTime": 85.704,
+          "endTime": 423.44100000000003
+        },
+        {
+          "path": "Audio/output/2272/chapter_02.wav",
+          "duration": 279.70525,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Heart of Buddhist Wisdom: Emptiness and Nonduality",
+          "actualDuration": 279.70525,
+          "startTime": 424.94100000000003,
+          "endTime": 704.64625
+        },
+        {
+          "path": "Audio/output/2272/chapter_03.wav",
+          "duration": 263.776708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Practice of Zen: Meditation and Everyday Life",
+          "actualDuration": 263.776708,
+          "startTime": 706.14625,
+          "endTime": 969.922958
+        },
+        {
+          "path": "Audio/output/2272/chapter_04.wav",
+          "duration": 250.01625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Paradox, Spontaneity, and the Limits of Thought",
+          "actualDuration": 250.01625,
+          "startTime": 971.422958,
+          "endTime": 1221.439208
+        },
+        {
+          "path": "Audio/output/2272/chapter_05.wav",
+          "duration": 191.401875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Zen Approach to Knowledge and the Western Mind",
+          "actualDuration": 191.401875,
+          "startTime": 1222.939208,
+          "endTime": 1414.341083
+        },
+        {
+          "path": "Audio/output/2272/chapter_06.wav",
+          "duration": 186.206625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Zen in Action: Art, Work, and the Everyday",
+          "actualDuration": 186.206625,
+          "startTime": 1415.841083,
+          "endTime": 1602.047708
+        },
+        {
+          "path": "Audio/output/2272/chapter_07.wav",
+          "duration": 218.039833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Teachers, Transmission, and the Power of Community",
+          "actualDuration": 218.039833,
+          "startTime": 1603.547708,
+          "endTime": 1821.587541
+        },
+        {
+          "path": "Audio/output/2272/chapter_08.wav",
+          "duration": 210.792042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Obstacles and Openings: Facing Doubt, Boredom, and Fear",
+          "actualDuration": 210.792042,
+          "startTime": 1823.087541,
+          "endTime": 2033.8795830000001
+        },
+        {
+          "path": "Audio/output/2272/chapter_09.wav",
+          "duration": 189.302708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Enlightenment: Myths, Misunderstandings, and the Ongoing Journey",
+          "actualDuration": 189.302708,
+          "startTime": 2035.3795830000001,
+          "endTime": 2224.682291
+        },
+        {
+          "path": "Audio/output/2272/chapter_10.wav",
+          "duration": 170.925833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Zen Today: Adaptation, Misconceptions, and the Living Tradition",
+          "actualDuration": 170.925833,
+          "startTime": 2226.182291,
+          "endTime": 2397.1081240000003
+        },
+        {
+          "path": "Audio/output/2272/conclusion.wav",
+          "duration": 126.815917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.815917,
+          "startTime": 2398.6081240000003,
+          "endTime": 2525.424041
+        }
+      ],
+      "totalDuration": 2525.424041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.2,
+          "actualStart": 0,
+          "actualEnd": 84.204,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Roots of Zen: Where East and West Meet",
+          "expectedStart": 84.2,
+          "expectedEnd": 421.94,
+          "actualStart": 85.704,
+          "actualEnd": 423.44100000000003,
+          "timeDifference": 1.5039999999999907
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Heart of Buddhist Wisdom: Emptiness and Nonduality",
+          "expectedStart": 421.94,
+          "expectedEnd": 701.65,
+          "actualStart": 424.94100000000003,
+          "actualEnd": 704.64625,
+          "timeDifference": 3.001000000000033
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Practice of Zen: Meditation and Everyday Life",
+          "expectedStart": 701.65,
+          "expectedEnd": 965.43,
+          "actualStart": 706.14625,
+          "actualEnd": 969.922958,
+          "timeDifference": 4.496250000000032
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Paradox, Spontaneity, and the Limits of Thought",
+          "expectedStart": 965.43,
+          "expectedEnd": 1215.45,
+          "actualStart": 971.422958,
+          "actualEnd": 1221.439208,
+          "timeDifference": 5.992958000000044
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Zen Approach to Knowledge and the Western Mind",
+          "expectedStart": 1215.45,
+          "expectedEnd": 1406.85,
+          "actualStart": 1222.939208,
+          "actualEnd": 1414.341083,
+          "timeDifference": 7.489207999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Zen in Action: Art, Work, and the Everyday",
+          "expectedStart": 1406.85,
+          "expectedEnd": 1593.06,
+          "actualStart": 1415.841083,
+          "actualEnd": 1602.047708,
+          "timeDifference": 8.991083000000117
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Teachers, Transmission, and the Power of Community",
+          "expectedStart": 1593.06,
+          "expectedEnd": 1811.1,
+          "actualStart": 1603.547708,
+          "actualEnd": 1821.587541,
+          "timeDifference": 10.487708000000111
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Obstacles and Openings: Facing Doubt, Boredom, and Fear",
+          "expectedStart": 1811.1,
+          "expectedEnd": 2021.89,
+          "actualStart": 1823.087541,
+          "actualEnd": 2033.8795830000001,
+          "timeDifference": 11.987541000000192
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Enlightenment: Myths, Misunderstandings, and the Ongoing Journey",
+          "expectedStart": 2021.89,
+          "expectedEnd": 2211.19,
+          "actualStart": 2035.3795830000001,
+          "actualEnd": 2224.682291,
+          "timeDifference": 13.489583000000039
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Zen Today: Adaptation, Misconceptions, and the Living Tradition",
+          "expectedStart": 2211.19,
+          "expectedEnd": 2382.12,
+          "actualStart": 2226.182291,
+          "actualEnd": 2397.1081240000003,
+          "timeDifference": 14.992291000000023
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2382.12,
+          "expectedEnd": 2508.94,
+          "actualStart": 2398.6081240000003,
+          "actualEnd": 2525.424041,
+          "timeDifference": 16.488124000000425
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.204,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Roots of Zen: Where East and West Meet"
+        },
+        {
+          "startTime": 423.44100000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Roots of Zen: Where East and West Meet and Chapter 2 The Heart of Buddhist Wisdom: Emptiness and Nonduality"
+        },
+        {
+          "startTime": 704.64625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Heart of Buddhist Wisdom: Emptiness and Nonduality and Chapter 3 The Practice of Zen: Meditation and Everyday Life"
+        },
+        {
+          "startTime": 969.922958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Practice of Zen: Meditation and Everyday Life and Chapter 4 Paradox, Spontaneity, and the Limits of Thought"
+        },
+        {
+          "startTime": 1221.439208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Paradox, Spontaneity, and the Limits of Thought and Chapter 5 The Zen Approach to Knowledge and the Western Mind"
+        },
+        {
+          "startTime": 1414.341083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Zen Approach to Knowledge and the Western Mind and Chapter 6 Zen in Action: Art, Work, and the Everyday"
+        },
+        {
+          "startTime": 1602.047708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Zen in Action: Art, Work, and the Everyday and Chapter 7 Teachers, Transmission, and the Power of Community"
+        },
+        {
+          "startTime": 1821.587541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Teachers, Transmission, and the Power of Community and Chapter 8 Obstacles and Openings: Facing Doubt, Boredom, and Fear"
+        },
+        {
+          "startTime": 2033.8795830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Obstacles and Openings: Facing Doubt, Boredom, and Fear and Chapter 9 Enlightenment: Myths, Misunderstandings, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2224.682291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Enlightenment: Myths, Misunderstandings, and the Ongoing Journey and Chapter 10 Zen Today: Adaptation, Misconceptions, and the Living Tradition"
+        },
+        {
+          "startTime": 2397.1081240000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Zen Today: Adaptation, Misconceptions, and the Living Tradition and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2272",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T08:10:19.640Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "bookId": "2334",
+  "timestamp": "2025-07-10T12:50:33.394Z",
+  "success": false,
+  "processingTime": -1752151529261,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 4934,
+    "totalAudioFiles": 16,
+    "totalDuration": 2288.4013770000006
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2288.4013770000006
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2334/optimized_text/2334.md",
+    "fileSize": 1017,
+    "wordCount": 146,
+    "format": "markdown",
+    "filename": "2334.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2334/metadata/2334_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2288.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2334/metadata/2334_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2334/metadata/2334_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2334/2334_complete.wav",
+    "duration": 2288.401375,
+    "fileSize": 109843344,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2334/introduction.wav",
+          "duration": 127.591958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 127.591958,
+          "startTime": 0,
+          "endTime": 127.591958
+        },
+        {
+          "path": "Audio/output/2334/chapter_01.wav",
+          "duration": 189.497583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Moment in the Shadow of Atrocity",
+          "actualDuration": 189.497583,
+          "startTime": 129.091958,
+          "endTime": 318.589541
+        },
+        {
+          "path": "Audio/output/2334/chapter_02.wav",
+          "duration": 173.996833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Memory and the Search for Meaning",
+          "actualDuration": 173.996833,
+          "startTime": 320.089541,
+          "endTime": 494.086374
+        },
+        {
+          "path": "Audio/output/2334/chapter_03.wav",
+          "duration": 167.720667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Dilemma of Forgiveness in the Face of Evil",
+          "actualDuration": 167.720667,
+          "startTime": 495.586374,
+          "endTime": 663.307041
+        },
+        {
+          "path": "Audio/output/2334/chapter_04.wav",
+          "duration": 154.902667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Voices from Many Paths: Reflections on Forgiveness",
+          "actualDuration": 154.902667,
+          "startTime": 664.807041,
+          "endTime": 819.7097080000001
+        },
+        {
+          "path": "Audio/output/2334/chapter_05.wav",
+          "duration": 119.937708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Struggle with Guilt, Justice, and Remembrance",
+          "actualDuration": 119.937708,
+          "startTime": 821.2097080000001,
+          "endTime": 941.1474160000001
+        },
+        {
+          "path": "Audio/output/2334/chapter_06.wav",
+          "duration": 172.063667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gathering of Responses: A Chorus of Conscience",
+          "actualDuration": 172.063667,
+          "startTime": 942.6474160000001,
+          "endTime": 1114.7110830000001
+        },
+        {
+          "path": "Audio/output/2334/chapter_07.wav",
+          "duration": 156.457167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Philosophers and Theologians: Wrestling with the Unforgivable",
+          "actualDuration": 156.457167,
+          "startTime": 1116.2110830000001,
+          "endTime": 1272.6682500000002
+        },
+        {
+          "path": "Audio/output/2334/chapter_08.wav",
+          "duration": 131.256292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Burden of the Bystander: Silence, Complicity, and the Hope for Redemption",
+          "actualDuration": 131.256292,
+          "startTime": 1274.1682500000002,
+          "endTime": 1405.4245420000002
+        },
+        {
+          "path": "Audio/output/2334/chapter_09.wav",
+          "duration": 132.772292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Next Generation: Inheriting the Questions",
+          "actualDuration": 132.772292,
+          "startTime": 1406.9245420000002,
+          "endTime": 1539.6968340000003
+        },
+        {
+          "path": "Audio/output/2334/chapter_10.wav",
+          "duration": 129.197292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Limits of Forgiveness: When the Wound Is Too Deep",
+          "actualDuration": 129.197292,
+          "startTime": 1541.1968340000003,
+          "endTime": 1670.3941260000004
+        },
+        {
+          "path": "Audio/output/2334/chapter_11.wav",
+          "duration": 148.883375,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Possibility of Reconciliation: Small Steps Toward Healing",
+          "actualDuration": 148.883375,
+          "startTime": 1671.8941260000004,
+          "endTime": 1820.7775010000005
+        },
+        {
+          "path": "Audio/output/2334/chapter_12.wav",
+          "duration": 127.412542,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Role of Remembrance: Bearing Witness and Honoring the Lost",
+          "actualDuration": 127.412542,
+          "startTime": 1822.2775010000005,
+          "endTime": 1949.6900430000005
+        },
+        {
+          "path": "Audio/output/2334/chapter_13.wav",
+          "duration": 98.535542,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Question That Remains: Living with Uncertainty",
+          "actualDuration": 98.535542,
+          "startTime": 1951.1900430000005,
+          "endTime": 2049.7255850000006
+        },
+        {
+          "path": "Audio/output/2334/chapter_14.wav",
+          "duration": 131.36875,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Enduring Impact: Lessons for a Troubled World",
+          "actualDuration": 131.36875,
+          "startTime": 2051.2255850000006,
+          "endTime": 2182.5943350000007
+        },
+        {
+          "path": "Audio/output/2334/conclusion.wav",
+          "duration": 126.807042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.807042,
+          "startTime": 2184.0943350000007,
+          "endTime": 2310.9013770000006
+        }
+      ],
+      "totalDuration": 2310.9013770000006,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 127.59,
+          "actualStart": 0,
+          "actualEnd": 127.591958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Moment in the Shadow of Atrocity",
+          "expectedStart": 127.59,
+          "expectedEnd": 317.09,
+          "actualStart": 129.091958,
+          "actualEnd": 318.589541,
+          "timeDifference": 1.501958000000002
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Memory and the Search for Meaning",
+          "expectedStart": 317.09,
+          "expectedEnd": 491.09,
+          "actualStart": 320.089541,
+          "actualEnd": 494.086374,
+          "timeDifference": 2.999541000000022
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Dilemma of Forgiveness in the Face of Evil",
+          "expectedStart": 491.09,
+          "expectedEnd": 658.81,
+          "actualStart": 495.586374,
+          "actualEnd": 663.307041,
+          "timeDifference": 4.496374000000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Voices from Many Paths: Reflections on Forgiveness",
+          "expectedStart": 658.81,
+          "expectedEnd": 813.71,
+          "actualStart": 664.807041,
+          "actualEnd": 819.7097080000001,
+          "timeDifference": 5.997041000000081
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Struggle with Guilt, Justice, and Remembrance",
+          "expectedStart": 813.71,
+          "expectedEnd": 933.65,
+          "actualStart": 821.2097080000001,
+          "actualEnd": 941.1474160000001,
+          "timeDifference": 7.499708000000055
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gathering of Responses: A Chorus of Conscience",
+          "expectedStart": 933.65,
+          "expectedEnd": 1105.71,
+          "actualStart": 942.6474160000001,
+          "actualEnd": 1114.7110830000001,
+          "timeDifference": 8.997416000000158
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Philosophers and Theologians: Wrestling with the Unforgivable",
+          "expectedStart": 1105.71,
+          "expectedEnd": 1262.17,
+          "actualStart": 1116.2110830000001,
+          "actualEnd": 1272.6682500000002,
+          "timeDifference": 10.501083000000108
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Burden of the Bystander: Silence, Complicity, and the Hope for Redemption",
+          "expectedStart": 1262.17,
+          "expectedEnd": 1393.43,
+          "actualStart": 1274.1682500000002,
+          "actualEnd": 1405.4245420000002,
+          "timeDifference": 11.998250000000098
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Next Generation: Inheriting the Questions",
+          "expectedStart": 1393.43,
+          "expectedEnd": 1526.2,
+          "actualStart": 1406.9245420000002,
+          "actualEnd": 1539.6968340000003,
+          "timeDifference": 13.494542000000138
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Limits of Forgiveness: When the Wound Is Too Deep",
+          "expectedStart": 1526.2,
+          "expectedEnd": 1655.4,
+          "actualStart": 1541.1968340000003,
+          "actualEnd": 1670.3941260000004,
+          "timeDifference": 14.996834000000263
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Possibility of Reconciliation: Small Steps Toward Healing",
+          "expectedStart": 1655.4,
+          "expectedEnd": 1804.28,
+          "actualStart": 1671.8941260000004,
+          "actualEnd": 1820.7775010000005,
+          "timeDifference": 16.49412600000028
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Role of Remembrance: Bearing Witness and Honoring the Lost",
+          "expectedStart": 1804.28,
+          "expectedEnd": 1931.69,
+          "actualStart": 1822.2775010000005,
+          "actualEnd": 1949.6900430000005,
+          "timeDifference": 17.99750100000051
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Question That Remains: Living with Uncertainty",
+          "expectedStart": 1931.69,
+          "expectedEnd": 2030.23,
+          "actualStart": 1951.1900430000005,
+          "actualEnd": 2049.7255850000006,
+          "timeDifference": 19.50004300000046
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Enduring Impact: Lessons for a Troubled World",
+          "expectedStart": 2030.23,
+          "expectedEnd": 2161.6,
+          "actualStart": 2051.2255850000006,
+          "actualEnd": 2182.5943350000007,
+          "timeDifference": 20.995585000000574
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2161.6,
+          "expectedEnd": 2288.41,
+          "actualStart": 2184.0943350000007,
+          "actualEnd": 2310.9013770000006,
+          "timeDifference": 22.494335000000774
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 127.591958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Moment in the Shadow of Atrocity"
+        },
+        {
+          "startTime": 318.589541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Moment in the Shadow of Atrocity and Chapter 2 The Weight of Memory and the Search for Meaning"
+        },
+        {
+          "startTime": 494.086374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Memory and the Search for Meaning and Chapter 3 The Dilemma of Forgiveness in the Face of Evil"
+        },
+        {
+          "startTime": 663.307041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Dilemma of Forgiveness in the Face of Evil and Chapter 4 Voices from Many Paths: Reflections on Forgiveness"
+        },
+        {
+          "startTime": 819.7097080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Voices from Many Paths: Reflections on Forgiveness and Chapter 5 The Ongoing Struggle with Guilt, Justice, and Remembrance"
+        },
+        {
+          "startTime": 941.1474160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Struggle with Guilt, Justice, and Remembrance and Chapter 6 The Gathering of Responses: A Chorus of Conscience"
+        },
+        {
+          "startTime": 1114.7110830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gathering of Responses: A Chorus of Conscience and Chapter 7 Philosophers and Theologians: Wrestling with the Unforgivable"
+        },
+        {
+          "startTime": 1272.6682500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Philosophers and Theologians: Wrestling with the Unforgivable and Chapter 8 The Burden of the Bystander: Silence, Complicity, and the Hope for Redemption"
+        },
+        {
+          "startTime": 1405.4245420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Burden of the Bystander: Silence, Complicity, and the Hope for Redemption and Chapter 9 The Next Generation: Inheriting the Questions"
+        },
+        {
+          "startTime": 1539.6968340000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Next Generation: Inheriting the Questions and Chapter 10 The Limits of Forgiveness: When the Wound Is Too Deep"
+        },
+        {
+          "startTime": 1670.3941260000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Limits of Forgiveness: When the Wound Is Too Deep and Chapter 11 The Possibility of Reconciliation: Small Steps Toward Healing"
+        },
+        {
+          "startTime": 1820.7775010000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Possibility of Reconciliation: Small Steps Toward Healing and Chapter 12 The Role of Remembrance: Bearing Witness and Honoring the Lost"
+        },
+        {
+          "startTime": 1949.6900430000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Role of Remembrance: Bearing Witness and Honoring the Lost and Chapter 13 The Question That Remains: Living with Uncertainty"
+        },
+        {
+          "startTime": 2049.7255850000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Question That Remains: Living with Uncertainty and Chapter 14 The Enduring Impact: Lessons for a Troubled World"
+        },
+        {
+          "startTime": 2182.5943350000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Enduring Impact: Lessons for a Troubled World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2334",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:45:29.738Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

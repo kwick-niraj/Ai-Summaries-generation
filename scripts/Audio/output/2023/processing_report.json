@@ -1,0 +1,456 @@
+{
+  "bookId": "2023",
+  "timestamp": "2025-07-09T10:40:28.426Z",
+  "success": false,
+  "processingTime": -1752056776912,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5144,
+    "totalAudioFiles": 12,
+    "totalDuration": 2469.00525
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2469.00525
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2023/optimized_text/2023.md",
+    "fileSize": 737,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "2023.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2023/metadata/2023_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2469.01,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2023/metadata/2023_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2023/metadata/2023_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2023/2023_complete.wav",
+    "duration": 2469.00525,
+    "fileSize": 118512330,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2023/introduction.wav",
+          "duration": 101.116625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.116625,
+          "startTime": 0,
+          "endTime": 101.116625
+        },
+        {
+          "path": "Audio/output/2023/chapter_01.wav",
+          "duration": 265.053667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood Dreams and the Sudden Arrival of Illness",
+          "actualDuration": 265.053667,
+          "startTime": 102.616625,
+          "endTime": 367.670292
+        },
+        {
+          "path": "Audio/output/2023/chapter_02.wav",
+          "duration": 282.737667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Loss and Learning to Adapt",
+          "actualDuration": 282.737667,
+          "startTime": 369.170292,
+          "endTime": 651.907959
+        },
+        {
+          "path": "Audio/output/2023/chapter_03.wav",
+          "duration": 297.837292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rebuilding Confidence and Discovering New Passions",
+          "actualDuration": 297.837292,
+          "startTime": 653.407959,
+          "endTime": 951.245251
+        },
+        {
+          "path": "Audio/output/2023/chapter_04.wav",
+          "duration": 257.467625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Adolescence and Embracing a New Identity",
+          "actualDuration": 257.467625,
+          "startTime": 952.745251,
+          "endTime": 1210.212876
+        },
+        {
+          "path": "Audio/output/2023/chapter_05.wav",
+          "duration": 270.360625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Pursuing Big Dreams and Finding Purpose",
+          "actualDuration": 270.360625,
+          "startTime": 1211.712876,
+          "endTime": 1482.073501
+        },
+        {
+          "path": "Audio/output/2023/chapter_06.wav",
+          "duration": 253.025833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Steep Climb—Adulthood, Setbacks, and the Weight of Expectations",
+          "actualDuration": 253.025833,
+          "startTime": 1483.573501,
+          "endTime": 1736.599334
+        },
+        {
+          "path": "Audio/output/2023/chapter_07.wav",
+          "duration": 197.763958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Vulnerability, and Building a Life Together",
+          "actualDuration": 197.763958,
+          "startTime": 1738.099334,
+          "endTime": 1935.863292
+        },
+        {
+          "path": "Audio/output/2023/chapter_08.wav",
+          "duration": 164.112625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Giving Back—Mentorship, Advocacy, and the Power of Story",
+          "actualDuration": 164.112625,
+          "startTime": 1937.363292,
+          "endTime": 2101.475917
+        },
+        {
+          "path": "Audio/output/2023/chapter_09.wav",
+          "duration": 138.006292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Mountain and the Mind—Resilience, Acceptance, and Redefining Success",
+          "actualDuration": 138.006292,
+          "startTime": 2102.975917,
+          "endTime": 2240.9822090000002
+        },
+        {
+          "path": "Audio/output/2023/chapter_10.wav",
+          "duration": 114.970708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Back, Moving Forward—Legacy and the Ongoing Journey",
+          "actualDuration": 114.970708,
+          "startTime": 2242.4822090000002,
+          "endTime": 2357.452917
+        },
+        {
+          "path": "Audio/output/2023/conclusion.wav",
+          "duration": 126.552333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.552333,
+          "startTime": 2358.952917,
+          "endTime": 2485.50525
+        }
+      ],
+      "totalDuration": 2485.50525,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.12,
+          "actualStart": 0,
+          "actualEnd": 101.116625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood Dreams and the Sudden Arrival of Illness",
+          "expectedStart": 101.12,
+          "expectedEnd": 366.17,
+          "actualStart": 102.616625,
+          "actualEnd": 367.670292,
+          "timeDifference": 1.4966249999999945
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Loss and Learning to Adapt",
+          "expectedStart": 366.17,
+          "expectedEnd": 648.91,
+          "actualStart": 369.170292,
+          "actualEnd": 651.907959,
+          "timeDifference": 3.0002920000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rebuilding Confidence and Discovering New Passions",
+          "expectedStart": 648.91,
+          "expectedEnd": 946.75,
+          "actualStart": 653.407959,
+          "actualEnd": 951.245251,
+          "timeDifference": 4.497959000000037
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Adolescence and Embracing a New Identity",
+          "expectedStart": 946.75,
+          "expectedEnd": 1204.22,
+          "actualStart": 952.745251,
+          "actualEnd": 1210.212876,
+          "timeDifference": 5.995251000000053
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Pursuing Big Dreams and Finding Purpose",
+          "expectedStart": 1204.22,
+          "expectedEnd": 1474.58,
+          "actualStart": 1211.712876,
+          "actualEnd": 1482.073501,
+          "timeDifference": 7.492876000000024
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Steep Climb—Adulthood, Setbacks, and the Weight of Expectations",
+          "expectedStart": 1474.58,
+          "expectedEnd": 1727.61,
+          "actualStart": 1483.573501,
+          "actualEnd": 1736.599334,
+          "timeDifference": 8.993501000000151
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Vulnerability, and Building a Life Together",
+          "expectedStart": 1727.61,
+          "expectedEnd": 1925.37,
+          "actualStart": 1738.099334,
+          "actualEnd": 1935.863292,
+          "timeDifference": 10.489334000000099
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Giving Back—Mentorship, Advocacy, and the Power of Story",
+          "expectedStart": 1925.37,
+          "expectedEnd": 2089.48,
+          "actualStart": 1937.363292,
+          "actualEnd": 2101.475917,
+          "timeDifference": 11.99329200000011
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Mountain and the Mind—Resilience, Acceptance, and Redefining Success",
+          "expectedStart": 2089.48,
+          "expectedEnd": 2227.49,
+          "actualStart": 2102.975917,
+          "actualEnd": 2240.9822090000002,
+          "timeDifference": 13.49591700000019
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Back, Moving Forward—Legacy and the Ongoing Journey",
+          "expectedStart": 2227.49,
+          "expectedEnd": 2342.46,
+          "actualStart": 2242.4822090000002,
+          "actualEnd": 2357.452917,
+          "timeDifference": 14.992209000000457
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2342.46,
+          "expectedEnd": 2469.01,
+          "actualStart": 2358.952917,
+          "actualEnd": 2485.50525,
+          "timeDifference": 16.492917000000034
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.116625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood Dreams and the Sudden Arrival of Illness"
+        },
+        {
+          "startTime": 367.670292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood Dreams and the Sudden Arrival of Illness and Chapter 2 Facing Loss and Learning to Adapt"
+        },
+        {
+          "startTime": 651.907959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Loss and Learning to Adapt and Chapter 3 Rebuilding Confidence and Discovering New Passions"
+        },
+        {
+          "startTime": 951.245251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rebuilding Confidence and Discovering New Passions and Chapter 4 Navigating Adolescence and Embracing a New Identity"
+        },
+        {
+          "startTime": 1210.212876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Adolescence and Embracing a New Identity and Chapter 5 Pursuing Big Dreams and Finding Purpose"
+        },
+        {
+          "startTime": 1482.073501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Pursuing Big Dreams and Finding Purpose and Chapter 6 The Steep Climb—Adulthood, Setbacks, and the Weight of Expectations"
+        },
+        {
+          "startTime": 1736.599334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Steep Climb—Adulthood, Setbacks, and the Weight of Expectations and Chapter 7 Love, Vulnerability, and Building a Life Together"
+        },
+        {
+          "startTime": 1935.863292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Vulnerability, and Building a Life Together and Chapter 8 Giving Back—Mentorship, Advocacy, and the Power of Story"
+        },
+        {
+          "startTime": 2101.475917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Giving Back—Mentorship, Advocacy, and the Power of Story and Chapter 9 The Mountain and the Mind—Resilience, Acceptance, and Redefining Success"
+        },
+        {
+          "startTime": 2240.9822090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Mountain and the Mind—Resilience, Acceptance, and Redefining Success and Chapter 10 Looking Back, Moving Forward—Legacy and the Ongoing Journey"
+        },
+        {
+          "startTime": 2357.452917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Back, Moving Forward—Legacy and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2023",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T10:26:18.649Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1752",
+  "timestamp": "2025-07-08T11:46:46.102Z",
+  "success": false,
+  "processingTime": -1751974762437,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4895,
+    "totalAudioFiles": 12,
+    "totalDuration": 2227.568001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2227.568001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1752/optimized_text/1752.md",
+    "fileSize": 714,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "1752.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1752/metadata/1752_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2227.57,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1752/metadata/1752_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1752/metadata/1752_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1752/1752_complete.wav",
+    "duration": 2227.568,
+    "fileSize": 106923342,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1752/introduction.wav",
+          "duration": 102.362542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.362542,
+          "startTime": 0,
+          "endTime": 102.362542
+        },
+        {
+          "path": "Audio/output/1752/chapter_01.wav",
+          "duration": 229.254833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ordinary Life Disrupted by War",
+          "actualDuration": 229.254833,
+          "startTime": 103.862542,
+          "endTime": 333.117375
+        },
+        {
+          "path": "Audio/output/1752/chapter_02.wav",
+          "duration": 224.376792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Chaos of Escape and the Journey into Exile",
+          "actualDuration": 224.376792,
+          "startTime": 334.617375,
+          "endTime": 558.994167
+        },
+        {
+          "path": "Audio/output/1752/chapter_03.wav",
+          "duration": 225.761042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life in Exile—Adapting to New Realities",
+          "actualDuration": 225.761042,
+          "startTime": 560.494167,
+          "endTime": 786.2552089999999
+        },
+        {
+          "path": "Audio/output/1752/chapter_04.wav",
+          "duration": 205.213167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Struggle to Maintain Family and Identity",
+          "actualDuration": 205.213167,
+          "startTime": 787.7552089999999,
+          "endTime": 992.9683759999999
+        },
+        {
+          "path": "Audio/output/1752/chapter_05.wav",
+          "duration": 207.400875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Women and Children in the Shadow of War",
+          "actualDuration": 207.400875,
+          "startTime": 994.4683759999999,
+          "endTime": 1201.8692509999998
+        },
+        {
+          "path": "Audio/output/1752/chapter_06.wav",
+          "duration": 216.389,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Wait—Endurance and Uncertainty in Exile",
+          "actualDuration": 216.389,
+          "startTime": 1203.3692509999998,
+          "endTime": 1419.7582509999997
+        },
+        {
+          "path": "Audio/output/1752/chapter_07.wav",
+          "duration": 183.610125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 News from Home—Hope, Grief, and the Shifting Tides of War",
+          "actualDuration": 183.610125,
+          "startTime": 1421.2582509999997,
+          "endTime": 1604.8683759999997
+        },
+        {
+          "path": "Audio/output/1752/chapter_08.wav",
+          "duration": 192.555458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The End of War—Return, Rebuilding, and the Weight of Memory",
+          "actualDuration": 192.555458,
+          "startTime": 1606.3683759999997,
+          "endTime": 1798.9238339999997
+        },
+        {
+          "path": "Audio/output/1752/chapter_09.wav",
+          "duration": 168.56725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Lingering Shadows—Trauma, Resilience, and the Search for Meaning",
+          "actualDuration": 168.56725,
+          "startTime": 1800.4238339999997,
+          "endTime": 1968.9910839999998
+        },
+        {
+          "path": "Audio/output/1752/chapter_10.wav",
+          "duration": 157.346417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons Remembered—Legacy, Remembrance, and the Quiet Work of Healing",
+          "actualDuration": 157.346417,
+          "startTime": 1970.4910839999998,
+          "endTime": 2127.837501
+        },
+        {
+          "path": "Audio/output/1752/conclusion.wav",
+          "duration": 114.7305,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.7305,
+          "startTime": 2129.337501,
+          "endTime": 2244.068001
+        }
+      ],
+      "totalDuration": 2244.068001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.36,
+          "actualStart": 0,
+          "actualEnd": 102.362542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ordinary Life Disrupted by War",
+          "expectedStart": 102.36,
+          "expectedEnd": 331.61,
+          "actualStart": 103.862542,
+          "actualEnd": 333.117375,
+          "timeDifference": 1.5025420000000054
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Chaos of Escape and the Journey into Exile",
+          "expectedStart": 331.61,
+          "expectedEnd": 555.99,
+          "actualStart": 334.617375,
+          "actualEnd": 558.994167,
+          "timeDifference": 3.0073749999999677
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life in Exile—Adapting to New Realities",
+          "expectedStart": 555.99,
+          "expectedEnd": 781.75,
+          "actualStart": 560.494167,
+          "actualEnd": 786.2552089999999,
+          "timeDifference": 4.5041669999999385
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Struggle to Maintain Family and Identity",
+          "expectedStart": 781.75,
+          "expectedEnd": 986.96,
+          "actualStart": 787.7552089999999,
+          "actualEnd": 992.9683759999999,
+          "timeDifference": 6.0052089999999225
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Women and Children in the Shadow of War",
+          "expectedStart": 986.96,
+          "expectedEnd": 1194.36,
+          "actualStart": 994.4683759999999,
+          "actualEnd": 1201.8692509999998,
+          "timeDifference": 7.508375999999885
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Wait—Endurance and Uncertainty in Exile",
+          "expectedStart": 1194.36,
+          "expectedEnd": 1410.75,
+          "actualStart": 1203.3692509999998,
+          "actualEnd": 1419.7582509999997,
+          "timeDifference": 9.00925099999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 News from Home—Hope, Grief, and the Shifting Tides of War",
+          "expectedStart": 1410.75,
+          "expectedEnd": 1594.36,
+          "actualStart": 1421.2582509999997,
+          "actualEnd": 1604.8683759999997,
+          "timeDifference": 10.508250999999746
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The End of War—Return, Rebuilding, and the Weight of Memory",
+          "expectedStart": 1594.36,
+          "expectedEnd": 1786.92,
+          "actualStart": 1606.3683759999997,
+          "actualEnd": 1798.9238339999997,
+          "timeDifference": 12.008375999999771
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Lingering Shadows—Trauma, Resilience, and the Search for Meaning",
+          "expectedStart": 1786.92,
+          "expectedEnd": 1955.49,
+          "actualStart": 1800.4238339999997,
+          "actualEnd": 1968.9910839999998,
+          "timeDifference": 13.503833999999642
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons Remembered—Legacy, Remembrance, and the Quiet Work of Healing",
+          "expectedStart": 1955.49,
+          "expectedEnd": 2112.84,
+          "actualStart": 1970.4910839999998,
+          "actualEnd": 2127.837501,
+          "timeDifference": 15.001083999999764
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2112.84,
+          "expectedEnd": 2227.57,
+          "actualStart": 2129.337501,
+          "actualEnd": 2244.068001,
+          "timeDifference": 16.49750099999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.362542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ordinary Life Disrupted by War"
+        },
+        {
+          "startTime": 333.117375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ordinary Life Disrupted by War and Chapter 2 The Chaos of Escape and the Journey into Exile"
+        },
+        {
+          "startTime": 558.994167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Chaos of Escape and the Journey into Exile and Chapter 3 Life in Exile—Adapting to New Realities"
+        },
+        {
+          "startTime": 786.2552089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life in Exile—Adapting to New Realities and Chapter 4 The Struggle to Maintain Family and Identity"
+        },
+        {
+          "startTime": 992.9683759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Struggle to Maintain Family and Identity and Chapter 5 Women and Children in the Shadow of War"
+        },
+        {
+          "startTime": 1201.8692509999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Women and Children in the Shadow of War and Chapter 6 The Long Wait—Endurance and Uncertainty in Exile"
+        },
+        {
+          "startTime": 1419.7582509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Wait—Endurance and Uncertainty in Exile and Chapter 7 News from Home—Hope, Grief, and the Shifting Tides of War"
+        },
+        {
+          "startTime": 1604.8683759999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 News from Home—Hope, Grief, and the Shifting Tides of War and Chapter 8 The End of War—Return, Rebuilding, and the Weight of Memory"
+        },
+        {
+          "startTime": 1798.9238339999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The End of War—Return, Rebuilding, and the Weight of Memory and Chapter 9 The Lingering Shadows—Trauma, Resilience, and the Search for Meaning"
+        },
+        {
+          "startTime": 1968.9910839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Lingering Shadows—Trauma, Resilience, and the Search for Meaning and Chapter 10 Lessons Remembered—Legacy, Remembrance, and the Quiet Work of Healing"
+        },
+        {
+          "startTime": 2127.837501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons Remembered—Legacy, Remembrance, and the Quiet Work of Healing and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1752",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T11:39:23.602Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

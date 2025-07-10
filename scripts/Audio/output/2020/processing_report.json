@@ -1,0 +1,408 @@
+{
+  "bookId": "2020",
+  "timestamp": "2025-07-09T09:52:25.473Z",
+  "success": false,
+  "processingTime": -1752054260510,
+  "stats": {
+    "totalSections": 10,
+    "totalWords": 3858,
+    "totalAudioFiles": 10,
+    "totalDuration": 1675.281082
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 8,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 10,
+    "successful": 10,
+    "failed": 0,
+    "duration": 1675.281082
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2020/optimized_text/2020.md",
+    "fileSize": 532,
+    "wordCount": 81,
+    "format": "markdown",
+    "filename": "2020.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2020/metadata/2020_chapters.json",
+    "totalChapters": 10,
+    "totalDuration": 1675.3,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2020/metadata/2020_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2020/metadata/2020_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 10,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 8
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2020/2020_complete.wav",
+    "duration": 1675.281083,
+    "fileSize": 80413570,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2020/introduction.wav",
+          "duration": 95.1215,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.1215,
+          "startTime": 0,
+          "endTime": 95.1215
+        },
+        {
+          "path": "Audio/output/2020/chapter_01.wav",
+          "duration": 246.26775,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 An Unexpected Mystery Beneath the Waves",
+          "actualDuration": 246.26775,
+          "startTime": 96.6215,
+          "endTime": 342.88925
+        },
+        {
+          "path": "Audio/output/2020/chapter_02.wav",
+          "duration": 256.36525,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The World of Deep Wreck Diving and Its Hidden Costs",
+          "actualDuration": 256.36525,
+          "startTime": 344.38925,
+          "endTime": 600.7545
+        },
+        {
+          "path": "Audio/output/2020/chapter_03.wav",
+          "duration": 214.059458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Search for Identity: Piecing Together a Lost History",
+          "actualDuration": 214.059458,
+          "startTime": 602.2545,
+          "endTime": 816.313958
+        },
+        {
+          "path": "Audio/output/2020/chapter_04.wav",
+          "duration": 187.258958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Obsession, Sacrifice, and the Cost of Truth",
+          "actualDuration": 187.258958,
+          "startTime": 817.813958,
+          "endTime": 1005.072916
+        },
+        {
+          "path": "Audio/output/2020/chapter_05.wav",
+          "duration": 172.166833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Final Dives: Facing the Abyss",
+          "actualDuration": 172.166833,
+          "startTime": 1006.572916,
+          "endTime": 1178.7397489999998
+        },
+        {
+          "path": "Audio/output/2020/chapter_06.wav",
+          "duration": 131.34825,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Human Cost: Families, Friendships, and the Weight of Memory",
+          "actualDuration": 131.34825,
+          "startTime": 1180.2397489999998,
+          "endTime": 1311.5879989999999
+        },
+        {
+          "path": "Audio/output/2020/chapter_07.wav",
+          "duration": 152.729833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Truth Revealed: Naming the Lost",
+          "actualDuration": 152.729833,
+          "startTime": 1313.0879989999999,
+          "endTime": 1465.817832
+        },
+        {
+          "path": "Audio/output/2020/chapter_08.wav",
+          "duration": 108.748083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy: What the Ocean Keeps, What We Let Go",
+          "actualDuration": 108.748083,
+          "startTime": 1467.317832,
+          "endTime": 1576.065915
+        },
+        {
+          "path": "Audio/output/2020/conclusion.wav",
+          "duration": 111.215167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.215167,
+          "startTime": 1577.565915,
+          "endTime": 1688.781082
+        }
+      ],
+      "totalDuration": 1688.781082,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.12,
+          "actualStart": 0,
+          "actualEnd": 95.1215,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 An Unexpected Mystery Beneath the Waves",
+          "expectedStart": 95.12,
+          "expectedEnd": 341.39,
+          "actualStart": 96.6215,
+          "actualEnd": 342.88925,
+          "timeDifference": 1.501499999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The World of Deep Wreck Diving and Its Hidden Costs",
+          "expectedStart": 341.39,
+          "expectedEnd": 597.76,
+          "actualStart": 344.38925,
+          "actualEnd": 600.7545,
+          "timeDifference": 2.9992500000000177
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Search for Identity: Piecing Together a Lost History",
+          "expectedStart": 597.76,
+          "expectedEnd": 811.82,
+          "actualStart": 602.2545,
+          "actualEnd": 816.313958,
+          "timeDifference": 4.494500000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Obsession, Sacrifice, and the Cost of Truth",
+          "expectedStart": 811.82,
+          "expectedEnd": 999.08,
+          "actualStart": 817.813958,
+          "actualEnd": 1005.072916,
+          "timeDifference": 5.993957999999907
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Final Dives: Facing the Abyss",
+          "expectedStart": 999.08,
+          "expectedEnd": 1171.25,
+          "actualStart": 1006.572916,
+          "actualEnd": 1178.7397489999998,
+          "timeDifference": 7.492915999999923
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Human Cost: Families, Friendships, and the Weight of Memory",
+          "expectedStart": 1171.25,
+          "expectedEnd": 1302.6,
+          "actualStart": 1180.2397489999998,
+          "actualEnd": 1311.5879989999999,
+          "timeDifference": 8.989748999999847
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Truth Revealed: Naming the Lost",
+          "expectedStart": 1302.6,
+          "expectedEnd": 1455.33,
+          "actualStart": 1313.0879989999999,
+          "actualEnd": 1465.817832,
+          "timeDifference": 10.487998999999945
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy: What the Ocean Keeps, What We Let Go",
+          "expectedStart": 1455.33,
+          "expectedEnd": 1564.08,
+          "actualStart": 1467.317832,
+          "actualEnd": 1576.065915,
+          "timeDifference": 11.987832000000026
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1564.08,
+          "expectedEnd": 1675.3,
+          "actualStart": 1577.565915,
+          "actualEnd": 1688.781082,
+          "timeDifference": 13.485914999999977
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.1215,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 An Unexpected Mystery Beneath the Waves"
+        },
+        {
+          "startTime": 342.88925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 An Unexpected Mystery Beneath the Waves and Chapter 2 The World of Deep Wreck Diving and Its Hidden Costs"
+        },
+        {
+          "startTime": 600.7545,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The World of Deep Wreck Diving and Its Hidden Costs and Chapter 3 The Search for Identity: Piecing Together a Lost History"
+        },
+        {
+          "startTime": 816.313958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Search for Identity: Piecing Together a Lost History and Chapter 4 Obsession, Sacrifice, and the Cost of Truth"
+        },
+        {
+          "startTime": 1005.072916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Obsession, Sacrifice, and the Cost of Truth and Chapter 5 The Final Dives: Facing the Abyss"
+        },
+        {
+          "startTime": 1178.7397489999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Final Dives: Facing the Abyss and Chapter 6 The Human Cost: Families, Friendships, and the Weight of Memory"
+        },
+        {
+          "startTime": 1311.5879989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Human Cost: Families, Friendships, and the Weight of Memory and Chapter 7 The Truth Revealed: Naming the Lost"
+        },
+        {
+          "startTime": 1465.817832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Truth Revealed: Naming the Lost and Chapter 8 Legacy: What the Ocean Keeps, What We Let Go"
+        },
+        {
+          "startTime": 1576.065915,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy: What the Ocean Keeps, What We Let Go and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2020",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T09:44:21.772Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

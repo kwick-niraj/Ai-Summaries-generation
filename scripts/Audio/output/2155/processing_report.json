@@ -1,0 +1,456 @@
+{
+  "bookId": "2155",
+  "timestamp": "2025-07-09T22:10:35.925Z",
+  "success": false,
+  "processingTime": -1752098622587,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5462,
+    "totalAudioFiles": 12,
+    "totalDuration": 2724.418167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2724.418167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2155/optimized_text/2155.md",
+    "fileSize": 750,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2155.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2155/metadata/2155_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2724.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2155/metadata/2155_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2155/metadata/2155_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2155/2155_complete.wav",
+    "duration": 2724.418167,
+    "fileSize": 130772150,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2155/introduction.wav",
+          "duration": 78.40775,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.40775,
+          "startTime": 0,
+          "endTime": 78.40775
+        },
+        {
+          "path": "Audio/output/2155/chapter_01.wav",
+          "duration": 280.469708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Personality Differences",
+          "actualDuration": 280.469708,
+          "startTime": 79.90775,
+          "endTime": 360.37745800000005
+        },
+        {
+          "path": "Audio/output/2155/chapter_02.wav",
+          "duration": 287.877042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Two Attitudes—Introversion and Extraversion in Daily Life",
+          "actualDuration": 287.877042,
+          "startTime": 361.87745800000005,
+          "endTime": 649.7545
+        },
+        {
+          "path": "Audio/output/2155/chapter_03.wav",
+          "duration": 313.808375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Four Psychological Functions—Thinking, Feeling, Sensation, and Intuition",
+          "actualDuration": 313.808375,
+          "startTime": 651.2545,
+          "endTime": 965.0628750000001
+        },
+        {
+          "path": "Audio/output/2155/chapter_04.wav",
+          "duration": 343.326167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Eight Psychological Types—Combining Attitudes and Functions",
+          "actualDuration": 343.326167,
+          "startTime": 966.5628750000001,
+          "endTime": 1309.889042
+        },
+        {
+          "path": "Audio/output/2155/chapter_05.wav",
+          "duration": 285.860458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dynamics of Consciousness and the Unconscious in Personality Types",
+          "actualDuration": 285.860458,
+          "startTime": 1311.389042,
+          "endTime": 1597.2495
+        },
+        {
+          "path": "Audio/output/2155/chapter_06.wav",
+          "duration": 197.233208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Applying Psychological Types in Therapy and Self-Discovery",
+          "actualDuration": 197.233208,
+          "startTime": 1598.7495,
+          "endTime": 1795.982708
+        },
+        {
+          "path": "Audio/output/2155/chapter_07.wav",
+          "duration": 230.558167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Psychological Types in Relationships and Social Life",
+          "actualDuration": 230.558167,
+          "startTime": 1797.482708,
+          "endTime": 2028.040875
+        },
+        {
+          "path": "Audio/output/2155/chapter_08.wav",
+          "duration": 242.468042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Growth, Balance, and the Path of Individuation",
+          "actualDuration": 242.468042,
+          "startTime": 2029.540875,
+          "endTime": 2272.008917
+        },
+        {
+          "path": "Audio/output/2155/chapter_09.wav",
+          "duration": 199.742625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Tools for Everyday Use",
+          "actualDuration": 199.742625,
+          "startTime": 2273.508917,
+          "endTime": 2473.251542
+        },
+        {
+          "path": "Audio/output/2155/chapter_10.wav",
+          "duration": 134.906083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Limits and Wisdom of Typology",
+          "actualDuration": 134.906083,
+          "startTime": 2474.751542,
+          "endTime": 2609.657625
+        },
+        {
+          "path": "Audio/output/2155/conclusion.wav",
+          "duration": 129.760542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.760542,
+          "startTime": 2611.157625,
+          "endTime": 2740.918167
+        }
+      ],
+      "totalDuration": 2740.918167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.41,
+          "actualStart": 0,
+          "actualEnd": 78.40775,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Personality Differences",
+          "expectedStart": 78.41,
+          "expectedEnd": 358.88,
+          "actualStart": 79.90775,
+          "actualEnd": 360.37745800000005,
+          "timeDifference": 1.4977499999999964
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Two Attitudes—Introversion and Extraversion in Daily Life",
+          "expectedStart": 358.88,
+          "expectedEnd": 646.76,
+          "actualStart": 361.87745800000005,
+          "actualEnd": 649.7545,
+          "timeDifference": 2.9974580000000515
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Four Psychological Functions—Thinking, Feeling, Sensation, and Intuition",
+          "expectedStart": 646.76,
+          "expectedEnd": 960.57,
+          "actualStart": 651.2545,
+          "actualEnd": 965.0628750000001,
+          "timeDifference": 4.494500000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Eight Psychological Types—Combining Attitudes and Functions",
+          "expectedStart": 960.57,
+          "expectedEnd": 1303.9,
+          "actualStart": 966.5628750000001,
+          "actualEnd": 1309.889042,
+          "timeDifference": 5.992875000000026
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dynamics of Consciousness and the Unconscious in Personality Types",
+          "expectedStart": 1303.9,
+          "expectedEnd": 1589.76,
+          "actualStart": 1311.389042,
+          "actualEnd": 1597.2495,
+          "timeDifference": 7.489041999999927
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Applying Psychological Types in Therapy and Self-Discovery",
+          "expectedStart": 1589.76,
+          "expectedEnd": 1786.99,
+          "actualStart": 1598.7495,
+          "actualEnd": 1795.982708,
+          "timeDifference": 8.989499999999907
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Psychological Types in Relationships and Social Life",
+          "expectedStart": 1786.99,
+          "expectedEnd": 2017.55,
+          "actualStart": 1797.482708,
+          "actualEnd": 2028.040875,
+          "timeDifference": 10.492707999999993
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Growth, Balance, and the Path of Individuation",
+          "expectedStart": 2017.55,
+          "expectedEnd": 2260.02,
+          "actualStart": 2029.540875,
+          "actualEnd": 2272.008917,
+          "timeDifference": 11.99087499999996
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Tools for Everyday Use",
+          "expectedStart": 2260.02,
+          "expectedEnd": 2459.76,
+          "actualStart": 2273.508917,
+          "actualEnd": 2473.251542,
+          "timeDifference": 13.488917000000129
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Limits and Wisdom of Typology",
+          "expectedStart": 2459.76,
+          "expectedEnd": 2594.67,
+          "actualStart": 2474.751542,
+          "actualEnd": 2609.657625,
+          "timeDifference": 14.991541999999754
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2594.67,
+          "expectedEnd": 2724.43,
+          "actualStart": 2611.157625,
+          "actualEnd": 2740.918167,
+          "timeDifference": 16.487624999999753
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.40775,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Personality Differences"
+        },
+        {
+          "startTime": 360.37745800000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Personality Differences and Chapter 2 The Two Attitudes—Introversion and Extraversion in Daily Life"
+        },
+        {
+          "startTime": 649.7545,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Two Attitudes—Introversion and Extraversion in Daily Life and Chapter 3 The Four Psychological Functions—Thinking, Feeling, Sensation, and Intuition"
+        },
+        {
+          "startTime": 965.0628750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Four Psychological Functions—Thinking, Feeling, Sensation, and Intuition and Chapter 4 The Eight Psychological Types—Combining Attitudes and Functions"
+        },
+        {
+          "startTime": 1309.889042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Eight Psychological Types—Combining Attitudes and Functions and Chapter 5 The Dynamics of Consciousness and the Unconscious in Personality Types"
+        },
+        {
+          "startTime": 1597.2495,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dynamics of Consciousness and the Unconscious in Personality Types and Chapter 6 Applying Psychological Types in Therapy and Self-Discovery"
+        },
+        {
+          "startTime": 1795.982708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Applying Psychological Types in Therapy and Self-Discovery and Chapter 7 Psychological Types in Relationships and Social Life"
+        },
+        {
+          "startTime": 2028.040875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Psychological Types in Relationships and Social Life and Chapter 8 Growth, Balance, and the Path of Individuation"
+        },
+        {
+          "startTime": 2272.008917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Growth, Balance, and the Path of Individuation and Chapter 9 Practical Tools for Everyday Use"
+        },
+        {
+          "startTime": 2473.251542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Tools for Everyday Use and Chapter 10 The Limits and Wisdom of Typology"
+        },
+        {
+          "startTime": 2609.657625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Limits and Wisdom of Typology and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2155",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T22:03:44.106Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

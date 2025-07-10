@@ -1,0 +1,432 @@
+{
+  "bookId": "2099",
+  "timestamp": "2025-07-09T18:46:10.426Z",
+  "success": false,
+  "processingTime": -1752086114242,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4384,
+    "totalAudioFiles": 12,
+    "totalDuration": 1840.4702909999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1840.4702909999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2099/optimized_text/2099.md",
+    "fileSize": 692,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "2099.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2099/metadata/2099_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1840.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2099/metadata/2099_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2099/metadata/2099_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2099/2099_complete.wav",
+    "duration": 1840.470292,
+    "fileSize": 88342652,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2099/introduction.wav",
+          "duration": 84.615625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.615625,
+          "startTime": 0,
+          "endTime": 84.615625
+        },
+        {
+          "path": "Audio/output/2099/chapter_01.wav",
+          "duration": 217.7545,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 What Makes People Different from Animals",
+          "actualDuration": 217.7545,
+          "startTime": 86.115625,
+          "endTime": 303.87012500000003
+        },
+        {
+          "path": "Audio/output/2099/chapter_02.wav",
+          "duration": 220.867958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Search for Meaning in Ancient Myths and Religions",
+          "actualDuration": 220.867958,
+          "startTime": 305.37012500000003,
+          "endTime": 526.238083
+        },
+        {
+          "path": "Audio/output/2099/chapter_04.wav",
+          "duration": 224.140542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Difference Between Christianity and Other Faiths",
+          "actualDuration": 224.140542,
+          "startTime": 527.738083,
+          "endTime": 751.8786249999999
+        },
+        {
+          "path": "Audio/output/2099/chapter_05.wav",
+          "duration": 160.676208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Strangeness and Power of the Christian Story",
+          "actualDuration": 160.676208,
+          "startTime": 753.3786249999999,
+          "endTime": 914.0548329999999
+        },
+        {
+          "path": "Audio/output/2099/chapter_06.wav",
+          "duration": 183.026417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shaping of Civilization: Christianity’s Quiet Revolution",
+          "actualDuration": 183.026417,
+          "startTime": 915.5548329999999,
+          "endTime": 1098.58125
+        },
+        {
+          "path": "Audio/output/2099/chapter_07.wav",
+          "duration": 182.7335,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Challenge of Christendom: Faith in Power",
+          "actualDuration": 182.7335,
+          "startTime": 1100.08125,
+          "endTime": 1282.81475
+        },
+        {
+          "path": "Audio/output/2099/chapter_08.wav",
+          "duration": 192.473583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Modern World: Doubt, Disenchantment, and the Search for Wonder",
+          "actualDuration": 192.473583,
+          "startTime": 1284.31475,
+          "endTime": 1476.788333
+        },
+        {
+          "path": "Audio/output/2099/chapter_09.wav",
+          "duration": 132.363125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Everlasting Man: Humanity’s Unending Quest",
+          "actualDuration": 132.363125,
+          "startTime": 1478.288333,
+          "endTime": 1610.651458
+        },
+        {
+          "path": "Audio/output/2099/chapter_10.wav",
+          "duration": 134.447,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Invitation: Living the Story Today",
+          "actualDuration": 134.447,
+          "startTime": 1612.151458,
+          "endTime": 1746.598458
+        },
+        {
+          "path": "Audio/output/2099/conclusion.wav",
+          "duration": 107.371833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.371833,
+          "startTime": 1748.098458,
+          "endTime": 1855.4702909999999
+        }
+      ],
+      "totalDuration": 1855.4702909999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.62,
+          "actualStart": 0,
+          "actualEnd": 84.615625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 What Makes People Different from Animals",
+          "expectedStart": 84.62,
+          "expectedEnd": 302.37,
+          "actualStart": 86.115625,
+          "actualEnd": 303.87012500000003,
+          "timeDifference": 1.4956249999999898
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Search for Meaning in Ancient Myths and Religions",
+          "expectedStart": 302.37,
+          "expectedEnd": 523.24,
+          "actualStart": 305.37012500000003,
+          "actualEnd": 526.238083,
+          "timeDifference": 3.0001250000000255
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Difference Between Christianity and Other Faiths",
+          "expectedStart": 523.24,
+          "expectedEnd": 747.38,
+          "actualStart": 527.738083,
+          "actualEnd": 751.8786249999999,
+          "timeDifference": 4.498082999999951
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Strangeness and Power of the Christian Story",
+          "expectedStart": 747.38,
+          "expectedEnd": 908.06,
+          "actualStart": 753.3786249999999,
+          "actualEnd": 914.0548329999999,
+          "timeDifference": 5.998624999999947
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shaping of Civilization: Christianity’s Quiet Revolution",
+          "expectedStart": 908.06,
+          "expectedEnd": 1091.09,
+          "actualStart": 915.5548329999999,
+          "actualEnd": 1098.58125,
+          "timeDifference": 7.494832999999971
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Challenge of Christendom: Faith in Power",
+          "expectedStart": 1091.09,
+          "expectedEnd": 1273.82,
+          "actualStart": 1100.08125,
+          "actualEnd": 1282.81475,
+          "timeDifference": 8.991250000000036
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Modern World: Doubt, Disenchantment, and the Search for Wonder",
+          "expectedStart": 1273.82,
+          "expectedEnd": 1466.29,
+          "actualStart": 1284.31475,
+          "actualEnd": 1476.788333,
+          "timeDifference": 10.494750000000067
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Everlasting Man: Humanity’s Unending Quest",
+          "expectedStart": 1466.29,
+          "expectedEnd": 1598.65,
+          "actualStart": 1478.288333,
+          "actualEnd": 1610.651458,
+          "timeDifference": 11.998333000000002
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Invitation: Living the Story Today",
+          "expectedStart": 1598.65,
+          "expectedEnd": 1733.1,
+          "actualStart": 1612.151458,
+          "actualEnd": 1746.598458,
+          "timeDifference": 13.501457999999957
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1733.1,
+          "expectedEnd": 1840.47,
+          "actualStart": 1748.098458,
+          "actualEnd": 1855.4702909999999,
+          "timeDifference": 14.998458000000028
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.615625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 What Makes People Different from Animals"
+        },
+        {
+          "startTime": 303.87012500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 What Makes People Different from Animals and Chapter 2 The Search for Meaning in Ancient Myths and Religions"
+        },
+        {
+          "startTime": 526.238083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Search for Meaning in Ancient Myths and Religions and Chapter 4 The Difference Between Christianity and Other Faiths"
+        },
+        {
+          "startTime": 751.8786249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Difference Between Christianity and Other Faiths and Chapter 5 The Strangeness and Power of the Christian Story"
+        },
+        {
+          "startTime": 914.0548329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Strangeness and Power of the Christian Story and Chapter 6 The Shaping of Civilization: Christianity’s Quiet Revolution"
+        },
+        {
+          "startTime": 1098.58125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shaping of Civilization: Christianity’s Quiet Revolution and Chapter 7 The Challenge of Christendom: Faith in Power"
+        },
+        {
+          "startTime": 1282.81475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Challenge of Christendom: Faith in Power and Chapter 8 The Modern World: Doubt, Disenchantment, and the Search for Wonder"
+        },
+        {
+          "startTime": 1476.788333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Modern World: Doubt, Disenchantment, and the Search for Wonder and Chapter 9 The Everlasting Man: Humanity’s Unending Quest"
+        },
+        {
+          "startTime": 1610.651458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Everlasting Man: Humanity’s Unending Quest and Chapter 10 The Invitation: Living the Story Today"
+        },
+        {
+          "startTime": 1746.598458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Invitation: Living the Story Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2099",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T18:35:15.436Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

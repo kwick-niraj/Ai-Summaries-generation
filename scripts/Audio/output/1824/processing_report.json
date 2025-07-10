@@ -1,0 +1,456 @@
+{
+  "bookId": "1824",
+  "timestamp": "2025-07-08T18:44:49.574Z",
+  "success": false,
+  "processingTime": -1751999903052,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4205,
+    "totalAudioFiles": 12,
+    "totalDuration": 2163.2847920000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2163.2847920000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1824/optimized_text/1824.md",
+    "fileSize": 844,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1824.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1824/metadata/1824_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2163.29,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1824/metadata/1824_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1824/metadata/1824_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1824/1824_complete.wav",
+    "duration": 2163.284792,
+    "fileSize": 103837748,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1824/introduction.wav",
+          "duration": 96.808667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.808667,
+          "startTime": 0,
+          "endTime": 96.808667
+        },
+        {
+          "path": "Audio/output/1824/chapter_01.wav",
+          "duration": 206.4955,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Years: Family, Health, and the Seeds of Character",
+          "actualDuration": 206.4955,
+          "startTime": 98.308667,
+          "endTime": 304.804167
+        },
+        {
+          "path": "Audio/output/1824/chapter_02.wav",
+          "duration": 211.0675,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Education, Curiosity, and the Making of a Public Mind",
+          "actualDuration": 211.0675,
+          "startTime": 306.304167,
+          "endTime": 517.371667
+        },
+        {
+          "path": "Audio/output/1824/chapter_03.wav",
+          "duration": 242.396958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Entering Public Life: Reform, Responsibility, and the Struggle for Change",
+          "actualDuration": 242.396958,
+          "startTime": 518.871667,
+          "endTime": 761.268625
+        },
+        {
+          "path": "Audio/output/1824/chapter_04.wav",
+          "duration": 200.937083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Call to National Service: War, Duty, and the Meaning of Courage",
+          "actualDuration": 200.937083,
+          "startTime": 762.768625,
+          "endTime": 963.7057080000001
+        },
+        {
+          "path": "Audio/output/1824/chapter_05.wav",
+          "duration": 192.090208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reforming Government: Progress, Obstacles, and the Power of Persistence",
+          "actualDuration": 192.090208,
+          "startTime": 965.2057080000001,
+          "endTime": 1157.295916
+        },
+        {
+          "path": "Audio/output/1824/chapter_06.wav",
+          "duration": 226.276667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Presidency: Vision, Challenge, and the Weight of the Office",
+          "actualDuration": 226.276667,
+          "startTime": 1158.795916,
+          "endTime": 1385.0725830000001
+        },
+        {
+          "path": "Audio/output/1824/chapter_07.wav",
+          "duration": 188.824042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Conservation and the American Landscape: A New Kind of Stewardship",
+          "actualDuration": 188.824042,
+          "startTime": 1386.5725830000001,
+          "endTime": 1575.396625
+        },
+        {
+          "path": "Audio/output/1824/chapter_08.wav",
+          "duration": 201.811417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Foreign Affairs: Diplomacy, Strength, and the American Role in the World",
+          "actualDuration": 201.811417,
+          "startTime": 1576.896625,
+          "endTime": 1778.7080420000002
+        },
+        {
+          "path": "Audio/output/1824/chapter_09.wav",
+          "duration": 145.884417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Strains of Leadership: Criticism, Loss, and the Limits of Power",
+          "actualDuration": 145.884417,
+          "startTime": 1780.2080420000002,
+          "endTime": 1926.0924590000002
+        },
+        {
+          "path": "Audio/output/1824/chapter_10.wav",
+          "duration": 127.350208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Reflection: Lessons for the Next Generation",
+          "actualDuration": 127.350208,
+          "startTime": 1927.5924590000002,
+          "endTime": 2054.9426670000003
+        },
+        {
+          "path": "Audio/output/1824/conclusion.wav",
+          "duration": 123.342125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.342125,
+          "startTime": 2056.4426670000003,
+          "endTime": 2179.7847920000004
+        }
+      ],
+      "totalDuration": 2179.7847920000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.81,
+          "actualStart": 0,
+          "actualEnd": 96.808667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Years: Family, Health, and the Seeds of Character",
+          "expectedStart": 96.81,
+          "expectedEnd": 303.31,
+          "actualStart": 98.308667,
+          "actualEnd": 304.804167,
+          "timeDifference": 1.4986669999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Education, Curiosity, and the Making of a Public Mind",
+          "expectedStart": 303.31,
+          "expectedEnd": 514.38,
+          "actualStart": 306.304167,
+          "actualEnd": 517.371667,
+          "timeDifference": 2.9941670000000045
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Entering Public Life: Reform, Responsibility, and the Struggle for Change",
+          "expectedStart": 514.38,
+          "expectedEnd": 756.78,
+          "actualStart": 518.871667,
+          "actualEnd": 761.268625,
+          "timeDifference": 4.491667000000007
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Call to National Service: War, Duty, and the Meaning of Courage",
+          "expectedStart": 756.78,
+          "expectedEnd": 957.72,
+          "actualStart": 762.768625,
+          "actualEnd": 963.7057080000001,
+          "timeDifference": 5.98862500000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reforming Government: Progress, Obstacles, and the Power of Persistence",
+          "expectedStart": 957.72,
+          "expectedEnd": 1149.81,
+          "actualStart": 965.2057080000001,
+          "actualEnd": 1157.295916,
+          "timeDifference": 7.485708000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Presidency: Vision, Challenge, and the Weight of the Office",
+          "expectedStart": 1149.81,
+          "expectedEnd": 1376.09,
+          "actualStart": 1158.795916,
+          "actualEnd": 1385.0725830000001,
+          "timeDifference": 8.985916000000088
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Conservation and the American Landscape: A New Kind of Stewardship",
+          "expectedStart": 1376.09,
+          "expectedEnd": 1564.91,
+          "actualStart": 1386.5725830000001,
+          "actualEnd": 1575.396625,
+          "timeDifference": 10.482583000000204
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Foreign Affairs: Diplomacy, Strength, and the American Role in the World",
+          "expectedStart": 1564.91,
+          "expectedEnd": 1766.72,
+          "actualStart": 1576.896625,
+          "actualEnd": 1778.7080420000002,
+          "timeDifference": 11.986625000000004
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Strains of Leadership: Criticism, Loss, and the Limits of Power",
+          "expectedStart": 1766.72,
+          "expectedEnd": 1912.6,
+          "actualStart": 1780.2080420000002,
+          "actualEnd": 1926.0924590000002,
+          "timeDifference": 13.488042000000178
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Reflection: Lessons for the Next Generation",
+          "expectedStart": 1912.6,
+          "expectedEnd": 2039.95,
+          "actualStart": 1927.5924590000002,
+          "actualEnd": 2054.9426670000003,
+          "timeDifference": 14.99245900000028
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2039.95,
+          "expectedEnd": 2163.29,
+          "actualStart": 2056.4426670000003,
+          "actualEnd": 2179.7847920000004,
+          "timeDifference": 16.49266700000021
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.808667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Years: Family, Health, and the Seeds of Character"
+        },
+        {
+          "startTime": 304.804167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Years: Family, Health, and the Seeds of Character and Chapter 2 Education, Curiosity, and the Making of a Public Mind"
+        },
+        {
+          "startTime": 517.371667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Education, Curiosity, and the Making of a Public Mind and Chapter 3 Entering Public Life: Reform, Responsibility, and the Struggle for Change"
+        },
+        {
+          "startTime": 761.268625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Entering Public Life: Reform, Responsibility, and the Struggle for Change and Chapter 4 The Call to National Service: War, Duty, and the Meaning of Courage"
+        },
+        {
+          "startTime": 963.7057080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Call to National Service: War, Duty, and the Meaning of Courage and Chapter 5 Reforming Government: Progress, Obstacles, and the Power of Persistence"
+        },
+        {
+          "startTime": 1157.295916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reforming Government: Progress, Obstacles, and the Power of Persistence and Chapter 6 The Presidency: Vision, Challenge, and the Weight of the Office"
+        },
+        {
+          "startTime": 1385.0725830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Presidency: Vision, Challenge, and the Weight of the Office and Chapter 7 Conservation and the American Landscape: A New Kind of Stewardship"
+        },
+        {
+          "startTime": 1575.396625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Conservation and the American Landscape: A New Kind of Stewardship and Chapter 8 Foreign Affairs: Diplomacy, Strength, and the American Role in the World"
+        },
+        {
+          "startTime": 1778.7080420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Foreign Affairs: Diplomacy, Strength, and the American Role in the World and Chapter 9 The Strains of Leadership: Criticism, Loss, and the Limits of Power"
+        },
+        {
+          "startTime": 1926.0924590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Strains of Leadership: Criticism, Loss, and the Limits of Power and Chapter 10 Legacy and Reflection: Lessons for the Next Generation"
+        },
+        {
+          "startTime": 2054.9426670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Reflection: Lessons for the Next Generation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1824",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T18:38:24.235Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

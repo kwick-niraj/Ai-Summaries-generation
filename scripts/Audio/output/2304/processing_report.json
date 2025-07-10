@@ -1,0 +1,504 @@
+{
+  "bookId": "2304",
+  "timestamp": "2025-07-10T11:15:44.087Z",
+  "success": false,
+  "processingTime": -1752145851986,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4795,
+    "totalAudioFiles": 14,
+    "totalDuration": 2329.088331
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2329.088331
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2304/optimized_text/2304.md",
+    "fileSize": 899,
+    "wordCount": 133,
+    "format": "markdown",
+    "filename": "2304.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2304/metadata/2304_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2329.08,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2304/metadata/2304_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2304/metadata/2304_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2304/2304_complete.wav",
+    "duration": 2329.088333,
+    "fileSize": 111796318,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2304/introduction.wav",
+          "duration": 105.64875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.64875,
+          "startTime": 0,
+          "endTime": 105.64875
+        },
+        {
+          "path": "Audio/output/2304/chapter_01.wav",
+          "duration": 224.699958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World as It Appears: Consciousness and the Stuff of Existence",
+          "actualDuration": 224.699958,
+          "startTime": 107.14875,
+          "endTime": 331.848708
+        },
+        {
+          "path": "Audio/output/2304/chapter_02.wav",
+          "duration": 206.865958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Absence: How Nothingness Shapes Human Experience",
+          "actualDuration": 206.865958,
+          "startTime": 333.348708,
+          "endTime": 540.214666
+        },
+        {
+          "path": "Audio/output/2304/chapter_03.wav",
+          "duration": 179.392417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Weight and Wonder of Freedom: Responsibility in Every Choice",
+          "actualDuration": 179.392417,
+          "startTime": 541.714666,
+          "endTime": 721.107083
+        },
+        {
+          "path": "Audio/output/2304/chapter_04.wav",
+          "duration": 206.131917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Trap of Self-Deception: How People Hide from Their Own Freedom",
+          "actualDuration": 206.131917,
+          "startTime": 722.607083,
+          "endTime": 928.739
+        },
+        {
+          "path": "Audio/output/2304/chapter_05.wav",
+          "duration": 222.187208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Gaze of Others: How Relationships Shape Identity",
+          "actualDuration": 222.187208,
+          "startTime": 930.239,
+          "endTime": 1152.426208
+        },
+        {
+          "path": "Audio/output/2304/chapter_06.wav",
+          "duration": 177.662083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Search for Authenticity: Living Without a Script",
+          "actualDuration": 177.662083,
+          "startTime": 1153.926208,
+          "endTime": 1331.588291
+        },
+        {
+          "path": "Audio/output/2304/chapter_07.wav",
+          "duration": 160.623583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Anxiety and the Human Condition: Living with Uncertainty",
+          "actualDuration": 160.623583,
+          "startTime": 1333.088291,
+          "endTime": 1493.711874
+        },
+        {
+          "path": "Audio/output/2304/chapter_08.wav",
+          "duration": 160.3225,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Project of Meaning: Creating Value in a World Without Guarantees",
+          "actualDuration": 160.3225,
+          "startTime": 1495.211874,
+          "endTime": 1655.534374
+        },
+        {
+          "path": "Audio/output/2304/chapter_09.wav",
+          "duration": 146.71425,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love, Conflict, and the Struggle for Recognition",
+          "actualDuration": 146.71425,
+          "startTime": 1657.034374,
+          "endTime": 1803.748624
+        },
+        {
+          "path": "Audio/output/2304/chapter_10.wav",
+          "duration": 131.683083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Body and the World: Living as Embodied Beings",
+          "actualDuration": 131.683083,
+          "startTime": 1805.248624,
+          "endTime": 1936.9317070000002
+        },
+        {
+          "path": "Audio/output/2304/chapter_11.wav",
+          "duration": 130.958083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Time, Finitude, and the Shape of a Life",
+          "actualDuration": 130.958083,
+          "startTime": 1938.4317070000002,
+          "endTime": 2069.38979
+        },
+        {
+          "path": "Audio/output/2304/chapter_12.wav",
+          "duration": 126.995208,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Project: Becoming Who We Are",
+          "actualDuration": 126.995208,
+          "startTime": 2070.88979,
+          "endTime": 2197.884998
+        },
+        {
+          "path": "Audio/output/2304/conclusion.wav",
+          "duration": 149.203333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 149.203333,
+          "startTime": 2199.384998,
+          "endTime": 2348.588331
+        }
+      ],
+      "totalDuration": 2348.588331,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.65,
+          "actualStart": 0,
+          "actualEnd": 105.64875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World as It Appears: Consciousness and the Stuff of Existence",
+          "expectedStart": 105.65,
+          "expectedEnd": 330.35,
+          "actualStart": 107.14875,
+          "actualEnd": 331.848708,
+          "timeDifference": 1.4987500000000011
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Absence: How Nothingness Shapes Human Experience",
+          "expectedStart": 330.35,
+          "expectedEnd": 537.22,
+          "actualStart": 333.348708,
+          "actualEnd": 540.214666,
+          "timeDifference": 2.998707999999965
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Weight and Wonder of Freedom: Responsibility in Every Choice",
+          "expectedStart": 537.22,
+          "expectedEnd": 716.61,
+          "actualStart": 541.714666,
+          "actualEnd": 721.107083,
+          "timeDifference": 4.494665999999938
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Trap of Self-Deception: How People Hide from Their Own Freedom",
+          "expectedStart": 716.61,
+          "expectedEnd": 922.74,
+          "actualStart": 722.607083,
+          "actualEnd": 928.739,
+          "timeDifference": 5.997082999999975
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Gaze of Others: How Relationships Shape Identity",
+          "expectedStart": 922.74,
+          "expectedEnd": 1144.93,
+          "actualStart": 930.239,
+          "actualEnd": 1152.426208,
+          "timeDifference": 7.499000000000024
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Search for Authenticity: Living Without a Script",
+          "expectedStart": 1144.93,
+          "expectedEnd": 1322.59,
+          "actualStart": 1153.926208,
+          "actualEnd": 1331.588291,
+          "timeDifference": 8.996208000000024
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Anxiety and the Human Condition: Living with Uncertainty",
+          "expectedStart": 1322.59,
+          "expectedEnd": 1483.21,
+          "actualStart": 1333.088291,
+          "actualEnd": 1493.711874,
+          "timeDifference": 10.498291000000108
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Project of Meaning: Creating Value in a World Without Guarantees",
+          "expectedStart": 1483.21,
+          "expectedEnd": 1643.53,
+          "actualStart": 1495.211874,
+          "actualEnd": 1655.534374,
+          "timeDifference": 12.001874000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love, Conflict, and the Struggle for Recognition",
+          "expectedStart": 1643.53,
+          "expectedEnd": 1790.24,
+          "actualStart": 1657.034374,
+          "actualEnd": 1803.748624,
+          "timeDifference": 13.504374000000098
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Body and the World: Living as Embodied Beings",
+          "expectedStart": 1790.24,
+          "expectedEnd": 1921.92,
+          "actualStart": 1805.248624,
+          "actualEnd": 1936.9317070000002,
+          "timeDifference": 15.008624000000054
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Time, Finitude, and the Shape of a Life",
+          "expectedStart": 1921.92,
+          "expectedEnd": 2052.88,
+          "actualStart": 1938.4317070000002,
+          "actualEnd": 2069.38979,
+          "timeDifference": 16.511707000000115
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Project: Becoming Who We Are",
+          "expectedStart": 2052.88,
+          "expectedEnd": 2179.88,
+          "actualStart": 2070.88979,
+          "actualEnd": 2197.884998,
+          "timeDifference": 18.009790000000066
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2179.88,
+          "expectedEnd": 2329.08,
+          "actualStart": 2199.384998,
+          "actualEnd": 2348.588331,
+          "timeDifference": 19.504997999999887
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.64875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World as It Appears: Consciousness and the Stuff of Existence"
+        },
+        {
+          "startTime": 331.848708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World as It Appears: Consciousness and the Stuff of Existence and Chapter 2 The Power of Absence: How Nothingness Shapes Human Experience"
+        },
+        {
+          "startTime": 540.214666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Absence: How Nothingness Shapes Human Experience and Chapter 3 The Weight and Wonder of Freedom: Responsibility in Every Choice"
+        },
+        {
+          "startTime": 721.107083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Weight and Wonder of Freedom: Responsibility in Every Choice and Chapter 4 The Trap of Self-Deception: How People Hide from Their Own Freedom"
+        },
+        {
+          "startTime": 928.739,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Trap of Self-Deception: How People Hide from Their Own Freedom and Chapter 5 The Gaze of Others: How Relationships Shape Identity"
+        },
+        {
+          "startTime": 1152.426208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Gaze of Others: How Relationships Shape Identity and Chapter 6 The Search for Authenticity: Living Without a Script"
+        },
+        {
+          "startTime": 1331.588291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Search for Authenticity: Living Without a Script and Chapter 7 Anxiety and the Human Condition: Living with Uncertainty"
+        },
+        {
+          "startTime": 1493.711874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Anxiety and the Human Condition: Living with Uncertainty and Chapter 8 The Project of Meaning: Creating Value in a World Without Guarantees"
+        },
+        {
+          "startTime": 1655.534374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Project of Meaning: Creating Value in a World Without Guarantees and Chapter 9 Love, Conflict, and the Struggle for Recognition"
+        },
+        {
+          "startTime": 1803.748624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love, Conflict, and the Struggle for Recognition and Chapter 10 The Body and the World: Living as Embodied Beings"
+        },
+        {
+          "startTime": 1936.9317070000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Body and the World: Living as Embodied Beings and Chapter 11 Time, Finitude, and the Shape of a Life"
+        },
+        {
+          "startTime": 2069.38979,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Time, Finitude, and the Shape of a Life and Chapter 12 The Ongoing Project: Becoming Who We Are"
+        },
+        {
+          "startTime": 2197.884998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Project: Becoming Who We Are and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2304",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:10:53.491Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

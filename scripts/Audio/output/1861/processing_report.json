@@ -1,0 +1,479 @@
+{
+  "bookId": "1861",
+  "timestamp": "2025-07-08T20:58:34.974Z",
+  "success": false,
+  "processingTime": -1752007827616,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 4921,
+    "totalAudioFiles": 13,
+    "totalDuration": 2147.495376
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2147.495376
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1861/optimized_text/1861.md",
+    "fileSize": 622,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "1861.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1861/metadata/1861_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2147.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1861/metadata/1861_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1861/metadata/1861_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1861/1861_complete.wav",
+    "duration": 2147.495375,
+    "fileSize": 103079856,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1861/introduction.wav",
+          "duration": 116.234667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 116.234667,
+          "startTime": 0,
+          "endTime": 116.234667
+        },
+        {
+          "path": "Audio/output/1861/chapter_01.wav",
+          "duration": 250.610625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Without Noticing Whiteness",
+          "actualDuration": 250.610625,
+          "startTime": 117.734667,
+          "endTime": 368.345292
+        },
+        {
+          "path": "Audio/output/1861/chapter_02.wav",
+          "duration": 217.811417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unseen Advantages of Being White",
+          "actualDuration": 217.811417,
+          "startTime": 369.845292,
+          "endTime": 587.656709
+        },
+        {
+          "path": "Audio/output/1861/chapter_03.wav",
+          "duration": 215.103458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking the Silence About Race",
+          "actualDuration": 215.103458,
+          "startTime": 589.156709,
+          "endTime": 804.2601669999999
+        },
+        {
+          "path": "Audio/output/1861/chapter_04.wav",
+          "duration": 194.86275,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Journey Toward Racial Awareness",
+          "actualDuration": 194.86275,
+          "startTime": 805.7601669999999,
+          "endTime": 1000.6229169999999
+        },
+        {
+          "path": "Audio/output/1861/chapter_05.wav",
+          "duration": 194.447708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 How Whiteness Shapes Relationships and Society",
+          "actualDuration": 194.447708,
+          "startTime": 1002.1229169999999,
+          "endTime": 1196.5706249999998
+        },
+        {
+          "path": "Audio/output/1861/chapter_06.wav",
+          "duration": 160.559292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing Discomfort and Defensiveness",
+          "actualDuration": 160.559292,
+          "startTime": 1198.0706249999998,
+          "endTime": 1358.6299169999998
+        },
+        {
+          "path": "Audio/output/1861/chapter_07.wav",
+          "duration": 137.310875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Listening and Bearing Witness",
+          "actualDuration": 137.310875,
+          "startTime": 1360.1299169999998,
+          "endTime": 1497.4407919999999
+        },
+        {
+          "path": "Audio/output/1861/chapter_08.wav",
+          "duration": 150.127292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Work of Allyship",
+          "actualDuration": 150.127292,
+          "startTime": 1498.9407919999999,
+          "endTime": 1649.068084
+        },
+        {
+          "path": "Audio/output/1861/chapter_09.wav",
+          "duration": 131.615583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Dismantling Systems—From Awareness to Action",
+          "actualDuration": 131.615583,
+          "startTime": 1650.568084,
+          "endTime": 1782.183667
+        },
+        {
+          "path": "Audio/output/1861/chapter_10.wav",
+          "duration": 123.333667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reimagining Identity and Community",
+          "actualDuration": 123.333667,
+          "startTime": 1783.683667,
+          "endTime": 1907.0173340000001
+        },
+        {
+          "path": "Audio/output/1861/chapter_11.wav",
+          "duration": 134.59675,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ongoing Work—Hope, Accountability, and Renewal",
+          "actualDuration": 134.59675,
+          "startTime": 1908.5173340000001,
+          "endTime": 2043.114084
+        },
+        {
+          "path": "Audio/output/1861/conclusion.wav",
+          "duration": 120.881292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.881292,
+          "startTime": 2044.614084,
+          "endTime": 2165.495376
+        }
+      ],
+      "totalDuration": 2165.495376,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 116.23,
+          "actualStart": 0,
+          "actualEnd": 116.234667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Without Noticing Whiteness",
+          "expectedStart": 116.23,
+          "expectedEnd": 366.84,
+          "actualStart": 117.734667,
+          "actualEnd": 368.345292,
+          "timeDifference": 1.5046669999999978
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unseen Advantages of Being White",
+          "expectedStart": 366.84,
+          "expectedEnd": 584.65,
+          "actualStart": 369.845292,
+          "actualEnd": 587.656709,
+          "timeDifference": 3.005291999999997
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking the Silence About Race",
+          "expectedStart": 584.65,
+          "expectedEnd": 799.75,
+          "actualStart": 589.156709,
+          "actualEnd": 804.2601669999999,
+          "timeDifference": 4.506709000000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Journey Toward Racial Awareness",
+          "expectedStart": 799.75,
+          "expectedEnd": 994.61,
+          "actualStart": 805.7601669999999,
+          "actualEnd": 1000.6229169999999,
+          "timeDifference": 6.01016699999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 How Whiteness Shapes Relationships and Society",
+          "expectedStart": 994.61,
+          "expectedEnd": 1189.06,
+          "actualStart": 1002.1229169999999,
+          "actualEnd": 1196.5706249999998,
+          "timeDifference": 7.512916999999902
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing Discomfort and Defensiveness",
+          "expectedStart": 1189.06,
+          "expectedEnd": 1349.62,
+          "actualStart": 1198.0706249999998,
+          "actualEnd": 1358.6299169999998,
+          "timeDifference": 9.01062499999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Listening and Bearing Witness",
+          "expectedStart": 1349.62,
+          "expectedEnd": 1486.93,
+          "actualStart": 1360.1299169999998,
+          "actualEnd": 1497.4407919999999,
+          "timeDifference": 10.50991699999986
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Work of Allyship",
+          "expectedStart": 1486.93,
+          "expectedEnd": 1637.06,
+          "actualStart": 1498.9407919999999,
+          "actualEnd": 1649.068084,
+          "timeDifference": 12.01079199999981
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Dismantling Systems—From Awareness to Action",
+          "expectedStart": 1637.06,
+          "expectedEnd": 1768.68,
+          "actualStart": 1650.568084,
+          "actualEnd": 1782.183667,
+          "timeDifference": 13.508084000000053
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reimagining Identity and Community",
+          "expectedStart": 1768.68,
+          "expectedEnd": 1892.01,
+          "actualStart": 1783.683667,
+          "actualEnd": 1907.0173340000001,
+          "timeDifference": 15.00366699999995
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ongoing Work—Hope, Accountability, and Renewal",
+          "expectedStart": 1892.01,
+          "expectedEnd": 2026.61,
+          "actualStart": 1908.5173340000001,
+          "actualEnd": 2043.114084,
+          "timeDifference": 16.507334000000128
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2026.61,
+          "expectedEnd": 2147.49,
+          "actualStart": 2044.614084,
+          "actualEnd": 2165.495376,
+          "timeDifference": 18.004084000000148
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 116.234667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Without Noticing Whiteness"
+        },
+        {
+          "startTime": 368.345292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Without Noticing Whiteness and Chapter 2 The Unseen Advantages of Being White"
+        },
+        {
+          "startTime": 587.656709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unseen Advantages of Being White and Chapter 3 Breaking the Silence About Race"
+        },
+        {
+          "startTime": 804.2601669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking the Silence About Race and Chapter 4 The Journey Toward Racial Awareness"
+        },
+        {
+          "startTime": 1000.6229169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Journey Toward Racial Awareness and Chapter 5 How Whiteness Shapes Relationships and Society"
+        },
+        {
+          "startTime": 1196.5706249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 How Whiteness Shapes Relationships and Society and Chapter 6 Facing Discomfort and Defensiveness"
+        },
+        {
+          "startTime": 1358.6299169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing Discomfort and Defensiveness and Chapter 7 Listening and Bearing Witness"
+        },
+        {
+          "startTime": 1497.4407919999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Listening and Bearing Witness and Chapter 8 The Work of Allyship"
+        },
+        {
+          "startTime": 1649.068084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Work of Allyship and Chapter 9 Dismantling Systems—From Awareness to Action"
+        },
+        {
+          "startTime": 1782.183667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Dismantling Systems—From Awareness to Action and Chapter 10 Reimagining Identity and Community"
+        },
+        {
+          "startTime": 1907.0173340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reimagining Identity and Community and Chapter 11 The Ongoing Work—Hope, Accountability, and Renewal"
+        },
+        {
+          "startTime": 2043.114084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ongoing Work—Hope, Accountability, and Renewal and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1861",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T20:50:28.927Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

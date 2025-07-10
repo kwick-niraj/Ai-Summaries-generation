@@ -1,0 +1,455 @@
+{
+  "bookId": "1719",
+  "timestamp": "2025-07-08T09:11:57.481Z",
+  "success": false,
+  "processingTime": -1751965589391,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4780,
+    "totalAudioFiles": 12,
+    "totalDuration": 2177.8969989999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2177.8969989999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1719/optimized_text/1719.md",
+    "fileSize": 709,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "1719.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1719/metadata/1719_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2177.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1719/metadata/1719_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1719/metadata/1719_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1719/1719_complete.wav",
+    "duration": 2177.897,
+    "fileSize": 104539134,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1719/introduction.wav",
+          "duration": 88.35125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.35125,
+          "startTime": 0,
+          "endTime": 88.35125
+        },
+        {
+          "path": "Audio/output/1719/chapter_01.wav",
+          "duration": 201.832333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Global Food System and Its Hidden Costs",
+          "actualDuration": 201.832333,
+          "startTime": 89.85125,
+          "endTime": 291.683583
+        },
+        {
+          "path": "Audio/output/1719/chapter_02.wav",
+          "duration": 212.750833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Case for Plant-Based Eating and Its Global Benefits",
+          "actualDuration": 212.750833,
+          "startTime": 293.183583,
+          "endTime": 505.934416
+        },
+        {
+          "path": "Audio/output/1719/chapter_03.wav",
+          "duration": 217.621333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Demystifying Protein and the Art of Plant-Based Nutrition",
+          "actualDuration": 217.621333,
+          "startTime": 507.434416,
+          "endTime": 725.055749
+        },
+        {
+          "path": "Audio/output/1719/chapter_04.wav",
+          "duration": 231.061542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Food Choices as Everyday Acts of Empowerment",
+          "actualDuration": 231.061542,
+          "startTime": 726.555749,
+          "endTime": 957.617291
+        },
+        {
+          "path": "Audio/output/1719/chapter_05.wav",
+          "duration": 182.166458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Challenging Food Industry Narratives and Reclaiming the Story",
+          "actualDuration": 182.166458,
+          "startTime": 959.117291,
+          "endTime": 1141.283749
+        },
+        {
+          "path": "Audio/output/1719/chapter_06.wav",
+          "duration": 210.306333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practical Foundations for Plant-Based Cooking",
+          "actualDuration": 210.306333,
+          "startTime": 1142.783749,
+          "endTime": 1353.090082
+        },
+        {
+          "path": "Audio/output/1719/chapter_07.wav",
+          "duration": 172.856167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Social Situations and Cultural Traditions",
+          "actualDuration": 172.856167,
+          "startTime": 1354.590082,
+          "endTime": 1527.4462489999999
+        },
+        {
+          "path": "Audio/output/1719/chapter_08.wav",
+          "duration": 188.751667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community Action and Food System Transformation",
+          "actualDuration": 188.751667,
+          "startTime": 1528.9462489999999,
+          "endTime": 1717.6979159999999
+        },
+        {
+          "path": "Audio/output/1719/chapter_09.wav",
+          "duration": 204.932708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Overcoming Obstacles and Sustaining Change",
+          "actualDuration": 204.932708,
+          "startTime": 1719.1979159999999,
+          "endTime": 1924.130624
+        },
+        {
+          "path": "Audio/output/1719/chapter_10.wav",
+          "duration": 152.590042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Envisioning a Just and Sustainable Food Future",
+          "actualDuration": 152.590042,
+          "startTime": 1925.630624,
+          "endTime": 2078.2206659999997
+        },
+        {
+          "path": "Audio/output/1719/conclusion.wav",
+          "duration": 114.676333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.676333,
+          "startTime": 2079.7206659999997,
+          "endTime": 2194.3969989999996
+        }
+      ],
+      "totalDuration": 2194.3969989999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.35,
+          "actualStart": 0,
+          "actualEnd": 88.35125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Global Food System and Its Hidden Costs",
+          "expectedStart": 88.35,
+          "expectedEnd": 290.18,
+          "actualStart": 89.85125,
+          "actualEnd": 291.683583,
+          "timeDifference": 1.5012499999999989
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Case for Plant-Based Eating and Its Global Benefits",
+          "expectedStart": 290.18,
+          "expectedEnd": 502.93,
+          "actualStart": 293.183583,
+          "actualEnd": 505.934416,
+          "timeDifference": 3.003582999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Demystifying Protein and the Art of Plant-Based Nutrition",
+          "expectedStart": 502.93,
+          "expectedEnd": 720.55,
+          "actualStart": 507.434416,
+          "actualEnd": 725.055749,
+          "timeDifference": 4.504415999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Food Choices as Everyday Acts of Empowerment",
+          "expectedStart": 720.55,
+          "expectedEnd": 951.61,
+          "actualStart": 726.555749,
+          "actualEnd": 957.617291,
+          "timeDifference": 6.005749000000037
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Challenging Food Industry Narratives and Reclaiming the Story",
+          "expectedStart": 951.61,
+          "expectedEnd": 1133.78,
+          "actualStart": 959.117291,
+          "actualEnd": 1141.283749,
+          "timeDifference": 7.507291000000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practical Foundations for Plant-Based Cooking",
+          "expectedStart": 1133.78,
+          "expectedEnd": 1344.09,
+          "actualStart": 1142.783749,
+          "actualEnd": 1353.090082,
+          "timeDifference": 9.00374899999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Social Situations and Cultural Traditions",
+          "expectedStart": 1344.09,
+          "expectedEnd": 1516.95,
+          "actualStart": 1354.590082,
+          "actualEnd": 1527.4462489999999,
+          "timeDifference": 10.50008200000002
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community Action and Food System Transformation",
+          "expectedStart": 1516.95,
+          "expectedEnd": 1705.7,
+          "actualStart": 1528.9462489999999,
+          "actualEnd": 1717.6979159999999,
+          "timeDifference": 11.996248999999807
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Overcoming Obstacles and Sustaining Change",
+          "expectedStart": 1705.7,
+          "expectedEnd": 1910.63,
+          "actualStart": 1719.1979159999999,
+          "actualEnd": 1924.130624,
+          "timeDifference": 13.497915999999805
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Envisioning a Just and Sustainable Food Future",
+          "expectedStart": 1910.63,
+          "expectedEnd": 2063.22,
+          "actualStart": 1925.630624,
+          "actualEnd": 2078.2206659999997,
+          "timeDifference": 15.000623999999789
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2063.22,
+          "expectedEnd": 2177.9,
+          "actualStart": 2079.7206659999997,
+          "actualEnd": 2194.3969989999996,
+          "timeDifference": 16.50066599999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.35125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Global Food System and Its Hidden Costs"
+        },
+        {
+          "startTime": 291.683583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Global Food System and Its Hidden Costs and Chapter 2 The Case for Plant-Based Eating and Its Global Benefits"
+        },
+        {
+          "startTime": 505.934416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Case for Plant-Based Eating and Its Global Benefits and Chapter 3 Demystifying Protein and the Art of Plant-Based Nutrition"
+        },
+        {
+          "startTime": 725.055749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Demystifying Protein and the Art of Plant-Based Nutrition and Chapter 4 Food Choices as Everyday Acts of Empowerment"
+        },
+        {
+          "startTime": 957.617291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Food Choices as Everyday Acts of Empowerment and Chapter 5 Challenging Food Industry Narratives and Reclaiming the Story"
+        },
+        {
+          "startTime": 1141.283749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Challenging Food Industry Narratives and Reclaiming the Story and Chapter 6 Practical Foundations for Plant-Based Cooking"
+        },
+        {
+          "startTime": 1353.090082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practical Foundations for Plant-Based Cooking and Chapter 7 Navigating Social Situations and Cultural Traditions"
+        },
+        {
+          "startTime": 1527.4462489999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Social Situations and Cultural Traditions and Chapter 8 Community Action and Food System Transformation"
+        },
+        {
+          "startTime": 1717.6979159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community Action and Food System Transformation and Chapter 9 Overcoming Obstacles and Sustaining Change"
+        },
+        {
+          "startTime": 1924.130624,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Overcoming Obstacles and Sustaining Change and Chapter 10 Envisioning a Just and Sustainable Food Future"
+        },
+        {
+          "startTime": 2078.2206659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Envisioning a Just and Sustainable Food Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1719",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T09:06:30.678Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

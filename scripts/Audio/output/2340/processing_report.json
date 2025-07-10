@@ -1,0 +1,432 @@
+{
+  "bookId": "2340",
+  "timestamp": "2025-07-10T13:15:48.336Z",
+  "success": false,
+  "processingTime": -1752152912789,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4315,
+    "totalAudioFiles": 12,
+    "totalDuration": 1759.3941650000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1759.3941650000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2340/optimized_text/2340.md",
+    "fileSize": 712,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2340.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2340/metadata/2340_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1759.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2340/metadata/2340_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2340/metadata/2340_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2340/2340_complete.wav",
+    "duration": 1759.394167,
+    "fileSize": 84450998,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2340/introduction.wav",
+          "duration": 72.318167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.318167,
+          "startTime": 0,
+          "endTime": 72.318167
+        },
+        {
+          "path": "Audio/output/2340/chapter_01.wav",
+          "duration": 186.511417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Urgency of Preserving the Prophet’s Teachings",
+          "actualDuration": 186.511417,
+          "startTime": 73.818167,
+          "endTime": 260.329584
+        },
+        {
+          "path": "Audio/output/2340/chapter_02.wav",
+          "duration": 208.4655,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Art and Science of Authenticating Hadith",
+          "actualDuration": 208.4655,
+          "startTime": 261.829584,
+          "endTime": 470.295084
+        },
+        {
+          "path": "Audio/output/2340/chapter_03.wav",
+          "duration": 206.107208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Hadith in Shaping Islamic Law and Daily Life",
+          "actualDuration": 206.107208,
+          "startTime": 471.795084,
+          "endTime": 677.902292
+        },
+        {
+          "path": "Audio/output/2340/chapter_04.wav",
+          "duration": 218.503083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rituals, Ethics, and the Everyday Practice of Faith",
+          "actualDuration": 218.503083,
+          "startTime": 679.402292,
+          "endTime": 897.905375
+        },
+        {
+          "path": "Audio/output/2340/chapter_05.wav",
+          "duration": 177.419958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Journey of Learning and Transmission",
+          "actualDuration": 177.419958,
+          "startTime": 899.405375,
+          "endTime": 1076.825333
+        },
+        {
+          "path": "Audio/output/2340/chapter_06.wav",
+          "duration": 160.8195,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ripple Effect—Hadith and the Shaping of Islamic Thought",
+          "actualDuration": 160.8195,
+          "startTime": 1078.325333,
+          "endTime": 1239.144833
+        },
+        {
+          "path": "Audio/output/2340/chapter_08.wav",
+          "duration": 144.736333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sunan an-Nasa’i—A Legacy of Precision and Care",
+          "actualDuration": 144.736333,
+          "startTime": 1240.644833,
+          "endTime": 1385.3811660000001
+        },
+        {
+          "path": "Audio/output/2340/chapter_09.wav",
+          "duration": 142.870208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Relevance of Prophetic Wisdom",
+          "actualDuration": 142.870208,
+          "startTime": 1386.8811660000001,
+          "endTime": 1529.7513740000002
+        },
+        {
+          "path": "Audio/output/2340/chapter_10.wav",
+          "duration": 117.864833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Torch—Living the Tradition Today",
+          "actualDuration": 117.864833,
+          "startTime": 1531.2513740000002,
+          "endTime": 1649.1162070000003
+        },
+        {
+          "path": "Audio/output/2340/conclusion.wav",
+          "duration": 123.777958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.777958,
+          "startTime": 1650.6162070000003,
+          "endTime": 1774.3941650000002
+        }
+      ],
+      "totalDuration": 1774.3941650000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.32,
+          "actualStart": 0,
+          "actualEnd": 72.318167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Urgency of Preserving the Prophet’s Teachings",
+          "expectedStart": 72.32,
+          "expectedEnd": 258.83,
+          "actualStart": 73.818167,
+          "actualEnd": 260.329584,
+          "timeDifference": 1.4981670000000094
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Art and Science of Authenticating Hadith",
+          "expectedStart": 258.83,
+          "expectedEnd": 467.3,
+          "actualStart": 261.829584,
+          "actualEnd": 470.295084,
+          "timeDifference": 2.999584000000027
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Hadith in Shaping Islamic Law and Daily Life",
+          "expectedStart": 467.3,
+          "expectedEnd": 673.41,
+          "actualStart": 471.795084,
+          "actualEnd": 677.902292,
+          "timeDifference": 4.495083999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rituals, Ethics, and the Everyday Practice of Faith",
+          "expectedStart": 673.41,
+          "expectedEnd": 891.91,
+          "actualStart": 679.402292,
+          "actualEnd": 897.905375,
+          "timeDifference": 5.99229200000002
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Journey of Learning and Transmission",
+          "expectedStart": 891.91,
+          "expectedEnd": 1069.33,
+          "actualStart": 899.405375,
+          "actualEnd": 1076.825333,
+          "timeDifference": 7.495375000000081
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ripple Effect—Hadith and the Shaping of Islamic Thought",
+          "expectedStart": 1069.33,
+          "expectedEnd": 1230.15,
+          "actualStart": 1078.325333,
+          "actualEnd": 1239.144833,
+          "timeDifference": 8.995333000000073
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sunan an-Nasa’i—A Legacy of Precision and Care",
+          "expectedStart": 1230.15,
+          "expectedEnd": 1374.89,
+          "actualStart": 1240.644833,
+          "actualEnd": 1385.3811660000001,
+          "timeDifference": 10.494832999999971
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Relevance of Prophetic Wisdom",
+          "expectedStart": 1374.89,
+          "expectedEnd": 1517.76,
+          "actualStart": 1386.8811660000001,
+          "actualEnd": 1529.7513740000002,
+          "timeDifference": 11.991166000000021
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Torch—Living the Tradition Today",
+          "expectedStart": 1517.76,
+          "expectedEnd": 1635.62,
+          "actualStart": 1531.2513740000002,
+          "actualEnd": 1649.1162070000003,
+          "timeDifference": 13.491374000000178
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1635.62,
+          "expectedEnd": 1759.4,
+          "actualStart": 1650.6162070000003,
+          "actualEnd": 1774.3941650000002,
+          "timeDifference": 14.996207000000368
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.318167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Urgency of Preserving the Prophet’s Teachings"
+        },
+        {
+          "startTime": 260.329584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Urgency of Preserving the Prophet’s Teachings and Chapter 2 The Art and Science of Authenticating Hadith"
+        },
+        {
+          "startTime": 470.295084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Art and Science of Authenticating Hadith and Chapter 3 The Role of Hadith in Shaping Islamic Law and Daily Life"
+        },
+        {
+          "startTime": 677.902292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Hadith in Shaping Islamic Law and Daily Life and Chapter 4 Rituals, Ethics, and the Everyday Practice of Faith"
+        },
+        {
+          "startTime": 897.905375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rituals, Ethics, and the Everyday Practice of Faith and Chapter 5 The Ongoing Journey of Learning and Transmission"
+        },
+        {
+          "startTime": 1076.825333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Journey of Learning and Transmission and Chapter 6 The Ripple Effect—Hadith and the Shaping of Islamic Thought"
+        },
+        {
+          "startTime": 1239.144833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ripple Effect—Hadith and the Shaping of Islamic Thought and Chapter 8 Sunan an-Nasa’i—A Legacy of Precision and Care"
+        },
+        {
+          "startTime": 1385.3811660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sunan an-Nasa’i—A Legacy of Precision and Care and Chapter 9 The Enduring Relevance of Prophetic Wisdom"
+        },
+        {
+          "startTime": 1529.7513740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Relevance of Prophetic Wisdom and Chapter 10 Carrying the Torch—Living the Tradition Today"
+        },
+        {
+          "startTime": 1649.1162070000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Torch—Living the Tradition Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2340",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T13:08:36.676Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

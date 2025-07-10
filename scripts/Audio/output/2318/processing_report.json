@@ -1,0 +1,456 @@
+{
+  "bookId": "2318",
+  "timestamp": "2025-07-10T11:53:07.016Z",
+  "success": false,
+  "processingTime": -1752148046500,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4537,
+    "totalAudioFiles": 12,
+    "totalDuration": 2413.034166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2413.034166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2318/optimized_text/2318.md",
+    "fileSize": 708,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2318.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2318/metadata/2318_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2413.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2318/metadata/2318_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2318/metadata/2318_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 72,
+    "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2318/2318_complete.wav",
+    "duration": 2413.034167,
+    "fileSize": 115825718,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2318/introduction.wav",
+          "duration": 79.017167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 79.017167,
+          "startTime": 0,
+          "endTime": 79.017167
+        },
+        {
+          "path": "Audio/output/2318/chapter_01.wav",
+          "duration": 218.532375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation of Ownership and Responsibility",
+          "actualDuration": 218.532375,
+          "startTime": 80.517167,
+          "endTime": 299.049542
+        },
+        {
+          "path": "Audio/output/2318/chapter_02.wav",
+          "duration": 215.849375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Serving the Team and Shaping Company Culture",
+          "actualDuration": 215.849375,
+          "startTime": 300.549542,
+          "endTime": 516.398917
+        },
+        {
+          "path": "Audio/output/2318/chapter_03.wav",
+          "duration": 236.603333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mastering Financial Stewardship and Business Budgeting",
+          "actualDuration": 236.603333,
+          "startTime": 517.898917,
+          "endTime": 754.50225
+        },
+        {
+          "path": "Audio/output/2318/chapter_04.wav",
+          "duration": 252.977542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Communicating Vision and Aligning the Team",
+          "actualDuration": 252.977542,
+          "startTime": 756.00225,
+          "endTime": 1008.979792
+        },
+        {
+          "path": "Audio/output/2318/chapter_05.wav",
+          "duration": 202.490833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Making Strategic Decisions and Solving Problems",
+          "actualDuration": 202.490833,
+          "startTime": 1010.479792,
+          "endTime": 1212.970625
+        },
+        {
+          "path": "Audio/output/2318/chapter_06.wav",
+          "duration": 215.941375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Hiring with Intention and Developing a High-Trust Team",
+          "actualDuration": 215.941375,
+          "startTime": 1214.470625,
+          "endTime": 1430.4119999999998
+        },
+        {
+          "path": "Audio/output/2318/chapter_07.wav",
+          "duration": 225.457417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Difficult Personnel Decisions with Compassion",
+          "actualDuration": 225.457417,
+          "startTime": 1431.9119999999998,
+          "endTime": 1657.3694169999999
+        },
+        {
+          "path": "Audio/output/2318/chapter_08.wav",
+          "duration": 217.26925,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Delegation, Empowerment, and Avoiding Burnout",
+          "actualDuration": 217.26925,
+          "startTime": 1658.8694169999999,
+          "endTime": 1876.138667
+        },
+        {
+          "path": "Audio/output/2318/chapter_09.wav",
+          "duration": 196.511833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Personal Growth, Humility, and the Ongoing Leadership Journey",
+          "actualDuration": 196.511833,
+          "startTime": 1877.638667,
+          "endTime": 2074.1504999999997
+        },
+        {
+          "path": "Audio/output/2318/chapter_10.wav",
+          "duration": 215.790708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum and Building a Lasting Legacy",
+          "actualDuration": 215.790708,
+          "startTime": 2075.6504999999997,
+          "endTime": 2291.4412079999997
+        },
+        {
+          "path": "Audio/output/2318/conclusion.wav",
+          "duration": 136.592958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.592958,
+          "startTime": 2292.9412079999997,
+          "endTime": 2429.534166
+        }
+      ],
+      "totalDuration": 2429.534166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 79.02,
+          "actualStart": 0,
+          "actualEnd": 79.017167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation of Ownership and Responsibility",
+          "expectedStart": 79.02,
+          "expectedEnd": 297.55,
+          "actualStart": 80.517167,
+          "actualEnd": 299.049542,
+          "timeDifference": 1.4971670000000046
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Serving the Team and Shaping Company Culture",
+          "expectedStart": 297.55,
+          "expectedEnd": 513.4,
+          "actualStart": 300.549542,
+          "actualEnd": 516.398917,
+          "timeDifference": 2.9995419999999626
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mastering Financial Stewardship and Business Budgeting",
+          "expectedStart": 513.4,
+          "expectedEnd": 750,
+          "actualStart": 517.898917,
+          "actualEnd": 754.50225,
+          "timeDifference": 4.498917000000006
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Communicating Vision and Aligning the Team",
+          "expectedStart": 750,
+          "expectedEnd": 1002.98,
+          "actualStart": 756.00225,
+          "actualEnd": 1008.979792,
+          "timeDifference": 6.002250000000004
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Making Strategic Decisions and Solving Problems",
+          "expectedStart": 1002.98,
+          "expectedEnd": 1205.47,
+          "actualStart": 1010.479792,
+          "actualEnd": 1212.970625,
+          "timeDifference": 7.499791999999957
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Hiring with Intention and Developing a High-Trust Team",
+          "expectedStart": 1205.47,
+          "expectedEnd": 1421.41,
+          "actualStart": 1214.470625,
+          "actualEnd": 1430.4119999999998,
+          "timeDifference": 9.0006249999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Difficult Personnel Decisions with Compassion",
+          "expectedStart": 1421.41,
+          "expectedEnd": 1646.87,
+          "actualStart": 1431.9119999999998,
+          "actualEnd": 1657.3694169999999,
+          "timeDifference": 10.501999999999725
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Delegation, Empowerment, and Avoiding Burnout",
+          "expectedStart": 1646.87,
+          "expectedEnd": 1864.14,
+          "actualStart": 1658.8694169999999,
+          "actualEnd": 1876.138667,
+          "timeDifference": 11.999416999999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Personal Growth, Humility, and the Ongoing Leadership Journey",
+          "expectedStart": 1864.14,
+          "expectedEnd": 2060.65,
+          "actualStart": 1877.638667,
+          "actualEnd": 2074.1504999999997,
+          "timeDifference": 13.498666999999841
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum and Building a Lasting Legacy",
+          "expectedStart": 2060.65,
+          "expectedEnd": 2276.44,
+          "actualStart": 2075.6504999999997,
+          "actualEnd": 2291.4412079999997,
+          "timeDifference": 15.000499999999647
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2276.44,
+          "expectedEnd": 2413.03,
+          "actualStart": 2292.9412079999997,
+          "actualEnd": 2429.534166,
+          "timeDifference": 16.50120799999968
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 79.017167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation of Ownership and Responsibility"
+        },
+        {
+          "startTime": 299.049542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation of Ownership and Responsibility and Chapter 2 Serving the Team and Shaping Company Culture"
+        },
+        {
+          "startTime": 516.398917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Serving the Team and Shaping Company Culture and Chapter 3 Mastering Financial Stewardship and Business Budgeting"
+        },
+        {
+          "startTime": 754.50225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mastering Financial Stewardship and Business Budgeting and Chapter 4 Communicating Vision and Aligning the Team"
+        },
+        {
+          "startTime": 1008.979792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Communicating Vision and Aligning the Team and Chapter 5 Making Strategic Decisions and Solving Problems"
+        },
+        {
+          "startTime": 1212.970625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Making Strategic Decisions and Solving Problems and Chapter 6 Hiring with Intention and Developing a High-Trust Team"
+        },
+        {
+          "startTime": 1430.4119999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Hiring with Intention and Developing a High-Trust Team and Chapter 7 Navigating Difficult Personnel Decisions with Compassion"
+        },
+        {
+          "startTime": 1657.3694169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Difficult Personnel Decisions with Compassion and Chapter 8 Delegation, Empowerment, and Avoiding Burnout"
+        },
+        {
+          "startTime": 1876.138667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Delegation, Empowerment, and Avoiding Burnout and Chapter 9 Personal Growth, Humility, and the Ongoing Leadership Journey"
+        },
+        {
+          "startTime": 2074.1504999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Personal Growth, Humility, and the Ongoing Leadership Journey and Chapter 10 Sustaining Momentum and Building a Lasting Legacy"
+        },
+        {
+          "startTime": 2291.4412079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum and Building a Lasting Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2318",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 72,
+      "reasoning": "Hybrid: Genre match: business, leadership (+16); Audience match (+6) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:47:27.672Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

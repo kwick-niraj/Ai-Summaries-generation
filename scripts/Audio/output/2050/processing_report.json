@@ -1,0 +1,504 @@
+{
+  "bookId": "2050",
+  "timestamp": "2025-07-09T14:31:08.902Z",
+  "success": false,
+  "processingTime": -1752070701159,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4434,
+    "totalAudioFiles": 14,
+    "totalDuration": 2079.5945429999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2079.5945429999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2050/optimized_text/2050.md",
+    "fileSize": 746,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2050.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2050/metadata/2050_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2079.6,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2050/metadata/2050_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2050/metadata/2050_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2050/2050_complete.wav",
+    "duration": 2079.594542,
+    "fileSize": 99820616,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2050/introduction.wav",
+          "duration": 101.850958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.850958,
+          "startTime": 0,
+          "endTime": 101.850958
+        },
+        {
+          "path": "Audio/output/2050/chapter_01.wav",
+          "duration": 199.795458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Death with Openness and Curiosity",
+          "actualDuration": 199.795458,
+          "startTime": 103.350958,
+          "endTime": 303.146416
+        },
+        {
+          "path": "Audio/output/2050/chapter_02.wav",
+          "duration": 199.64725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rethinking God and the Afterlife",
+          "actualDuration": 199.64725,
+          "startTime": 304.646416,
+          "endTime": 504.29366600000003
+        },
+        {
+          "path": "Audio/output/2050/chapter_03.wav",
+          "duration": 172.901792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life as an Ongoing Journey of the Soul",
+          "actualDuration": 172.901792,
+          "startTime": 505.79366600000003,
+          "endTime": 678.695458
+        },
+        {
+          "path": "Audio/output/2050/chapter_04.wav",
+          "duration": 170.215042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Belief and the Experience of Dying",
+          "actualDuration": 170.215042,
+          "startTime": 680.195458,
+          "endTime": 850.4105000000001
+        },
+        {
+          "path": "Audio/output/2050/chapter_05.wav",
+          "duration": 164.998583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Oneness, Connection, and the End of Separation",
+          "actualDuration": 164.998583,
+          "startTime": 851.9105000000001,
+          "endTime": 1016.909083
+        },
+        {
+          "path": "Audio/output/2050/chapter_06.wav",
+          "duration": 158.02825,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Soul’s Choice and the Meaning of Suffering",
+          "actualDuration": 158.02825,
+          "startTime": 1018.409083,
+          "endTime": 1176.437333
+        },
+        {
+          "path": "Audio/output/2050/chapter_07.wav",
+          "duration": 144.831792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Moment of Death: Crossing the Threshold",
+          "actualDuration": 144.831792,
+          "startTime": 1177.937333,
+          "endTime": 1322.769125
+        },
+        {
+          "path": "Audio/output/2050/chapter_08.wav",
+          "duration": 159.482417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Life Review and the Healing of Regret",
+          "actualDuration": 159.482417,
+          "startTime": 1324.269125,
+          "endTime": 1483.751542
+        },
+        {
+          "path": "Audio/output/2050/chapter_09.wav",
+          "duration": 128.649375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Soul’s Next Adventure: Reincarnation and Choice",
+          "actualDuration": 128.649375,
+          "startTime": 1485.251542,
+          "endTime": 1613.900917
+        },
+        {
+          "path": "Audio/output/2050/chapter_10.wav",
+          "duration": 140.667792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Knowledge of Eternity",
+          "actualDuration": 140.667792,
+          "startTime": 1615.400917,
+          "endTime": 1756.068709
+        },
+        {
+          "path": "Audio/output/2050/chapter_11.wav",
+          "duration": 123.114417,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Practical Path: Bringing Heaven to Earth",
+          "actualDuration": 123.114417,
+          "startTime": 1757.568709,
+          "endTime": 1880.683126
+        },
+        {
+          "path": "Audio/output/2050/chapter_12.wav",
+          "duration": 108.3935,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Embracing Mystery and Trusting the Journey",
+          "actualDuration": 108.3935,
+          "startTime": 1882.183126,
+          "endTime": 1990.5766259999998
+        },
+        {
+          "path": "Audio/output/2050/conclusion.wav",
+          "duration": 107.017917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 107.017917,
+          "startTime": 1992.0766259999998,
+          "endTime": 2099.0945429999997
+        }
+      ],
+      "totalDuration": 2099.0945429999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.85,
+          "actualStart": 0,
+          "actualEnd": 101.850958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Death with Openness and Curiosity",
+          "expectedStart": 101.85,
+          "expectedEnd": 301.65,
+          "actualStart": 103.350958,
+          "actualEnd": 303.146416,
+          "timeDifference": 1.5009580000000113
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rethinking God and the Afterlife",
+          "expectedStart": 301.65,
+          "expectedEnd": 501.3,
+          "actualStart": 304.646416,
+          "actualEnd": 504.29366600000003,
+          "timeDifference": 2.9964160000000106
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life as an Ongoing Journey of the Soul",
+          "expectedStart": 501.3,
+          "expectedEnd": 674.2,
+          "actualStart": 505.79366600000003,
+          "actualEnd": 678.695458,
+          "timeDifference": 4.493666000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Belief and the Experience of Dying",
+          "expectedStart": 674.2,
+          "expectedEnd": 844.42,
+          "actualStart": 680.195458,
+          "actualEnd": 850.4105000000001,
+          "timeDifference": 5.995457999999985
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Oneness, Connection, and the End of Separation",
+          "expectedStart": 844.42,
+          "expectedEnd": 1009.42,
+          "actualStart": 851.9105000000001,
+          "actualEnd": 1016.909083,
+          "timeDifference": 7.490500000000111
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Soul’s Choice and the Meaning of Suffering",
+          "expectedStart": 1009.42,
+          "expectedEnd": 1167.45,
+          "actualStart": 1018.409083,
+          "actualEnd": 1176.437333,
+          "timeDifference": 8.98908300000005
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Moment of Death: Crossing the Threshold",
+          "expectedStart": 1167.45,
+          "expectedEnd": 1312.28,
+          "actualStart": 1177.937333,
+          "actualEnd": 1322.769125,
+          "timeDifference": 10.487333000000035
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Life Review and the Healing of Regret",
+          "expectedStart": 1312.28,
+          "expectedEnd": 1471.76,
+          "actualStart": 1324.269125,
+          "actualEnd": 1483.751542,
+          "timeDifference": 11.989125000000058
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Soul’s Next Adventure: Reincarnation and Choice",
+          "expectedStart": 1471.76,
+          "expectedEnd": 1600.41,
+          "actualStart": 1485.251542,
+          "actualEnd": 1613.900917,
+          "timeDifference": 13.491541999999981
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Knowledge of Eternity",
+          "expectedStart": 1600.41,
+          "expectedEnd": 1741.08,
+          "actualStart": 1615.400917,
+          "actualEnd": 1756.068709,
+          "timeDifference": 14.990916999999854
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Practical Path: Bringing Heaven to Earth",
+          "expectedStart": 1741.08,
+          "expectedEnd": 1864.19,
+          "actualStart": 1757.568709,
+          "actualEnd": 1880.683126,
+          "timeDifference": 16.48870899999997
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Embracing Mystery and Trusting the Journey",
+          "expectedStart": 1864.19,
+          "expectedEnd": 1972.58,
+          "actualStart": 1882.183126,
+          "actualEnd": 1990.5766259999998,
+          "timeDifference": 17.993125999999847
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1972.58,
+          "expectedEnd": 2079.6,
+          "actualStart": 1992.0766259999998,
+          "actualEnd": 2099.0945429999997,
+          "timeDifference": 19.49662599999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.850958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Death with Openness and Curiosity"
+        },
+        {
+          "startTime": 303.146416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Death with Openness and Curiosity and Chapter 2 Rethinking God and the Afterlife"
+        },
+        {
+          "startTime": 504.29366600000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rethinking God and the Afterlife and Chapter 3 Life as an Ongoing Journey of the Soul"
+        },
+        {
+          "startTime": 678.695458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life as an Ongoing Journey of the Soul and Chapter 4 The Power of Belief and the Experience of Dying"
+        },
+        {
+          "startTime": 850.4105000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Belief and the Experience of Dying and Chapter 5 Oneness, Connection, and the End of Separation"
+        },
+        {
+          "startTime": 1016.909083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Oneness, Connection, and the End of Separation and Chapter 6 The Soul’s Choice and the Meaning of Suffering"
+        },
+        {
+          "startTime": 1176.437333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Soul’s Choice and the Meaning of Suffering and Chapter 7 The Moment of Death: Crossing the Threshold"
+        },
+        {
+          "startTime": 1322.769125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Moment of Death: Crossing the Threshold and Chapter 8 Life Review and the Healing of Regret"
+        },
+        {
+          "startTime": 1483.751542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Life Review and the Healing of Regret and Chapter 9 The Soul’s Next Adventure: Reincarnation and Choice"
+        },
+        {
+          "startTime": 1613.900917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Soul’s Next Adventure: Reincarnation and Choice and Chapter 10 Living with the Knowledge of Eternity"
+        },
+        {
+          "startTime": 1756.068709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Knowledge of Eternity and Chapter 11 The Practical Path: Bringing Heaven to Earth"
+        },
+        {
+          "startTime": 1880.683126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Practical Path: Bringing Heaven to Earth and Chapter 12 Embracing Mystery and Trusting the Journey"
+        },
+        {
+          "startTime": 1990.5766259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Embracing Mystery and Trusting the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2050",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T14:18:22.696Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

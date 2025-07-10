@@ -1,0 +1,432 @@
+{
+  "bookId": "1929",
+  "timestamp": "2025-07-09T02:28:58.571Z",
+  "success": false,
+  "processingTime": -1752027381641,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4551,
+    "totalAudioFiles": 12,
+    "totalDuration": 2065.600166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2065.600166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1929/optimized_text/1929.md",
+    "fileSize": 808,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1929.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1929/metadata/1929_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2065.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1929/metadata/1929_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1929/metadata/1929_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1929/1929_complete.wav",
+    "duration": 2065.600167,
+    "fileSize": 99148886,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1929/introduction.wav",
+          "duration": 98.615583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.615583,
+          "startTime": 0,
+          "endTime": 98.615583
+        },
+        {
+          "path": "Audio/output/1929/chapter_01.wav",
+          "duration": 275.853208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Why Truth Matters and How Minds Go Astray",
+          "actualDuration": 275.853208,
+          "startTime": 100.115583,
+          "endTime": 375.968791
+        },
+        {
+          "path": "Audio/output/1929/chapter_02.wav",
+          "duration": 261.124417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building the Habits of Rational and Scientific Thinking",
+          "actualDuration": 261.124417,
+          "startTime": 377.468791,
+          "endTime": 638.593208
+        },
+        {
+          "path": "Audio/output/1929/chapter_04.wav",
+          "duration": 259.185167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Communicating Effectively Across Differences and Building Productive Dialogue",
+          "actualDuration": 259.185167,
+          "startTime": 640.093208,
+          "endTime": 899.278375
+        },
+        {
+          "path": "Audio/output/1929/chapter_05.wav",
+          "duration": 191.51625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Cultivating Intellectual Humility and Ongoing Self-Reflection",
+          "actualDuration": 191.51625,
+          "startTime": 900.778375,
+          "endTime": 1092.294625
+        },
+        {
+          "path": "Audio/output/1929/chapter_06.wav",
+          "duration": 205.667417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Debiasing—Practical Tools for Overcoming Mental Shortcuts",
+          "actualDuration": 205.667417,
+          "startTime": 1093.794625,
+          "endTime": 1299.462042
+        },
+        {
+          "path": "Audio/output/1929/chapter_07.wav",
+          "duration": 183.192208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Truth in Complex and Uncertain Environments",
+          "actualDuration": 183.192208,
+          "startTime": 1300.962042,
+          "endTime": 1484.15425
+        },
+        {
+          "path": "Audio/output/1929/chapter_08.wav",
+          "duration": 175.116583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying Truth-Seeking to Relationships, Work, and Society",
+          "actualDuration": 175.116583,
+          "startTime": 1485.65425,
+          "endTime": 1660.770833
+        },
+        {
+          "path": "Audio/output/1929/chapter_09.wav",
+          "duration": 139.587458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Truth-Seeking Habits Over the Long Term",
+          "actualDuration": 139.587458,
+          "startTime": 1662.270833,
+          "endTime": 1801.858291
+        },
+        {
+          "path": "Audio/output/1929/chapter_10.wav",
+          "duration": 141.047292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Culture of Truth-Seeking—From Individuals to Communities",
+          "actualDuration": 141.047292,
+          "startTime": 1803.358291,
+          "endTime": 1944.405583
+        },
+        {
+          "path": "Audio/output/1929/conclusion.wav",
+          "duration": 134.694583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.694583,
+          "startTime": 1945.905583,
+          "endTime": 2080.600166
+        }
+      ],
+      "totalDuration": 2080.600166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.62,
+          "actualStart": 0,
+          "actualEnd": 98.615583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Why Truth Matters and How Minds Go Astray",
+          "expectedStart": 98.62,
+          "expectedEnd": 374.47,
+          "actualStart": 100.115583,
+          "actualEnd": 375.968791,
+          "timeDifference": 1.4955829999999963
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building the Habits of Rational and Scientific Thinking",
+          "expectedStart": 374.47,
+          "expectedEnd": 635.59,
+          "actualStart": 377.468791,
+          "actualEnd": 638.593208,
+          "timeDifference": 2.998790999999983
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Communicating Effectively Across Differences and Building Productive Dialogue",
+          "expectedStart": 635.59,
+          "expectedEnd": 894.78,
+          "actualStart": 640.093208,
+          "actualEnd": 899.278375,
+          "timeDifference": 4.503207999999972
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Cultivating Intellectual Humility and Ongoing Self-Reflection",
+          "expectedStart": 894.78,
+          "expectedEnd": 1086.3,
+          "actualStart": 900.778375,
+          "actualEnd": 1092.294625,
+          "timeDifference": 5.99837500000001
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Debiasing—Practical Tools for Overcoming Mental Shortcuts",
+          "expectedStart": 1086.3,
+          "expectedEnd": 1291.97,
+          "actualStart": 1093.794625,
+          "actualEnd": 1299.462042,
+          "timeDifference": 7.494625000000042
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Truth in Complex and Uncertain Environments",
+          "expectedStart": 1291.97,
+          "expectedEnd": 1475.16,
+          "actualStart": 1300.962042,
+          "actualEnd": 1484.15425,
+          "timeDifference": 8.992042000000083
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying Truth-Seeking to Relationships, Work, and Society",
+          "expectedStart": 1475.16,
+          "expectedEnd": 1650.28,
+          "actualStart": 1485.65425,
+          "actualEnd": 1660.770833,
+          "timeDifference": 10.494249999999965
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Truth-Seeking Habits Over the Long Term",
+          "expectedStart": 1650.28,
+          "expectedEnd": 1789.87,
+          "actualStart": 1662.270833,
+          "actualEnd": 1801.858291,
+          "timeDifference": 11.990833000000066
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Culture of Truth-Seeking—From Individuals to Communities",
+          "expectedStart": 1789.87,
+          "expectedEnd": 1930.92,
+          "actualStart": 1803.358291,
+          "actualEnd": 1944.405583,
+          "timeDifference": 13.488291000000117
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1930.92,
+          "expectedEnd": 2065.61,
+          "actualStart": 1945.905583,
+          "actualEnd": 2080.600166,
+          "timeDifference": 14.985582999999906
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.615583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Why Truth Matters and How Minds Go Astray"
+        },
+        {
+          "startTime": 375.968791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Why Truth Matters and How Minds Go Astray and Chapter 2 Building the Habits of Rational and Scientific Thinking"
+        },
+        {
+          "startTime": 638.593208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building the Habits of Rational and Scientific Thinking and Chapter 4 Communicating Effectively Across Differences and Building Productive Dialogue"
+        },
+        {
+          "startTime": 899.278375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Communicating Effectively Across Differences and Building Productive Dialogue and Chapter 5 Cultivating Intellectual Humility and Ongoing Self-Reflection"
+        },
+        {
+          "startTime": 1092.294625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Cultivating Intellectual Humility and Ongoing Self-Reflection and Chapter 6 Advanced Debiasing—Practical Tools for Overcoming Mental Shortcuts"
+        },
+        {
+          "startTime": 1299.462042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Debiasing—Practical Tools for Overcoming Mental Shortcuts and Chapter 7 Navigating Truth in Complex and Uncertain Environments"
+        },
+        {
+          "startTime": 1484.15425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Truth in Complex and Uncertain Environments and Chapter 8 Applying Truth-Seeking to Relationships, Work, and Society"
+        },
+        {
+          "startTime": 1660.770833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying Truth-Seeking to Relationships, Work, and Society and Chapter 9 Sustaining Truth-Seeking Habits Over the Long Term"
+        },
+        {
+          "startTime": 1801.858291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Truth-Seeking Habits Over the Long Term and Chapter 10 Building a Culture of Truth-Seeking—From Individuals to Communities"
+        },
+        {
+          "startTime": 1944.405583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Culture of Truth-Seeking—From Individuals to Communities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1929",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T02:16:22.818Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

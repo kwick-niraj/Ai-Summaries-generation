@@ -1,0 +1,455 @@
+{
+  "bookId": "2011",
+  "timestamp": "2025-07-09T09:11:27.931Z",
+  "success": false,
+  "processingTime": -1752051830963,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4427,
+    "totalAudioFiles": 12,
+    "totalDuration": 1976.745417
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1976.745417
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2011/optimized_text/2011.md",
+    "fileSize": 774,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2011.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2011/metadata/2011_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1976.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2011/metadata/2011_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2011/metadata/2011_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2011/2011_complete.wav",
+    "duration": 1976.745417,
+    "fileSize": 94883858,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2011/introduction.wav",
+          "duration": 82.087625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.087625,
+          "startTime": 0,
+          "endTime": 82.087625
+        },
+        {
+          "path": "Audio/output/2011/chapter_01.wav",
+          "duration": 154.502792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Power of Words in Shaping Mindset",
+          "actualDuration": 154.502792,
+          "startTime": 83.587625,
+          "endTime": 238.090417
+        },
+        {
+          "path": "Audio/output/2011/chapter_02.wav",
+          "duration": 225.407083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Making Inspiration Practical: Moving from Reading to Application",
+          "actualDuration": 225.407083,
+          "startTime": 239.590417,
+          "endTime": 464.9975
+        },
+        {
+          "path": "Audio/output/2011/chapter_03.wav",
+          "duration": 210.067875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Positive Thinking Patterns Through Consistent Practice",
+          "actualDuration": 210.067875,
+          "startTime": 466.4975,
+          "endTime": 676.565375
+        },
+        {
+          "path": "Audio/output/2011/chapter_04.wav",
+          "duration": 170.980375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Personalizing Inspiration for Greater Impact",
+          "actualDuration": 170.980375,
+          "startTime": 678.065375,
+          "endTime": 849.04575
+        },
+        {
+          "path": "Audio/output/2011/chapter_05.wav",
+          "duration": 197.004792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Integrating Quotes into Daily Routines for Lasting Change",
+          "actualDuration": 197.004792,
+          "startTime": 850.54575,
+          "endTime": 1047.550542
+        },
+        {
+          "path": "Audio/output/2011/chapter_06.wav",
+          "duration": 186.263625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks: Using Quotes as Anchors in Difficult Times",
+          "actualDuration": 186.263625,
+          "startTime": 1049.050542,
+          "endTime": 1235.314167
+        },
+        {
+          "path": "Audio/output/2011/chapter_07.wav",
+          "duration": 179.509292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Deepening Self-Reflection: Using Quotes as Prompts for Growth",
+          "actualDuration": 179.509292,
+          "startTime": 1236.814167,
+          "endTime": 1416.323459
+        },
+        {
+          "path": "Audio/output/2011/chapter_08.wav",
+          "duration": 146.428583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sharing Inspiration: Fostering Connection and Community",
+          "actualDuration": 146.428583,
+          "startTime": 1417.823459,
+          "endTime": 1564.252042
+        },
+        {
+          "path": "Audio/output/2011/chapter_09.wav",
+          "duration": 153.253833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Evolving with Inspiration: Adapting Practices Over Time",
+          "actualDuration": 153.253833,
+          "startTime": 1565.752042,
+          "endTime": 1719.005875
+        },
+        {
+          "path": "Audio/output/2011/chapter_10.wav",
+          "duration": 148.06925,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth: Making Inspiration a Lifelong Companion",
+          "actualDuration": 148.06925,
+          "startTime": 1720.505875,
+          "endTime": 1868.575125
+        },
+        {
+          "path": "Audio/output/2011/conclusion.wav",
+          "duration": 123.170292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.170292,
+          "startTime": 1870.075125,
+          "endTime": 1993.245417
+        }
+      ],
+      "totalDuration": 1993.245417,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.09,
+          "actualStart": 0,
+          "actualEnd": 82.087625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Power of Words in Shaping Mindset",
+          "expectedStart": 82.09,
+          "expectedEnd": 236.59,
+          "actualStart": 83.587625,
+          "actualEnd": 238.090417,
+          "timeDifference": 1.4976249999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Making Inspiration Practical: Moving from Reading to Application",
+          "expectedStart": 236.59,
+          "expectedEnd": 462,
+          "actualStart": 239.590417,
+          "actualEnd": 464.9975,
+          "timeDifference": 3.000416999999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Positive Thinking Patterns Through Consistent Practice",
+          "expectedStart": 462,
+          "expectedEnd": 672.07,
+          "actualStart": 466.4975,
+          "actualEnd": 676.565375,
+          "timeDifference": 4.497500000000002
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Personalizing Inspiration for Greater Impact",
+          "expectedStart": 672.07,
+          "expectedEnd": 843.05,
+          "actualStart": 678.065375,
+          "actualEnd": 849.04575,
+          "timeDifference": 5.995374999999967
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Integrating Quotes into Daily Routines for Lasting Change",
+          "expectedStart": 843.05,
+          "expectedEnd": 1040.05,
+          "actualStart": 850.54575,
+          "actualEnd": 1047.550542,
+          "timeDifference": 7.495750000000044
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks: Using Quotes as Anchors in Difficult Times",
+          "expectedStart": 1040.05,
+          "expectedEnd": 1226.31,
+          "actualStart": 1049.050542,
+          "actualEnd": 1235.314167,
+          "timeDifference": 9.000541999999996
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Deepening Self-Reflection: Using Quotes as Prompts for Growth",
+          "expectedStart": 1226.31,
+          "expectedEnd": 1405.82,
+          "actualStart": 1236.814167,
+          "actualEnd": 1416.323459,
+          "timeDifference": 10.504167000000052
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sharing Inspiration: Fostering Connection and Community",
+          "expectedStart": 1405.82,
+          "expectedEnd": 1552.25,
+          "actualStart": 1417.823459,
+          "actualEnd": 1564.252042,
+          "timeDifference": 12.00345900000002
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Evolving with Inspiration: Adapting Practices Over Time",
+          "expectedStart": 1552.25,
+          "expectedEnd": 1705.5,
+          "actualStart": 1565.752042,
+          "actualEnd": 1719.005875,
+          "timeDifference": 13.502042000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth: Making Inspiration a Lifelong Companion",
+          "expectedStart": 1705.5,
+          "expectedEnd": 1853.57,
+          "actualStart": 1720.505875,
+          "actualEnd": 1868.575125,
+          "timeDifference": 15.00587500000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1853.57,
+          "expectedEnd": 1976.74,
+          "actualStart": 1870.075125,
+          "actualEnd": 1993.245417,
+          "timeDifference": 16.505125000000135
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.087625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Power of Words in Shaping Mindset"
+        },
+        {
+          "startTime": 238.090417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Power of Words in Shaping Mindset and Chapter 2 Making Inspiration Practical: Moving from Reading to Application"
+        },
+        {
+          "startTime": 464.9975,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Making Inspiration Practical: Moving from Reading to Application and Chapter 3 Building Positive Thinking Patterns Through Consistent Practice"
+        },
+        {
+          "startTime": 676.565375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Positive Thinking Patterns Through Consistent Practice and Chapter 4 Personalizing Inspiration for Greater Impact"
+        },
+        {
+          "startTime": 849.04575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Personalizing Inspiration for Greater Impact and Chapter 5 Integrating Quotes into Daily Routines for Lasting Change"
+        },
+        {
+          "startTime": 1047.550542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Integrating Quotes into Daily Routines for Lasting Change and Chapter 6 Navigating Setbacks: Using Quotes as Anchors in Difficult Times"
+        },
+        {
+          "startTime": 1235.314167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks: Using Quotes as Anchors in Difficult Times and Chapter 7 Deepening Self-Reflection: Using Quotes as Prompts for Growth"
+        },
+        {
+          "startTime": 1416.323459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Deepening Self-Reflection: Using Quotes as Prompts for Growth and Chapter 8 Sharing Inspiration: Fostering Connection and Community"
+        },
+        {
+          "startTime": 1564.252042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sharing Inspiration: Fostering Connection and Community and Chapter 9 Evolving with Inspiration: Adapting Practices Over Time"
+        },
+        {
+          "startTime": 1719.005875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Evolving with Inspiration: Adapting Practices Over Time and Chapter 10 Sustaining Growth: Making Inspiration a Lifelong Companion"
+        },
+        {
+          "startTime": 1868.575125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth: Making Inspiration a Lifelong Companion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2011",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T09:03:52.266Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

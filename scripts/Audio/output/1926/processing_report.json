@@ -1,0 +1,648 @@
+{
+  "bookId": "1926",
+  "timestamp": "2025-07-09T02:11:05.930Z",
+  "success": false,
+  "processingTime": -1752025848594,
+  "stats": {
+    "totalSections": 20,
+    "totalWords": 7997,
+    "totalAudioFiles": 20,
+    "totalDuration": 3941.2013329999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 18,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 20,
+    "successful": 20,
+    "failed": 0,
+    "duration": 3941.2013329999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1926/optimized_text/1926.md",
+    "fileSize": 1347,
+    "wordCount": 200,
+    "format": "markdown",
+    "filename": "1926.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1926/metadata/1926_chapters.json",
+    "totalChapters": 20,
+    "totalDuration": 3941.21,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1926/metadata/1926_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1926/metadata/1926_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 20,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 18
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1926/1926_complete.wav",
+    "duration": 3941.201333,
+    "fileSize": 189177742,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1926/introduction.wav",
+          "duration": 114.396125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 114.396125,
+          "startTime": 0,
+          "endTime": 114.396125
+        },
+        {
+          "path": "Audio/output/1926/chapter_01.wav",
+          "duration": 250.9395,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Crossing Over: The Soul’s Journey Beyond Death",
+          "actualDuration": 250.9395,
+          "startTime": 115.896125,
+          "endTime": 366.835625
+        },
+        {
+          "path": "Audio/output/1926/chapter_02.wav",
+          "duration": 287.183125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Spirit World: A Place of Healing, Learning, and Belonging",
+          "actualDuration": 287.183125,
+          "startTime": 368.335625,
+          "endTime": 655.51875
+        },
+        {
+          "path": "Audio/output/1926/chapter_03.wav",
+          "duration": 256.13325,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Soul Groups and Spiritual Guides: Companions on the Journey",
+          "actualDuration": 256.13325,
+          "startTime": 657.01875,
+          "endTime": 913.1519999999999
+        },
+        {
+          "path": "Audio/output/1926/chapter_04.wav",
+          "duration": 259.157333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Preparing for a New Life: Planning, Purpose, and the Return to Earth",
+          "actualDuration": 259.157333,
+          "startTime": 914.6519999999999,
+          "endTime": 1173.809333
+        },
+        {
+          "path": "Audio/output/1926/chapter_05.wav",
+          "duration": 267.846042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Purpose of Earthly Life: Growth, Healing, and the Soul’s Evolution",
+          "actualDuration": 267.846042,
+          "startTime": 1175.309333,
+          "endTime": 1443.1553749999998
+        },
+        {
+          "path": "Audio/output/1926/chapter_06.wav",
+          "duration": 204.630792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Souls: The Path of Spiritual Maturity",
+          "actualDuration": 204.630792,
+          "startTime": 1444.6553749999998,
+          "endTime": 1649.2861669999998
+        },
+        {
+          "path": "Audio/output/1926/chapter_07.wav",
+          "duration": 182.81075,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Council of Elders: Wisdom, Review, and Guidance",
+          "actualDuration": 182.81075,
+          "startTime": 1650.7861669999998,
+          "endTime": 1833.5969169999998
+        },
+        {
+          "path": "Audio/output/1926/chapter_08.wav",
+          "duration": 219.848125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Architecture of the Spirit World: Realms, Energy, and Creation",
+          "actualDuration": 219.848125,
+          "startTime": 1835.0969169999998,
+          "endTime": 2054.945042
+        },
+        {
+          "path": "Audio/output/1926/chapter_09.wav",
+          "duration": 208.501875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Soul Specialization: Talents, Callings, and the Work of the Spirit",
+          "actualDuration": 208.501875,
+          "startTime": 2056.445042,
+          "endTime": 2264.9469169999998
+        },
+        {
+          "path": "Audio/output/1926/chapter_10.wav",
+          "duration": 174.60525,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Mystery of Soul Origins: Where Do We Come From?",
+          "actualDuration": 174.60525,
+          "startTime": 2266.4469169999998,
+          "endTime": 2441.052167
+        },
+        {
+          "path": "Audio/output/1926/chapter_11.wav",
+          "duration": 184.328458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Soulmates and Twin Souls: The Deeper Bonds",
+          "actualDuration": 184.328458,
+          "startTime": 2442.552167,
+          "endTime": 2626.880625
+        },
+        {
+          "path": "Audio/output/1926/chapter_12.wav",
+          "duration": 179.392708,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Role of Suffering and Evil: Lessons from Darkness",
+          "actualDuration": 179.392708,
+          "startTime": 2628.380625,
+          "endTime": 2807.7733329999996
+        },
+        {
+          "path": "Audio/output/1926/chapter_13.wav",
+          "duration": 165.782875,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Children, Animals, and Unusual Cases: The Diversity of Souls",
+          "actualDuration": 165.782875,
+          "startTime": 2809.2733329999996,
+          "endTime": 2975.0562079999995
+        },
+        {
+          "path": "Audio/output/1926/chapter_14.wav",
+          "duration": 171.727,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Interplay of Free Will and Destiny",
+          "actualDuration": 171.727,
+          "startTime": 2976.5562079999995,
+          "endTime": 3148.2832079999994
+        },
+        {
+          "path": "Audio/output/1926/chapter_15.wav",
+          "duration": 169.601083,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Return to the Physical: Birth, Childhood, and Forgetting",
+          "actualDuration": 169.601083,
+          "startTime": 3149.7832079999994,
+          "endTime": 3319.3842909999994
+        },
+        {
+          "path": "Audio/output/1926/chapter_16.wav",
+          "duration": 157.068542,
+          "section": "chapter",
+          "chapterIndex": 15,
+          "title": "Chapter 16 The Influence of the Spirit World on Daily Life",
+          "actualDuration": 157.068542,
+          "startTime": 3320.8842909999994,
+          "endTime": 3477.9528329999994
+        },
+        {
+          "path": "Audio/output/1926/chapter_17.wav",
+          "duration": 155.816958,
+          "section": "chapter",
+          "chapterIndex": 16,
+          "title": "Chapter 17 The Evolution of Humanity: Collective Growth and the Future",
+          "actualDuration": 155.816958,
+          "startTime": 3479.4528329999994,
+          "endTime": 3635.2697909999993
+        },
+        {
+          "path": "Audio/output/1926/chapter_18.wav",
+          "duration": 155.047292,
+          "section": "chapter",
+          "chapterIndex": 17,
+          "title": "Chapter 18 The Return Home: Death, Reunion, and the Next Chapter",
+          "actualDuration": 155.047292,
+          "startTime": 3636.7697909999993,
+          "endTime": 3791.8170829999995
+        },
+        {
+          "path": "Audio/output/1926/conclusion.wav",
+          "duration": 176.38425,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 176.38425,
+          "startTime": 3793.3170829999995,
+          "endTime": 3969.7013329999995
+        }
+      ],
+      "totalDuration": 3969.7013329999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 114.4,
+          "actualStart": 0,
+          "actualEnd": 114.396125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Crossing Over: The Soul’s Journey Beyond Death",
+          "expectedStart": 114.4,
+          "expectedEnd": 365.34,
+          "actualStart": 115.896125,
+          "actualEnd": 366.835625,
+          "timeDifference": 1.4961249999999922
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Spirit World: A Place of Healing, Learning, and Belonging",
+          "expectedStart": 365.34,
+          "expectedEnd": 652.52,
+          "actualStart": 368.335625,
+          "actualEnd": 655.51875,
+          "timeDifference": 2.995625000000018
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Soul Groups and Spiritual Guides: Companions on the Journey",
+          "expectedStart": 652.52,
+          "expectedEnd": 908.65,
+          "actualStart": 657.01875,
+          "actualEnd": 913.1519999999999,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Preparing for a New Life: Planning, Purpose, and the Return to Earth",
+          "expectedStart": 908.65,
+          "expectedEnd": 1167.81,
+          "actualStart": 914.6519999999999,
+          "actualEnd": 1173.809333,
+          "timeDifference": 6.001999999999953
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Purpose of Earthly Life: Growth, Healing, and the Soul’s Evolution",
+          "expectedStart": 1167.81,
+          "expectedEnd": 1435.66,
+          "actualStart": 1175.309333,
+          "actualEnd": 1443.1553749999998,
+          "timeDifference": 7.499332999999979
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Souls: The Path of Spiritual Maturity",
+          "expectedStart": 1435.66,
+          "expectedEnd": 1640.29,
+          "actualStart": 1444.6553749999998,
+          "actualEnd": 1649.2861669999998,
+          "timeDifference": 8.99537499999974
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Council of Elders: Wisdom, Review, and Guidance",
+          "expectedStart": 1640.29,
+          "expectedEnd": 1823.1,
+          "actualStart": 1650.7861669999998,
+          "actualEnd": 1833.5969169999998,
+          "timeDifference": 10.496166999999787
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Architecture of the Spirit World: Realms, Energy, and Creation",
+          "expectedStart": 1823.1,
+          "expectedEnd": 2042.95,
+          "actualStart": 1835.0969169999998,
+          "actualEnd": 2054.945042,
+          "timeDifference": 11.99691699999994
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Soul Specialization: Talents, Callings, and the Work of the Spirit",
+          "expectedStart": 2042.95,
+          "expectedEnd": 2251.45,
+          "actualStart": 2056.445042,
+          "actualEnd": 2264.9469169999998,
+          "timeDifference": 13.495041999999785
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Mystery of Soul Origins: Where Do We Come From?",
+          "expectedStart": 2251.45,
+          "expectedEnd": 2426.06,
+          "actualStart": 2266.4469169999998,
+          "actualEnd": 2441.052167,
+          "timeDifference": 14.99691699999994
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Soulmates and Twin Souls: The Deeper Bonds",
+          "expectedStart": 2426.06,
+          "expectedEnd": 2610.39,
+          "actualStart": 2442.552167,
+          "actualEnd": 2626.880625,
+          "timeDifference": 16.49216699999988
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Role of Suffering and Evil: Lessons from Darkness",
+          "expectedStart": 2610.39,
+          "expectedEnd": 2789.78,
+          "actualStart": 2628.380625,
+          "actualEnd": 2807.7733329999996,
+          "timeDifference": 17.99062499999991
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Children, Animals, and Unusual Cases: The Diversity of Souls",
+          "expectedStart": 2789.78,
+          "expectedEnd": 2955.56,
+          "actualStart": 2809.2733329999996,
+          "actualEnd": 2975.0562079999995,
+          "timeDifference": 19.49333299999944
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Interplay of Free Will and Destiny",
+          "expectedStart": 2955.56,
+          "expectedEnd": 3127.29,
+          "actualStart": 2976.5562079999995,
+          "actualEnd": 3148.2832079999994,
+          "timeDifference": 20.99620799999957
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Return to the Physical: Birth, Childhood, and Forgetting",
+          "expectedStart": 3127.29,
+          "expectedEnd": 3296.89,
+          "actualStart": 3149.7832079999994,
+          "actualEnd": 3319.3842909999994,
+          "timeDifference": 22.493207999999413
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Chapter 16 The Influence of the Spirit World on Daily Life",
+          "expectedStart": 3296.89,
+          "expectedEnd": 3453.96,
+          "actualStart": 3320.8842909999994,
+          "actualEnd": 3477.9528329999994,
+          "timeDifference": 23.99429099999952
+        },
+        {
+          "chapterIndex": 17,
+          "chapterTitle": "Chapter 17 The Evolution of Humanity: Collective Growth and the Future",
+          "expectedStart": 3453.96,
+          "expectedEnd": 3609.78,
+          "actualStart": 3479.4528329999994,
+          "actualEnd": 3635.2697909999993,
+          "timeDifference": 25.492832999999337
+        },
+        {
+          "chapterIndex": 18,
+          "chapterTitle": "Chapter 18 The Return Home: Death, Reunion, and the Next Chapter",
+          "expectedStart": 3609.78,
+          "expectedEnd": 3764.83,
+          "actualStart": 3636.7697909999993,
+          "actualEnd": 3791.8170829999995,
+          "timeDifference": 26.98979099999906
+        },
+        {
+          "chapterIndex": 19,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 3764.83,
+          "expectedEnd": 3941.21,
+          "actualStart": 3793.3170829999995,
+          "actualEnd": 3969.7013329999995,
+          "timeDifference": 28.48708299999953
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 114.396125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Crossing Over: The Soul’s Journey Beyond Death"
+        },
+        {
+          "startTime": 366.835625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Crossing Over: The Soul’s Journey Beyond Death and Chapter 2 The Spirit World: A Place of Healing, Learning, and Belonging"
+        },
+        {
+          "startTime": 655.51875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Spirit World: A Place of Healing, Learning, and Belonging and Chapter 3 Soul Groups and Spiritual Guides: Companions on the Journey"
+        },
+        {
+          "startTime": 913.1519999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Soul Groups and Spiritual Guides: Companions on the Journey and Chapter 4 Preparing for a New Life: Planning, Purpose, and the Return to Earth"
+        },
+        {
+          "startTime": 1173.809333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Preparing for a New Life: Planning, Purpose, and the Return to Earth and Chapter 5 The Purpose of Earthly Life: Growth, Healing, and the Soul’s Evolution"
+        },
+        {
+          "startTime": 1443.1553749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Purpose of Earthly Life: Growth, Healing, and the Soul’s Evolution and Chapter 6 Advanced Souls: The Path of Spiritual Maturity"
+        },
+        {
+          "startTime": 1649.2861669999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Souls: The Path of Spiritual Maturity and Chapter 7 The Council of Elders: Wisdom, Review, and Guidance"
+        },
+        {
+          "startTime": 1833.5969169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Council of Elders: Wisdom, Review, and Guidance and Chapter 8 The Architecture of the Spirit World: Realms, Energy, and Creation"
+        },
+        {
+          "startTime": 2054.945042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Architecture of the Spirit World: Realms, Energy, and Creation and Chapter 9 Soul Specialization: Talents, Callings, and the Work of the Spirit"
+        },
+        {
+          "startTime": 2264.9469169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Soul Specialization: Talents, Callings, and the Work of the Spirit and Chapter 10 The Mystery of Soul Origins: Where Do We Come From?"
+        },
+        {
+          "startTime": 2441.052167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Mystery of Soul Origins: Where Do We Come From? and Chapter 11 Soulmates and Twin Souls: The Deeper Bonds"
+        },
+        {
+          "startTime": 2626.880625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Soulmates and Twin Souls: The Deeper Bonds and Chapter 12 The Role of Suffering and Evil: Lessons from Darkness"
+        },
+        {
+          "startTime": 2807.7733329999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Role of Suffering and Evil: Lessons from Darkness and Chapter 13 Children, Animals, and Unusual Cases: The Diversity of Souls"
+        },
+        {
+          "startTime": 2975.0562079999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Children, Animals, and Unusual Cases: The Diversity of Souls and Chapter 14 The Interplay of Free Will and Destiny"
+        },
+        {
+          "startTime": 3148.2832079999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Interplay of Free Will and Destiny and Chapter 15 The Return to the Physical: Birth, Childhood, and Forgetting"
+        },
+        {
+          "startTime": 3319.3842909999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Return to the Physical: Birth, Childhood, and Forgetting and Chapter 16 The Influence of the Spirit World on Daily Life"
+        },
+        {
+          "startTime": 3477.9528329999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 16 The Influence of the Spirit World on Daily Life and Chapter 17 The Evolution of Humanity: Collective Growth and the Future"
+        },
+        {
+          "startTime": 3635.2697909999993,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 17 The Evolution of Humanity: Collective Growth and the Future and Chapter 18 The Return Home: Death, Reunion, and the Next Chapter"
+        },
+        {
+          "startTime": 3791.8170829999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 18 The Return Home: Death, Reunion, and the Next Chapter and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 20
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1926",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T01:50:49.753Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

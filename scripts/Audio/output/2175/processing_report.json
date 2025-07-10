@@ -1,0 +1,455 @@
+{
+  "bookId": "2175",
+  "timestamp": "2025-07-09T22:59:32.413Z",
+  "success": false,
+  "processingTime": -1752101693300,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4860,
+    "totalAudioFiles": 12,
+    "totalDuration": 2011.0408759999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2011.0408759999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2175/optimized_text/2175.md",
+    "fileSize": 601,
+    "wordCount": 80,
+    "format": "markdown",
+    "filename": "2175.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2175/metadata/2175_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2011.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2175/metadata/2175_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2175/metadata/2175_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2175/2175_complete.wav",
+    "duration": 2011.040875,
+    "fileSize": 96530040,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2175/introduction.wav",
+          "duration": 89.475917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.475917,
+          "startTime": 0,
+          "endTime": 89.475917
+        },
+        {
+          "path": "Audio/output/2175/chapter_01.wav",
+          "duration": 239.892167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Breaking the Silence Around Women’s Bodies",
+          "actualDuration": 239.892167,
+          "startTime": 90.975917,
+          "endTime": 330.868084
+        },
+        {
+          "path": "Audio/output/2175/chapter_02.wav",
+          "duration": 245.78825,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Many Faces of Female Experience",
+          "actualDuration": 245.78825,
+          "startTime": 332.368084,
+          "endTime": 578.156334
+        },
+        {
+          "path": "Audio/output/2175/chapter_03.wav",
+          "duration": 198.691625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shame, Stigma, and the Power of Naming",
+          "actualDuration": 198.691625,
+          "startTime": 579.656334,
+          "endTime": 778.347959
+        },
+        {
+          "path": "Audio/output/2175/chapter_04.wav",
+          "duration": 201.1225,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Trauma, Healing, and the Path to Empowerment",
+          "actualDuration": 201.1225,
+          "startTime": 779.847959,
+          "endTime": 980.9704589999999
+        },
+        {
+          "path": "Audio/output/2175/chapter_05.wav",
+          "duration": 178.791417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Celebrating the Body and Reclaiming Joy",
+          "actualDuration": 178.791417,
+          "startTime": 982.4704589999999,
+          "endTime": 1161.2618759999998
+        },
+        {
+          "path": "Audio/output/2175/chapter_06.wav",
+          "duration": 193.413167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 From Personal Stories to Collective Action",
+          "actualDuration": 193.413167,
+          "startTime": 1162.7618759999998,
+          "endTime": 1356.1750429999997
+        },
+        {
+          "path": "Audio/output/2175/chapter_07.wav",
+          "duration": 162.89825,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Intersectionality—Honoring Every Voice",
+          "actualDuration": 162.89825,
+          "startTime": 1357.6750429999997,
+          "endTime": 1520.5732929999997
+        },
+        {
+          "path": "Audio/output/2175/chapter_08.wav",
+          "duration": 135.848042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Global Echo—Stories Without Borders",
+          "actualDuration": 135.848042,
+          "startTime": 1522.0732929999997,
+          "endTime": 1657.9213349999998
+        },
+        {
+          "path": "Audio/output/2175/chapter_09.wav",
+          "duration": 134.128333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Men, Allies, and the Work of Listening",
+          "actualDuration": 134.128333,
+          "startTime": 1659.4213349999998,
+          "endTime": 1793.5496679999997
+        },
+        {
+          "path": "Audio/output/2175/chapter_10.wav",
+          "duration": 121.208708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Legacy and Hope",
+          "actualDuration": 121.208708,
+          "startTime": 1795.0496679999997,
+          "endTime": 1916.2583759999998
+        },
+        {
+          "path": "Audio/output/2175/conclusion.wav",
+          "duration": 109.7825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.7825,
+          "startTime": 1917.7583759999998,
+          "endTime": 2027.5408759999998
+        }
+      ],
+      "totalDuration": 2027.5408759999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.48,
+          "actualStart": 0,
+          "actualEnd": 89.475917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Breaking the Silence Around Women’s Bodies",
+          "expectedStart": 89.48,
+          "expectedEnd": 329.37,
+          "actualStart": 90.975917,
+          "actualEnd": 330.868084,
+          "timeDifference": 1.4959169999999915
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Many Faces of Female Experience",
+          "expectedStart": 329.37,
+          "expectedEnd": 575.16,
+          "actualStart": 332.368084,
+          "actualEnd": 578.156334,
+          "timeDifference": 2.9980840000000057
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shame, Stigma, and the Power of Naming",
+          "expectedStart": 575.16,
+          "expectedEnd": 773.85,
+          "actualStart": 579.656334,
+          "actualEnd": 778.347959,
+          "timeDifference": 4.496334000000047
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Trauma, Healing, and the Path to Empowerment",
+          "expectedStart": 773.85,
+          "expectedEnd": 974.97,
+          "actualStart": 779.847959,
+          "actualEnd": 980.9704589999999,
+          "timeDifference": 5.997958999999923
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Celebrating the Body and Reclaiming Joy",
+          "expectedStart": 974.97,
+          "expectedEnd": 1153.76,
+          "actualStart": 982.4704589999999,
+          "actualEnd": 1161.2618759999998,
+          "timeDifference": 7.500458999999864
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 From Personal Stories to Collective Action",
+          "expectedStart": 1153.76,
+          "expectedEnd": 1347.17,
+          "actualStart": 1162.7618759999998,
+          "actualEnd": 1356.1750429999997,
+          "timeDifference": 9.001875999999811
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Intersectionality—Honoring Every Voice",
+          "expectedStart": 1347.17,
+          "expectedEnd": 1510.07,
+          "actualStart": 1357.6750429999997,
+          "actualEnd": 1520.5732929999997,
+          "timeDifference": 10.50504299999966
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Global Echo—Stories Without Borders",
+          "expectedStart": 1510.07,
+          "expectedEnd": 1645.92,
+          "actualStart": 1522.0732929999997,
+          "actualEnd": 1657.9213349999998,
+          "timeDifference": 12.003292999999758
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Men, Allies, and the Work of Listening",
+          "expectedStart": 1645.92,
+          "expectedEnd": 1780.05,
+          "actualStart": 1659.4213349999998,
+          "actualEnd": 1793.5496679999997,
+          "timeDifference": 13.501334999999699
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Legacy and Hope",
+          "expectedStart": 1780.05,
+          "expectedEnd": 1901.26,
+          "actualStart": 1795.0496679999997,
+          "actualEnd": 1916.2583759999998,
+          "timeDifference": 14.999667999999701
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1901.26,
+          "expectedEnd": 2011.04,
+          "actualStart": 1917.7583759999998,
+          "actualEnd": 2027.5408759999998,
+          "timeDifference": 16.49837599999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.475917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Breaking the Silence Around Women’s Bodies"
+        },
+        {
+          "startTime": 330.868084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Breaking the Silence Around Women’s Bodies and Chapter 2 The Many Faces of Female Experience"
+        },
+        {
+          "startTime": 578.156334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Many Faces of Female Experience and Chapter 3 Shame, Stigma, and the Power of Naming"
+        },
+        {
+          "startTime": 778.347959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shame, Stigma, and the Power of Naming and Chapter 4 Trauma, Healing, and the Path to Empowerment"
+        },
+        {
+          "startTime": 980.9704589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Trauma, Healing, and the Path to Empowerment and Chapter 5 Celebrating the Body and Reclaiming Joy"
+        },
+        {
+          "startTime": 1161.2618759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Celebrating the Body and Reclaiming Joy and Chapter 6 From Personal Stories to Collective Action"
+        },
+        {
+          "startTime": 1356.1750429999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 From Personal Stories to Collective Action and Chapter 7 Intersectionality—Honoring Every Voice"
+        },
+        {
+          "startTime": 1520.5732929999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Intersectionality—Honoring Every Voice and Chapter 8 The Global Echo—Stories Without Borders"
+        },
+        {
+          "startTime": 1657.9213349999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Global Echo—Stories Without Borders and Chapter 9 Men, Allies, and the Work of Listening"
+        },
+        {
+          "startTime": 1793.5496679999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Men, Allies, and the Work of Listening and Chapter 10 The Ongoing Journey—Legacy and Hope"
+        },
+        {
+          "startTime": 1916.2583759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Legacy and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2175",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T22:54:54.823Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

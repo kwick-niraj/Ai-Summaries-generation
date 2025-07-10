@@ -1,0 +1,504 @@
+{
+  "bookId": "2342",
+  "timestamp": "2025-07-10T13:21:26.666Z",
+  "success": false,
+  "processingTime": -1752153349341,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5226,
+    "totalAudioFiles": 14,
+    "totalDuration": 2412.268625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2412.268625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2342/optimized_text/2342.md",
+    "fileSize": 683,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2342.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2342/metadata/2342_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2412.28,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2342/metadata/2342_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2342/metadata/2342_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2342/2342_complete.wav",
+    "duration": 2412.268625,
+    "fileSize": 115788972,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2342/introduction.wav",
+          "duration": 85.492875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.492875,
+          "startTime": 0,
+          "endTime": 85.492875
+        },
+        {
+          "path": "Audio/output/2342/chapter_01.wav",
+          "duration": 260.39925,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering What Brings God Joy",
+          "actualDuration": 260.39925,
+          "startTime": 86.992875,
+          "endTime": 347.39212499999996
+        },
+        {
+          "path": "Audio/output/2342/chapter_02.wav",
+          "duration": 220.256625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 God’s Joy in His Own Glory",
+          "actualDuration": 220.256625,
+          "startTime": 348.89212499999996,
+          "endTime": 569.14875
+        },
+        {
+          "path": "Audio/output/2342/chapter_03.wav",
+          "duration": 195.5405,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Father’s Delight in the Son",
+          "actualDuration": 195.5405,
+          "startTime": 570.64875,
+          "endTime": 766.1892499999999
+        },
+        {
+          "path": "Audio/output/2342/chapter_04.wav",
+          "duration": 203.646208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 God’s Joy in Creation and His Works",
+          "actualDuration": 203.646208,
+          "startTime": 767.6892499999999,
+          "endTime": 971.3354579999999
+        },
+        {
+          "path": "Audio/output/2342/chapter_05.wav",
+          "duration": 200.92825,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 God’s Pleasure in Justice, Love, and Redemption",
+          "actualDuration": 200.92825,
+          "startTime": 972.8354579999999,
+          "endTime": 1173.763708
+        },
+        {
+          "path": "Audio/output/2342/chapter_06.wav",
+          "duration": 180.470542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 God’s Delight in His People",
+          "actualDuration": 180.470542,
+          "startTime": 1175.263708,
+          "endTime": 1355.73425
+        },
+        {
+          "path": "Audio/output/2342/chapter_07.wav",
+          "duration": 159.996292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Joy of God in Obedience and Faith",
+          "actualDuration": 159.996292,
+          "startTime": 1357.23425,
+          "endTime": 1517.230542
+        },
+        {
+          "path": "Audio/output/2342/chapter_08.wav",
+          "duration": 159.87925,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 God’s Joy in Prayer and Communion",
+          "actualDuration": 159.87925,
+          "startTime": 1518.730542,
+          "endTime": 1678.609792
+        },
+        {
+          "path": "Audio/output/2342/chapter_09.wav",
+          "duration": 161.596833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Joy of God in Suffering and Sacrifice",
+          "actualDuration": 161.596833,
+          "startTime": 1680.109792,
+          "endTime": 1841.706625
+        },
+        {
+          "path": "Audio/output/2342/chapter_10.wav",
+          "duration": 167.380083,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Pleasures of God and the Life of Worship",
+          "actualDuration": 167.380083,
+          "startTime": 1843.206625,
+          "endTime": 2010.586708
+        },
+        {
+          "path": "Audio/output/2342/chapter_11.wav",
+          "duration": 148.63325,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Pleasures of God and Everyday Life",
+          "actualDuration": 148.63325,
+          "startTime": 2012.086708,
+          "endTime": 2160.719958
+        },
+        {
+          "path": "Audio/output/2342/chapter_12.wav",
+          "duration": 143.029917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Pleasures of God and the Hope of Glory",
+          "actualDuration": 143.029917,
+          "startTime": 2162.219958,
+          "endTime": 2305.249875
+        },
+        {
+          "path": "Audio/output/2342/conclusion.wav",
+          "duration": 125.01875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.01875,
+          "startTime": 2306.749875,
+          "endTime": 2431.768625
+        }
+      ],
+      "totalDuration": 2431.768625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.49,
+          "actualStart": 0,
+          "actualEnd": 85.492875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering What Brings God Joy",
+          "expectedStart": 85.49,
+          "expectedEnd": 345.89,
+          "actualStart": 86.992875,
+          "actualEnd": 347.39212499999996,
+          "timeDifference": 1.502875000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 God’s Joy in His Own Glory",
+          "expectedStart": 345.89,
+          "expectedEnd": 566.15,
+          "actualStart": 348.89212499999996,
+          "actualEnd": 569.14875,
+          "timeDifference": 3.002124999999978
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Father’s Delight in the Son",
+          "expectedStart": 566.15,
+          "expectedEnd": 761.69,
+          "actualStart": 570.64875,
+          "actualEnd": 766.1892499999999,
+          "timeDifference": 4.498749999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 God’s Joy in Creation and His Works",
+          "expectedStart": 761.69,
+          "expectedEnd": 965.34,
+          "actualStart": 767.6892499999999,
+          "actualEnd": 971.3354579999999,
+          "timeDifference": 5.999249999999847
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 God’s Pleasure in Justice, Love, and Redemption",
+          "expectedStart": 965.34,
+          "expectedEnd": 1166.27,
+          "actualStart": 972.8354579999999,
+          "actualEnd": 1173.763708,
+          "timeDifference": 7.495457999999871
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 God’s Delight in His People",
+          "expectedStart": 1166.27,
+          "expectedEnd": 1346.74,
+          "actualStart": 1175.263708,
+          "actualEnd": 1355.73425,
+          "timeDifference": 8.99370799999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Joy of God in Obedience and Faith",
+          "expectedStart": 1346.74,
+          "expectedEnd": 1506.74,
+          "actualStart": 1357.23425,
+          "actualEnd": 1517.230542,
+          "timeDifference": 10.494249999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 God’s Joy in Prayer and Communion",
+          "expectedStart": 1506.74,
+          "expectedEnd": 1666.62,
+          "actualStart": 1518.730542,
+          "actualEnd": 1678.609792,
+          "timeDifference": 11.990542000000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Joy of God in Suffering and Sacrifice",
+          "expectedStart": 1666.62,
+          "expectedEnd": 1828.22,
+          "actualStart": 1680.109792,
+          "actualEnd": 1841.706625,
+          "timeDifference": 13.48979200000008
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Pleasures of God and the Life of Worship",
+          "expectedStart": 1828.22,
+          "expectedEnd": 1995.6,
+          "actualStart": 1843.206625,
+          "actualEnd": 2010.586708,
+          "timeDifference": 14.986625000000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Pleasures of God and Everyday Life",
+          "expectedStart": 1995.6,
+          "expectedEnd": 2144.23,
+          "actualStart": 2012.086708,
+          "actualEnd": 2160.719958,
+          "timeDifference": 16.486708000000135
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Pleasures of God and the Hope of Glory",
+          "expectedStart": 2144.23,
+          "expectedEnd": 2287.26,
+          "actualStart": 2162.219958,
+          "actualEnd": 2305.249875,
+          "timeDifference": 17.989958000000115
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2287.26,
+          "expectedEnd": 2412.28,
+          "actualStart": 2306.749875,
+          "actualEnd": 2431.768625,
+          "timeDifference": 19.489874999999756
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.492875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering What Brings God Joy"
+        },
+        {
+          "startTime": 347.39212499999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering What Brings God Joy and Chapter 2 God’s Joy in His Own Glory"
+        },
+        {
+          "startTime": 569.14875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 God’s Joy in His Own Glory and Chapter 3 The Father’s Delight in the Son"
+        },
+        {
+          "startTime": 766.1892499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Father’s Delight in the Son and Chapter 4 God’s Joy in Creation and His Works"
+        },
+        {
+          "startTime": 971.3354579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 God’s Joy in Creation and His Works and Chapter 5 God’s Pleasure in Justice, Love, and Redemption"
+        },
+        {
+          "startTime": 1173.763708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 God’s Pleasure in Justice, Love, and Redemption and Chapter 6 God’s Delight in His People"
+        },
+        {
+          "startTime": 1355.73425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 God’s Delight in His People and Chapter 7 The Joy of God in Obedience and Faith"
+        },
+        {
+          "startTime": 1517.230542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Joy of God in Obedience and Faith and Chapter 8 God’s Joy in Prayer and Communion"
+        },
+        {
+          "startTime": 1678.609792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 God’s Joy in Prayer and Communion and Chapter 9 The Joy of God in Suffering and Sacrifice"
+        },
+        {
+          "startTime": 1841.706625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Joy of God in Suffering and Sacrifice and Chapter 10 The Pleasures of God and the Life of Worship"
+        },
+        {
+          "startTime": 2010.586708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Pleasures of God and the Life of Worship and Chapter 11 The Pleasures of God and Everyday Life"
+        },
+        {
+          "startTime": 2160.719958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Pleasures of God and Everyday Life and Chapter 12 The Pleasures of God and the Hope of Glory"
+        },
+        {
+          "startTime": 2305.249875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Pleasures of God and the Hope of Glory and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2342",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T13:15:53.322Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

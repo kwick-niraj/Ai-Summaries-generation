@@ -1,0 +1,455 @@
+{
+  "bookId": "2335",
+  "timestamp": "2025-07-10T12:54:47.980Z",
+  "success": false,
+  "processingTime": -1752151834398,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3945,
+    "totalAudioFiles": 12,
+    "totalDuration": 1809.8902099999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1809.8902099999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2335/optimized_text/2335.md",
+    "fileSize": 680,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2335.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2335/metadata/2335_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1809.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2335/metadata/2335_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2335/metadata/2335_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2335/2335_complete.wav",
+    "duration": 1809.890208,
+    "fileSize": 86874808,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2335/introduction.wav",
+          "duration": 92.656625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.656625,
+          "startTime": 0,
+          "endTime": 92.656625
+        },
+        {
+          "path": "Audio/output/2335/chapter_01.wav",
+          "duration": 171.190792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Foundation of Attentive Reading",
+          "actualDuration": 171.190792,
+          "startTime": 94.156625,
+          "endTime": 265.347417
+        },
+        {
+          "path": "Audio/output/2335/chapter_02.wav",
+          "duration": 168.65675,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Words and the Art of Choosing Them",
+          "actualDuration": 168.65675,
+          "startTime": 266.847417,
+          "endTime": 435.504167
+        },
+        {
+          "path": "Audio/output/2335/chapter_03.wav",
+          "duration": 182.9755,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Crafting Sentences That Shape Meaning",
+          "actualDuration": 182.9755,
+          "startTime": 437.004167,
+          "endTime": 619.9796670000001
+        },
+        {
+          "path": "Audio/output/2335/chapter_04.wav",
+          "duration": 184.043167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Architecture of Paragraphs and the Flow of Thought",
+          "actualDuration": 184.043167,
+          "startTime": 621.4796670000001,
+          "endTime": 805.5228340000001
+        },
+        {
+          "path": "Audio/output/2335/chapter_05.wav",
+          "duration": 183.695875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Dialogue as a Window into Character and Story",
+          "actualDuration": 183.695875,
+          "startTime": 807.0228340000001,
+          "endTime": 990.7187090000001
+        },
+        {
+          "path": "Audio/output/2335/chapter_06.wav",
+          "duration": 162.893958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shape of Stories—Understanding Narrative Structure",
+          "actualDuration": 162.893958,
+          "startTime": 992.2187090000001,
+          "endTime": 1155.112667
+        },
+        {
+          "path": "Audio/output/2335/chapter_07.wav",
+          "duration": 175.799042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Point of View—The Lens of the Story",
+          "actualDuration": 175.799042,
+          "startTime": 1156.612667,
+          "endTime": 1332.411709
+        },
+        {
+          "path": "Audio/output/2335/chapter_08.wav",
+          "duration": 138.736917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Writer’s Voice—Finding Authenticity and Style",
+          "actualDuration": 138.736917,
+          "startTime": 1333.911709,
+          "endTime": 1472.648626
+        },
+        {
+          "path": "Audio/output/2335/chapter_09.wav",
+          "duration": 112.295417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reading as a Writer—Turning Observation into Practice",
+          "actualDuration": 112.295417,
+          "startTime": 1474.148626,
+          "endTime": 1586.444043
+        },
+        {
+          "path": "Audio/output/2335/chapter_10.wav",
+          "duration": 135.436417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Conversation—Reading, Writing, and Community",
+          "actualDuration": 135.436417,
+          "startTime": 1587.944043,
+          "endTime": 1723.3804599999999
+        },
+        {
+          "path": "Audio/output/2335/conclusion.wav",
+          "duration": 101.50975,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 101.50975,
+          "startTime": 1724.8804599999999,
+          "endTime": 1826.3902099999998
+        }
+      ],
+      "totalDuration": 1826.3902099999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.66,
+          "actualStart": 0,
+          "actualEnd": 92.656625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Foundation of Attentive Reading",
+          "expectedStart": 92.66,
+          "expectedEnd": 263.85,
+          "actualStart": 94.156625,
+          "actualEnd": 265.347417,
+          "timeDifference": 1.4966250000000088
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Words and the Art of Choosing Them",
+          "expectedStart": 263.85,
+          "expectedEnd": 432.51,
+          "actualStart": 266.847417,
+          "actualEnd": 435.504167,
+          "timeDifference": 2.9974169999999845
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Crafting Sentences That Shape Meaning",
+          "expectedStart": 432.51,
+          "expectedEnd": 615.49,
+          "actualStart": 437.004167,
+          "actualEnd": 619.9796670000001,
+          "timeDifference": 4.4941670000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Architecture of Paragraphs and the Flow of Thought",
+          "expectedStart": 615.49,
+          "expectedEnd": 799.53,
+          "actualStart": 621.4796670000001,
+          "actualEnd": 805.5228340000001,
+          "timeDifference": 5.989667000000054
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Dialogue as a Window into Character and Story",
+          "expectedStart": 799.53,
+          "expectedEnd": 983.23,
+          "actualStart": 807.0228340000001,
+          "actualEnd": 990.7187090000001,
+          "timeDifference": 7.49283400000013
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shape of Stories—Understanding Narrative Structure",
+          "expectedStart": 983.23,
+          "expectedEnd": 1146.12,
+          "actualStart": 992.2187090000001,
+          "actualEnd": 1155.112667,
+          "timeDifference": 8.988709000000085
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Point of View—The Lens of the Story",
+          "expectedStart": 1146.12,
+          "expectedEnd": 1321.92,
+          "actualStart": 1156.612667,
+          "actualEnd": 1332.411709,
+          "timeDifference": 10.49266700000021
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Writer’s Voice—Finding Authenticity and Style",
+          "expectedStart": 1321.92,
+          "expectedEnd": 1460.66,
+          "actualStart": 1333.911709,
+          "actualEnd": 1472.648626,
+          "timeDifference": 11.9917089999999
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reading as a Writer—Turning Observation into Practice",
+          "expectedStart": 1460.66,
+          "expectedEnd": 1572.96,
+          "actualStart": 1474.148626,
+          "actualEnd": 1586.444043,
+          "timeDifference": 13.48862599999984
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Conversation—Reading, Writing, and Community",
+          "expectedStart": 1572.96,
+          "expectedEnd": 1708.4,
+          "actualStart": 1587.944043,
+          "actualEnd": 1723.3804599999999,
+          "timeDifference": 14.984042999999929
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1708.4,
+          "expectedEnd": 1809.91,
+          "actualStart": 1724.8804599999999,
+          "actualEnd": 1826.3902099999998,
+          "timeDifference": 16.480459999999766
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.656625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Foundation of Attentive Reading"
+        },
+        {
+          "startTime": 265.347417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Foundation of Attentive Reading and Chapter 2 The Power of Words and the Art of Choosing Them"
+        },
+        {
+          "startTime": 435.504167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Words and the Art of Choosing Them and Chapter 3 Crafting Sentences That Shape Meaning"
+        },
+        {
+          "startTime": 619.9796670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Crafting Sentences That Shape Meaning and Chapter 4 The Architecture of Paragraphs and the Flow of Thought"
+        },
+        {
+          "startTime": 805.5228340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Architecture of Paragraphs and the Flow of Thought and Chapter 5 Dialogue as a Window into Character and Story"
+        },
+        {
+          "startTime": 990.7187090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Dialogue as a Window into Character and Story and Chapter 6 The Shape of Stories—Understanding Narrative Structure"
+        },
+        {
+          "startTime": 1155.112667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shape of Stories—Understanding Narrative Structure and Chapter 7 Point of View—The Lens of the Story"
+        },
+        {
+          "startTime": 1332.411709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Point of View—The Lens of the Story and Chapter 8 The Writer’s Voice—Finding Authenticity and Style"
+        },
+        {
+          "startTime": 1472.648626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Writer’s Voice—Finding Authenticity and Style and Chapter 9 Reading as a Writer—Turning Observation into Practice"
+        },
+        {
+          "startTime": 1586.444043,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reading as a Writer—Turning Observation into Practice and Chapter 10 The Ongoing Conversation—Reading, Writing, and Community"
+        },
+        {
+          "startTime": 1723.3804599999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Conversation—Reading, Writing, and Community and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2335",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:50:37.137Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

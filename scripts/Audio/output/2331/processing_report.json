@@ -1,0 +1,528 @@
+{
+  "bookId": "2331",
+  "timestamp": "2025-07-10T12:40:53.678Z",
+  "success": false,
+  "processingTime": -1752150866989,
+  "stats": {
+    "totalSections": 15,
+    "totalWords": 5479,
+    "totalAudioFiles": 15,
+    "totalDuration": 2635.127459
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 13,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 15,
+    "successful": 15,
+    "failed": 0,
+    "duration": 2635.127459
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2331/optimized_text/2331.md",
+    "fileSize": 977,
+    "wordCount": 142,
+    "format": "markdown",
+    "filename": "2331.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2331/metadata/2331_chapters.json",
+    "totalChapters": 15,
+    "totalDuration": 2635.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2331/metadata/2331_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2331/metadata/2331_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 15,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 13
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2331/2331_complete.wav",
+    "duration": 2635.127458,
+    "fileSize": 126486196,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2331/introduction.wav",
+          "duration": 103.227667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.227667,
+          "startTime": 0,
+          "endTime": 103.227667
+        },
+        {
+          "path": "Audio/output/2331/chapter_01.wav",
+          "duration": 228.212708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Stories Feel So Familiar: The Patterns Beneath Every Tale",
+          "actualDuration": 228.212708,
+          "startTime": 104.727667,
+          "endTime": 332.940375
+        },
+        {
+          "path": "Audio/output/2331/chapter_02.wav",
+          "duration": 223.794958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing the Monster: Stories of Confronting Fear and Danger",
+          "actualDuration": 223.794958,
+          "startTime": 334.440375,
+          "endTime": 558.2353330000001
+        },
+        {
+          "path": "Audio/output/2331/chapter_03.wav",
+          "duration": 230.737792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rising from Nothing: The Allure of Transformation and Success",
+          "actualDuration": 230.737792,
+          "startTime": 559.7353330000001,
+          "endTime": 790.4731250000001
+        },
+        {
+          "path": "Audio/output/2331/chapter_04.wav",
+          "duration": 227.549792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Long Journey: Adventures, Challenges, and the Search for Meaning",
+          "actualDuration": 227.549792,
+          "startTime": 791.9731250000001,
+          "endTime": 1019.5229170000001
+        },
+        {
+          "path": "Audio/output/2331/chapter_05.wav",
+          "duration": 198.140375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Leaving and Returning: The Power of Transformation Through Experience",
+          "actualDuration": 198.140375,
+          "startTime": 1021.0229170000001,
+          "endTime": 1219.1632920000002
+        },
+        {
+          "path": "Audio/output/2331/chapter_06.wav",
+          "duration": 203.040167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Comedy: The Dance of Confusion and Connection",
+          "actualDuration": 203.040167,
+          "startTime": 1220.6632920000002,
+          "endTime": 1423.7034590000003
+        },
+        {
+          "path": "Audio/output/2331/chapter_07.wav",
+          "duration": 169.996167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Tragedy: The Shadow of Downfall and the Cost of Blindness",
+          "actualDuration": 169.996167,
+          "startTime": 1425.2034590000003,
+          "endTime": 1595.1996260000003
+        },
+        {
+          "path": "Audio/output/2331/chapter_08.wav",
+          "duration": 161.189875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rebirth: The Promise of Renewal and Second Chances",
+          "actualDuration": 161.189875,
+          "startTime": 1596.6996260000003,
+          "endTime": 1757.8895010000003
+        },
+        {
+          "path": "Audio/output/2331/chapter_09.wav",
+          "duration": 174.664167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Why These Plots Endure: The Deep Roots of Storytelling",
+          "actualDuration": 174.664167,
+          "startTime": 1759.3895010000003,
+          "endTime": 1934.0536680000002
+        },
+        {
+          "path": "Audio/output/2331/chapter_10.wav",
+          "duration": 152.990583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Shadow Side: When Stories Go Wrong",
+          "actualDuration": 152.990583,
+          "startTime": 1935.5536680000002,
+          "endTime": 2088.5442510000003
+        },
+        {
+          "path": "Audio/output/2331/chapter_11.wav",
+          "duration": 139.642875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Inner Journey: Stories as Mirrors of the Self",
+          "actualDuration": 139.642875,
+          "startTime": 2090.0442510000003,
+          "endTime": 2229.6871260000003
+        },
+        {
+          "path": "Audio/output/2331/chapter_12.wav",
+          "duration": 147.318583,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Cultural Tapestry: How Stories Shape and Reflect Society",
+          "actualDuration": 147.318583,
+          "startTime": 2231.1871260000003,
+          "endTime": 2378.505709
+        },
+        {
+          "path": "Audio/output/2331/chapter_13.wav",
+          "duration": 128.673625,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Future of Storytelling: New Voices, New Shapes",
+          "actualDuration": 128.673625,
+          "startTime": 2380.005709,
+          "endTime": 2508.679334
+        },
+        {
+          "path": "Audio/output/2331/conclusion.wav",
+          "duration": 145.948125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.948125,
+          "startTime": 2510.179334,
+          "endTime": 2656.127459
+        }
+      ],
+      "totalDuration": 2656.127459,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.23,
+          "actualStart": 0,
+          "actualEnd": 103.227667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Stories Feel So Familiar: The Patterns Beneath Every Tale",
+          "expectedStart": 103.23,
+          "expectedEnd": 331.44,
+          "actualStart": 104.727667,
+          "actualEnd": 332.940375,
+          "timeDifference": 1.4976669999999928
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing the Monster: Stories of Confronting Fear and Danger",
+          "expectedStart": 331.44,
+          "expectedEnd": 555.23,
+          "actualStart": 334.440375,
+          "actualEnd": 558.2353330000001,
+          "timeDifference": 3.0003750000000196
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rising from Nothing: The Allure of Transformation and Success",
+          "expectedStart": 555.23,
+          "expectedEnd": 785.97,
+          "actualStart": 559.7353330000001,
+          "actualEnd": 790.4731250000001,
+          "timeDifference": 4.505333000000064
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Long Journey: Adventures, Challenges, and the Search for Meaning",
+          "expectedStart": 785.97,
+          "expectedEnd": 1013.52,
+          "actualStart": 791.9731250000001,
+          "actualEnd": 1019.5229170000001,
+          "timeDifference": 6.003125000000068
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Leaving and Returning: The Power of Transformation Through Experience",
+          "expectedStart": 1013.52,
+          "expectedEnd": 1211.66,
+          "actualStart": 1021.0229170000001,
+          "actualEnd": 1219.1632920000002,
+          "timeDifference": 7.502917000000139
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Comedy: The Dance of Confusion and Connection",
+          "expectedStart": 1211.66,
+          "expectedEnd": 1414.7,
+          "actualStart": 1220.6632920000002,
+          "actualEnd": 1423.7034590000003,
+          "timeDifference": 9.003292000000101
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Tragedy: The Shadow of Downfall and the Cost of Blindness",
+          "expectedStart": 1414.7,
+          "expectedEnd": 1584.7,
+          "actualStart": 1425.2034590000003,
+          "actualEnd": 1595.1996260000003,
+          "timeDifference": 10.503459000000248
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rebirth: The Promise of Renewal and Second Chances",
+          "expectedStart": 1584.7,
+          "expectedEnd": 1745.89,
+          "actualStart": 1596.6996260000003,
+          "actualEnd": 1757.8895010000003,
+          "timeDifference": 11.999626000000262
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Why These Plots Endure: The Deep Roots of Storytelling",
+          "expectedStart": 1745.89,
+          "expectedEnd": 1920.55,
+          "actualStart": 1759.3895010000003,
+          "actualEnd": 1934.0536680000002,
+          "timeDifference": 13.499501000000237
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Shadow Side: When Stories Go Wrong",
+          "expectedStart": 1920.55,
+          "expectedEnd": 2073.54,
+          "actualStart": 1935.5536680000002,
+          "actualEnd": 2088.5442510000003,
+          "timeDifference": 15.003668000000289
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Inner Journey: Stories as Mirrors of the Self",
+          "expectedStart": 2073.54,
+          "expectedEnd": 2213.18,
+          "actualStart": 2090.0442510000003,
+          "actualEnd": 2229.6871260000003,
+          "timeDifference": 16.504251000000295
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Cultural Tapestry: How Stories Shape and Reflect Society",
+          "expectedStart": 2213.18,
+          "expectedEnd": 2360.5,
+          "actualStart": 2231.1871260000003,
+          "actualEnd": 2378.505709,
+          "timeDifference": 18.007126000000426
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Future of Storytelling: New Voices, New Shapes",
+          "expectedStart": 2360.5,
+          "expectedEnd": 2489.17,
+          "actualStart": 2380.005709,
+          "actualEnd": 2508.679334,
+          "timeDifference": 19.505709000000024
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2489.17,
+          "expectedEnd": 2635.12,
+          "actualStart": 2510.179334,
+          "actualEnd": 2656.127459,
+          "timeDifference": 21.009333999999853
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.227667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Stories Feel So Familiar: The Patterns Beneath Every Tale"
+        },
+        {
+          "startTime": 332.940375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Stories Feel So Familiar: The Patterns Beneath Every Tale and Chapter 2 Facing the Monster: Stories of Confronting Fear and Danger"
+        },
+        {
+          "startTime": 558.2353330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing the Monster: Stories of Confronting Fear and Danger and Chapter 3 Rising from Nothing: The Allure of Transformation and Success"
+        },
+        {
+          "startTime": 790.4731250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rising from Nothing: The Allure of Transformation and Success and Chapter 4 The Long Journey: Adventures, Challenges, and the Search for Meaning"
+        },
+        {
+          "startTime": 1019.5229170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Long Journey: Adventures, Challenges, and the Search for Meaning and Chapter 5 Leaving and Returning: The Power of Transformation Through Experience"
+        },
+        {
+          "startTime": 1219.1632920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Leaving and Returning: The Power of Transformation Through Experience and Chapter 6 Comedy: The Dance of Confusion and Connection"
+        },
+        {
+          "startTime": 1423.7034590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Comedy: The Dance of Confusion and Connection and Chapter 7 Tragedy: The Shadow of Downfall and the Cost of Blindness"
+        },
+        {
+          "startTime": 1595.1996260000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Tragedy: The Shadow of Downfall and the Cost of Blindness and Chapter 8 Rebirth: The Promise of Renewal and Second Chances"
+        },
+        {
+          "startTime": 1757.8895010000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rebirth: The Promise of Renewal and Second Chances and Chapter 9 Why These Plots Endure: The Deep Roots of Storytelling"
+        },
+        {
+          "startTime": 1934.0536680000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Why These Plots Endure: The Deep Roots of Storytelling and Chapter 10 The Shadow Side: When Stories Go Wrong"
+        },
+        {
+          "startTime": 2088.5442510000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Shadow Side: When Stories Go Wrong and Chapter 11 The Inner Journey: Stories as Mirrors of the Self"
+        },
+        {
+          "startTime": 2229.6871260000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Inner Journey: Stories as Mirrors of the Self and Chapter 12 The Cultural Tapestry: How Stories Shape and Reflect Society"
+        },
+        {
+          "startTime": 2378.505709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Cultural Tapestry: How Stories Shape and Reflect Society and Chapter 13 The Future of Storytelling: New Voices, New Shapes"
+        },
+        {
+          "startTime": 2508.679334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Future of Storytelling: New Voices, New Shapes and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 15
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2331",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:34:27.575Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

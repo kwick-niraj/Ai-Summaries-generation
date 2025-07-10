@@ -1,0 +1,504 @@
+{
+  "bookId": "2008",
+  "timestamp": "2025-07-09T08:56:40.883Z",
+  "success": false,
+  "processingTime": -1752050746671,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4927,
+    "totalAudioFiles": 14,
+    "totalDuration": 2279.3608740000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2279.3608740000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2008/optimized_text/2008.md",
+    "fileSize": 658,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2008.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2008/metadata/2008_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2279.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2008/metadata/2008_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2008/metadata/2008_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2008/2008_complete.wav",
+    "duration": 2279.360875,
+    "fileSize": 109409400,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2008/introduction.wav",
+          "duration": 74.352,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 74.352,
+          "startTime": 0,
+          "endTime": 74.352
+        },
+        {
+          "path": "Audio/output/2008/chapter_01.wav",
+          "duration": 231.123333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Setbacks and the First Steps Toward Change",
+          "actualDuration": 231.123333,
+          "startTime": 75.852,
+          "endTime": 306.975333
+        },
+        {
+          "path": "Audio/output/2008/chapter_02.wav",
+          "duration": 227.868667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Mistakes and Building Resilience",
+          "actualDuration": 227.868667,
+          "startTime": 308.475333,
+          "endTime": 536.3439999999999
+        },
+        {
+          "path": "Audio/output/2008/chapter_03.wav",
+          "duration": 187.063833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Shifting Mindsets and Embracing New Possibilities",
+          "actualDuration": 187.063833,
+          "startTime": 537.8439999999999,
+          "endTime": 724.907833
+        },
+        {
+          "path": "Audio/output/2008/chapter_04.wav",
+          "duration": 200.209208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Adversity into Opportunity",
+          "actualDuration": 200.209208,
+          "startTime": 726.407833,
+          "endTime": 926.617041
+        },
+        {
+          "path": "Audio/output/2008/chapter_05.wav",
+          "duration": 184.325292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Real-Life Role Models",
+          "actualDuration": 184.325292,
+          "startTime": 928.117041,
+          "endTime": 1112.442333
+        },
+        {
+          "path": "Audio/output/2008/chapter_06.wav",
+          "duration": 173.408583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Strength of Persistence",
+          "actualDuration": 173.408583,
+          "startTime": 1113.942333,
+          "endTime": 1287.3509159999999
+        },
+        {
+          "path": "Audio/output/2008/chapter_07.wav",
+          "duration": 170.258417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Support and Community",
+          "actualDuration": 170.258417,
+          "startTime": 1288.8509159999999,
+          "endTime": 1459.1093329999999
+        },
+        {
+          "path": "Audio/output/2008/chapter_08.wav",
+          "duration": 158.880333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Redefining Success",
+          "actualDuration": 158.880333,
+          "startTime": 1460.6093329999999,
+          "endTime": 1619.489666
+        },
+        {
+          "path": "Audio/output/2008/chapter_09.wav",
+          "duration": 148.594583,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Courage to Begin Again",
+          "actualDuration": 148.594583,
+          "startTime": 1620.989666,
+          "endTime": 1769.584249
+        },
+        {
+          "path": "Audio/output/2008/chapter_10.wav",
+          "duration": 128.259125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect of Resilience",
+          "actualDuration": 128.259125,
+          "startTime": 1771.084249,
+          "endTime": 1899.343374
+        },
+        {
+          "path": "Audio/output/2008/chapter_11.wav",
+          "duration": 148.877917,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Finding Meaning in the Journey",
+          "actualDuration": 148.877917,
+          "startTime": 1900.843374,
+          "endTime": 2049.721291
+        },
+        {
+          "path": "Audio/output/2008/chapter_12.wav",
+          "duration": 119.248083,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Passing the Torch—Inspiring Others",
+          "actualDuration": 119.248083,
+          "startTime": 2051.221291,
+          "endTime": 2170.469374
+        },
+        {
+          "path": "Audio/output/2008/conclusion.wav",
+          "duration": 126.8915,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.8915,
+          "startTime": 2171.969374,
+          "endTime": 2298.860874
+        }
+      ],
+      "totalDuration": 2298.860874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 74.35,
+          "actualStart": 0,
+          "actualEnd": 74.352,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Setbacks and the First Steps Toward Change",
+          "expectedStart": 74.35,
+          "expectedEnd": 305.47,
+          "actualStart": 75.852,
+          "actualEnd": 306.975333,
+          "timeDifference": 1.5020000000000095
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Mistakes and Building Resilience",
+          "expectedStart": 305.47,
+          "expectedEnd": 533.34,
+          "actualStart": 308.475333,
+          "actualEnd": 536.3439999999999,
+          "timeDifference": 3.0053329999999505
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Shifting Mindsets and Embracing New Possibilities",
+          "expectedStart": 533.34,
+          "expectedEnd": 720.4,
+          "actualStart": 537.8439999999999,
+          "actualEnd": 724.907833,
+          "timeDifference": 4.503999999999905
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Adversity into Opportunity",
+          "expectedStart": 720.4,
+          "expectedEnd": 920.61,
+          "actualStart": 726.407833,
+          "actualEnd": 926.617041,
+          "timeDifference": 6.007833000000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Real-Life Role Models",
+          "expectedStart": 920.61,
+          "expectedEnd": 1104.94,
+          "actualStart": 928.117041,
+          "actualEnd": 1112.442333,
+          "timeDifference": 7.507040999999958
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Strength of Persistence",
+          "expectedStart": 1104.94,
+          "expectedEnd": 1278.35,
+          "actualStart": 1113.942333,
+          "actualEnd": 1287.3509159999999,
+          "timeDifference": 9.002332999999908
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Support and Community",
+          "expectedStart": 1278.35,
+          "expectedEnd": 1448.61,
+          "actualStart": 1288.8509159999999,
+          "actualEnd": 1459.1093329999999,
+          "timeDifference": 10.500915999999961
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Redefining Success",
+          "expectedStart": 1448.61,
+          "expectedEnd": 1607.49,
+          "actualStart": 1460.6093329999999,
+          "actualEnd": 1619.489666,
+          "timeDifference": 11.999332999999979
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Courage to Begin Again",
+          "expectedStart": 1607.49,
+          "expectedEnd": 1756.08,
+          "actualStart": 1620.989666,
+          "actualEnd": 1769.584249,
+          "timeDifference": 13.499665999999934
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect of Resilience",
+          "expectedStart": 1756.08,
+          "expectedEnd": 1884.34,
+          "actualStart": 1771.084249,
+          "actualEnd": 1899.343374,
+          "timeDifference": 15.004249000000073
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Finding Meaning in the Journey",
+          "expectedStart": 1884.34,
+          "expectedEnd": 2033.22,
+          "actualStart": 1900.843374,
+          "actualEnd": 2049.721291,
+          "timeDifference": 16.50337400000012
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Passing the Torch—Inspiring Others",
+          "expectedStart": 2033.22,
+          "expectedEnd": 2152.47,
+          "actualStart": 2051.221291,
+          "actualEnd": 2170.469374,
+          "timeDifference": 18.00129099999981
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2152.47,
+          "expectedEnd": 2279.36,
+          "actualStart": 2171.969374,
+          "actualEnd": 2298.860874,
+          "timeDifference": 19.49937399999999
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 74.352,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Setbacks and the First Steps Toward Change"
+        },
+        {
+          "startTime": 306.975333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Setbacks and the First Steps Toward Change and Chapter 2 Learning from Mistakes and Building Resilience"
+        },
+        {
+          "startTime": 536.3439999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Mistakes and Building Resilience and Chapter 3 Shifting Mindsets and Embracing New Possibilities"
+        },
+        {
+          "startTime": 724.907833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Shifting Mindsets and Embracing New Possibilities and Chapter 4 Turning Adversity into Opportunity"
+        },
+        {
+          "startTime": 926.617041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Adversity into Opportunity and Chapter 5 The Power of Real-Life Role Models"
+        },
+        {
+          "startTime": 1112.442333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Real-Life Role Models and Chapter 6 The Quiet Strength of Persistence"
+        },
+        {
+          "startTime": 1287.3509159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Strength of Persistence and Chapter 7 The Role of Support and Community"
+        },
+        {
+          "startTime": 1459.1093329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Support and Community and Chapter 8 Redefining Success"
+        },
+        {
+          "startTime": 1619.489666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Redefining Success and Chapter 9 The Courage to Begin Again"
+        },
+        {
+          "startTime": 1769.584249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Courage to Begin Again and Chapter 10 The Ripple Effect of Resilience"
+        },
+        {
+          "startTime": 1899.343374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect of Resilience and Chapter 11 Finding Meaning in the Journey"
+        },
+        {
+          "startTime": 2049.721291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Finding Meaning in the Journey and Chapter 12 Passing the Torch—Inspiring Others"
+        },
+        {
+          "startTime": 2170.469374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Passing the Torch—Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2008",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T08:45:47.950Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

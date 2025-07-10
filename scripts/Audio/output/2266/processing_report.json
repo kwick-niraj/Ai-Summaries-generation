@@ -1,0 +1,456 @@
+{
+  "bookId": "2266",
+  "timestamp": "2025-07-10T05:40:17.584Z",
+  "success": false,
+  "processingTime": -1752125618815,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5308,
+    "totalAudioFiles": 12,
+    "totalDuration": 2455.7961660000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2455.7961660000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2266/optimized_text/2266.md",
+    "fileSize": 657,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2266.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2266/metadata/2266_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2455.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2266/metadata/2266_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2266/metadata/2266_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2266/2266_complete.wav",
+    "duration": 2455.796167,
+    "fileSize": 117878294,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2266/introduction.wav",
+          "duration": 128.215125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 128.215125,
+          "startTime": 0,
+          "endTime": 128.215125
+        },
+        {
+          "path": "Audio/output/2266/chapter_01.wav",
+          "duration": 335.083583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Childhood Shaped by Power and Uncertainty",
+          "actualDuration": 335.083583,
+          "startTime": 129.715125,
+          "endTime": 464.798708
+        },
+        {
+          "path": "Audio/output/2266/chapter_02.wav",
+          "duration": 233.32225,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Becoming Queen of France and Facing Loss",
+          "actualDuration": 233.32225,
+          "startTime": 466.298708,
+          "endTime": 699.620958
+        },
+        {
+          "path": "Audio/output/2266/chapter_03.wav",
+          "duration": 271.9735,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Struggles for Authority in a Divided Scotland",
+          "actualDuration": 271.9735,
+          "startTime": 701.120958,
+          "endTime": 973.094458
+        },
+        {
+          "path": "Audio/output/2266/chapter_04.wav",
+          "duration": 243.247667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Betrayal, Scandal, and the Fall from Power",
+          "actualDuration": 243.247667,
+          "startTime": 974.594458,
+          "endTime": 1217.8421250000001
+        },
+        {
+          "path": "Audio/output/2266/chapter_05.wav",
+          "duration": 203.56625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Image, Gender, and Historical Memory",
+          "actualDuration": 203.56625,
+          "startTime": 1219.3421250000001,
+          "endTime": 1422.9083750000002
+        },
+        {
+          "path": "Audio/output/2266/chapter_06.wav",
+          "duration": 230.576125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Afterlife of a Queen: Mary’s Legacy in the Hands of Others",
+          "actualDuration": 230.576125,
+          "startTime": 1424.4083750000002,
+          "endTime": 1654.9845000000003
+        },
+        {
+          "path": "Audio/output/2266/chapter_07.wav",
+          "duration": 197.767833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Making and Unmaking of a Reputation",
+          "actualDuration": 197.767833,
+          "startTime": 1656.4845000000003,
+          "endTime": 1854.2523330000004
+        },
+        {
+          "path": "Audio/output/2266/chapter_08.wav",
+          "duration": 178.3675,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons in Power: The Cost of Being Queen",
+          "actualDuration": 178.3675,
+          "startTime": 1855.7523330000004,
+          "endTime": 2034.1198330000004
+        },
+        {
+          "path": "Audio/output/2266/chapter_09.wav",
+          "duration": 157.751333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Gender, Judgment, and the Double Bind",
+          "actualDuration": 157.751333,
+          "startTime": 2035.6198330000004,
+          "endTime": 2193.3711660000004
+        },
+        {
+          "path": "Audio/output/2266/chapter_10.wav",
+          "duration": 149.139125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Mystery: Why Mary’s Story Still Matters",
+          "actualDuration": 149.139125,
+          "startTime": 2194.8711660000004,
+          "endTime": 2344.0102910000005
+        },
+        {
+          "path": "Audio/output/2266/conclusion.wav",
+          "duration": 126.785875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.785875,
+          "startTime": 2345.5102910000005,
+          "endTime": 2472.2961660000005
+        }
+      ],
+      "totalDuration": 2472.2961660000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 128.22,
+          "actualStart": 0,
+          "actualEnd": 128.215125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Childhood Shaped by Power and Uncertainty",
+          "expectedStart": 128.22,
+          "expectedEnd": 463.3,
+          "actualStart": 129.715125,
+          "actualEnd": 464.798708,
+          "timeDifference": 1.4951250000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Becoming Queen of France and Facing Loss",
+          "expectedStart": 463.3,
+          "expectedEnd": 696.62,
+          "actualStart": 466.298708,
+          "actualEnd": 699.620958,
+          "timeDifference": 2.998707999999965
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Struggles for Authority in a Divided Scotland",
+          "expectedStart": 696.62,
+          "expectedEnd": 968.59,
+          "actualStart": 701.120958,
+          "actualEnd": 973.094458,
+          "timeDifference": 4.500957999999969
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Betrayal, Scandal, and the Fall from Power",
+          "expectedStart": 968.59,
+          "expectedEnd": 1211.84,
+          "actualStart": 974.594458,
+          "actualEnd": 1217.8421250000001,
+          "timeDifference": 6.004458
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Image, Gender, and Historical Memory",
+          "expectedStart": 1211.84,
+          "expectedEnd": 1415.41,
+          "actualStart": 1219.3421250000001,
+          "actualEnd": 1422.9083750000002,
+          "timeDifference": 7.5021250000002055
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Afterlife of a Queen: Mary’s Legacy in the Hands of Others",
+          "expectedStart": 1415.41,
+          "expectedEnd": 1645.99,
+          "actualStart": 1424.4083750000002,
+          "actualEnd": 1654.9845000000003,
+          "timeDifference": 8.998375000000124
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Making and Unmaking of a Reputation",
+          "expectedStart": 1645.99,
+          "expectedEnd": 1843.76,
+          "actualStart": 1656.4845000000003,
+          "actualEnd": 1854.2523330000004,
+          "timeDifference": 10.494500000000244
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons in Power: The Cost of Being Queen",
+          "expectedStart": 1843.76,
+          "expectedEnd": 2022.13,
+          "actualStart": 1855.7523330000004,
+          "actualEnd": 2034.1198330000004,
+          "timeDifference": 11.992333000000372
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Gender, Judgment, and the Double Bind",
+          "expectedStart": 2022.13,
+          "expectedEnd": 2179.88,
+          "actualStart": 2035.6198330000004,
+          "actualEnd": 2193.3711660000004,
+          "timeDifference": 13.489833000000317
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Mystery: Why Mary’s Story Still Matters",
+          "expectedStart": 2179.88,
+          "expectedEnd": 2329.02,
+          "actualStart": 2194.8711660000004,
+          "actualEnd": 2344.0102910000005,
+          "timeDifference": 14.991166000000248
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2329.02,
+          "expectedEnd": 2455.81,
+          "actualStart": 2345.5102910000005,
+          "actualEnd": 2472.2961660000005,
+          "timeDifference": 16.490291000000525
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 128.215125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Childhood Shaped by Power and Uncertainty"
+        },
+        {
+          "startTime": 464.798708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Childhood Shaped by Power and Uncertainty and Chapter 2 Becoming Queen of France and Facing Loss"
+        },
+        {
+          "startTime": 699.620958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Becoming Queen of France and Facing Loss and Chapter 3 Struggles for Authority in a Divided Scotland"
+        },
+        {
+          "startTime": 973.094458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Struggles for Authority in a Divided Scotland and Chapter 4 Betrayal, Scandal, and the Fall from Power"
+        },
+        {
+          "startTime": 1217.8421250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Betrayal, Scandal, and the Fall from Power and Chapter 5 The Power of Image, Gender, and Historical Memory"
+        },
+        {
+          "startTime": 1422.9083750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Image, Gender, and Historical Memory and Chapter 6 The Afterlife of a Queen: Mary’s Legacy in the Hands of Others"
+        },
+        {
+          "startTime": 1654.9845000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Afterlife of a Queen: Mary’s Legacy in the Hands of Others and Chapter 7 The Making and Unmaking of a Reputation"
+        },
+        {
+          "startTime": 1854.2523330000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Making and Unmaking of a Reputation and Chapter 8 Lessons in Power: The Cost of Being Queen"
+        },
+        {
+          "startTime": 2034.1198330000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons in Power: The Cost of Being Queen and Chapter 9 Gender, Judgment, and the Double Bind"
+        },
+        {
+          "startTime": 2193.3711660000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Gender, Judgment, and the Double Bind and Chapter 10 The Enduring Mystery: Why Mary’s Story Still Matters"
+        },
+        {
+          "startTime": 2344.0102910000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Mystery: Why Mary’s Story Still Matters and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2266",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T05:33:40.023Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "bookId": "1800",
+  "timestamp": "2025-07-08T16:41:16.068Z",
+  "success": false,
+  "processingTime": -1751992126300,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5880,
+    "totalAudioFiles": 13,
+    "totalDuration": 2765.3602499999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2765.3602499999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1800/optimized_text/1800.md",
+    "fileSize": 894,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "1800.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1800/metadata/1800_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2765.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1800/metadata/1800_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1800/metadata/1800_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1800/1800_complete.wav",
+    "duration": 2765.36025,
+    "fileSize": 132737370,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1800/introduction.wav",
+          "duration": 108.661042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 108.661042,
+          "startTime": 0,
+          "endTime": 108.661042
+        },
+        {
+          "path": "Audio/output/1800/chapter_01.wav",
+          "duration": 254.145208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving in a World of Contrasts and Struggle",
+          "actualDuration": 254.145208,
+          "startTime": 110.161042,
+          "endTime": 364.30625
+        },
+        {
+          "path": "Audio/output/1800/chapter_02.wav",
+          "duration": 250.84425,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Ties That Bind—Family, Faith, and Community",
+          "actualDuration": 250.84425,
+          "startTime": 365.80625,
+          "endTime": 616.6505
+        },
+        {
+          "path": "Audio/output/1800/chapter_03.wav",
+          "duration": 270.109583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Daily Battle—Work, Survival, and Dignity",
+          "actualDuration": 270.109583,
+          "startTime": 618.1505,
+          "endTime": 888.2600829999999
+        },
+        {
+          "path": "Audio/output/1800/chapter_04.wav",
+          "duration": 254.102667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Hardship Together—Illness, Loss, and the Power of Compassion",
+          "actualDuration": 254.102667,
+          "startTime": 889.7600829999999,
+          "endTime": 1143.8627499999998
+        },
+        {
+          "path": "Audio/output/1800/chapter_05.wav",
+          "duration": 213.224583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Learning from the Margins—Transformation, Hope, and the Meaning of Joy",
+          "actualDuration": 213.224583,
+          "startTime": 1145.3627499999998,
+          "endTime": 1358.5873329999997
+        },
+        {
+          "path": "Audio/output/1800/chapter_06.wav",
+          "duration": 229.685708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Arrival of Outsiders—Aid, Misunderstandings, and the Limits of Good Intentions",
+          "actualDuration": 229.685708,
+          "startTime": 1360.0873329999997,
+          "endTime": 1589.7730409999997
+        },
+        {
+          "path": "Audio/output/1800/chapter_07.wav",
+          "duration": 242.821958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Children’s World—Dreams, Disappointments, and Small Triumphs",
+          "actualDuration": 242.821958,
+          "startTime": 1591.2730409999997,
+          "endTime": 1834.0949989999997
+        },
+        {
+          "path": "Audio/output/1800/chapter_08.wav",
+          "duration": 245.463125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Women at the Heart—Strength, Sacrifice, and Silent Leadership",
+          "actualDuration": 245.463125,
+          "startTime": 1835.5949989999997,
+          "endTime": 2081.0581239999997
+        },
+        {
+          "path": "Audio/output/1800/chapter_09.wav",
+          "duration": 179.163125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Festivals, Rituals, and the Pulse of Joy",
+          "actualDuration": 179.163125,
+          "startTime": 2082.5581239999997,
+          "endTime": 2261.7212489999997
+        },
+        {
+          "path": "Audio/output/1800/chapter_10.wav",
+          "duration": 183.254542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Struggle—Politics, Injustice, and the Fight for Rights",
+          "actualDuration": 183.254542,
+          "startTime": 2263.2212489999997,
+          "endTime": 2446.475791
+        },
+        {
+          "path": "Audio/output/1800/chapter_11.wav",
+          "duration": 198.947792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Legacy of the City of Joy—Memory, Change, and the Ripple Effect",
+          "actualDuration": 198.947792,
+          "startTime": 2447.975791,
+          "endTime": 2646.923583
+        },
+        {
+          "path": "Audio/output/1800/conclusion.wav",
+          "duration": 134.936667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.936667,
+          "startTime": 2648.423583,
+          "endTime": 2783.3602499999997
+        }
+      ],
+      "totalDuration": 2783.3602499999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 108.66,
+          "actualStart": 0,
+          "actualEnd": 108.661042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving in a World of Contrasts and Struggle",
+          "expectedStart": 108.66,
+          "expectedEnd": 362.81,
+          "actualStart": 110.161042,
+          "actualEnd": 364.30625,
+          "timeDifference": 1.5010419999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Ties That Bind—Family, Faith, and Community",
+          "expectedStart": 362.81,
+          "expectedEnd": 613.65,
+          "actualStart": 365.80625,
+          "actualEnd": 616.6505,
+          "timeDifference": 2.996249999999975
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Daily Battle—Work, Survival, and Dignity",
+          "expectedStart": 613.65,
+          "expectedEnd": 883.76,
+          "actualStart": 618.1505,
+          "actualEnd": 888.2600829999999,
+          "timeDifference": 4.500499999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Hardship Together—Illness, Loss, and the Power of Compassion",
+          "expectedStart": 883.76,
+          "expectedEnd": 1137.86,
+          "actualStart": 889.7600829999999,
+          "actualEnd": 1143.8627499999998,
+          "timeDifference": 6.000082999999904
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Learning from the Margins—Transformation, Hope, and the Meaning of Joy",
+          "expectedStart": 1137.86,
+          "expectedEnd": 1351.08,
+          "actualStart": 1145.3627499999998,
+          "actualEnd": 1358.5873329999997,
+          "timeDifference": 7.502749999999878
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Arrival of Outsiders—Aid, Misunderstandings, and the Limits of Good Intentions",
+          "expectedStart": 1351.08,
+          "expectedEnd": 1580.77,
+          "actualStart": 1360.0873329999997,
+          "actualEnd": 1589.7730409999997,
+          "timeDifference": 9.00733299999979
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Children’s World—Dreams, Disappointments, and Small Triumphs",
+          "expectedStart": 1580.77,
+          "expectedEnd": 1823.59,
+          "actualStart": 1591.2730409999997,
+          "actualEnd": 1834.0949989999997,
+          "timeDifference": 10.503040999999712
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Women at the Heart—Strength, Sacrifice, and Silent Leadership",
+          "expectedStart": 1823.59,
+          "expectedEnd": 2069.05,
+          "actualStart": 1835.5949989999997,
+          "actualEnd": 2081.0581239999997,
+          "timeDifference": 12.00499899999977
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Festivals, Rituals, and the Pulse of Joy",
+          "expectedStart": 2069.05,
+          "expectedEnd": 2248.21,
+          "actualStart": 2082.5581239999997,
+          "actualEnd": 2261.7212489999997,
+          "timeDifference": 13.508123999999498
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Struggle—Politics, Injustice, and the Fight for Rights",
+          "expectedStart": 2248.21,
+          "expectedEnd": 2431.46,
+          "actualStart": 2263.2212489999997,
+          "actualEnd": 2446.475791,
+          "timeDifference": 15.01124899999968
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Legacy of the City of Joy—Memory, Change, and the Ripple Effect",
+          "expectedStart": 2431.46,
+          "expectedEnd": 2630.41,
+          "actualStart": 2447.975791,
+          "actualEnd": 2646.923583,
+          "timeDifference": 16.51579099999981
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2630.41,
+          "expectedEnd": 2765.35,
+          "actualStart": 2648.423583,
+          "actualEnd": 2783.3602499999997,
+          "timeDifference": 18.013582999999926
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 108.661042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving in a World of Contrasts and Struggle"
+        },
+        {
+          "startTime": 364.30625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving in a World of Contrasts and Struggle and Chapter 2 The Ties That Bind—Family, Faith, and Community"
+        },
+        {
+          "startTime": 616.6505,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Ties That Bind—Family, Faith, and Community and Chapter 3 The Daily Battle—Work, Survival, and Dignity"
+        },
+        {
+          "startTime": 888.2600829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Daily Battle—Work, Survival, and Dignity and Chapter 4 Facing Hardship Together—Illness, Loss, and the Power of Compassion"
+        },
+        {
+          "startTime": 1143.8627499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Hardship Together—Illness, Loss, and the Power of Compassion and Chapter 5 Learning from the Margins—Transformation, Hope, and the Meaning of Joy"
+        },
+        {
+          "startTime": 1358.5873329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Learning from the Margins—Transformation, Hope, and the Meaning of Joy and Chapter 6 The Arrival of Outsiders—Aid, Misunderstandings, and the Limits of Good Intentions"
+        },
+        {
+          "startTime": 1589.7730409999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Arrival of Outsiders—Aid, Misunderstandings, and the Limits of Good Intentions and Chapter 7 The Children’s World—Dreams, Disappointments, and Small Triumphs"
+        },
+        {
+          "startTime": 1834.0949989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Children’s World—Dreams, Disappointments, and Small Triumphs and Chapter 8 Women at the Heart—Strength, Sacrifice, and Silent Leadership"
+        },
+        {
+          "startTime": 2081.0581239999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Women at the Heart—Strength, Sacrifice, and Silent Leadership and Chapter 9 Festivals, Rituals, and the Pulse of Joy"
+        },
+        {
+          "startTime": 2261.7212489999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Festivals, Rituals, and the Pulse of Joy and Chapter 10 The Ongoing Struggle—Politics, Injustice, and the Fight for Rights"
+        },
+        {
+          "startTime": 2446.475791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Struggle—Politics, Injustice, and the Fight for Rights and Chapter 11 The Legacy of the City of Joy—Memory, Change, and the Ripple Effect"
+        },
+        {
+          "startTime": 2646.923583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Legacy of the City of Joy—Memory, Change, and the Ripple Effect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1800",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T16:28:46.802Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

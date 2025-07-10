@@ -1,0 +1,456 @@
+{
+  "bookId": "1743",
+  "timestamp": "2025-07-08T11:09:02.981Z",
+  "success": false,
+  "processingTime": -1751972167100,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4417,
+    "totalAudioFiles": 12,
+    "totalDuration": 2265.531419
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2265.531419
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1743/optimized_text/1743.md",
+    "fileSize": 810,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1743.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1743/metadata/1743_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2265.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1743/metadata/1743_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1743/metadata/1743_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1743/1743_complete.wav",
+    "duration": 2265.531417,
+    "fileSize": 108745586,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1743/introduction.wav",
+          "duration": 107.47725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 107.47725,
+          "startTime": 0,
+          "endTime": 107.47725
+        },
+        {
+          "path": "Audio/output/1743/chapter_01.wav",
+          "duration": 244.934792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Roots of Struggle—Identity, Injustice, and the World’s Harsh Edges",
+          "actualDuration": 244.934792,
+          "startTime": 108.97725,
+          "endTime": 353.912042
+        },
+        {
+          "path": "Audio/output/1743/chapter_02.wav",
+          "duration": 241.891417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Story—Humanizing Injustice and Building Empathy",
+          "actualDuration": 241.891417,
+          "startTime": 355.412042,
+          "endTime": 597.303459
+        },
+        {
+          "path": "Audio/output/1743/chapter_03.wav",
+          "duration": 214.232167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Humor as Survival—Coping, Critiquing, and Reclaiming Joy",
+          "actualDuration": 214.232167,
+          "startTime": 598.803459,
+          "endTime": 813.035626
+        },
+        {
+          "path": "Audio/output/1743/chapter_04.wav",
+          "duration": 242.037417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Long Road to Belonging—Family, Community, and Self-Acceptance",
+          "actualDuration": 242.037417,
+          "startTime": 814.535626,
+          "endTime": 1056.5730429999999
+        },
+        {
+          "path": "Audio/output/1743/chapter_05.wav",
+          "duration": 242.285083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Awareness and Action—Small Steps Toward a Better World",
+          "actualDuration": 242.285083,
+          "startTime": 1058.0730429999999,
+          "endTime": 1300.3581259999999
+        },
+        {
+          "path": "Audio/output/1743/chapter_06.wav",
+          "duration": 187.345667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Intersectionality—Honoring the Fullness of Identity",
+          "actualDuration": 187.345667,
+          "startTime": 1301.8581259999999,
+          "endTime": 1489.203793
+        },
+        {
+          "path": "Audio/output/1743/chapter_07.wav",
+          "duration": 170.182542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Resilience in Practice—Building Strength Through Adversity",
+          "actualDuration": 170.182542,
+          "startTime": 1490.703793,
+          "endTime": 1660.886335
+        },
+        {
+          "path": "Audio/output/1743/chapter_08.wav",
+          "duration": 154.647792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing and Growth—Moving Beyond Survival",
+          "actualDuration": 154.647792,
+          "startTime": 1662.386335,
+          "endTime": 1817.034127
+        },
+        {
+          "path": "Audio/output/1743/chapter_09.wav",
+          "duration": 144.370167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Collective Liberation—Working Together for Lasting Change",
+          "actualDuration": 144.370167,
+          "startTime": 1818.534127,
+          "endTime": 1962.904294
+        },
+        {
+          "path": "Audio/output/1743/chapter_10.wav",
+          "duration": 157.246375,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Work—Rest, Joy, and the Long View",
+          "actualDuration": 157.246375,
+          "startTime": 1964.404294,
+          "endTime": 2121.650669
+        },
+        {
+          "path": "Audio/output/1743/conclusion.wav",
+          "duration": 158.88075,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 158.88075,
+          "startTime": 2123.150669,
+          "endTime": 2282.031419
+        }
+      ],
+      "totalDuration": 2282.031419,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 107.48,
+          "actualStart": 0,
+          "actualEnd": 107.47725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Roots of Struggle—Identity, Injustice, and the World’s Harsh Edges",
+          "expectedStart": 107.48,
+          "expectedEnd": 352.41,
+          "actualStart": 108.97725,
+          "actualEnd": 353.912042,
+          "timeDifference": 1.497249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Story—Humanizing Injustice and Building Empathy",
+          "expectedStart": 352.41,
+          "expectedEnd": 594.3,
+          "actualStart": 355.412042,
+          "actualEnd": 597.303459,
+          "timeDifference": 3.0020419999999604
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Humor as Survival—Coping, Critiquing, and Reclaiming Joy",
+          "expectedStart": 594.3,
+          "expectedEnd": 808.53,
+          "actualStart": 598.803459,
+          "actualEnd": 813.035626,
+          "timeDifference": 4.503459000000021
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Long Road to Belonging—Family, Community, and Self-Acceptance",
+          "expectedStart": 808.53,
+          "expectedEnd": 1050.57,
+          "actualStart": 814.535626,
+          "actualEnd": 1056.5730429999999,
+          "timeDifference": 6.005626000000007
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Awareness and Action—Small Steps Toward a Better World",
+          "expectedStart": 1050.57,
+          "expectedEnd": 1292.86,
+          "actualStart": 1058.0730429999999,
+          "actualEnd": 1300.3581259999999,
+          "timeDifference": 7.503042999999934
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Intersectionality—Honoring the Fullness of Identity",
+          "expectedStart": 1292.86,
+          "expectedEnd": 1480.21,
+          "actualStart": 1301.8581259999999,
+          "actualEnd": 1489.203793,
+          "timeDifference": 8.998125999999957
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Resilience in Practice—Building Strength Through Adversity",
+          "expectedStart": 1480.21,
+          "expectedEnd": 1650.39,
+          "actualStart": 1490.703793,
+          "actualEnd": 1660.886335,
+          "timeDifference": 10.493792999999869
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing and Growth—Moving Beyond Survival",
+          "expectedStart": 1650.39,
+          "expectedEnd": 1805.04,
+          "actualStart": 1662.386335,
+          "actualEnd": 1817.034127,
+          "timeDifference": 11.996334999999817
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Collective Liberation—Working Together for Lasting Change",
+          "expectedStart": 1805.04,
+          "expectedEnd": 1949.41,
+          "actualStart": 1818.534127,
+          "actualEnd": 1962.904294,
+          "timeDifference": 13.494126999999935
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Work—Rest, Joy, and the Long View",
+          "expectedStart": 1949.41,
+          "expectedEnd": 2106.66,
+          "actualStart": 1964.404294,
+          "actualEnd": 2121.650669,
+          "timeDifference": 14.994293999999854
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2106.66,
+          "expectedEnd": 2265.54,
+          "actualStart": 2123.150669,
+          "actualEnd": 2282.031419,
+          "timeDifference": 16.490669000000253
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 107.47725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Roots of Struggle—Identity, Injustice, and the World’s Harsh Edges"
+        },
+        {
+          "startTime": 353.912042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Roots of Struggle—Identity, Injustice, and the World’s Harsh Edges and Chapter 2 The Power of Story—Humanizing Injustice and Building Empathy"
+        },
+        {
+          "startTime": 597.303459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Story—Humanizing Injustice and Building Empathy and Chapter 3 Humor as Survival—Coping, Critiquing, and Reclaiming Joy"
+        },
+        {
+          "startTime": 813.035626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Humor as Survival—Coping, Critiquing, and Reclaiming Joy and Chapter 4 The Long Road to Belonging—Family, Community, and Self-Acceptance"
+        },
+        {
+          "startTime": 1056.5730429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Long Road to Belonging—Family, Community, and Self-Acceptance and Chapter 5 Awareness and Action—Small Steps Toward a Better World"
+        },
+        {
+          "startTime": 1300.3581259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Awareness and Action—Small Steps Toward a Better World and Chapter 6 Navigating Intersectionality—Honoring the Fullness of Identity"
+        },
+        {
+          "startTime": 1489.203793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Intersectionality—Honoring the Fullness of Identity and Chapter 7 Resilience in Practice—Building Strength Through Adversity"
+        },
+        {
+          "startTime": 1660.886335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Resilience in Practice—Building Strength Through Adversity and Chapter 8 Healing and Growth—Moving Beyond Survival"
+        },
+        {
+          "startTime": 1817.034127,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing and Growth—Moving Beyond Survival and Chapter 9 Collective Liberation—Working Together for Lasting Change"
+        },
+        {
+          "startTime": 1962.904294,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Collective Liberation—Working Together for Lasting Change and Chapter 10 Sustaining the Work—Rest, Joy, and the Long View"
+        },
+        {
+          "startTime": 2121.650669,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Work—Rest, Joy, and the Long View and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1743",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T10:56:08.265Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

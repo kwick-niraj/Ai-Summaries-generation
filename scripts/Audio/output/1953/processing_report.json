@@ -1,0 +1,456 @@
+{
+  "bookId": "1953",
+  "timestamp": "2025-07-09T04:31:27.021Z",
+  "success": false,
+  "processingTime": -1752035132852,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 6196,
+    "totalAudioFiles": 12,
+    "totalDuration": 2377.4030829999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2377.4030829999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1953/optimized_text/1953.md",
+    "fileSize": 700,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1953.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1953/metadata/1953_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2377.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1953/metadata/1953_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1953/metadata/1953_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1953/1953_complete.wav",
+    "duration": 2377.403083,
+    "fileSize": 114115426,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1953/introduction.wav",
+          "duration": 91.868875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.868875,
+          "startTime": 0,
+          "endTime": 91.868875
+        },
+        {
+          "path": "Audio/output/1953/chapter_01.wav",
+          "duration": 281.777208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering a Different Kind of Connection",
+          "actualDuration": 281.777208,
+          "startTime": 93.368875,
+          "endTime": 375.146083
+        },
+        {
+          "path": "Audio/output/1953/chapter_02.wav",
+          "duration": 279.290375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Other Side and the Nature of the Soul",
+          "actualDuration": 279.290375,
+          "startTime": 376.646083,
+          "endTime": 655.9364579999999
+        },
+        {
+          "path": "Audio/output/1953/chapter_03.wav",
+          "duration": 248.738625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Work of a Medium: Bridging Two Worlds",
+          "actualDuration": 248.738625,
+          "startTime": 657.4364579999999,
+          "endTime": 906.1750829999999
+        },
+        {
+          "path": "Audio/output/1953/chapter_04.wav",
+          "duration": 239.028583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Signs, Symbols, and Everyday Messages from Loved Ones",
+          "actualDuration": 239.028583,
+          "startTime": 907.6750829999999,
+          "endTime": 1146.7036659999999
+        },
+        {
+          "path": "Audio/output/1953/chapter_05.wav",
+          "duration": 235.705542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Grief, Healing, and the Power of Spiritual Openness",
+          "actualDuration": 235.705542,
+          "startTime": 1148.2036659999999,
+          "endTime": 1383.9092079999998
+        },
+        {
+          "path": "Audio/output/1953/chapter_06.wav",
+          "duration": 203.7305,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Awakening Intuition: Trusting the Quiet Voice Within",
+          "actualDuration": 203.7305,
+          "startTime": 1385.4092079999998,
+          "endTime": 1589.1397079999997
+        },
+        {
+          "path": "Audio/output/1953/chapter_07.wav",
+          "duration": 175.301333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Universality of Spiritual Searching",
+          "actualDuration": 175.301333,
+          "startTime": 1590.6397079999997,
+          "endTime": 1765.9410409999996
+        },
+        {
+          "path": "Audio/output/1953/chapter_08.wav",
+          "duration": 152.116375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing and Forgiveness: Letting Go of Old Wounds",
+          "actualDuration": 152.116375,
+          "startTime": 1767.4410409999996,
+          "endTime": 1919.5574159999996
+        },
+        {
+          "path": "Audio/output/1953/chapter_09.wav",
+          "duration": 178.077667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with Spirit: Integrating the Other Side into Everyday Life",
+          "actualDuration": 178.077667,
+          "startTime": 1921.0574159999996,
+          "endTime": 2099.1350829999997
+        },
+        {
+          "path": "Audio/output/1953/chapter_10.wav",
+          "duration": 179.338542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ripple Effect: How Healing Touches Generations",
+          "actualDuration": 179.338542,
+          "startTime": 2100.6350829999997,
+          "endTime": 2279.9736249999996
+        },
+        {
+          "path": "Audio/output/1953/conclusion.wav",
+          "duration": 112.429458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.429458,
+          "startTime": 2281.4736249999996,
+          "endTime": 2393.9030829999997
+        }
+      ],
+      "totalDuration": 2393.9030829999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.87,
+          "actualStart": 0,
+          "actualEnd": 91.868875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering a Different Kind of Connection",
+          "expectedStart": 91.87,
+          "expectedEnd": 373.65,
+          "actualStart": 93.368875,
+          "actualEnd": 375.146083,
+          "timeDifference": 1.4988749999999982
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Other Side and the Nature of the Soul",
+          "expectedStart": 373.65,
+          "expectedEnd": 652.94,
+          "actualStart": 376.646083,
+          "actualEnd": 655.9364579999999,
+          "timeDifference": 2.9960829999999987
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Work of a Medium: Bridging Two Worlds",
+          "expectedStart": 652.94,
+          "expectedEnd": 901.68,
+          "actualStart": 657.4364579999999,
+          "actualEnd": 906.1750829999999,
+          "timeDifference": 4.496457999999848
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Signs, Symbols, and Everyday Messages from Loved Ones",
+          "expectedStart": 901.68,
+          "expectedEnd": 1140.71,
+          "actualStart": 907.6750829999999,
+          "actualEnd": 1146.7036659999999,
+          "timeDifference": 5.995082999999909
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Grief, Healing, and the Power of Spiritual Openness",
+          "expectedStart": 1140.71,
+          "expectedEnd": 1376.42,
+          "actualStart": 1148.2036659999999,
+          "actualEnd": 1383.9092079999998,
+          "timeDifference": 7.493665999999848
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Awakening Intuition: Trusting the Quiet Voice Within",
+          "expectedStart": 1376.42,
+          "expectedEnd": 1580.15,
+          "actualStart": 1385.4092079999998,
+          "actualEnd": 1589.1397079999997,
+          "timeDifference": 8.989207999999735
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Universality of Spiritual Searching",
+          "expectedStart": 1580.15,
+          "expectedEnd": 1755.45,
+          "actualStart": 1590.6397079999997,
+          "actualEnd": 1765.9410409999996,
+          "timeDifference": 10.48970799999961
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing and Forgiveness: Letting Go of Old Wounds",
+          "expectedStart": 1755.45,
+          "expectedEnd": 1907.57,
+          "actualStart": 1767.4410409999996,
+          "actualEnd": 1919.5574159999996,
+          "timeDifference": 11.99104099999954
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with Spirit: Integrating the Other Side into Everyday Life",
+          "expectedStart": 1907.57,
+          "expectedEnd": 2085.65,
+          "actualStart": 1921.0574159999996,
+          "actualEnd": 2099.1350829999997,
+          "timeDifference": 13.487415999999712
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ripple Effect: How Healing Touches Generations",
+          "expectedStart": 2085.65,
+          "expectedEnd": 2264.99,
+          "actualStart": 2100.6350829999997,
+          "actualEnd": 2279.9736249999996,
+          "timeDifference": 14.985082999999577
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2264.99,
+          "expectedEnd": 2377.42,
+          "actualStart": 2281.4736249999996,
+          "actualEnd": 2393.9030829999997,
+          "timeDifference": 16.483624999999847
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.868875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering a Different Kind of Connection"
+        },
+        {
+          "startTime": 375.146083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering a Different Kind of Connection and Chapter 2 Understanding the Other Side and the Nature of the Soul"
+        },
+        {
+          "startTime": 655.9364579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Other Side and the Nature of the Soul and Chapter 3 The Work of a Medium: Bridging Two Worlds"
+        },
+        {
+          "startTime": 906.1750829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Work of a Medium: Bridging Two Worlds and Chapter 4 Signs, Symbols, and Everyday Messages from Loved Ones"
+        },
+        {
+          "startTime": 1146.7036659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Signs, Symbols, and Everyday Messages from Loved Ones and Chapter 5 Grief, Healing, and the Power of Spiritual Openness"
+        },
+        {
+          "startTime": 1383.9092079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Grief, Healing, and the Power of Spiritual Openness and Chapter 6 Awakening Intuition: Trusting the Quiet Voice Within"
+        },
+        {
+          "startTime": 1589.1397079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Awakening Intuition: Trusting the Quiet Voice Within and Chapter 7 The Universality of Spiritual Searching"
+        },
+        {
+          "startTime": 1765.9410409999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Universality of Spiritual Searching and Chapter 8 Healing and Forgiveness: Letting Go of Old Wounds"
+        },
+        {
+          "startTime": 1919.5574159999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing and Forgiveness: Letting Go of Old Wounds and Chapter 9 Living with Spirit: Integrating the Other Side into Everyday Life"
+        },
+        {
+          "startTime": 2099.1350829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with Spirit: Integrating the Other Side into Everyday Life and Chapter 10 The Ripple Effect: How Healing Touches Generations"
+        },
+        {
+          "startTime": 2279.9736249999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ripple Effect: How Healing Touches Generations and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1953",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T04:25:34.143Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

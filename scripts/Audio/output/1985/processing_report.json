@@ -1,0 +1,504 @@
+{
+  "bookId": "1985",
+  "timestamp": "2025-07-09T06:45:14.294Z",
+  "success": false,
+  "processingTime": -1752043034831,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 4953,
+    "totalAudioFiles": 14,
+    "totalDuration": 2317.052542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2317.052542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1985/optimized_text/1985.md",
+    "fileSize": 945,
+    "wordCount": 139,
+    "format": "markdown",
+    "filename": "1985.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1985/metadata/1985_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2317.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1985/metadata/1985_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1985/metadata/1985_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1985/1985_complete.wav",
+    "duration": 2317.052542,
+    "fileSize": 111218600,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1985/introduction.wav",
+          "duration": 84.590375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.590375,
+          "startTime": 0,
+          "endTime": 84.590375
+        },
+        {
+          "path": "Audio/output/1985/chapter_01.wav",
+          "duration": 232.762875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Harlem’s Shadow: Early Years and Family Struggles",
+          "actualDuration": 232.762875,
+          "startTime": 86.090375,
+          "endTime": 318.85325
+        },
+        {
+          "path": "Audio/output/1985/chapter_02.wav",
+          "duration": 233.383292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Pull of the Streets: Friendship, Crime, and Early Lessons",
+          "actualDuration": 233.383292,
+          "startTime": 320.35325,
+          "endTime": 553.736542
+        },
+        {
+          "path": "Audio/output/1985/chapter_03.wav",
+          "duration": 216.205667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Cycles of Trouble: Reform Schools, Addiction, and the Search for Escape",
+          "actualDuration": 216.205667,
+          "startTime": 555.236542,
+          "endTime": 771.442209
+        },
+        {
+          "path": "Audio/output/1985/chapter_04.wav",
+          "duration": 199.23175,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Education and the Struggle for Self-Respect",
+          "actualDuration": 199.23175,
+          "startTime": 772.942209,
+          "endTime": 972.1739590000001
+        },
+        {
+          "path": "Audio/output/1985/chapter_05.wav",
+          "duration": 159.8165,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Family, Community, and the Search for Belonging",
+          "actualDuration": 159.8165,
+          "startTime": 973.6739590000001,
+          "endTime": 1133.490459
+        },
+        {
+          "path": "Audio/output/1985/chapter_06.wav",
+          "duration": 200.496542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of the World: Racism, Injustice, and the Fight for Dignity",
+          "actualDuration": 200.496542,
+          "startTime": 1134.990459,
+          "endTime": 1335.4870010000002
+        },
+        {
+          "path": "Audio/output/1985/chapter_07.wav",
+          "duration": 180.495208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Love, Loss, and the Cost of Growing Up",
+          "actualDuration": 180.495208,
+          "startTime": 1336.9870010000002,
+          "endTime": 1517.4822090000002
+        },
+        {
+          "path": "Audio/output/1985/chapter_08.wav",
+          "duration": 164.476125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Turning Point: Choices, Consequences, and the Road to Change",
+          "actualDuration": 164.476125,
+          "startTime": 1518.9822090000002,
+          "endTime": 1683.4583340000001
+        },
+        {
+          "path": "Audio/output/1985/chapter_09.wav",
+          "duration": 154.27225,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding a Voice: Art, Expression, and the Power of Story",
+          "actualDuration": 154.27225,
+          "startTime": 1684.9583340000001,
+          "endTime": 1839.2305840000001
+        },
+        {
+          "path": "Audio/output/1985/chapter_10.wav",
+          "duration": 154.27325,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Future: Work, Responsibility, and the Meaning of Success",
+          "actualDuration": 154.27325,
+          "startTime": 1840.7305840000001,
+          "endTime": 1995.003834
+        },
+        {
+          "path": "Audio/output/1985/chapter_11.wav",
+          "duration": 139.712208,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Giving Back: Mentorship, Activism, and the Cycle of Hope",
+          "actualDuration": 139.712208,
+          "startTime": 1996.503834,
+          "endTime": 2136.216042
+        },
+        {
+          "path": "Audio/output/1985/chapter_12.wav",
+          "duration": 106.729833,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Reflections: Wisdom, Resilience, and the Ongoing Journey",
+          "actualDuration": 106.729833,
+          "startTime": 2137.716042,
+          "endTime": 2244.445875
+        },
+        {
+          "path": "Audio/output/1985/conclusion.wav",
+          "duration": 90.606667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 90.606667,
+          "startTime": 2245.945875,
+          "endTime": 2336.552542
+        }
+      ],
+      "totalDuration": 2336.552542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.59,
+          "actualStart": 0,
+          "actualEnd": 84.590375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Harlem’s Shadow: Early Years and Family Struggles",
+          "expectedStart": 84.59,
+          "expectedEnd": 317.35,
+          "actualStart": 86.090375,
+          "actualEnd": 318.85325,
+          "timeDifference": 1.5003749999999911
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Pull of the Streets: Friendship, Crime, and Early Lessons",
+          "expectedStart": 317.35,
+          "expectedEnd": 550.73,
+          "actualStart": 320.35325,
+          "actualEnd": 553.736542,
+          "timeDifference": 3.00324999999998
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Cycles of Trouble: Reform Schools, Addiction, and the Search for Escape",
+          "expectedStart": 550.73,
+          "expectedEnd": 766.94,
+          "actualStart": 555.236542,
+          "actualEnd": 771.442209,
+          "timeDifference": 4.506541999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Education and the Struggle for Self-Respect",
+          "expectedStart": 766.94,
+          "expectedEnd": 966.17,
+          "actualStart": 772.942209,
+          "actualEnd": 972.1739590000001,
+          "timeDifference": 6.0022089999999935
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Family, Community, and the Search for Belonging",
+          "expectedStart": 966.17,
+          "expectedEnd": 1125.99,
+          "actualStart": 973.6739590000001,
+          "actualEnd": 1133.490459,
+          "timeDifference": 7.503959000000123
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of the World: Racism, Injustice, and the Fight for Dignity",
+          "expectedStart": 1125.99,
+          "expectedEnd": 1326.49,
+          "actualStart": 1134.990459,
+          "actualEnd": 1335.4870010000002,
+          "timeDifference": 9.000459000000092
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Love, Loss, and the Cost of Growing Up",
+          "expectedStart": 1326.49,
+          "expectedEnd": 1506.99,
+          "actualStart": 1336.9870010000002,
+          "actualEnd": 1517.4822090000002,
+          "timeDifference": 10.497001000000182
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Turning Point: Choices, Consequences, and the Road to Change",
+          "expectedStart": 1506.99,
+          "expectedEnd": 1671.47,
+          "actualStart": 1518.9822090000002,
+          "actualEnd": 1683.4583340000001,
+          "timeDifference": 11.99220900000023
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding a Voice: Art, Expression, and the Power of Story",
+          "expectedStart": 1671.47,
+          "expectedEnd": 1825.74,
+          "actualStart": 1684.9583340000001,
+          "actualEnd": 1839.2305840000001,
+          "timeDifference": 13.488334000000123
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Future: Work, Responsibility, and the Meaning of Success",
+          "expectedStart": 1825.74,
+          "expectedEnd": 1980.01,
+          "actualStart": 1840.7305840000001,
+          "actualEnd": 1995.003834,
+          "timeDifference": 14.990584000000126
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Giving Back: Mentorship, Activism, and the Cycle of Hope",
+          "expectedStart": 1980.01,
+          "expectedEnd": 2119.72,
+          "actualStart": 1996.503834,
+          "actualEnd": 2136.216042,
+          "timeDifference": 16.493834000000106
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Reflections: Wisdom, Resilience, and the Ongoing Journey",
+          "expectedStart": 2119.72,
+          "expectedEnd": 2226.45,
+          "actualStart": 2137.716042,
+          "actualEnd": 2244.445875,
+          "timeDifference": 17.996042000000216
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2226.45,
+          "expectedEnd": 2317.06,
+          "actualStart": 2245.945875,
+          "actualEnd": 2336.552542,
+          "timeDifference": 19.49587500000007
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.590375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Harlem’s Shadow: Early Years and Family Struggles"
+        },
+        {
+          "startTime": 318.85325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Harlem’s Shadow: Early Years and Family Struggles and Chapter 2 The Pull of the Streets: Friendship, Crime, and Early Lessons"
+        },
+        {
+          "startTime": 553.736542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Pull of the Streets: Friendship, Crime, and Early Lessons and Chapter 3 Cycles of Trouble: Reform Schools, Addiction, and the Search for Escape"
+        },
+        {
+          "startTime": 771.442209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Cycles of Trouble: Reform Schools, Addiction, and the Search for Escape and Chapter 4 The Power of Education and the Struggle for Self-Respect"
+        },
+        {
+          "startTime": 972.1739590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Education and the Struggle for Self-Respect and Chapter 5 Family, Community, and the Search for Belonging"
+        },
+        {
+          "startTime": 1133.490459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Family, Community, and the Search for Belonging and Chapter 6 The Weight of the World: Racism, Injustice, and the Fight for Dignity"
+        },
+        {
+          "startTime": 1335.4870010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of the World: Racism, Injustice, and the Fight for Dignity and Chapter 7 Love, Loss, and the Cost of Growing Up"
+        },
+        {
+          "startTime": 1517.4822090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Love, Loss, and the Cost of Growing Up and Chapter 8 The Turning Point: Choices, Consequences, and the Road to Change"
+        },
+        {
+          "startTime": 1683.4583340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Turning Point: Choices, Consequences, and the Road to Change and Chapter 9 Finding a Voice: Art, Expression, and the Power of Story"
+        },
+        {
+          "startTime": 1839.2305840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding a Voice: Art, Expression, and the Power of Story and Chapter 10 Building a Future: Work, Responsibility, and the Meaning of Success"
+        },
+        {
+          "startTime": 1995.003834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Future: Work, Responsibility, and the Meaning of Success and Chapter 11 Giving Back: Mentorship, Activism, and the Cycle of Hope"
+        },
+        {
+          "startTime": 2136.216042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Giving Back: Mentorship, Activism, and the Cycle of Hope and Chapter 12 Reflections: Wisdom, Resilience, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2244.445875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Reflections: Wisdom, Resilience, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1985",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T06:37:15.350Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

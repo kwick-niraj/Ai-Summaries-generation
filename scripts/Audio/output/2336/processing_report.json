@@ -1,0 +1,456 @@
+{
+  "bookId": "2336",
+  "timestamp": "2025-07-10T12:59:34.078Z",
+  "success": false,
+  "processingTime": -1752152088983,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4568,
+    "totalAudioFiles": 12,
+    "totalDuration": 2154.030334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2154.030334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2336/optimized_text/2336.md",
+    "fileSize": 746,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2336.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2336/metadata/2336_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2154.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2336/metadata/2336_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2336/metadata/2336_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2336/2336_complete.wav",
+    "duration": 2154.030333,
+    "fileSize": 103393534,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2336/introduction.wav",
+          "duration": 97.154042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.154042,
+          "startTime": 0,
+          "endTime": 97.154042
+        },
+        {
+          "path": "Audio/output/2336/chapter_01.wav",
+          "duration": 213.064625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The World Hears of Gold and Dreams Take Flight",
+          "actualDuration": 213.064625,
+          "startTime": 98.654042,
+          "endTime": 311.718667
+        },
+        {
+          "path": "Audio/output/2336/chapter_02.wav",
+          "duration": 254.9445,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Harsh Journey North and the Test of Endurance",
+          "actualDuration": 254.9445,
+          "startTime": 313.218667,
+          "endTime": 568.1631669999999
+        },
+        {
+          "path": "Audio/output/2336/chapter_03.wav",
+          "duration": 219.612167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Life in Dawson City and the Chaos of Boomtowns",
+          "actualDuration": 219.612167,
+          "startTime": 569.6631669999999,
+          "endTime": 789.2753339999999
+        },
+        {
+          "path": "Audio/output/2336/chapter_04.wav",
+          "duration": 194.04975,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Realities of Gold Fever and the Power of Myth",
+          "actualDuration": 194.04975,
+          "startTime": 790.7753339999999,
+          "endTime": 984.825084
+        },
+        {
+          "path": "Audio/output/2336/chapter_05.wav",
+          "duration": 175.967708,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Aftermath and the Lasting Impact on the North",
+          "actualDuration": 175.967708,
+          "startTime": 986.325084,
+          "endTime": 1162.292792
+        },
+        {
+          "path": "Audio/output/2336/chapter_06.wav",
+          "duration": 208.889708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Social Mosaic—Newcomers, Outsiders, and the Shifting Tides of Community",
+          "actualDuration": 208.889708,
+          "startTime": 1163.792792,
+          "endTime": 1372.6825
+        },
+        {
+          "path": "Audio/output/2336/chapter_07.wav",
+          "duration": 187.436958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Land Remembers—Nature’s Response to the Gold Rush",
+          "actualDuration": 187.436958,
+          "startTime": 1374.1825,
+          "endTime": 1561.619458
+        },
+        {
+          "path": "Audio/output/2336/chapter_08.wav",
+          "duration": 170.135417,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legends, Lessons, and the Stories We Tell",
+          "actualDuration": 170.135417,
+          "startTime": 1563.119458,
+          "endTime": 1733.2548749999999
+        },
+        {
+          "path": "Audio/output/2336/chapter_09.wav",
+          "duration": 162.470375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Echoes of Change—Cultural Shifts and Enduring Influence",
+          "actualDuration": 162.470375,
+          "startTime": 1734.7548749999999,
+          "endTime": 1897.22525
+        },
+        {
+          "path": "Audio/output/2336/chapter_10.wav",
+          "duration": 166.007917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Klondike’s Enduring Lessons—Hope, Risk, and the Human Spirit",
+          "actualDuration": 166.007917,
+          "startTime": 1898.72525,
+          "endTime": 2064.733167
+        },
+        {
+          "path": "Audio/output/2336/conclusion.wav",
+          "duration": 104.297167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 104.297167,
+          "startTime": 2066.233167,
+          "endTime": 2170.530334
+        }
+      ],
+      "totalDuration": 2170.530334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.15,
+          "actualStart": 0,
+          "actualEnd": 97.154042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The World Hears of Gold and Dreams Take Flight",
+          "expectedStart": 97.15,
+          "expectedEnd": 310.21,
+          "actualStart": 98.654042,
+          "actualEnd": 311.718667,
+          "timeDifference": 1.5040419999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Harsh Journey North and the Test of Endurance",
+          "expectedStart": 310.21,
+          "expectedEnd": 565.15,
+          "actualStart": 313.218667,
+          "actualEnd": 568.1631669999999,
+          "timeDifference": 3.0086670000000026
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Life in Dawson City and the Chaos of Boomtowns",
+          "expectedStart": 565.15,
+          "expectedEnd": 784.76,
+          "actualStart": 569.6631669999999,
+          "actualEnd": 789.2753339999999,
+          "timeDifference": 4.513166999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Realities of Gold Fever and the Power of Myth",
+          "expectedStart": 784.76,
+          "expectedEnd": 978.81,
+          "actualStart": 790.7753339999999,
+          "actualEnd": 984.825084,
+          "timeDifference": 6.015333999999939
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Aftermath and the Lasting Impact on the North",
+          "expectedStart": 978.81,
+          "expectedEnd": 1154.78,
+          "actualStart": 986.325084,
+          "actualEnd": 1162.292792,
+          "timeDifference": 7.515084000000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Social Mosaic—Newcomers, Outsiders, and the Shifting Tides of Community",
+          "expectedStart": 1154.78,
+          "expectedEnd": 1363.67,
+          "actualStart": 1163.792792,
+          "actualEnd": 1372.6825,
+          "timeDifference": 9.01279199999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Land Remembers—Nature’s Response to the Gold Rush",
+          "expectedStart": 1363.67,
+          "expectedEnd": 1551.11,
+          "actualStart": 1374.1825,
+          "actualEnd": 1561.619458,
+          "timeDifference": 10.512499999999818
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legends, Lessons, and the Stories We Tell",
+          "expectedStart": 1551.11,
+          "expectedEnd": 1721.25,
+          "actualStart": 1563.119458,
+          "actualEnd": 1733.2548749999999,
+          "timeDifference": 12.009457999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Echoes of Change—Cultural Shifts and Enduring Influence",
+          "expectedStart": 1721.25,
+          "expectedEnd": 1883.72,
+          "actualStart": 1734.7548749999999,
+          "actualEnd": 1897.22525,
+          "timeDifference": 13.504874999999856
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Klondike’s Enduring Lessons—Hope, Risk, and the Human Spirit",
+          "expectedStart": 1883.72,
+          "expectedEnd": 2049.73,
+          "actualStart": 1898.72525,
+          "actualEnd": 2064.733167,
+          "timeDifference": 15.005249999999933
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2049.73,
+          "expectedEnd": 2154.03,
+          "actualStart": 2066.233167,
+          "actualEnd": 2170.530334,
+          "timeDifference": 16.50316699999985
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.154042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The World Hears of Gold and Dreams Take Flight"
+        },
+        {
+          "startTime": 311.718667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The World Hears of Gold and Dreams Take Flight and Chapter 2 The Harsh Journey North and the Test of Endurance"
+        },
+        {
+          "startTime": 568.1631669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Harsh Journey North and the Test of Endurance and Chapter 3 Life in Dawson City and the Chaos of Boomtowns"
+        },
+        {
+          "startTime": 789.2753339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Life in Dawson City and the Chaos of Boomtowns and Chapter 4 The Realities of Gold Fever and the Power of Myth"
+        },
+        {
+          "startTime": 984.825084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Realities of Gold Fever and the Power of Myth and Chapter 5 The Aftermath and the Lasting Impact on the North"
+        },
+        {
+          "startTime": 1162.292792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Aftermath and the Lasting Impact on the North and Chapter 6 The Social Mosaic—Newcomers, Outsiders, and the Shifting Tides of Community"
+        },
+        {
+          "startTime": 1372.6825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Social Mosaic—Newcomers, Outsiders, and the Shifting Tides of Community and Chapter 7 The Land Remembers—Nature’s Response to the Gold Rush"
+        },
+        {
+          "startTime": 1561.619458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Land Remembers—Nature’s Response to the Gold Rush and Chapter 8 Legends, Lessons, and the Stories We Tell"
+        },
+        {
+          "startTime": 1733.2548749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legends, Lessons, and the Stories We Tell and Chapter 9 The Echoes of Change—Cultural Shifts and Enduring Influence"
+        },
+        {
+          "startTime": 1897.22525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Echoes of Change—Cultural Shifts and Enduring Influence and Chapter 10 The Klondike’s Enduring Lessons—Hope, Risk, and the Human Spirit"
+        },
+        {
+          "startTime": 2064.733167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Klondike’s Enduring Lessons—Hope, Risk, and the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2336",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:54:49.540Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

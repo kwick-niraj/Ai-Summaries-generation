@@ -1,0 +1,456 @@
+{
+  "bookId": "2329",
+  "timestamp": "2025-07-10T12:34:25.985Z",
+  "success": false,
+  "processingTime": -1752150610222,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4351,
+    "totalAudioFiles": 12,
+    "totalDuration": 2059.267207
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2059.267207
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2329/optimized_text/2329.md",
+    "fileSize": 493,
+    "wordCount": 68,
+    "format": "markdown",
+    "filename": "2329.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2329/metadata/2329_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2059.27,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2329/metadata/2329_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2329/metadata/2329_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2329/2329_complete.wav",
+    "duration": 2059.267208,
+    "fileSize": 98844904,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2329/introduction.wav",
+          "duration": 86.045333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.045333,
+          "startTime": 0,
+          "endTime": 86.045333
+        },
+        {
+          "path": "Audio/output/2329/chapter_01.wav",
+          "duration": 252.833875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Town Transformed by New Arrivals",
+          "actualDuration": 252.833875,
+          "startTime": 87.545333,
+          "endTime": 340.379208
+        },
+        {
+          "path": "Audio/output/2329/chapter_02.wav",
+          "duration": 243.6805,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Team from Many Worlds",
+          "actualDuration": 243.6805,
+          "startTime": 341.879208,
+          "endTime": 585.559708
+        },
+        {
+          "path": "Audio/output/2329/chapter_03.wav",
+          "duration": 219.933292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Prejudice and Finding Belonging",
+          "actualDuration": 219.933292,
+          "startTime": 587.059708,
+          "endTime": 806.9929999999999
+        },
+        {
+          "path": "Audio/output/2329/chapter_04.wav",
+          "duration": 183.272708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Leadership and Mentorship",
+          "actualDuration": 183.272708,
+          "startTime": 808.4929999999999,
+          "endTime": 991.7657079999999
+        },
+        {
+          "path": "Audio/output/2329/chapter_05.wav",
+          "duration": 196.9165,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Community Change and the Search for Identity",
+          "actualDuration": 196.9165,
+          "startTime": 993.2657079999999,
+          "endTime": 1190.182208
+        },
+        {
+          "path": "Audio/output/2329/chapter_06.wav",
+          "duration": 178.640958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Expectations",
+          "actualDuration": 178.640958,
+          "startTime": 1191.682208,
+          "endTime": 1370.323166
+        },
+        {
+          "path": "Audio/output/2329/chapter_07.wav",
+          "duration": 161.189167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle for Stability",
+          "actualDuration": 161.189167,
+          "startTime": 1371.823166,
+          "endTime": 1533.012333
+        },
+        {
+          "path": "Audio/output/2329/chapter_08.wav",
+          "duration": 143.170833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Moments of Triumph",
+          "actualDuration": 143.170833,
+          "startTime": 1534.512333,
+          "endTime": 1677.6831659999998
+        },
+        {
+          "path": "Audio/output/2329/chapter_09.wav",
+          "duration": 146.097208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Bridging Divides",
+          "actualDuration": 146.097208,
+          "startTime": 1679.1831659999998,
+          "endTime": 1825.2803739999997
+        },
+        {
+          "path": "Audio/output/2329/chapter_10.wav",
+          "duration": 131.615458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Lasting Impact",
+          "actualDuration": 131.615458,
+          "startTime": 1826.7803739999997,
+          "endTime": 1958.3958319999997
+        },
+        {
+          "path": "Audio/output/2329/conclusion.wav",
+          "duration": 115.871375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.871375,
+          "startTime": 1959.8958319999997,
+          "endTime": 2075.767207
+        }
+      ],
+      "totalDuration": 2075.767207,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.05,
+          "actualStart": 0,
+          "actualEnd": 86.045333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Town Transformed by New Arrivals",
+          "expectedStart": 86.05,
+          "expectedEnd": 338.88,
+          "actualStart": 87.545333,
+          "actualEnd": 340.379208,
+          "timeDifference": 1.4953330000000022
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Team from Many Worlds",
+          "expectedStart": 338.88,
+          "expectedEnd": 582.56,
+          "actualStart": 341.879208,
+          "actualEnd": 585.559708,
+          "timeDifference": 2.99920800000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Prejudice and Finding Belonging",
+          "expectedStart": 582.56,
+          "expectedEnd": 802.49,
+          "actualStart": 587.059708,
+          "actualEnd": 806.9929999999999,
+          "timeDifference": 4.499708000000055
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Leadership and Mentorship",
+          "expectedStart": 802.49,
+          "expectedEnd": 985.76,
+          "actualStart": 808.4929999999999,
+          "actualEnd": 991.7657079999999,
+          "timeDifference": 6.002999999999929
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Community Change and the Search for Identity",
+          "expectedStart": 985.76,
+          "expectedEnd": 1182.68,
+          "actualStart": 993.2657079999999,
+          "actualEnd": 1190.182208,
+          "timeDifference": 7.505707999999913
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Expectations",
+          "expectedStart": 1182.68,
+          "expectedEnd": 1361.32,
+          "actualStart": 1191.682208,
+          "actualEnd": 1370.323166,
+          "timeDifference": 9.002207999999882
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle for Stability",
+          "expectedStart": 1361.32,
+          "expectedEnd": 1522.51,
+          "actualStart": 1371.823166,
+          "actualEnd": 1533.012333,
+          "timeDifference": 10.503165999999965
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Moments of Triumph",
+          "expectedStart": 1522.51,
+          "expectedEnd": 1665.68,
+          "actualStart": 1534.512333,
+          "actualEnd": 1677.6831659999998,
+          "timeDifference": 12.002332999999908
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Bridging Divides",
+          "expectedStart": 1665.68,
+          "expectedEnd": 1811.78,
+          "actualStart": 1679.1831659999998,
+          "actualEnd": 1825.2803739999997,
+          "timeDifference": 13.503165999999737
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Lasting Impact",
+          "expectedStart": 1811.78,
+          "expectedEnd": 1943.4,
+          "actualStart": 1826.7803739999997,
+          "actualEnd": 1958.3958319999997,
+          "timeDifference": 15.000373999999738
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1943.4,
+          "expectedEnd": 2059.27,
+          "actualStart": 1959.8958319999997,
+          "actualEnd": 2075.767207,
+          "timeDifference": 16.49583199999961
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.045333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Town Transformed by New Arrivals"
+        },
+        {
+          "startTime": 340.379208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Town Transformed by New Arrivals and Chapter 2 Building a Team from Many Worlds"
+        },
+        {
+          "startTime": 585.559708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Team from Many Worlds and Chapter 3 Facing Prejudice and Finding Belonging"
+        },
+        {
+          "startTime": 806.9929999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Prejudice and Finding Belonging and Chapter 4 The Power of Leadership and Mentorship"
+        },
+        {
+          "startTime": 991.7657079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Leadership and Mentorship and Chapter 5 Community Change and the Search for Identity"
+        },
+        {
+          "startTime": 1190.182208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Community Change and the Search for Identity and Chapter 6 The Weight of Expectations"
+        },
+        {
+          "startTime": 1370.323166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Expectations and Chapter 7 The Struggle for Stability"
+        },
+        {
+          "startTime": 1533.012333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle for Stability and Chapter 8 Moments of Triumph"
+        },
+        {
+          "startTime": 1677.6831659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Moments of Triumph and Chapter 9 Bridging Divides"
+        },
+        {
+          "startTime": 1825.2803739999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Bridging Divides and Chapter 10 The Lasting Impact"
+        },
+        {
+          "startTime": 1958.3958319999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Lasting Impact and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2329",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:30:10.701Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

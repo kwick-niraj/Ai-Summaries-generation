@@ -1,0 +1,455 @@
+{
+  "bookId": "1862",
+  "timestamp": "2025-07-08T21:02:53.406Z",
+  "success": false,
+  "processingTime": -1752008315978,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4686,
+    "totalAudioFiles": 12,
+    "totalDuration": 1901.7248750000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1901.7248750000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1862/optimized_text/1862.md",
+    "fileSize": 677,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1862.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1862/metadata/1862_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1901.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1862/metadata/1862_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1862/metadata/1862_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1862/1862_complete.wav",
+    "duration": 1901.724875,
+    "fileSize": 91282872,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1862/introduction.wav",
+          "duration": 86.132458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.132458,
+          "startTime": 0,
+          "endTime": 86.132458
+        },
+        {
+          "path": "Audio/output/1862/chapter_01.wav",
+          "duration": 221.242625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Demands a New Direction",
+          "actualDuration": 221.242625,
+          "startTime": 87.632458,
+          "endTime": 308.875083
+        },
+        {
+          "path": "Audio/output/1862/chapter_02.wav",
+          "duration": 224.229042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Stepping Into the Unknown: The Power of Saying Yes",
+          "actualDuration": 224.229042,
+          "startTime": 310.375083,
+          "endTime": 534.6041250000001
+        },
+        {
+          "path": "Audio/output/1862/chapter_03.wav",
+          "duration": 180.672667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning to Let Go: Shedding Old Stories and Embracing Change",
+          "actualDuration": 180.672667,
+          "startTime": 536.1041250000001,
+          "endTime": 716.7767920000001
+        },
+        {
+          "path": "Audio/output/1862/chapter_04.wav",
+          "duration": 189.553125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Finding Connection Across Cultures and Continents",
+          "actualDuration": 189.553125,
+          "startTime": 718.2767920000001,
+          "endTime": 907.8299170000001
+        },
+        {
+          "path": "Audio/output/1862/chapter_05.wav",
+          "duration": 143.57725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Uncertainty and Building a New Life",
+          "actualDuration": 143.57725,
+          "startTime": 909.3299170000001,
+          "endTime": 1052.907167
+        },
+        {
+          "path": "Audio/output/1862/chapter_06.wav",
+          "duration": 182.030333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Challenge of Returning: Integrating the Journey Into Everyday Life",
+          "actualDuration": 182.030333,
+          "startTime": 1054.407167,
+          "endTime": 1236.4375
+        },
+        {
+          "path": "Audio/output/1862/chapter_07.wav",
+          "duration": 143.1545,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Setbacks and Finding Resilience",
+          "actualDuration": 143.1545,
+          "startTime": 1237.9375,
+          "endTime": 1381.092
+        },
+        {
+          "path": "Audio/output/1862/chapter_08.wav",
+          "duration": 142.988125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Wisdom of Slowing Down",
+          "actualDuration": 142.988125,
+          "startTime": 1382.592,
+          "endTime": 1525.5801250000002
+        },
+        {
+          "path": "Audio/output/1862/chapter_09.wav",
+          "duration": 136.454292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sharing the Journey: Inspiring Others to Change",
+          "actualDuration": 136.454292,
+          "startTime": 1527.0801250000002,
+          "endTime": 1663.5344170000003
+        },
+        {
+          "path": "Audio/output/1862/chapter_10.wav",
+          "duration": 128.458875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Adventure: Living With Openness and Courage",
+          "actualDuration": 128.458875,
+          "startTime": 1665.0344170000003,
+          "endTime": 1793.4932920000003
+        },
+        {
+          "path": "Audio/output/1862/conclusion.wav",
+          "duration": 123.231583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.231583,
+          "startTime": 1794.9932920000003,
+          "endTime": 1918.2248750000003
+        }
+      ],
+      "totalDuration": 1918.2248750000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.13,
+          "actualStart": 0,
+          "actualEnd": 86.132458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Demands a New Direction",
+          "expectedStart": 86.13,
+          "expectedEnd": 307.37,
+          "actualStart": 87.632458,
+          "actualEnd": 308.875083,
+          "timeDifference": 1.5024580000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Stepping Into the Unknown: The Power of Saying Yes",
+          "expectedStart": 307.37,
+          "expectedEnd": 531.6,
+          "actualStart": 310.375083,
+          "actualEnd": 534.6041250000001,
+          "timeDifference": 3.0050830000000133
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning to Let Go: Shedding Old Stories and Embracing Change",
+          "expectedStart": 531.6,
+          "expectedEnd": 712.27,
+          "actualStart": 536.1041250000001,
+          "actualEnd": 716.7767920000001,
+          "timeDifference": 4.504125000000045
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Finding Connection Across Cultures and Continents",
+          "expectedStart": 712.27,
+          "expectedEnd": 901.82,
+          "actualStart": 718.2767920000001,
+          "actualEnd": 907.8299170000001,
+          "timeDifference": 6.006792000000132
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Uncertainty and Building a New Life",
+          "expectedStart": 901.82,
+          "expectedEnd": 1045.4,
+          "actualStart": 909.3299170000001,
+          "actualEnd": 1052.907167,
+          "timeDifference": 7.509917000000087
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Challenge of Returning: Integrating the Journey Into Everyday Life",
+          "expectedStart": 1045.4,
+          "expectedEnd": 1227.43,
+          "actualStart": 1054.407167,
+          "actualEnd": 1236.4375,
+          "timeDifference": 9.007166999999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Setbacks and Finding Resilience",
+          "expectedStart": 1227.43,
+          "expectedEnd": 1370.58,
+          "actualStart": 1237.9375,
+          "actualEnd": 1381.092,
+          "timeDifference": 10.507499999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Wisdom of Slowing Down",
+          "expectedStart": 1370.58,
+          "expectedEnd": 1513.57,
+          "actualStart": 1382.592,
+          "actualEnd": 1525.5801250000002,
+          "timeDifference": 12.012000000000171
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sharing the Journey: Inspiring Others to Change",
+          "expectedStart": 1513.57,
+          "expectedEnd": 1650.02,
+          "actualStart": 1527.0801250000002,
+          "actualEnd": 1663.5344170000003,
+          "timeDifference": 13.510125000000244
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Adventure: Living With Openness and Courage",
+          "expectedStart": 1650.02,
+          "expectedEnd": 1778.48,
+          "actualStart": 1665.0344170000003,
+          "actualEnd": 1793.4932920000003,
+          "timeDifference": 15.014417000000321
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1778.48,
+          "expectedEnd": 1901.71,
+          "actualStart": 1794.9932920000003,
+          "actualEnd": 1918.2248750000003,
+          "timeDifference": 16.51329200000032
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.132458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Demands a New Direction"
+        },
+        {
+          "startTime": 308.875083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Demands a New Direction and Chapter 2 Stepping Into the Unknown: The Power of Saying Yes"
+        },
+        {
+          "startTime": 534.6041250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Stepping Into the Unknown: The Power of Saying Yes and Chapter 3 Learning to Let Go: Shedding Old Stories and Embracing Change"
+        },
+        {
+          "startTime": 716.7767920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning to Let Go: Shedding Old Stories and Embracing Change and Chapter 4 Finding Connection Across Cultures and Continents"
+        },
+        {
+          "startTime": 907.8299170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Finding Connection Across Cultures and Continents and Chapter 5 Embracing Uncertainty and Building a New Life"
+        },
+        {
+          "startTime": 1052.907167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Uncertainty and Building a New Life and Chapter 6 The Challenge of Returning: Integrating the Journey Into Everyday Life"
+        },
+        {
+          "startTime": 1236.4375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Challenge of Returning: Integrating the Journey Into Everyday Life and Chapter 7 Facing Setbacks and Finding Resilience"
+        },
+        {
+          "startTime": 1381.092,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Setbacks and Finding Resilience and Chapter 8 The Wisdom of Slowing Down"
+        },
+        {
+          "startTime": 1525.5801250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Wisdom of Slowing Down and Chapter 9 Sharing the Journey: Inspiring Others to Change"
+        },
+        {
+          "startTime": 1663.5344170000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sharing the Journey: Inspiring Others to Change and Chapter 10 The Ongoing Adventure: Living With Openness and Courage"
+        },
+        {
+          "startTime": 1793.4932920000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Adventure: Living With Openness and Courage and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1862",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T20:58:37.161Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

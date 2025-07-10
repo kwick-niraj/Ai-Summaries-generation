@@ -1,0 +1,433 @@
+{
+  "bookId": "2224",
+  "timestamp": "2025-07-10T01:38:29.206Z",
+  "success": false,
+  "processingTime": -1752111116249,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3964,
+    "totalAudioFiles": 12,
+    "totalDuration": 1751.4042490000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1751.4042490000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2224/optimized_text/2224.md",
+    "fileSize": 721,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "2224.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2224/metadata/2224_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1751.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2224/metadata/2224_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2224/metadata/2224_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2224/2224_complete.wav",
+    "duration": 1751.40425,
+    "fileSize": 84067482,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2224/chapter_01.wav",
+          "duration": 169.868333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Tensions Rise: The World Before Pearl Harbor",
+          "actualDuration": 169.868333,
+          "startTime": 0,
+          "endTime": 169.868333
+        },
+        {
+          "path": "Audio/output/2224/chapter_02.wav",
+          "duration": 158.716708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Collapse of Diplomacy and the Road to War",
+          "actualDuration": 158.716708,
+          "startTime": 171.368333,
+          "endTime": 330.08504100000005
+        },
+        {
+          "path": "Audio/output/2224/chapter_03.wav",
+          "duration": 180.158375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Pearl Harbor: Shock, Confusion, and the Limits of Preparation",
+          "actualDuration": 180.158375,
+          "startTime": 331.58504100000005,
+          "endTime": 511.743416
+        },
+        {
+          "path": "Audio/output/2224/chapter_04.wav",
+          "duration": 168.17575,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Leadership Under Fire: Decisions That Shaped the Early War",
+          "actualDuration": 168.17575,
+          "startTime": 513.243416,
+          "endTime": 681.419166
+        },
+        {
+          "path": "Audio/output/2224/chapter_05.wav",
+          "duration": 174.170875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intelligence, Miscommunication, and the Battle for Advantage",
+          "actualDuration": 174.170875,
+          "startTime": 682.919166,
+          "endTime": 857.090041
+        },
+        {
+          "path": "Audio/output/2224/chapter_06.wav",
+          "duration": 198.436292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Tide Turns: Midway and the Power of Uncertainty",
+          "actualDuration": 198.436292,
+          "startTime": 858.590041,
+          "endTime": 1057.026333
+        },
+        {
+          "path": "Audio/output/2224/chapter_07.wav",
+          "duration": 161.758833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Islands of Fire: The Human Cost of Strategy",
+          "actualDuration": 161.758833,
+          "startTime": 1058.526333,
+          "endTime": 1220.2851660000001
+        },
+        {
+          "path": "Audio/output/2224/chapter_08.wav",
+          "duration": 154.532208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Shifting Alliances and the Diplomacy of War",
+          "actualDuration": 154.532208,
+          "startTime": 1221.7851660000001,
+          "endTime": 1376.3173740000002
+        },
+        {
+          "path": "Audio/output/2224/chapter_09.wav",
+          "duration": 148.710375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Push: Sacrifice, Doubt, and the Endgame",
+          "actualDuration": 148.710375,
+          "startTime": 1377.8173740000002,
+          "endTime": 1526.5277490000003
+        },
+        {
+          "path": "Audio/output/2224/chapter_10.wav",
+          "duration": 122.641208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lessons Remembered: Leadership, Misjudgment, and the Human Heart",
+          "actualDuration": 122.641208,
+          "startTime": 1528.0277490000003,
+          "endTime": 1650.6689570000003
+        },
+        {
+          "path": "Audio/output/2224/conclusion.wav",
+          "duration": 114.235292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.235292,
+          "startTime": 1652.1689570000003,
+          "endTime": 1766.4042490000004
+        }
+      ],
+      "totalDuration": 1766.4042490000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Tensions Rise: The World Before Pearl Harbor",
+          "expectedStart": 0,
+          "expectedEnd": 169.87,
+          "actualStart": 0,
+          "actualEnd": 169.868333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Collapse of Diplomacy and the Road to War",
+          "expectedStart": 169.87,
+          "expectedEnd": 328.59,
+          "actualStart": 171.368333,
+          "actualEnd": 330.08504100000005,
+          "timeDifference": 1.4983330000000024
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Pearl Harbor: Shock, Confusion, and the Limits of Preparation",
+          "expectedStart": 328.59,
+          "expectedEnd": 508.75,
+          "actualStart": 331.58504100000005,
+          "actualEnd": 511.743416,
+          "timeDifference": 2.9950410000000716
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Leadership Under Fire: Decisions That Shaped the Early War",
+          "expectedStart": 508.75,
+          "expectedEnd": 676.93,
+          "actualStart": 513.243416,
+          "actualEnd": 681.419166,
+          "timeDifference": 4.493416000000025
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intelligence, Miscommunication, and the Battle for Advantage",
+          "expectedStart": 676.93,
+          "expectedEnd": 851.1,
+          "actualStart": 682.919166,
+          "actualEnd": 857.090041,
+          "timeDifference": 5.989166000000068
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Tide Turns: Midway and the Power of Uncertainty",
+          "expectedStart": 851.1,
+          "expectedEnd": 1049.54,
+          "actualStart": 858.590041,
+          "actualEnd": 1057.026333,
+          "timeDifference": 7.490041000000019
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Islands of Fire: The Human Cost of Strategy",
+          "expectedStart": 1049.54,
+          "expectedEnd": 1211.3,
+          "actualStart": 1058.526333,
+          "actualEnd": 1220.2851660000001,
+          "timeDifference": 8.986333000000059
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Shifting Alliances and the Diplomacy of War",
+          "expectedStart": 1211.3,
+          "expectedEnd": 1365.83,
+          "actualStart": 1221.7851660000001,
+          "actualEnd": 1376.3173740000002,
+          "timeDifference": 10.485166000000163
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Push: Sacrifice, Doubt, and the Endgame",
+          "expectedStart": 1365.83,
+          "expectedEnd": 1514.54,
+          "actualStart": 1377.8173740000002,
+          "actualEnd": 1526.5277490000003,
+          "timeDifference": 11.987374000000273
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lessons Remembered: Leadership, Misjudgment, and the Human Heart",
+          "expectedStart": 1514.54,
+          "expectedEnd": 1637.18,
+          "actualStart": 1528.0277490000003,
+          "actualEnd": 1650.6689570000003,
+          "timeDifference": 13.487749000000349
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1637.18,
+          "expectedEnd": 1751.42,
+          "actualStart": 1652.1689570000003,
+          "actualEnd": 1766.4042490000004,
+          "timeDifference": 14.988957000000255
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 169.868333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Tensions Rise: The World Before Pearl Harbor and Chapter 2 The Collapse of Diplomacy and the Road to War"
+        },
+        {
+          "startTime": 330.08504100000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Collapse of Diplomacy and the Road to War and Chapter 3 Pearl Harbor: Shock, Confusion, and the Limits of Preparation"
+        },
+        {
+          "startTime": 511.743416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Pearl Harbor: Shock, Confusion, and the Limits of Preparation and Chapter 4 Leadership Under Fire: Decisions That Shaped the Early War"
+        },
+        {
+          "startTime": 681.419166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Leadership Under Fire: Decisions That Shaped the Early War and Chapter 5 Intelligence, Miscommunication, and the Battle for Advantage"
+        },
+        {
+          "startTime": 857.090041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intelligence, Miscommunication, and the Battle for Advantage and Chapter 6 The Tide Turns: Midway and the Power of Uncertainty"
+        },
+        {
+          "startTime": 1057.026333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Tide Turns: Midway and the Power of Uncertainty and Chapter 7 Islands of Fire: The Human Cost of Strategy"
+        },
+        {
+          "startTime": 1220.2851660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Islands of Fire: The Human Cost of Strategy and Chapter 8 Shifting Alliances and the Diplomacy of War"
+        },
+        {
+          "startTime": 1376.3173740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Shifting Alliances and the Diplomacy of War and Chapter 9 The Final Push: Sacrifice, Doubt, and the Endgame"
+        },
+        {
+          "startTime": 1526.5277490000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Push: Sacrifice, Doubt, and the Endgame and Chapter 10 Lessons Remembered: Leadership, Misjudgment, and the Human Heart"
+        },
+        {
+          "startTime": 1650.6689570000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lessons Remembered: Leadership, Misjudgment, and the Human Heart and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2224",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T01:31:57.834Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

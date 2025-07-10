@@ -1,0 +1,456 @@
+{
+  "bookId": "2218",
+  "timestamp": "2025-07-10T01:31:55.245Z",
+  "success": false,
+  "processingTime": -1752110603078,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4012,
+    "totalAudioFiles": 12,
+    "totalDuration": 2035.243876
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2035.243876
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2218/optimized_text/2218.md",
+    "fileSize": 843,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2218.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2218/metadata/2218_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2035.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2218/metadata/2218_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2218/metadata/2218_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 85,
+    "reasoning": "Hybrid: Genre match: professional, educational, business, corporate (+25); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2218/2218_complete.wav",
+    "duration": 2035.243875,
+    "fileSize": 97691784,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2218/introduction.wav",
+          "duration": 89.108625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.108625,
+          "startTime": 0,
+          "endTime": 89.108625
+        },
+        {
+          "path": "Audio/output/2218/chapter_01.wav",
+          "duration": 208.840792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How Beliefs About Ability Shape Everyday Life",
+          "actualDuration": 208.840792,
+          "startTime": 90.608625,
+          "endTime": 299.449417
+        },
+        {
+          "path": "Audio/output/2218/chapter_02.wav",
+          "duration": 211.582542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Fixed Mindset: Avoiding Challenge and Protecting Self-Image",
+          "actualDuration": 211.582542,
+          "startTime": 300.949417,
+          "endTime": 512.5319589999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_03.wav",
+          "duration": 249.104083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Growth Mindset: Embracing Effort, Learning, and Resilience",
+          "actualDuration": 249.104083,
+          "startTime": 514.0319589999999,
+          "endTime": 763.1360419999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_04.wav",
+          "duration": 206.119958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 How Mindsets Influence Achievement, Motivation, and Relationships",
+          "actualDuration": 206.119958,
+          "startTime": 764.6360419999999,
+          "endTime": 970.7559999999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_05.wav",
+          "duration": 205.795167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Changing Mindsets: Practical Steps for Growth and Transformation",
+          "actualDuration": 205.795167,
+          "startTime": 972.2559999999999,
+          "endTime": 1178.0511669999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_06.wav",
+          "duration": 183.243917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mindset in Parenting, Teaching, and Coaching: Nurturing Growth in Others",
+          "actualDuration": 183.243917,
+          "startTime": 1179.5511669999999,
+          "endTime": 1362.7950839999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_07.wav",
+          "duration": 159.228708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mindset in Leadership and Organizations: Building Cultures of Growth",
+          "actualDuration": 159.228708,
+          "startTime": 1364.2950839999999,
+          "endTime": 1523.523792
+        },
+        {
+          "path": "Audio/output/2218/chapter_08.wav",
+          "duration": 141.739042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindset in Relationships: Navigating Conflict and Deepening Connection",
+          "actualDuration": 141.739042,
+          "startTime": 1525.023792,
+          "endTime": 1666.7628339999999
+        },
+        {
+          "path": "Audio/output/2218/chapter_09.wav",
+          "duration": 151.46275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining a Growth Mindset: Overcoming Setbacks and Self-Doubt",
+          "actualDuration": 151.46275,
+          "startTime": 1668.2628339999999,
+          "endTime": 1819.7255839999998
+        },
+        {
+          "path": "Audio/output/2218/chapter_10.wav",
+          "duration": 113.203875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating Mindset into Everyday Life: Small Shifts, Lasting Change",
+          "actualDuration": 113.203875,
+          "startTime": 1821.2255839999998,
+          "endTime": 1934.4294589999997
+        },
+        {
+          "path": "Audio/output/2218/conclusion.wav",
+          "duration": 115.814417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.814417,
+          "startTime": 1935.9294589999997,
+          "endTime": 2051.7438759999995
+        }
+      ],
+      "totalDuration": 2051.7438759999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.11,
+          "actualStart": 0,
+          "actualEnd": 89.108625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How Beliefs About Ability Shape Everyday Life",
+          "expectedStart": 89.11,
+          "expectedEnd": 297.95,
+          "actualStart": 90.608625,
+          "actualEnd": 299.449417,
+          "timeDifference": 1.498625000000004
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Fixed Mindset: Avoiding Challenge and Protecting Self-Image",
+          "expectedStart": 297.95,
+          "expectedEnd": 509.53,
+          "actualStart": 300.949417,
+          "actualEnd": 512.5319589999999,
+          "timeDifference": 2.999416999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Growth Mindset: Embracing Effort, Learning, and Resilience",
+          "expectedStart": 509.53,
+          "expectedEnd": 758.63,
+          "actualStart": 514.0319589999999,
+          "actualEnd": 763.1360419999999,
+          "timeDifference": 4.5019589999999425
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 How Mindsets Influence Achievement, Motivation, and Relationships",
+          "expectedStart": 758.63,
+          "expectedEnd": 964.75,
+          "actualStart": 764.6360419999999,
+          "actualEnd": 970.7559999999999,
+          "timeDifference": 6.006041999999866
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Changing Mindsets: Practical Steps for Growth and Transformation",
+          "expectedStart": 964.75,
+          "expectedEnd": 1170.55,
+          "actualStart": 972.2559999999999,
+          "actualEnd": 1178.0511669999999,
+          "timeDifference": 7.505999999999858
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mindset in Parenting, Teaching, and Coaching: Nurturing Growth in Others",
+          "expectedStart": 1170.55,
+          "expectedEnd": 1353.79,
+          "actualStart": 1179.5511669999999,
+          "actualEnd": 1362.7950839999999,
+          "timeDifference": 9.001166999999896
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mindset in Leadership and Organizations: Building Cultures of Growth",
+          "expectedStart": 1353.79,
+          "expectedEnd": 1513.02,
+          "actualStart": 1364.2950839999999,
+          "actualEnd": 1523.523792,
+          "timeDifference": 10.505083999999897
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindset in Relationships: Navigating Conflict and Deepening Connection",
+          "expectedStart": 1513.02,
+          "expectedEnd": 1654.76,
+          "actualStart": 1525.023792,
+          "actualEnd": 1666.7628339999999,
+          "timeDifference": 12.003791999999976
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining a Growth Mindset: Overcoming Setbacks and Self-Doubt",
+          "expectedStart": 1654.76,
+          "expectedEnd": 1806.22,
+          "actualStart": 1668.2628339999999,
+          "actualEnd": 1819.7255839999998,
+          "timeDifference": 13.502833999999893
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating Mindset into Everyday Life: Small Shifts, Lasting Change",
+          "expectedStart": 1806.22,
+          "expectedEnd": 1919.42,
+          "actualStart": 1821.2255839999998,
+          "actualEnd": 1934.4294589999997,
+          "timeDifference": 15.005583999999772
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1919.42,
+          "expectedEnd": 2035.23,
+          "actualStart": 1935.9294589999997,
+          "actualEnd": 2051.7438759999995,
+          "timeDifference": 16.50945899999965
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.108625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How Beliefs About Ability Shape Everyday Life"
+        },
+        {
+          "startTime": 299.449417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How Beliefs About Ability Shape Everyday Life and Chapter 2 The Fixed Mindset: Avoiding Challenge and Protecting Self-Image"
+        },
+        {
+          "startTime": 512.5319589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Fixed Mindset: Avoiding Challenge and Protecting Self-Image and Chapter 3 The Growth Mindset: Embracing Effort, Learning, and Resilience"
+        },
+        {
+          "startTime": 763.1360419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Growth Mindset: Embracing Effort, Learning, and Resilience and Chapter 4 How Mindsets Influence Achievement, Motivation, and Relationships"
+        },
+        {
+          "startTime": 970.7559999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 How Mindsets Influence Achievement, Motivation, and Relationships and Chapter 5 Changing Mindsets: Practical Steps for Growth and Transformation"
+        },
+        {
+          "startTime": 1178.0511669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Changing Mindsets: Practical Steps for Growth and Transformation and Chapter 6 Mindset in Parenting, Teaching, and Coaching: Nurturing Growth in Others"
+        },
+        {
+          "startTime": 1362.7950839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mindset in Parenting, Teaching, and Coaching: Nurturing Growth in Others and Chapter 7 Mindset in Leadership and Organizations: Building Cultures of Growth"
+        },
+        {
+          "startTime": 1523.523792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mindset in Leadership and Organizations: Building Cultures of Growth and Chapter 8 Mindset in Relationships: Navigating Conflict and Deepening Connection"
+        },
+        {
+          "startTime": 1666.7628339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindset in Relationships: Navigating Conflict and Deepening Connection and Chapter 9 Sustaining a Growth Mindset: Overcoming Setbacks and Self-Doubt"
+        },
+        {
+          "startTime": 1819.7255839999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining a Growth Mindset: Overcoming Setbacks and Self-Doubt and Chapter 10 Integrating Mindset into Everyday Life: Small Shifts, Lasting Change"
+        },
+        {
+          "startTime": 1934.4294589999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating Mindset into Everyday Life: Small Shifts, Lasting Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2218",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 85,
+      "reasoning": "Hybrid: Genre match: professional, educational, business, corporate (+25); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T01:23:23.591Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

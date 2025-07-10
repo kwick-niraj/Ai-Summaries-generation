@@ -1,0 +1,456 @@
+{
+  "bookId": "2174",
+  "timestamp": "2025-07-09T22:54:52.295Z",
+  "success": false,
+  "processingTime": -1752101083641,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4009,
+    "totalAudioFiles": 12,
+    "totalDuration": 2102.42975
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2102.42975
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2174/optimized_text/2174.md",
+    "fileSize": 762,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2174.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2174/metadata/2174_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2102.42,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2174/metadata/2174_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2174/metadata/2174_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2174/2174_complete.wav",
+    "duration": 2102.42975,
+    "fileSize": 100916706,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2174/introduction.wav",
+          "duration": 84.234708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.234708,
+          "startTime": 0,
+          "endTime": 84.234708
+        },
+        {
+          "path": "Audio/output/2174/chapter_01.wav",
+          "duration": 184.386625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Success—Moving Beyond Hustle and Grind",
+          "actualDuration": 184.386625,
+          "startTime": 85.734708,
+          "endTime": 270.121333
+        },
+        {
+          "path": "Audio/output/2174/chapter_02.wav",
+          "duration": 213.451583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Foundation of Faith, Purpose, and Self-Belief",
+          "actualDuration": 213.451583,
+          "startTime": 271.621333,
+          "endTime": 485.07291599999996
+        },
+        {
+          "path": "Audio/output/2174/chapter_03.wav",
+          "duration": 214.900583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Designing a Business That Supports Life and Legacy",
+          "actualDuration": 214.900583,
+          "startTime": 486.57291599999996,
+          "endTime": 701.473499
+        },
+        {
+          "path": "Audio/output/2174/chapter_04.wav",
+          "duration": 211.868917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Creating Systems and Infrastructure for Sustainable Scale",
+          "actualDuration": 211.868917,
+          "startTime": 702.973499,
+          "endTime": 914.842416
+        },
+        {
+          "path": "Audio/output/2174/chapter_05.wav",
+          "duration": 201.444292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Leading with Integrity, Boundaries, and Self-Care",
+          "actualDuration": 201.444292,
+          "startTime": 916.342416,
+          "endTime": 1117.7867079999999
+        },
+        {
+          "path": "Audio/output/2174/chapter_06.wav",
+          "duration": 199.898917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mastering Leverage—People, Processes, and Partnerships",
+          "actualDuration": 199.898917,
+          "startTime": 1119.2867079999999,
+          "endTime": 1319.1856249999998
+        },
+        {
+          "path": "Audio/output/2174/chapter_07.wav",
+          "duration": 163.486875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Scaling with Signature Offers and Value Stacking",
+          "actualDuration": 163.486875,
+          "startTime": 1320.6856249999998,
+          "endTime": 1484.1725
+        },
+        {
+          "path": "Audio/output/2174/chapter_08.wav",
+          "duration": 134.361375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Expanding Reach—Marketing with Authenticity and Authority",
+          "actualDuration": 134.361375,
+          "startTime": 1485.6725,
+          "endTime": 1620.0338749999999
+        },
+        {
+          "path": "Audio/output/2174/chapter_09.wav",
+          "duration": 179.874625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Growth Pains—Resilience, Adaptation, and Course Correction",
+          "actualDuration": 179.874625,
+          "startTime": 1621.5338749999999,
+          "endTime": 1801.4084999999998
+        },
+        {
+          "path": "Audio/output/2174/chapter_10.wav",
+          "duration": 157.476708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Deepening Impact—Legacy, Contribution, and the Ripple Effect",
+          "actualDuration": 157.476708,
+          "startTime": 1802.9084999999998,
+          "endTime": 1960.3852079999997
+        },
+        {
+          "path": "Audio/output/2174/conclusion.wav",
+          "duration": 157.044542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 157.044542,
+          "startTime": 1961.8852079999997,
+          "endTime": 2118.92975
+        }
+      ],
+      "totalDuration": 2118.92975,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.23,
+          "actualStart": 0,
+          "actualEnd": 84.234708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Success—Moving Beyond Hustle and Grind",
+          "expectedStart": 84.23,
+          "expectedEnd": 268.62,
+          "actualStart": 85.734708,
+          "actualEnd": 270.121333,
+          "timeDifference": 1.5047079999999937
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Foundation of Faith, Purpose, and Self-Belief",
+          "expectedStart": 268.62,
+          "expectedEnd": 482.07,
+          "actualStart": 271.621333,
+          "actualEnd": 485.07291599999996,
+          "timeDifference": 3.0013329999999883
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Designing a Business That Supports Life and Legacy",
+          "expectedStart": 482.07,
+          "expectedEnd": 696.97,
+          "actualStart": 486.57291599999996,
+          "actualEnd": 701.473499,
+          "timeDifference": 4.502915999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Creating Systems and Infrastructure for Sustainable Scale",
+          "expectedStart": 696.97,
+          "expectedEnd": 908.84,
+          "actualStart": 702.973499,
+          "actualEnd": 914.842416,
+          "timeDifference": 6.00349899999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Leading with Integrity, Boundaries, and Self-Care",
+          "expectedStart": 908.84,
+          "expectedEnd": 1110.28,
+          "actualStart": 916.342416,
+          "actualEnd": 1117.7867079999999,
+          "timeDifference": 7.502415999999926
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mastering Leverage—People, Processes, and Partnerships",
+          "expectedStart": 1110.28,
+          "expectedEnd": 1310.18,
+          "actualStart": 1119.2867079999999,
+          "actualEnd": 1319.1856249999998,
+          "timeDifference": 9.00670799999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Scaling with Signature Offers and Value Stacking",
+          "expectedStart": 1310.18,
+          "expectedEnd": 1473.67,
+          "actualStart": 1320.6856249999998,
+          "actualEnd": 1484.1725,
+          "timeDifference": 10.505624999999782
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Expanding Reach—Marketing with Authenticity and Authority",
+          "expectedStart": 1473.67,
+          "expectedEnd": 1608.03,
+          "actualStart": 1485.6725,
+          "actualEnd": 1620.0338749999999,
+          "timeDifference": 12.002499999999827
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Growth Pains—Resilience, Adaptation, and Course Correction",
+          "expectedStart": 1608.03,
+          "expectedEnd": 1787.9,
+          "actualStart": 1621.5338749999999,
+          "actualEnd": 1801.4084999999998,
+          "timeDifference": 13.50387499999988
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Deepening Impact—Legacy, Contribution, and the Ripple Effect",
+          "expectedStart": 1787.9,
+          "expectedEnd": 1945.38,
+          "actualStart": 1802.9084999999998,
+          "actualEnd": 1960.3852079999997,
+          "timeDifference": 15.008499999999685
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1945.38,
+          "expectedEnd": 2102.42,
+          "actualStart": 1961.8852079999997,
+          "actualEnd": 2118.92975,
+          "timeDifference": 16.505207999999584
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.234708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Success—Moving Beyond Hustle and Grind"
+        },
+        {
+          "startTime": 270.121333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Success—Moving Beyond Hustle and Grind and Chapter 2 Building a Foundation of Faith, Purpose, and Self-Belief"
+        },
+        {
+          "startTime": 485.07291599999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Foundation of Faith, Purpose, and Self-Belief and Chapter 3 Designing a Business That Supports Life and Legacy"
+        },
+        {
+          "startTime": 701.473499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Designing a Business That Supports Life and Legacy and Chapter 4 Creating Systems and Infrastructure for Sustainable Scale"
+        },
+        {
+          "startTime": 914.842416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Creating Systems and Infrastructure for Sustainable Scale and Chapter 5 Leading with Integrity, Boundaries, and Self-Care"
+        },
+        {
+          "startTime": 1117.7867079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Leading with Integrity, Boundaries, and Self-Care and Chapter 6 Mastering Leverage—People, Processes, and Partnerships"
+        },
+        {
+          "startTime": 1319.1856249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mastering Leverage—People, Processes, and Partnerships and Chapter 7 Scaling with Signature Offers and Value Stacking"
+        },
+        {
+          "startTime": 1484.1725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Scaling with Signature Offers and Value Stacking and Chapter 8 Expanding Reach—Marketing with Authenticity and Authority"
+        },
+        {
+          "startTime": 1620.0338749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Expanding Reach—Marketing with Authenticity and Authority and Chapter 9 Navigating Growth Pains—Resilience, Adaptation, and Course Correction"
+        },
+        {
+          "startTime": 1801.4084999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Growth Pains—Resilience, Adaptation, and Course Correction and Chapter 10 Deepening Impact—Legacy, Contribution, and the Ripple Effect"
+        },
+        {
+          "startTime": 1960.3852079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Deepening Impact—Legacy, Contribution, and the Ripple Effect and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2174",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T22:44:44.962Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

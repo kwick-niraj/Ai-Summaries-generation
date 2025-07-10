@@ -1,0 +1,456 @@
+{
+  "bookId": "1809",
+  "timestamp": "2025-07-08T17:49:06.033Z",
+  "success": false,
+  "processingTime": -1751996628961,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3914,
+    "totalAudioFiles": 12,
+    "totalDuration": 2061.1697090000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2061.1697090000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1809/optimized_text/1809.md",
+    "fileSize": 712,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "1809.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1809/metadata/1809_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2061.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1809/metadata/1809_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1809/metadata/1809_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1809/1809_complete.wav",
+    "duration": 2061.169708,
+    "fileSize": 98936224,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1809/introduction.wav",
+          "duration": 94.841542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.841542,
+          "startTime": 0,
+          "endTime": 94.841542
+        },
+        {
+          "path": "Audio/output/1809/chapter_01.wav",
+          "duration": 209.342375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation in Financial Literacy and Mindset",
+          "actualDuration": 209.342375,
+          "startTime": 96.341542,
+          "endTime": 305.683917
+        },
+        {
+          "path": "Audio/output/1809/chapter_02.wav",
+          "duration": 221.16725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Demystifying the Stock Market and Its Core Mechanics",
+          "actualDuration": 221.16725,
+          "startTime": 307.183917,
+          "endTime": 528.351167
+        },
+        {
+          "path": "Audio/output/1809/chapter_03.wav",
+          "duration": 186.500833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Navigating the Nigerian and African Investment Landscape",
+          "actualDuration": 186.500833,
+          "startTime": 529.851167,
+          "endTime": 716.3520000000001
+        },
+        {
+          "path": "Audio/output/1809/chapter_04.wav",
+          "duration": 209.007042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Steps for Starting a Stock Investment Journey",
+          "actualDuration": 209.007042,
+          "startTime": 717.8520000000001,
+          "endTime": 926.859042
+        },
+        {
+          "path": "Audio/output/1809/chapter_05.wav",
+          "duration": 200.727042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Identifying Valuable Stocks and Making Informed Decisions",
+          "actualDuration": 200.727042,
+          "startTime": 928.359042,
+          "endTime": 1129.086084
+        },
+        {
+          "path": "Audio/output/1809/chapter_06.wav",
+          "duration": 193.123,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Managing Risk and Protecting Your Investments",
+          "actualDuration": 193.123,
+          "startTime": 1130.586084,
+          "endTime": 1323.709084
+        },
+        {
+          "path": "Audio/output/1809/chapter_07.wav",
+          "duration": 159.131042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Advanced Strategies for Growing Wealth",
+          "actualDuration": 159.131042,
+          "startTime": 1325.209084,
+          "endTime": 1484.340126
+        },
+        {
+          "path": "Audio/output/1809/chapter_08.wav",
+          "duration": 163.5795,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Developing Habits for Sustained Success",
+          "actualDuration": 163.5795,
+          "startTime": 1485.840126,
+          "endTime": 1649.419626
+        },
+        {
+          "path": "Audio/output/1809/chapter_09.wav",
+          "duration": 153.814167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Common Pitfalls and Learning from Mistakes",
+          "actualDuration": 153.814167,
+          "startTime": 1650.919626,
+          "endTime": 1804.733793
+        },
+        {
+          "path": "Audio/output/1809/chapter_10.wav",
+          "duration": 142.626583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Building a Personal Investment Philosophy and Looking Ahead",
+          "actualDuration": 142.626583,
+          "startTime": 1806.233793,
+          "endTime": 1948.860376
+        },
+        {
+          "path": "Audio/output/1809/conclusion.wav",
+          "duration": 127.309333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.309333,
+          "startTime": 1950.360376,
+          "endTime": 2077.6697090000002
+        }
+      ],
+      "totalDuration": 2077.6697090000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.84,
+          "actualStart": 0,
+          "actualEnd": 94.841542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation in Financial Literacy and Mindset",
+          "expectedStart": 94.84,
+          "expectedEnd": 304.18,
+          "actualStart": 96.341542,
+          "actualEnd": 305.683917,
+          "timeDifference": 1.5015420000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Demystifying the Stock Market and Its Core Mechanics",
+          "expectedStart": 304.18,
+          "expectedEnd": 525.35,
+          "actualStart": 307.183917,
+          "actualEnd": 528.351167,
+          "timeDifference": 3.0039170000000013
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Navigating the Nigerian and African Investment Landscape",
+          "expectedStart": 525.35,
+          "expectedEnd": 711.85,
+          "actualStart": 529.851167,
+          "actualEnd": 716.3520000000001,
+          "timeDifference": 4.5011670000000095
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Steps for Starting a Stock Investment Journey",
+          "expectedStart": 711.85,
+          "expectedEnd": 920.86,
+          "actualStart": 717.8520000000001,
+          "actualEnd": 926.859042,
+          "timeDifference": 6.002000000000066
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Identifying Valuable Stocks and Making Informed Decisions",
+          "expectedStart": 920.86,
+          "expectedEnd": 1121.59,
+          "actualStart": 928.359042,
+          "actualEnd": 1129.086084,
+          "timeDifference": 7.499042000000031
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Managing Risk and Protecting Your Investments",
+          "expectedStart": 1121.59,
+          "expectedEnd": 1314.71,
+          "actualStart": 1130.586084,
+          "actualEnd": 1323.709084,
+          "timeDifference": 8.99608400000011
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Advanced Strategies for Growing Wealth",
+          "expectedStart": 1314.71,
+          "expectedEnd": 1473.84,
+          "actualStart": 1325.209084,
+          "actualEnd": 1484.340126,
+          "timeDifference": 10.499084000000039
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Developing Habits for Sustained Success",
+          "expectedStart": 1473.84,
+          "expectedEnd": 1637.42,
+          "actualStart": 1485.840126,
+          "actualEnd": 1649.419626,
+          "timeDifference": 12.000126000000137
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Common Pitfalls and Learning from Mistakes",
+          "expectedStart": 1637.42,
+          "expectedEnd": 1791.23,
+          "actualStart": 1650.919626,
+          "actualEnd": 1804.733793,
+          "timeDifference": 13.499626000000035
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Building a Personal Investment Philosophy and Looking Ahead",
+          "expectedStart": 1791.23,
+          "expectedEnd": 1933.86,
+          "actualStart": 1806.233793,
+          "actualEnd": 1948.860376,
+          "timeDifference": 15.003793000000087
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1933.86,
+          "expectedEnd": 2061.17,
+          "actualStart": 1950.360376,
+          "actualEnd": 2077.6697090000002,
+          "timeDifference": 16.500376000000188
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.841542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation in Financial Literacy and Mindset"
+        },
+        {
+          "startTime": 305.683917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation in Financial Literacy and Mindset and Chapter 2 Demystifying the Stock Market and Its Core Mechanics"
+        },
+        {
+          "startTime": 528.351167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Demystifying the Stock Market and Its Core Mechanics and Chapter 3 Navigating the Nigerian and African Investment Landscape"
+        },
+        {
+          "startTime": 716.3520000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Navigating the Nigerian and African Investment Landscape and Chapter 4 Practical Steps for Starting a Stock Investment Journey"
+        },
+        {
+          "startTime": 926.859042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Steps for Starting a Stock Investment Journey and Chapter 5 Identifying Valuable Stocks and Making Informed Decisions"
+        },
+        {
+          "startTime": 1129.086084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Identifying Valuable Stocks and Making Informed Decisions and Chapter 6 Managing Risk and Protecting Your Investments"
+        },
+        {
+          "startTime": 1323.709084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Managing Risk and Protecting Your Investments and Chapter 7 Advanced Strategies for Growing Wealth"
+        },
+        {
+          "startTime": 1484.340126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Advanced Strategies for Growing Wealth and Chapter 8 Developing Habits for Sustained Success"
+        },
+        {
+          "startTime": 1649.419626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Developing Habits for Sustained Success and Chapter 9 Navigating Common Pitfalls and Learning from Mistakes"
+        },
+        {
+          "startTime": 1804.733793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Common Pitfalls and Learning from Mistakes and Chapter 10 Building a Personal Investment Philosophy and Looking Ahead"
+        },
+        {
+          "startTime": 1948.860376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Building a Personal Investment Philosophy and Looking Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1809",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T17:43:50.141Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

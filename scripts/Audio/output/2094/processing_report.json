@@ -1,0 +1,504 @@
+{
+  "bookId": "2094",
+  "timestamp": "2025-07-09T18:08:43.875Z",
+  "success": false,
+  "processingTime": -1752084121275,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5118,
+    "totalAudioFiles": 14,
+    "totalDuration": 2087.509334
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2087.509334
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2094/optimized_text/2094.md",
+    "fileSize": 912,
+    "wordCount": 131,
+    "format": "markdown",
+    "filename": "2094.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2094/metadata/2094_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2087.49,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2094/metadata/2094_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2094/metadata/2094_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2094/2094_complete.wav",
+    "duration": 2087.509333,
+    "fileSize": 100200526,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2094/introduction.wav",
+          "duration": 84.833333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.833333,
+          "startTime": 0,
+          "endTime": 84.833333
+        },
+        {
+          "path": "Audio/output/2094/chapter_01.wav",
+          "duration": 203.001083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Life Breaks Apart and Expectations Collapse",
+          "actualDuration": 203.001083,
+          "startTime": 86.333333,
+          "endTime": 289.334416
+        },
+        {
+          "path": "Audio/output/2094/chapter_02.wav",
+          "duration": 170.634625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing the Reality of Disappointment and Letting Go of Illusions",
+          "actualDuration": 170.634625,
+          "startTime": 290.834416,
+          "endTime": 461.46904099999995
+        },
+        {
+          "path": "Audio/output/2094/chapter_03.wav",
+          "duration": 166.201458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding God’s Presence in the Middle of Pain",
+          "actualDuration": 166.201458,
+          "startTime": 462.96904099999995,
+          "endTime": 629.170499
+        },
+        {
+          "path": "Audio/output/2094/chapter_04.wav",
+          "duration": 153.010542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Vulnerability and Honest Lament",
+          "actualDuration": 153.010542,
+          "startTime": 630.670499,
+          "endTime": 783.6810409999999
+        },
+        {
+          "path": "Audio/output/2094/chapter_05.wav",
+          "duration": 153.652625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Expectations and Building Resilience",
+          "actualDuration": 153.652625,
+          "startTime": 785.1810409999999,
+          "endTime": 938.833666
+        },
+        {
+          "path": "Audio/output/2094/chapter_06.wav",
+          "duration": 194.18725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Middle Place: Living in the Tension Between What Was and What Will Be",
+          "actualDuration": 194.18725,
+          "startTime": 940.333666,
+          "endTime": 1134.520916
+        },
+        {
+          "path": "Audio/output/2094/chapter_07.wav",
+          "duration": 158.001542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Perspective: Choosing What to Focus On",
+          "actualDuration": 158.001542,
+          "startTime": 1136.020916,
+          "endTime": 1294.022458
+        },
+        {
+          "path": "Audio/output/2094/chapter_08.wav",
+          "duration": 145.218292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Gift of Community: Leaning on Others When Life Feels Too Heavy",
+          "actualDuration": 145.218292,
+          "startTime": 1295.522458,
+          "endTime": 1440.74075
+        },
+        {
+          "path": "Audio/output/2094/chapter_09.wav",
+          "duration": 159.048417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Surrender and Trust: Letting Go of the Need for Answers",
+          "actualDuration": 159.048417,
+          "startTime": 1442.24075,
+          "endTime": 1601.289167
+        },
+        {
+          "path": "Audio/output/2094/chapter_10.wav",
+          "duration": 148.943292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Unexpected Strength: Discovering Purpose in the Broken Places",
+          "actualDuration": 148.943292,
+          "startTime": 1602.789167,
+          "endTime": 1751.7324589999998
+        },
+        {
+          "path": "Audio/output/2094/chapter_11.wav",
+          "duration": 136.56325,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Living with Hope: Choosing to Believe in Goodness Again",
+          "actualDuration": 136.56325,
+          "startTime": 1753.2324589999998,
+          "endTime": 1889.7957089999998
+        },
+        {
+          "path": "Audio/output/2094/chapter_12.wav",
+          "duration": 117.782792,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Journey: Embracing Imperfection and Continuing Forward",
+          "actualDuration": 117.782792,
+          "startTime": 1891.2957089999998,
+          "endTime": 2009.0785009999997
+        },
+        {
+          "path": "Audio/output/2094/conclusion.wav",
+          "duration": 96.430833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.430833,
+          "startTime": 2010.5785009999997,
+          "endTime": 2107.009334
+        }
+      ],
+      "totalDuration": 2107.009334,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.83,
+          "actualStart": 0,
+          "actualEnd": 84.833333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Life Breaks Apart and Expectations Collapse",
+          "expectedStart": 84.83,
+          "expectedEnd": 287.83,
+          "actualStart": 86.333333,
+          "actualEnd": 289.334416,
+          "timeDifference": 1.5033329999999978
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing the Reality of Disappointment and Letting Go of Illusions",
+          "expectedStart": 287.83,
+          "expectedEnd": 458.46,
+          "actualStart": 290.834416,
+          "actualEnd": 461.46904099999995,
+          "timeDifference": 3.004415999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding God’s Presence in the Middle of Pain",
+          "expectedStart": 458.46,
+          "expectedEnd": 624.66,
+          "actualStart": 462.96904099999995,
+          "actualEnd": 629.170499,
+          "timeDifference": 4.509040999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Vulnerability and Honest Lament",
+          "expectedStart": 624.66,
+          "expectedEnd": 777.67,
+          "actualStart": 630.670499,
+          "actualEnd": 783.6810409999999,
+          "timeDifference": 6.010498999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Expectations and Building Resilience",
+          "expectedStart": 777.67,
+          "expectedEnd": 931.32,
+          "actualStart": 785.1810409999999,
+          "actualEnd": 938.833666,
+          "timeDifference": 7.511040999999977
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Middle Place: Living in the Tension Between What Was and What Will Be",
+          "expectedStart": 931.32,
+          "expectedEnd": 1125.51,
+          "actualStart": 940.333666,
+          "actualEnd": 1134.520916,
+          "timeDifference": 9.013665999999944
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Perspective: Choosing What to Focus On",
+          "expectedStart": 1125.51,
+          "expectedEnd": 1283.51,
+          "actualStart": 1136.020916,
+          "actualEnd": 1294.022458,
+          "timeDifference": 10.510915999999952
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Gift of Community: Leaning on Others When Life Feels Too Heavy",
+          "expectedStart": 1283.51,
+          "expectedEnd": 1428.73,
+          "actualStart": 1295.522458,
+          "actualEnd": 1440.74075,
+          "timeDifference": 12.012457999999924
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Surrender and Trust: Letting Go of the Need for Answers",
+          "expectedStart": 1428.73,
+          "expectedEnd": 1587.78,
+          "actualStart": 1442.24075,
+          "actualEnd": 1601.289167,
+          "timeDifference": 13.510749999999916
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Unexpected Strength: Discovering Purpose in the Broken Places",
+          "expectedStart": 1587.78,
+          "expectedEnd": 1736.72,
+          "actualStart": 1602.789167,
+          "actualEnd": 1751.7324589999998,
+          "timeDifference": 15.009166999999934
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Living with Hope: Choosing to Believe in Goodness Again",
+          "expectedStart": 1736.72,
+          "expectedEnd": 1873.28,
+          "actualStart": 1753.2324589999998,
+          "actualEnd": 1889.7957089999998,
+          "timeDifference": 16.512458999999808
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Journey: Embracing Imperfection and Continuing Forward",
+          "expectedStart": 1873.28,
+          "expectedEnd": 1991.06,
+          "actualStart": 1891.2957089999998,
+          "actualEnd": 2009.0785009999997,
+          "timeDifference": 18.015708999999788
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1991.06,
+          "expectedEnd": 2087.49,
+          "actualStart": 2010.5785009999997,
+          "actualEnd": 2107.009334,
+          "timeDifference": 19.518500999999787
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.833333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Life Breaks Apart and Expectations Collapse"
+        },
+        {
+          "startTime": 289.334416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Life Breaks Apart and Expectations Collapse and Chapter 2 Facing the Reality of Disappointment and Letting Go of Illusions"
+        },
+        {
+          "startTime": 461.46904099999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing the Reality of Disappointment and Letting Go of Illusions and Chapter 3 Finding God’s Presence in the Middle of Pain"
+        },
+        {
+          "startTime": 629.170499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding God’s Presence in the Middle of Pain and Chapter 4 Embracing Vulnerability and Honest Lament"
+        },
+        {
+          "startTime": 783.6810409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Vulnerability and Honest Lament and Chapter 5 Redefining Expectations and Building Resilience"
+        },
+        {
+          "startTime": 938.833666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Expectations and Building Resilience and Chapter 6 The Middle Place: Living in the Tension Between What Was and What Will Be"
+        },
+        {
+          "startTime": 1134.520916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Middle Place: Living in the Tension Between What Was and What Will Be and Chapter 7 The Power of Perspective: Choosing What to Focus On"
+        },
+        {
+          "startTime": 1294.022458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Perspective: Choosing What to Focus On and Chapter 8 The Gift of Community: Leaning on Others When Life Feels Too Heavy"
+        },
+        {
+          "startTime": 1440.74075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Gift of Community: Leaning on Others When Life Feels Too Heavy and Chapter 9 Surrender and Trust: Letting Go of the Need for Answers"
+        },
+        {
+          "startTime": 1601.289167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Surrender and Trust: Letting Go of the Need for Answers and Chapter 10 Unexpected Strength: Discovering Purpose in the Broken Places"
+        },
+        {
+          "startTime": 1751.7324589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Unexpected Strength: Discovering Purpose in the Broken Places and Chapter 11 Living with Hope: Choosing to Believe in Goodness Again"
+        },
+        {
+          "startTime": 1889.7957089999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Living with Hope: Choosing to Believe in Goodness Again and Chapter 12 The Ongoing Journey: Embracing Imperfection and Continuing Forward"
+        },
+        {
+          "startTime": 2009.0785009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Journey: Embracing Imperfection and Continuing Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2094",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T18:02:02.596Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

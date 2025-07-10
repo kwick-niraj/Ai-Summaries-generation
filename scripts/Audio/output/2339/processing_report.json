@@ -1,0 +1,456 @@
+{
+  "bookId": "2339",
+  "timestamp": "2025-07-10T13:08:31.785Z",
+  "success": false,
+  "processingTime": -1752152610254,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4567,
+    "totalAudioFiles": 12,
+    "totalDuration": 2258.426167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2258.426167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2339/optimized_text/2339.md",
+    "fileSize": 787,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2339.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2339/metadata/2339_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2258.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2339/metadata/2339_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2339/metadata/2339_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2339/2339_complete.wav",
+    "duration": 2258.426167,
+    "fileSize": 108404534,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2339/introduction.wav",
+          "duration": 93.921583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.921583,
+          "startTime": 0,
+          "endTime": 93.921583
+        },
+        {
+          "path": "Audio/output/2339/chapter_01.wav",
+          "duration": 255.538833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Value of Ancient Prayer in Modern Life",
+          "actualDuration": 255.538833,
+          "startTime": 95.421583,
+          "endTime": 350.960416
+        },
+        {
+          "path": "Audio/output/2339/chapter_02.wav",
+          "duration": 230.743,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding the Purpose and Power of Structured Prayer",
+          "actualDuration": 230.743,
+          "startTime": 352.460416,
+          "endTime": 583.2034160000001
+        },
+        {
+          "path": "Audio/output/2339/chapter_03.wav",
+          "duration": 221.469792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Habits of Prayer: Simplicity, Intentionality, and Grace",
+          "actualDuration": 221.469792,
+          "startTime": 584.7034160000001,
+          "endTime": 806.173208
+        },
+        {
+          "path": "Audio/output/2339/chapter_04.wav",
+          "duration": 221.231292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Integrating Scripted and Spontaneous Prayer for Deeper Connection",
+          "actualDuration": 221.231292,
+          "startTime": 807.673208,
+          "endTime": 1028.9045
+        },
+        {
+          "path": "Audio/output/2339/chapter_05.wav",
+          "duration": 253.125875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Daily Office: Anchoring Life in Sacred Rhythms",
+          "actualDuration": 253.125875,
+          "startTime": 1030.4045,
+          "endTime": 1283.530375
+        },
+        {
+          "path": "Audio/output/2339/chapter_06.wav",
+          "duration": 172.362167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Praying the Psalms: Finding Honest Language for Every Season",
+          "actualDuration": 172.362167,
+          "startTime": 1285.030375,
+          "endTime": 1457.392542
+        },
+        {
+          "path": "Audio/output/2339/chapter_07.wav",
+          "duration": 165.293917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Community: Praying Together and Bearing One Another’s Burdens",
+          "actualDuration": 165.293917,
+          "startTime": 1458.892542,
+          "endTime": 1624.186459
+        },
+        {
+          "path": "Audio/output/2339/chapter_08.wav",
+          "duration": 172.074,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Prayer in Seasons of Dryness and Doubt",
+          "actualDuration": 172.074,
+          "startTime": 1625.686459,
+          "endTime": 1797.760459
+        },
+        {
+          "path": "Audio/output/2339/chapter_09.wav",
+          "duration": 180.262833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Tools and Adaptations for Modern Life",
+          "actualDuration": 180.262833,
+          "startTime": 1799.260459,
+          "endTime": 1979.523292
+        },
+        {
+          "path": "Audio/output/2339/chapter_10.wav",
+          "duration": 163.358875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living a Life Shaped by Prayer: Integration and Transformation",
+          "actualDuration": 163.358875,
+          "startTime": 1981.023292,
+          "endTime": 2144.382167
+        },
+        {
+          "path": "Audio/output/2339/conclusion.wav",
+          "duration": 129.044,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.044,
+          "startTime": 2145.882167,
+          "endTime": 2274.926167
+        }
+      ],
+      "totalDuration": 2274.926167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.92,
+          "actualStart": 0,
+          "actualEnd": 93.921583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Value of Ancient Prayer in Modern Life",
+          "expectedStart": 93.92,
+          "expectedEnd": 349.46,
+          "actualStart": 95.421583,
+          "actualEnd": 350.960416,
+          "timeDifference": 1.5015829999999966
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding the Purpose and Power of Structured Prayer",
+          "expectedStart": 349.46,
+          "expectedEnd": 580.2,
+          "actualStart": 352.460416,
+          "actualEnd": 583.2034160000001,
+          "timeDifference": 3.0004160000000297
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Habits of Prayer: Simplicity, Intentionality, and Grace",
+          "expectedStart": 580.2,
+          "expectedEnd": 801.67,
+          "actualStart": 584.7034160000001,
+          "actualEnd": 806.173208,
+          "timeDifference": 4.503416000000016
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Integrating Scripted and Spontaneous Prayer for Deeper Connection",
+          "expectedStart": 801.67,
+          "expectedEnd": 1022.9,
+          "actualStart": 807.673208,
+          "actualEnd": 1028.9045,
+          "timeDifference": 6.003208000000086
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Daily Office: Anchoring Life in Sacred Rhythms",
+          "expectedStart": 1022.9,
+          "expectedEnd": 1276.03,
+          "actualStart": 1030.4045,
+          "actualEnd": 1283.530375,
+          "timeDifference": 7.504500000000121
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Praying the Psalms: Finding Honest Language for Every Season",
+          "expectedStart": 1276.03,
+          "expectedEnd": 1448.39,
+          "actualStart": 1285.030375,
+          "actualEnd": 1457.392542,
+          "timeDifference": 9.000375000000076
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Community: Praying Together and Bearing One Another’s Burdens",
+          "expectedStart": 1448.39,
+          "expectedEnd": 1613.68,
+          "actualStart": 1458.892542,
+          "actualEnd": 1624.186459,
+          "timeDifference": 10.502541999999949
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Prayer in Seasons of Dryness and Doubt",
+          "expectedStart": 1613.68,
+          "expectedEnd": 1785.75,
+          "actualStart": 1625.686459,
+          "actualEnd": 1797.760459,
+          "timeDifference": 12.00645899999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Tools and Adaptations for Modern Life",
+          "expectedStart": 1785.75,
+          "expectedEnd": 1966.01,
+          "actualStart": 1799.260459,
+          "actualEnd": 1979.523292,
+          "timeDifference": 13.510459000000083
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living a Life Shaped by Prayer: Integration and Transformation",
+          "expectedStart": 1966.01,
+          "expectedEnd": 2129.37,
+          "actualStart": 1981.023292,
+          "actualEnd": 2144.382167,
+          "timeDifference": 15.013292000000092
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2129.37,
+          "expectedEnd": 2258.41,
+          "actualStart": 2145.882167,
+          "actualEnd": 2274.926167,
+          "timeDifference": 16.512167000000318
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.921583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Value of Ancient Prayer in Modern Life"
+        },
+        {
+          "startTime": 350.960416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Value of Ancient Prayer in Modern Life and Chapter 2 Understanding the Purpose and Power of Structured Prayer"
+        },
+        {
+          "startTime": 583.2034160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding the Purpose and Power of Structured Prayer and Chapter 3 Building Habits of Prayer: Simplicity, Intentionality, and Grace"
+        },
+        {
+          "startTime": 806.173208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Habits of Prayer: Simplicity, Intentionality, and Grace and Chapter 4 Integrating Scripted and Spontaneous Prayer for Deeper Connection"
+        },
+        {
+          "startTime": 1028.9045,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Integrating Scripted and Spontaneous Prayer for Deeper Connection and Chapter 5 The Daily Office: Anchoring Life in Sacred Rhythms"
+        },
+        {
+          "startTime": 1283.530375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Daily Office: Anchoring Life in Sacred Rhythms and Chapter 6 Praying the Psalms: Finding Honest Language for Every Season"
+        },
+        {
+          "startTime": 1457.392542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Praying the Psalms: Finding Honest Language for Every Season and Chapter 7 The Role of Community: Praying Together and Bearing One Another’s Burdens"
+        },
+        {
+          "startTime": 1624.186459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Community: Praying Together and Bearing One Another’s Burdens and Chapter 8 Sustaining Prayer in Seasons of Dryness and Doubt"
+        },
+        {
+          "startTime": 1797.760459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Prayer in Seasons of Dryness and Doubt and Chapter 9 Practical Tools and Adaptations for Modern Life"
+        },
+        {
+          "startTime": 1979.523292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Tools and Adaptations for Modern Life and Chapter 10 Living a Life Shaped by Prayer: Integration and Transformation"
+        },
+        {
+          "startTime": 2144.382167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living a Life Shaped by Prayer: Integration and Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2339",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T13:03:31.414Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

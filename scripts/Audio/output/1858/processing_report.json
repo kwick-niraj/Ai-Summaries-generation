@@ -1,0 +1,455 @@
+{
+  "bookId": "1858",
+  "timestamp": "2025-07-08T20:50:26.611Z",
+  "success": false,
+  "processingTime": -1752007225353,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5086,
+    "totalAudioFiles": 12,
+    "totalDuration": 2160.943708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2160.943708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1858/optimized_text/1858.md",
+    "fileSize": 593,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "1858.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1858/metadata/1858_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2160.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1858/metadata/1858_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1858/metadata/1858_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1858/1858_complete.wav",
+    "duration": 2160.943708,
+    "fileSize": 103725376,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1858/introduction.wav",
+          "duration": 92.173625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.173625,
+          "startTime": 0,
+          "endTime": 92.173625
+        },
+        {
+          "path": "Audio/output/1858/chapter_01.wav",
+          "duration": 217.149208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Compassion in Everyday Life",
+          "actualDuration": 217.149208,
+          "startTime": 93.673625,
+          "endTime": 310.822833
+        },
+        {
+          "path": "Audio/output/1858/chapter_02.wav",
+          "duration": 219.240625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Turning Kindness Into Action",
+          "actualDuration": 219.240625,
+          "startTime": 312.322833,
+          "endTime": 531.563458
+        },
+        {
+          "path": "Audio/output/1858/chapter_03.wav",
+          "duration": 221.799833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mindfulness as the Foundation of Compassion",
+          "actualDuration": 221.799833,
+          "startTime": 533.063458,
+          "endTime": 754.863291
+        },
+        {
+          "path": "Audio/output/1858/chapter_04.wav",
+          "duration": 204.392875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Suffering With Wisdom and Courage",
+          "actualDuration": 204.392875,
+          "startTime": 756.363291,
+          "endTime": 960.756166
+        },
+        {
+          "path": "Audio/output/1858/chapter_05.wav",
+          "duration": 214.536417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Joy of Serving Others",
+          "actualDuration": 214.536417,
+          "startTime": 962.256166,
+          "endTime": 1176.792583
+        },
+        {
+          "path": "Audio/output/1858/chapter_06.wav",
+          "duration": 183.004083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Compassion in the Midst of Conflict",
+          "actualDuration": 183.004083,
+          "startTime": 1178.292583,
+          "endTime": 1361.296666
+        },
+        {
+          "path": "Audio/output/1858/chapter_07.wav",
+          "duration": 190.8755,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Sustaining Compassion in a Demanding World",
+          "actualDuration": 190.8755,
+          "startTime": 1362.796666,
+          "endTime": 1553.6721659999998
+        },
+        {
+          "path": "Audio/output/1858/chapter_08.wav",
+          "duration": 182.017833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Transformative Power of Collective Compassion",
+          "actualDuration": 182.017833,
+          "startTime": 1555.1721659999998,
+          "endTime": 1737.1899989999997
+        },
+        {
+          "path": "Audio/output/1858/chapter_09.wav",
+          "duration": 157.323667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Compassion Across Differences",
+          "actualDuration": 157.323667,
+          "startTime": 1738.6899989999997,
+          "endTime": 1896.0136659999998
+        },
+        {
+          "path": "Audio/output/1858/chapter_10.wav",
+          "duration": 150.898167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Path: Everyday Practices for a Compassionate Life",
+          "actualDuration": 150.898167,
+          "startTime": 1897.5136659999998,
+          "endTime": 2048.4118329999997
+        },
+        {
+          "path": "Audio/output/1858/conclusion.wav",
+          "duration": 127.531875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.531875,
+          "startTime": 2049.9118329999997,
+          "endTime": 2177.443708
+        }
+      ],
+      "totalDuration": 2177.443708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.17,
+          "actualStart": 0,
+          "actualEnd": 92.173625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Compassion in Everyday Life",
+          "expectedStart": 92.17,
+          "expectedEnd": 309.32,
+          "actualStart": 93.673625,
+          "actualEnd": 310.822833,
+          "timeDifference": 1.5036249999999995
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Turning Kindness Into Action",
+          "expectedStart": 309.32,
+          "expectedEnd": 528.56,
+          "actualStart": 312.322833,
+          "actualEnd": 531.563458,
+          "timeDifference": 3.0028330000000096
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mindfulness as the Foundation of Compassion",
+          "expectedStart": 528.56,
+          "expectedEnd": 750.36,
+          "actualStart": 533.063458,
+          "actualEnd": 754.863291,
+          "timeDifference": 4.503458000000023
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Suffering With Wisdom and Courage",
+          "expectedStart": 750.36,
+          "expectedEnd": 954.75,
+          "actualStart": 756.363291,
+          "actualEnd": 960.756166,
+          "timeDifference": 6.00329099999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Joy of Serving Others",
+          "expectedStart": 954.75,
+          "expectedEnd": 1169.29,
+          "actualStart": 962.256166,
+          "actualEnd": 1176.792583,
+          "timeDifference": 7.506166000000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Compassion in the Midst of Conflict",
+          "expectedStart": 1169.29,
+          "expectedEnd": 1352.29,
+          "actualStart": 1178.292583,
+          "actualEnd": 1361.296666,
+          "timeDifference": 9.002582999999959
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Sustaining Compassion in a Demanding World",
+          "expectedStart": 1352.29,
+          "expectedEnd": 1543.17,
+          "actualStart": 1362.796666,
+          "actualEnd": 1553.6721659999998,
+          "timeDifference": 10.506665999999996
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Transformative Power of Collective Compassion",
+          "expectedStart": 1543.17,
+          "expectedEnd": 1725.19,
+          "actualStart": 1555.1721659999998,
+          "actualEnd": 1737.1899989999997,
+          "timeDifference": 12.002165999999761
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Compassion Across Differences",
+          "expectedStart": 1725.19,
+          "expectedEnd": 1882.51,
+          "actualStart": 1738.6899989999997,
+          "actualEnd": 1896.0136659999998,
+          "timeDifference": 13.499998999999661
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Path: Everyday Practices for a Compassionate Life",
+          "expectedStart": 1882.51,
+          "expectedEnd": 2033.41,
+          "actualStart": 1897.5136659999998,
+          "actualEnd": 2048.4118329999997,
+          "timeDifference": 15.00366599999984
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2033.41,
+          "expectedEnd": 2160.94,
+          "actualStart": 2049.9118329999997,
+          "actualEnd": 2177.443708,
+          "timeDifference": 16.50183299999958
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.173625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Compassion in Everyday Life"
+        },
+        {
+          "startTime": 310.822833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Compassion in Everyday Life and Chapter 2 Turning Kindness Into Action"
+        },
+        {
+          "startTime": 531.563458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Turning Kindness Into Action and Chapter 3 Mindfulness as the Foundation of Compassion"
+        },
+        {
+          "startTime": 754.863291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mindfulness as the Foundation of Compassion and Chapter 4 Facing Suffering With Wisdom and Courage"
+        },
+        {
+          "startTime": 960.756166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Suffering With Wisdom and Courage and Chapter 5 The Joy of Serving Others"
+        },
+        {
+          "startTime": 1176.792583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Joy of Serving Others and Chapter 6 Compassion in the Midst of Conflict"
+        },
+        {
+          "startTime": 1361.296666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Compassion in the Midst of Conflict and Chapter 7 Sustaining Compassion in a Demanding World"
+        },
+        {
+          "startTime": 1553.6721659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Sustaining Compassion in a Demanding World and Chapter 8 The Transformative Power of Collective Compassion"
+        },
+        {
+          "startTime": 1737.1899989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Transformative Power of Collective Compassion and Chapter 9 Compassion Across Differences"
+        },
+        {
+          "startTime": 1896.0136659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Compassion Across Differences and Chapter 10 Living the Path: Everyday Practices for a Compassionate Life"
+        },
+        {
+          "startTime": 2048.4118329999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Path: Everyday Practices for a Compassionate Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1858",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T20:40:26.557Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

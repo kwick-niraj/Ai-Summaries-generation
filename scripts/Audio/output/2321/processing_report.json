@@ -1,0 +1,456 @@
+{
+  "bookId": "2321",
+  "timestamp": "2025-07-10T12:09:27.267Z",
+  "success": false,
+  "processingTime": -1752149052699,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4417,
+    "totalAudioFiles": 12,
+    "totalDuration": 2031.2314999999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2031.2314999999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2321/optimized_text/2321.md",
+    "fileSize": 781,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2321.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2321/metadata/2321_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2031.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2321/metadata/2321_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2321/metadata/2321_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2321/2321_complete.wav",
+    "duration": 2031.2315,
+    "fileSize": 97499190,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2321/introduction.wav",
+          "duration": 95.929542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.929542,
+          "startTime": 0,
+          "endTime": 95.929542
+        },
+        {
+          "path": "Audio/output/2321/chapter_01.wav",
+          "duration": 189.38025,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up Kennedy—Family, Privilege, and Early Struggles",
+          "actualDuration": 189.38025,
+          "startTime": 97.429542,
+          "endTime": 286.809792
+        },
+        {
+          "path": "Audio/output/2321/chapter_02.wav",
+          "duration": 200.422083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Reluctant Political Operator—Learning the Game in Washington",
+          "actualDuration": 200.422083,
+          "startTime": 288.309792,
+          "endTime": 488.731875
+        },
+        {
+          "path": "Audio/output/2321/chapter_03.wav",
+          "duration": 208.601125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 From Cold Warrior to Attorney General—Power, Principle, and the Limits of Loyalty",
+          "actualDuration": 208.601125,
+          "startTime": 490.231875,
+          "endTime": 698.833
+        },
+        {
+          "path": "Audio/output/2321/chapter_04.wav",
+          "duration": 174.047917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Grief, Empathy, and the Awakening of Conscience",
+          "actualDuration": 174.047917,
+          "startTime": 700.333,
+          "endTime": 874.380917
+        },
+        {
+          "path": "Audio/output/2321/chapter_05.wav",
+          "duration": 198.935208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Championing the Marginalized—A New Kind of Politics",
+          "actualDuration": 198.935208,
+          "startTime": 875.880917,
+          "endTime": 1074.8161249999998
+        },
+        {
+          "path": "Audio/output/2321/chapter_06.wav",
+          "duration": 206.020458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road to 1968—A Reluctant Candidacy",
+          "actualDuration": 206.020458,
+          "startTime": 1076.3161249999998,
+          "endTime": 1282.3365829999998
+        },
+        {
+          "path": "Audio/output/2321/chapter_07.wav",
+          "duration": 204.321542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The People’s Campaign—Hope, Turmoil, and the Power of Connection",
+          "actualDuration": 204.321542,
+          "startTime": 1283.8365829999998,
+          "endTime": 1488.1581249999997
+        },
+        {
+          "path": "Audio/output/2321/chapter_08.wav",
+          "duration": 176.401792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Facing the Nation’s Fault Lines—Race, War, and the Limits of Power",
+          "actualDuration": 176.401792,
+          "startTime": 1489.6581249999997,
+          "endTime": 1666.0599169999996
+        },
+        {
+          "path": "Audio/output/2321/chapter_09.wav",
+          "duration": 140.312625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 California—A Night of Triumph and Tragedy",
+          "actualDuration": 140.312625,
+          "startTime": 1667.5599169999996,
+          "endTime": 1807.8725419999996
+        },
+        {
+          "path": "Audio/output/2321/chapter_10.wav",
+          "duration": 125.994458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy—The Enduring Power of Empathy and Action",
+          "actualDuration": 125.994458,
+          "startTime": 1809.3725419999996,
+          "endTime": 1935.3669999999995
+        },
+        {
+          "path": "Audio/output/2321/conclusion.wav",
+          "duration": 110.8645,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.8645,
+          "startTime": 1936.8669999999995,
+          "endTime": 2047.7314999999994
+        }
+      ],
+      "totalDuration": 2047.7314999999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.93,
+          "actualStart": 0,
+          "actualEnd": 95.929542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up Kennedy—Family, Privilege, and Early Struggles",
+          "expectedStart": 95.93,
+          "expectedEnd": 285.31,
+          "actualStart": 97.429542,
+          "actualEnd": 286.809792,
+          "timeDifference": 1.499541999999991
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Reluctant Political Operator—Learning the Game in Washington",
+          "expectedStart": 285.31,
+          "expectedEnd": 485.73,
+          "actualStart": 288.309792,
+          "actualEnd": 488.731875,
+          "timeDifference": 2.9997920000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 From Cold Warrior to Attorney General—Power, Principle, and the Limits of Loyalty",
+          "expectedStart": 485.73,
+          "expectedEnd": 694.33,
+          "actualStart": 490.231875,
+          "actualEnd": 698.833,
+          "timeDifference": 4.501874999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Grief, Empathy, and the Awakening of Conscience",
+          "expectedStart": 694.33,
+          "expectedEnd": 868.38,
+          "actualStart": 700.333,
+          "actualEnd": 874.380917,
+          "timeDifference": 6.002999999999929
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Championing the Marginalized—A New Kind of Politics",
+          "expectedStart": 868.38,
+          "expectedEnd": 1067.32,
+          "actualStart": 875.880917,
+          "actualEnd": 1074.8161249999998,
+          "timeDifference": 7.5009169999999585
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road to 1968—A Reluctant Candidacy",
+          "expectedStart": 1067.32,
+          "expectedEnd": 1273.34,
+          "actualStart": 1076.3161249999998,
+          "actualEnd": 1282.3365829999998,
+          "timeDifference": 8.996124999999893
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The People’s Campaign—Hope, Turmoil, and the Power of Connection",
+          "expectedStart": 1273.34,
+          "expectedEnd": 1477.66,
+          "actualStart": 1283.8365829999998,
+          "actualEnd": 1488.1581249999997,
+          "timeDifference": 10.496582999999873
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Facing the Nation’s Fault Lines—Race, War, and the Limits of Power",
+          "expectedStart": 1477.66,
+          "expectedEnd": 1654.06,
+          "actualStart": 1489.6581249999997,
+          "actualEnd": 1666.0599169999996,
+          "timeDifference": 11.998124999999618
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 California—A Night of Triumph and Tragedy",
+          "expectedStart": 1654.06,
+          "expectedEnd": 1794.37,
+          "actualStart": 1667.5599169999996,
+          "actualEnd": 1807.8725419999996,
+          "timeDifference": 13.499916999999641
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy—The Enduring Power of Empathy and Action",
+          "expectedStart": 1794.37,
+          "expectedEnd": 1920.36,
+          "actualStart": 1809.3725419999996,
+          "actualEnd": 1935.3669999999995,
+          "timeDifference": 15.002541999999721
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1920.36,
+          "expectedEnd": 2031.22,
+          "actualStart": 1936.8669999999995,
+          "actualEnd": 2047.7314999999994,
+          "timeDifference": 16.506999999999607
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.929542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up Kennedy—Family, Privilege, and Early Struggles"
+        },
+        {
+          "startTime": 286.809792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up Kennedy—Family, Privilege, and Early Struggles and Chapter 2 The Reluctant Political Operator—Learning the Game in Washington"
+        },
+        {
+          "startTime": 488.731875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Reluctant Political Operator—Learning the Game in Washington and Chapter 3 From Cold Warrior to Attorney General—Power, Principle, and the Limits of Loyalty"
+        },
+        {
+          "startTime": 698.833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 From Cold Warrior to Attorney General—Power, Principle, and the Limits of Loyalty and Chapter 4 Grief, Empathy, and the Awakening of Conscience"
+        },
+        {
+          "startTime": 874.380917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Grief, Empathy, and the Awakening of Conscience and Chapter 5 Championing the Marginalized—A New Kind of Politics"
+        },
+        {
+          "startTime": 1074.8161249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Championing the Marginalized—A New Kind of Politics and Chapter 6 The Road to 1968—A Reluctant Candidacy"
+        },
+        {
+          "startTime": 1282.3365829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road to 1968—A Reluctant Candidacy and Chapter 7 The People’s Campaign—Hope, Turmoil, and the Power of Connection"
+        },
+        {
+          "startTime": 1488.1581249999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The People’s Campaign—Hope, Turmoil, and the Power of Connection and Chapter 8 Facing the Nation’s Fault Lines—Race, War, and the Limits of Power"
+        },
+        {
+          "startTime": 1666.0599169999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Facing the Nation’s Fault Lines—Race, War, and the Limits of Power and Chapter 9 California—A Night of Triumph and Tragedy"
+        },
+        {
+          "startTime": 1807.8725419999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 California—A Night of Triumph and Tragedy and Chapter 10 Legacy—The Enduring Power of Empathy and Action"
+        },
+        {
+          "startTime": 1935.3669999999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy—The Enduring Power of Empathy and Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2321",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:04:13.882Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

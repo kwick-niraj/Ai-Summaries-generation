@@ -1,0 +1,455 @@
+{
+  "bookId": "2343",
+  "timestamp": "2025-07-10T13:25:26.590Z",
+  "success": false,
+  "processingTime": -1752153687670,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3918,
+    "totalAudioFiles": 12,
+    "totalDuration": 1695.1245839999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1695.1245839999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2343/optimized_text/2343.md",
+    "fileSize": 648,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "2343.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2343/metadata/2343_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1695.12,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2343/metadata/2343_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2343/metadata/2343_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2343/2343_complete.wav",
+    "duration": 1695.124583,
+    "fileSize": 81366058,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2343/introduction.wav",
+          "duration": 74.224542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 74.224542,
+          "startTime": 0,
+          "endTime": 74.224542
+        },
+        {
+          "path": "Audio/output/2343/chapter_01.wav",
+          "duration": 150.349583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Days and the Spark of Laughter",
+          "actualDuration": 150.349583,
+          "startTime": 75.724542,
+          "endTime": 226.07412499999998
+        },
+        {
+          "path": "Audio/output/2343/chapter_02.wav",
+          "duration": 170.527917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Into Show Business and Finding a Place",
+          "actualDuration": 170.527917,
+          "startTime": 227.57412499999998,
+          "endTime": 398.102042
+        },
+        {
+          "path": "Audio/output/2343/chapter_03.wav",
+          "duration": 169.943125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Friendship and Creative Collaboration",
+          "actualDuration": 169.943125,
+          "startTime": 399.602042,
+          "endTime": 569.545167
+        },
+        {
+          "path": "Audio/output/2343/chapter_04.wav",
+          "duration": 186.510042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Behind the Curtain: Life on a Hit Variety Show",
+          "actualDuration": 186.510042,
+          "startTime": 571.045167,
+          "endTime": 757.555209
+        },
+        {
+          "path": "Audio/output/2343/chapter_05.wav",
+          "duration": 140.223667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Fame, Family, and Personal Loss",
+          "actualDuration": 140.223667,
+          "startTime": 759.055209,
+          "endTime": 899.278876
+        },
+        {
+          "path": "Audio/output/2343/chapter_06.wav",
+          "duration": 146.352,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gift of Laughter: Healing and Hope",
+          "actualDuration": 146.352,
+          "startTime": 900.778876,
+          "endTime": 1047.130876
+        },
+        {
+          "path": "Audio/output/2343/chapter_07.wav",
+          "duration": 143.665667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Lessons from Legends: Encounters with Icons",
+          "actualDuration": 143.665667,
+          "startTime": 1048.630876,
+          "endTime": 1192.296543
+        },
+        {
+          "path": "Audio/output/2343/chapter_08.wav",
+          "duration": 145.995583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Changing Landscape: Adapting to New Eras",
+          "actualDuration": 145.995583,
+          "startTime": 1193.796543,
+          "endTime": 1339.7921259999998
+        },
+        {
+          "path": "Audio/output/2343/chapter_09.wav",
+          "duration": 118.173625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Giving Back: Gratitude and Generosity",
+          "actualDuration": 118.173625,
+          "startTime": 1341.2921259999998,
+          "endTime": 1459.4657509999997
+        },
+        {
+          "path": "Audio/output/2343/chapter_10.wav",
+          "duration": 150.7285,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Full Circle: Reflection, Legacy, and the Enduring Power of Joy",
+          "actualDuration": 150.7285,
+          "startTime": 1460.9657509999997,
+          "endTime": 1611.6942509999997
+        },
+        {
+          "path": "Audio/output/2343/conclusion.wav",
+          "duration": 98.430333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.430333,
+          "startTime": 1613.1942509999997,
+          "endTime": 1711.6245839999997
+        }
+      ],
+      "totalDuration": 1711.6245839999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 74.22,
+          "actualStart": 0,
+          "actualEnd": 74.224542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Days and the Spark of Laughter",
+          "expectedStart": 74.22,
+          "expectedEnd": 224.57,
+          "actualStart": 75.724542,
+          "actualEnd": 226.07412499999998,
+          "timeDifference": 1.5045420000000007
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Into Show Business and Finding a Place",
+          "expectedStart": 224.57,
+          "expectedEnd": 395.1,
+          "actualStart": 227.57412499999998,
+          "actualEnd": 398.102042,
+          "timeDifference": 3.0041249999999877
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Friendship and Creative Collaboration",
+          "expectedStart": 395.1,
+          "expectedEnd": 565.04,
+          "actualStart": 399.602042,
+          "actualEnd": 569.545167,
+          "timeDifference": 4.50204199999996
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Behind the Curtain: Life on a Hit Variety Show",
+          "expectedStart": 565.04,
+          "expectedEnd": 751.55,
+          "actualStart": 571.045167,
+          "actualEnd": 757.555209,
+          "timeDifference": 6.005167000000029
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Fame, Family, and Personal Loss",
+          "expectedStart": 751.55,
+          "expectedEnd": 891.77,
+          "actualStart": 759.055209,
+          "actualEnd": 899.278876,
+          "timeDifference": 7.505209000000036
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gift of Laughter: Healing and Hope",
+          "expectedStart": 891.77,
+          "expectedEnd": 1038.12,
+          "actualStart": 900.778876,
+          "actualEnd": 1047.130876,
+          "timeDifference": 9.008875999999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Lessons from Legends: Encounters with Icons",
+          "expectedStart": 1038.12,
+          "expectedEnd": 1181.79,
+          "actualStart": 1048.630876,
+          "actualEnd": 1192.296543,
+          "timeDifference": 10.510876000000053
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Changing Landscape: Adapting to New Eras",
+          "expectedStart": 1181.79,
+          "expectedEnd": 1327.79,
+          "actualStart": 1193.796543,
+          "actualEnd": 1339.7921259999998,
+          "timeDifference": 12.006542999999965
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Giving Back: Gratitude and Generosity",
+          "expectedStart": 1327.79,
+          "expectedEnd": 1445.96,
+          "actualStart": 1341.2921259999998,
+          "actualEnd": 1459.4657509999997,
+          "timeDifference": 13.502125999999862
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Full Circle: Reflection, Legacy, and the Enduring Power of Joy",
+          "expectedStart": 1445.96,
+          "expectedEnd": 1596.69,
+          "actualStart": 1460.9657509999997,
+          "actualEnd": 1611.6942509999997,
+          "timeDifference": 15.005750999999691
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1596.69,
+          "expectedEnd": 1695.12,
+          "actualStart": 1613.1942509999997,
+          "actualEnd": 1711.6245839999997,
+          "timeDifference": 16.504250999999613
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 74.224542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Days and the Spark of Laughter"
+        },
+        {
+          "startTime": 226.07412499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Days and the Spark of Laughter and Chapter 2 Breaking Into Show Business and Finding a Place"
+        },
+        {
+          "startTime": 398.102042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Into Show Business and Finding a Place and Chapter 3 The Power of Friendship and Creative Collaboration"
+        },
+        {
+          "startTime": 569.545167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Friendship and Creative Collaboration and Chapter 4 Behind the Curtain: Life on a Hit Variety Show"
+        },
+        {
+          "startTime": 757.555209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Behind the Curtain: Life on a Hit Variety Show and Chapter 5 Navigating Fame, Family, and Personal Loss"
+        },
+        {
+          "startTime": 899.278876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Fame, Family, and Personal Loss and Chapter 6 The Gift of Laughter: Healing and Hope"
+        },
+        {
+          "startTime": 1047.130876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gift of Laughter: Healing and Hope and Chapter 7 Lessons from Legends: Encounters with Icons"
+        },
+        {
+          "startTime": 1192.296543,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Lessons from Legends: Encounters with Icons and Chapter 8 The Changing Landscape: Adapting to New Eras"
+        },
+        {
+          "startTime": 1339.7921259999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Changing Landscape: Adapting to New Eras and Chapter 9 Giving Back: Gratitude and Generosity"
+        },
+        {
+          "startTime": 1459.4657509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Giving Back: Gratitude and Generosity and Chapter 10 Full Circle: Reflection, Legacy, and the Enduring Power of Joy"
+        },
+        {
+          "startTime": 1611.6942509999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Full Circle: Reflection, Legacy, and the Enduring Power of Joy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2343",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T13:21:31.755Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

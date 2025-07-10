@@ -1,0 +1,432 @@
+{
+  "bookId": "2086",
+  "timestamp": "2025-07-09T17:38:08.175Z",
+  "success": false,
+  "processingTime": -1752081873531,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4260,
+    "totalAudioFiles": 11,
+    "totalDuration": 2133.7927079999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 2133.7927079999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2086/optimized_text/2086.md",
+    "fileSize": 756,
+    "wordCount": 105,
+    "format": "markdown",
+    "filename": "2086.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2086/metadata/2086_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 2133.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2086/metadata/2086_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2086/metadata/2086_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "derek-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2086/2086_complete.wav",
+    "duration": 2133.792708,
+    "fileSize": 102422128,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2086/introduction.wav",
+          "duration": 75.844417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.844417,
+          "startTime": 0,
+          "endTime": 75.844417
+        },
+        {
+          "path": "Audio/output/2086/chapter_01.wav",
+          "duration": 223.031833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Commodities and the Nature of Value",
+          "actualDuration": 223.031833,
+          "startTime": 77.344417,
+          "endTime": 300.37625
+        },
+        {
+          "path": "Audio/output/2086/chapter_02.wav",
+          "duration": 218.33775,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Labor and the Creation of Surplus Value",
+          "actualDuration": 218.33775,
+          "startTime": 301.87625,
+          "endTime": 520.214
+        },
+        {
+          "path": "Audio/output/2086/chapter_03.wav",
+          "duration": 202.382042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Capital as a Social Process and the Drive for Accumulation",
+          "actualDuration": 202.382042,
+          "startTime": 521.714,
+          "endTime": 724.0960420000001
+        },
+        {
+          "path": "Audio/output/2086/chapter_04.wav",
+          "duration": 219.611042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Hidden Social Relations: Commodity Fetishism and Alienation",
+          "actualDuration": 219.611042,
+          "startTime": 725.5960420000001,
+          "endTime": 945.2070840000001
+        },
+        {
+          "path": "Audio/output/2086/chapter_05.wav",
+          "duration": 223.42575,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Dynamics of Accumulation, Crisis, and Class Struggle",
+          "actualDuration": 223.42575,
+          "startTime": 946.7070840000001,
+          "endTime": 1170.132834
+        },
+        {
+          "path": "Audio/output/2086/chapter_06.wav",
+          "duration": 219.248958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Circulation of Capital: Money, Commodities, and the Lifeblood of the System",
+          "actualDuration": 219.248958,
+          "startTime": 1171.632834,
+          "endTime": 1390.881792
+        },
+        {
+          "path": "Audio/output/2086/chapter_07.wav",
+          "duration": 216.661833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Finance and Credit: Fueling Expansion and Instability",
+          "actualDuration": 216.661833,
+          "startTime": 1392.381792,
+          "endTime": 1609.0436249999998
+        },
+        {
+          "path": "Audio/output/2086/chapter_08.wav",
+          "duration": 198.625458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Global Expansion of Capitalism: Uneven Development and Imperial Reach",
+          "actualDuration": 198.625458,
+          "startTime": 1610.5436249999998,
+          "endTime": 1809.1690829999998
+        },
+        {
+          "path": "Audio/output/2086/chapter_09.wav",
+          "duration": 194.374625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Possibility of Change: Contradictions, Alternatives, and the Path Forward",
+          "actualDuration": 194.374625,
+          "startTime": 1810.6690829999998,
+          "endTime": 2005.0437079999997
+        },
+        {
+          "path": "Audio/output/2086/conclusion.wav",
+          "duration": 142.249,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 142.249,
+          "startTime": 2006.5437079999997,
+          "endTime": 2148.7927079999995
+        }
+      ],
+      "totalDuration": 2148.7927079999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.84,
+          "actualStart": 0,
+          "actualEnd": 75.844417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Commodities and the Nature of Value",
+          "expectedStart": 75.84,
+          "expectedEnd": 298.87,
+          "actualStart": 77.344417,
+          "actualEnd": 300.37625,
+          "timeDifference": 1.5044170000000037
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Labor and the Creation of Surplus Value",
+          "expectedStart": 298.87,
+          "expectedEnd": 517.21,
+          "actualStart": 301.87625,
+          "actualEnd": 520.214,
+          "timeDifference": 3.0062500000000227
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Capital as a Social Process and the Drive for Accumulation",
+          "expectedStart": 517.21,
+          "expectedEnd": 719.59,
+          "actualStart": 521.714,
+          "actualEnd": 724.0960420000001,
+          "timeDifference": 4.504000000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Hidden Social Relations: Commodity Fetishism and Alienation",
+          "expectedStart": 719.59,
+          "expectedEnd": 939.2,
+          "actualStart": 725.5960420000001,
+          "actualEnd": 945.2070840000001,
+          "timeDifference": 6.006042000000093
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Dynamics of Accumulation, Crisis, and Class Struggle",
+          "expectedStart": 939.2,
+          "expectedEnd": 1162.63,
+          "actualStart": 946.7070840000001,
+          "actualEnd": 1170.132834,
+          "timeDifference": 7.507084000000077
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Circulation of Capital: Money, Commodities, and the Lifeblood of the System",
+          "expectedStart": 1162.63,
+          "expectedEnd": 1381.88,
+          "actualStart": 1171.632834,
+          "actualEnd": 1390.881792,
+          "timeDifference": 9.002833999999893
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Finance and Credit: Fueling Expansion and Instability",
+          "expectedStart": 1381.88,
+          "expectedEnd": 1598.54,
+          "actualStart": 1392.381792,
+          "actualEnd": 1609.0436249999998,
+          "timeDifference": 10.501791999999796
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Global Expansion of Capitalism: Uneven Development and Imperial Reach",
+          "expectedStart": 1598.54,
+          "expectedEnd": 1797.17,
+          "actualStart": 1610.5436249999998,
+          "actualEnd": 1809.1690829999998,
+          "timeDifference": 12.003624999999829
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Possibility of Change: Contradictions, Alternatives, and the Path Forward",
+          "expectedStart": 1797.17,
+          "expectedEnd": 1991.54,
+          "actualStart": 1810.6690829999998,
+          "actualEnd": 2005.0437079999997,
+          "timeDifference": 13.4990829999997
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1991.54,
+          "expectedEnd": 2133.79,
+          "actualStart": 2006.5437079999997,
+          "actualEnd": 2148.7927079999995,
+          "timeDifference": 15.003707999999733
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.844417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Commodities and the Nature of Value"
+        },
+        {
+          "startTime": 300.37625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Commodities and the Nature of Value and Chapter 2 The Role of Labor and the Creation of Surplus Value"
+        },
+        {
+          "startTime": 520.214,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Labor and the Creation of Surplus Value and Chapter 3 Capital as a Social Process and the Drive for Accumulation"
+        },
+        {
+          "startTime": 724.0960420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Capital as a Social Process and the Drive for Accumulation and Chapter 4 The Hidden Social Relations: Commodity Fetishism and Alienation"
+        },
+        {
+          "startTime": 945.2070840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Hidden Social Relations: Commodity Fetishism and Alienation and Chapter 5 The Dynamics of Accumulation, Crisis, and Class Struggle"
+        },
+        {
+          "startTime": 1170.132834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Dynamics of Accumulation, Crisis, and Class Struggle and Chapter 6 The Circulation of Capital: Money, Commodities, and the Lifeblood of the System"
+        },
+        {
+          "startTime": 1390.881792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Circulation of Capital: Money, Commodities, and the Lifeblood of the System and Chapter 7 The Role of Finance and Credit: Fueling Expansion and Instability"
+        },
+        {
+          "startTime": 1609.0436249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Finance and Credit: Fueling Expansion and Instability and Chapter 8 The Global Expansion of Capitalism: Uneven Development and Imperial Reach"
+        },
+        {
+          "startTime": 1809.1690829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Global Expansion of Capitalism: Uneven Development and Imperial Reach and Chapter 9 The Possibility of Change: Contradictions, Alternatives, and the Path Forward"
+        },
+        {
+          "startTime": 2005.0437079999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Possibility of Change: Contradictions, Alternatives, and the Path Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2086",
+      "selectedVoice": "derek-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-DerekMultilingualNeural",
+        "gender": "male",
+        "tone": "confident",
+        "style": "engaging",
+        "personality": "presenter",
+        "bestFor": [
+          "presentations",
+          "training",
+          "business",
+          "leadership"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: business (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T17:24:35.043Z",
+      "ssmlConfig": {
+        "voice": "derek-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

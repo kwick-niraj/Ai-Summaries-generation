@@ -1,0 +1,455 @@
+{
+  "bookId": "2337",
+  "timestamp": "2025-07-10T13:03:29.251Z",
+  "success": false,
+  "processingTime": -1752152375079,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4418,
+    "totalAudioFiles": 12,
+    "totalDuration": 2010.5442069999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2010.5442069999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2337/optimized_text/2337.md",
+    "fileSize": 734,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "2337.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2337/metadata/2337_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2010.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2337/metadata/2337_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2337/metadata/2337_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2337/2337_complete.wav",
+    "duration": 2010.544208,
+    "fileSize": 96506200,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2337/introduction.wav",
+          "duration": 102.498708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 102.498708,
+          "startTime": 0,
+          "endTime": 102.498708
+        },
+        {
+          "path": "Audio/output/2337/chapter_01.wav",
+          "duration": 202.446958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Foundations of the Tunisian State and Its Core Identity",
+          "actualDuration": 202.446958,
+          "startTime": 103.998708,
+          "endTime": 306.44566599999996
+        },
+        {
+          "path": "Audio/output/2337/chapter_02.wav",
+          "duration": 231.32575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rights, Freedoms, and Duties of Citizens",
+          "actualDuration": 231.32575,
+          "startTime": 307.94566599999996,
+          "endTime": 539.2714159999999
+        },
+        {
+          "path": "Audio/output/2337/chapter_03.wav",
+          "duration": 211.145375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Organization of State Power and the Separation of Branches",
+          "actualDuration": 211.145375,
+          "startTime": 540.7714159999999,
+          "endTime": 751.9167909999999
+        },
+        {
+          "path": "Audio/output/2337/chapter_04.wav",
+          "duration": 186.625708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Democratic Participation, Elections, and Civil Society",
+          "actualDuration": 186.625708,
+          "startTime": 753.4167909999999,
+          "endTime": 940.0424989999999
+        },
+        {
+          "path": "Audio/output/2337/chapter_05.wav",
+          "duration": 183.548208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Decentralization, Local Governance, and Social Justice",
+          "actualDuration": 183.548208,
+          "startTime": 941.5424989999999,
+          "endTime": 1125.0907069999998
+        },
+        {
+          "path": "Audio/output/2337/chapter_06.wav",
+          "duration": 168.23075,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Judicial Independence and the Rule of Law",
+          "actualDuration": 168.23075,
+          "startTime": 1126.5907069999998,
+          "endTime": 1294.8214569999998
+        },
+        {
+          "path": "Audio/output/2337/chapter_07.wav",
+          "duration": 157.694958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Constitutional Oversight and the Role of the Constitutional Court",
+          "actualDuration": 157.694958,
+          "startTime": 1296.3214569999998,
+          "endTime": 1454.0164149999998
+        },
+        {
+          "path": "Audio/output/2337/chapter_08.wav",
+          "duration": 151.6995,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Safeguarding Democracy—Checks, Balances, and Emergency Powers",
+          "actualDuration": 151.6995,
+          "startTime": 1455.5164149999998,
+          "endTime": 1607.2159149999998
+        },
+        {
+          "path": "Audio/output/2337/chapter_09.wav",
+          "duration": 156.431083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Independent Institutions and the Protection of Rights",
+          "actualDuration": 156.431083,
+          "startTime": 1608.7159149999998,
+          "endTime": 1765.1469979999997
+        },
+        {
+          "path": "Audio/output/2337/chapter_10.wav",
+          "duration": 150.319792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Amending the Constitution and the Path of Reform",
+          "actualDuration": 150.319792,
+          "startTime": 1766.6469979999997,
+          "endTime": 1916.9667899999997
+        },
+        {
+          "path": "Audio/output/2337/conclusion.wav",
+          "duration": 108.577417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.577417,
+          "startTime": 1918.4667899999997,
+          "endTime": 2027.0442069999997
+        }
+      ],
+      "totalDuration": 2027.0442069999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 102.5,
+          "actualStart": 0,
+          "actualEnd": 102.498708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Foundations of the Tunisian State and Its Core Identity",
+          "expectedStart": 102.5,
+          "expectedEnd": 304.95,
+          "actualStart": 103.998708,
+          "actualEnd": 306.44566599999996,
+          "timeDifference": 1.4987079999999935
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rights, Freedoms, and Duties of Citizens",
+          "expectedStart": 304.95,
+          "expectedEnd": 536.28,
+          "actualStart": 307.94566599999996,
+          "actualEnd": 539.2714159999999,
+          "timeDifference": 2.9956659999999715
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Organization of State Power and the Separation of Branches",
+          "expectedStart": 536.28,
+          "expectedEnd": 747.43,
+          "actualStart": 540.7714159999999,
+          "actualEnd": 751.9167909999999,
+          "timeDifference": 4.491415999999958
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Democratic Participation, Elections, and Civil Society",
+          "expectedStart": 747.43,
+          "expectedEnd": 934.06,
+          "actualStart": 753.4167909999999,
+          "actualEnd": 940.0424989999999,
+          "timeDifference": 5.986790999999926
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Decentralization, Local Governance, and Social Justice",
+          "expectedStart": 934.06,
+          "expectedEnd": 1117.61,
+          "actualStart": 941.5424989999999,
+          "actualEnd": 1125.0907069999998,
+          "timeDifference": 7.482498999999962
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Judicial Independence and the Rule of Law",
+          "expectedStart": 1117.61,
+          "expectedEnd": 1285.84,
+          "actualStart": 1126.5907069999998,
+          "actualEnd": 1294.8214569999998,
+          "timeDifference": 8.980706999999938
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Constitutional Oversight and the Role of the Constitutional Court",
+          "expectedStart": 1285.84,
+          "expectedEnd": 1443.53,
+          "actualStart": 1296.3214569999998,
+          "actualEnd": 1454.0164149999998,
+          "timeDifference": 10.481456999999864
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Safeguarding Democracy—Checks, Balances, and Emergency Powers",
+          "expectedStart": 1443.53,
+          "expectedEnd": 1595.23,
+          "actualStart": 1455.5164149999998,
+          "actualEnd": 1607.2159149999998,
+          "timeDifference": 11.986414999999852
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Independent Institutions and the Protection of Rights",
+          "expectedStart": 1595.23,
+          "expectedEnd": 1751.66,
+          "actualStart": 1608.7159149999998,
+          "actualEnd": 1765.1469979999997,
+          "timeDifference": 13.48591499999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Amending the Constitution and the Path of Reform",
+          "expectedStart": 1751.66,
+          "expectedEnd": 1901.98,
+          "actualStart": 1766.6469979999997,
+          "actualEnd": 1916.9667899999997,
+          "timeDifference": 14.98699799999963
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1901.98,
+          "expectedEnd": 2010.56,
+          "actualStart": 1918.4667899999997,
+          "actualEnd": 2027.0442069999997,
+          "timeDifference": 16.4867899999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 102.498708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Foundations of the Tunisian State and Its Core Identity"
+        },
+        {
+          "startTime": 306.44566599999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Foundations of the Tunisian State and Its Core Identity and Chapter 2 Rights, Freedoms, and Duties of Citizens"
+        },
+        {
+          "startTime": 539.2714159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rights, Freedoms, and Duties of Citizens and Chapter 3 Organization of State Power and the Separation of Branches"
+        },
+        {
+          "startTime": 751.9167909999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Organization of State Power and the Separation of Branches and Chapter 4 Democratic Participation, Elections, and Civil Society"
+        },
+        {
+          "startTime": 940.0424989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Democratic Participation, Elections, and Civil Society and Chapter 5 Decentralization, Local Governance, and Social Justice"
+        },
+        {
+          "startTime": 1125.0907069999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Decentralization, Local Governance, and Social Justice and Chapter 6 Judicial Independence and the Rule of Law"
+        },
+        {
+          "startTime": 1294.8214569999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Judicial Independence and the Rule of Law and Chapter 7 Constitutional Oversight and the Role of the Constitutional Court"
+        },
+        {
+          "startTime": 1454.0164149999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Constitutional Oversight and the Role of the Constitutional Court and Chapter 8 Safeguarding Democracy—Checks, Balances, and Emergency Powers"
+        },
+        {
+          "startTime": 1607.2159149999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Safeguarding Democracy—Checks, Balances, and Emergency Powers and Chapter 9 Independent Institutions and the Protection of Rights"
+        },
+        {
+          "startTime": 1765.1469979999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Independent Institutions and the Protection of Rights and Chapter 10 Amending the Constitution and the Path of Reform"
+        },
+        {
+          "startTime": 1916.9667899999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Amending the Constitution and the Path of Reform and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2337",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:59:35.110Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

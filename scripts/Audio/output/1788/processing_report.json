@@ -1,0 +1,456 @@
+{
+  "bookId": "1788",
+  "timestamp": "2025-07-08T15:46:52.507Z",
+  "success": false,
+  "processingTime": -1751988922844,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4686,
+    "totalAudioFiles": 12,
+    "totalDuration": 2480.3239159999994
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2480.3239159999994
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1788/optimized_text/1788.md",
+    "fileSize": 878,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "1788.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1788/metadata/1788_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2480.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1788/metadata/1788_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1788/metadata/1788_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1788/1788_complete.wav",
+    "duration": 2480.323917,
+    "fileSize": 119055626,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1788/introduction.wav",
+          "duration": 101.253708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.253708,
+          "startTime": 0,
+          "endTime": 101.253708
+        },
+        {
+          "path": "Audio/output/1788/chapter_01.wav",
+          "duration": 180.15675,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Modern Life: Why Simplicity and Self-Sufficiency Matter",
+          "actualDuration": 180.15675,
+          "startTime": 102.753708,
+          "endTime": 282.910458
+        },
+        {
+          "path": "Audio/output/1788/chapter_02.wav",
+          "duration": 239.087625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Preparing for Change: Mindset, Motivation, and Honest Self-Assessment",
+          "actualDuration": 239.087625,
+          "startTime": 284.410458,
+          "endTime": 523.498083
+        },
+        {
+          "path": "Audio/output/1788/chapter_03.wav",
+          "duration": 239.183333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Laying the Groundwork: Choosing Location, Land, and Legal Considerations",
+          "actualDuration": 239.183333,
+          "startTime": 524.998083,
+          "endTime": 764.1814159999999
+        },
+        {
+          "path": "Audio/output/1788/chapter_04.wav",
+          "duration": 274.661542,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building the Basics: Shelter, Water, and Energy Systems",
+          "actualDuration": 274.661542,
+          "startTime": 765.6814159999999,
+          "endTime": 1040.342958
+        },
+        {
+          "path": "Audio/output/1788/chapter_05.wav",
+          "duration": 219.462583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Adapting to a New Rhythm: Daily Life, Minimalism, and Mindset Shifts",
+          "actualDuration": 219.462583,
+          "startTime": 1041.842958,
+          "endTime": 1261.305541
+        },
+        {
+          "path": "Audio/output/1788/chapter_06.wav",
+          "duration": 283.965417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Growing Your Own: Food Production, Preservation, and Seasonal Living",
+          "actualDuration": 283.965417,
+          "startTime": 1262.805541,
+          "endTime": 1546.770958
+        },
+        {
+          "path": "Audio/output/1788/chapter_07.wav",
+          "duration": 212.243833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Money Matters: Earning, Spending, and Financial Resilience Off the Grid",
+          "actualDuration": 212.243833,
+          "startTime": 1548.270958,
+          "endTime": 1760.514791
+        },
+        {
+          "path": "Audio/output/1788/chapter_08.wav",
+          "duration": 221.483875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community and Connection: Building Relationships Beyond the Grid",
+          "actualDuration": 221.483875,
+          "startTime": 1762.014791,
+          "endTime": 1983.498666
+        },
+        {
+          "path": "Audio/output/1788/chapter_09.wav",
+          "duration": 201.0725,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Long-Term Sustainability: Maintenance, Adaptation, and Personal Growth",
+          "actualDuration": 201.0725,
+          "startTime": 1984.998666,
+          "endTime": 2186.0711659999997
+        },
+        {
+          "path": "Audio/output/1788/chapter_10.wav",
+          "duration": 182.1685,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Rewards and Realities: Embracing the Off-Grid Life for the Long Haul",
+          "actualDuration": 182.1685,
+          "startTime": 2187.5711659999997,
+          "endTime": 2369.7396659999995
+        },
+        {
+          "path": "Audio/output/1788/conclusion.wav",
+          "duration": 125.58425,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.58425,
+          "startTime": 2371.2396659999995,
+          "endTime": 2496.8239159999994
+        }
+      ],
+      "totalDuration": 2496.8239159999994,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.25,
+          "actualStart": 0,
+          "actualEnd": 101.253708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Modern Life: Why Simplicity and Self-Sufficiency Matter",
+          "expectedStart": 101.25,
+          "expectedEnd": 281.41,
+          "actualStart": 102.753708,
+          "actualEnd": 282.910458,
+          "timeDifference": 1.5037080000000032
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Preparing for Change: Mindset, Motivation, and Honest Self-Assessment",
+          "expectedStart": 281.41,
+          "expectedEnd": 520.5,
+          "actualStart": 284.410458,
+          "actualEnd": 523.498083,
+          "timeDifference": 3.0004579999999805
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Laying the Groundwork: Choosing Location, Land, and Legal Considerations",
+          "expectedStart": 520.5,
+          "expectedEnd": 759.68,
+          "actualStart": 524.998083,
+          "actualEnd": 764.1814159999999,
+          "timeDifference": 4.498082999999951
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building the Basics: Shelter, Water, and Energy Systems",
+          "expectedStart": 759.68,
+          "expectedEnd": 1034.34,
+          "actualStart": 765.6814159999999,
+          "actualEnd": 1040.342958,
+          "timeDifference": 6.001415999999949
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Adapting to a New Rhythm: Daily Life, Minimalism, and Mindset Shifts",
+          "expectedStart": 1034.34,
+          "expectedEnd": 1253.8,
+          "actualStart": 1041.842958,
+          "actualEnd": 1261.305541,
+          "timeDifference": 7.502958000000035
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Growing Your Own: Food Production, Preservation, and Seasonal Living",
+          "expectedStart": 1253.8,
+          "expectedEnd": 1537.77,
+          "actualStart": 1262.805541,
+          "actualEnd": 1546.770958,
+          "timeDifference": 9.005540999999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Money Matters: Earning, Spending, and Financial Resilience Off the Grid",
+          "expectedStart": 1537.77,
+          "expectedEnd": 1750.01,
+          "actualStart": 1548.270958,
+          "actualEnd": 1760.514791,
+          "timeDifference": 10.500958000000082
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community and Connection: Building Relationships Beyond the Grid",
+          "expectedStart": 1750.01,
+          "expectedEnd": 1971.49,
+          "actualStart": 1762.014791,
+          "actualEnd": 1983.498666,
+          "timeDifference": 12.004791000000068
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Long-Term Sustainability: Maintenance, Adaptation, and Personal Growth",
+          "expectedStart": 1971.49,
+          "expectedEnd": 2172.56,
+          "actualStart": 1984.998666,
+          "actualEnd": 2186.0711659999997,
+          "timeDifference": 13.508665999999948
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Rewards and Realities: Embracing the Off-Grid Life for the Long Haul",
+          "expectedStart": 2172.56,
+          "expectedEnd": 2354.73,
+          "actualStart": 2187.5711659999997,
+          "actualEnd": 2369.7396659999995,
+          "timeDifference": 15.011165999999776
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2354.73,
+          "expectedEnd": 2480.31,
+          "actualStart": 2371.2396659999995,
+          "actualEnd": 2496.8239159999994,
+          "timeDifference": 16.50966599999947
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.253708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Modern Life: Why Simplicity and Self-Sufficiency Matter"
+        },
+        {
+          "startTime": 282.910458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Modern Life: Why Simplicity and Self-Sufficiency Matter and Chapter 2 Preparing for Change: Mindset, Motivation, and Honest Self-Assessment"
+        },
+        {
+          "startTime": 523.498083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Preparing for Change: Mindset, Motivation, and Honest Self-Assessment and Chapter 3 Laying the Groundwork: Choosing Location, Land, and Legal Considerations"
+        },
+        {
+          "startTime": 764.1814159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Laying the Groundwork: Choosing Location, Land, and Legal Considerations and Chapter 4 Building the Basics: Shelter, Water, and Energy Systems"
+        },
+        {
+          "startTime": 1040.342958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building the Basics: Shelter, Water, and Energy Systems and Chapter 5 Adapting to a New Rhythm: Daily Life, Minimalism, and Mindset Shifts"
+        },
+        {
+          "startTime": 1261.305541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Adapting to a New Rhythm: Daily Life, Minimalism, and Mindset Shifts and Chapter 6 Growing Your Own: Food Production, Preservation, and Seasonal Living"
+        },
+        {
+          "startTime": 1546.770958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Growing Your Own: Food Production, Preservation, and Seasonal Living and Chapter 7 Money Matters: Earning, Spending, and Financial Resilience Off the Grid"
+        },
+        {
+          "startTime": 1760.514791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Money Matters: Earning, Spending, and Financial Resilience Off the Grid and Chapter 8 Community and Connection: Building Relationships Beyond the Grid"
+        },
+        {
+          "startTime": 1983.498666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community and Connection: Building Relationships Beyond the Grid and Chapter 9 Long-Term Sustainability: Maintenance, Adaptation, and Personal Growth"
+        },
+        {
+          "startTime": 2186.0711659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Long-Term Sustainability: Maintenance, Adaptation, and Personal Growth and Chapter 10 The Rewards and Realities: Embracing the Off-Grid Life for the Long Haul"
+        },
+        {
+          "startTime": 2369.7396659999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Rewards and Realities: Embracing the Off-Grid Life for the Long Haul and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1788",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T15:35:24.013Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

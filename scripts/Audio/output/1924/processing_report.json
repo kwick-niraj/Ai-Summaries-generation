@@ -1,0 +1,456 @@
+{
+  "bookId": "1924",
+  "timestamp": "2025-07-09T01:50:47.590Z",
+  "success": false,
+  "processingTime": -1752025152399,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4217,
+    "totalAudioFiles": 12,
+    "totalDuration": 1845.655999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1845.655999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1924/optimized_text/1924.md",
+    "fileSize": 727,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "1924.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1924/metadata/1924_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1845.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1924/metadata/1924_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1924/metadata/1924_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1924/1924_complete.wav",
+    "duration": 1845.656,
+    "fileSize": 88591566,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1924/introduction.wav",
+          "duration": 87.995458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.995458,
+          "startTime": 0,
+          "endTime": 87.995458
+        },
+        {
+          "path": "Audio/output/1924/chapter_01.wav",
+          "duration": 260.151792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Making of a Legend in a Lawless Land",
+          "actualDuration": 260.151792,
+          "startTime": 89.495458,
+          "endTime": 349.64725
+        },
+        {
+          "path": "Audio/output/1924/chapter_02.wav",
+          "duration": 211.418208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Friendship, Betrayal, and the Bonds of Survival",
+          "actualDuration": 211.418208,
+          "startTime": 351.14725,
+          "endTime": 562.565458
+        },
+        {
+          "path": "Audio/output/1924/chapter_03.wav",
+          "duration": 164.904375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Shifting Sands of Justice and Morality",
+          "actualDuration": 164.904375,
+          "startTime": 564.065458,
+          "endTime": 728.969833
+        },
+        {
+          "path": "Audio/output/1924/chapter_04.wav",
+          "duration": 140.629125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Story and the Birth of a Legend",
+          "actualDuration": 140.629125,
+          "startTime": 730.469833,
+          "endTime": 871.098958
+        },
+        {
+          "path": "Audio/output/1924/chapter_05.wav",
+          "duration": 135.793,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Final Pursuit and the End of an Era",
+          "actualDuration": 135.793,
+          "startTime": 872.598958,
+          "endTime": 1008.391958
+        },
+        {
+          "path": "Audio/output/1924/chapter_06.wav",
+          "duration": 174.563833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Echoes of the Kid: Memory, Regret, and the Weight of the Past",
+          "actualDuration": 174.563833,
+          "startTime": 1009.891958,
+          "endTime": 1184.455791
+        },
+        {
+          "path": "Audio/output/1924/chapter_07.wav",
+          "duration": 156.322542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Kid in the Mirror: Identity, Myth, and the Search for Self",
+          "actualDuration": 156.322542,
+          "startTime": 1185.955791,
+          "endTime": 1342.2783330000002
+        },
+        {
+          "path": "Audio/output/1924/chapter_08.wav",
+          "duration": 151.157458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The West Remembers: Storytelling, Legacy, and the Changing Frontier",
+          "actualDuration": 151.157458,
+          "startTime": 1343.7783330000002,
+          "endTime": 1494.935791
+        },
+        {
+          "path": "Audio/output/1924/chapter_09.wav",
+          "duration": 118.360167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons from the Legend: Freedom, Fate, and the Human Heart",
+          "actualDuration": 118.360167,
+          "startTime": 1496.435791,
+          "endTime": 1614.7959580000002
+        },
+        {
+          "path": "Audio/output/1924/chapter_10.wav",
+          "duration": 133.330583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Shadow: Myth, Memory, and the American Imagination",
+          "actualDuration": 133.330583,
+          "startTime": 1616.2959580000002,
+          "endTime": 1749.626541
+        },
+        {
+          "path": "Audio/output/1924/conclusion.wav",
+          "duration": 111.029458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.029458,
+          "startTime": 1751.126541,
+          "endTime": 1862.155999
+        }
+      ],
+      "totalDuration": 1862.155999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88,
+          "actualStart": 0,
+          "actualEnd": 87.995458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Making of a Legend in a Lawless Land",
+          "expectedStart": 88,
+          "expectedEnd": 348.15,
+          "actualStart": 89.495458,
+          "actualEnd": 349.64725,
+          "timeDifference": 1.4954579999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Friendship, Betrayal, and the Bonds of Survival",
+          "expectedStart": 348.15,
+          "expectedEnd": 559.57,
+          "actualStart": 351.14725,
+          "actualEnd": 562.565458,
+          "timeDifference": 2.997250000000008
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Shifting Sands of Justice and Morality",
+          "expectedStart": 559.57,
+          "expectedEnd": 724.47,
+          "actualStart": 564.065458,
+          "actualEnd": 728.969833,
+          "timeDifference": 4.495457999999985
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Story and the Birth of a Legend",
+          "expectedStart": 724.47,
+          "expectedEnd": 865.1,
+          "actualStart": 730.469833,
+          "actualEnd": 871.098958,
+          "timeDifference": 5.999832999999967
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Final Pursuit and the End of an Era",
+          "expectedStart": 865.1,
+          "expectedEnd": 1000.89,
+          "actualStart": 872.598958,
+          "actualEnd": 1008.391958,
+          "timeDifference": 7.498958000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Echoes of the Kid: Memory, Regret, and the Weight of the Past",
+          "expectedStart": 1000.89,
+          "expectedEnd": 1175.45,
+          "actualStart": 1009.891958,
+          "actualEnd": 1184.455791,
+          "timeDifference": 9.001958000000059
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Kid in the Mirror: Identity, Myth, and the Search for Self",
+          "expectedStart": 1175.45,
+          "expectedEnd": 1331.77,
+          "actualStart": 1185.955791,
+          "actualEnd": 1342.2783330000002,
+          "timeDifference": 10.505791000000045
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The West Remembers: Storytelling, Legacy, and the Changing Frontier",
+          "expectedStart": 1331.77,
+          "expectedEnd": 1482.93,
+          "actualStart": 1343.7783330000002,
+          "actualEnd": 1494.935791,
+          "timeDifference": 12.00833300000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons from the Legend: Freedom, Fate, and the Human Heart",
+          "expectedStart": 1482.93,
+          "expectedEnd": 1601.29,
+          "actualStart": 1496.435791,
+          "actualEnd": 1614.7959580000002,
+          "timeDifference": 13.505791000000045
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Shadow: Myth, Memory, and the American Imagination",
+          "expectedStart": 1601.29,
+          "expectedEnd": 1734.62,
+          "actualStart": 1616.2959580000002,
+          "actualEnd": 1749.626541,
+          "timeDifference": 15.005958000000192
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1734.62,
+          "expectedEnd": 1845.65,
+          "actualStart": 1751.126541,
+          "actualEnd": 1862.155999,
+          "timeDifference": 16.506541000000198
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.995458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Making of a Legend in a Lawless Land"
+        },
+        {
+          "startTime": 349.64725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Making of a Legend in a Lawless Land and Chapter 2 Friendship, Betrayal, and the Bonds of Survival"
+        },
+        {
+          "startTime": 562.565458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Friendship, Betrayal, and the Bonds of Survival and Chapter 3 The Shifting Sands of Justice and Morality"
+        },
+        {
+          "startTime": 728.969833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Shifting Sands of Justice and Morality and Chapter 4 The Power of Story and the Birth of a Legend"
+        },
+        {
+          "startTime": 871.098958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Story and the Birth of a Legend and Chapter 5 The Final Pursuit and the End of an Era"
+        },
+        {
+          "startTime": 1008.391958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Final Pursuit and the End of an Era and Chapter 6 Echoes of the Kid: Memory, Regret, and the Weight of the Past"
+        },
+        {
+          "startTime": 1184.455791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Echoes of the Kid: Memory, Regret, and the Weight of the Past and Chapter 7 The Kid in the Mirror: Identity, Myth, and the Search for Self"
+        },
+        {
+          "startTime": 1342.2783330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Kid in the Mirror: Identity, Myth, and the Search for Self and Chapter 8 The West Remembers: Storytelling, Legacy, and the Changing Frontier"
+        },
+        {
+          "startTime": 1494.935791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The West Remembers: Storytelling, Legacy, and the Changing Frontier and Chapter 9 Lessons from the Legend: Freedom, Fate, and the Human Heart"
+        },
+        {
+          "startTime": 1614.7959580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons from the Legend: Freedom, Fate, and the Human Heart and Chapter 10 The Enduring Shadow: Myth, Memory, and the American Imagination"
+        },
+        {
+          "startTime": 1749.626541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Shadow: Myth, Memory, and the American Imagination and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1924",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T01:39:13.577Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

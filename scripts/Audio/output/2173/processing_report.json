@@ -1,0 +1,455 @@
+{
+  "bookId": "2173",
+  "timestamp": "2025-07-09T22:44:42.636Z",
+  "success": false,
+  "processingTime": -1752100533370,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4422,
+    "totalAudioFiles": 12,
+    "totalDuration": 1937.020083
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1937.020083
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2173/optimized_text/2173.md",
+    "fileSize": 762,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2173.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2173/metadata/2173_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1937.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2173/metadata/2173_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2173/metadata/2173_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2173/2173_complete.wav",
+    "duration": 1937.020083,
+    "fileSize": 92977042,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2173/introduction.wav",
+          "duration": 103.22575,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.22575,
+          "startTime": 0,
+          "endTime": 103.22575
+        },
+        {
+          "path": "Audio/output/2173/chapter_01.wav",
+          "duration": 207.043583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Purpose and Possibility",
+          "actualDuration": 207.043583,
+          "startTime": 104.72575,
+          "endTime": 311.769333
+        },
+        {
+          "path": "Audio/output/2173/chapter_02.wav",
+          "duration": 205.052708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Education, Ambition, and the Search for Belonging",
+          "actualDuration": 205.052708,
+          "startTime": 313.269333,
+          "endTime": 518.322041
+        },
+        {
+          "path": "Audio/output/2173/chapter_03.wav",
+          "duration": 194.515125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Love, Partnership, and Redefining Success",
+          "actualDuration": 194.515125,
+          "startTime": 519.822041,
+          "endTime": 714.337166
+        },
+        {
+          "path": "Audio/output/2173/chapter_04.wav",
+          "duration": 218.599125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Stepping into the Public Eye and Facing New Challenges",
+          "actualDuration": 218.599125,
+          "startTime": 715.837166,
+          "endTime": 934.436291
+        },
+        {
+          "path": "Audio/output/2173/chapter_05.wav",
+          "duration": 212.883083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Redefining Leadership and Using Influence for Change",
+          "actualDuration": 212.883083,
+          "startTime": 935.936291,
+          "endTime": 1148.819374
+        },
+        {
+          "path": "Audio/output/2173/chapter_06.wav",
+          "duration": 161.7025,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating the White House—Family, Identity, and the Cost of Visibility",
+          "actualDuration": 161.7025,
+          "startTime": 1150.319374,
+          "endTime": 1312.021874
+        },
+        {
+          "path": "Audio/output/2173/chapter_07.wav",
+          "duration": 144.990417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Adversity—Resilience, Doubt, and the Power of Community",
+          "actualDuration": 144.990417,
+          "startTime": 1313.521874,
+          "endTime": 1458.512291
+        },
+        {
+          "path": "Audio/output/2173/chapter_08.wav",
+          "duration": 139.60425,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Letting Go—Transitions, Farewells, and the Search for What’s Next",
+          "actualDuration": 139.60425,
+          "startTime": 1460.012291,
+          "endTime": 1599.616541
+        },
+        {
+          "path": "Audio/output/2173/chapter_09.wav",
+          "duration": 126.699792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Becoming More—Growth, Vulnerability, and the Power of Story",
+          "actualDuration": 126.699792,
+          "startTime": 1601.116541,
+          "endTime": 1727.8163330000002
+        },
+        {
+          "path": "Audio/output/2173/chapter_10.wav",
+          "duration": 124.076458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Giving Back—Mentorship, Hope, and the Legacy of Service",
+          "actualDuration": 124.076458,
+          "startTime": 1729.3163330000002,
+          "endTime": 1853.3927910000002
+        },
+        {
+          "path": "Audio/output/2173/conclusion.wav",
+          "duration": 98.627292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.627292,
+          "startTime": 1854.8927910000002,
+          "endTime": 1953.520083
+        }
+      ],
+      "totalDuration": 1953.520083,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.23,
+          "actualStart": 0,
+          "actualEnd": 103.22575,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Purpose and Possibility",
+          "expectedStart": 103.23,
+          "expectedEnd": 310.27,
+          "actualStart": 104.72575,
+          "actualEnd": 311.769333,
+          "timeDifference": 1.495750000000001
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Education, Ambition, and the Search for Belonging",
+          "expectedStart": 310.27,
+          "expectedEnd": 515.32,
+          "actualStart": 313.269333,
+          "actualEnd": 518.322041,
+          "timeDifference": 2.9993330000000356
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Love, Partnership, and Redefining Success",
+          "expectedStart": 515.32,
+          "expectedEnd": 709.84,
+          "actualStart": 519.822041,
+          "actualEnd": 714.337166,
+          "timeDifference": 4.502040999999963
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Stepping into the Public Eye and Facing New Challenges",
+          "expectedStart": 709.84,
+          "expectedEnd": 928.44,
+          "actualStart": 715.837166,
+          "actualEnd": 934.436291,
+          "timeDifference": 5.997165999999993
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Redefining Leadership and Using Influence for Change",
+          "expectedStart": 928.44,
+          "expectedEnd": 1141.32,
+          "actualStart": 935.936291,
+          "actualEnd": 1148.819374,
+          "timeDifference": 7.496290999999928
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating the White House—Family, Identity, and the Cost of Visibility",
+          "expectedStart": 1141.32,
+          "expectedEnd": 1303.02,
+          "actualStart": 1150.319374,
+          "actualEnd": 1312.021874,
+          "timeDifference": 8.999373999999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Adversity—Resilience, Doubt, and the Power of Community",
+          "expectedStart": 1303.02,
+          "expectedEnd": 1448.01,
+          "actualStart": 1313.521874,
+          "actualEnd": 1458.512291,
+          "timeDifference": 10.501874000000043
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Letting Go—Transitions, Farewells, and the Search for What’s Next",
+          "expectedStart": 1448.01,
+          "expectedEnd": 1587.61,
+          "actualStart": 1460.012291,
+          "actualEnd": 1599.616541,
+          "timeDifference": 12.002291000000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Becoming More—Growth, Vulnerability, and the Power of Story",
+          "expectedStart": 1587.61,
+          "expectedEnd": 1714.31,
+          "actualStart": 1601.116541,
+          "actualEnd": 1727.8163330000002,
+          "timeDifference": 13.506541000000198
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Giving Back—Mentorship, Hope, and the Legacy of Service",
+          "expectedStart": 1714.31,
+          "expectedEnd": 1838.39,
+          "actualStart": 1729.3163330000002,
+          "actualEnd": 1853.3927910000002,
+          "timeDifference": 15.006333000000268
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1838.39,
+          "expectedEnd": 1937.02,
+          "actualStart": 1854.8927910000002,
+          "actualEnd": 1953.520083,
+          "timeDifference": 16.502791000000116
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.22575,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Purpose and Possibility"
+        },
+        {
+          "startTime": 311.769333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Purpose and Possibility and Chapter 2 Education, Ambition, and the Search for Belonging"
+        },
+        {
+          "startTime": 518.322041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Education, Ambition, and the Search for Belonging and Chapter 3 Love, Partnership, and Redefining Success"
+        },
+        {
+          "startTime": 714.337166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Love, Partnership, and Redefining Success and Chapter 4 Stepping into the Public Eye and Facing New Challenges"
+        },
+        {
+          "startTime": 934.436291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Stepping into the Public Eye and Facing New Challenges and Chapter 5 Redefining Leadership and Using Influence for Change"
+        },
+        {
+          "startTime": 1148.819374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Redefining Leadership and Using Influence for Change and Chapter 6 Navigating the White House—Family, Identity, and the Cost of Visibility"
+        },
+        {
+          "startTime": 1312.021874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating the White House—Family, Identity, and the Cost of Visibility and Chapter 7 Facing Adversity—Resilience, Doubt, and the Power of Community"
+        },
+        {
+          "startTime": 1458.512291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Adversity—Resilience, Doubt, and the Power of Community and Chapter 8 Letting Go—Transitions, Farewells, and the Search for What’s Next"
+        },
+        {
+          "startTime": 1599.616541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Letting Go—Transitions, Farewells, and the Search for What’s Next and Chapter 9 Becoming More—Growth, Vulnerability, and the Power of Story"
+        },
+        {
+          "startTime": 1727.8163330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Becoming More—Growth, Vulnerability, and the Power of Story and Chapter 10 Giving Back—Mentorship, Hope, and the Legacy of Service"
+        },
+        {
+          "startTime": 1853.3927910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Giving Back—Mentorship, Hope, and the Legacy of Service and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2173",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T22:35:34.577Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

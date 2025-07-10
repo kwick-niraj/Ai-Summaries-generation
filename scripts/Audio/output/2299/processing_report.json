@@ -1,0 +1,456 @@
+{
+  "bookId": "2299",
+  "timestamp": "2025-07-10T10:51:42.012Z",
+  "success": false,
+  "processingTime": -1752144447740,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3784,
+    "totalAudioFiles": 12,
+    "totalDuration": 1930.307542
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1930.307542
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2299/optimized_text/2299.md",
+    "fileSize": 811,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2299.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2299/metadata/2299_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1930.34,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2299/metadata/2299_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2299/metadata/2299_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2299/2299_complete.wav",
+    "duration": 1930.307542,
+    "fileSize": 92654840,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2299/introduction.wav",
+          "duration": 83.035,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.035,
+          "startTime": 0,
+          "endTime": 83.035
+        },
+        {
+          "path": "Audio/output/2299/chapter_01.wav",
+          "duration": 200.337083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Lust as a Heart Issue, Not Just a Behavior",
+          "actualDuration": 200.337083,
+          "startTime": 84.535,
+          "endTime": 284.872083
+        },
+        {
+          "path": "Audio/output/2299/chapter_02.wav",
+          "duration": 187.956042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Cultural Challenge: Navigating a World Saturated with Temptation",
+          "actualDuration": 187.956042,
+          "startTime": 286.372083,
+          "endTime": 474.328125
+        },
+        {
+          "path": "Audio/output/2299/chapter_03.wav",
+          "duration": 182.022333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Honest Confession and Accountability: Breaking the Power of Secrecy",
+          "actualDuration": 182.022333,
+          "startTime": 475.828125,
+          "endTime": 657.850458
+        },
+        {
+          "path": "Audio/output/2299/chapter_04.wav",
+          "duration": 189.250208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Disciplines for Guarding the Heart and Mind",
+          "actualDuration": 189.250208,
+          "startTime": 659.350458,
+          "endTime": 848.600666
+        },
+        {
+          "path": "Audio/output/2299/chapter_05.wav",
+          "duration": 186.756042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing God’s Grace and Vision for Sexuality",
+          "actualDuration": 186.756042,
+          "startTime": 850.100666,
+          "endTime": 1036.856708
+        },
+        {
+          "path": "Audio/output/2299/chapter_06.wav",
+          "duration": 179.8585,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Resilient Habits: Daily Practices for Long-Term Change",
+          "actualDuration": 179.8585,
+          "startTime": 1038.356708,
+          "endTime": 1218.215208
+        },
+        {
+          "path": "Audio/output/2299/chapter_07.wav",
+          "duration": 164.866,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Relationships: Respect, Boundaries, and Healthy Connection",
+          "actualDuration": 164.866,
+          "startTime": 1219.715208,
+          "endTime": 1384.581208
+        },
+        {
+          "path": "Audio/output/2299/chapter_08.wav",
+          "duration": 146.715542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Responding to Setbacks: Grace, Resilience, and the Path Forward",
+          "actualDuration": 146.715542,
+          "startTime": 1386.081208,
+          "endTime": 1532.79675
+        },
+        {
+          "path": "Audio/output/2299/chapter_09.wav",
+          "duration": 150.975042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Deepening Spiritual Practices: Anchoring Purity in a Larger Story",
+          "actualDuration": 150.975042,
+          "startTime": 1534.29675,
+          "endTime": 1685.271792
+        },
+        {
+          "path": "Audio/output/2299/chapter_10.wav",
+          "duration": 143.625833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Hope: Sustaining Change and Inspiring Others",
+          "actualDuration": 143.625833,
+          "startTime": 1686.771792,
+          "endTime": 1830.397625
+        },
+        {
+          "path": "Audio/output/2299/conclusion.wav",
+          "duration": 114.909917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.909917,
+          "startTime": 1831.897625,
+          "endTime": 1946.807542
+        }
+      ],
+      "totalDuration": 1946.807542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.04,
+          "actualStart": 0,
+          "actualEnd": 83.035,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Lust as a Heart Issue, Not Just a Behavior",
+          "expectedStart": 83.04,
+          "expectedEnd": 283.38,
+          "actualStart": 84.535,
+          "actualEnd": 284.872083,
+          "timeDifference": 1.4949999999999903
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Cultural Challenge: Navigating a World Saturated with Temptation",
+          "expectedStart": 283.38,
+          "expectedEnd": 471.34,
+          "actualStart": 286.372083,
+          "actualEnd": 474.328125,
+          "timeDifference": 2.9920829999999796
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Honest Confession and Accountability: Breaking the Power of Secrecy",
+          "expectedStart": 471.34,
+          "expectedEnd": 653.36,
+          "actualStart": 475.828125,
+          "actualEnd": 657.850458,
+          "timeDifference": 4.488125000000025
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Disciplines for Guarding the Heart and Mind",
+          "expectedStart": 653.36,
+          "expectedEnd": 842.61,
+          "actualStart": 659.350458,
+          "actualEnd": 848.600666,
+          "timeDifference": 5.99045799999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing God’s Grace and Vision for Sexuality",
+          "expectedStart": 842.61,
+          "expectedEnd": 1029.37,
+          "actualStart": 850.100666,
+          "actualEnd": 1036.856708,
+          "timeDifference": 7.490666000000033
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Resilient Habits: Daily Practices for Long-Term Change",
+          "expectedStart": 1029.37,
+          "expectedEnd": 1209.23,
+          "actualStart": 1038.356708,
+          "actualEnd": 1218.215208,
+          "timeDifference": 8.986708000000135
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Relationships: Respect, Boundaries, and Healthy Connection",
+          "expectedStart": 1209.23,
+          "expectedEnd": 1374.1,
+          "actualStart": 1219.715208,
+          "actualEnd": 1384.581208,
+          "timeDifference": 10.485208000000057
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Responding to Setbacks: Grace, Resilience, and the Path Forward",
+          "expectedStart": 1374.1,
+          "expectedEnd": 1520.82,
+          "actualStart": 1386.081208,
+          "actualEnd": 1532.79675,
+          "timeDifference": 11.981208000000152
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Deepening Spiritual Practices: Anchoring Purity in a Larger Story",
+          "expectedStart": 1520.82,
+          "expectedEnd": 1671.8,
+          "actualStart": 1534.29675,
+          "actualEnd": 1685.271792,
+          "timeDifference": 13.476750000000038
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Hope: Sustaining Change and Inspiring Others",
+          "expectedStart": 1671.8,
+          "expectedEnd": 1815.43,
+          "actualStart": 1686.771792,
+          "actualEnd": 1830.397625,
+          "timeDifference": 14.97179200000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1815.43,
+          "expectedEnd": 1930.34,
+          "actualStart": 1831.897625,
+          "actualEnd": 1946.807542,
+          "timeDifference": 16.467624999999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.035,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Lust as a Heart Issue, Not Just a Behavior"
+        },
+        {
+          "startTime": 284.872083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Lust as a Heart Issue, Not Just a Behavior and Chapter 2 The Cultural Challenge: Navigating a World Saturated with Temptation"
+        },
+        {
+          "startTime": 474.328125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Cultural Challenge: Navigating a World Saturated with Temptation and Chapter 3 Honest Confession and Accountability: Breaking the Power of Secrecy"
+        },
+        {
+          "startTime": 657.850458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Honest Confession and Accountability: Breaking the Power of Secrecy and Chapter 4 Practical Disciplines for Guarding the Heart and Mind"
+        },
+        {
+          "startTime": 848.600666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Disciplines for Guarding the Heart and Mind and Chapter 5 Embracing God’s Grace and Vision for Sexuality"
+        },
+        {
+          "startTime": 1036.856708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing God’s Grace and Vision for Sexuality and Chapter 6 Building Resilient Habits: Daily Practices for Long-Term Change"
+        },
+        {
+          "startTime": 1218.215208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Resilient Habits: Daily Practices for Long-Term Change and Chapter 7 Navigating Relationships: Respect, Boundaries, and Healthy Connection"
+        },
+        {
+          "startTime": 1384.581208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Relationships: Respect, Boundaries, and Healthy Connection and Chapter 8 Responding to Setbacks: Grace, Resilience, and the Path Forward"
+        },
+        {
+          "startTime": 1532.79675,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Responding to Setbacks: Grace, Resilience, and the Path Forward and Chapter 9 Deepening Spiritual Practices: Anchoring Purity in a Larger Story"
+        },
+        {
+          "startTime": 1685.271792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Deepening Spiritual Practices: Anchoring Purity in a Larger Story and Chapter 10 Living with Hope: Sustaining Change and Inspiring Others"
+        },
+        {
+          "startTime": 1830.397625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Hope: Sustaining Change and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2299",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:47:28.255Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

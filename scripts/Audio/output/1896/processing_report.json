@@ -1,0 +1,480 @@
+{
+  "bookId": "1896",
+  "timestamp": "2025-07-08T23:08:42.808Z",
+  "success": false,
+  "processingTime": -1752015554431,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5071,
+    "totalAudioFiles": 13,
+    "totalDuration": 2128.90425
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2128.90425
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1896/optimized_text/1896.md",
+    "fileSize": 819,
+    "wordCount": 112,
+    "format": "markdown",
+    "filename": "1896.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1896/metadata/1896_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2128.9,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1896/metadata/1896_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1896/metadata/1896_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1896/1896_complete.wav",
+    "duration": 2128.90425,
+    "fileSize": 102187482,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1896/introduction.wav",
+          "duration": 77.99825,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.99825,
+          "startTime": 0,
+          "endTime": 77.99825
+        },
+        {
+          "path": "Audio/output/1896/chapter_01.wav",
+          "duration": 186.761042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons: Family, Adversity, and the Roots of Character",
+          "actualDuration": 186.761042,
+          "startTime": 79.49825,
+          "endTime": 266.259292
+        },
+        {
+          "path": "Audio/output/1896/chapter_02.wav",
+          "duration": 222.654833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Curiosity Without Borders: The Power of Multidisciplinary Thinking",
+          "actualDuration": 222.654833,
+          "startTime": 267.759292,
+          "endTime": 490.414125
+        },
+        {
+          "path": "Audio/output/1896/chapter_03.wav",
+          "duration": 212.299375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Art of Partnership: Trust, Collaboration, and Shared Success",
+          "actualDuration": 212.299375,
+          "startTime": 491.914125,
+          "endTime": 704.2135000000001
+        },
+        {
+          "path": "Audio/output/1896/chapter_04.wav",
+          "duration": 201.950958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mental Models and Better Decisions: Seeing the World More Clearly",
+          "actualDuration": 201.950958,
+          "startTime": 705.7135000000001,
+          "endTime": 907.6644580000001
+        },
+        {
+          "path": "Audio/output/1896/chapter_05.wav",
+          "duration": 195.025958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Patience, Temperament, and the Long View in Investing and Life",
+          "actualDuration": 195.025958,
+          "startTime": 909.1644580000001,
+          "endTime": 1104.1904160000001
+        },
+        {
+          "path": "Audio/output/1896/chapter_06.wav",
+          "duration": 183.423917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Discipline of Simplicity: Cutting Through Complexity",
+          "actualDuration": 183.423917,
+          "startTime": 1105.6904160000001,
+          "endTime": 1289.1143330000002
+        },
+        {
+          "path": "Audio/output/1896/chapter_07.wav",
+          "duration": 155.236875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Ethics and Reputation: The Real Currency",
+          "actualDuration": 155.236875,
+          "startTime": 1290.6143330000002,
+          "endTime": 1445.8512080000003
+        },
+        {
+          "path": "Audio/output/1896/chapter_08.wav",
+          "duration": 163.727375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Resilience: Learning from Setbacks and Adversity",
+          "actualDuration": 163.727375,
+          "startTime": 1447.3512080000003,
+          "endTime": 1611.0785830000002
+        },
+        {
+          "path": "Audio/output/1896/chapter_09.wav",
+          "duration": 128.34275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Joy of Lifelong Learning",
+          "actualDuration": 128.34275,
+          "startTime": 1612.5785830000002,
+          "endTime": 1740.9213330000002
+        },
+        {
+          "path": "Audio/output/1896/chapter_10.wav",
+          "duration": 136.756875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Generosity, Mentorship, and the Ripple Effect",
+          "actualDuration": 136.756875,
+          "startTime": 1742.4213330000002,
+          "endTime": 1879.1782080000003
+        },
+        {
+          "path": "Audio/output/1896/chapter_11.wav",
+          "duration": 135.132792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Enduring Impact: Legacy and the Meaning of a Life Well Lived",
+          "actualDuration": 135.132792,
+          "startTime": 1880.6782080000003,
+          "endTime": 2015.8110000000001
+        },
+        {
+          "path": "Audio/output/1896/conclusion.wav",
+          "duration": 129.59325,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.59325,
+          "startTime": 2017.3110000000001,
+          "endTime": 2146.90425
+        }
+      ],
+      "totalDuration": 2146.90425,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78,
+          "actualStart": 0,
+          "actualEnd": 77.99825,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons: Family, Adversity, and the Roots of Character",
+          "expectedStart": 78,
+          "expectedEnd": 264.76,
+          "actualStart": 79.49825,
+          "actualEnd": 266.259292,
+          "timeDifference": 1.4982499999999987
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Curiosity Without Borders: The Power of Multidisciplinary Thinking",
+          "expectedStart": 264.76,
+          "expectedEnd": 487.41,
+          "actualStart": 267.759292,
+          "actualEnd": 490.414125,
+          "timeDifference": 2.9992920000000254
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Art of Partnership: Trust, Collaboration, and Shared Success",
+          "expectedStart": 487.41,
+          "expectedEnd": 699.71,
+          "actualStart": 491.914125,
+          "actualEnd": 704.2135000000001,
+          "timeDifference": 4.504124999999988
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mental Models and Better Decisions: Seeing the World More Clearly",
+          "expectedStart": 699.71,
+          "expectedEnd": 901.66,
+          "actualStart": 705.7135000000001,
+          "actualEnd": 907.6644580000001,
+          "timeDifference": 6.003500000000031
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Patience, Temperament, and the Long View in Investing and Life",
+          "expectedStart": 901.66,
+          "expectedEnd": 1096.69,
+          "actualStart": 909.1644580000001,
+          "actualEnd": 1104.1904160000001,
+          "timeDifference": 7.504458000000113
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Discipline of Simplicity: Cutting Through Complexity",
+          "expectedStart": 1096.69,
+          "expectedEnd": 1280.11,
+          "actualStart": 1105.6904160000001,
+          "actualEnd": 1289.1143330000002,
+          "timeDifference": 9.000416000000087
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Ethics and Reputation: The Real Currency",
+          "expectedStart": 1280.11,
+          "expectedEnd": 1435.35,
+          "actualStart": 1290.6143330000002,
+          "actualEnd": 1445.8512080000003,
+          "timeDifference": 10.504333000000315
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Resilience: Learning from Setbacks and Adversity",
+          "expectedStart": 1435.35,
+          "expectedEnd": 1599.08,
+          "actualStart": 1447.3512080000003,
+          "actualEnd": 1611.0785830000002,
+          "timeDifference": 12.00120800000036
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Joy of Lifelong Learning",
+          "expectedStart": 1599.08,
+          "expectedEnd": 1727.42,
+          "actualStart": 1612.5785830000002,
+          "actualEnd": 1740.9213330000002,
+          "timeDifference": 13.49858300000028
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Generosity, Mentorship, and the Ripple Effect",
+          "expectedStart": 1727.42,
+          "expectedEnd": 1864.18,
+          "actualStart": 1742.4213330000002,
+          "actualEnd": 1879.1782080000003,
+          "timeDifference": 15.001333000000159
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Enduring Impact: Legacy and the Meaning of a Life Well Lived",
+          "expectedStart": 1864.18,
+          "expectedEnd": 1999.31,
+          "actualStart": 1880.6782080000003,
+          "actualEnd": 2015.8110000000001,
+          "timeDifference": 16.498208000000204
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1999.31,
+          "expectedEnd": 2128.9,
+          "actualStart": 2017.3110000000001,
+          "actualEnd": 2146.90425,
+          "timeDifference": 18.001000000000204
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.99825,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons: Family, Adversity, and the Roots of Character"
+        },
+        {
+          "startTime": 266.259292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons: Family, Adversity, and the Roots of Character and Chapter 2 Curiosity Without Borders: The Power of Multidisciplinary Thinking"
+        },
+        {
+          "startTime": 490.414125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Curiosity Without Borders: The Power of Multidisciplinary Thinking and Chapter 3 The Art of Partnership: Trust, Collaboration, and Shared Success"
+        },
+        {
+          "startTime": 704.2135000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Art of Partnership: Trust, Collaboration, and Shared Success and Chapter 4 Mental Models and Better Decisions: Seeing the World More Clearly"
+        },
+        {
+          "startTime": 907.6644580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mental Models and Better Decisions: Seeing the World More Clearly and Chapter 5 Patience, Temperament, and the Long View in Investing and Life"
+        },
+        {
+          "startTime": 1104.1904160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Patience, Temperament, and the Long View in Investing and Life and Chapter 6 The Discipline of Simplicity: Cutting Through Complexity"
+        },
+        {
+          "startTime": 1289.1143330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Discipline of Simplicity: Cutting Through Complexity and Chapter 7 Ethics and Reputation: The Real Currency"
+        },
+        {
+          "startTime": 1445.8512080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Ethics and Reputation: The Real Currency and Chapter 8 Resilience: Learning from Setbacks and Adversity"
+        },
+        {
+          "startTime": 1611.0785830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Resilience: Learning from Setbacks and Adversity and Chapter 9 The Joy of Lifelong Learning"
+        },
+        {
+          "startTime": 1740.9213330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Joy of Lifelong Learning and Chapter 10 Generosity, Mentorship, and the Ripple Effect"
+        },
+        {
+          "startTime": 1879.1782080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Generosity, Mentorship, and the Ripple Effect and Chapter 11 The Enduring Impact: Legacy and the Meaning of a Life Well Lived"
+        },
+        {
+          "startTime": 2015.8110000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Enduring Impact: Legacy and the Meaning of a Life Well Lived and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1896",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T22:59:15.605Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

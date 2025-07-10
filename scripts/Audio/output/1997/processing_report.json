@@ -1,0 +1,480 @@
+{
+  "bookId": "1997",
+  "timestamp": "2025-07-09T08:23:30.896Z",
+  "success": false,
+  "processingTime": -1752048310656,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5302,
+    "totalAudioFiles": 13,
+    "totalDuration": 2506.071707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2506.071707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1997/optimized_text/1997.md",
+    "fileSize": 730,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "1997.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1997/metadata/1997_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2506.07,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1997/metadata/1997_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1997/metadata/1997_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1997/1997_complete.wav",
+    "duration": 2506.071708,
+    "fileSize": 120291520,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1997/introduction.wav",
+          "duration": 89.878083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.878083,
+          "startTime": 0,
+          "endTime": 89.878083
+        },
+        {
+          "path": "Audio/output/1997/chapter_01.wav",
+          "duration": 237.682208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Life and the Search for Meaning",
+          "actualDuration": 237.682208,
+          "startTime": 91.378083,
+          "endTime": 329.060291
+        },
+        {
+          "path": "Audio/output/1997/chapter_02.wav",
+          "duration": 241.071792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Deeper Purpose Behind Rituals and Customs",
+          "actualDuration": 241.071792,
+          "startTime": 330.560291,
+          "endTime": 571.632083
+        },
+        {
+          "path": "Audio/output/1997/chapter_03.wav",
+          "duration": 233.079792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Relationships, Duty, and the Art of Living Together",
+          "actualDuration": 233.079792,
+          "startTime": 573.132083,
+          "endTime": 806.211875
+        },
+        {
+          "path": "Audio/output/1997/chapter_04.wav",
+          "duration": 222.434208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Role of Self-Reflection and Personal Growth",
+          "actualDuration": 222.434208,
+          "startTime": 807.711875,
+          "endTime": 1030.146083
+        },
+        {
+          "path": "Audio/output/1997/chapter_05.wav",
+          "duration": 233.698375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Moderation, Balance, and the Value of Simplicity",
+          "actualDuration": 233.698375,
+          "startTime": 1031.646083,
+          "endTime": 1265.344458
+        },
+        {
+          "path": "Audio/output/1997/chapter_06.wav",
+          "duration": 197.4015,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Courage to Question and the Joy of Learning",
+          "actualDuration": 197.4015,
+          "startTime": 1266.844458,
+          "endTime": 1464.245958
+        },
+        {
+          "path": "Audio/output/1997/chapter_07.wav",
+          "duration": 194.6095,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Compassion, Empathy, and the Power of Understanding",
+          "actualDuration": 194.6095,
+          "startTime": 1465.745958,
+          "endTime": 1660.355458
+        },
+        {
+          "path": "Audio/output/1997/chapter_08.wav",
+          "duration": 197.598083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Spirituality with Daily Life",
+          "actualDuration": 197.598083,
+          "startTime": 1661.855458,
+          "endTime": 1859.453541
+        },
+        {
+          "path": "Audio/output/1997/chapter_09.wav",
+          "duration": 183.278042,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Social Harmony, Justice, and the Common Good",
+          "actualDuration": 183.278042,
+          "startTime": 1860.953541,
+          "endTime": 2044.231583
+        },
+        {
+          "path": "Audio/output/1997/chapter_10.wav",
+          "duration": 179.184458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Facing Suffering, Change, and the Mystery of Life",
+          "actualDuration": 179.184458,
+          "startTime": 2045.731583,
+          "endTime": 2224.916041
+        },
+        {
+          "path": "Audio/output/1997/chapter_11.wav",
+          "duration": 168.496708,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ongoing Journey: Tradition as Living Wisdom",
+          "actualDuration": 168.496708,
+          "startTime": 2226.416041,
+          "endTime": 2394.912749
+        },
+        {
+          "path": "Audio/output/1997/conclusion.wav",
+          "duration": 127.658958,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 127.658958,
+          "startTime": 2396.412749,
+          "endTime": 2524.071707
+        }
+      ],
+      "totalDuration": 2524.071707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.88,
+          "actualStart": 0,
+          "actualEnd": 89.878083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Life and the Search for Meaning",
+          "expectedStart": 89.88,
+          "expectedEnd": 327.56,
+          "actualStart": 91.378083,
+          "actualEnd": 329.060291,
+          "timeDifference": 1.4980830000000083
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Deeper Purpose Behind Rituals and Customs",
+          "expectedStart": 327.56,
+          "expectedEnd": 568.63,
+          "actualStart": 330.560291,
+          "actualEnd": 571.632083,
+          "timeDifference": 3.0002910000000043
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Relationships, Duty, and the Art of Living Together",
+          "expectedStart": 568.63,
+          "expectedEnd": 801.71,
+          "actualStart": 573.132083,
+          "actualEnd": 806.211875,
+          "timeDifference": 4.5020829999999705
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Role of Self-Reflection and Personal Growth",
+          "expectedStart": 801.71,
+          "expectedEnd": 1024.14,
+          "actualStart": 807.711875,
+          "actualEnd": 1030.146083,
+          "timeDifference": 6.001874999999927
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Moderation, Balance, and the Value of Simplicity",
+          "expectedStart": 1024.14,
+          "expectedEnd": 1257.84,
+          "actualStart": 1031.646083,
+          "actualEnd": 1265.344458,
+          "timeDifference": 7.50608299999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Courage to Question and the Joy of Learning",
+          "expectedStart": 1257.84,
+          "expectedEnd": 1455.24,
+          "actualStart": 1266.844458,
+          "actualEnd": 1464.245958,
+          "timeDifference": 9.004458000000113
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Compassion, Empathy, and the Power of Understanding",
+          "expectedStart": 1455.24,
+          "expectedEnd": 1649.85,
+          "actualStart": 1465.745958,
+          "actualEnd": 1660.355458,
+          "timeDifference": 10.505957999999964
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Spirituality with Daily Life",
+          "expectedStart": 1649.85,
+          "expectedEnd": 1847.45,
+          "actualStart": 1661.855458,
+          "actualEnd": 1859.453541,
+          "timeDifference": 12.00545800000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Social Harmony, Justice, and the Common Good",
+          "expectedStart": 1847.45,
+          "expectedEnd": 2030.73,
+          "actualStart": 1860.953541,
+          "actualEnd": 2044.231583,
+          "timeDifference": 13.503541000000041
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Facing Suffering, Change, and the Mystery of Life",
+          "expectedStart": 2030.73,
+          "expectedEnd": 2209.91,
+          "actualStart": 2045.731583,
+          "actualEnd": 2224.916041,
+          "timeDifference": 15.001582999999982
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ongoing Journey: Tradition as Living Wisdom",
+          "expectedStart": 2209.91,
+          "expectedEnd": 2378.41,
+          "actualStart": 2226.416041,
+          "actualEnd": 2394.912749,
+          "timeDifference": 16.506041000000096
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2378.41,
+          "expectedEnd": 2506.07,
+          "actualStart": 2396.412749,
+          "actualEnd": 2524.071707,
+          "timeDifference": 18.00274900000022
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.878083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Life and the Search for Meaning"
+        },
+        {
+          "startTime": 329.060291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Life and the Search for Meaning and Chapter 2 The Deeper Purpose Behind Rituals and Customs"
+        },
+        {
+          "startTime": 571.632083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Deeper Purpose Behind Rituals and Customs and Chapter 3 Relationships, Duty, and the Art of Living Together"
+        },
+        {
+          "startTime": 806.211875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Relationships, Duty, and the Art of Living Together and Chapter 4 The Role of Self-Reflection and Personal Growth"
+        },
+        {
+          "startTime": 1030.146083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Role of Self-Reflection and Personal Growth and Chapter 5 Moderation, Balance, and the Value of Simplicity"
+        },
+        {
+          "startTime": 1265.344458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Moderation, Balance, and the Value of Simplicity and Chapter 6 The Courage to Question and the Joy of Learning"
+        },
+        {
+          "startTime": 1464.245958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Courage to Question and the Joy of Learning and Chapter 7 Compassion, Empathy, and the Power of Understanding"
+        },
+        {
+          "startTime": 1660.355458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Compassion, Empathy, and the Power of Understanding and Chapter 8 Integrating Spirituality with Daily Life"
+        },
+        {
+          "startTime": 1859.453541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Spirituality with Daily Life and Chapter 9 Social Harmony, Justice, and the Common Good"
+        },
+        {
+          "startTime": 2044.231583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Social Harmony, Justice, and the Common Good and Chapter 10 Facing Suffering, Change, and the Mystery of Life"
+        },
+        {
+          "startTime": 2224.916041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Facing Suffering, Change, and the Mystery of Life and Chapter 11 The Ongoing Journey: Tradition as Living Wisdom"
+        },
+        {
+          "startTime": 2394.912749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ongoing Journey: Tradition as Living Wisdom and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1997",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T08:05:11.853Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

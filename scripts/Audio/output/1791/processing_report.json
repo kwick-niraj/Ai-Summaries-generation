@@ -1,0 +1,456 @@
+{
+  "bookId": "1791",
+  "timestamp": "2025-07-08T16:05:43.723Z",
+  "success": false,
+  "processingTime": -1751990194881,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4369,
+    "totalAudioFiles": 12,
+    "totalDuration": 1948.222708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1948.222708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1791/optimized_text/1791.md",
+    "fileSize": 603,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1791.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1791/metadata/1791_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1948.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1791/metadata/1791_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1791/metadata/1791_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1791/1791_complete.wav",
+    "duration": 1948.222708,
+    "fileSize": 93514768,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1791/introduction.wav",
+          "duration": 90.120792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.120792,
+          "startTime": 0,
+          "endTime": 90.120792
+        },
+        {
+          "path": "Audio/output/1791/chapter_01.wav",
+          "duration": 182.889917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing the Mystery of an Unseen God",
+          "actualDuration": 182.889917,
+          "startTime": 91.620792,
+          "endTime": 274.510709
+        },
+        {
+          "path": "Audio/output/1791/chapter_02.wav",
+          "duration": 186.290167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Doubt in Spiritual Life",
+          "actualDuration": 186.290167,
+          "startTime": 276.010709,
+          "endTime": 462.300876
+        },
+        {
+          "path": "Audio/output/1791/chapter_03.wav",
+          "duration": 192.396333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faith as Trust in the Unseen",
+          "actualDuration": 192.396333,
+          "startTime": 463.800876,
+          "endTime": 656.197209
+        },
+        {
+          "path": "Audio/output/1791/chapter_04.wav",
+          "duration": 185.006958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Tension Between Personal Experience and Abstract Belief",
+          "actualDuration": 185.006958,
+          "startTime": 657.697209,
+          "endTime": 842.7041670000001
+        },
+        {
+          "path": "Audio/output/1791/chapter_05.wav",
+          "duration": 191.366,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Honesty and Authenticity in Spiritual Growth",
+          "actualDuration": 191.366,
+          "startTime": 844.2041670000001,
+          "endTime": 1035.570167
+        },
+        {
+          "path": "Audio/output/1791/chapter_06.wav",
+          "duration": 172.75725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Searching for God in Everyday Life",
+          "actualDuration": 172.75725,
+          "startTime": 1037.070167,
+          "endTime": 1209.827417
+        },
+        {
+          "path": "Audio/output/1791/chapter_07.wav",
+          "duration": 163.91225,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Paradox of God’s Hiddenness",
+          "actualDuration": 163.91225,
+          "startTime": 1211.327417,
+          "endTime": 1375.239667
+        },
+        {
+          "path": "Audio/output/1791/chapter_08.wav",
+          "duration": 167.735458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Hope and Perseverance in the Face of Uncertainty",
+          "actualDuration": 167.735458,
+          "startTime": 1376.739667,
+          "endTime": 1544.475125
+        },
+        {
+          "path": "Audio/output/1791/chapter_09.wav",
+          "duration": 153.241958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Community and the Shared Search for God",
+          "actualDuration": 153.241958,
+          "startTime": 1545.975125,
+          "endTime": 1699.217083
+        },
+        {
+          "path": "Audio/output/1791/chapter_10.wav",
+          "duration": 137.703042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Mystery and Embracing the Journey",
+          "actualDuration": 137.703042,
+          "startTime": 1700.717083,
+          "endTime": 1838.420125
+        },
+        {
+          "path": "Audio/output/1791/conclusion.wav",
+          "duration": 124.802583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.802583,
+          "startTime": 1839.920125,
+          "endTime": 1964.722708
+        }
+      ],
+      "totalDuration": 1964.722708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.12,
+          "actualStart": 0,
+          "actualEnd": 90.120792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing the Mystery of an Unseen God",
+          "expectedStart": 90.12,
+          "expectedEnd": 273.01,
+          "actualStart": 91.620792,
+          "actualEnd": 274.510709,
+          "timeDifference": 1.50079199999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Doubt in Spiritual Life",
+          "expectedStart": 273.01,
+          "expectedEnd": 459.3,
+          "actualStart": 276.010709,
+          "actualEnd": 462.300876,
+          "timeDifference": 3.000709000000029
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faith as Trust in the Unseen",
+          "expectedStart": 459.3,
+          "expectedEnd": 651.7,
+          "actualStart": 463.800876,
+          "actualEnd": 656.197209,
+          "timeDifference": 4.500876000000005
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Tension Between Personal Experience and Abstract Belief",
+          "expectedStart": 651.7,
+          "expectedEnd": 836.71,
+          "actualStart": 657.697209,
+          "actualEnd": 842.7041670000001,
+          "timeDifference": 5.997208999999998
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Honesty and Authenticity in Spiritual Growth",
+          "expectedStart": 836.71,
+          "expectedEnd": 1028.08,
+          "actualStart": 844.2041670000001,
+          "actualEnd": 1035.570167,
+          "timeDifference": 7.494167000000061
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Searching for God in Everyday Life",
+          "expectedStart": 1028.08,
+          "expectedEnd": 1200.84,
+          "actualStart": 1037.070167,
+          "actualEnd": 1209.827417,
+          "timeDifference": 8.990167000000156
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Paradox of God’s Hiddenness",
+          "expectedStart": 1200.84,
+          "expectedEnd": 1364.75,
+          "actualStart": 1211.327417,
+          "actualEnd": 1375.239667,
+          "timeDifference": 10.48741700000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Hope and Perseverance in the Face of Uncertainty",
+          "expectedStart": 1364.75,
+          "expectedEnd": 1532.49,
+          "actualStart": 1376.739667,
+          "actualEnd": 1544.475125,
+          "timeDifference": 11.989667000000054
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Community and the Shared Search for God",
+          "expectedStart": 1532.49,
+          "expectedEnd": 1685.73,
+          "actualStart": 1545.975125,
+          "actualEnd": 1699.217083,
+          "timeDifference": 13.485124999999925
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Mystery and Embracing the Journey",
+          "expectedStart": 1685.73,
+          "expectedEnd": 1823.43,
+          "actualStart": 1700.717083,
+          "actualEnd": 1838.420125,
+          "timeDifference": 14.987082999999984
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1823.43,
+          "expectedEnd": 1948.23,
+          "actualStart": 1839.920125,
+          "actualEnd": 1964.722708,
+          "timeDifference": 16.490125000000035
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.120792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing the Mystery of an Unseen God"
+        },
+        {
+          "startTime": 274.510709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing the Mystery of an Unseen God and Chapter 2 The Role of Doubt in Spiritual Life"
+        },
+        {
+          "startTime": 462.300876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Doubt in Spiritual Life and Chapter 3 Faith as Trust in the Unseen"
+        },
+        {
+          "startTime": 656.197209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faith as Trust in the Unseen and Chapter 4 The Tension Between Personal Experience and Abstract Belief"
+        },
+        {
+          "startTime": 842.7041670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Tension Between Personal Experience and Abstract Belief and Chapter 5 Honesty and Authenticity in Spiritual Growth"
+        },
+        {
+          "startTime": 1035.570167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Honesty and Authenticity in Spiritual Growth and Chapter 6 Searching for God in Everyday Life"
+        },
+        {
+          "startTime": 1209.827417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Searching for God in Everyday Life and Chapter 7 The Paradox of God’s Hiddenness"
+        },
+        {
+          "startTime": 1375.239667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Paradox of God’s Hiddenness and Chapter 8 Hope and Perseverance in the Face of Uncertainty"
+        },
+        {
+          "startTime": 1544.475125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Hope and Perseverance in the Face of Uncertainty and Chapter 9 Community and the Shared Search for God"
+        },
+        {
+          "startTime": 1699.217083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Community and the Shared Search for God and Chapter 10 Living with Mystery and Embracing the Journey"
+        },
+        {
+          "startTime": 1838.420125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Mystery and Embracing the Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1791",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T15:56:36.049Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

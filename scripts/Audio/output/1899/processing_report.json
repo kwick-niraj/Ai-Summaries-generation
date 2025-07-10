@@ -1,0 +1,455 @@
+{
+  "bookId": "1899",
+  "timestamp": "2025-07-08T23:22:06.331Z",
+  "success": false,
+  "processingTime": -1752016123812,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5012,
+    "totalAudioFiles": 12,
+    "totalDuration": 2197.7963330000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2197.7963330000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1899/optimized_text/1899.md",
+    "fileSize": 719,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "1899.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1899/metadata/1899_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2197.79,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1899/metadata/1899_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1899/metadata/1899_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1899/1899_complete.wav",
+    "duration": 2197.796333,
+    "fileSize": 105494302,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1899/introduction.wav",
+          "duration": 76.132542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.132542,
+          "startTime": 0,
+          "endTime": 76.132542
+        },
+        {
+          "path": "Audio/output/1899/chapter_01.wav",
+          "duration": 258.018333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Someone Disappears: The First Days of Uncertainty",
+          "actualDuration": 258.018333,
+          "startTime": 77.632542,
+          "endTime": 335.650875
+        },
+        {
+          "path": "Audio/output/1899/chapter_02.wav",
+          "duration": 242.159375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Living with Ambiguous Loss: Grief Without Closure",
+          "actualDuration": 242.159375,
+          "startTime": 337.150875,
+          "endTime": 579.31025
+        },
+        {
+          "path": "Audio/output/1899/chapter_03.wav",
+          "duration": 254.532083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Search for Answers: Navigating Investigations and the System",
+          "actualDuration": 254.532083,
+          "startTime": 580.81025,
+          "endTime": 835.342333
+        },
+        {
+          "path": "Audio/output/1899/chapter_04.wav",
+          "duration": 226.330917,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Awareness: Media, Community, and Advocacy",
+          "actualDuration": 226.330917,
+          "startTime": 836.842333,
+          "endTime": 1063.17325
+        },
+        {
+          "path": "Audio/output/1899/chapter_05.wav",
+          "duration": 167.955792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Endurance and Hope: Coping in the Face of Uncertainty",
+          "actualDuration": 167.955792,
+          "startTime": 1064.67325,
+          "endTime": 1232.629042
+        },
+        {
+          "path": "Audio/output/1899/chapter_06.wav",
+          "duration": 187.233583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Shadow: Years Without Answers",
+          "actualDuration": 187.233583,
+          "startTime": 1234.129042,
+          "endTime": 1421.362625
+        },
+        {
+          "path": "Audio/output/1899/chapter_07.wav",
+          "duration": 177.990417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: How Disappearance Changes Lives",
+          "actualDuration": 177.990417,
+          "startTime": 1422.862625,
+          "endTime": 1600.853042
+        },
+        {
+          "path": "Audio/output/1899/chapter_08.wav",
+          "duration": 189.190458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Advocacy Evolves: Families as Agents of Change",
+          "actualDuration": 189.190458,
+          "startTime": 1602.353042,
+          "endTime": 1791.5435
+        },
+        {
+          "path": "Audio/output/1899/chapter_09.wav",
+          "duration": 137.892667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Finding Meaning: Rituals, Memorials, and New Beginnings",
+          "actualDuration": 137.892667,
+          "startTime": 1793.0435,
+          "endTime": 1930.936167
+        },
+        {
+          "path": "Audio/output/1899/chapter_10.wav",
+          "duration": 166.323458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Search: Cold Cases and Unfinished Stories",
+          "actualDuration": 166.323458,
+          "startTime": 1932.436167,
+          "endTime": 2098.759625
+        },
+        {
+          "path": "Audio/output/1899/conclusion.wav",
+          "duration": 114.036708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.036708,
+          "startTime": 2100.259625,
+          "endTime": 2214.2963330000002
+        }
+      ],
+      "totalDuration": 2214.2963330000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.13,
+          "actualStart": 0,
+          "actualEnd": 76.132542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Someone Disappears: The First Days of Uncertainty",
+          "expectedStart": 76.13,
+          "expectedEnd": 334.15,
+          "actualStart": 77.632542,
+          "actualEnd": 335.650875,
+          "timeDifference": 1.5025420000000054
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Living with Ambiguous Loss: Grief Without Closure",
+          "expectedStart": 334.15,
+          "expectedEnd": 576.31,
+          "actualStart": 337.150875,
+          "actualEnd": 579.31025,
+          "timeDifference": 3.0008750000000077
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Search for Answers: Navigating Investigations and the System",
+          "expectedStart": 576.31,
+          "expectedEnd": 830.84,
+          "actualStart": 580.81025,
+          "actualEnd": 835.342333,
+          "timeDifference": 4.500250000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Awareness: Media, Community, and Advocacy",
+          "expectedStart": 830.84,
+          "expectedEnd": 1057.17,
+          "actualStart": 836.842333,
+          "actualEnd": 1063.17325,
+          "timeDifference": 6.0023330000000215
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Endurance and Hope: Coping in the Face of Uncertainty",
+          "expectedStart": 1057.17,
+          "expectedEnd": 1225.13,
+          "actualStart": 1064.67325,
+          "actualEnd": 1232.629042,
+          "timeDifference": 7.50324999999998
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Shadow: Years Without Answers",
+          "expectedStart": 1225.13,
+          "expectedEnd": 1412.36,
+          "actualStart": 1234.129042,
+          "actualEnd": 1421.362625,
+          "timeDifference": 8.999041999999918
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: How Disappearance Changes Lives",
+          "expectedStart": 1412.36,
+          "expectedEnd": 1590.35,
+          "actualStart": 1422.862625,
+          "actualEnd": 1600.853042,
+          "timeDifference": 10.50262500000008
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Advocacy Evolves: Families as Agents of Change",
+          "expectedStart": 1590.35,
+          "expectedEnd": 1779.54,
+          "actualStart": 1602.353042,
+          "actualEnd": 1791.5435,
+          "timeDifference": 12.00304200000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Finding Meaning: Rituals, Memorials, and New Beginnings",
+          "expectedStart": 1779.54,
+          "expectedEnd": 1917.43,
+          "actualStart": 1793.0435,
+          "actualEnd": 1930.936167,
+          "timeDifference": 13.503500000000031
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Search: Cold Cases and Unfinished Stories",
+          "expectedStart": 1917.43,
+          "expectedEnd": 2083.75,
+          "actualStart": 1932.436167,
+          "actualEnd": 2098.759625,
+          "timeDifference": 15.006167000000005
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2083.75,
+          "expectedEnd": 2197.79,
+          "actualStart": 2100.259625,
+          "actualEnd": 2214.2963330000002,
+          "timeDifference": 16.509625000000142
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.132542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Someone Disappears: The First Days of Uncertainty"
+        },
+        {
+          "startTime": 335.650875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Someone Disappears: The First Days of Uncertainty and Chapter 2 Living with Ambiguous Loss: Grief Without Closure"
+        },
+        {
+          "startTime": 579.31025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Living with Ambiguous Loss: Grief Without Closure and Chapter 3 The Search for Answers: Navigating Investigations and the System"
+        },
+        {
+          "startTime": 835.342333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Search for Answers: Navigating Investigations and the System and Chapter 4 The Power of Awareness: Media, Community, and Advocacy"
+        },
+        {
+          "startTime": 1063.17325,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Awareness: Media, Community, and Advocacy and Chapter 5 Endurance and Hope: Coping in the Face of Uncertainty"
+        },
+        {
+          "startTime": 1232.629042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Endurance and Hope: Coping in the Face of Uncertainty and Chapter 6 The Long Shadow: Years Without Answers"
+        },
+        {
+          "startTime": 1421.362625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Shadow: Years Without Answers and Chapter 7 The Ripple Effect: How Disappearance Changes Lives"
+        },
+        {
+          "startTime": 1600.853042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: How Disappearance Changes Lives and Chapter 8 Advocacy Evolves: Families as Agents of Change"
+        },
+        {
+          "startTime": 1791.5435,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Advocacy Evolves: Families as Agents of Change and Chapter 9 Finding Meaning: Rituals, Memorials, and New Beginnings"
+        },
+        {
+          "startTime": 1930.936167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Finding Meaning: Rituals, Memorials, and New Beginnings and Chapter 10 The Ongoing Search: Cold Cases and Unfinished Stories"
+        },
+        {
+          "startTime": 2098.759625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Search: Cold Cases and Unfinished Stories and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1899",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T23:08:44.991Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "bookId": "2314",
+  "timestamp": "2025-07-10T11:37:09.272Z",
+  "success": false,
+  "processingTime": -1752147094201,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5322,
+    "totalAudioFiles": 17,
+    "totalDuration": 2324.064833
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2324.064833
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2314/optimized_text/2314.md",
+    "fileSize": 737,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2314.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2314/metadata/2314_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2324.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2314/metadata/2314_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2314/metadata/2314_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2314/2314_complete.wav",
+    "duration": 2324.064833,
+    "fileSize": 111555190,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2314/introduction.wav",
+          "duration": 84.854917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.854917,
+          "startTime": 0,
+          "endTime": 84.854917
+        },
+        {
+          "path": "Audio/output/2314/chapter_01.wav",
+          "duration": 214.840583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Narrow Beam of Attention",
+          "actualDuration": 214.840583,
+          "startTime": 86.354917,
+          "endTime": 301.19550000000004
+        },
+        {
+          "path": "Audio/output/2314/chapter_02.wav",
+          "duration": 186.401625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Forces Shaping Experience",
+          "actualDuration": 186.401625,
+          "startTime": 302.69550000000004,
+          "endTime": 489.097125
+        },
+        {
+          "path": "Audio/output/2314/chapter_03.wav",
+          "duration": 203.573833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Trap of Tunnel Vision",
+          "actualDuration": 203.573833,
+          "startTime": 490.597125,
+          "endTime": 694.170958
+        },
+        {
+          "path": "Audio/output/2314/chapter_04.wav",
+          "duration": 154.735583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Openness to Serendipity and the Unexpected",
+          "actualDuration": 154.735583,
+          "startTime": 695.670958,
+          "endTime": 850.4065410000001
+        },
+        {
+          "path": "Audio/output/2314/chapter_05.wav",
+          "duration": 143.88025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Learning from Missed Opportunities",
+          "actualDuration": 143.88025,
+          "startTime": 851.9065410000001,
+          "endTime": 995.786791
+        },
+        {
+          "path": "Audio/output/2314/chapter_06.wav",
+          "duration": 148.853875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Noticing",
+          "actualDuration": 148.853875,
+          "startTime": 997.286791,
+          "endTime": 1146.140666
+        },
+        {
+          "path": "Audio/output/2314/chapter_07.wav",
+          "duration": 130.475375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Influence of Environment",
+          "actualDuration": 130.475375,
+          "startTime": 1147.640666,
+          "endTime": 1278.116041
+        },
+        {
+          "path": "Audio/output/2314/chapter_08.wav",
+          "duration": 139.357125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Relationships and the Unseen",
+          "actualDuration": 139.357125,
+          "startTime": 1279.616041,
+          "endTime": 1418.973166
+        },
+        {
+          "path": "Audio/output/2314/chapter_09.wav",
+          "duration": 132.490792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Letting Go",
+          "actualDuration": 132.490792,
+          "startTime": 1420.473166,
+          "endTime": 1552.963958
+        },
+        {
+          "path": "Audio/output/2314/chapter_10.wav",
+          "duration": 136.672958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Cultivating a Wider Awareness",
+          "actualDuration": 136.672958,
+          "startTime": 1554.463958,
+          "endTime": 1691.136916
+        },
+        {
+          "path": "Audio/output/2314/chapter_11.wav",
+          "duration": 103.524042,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Practice of Mindful Living",
+          "actualDuration": 103.524042,
+          "startTime": 1692.636916,
+          "endTime": 1796.160958
+        },
+        {
+          "path": "Audio/output/2314/chapter_12.wav",
+          "duration": 94.237542,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Seeing the Unseen in Everyday Life",
+          "actualDuration": 94.237542,
+          "startTime": 1797.660958,
+          "endTime": 1891.8985
+        },
+        {
+          "path": "Audio/output/2314/chapter_13.wav",
+          "duration": 100.911958,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Navigating Uncertainty with Awareness",
+          "actualDuration": 100.911958,
+          "startTime": 1893.3985,
+          "endTime": 1994.310458
+        },
+        {
+          "path": "Audio/output/2314/chapter_14.wav",
+          "duration": 110.698458,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Ripple Effect of Attention",
+          "actualDuration": 110.698458,
+          "startTime": 1995.810458,
+          "endTime": 2106.5089159999998
+        },
+        {
+          "path": "Audio/output/2314/chapter_15.wav",
+          "duration": 101.486292,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Living with Intention",
+          "actualDuration": 101.486292,
+          "startTime": 2108.0089159999998,
+          "endTime": 2209.495208
+        },
+        {
+          "path": "Audio/output/2314/conclusion.wav",
+          "duration": 137.069625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.069625,
+          "startTime": 2210.995208,
+          "endTime": 2348.064833
+        }
+      ],
+      "totalDuration": 2348.064833,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.85,
+          "actualStart": 0,
+          "actualEnd": 84.854917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Narrow Beam of Attention",
+          "expectedStart": 84.85,
+          "expectedEnd": 299.69,
+          "actualStart": 86.354917,
+          "actualEnd": 301.19550000000004,
+          "timeDifference": 1.504917000000006
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Forces Shaping Experience",
+          "expectedStart": 299.69,
+          "expectedEnd": 486.09,
+          "actualStart": 302.69550000000004,
+          "actualEnd": 489.097125,
+          "timeDifference": 3.0055000000000405
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Trap of Tunnel Vision",
+          "expectedStart": 486.09,
+          "expectedEnd": 689.66,
+          "actualStart": 490.597125,
+          "actualEnd": 694.170958,
+          "timeDifference": 4.5071250000000305
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Openness to Serendipity and the Unexpected",
+          "expectedStart": 689.66,
+          "expectedEnd": 844.4,
+          "actualStart": 695.670958,
+          "actualEnd": 850.4065410000001,
+          "timeDifference": 6.010958000000073
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Learning from Missed Opportunities",
+          "expectedStart": 844.4,
+          "expectedEnd": 988.28,
+          "actualStart": 851.9065410000001,
+          "actualEnd": 995.786791,
+          "timeDifference": 7.506541000000084
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Noticing",
+          "expectedStart": 988.28,
+          "expectedEnd": 1137.13,
+          "actualStart": 997.286791,
+          "actualEnd": 1146.140666,
+          "timeDifference": 9.006791000000021
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Influence of Environment",
+          "expectedStart": 1137.13,
+          "expectedEnd": 1267.61,
+          "actualStart": 1147.640666,
+          "actualEnd": 1278.116041,
+          "timeDifference": 10.510665999999901
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Relationships and the Unseen",
+          "expectedStart": 1267.61,
+          "expectedEnd": 1406.97,
+          "actualStart": 1279.616041,
+          "actualEnd": 1418.973166,
+          "timeDifference": 12.006041000000096
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Letting Go",
+          "expectedStart": 1406.97,
+          "expectedEnd": 1539.46,
+          "actualStart": 1420.473166,
+          "actualEnd": 1552.963958,
+          "timeDifference": 13.503165999999965
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Cultivating a Wider Awareness",
+          "expectedStart": 1539.46,
+          "expectedEnd": 1676.13,
+          "actualStart": 1554.463958,
+          "actualEnd": 1691.136916,
+          "timeDifference": 15.003958000000011
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Practice of Mindful Living",
+          "expectedStart": 1676.13,
+          "expectedEnd": 1779.65,
+          "actualStart": 1692.636916,
+          "actualEnd": 1796.160958,
+          "timeDifference": 16.50691599999982
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Seeing the Unseen in Everyday Life",
+          "expectedStart": 1779.65,
+          "expectedEnd": 1873.89,
+          "actualStart": 1797.660958,
+          "actualEnd": 1891.8985,
+          "timeDifference": 18.010957999999846
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Navigating Uncertainty with Awareness",
+          "expectedStart": 1873.89,
+          "expectedEnd": 1974.8,
+          "actualStart": 1893.3985,
+          "actualEnd": 1994.310458,
+          "timeDifference": 19.508499999999913
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Ripple Effect of Attention",
+          "expectedStart": 1974.8,
+          "expectedEnd": 2085.5,
+          "actualStart": 1995.810458,
+          "actualEnd": 2106.5089159999998,
+          "timeDifference": 21.01045799999997
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Living with Intention",
+          "expectedStart": 2085.5,
+          "expectedEnd": 2186.99,
+          "actualStart": 2108.0089159999998,
+          "actualEnd": 2209.495208,
+          "timeDifference": 22.508915999999772
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2186.99,
+          "expectedEnd": 2324.06,
+          "actualStart": 2210.995208,
+          "actualEnd": 2348.064833,
+          "timeDifference": 24.00520800000004
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.854917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Narrow Beam of Attention"
+        },
+        {
+          "startTime": 301.19550000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Narrow Beam of Attention and Chapter 2 The Hidden Forces Shaping Experience"
+        },
+        {
+          "startTime": 489.097125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Forces Shaping Experience and Chapter 3 The Trap of Tunnel Vision"
+        },
+        {
+          "startTime": 694.170958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Trap of Tunnel Vision and Chapter 4 Openness to Serendipity and the Unexpected"
+        },
+        {
+          "startTime": 850.4065410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Openness to Serendipity and the Unexpected and Chapter 5 Learning from Missed Opportunities"
+        },
+        {
+          "startTime": 995.786791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Learning from Missed Opportunities and Chapter 6 The Art of Noticing"
+        },
+        {
+          "startTime": 1146.140666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Noticing and Chapter 7 The Influence of Environment"
+        },
+        {
+          "startTime": 1278.116041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Influence of Environment and Chapter 8 Relationships and the Unseen"
+        },
+        {
+          "startTime": 1418.973166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Relationships and the Unseen and Chapter 9 The Power of Letting Go"
+        },
+        {
+          "startTime": 1552.963958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Letting Go and Chapter 10 Cultivating a Wider Awareness"
+        },
+        {
+          "startTime": 1691.136916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Cultivating a Wider Awareness and Chapter 11 The Practice of Mindful Living"
+        },
+        {
+          "startTime": 1796.160958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Practice of Mindful Living and Chapter 12 Seeing the Unseen in Everyday Life"
+        },
+        {
+          "startTime": 1891.8985,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Seeing the Unseen in Everyday Life and Chapter 13 Navigating Uncertainty with Awareness"
+        },
+        {
+          "startTime": 1994.310458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Navigating Uncertainty with Awareness and Chapter 14 The Ripple Effect of Attention"
+        },
+        {
+          "startTime": 2106.5089159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Ripple Effect of Attention and Chapter 15 Living with Intention"
+        },
+        {
+          "startTime": 2209.495208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Living with Intention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2314",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:31:34.709Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

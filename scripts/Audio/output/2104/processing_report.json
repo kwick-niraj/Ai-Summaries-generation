@@ -1,0 +1,456 @@
+{
+  "bookId": "2104",
+  "timestamp": "2025-07-09T19:07:32.370Z",
+  "success": false,
+  "processingTime": -1752087781429,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5164,
+    "totalAudioFiles": 12,
+    "totalDuration": 2181.858834
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2181.858834
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2104/optimized_text/2104.md",
+    "fileSize": 849,
+    "wordCount": 129,
+    "format": "markdown",
+    "filename": "2104.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2104/metadata/2104_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2181.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2104/metadata/2104_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2104/metadata/2104_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2104/2104_complete.wav",
+    "duration": 2181.858833,
+    "fileSize": 104729302,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2104/introduction.wav",
+          "duration": 80.070708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 80.070708,
+          "startTime": 0,
+          "endTime": 80.070708
+        },
+        {
+          "path": "Audio/output/2104/chapter_01.wav",
+          "duration": 250.801583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Beginnings in a Small Village: A Boy and an Elephant Grow Up Together",
+          "actualDuration": 250.801583,
+          "startTime": 81.570708,
+          "endTime": 332.372291
+        },
+        {
+          "path": "Audio/output/2104/chapter_02.wav",
+          "duration": 250.884875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Facing Upheaval: Separation, Loss, and the Will to Reunite",
+          "actualDuration": 250.884875,
+          "startTime": 333.872291,
+          "endTime": 584.757166
+        },
+        {
+          "path": "Audio/output/2104/chapter_03.wav",
+          "duration": 219.274167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 New Worlds: Survival, Adaptation, and the Power of Compassion",
+          "actualDuration": 219.274167,
+          "startTime": 586.257166,
+          "endTime": 805.531333
+        },
+        {
+          "path": "Audio/output/2104/chapter_04.wav",
+          "duration": 254.954625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Trials of the Heart: Betrayal, Hardship, and the Endurance of Loyalty",
+          "actualDuration": 254.954625,
+          "startTime": 807.031333,
+          "endTime": 1061.985958
+        },
+        {
+          "path": "Audio/output/2104/chapter_05.wav",
+          "duration": 184.122667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 A New Home: Healing, Growth, and the Unbreakable Bond",
+          "actualDuration": 184.122667,
+          "startTime": 1063.485958,
+          "endTime": 1247.608625
+        },
+        {
+          "path": "Audio/output/2104/chapter_06.wav",
+          "duration": 223.945542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Legacy",
+          "actualDuration": 223.945542,
+          "startTime": 1249.108625,
+          "endTime": 1473.054167
+        },
+        {
+          "path": "Audio/output/2104/chapter_07.wav",
+          "duration": 174.790042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Final Journey: Aging, Farewell, and the Gifts of Letting Go",
+          "actualDuration": 174.790042,
+          "startTime": 1474.554167,
+          "endTime": 1649.344209
+        },
+        {
+          "path": "Audio/output/2104/chapter_08.wav",
+          "duration": 165.093083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Ripples Across the World: The Enduring Impact of Modoc’s Story",
+          "actualDuration": 165.093083,
+          "startTime": 1650.844209,
+          "endTime": 1815.937292
+        },
+        {
+          "path": "Audio/output/2104/chapter_09.wav",
+          "duration": 139.903167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons for a Lifetime: What Modoc Taught Us About Love, Loss, and Belonging",
+          "actualDuration": 139.903167,
+          "startTime": 1817.437292,
+          "endTime": 1957.340459
+        },
+        {
+          "path": "Audio/output/2104/chapter_10.wav",
+          "duration": 129.522458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Carrying the Flame: The Next Generation and the Promise of Compassion",
+          "actualDuration": 129.522458,
+          "startTime": 1958.840459,
+          "endTime": 2088.362917
+        },
+        {
+          "path": "Audio/output/2104/conclusion.wav",
+          "duration": 108.495917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 108.495917,
+          "startTime": 2089.862917,
+          "endTime": 2198.358834
+        }
+      ],
+      "totalDuration": 2198.358834,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 80.07,
+          "actualStart": 0,
+          "actualEnd": 80.070708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Beginnings in a Small Village: A Boy and an Elephant Grow Up Together",
+          "expectedStart": 80.07,
+          "expectedEnd": 330.87,
+          "actualStart": 81.570708,
+          "actualEnd": 332.372291,
+          "timeDifference": 1.500708000000003
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Facing Upheaval: Separation, Loss, and the Will to Reunite",
+          "expectedStart": 330.87,
+          "expectedEnd": 581.75,
+          "actualStart": 333.872291,
+          "actualEnd": 584.757166,
+          "timeDifference": 3.002291000000014
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 New Worlds: Survival, Adaptation, and the Power of Compassion",
+          "expectedStart": 581.75,
+          "expectedEnd": 801.02,
+          "actualStart": 586.257166,
+          "actualEnd": 805.531333,
+          "timeDifference": 4.507165999999984
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Trials of the Heart: Betrayal, Hardship, and the Endurance of Loyalty",
+          "expectedStart": 801.02,
+          "expectedEnd": 1055.97,
+          "actualStart": 807.031333,
+          "actualEnd": 1061.985958,
+          "timeDifference": 6.011333000000036
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 A New Home: Healing, Growth, and the Unbreakable Bond",
+          "expectedStart": 1055.97,
+          "expectedEnd": 1240.09,
+          "actualStart": 1063.485958,
+          "actualEnd": 1247.608625,
+          "timeDifference": 7.515957999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Legacy",
+          "expectedStart": 1240.09,
+          "expectedEnd": 1464.04,
+          "actualStart": 1249.108625,
+          "actualEnd": 1473.054167,
+          "timeDifference": 9.018625000000156
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Final Journey: Aging, Farewell, and the Gifts of Letting Go",
+          "expectedStart": 1464.04,
+          "expectedEnd": 1638.83,
+          "actualStart": 1474.554167,
+          "actualEnd": 1649.344209,
+          "timeDifference": 10.514167000000043
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Ripples Across the World: The Enduring Impact of Modoc’s Story",
+          "expectedStart": 1638.83,
+          "expectedEnd": 1803.92,
+          "actualStart": 1650.844209,
+          "actualEnd": 1815.937292,
+          "timeDifference": 12.014209000000164
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons for a Lifetime: What Modoc Taught Us About Love, Loss, and Belonging",
+          "expectedStart": 1803.92,
+          "expectedEnd": 1943.82,
+          "actualStart": 1817.437292,
+          "actualEnd": 1957.340459,
+          "timeDifference": 13.517291999999998
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Carrying the Flame: The Next Generation and the Promise of Compassion",
+          "expectedStart": 1943.82,
+          "expectedEnd": 2073.34,
+          "actualStart": 1958.840459,
+          "actualEnd": 2088.362917,
+          "timeDifference": 15.020459000000074
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2073.34,
+          "expectedEnd": 2181.84,
+          "actualStart": 2089.862917,
+          "actualEnd": 2198.358834,
+          "timeDifference": 16.52291699999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 80.070708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Beginnings in a Small Village: A Boy and an Elephant Grow Up Together"
+        },
+        {
+          "startTime": 332.372291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Beginnings in a Small Village: A Boy and an Elephant Grow Up Together and Chapter 2 Facing Upheaval: Separation, Loss, and the Will to Reunite"
+        },
+        {
+          "startTime": 584.757166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Facing Upheaval: Separation, Loss, and the Will to Reunite and Chapter 3 New Worlds: Survival, Adaptation, and the Power of Compassion"
+        },
+        {
+          "startTime": 805.531333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 New Worlds: Survival, Adaptation, and the Power of Compassion and Chapter 4 Trials of the Heart: Betrayal, Hardship, and the Endurance of Loyalty"
+        },
+        {
+          "startTime": 1061.985958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Trials of the Heart: Betrayal, Hardship, and the Endurance of Loyalty and Chapter 5 A New Home: Healing, Growth, and the Unbreakable Bond"
+        },
+        {
+          "startTime": 1247.608625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 A New Home: Healing, Growth, and the Unbreakable Bond and Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Legacy"
+        },
+        {
+          "startTime": 1473.054167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World Takes Notice: Fame, Scrutiny, and the Weight of Legacy and Chapter 7 The Final Journey: Aging, Farewell, and the Gifts of Letting Go"
+        },
+        {
+          "startTime": 1649.344209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Final Journey: Aging, Farewell, and the Gifts of Letting Go and Chapter 8 Ripples Across the World: The Enduring Impact of Modoc’s Story"
+        },
+        {
+          "startTime": 1815.937292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Ripples Across the World: The Enduring Impact of Modoc’s Story and Chapter 9 Lessons for a Lifetime: What Modoc Taught Us About Love, Loss, and Belonging"
+        },
+        {
+          "startTime": 1957.340459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons for a Lifetime: What Modoc Taught Us About Love, Loss, and Belonging and Chapter 10 Carrying the Flame: The Next Generation and the Promise of Compassion"
+        },
+        {
+          "startTime": 2088.362917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Carrying the Flame: The Next Generation and the Promise of Compassion and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2104",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T19:03:02.652Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

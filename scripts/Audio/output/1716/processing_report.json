@@ -1,0 +1,456 @@
+{
+  "bookId": "1716",
+  "timestamp": "2025-07-08T08:56:52.983Z",
+  "success": false,
+  "processingTime": -1751964252256,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4258,
+    "totalAudioFiles": 12,
+    "totalDuration": 1863.547
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1863.547
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1716/optimized_text/1716.md",
+    "fileSize": 650,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1716.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1716/metadata/1716_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1863.54,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1716/metadata/1716_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1716/metadata/1716_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1716/1716_complete.wav",
+    "duration": 1863.547,
+    "fileSize": 89450334,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1716/introduction.wav",
+          "duration": 87.588625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.588625,
+          "startTime": 0,
+          "endTime": 87.588625
+        },
+        {
+          "path": "Audio/output/1716/chapter_01.wav",
+          "duration": 177.761875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Lessons in Grit and Belonging",
+          "actualDuration": 177.761875,
+          "startTime": 89.088625,
+          "endTime": 266.8505
+        },
+        {
+          "path": "Audio/output/1716/chapter_02.wav",
+          "duration": 202.63525,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Demands and Brotherhood of SEAL Life",
+          "actualDuration": 202.63525,
+          "startTime": 268.3505,
+          "endTime": 470.98575000000005
+        },
+        {
+          "path": "Audio/output/1716/chapter_03.wav",
+          "duration": 182.364958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing the Realities of Modern Warfare",
+          "actualDuration": 182.364958,
+          "startTime": 472.48575000000005,
+          "endTime": 654.850708
+        },
+        {
+          "path": "Audio/output/1716/chapter_04.wav",
+          "duration": 183.422042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Preparation and Uncertainty Before the Bin Laden Raid",
+          "actualDuration": 183.422042,
+          "startTime": 656.350708,
+          "endTime": 839.7727500000001
+        },
+        {
+          "path": "Audio/output/1716/chapter_05.wav",
+          "duration": 187.561333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Night of the Raid: Chaos, Clarity, and Aftermath",
+          "actualDuration": 187.561333,
+          "startTime": 841.2727500000001,
+          "endTime": 1028.8340830000002
+        },
+        {
+          "path": "Audio/output/1716/chapter_06.wav",
+          "duration": 169.641125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World Reacts: Silence, Noise, and the Weight of Secrecy",
+          "actualDuration": 169.641125,
+          "startTime": 1030.3340830000002,
+          "endTime": 1199.9752080000003
+        },
+        {
+          "path": "Audio/output/1716/chapter_07.wav",
+          "duration": 160.161042,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Returning Home: The Invisible Divide",
+          "actualDuration": 160.161042,
+          "startTime": 1201.4752080000003,
+          "endTime": 1361.6362500000002
+        },
+        {
+          "path": "Audio/output/1716/chapter_08.wav",
+          "duration": 146.200208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Brotherhood and the Cost of Service",
+          "actualDuration": 146.200208,
+          "startTime": 1363.1362500000002,
+          "endTime": 1509.3364580000002
+        },
+        {
+          "path": "Audio/output/1716/chapter_09.wav",
+          "duration": 146.402458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reflections on Leadership, Sacrifice, and Legacy",
+          "actualDuration": 146.402458,
+          "startTime": 1510.8364580000002,
+          "endTime": 1657.2389160000002
+        },
+        {
+          "path": "Audio/output/1716/chapter_10.wav",
+          "duration": 120.372917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Moving Forward: Lessons for Life Beyond the Mission",
+          "actualDuration": 120.372917,
+          "startTime": 1658.7389160000002,
+          "endTime": 1779.1118330000002
+        },
+        {
+          "path": "Audio/output/1716/conclusion.wav",
+          "duration": 99.435167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 99.435167,
+          "startTime": 1780.6118330000002,
+          "endTime": 1880.0470000000003
+        }
+      ],
+      "totalDuration": 1880.0470000000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.59,
+          "actualStart": 0,
+          "actualEnd": 87.588625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Lessons in Grit and Belonging",
+          "expectedStart": 87.59,
+          "expectedEnd": 265.35,
+          "actualStart": 89.088625,
+          "actualEnd": 266.8505,
+          "timeDifference": 1.4986249999999899
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Demands and Brotherhood of SEAL Life",
+          "expectedStart": 265.35,
+          "expectedEnd": 467.99,
+          "actualStart": 268.3505,
+          "actualEnd": 470.98575000000005,
+          "timeDifference": 3.000499999999988
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing the Realities of Modern Warfare",
+          "expectedStart": 467.99,
+          "expectedEnd": 650.35,
+          "actualStart": 472.48575000000005,
+          "actualEnd": 654.850708,
+          "timeDifference": 4.495750000000044
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Preparation and Uncertainty Before the Bin Laden Raid",
+          "expectedStart": 650.35,
+          "expectedEnd": 833.77,
+          "actualStart": 656.350708,
+          "actualEnd": 839.7727500000001,
+          "timeDifference": 6.0007080000000315
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Night of the Raid: Chaos, Clarity, and Aftermath",
+          "expectedStart": 833.77,
+          "expectedEnd": 1021.33,
+          "actualStart": 841.2727500000001,
+          "actualEnd": 1028.8340830000002,
+          "timeDifference": 7.5027500000001055
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World Reacts: Silence, Noise, and the Weight of Secrecy",
+          "expectedStart": 1021.33,
+          "expectedEnd": 1190.97,
+          "actualStart": 1030.3340830000002,
+          "actualEnd": 1199.9752080000003,
+          "timeDifference": 9.00408300000015
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Returning Home: The Invisible Divide",
+          "expectedStart": 1190.97,
+          "expectedEnd": 1351.13,
+          "actualStart": 1201.4752080000003,
+          "actualEnd": 1361.6362500000002,
+          "timeDifference": 10.505208000000266
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Brotherhood and the Cost of Service",
+          "expectedStart": 1351.13,
+          "expectedEnd": 1497.33,
+          "actualStart": 1363.1362500000002,
+          "actualEnd": 1509.3364580000002,
+          "timeDifference": 12.006250000000136
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reflections on Leadership, Sacrifice, and Legacy",
+          "expectedStart": 1497.33,
+          "expectedEnd": 1643.73,
+          "actualStart": 1510.8364580000002,
+          "actualEnd": 1657.2389160000002,
+          "timeDifference": 13.506458000000293
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Moving Forward: Lessons for Life Beyond the Mission",
+          "expectedStart": 1643.73,
+          "expectedEnd": 1764.1,
+          "actualStart": 1658.7389160000002,
+          "actualEnd": 1779.1118330000002,
+          "timeDifference": 15.008916000000227
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1764.1,
+          "expectedEnd": 1863.54,
+          "actualStart": 1780.6118330000002,
+          "actualEnd": 1880.0470000000003,
+          "timeDifference": 16.51183300000025
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.588625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Lessons in Grit and Belonging"
+        },
+        {
+          "startTime": 266.8505,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Lessons in Grit and Belonging and Chapter 2 The Demands and Brotherhood of SEAL Life"
+        },
+        {
+          "startTime": 470.98575000000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Demands and Brotherhood of SEAL Life and Chapter 3 Facing the Realities of Modern Warfare"
+        },
+        {
+          "startTime": 654.850708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing the Realities of Modern Warfare and Chapter 4 Preparation and Uncertainty Before the Bin Laden Raid"
+        },
+        {
+          "startTime": 839.7727500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Preparation and Uncertainty Before the Bin Laden Raid and Chapter 5 The Night of the Raid: Chaos, Clarity, and Aftermath"
+        },
+        {
+          "startTime": 1028.8340830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Night of the Raid: Chaos, Clarity, and Aftermath and Chapter 6 The World Reacts: Silence, Noise, and the Weight of Secrecy"
+        },
+        {
+          "startTime": 1199.9752080000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World Reacts: Silence, Noise, and the Weight of Secrecy and Chapter 7 Returning Home: The Invisible Divide"
+        },
+        {
+          "startTime": 1361.6362500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Returning Home: The Invisible Divide and Chapter 8 Brotherhood and the Cost of Service"
+        },
+        {
+          "startTime": 1509.3364580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Brotherhood and the Cost of Service and Chapter 9 Reflections on Leadership, Sacrifice, and Legacy"
+        },
+        {
+          "startTime": 1657.2389160000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reflections on Leadership, Sacrifice, and Legacy and Chapter 10 Moving Forward: Lessons for Life Beyond the Mission"
+        },
+        {
+          "startTime": 1779.1118330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Moving Forward: Lessons for Life Beyond the Mission and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1716",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T08:44:13.534Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

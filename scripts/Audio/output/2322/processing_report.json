@@ -1,0 +1,456 @@
+{
+  "bookId": "2322",
+  "timestamp": "2025-07-10T12:14:01.220Z",
+  "success": false,
+  "processingTime": -1752149368272,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4722,
+    "totalAudioFiles": 12,
+    "totalDuration": 2217.3707900000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2217.3707900000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2322/optimized_text/2322.md",
+    "fileSize": 782,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "2322.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2322/metadata/2322_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2217.37,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2322/metadata/2322_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2322/metadata/2322_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2322/2322_complete.wav",
+    "duration": 2217.370792,
+    "fileSize": 106433876,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2322/introduction.wav",
+          "duration": 99.387,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.387,
+          "startTime": 0,
+          "endTime": 99.387
+        },
+        {
+          "path": "Audio/output/2322/chapter_01.wav",
+          "duration": 231.94575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 From Immigrant Hardship to the Spark of Ambition",
+          "actualDuration": 231.94575,
+          "startTime": 100.887,
+          "endTime": 332.83275000000003
+        },
+        {
+          "path": "Audio/output/2322/chapter_02.wav",
+          "duration": 252.704833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Legend: The Art of Escape and Self-Mythologizing",
+          "actualDuration": 252.704833,
+          "startTime": 334.33275000000003,
+          "endTime": 587.037583
+        },
+        {
+          "path": "Audio/output/2322/chapter_03.wav",
+          "duration": 233.236708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Shadow World: Law Enforcement, Espionage, and the Double Life",
+          "actualDuration": 233.236708,
+          "startTime": 588.537583,
+          "endTime": 821.7742910000001
+        },
+        {
+          "path": "Audio/output/2322/chapter_04.wav",
+          "duration": 221.723833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Relentless Pursuit of Truth: Debunking Spiritualism and Exposing Fraud",
+          "actualDuration": 221.723833,
+          "startTime": 823.2742910000001,
+          "endTime": 1044.9981240000002
+        },
+        {
+          "path": "Audio/output/2322/chapter_05.wav",
+          "duration": 210.735917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reinvention, Endurance, and the Making of an American Icon",
+          "actualDuration": 210.735917,
+          "startTime": 1046.4981240000002,
+          "endTime": 1257.2340410000002
+        },
+        {
+          "path": "Audio/output/2322/chapter_06.wav",
+          "duration": 225.700167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Final Acts: Pushing the Limits and Facing Mortality",
+          "actualDuration": 225.700167,
+          "startTime": 1258.7340410000002,
+          "endTime": 1484.4342080000001
+        },
+        {
+          "path": "Audio/output/2322/chapter_07.wav",
+          "duration": 181.091333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Afterlife of a Legend: Grief, Rumors, and the Search for Meaning",
+          "actualDuration": 181.091333,
+          "startTime": 1485.9342080000001,
+          "endTime": 1667.0255410000002
+        },
+        {
+          "path": "Audio/output/2322/chapter_08.wav",
+          "duration": 172.293708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Legacy of Skepticism: Inspiring a New Age of Inquiry",
+          "actualDuration": 172.293708,
+          "startTime": 1668.5255410000002,
+          "endTime": 1840.8192490000001
+        },
+        {
+          "path": "Audio/output/2322/chapter_09.wav",
+          "duration": 152.686333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Houdini’s Shadow: The Burden and Blessing of Fame",
+          "actualDuration": 152.686333,
+          "startTime": 1842.3192490000001,
+          "endTime": 1995.0055820000002
+        },
+        {
+          "path": "Audio/output/2322/chapter_10.wav",
+          "duration": 122.0915,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spell: Why Houdini Still Matters",
+          "actualDuration": 122.0915,
+          "startTime": 1996.5055820000002,
+          "endTime": 2118.5970820000002
+        },
+        {
+          "path": "Audio/output/2322/conclusion.wav",
+          "duration": 113.773708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 113.773708,
+          "startTime": 2120.0970820000002,
+          "endTime": 2233.8707900000004
+        }
+      ],
+      "totalDuration": 2233.8707900000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.39,
+          "actualStart": 0,
+          "actualEnd": 99.387,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 From Immigrant Hardship to the Spark of Ambition",
+          "expectedStart": 99.39,
+          "expectedEnd": 331.34,
+          "actualStart": 100.887,
+          "actualEnd": 332.83275000000003,
+          "timeDifference": 1.4969999999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Legend: The Art of Escape and Self-Mythologizing",
+          "expectedStart": 331.34,
+          "expectedEnd": 584.04,
+          "actualStart": 334.33275000000003,
+          "actualEnd": 587.037583,
+          "timeDifference": 2.9927500000000578
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Shadow World: Law Enforcement, Espionage, and the Double Life",
+          "expectedStart": 584.04,
+          "expectedEnd": 817.28,
+          "actualStart": 588.537583,
+          "actualEnd": 821.7742910000001,
+          "timeDifference": 4.497583000000077
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Relentless Pursuit of Truth: Debunking Spiritualism and Exposing Fraud",
+          "expectedStart": 817.28,
+          "expectedEnd": 1039,
+          "actualStart": 823.2742910000001,
+          "actualEnd": 1044.9981240000002,
+          "timeDifference": 5.994291000000089
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reinvention, Endurance, and the Making of an American Icon",
+          "expectedStart": 1039,
+          "expectedEnd": 1249.74,
+          "actualStart": 1046.4981240000002,
+          "actualEnd": 1257.2340410000002,
+          "timeDifference": 7.498124000000189
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Final Acts: Pushing the Limits and Facing Mortality",
+          "expectedStart": 1249.74,
+          "expectedEnd": 1475.44,
+          "actualStart": 1258.7340410000002,
+          "actualEnd": 1484.4342080000001,
+          "timeDifference": 8.994041000000152
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Afterlife of a Legend: Grief, Rumors, and the Search for Meaning",
+          "expectedStart": 1475.44,
+          "expectedEnd": 1656.53,
+          "actualStart": 1485.9342080000001,
+          "actualEnd": 1667.0255410000002,
+          "timeDifference": 10.494208000000071
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Legacy of Skepticism: Inspiring a New Age of Inquiry",
+          "expectedStart": 1656.53,
+          "expectedEnd": 1828.82,
+          "actualStart": 1668.5255410000002,
+          "actualEnd": 1840.8192490000001,
+          "timeDifference": 11.99554100000023
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Houdini’s Shadow: The Burden and Blessing of Fame",
+          "expectedStart": 1828.82,
+          "expectedEnd": 1981.51,
+          "actualStart": 1842.3192490000001,
+          "actualEnd": 1995.0055820000002,
+          "timeDifference": 13.49924900000019
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spell: Why Houdini Still Matters",
+          "expectedStart": 1981.51,
+          "expectedEnd": 2103.6,
+          "actualStart": 1996.5055820000002,
+          "actualEnd": 2118.5970820000002,
+          "timeDifference": 14.99558200000024
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2103.6,
+          "expectedEnd": 2217.37,
+          "actualStart": 2120.0970820000002,
+          "actualEnd": 2233.8707900000004,
+          "timeDifference": 16.49708200000032
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.387,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 From Immigrant Hardship to the Spark of Ambition"
+        },
+        {
+          "startTime": 332.83275000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 From Immigrant Hardship to the Spark of Ambition and Chapter 2 Building a Legend: The Art of Escape and Self-Mythologizing"
+        },
+        {
+          "startTime": 587.037583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Legend: The Art of Escape and Self-Mythologizing and Chapter 3 The Shadow World: Law Enforcement, Espionage, and the Double Life"
+        },
+        {
+          "startTime": 821.7742910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Shadow World: Law Enforcement, Espionage, and the Double Life and Chapter 4 The Relentless Pursuit of Truth: Debunking Spiritualism and Exposing Fraud"
+        },
+        {
+          "startTime": 1044.9981240000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Relentless Pursuit of Truth: Debunking Spiritualism and Exposing Fraud and Chapter 5 Reinvention, Endurance, and the Making of an American Icon"
+        },
+        {
+          "startTime": 1257.2340410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reinvention, Endurance, and the Making of an American Icon and Chapter 6 The Final Acts: Pushing the Limits and Facing Mortality"
+        },
+        {
+          "startTime": 1484.4342080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Final Acts: Pushing the Limits and Facing Mortality and Chapter 7 The Afterlife of a Legend: Grief, Rumors, and the Search for Meaning"
+        },
+        {
+          "startTime": 1667.0255410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Afterlife of a Legend: Grief, Rumors, and the Search for Meaning and Chapter 8 The Legacy of Skepticism: Inspiring a New Age of Inquiry"
+        },
+        {
+          "startTime": 1840.8192490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Legacy of Skepticism: Inspiring a New Age of Inquiry and Chapter 9 Houdini’s Shadow: The Burden and Blessing of Fame"
+        },
+        {
+          "startTime": 1995.0055820000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Houdini’s Shadow: The Burden and Blessing of Fame and Chapter 10 The Enduring Spell: Why Houdini Still Matters"
+        },
+        {
+          "startTime": 2118.5970820000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spell: Why Houdini Still Matters and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2322",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:09:29.460Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

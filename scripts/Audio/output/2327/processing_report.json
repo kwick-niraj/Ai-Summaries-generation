@@ -1,0 +1,456 @@
+{
+  "bookId": "2327",
+  "timestamp": "2025-07-10T12:30:09.219Z",
+  "success": false,
+  "processingTime": -1752150371843,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4370,
+    "totalAudioFiles": 12,
+    "totalDuration": 1837.270543
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1837.270543
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2327/optimized_text/2327.md",
+    "fileSize": 625,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2327.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2327/metadata/2327_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1837.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2327/metadata/2327_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2327/metadata/2327_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2327/2327_complete.wav",
+    "duration": 1837.270542,
+    "fileSize": 88189064,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2327/introduction.wav",
+          "duration": 95.052125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.052125,
+          "startTime": 0,
+          "endTime": 95.052125
+        },
+        {
+          "path": "Audio/output/2327/chapter_01.wav",
+          "duration": 252.790417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving at the Edge of Disaster",
+          "actualDuration": 252.790417,
+          "startTime": 96.552125,
+          "endTime": 349.342542
+        },
+        {
+          "path": "Audio/output/2327/chapter_02.wav",
+          "duration": 195.764042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Searching for Meaning in the Aftermath",
+          "actualDuration": 195.764042,
+          "startTime": 350.842542,
+          "endTime": 546.606584
+        },
+        {
+          "path": "Audio/output/2327/chapter_03.wav",
+          "duration": 174.1955,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Piecing Together the Day of the Fire",
+          "actualDuration": 174.1955,
+          "startTime": 548.106584,
+          "endTime": 722.302084
+        },
+        {
+          "path": "Audio/output/2327/chapter_04.wav",
+          "duration": 175.774667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Human Cost and the Nature of Heroism",
+          "actualDuration": 175.774667,
+          "startTime": 723.802084,
+          "endTime": 899.5767510000001
+        },
+        {
+          "path": "Audio/output/2327/chapter_05.wav",
+          "duration": 153.3745,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Memory, Storytelling, and the Search for Closure",
+          "actualDuration": 153.3745,
+          "startTime": 901.0767510000001,
+          "endTime": 1054.451251
+        },
+        {
+          "path": "Audio/output/2327/chapter_06.wav",
+          "duration": 143.871042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Revisiting the Gulch—A Writer’s Quest",
+          "actualDuration": 143.871042,
+          "startTime": 1055.951251,
+          "endTime": 1199.822293
+        },
+        {
+          "path": "Audio/output/2327/chapter_07.wav",
+          "duration": 152.222083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Fire—Learning from Loss",
+          "actualDuration": 152.222083,
+          "startTime": 1201.322293,
+          "endTime": 1353.5443759999998
+        },
+        {
+          "path": "Audio/output/2327/chapter_08.wav",
+          "duration": 146.86975,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Survivors and the Weight of Memory",
+          "actualDuration": 146.86975,
+          "startTime": 1355.0443759999998,
+          "endTime": 1501.914126
+        },
+        {
+          "path": "Audio/output/2327/chapter_09.wav",
+          "duration": 124.324792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Lessons Passed Down—Changing the Culture of Firefighting",
+          "actualDuration": 124.324792,
+          "startTime": 1503.414126,
+          "endTime": 1627.738918
+        },
+        {
+          "path": "Audio/output/2327/chapter_10.wav",
+          "duration": 120.290792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Echo—Memory, Meaning, and Moving Forward",
+          "actualDuration": 120.290792,
+          "startTime": 1629.238918,
+          "endTime": 1749.52971
+        },
+        {
+          "path": "Audio/output/2327/conclusion.wav",
+          "duration": 102.740833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.740833,
+          "startTime": 1751.02971,
+          "endTime": 1853.770543
+        }
+      ],
+      "totalDuration": 1853.770543,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.05,
+          "actualStart": 0,
+          "actualEnd": 95.052125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving at the Edge of Disaster",
+          "expectedStart": 95.05,
+          "expectedEnd": 347.84,
+          "actualStart": 96.552125,
+          "actualEnd": 349.342542,
+          "timeDifference": 1.5021250000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Searching for Meaning in the Aftermath",
+          "expectedStart": 347.84,
+          "expectedEnd": 543.6,
+          "actualStart": 350.842542,
+          "actualEnd": 546.606584,
+          "timeDifference": 3.0025420000000054
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Piecing Together the Day of the Fire",
+          "expectedStart": 543.6,
+          "expectedEnd": 717.8,
+          "actualStart": 548.106584,
+          "actualEnd": 722.302084,
+          "timeDifference": 4.506583999999975
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Human Cost and the Nature of Heroism",
+          "expectedStart": 717.8,
+          "expectedEnd": 893.57,
+          "actualStart": 723.802084,
+          "actualEnd": 899.5767510000001,
+          "timeDifference": 6.002084000000082
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Memory, Storytelling, and the Search for Closure",
+          "expectedStart": 893.57,
+          "expectedEnd": 1046.94,
+          "actualStart": 901.0767510000001,
+          "actualEnd": 1054.451251,
+          "timeDifference": 7.506751000000008
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Revisiting the Gulch—A Writer’s Quest",
+          "expectedStart": 1046.94,
+          "expectedEnd": 1190.81,
+          "actualStart": 1055.951251,
+          "actualEnd": 1199.822293,
+          "timeDifference": 9.011250999999902
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Fire—Learning from Loss",
+          "expectedStart": 1190.81,
+          "expectedEnd": 1343.03,
+          "actualStart": 1201.322293,
+          "actualEnd": 1353.5443759999998,
+          "timeDifference": 10.512293
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Survivors and the Weight of Memory",
+          "expectedStart": 1343.03,
+          "expectedEnd": 1489.9,
+          "actualStart": 1355.0443759999998,
+          "actualEnd": 1501.914126,
+          "timeDifference": 12.014375999999857
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Lessons Passed Down—Changing the Culture of Firefighting",
+          "expectedStart": 1489.9,
+          "expectedEnd": 1614.22,
+          "actualStart": 1503.414126,
+          "actualEnd": 1627.738918,
+          "timeDifference": 13.514125999999806
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Echo—Memory, Meaning, and Moving Forward",
+          "expectedStart": 1614.22,
+          "expectedEnd": 1734.51,
+          "actualStart": 1629.238918,
+          "actualEnd": 1749.52971,
+          "timeDifference": 15.018917999999985
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1734.51,
+          "expectedEnd": 1837.25,
+          "actualStart": 1751.02971,
+          "actualEnd": 1853.770543,
+          "timeDifference": 16.519710000000032
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.052125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving at the Edge of Disaster"
+        },
+        {
+          "startTime": 349.342542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving at the Edge of Disaster and Chapter 2 Searching for Meaning in the Aftermath"
+        },
+        {
+          "startTime": 546.606584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Searching for Meaning in the Aftermath and Chapter 3 Piecing Together the Day of the Fire"
+        },
+        {
+          "startTime": 722.302084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Piecing Together the Day of the Fire and Chapter 4 The Human Cost and the Nature of Heroism"
+        },
+        {
+          "startTime": 899.5767510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Human Cost and the Nature of Heroism and Chapter 5 Memory, Storytelling, and the Search for Closure"
+        },
+        {
+          "startTime": 1054.451251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Memory, Storytelling, and the Search for Closure and Chapter 6 Revisiting the Gulch—A Writer’s Quest"
+        },
+        {
+          "startTime": 1199.822293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Revisiting the Gulch—A Writer’s Quest and Chapter 7 The Science of Fire—Learning from Loss"
+        },
+        {
+          "startTime": 1353.5443759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Fire—Learning from Loss and Chapter 8 Survivors and the Weight of Memory"
+        },
+        {
+          "startTime": 1501.914126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Survivors and the Weight of Memory and Chapter 9 Lessons Passed Down—Changing the Culture of Firefighting"
+        },
+        {
+          "startTime": 1627.738918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Lessons Passed Down—Changing the Culture of Firefighting and Chapter 10 The Enduring Echo—Memory, Meaning, and Moving Forward"
+        },
+        {
+          "startTime": 1749.52971,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Echo—Memory, Meaning, and Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2327",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:26:12.358Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

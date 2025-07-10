@@ -1,0 +1,456 @@
+{
+  "bookId": "2344",
+  "timestamp": "2025-07-10T13:29:31.291Z",
+  "success": false,
+  "processingTime": -1752153927594,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3450,
+    "totalAudioFiles": 12,
+    "totalDuration": 1586.6750840000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1586.6750840000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2344/optimized_text/2344.md",
+    "fileSize": 715,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2344.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2344/metadata/2344_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1586.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2344/metadata/2344_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2344/metadata/2344_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2344/2344_complete.wav",
+    "duration": 1586.675083,
+    "fileSize": 76160482,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2344/introduction.wav",
+          "duration": 72.294125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 72.294125,
+          "startTime": 0,
+          "endTime": 72.294125
+        },
+        {
+          "path": "Audio/output/2344/chapter_01.wav",
+          "duration": 162.886417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the World as a Network of Facts, Not Things",
+          "actualDuration": 162.886417,
+          "startTime": 73.794125,
+          "endTime": 236.680542
+        },
+        {
+          "path": "Audio/output/2344/chapter_02.wav",
+          "duration": 139.845083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Language as a Mirror of Reality",
+          "actualDuration": 139.845083,
+          "startTime": 238.180542,
+          "endTime": 378.025625
+        },
+        {
+          "path": "Audio/output/2344/chapter_03.wav",
+          "duration": 138.895292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Logic Underlying Language and Thought",
+          "actualDuration": 138.895292,
+          "startTime": 379.525625,
+          "endTime": 518.420917
+        },
+        {
+          "path": "Audio/output/2344/chapter_04.wav",
+          "duration": 141.885292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Nature of Meaning and the Limits of Expression",
+          "actualDuration": 141.885292,
+          "startTime": 519.920917,
+          "endTime": 661.8062090000001
+        },
+        {
+          "path": "Audio/output/2344/chapter_05.wav",
+          "duration": 158.687083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 What Can Be Shown but Not Said—The Unsayable in Ethics, Aesthetics, and the Mystical",
+          "actualDuration": 158.687083,
+          "startTime": 663.3062090000001,
+          "endTime": 821.9932920000001
+        },
+        {
+          "path": "Audio/output/2344/chapter_06.wav",
+          "duration": 150.523,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Role of Philosophy—Clarifying Thought, Not Explaining the World",
+          "actualDuration": 150.523,
+          "startTime": 823.4932920000001,
+          "endTime": 974.0162920000001
+        },
+        {
+          "path": "Audio/output/2344/chapter_07.wav",
+          "duration": 143.870917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Self and the Limits of Perspective",
+          "actualDuration": 143.870917,
+          "startTime": 975.5162920000001,
+          "endTime": 1119.3872090000002
+        },
+        {
+          "path": "Audio/output/2344/chapter_08.wav",
+          "duration": 132.96475,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The World as a Limited Whole—What Lies Beyond",
+          "actualDuration": 132.96475,
+          "startTime": 1120.8872090000002,
+          "endTime": 1253.8519590000003
+        },
+        {
+          "path": "Audio/output/2344/chapter_09.wav",
+          "duration": 107.566417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living with the Limits—Ethics, Action, and Attitude",
+          "actualDuration": 107.566417,
+          "startTime": 1255.3519590000003,
+          "endTime": 1362.9183760000003
+        },
+        {
+          "path": "Audio/output/2344/chapter_10.wav",
+          "duration": 112.832125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Silence, Wisdom, and the Ongoing Journey",
+          "actualDuration": 112.832125,
+          "startTime": 1364.4183760000003,
+          "endTime": 1477.2505010000002
+        },
+        {
+          "path": "Audio/output/2344/conclusion.wav",
+          "duration": 124.424583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.424583,
+          "startTime": 1478.7505010000002,
+          "endTime": 1603.1750840000002
+        }
+      ],
+      "totalDuration": 1603.1750840000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 72.29,
+          "actualStart": 0,
+          "actualEnd": 72.294125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the World as a Network of Facts, Not Things",
+          "expectedStart": 72.29,
+          "expectedEnd": 235.18,
+          "actualStart": 73.794125,
+          "actualEnd": 236.680542,
+          "timeDifference": 1.5041249999999877
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Language as a Mirror of Reality",
+          "expectedStart": 235.18,
+          "expectedEnd": 375.03,
+          "actualStart": 238.180542,
+          "actualEnd": 378.025625,
+          "timeDifference": 3.000541999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Logic Underlying Language and Thought",
+          "expectedStart": 375.03,
+          "expectedEnd": 513.93,
+          "actualStart": 379.525625,
+          "actualEnd": 518.420917,
+          "timeDifference": 4.495625000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Nature of Meaning and the Limits of Expression",
+          "expectedStart": 513.93,
+          "expectedEnd": 655.82,
+          "actualStart": 519.920917,
+          "actualEnd": 661.8062090000001,
+          "timeDifference": 5.990917000000081
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 What Can Be Shown but Not Said—The Unsayable in Ethics, Aesthetics, and the Mystical",
+          "expectedStart": 655.82,
+          "expectedEnd": 814.51,
+          "actualStart": 663.3062090000001,
+          "actualEnd": 821.9932920000001,
+          "timeDifference": 7.486209000000031
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Role of Philosophy—Clarifying Thought, Not Explaining the World",
+          "expectedStart": 814.51,
+          "expectedEnd": 965.03,
+          "actualStart": 823.4932920000001,
+          "actualEnd": 974.0162920000001,
+          "timeDifference": 8.98329200000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Self and the Limits of Perspective",
+          "expectedStart": 965.03,
+          "expectedEnd": 1108.9,
+          "actualStart": 975.5162920000001,
+          "actualEnd": 1119.3872090000002,
+          "timeDifference": 10.486292000000162
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The World as a Limited Whole—What Lies Beyond",
+          "expectedStart": 1108.9,
+          "expectedEnd": 1241.86,
+          "actualStart": 1120.8872090000002,
+          "actualEnd": 1253.8519590000003,
+          "timeDifference": 11.98720900000012
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living with the Limits—Ethics, Action, and Attitude",
+          "expectedStart": 1241.86,
+          "expectedEnd": 1349.43,
+          "actualStart": 1255.3519590000003,
+          "actualEnd": 1362.9183760000003,
+          "timeDifference": 13.491959000000406
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Silence, Wisdom, and the Ongoing Journey",
+          "expectedStart": 1349.43,
+          "expectedEnd": 1462.26,
+          "actualStart": 1364.4183760000003,
+          "actualEnd": 1477.2505010000002,
+          "timeDifference": 14.988376000000244
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1462.26,
+          "expectedEnd": 1586.68,
+          "actualStart": 1478.7505010000002,
+          "actualEnd": 1603.1750840000002,
+          "timeDifference": 16.490501000000222
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 72.294125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the World as a Network of Facts, Not Things"
+        },
+        {
+          "startTime": 236.680542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the World as a Network of Facts, Not Things and Chapter 2 Language as a Mirror of Reality"
+        },
+        {
+          "startTime": 378.025625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Language as a Mirror of Reality and Chapter 3 The Logic Underlying Language and Thought"
+        },
+        {
+          "startTime": 518.420917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Logic Underlying Language and Thought and Chapter 4 The Nature of Meaning and the Limits of Expression"
+        },
+        {
+          "startTime": 661.8062090000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Nature of Meaning and the Limits of Expression and Chapter 5 What Can Be Shown but Not Said—The Unsayable in Ethics, Aesthetics, and the Mystical"
+        },
+        {
+          "startTime": 821.9932920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 What Can Be Shown but Not Said—The Unsayable in Ethics, Aesthetics, and the Mystical and Chapter 6 The Role of Philosophy—Clarifying Thought, Not Explaining the World"
+        },
+        {
+          "startTime": 974.0162920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Role of Philosophy—Clarifying Thought, Not Explaining the World and Chapter 7 The Self and the Limits of Perspective"
+        },
+        {
+          "startTime": 1119.3872090000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Self and the Limits of Perspective and Chapter 8 The World as a Limited Whole—What Lies Beyond"
+        },
+        {
+          "startTime": 1253.8519590000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The World as a Limited Whole—What Lies Beyond and Chapter 9 Living with the Limits—Ethics, Action, and Attitude"
+        },
+        {
+          "startTime": 1362.9183760000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living with the Limits—Ethics, Action, and Attitude and Chapter 10 Silence, Wisdom, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1477.2505010000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Silence, Wisdom, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2344",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T13:25:28.261Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "bookId": "2122",
+  "timestamp": "2025-07-09T20:24:58.310Z",
+  "success": false,
+  "processingTime": -1752091929938,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5838,
+    "totalAudioFiles": 17,
+    "totalDuration": 2873.8765419999995
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2873.8765419999995
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2122/optimized_text/2122.md",
+    "fileSize": 1073,
+    "wordCount": 146,
+    "format": "markdown",
+    "filename": "2122.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2122/metadata/2122_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2873.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2122/metadata/2122_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2122/metadata/2122_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2122/2122_complete.wav",
+    "duration": 2873.876542,
+    "fileSize": 137946152,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2122/introduction.wav",
+          "duration": 89.173583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.173583,
+          "startTime": 0,
+          "endTime": 89.173583
+        },
+        {
+          "path": "Audio/output/2122/chapter_01.wav",
+          "duration": 251.891125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Blueprint: How Cells Respond to the World",
+          "actualDuration": 251.891125,
+          "startTime": 90.673583,
+          "endTime": 342.564708
+        },
+        {
+          "path": "Audio/output/2122/chapter_02.wav",
+          "duration": 248.820292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Perception: How Beliefs Shape Biology",
+          "actualDuration": 248.820292,
+          "startTime": 344.064708,
+          "endTime": 592.885
+        },
+        {
+          "path": "Audio/output/2122/chapter_03.wav",
+          "duration": 213.245125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Beyond the Genetic Lottery: The Science of Epigenetics",
+          "actualDuration": 213.245125,
+          "startTime": 594.385,
+          "endTime": 807.630125
+        },
+        {
+          "path": "Audio/output/2122/chapter_04.wav",
+          "duration": 224.724167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Subconscious Mind: Hidden Patterns That Shape Life",
+          "actualDuration": 224.724167,
+          "startTime": 809.130125,
+          "endTime": 1033.854292
+        },
+        {
+          "path": "Audio/output/2122/chapter_05.wav",
+          "duration": 191.946958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Conscious Change: Taking Charge of Health and Destiny",
+          "actualDuration": 191.946958,
+          "startTime": 1035.354292,
+          "endTime": 1227.30125
+        },
+        {
+          "path": "Audio/output/2122/chapter_06.wav",
+          "duration": 192.837083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Chemistry of Belief: How Thoughts Become Biology",
+          "actualDuration": 192.837083,
+          "startTime": 1228.80125,
+          "endTime": 1421.6383329999999
+        },
+        {
+          "path": "Audio/output/2122/chapter_07.wav",
+          "duration": 164.569458,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Placebo Effect: Harnessing the Mind’s Healing Power",
+          "actualDuration": 164.569458,
+          "startTime": 1423.1383329999999,
+          "endTime": 1587.7077909999998
+        },
+        {
+          "path": "Audio/output/2122/chapter_08.wav",
+          "duration": 145.612375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Nocebo Effect: When Fear Becomes Fate",
+          "actualDuration": 145.612375,
+          "startTime": 1589.2077909999998,
+          "endTime": 1734.8201659999997
+        },
+        {
+          "path": "Audio/output/2122/chapter_09.wav",
+          "duration": 171.46275,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Science of Mind-Body Healing: Evidence and Practice",
+          "actualDuration": 171.46275,
+          "startTime": 1736.3201659999997,
+          "endTime": 1907.7829159999997
+        },
+        {
+          "path": "Audio/output/2122/chapter_10.wav",
+          "duration": 159.205667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rewriting the Script: Changing Subconscious Patterns",
+          "actualDuration": 159.205667,
+          "startTime": 1909.2829159999997,
+          "endTime": 2068.488583
+        },
+        {
+          "path": "Audio/output/2122/chapter_11.wav",
+          "duration": 127.882875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Role of Community: Healing Together",
+          "actualDuration": 127.882875,
+          "startTime": 2069.988583,
+          "endTime": 2197.8714579999996
+        },
+        {
+          "path": "Audio/output/2122/chapter_12.wav",
+          "duration": 164.612917,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Biology of Miracles: When the Impossible Happens",
+          "actualDuration": 164.612917,
+          "startTime": 2199.3714579999996,
+          "endTime": 2363.9843749999995
+        },
+        {
+          "path": "Audio/output/2122/chapter_13.wav",
+          "duration": 151.266542,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Living the Biology of Belief: Everyday Practices",
+          "actualDuration": 151.266542,
+          "startTime": 2365.4843749999995,
+          "endTime": 2516.7509169999994
+        },
+        {
+          "path": "Audio/output/2122/chapter_14.wav",
+          "duration": 120.836292,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Teaching the Next Generation: Belief, Biology, and Possibility",
+          "actualDuration": 120.836292,
+          "startTime": 2518.2509169999994,
+          "endTime": 2639.0872089999993
+        },
+        {
+          "path": "Audio/output/2122/chapter_15.wav",
+          "duration": 135.724,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Journey Continues: Embracing Change and Uncertainty",
+          "actualDuration": 135.724,
+          "startTime": 2640.5872089999993,
+          "endTime": 2776.3112089999995
+        },
+        {
+          "path": "Audio/output/2122/conclusion.wav",
+          "duration": 120.065333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.065333,
+          "startTime": 2777.8112089999995,
+          "endTime": 2897.8765419999995
+        }
+      ],
+      "totalDuration": 2897.8765419999995,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.17,
+          "actualStart": 0,
+          "actualEnd": 89.173583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Blueprint: How Cells Respond to the World",
+          "expectedStart": 89.17,
+          "expectedEnd": 341.06,
+          "actualStart": 90.673583,
+          "actualEnd": 342.564708,
+          "timeDifference": 1.503582999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Perception: How Beliefs Shape Biology",
+          "expectedStart": 341.06,
+          "expectedEnd": 589.88,
+          "actualStart": 344.064708,
+          "actualEnd": 592.885,
+          "timeDifference": 3.0047079999999937
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Beyond the Genetic Lottery: The Science of Epigenetics",
+          "expectedStart": 589.88,
+          "expectedEnd": 803.13,
+          "actualStart": 594.385,
+          "actualEnd": 807.630125,
+          "timeDifference": 4.5049999999999955
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Subconscious Mind: Hidden Patterns That Shape Life",
+          "expectedStart": 803.13,
+          "expectedEnd": 1027.85,
+          "actualStart": 809.130125,
+          "actualEnd": 1033.854292,
+          "timeDifference": 6.0001250000000255
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Conscious Change: Taking Charge of Health and Destiny",
+          "expectedStart": 1027.85,
+          "expectedEnd": 1219.8,
+          "actualStart": 1035.354292,
+          "actualEnd": 1227.30125,
+          "timeDifference": 7.504292000000078
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Chemistry of Belief: How Thoughts Become Biology",
+          "expectedStart": 1219.8,
+          "expectedEnd": 1412.64,
+          "actualStart": 1228.80125,
+          "actualEnd": 1421.6383329999999,
+          "timeDifference": 9.001250000000027
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Placebo Effect: Harnessing the Mind’s Healing Power",
+          "expectedStart": 1412.64,
+          "expectedEnd": 1577.21,
+          "actualStart": 1423.1383329999999,
+          "actualEnd": 1587.7077909999998,
+          "timeDifference": 10.498332999999775
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Nocebo Effect: When Fear Becomes Fate",
+          "expectedStart": 1577.21,
+          "expectedEnd": 1722.82,
+          "actualStart": 1589.2077909999998,
+          "actualEnd": 1734.8201659999997,
+          "timeDifference": 11.99779099999978
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Science of Mind-Body Healing: Evidence and Practice",
+          "expectedStart": 1722.82,
+          "expectedEnd": 1894.28,
+          "actualStart": 1736.3201659999997,
+          "actualEnd": 1907.7829159999997,
+          "timeDifference": 13.500165999999808
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rewriting the Script: Changing Subconscious Patterns",
+          "expectedStart": 1894.28,
+          "expectedEnd": 2053.49,
+          "actualStart": 1909.2829159999997,
+          "actualEnd": 2068.488583,
+          "timeDifference": 15.002915999999686
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Role of Community: Healing Together",
+          "expectedStart": 2053.49,
+          "expectedEnd": 2181.37,
+          "actualStart": 2069.988583,
+          "actualEnd": 2197.8714579999996,
+          "timeDifference": 16.498583000000053
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Biology of Miracles: When the Impossible Happens",
+          "expectedStart": 2181.37,
+          "expectedEnd": 2345.98,
+          "actualStart": 2199.3714579999996,
+          "actualEnd": 2363.9843749999995,
+          "timeDifference": 18.00145799999973
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Living the Biology of Belief: Everyday Practices",
+          "expectedStart": 2345.98,
+          "expectedEnd": 2497.25,
+          "actualStart": 2365.4843749999995,
+          "actualEnd": 2516.7509169999994,
+          "timeDifference": 19.504374999999527
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Teaching the Next Generation: Belief, Biology, and Possibility",
+          "expectedStart": 2497.25,
+          "expectedEnd": 2618.09,
+          "actualStart": 2518.2509169999994,
+          "actualEnd": 2639.0872089999993,
+          "timeDifference": 21.00091699999939
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Journey Continues: Embracing Change and Uncertainty",
+          "expectedStart": 2618.09,
+          "expectedEnd": 2753.81,
+          "actualStart": 2640.5872089999993,
+          "actualEnd": 2776.3112089999995,
+          "timeDifference": 22.497208999999202
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2753.81,
+          "expectedEnd": 2873.88,
+          "actualStart": 2777.8112089999995,
+          "actualEnd": 2897.8765419999995,
+          "timeDifference": 24.001208999999562
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.173583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Blueprint: How Cells Respond to the World"
+        },
+        {
+          "startTime": 342.564708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Blueprint: How Cells Respond to the World and Chapter 2 The Power of Perception: How Beliefs Shape Biology"
+        },
+        {
+          "startTime": 592.885,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Perception: How Beliefs Shape Biology and Chapter 3 Beyond the Genetic Lottery: The Science of Epigenetics"
+        },
+        {
+          "startTime": 807.630125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Beyond the Genetic Lottery: The Science of Epigenetics and Chapter 4 The Subconscious Mind: Hidden Patterns That Shape Life"
+        },
+        {
+          "startTime": 1033.854292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Subconscious Mind: Hidden Patterns That Shape Life and Chapter 5 Conscious Change: Taking Charge of Health and Destiny"
+        },
+        {
+          "startTime": 1227.30125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Conscious Change: Taking Charge of Health and Destiny and Chapter 6 The Chemistry of Belief: How Thoughts Become Biology"
+        },
+        {
+          "startTime": 1421.6383329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Chemistry of Belief: How Thoughts Become Biology and Chapter 7 The Placebo Effect: Harnessing the Mind’s Healing Power"
+        },
+        {
+          "startTime": 1587.7077909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Placebo Effect: Harnessing the Mind’s Healing Power and Chapter 8 The Nocebo Effect: When Fear Becomes Fate"
+        },
+        {
+          "startTime": 1734.8201659999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Nocebo Effect: When Fear Becomes Fate and Chapter 9 The Science of Mind-Body Healing: Evidence and Practice"
+        },
+        {
+          "startTime": 1907.7829159999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Science of Mind-Body Healing: Evidence and Practice and Chapter 10 Rewriting the Script: Changing Subconscious Patterns"
+        },
+        {
+          "startTime": 2068.488583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rewriting the Script: Changing Subconscious Patterns and Chapter 11 The Role of Community: Healing Together"
+        },
+        {
+          "startTime": 2197.8714579999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Role of Community: Healing Together and Chapter 12 The Biology of Miracles: When the Impossible Happens"
+        },
+        {
+          "startTime": 2363.9843749999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Biology of Miracles: When the Impossible Happens and Chapter 13 Living the Biology of Belief: Everyday Practices"
+        },
+        {
+          "startTime": 2516.7509169999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Living the Biology of Belief: Everyday Practices and Chapter 14 Teaching the Next Generation: Belief, Biology, and Possibility"
+        },
+        {
+          "startTime": 2639.0872089999993,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Teaching the Next Generation: Belief, Biology, and Possibility and Chapter 15 The Journey Continues: Embracing Change and Uncertainty"
+        },
+        {
+          "startTime": 2776.3112089999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Journey Continues: Embracing Change and Uncertainty and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2122",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T20:12:11.554Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2200",
+  "timestamp": "2025-07-10T00:23:16.753Z",
+  "success": false,
+  "processingTime": -1752106731296,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3901,
+    "totalAudioFiles": 12,
+    "totalDuration": 1782.8543769999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1782.8543769999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2200/optimized_text/2200.md",
+    "fileSize": 682,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2200.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2200/metadata/2200_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1782.86,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2200/metadata/2200_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2200/metadata/2200_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2200/2200_complete.wav",
+    "duration": 1782.854375,
+    "fileSize": 85577088,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2200/introduction.wav",
+          "duration": 101.446833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.446833,
+          "startTime": 0,
+          "endTime": 101.446833
+        },
+        {
+          "path": "Audio/output/2200/chapter_01.wav",
+          "duration": 249.148542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How a Century Became a Symbol of Disaster",
+          "actualDuration": 249.148542,
+          "startTime": 102.946833,
+          "endTime": 352.095375
+        },
+        {
+          "path": "Audio/output/2200/chapter_02.wav",
+          "duration": 155.694,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Limits of Popular History",
+          "actualDuration": 155.694,
+          "startTime": 353.595375,
+          "endTime": 509.28937499999995
+        },
+        {
+          "path": "Audio/output/2200/chapter_03.wav",
+          "duration": 174.923667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Rethinking Crisis—Complexity Behind the Calamity",
+          "actualDuration": 174.923667,
+          "startTime": 510.78937499999995,
+          "endTime": 685.713042
+        },
+        {
+          "path": "Audio/output/2200/chapter_04.wav",
+          "duration": 160.448,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Debate Over How to Tell the Story",
+          "actualDuration": 160.448,
+          "startTime": 687.213042,
+          "endTime": 847.661042
+        },
+        {
+          "path": "Audio/output/2200/chapter_05.wav",
+          "duration": 145.886167,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Influence of Modern Concerns on Historical Interpretation",
+          "actualDuration": 145.886167,
+          "startTime": 849.161042,
+          "endTime": 995.047209
+        },
+        {
+          "path": "Audio/output/2200/chapter_06.wav",
+          "duration": 166.265083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Evidence, Imagination, and the Stories We Choose",
+          "actualDuration": 166.265083,
+          "startTime": 996.547209,
+          "endTime": 1162.812292
+        },
+        {
+          "path": "Audio/output/2200/chapter_07.wav",
+          "duration": 127.110667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Legacy of the “Calamitous” Narrative",
+          "actualDuration": 127.110667,
+          "startTime": 1164.312292,
+          "endTime": 1291.422959
+        },
+        {
+          "path": "Audio/output/2200/chapter_08.wav",
+          "duration": 156.180167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reassessing the Century—New Questions, New Answers",
+          "actualDuration": 156.180167,
+          "startTime": 1292.922959,
+          "endTime": 1449.103126
+        },
+        {
+          "path": "Audio/output/2200/chapter_09.wav",
+          "duration": 123.074167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Conversation—History as Dialogue",
+          "actualDuration": 123.074167,
+          "startTime": 1450.603126,
+          "endTime": 1573.677293
+        },
+        {
+          "path": "Audio/output/2200/chapter_10.wav",
+          "duration": 105.376167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Uncertainty—What the 14th Century Teaches Today",
+          "actualDuration": 105.376167,
+          "startTime": 1575.177293,
+          "endTime": 1680.5534599999999
+        },
+        {
+          "path": "Audio/output/2200/conclusion.wav",
+          "duration": 117.300917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.300917,
+          "startTime": 1682.0534599999999,
+          "endTime": 1799.3543769999999
+        }
+      ],
+      "totalDuration": 1799.3543769999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.45,
+          "actualStart": 0,
+          "actualEnd": 101.446833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How a Century Became a Symbol of Disaster",
+          "expectedStart": 101.45,
+          "expectedEnd": 350.6,
+          "actualStart": 102.946833,
+          "actualEnd": 352.095375,
+          "timeDifference": 1.4968329999999952
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Limits of Popular History",
+          "expectedStart": 350.6,
+          "expectedEnd": 506.29,
+          "actualStart": 353.595375,
+          "actualEnd": 509.28937499999995,
+          "timeDifference": 2.9953749999999673
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Rethinking Crisis—Complexity Behind the Calamity",
+          "expectedStart": 506.29,
+          "expectedEnd": 681.21,
+          "actualStart": 510.78937499999995,
+          "actualEnd": 685.713042,
+          "timeDifference": 4.4993749999999295
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Debate Over How to Tell the Story",
+          "expectedStart": 681.21,
+          "expectedEnd": 841.66,
+          "actualStart": 687.213042,
+          "actualEnd": 847.661042,
+          "timeDifference": 6.003041999999937
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Influence of Modern Concerns on Historical Interpretation",
+          "expectedStart": 841.66,
+          "expectedEnd": 987.55,
+          "actualStart": 849.161042,
+          "actualEnd": 995.047209,
+          "timeDifference": 7.501041999999984
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Evidence, Imagination, and the Stories We Choose",
+          "expectedStart": 987.55,
+          "expectedEnd": 1153.82,
+          "actualStart": 996.547209,
+          "actualEnd": 1162.812292,
+          "timeDifference": 8.997208999999998
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Legacy of the “Calamitous” Narrative",
+          "expectedStart": 1153.82,
+          "expectedEnd": 1280.93,
+          "actualStart": 1164.312292,
+          "actualEnd": 1291.422959,
+          "timeDifference": 10.492292000000134
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reassessing the Century—New Questions, New Answers",
+          "expectedStart": 1280.93,
+          "expectedEnd": 1437.11,
+          "actualStart": 1292.922959,
+          "actualEnd": 1449.103126,
+          "timeDifference": 11.992958999999928
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Conversation—History as Dialogue",
+          "expectedStart": 1437.11,
+          "expectedEnd": 1560.18,
+          "actualStart": 1450.603126,
+          "actualEnd": 1573.677293,
+          "timeDifference": 13.493126000000075
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Uncertainty—What the 14th Century Teaches Today",
+          "expectedStart": 1560.18,
+          "expectedEnd": 1665.56,
+          "actualStart": 1575.177293,
+          "actualEnd": 1680.5534599999999,
+          "timeDifference": 14.9972929999999
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1665.56,
+          "expectedEnd": 1782.86,
+          "actualStart": 1682.0534599999999,
+          "actualEnd": 1799.3543769999999,
+          "timeDifference": 16.493459999999914
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.446833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How a Century Became a Symbol of Disaster"
+        },
+        {
+          "startTime": 352.095375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How a Century Became a Symbol of Disaster and Chapter 2 The Power and Limits of Popular History"
+        },
+        {
+          "startTime": 509.28937499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Limits of Popular History and Chapter 3 Rethinking Crisis—Complexity Behind the Calamity"
+        },
+        {
+          "startTime": 685.713042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Rethinking Crisis—Complexity Behind the Calamity and Chapter 4 The Debate Over How to Tell the Story"
+        },
+        {
+          "startTime": 847.661042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Debate Over How to Tell the Story and Chapter 5 The Influence of Modern Concerns on Historical Interpretation"
+        },
+        {
+          "startTime": 995.047209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Influence of Modern Concerns on Historical Interpretation and Chapter 6 Evidence, Imagination, and the Stories We Choose"
+        },
+        {
+          "startTime": 1162.812292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Evidence, Imagination, and the Stories We Choose and Chapter 7 The Legacy of the “Calamitous” Narrative"
+        },
+        {
+          "startTime": 1291.422959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Legacy of the “Calamitous” Narrative and Chapter 8 Reassessing the Century—New Questions, New Answers"
+        },
+        {
+          "startTime": 1449.103126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reassessing the Century—New Questions, New Answers and Chapter 9 The Ongoing Conversation—History as Dialogue"
+        },
+        {
+          "startTime": 1573.677293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Conversation—History as Dialogue and Chapter 10 Living with Uncertainty—What the 14th Century Teaches Today"
+        },
+        {
+          "startTime": 1680.5534599999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Uncertainty—What the 14th Century Teaches Today and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2200",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8); Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T00:18:52.843Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

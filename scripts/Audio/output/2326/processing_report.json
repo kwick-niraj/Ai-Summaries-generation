@@ -1,0 +1,456 @@
+{
+  "bookId": "2326",
+  "timestamp": "2025-07-10T12:26:10.839Z",
+  "success": false,
+  "processingTime": -1752150113714,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4431,
+    "totalAudioFiles": 12,
+    "totalDuration": 2089.3407070000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2089.3407070000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2326/optimized_text/2326.md",
+    "fileSize": 878,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "2326.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2326/metadata/2326_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2089.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2326/metadata/2326_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2326/metadata/2326_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2326/2326_complete.wav",
+    "duration": 2089.340708,
+    "fileSize": 100288432,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2326/introduction.wav",
+          "duration": 67.965333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 67.965333,
+          "startTime": 0,
+          "endTime": 67.965333
+        },
+        {
+          "path": "Audio/output/2326/chapter_01.wav",
+          "duration": 228.140083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Green—Why Sustainable Choices Make Sense for Every Budget",
+          "actualDuration": 228.140083,
+          "startTime": 69.465333,
+          "endTime": 297.605416
+        },
+        {
+          "path": "Audio/output/2326/chapter_02.wav",
+          "duration": 218.348958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Home Energy Use—Finding Hidden Savings in Everyday Life",
+          "actualDuration": 218.348958,
+          "startTime": 299.105416,
+          "endTime": 517.454374
+        },
+        {
+          "path": "Audio/output/2326/chapter_03.wav",
+          "duration": 173.781458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Water Wisdom—Simple Steps to Conserve and Save",
+          "actualDuration": 173.781458,
+          "startTime": 518.954374,
+          "endTime": 692.7358320000001
+        },
+        {
+          "path": "Audio/output/2326/chapter_04.wav",
+          "duration": 208.364,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reducing Waste—Practical Approaches to Less Trash and More Savings",
+          "actualDuration": 208.364,
+          "startTime": 694.2358320000001,
+          "endTime": 902.5998320000001
+        },
+        {
+          "path": "Audio/output/2326/chapter_05.wav",
+          "duration": 193.979292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Smart Shopping—Making Eco-Friendly Choices Without Overspending",
+          "actualDuration": 193.979292,
+          "startTime": 904.0998320000001,
+          "endTime": 1098.079124
+        },
+        {
+          "path": "Audio/output/2326/chapter_06.wav",
+          "duration": 211.665375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Greener Transportation—Balancing Mobility, Cost, and Environmental Impact",
+          "actualDuration": 211.665375,
+          "startTime": 1099.579124,
+          "endTime": 1311.2444990000001
+        },
+        {
+          "path": "Audio/output/2326/chapter_07.wav",
+          "duration": 170.073875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Community Connections—Leveraging Shared Resources for Greater Impact",
+          "actualDuration": 170.073875,
+          "startTime": 1312.7444990000001,
+          "endTime": 1482.8183740000002
+        },
+        {
+          "path": "Audio/output/2326/chapter_08.wav",
+          "duration": 157.125208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mindful Consumption—Cultivating Lasting Habits for Sustainable Living",
+          "actualDuration": 157.125208,
+          "startTime": 1484.3183740000002,
+          "endTime": 1641.443582
+        },
+        {
+          "path": "Audio/output/2326/chapter_09.wav",
+          "duration": 183.549125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Investing in Long-Term Sustainability—When and How to Make Bigger Changes",
+          "actualDuration": 183.549125,
+          "startTime": 1642.943582,
+          "endTime": 1826.492707
+        },
+        {
+          "path": "Audio/output/2326/chapter_10.wav",
+          "duration": 148.255333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Momentum—Adapting and Thriving Over the Long Haul",
+          "actualDuration": 148.255333,
+          "startTime": 1827.992707,
+          "endTime": 1976.2480400000002
+        },
+        {
+          "path": "Audio/output/2326/conclusion.wav",
+          "duration": 128.092667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.092667,
+          "startTime": 1977.7480400000002,
+          "endTime": 2105.8407070000003
+        }
+      ],
+      "totalDuration": 2105.8407070000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 67.97,
+          "actualStart": 0,
+          "actualEnd": 67.965333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Green—Why Sustainable Choices Make Sense for Every Budget",
+          "expectedStart": 67.97,
+          "expectedEnd": 296.11,
+          "actualStart": 69.465333,
+          "actualEnd": 297.605416,
+          "timeDifference": 1.4953330000000022
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Home Energy Use—Finding Hidden Savings in Everyday Life",
+          "expectedStart": 296.11,
+          "expectedEnd": 514.46,
+          "actualStart": 299.105416,
+          "actualEnd": 517.454374,
+          "timeDifference": 2.9954159999999774
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Water Wisdom—Simple Steps to Conserve and Save",
+          "expectedStart": 514.46,
+          "expectedEnd": 688.24,
+          "actualStart": 518.954374,
+          "actualEnd": 692.7358320000001,
+          "timeDifference": 4.494373999999993
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reducing Waste—Practical Approaches to Less Trash and More Savings",
+          "expectedStart": 688.24,
+          "expectedEnd": 896.6,
+          "actualStart": 694.2358320000001,
+          "actualEnd": 902.5998320000001,
+          "timeDifference": 5.995832000000064
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Smart Shopping—Making Eco-Friendly Choices Without Overspending",
+          "expectedStart": 896.6,
+          "expectedEnd": 1090.58,
+          "actualStart": 904.0998320000001,
+          "actualEnd": 1098.079124,
+          "timeDifference": 7.499832000000083
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Greener Transportation—Balancing Mobility, Cost, and Environmental Impact",
+          "expectedStart": 1090.58,
+          "expectedEnd": 1302.25,
+          "actualStart": 1099.579124,
+          "actualEnd": 1311.2444990000001,
+          "timeDifference": 8.999124000000165
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Community Connections—Leveraging Shared Resources for Greater Impact",
+          "expectedStart": 1302.25,
+          "expectedEnd": 1472.32,
+          "actualStart": 1312.7444990000001,
+          "actualEnd": 1482.8183740000002,
+          "timeDifference": 10.494499000000133
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mindful Consumption—Cultivating Lasting Habits for Sustainable Living",
+          "expectedStart": 1472.32,
+          "expectedEnd": 1629.45,
+          "actualStart": 1484.3183740000002,
+          "actualEnd": 1641.443582,
+          "timeDifference": 11.99837400000024
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Investing in Long-Term Sustainability—When and How to Make Bigger Changes",
+          "expectedStart": 1629.45,
+          "expectedEnd": 1813,
+          "actualStart": 1642.943582,
+          "actualEnd": 1826.492707,
+          "timeDifference": 13.49358200000006
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Momentum—Adapting and Thriving Over the Long Haul",
+          "expectedStart": 1813,
+          "expectedEnd": 1961.26,
+          "actualStart": 1827.992707,
+          "actualEnd": 1976.2480400000002,
+          "timeDifference": 14.99270700000011
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1961.26,
+          "expectedEnd": 2089.35,
+          "actualStart": 1977.7480400000002,
+          "actualEnd": 2105.8407070000003,
+          "timeDifference": 16.488040000000183
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 67.965333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Green—Why Sustainable Choices Make Sense for Every Budget"
+        },
+        {
+          "startTime": 297.605416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Green—Why Sustainable Choices Make Sense for Every Budget and Chapter 2 Understanding Home Energy Use—Finding Hidden Savings in Everyday Life"
+        },
+        {
+          "startTime": 517.454374,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Home Energy Use—Finding Hidden Savings in Everyday Life and Chapter 3 Water Wisdom—Simple Steps to Conserve and Save"
+        },
+        {
+          "startTime": 692.7358320000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Water Wisdom—Simple Steps to Conserve and Save and Chapter 4 Reducing Waste—Practical Approaches to Less Trash and More Savings"
+        },
+        {
+          "startTime": 902.5998320000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reducing Waste—Practical Approaches to Less Trash and More Savings and Chapter 5 Smart Shopping—Making Eco-Friendly Choices Without Overspending"
+        },
+        {
+          "startTime": 1098.079124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Smart Shopping—Making Eco-Friendly Choices Without Overspending and Chapter 6 Greener Transportation—Balancing Mobility, Cost, and Environmental Impact"
+        },
+        {
+          "startTime": 1311.2444990000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Greener Transportation—Balancing Mobility, Cost, and Environmental Impact and Chapter 7 Community Connections—Leveraging Shared Resources for Greater Impact"
+        },
+        {
+          "startTime": 1482.8183740000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Community Connections—Leveraging Shared Resources for Greater Impact and Chapter 8 Mindful Consumption—Cultivating Lasting Habits for Sustainable Living"
+        },
+        {
+          "startTime": 1641.443582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mindful Consumption—Cultivating Lasting Habits for Sustainable Living and Chapter 9 Investing in Long-Term Sustainability—When and How to Make Bigger Changes"
+        },
+        {
+          "startTime": 1826.492707,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Investing in Long-Term Sustainability—When and How to Make Bigger Changes and Chapter 10 Sustaining Momentum—Adapting and Thriving Over the Long Haul"
+        },
+        {
+          "startTime": 1976.2480400000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Momentum—Adapting and Thriving Over the Long Haul and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2326",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:21:54.242Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

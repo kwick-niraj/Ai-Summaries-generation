@@ -1,0 +1,432 @@
+{
+  "bookId": "2250",
+  "timestamp": "2025-07-10T04:01:43.199Z",
+  "success": false,
+  "processingTime": -1752119762773,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 4025,
+    "totalAudioFiles": 11,
+    "totalDuration": 1851.6962079999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 11,
+    "failed": 0,
+    "duration": 1851.6962079999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2250/optimized_text/2250.md",
+    "fileSize": 733,
+    "wordCount": 98,
+    "format": "markdown",
+    "filename": "2250.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2250/metadata/2250_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1851.69,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2250/metadata/2250_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2250/metadata/2250_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2250/2250_complete.wav",
+    "duration": 1851.696208,
+    "fileSize": 88881496,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2250/introduction.wav",
+          "duration": 93.793417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.793417,
+          "startTime": 0,
+          "endTime": 93.793417
+        },
+        {
+          "path": "Audio/output/2250/chapter_01.wav",
+          "duration": 192.386958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Encounters with Technology and the Seeds of Awareness",
+          "actualDuration": 192.386958,
+          "startTime": 95.293417,
+          "endTime": 287.680375
+        },
+        {
+          "path": "Audio/output/2250/chapter_02.wav",
+          "duration": 179.854833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering Algorithmic Bias and Its Real-World Impact",
+          "actualDuration": 179.854833,
+          "startTime": 289.180375,
+          "endTime": 469.035208
+        },
+        {
+          "path": "Audio/output/2250/chapter_03.wav",
+          "duration": 234.310917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Human Cost of Unchecked AI and the Fight for Accountability",
+          "actualDuration": 234.310917,
+          "startTime": 470.535208,
+          "endTime": 704.846125
+        },
+        {
+          "path": "Audio/output/2250/chapter_04.wav",
+          "duration": 174.498,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Inclusive Technology and the Power of Representation",
+          "actualDuration": 174.498,
+          "startTime": 706.346125,
+          "endTime": 880.8441250000001
+        },
+        {
+          "path": "Audio/output/2250/chapter_05.wav",
+          "duration": 172.76525,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Advocacy, Education, and the Path Forward",
+          "actualDuration": 172.76525,
+          "startTime": 882.3441250000001,
+          "endTime": 1055.109375
+        },
+        {
+          "path": "Audio/output/2250/chapter_06.wav",
+          "duration": 213.317458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Battle for Policy and Regulation: Navigating Power and Resistance",
+          "actualDuration": 213.317458,
+          "startTime": 1056.609375,
+          "endTime": 1269.926833
+        },
+        {
+          "path": "Audio/output/2250/chapter_07.wav",
+          "duration": 150.46425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Emotional Toll: Bearing Witness and Finding Resilience",
+          "actualDuration": 150.46425,
+          "startTime": 1271.426833,
+          "endTime": 1421.891083
+        },
+        {
+          "path": "Audio/output/2250/chapter_08.wav",
+          "duration": 174.881917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Global Perspectives: AI, Justice, and the World Beyond Silicon Valley",
+          "actualDuration": 174.881917,
+          "startTime": 1423.391083,
+          "endTime": 1598.273
+        },
+        {
+          "path": "Audio/output/2250/chapter_09.wav",
+          "duration": 151.044833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Imagining a Human-Centered Future: Hope, Creativity, and Collective Action",
+          "actualDuration": 151.044833,
+          "startTime": 1599.773,
+          "endTime": 1750.8178329999998
+        },
+        {
+          "path": "Audio/output/2250/conclusion.wav",
+          "duration": 114.378375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 114.378375,
+          "startTime": 1752.3178329999998,
+          "endTime": 1866.6962079999998
+        }
+      ],
+      "totalDuration": 1866.6962079999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.79,
+          "actualStart": 0,
+          "actualEnd": 93.793417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Encounters with Technology and the Seeds of Awareness",
+          "expectedStart": 93.79,
+          "expectedEnd": 286.18,
+          "actualStart": 95.293417,
+          "actualEnd": 287.680375,
+          "timeDifference": 1.503416999999999
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering Algorithmic Bias and Its Real-World Impact",
+          "expectedStart": 286.18,
+          "expectedEnd": 466.03,
+          "actualStart": 289.180375,
+          "actualEnd": 469.035208,
+          "timeDifference": 3.0003750000000196
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Human Cost of Unchecked AI and the Fight for Accountability",
+          "expectedStart": 466.03,
+          "expectedEnd": 700.34,
+          "actualStart": 470.535208,
+          "actualEnd": 704.846125,
+          "timeDifference": 4.505208000000039
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Inclusive Technology and the Power of Representation",
+          "expectedStart": 700.34,
+          "expectedEnd": 874.84,
+          "actualStart": 706.346125,
+          "actualEnd": 880.8441250000001,
+          "timeDifference": 6.006124999999997
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Advocacy, Education, and the Path Forward",
+          "expectedStart": 874.84,
+          "expectedEnd": 1047.61,
+          "actualStart": 882.3441250000001,
+          "actualEnd": 1055.109375,
+          "timeDifference": 7.504125000000045
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Battle for Policy and Regulation: Navigating Power and Resistance",
+          "expectedStart": 1047.61,
+          "expectedEnd": 1260.93,
+          "actualStart": 1056.609375,
+          "actualEnd": 1269.926833,
+          "timeDifference": 8.9993750000001
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Emotional Toll: Bearing Witness and Finding Resilience",
+          "expectedStart": 1260.93,
+          "expectedEnd": 1411.39,
+          "actualStart": 1271.426833,
+          "actualEnd": 1421.891083,
+          "timeDifference": 10.496832999999924
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Global Perspectives: AI, Justice, and the World Beyond Silicon Valley",
+          "expectedStart": 1411.39,
+          "expectedEnd": 1586.27,
+          "actualStart": 1423.391083,
+          "actualEnd": 1598.273,
+          "timeDifference": 12.00108299999988
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Imagining a Human-Centered Future: Hope, Creativity, and Collective Action",
+          "expectedStart": 1586.27,
+          "expectedEnd": 1737.31,
+          "actualStart": 1599.773,
+          "actualEnd": 1750.8178329999998,
+          "timeDifference": 13.502999999999929
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1737.31,
+          "expectedEnd": 1851.69,
+          "actualStart": 1752.3178329999998,
+          "actualEnd": 1866.6962079999998,
+          "timeDifference": 15.007832999999891
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.793417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Encounters with Technology and the Seeds of Awareness"
+        },
+        {
+          "startTime": 287.680375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Encounters with Technology and the Seeds of Awareness and Chapter 2 Discovering Algorithmic Bias and Its Real-World Impact"
+        },
+        {
+          "startTime": 469.035208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering Algorithmic Bias and Its Real-World Impact and Chapter 3 The Human Cost of Unchecked AI and the Fight for Accountability"
+        },
+        {
+          "startTime": 704.846125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Human Cost of Unchecked AI and the Fight for Accountability and Chapter 4 Building Inclusive Technology and the Power of Representation"
+        },
+        {
+          "startTime": 880.8441250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Inclusive Technology and the Power of Representation and Chapter 5 Advocacy, Education, and the Path Forward"
+        },
+        {
+          "startTime": 1055.109375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Advocacy, Education, and the Path Forward and Chapter 6 The Battle for Policy and Regulation: Navigating Power and Resistance"
+        },
+        {
+          "startTime": 1269.926833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Battle for Policy and Regulation: Navigating Power and Resistance and Chapter 7 The Emotional Toll: Bearing Witness and Finding Resilience"
+        },
+        {
+          "startTime": 1421.891083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Emotional Toll: Bearing Witness and Finding Resilience and Chapter 8 Global Perspectives: AI, Justice, and the World Beyond Silicon Valley"
+        },
+        {
+          "startTime": 1598.273,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Global Perspectives: AI, Justice, and the World Beyond Silicon Valley and Chapter 9 Imagining a Human-Centered Future: Hope, Creativity, and Collective Action"
+        },
+        {
+          "startTime": 1750.8178329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Imagining a Human-Centered Future: Hope, Creativity, and Collective Action and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2250",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T03:56:03.990Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

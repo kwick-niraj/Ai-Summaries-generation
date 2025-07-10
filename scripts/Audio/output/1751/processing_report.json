@@ -1,0 +1,456 @@
+{
+  "bookId": "1751",
+  "timestamp": "2025-07-08T11:39:21.432Z",
+  "success": false,
+  "processingTime": -1751973416631,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4790,
+    "totalAudioFiles": 12,
+    "totalDuration": 2072.723125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2072.723125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1751/optimized_text/1751.md",
+    "fileSize": 862,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "1751.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1751/metadata/1751_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2072.71,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1751/metadata/1751_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1751/metadata/1751_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1751/1751_complete.wav",
+    "duration": 2072.723125,
+    "fileSize": 99490788,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1751/introduction.wav",
+          "duration": 94.758792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.758792,
+          "startTime": 0,
+          "endTime": 94.758792
+        },
+        {
+          "path": "Audio/output/1751/chapter_01.wav",
+          "duration": 212.716833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Day Everything Changed: Dallas and the Unraveling of Trust",
+          "actualDuration": 212.716833,
+          "startTime": 96.258792,
+          "endTime": 308.97562500000004
+        },
+        {
+          "path": "Audio/output/1751/chapter_02.wav",
+          "duration": 265.32225,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Inside the Secret Service: Culture, Protocols, and Unseen Weaknesses",
+          "actualDuration": 265.32225,
+          "startTime": 310.47562500000004,
+          "endTime": 575.797875
+        },
+        {
+          "path": "Audio/output/1751/chapter_03.wav",
+          "duration": 228.114167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Official Story and Its Gaps: Testimonies, Contradictions, and Unanswered Questions",
+          "actualDuration": 228.114167,
+          "startTime": 577.297875,
+          "endTime": 805.4120419999999
+        },
+        {
+          "path": "Audio/output/1751/chapter_04.wav",
+          "duration": 184.191958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Guilt: Agents’ Lives After the Assassination",
+          "actualDuration": 184.191958,
+          "startTime": 806.9120419999999,
+          "endTime": 991.1039999999999
+        },
+        {
+          "path": "Audio/output/1751/chapter_05.wav",
+          "duration": 183.312667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Rethinking Responsibility: New Evidence, Whistleblowers, and the Search for Truth",
+          "actualDuration": 183.312667,
+          "startTime": 992.6039999999999,
+          "endTime": 1175.916667
+        },
+        {
+          "path": "Audio/output/1751/chapter_06.wav",
+          "duration": 191.680333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Picking Up the Pieces: The Secret Service in the Shadow of Dallas",
+          "actualDuration": 191.680333,
+          "startTime": 1177.416667,
+          "endTime": 1369.097
+        },
+        {
+          "path": "Audio/output/1751/chapter_07.wav",
+          "duration": 163.263667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect: Families, Colleagues, and a Nation in Mourning",
+          "actualDuration": 163.263667,
+          "startTime": 1370.597,
+          "endTime": 1533.860667
+        },
+        {
+          "path": "Audio/output/1751/chapter_08.wav",
+          "duration": 166.423083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow: Conspiracy, Memory, and the American Imagination",
+          "actualDuration": 166.423083,
+          "startTime": 1535.360667,
+          "endTime": 1701.7837499999998
+        },
+        {
+          "path": "Audio/output/1751/chapter_09.wav",
+          "duration": 145.128333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Reform and Renewal: How the Secret Service Changed",
+          "actualDuration": 145.128333,
+          "startTime": 1703.2837499999998,
+          "endTime": 1848.4120829999997
+        },
+        {
+          "path": "Audio/output/1751/chapter_10.wav",
+          "duration": 113.311875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with the Past: Legacy, Healing, and the Road Ahead",
+          "actualDuration": 113.311875,
+          "startTime": 1849.9120829999997,
+          "endTime": 1963.2239579999998
+        },
+        {
+          "path": "Audio/output/1751/conclusion.wav",
+          "duration": 124.499167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.499167,
+          "startTime": 1964.7239579999998,
+          "endTime": 2089.223125
+        }
+      ],
+      "totalDuration": 2089.223125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.76,
+          "actualStart": 0,
+          "actualEnd": 94.758792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Day Everything Changed: Dallas and the Unraveling of Trust",
+          "expectedStart": 94.76,
+          "expectedEnd": 307.48,
+          "actualStart": 96.258792,
+          "actualEnd": 308.97562500000004,
+          "timeDifference": 1.4987919999999946
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Inside the Secret Service: Culture, Protocols, and Unseen Weaknesses",
+          "expectedStart": 307.48,
+          "expectedEnd": 572.8,
+          "actualStart": 310.47562500000004,
+          "actualEnd": 575.797875,
+          "timeDifference": 2.995625000000018
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Official Story and Its Gaps: Testimonies, Contradictions, and Unanswered Questions",
+          "expectedStart": 572.8,
+          "expectedEnd": 800.91,
+          "actualStart": 577.297875,
+          "actualEnd": 805.4120419999999,
+          "timeDifference": 4.497875000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Guilt: Agents’ Lives After the Assassination",
+          "expectedStart": 800.91,
+          "expectedEnd": 985.1,
+          "actualStart": 806.9120419999999,
+          "actualEnd": 991.1039999999999,
+          "timeDifference": 6.00204199999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Rethinking Responsibility: New Evidence, Whistleblowers, and the Search for Truth",
+          "expectedStart": 985.1,
+          "expectedEnd": 1168.41,
+          "actualStart": 992.6039999999999,
+          "actualEnd": 1175.916667,
+          "timeDifference": 7.503999999999905
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Picking Up the Pieces: The Secret Service in the Shadow of Dallas",
+          "expectedStart": 1168.41,
+          "expectedEnd": 1360.09,
+          "actualStart": 1177.416667,
+          "actualEnd": 1369.097,
+          "timeDifference": 9.00666699999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect: Families, Colleagues, and a Nation in Mourning",
+          "expectedStart": 1360.09,
+          "expectedEnd": 1523.35,
+          "actualStart": 1370.597,
+          "actualEnd": 1533.860667,
+          "timeDifference": 10.507000000000062
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow: Conspiracy, Memory, and the American Imagination",
+          "expectedStart": 1523.35,
+          "expectedEnd": 1689.77,
+          "actualStart": 1535.360667,
+          "actualEnd": 1701.7837499999998,
+          "timeDifference": 12.010667000000012
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Reform and Renewal: How the Secret Service Changed",
+          "expectedStart": 1689.77,
+          "expectedEnd": 1834.9,
+          "actualStart": 1703.2837499999998,
+          "actualEnd": 1848.4120829999997,
+          "timeDifference": 13.513749999999845
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with the Past: Legacy, Healing, and the Road Ahead",
+          "expectedStart": 1834.9,
+          "expectedEnd": 1948.21,
+          "actualStart": 1849.9120829999997,
+          "actualEnd": 1963.2239579999998,
+          "timeDifference": 15.01208299999962
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1948.21,
+          "expectedEnd": 2072.71,
+          "actualStart": 1964.7239579999998,
+          "actualEnd": 2089.223125,
+          "timeDifference": 16.513957999999775
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.758792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Day Everything Changed: Dallas and the Unraveling of Trust"
+        },
+        {
+          "startTime": 308.97562500000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Day Everything Changed: Dallas and the Unraveling of Trust and Chapter 2 Inside the Secret Service: Culture, Protocols, and Unseen Weaknesses"
+        },
+        {
+          "startTime": 575.797875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Inside the Secret Service: Culture, Protocols, and Unseen Weaknesses and Chapter 3 The Official Story and Its Gaps: Testimonies, Contradictions, and Unanswered Questions"
+        },
+        {
+          "startTime": 805.4120419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Official Story and Its Gaps: Testimonies, Contradictions, and Unanswered Questions and Chapter 4 The Weight of Guilt: Agents’ Lives After the Assassination"
+        },
+        {
+          "startTime": 991.1039999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Guilt: Agents’ Lives After the Assassination and Chapter 5 Rethinking Responsibility: New Evidence, Whistleblowers, and the Search for Truth"
+        },
+        {
+          "startTime": 1175.916667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Rethinking Responsibility: New Evidence, Whistleblowers, and the Search for Truth and Chapter 6 Picking Up the Pieces: The Secret Service in the Shadow of Dallas"
+        },
+        {
+          "startTime": 1369.097,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Picking Up the Pieces: The Secret Service in the Shadow of Dallas and Chapter 7 The Ripple Effect: Families, Colleagues, and a Nation in Mourning"
+        },
+        {
+          "startTime": 1533.860667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect: Families, Colleagues, and a Nation in Mourning and Chapter 8 The Long Shadow: Conspiracy, Memory, and the American Imagination"
+        },
+        {
+          "startTime": 1701.7837499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow: Conspiracy, Memory, and the American Imagination and Chapter 9 Reform and Renewal: How the Secret Service Changed"
+        },
+        {
+          "startTime": 1848.4120829999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Reform and Renewal: How the Secret Service Changed and Chapter 10 Living with the Past: Legacy, Healing, and the Road Ahead"
+        },
+        {
+          "startTime": 1963.2239579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with the Past: Legacy, Healing, and the Road Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1751",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T11:16:58.102Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "bookId": "2273",
+  "timestamp": "2025-07-10T08:42:32.078Z",
+  "success": false,
+  "processingTime": -1752135992883,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4854,
+    "totalAudioFiles": 12,
+    "totalDuration": 2052.757209
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2052.757209
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2273/optimized_text/2273.md",
+    "fileSize": 709,
+    "wordCount": 109,
+    "format": "markdown",
+    "filename": "2273.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2273/metadata/2273_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2052.75,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2273/metadata/2273_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2273/metadata/2273_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2273/2273_complete.wav",
+    "duration": 2052.757208,
+    "fileSize": 98532424,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2273/introduction.wav",
+          "duration": 93.462625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.462625,
+          "startTime": 0,
+          "endTime": 93.462625
+        },
+        {
+          "path": "Audio/output/2273/chapter_01.wav",
+          "duration": 285.959,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a City of Shadows and Light",
+          "actualDuration": 285.959,
+          "startTime": 94.962625,
+          "endTime": 380.921625
+        },
+        {
+          "path": "Audio/output/2273/chapter_02.wav",
+          "duration": 251.697375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Weight of Memory and the Shape of the City",
+          "actualDuration": 251.697375,
+          "startTime": 382.421625,
+          "endTime": 634.119
+        },
+        {
+          "path": "Audio/output/2273/chapter_03.wav",
+          "duration": 210.583542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Melancholy as a Shared Experience",
+          "actualDuration": 210.583542,
+          "startTime": 635.619,
+          "endTime": 846.202542
+        },
+        {
+          "path": "Audio/output/2273/chapter_04.wav",
+          "duration": 258.2505,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 East and West: A City of Contrasts",
+          "actualDuration": 258.2505,
+          "startTime": 847.702542,
+          "endTime": 1105.953042
+        },
+        {
+          "path": "Audio/output/2273/chapter_05.wav",
+          "duration": 178.626375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Becoming an Artist in a City of Stories",
+          "actualDuration": 178.626375,
+          "startTime": 1107.453042,
+          "endTime": 1286.0794170000001
+        },
+        {
+          "path": "Audio/output/2273/chapter_06.wav",
+          "duration": 195.663917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The City’s Changing Face: Loss, Renewal, and the Pulse of Modernity",
+          "actualDuration": 195.663917,
+          "startTime": 1287.5794170000001,
+          "endTime": 1483.2433340000002
+        },
+        {
+          "path": "Audio/output/2273/chapter_07.wav",
+          "duration": 183.08425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Private World: Family, Solitude, and the Search for Meaning",
+          "actualDuration": 183.08425,
+          "startTime": 1484.7433340000002,
+          "endTime": 1667.8275840000001
+        },
+        {
+          "path": "Audio/output/2273/chapter_08.wav",
+          "duration": 153.0315,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Gaze of the Outsider: Seeing Istanbul Through New Eyes",
+          "actualDuration": 153.0315,
+          "startTime": 1669.3275840000001,
+          "endTime": 1822.3590840000002
+        },
+        {
+          "path": "Audio/output/2273/chapter_10.wav",
+          "duration": 130.809292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit: Hope, Belonging, and the City’s Future",
+          "actualDuration": 130.809292,
+          "startTime": 1823.8590840000002,
+          "endTime": 1954.668376
+        },
+        {
+          "path": "Audio/output/2273/conclusion.wav",
+          "duration": 111.588833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.588833,
+          "startTime": 1956.168376,
+          "endTime": 2067.757209
+        }
+      ],
+      "totalDuration": 2067.757209,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.46,
+          "actualStart": 0,
+          "actualEnd": 93.462625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a City of Shadows and Light",
+          "expectedStart": 93.46,
+          "expectedEnd": 379.42,
+          "actualStart": 94.962625,
+          "actualEnd": 380.921625,
+          "timeDifference": 1.502625000000009
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Weight of Memory and the Shape of the City",
+          "expectedStart": 379.42,
+          "expectedEnd": 631.12,
+          "actualStart": 382.421625,
+          "actualEnd": 634.119,
+          "timeDifference": 3.00162499999999
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Melancholy as a Shared Experience",
+          "expectedStart": 631.12,
+          "expectedEnd": 841.7,
+          "actualStart": 635.619,
+          "actualEnd": 846.202542,
+          "timeDifference": 4.499000000000024
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 East and West: A City of Contrasts",
+          "expectedStart": 841.7,
+          "expectedEnd": 1099.95,
+          "actualStart": 847.702542,
+          "actualEnd": 1105.953042,
+          "timeDifference": 6.0025419999999485
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Becoming an Artist in a City of Stories",
+          "expectedStart": 1099.95,
+          "expectedEnd": 1278.58,
+          "actualStart": 1107.453042,
+          "actualEnd": 1286.0794170000001,
+          "timeDifference": 7.50304200000005
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The City’s Changing Face: Loss, Renewal, and the Pulse of Modernity",
+          "expectedStart": 1278.58,
+          "expectedEnd": 1474.24,
+          "actualStart": 1287.5794170000001,
+          "actualEnd": 1483.2433340000002,
+          "timeDifference": 8.999417000000221
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Private World: Family, Solitude, and the Search for Meaning",
+          "expectedStart": 1474.24,
+          "expectedEnd": 1657.32,
+          "actualStart": 1484.7433340000002,
+          "actualEnd": 1667.8275840000001,
+          "timeDifference": 10.503334000000223
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Gaze of the Outsider: Seeing Istanbul Through New Eyes",
+          "expectedStart": 1657.32,
+          "expectedEnd": 1810.35,
+          "actualStart": 1669.3275840000001,
+          "actualEnd": 1822.3590840000002,
+          "timeDifference": 12.007584000000179
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit: Hope, Belonging, and the City’s Future",
+          "expectedStart": 1810.35,
+          "expectedEnd": 1941.16,
+          "actualStart": 1823.8590840000002,
+          "actualEnd": 1954.668376,
+          "timeDifference": 13.509084000000257
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1941.16,
+          "expectedEnd": 2052.75,
+          "actualStart": 1956.168376,
+          "actualEnd": 2067.757209,
+          "timeDifference": 15.008375999999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.462625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a City of Shadows and Light"
+        },
+        {
+          "startTime": 380.921625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a City of Shadows and Light and Chapter 2 The Weight of Memory and the Shape of the City"
+        },
+        {
+          "startTime": 634.119,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Weight of Memory and the Shape of the City and Chapter 3 Melancholy as a Shared Experience"
+        },
+        {
+          "startTime": 846.202542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Melancholy as a Shared Experience and Chapter 4 East and West: A City of Contrasts"
+        },
+        {
+          "startTime": 1105.953042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 East and West: A City of Contrasts and Chapter 5 Becoming an Artist in a City of Stories"
+        },
+        {
+          "startTime": 1286.0794170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Becoming an Artist in a City of Stories and Chapter 6 The City’s Changing Face: Loss, Renewal, and the Pulse of Modernity"
+        },
+        {
+          "startTime": 1483.2433340000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The City’s Changing Face: Loss, Renewal, and the Pulse of Modernity and Chapter 7 The Private World: Family, Solitude, and the Search for Meaning"
+        },
+        {
+          "startTime": 1667.8275840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Private World: Family, Solitude, and the Search for Meaning and Chapter 8 The Gaze of the Outsider: Seeing Istanbul Through New Eyes"
+        },
+        {
+          "startTime": 1822.3590840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Gaze of the Outsider: Seeing Istanbul Through New Eyes and Chapter 10 The Enduring Spirit: Hope, Belonging, and the City’s Future"
+        },
+        {
+          "startTime": 1954.668376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit: Hope, Belonging, and the City’s Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2273",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T08:26:34.697Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

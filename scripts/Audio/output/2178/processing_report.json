@@ -1,0 +1,456 @@
+{
+  "bookId": "2178",
+  "timestamp": "2025-07-09T23:27:19.422Z",
+  "success": false,
+  "processingTime": -1752103033598,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5047,
+    "totalAudioFiles": 12,
+    "totalDuration": 2332.764625999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2332.764625999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2178/optimized_text/2178.md",
+    "fileSize": 932,
+    "wordCount": 134,
+    "format": "markdown",
+    "filename": "2178.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2178/metadata/2178_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2332.77,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2178/metadata/2178_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2178/metadata/2178_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2178/2178_complete.wav",
+    "duration": 2332.764625,
+    "fileSize": 111972780,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2178/introduction.wav",
+          "duration": 93.415917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.415917,
+          "startTime": 0,
+          "endTime": 93.415917
+        },
+        {
+          "path": "Audio/output/2178/chapter_01.wav",
+          "duration": 262.925875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When the Mind’s Map Breaks: Perception and the Fragile Self",
+          "actualDuration": 262.925875,
+          "startTime": 94.915917,
+          "endTime": 357.841792
+        },
+        {
+          "path": "Audio/output/2178/chapter_02.wav",
+          "duration": 240.68775,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Lost in Time and Memory: Amnesia, Identity, and the Search for Meaning",
+          "actualDuration": 240.68775,
+          "startTime": 359.341792,
+          "endTime": 600.029542
+        },
+        {
+          "path": "Audio/output/2178/chapter_03.wav",
+          "duration": 211.398958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The World Turned Upside Down: Unusual Movements and the Struggle for Control",
+          "actualDuration": 211.398958,
+          "startTime": 601.529542,
+          "endTime": 812.9285
+        },
+        {
+          "path": "Audio/output/2178/chapter_04.wav",
+          "duration": 227.464333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Mind’s Surprises: Unusual Talents, Deficits, and the Limits of Understanding",
+          "actualDuration": 227.464333,
+          "startTime": 814.4285,
+          "endTime": 1041.8928329999999
+        },
+        {
+          "path": "Audio/output/2178/chapter_05.wav",
+          "duration": 177.655625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Living with Difference: Adaptation, Resilience, and the Humanity of Care",
+          "actualDuration": 177.655625,
+          "startTime": 1043.3928329999999,
+          "endTime": 1221.0484579999998
+        },
+        {
+          "path": "Audio/output/2178/chapter_06.wav",
+          "duration": 192.512542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Ghosts Within: Phantom Limbs, Lost Senses, and the Persistence of Self",
+          "actualDuration": 192.512542,
+          "startTime": 1222.5484579999998,
+          "endTime": 1415.0609999999997
+        },
+        {
+          "path": "Audio/output/2178/chapter_07.wav",
+          "duration": 208.7705,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Divided Mind: Split Brains, Conflicting Selves, and the Puzzle of Unity",
+          "actualDuration": 208.7705,
+          "startTime": 1416.5609999999997,
+          "endTime": 1625.3314999999998
+        },
+        {
+          "path": "Audio/output/2178/chapter_08.wav",
+          "duration": 191.987917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Landscape of Language: Words Lost, Words Found, and the Power of Expression",
+          "actualDuration": 191.987917,
+          "startTime": 1626.8314999999998,
+          "endTime": 1818.8194169999997
+        },
+        {
+          "path": "Audio/output/2178/chapter_09.wav",
+          "duration": 206.05075,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Unseen World: Hallucinations, Delusions, and the Boundaries of Reality",
+          "actualDuration": 206.05075,
+          "startTime": 1820.3194169999997,
+          "endTime": 2026.3701669999996
+        },
+        {
+          "path": "Audio/output/2178/chapter_10.wav",
+          "duration": 195.983042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Healing Journey: Recovery, Growth, and the Power of Connection",
+          "actualDuration": 195.983042,
+          "startTime": 2027.8701669999996,
+          "endTime": 2223.8532089999994
+        },
+        {
+          "path": "Audio/output/2178/conclusion.wav",
+          "duration": 123.911417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.911417,
+          "startTime": 2225.3532089999994,
+          "endTime": 2349.264625999999
+        }
+      ],
+      "totalDuration": 2349.264625999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.42,
+          "actualStart": 0,
+          "actualEnd": 93.415917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When the Mind’s Map Breaks: Perception and the Fragile Self",
+          "expectedStart": 93.42,
+          "expectedEnd": 356.35,
+          "actualStart": 94.915917,
+          "actualEnd": 357.841792,
+          "timeDifference": 1.4959169999999915
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Lost in Time and Memory: Amnesia, Identity, and the Search for Meaning",
+          "expectedStart": 356.35,
+          "expectedEnd": 597.04,
+          "actualStart": 359.341792,
+          "actualEnd": 600.029542,
+          "timeDifference": 2.9917919999999754
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The World Turned Upside Down: Unusual Movements and the Struggle for Control",
+          "expectedStart": 597.04,
+          "expectedEnd": 808.44,
+          "actualStart": 601.529542,
+          "actualEnd": 812.9285,
+          "timeDifference": 4.489542000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Mind’s Surprises: Unusual Talents, Deficits, and the Limits of Understanding",
+          "expectedStart": 808.44,
+          "expectedEnd": 1035.9,
+          "actualStart": 814.4285,
+          "actualEnd": 1041.8928329999999,
+          "timeDifference": 5.988499999999931
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Living with Difference: Adaptation, Resilience, and the Humanity of Care",
+          "expectedStart": 1035.9,
+          "expectedEnd": 1213.56,
+          "actualStart": 1043.3928329999999,
+          "actualEnd": 1221.0484579999998,
+          "timeDifference": 7.492832999999791
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Ghosts Within: Phantom Limbs, Lost Senses, and the Persistence of Self",
+          "expectedStart": 1213.56,
+          "expectedEnd": 1406.07,
+          "actualStart": 1222.5484579999998,
+          "actualEnd": 1415.0609999999997,
+          "timeDifference": 8.98845799999981
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Divided Mind: Split Brains, Conflicting Selves, and the Puzzle of Unity",
+          "expectedStart": 1406.07,
+          "expectedEnd": 1614.84,
+          "actualStart": 1416.5609999999997,
+          "actualEnd": 1625.3314999999998,
+          "timeDifference": 10.490999999999758
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Landscape of Language: Words Lost, Words Found, and the Power of Expression",
+          "expectedStart": 1614.84,
+          "expectedEnd": 1806.83,
+          "actualStart": 1626.8314999999998,
+          "actualEnd": 1818.8194169999997,
+          "timeDifference": 11.99149999999986
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Unseen World: Hallucinations, Delusions, and the Boundaries of Reality",
+          "expectedStart": 1806.83,
+          "expectedEnd": 2012.88,
+          "actualStart": 1820.3194169999997,
+          "actualEnd": 2026.3701669999996,
+          "timeDifference": 13.489416999999776
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Healing Journey: Recovery, Growth, and the Power of Connection",
+          "expectedStart": 2012.88,
+          "expectedEnd": 2208.86,
+          "actualStart": 2027.8701669999996,
+          "actualEnd": 2223.8532089999994,
+          "timeDifference": 14.990166999999474
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2208.86,
+          "expectedEnd": 2332.77,
+          "actualStart": 2225.3532089999994,
+          "actualEnd": 2349.264625999999,
+          "timeDifference": 16.493208999999297
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.415917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When the Mind’s Map Breaks: Perception and the Fragile Self"
+        },
+        {
+          "startTime": 357.841792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When the Mind’s Map Breaks: Perception and the Fragile Self and Chapter 2 Lost in Time and Memory: Amnesia, Identity, and the Search for Meaning"
+        },
+        {
+          "startTime": 600.029542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Lost in Time and Memory: Amnesia, Identity, and the Search for Meaning and Chapter 3 The World Turned Upside Down: Unusual Movements and the Struggle for Control"
+        },
+        {
+          "startTime": 812.9285,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The World Turned Upside Down: Unusual Movements and the Struggle for Control and Chapter 4 The Mind’s Surprises: Unusual Talents, Deficits, and the Limits of Understanding"
+        },
+        {
+          "startTime": 1041.8928329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Mind’s Surprises: Unusual Talents, Deficits, and the Limits of Understanding and Chapter 5 Living with Difference: Adaptation, Resilience, and the Humanity of Care"
+        },
+        {
+          "startTime": 1221.0484579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Living with Difference: Adaptation, Resilience, and the Humanity of Care and Chapter 6 The Ghosts Within: Phantom Limbs, Lost Senses, and the Persistence of Self"
+        },
+        {
+          "startTime": 1415.0609999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Ghosts Within: Phantom Limbs, Lost Senses, and the Persistence of Self and Chapter 7 The Divided Mind: Split Brains, Conflicting Selves, and the Puzzle of Unity"
+        },
+        {
+          "startTime": 1625.3314999999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Divided Mind: Split Brains, Conflicting Selves, and the Puzzle of Unity and Chapter 8 The Landscape of Language: Words Lost, Words Found, and the Power of Expression"
+        },
+        {
+          "startTime": 1818.8194169999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Landscape of Language: Words Lost, Words Found, and the Power of Expression and Chapter 9 The Unseen World: Hallucinations, Delusions, and the Boundaries of Reality"
+        },
+        {
+          "startTime": 2026.3701669999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Unseen World: Hallucinations, Delusions, and the Boundaries of Reality and Chapter 10 The Healing Journey: Recovery, Growth, and the Power of Connection"
+        },
+        {
+          "startTime": 2223.8532089999994,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Healing Journey: Recovery, Growth, and the Power of Connection and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2178",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T23:17:13.621Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

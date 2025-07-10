@@ -1,0 +1,456 @@
+{
+  "bookId": "2285",
+  "timestamp": "2025-07-10T10:27:25.736Z",
+  "success": false,
+  "processingTime": -1752142950902,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3643,
+    "totalAudioFiles": 12,
+    "totalDuration": 1984.6084589999998
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1984.6084589999998
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2285/optimized_text/2285.md",
+    "fileSize": 698,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2285.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2285/metadata/2285_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1984.63,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2285/metadata/2285_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2285/metadata/2285_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2285/2285_complete.wav",
+    "duration": 1984.608458,
+    "fileSize": 95261284,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2285/introduction.wav",
+          "duration": 87.251333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.251333,
+          "startTime": 0,
+          "endTime": 87.251333
+        },
+        {
+          "path": "Audio/output/2285/chapter_01.wav",
+          "duration": 227.135208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Ourselves Through the Lens of Social Psychology",
+          "actualDuration": 227.135208,
+          "startTime": 88.751333,
+          "endTime": 315.886541
+        },
+        {
+          "path": "Audio/output/2285/chapter_02.wav",
+          "duration": 195.34725,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Situations and Social Influence",
+          "actualDuration": 195.34725,
+          "startTime": 317.386541,
+          "endTime": 512.733791
+        },
+        {
+          "path": "Audio/output/2285/chapter_03.wav",
+          "duration": 187.141667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How We Interpret Motives—Our Own and Others’",
+          "actualDuration": 187.141667,
+          "startTime": 514.233791,
+          "endTime": 701.375458
+        },
+        {
+          "path": "Audio/output/2285/chapter_04.wav",
+          "duration": 228.2165,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Group Dynamics and the Pull of Conformity",
+          "actualDuration": 228.2165,
+          "startTime": 702.875458,
+          "endTime": 931.091958
+        },
+        {
+          "path": "Audio/output/2285/chapter_05.wav",
+          "duration": 174.232542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Applying Social Psychology to Everyday Life",
+          "actualDuration": 174.232542,
+          "startTime": 932.591958,
+          "endTime": 1106.8245
+        },
+        {
+          "path": "Audio/output/2285/chapter_06.wav",
+          "duration": 159.557167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Subtle Art of Empathy and Perspective-Taking",
+          "actualDuration": 159.557167,
+          "startTime": 1108.3245,
+          "endTime": 1267.8816669999999
+        },
+        {
+          "path": "Audio/output/2285/chapter_07.wav",
+          "duration": 158.237667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Overcoming Bias and Building Fairness",
+          "actualDuration": 158.237667,
+          "startTime": 1269.3816669999999,
+          "endTime": 1427.619334
+        },
+        {
+          "path": "Audio/output/2285/chapter_08.wav",
+          "duration": 134.029125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Motivation, Change, and the Social Roots of Growth",
+          "actualDuration": 134.029125,
+          "startTime": 1429.119334,
+          "endTime": 1563.148459
+        },
+        {
+          "path": "Audio/output/2285/chapter_09.wav",
+          "duration": 148.656,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Fostering Positive Influence and Leading with Integrity",
+          "actualDuration": 148.656,
+          "startTime": 1564.648459,
+          "endTime": 1713.304459
+        },
+        {
+          "path": "Audio/output/2285/chapter_10.wav",
+          "duration": 153.117458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating Lasting Change—From Individuals to Communities",
+          "actualDuration": 153.117458,
+          "startTime": 1714.804459,
+          "endTime": 1867.921917
+        },
+        {
+          "path": "Audio/output/2285/conclusion.wav",
+          "duration": 131.686542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.686542,
+          "startTime": 1869.421917,
+          "endTime": 2001.1084589999998
+        }
+      ],
+      "totalDuration": 2001.1084589999998,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.25,
+          "actualStart": 0,
+          "actualEnd": 87.251333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Ourselves Through the Lens of Social Psychology",
+          "expectedStart": 87.25,
+          "expectedEnd": 314.39,
+          "actualStart": 88.751333,
+          "actualEnd": 315.886541,
+          "timeDifference": 1.5013330000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Situations and Social Influence",
+          "expectedStart": 314.39,
+          "expectedEnd": 509.74,
+          "actualStart": 317.386541,
+          "actualEnd": 512.733791,
+          "timeDifference": 2.996541000000036
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How We Interpret Motives—Our Own and Others’",
+          "expectedStart": 509.74,
+          "expectedEnd": 696.88,
+          "actualStart": 514.233791,
+          "actualEnd": 701.375458,
+          "timeDifference": 4.493790999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Group Dynamics and the Pull of Conformity",
+          "expectedStart": 696.88,
+          "expectedEnd": 925.1,
+          "actualStart": 702.875458,
+          "actualEnd": 931.091958,
+          "timeDifference": 5.995457999999985
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Applying Social Psychology to Everyday Life",
+          "expectedStart": 925.1,
+          "expectedEnd": 1099.33,
+          "actualStart": 932.591958,
+          "actualEnd": 1106.8245,
+          "timeDifference": 7.491957999999954
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Subtle Art of Empathy and Perspective-Taking",
+          "expectedStart": 1099.33,
+          "expectedEnd": 1258.89,
+          "actualStart": 1108.3245,
+          "actualEnd": 1267.8816669999999,
+          "timeDifference": 8.994500000000016
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Overcoming Bias and Building Fairness",
+          "expectedStart": 1258.89,
+          "expectedEnd": 1417.13,
+          "actualStart": 1269.3816669999999,
+          "actualEnd": 1427.619334,
+          "timeDifference": 10.49166699999978
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Motivation, Change, and the Social Roots of Growth",
+          "expectedStart": 1417.13,
+          "expectedEnd": 1551.16,
+          "actualStart": 1429.119334,
+          "actualEnd": 1563.148459,
+          "timeDifference": 11.989333999999872
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Fostering Positive Influence and Leading with Integrity",
+          "expectedStart": 1551.16,
+          "expectedEnd": 1699.82,
+          "actualStart": 1564.648459,
+          "actualEnd": 1713.304459,
+          "timeDifference": 13.48845899999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating Lasting Change—From Individuals to Communities",
+          "expectedStart": 1699.82,
+          "expectedEnd": 1852.94,
+          "actualStart": 1714.804459,
+          "actualEnd": 1867.921917,
+          "timeDifference": 14.984459000000015
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1852.94,
+          "expectedEnd": 1984.63,
+          "actualStart": 1869.421917,
+          "actualEnd": 2001.1084589999998,
+          "timeDifference": 16.48191699999984
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.251333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Ourselves Through the Lens of Social Psychology"
+        },
+        {
+          "startTime": 315.886541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Ourselves Through the Lens of Social Psychology and Chapter 2 The Power of Situations and Social Influence"
+        },
+        {
+          "startTime": 512.733791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Situations and Social Influence and Chapter 3 How We Interpret Motives—Our Own and Others’"
+        },
+        {
+          "startTime": 701.375458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How We Interpret Motives—Our Own and Others’ and Chapter 4 Navigating Group Dynamics and the Pull of Conformity"
+        },
+        {
+          "startTime": 931.091958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Group Dynamics and the Pull of Conformity and Chapter 5 Applying Social Psychology to Everyday Life"
+        },
+        {
+          "startTime": 1106.8245,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Applying Social Psychology to Everyday Life and Chapter 6 The Subtle Art of Empathy and Perspective-Taking"
+        },
+        {
+          "startTime": 1267.8816669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Subtle Art of Empathy and Perspective-Taking and Chapter 7 Overcoming Bias and Building Fairness"
+        },
+        {
+          "startTime": 1427.619334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Overcoming Bias and Building Fairness and Chapter 8 Motivation, Change, and the Social Roots of Growth"
+        },
+        {
+          "startTime": 1563.148459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Motivation, Change, and the Social Roots of Growth and Chapter 9 Fostering Positive Influence and Leading with Integrity"
+        },
+        {
+          "startTime": 1713.304459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Fostering Positive Influence and Leading with Integrity and Chapter 10 Creating Lasting Change—From Individuals to Communities"
+        },
+        {
+          "startTime": 1867.921917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating Lasting Change—From Individuals to Communities and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2285",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:22:32.078Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

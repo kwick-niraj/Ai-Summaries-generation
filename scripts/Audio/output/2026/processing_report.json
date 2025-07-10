@@ -1,0 +1,455 @@
+{
+  "bookId": "2026",
+  "timestamp": "2025-07-09T11:19:21.042Z",
+  "success": false,
+  "processingTime": -1752058893579,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4672,
+    "totalAudioFiles": 12,
+    "totalDuration": 2535.637291
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2535.637291
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2026/optimized_text/2026.md",
+    "fileSize": 751,
+    "wordCount": 90,
+    "format": "markdown",
+    "filename": "2026.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2026/metadata/2026_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2535.62,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2026/metadata/2026_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2026/metadata/2026_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2026/2026_complete.wav",
+    "duration": 2535.637292,
+    "fileSize": 121710668,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2026/introduction.wav",
+          "duration": 99.60225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.60225,
+          "startTime": 0,
+          "endTime": 99.60225
+        },
+        {
+          "path": "Audio/output/2026/chapter_01.wav",
+          "duration": 248.724208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the New Digital Marketing Landscape",
+          "actualDuration": 248.724208,
+          "startTime": 101.10225,
+          "endTime": 349.826458
+        },
+        {
+          "path": "Audio/output/2026/chapter_02.wav",
+          "duration": 250.992083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Customer-Centric Digital Strategy",
+          "actualDuration": 250.992083,
+          "startTime": 351.326458,
+          "endTime": 602.318541
+        },
+        {
+          "path": "Audio/output/2026/chapter_03.wav",
+          "duration": 333.703917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mastering Core Digital Marketing Tools and Channels",
+          "actualDuration": 333.703917,
+          "startTime": 603.818541,
+          "endTime": 937.5224579999999
+        },
+        {
+          "path": "Audio/output/2026/chapter_04.wav",
+          "duration": 224.422208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Using Data and Analytics to Guide Decisions",
+          "actualDuration": 224.422208,
+          "startTime": 939.0224579999999,
+          "endTime": 1163.4446659999999
+        },
+        {
+          "path": "Audio/output/2026/chapter_05.wav",
+          "duration": 194.099833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Embracing Agility and Experimentation in Marketing",
+          "actualDuration": 194.099833,
+          "startTime": 1164.9446659999999,
+          "endTime": 1359.0444989999999
+        },
+        {
+          "path": "Audio/output/2026/chapter_06.wav",
+          "duration": 210.824875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Segmentation and Personalization: Speaking to the Individual",
+          "actualDuration": 210.824875,
+          "startTime": 1360.5444989999999,
+          "endTime": 1571.3693739999999
+        },
+        {
+          "path": "Audio/output/2026/chapter_07.wav",
+          "duration": 191.568375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Automation and Workflow Optimization: Doing More with Less",
+          "actualDuration": 191.568375,
+          "startTime": 1572.8693739999999,
+          "endTime": 1764.437749
+        },
+        {
+          "path": "Audio/output/2026/chapter_08.wav",
+          "duration": 211.952292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Omnichannel Experiences: Creating Seamless Journeys",
+          "actualDuration": 211.952292,
+          "startTime": 1765.937749,
+          "endTime": 1977.8900409999999
+        },
+        {
+          "path": "Audio/output/2026/chapter_09.wav",
+          "duration": 208.770083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Measuring ROI and Proving Value: Making Marketing Count",
+          "actualDuration": 208.770083,
+          "startTime": 1979.3900409999999,
+          "endTime": 2188.160124
+        },
+        {
+          "path": "Audio/output/2026/chapter_10.wav",
+          "duration": 190.805292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Future-Proofing Your Marketing: Continuous Learning and Adaptation",
+          "actualDuration": 190.805292,
+          "startTime": 2189.660124,
+          "endTime": 2380.465416
+        },
+        {
+          "path": "Audio/output/2026/conclusion.wav",
+          "duration": 170.171875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 170.171875,
+          "startTime": 2381.965416,
+          "endTime": 2552.137291
+        }
+      ],
+      "totalDuration": 2552.137291,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.6,
+          "actualStart": 0,
+          "actualEnd": 99.60225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the New Digital Marketing Landscape",
+          "expectedStart": 99.6,
+          "expectedEnd": 348.32,
+          "actualStart": 101.10225,
+          "actualEnd": 349.826458,
+          "timeDifference": 1.5022500000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Customer-Centric Digital Strategy",
+          "expectedStart": 348.32,
+          "expectedEnd": 599.31,
+          "actualStart": 351.326458,
+          "actualEnd": 602.318541,
+          "timeDifference": 3.006458000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mastering Core Digital Marketing Tools and Channels",
+          "expectedStart": 599.31,
+          "expectedEnd": 933.01,
+          "actualStart": 603.818541,
+          "actualEnd": 937.5224579999999,
+          "timeDifference": 4.5085410000000365
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Using Data and Analytics to Guide Decisions",
+          "expectedStart": 933.01,
+          "expectedEnd": 1157.43,
+          "actualStart": 939.0224579999999,
+          "actualEnd": 1163.4446659999999,
+          "timeDifference": 6.012457999999924
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Embracing Agility and Experimentation in Marketing",
+          "expectedStart": 1157.43,
+          "expectedEnd": 1351.53,
+          "actualStart": 1164.9446659999999,
+          "actualEnd": 1359.0444989999999,
+          "timeDifference": 7.5146659999998064
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Segmentation and Personalization: Speaking to the Individual",
+          "expectedStart": 1351.53,
+          "expectedEnd": 1562.35,
+          "actualStart": 1360.5444989999999,
+          "actualEnd": 1571.3693739999999,
+          "timeDifference": 9.014498999999887
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Automation and Workflow Optimization: Doing More with Less",
+          "expectedStart": 1562.35,
+          "expectedEnd": 1753.92,
+          "actualStart": 1572.8693739999999,
+          "actualEnd": 1764.437749,
+          "timeDifference": 10.51937399999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Omnichannel Experiences: Creating Seamless Journeys",
+          "expectedStart": 1753.92,
+          "expectedEnd": 1965.87,
+          "actualStart": 1765.937749,
+          "actualEnd": 1977.8900409999999,
+          "timeDifference": 12.017748999999867
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Measuring ROI and Proving Value: Making Marketing Count",
+          "expectedStart": 1965.87,
+          "expectedEnd": 2174.64,
+          "actualStart": 1979.3900409999999,
+          "actualEnd": 2188.160124,
+          "timeDifference": 13.520040999999992
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Future-Proofing Your Marketing: Continuous Learning and Adaptation",
+          "expectedStart": 2174.64,
+          "expectedEnd": 2365.45,
+          "actualStart": 2189.660124,
+          "actualEnd": 2380.465416,
+          "timeDifference": 15.020124000000123
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2365.45,
+          "expectedEnd": 2535.62,
+          "actualStart": 2381.965416,
+          "actualEnd": 2552.137291,
+          "timeDifference": 16.515416000000187
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.60225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the New Digital Marketing Landscape"
+        },
+        {
+          "startTime": 349.826458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the New Digital Marketing Landscape and Chapter 2 Building a Customer-Centric Digital Strategy"
+        },
+        {
+          "startTime": 602.318541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Customer-Centric Digital Strategy and Chapter 3 Mastering Core Digital Marketing Tools and Channels"
+        },
+        {
+          "startTime": 937.5224579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mastering Core Digital Marketing Tools and Channels and Chapter 4 Using Data and Analytics to Guide Decisions"
+        },
+        {
+          "startTime": 1163.4446659999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Using Data and Analytics to Guide Decisions and Chapter 5 Embracing Agility and Experimentation in Marketing"
+        },
+        {
+          "startTime": 1359.0444989999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Embracing Agility and Experimentation in Marketing and Chapter 6 Advanced Segmentation and Personalization: Speaking to the Individual"
+        },
+        {
+          "startTime": 1571.3693739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Segmentation and Personalization: Speaking to the Individual and Chapter 7 Automation and Workflow Optimization: Doing More with Less"
+        },
+        {
+          "startTime": 1764.437749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Automation and Workflow Optimization: Doing More with Less and Chapter 8 Integrating Omnichannel Experiences: Creating Seamless Journeys"
+        },
+        {
+          "startTime": 1977.8900409999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Omnichannel Experiences: Creating Seamless Journeys and Chapter 9 Measuring ROI and Proving Value: Making Marketing Count"
+        },
+        {
+          "startTime": 2188.160124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Measuring ROI and Proving Value: Making Marketing Count and Chapter 10 Future-Proofing Your Marketing: Continuous Learning and Adaptation"
+        },
+        {
+          "startTime": 2380.465416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Future-Proofing Your Marketing: Continuous Learning and Adaptation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2026",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T11:01:35.224Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2123",
+  "timestamp": "2025-07-09T20:31:54.236Z",
+  "success": false,
+  "processingTime": -1752092699315,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4679,
+    "totalAudioFiles": 12,
+    "totalDuration": 2186.464418
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2186.464418
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2123/optimized_text/2123.md",
+    "fileSize": 796,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2123.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2123/metadata/2123_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2186.45,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2123/metadata/2123_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2123/metadata/2123_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2123/2123_complete.wav",
+    "duration": 2186.464417,
+    "fileSize": 104950370,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2123/introduction.wav",
+          "duration": 90.932042,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 90.932042,
+          "startTime": 0,
+          "endTime": 90.932042
+        },
+        {
+          "path": "Audio/output/2123/chapter_01.wav",
+          "duration": 296.571917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Arriving Where Darwin Once Stood: The Galápagos as a Living Laboratory",
+          "actualDuration": 296.571917,
+          "startTime": 92.432042,
+          "endTime": 389.003959
+        },
+        {
+          "path": "Audio/output/2123/chapter_02.wav",
+          "duration": 227.701667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Watching Change Happen: The Daily Work of Field Science",
+          "actualDuration": 227.701667,
+          "startTime": 390.503959,
+          "endTime": 618.2056259999999
+        },
+        {
+          "path": "Audio/output/2123/chapter_03.wav",
+          "duration": 194.382,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Small Differences: Natural Selection in Action",
+          "actualDuration": 194.382,
+          "startTime": 619.7056259999999,
+          "endTime": 814.087626
+        },
+        {
+          "path": "Audio/output/2123/chapter_04.wav",
+          "duration": 180.385875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Surprises in the Data: When Nature Defies Expectations",
+          "actualDuration": 180.385875,
+          "startTime": 815.587626,
+          "endTime": 995.9735009999999
+        },
+        {
+          "path": "Audio/output/2123/chapter_05.wav",
+          "duration": 178.347333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Dance: Adaptation, Speciation, and the Future of Evolution",
+          "actualDuration": 178.347333,
+          "startTime": 997.4735009999999,
+          "endTime": 1175.8208339999999
+        },
+        {
+          "path": "Audio/output/2123/chapter_06.wav",
+          "duration": 153.274542,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Human Element: Perseverance, Doubt, and the Search for Meaning",
+          "actualDuration": 153.274542,
+          "startTime": 1177.3208339999999,
+          "endTime": 1330.5953759999998
+        },
+        {
+          "path": "Audio/output/2123/chapter_07.wav",
+          "duration": 196.541208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Broader Canvas: Evolution Beyond the Galápagos",
+          "actualDuration": 196.541208,
+          "startTime": 1332.0953759999998,
+          "endTime": 1528.6365839999999
+        },
+        {
+          "path": "Audio/output/2123/chapter_08.wav",
+          "duration": 218.492792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Genetics Revolution: Unraveling the Code of Life",
+          "actualDuration": 218.492792,
+          "startTime": 1530.1365839999999,
+          "endTime": 1748.6293759999999
+        },
+        {
+          "path": "Audio/output/2123/chapter_09.wav",
+          "duration": 174.478917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Human Impact: Conservation, Change, and Responsibility",
+          "actualDuration": 174.478917,
+          "startTime": 1750.1293759999999,
+          "endTime": 1924.6082929999998
+        },
+        {
+          "path": "Audio/output/2123/chapter_10.wav",
+          "duration": 143.072458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: What the Finches Teach Us About Life",
+          "actualDuration": 143.072458,
+          "startTime": 1926.1082929999998,
+          "endTime": 2069.180751
+        },
+        {
+          "path": "Audio/output/2123/conclusion.wav",
+          "duration": 132.283667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.283667,
+          "startTime": 2070.680751,
+          "endTime": 2202.964418
+        }
+      ],
+      "totalDuration": 2202.964418,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 90.93,
+          "actualStart": 0,
+          "actualEnd": 90.932042,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Arriving Where Darwin Once Stood: The Galápagos as a Living Laboratory",
+          "expectedStart": 90.93,
+          "expectedEnd": 387.5,
+          "actualStart": 92.432042,
+          "actualEnd": 389.003959,
+          "timeDifference": 1.5020419999999888
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Watching Change Happen: The Daily Work of Field Science",
+          "expectedStart": 387.5,
+          "expectedEnd": 615.2,
+          "actualStart": 390.503959,
+          "actualEnd": 618.2056259999999,
+          "timeDifference": 3.003959000000009
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Small Differences: Natural Selection in Action",
+          "expectedStart": 615.2,
+          "expectedEnd": 809.58,
+          "actualStart": 619.7056259999999,
+          "actualEnd": 814.087626,
+          "timeDifference": 4.505625999999893
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Surprises in the Data: When Nature Defies Expectations",
+          "expectedStart": 809.58,
+          "expectedEnd": 989.97,
+          "actualStart": 815.587626,
+          "actualEnd": 995.9735009999999,
+          "timeDifference": 6.007625999999959
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Dance: Adaptation, Speciation, and the Future of Evolution",
+          "expectedStart": 989.97,
+          "expectedEnd": 1168.32,
+          "actualStart": 997.4735009999999,
+          "actualEnd": 1175.8208339999999,
+          "timeDifference": 7.503500999999915
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Human Element: Perseverance, Doubt, and the Search for Meaning",
+          "expectedStart": 1168.32,
+          "expectedEnd": 1321.59,
+          "actualStart": 1177.3208339999999,
+          "actualEnd": 1330.5953759999998,
+          "timeDifference": 9.00083399999994
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Broader Canvas: Evolution Beyond the Galápagos",
+          "expectedStart": 1321.59,
+          "expectedEnd": 1518.13,
+          "actualStart": 1332.0953759999998,
+          "actualEnd": 1528.6365839999999,
+          "timeDifference": 10.505375999999842
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Genetics Revolution: Unraveling the Code of Life",
+          "expectedStart": 1518.13,
+          "expectedEnd": 1736.62,
+          "actualStart": 1530.1365839999999,
+          "actualEnd": 1748.6293759999999,
+          "timeDifference": 12.006583999999748
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Human Impact: Conservation, Change, and Responsibility",
+          "expectedStart": 1736.62,
+          "expectedEnd": 1911.1,
+          "actualStart": 1750.1293759999999,
+          "actualEnd": 1924.6082929999998,
+          "timeDifference": 13.509375999999975
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: What the Finches Teach Us About Life",
+          "expectedStart": 1911.1,
+          "expectedEnd": 2054.17,
+          "actualStart": 1926.1082929999998,
+          "actualEnd": 2069.180751,
+          "timeDifference": 15.008292999999867
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2054.17,
+          "expectedEnd": 2186.45,
+          "actualStart": 2070.680751,
+          "actualEnd": 2202.964418,
+          "timeDifference": 16.5107509999998
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 90.932042,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Arriving Where Darwin Once Stood: The Galápagos as a Living Laboratory"
+        },
+        {
+          "startTime": 389.003959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Arriving Where Darwin Once Stood: The Galápagos as a Living Laboratory and Chapter 2 Watching Change Happen: The Daily Work of Field Science"
+        },
+        {
+          "startTime": 618.2056259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Watching Change Happen: The Daily Work of Field Science and Chapter 3 The Power of Small Differences: Natural Selection in Action"
+        },
+        {
+          "startTime": 814.087626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Small Differences: Natural Selection in Action and Chapter 4 Surprises in the Data: When Nature Defies Expectations"
+        },
+        {
+          "startTime": 995.9735009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Surprises in the Data: When Nature Defies Expectations and Chapter 5 The Ongoing Dance: Adaptation, Speciation, and the Future of Evolution"
+        },
+        {
+          "startTime": 1175.8208339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Dance: Adaptation, Speciation, and the Future of Evolution and Chapter 6 The Human Element: Perseverance, Doubt, and the Search for Meaning"
+        },
+        {
+          "startTime": 1330.5953759999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Human Element: Perseverance, Doubt, and the Search for Meaning and Chapter 7 The Broader Canvas: Evolution Beyond the Galápagos"
+        },
+        {
+          "startTime": 1528.6365839999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Broader Canvas: Evolution Beyond the Galápagos and Chapter 8 The Genetics Revolution: Unraveling the Code of Life"
+        },
+        {
+          "startTime": 1748.6293759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Genetics Revolution: Unraveling the Code of Life and Chapter 9 The Human Impact: Conservation, Change, and Responsibility"
+        },
+        {
+          "startTime": 1924.6082929999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Human Impact: Conservation, Change, and Responsibility and Chapter 10 The Enduring Legacy: What the Finches Teach Us About Life"
+        },
+        {
+          "startTime": 2069.180751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: What the Finches Teach Us About Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2123",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T20:25:00.832Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

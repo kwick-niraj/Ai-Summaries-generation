@@ -1,0 +1,456 @@
+{
+  "bookId": "1768",
+  "timestamp": "2025-07-08T13:00:51.152Z",
+  "success": false,
+  "processingTime": -1751978950270,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4459,
+    "totalAudioFiles": 12,
+    "totalDuration": 1987.701041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1987.701041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1768/optimized_text/1768.md",
+    "fileSize": 743,
+    "wordCount": 103,
+    "format": "markdown",
+    "filename": "1768.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1768/metadata/1768_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1987.7,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1768/metadata/1768_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1768/metadata/1768_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1768/1768_complete.wav",
+    "duration": 1987.701042,
+    "fileSize": 95409728,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1768/introduction.wav",
+          "duration": 75.521708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 75.521708,
+          "startTime": 0,
+          "endTime": 75.521708
+        },
+        {
+          "path": "Audio/output/1768/chapter_01.wav",
+          "duration": 184.354333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Questioning the Familiar Story of Jesus",
+          "actualDuration": 184.354333,
+          "startTime": 77.021708,
+          "endTime": 261.376041
+        },
+        {
+          "path": "Audio/output/1768/chapter_02.wav",
+          "duration": 186.815792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Gospels and the Problem of Historical Consistency",
+          "actualDuration": 186.815792,
+          "startTime": 262.876041,
+          "endTime": 449.691833
+        },
+        {
+          "path": "Audio/output/1768/chapter_03.wav",
+          "duration": 158.974375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Political and Social World of First-Century Judea",
+          "actualDuration": 158.974375,
+          "startTime": 451.191833,
+          "endTime": 610.166208
+        },
+        {
+          "path": "Audio/output/1768/chapter_04.wav",
+          "duration": 226.82925,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Rethinking the Origins of Christian Belief",
+          "actualDuration": 226.82925,
+          "startTime": 611.666208,
+          "endTime": 838.495458
+        },
+        {
+          "path": "Audio/output/1768/chapter_05.wav",
+          "duration": 228.079583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Influence of Rome and the Shaping of Christian Doctrine",
+          "actualDuration": 228.079583,
+          "startTime": 839.995458,
+          "endTime": 1068.075041
+        },
+        {
+          "path": "Audio/output/1768/chapter_06.wav",
+          "duration": 184.686792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Evolution of Christian Doctrine: From Diversity to Orthodoxy",
+          "actualDuration": 184.686792,
+          "startTime": 1069.575041,
+          "endTime": 1254.261833
+        },
+        {
+          "path": "Audio/output/1768/chapter_07.wav",
+          "duration": 178.032083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reinterpreting Ancient Texts: The Power of Story and Memory",
+          "actualDuration": 178.032083,
+          "startTime": 1255.761833,
+          "endTime": 1433.793916
+        },
+        {
+          "path": "Audio/output/1768/chapter_08.wav",
+          "duration": 163.62125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Lasting Impact: Christianity’s Transformation and the Modern World",
+          "actualDuration": 163.62125,
+          "startTime": 1435.293916,
+          "endTime": 1598.915166
+        },
+        {
+          "path": "Audio/output/1768/chapter_09.wav",
+          "duration": 140.835167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Wrestling with Doubt and Faith in the Present",
+          "actualDuration": 140.835167,
+          "startTime": 1600.415166,
+          "endTime": 1741.250333
+        },
+        {
+          "path": "Audio/output/1768/chapter_10.wav",
+          "duration": 133.737125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Mystery: Jesus in History and Imagination",
+          "actualDuration": 133.737125,
+          "startTime": 1742.750333,
+          "endTime": 1876.487458
+        },
+        {
+          "path": "Audio/output/1768/conclusion.wav",
+          "duration": 126.213583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 126.213583,
+          "startTime": 1877.987458,
+          "endTime": 2004.201041
+        }
+      ],
+      "totalDuration": 2004.201041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 75.52,
+          "actualStart": 0,
+          "actualEnd": 75.521708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Questioning the Familiar Story of Jesus",
+          "expectedStart": 75.52,
+          "expectedEnd": 259.87,
+          "actualStart": 77.021708,
+          "actualEnd": 261.376041,
+          "timeDifference": 1.5017080000000078
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Gospels and the Problem of Historical Consistency",
+          "expectedStart": 259.87,
+          "expectedEnd": 446.69,
+          "actualStart": 262.876041,
+          "actualEnd": 449.691833,
+          "timeDifference": 3.006040999999982
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Political and Social World of First-Century Judea",
+          "expectedStart": 446.69,
+          "expectedEnd": 605.66,
+          "actualStart": 451.191833,
+          "actualEnd": 610.166208,
+          "timeDifference": 4.501832999999976
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Rethinking the Origins of Christian Belief",
+          "expectedStart": 605.66,
+          "expectedEnd": 832.49,
+          "actualStart": 611.666208,
+          "actualEnd": 838.495458,
+          "timeDifference": 6.006208000000015
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Influence of Rome and the Shaping of Christian Doctrine",
+          "expectedStart": 832.49,
+          "expectedEnd": 1060.57,
+          "actualStart": 839.995458,
+          "actualEnd": 1068.075041,
+          "timeDifference": 7.505457999999976
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Evolution of Christian Doctrine: From Diversity to Orthodoxy",
+          "expectedStart": 1060.57,
+          "expectedEnd": 1245.26,
+          "actualStart": 1069.575041,
+          "actualEnd": 1254.261833,
+          "timeDifference": 9.00504100000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reinterpreting Ancient Texts: The Power of Story and Memory",
+          "expectedStart": 1245.26,
+          "expectedEnd": 1423.29,
+          "actualStart": 1255.761833,
+          "actualEnd": 1433.793916,
+          "timeDifference": 10.501833000000033
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Lasting Impact: Christianity’s Transformation and the Modern World",
+          "expectedStart": 1423.29,
+          "expectedEnd": 1586.91,
+          "actualStart": 1435.293916,
+          "actualEnd": 1598.915166,
+          "timeDifference": 12.003916000000117
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Wrestling with Doubt and Faith in the Present",
+          "expectedStart": 1586.91,
+          "expectedEnd": 1727.75,
+          "actualStart": 1600.415166,
+          "actualEnd": 1741.250333,
+          "timeDifference": 13.505165999999917
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Mystery: Jesus in History and Imagination",
+          "expectedStart": 1727.75,
+          "expectedEnd": 1861.49,
+          "actualStart": 1742.750333,
+          "actualEnd": 1876.487458,
+          "timeDifference": 15.000332999999955
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1861.49,
+          "expectedEnd": 1987.7,
+          "actualStart": 1877.987458,
+          "actualEnd": 2004.201041,
+          "timeDifference": 16.49745800000005
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 75.521708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Questioning the Familiar Story of Jesus"
+        },
+        {
+          "startTime": 261.376041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Questioning the Familiar Story of Jesus and Chapter 2 The Gospels and the Problem of Historical Consistency"
+        },
+        {
+          "startTime": 449.691833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Gospels and the Problem of Historical Consistency and Chapter 3 The Political and Social World of First-Century Judea"
+        },
+        {
+          "startTime": 610.166208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Political and Social World of First-Century Judea and Chapter 4 Rethinking the Origins of Christian Belief"
+        },
+        {
+          "startTime": 838.495458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Rethinking the Origins of Christian Belief and Chapter 5 The Influence of Rome and the Shaping of Christian Doctrine"
+        },
+        {
+          "startTime": 1068.075041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Influence of Rome and the Shaping of Christian Doctrine and Chapter 6 The Evolution of Christian Doctrine: From Diversity to Orthodoxy"
+        },
+        {
+          "startTime": 1254.261833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Evolution of Christian Doctrine: From Diversity to Orthodoxy and Chapter 7 Reinterpreting Ancient Texts: The Power of Story and Memory"
+        },
+        {
+          "startTime": 1433.793916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reinterpreting Ancient Texts: The Power of Story and Memory and Chapter 8 The Lasting Impact: Christianity’s Transformation and the Modern World"
+        },
+        {
+          "startTime": 1598.915166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Lasting Impact: Christianity’s Transformation and the Modern World and Chapter 9 Wrestling with Doubt and Faith in the Present"
+        },
+        {
+          "startTime": 1741.250333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Wrestling with Doubt and Faith in the Present and Chapter 10 The Enduring Mystery: Jesus in History and Imagination"
+        },
+        {
+          "startTime": 1876.487458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Mystery: Jesus in History and Imagination and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1768",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T12:49:11.462Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

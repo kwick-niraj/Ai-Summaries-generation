@@ -1,0 +1,432 @@
+{
+  "bookId": "1962",
+  "timestamp": "2025-07-09T05:05:37.100Z",
+  "success": false,
+  "processingTime": -1752037034926,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4847,
+    "totalAudioFiles": 12,
+    "totalDuration": 2209.601292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2209.601292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1962/optimized_text/1962.md",
+    "fileSize": 678,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "1962.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1962/metadata/1962_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2209.61,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1962/metadata/1962_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1962/metadata/1962_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1962/1962_complete.wav",
+    "duration": 2209.601292,
+    "fileSize": 106060940,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1962/introduction.wav",
+          "duration": 81.582917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.582917,
+          "startTime": 0,
+          "endTime": 81.582917
+        },
+        {
+          "path": "Audio/output/1962/chapter_01.wav",
+          "duration": 302.465667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 How India’s Landforms Set the Stage for Its Story",
+          "actualDuration": 302.465667,
+          "startTime": 83.082917,
+          "endTime": 385.548584
+        },
+        {
+          "path": "Audio/output/1962/chapter_02.wav",
+          "duration": 269.826208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Rivers, Myths, and the Birth of Civilizations",
+          "actualDuration": 269.826208,
+          "startTime": 387.048584,
+          "endTime": 656.8747920000001
+        },
+        {
+          "path": "Audio/output/1962/chapter_03.wav",
+          "duration": 208.386375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Mountains, Borders, and the Movement of Peoples",
+          "actualDuration": 208.386375,
+          "startTime": 658.3747920000001,
+          "endTime": 866.7611670000001
+        },
+        {
+          "path": "Audio/output/1962/chapter_04.wav",
+          "duration": 245.620792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Trade, Urbanization, and the Shifting Map of India",
+          "actualDuration": 245.620792,
+          "startTime": 868.2611670000001,
+          "endTime": 1113.881959
+        },
+        {
+          "path": "Audio/output/1962/chapter_05.wav",
+          "duration": 204.382958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Myths, Memory, and the Changing Landscape",
+          "actualDuration": 204.382958,
+          "startTime": 1115.381959,
+          "endTime": 1319.764917
+        },
+        {
+          "path": "Audio/output/1962/chapter_06.wav",
+          "duration": 211.487792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Empires, Ambitions, and the Geography of Power",
+          "actualDuration": 211.487792,
+          "startTime": 1321.264917,
+          "endTime": 1532.7527089999999
+        },
+        {
+          "path": "Audio/output/1962/chapter_07.wav",
+          "duration": 190.096208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Colonialism, Railways, and the Remaking of the Land",
+          "actualDuration": 190.096208,
+          "startTime": 1534.2527089999999,
+          "endTime": 1724.3489169999998
+        },
+        {
+          "path": "Audio/output/1962/chapter_08.wav",
+          "duration": 194.551375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Borders, Identity, and the Challenge of Unity",
+          "actualDuration": 194.551375,
+          "startTime": 1725.8489169999998,
+          "endTime": 1920.4002919999998
+        },
+        {
+          "path": "Audio/output/1962/chapter_09.wav",
+          "duration": 177.740208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Environment, Modernity, and the Future of the Land",
+          "actualDuration": 177.740208,
+          "startTime": 1921.9002919999998,
+          "endTime": 2099.6405
+        },
+        {
+          "path": "Audio/output/1962/conclusion.wav",
+          "duration": 123.460792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.460792,
+          "startTime": 2101.1405,
+          "endTime": 2224.601292
+        }
+      ],
+      "totalDuration": 2224.601292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.58,
+          "actualStart": 0,
+          "actualEnd": 81.582917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 How India’s Landforms Set the Stage for Its Story",
+          "expectedStart": 81.58,
+          "expectedEnd": 384.05,
+          "actualStart": 83.082917,
+          "actualEnd": 385.548584,
+          "timeDifference": 1.5029169999999965
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Rivers, Myths, and the Birth of Civilizations",
+          "expectedStart": 384.05,
+          "expectedEnd": 653.88,
+          "actualStart": 387.048584,
+          "actualEnd": 656.8747920000001,
+          "timeDifference": 2.998583999999994
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Mountains, Borders, and the Movement of Peoples",
+          "expectedStart": 653.88,
+          "expectedEnd": 862.27,
+          "actualStart": 658.3747920000001,
+          "actualEnd": 866.7611670000001,
+          "timeDifference": 4.494792000000075
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Trade, Urbanization, and the Shifting Map of India",
+          "expectedStart": 862.27,
+          "expectedEnd": 1107.89,
+          "actualStart": 868.2611670000001,
+          "actualEnd": 1113.881959,
+          "timeDifference": 5.991167000000132
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Myths, Memory, and the Changing Landscape",
+          "expectedStart": 1107.89,
+          "expectedEnd": 1312.27,
+          "actualStart": 1115.381959,
+          "actualEnd": 1319.764917,
+          "timeDifference": 7.491958999999952
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Empires, Ambitions, and the Geography of Power",
+          "expectedStart": 1312.27,
+          "expectedEnd": 1523.76,
+          "actualStart": 1321.264917,
+          "actualEnd": 1532.7527089999999,
+          "timeDifference": 8.994916999999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Colonialism, Railways, and the Remaking of the Land",
+          "expectedStart": 1523.76,
+          "expectedEnd": 1713.86,
+          "actualStart": 1534.2527089999999,
+          "actualEnd": 1724.3489169999998,
+          "timeDifference": 10.492708999999877
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Borders, Identity, and the Challenge of Unity",
+          "expectedStart": 1713.86,
+          "expectedEnd": 1908.41,
+          "actualStart": 1725.8489169999998,
+          "actualEnd": 1920.4002919999998,
+          "timeDifference": 11.988916999999901
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Environment, Modernity, and the Future of the Land",
+          "expectedStart": 1908.41,
+          "expectedEnd": 2086.15,
+          "actualStart": 1921.9002919999998,
+          "actualEnd": 2099.6405,
+          "timeDifference": 13.490291999999727
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2086.15,
+          "expectedEnd": 2209.61,
+          "actualStart": 2101.1405,
+          "actualEnd": 2224.601292,
+          "timeDifference": 14.990499999999884
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.582917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 How India’s Landforms Set the Stage for Its Story"
+        },
+        {
+          "startTime": 385.548584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 How India’s Landforms Set the Stage for Its Story and Chapter 2 Rivers, Myths, and the Birth of Civilizations"
+        },
+        {
+          "startTime": 656.8747920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Rivers, Myths, and the Birth of Civilizations and Chapter 3 Mountains, Borders, and the Movement of Peoples"
+        },
+        {
+          "startTime": 866.7611670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Mountains, Borders, and the Movement of Peoples and Chapter 4 Trade, Urbanization, and the Shifting Map of India"
+        },
+        {
+          "startTime": 1113.881959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Trade, Urbanization, and the Shifting Map of India and Chapter 5 Myths, Memory, and the Changing Landscape"
+        },
+        {
+          "startTime": 1319.764917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Myths, Memory, and the Changing Landscape and Chapter 6 Empires, Ambitions, and the Geography of Power"
+        },
+        {
+          "startTime": 1532.7527089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Empires, Ambitions, and the Geography of Power and Chapter 7 Colonialism, Railways, and the Remaking of the Land"
+        },
+        {
+          "startTime": 1724.3489169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Colonialism, Railways, and the Remaking of the Land and Chapter 8 Borders, Identity, and the Challenge of Unity"
+        },
+        {
+          "startTime": 1920.4002919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Borders, Identity, and the Challenge of Unity and Chapter 9 The Environment, Modernity, and the Future of the Land"
+        },
+        {
+          "startTime": 2099.6405,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Environment, Modernity, and the Future of the Land and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1962",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T04:57:16.124Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

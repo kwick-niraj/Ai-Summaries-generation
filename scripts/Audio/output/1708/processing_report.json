@@ -1,0 +1,456 @@
+{
+  "bookId": "1708",
+  "timestamp": "2025-07-08T08:28:32.995Z",
+  "success": false,
+  "processingTime": -1751962584032,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4705,
+    "totalAudioFiles": 12,
+    "totalDuration": 2252.3880010000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2252.3880010000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1708/optimized_text/1708.md",
+    "fileSize": 733,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1708.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1708/metadata/1708_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2252.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1708/metadata/1708_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1708/metadata/1708_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1708/1708_complete.wav",
+    "duration": 2252.388,
+    "fileSize": 108114702,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1708/introduction.wav",
+          "duration": 91.91175,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.91175,
+          "startTime": 0,
+          "endTime": 91.91175
+        },
+        {
+          "path": "Audio/output/1708/chapter_01.wav",
+          "duration": 244.098042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Curiosity and the First Steps Toward Addiction",
+          "actualDuration": 244.098042,
+          "startTime": 93.41175,
+          "endTime": 337.509792
+        },
+        {
+          "path": "Audio/output/1708/chapter_02.wav",
+          "duration": 257.815042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Spiral of Dependence and the Strain on Family",
+          "actualDuration": 257.815042,
+          "startTime": 339.009792,
+          "endTime": 596.824834
+        },
+        {
+          "path": "Audio/output/1708/chapter_03.wav",
+          "duration": 226.622333,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Cycle of Relapse and the Search for Redemption",
+          "actualDuration": 226.622333,
+          "startTime": 598.324834,
+          "endTime": 824.947167
+        },
+        {
+          "path": "Audio/output/1708/chapter_04.wav",
+          "duration": 212.347625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Honesty, Vulnerability, and the Challenge of Self-Acceptance",
+          "actualDuration": 212.347625,
+          "startTime": 826.447167,
+          "endTime": 1038.7947920000001
+        },
+        {
+          "path": "Audio/output/1708/chapter_05.wav",
+          "duration": 194.551667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Struggle and the Small Victories of Recovery",
+          "actualDuration": 194.551667,
+          "startTime": 1040.2947920000001,
+          "endTime": 1234.846459
+        },
+        {
+          "path": "Audio/output/1708/chapter_06.wav",
+          "duration": 181.497125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rebuilding Trust and Navigating New Beginnings",
+          "actualDuration": 181.497125,
+          "startTime": 1236.346459,
+          "endTime": 1417.8435840000002
+        },
+        {
+          "path": "Audio/output/1708/chapter_07.wav",
+          "duration": 188.328542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Stigma and the Power of Community",
+          "actualDuration": 188.328542,
+          "startTime": 1419.3435840000002,
+          "endTime": 1607.6721260000002
+        },
+        {
+          "path": "Audio/output/1708/chapter_08.wav",
+          "duration": 193.350958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Finding Purpose and Meaning Beyond Addiction",
+          "actualDuration": 193.350958,
+          "startTime": 1609.1721260000002,
+          "endTime": 1802.5230840000002
+        },
+        {
+          "path": "Audio/output/1708/chapter_09.wav",
+          "duration": 187.507292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect—Healing Relationships and Inspiring Change",
+          "actualDuration": 187.507292,
+          "startTime": 1804.0230840000002,
+          "endTime": 1991.5303760000002
+        },
+        {
+          "path": "Audio/output/1708/chapter_10.wav",
+          "duration": 157.857583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Future—Hope, Resilience, and the Ongoing Journey",
+          "actualDuration": 157.857583,
+          "startTime": 1993.0303760000002,
+          "endTime": 2150.887959
+        },
+        {
+          "path": "Audio/output/1708/conclusion.wav",
+          "duration": 116.500042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.500042,
+          "startTime": 2152.387959,
+          "endTime": 2268.8880010000003
+        }
+      ],
+      "totalDuration": 2268.8880010000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.91,
+          "actualStart": 0,
+          "actualEnd": 91.91175,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Curiosity and the First Steps Toward Addiction",
+          "expectedStart": 91.91,
+          "expectedEnd": 336.01,
+          "actualStart": 93.41175,
+          "actualEnd": 337.509792,
+          "timeDifference": 1.5017500000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Spiral of Dependence and the Strain on Family",
+          "expectedStart": 336.01,
+          "expectedEnd": 593.83,
+          "actualStart": 339.009792,
+          "actualEnd": 596.824834,
+          "timeDifference": 2.9997920000000136
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Cycle of Relapse and the Search for Redemption",
+          "expectedStart": 593.83,
+          "expectedEnd": 820.45,
+          "actualStart": 598.324834,
+          "actualEnd": 824.947167,
+          "timeDifference": 4.494833999999969
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Honesty, Vulnerability, and the Challenge of Self-Acceptance",
+          "expectedStart": 820.45,
+          "expectedEnd": 1032.8,
+          "actualStart": 826.447167,
+          "actualEnd": 1038.7947920000001,
+          "timeDifference": 5.99716699999999
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Struggle and the Small Victories of Recovery",
+          "expectedStart": 1032.8,
+          "expectedEnd": 1227.35,
+          "actualStart": 1040.2947920000001,
+          "actualEnd": 1234.846459,
+          "timeDifference": 7.494792000000189
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rebuilding Trust and Navigating New Beginnings",
+          "expectedStart": 1227.35,
+          "expectedEnd": 1408.85,
+          "actualStart": 1236.346459,
+          "actualEnd": 1417.8435840000002,
+          "timeDifference": 8.996459000000186
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Stigma and the Power of Community",
+          "expectedStart": 1408.85,
+          "expectedEnd": 1597.18,
+          "actualStart": 1419.3435840000002,
+          "actualEnd": 1607.6721260000002,
+          "timeDifference": 10.493584000000283
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Finding Purpose and Meaning Beyond Addiction",
+          "expectedStart": 1597.18,
+          "expectedEnd": 1790.53,
+          "actualStart": 1609.1721260000002,
+          "actualEnd": 1802.5230840000002,
+          "timeDifference": 11.992126000000098
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect—Healing Relationships and Inspiring Change",
+          "expectedStart": 1790.53,
+          "expectedEnd": 1978.04,
+          "actualStart": 1804.0230840000002,
+          "actualEnd": 1991.5303760000002,
+          "timeDifference": 13.49308400000018
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Future—Hope, Resilience, and the Ongoing Journey",
+          "expectedStart": 1978.04,
+          "expectedEnd": 2135.9,
+          "actualStart": 1993.0303760000002,
+          "actualEnd": 2150.887959,
+          "timeDifference": 14.990376000000197
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2135.9,
+          "expectedEnd": 2252.4,
+          "actualStart": 2152.387959,
+          "actualEnd": 2268.8880010000003,
+          "timeDifference": 16.487959000000046
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.91175,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Curiosity and the First Steps Toward Addiction"
+        },
+        {
+          "startTime": 337.509792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Curiosity and the First Steps Toward Addiction and Chapter 2 The Spiral of Dependence and the Strain on Family"
+        },
+        {
+          "startTime": 596.824834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Spiral of Dependence and the Strain on Family and Chapter 3 The Cycle of Relapse and the Search for Redemption"
+        },
+        {
+          "startTime": 824.947167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Cycle of Relapse and the Search for Redemption and Chapter 4 Honesty, Vulnerability, and the Challenge of Self-Acceptance"
+        },
+        {
+          "startTime": 1038.7947920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Honesty, Vulnerability, and the Challenge of Self-Acceptance and Chapter 5 The Ongoing Struggle and the Small Victories of Recovery"
+        },
+        {
+          "startTime": 1234.846459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Struggle and the Small Victories of Recovery and Chapter 6 Rebuilding Trust and Navigating New Beginnings"
+        },
+        {
+          "startTime": 1417.8435840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rebuilding Trust and Navigating New Beginnings and Chapter 7 The Weight of Stigma and the Power of Community"
+        },
+        {
+          "startTime": 1607.6721260000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Stigma and the Power of Community and Chapter 8 Finding Purpose and Meaning Beyond Addiction"
+        },
+        {
+          "startTime": 1802.5230840000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Finding Purpose and Meaning Beyond Addiction and Chapter 9 The Ripple Effect—Healing Relationships and Inspiring Change"
+        },
+        {
+          "startTime": 1991.5303760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect—Healing Relationships and Inspiring Change and Chapter 10 Embracing the Future—Hope, Resilience, and the Ongoing Journey"
+        },
+        {
+          "startTime": 2150.887959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Future—Hope, Resilience, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1708",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T08:16:25.210Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1958",
+  "timestamp": "2025-07-09T04:37:54.618Z",
+  "success": false,
+  "processingTime": -1752035488026,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4558,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.498166
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.498166
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1958/optimized_text/1958.md",
+    "fileSize": 674,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1958.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1958/metadata/1958_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.5,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1958/metadata/1958_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1958/metadata/1958_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1958/1958_complete.wav",
+    "duration": 1995.498167,
+    "fileSize": 95783990,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1958/introduction.wav",
+          "duration": 91.62125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.62125,
+          "startTime": 0,
+          "endTime": 91.62125
+        },
+        {
+          "path": "Audio/output/1958/chapter_01.wav",
+          "duration": 233.425125,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Stepping Into the Shadows of Industrial England",
+          "actualDuration": 233.425125,
+          "startTime": 93.12125,
+          "endTime": 326.546375
+        },
+        {
+          "path": "Audio/output/1958/chapter_02.wav",
+          "duration": 219.336625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Daily Struggle for Dignity and Survival",
+          "actualDuration": 219.336625,
+          "startTime": 328.046375,
+          "endTime": 547.383
+        },
+        {
+          "path": "Audio/output/1958/chapter_03.wav",
+          "duration": 253.562625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Hidden Costs of Poverty and the Divide Between Classes",
+          "actualDuration": 253.562625,
+          "startTime": 548.883,
+          "endTime": 802.4456250000001
+        },
+        {
+          "path": "Audio/output/1958/chapter_04.wav",
+          "duration": 238.89325,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Promise and Pitfalls of Socialism in a Divided Society",
+          "actualDuration": 238.89325,
+          "startTime": 803.9456250000001,
+          "endTime": 1042.8388750000001
+        },
+        {
+          "path": "Audio/output/1958/chapter_05.wav",
+          "duration": 143.866458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Need for Empathy and Practical Change",
+          "actualDuration": 143.866458,
+          "startTime": 1044.3388750000001,
+          "endTime": 1188.205333
+        },
+        {
+          "path": "Audio/output/1958/chapter_06.wav",
+          "duration": 161.114208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Chasm Between Theory and Reality",
+          "actualDuration": 161.114208,
+          "startTime": 1189.705333,
+          "endTime": 1350.819541
+        },
+        {
+          "path": "Audio/output/1958/chapter_07.wav",
+          "duration": 157.624542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Burden and Blindness of Privilege",
+          "actualDuration": 157.624542,
+          "startTime": 1352.319541,
+          "endTime": 1509.944083
+        },
+        {
+          "path": "Audio/output/1958/chapter_08.wav",
+          "duration": 131.469833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of the Intellectual and the Search for Common Ground",
+          "actualDuration": 131.469833,
+          "startTime": 1511.444083,
+          "endTime": 1642.913916
+        },
+        {
+          "path": "Audio/output/1958/chapter_09.wav",
+          "duration": 135.426875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Path Toward Reform—Obstacles and Opportunities",
+          "actualDuration": 135.426875,
+          "startTime": 1644.413916,
+          "endTime": 1779.840791
+        },
+        {
+          "path": "Audio/output/1958/chapter_10.wav",
+          "duration": 116.879167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Spirit and the Work Ahead",
+          "actualDuration": 116.879167,
+          "startTime": 1781.340791,
+          "endTime": 1898.2199580000001
+        },
+        {
+          "path": "Audio/output/1958/conclusion.wav",
+          "duration": 112.278208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.278208,
+          "startTime": 1899.7199580000001,
+          "endTime": 2011.998166
+        }
+      ],
+      "totalDuration": 2011.998166,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.62,
+          "actualStart": 0,
+          "actualEnd": 91.62125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Stepping Into the Shadows of Industrial England",
+          "expectedStart": 91.62,
+          "expectedEnd": 325.05,
+          "actualStart": 93.12125,
+          "actualEnd": 326.546375,
+          "timeDifference": 1.5012499999999989
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Daily Struggle for Dignity and Survival",
+          "expectedStart": 325.05,
+          "expectedEnd": 544.39,
+          "actualStart": 328.046375,
+          "actualEnd": 547.383,
+          "timeDifference": 2.9963750000000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Hidden Costs of Poverty and the Divide Between Classes",
+          "expectedStart": 544.39,
+          "expectedEnd": 797.95,
+          "actualStart": 548.883,
+          "actualEnd": 802.4456250000001,
+          "timeDifference": 4.493000000000052
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Promise and Pitfalls of Socialism in a Divided Society",
+          "expectedStart": 797.95,
+          "expectedEnd": 1036.84,
+          "actualStart": 803.9456250000001,
+          "actualEnd": 1042.8388750000001,
+          "timeDifference": 5.995625000000018
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Need for Empathy and Practical Change",
+          "expectedStart": 1036.84,
+          "expectedEnd": 1180.71,
+          "actualStart": 1044.3388750000001,
+          "actualEnd": 1188.205333,
+          "timeDifference": 7.4988750000002256
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Chasm Between Theory and Reality",
+          "expectedStart": 1180.71,
+          "expectedEnd": 1341.82,
+          "actualStart": 1189.705333,
+          "actualEnd": 1350.819541,
+          "timeDifference": 8.995333000000073
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Burden and Blindness of Privilege",
+          "expectedStart": 1341.82,
+          "expectedEnd": 1499.44,
+          "actualStart": 1352.319541,
+          "actualEnd": 1509.944083,
+          "timeDifference": 10.499541000000136
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of the Intellectual and the Search for Common Ground",
+          "expectedStart": 1499.44,
+          "expectedEnd": 1630.91,
+          "actualStart": 1511.444083,
+          "actualEnd": 1642.913916,
+          "timeDifference": 12.004083000000037
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Path Toward Reform—Obstacles and Opportunities",
+          "expectedStart": 1630.91,
+          "expectedEnd": 1766.34,
+          "actualStart": 1644.413916,
+          "actualEnd": 1779.840791,
+          "timeDifference": 13.50391599999989
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Spirit and the Work Ahead",
+          "expectedStart": 1766.34,
+          "expectedEnd": 1883.22,
+          "actualStart": 1781.340791,
+          "actualEnd": 1898.2199580000001,
+          "timeDifference": 15.000791000000163
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1883.22,
+          "expectedEnd": 1995.5,
+          "actualStart": 1899.7199580000001,
+          "actualEnd": 2011.998166,
+          "timeDifference": 16.499958000000106
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.62125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Stepping Into the Shadows of Industrial England"
+        },
+        {
+          "startTime": 326.546375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Stepping Into the Shadows of Industrial England and Chapter 2 The Daily Struggle for Dignity and Survival"
+        },
+        {
+          "startTime": 547.383,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Daily Struggle for Dignity and Survival and Chapter 3 The Hidden Costs of Poverty and the Divide Between Classes"
+        },
+        {
+          "startTime": 802.4456250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Hidden Costs of Poverty and the Divide Between Classes and Chapter 4 The Promise and Pitfalls of Socialism in a Divided Society"
+        },
+        {
+          "startTime": 1042.8388750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Promise and Pitfalls of Socialism in a Divided Society and Chapter 5 The Need for Empathy and Practical Change"
+        },
+        {
+          "startTime": 1188.205333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Need for Empathy and Practical Change and Chapter 6 The Chasm Between Theory and Reality"
+        },
+        {
+          "startTime": 1350.819541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Chasm Between Theory and Reality and Chapter 7 The Burden and Blindness of Privilege"
+        },
+        {
+          "startTime": 1509.944083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Burden and Blindness of Privilege and Chapter 8 The Role of the Intellectual and the Search for Common Ground"
+        },
+        {
+          "startTime": 1642.913916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of the Intellectual and the Search for Common Ground and Chapter 9 The Path Toward Reform—Obstacles and Opportunities"
+        },
+        {
+          "startTime": 1779.840791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Path Toward Reform—Obstacles and Opportunities and Chapter 10 The Enduring Spirit and the Work Ahead"
+        },
+        {
+          "startTime": 1898.2199580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Spirit and the Work Ahead and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1958",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T04:31:29.208Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

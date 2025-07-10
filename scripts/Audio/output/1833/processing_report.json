@@ -1,0 +1,456 @@
+{
+  "bookId": "1833",
+  "timestamp": "2025-07-08T19:05:00.926Z",
+  "success": false,
+  "processingTime": -1752001154898,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4912,
+    "totalAudioFiles": 12,
+    "totalDuration": 2046.976918
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2046.976918
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1833/optimized_text/1833.md",
+    "fileSize": 572,
+    "wordCount": 74,
+    "format": "markdown",
+    "filename": "1833.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1833/metadata/1833_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2047,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1833/metadata/1833_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1833/metadata/1833_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1833/1833_complete.wav",
+    "duration": 2046.976917,
+    "fileSize": 98254970,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1833/introduction.wav",
+          "duration": 88.165375,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.165375,
+          "startTime": 0,
+          "endTime": 88.165375
+        },
+        {
+          "path": "Audio/output/1833/chapter_01.wav",
+          "duration": 181.636542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Change and the Search for Stability",
+          "actualDuration": 181.636542,
+          "startTime": 89.665375,
+          "endTime": 271.301917
+        },
+        {
+          "path": "Audio/output/1833/chapter_02.wav",
+          "duration": 210.327083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Resilience as a Daily Practice",
+          "actualDuration": 210.327083,
+          "startTime": 272.801917,
+          "endTime": 483.129
+        },
+        {
+          "path": "Audio/output/1833/chapter_03.wav",
+          "duration": 220.0775,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Honest Self-Reflection",
+          "actualDuration": 220.0775,
+          "startTime": 484.629,
+          "endTime": 704.7065
+        },
+        {
+          "path": "Audio/output/1833/chapter_04.wav",
+          "duration": 207.83775,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Fear and Uncertainty with Courage",
+          "actualDuration": 207.83775,
+          "startTime": 706.2065,
+          "endTime": 914.04425
+        },
+        {
+          "path": "Audio/output/1833/chapter_05.wav",
+          "duration": 235.965375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Aligning Actions with Core Values",
+          "actualDuration": 235.965375,
+          "startTime": 915.54425,
+          "endTime": 1151.5096250000001
+        },
+        {
+          "path": "Audio/output/1833/chapter_06.wav",
+          "duration": 193.237833,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rewriting Your Personal Narrative",
+          "actualDuration": 193.237833,
+          "startTime": 1153.0096250000001,
+          "endTime": 1346.247458
+        },
+        {
+          "path": "Audio/output/1833/chapter_07.wav",
+          "duration": 164.830917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Healing Power of Community",
+          "actualDuration": 164.830917,
+          "startTime": 1347.747458,
+          "endTime": 1512.578375
+        },
+        {
+          "path": "Audio/output/1833/chapter_08.wav",
+          "duration": 146.748917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Growth Through Setbacks",
+          "actualDuration": 146.748917,
+          "startTime": 1514.078375,
+          "endTime": 1660.827292
+        },
+        {
+          "path": "Audio/output/1833/chapter_09.wav",
+          "duration": 147.056792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Resilience in Everyday Life",
+          "actualDuration": 147.056792,
+          "startTime": 1662.327292,
+          "endTime": 1809.384084
+        },
+        {
+          "path": "Audio/output/1833/chapter_10.wav",
+          "duration": 140.089167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey of Transformation",
+          "actualDuration": 140.089167,
+          "startTime": 1810.884084,
+          "endTime": 1950.9732510000001
+        },
+        {
+          "path": "Audio/output/1833/conclusion.wav",
+          "duration": 111.003667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.003667,
+          "startTime": 1952.4732510000001,
+          "endTime": 2063.4769180000003
+        }
+      ],
+      "totalDuration": 2063.4769180000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.17,
+          "actualStart": 0,
+          "actualEnd": 88.165375,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Change and the Search for Stability",
+          "expectedStart": 88.17,
+          "expectedEnd": 269.81,
+          "actualStart": 89.665375,
+          "actualEnd": 271.301917,
+          "timeDifference": 1.4953749999999957
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Resilience as a Daily Practice",
+          "expectedStart": 269.81,
+          "expectedEnd": 480.14,
+          "actualStart": 272.801917,
+          "actualEnd": 483.129,
+          "timeDifference": 2.991917000000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Honest Self-Reflection",
+          "expectedStart": 480.14,
+          "expectedEnd": 700.22,
+          "actualStart": 484.629,
+          "actualEnd": 704.7065,
+          "timeDifference": 4.489000000000033
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Fear and Uncertainty with Courage",
+          "expectedStart": 700.22,
+          "expectedEnd": 908.06,
+          "actualStart": 706.2065,
+          "actualEnd": 914.04425,
+          "timeDifference": 5.986499999999978
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Aligning Actions with Core Values",
+          "expectedStart": 908.06,
+          "expectedEnd": 1144.03,
+          "actualStart": 915.54425,
+          "actualEnd": 1151.5096250000001,
+          "timeDifference": 7.484250000000088
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rewriting Your Personal Narrative",
+          "expectedStart": 1144.03,
+          "expectedEnd": 1337.27,
+          "actualStart": 1153.0096250000001,
+          "actualEnd": 1346.247458,
+          "timeDifference": 8.97962500000017
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Healing Power of Community",
+          "expectedStart": 1337.27,
+          "expectedEnd": 1502.1,
+          "actualStart": 1347.747458,
+          "actualEnd": 1512.578375,
+          "timeDifference": 10.47745800000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Growth Through Setbacks",
+          "expectedStart": 1502.1,
+          "expectedEnd": 1648.85,
+          "actualStart": 1514.078375,
+          "actualEnd": 1660.827292,
+          "timeDifference": 11.978375000000142
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Resilience in Everyday Life",
+          "expectedStart": 1648.85,
+          "expectedEnd": 1795.91,
+          "actualStart": 1662.327292,
+          "actualEnd": 1809.384084,
+          "timeDifference": 13.477292000000034
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey of Transformation",
+          "expectedStart": 1795.91,
+          "expectedEnd": 1936,
+          "actualStart": 1810.884084,
+          "actualEnd": 1950.9732510000001,
+          "timeDifference": 14.974083999999948
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1936,
+          "expectedEnd": 2047,
+          "actualStart": 1952.4732510000001,
+          "actualEnd": 2063.4769180000003,
+          "timeDifference": 16.47325100000012
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.165375,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Change and the Search for Stability"
+        },
+        {
+          "startTime": 271.301917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Change and the Search for Stability and Chapter 2 Understanding Resilience as a Daily Practice"
+        },
+        {
+          "startTime": 483.129,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Resilience as a Daily Practice and Chapter 3 The Power of Honest Self-Reflection"
+        },
+        {
+          "startTime": 704.7065,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Honest Self-Reflection and Chapter 4 Navigating Fear and Uncertainty with Courage"
+        },
+        {
+          "startTime": 914.04425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Fear and Uncertainty with Courage and Chapter 5 Aligning Actions with Core Values"
+        },
+        {
+          "startTime": 1151.5096250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Aligning Actions with Core Values and Chapter 6 Rewriting Your Personal Narrative"
+        },
+        {
+          "startTime": 1346.247458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rewriting Your Personal Narrative and Chapter 7 The Healing Power of Community"
+        },
+        {
+          "startTime": 1512.578375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Healing Power of Community and Chapter 8 Embracing Growth Through Setbacks"
+        },
+        {
+          "startTime": 1660.827292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Growth Through Setbacks and Chapter 9 Sustaining Resilience in Everyday Life"
+        },
+        {
+          "startTime": 1809.384084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Resilience in Everyday Life and Chapter 10 The Ongoing Journey of Transformation"
+        },
+        {
+          "startTime": 1950.9732510000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey of Transformation and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1833",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T18:59:16.463Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

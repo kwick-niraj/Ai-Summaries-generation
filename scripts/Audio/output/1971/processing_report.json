@@ -1,0 +1,456 @@
+{
+  "bookId": "1971",
+  "timestamp": "2025-07-09T05:39:45.163Z",
+  "success": false,
+  "processingTime": -1752038867509,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5096,
+    "totalAudioFiles": 12,
+    "totalDuration": 2170.056625
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2170.056625
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1971/optimized_text/1971.md",
+    "fileSize": 648,
+    "wordCount": 95,
+    "format": "markdown",
+    "filename": "1971.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1971/metadata/1971_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2170.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1971/metadata/1971_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1971/metadata/1971_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1971/1971_complete.wav",
+    "duration": 2170.056625,
+    "fileSize": 104162796,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1971/introduction.wav",
+          "duration": 98.876875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.876875,
+          "startTime": 0,
+          "endTime": 98.876875
+        },
+        {
+          "path": "Audio/output/1971/chapter_01.wav",
+          "duration": 258.145458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood in a Village Marked by History",
+          "actualDuration": 258.145458,
+          "startTime": 100.376875,
+          "endTime": 358.522333
+        },
+        {
+          "path": "Audio/output/1971/chapter_02.wav",
+          "duration": 223.262417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Shadow of Political Upheaval",
+          "actualDuration": 223.262417,
+          "startTime": 360.022333,
+          "endTime": 583.28475
+        },
+        {
+          "path": "Audio/output/1971/chapter_03.wav",
+          "duration": 217.489958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Struggle for Education and Opportunity",
+          "actualDuration": 217.489958,
+          "startTime": 584.78475,
+          "endTime": 802.274708
+        },
+        {
+          "path": "Audio/output/1971/chapter_04.wav",
+          "duration": 233.621792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Family Bonds and the Weight of Legacy",
+          "actualDuration": 233.621792,
+          "startTime": 803.774708,
+          "endTime": 1037.3965
+        },
+        {
+          "path": "Audio/output/1971/chapter_05.wav",
+          "duration": 145.999875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Hope and Purpose Amid Hardship",
+          "actualDuration": 145.999875,
+          "startTime": 1038.8965,
+          "endTime": 1184.896375
+        },
+        {
+          "path": "Audio/output/1971/chapter_06.wav",
+          "duration": 242.433417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Road to Change: Examinations and the Dream of Escape",
+          "actualDuration": 242.433417,
+          "startTime": 1186.396375,
+          "endTime": 1428.829792
+        },
+        {
+          "path": "Audio/output/1971/chapter_07.wav",
+          "duration": 214.41175,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 A New World: University and the Challenge of Belonging",
+          "actualDuration": 214.41175,
+          "startTime": 1430.329792,
+          "endTime": 1644.741542
+        },
+        {
+          "path": "Audio/output/1971/chapter_08.wav",
+          "duration": 164.109708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ties That Bind: Family, Memory, and Return",
+          "actualDuration": 164.109708,
+          "startTime": 1646.241542,
+          "endTime": 1810.35125
+        },
+        {
+          "path": "Audio/output/1971/chapter_09.wav",
+          "duration": 132.07575,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Facing the Future: Choices, Sacrifice, and Identity",
+          "actualDuration": 132.07575,
+          "startTime": 1811.85125,
+          "endTime": 1943.927
+        },
+        {
+          "path": "Audio/output/1971/chapter_10.wav",
+          "duration": 132.751167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Colors of the Mountain: Reflection and Legacy",
+          "actualDuration": 132.751167,
+          "startTime": 1945.427,
+          "endTime": 2078.178167
+        },
+        {
+          "path": "Audio/output/1971/conclusion.wav",
+          "duration": 106.878458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 106.878458,
+          "startTime": 2079.678167,
+          "endTime": 2186.556625
+        }
+      ],
+      "totalDuration": 2186.556625,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.88,
+          "actualStart": 0,
+          "actualEnd": 98.876875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood in a Village Marked by History",
+          "expectedStart": 98.88,
+          "expectedEnd": 357.03,
+          "actualStart": 100.376875,
+          "actualEnd": 358.522333,
+          "timeDifference": 1.4968750000000028
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Shadow of Political Upheaval",
+          "expectedStart": 357.03,
+          "expectedEnd": 580.29,
+          "actualStart": 360.022333,
+          "actualEnd": 583.28475,
+          "timeDifference": 2.9923330000000306
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Struggle for Education and Opportunity",
+          "expectedStart": 580.29,
+          "expectedEnd": 797.78,
+          "actualStart": 584.78475,
+          "actualEnd": 802.274708,
+          "timeDifference": 4.494750000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Family Bonds and the Weight of Legacy",
+          "expectedStart": 797.78,
+          "expectedEnd": 1031.4,
+          "actualStart": 803.774708,
+          "actualEnd": 1037.3965,
+          "timeDifference": 5.99470800000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Hope and Purpose Amid Hardship",
+          "expectedStart": 1031.4,
+          "expectedEnd": 1177.4,
+          "actualStart": 1038.8965,
+          "actualEnd": 1184.896375,
+          "timeDifference": 7.496499999999969
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Road to Change: Examinations and the Dream of Escape",
+          "expectedStart": 1177.4,
+          "expectedEnd": 1419.83,
+          "actualStart": 1186.396375,
+          "actualEnd": 1428.829792,
+          "timeDifference": 8.996374999999944
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 A New World: University and the Challenge of Belonging",
+          "expectedStart": 1419.83,
+          "expectedEnd": 1634.24,
+          "actualStart": 1430.329792,
+          "actualEnd": 1644.741542,
+          "timeDifference": 10.49979200000007
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ties That Bind: Family, Memory, and Return",
+          "expectedStart": 1634.24,
+          "expectedEnd": 1798.35,
+          "actualStart": 1646.241542,
+          "actualEnd": 1810.35125,
+          "timeDifference": 12.001541999999972
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Facing the Future: Choices, Sacrifice, and Identity",
+          "expectedStart": 1798.35,
+          "expectedEnd": 1930.43,
+          "actualStart": 1811.85125,
+          "actualEnd": 1943.927,
+          "timeDifference": 13.501250000000027
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Colors of the Mountain: Reflection and Legacy",
+          "expectedStart": 1930.43,
+          "expectedEnd": 2063.18,
+          "actualStart": 1945.427,
+          "actualEnd": 2078.178167,
+          "timeDifference": 14.996999999999844
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2063.18,
+          "expectedEnd": 2170.06,
+          "actualStart": 2079.678167,
+          "actualEnd": 2186.556625,
+          "timeDifference": 16.498167000000194
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.876875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood in a Village Marked by History"
+        },
+        {
+          "startTime": 358.522333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood in a Village Marked by History and Chapter 2 The Shadow of Political Upheaval"
+        },
+        {
+          "startTime": 583.28475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Shadow of Political Upheaval and Chapter 3 The Struggle for Education and Opportunity"
+        },
+        {
+          "startTime": 802.274708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Struggle for Education and Opportunity and Chapter 4 Family Bonds and the Weight of Legacy"
+        },
+        {
+          "startTime": 1037.3965,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Family Bonds and the Weight of Legacy and Chapter 5 Finding Hope and Purpose Amid Hardship"
+        },
+        {
+          "startTime": 1184.896375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Hope and Purpose Amid Hardship and Chapter 6 The Road to Change: Examinations and the Dream of Escape"
+        },
+        {
+          "startTime": 1428.829792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Road to Change: Examinations and the Dream of Escape and Chapter 7 A New World: University and the Challenge of Belonging"
+        },
+        {
+          "startTime": 1644.741542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 A New World: University and the Challenge of Belonging and Chapter 8 The Ties That Bind: Family, Memory, and Return"
+        },
+        {
+          "startTime": 1810.35125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ties That Bind: Family, Memory, and Return and Chapter 9 Facing the Future: Choices, Sacrifice, and Identity"
+        },
+        {
+          "startTime": 1943.927,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Facing the Future: Choices, Sacrifice, and Identity and Chapter 10 The Colors of the Mountain: Reflection and Legacy"
+        },
+        {
+          "startTime": 2078.178167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Colors of the Mountain: Reflection and Legacy and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1971",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T05:27:48.694Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

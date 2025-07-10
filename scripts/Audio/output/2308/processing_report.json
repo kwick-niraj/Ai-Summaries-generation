@@ -1,0 +1,456 @@
+{
+  "bookId": "2308",
+  "timestamp": "2025-07-10T11:19:55.630Z",
+  "success": false,
+  "processingTime": -1752146145092,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3590,
+    "totalAudioFiles": 12,
+    "totalDuration": 1755.3136250000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1755.3136250000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2308/optimized_text/2308.md",
+    "fileSize": 602,
+    "wordCount": 75,
+    "format": "markdown",
+    "filename": "2308.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2308/metadata/2308_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1755.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2308/metadata/2308_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2308/metadata/2308_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2308/2308_complete.wav",
+    "duration": 1755.313625,
+    "fileSize": 84255132,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2308/introduction.wav",
+          "duration": 82.9575,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.9575,
+          "startTime": 0,
+          "endTime": 82.9575
+        },
+        {
+          "path": "Audio/output/2308/chapter_01.wav",
+          "duration": 195.520667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Home in a World of Movement",
+          "actualDuration": 195.520667,
+          "startTime": 84.4575,
+          "endTime": 279.978167
+        },
+        {
+          "path": "Audio/output/2308/chapter_02.wav",
+          "duration": 184.952917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Outsider’s View—Learning Through Difference",
+          "actualDuration": 184.952917,
+          "startTime": 281.478167,
+          "endTime": 466.431084
+        },
+        {
+          "path": "Audio/output/2308/chapter_03.wav",
+          "duration": 174.825417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 American Identity Seen from Afar",
+          "actualDuration": 174.825417,
+          "startTime": 467.931084,
+          "endTime": 642.756501
+        },
+        {
+          "path": "Audio/output/2308/chapter_04.wav",
+          "duration": 185.037208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Encounters That Change Perspective",
+          "actualDuration": 185.037208,
+          "startTime": 644.256501,
+          "endTime": 829.2937089999999
+        },
+        {
+          "path": "Audio/output/2308/chapter_05.wav",
+          "duration": 157.410208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ongoing Search for Belonging",
+          "actualDuration": 157.410208,
+          "startTime": 830.7937089999999,
+          "endTime": 988.2039169999999
+        },
+        {
+          "path": "Audio/output/2308/chapter_06.wav",
+          "duration": 153.722708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 History’s Echoes—Carrying the Past Across Borders",
+          "actualDuration": 153.722708,
+          "startTime": 989.7039169999999,
+          "endTime": 1143.426625
+        },
+        {
+          "path": "Audio/output/2308/chapter_07.wav",
+          "duration": 174.384292,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Lessons of Globalism—Bridges and Barriers",
+          "actualDuration": 174.384292,
+          "startTime": 1144.926625,
+          "endTime": 1319.310917
+        },
+        {
+          "path": "Audio/output/2308/chapter_08.wav",
+          "duration": 136.784833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Evolving Meaning of Identity",
+          "actualDuration": 136.784833,
+          "startTime": 1320.810917,
+          "endTime": 1457.59575
+        },
+        {
+          "path": "Audio/output/2308/chapter_09.wav",
+          "duration": 120.715208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Return—Coming Home Changed",
+          "actualDuration": 120.715208,
+          "startTime": 1459.09575,
+          "endTime": 1579.810958
+        },
+        {
+          "path": "Audio/output/2308/chapter_10.wav",
+          "duration": 71.132125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Perennial Wanderer—Living with Openness",
+          "actualDuration": 71.132125,
+          "startTime": 1581.310958,
+          "endTime": 1652.4430830000001
+        },
+        {
+          "path": "Audio/output/2308/conclusion.wav",
+          "duration": 117.870542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.870542,
+          "startTime": 1653.9430830000001,
+          "endTime": 1771.8136250000002
+        }
+      ],
+      "totalDuration": 1771.8136250000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.96,
+          "actualStart": 0,
+          "actualEnd": 82.9575,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Home in a World of Movement",
+          "expectedStart": 82.96,
+          "expectedEnd": 278.48,
+          "actualStart": 84.4575,
+          "actualEnd": 279.978167,
+          "timeDifference": 1.4975000000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Outsider’s View—Learning Through Difference",
+          "expectedStart": 278.48,
+          "expectedEnd": 463.43,
+          "actualStart": 281.478167,
+          "actualEnd": 466.431084,
+          "timeDifference": 2.9981669999999667
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 American Identity Seen from Afar",
+          "expectedStart": 463.43,
+          "expectedEnd": 638.26,
+          "actualStart": 467.931084,
+          "actualEnd": 642.756501,
+          "timeDifference": 4.501083999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Encounters That Change Perspective",
+          "expectedStart": 638.26,
+          "expectedEnd": 823.3,
+          "actualStart": 644.256501,
+          "actualEnd": 829.2937089999999,
+          "timeDifference": 5.9965009999999666
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ongoing Search for Belonging",
+          "expectedStart": 823.3,
+          "expectedEnd": 980.71,
+          "actualStart": 830.7937089999999,
+          "actualEnd": 988.2039169999999,
+          "timeDifference": 7.493708999999967
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 History’s Echoes—Carrying the Past Across Borders",
+          "expectedStart": 980.71,
+          "expectedEnd": 1134.43,
+          "actualStart": 989.7039169999999,
+          "actualEnd": 1143.426625,
+          "timeDifference": 8.993916999999897
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Lessons of Globalism—Bridges and Barriers",
+          "expectedStart": 1134.43,
+          "expectedEnd": 1308.81,
+          "actualStart": 1144.926625,
+          "actualEnd": 1319.310917,
+          "timeDifference": 10.496624999999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Evolving Meaning of Identity",
+          "expectedStart": 1308.81,
+          "expectedEnd": 1445.59,
+          "actualStart": 1320.810917,
+          "actualEnd": 1457.59575,
+          "timeDifference": 12.000917000000072
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Return—Coming Home Changed",
+          "expectedStart": 1445.59,
+          "expectedEnd": 1566.31,
+          "actualStart": 1459.09575,
+          "actualEnd": 1579.810958,
+          "timeDifference": 13.505750000000035
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Perennial Wanderer—Living with Openness",
+          "expectedStart": 1566.31,
+          "expectedEnd": 1637.44,
+          "actualStart": 1581.310958,
+          "actualEnd": 1652.4430830000001,
+          "timeDifference": 15.000958000000082
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1637.44,
+          "expectedEnd": 1755.31,
+          "actualStart": 1653.9430830000001,
+          "actualEnd": 1771.8136250000002,
+          "timeDifference": 16.50308300000006
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.9575,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Home in a World of Movement"
+        },
+        {
+          "startTime": 279.978167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Home in a World of Movement and Chapter 2 The Outsider’s View—Learning Through Difference"
+        },
+        {
+          "startTime": 466.431084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Outsider’s View—Learning Through Difference and Chapter 3 American Identity Seen from Afar"
+        },
+        {
+          "startTime": 642.756501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 American Identity Seen from Afar and Chapter 4 Encounters That Change Perspective"
+        },
+        {
+          "startTime": 829.2937089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Encounters That Change Perspective and Chapter 5 The Ongoing Search for Belonging"
+        },
+        {
+          "startTime": 988.2039169999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ongoing Search for Belonging and Chapter 6 History’s Echoes—Carrying the Past Across Borders"
+        },
+        {
+          "startTime": 1143.426625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 History’s Echoes—Carrying the Past Across Borders and Chapter 7 The Lessons of Globalism—Bridges and Barriers"
+        },
+        {
+          "startTime": 1319.310917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Lessons of Globalism—Bridges and Barriers and Chapter 8 The Evolving Meaning of Identity"
+        },
+        {
+          "startTime": 1457.59575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Evolving Meaning of Identity and Chapter 9 The Return—Coming Home Changed"
+        },
+        {
+          "startTime": 1579.810958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Return—Coming Home Changed and Chapter 10 The Perennial Wanderer—Living with Openness"
+        },
+        {
+          "startTime": 1652.4430830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Perennial Wanderer—Living with Openness and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2308",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: storytelling (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:15:45.613Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

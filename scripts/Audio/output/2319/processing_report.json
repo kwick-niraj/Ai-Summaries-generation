@@ -1,0 +1,456 @@
+{
+  "bookId": "2319",
+  "timestamp": "2025-07-10T11:59:06.111Z",
+  "success": false,
+  "processingTime": -1752148388021,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3924,
+    "totalAudioFiles": 12,
+    "totalDuration": 2057.039332
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2057.039332
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2319/optimized_text/2319.md",
+    "fileSize": 715,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2319.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2319/metadata/2319_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2057.03,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2319/metadata/2319_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2319/metadata/2319_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2319/2319_complete.wav",
+    "duration": 2057.039333,
+    "fileSize": 98737966,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2319/introduction.wav",
+          "duration": 95.652542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.652542,
+          "startTime": 0,
+          "endTime": 95.652542
+        },
+        {
+          "path": "Audio/output/2319/chapter_01.wav",
+          "duration": 226.104458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Adopting a Scientific Mindset for Everyday Challenges",
+          "actualDuration": 226.104458,
+          "startTime": 97.152542,
+          "endTime": 323.257
+        },
+        {
+          "path": "Audio/output/2319/chapter_02.wav",
+          "duration": 206.081375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Down Problems and Rebuilding from First Principles",
+          "actualDuration": 206.081375,
+          "startTime": 324.757,
+          "endTime": 530.838375
+        },
+        {
+          "path": "Audio/output/2319/chapter_03.wav",
+          "duration": 211.355833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Experimentation, Iteration, and Learning from Failure",
+          "actualDuration": 211.355833,
+          "startTime": 532.338375,
+          "endTime": 743.694208
+        },
+        {
+          "path": "Audio/output/2319/chapter_04.wav",
+          "duration": 195.911833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Making Bold Decisions and Managing Risk",
+          "actualDuration": 195.911833,
+          "startTime": 745.194208,
+          "endTime": 941.106041
+        },
+        {
+          "path": "Audio/output/2319/chapter_05.wav",
+          "duration": 154.113417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Seeking Evidence and Avoiding the Trap of Opinions",
+          "actualDuration": 154.113417,
+          "startTime": 942.606041,
+          "endTime": 1096.719458
+        },
+        {
+          "path": "Audio/output/2319/chapter_06.wav",
+          "duration": 167.110458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Harnessing the Power of Imagination and Mental Simulation",
+          "actualDuration": 167.110458,
+          "startTime": 1098.219458,
+          "endTime": 1265.3299160000001
+        },
+        {
+          "path": "Audio/output/2319/chapter_07.wav",
+          "duration": 189.442083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Collaborating Across Disciplines and Embracing Diverse Perspectives",
+          "actualDuration": 189.442083,
+          "startTime": 1266.8299160000001,
+          "endTime": 1456.271999
+        },
+        {
+          "path": "Audio/output/2319/chapter_08.wav",
+          "duration": 173.781208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Communicating Complex Ideas with Clarity",
+          "actualDuration": 173.781208,
+          "startTime": 1457.771999,
+          "endTime": 1631.553207
+        },
+        {
+          "path": "Audio/output/2319/chapter_09.wav",
+          "duration": 173.838125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Building Resilience and Sustaining Momentum",
+          "actualDuration": 173.838125,
+          "startTime": 1633.053207,
+          "endTime": 1806.891332
+        },
+        {
+          "path": "Audio/output/2319/chapter_10.wav",
+          "duration": 165.45725,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Applying Rocket Science Principles to Everyday Life",
+          "actualDuration": 165.45725,
+          "startTime": 1808.391332,
+          "endTime": 1973.8485819999999
+        },
+        {
+          "path": "Audio/output/2319/conclusion.wav",
+          "duration": 98.19075,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 98.19075,
+          "startTime": 1975.3485819999999,
+          "endTime": 2073.539332
+        }
+      ],
+      "totalDuration": 2073.539332,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.65,
+          "actualStart": 0,
+          "actualEnd": 95.652542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Adopting a Scientific Mindset for Everyday Challenges",
+          "expectedStart": 95.65,
+          "expectedEnd": 321.75,
+          "actualStart": 97.152542,
+          "actualEnd": 323.257,
+          "timeDifference": 1.5025419999999912
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Down Problems and Rebuilding from First Principles",
+          "expectedStart": 321.75,
+          "expectedEnd": 527.83,
+          "actualStart": 324.757,
+          "actualEnd": 530.838375,
+          "timeDifference": 3.007000000000005
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Experimentation, Iteration, and Learning from Failure",
+          "expectedStart": 527.83,
+          "expectedEnd": 739.19,
+          "actualStart": 532.338375,
+          "actualEnd": 743.694208,
+          "timeDifference": 4.508375000000001
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Making Bold Decisions and Managing Risk",
+          "expectedStart": 739.19,
+          "expectedEnd": 935.1,
+          "actualStart": 745.194208,
+          "actualEnd": 941.106041,
+          "timeDifference": 6.004207999999949
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Seeking Evidence and Avoiding the Trap of Opinions",
+          "expectedStart": 935.1,
+          "expectedEnd": 1089.21,
+          "actualStart": 942.606041,
+          "actualEnd": 1096.719458,
+          "timeDifference": 7.506040999999982
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Harnessing the Power of Imagination and Mental Simulation",
+          "expectedStart": 1089.21,
+          "expectedEnd": 1256.32,
+          "actualStart": 1098.219458,
+          "actualEnd": 1265.3299160000001,
+          "timeDifference": 9.009457999999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Collaborating Across Disciplines and Embracing Diverse Perspectives",
+          "expectedStart": 1256.32,
+          "expectedEnd": 1445.76,
+          "actualStart": 1266.8299160000001,
+          "actualEnd": 1456.271999,
+          "timeDifference": 10.509916000000203
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Communicating Complex Ideas with Clarity",
+          "expectedStart": 1445.76,
+          "expectedEnd": 1619.54,
+          "actualStart": 1457.771999,
+          "actualEnd": 1631.553207,
+          "timeDifference": 12.01199900000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Building Resilience and Sustaining Momentum",
+          "expectedStart": 1619.54,
+          "expectedEnd": 1793.38,
+          "actualStart": 1633.053207,
+          "actualEnd": 1806.891332,
+          "timeDifference": 13.513206999999966
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Applying Rocket Science Principles to Everyday Life",
+          "expectedStart": 1793.38,
+          "expectedEnd": 1958.84,
+          "actualStart": 1808.391332,
+          "actualEnd": 1973.8485819999999,
+          "timeDifference": 15.011331999999811
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1958.84,
+          "expectedEnd": 2057.03,
+          "actualStart": 1975.3485819999999,
+          "actualEnd": 2073.539332,
+          "timeDifference": 16.508581999999933
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.652542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Adopting a Scientific Mindset for Everyday Challenges"
+        },
+        {
+          "startTime": 323.257,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Adopting a Scientific Mindset for Everyday Challenges and Chapter 2 Breaking Down Problems and Rebuilding from First Principles"
+        },
+        {
+          "startTime": 530.838375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Down Problems and Rebuilding from First Principles and Chapter 3 Experimentation, Iteration, and Learning from Failure"
+        },
+        {
+          "startTime": 743.694208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Experimentation, Iteration, and Learning from Failure and Chapter 4 Making Bold Decisions and Managing Risk"
+        },
+        {
+          "startTime": 941.106041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Making Bold Decisions and Managing Risk and Chapter 5 Seeking Evidence and Avoiding the Trap of Opinions"
+        },
+        {
+          "startTime": 1096.719458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Seeking Evidence and Avoiding the Trap of Opinions and Chapter 6 Harnessing the Power of Imagination and Mental Simulation"
+        },
+        {
+          "startTime": 1265.3299160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Harnessing the Power of Imagination and Mental Simulation and Chapter 7 Collaborating Across Disciplines and Embracing Diverse Perspectives"
+        },
+        {
+          "startTime": 1456.271999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Collaborating Across Disciplines and Embracing Diverse Perspectives and Chapter 8 Communicating Complex Ideas with Clarity"
+        },
+        {
+          "startTime": 1631.553207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Communicating Complex Ideas with Clarity and Chapter 9 Building Resilience and Sustaining Momentum"
+        },
+        {
+          "startTime": 1806.891332,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Building Resilience and Sustaining Momentum and Chapter 10 Applying Rocket Science Principles to Everyday Life"
+        },
+        {
+          "startTime": 1973.8485819999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Applying Rocket Science Principles to Everyday Life and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2319",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:53:09.310Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

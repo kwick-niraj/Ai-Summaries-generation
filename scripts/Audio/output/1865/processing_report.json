@@ -1,0 +1,456 @@
+{
+  "bookId": "1865",
+  "timestamp": "2025-07-08T21:17:57.287Z",
+  "success": false,
+  "processingTime": -1752009134531,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4073,
+    "totalAudioFiles": 12,
+    "totalDuration": 2012.7295429999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2012.7295429999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1865/optimized_text/1865.md",
+    "fileSize": 710,
+    "wordCount": 92,
+    "format": "markdown",
+    "filename": "1865.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1865/metadata/1865_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2012.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1865/metadata/1865_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1865/metadata/1865_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1865/1865_complete.wav",
+    "duration": 2012.729542,
+    "fileSize": 96611096,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1865/introduction.wav",
+          "duration": 112.000125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 112.000125,
+          "startTime": 0,
+          "endTime": 112.000125
+        },
+        {
+          "path": "Audio/output/1865/chapter_01.wav",
+          "duration": 177.423792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Divine: Where Wonder Meets Skepticism",
+          "actualDuration": 177.423792,
+          "startTime": 113.500125,
+          "endTime": 290.92391699999996
+        },
+        {
+          "path": "Audio/output/1865/chapter_02.wav",
+          "duration": 239.572167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Universe as a Story: Evolution’s Creative Unfolding",
+          "actualDuration": 239.572167,
+          "startTime": 292.42391699999996,
+          "endTime": 531.996084
+        },
+        {
+          "path": "Audio/output/1865/chapter_03.wav",
+          "duration": 192.189875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Consciousness and the Mystery of Being",
+          "actualDuration": 192.189875,
+          "startTime": 533.496084,
+          "endTime": 725.685959
+        },
+        {
+          "path": "Audio/output/1865/chapter_04.wav",
+          "duration": 232.141792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Redefining God: From Supernatural Creator to Evolutionary Process",
+          "actualDuration": 232.141792,
+          "startTime": 727.185959,
+          "endTime": 959.327751
+        },
+        {
+          "path": "Audio/output/1865/chapter_05.wav",
+          "duration": 194.064667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Meaning, Morality, and Awe Without Supernatural Belief",
+          "actualDuration": 194.064667,
+          "startTime": 960.827751,
+          "endTime": 1154.892418
+        },
+        {
+          "path": "Audio/output/1865/chapter_06.wav",
+          "duration": 180.246667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mysticism Reimagined: The Secular Path to Transcendence",
+          "actualDuration": 180.246667,
+          "startTime": 1156.392418,
+          "endTime": 1336.6390849999998
+        },
+        {
+          "path": "Audio/output/1865/chapter_07.wav",
+          "duration": 140.028375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Limits of Knowledge: Embracing Uncertainty",
+          "actualDuration": 140.028375,
+          "startTime": 1338.1390849999998,
+          "endTime": 1478.16746
+        },
+        {
+          "path": "Audio/output/1865/chapter_08.wav",
+          "duration": 143.847208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Science and Spirituality: A Dialogue, Not a Battle",
+          "actualDuration": 143.847208,
+          "startTime": 1479.66746,
+          "endTime": 1623.5146679999998
+        },
+        {
+          "path": "Audio/output/1865/chapter_09.wav",
+          "duration": 139.179333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Community, Ritual, and the Human Need for Belonging",
+          "actualDuration": 139.179333,
+          "startTime": 1625.0146679999998,
+          "endTime": 1764.1940009999998
+        },
+        {
+          "path": "Audio/output/1865/chapter_10.wav",
+          "duration": 124.457,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Story: Becoming Co-Creators",
+          "actualDuration": 124.457,
+          "startTime": 1765.6940009999998,
+          "endTime": 1890.1510009999997
+        },
+        {
+          "path": "Audio/output/1865/conclusion.wav",
+          "duration": 137.578542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 137.578542,
+          "startTime": 1891.6510009999997,
+          "endTime": 2029.2295429999997
+        }
+      ],
+      "totalDuration": 2029.2295429999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 112,
+          "actualStart": 0,
+          "actualEnd": 112.000125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Divine: Where Wonder Meets Skepticism",
+          "expectedStart": 112,
+          "expectedEnd": 289.42,
+          "actualStart": 113.500125,
+          "actualEnd": 290.92391699999996,
+          "timeDifference": 1.500124999999997
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Universe as a Story: Evolution’s Creative Unfolding",
+          "expectedStart": 289.42,
+          "expectedEnd": 528.99,
+          "actualStart": 292.42391699999996,
+          "actualEnd": 531.996084,
+          "timeDifference": 3.0039169999999444
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Consciousness and the Mystery of Being",
+          "expectedStart": 528.99,
+          "expectedEnd": 721.18,
+          "actualStart": 533.496084,
+          "actualEnd": 725.685959,
+          "timeDifference": 4.506083999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Redefining God: From Supernatural Creator to Evolutionary Process",
+          "expectedStart": 721.18,
+          "expectedEnd": 953.32,
+          "actualStart": 727.185959,
+          "actualEnd": 959.327751,
+          "timeDifference": 6.005959000000075
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Meaning, Morality, and Awe Without Supernatural Belief",
+          "expectedStart": 953.32,
+          "expectedEnd": 1147.38,
+          "actualStart": 960.827751,
+          "actualEnd": 1154.892418,
+          "timeDifference": 7.507750999999985
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mysticism Reimagined: The Secular Path to Transcendence",
+          "expectedStart": 1147.38,
+          "expectedEnd": 1327.63,
+          "actualStart": 1156.392418,
+          "actualEnd": 1336.6390849999998,
+          "timeDifference": 9.012417999999798
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Limits of Knowledge: Embracing Uncertainty",
+          "expectedStart": 1327.63,
+          "expectedEnd": 1467.66,
+          "actualStart": 1338.1390849999998,
+          "actualEnd": 1478.16746,
+          "timeDifference": 10.509084999999686
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Science and Spirituality: A Dialogue, Not a Battle",
+          "expectedStart": 1467.66,
+          "expectedEnd": 1611.51,
+          "actualStart": 1479.66746,
+          "actualEnd": 1623.5146679999998,
+          "timeDifference": 12.00745999999981
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Community, Ritual, and the Human Need for Belonging",
+          "expectedStart": 1611.51,
+          "expectedEnd": 1750.69,
+          "actualStart": 1625.0146679999998,
+          "actualEnd": 1764.1940009999998,
+          "timeDifference": 13.50466799999981
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Story: Becoming Co-Creators",
+          "expectedStart": 1750.69,
+          "expectedEnd": 1875.15,
+          "actualStart": 1765.6940009999998,
+          "actualEnd": 1890.1510009999997,
+          "timeDifference": 15.00400099999979
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1875.15,
+          "expectedEnd": 2012.73,
+          "actualStart": 1891.6510009999997,
+          "actualEnd": 2029.2295429999997,
+          "timeDifference": 16.501000999999633
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 112.000125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Divine: Where Wonder Meets Skepticism"
+        },
+        {
+          "startTime": 290.92391699999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Divine: Where Wonder Meets Skepticism and Chapter 2 The Universe as a Story: Evolution’s Creative Unfolding"
+        },
+        {
+          "startTime": 531.996084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Universe as a Story: Evolution’s Creative Unfolding and Chapter 3 Consciousness and the Mystery of Being"
+        },
+        {
+          "startTime": 725.685959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Consciousness and the Mystery of Being and Chapter 4 Redefining God: From Supernatural Creator to Evolutionary Process"
+        },
+        {
+          "startTime": 959.327751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Redefining God: From Supernatural Creator to Evolutionary Process and Chapter 5 Meaning, Morality, and Awe Without Supernatural Belief"
+        },
+        {
+          "startTime": 1154.892418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Meaning, Morality, and Awe Without Supernatural Belief and Chapter 6 Mysticism Reimagined: The Secular Path to Transcendence"
+        },
+        {
+          "startTime": 1336.6390849999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mysticism Reimagined: The Secular Path to Transcendence and Chapter 7 The Limits of Knowledge: Embracing Uncertainty"
+        },
+        {
+          "startTime": 1478.16746,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Limits of Knowledge: Embracing Uncertainty and Chapter 8 Science and Spirituality: A Dialogue, Not a Battle"
+        },
+        {
+          "startTime": 1623.5146679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Science and Spirituality: A Dialogue, Not a Battle and Chapter 9 Community, Ritual, and the Human Need for Belonging"
+        },
+        {
+          "startTime": 1764.1940009999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Community, Ritual, and the Human Need for Belonging and Chapter 10 The Ongoing Story: Becoming Co-Creators"
+        },
+        {
+          "startTime": 1890.1510009999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Story: Becoming Co-Creators and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1865",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T21:12:15.707Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

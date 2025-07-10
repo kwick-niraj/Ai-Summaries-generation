@@ -1,0 +1,455 @@
+{
+  "bookId": "1941",
+  "timestamp": "2025-07-09T03:50:17.936Z",
+  "success": false,
+  "processingTime": -1752032328679,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4816,
+    "totalAudioFiles": 12,
+    "totalDuration": 1912.1443329999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1912.1443329999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1941/optimized_text/1941.md",
+    "fileSize": 659,
+    "wordCount": 101,
+    "format": "markdown",
+    "filename": "1941.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1941/metadata/1941_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1912.16,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1941/metadata/1941_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1941/metadata/1941_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1941/1941_complete.wav",
+    "duration": 1912.144333,
+    "fileSize": 91783006,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1941/introduction.wav",
+          "duration": 78.274625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.274625,
+          "startTime": 0,
+          "endTime": 78.274625
+        },
+        {
+          "path": "Audio/output/1941/chapter_01.wav",
+          "duration": 208.63525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Childhood Interrupted by War and Loss",
+          "actualDuration": 208.63525,
+          "startTime": 79.774625,
+          "endTime": 288.409875
+        },
+        {
+          "path": "Audio/output/1941/chapter_02.wav",
+          "duration": 233.206083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Hiding, Escape, and the Search for Safety",
+          "actualDuration": 233.206083,
+          "startTime": 289.909875,
+          "endTime": 523.115958
+        },
+        {
+          "path": "Audio/output/1941/chapter_03.wav",
+          "duration": 179.640833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Acts of Kindness and the Power of Compassion",
+          "actualDuration": 179.640833,
+          "startTime": 524.615958,
+          "endTime": 704.256791
+        },
+        {
+          "path": "Audio/output/1941/chapter_04.wav",
+          "duration": 195.521667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Resistance, Resourcefulness, and the Will to Survive",
+          "actualDuration": 195.521667,
+          "startTime": 705.756791,
+          "endTime": 901.278458
+        },
+        {
+          "path": "Audio/output/1941/chapter_05.wav",
+          "duration": 176.396208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The End of War and the Challenge of Rebuilding",
+          "actualDuration": 176.396208,
+          "startTime": 902.778458,
+          "endTime": 1079.174666
+        },
+        {
+          "path": "Audio/output/1941/chapter_06.wav",
+          "duration": 164.466917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Memory and the Search for Identity",
+          "actualDuration": 164.466917,
+          "startTime": 1080.674666,
+          "endTime": 1245.1415829999999
+        },
+        {
+          "path": "Audio/output/1941/chapter_07.wav",
+          "duration": 166.682083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Bearing Witness and the Responsibility to Tell",
+          "actualDuration": 166.682083,
+          "startTime": 1246.6415829999999,
+          "endTime": 1413.3236659999998
+        },
+        {
+          "path": "Audio/output/1941/chapter_08.wav",
+          "duration": 156.88575,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building a New Life and the Struggle for Normalcy",
+          "actualDuration": 156.88575,
+          "startTime": 1414.8236659999998,
+          "endTime": 1571.7094159999997
+        },
+        {
+          "path": "Audio/output/1941/chapter_09.wav",
+          "duration": 129.555875,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Love, Loss, and the Meaning of Family",
+          "actualDuration": 129.555875,
+          "startTime": 1573.2094159999997,
+          "endTime": 1702.7652909999997
+        },
+        {
+          "path": "Audio/output/1941/chapter_10.wav",
+          "duration": 107.808625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy, Hope, and the Enduring Power of the Human Spirit",
+          "actualDuration": 107.808625,
+          "startTime": 1704.2652909999997,
+          "endTime": 1812.0739159999998
+        },
+        {
+          "path": "Audio/output/1941/conclusion.wav",
+          "duration": 115.070417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.070417,
+          "startTime": 1813.5739159999998,
+          "endTime": 1928.6443329999997
+        }
+      ],
+      "totalDuration": 1928.6443329999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.27,
+          "actualStart": 0,
+          "actualEnd": 78.274625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Childhood Interrupted by War and Loss",
+          "expectedStart": 78.27,
+          "expectedEnd": 286.91,
+          "actualStart": 79.774625,
+          "actualEnd": 288.409875,
+          "timeDifference": 1.5046250000000043
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Hiding, Escape, and the Search for Safety",
+          "expectedStart": 286.91,
+          "expectedEnd": 520.12,
+          "actualStart": 289.909875,
+          "actualEnd": 523.115958,
+          "timeDifference": 2.9998749999999745
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Acts of Kindness and the Power of Compassion",
+          "expectedStart": 520.12,
+          "expectedEnd": 699.76,
+          "actualStart": 524.615958,
+          "actualEnd": 704.256791,
+          "timeDifference": 4.495957999999973
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Resistance, Resourcefulness, and the Will to Survive",
+          "expectedStart": 699.76,
+          "expectedEnd": 895.28,
+          "actualStart": 705.756791,
+          "actualEnd": 901.278458,
+          "timeDifference": 5.99679100000003
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The End of War and the Challenge of Rebuilding",
+          "expectedStart": 895.28,
+          "expectedEnd": 1071.68,
+          "actualStart": 902.778458,
+          "actualEnd": 1079.174666,
+          "timeDifference": 7.498458000000028
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Memory and the Search for Identity",
+          "expectedStart": 1071.68,
+          "expectedEnd": 1236.15,
+          "actualStart": 1080.674666,
+          "actualEnd": 1245.1415829999999,
+          "timeDifference": 8.994665999999825
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Bearing Witness and the Responsibility to Tell",
+          "expectedStart": 1236.15,
+          "expectedEnd": 1402.83,
+          "actualStart": 1246.6415829999999,
+          "actualEnd": 1413.3236659999998,
+          "timeDifference": 10.491582999999764
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building a New Life and the Struggle for Normalcy",
+          "expectedStart": 1402.83,
+          "expectedEnd": 1559.72,
+          "actualStart": 1414.8236659999998,
+          "actualEnd": 1571.7094159999997,
+          "timeDifference": 11.993665999999848
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Love, Loss, and the Meaning of Family",
+          "expectedStart": 1559.72,
+          "expectedEnd": 1689.28,
+          "actualStart": 1573.2094159999997,
+          "actualEnd": 1702.7652909999997,
+          "timeDifference": 13.489415999999665
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy, Hope, and the Enduring Power of the Human Spirit",
+          "expectedStart": 1689.28,
+          "expectedEnd": 1797.09,
+          "actualStart": 1704.2652909999997,
+          "actualEnd": 1812.0739159999998,
+          "timeDifference": 14.985290999999734
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1797.09,
+          "expectedEnd": 1912.16,
+          "actualStart": 1813.5739159999998,
+          "actualEnd": 1928.6443329999997,
+          "timeDifference": 16.48391599999991
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.274625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Childhood Interrupted by War and Loss"
+        },
+        {
+          "startTime": 288.409875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Childhood Interrupted by War and Loss and Chapter 2 Hiding, Escape, and the Search for Safety"
+        },
+        {
+          "startTime": 523.115958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Hiding, Escape, and the Search for Safety and Chapter 3 Acts of Kindness and the Power of Compassion"
+        },
+        {
+          "startTime": 704.256791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Acts of Kindness and the Power of Compassion and Chapter 4 Resistance, Resourcefulness, and the Will to Survive"
+        },
+        {
+          "startTime": 901.278458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Resistance, Resourcefulness, and the Will to Survive and Chapter 5 The End of War and the Challenge of Rebuilding"
+        },
+        {
+          "startTime": 1079.174666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The End of War and the Challenge of Rebuilding and Chapter 6 The Weight of Memory and the Search for Identity"
+        },
+        {
+          "startTime": 1245.1415829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Memory and the Search for Identity and Chapter 7 Bearing Witness and the Responsibility to Tell"
+        },
+        {
+          "startTime": 1413.3236659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Bearing Witness and the Responsibility to Tell and Chapter 8 Building a New Life and the Struggle for Normalcy"
+        },
+        {
+          "startTime": 1571.7094159999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building a New Life and the Struggle for Normalcy and Chapter 9 Love, Loss, and the Meaning of Family"
+        },
+        {
+          "startTime": 1702.7652909999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Love, Loss, and the Meaning of Family and Chapter 10 Legacy, Hope, and the Enduring Power of the Human Spirit"
+        },
+        {
+          "startTime": 1812.0739159999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy, Hope, and the Enduring Power of the Human Spirit and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1941",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T03:38:49.858Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

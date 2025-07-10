@@ -1,0 +1,456 @@
+{
+  "bookId": "1915",
+  "timestamp": "2025-07-09T00:57:19.000Z",
+  "success": false,
+  "processingTime": -1752022223920,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4660,
+    "totalAudioFiles": 12,
+    "totalDuration": 2455.642917
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2455.642917
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1915/optimized_text/1915.md",
+    "fileSize": 813,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "1915.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1915/metadata/1915_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2455.65,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1915/metadata/1915_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1915/metadata/1915_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1915/1915_complete.wav",
+    "duration": 2455.642917,
+    "fileSize": 117870938,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1915/introduction.wav",
+          "duration": 93.955875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.955875,
+          "startTime": 0,
+          "endTime": 93.955875
+        },
+        {
+          "path": "Audio/output/1915/chapter_01.wav",
+          "duration": 255.692458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Liberty and Its Fragile Foundations",
+          "actualDuration": 255.692458,
+          "startTime": 95.455875,
+          "endTime": 351.148333
+        },
+        {
+          "path": "Audio/output/1915/chapter_02.wav",
+          "duration": 235.581375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Role of Government and the Limits of Authority",
+          "actualDuration": 235.581375,
+          "startTime": 352.648333,
+          "endTime": 588.229708
+        },
+        {
+          "path": "Audio/output/1915/chapter_03.wav",
+          "duration": 303.336417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Erosion of Freedom Through Modern Policies",
+          "actualDuration": 303.336417,
+          "startTime": 589.729708,
+          "endTime": 893.0661249999999
+        },
+        {
+          "path": "Audio/output/1915/chapter_04.wav",
+          "duration": 238.372875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Free Markets, Voluntary Action, and the Power of Personal Responsibility",
+          "actualDuration": 238.372875,
+          "startTime": 894.5661249999999,
+          "endTime": 1132.9389999999999
+        },
+        {
+          "path": "Audio/output/1915/chapter_05.wav",
+          "duration": 214.40725,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Constitution as a Framework for Protecting Liberty",
+          "actualDuration": 214.40725,
+          "startTime": 1134.4389999999999,
+          "endTime": 1348.8462499999998
+        },
+        {
+          "path": "Audio/output/1915/chapter_06.wav",
+          "duration": 232.667083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Culture of Liberty—Nurturing Values That Sustain Freedom",
+          "actualDuration": 232.667083,
+          "startTime": 1350.3462499999998,
+          "endTime": 1583.0133329999999
+        },
+        {
+          "path": "Audio/output/1915/chapter_07.wav",
+          "duration": 206.404708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Resisting the Creep of Authoritarianism—Tools for Everyday Vigilance",
+          "actualDuration": 206.404708,
+          "startTime": 1584.5133329999999,
+          "endTime": 1790.918041
+        },
+        {
+          "path": "Audio/output/1915/chapter_08.wav",
+          "duration": 200.037292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reclaiming Economic Freedom—Reducing Barriers and Expanding Opportunity",
+          "actualDuration": 200.037292,
+          "startTime": 1792.418041,
+          "endTime": 1992.4553329999999
+        },
+        {
+          "path": "Audio/output/1915/chapter_09.wav",
+          "duration": 186.278667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Civil Liberties in the Digital Age—Protecting Privacy and Free Expression",
+          "actualDuration": 186.278667,
+          "startTime": 1993.9553329999999,
+          "endTime": 2180.234
+        },
+        {
+          "path": "Audio/output/1915/chapter_10.wav",
+          "duration": 157.545125,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Power of Localism—Building Freedom from the Ground Up",
+          "actualDuration": 157.545125,
+          "startTime": 2181.734,
+          "endTime": 2339.279125
+        },
+        {
+          "path": "Audio/output/1915/conclusion.wav",
+          "duration": 131.363792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.363792,
+          "startTime": 2340.779125,
+          "endTime": 2472.142917
+        }
+      ],
+      "totalDuration": 2472.142917,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.96,
+          "actualStart": 0,
+          "actualEnd": 93.955875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Liberty and Its Fragile Foundations",
+          "expectedStart": 93.96,
+          "expectedEnd": 349.65,
+          "actualStart": 95.455875,
+          "actualEnd": 351.148333,
+          "timeDifference": 1.4958750000000123
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Role of Government and the Limits of Authority",
+          "expectedStart": 349.65,
+          "expectedEnd": 585.23,
+          "actualStart": 352.648333,
+          "actualEnd": 588.229708,
+          "timeDifference": 2.9983330000000024
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Erosion of Freedom Through Modern Policies",
+          "expectedStart": 585.23,
+          "expectedEnd": 888.57,
+          "actualStart": 589.729708,
+          "actualEnd": 893.0661249999999,
+          "timeDifference": 4.499707999999941
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Free Markets, Voluntary Action, and the Power of Personal Responsibility",
+          "expectedStart": 888.57,
+          "expectedEnd": 1126.94,
+          "actualStart": 894.5661249999999,
+          "actualEnd": 1132.9389999999999,
+          "timeDifference": 5.996124999999893
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Constitution as a Framework for Protecting Liberty",
+          "expectedStart": 1126.94,
+          "expectedEnd": 1341.35,
+          "actualStart": 1134.4389999999999,
+          "actualEnd": 1348.8462499999998,
+          "timeDifference": 7.498999999999796
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Culture of Liberty—Nurturing Values That Sustain Freedom",
+          "expectedStart": 1341.35,
+          "expectedEnd": 1574.02,
+          "actualStart": 1350.3462499999998,
+          "actualEnd": 1583.0133329999999,
+          "timeDifference": 8.996249999999918
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Resisting the Creep of Authoritarianism—Tools for Everyday Vigilance",
+          "expectedStart": 1574.02,
+          "expectedEnd": 1780.42,
+          "actualStart": 1584.5133329999999,
+          "actualEnd": 1790.918041,
+          "timeDifference": 10.493332999999893
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reclaiming Economic Freedom—Reducing Barriers and Expanding Opportunity",
+          "expectedStart": 1780.42,
+          "expectedEnd": 1980.46,
+          "actualStart": 1792.418041,
+          "actualEnd": 1992.4553329999999,
+          "timeDifference": 11.99804099999983
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Civil Liberties in the Digital Age—Protecting Privacy and Free Expression",
+          "expectedStart": 1980.46,
+          "expectedEnd": 2166.74,
+          "actualStart": 1993.9553329999999,
+          "actualEnd": 2180.234,
+          "timeDifference": 13.495332999999846
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Power of Localism—Building Freedom from the Ground Up",
+          "expectedStart": 2166.74,
+          "expectedEnd": 2324.29,
+          "actualStart": 2181.734,
+          "actualEnd": 2339.279125,
+          "timeDifference": 14.994000000000142
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2324.29,
+          "expectedEnd": 2455.65,
+          "actualStart": 2340.779125,
+          "actualEnd": 2472.142917,
+          "timeDifference": 16.489125000000058
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.955875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Liberty and Its Fragile Foundations"
+        },
+        {
+          "startTime": 351.148333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Liberty and Its Fragile Foundations and Chapter 2 The Role of Government and the Limits of Authority"
+        },
+        {
+          "startTime": 588.229708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Role of Government and the Limits of Authority and Chapter 3 The Erosion of Freedom Through Modern Policies"
+        },
+        {
+          "startTime": 893.0661249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Erosion of Freedom Through Modern Policies and Chapter 4 Free Markets, Voluntary Action, and the Power of Personal Responsibility"
+        },
+        {
+          "startTime": 1132.9389999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Free Markets, Voluntary Action, and the Power of Personal Responsibility and Chapter 5 The Constitution as a Framework for Protecting Liberty"
+        },
+        {
+          "startTime": 1348.8462499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Constitution as a Framework for Protecting Liberty and Chapter 6 The Culture of Liberty—Nurturing Values That Sustain Freedom"
+        },
+        {
+          "startTime": 1583.0133329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Culture of Liberty—Nurturing Values That Sustain Freedom and Chapter 7 Resisting the Creep of Authoritarianism—Tools for Everyday Vigilance"
+        },
+        {
+          "startTime": 1790.918041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Resisting the Creep of Authoritarianism—Tools for Everyday Vigilance and Chapter 8 Reclaiming Economic Freedom—Reducing Barriers and Expanding Opportunity"
+        },
+        {
+          "startTime": 1992.4553329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reclaiming Economic Freedom—Reducing Barriers and Expanding Opportunity and Chapter 9 Civil Liberties in the Digital Age—Protecting Privacy and Free Expression"
+        },
+        {
+          "startTime": 2180.234,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Civil Liberties in the Digital Age—Protecting Privacy and Free Expression and Chapter 10 The Power of Localism—Building Freedom from the Ground Up"
+        },
+        {
+          "startTime": 2339.279125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Power of Localism—Building Freedom from the Ground Up and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1915",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T00:50:25.113Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

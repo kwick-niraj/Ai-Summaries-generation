@@ -1,0 +1,456 @@
+{
+  "bookId": "1961",
+  "timestamp": "2025-07-09T04:57:13.921Z",
+  "success": false,
+  "processingTime": -1752035875622,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4548,
+    "totalAudioFiles": 12,
+    "totalDuration": 1912.9997500000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1912.9997500000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1961/optimized_text/1961.md",
+    "fileSize": 744,
+    "wordCount": 96,
+    "format": "markdown",
+    "filename": "1961.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1961/metadata/1961_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1912.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1961/metadata/1961_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1961/metadata/1961_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1961/1961_complete.wav",
+    "duration": 1912.99975,
+    "fileSize": 91824066,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1961/introduction.wav",
+          "duration": 94.383917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.383917,
+          "startTime": 0,
+          "endTime": 94.383917
+        },
+        {
+          "path": "Audio/output/1961/chapter_01.wav",
+          "duration": 189.73625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Mistakes Matter More Than We Think",
+          "actualDuration": 189.73625,
+          "startTime": 95.883917,
+          "endTime": 285.62016700000004
+        },
+        {
+          "path": "Audio/output/1961/chapter_02.wav",
+          "duration": 190.552833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Moving from Pain to Progress: Understanding the “Ouch” and “Oops” Moments",
+          "actualDuration": 190.552833,
+          "startTime": 287.12016700000004,
+          "endTime": 477.673
+        },
+        {
+          "path": "Audio/output/1961/chapter_03.wav",
+          "duration": 196.858583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building a Mindset That Welcomes Growth",
+          "actualDuration": 196.858583,
+          "startTime": 479.173,
+          "endTime": 676.031583
+        },
+        {
+          "path": "Audio/output/1961/chapter_04.wav",
+          "duration": 195.00975,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Self-Compassion and Honest Reflection After Mess-Ups",
+          "actualDuration": 195.00975,
+          "startTime": 677.531583,
+          "endTime": 872.5413329999999
+        },
+        {
+          "path": "Audio/output/1961/chapter_05.wav",
+          "duration": 183.659542,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Creating Supportive Spaces for Learning from Mistakes",
+          "actualDuration": 183.659542,
+          "startTime": 874.0413329999999,
+          "endTime": 1057.700875
+        },
+        {
+          "path": "Audio/output/1961/chapter_06.wav",
+          "duration": 160.067,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Turning Setbacks into Stepping Stones",
+          "actualDuration": 160.067,
+          "startTime": 1059.200875,
+          "endTime": 1219.267875
+        },
+        {
+          "path": "Audio/output/1961/chapter_07.wav",
+          "duration": 157.64425,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Feedback: Giving and Receiving with Grace",
+          "actualDuration": 157.64425,
+          "startTime": 1220.767875,
+          "endTime": 1378.412125
+        },
+        {
+          "path": "Audio/output/1961/chapter_08.wav",
+          "duration": 137.344208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Mistakes and Relationships: Repairing, Reconnecting, and Growing Together",
+          "actualDuration": 137.344208,
+          "startTime": 1379.912125,
+          "endTime": 1517.256333
+        },
+        {
+          "path": "Audio/output/1961/chapter_09.wav",
+          "duration": 143.200708,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Uncertainty: Mistakes as Part of the Creative Process",
+          "actualDuration": 143.200708,
+          "startTime": 1518.756333,
+          "endTime": 1661.9570410000001
+        },
+        {
+          "path": "Audio/output/1961/chapter_10.wav",
+          "duration": 140.244167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Lasting Change: Making Mistake-Friendly Habits Stick",
+          "actualDuration": 140.244167,
+          "startTime": 1663.4570410000001,
+          "endTime": 1803.7012080000002
+        },
+        {
+          "path": "Audio/output/1961/conclusion.wav",
+          "duration": 124.298542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 124.298542,
+          "startTime": 1805.2012080000002,
+          "endTime": 1929.4997500000002
+        }
+      ],
+      "totalDuration": 1929.4997500000002,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.38,
+          "actualStart": 0,
+          "actualEnd": 94.383917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Mistakes Matter More Than We Think",
+          "expectedStart": 94.38,
+          "expectedEnd": 284.12,
+          "actualStart": 95.883917,
+          "actualEnd": 285.62016700000004,
+          "timeDifference": 1.5039170000000013
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Moving from Pain to Progress: Understanding the “Ouch” and “Oops” Moments",
+          "expectedStart": 284.12,
+          "expectedEnd": 474.67,
+          "actualStart": 287.12016700000004,
+          "actualEnd": 477.673,
+          "timeDifference": 3.000167000000033
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building a Mindset That Welcomes Growth",
+          "expectedStart": 474.67,
+          "expectedEnd": 671.53,
+          "actualStart": 479.173,
+          "actualEnd": 676.031583,
+          "timeDifference": 4.502999999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Self-Compassion and Honest Reflection After Mess-Ups",
+          "expectedStart": 671.53,
+          "expectedEnd": 866.54,
+          "actualStart": 677.531583,
+          "actualEnd": 872.5413329999999,
+          "timeDifference": 6.001582999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Creating Supportive Spaces for Learning from Mistakes",
+          "expectedStart": 866.54,
+          "expectedEnd": 1050.2,
+          "actualStart": 874.0413329999999,
+          "actualEnd": 1057.700875,
+          "timeDifference": 7.501332999999931
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Turning Setbacks into Stepping Stones",
+          "expectedStart": 1050.2,
+          "expectedEnd": 1210.27,
+          "actualStart": 1059.200875,
+          "actualEnd": 1219.267875,
+          "timeDifference": 9.00087499999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Feedback: Giving and Receiving with Grace",
+          "expectedStart": 1210.27,
+          "expectedEnd": 1367.91,
+          "actualStart": 1220.767875,
+          "actualEnd": 1378.412125,
+          "timeDifference": 10.497875000000022
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Mistakes and Relationships: Repairing, Reconnecting, and Growing Together",
+          "expectedStart": 1367.91,
+          "expectedEnd": 1505.25,
+          "actualStart": 1379.912125,
+          "actualEnd": 1517.256333,
+          "timeDifference": 12.002124999999978
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Uncertainty: Mistakes as Part of the Creative Process",
+          "expectedStart": 1505.25,
+          "expectedEnd": 1648.45,
+          "actualStart": 1518.756333,
+          "actualEnd": 1661.9570410000001,
+          "timeDifference": 13.50633300000004
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Lasting Change: Making Mistake-Friendly Habits Stick",
+          "expectedStart": 1648.45,
+          "expectedEnd": 1788.69,
+          "actualStart": 1663.4570410000001,
+          "actualEnd": 1803.7012080000002,
+          "timeDifference": 15.007041000000072
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1788.69,
+          "expectedEnd": 1912.99,
+          "actualStart": 1805.2012080000002,
+          "actualEnd": 1929.4997500000002,
+          "timeDifference": 16.511208000000124
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.383917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Mistakes Matter More Than We Think"
+        },
+        {
+          "startTime": 285.62016700000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Mistakes Matter More Than We Think and Chapter 2 Moving from Pain to Progress: Understanding the “Ouch” and “Oops” Moments"
+        },
+        {
+          "startTime": 477.673,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Moving from Pain to Progress: Understanding the “Ouch” and “Oops” Moments and Chapter 3 Building a Mindset That Welcomes Growth"
+        },
+        {
+          "startTime": 676.031583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building a Mindset That Welcomes Growth and Chapter 4 Self-Compassion and Honest Reflection After Mess-Ups"
+        },
+        {
+          "startTime": 872.5413329999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Self-Compassion and Honest Reflection After Mess-Ups and Chapter 5 Creating Supportive Spaces for Learning from Mistakes"
+        },
+        {
+          "startTime": 1057.700875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Creating Supportive Spaces for Learning from Mistakes and Chapter 6 Turning Setbacks into Stepping Stones"
+        },
+        {
+          "startTime": 1219.267875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Turning Setbacks into Stepping Stones and Chapter 7 The Role of Feedback: Giving and Receiving with Grace"
+        },
+        {
+          "startTime": 1378.412125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Feedback: Giving and Receiving with Grace and Chapter 8 Mistakes and Relationships: Repairing, Reconnecting, and Growing Together"
+        },
+        {
+          "startTime": 1517.256333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Mistakes and Relationships: Repairing, Reconnecting, and Growing Together and Chapter 9 Embracing Uncertainty: Mistakes as Part of the Creative Process"
+        },
+        {
+          "startTime": 1661.9570410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Uncertainty: Mistakes as Part of the Creative Process and Chapter 10 Lasting Change: Making Mistake-Friendly Habits Stick"
+        },
+        {
+          "startTime": 1803.7012080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Lasting Change: Making Mistake-Friendly Habits Stick and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1961",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T04:37:56.809Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

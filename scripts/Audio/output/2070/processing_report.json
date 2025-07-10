@@ -1,0 +1,456 @@
+{
+  "bookId": "2070",
+  "timestamp": "2025-07-09T16:08:35.546Z",
+  "success": false,
+  "processingTime": -1752076864827,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4399,
+    "totalAudioFiles": 12,
+    "totalDuration": 1959.1240410000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1959.1240410000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2070/optimized_text/2070.md",
+    "fileSize": 658,
+    "wordCount": 88,
+    "format": "markdown",
+    "filename": "2070.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2070/metadata/2070_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1959.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2070/metadata/2070_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2070/metadata/2070_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2070/2070_complete.wav",
+    "duration": 1959.124042,
+    "fileSize": 94038032,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2070/introduction.wav",
+          "duration": 76.362625,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 76.362625,
+          "startTime": 0,
+          "endTime": 76.362625
+        },
+        {
+          "path": "Audio/output/2070/chapter_01.wav",
+          "duration": 229.2055,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Power of Small Actions in Everyday Life",
+          "actualDuration": 229.2055,
+          "startTime": 77.862625,
+          "endTime": 307.068125
+        },
+        {
+          "path": "Audio/output/2070/chapter_02.wav",
+          "duration": 210.695458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Choosing to Make a Difference, No Matter the Circumstances",
+          "actualDuration": 210.695458,
+          "startTime": 308.568125,
+          "endTime": 519.263583
+        },
+        {
+          "path": "Audio/output/2070/chapter_03.wav",
+          "duration": 245.345083,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building Relationships Through Service and Genuine Care",
+          "actualDuration": 245.345083,
+          "startTime": 520.763583,
+          "endTime": 766.1086660000001
+        },
+        {
+          "path": "Audio/output/2070/chapter_04.wav",
+          "duration": 212.245667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Bringing Creativity and Initiative to Everyday Work",
+          "actualDuration": 212.245667,
+          "startTime": 767.6086660000001,
+          "endTime": 979.8543330000001
+        },
+        {
+          "path": "Audio/output/2070/chapter_05.wav",
+          "duration": 179.320917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Meaning and Motivation from Within",
+          "actualDuration": 179.320917,
+          "startTime": 981.3543330000001,
+          "endTime": 1160.6752500000002
+        },
+        {
+          "path": "Audio/output/2070/chapter_06.wav",
+          "duration": 143.078083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Becoming a “Fred” in Any Role",
+          "actualDuration": 143.078083,
+          "startTime": 1162.1752500000002,
+          "endTime": 1305.253333
+        },
+        {
+          "path": "Audio/output/2070/chapter_07.wav",
+          "duration": 139.484167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Ripple Effect of Extraordinary Service",
+          "actualDuration": 139.484167,
+          "startTime": 1306.753333,
+          "endTime": 1446.2375000000002
+        },
+        {
+          "path": "Audio/output/2070/chapter_08.wav",
+          "duration": 137.144208,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Obstacles and Staying Consistent",
+          "actualDuration": 137.144208,
+          "startTime": 1447.7375000000002,
+          "endTime": 1584.8817080000001
+        },
+        {
+          "path": "Audio/output/2070/chapter_09.wav",
+          "duration": 141.357958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practical Ways to “Fred” Your Life",
+          "actualDuration": 141.357958,
+          "startTime": 1586.3817080000001,
+          "endTime": 1727.7396660000002
+        },
+        {
+          "path": "Audio/output/2070/chapter_10.wav",
+          "duration": 141.864667,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Inspiring Others to Become “Freds”",
+          "actualDuration": 141.864667,
+          "startTime": 1729.2396660000002,
+          "endTime": 1871.1043330000002
+        },
+        {
+          "path": "Audio/output/2070/conclusion.wav",
+          "duration": 103.019708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 103.019708,
+          "startTime": 1872.6043330000002,
+          "endTime": 1975.6240410000003
+        }
+      ],
+      "totalDuration": 1975.6240410000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 76.36,
+          "actualStart": 0,
+          "actualEnd": 76.362625,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Power of Small Actions in Everyday Life",
+          "expectedStart": 76.36,
+          "expectedEnd": 305.57,
+          "actualStart": 77.862625,
+          "actualEnd": 307.068125,
+          "timeDifference": 1.5026249999999948
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Choosing to Make a Difference, No Matter the Circumstances",
+          "expectedStart": 305.57,
+          "expectedEnd": 516.27,
+          "actualStart": 308.568125,
+          "actualEnd": 519.263583,
+          "timeDifference": 2.998125000000016
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building Relationships Through Service and Genuine Care",
+          "expectedStart": 516.27,
+          "expectedEnd": 761.62,
+          "actualStart": 520.763583,
+          "actualEnd": 766.1086660000001,
+          "timeDifference": 4.493583000000058
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Bringing Creativity and Initiative to Everyday Work",
+          "expectedStart": 761.62,
+          "expectedEnd": 973.87,
+          "actualStart": 767.6086660000001,
+          "actualEnd": 979.8543330000001,
+          "timeDifference": 5.98866600000008
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Meaning and Motivation from Within",
+          "expectedStart": 973.87,
+          "expectedEnd": 1153.19,
+          "actualStart": 981.3543330000001,
+          "actualEnd": 1160.6752500000002,
+          "timeDifference": 7.484333000000106
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Becoming a “Fred” in Any Role",
+          "expectedStart": 1153.19,
+          "expectedEnd": 1296.27,
+          "actualStart": 1162.1752500000002,
+          "actualEnd": 1305.253333,
+          "timeDifference": 8.985250000000178
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Ripple Effect of Extraordinary Service",
+          "expectedStart": 1296.27,
+          "expectedEnd": 1435.75,
+          "actualStart": 1306.753333,
+          "actualEnd": 1446.2375000000002,
+          "timeDifference": 10.48333300000013
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Obstacles and Staying Consistent",
+          "expectedStart": 1435.75,
+          "expectedEnd": 1572.89,
+          "actualStart": 1447.7375000000002,
+          "actualEnd": 1584.8817080000001,
+          "timeDifference": 11.987500000000182
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practical Ways to “Fred” Your Life",
+          "expectedStart": 1572.89,
+          "expectedEnd": 1714.25,
+          "actualStart": 1586.3817080000001,
+          "actualEnd": 1727.7396660000002,
+          "timeDifference": 13.491708000000017
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Inspiring Others to Become “Freds”",
+          "expectedStart": 1714.25,
+          "expectedEnd": 1856.11,
+          "actualStart": 1729.2396660000002,
+          "actualEnd": 1871.1043330000002,
+          "timeDifference": 14.98966600000017
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1856.11,
+          "expectedEnd": 1959.13,
+          "actualStart": 1872.6043330000002,
+          "actualEnd": 1975.6240410000003,
+          "timeDifference": 16.494333000000324
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 76.362625,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Power of Small Actions in Everyday Life"
+        },
+        {
+          "startTime": 307.068125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Power of Small Actions in Everyday Life and Chapter 2 Choosing to Make a Difference, No Matter the Circumstances"
+        },
+        {
+          "startTime": 519.263583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Choosing to Make a Difference, No Matter the Circumstances and Chapter 3 Building Relationships Through Service and Genuine Care"
+        },
+        {
+          "startTime": 766.1086660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building Relationships Through Service and Genuine Care and Chapter 4 Bringing Creativity and Initiative to Everyday Work"
+        },
+        {
+          "startTime": 979.8543330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Bringing Creativity and Initiative to Everyday Work and Chapter 5 Finding Meaning and Motivation from Within"
+        },
+        {
+          "startTime": 1160.6752500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Meaning and Motivation from Within and Chapter 6 Becoming a “Fred” in Any Role"
+        },
+        {
+          "startTime": 1305.253333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Becoming a “Fred” in Any Role and Chapter 7 The Ripple Effect of Extraordinary Service"
+        },
+        {
+          "startTime": 1446.2375000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Ripple Effect of Extraordinary Service and Chapter 8 Overcoming Obstacles and Staying Consistent"
+        },
+        {
+          "startTime": 1584.8817080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Obstacles and Staying Consistent and Chapter 9 Practical Ways to “Fred” Your Life"
+        },
+        {
+          "startTime": 1727.7396660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practical Ways to “Fred” Your Life and Chapter 10 Inspiring Others to Become “Freds”"
+        },
+        {
+          "startTime": 1871.1043330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Inspiring Others to Become “Freds” and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2070",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T16:01:06.024Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

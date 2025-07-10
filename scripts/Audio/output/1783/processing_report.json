@@ -1,0 +1,576 @@
+{
+  "bookId": "1783",
+  "timestamp": "2025-07-08T15:13:48.348Z",
+  "success": false,
+  "processingTime": -1751986564606,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5255,
+    "totalAudioFiles": 17,
+    "totalDuration": 2610.185168
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2610.185168
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1783/optimized_text/1783.md",
+    "fileSize": 822,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1783.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1783/metadata/1783_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2610.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1783/metadata/1783_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1783/metadata/1783_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1783/1783_complete.wav",
+    "duration": 2610.185167,
+    "fileSize": 125288966,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1783/introduction.wav",
+          "duration": 81.900458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.900458,
+          "startTime": 0,
+          "endTime": 81.900458
+        },
+        {
+          "path": "Audio/output/1783/chapter_01.wav",
+          "duration": 189.132625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Challenge of Loving Without Limits",
+          "actualDuration": 189.132625,
+          "startTime": 83.400458,
+          "endTime": 272.533083
+        },
+        {
+          "path": "Audio/output/1783/chapter_02.wav",
+          "duration": 194.682292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Embracing Difficult People as Opportunities for Growth",
+          "actualDuration": 194.682292,
+          "startTime": 274.033083,
+          "endTime": 468.715375
+        },
+        {
+          "path": "Audio/output/1783/chapter_03.wav",
+          "duration": 158.273792,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Simple Acts That Make a Lasting Difference",
+          "actualDuration": 158.273792,
+          "startTime": 470.215375,
+          "endTime": 628.489167
+        },
+        {
+          "path": "Audio/output/1783/chapter_04.wav",
+          "duration": 197.599875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Choosing Love as a Daily Practice",
+          "actualDuration": 197.599875,
+          "startTime": 629.989167,
+          "endTime": 827.589042
+        },
+        {
+          "path": "Audio/output/1783/chapter_05.wav",
+          "duration": 193.268833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Faith, Resilience, and the Power to Keep Going",
+          "actualDuration": 193.268833,
+          "startTime": 829.089042,
+          "endTime": 1022.3578749999999
+        },
+        {
+          "path": "Audio/output/1783/chapter_06.wav",
+          "duration": 165.192417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Letting Go of the Need to Be Right",
+          "actualDuration": 165.192417,
+          "startTime": 1023.8578749999999,
+          "endTime": 1189.050292
+        },
+        {
+          "path": "Audio/output/1783/chapter_07.wav",
+          "duration": 159.534375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Loving Without Expectation of Return",
+          "actualDuration": 159.534375,
+          "startTime": 1190.550292,
+          "endTime": 1350.0846669999999
+        },
+        {
+          "path": "Audio/output/1783/chapter_08.wav",
+          "duration": 159.969958,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Courage to Be Vulnerable",
+          "actualDuration": 159.969958,
+          "startTime": 1351.5846669999999,
+          "endTime": 1511.5546249999998
+        },
+        {
+          "path": "Audio/output/1783/chapter_09.wav",
+          "duration": 163.159,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Forgiveness as a Path to Freedom",
+          "actualDuration": 163.159,
+          "startTime": 1513.0546249999998,
+          "endTime": 1676.2136249999999
+        },
+        {
+          "path": "Audio/output/1783/chapter_10.wav",
+          "duration": 141.527792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Life of Radical Hospitality",
+          "actualDuration": 141.527792,
+          "startTime": 1677.7136249999999,
+          "endTime": 1819.241417
+        },
+        {
+          "path": "Audio/output/1783/chapter_11.wav",
+          "duration": 124.685792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Living with Childlike Wonder",
+          "actualDuration": 124.685792,
+          "startTime": 1820.741417,
+          "endTime": 1945.427209
+        },
+        {
+          "path": "Audio/output/1783/chapter_12.wav",
+          "duration": 129.073792,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Becoming Love in Action",
+          "actualDuration": 129.073792,
+          "startTime": 1946.927209,
+          "endTime": 2076.001001
+        },
+        {
+          "path": "Audio/output/1783/chapter_13.wav",
+          "duration": 136.425917,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Embracing the Messiness of Real Life",
+          "actualDuration": 136.425917,
+          "startTime": 2077.501001,
+          "endTime": 2213.926918
+        },
+        {
+          "path": "Audio/output/1783/chapter_14.wav",
+          "duration": 139.116375,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Ripple Effect of Love",
+          "actualDuration": 139.116375,
+          "startTime": 2215.426918,
+          "endTime": 2354.543293
+        },
+        {
+          "path": "Audio/output/1783/chapter_15.wav",
+          "duration": 140.887042,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Ongoing Journey of Becoming Love",
+          "actualDuration": 140.887042,
+          "startTime": 2356.043293,
+          "endTime": 2496.930335
+        },
+        {
+          "path": "Audio/output/1783/conclusion.wav",
+          "duration": 135.754833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.754833,
+          "startTime": 2498.430335,
+          "endTime": 2634.185168
+        }
+      ],
+      "totalDuration": 2634.185168,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.9,
+          "actualStart": 0,
+          "actualEnd": 81.900458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Challenge of Loving Without Limits",
+          "expectedStart": 81.9,
+          "expectedEnd": 271.03,
+          "actualStart": 83.400458,
+          "actualEnd": 272.533083,
+          "timeDifference": 1.5004579999999947
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Embracing Difficult People as Opportunities for Growth",
+          "expectedStart": 271.03,
+          "expectedEnd": 465.71,
+          "actualStart": 274.033083,
+          "actualEnd": 468.715375,
+          "timeDifference": 3.0030830000000037
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Simple Acts That Make a Lasting Difference",
+          "expectedStart": 465.71,
+          "expectedEnd": 623.98,
+          "actualStart": 470.215375,
+          "actualEnd": 628.489167,
+          "timeDifference": 4.505375000000015
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Choosing Love as a Daily Practice",
+          "expectedStart": 623.98,
+          "expectedEnd": 821.58,
+          "actualStart": 629.989167,
+          "actualEnd": 827.589042,
+          "timeDifference": 6.009166999999934
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Faith, Resilience, and the Power to Keep Going",
+          "expectedStart": 821.58,
+          "expectedEnd": 1014.85,
+          "actualStart": 829.089042,
+          "actualEnd": 1022.3578749999999,
+          "timeDifference": 7.5090419999999085
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Letting Go of the Need to Be Right",
+          "expectedStart": 1014.85,
+          "expectedEnd": 1180.04,
+          "actualStart": 1023.8578749999999,
+          "actualEnd": 1189.050292,
+          "timeDifference": 9.007874999999899
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Loving Without Expectation of Return",
+          "expectedStart": 1180.04,
+          "expectedEnd": 1339.57,
+          "actualStart": 1190.550292,
+          "actualEnd": 1350.0846669999999,
+          "timeDifference": 10.510291999999936
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Courage to Be Vulnerable",
+          "expectedStart": 1339.57,
+          "expectedEnd": 1499.54,
+          "actualStart": 1351.5846669999999,
+          "actualEnd": 1511.5546249999998,
+          "timeDifference": 12.014666999999918
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Forgiveness as a Path to Freedom",
+          "expectedStart": 1499.54,
+          "expectedEnd": 1662.7,
+          "actualStart": 1513.0546249999998,
+          "actualEnd": 1676.2136249999999,
+          "timeDifference": 13.514624999999796
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Life of Radical Hospitality",
+          "expectedStart": 1662.7,
+          "expectedEnd": 1804.23,
+          "actualStart": 1677.7136249999999,
+          "actualEnd": 1819.241417,
+          "timeDifference": 15.01362499999982
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Living with Childlike Wonder",
+          "expectedStart": 1804.23,
+          "expectedEnd": 1928.92,
+          "actualStart": 1820.741417,
+          "actualEnd": 1945.427209,
+          "timeDifference": 16.511416999999938
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Becoming Love in Action",
+          "expectedStart": 1928.92,
+          "expectedEnd": 2057.99,
+          "actualStart": 1946.927209,
+          "actualEnd": 2076.001001,
+          "timeDifference": 18.007208999999875
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Embracing the Messiness of Real Life",
+          "expectedStart": 2057.99,
+          "expectedEnd": 2194.42,
+          "actualStart": 2077.501001,
+          "actualEnd": 2213.926918,
+          "timeDifference": 19.511001000000306
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Ripple Effect of Love",
+          "expectedStart": 2194.42,
+          "expectedEnd": 2333.54,
+          "actualStart": 2215.426918,
+          "actualEnd": 2354.543293,
+          "timeDifference": 21.00691800000004
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Ongoing Journey of Becoming Love",
+          "expectedStart": 2333.54,
+          "expectedEnd": 2474.43,
+          "actualStart": 2356.043293,
+          "actualEnd": 2496.930335,
+          "timeDifference": 22.503293000000212
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2474.43,
+          "expectedEnd": 2610.18,
+          "actualStart": 2498.430335,
+          "actualEnd": 2634.185168,
+          "timeDifference": 24.000335000000177
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.900458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Challenge of Loving Without Limits"
+        },
+        {
+          "startTime": 272.533083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Challenge of Loving Without Limits and Chapter 2 Embracing Difficult People as Opportunities for Growth"
+        },
+        {
+          "startTime": 468.715375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Embracing Difficult People as Opportunities for Growth and Chapter 3 Simple Acts That Make a Lasting Difference"
+        },
+        {
+          "startTime": 628.489167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Simple Acts That Make a Lasting Difference and Chapter 4 Choosing Love as a Daily Practice"
+        },
+        {
+          "startTime": 827.589042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Choosing Love as a Daily Practice and Chapter 5 Faith, Resilience, and the Power to Keep Going"
+        },
+        {
+          "startTime": 1022.3578749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Faith, Resilience, and the Power to Keep Going and Chapter 6 Letting Go of the Need to Be Right"
+        },
+        {
+          "startTime": 1189.050292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Letting Go of the Need to Be Right and Chapter 7 Loving Without Expectation of Return"
+        },
+        {
+          "startTime": 1350.0846669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Loving Without Expectation of Return and Chapter 8 The Courage to Be Vulnerable"
+        },
+        {
+          "startTime": 1511.5546249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Courage to Be Vulnerable and Chapter 9 Forgiveness as a Path to Freedom"
+        },
+        {
+          "startTime": 1676.2136249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Forgiveness as a Path to Freedom and Chapter 10 Creating a Life of Radical Hospitality"
+        },
+        {
+          "startTime": 1819.241417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Life of Radical Hospitality and Chapter 11 Living with Childlike Wonder"
+        },
+        {
+          "startTime": 1945.427209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Living with Childlike Wonder and Chapter 12 Becoming Love in Action"
+        },
+        {
+          "startTime": 2076.001001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Becoming Love in Action and Chapter 13 Embracing the Messiness of Real Life"
+        },
+        {
+          "startTime": 2213.926918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Embracing the Messiness of Real Life and Chapter 14 The Ripple Effect of Love"
+        },
+        {
+          "startTime": 2354.543293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Ripple Effect of Love and Chapter 15 The Ongoing Journey of Becoming Love"
+        },
+        {
+          "startTime": 2496.930335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Ongoing Journey of Becoming Love and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1783",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T14:56:04.626Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

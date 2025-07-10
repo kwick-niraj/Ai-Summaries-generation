@@ -1,0 +1,456 @@
+{
+  "bookId": "2036",
+  "timestamp": "2025-07-09T12:43:16.325Z",
+  "success": false,
+  "processingTime": -1752064257415,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5411,
+    "totalAudioFiles": 12,
+    "totalDuration": 2424.868874
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2424.868874
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2036/optimized_text/2036.md",
+    "fileSize": 790,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2036.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2036/metadata/2036_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2424.88,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2036/metadata/2036_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2036/metadata/2036_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2036/2036_complete.wav",
+    "duration": 2424.868875,
+    "fileSize": 116393784,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2036/introduction.wav",
+          "duration": 103.464667,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.464667,
+          "startTime": 0,
+          "endTime": 103.464667
+        },
+        {
+          "path": "Audio/output/2036/chapter_01.wav",
+          "duration": 249.263375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Idea of Life Before Birth and Why It Matters",
+          "actualDuration": 249.263375,
+          "startTime": 104.964667,
+          "endTime": 354.228042
+        },
+        {
+          "path": "Audio/output/2036/chapter_02.wav",
+          "duration": 289.317583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Souls Plan Their Lives and the Role of Free Will",
+          "actualDuration": 289.317583,
+          "startTime": 355.728042,
+          "endTime": 645.045625
+        },
+        {
+          "path": "Audio/output/2036/chapter_03.wav",
+          "duration": 257.977833,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Spiritual Purpose of Suffering and Challenge",
+          "actualDuration": 257.977833,
+          "startTime": 646.545625,
+          "endTime": 904.5234579999999
+        },
+        {
+          "path": "Audio/output/2036/chapter_04.wav",
+          "duration": 227.957458,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Healing, Empowerment, and the Path to Self-Understanding",
+          "actualDuration": 227.957458,
+          "startTime": 906.0234579999999,
+          "endTime": 1133.980916
+        },
+        {
+          "path": "Audio/output/2036/chapter_05.wav",
+          "duration": 188.928958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Intuitive Resources and the Journey of Discovery",
+          "actualDuration": 188.928958,
+          "startTime": 1135.480916,
+          "endTime": 1324.409874
+        },
+        {
+          "path": "Audio/output/2036/chapter_06.wav",
+          "duration": 231.53525,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Soul’s Plan and Relationships—Love, Family, and the Roles We Play",
+          "actualDuration": 231.53525,
+          "startTime": 1325.909874,
+          "endTime": 1557.4451239999999
+        },
+        {
+          "path": "Audio/output/2036/chapter_07.wav",
+          "duration": 204.955708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Mystery of Loss, Death, and the Continuity of the Soul",
+          "actualDuration": 204.955708,
+          "startTime": 1558.9451239999999,
+          "endTime": 1763.9008319999998
+        },
+        {
+          "path": "Audio/output/2036/chapter_08.wav",
+          "duration": 211.49125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Healing Across Lifetimes—Karma, Reincarnation, and the Soul’s Evolution",
+          "actualDuration": 211.49125,
+          "startTime": 1765.4008319999998,
+          "endTime": 1976.8920819999998
+        },
+        {
+          "path": "Audio/output/2036/chapter_09.wav",
+          "duration": 174.043417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Living the Soul’s Plan—Practical Wisdom for Everyday Life",
+          "actualDuration": 174.043417,
+          "startTime": 1978.3920819999998,
+          "endTime": 2152.4354989999997
+        },
+        {
+          "path": "Audio/output/2036/chapter_10.wav",
+          "duration": 156.087208,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Embracing Uncertainty and Trusting the Process",
+          "actualDuration": 156.087208,
+          "startTime": 2153.9354989999997,
+          "endTime": 2310.0227069999996
+        },
+        {
+          "path": "Audio/output/2036/conclusion.wav",
+          "duration": 129.846167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.846167,
+          "startTime": 2311.5227069999996,
+          "endTime": 2441.368874
+        }
+      ],
+      "totalDuration": 2441.368874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.46,
+          "actualStart": 0,
+          "actualEnd": 103.464667,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Idea of Life Before Birth and Why It Matters",
+          "expectedStart": 103.46,
+          "expectedEnd": 352.72,
+          "actualStart": 104.964667,
+          "actualEnd": 354.228042,
+          "timeDifference": 1.504667000000012
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Souls Plan Their Lives and the Role of Free Will",
+          "expectedStart": 352.72,
+          "expectedEnd": 642.04,
+          "actualStart": 355.728042,
+          "actualEnd": 645.045625,
+          "timeDifference": 3.008041999999989
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Spiritual Purpose of Suffering and Challenge",
+          "expectedStart": 642.04,
+          "expectedEnd": 900.02,
+          "actualStart": 646.545625,
+          "actualEnd": 904.5234579999999,
+          "timeDifference": 4.505625000000009
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Healing, Empowerment, and the Path to Self-Understanding",
+          "expectedStart": 900.02,
+          "expectedEnd": 1127.98,
+          "actualStart": 906.0234579999999,
+          "actualEnd": 1133.980916,
+          "timeDifference": 6.00345799999991
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Intuitive Resources and the Journey of Discovery",
+          "expectedStart": 1127.98,
+          "expectedEnd": 1316.91,
+          "actualStart": 1135.480916,
+          "actualEnd": 1324.409874,
+          "timeDifference": 7.500915999999961
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Soul’s Plan and Relationships—Love, Family, and the Roles We Play",
+          "expectedStart": 1316.91,
+          "expectedEnd": 1548.45,
+          "actualStart": 1325.909874,
+          "actualEnd": 1557.4451239999999,
+          "timeDifference": 8.999873999999863
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Mystery of Loss, Death, and the Continuity of the Soul",
+          "expectedStart": 1548.45,
+          "expectedEnd": 1753.41,
+          "actualStart": 1558.9451239999999,
+          "actualEnd": 1763.9008319999998,
+          "timeDifference": 10.495123999999805
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Healing Across Lifetimes—Karma, Reincarnation, and the Soul’s Evolution",
+          "expectedStart": 1753.41,
+          "expectedEnd": 1964.9,
+          "actualStart": 1765.4008319999998,
+          "actualEnd": 1976.8920819999998,
+          "timeDifference": 11.990831999999727
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Living the Soul’s Plan—Practical Wisdom for Everyday Life",
+          "expectedStart": 1964.9,
+          "expectedEnd": 2138.94,
+          "actualStart": 1978.3920819999998,
+          "actualEnd": 2152.4354989999997,
+          "timeDifference": 13.492081999999755
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Embracing Uncertainty and Trusting the Process",
+          "expectedStart": 2138.94,
+          "expectedEnd": 2295.03,
+          "actualStart": 2153.9354989999997,
+          "actualEnd": 2310.0227069999996,
+          "timeDifference": 14.995498999999654
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2295.03,
+          "expectedEnd": 2424.88,
+          "actualStart": 2311.5227069999996,
+          "actualEnd": 2441.368874,
+          "timeDifference": 16.492706999999427
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.464667,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Idea of Life Before Birth and Why It Matters"
+        },
+        {
+          "startTime": 354.228042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Idea of Life Before Birth and Why It Matters and Chapter 2 How Souls Plan Their Lives and the Role of Free Will"
+        },
+        {
+          "startTime": 645.045625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Souls Plan Their Lives and the Role of Free Will and Chapter 3 The Spiritual Purpose of Suffering and Challenge"
+        },
+        {
+          "startTime": 904.5234579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Spiritual Purpose of Suffering and Challenge and Chapter 4 Healing, Empowerment, and the Path to Self-Understanding"
+        },
+        {
+          "startTime": 1133.980916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Healing, Empowerment, and the Path to Self-Understanding and Chapter 5 Intuitive Resources and the Journey of Discovery"
+        },
+        {
+          "startTime": 1324.409874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Intuitive Resources and the Journey of Discovery and Chapter 6 The Soul’s Plan and Relationships—Love, Family, and the Roles We Play"
+        },
+        {
+          "startTime": 1557.4451239999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Soul’s Plan and Relationships—Love, Family, and the Roles We Play and Chapter 7 The Mystery of Loss, Death, and the Continuity of the Soul"
+        },
+        {
+          "startTime": 1763.9008319999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Mystery of Loss, Death, and the Continuity of the Soul and Chapter 8 Healing Across Lifetimes—Karma, Reincarnation, and the Soul’s Evolution"
+        },
+        {
+          "startTime": 1976.8920819999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Healing Across Lifetimes—Karma, Reincarnation, and the Soul’s Evolution and Chapter 9 Living the Soul’s Plan—Practical Wisdom for Everyday Life"
+        },
+        {
+          "startTime": 2152.4354989999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Living the Soul’s Plan—Practical Wisdom for Everyday Life and Chapter 10 The Ongoing Journey—Embracing Uncertainty and Trusting the Process"
+        },
+        {
+          "startTime": 2310.0227069999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Embracing Uncertainty and Trusting the Process and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2036",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T12:30:58.931Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

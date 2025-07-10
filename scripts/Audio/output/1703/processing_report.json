@@ -1,0 +1,433 @@
+{
+  "bookId": "1703",
+  "timestamp": "2025-07-08T08:08:52.223Z",
+  "success": false,
+  "processingTime": -1751961580316,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3450,
+    "totalAudioFiles": 12,
+    "totalDuration": 1575.175042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 1575.175042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1703/optimized_text/1703.md",
+    "fileSize": 668,
+    "wordCount": 84,
+    "format": "markdown",
+    "filename": "1703.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1703/metadata/1703_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1575.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1703/metadata/1703_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1703/metadata/1703_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1703/1703_complete.wav",
+    "duration": 1575.175042,
+    "fileSize": 75608480,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1703/chapter_01.wav",
+          "duration": 168.038292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation of Self-Trust and Personal Safety",
+          "actualDuration": 168.038292,
+          "startTime": 0,
+          "endTime": 168.038292
+        },
+        {
+          "path": "Audio/output/1703/chapter_02.wav",
+          "duration": 147.665625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Prioritizing Self-Care and Rejecting Guilt",
+          "actualDuration": 147.665625,
+          "startTime": 169.538292,
+          "endTime": 317.20391700000005
+        },
+        {
+          "path": "Audio/output/1703/chapter_03.wav",
+          "duration": 164.077,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Processing Trauma and Embracing Vulnerability",
+          "actualDuration": 164.077,
+          "startTime": 318.70391700000005,
+          "endTime": 482.78091700000004
+        },
+        {
+          "path": "Audio/output/1703/chapter_04.wav",
+          "duration": 148.522958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Female Friendship and Community",
+          "actualDuration": 148.522958,
+          "startTime": 484.28091700000004,
+          "endTime": 632.8038750000001
+        },
+        {
+          "path": "Audio/output/1703/chapter_05.wav",
+          "duration": 166.939583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Humor as a Tool for Resilience and Connection",
+          "actualDuration": 166.939583,
+          "startTime": 634.3038750000001,
+          "endTime": 801.243458
+        },
+        {
+          "path": "Audio/output/1703/chapter_06.wav",
+          "duration": 138.13725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Setting Boundaries with Courage and Clarity",
+          "actualDuration": 138.13725,
+          "startTime": 802.743458,
+          "endTime": 940.880708
+        },
+        {
+          "path": "Audio/output/1703/chapter_07.wav",
+          "duration": 143.028333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Fear and Cultivating Inner Strength",
+          "actualDuration": 143.028333,
+          "startTime": 942.380708,
+          "endTime": 1085.4090410000001
+        },
+        {
+          "path": "Audio/output/1703/chapter_08.wav",
+          "duration": 146.935542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Rewriting Old Narratives and Embracing Authenticity",
+          "actualDuration": 146.935542,
+          "startTime": 1086.9090410000001,
+          "endTime": 1233.844583
+        },
+        {
+          "path": "Audio/output/1703/chapter_09.wav",
+          "duration": 113.654375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Practicing Compassion—For Self and Others",
+          "actualDuration": 113.654375,
+          "startTime": 1235.344583,
+          "endTime": 1348.9989580000001
+        },
+        {
+          "path": "Audio/output/1703/chapter_10.wav",
+          "duration": 125.471792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Out Loud—Sustaining Growth and Empowerment",
+          "actualDuration": 125.471792,
+          "startTime": 1350.4989580000001,
+          "endTime": 1475.9707500000002
+        },
+        {
+          "path": "Audio/output/1703/conclusion.wav",
+          "duration": 112.704292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 112.704292,
+          "startTime": 1477.4707500000002,
+          "endTime": 1590.175042
+        }
+      ],
+      "totalDuration": 1590.175042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation of Self-Trust and Personal Safety",
+          "expectedStart": 0,
+          "expectedEnd": 168.04,
+          "actualStart": 0,
+          "actualEnd": 168.038292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Prioritizing Self-Care and Rejecting Guilt",
+          "expectedStart": 168.04,
+          "expectedEnd": 315.71,
+          "actualStart": 169.538292,
+          "actualEnd": 317.20391700000005,
+          "timeDifference": 1.4982920000000206
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Processing Trauma and Embracing Vulnerability",
+          "expectedStart": 315.71,
+          "expectedEnd": 479.79,
+          "actualStart": 318.70391700000005,
+          "actualEnd": 482.78091700000004,
+          "timeDifference": 2.993917000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Female Friendship and Community",
+          "expectedStart": 479.79,
+          "expectedEnd": 628.31,
+          "actualStart": 484.28091700000004,
+          "actualEnd": 632.8038750000001,
+          "timeDifference": 4.4909170000000245
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Humor as a Tool for Resilience and Connection",
+          "expectedStart": 628.31,
+          "expectedEnd": 795.25,
+          "actualStart": 634.3038750000001,
+          "actualEnd": 801.243458,
+          "timeDifference": 5.993875000000116
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Setting Boundaries with Courage and Clarity",
+          "expectedStart": 795.25,
+          "expectedEnd": 933.39,
+          "actualStart": 802.743458,
+          "actualEnd": 940.880708,
+          "timeDifference": 7.493458000000032
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Fear and Cultivating Inner Strength",
+          "expectedStart": 933.39,
+          "expectedEnd": 1076.42,
+          "actualStart": 942.380708,
+          "actualEnd": 1085.4090410000001,
+          "timeDifference": 8.99070800000004
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Rewriting Old Narratives and Embracing Authenticity",
+          "expectedStart": 1076.42,
+          "expectedEnd": 1223.36,
+          "actualStart": 1086.9090410000001,
+          "actualEnd": 1233.844583,
+          "timeDifference": 10.489041000000043
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Practicing Compassion—For Self and Others",
+          "expectedStart": 1223.36,
+          "expectedEnd": 1337.01,
+          "actualStart": 1235.344583,
+          "actualEnd": 1348.9989580000001,
+          "timeDifference": 11.984583000000157
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Out Loud—Sustaining Growth and Empowerment",
+          "expectedStart": 1337.01,
+          "expectedEnd": 1462.48,
+          "actualStart": 1350.4989580000001,
+          "actualEnd": 1475.9707500000002,
+          "timeDifference": 13.488958000000139
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1462.48,
+          "expectedEnd": 1575.18,
+          "actualStart": 1477.4707500000002,
+          "actualEnd": 1590.175042,
+          "timeDifference": 14.990750000000162
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 168.038292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation of Self-Trust and Personal Safety and Chapter 2 Prioritizing Self-Care and Rejecting Guilt"
+        },
+        {
+          "startTime": 317.20391700000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Prioritizing Self-Care and Rejecting Guilt and Chapter 3 Processing Trauma and Embracing Vulnerability"
+        },
+        {
+          "startTime": 482.78091700000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Processing Trauma and Embracing Vulnerability and Chapter 4 The Power of Female Friendship and Community"
+        },
+        {
+          "startTime": 632.8038750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Female Friendship and Community and Chapter 5 Humor as a Tool for Resilience and Connection"
+        },
+        {
+          "startTime": 801.243458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Humor as a Tool for Resilience and Connection and Chapter 6 Setting Boundaries with Courage and Clarity"
+        },
+        {
+          "startTime": 940.880708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Setting Boundaries with Courage and Clarity and Chapter 7 Navigating Fear and Cultivating Inner Strength"
+        },
+        {
+          "startTime": 1085.4090410000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Fear and Cultivating Inner Strength and Chapter 8 Rewriting Old Narratives and Embracing Authenticity"
+        },
+        {
+          "startTime": 1233.844583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Rewriting Old Narratives and Embracing Authenticity and Chapter 9 Practicing Compassion—For Self and Others"
+        },
+        {
+          "startTime": 1348.9989580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Practicing Compassion—For Self and Others and Chapter 10 Living Out Loud—Sustaining Growth and Empowerment"
+        },
+        {
+          "startTime": 1475.9707500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Out Loud—Sustaining Growth and Empowerment and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1703",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T07:59:41.596Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "bookId": "2325",
+  "timestamp": "2025-07-10T12:21:52.708Z",
+  "success": false,
+  "processingTime": -1752149941632,
+  "stats": {
+    "totalSections": 10,
+    "totalWords": 3099,
+    "totalAudioFiles": 10,
+    "totalDuration": 1346.933167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 8,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 10,
+    "successful": 10,
+    "failed": 0,
+    "duration": 1346.933167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2325/optimized_text/2325.md",
+    "fileSize": 538,
+    "wordCount": 72,
+    "format": "markdown",
+    "filename": "2325.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2325/metadata/2325_chapters.json",
+    "totalChapters": 10,
+    "totalDuration": 1346.93,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2325/metadata/2325_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2325/metadata/2325_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 10,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 8
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2325/2325_complete.wav",
+    "duration": 1346.933167,
+    "fileSize": 64652870,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2325/introduction.wav",
+          "duration": 73.387208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 73.387208,
+          "startTime": 0,
+          "endTime": 73.387208
+        },
+        {
+          "path": "Audio/output/2325/chapter_01.wav",
+          "duration": 146.212542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Patterns That Shape Everyday Choices",
+          "actualDuration": 146.212542,
+          "startTime": 74.887208,
+          "endTime": 221.09975000000003
+        },
+        {
+          "path": "Audio/output/2325/chapter_02.wav",
+          "duration": 164.662125,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Forces Behind Motivation and Willpower",
+          "actualDuration": 164.662125,
+          "startTime": 222.59975000000003,
+          "endTime": 387.26187500000003
+        },
+        {
+          "path": "Audio/output/2325/chapter_03.wav",
+          "duration": 152.134458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Social Connections Influence Growth and Change",
+          "actualDuration": 152.134458,
+          "startTime": 388.76187500000003,
+          "endTime": 540.896333
+        },
+        {
+          "path": "Audio/output/2325/chapter_04.wav",
+          "duration": 151.117417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Navigating Setbacks and Building Resilience",
+          "actualDuration": 151.117417,
+          "startTime": 542.396333,
+          "endTime": 693.5137500000001
+        },
+        {
+          "path": "Audio/output/2325/chapter_05.wav",
+          "duration": 140.567375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Small Wins and Everyday Progress",
+          "actualDuration": 140.567375,
+          "startTime": 695.0137500000001,
+          "endTime": 835.581125
+        },
+        {
+          "path": "Audio/output/2325/chapter_06.wav",
+          "duration": 149.649917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing Change and Letting Go of Perfection",
+          "actualDuration": 149.649917,
+          "startTime": 837.081125,
+          "endTime": 986.731042
+        },
+        {
+          "path": "Audio/output/2325/chapter_07.wav",
+          "duration": 126.142833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Finding Purpose and Meaning in the Everyday",
+          "actualDuration": 126.142833,
+          "startTime": 988.231042,
+          "endTime": 1114.373875
+        },
+        {
+          "path": "Audio/output/2325/chapter_08.wav",
+          "duration": 125.501542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Sustaining Change and Living with Intention",
+          "actualDuration": 125.501542,
+          "startTime": 1115.873875,
+          "endTime": 1241.375417
+        },
+        {
+          "path": "Audio/output/2325/conclusion.wav",
+          "duration": 117.55775,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.55775,
+          "startTime": 1242.875417,
+          "endTime": 1360.433167
+        }
+      ],
+      "totalDuration": 1360.433167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 73.39,
+          "actualStart": 0,
+          "actualEnd": 73.387208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Patterns That Shape Everyday Choices",
+          "expectedStart": 73.39,
+          "expectedEnd": 219.6,
+          "actualStart": 74.887208,
+          "actualEnd": 221.09975000000003,
+          "timeDifference": 1.4972080000000005
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Forces Behind Motivation and Willpower",
+          "expectedStart": 219.6,
+          "expectedEnd": 384.26,
+          "actualStart": 222.59975000000003,
+          "actualEnd": 387.26187500000003,
+          "timeDifference": 2.9997500000000343
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Social Connections Influence Growth and Change",
+          "expectedStart": 384.26,
+          "expectedEnd": 536.39,
+          "actualStart": 388.76187500000003,
+          "actualEnd": 540.896333,
+          "timeDifference": 4.501875000000041
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Navigating Setbacks and Building Resilience",
+          "expectedStart": 536.39,
+          "expectedEnd": 687.51,
+          "actualStart": 542.396333,
+          "actualEnd": 693.5137500000001,
+          "timeDifference": 6.006333000000041
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Small Wins and Everyday Progress",
+          "expectedStart": 687.51,
+          "expectedEnd": 828.08,
+          "actualStart": 695.0137500000001,
+          "actualEnd": 835.581125,
+          "timeDifference": 7.503750000000082
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing Change and Letting Go of Perfection",
+          "expectedStart": 828.08,
+          "expectedEnd": 977.73,
+          "actualStart": 837.081125,
+          "actualEnd": 986.731042,
+          "timeDifference": 9.001125000000002
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Finding Purpose and Meaning in the Everyday",
+          "expectedStart": 977.73,
+          "expectedEnd": 1103.87,
+          "actualStart": 988.231042,
+          "actualEnd": 1114.373875,
+          "timeDifference": 10.501041999999984
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Sustaining Change and Living with Intention",
+          "expectedStart": 1103.87,
+          "expectedEnd": 1229.37,
+          "actualStart": 1115.873875,
+          "actualEnd": 1241.375417,
+          "timeDifference": 12.003875000000107
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1229.37,
+          "expectedEnd": 1346.93,
+          "actualStart": 1242.875417,
+          "actualEnd": 1360.433167,
+          "timeDifference": 13.50541700000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 73.387208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Patterns That Shape Everyday Choices"
+        },
+        {
+          "startTime": 221.09975000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Patterns That Shape Everyday Choices and Chapter 2 The Hidden Forces Behind Motivation and Willpower"
+        },
+        {
+          "startTime": 387.26187500000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Forces Behind Motivation and Willpower and Chapter 3 How Social Connections Influence Growth and Change"
+        },
+        {
+          "startTime": 540.896333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Social Connections Influence Growth and Change and Chapter 4 Navigating Setbacks and Building Resilience"
+        },
+        {
+          "startTime": 693.5137500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Navigating Setbacks and Building Resilience and Chapter 5 The Power of Small Wins and Everyday Progress"
+        },
+        {
+          "startTime": 835.581125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Small Wins and Everyday Progress and Chapter 6 Embracing Change and Letting Go of Perfection"
+        },
+        {
+          "startTime": 986.731042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing Change and Letting Go of Perfection and Chapter 7 Finding Purpose and Meaning in the Everyday"
+        },
+        {
+          "startTime": 1114.373875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Finding Purpose and Meaning in the Everyday and Chapter 8 Sustaining Change and Living with Intention"
+        },
+        {
+          "startTime": 1241.375417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Sustaining Change and Living with Intention and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2325",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:19:02.081Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

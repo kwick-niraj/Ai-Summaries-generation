@@ -1,0 +1,456 @@
+{
+  "bookId": "1678",
+  "timestamp": "2025-07-08T06:06:49.407Z",
+  "success": false,
+  "processingTime": -1751954178013,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5114,
+    "totalAudioFiles": 12,
+    "totalDuration": 2332.883167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2332.883167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1678/optimized_text/1678.md",
+    "fileSize": 632,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1678.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1678/metadata/1678_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2332.89,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1678/metadata/1678_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1678/metadata/1678_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1678/1678_complete.wav",
+    "duration": 2332.883167,
+    "fileSize": 111978470,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1678/introduction.wav",
+          "duration": 93.067125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.067125,
+          "startTime": 0,
+          "endTime": 93.067125
+        },
+        {
+          "path": "Audio/output/1678/chapter_01.wav",
+          "duration": 232.541458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Ambition, Power, and the Cost of Success",
+          "actualDuration": 232.541458,
+          "startTime": 94.567125,
+          "endTime": 327.108583
+        },
+        {
+          "path": "Audio/output/1678/chapter_02.wav",
+          "duration": 206.893167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Unraveling—Crisis, Scandal, and Public Shame",
+          "actualDuration": 206.893167,
+          "startTime": 328.608583,
+          "endTime": 535.50175
+        },
+        {
+          "path": "Audio/output/1678/chapter_03.wav",
+          "duration": 255.958208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Searching for Meaning in the Aftermath",
+          "actualDuration": 255.958208,
+          "startTime": 537.00175,
+          "endTime": 792.959958
+        },
+        {
+          "path": "Audio/output/1678/chapter_04.wav",
+          "duration": 255.6765,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Embracing Faith and the Challenge of Surrender",
+          "actualDuration": 255.6765,
+          "startTime": 794.459958,
+          "endTime": 1050.136458
+        },
+        {
+          "path": "Audio/output/1678/chapter_05.wav",
+          "duration": 210.1735,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Confession, Repentance, and the Path to Renewal",
+          "actualDuration": 210.1735,
+          "startTime": 1051.636458,
+          "endTime": 1261.8099579999998
+        },
+        {
+          "path": "Audio/output/1678/chapter_06.wav",
+          "duration": 210.095417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Rebuilding from the Rubble—Restoring Relationships and Trust",
+          "actualDuration": 210.095417,
+          "startTime": 1263.3099579999998,
+          "endTime": 1473.4053749999998
+        },
+        {
+          "path": "Audio/output/1678/chapter_07.wav",
+          "duration": 189.769625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Service as a New Foundation",
+          "actualDuration": 189.769625,
+          "startTime": 1474.9053749999998,
+          "endTime": 1664.6749999999997
+        },
+        {
+          "path": "Audio/output/1678/chapter_08.wav",
+          "duration": 203.702917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Living with Integrity—The Ongoing Struggle",
+          "actualDuration": 203.702917,
+          "startTime": 1666.1749999999997,
+          "endTime": 1869.8779169999998
+        },
+        {
+          "path": "Audio/output/1678/chapter_09.wav",
+          "duration": 171.706292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Quiet Power of Grace",
+          "actualDuration": 171.706292,
+          "startTime": 1871.3779169999998,
+          "endTime": 2043.0842089999999
+        },
+        {
+          "path": "Audio/output/1678/chapter_10.wav",
+          "duration": 166.981958,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 A New Identity—Living as One Who Has Been Changed",
+          "actualDuration": 166.981958,
+          "startTime": 2044.5842089999999,
+          "endTime": 2211.566167
+        },
+        {
+          "path": "Audio/output/1678/conclusion.wav",
+          "duration": 136.317,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 136.317,
+          "startTime": 2213.066167,
+          "endTime": 2349.383167
+        }
+      ],
+      "totalDuration": 2349.383167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.07,
+          "actualStart": 0,
+          "actualEnd": 93.067125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Ambition, Power, and the Cost of Success",
+          "expectedStart": 93.07,
+          "expectedEnd": 325.61,
+          "actualStart": 94.567125,
+          "actualEnd": 327.108583,
+          "timeDifference": 1.4971250000000111
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Unraveling—Crisis, Scandal, and Public Shame",
+          "expectedStart": 325.61,
+          "expectedEnd": 532.5,
+          "actualStart": 328.608583,
+          "actualEnd": 535.50175,
+          "timeDifference": 2.9985829999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Searching for Meaning in the Aftermath",
+          "expectedStart": 532.5,
+          "expectedEnd": 788.46,
+          "actualStart": 537.00175,
+          "actualEnd": 792.959958,
+          "timeDifference": 4.5017500000000155
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Embracing Faith and the Challenge of Surrender",
+          "expectedStart": 788.46,
+          "expectedEnd": 1044.14,
+          "actualStart": 794.459958,
+          "actualEnd": 1050.136458,
+          "timeDifference": 5.999957999999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Confession, Repentance, and the Path to Renewal",
+          "expectedStart": 1044.14,
+          "expectedEnd": 1254.31,
+          "actualStart": 1051.636458,
+          "actualEnd": 1261.8099579999998,
+          "timeDifference": 7.496457999999848
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Rebuilding from the Rubble—Restoring Relationships and Trust",
+          "expectedStart": 1254.31,
+          "expectedEnd": 1464.41,
+          "actualStart": 1263.3099579999998,
+          "actualEnd": 1473.4053749999998,
+          "timeDifference": 8.999957999999879
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Service as a New Foundation",
+          "expectedStart": 1464.41,
+          "expectedEnd": 1654.18,
+          "actualStart": 1474.9053749999998,
+          "actualEnd": 1664.6749999999997,
+          "timeDifference": 10.49537499999974
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Living with Integrity—The Ongoing Struggle",
+          "expectedStart": 1654.18,
+          "expectedEnd": 1857.88,
+          "actualStart": 1666.1749999999997,
+          "actualEnd": 1869.8779169999998,
+          "timeDifference": 11.994999999999663
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Quiet Power of Grace",
+          "expectedStart": 1857.88,
+          "expectedEnd": 2029.59,
+          "actualStart": 1871.3779169999998,
+          "actualEnd": 2043.0842089999999,
+          "timeDifference": 13.497916999999688
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 A New Identity—Living as One Who Has Been Changed",
+          "expectedStart": 2029.59,
+          "expectedEnd": 2196.57,
+          "actualStart": 2044.5842089999999,
+          "actualEnd": 2211.566167,
+          "timeDifference": 14.994208999999955
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2196.57,
+          "expectedEnd": 2332.89,
+          "actualStart": 2213.066167,
+          "actualEnd": 2349.383167,
+          "timeDifference": 16.496166999999787
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.067125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Ambition, Power, and the Cost of Success"
+        },
+        {
+          "startTime": 327.108583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Ambition, Power, and the Cost of Success and Chapter 2 The Unraveling—Crisis, Scandal, and Public Shame"
+        },
+        {
+          "startTime": 535.50175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Unraveling—Crisis, Scandal, and Public Shame and Chapter 3 Searching for Meaning in the Aftermath"
+        },
+        {
+          "startTime": 792.959958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Searching for Meaning in the Aftermath and Chapter 4 Embracing Faith and the Challenge of Surrender"
+        },
+        {
+          "startTime": 1050.136458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Embracing Faith and the Challenge of Surrender and Chapter 5 Confession, Repentance, and the Path to Renewal"
+        },
+        {
+          "startTime": 1261.8099579999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Confession, Repentance, and the Path to Renewal and Chapter 6 Rebuilding from the Rubble—Restoring Relationships and Trust"
+        },
+        {
+          "startTime": 1473.4053749999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Rebuilding from the Rubble—Restoring Relationships and Trust and Chapter 7 Service as a New Foundation"
+        },
+        {
+          "startTime": 1664.6749999999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Service as a New Foundation and Chapter 8 Living with Integrity—The Ongoing Struggle"
+        },
+        {
+          "startTime": 1869.8779169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Living with Integrity—The Ongoing Struggle and Chapter 9 The Quiet Power of Grace"
+        },
+        {
+          "startTime": 2043.0842089999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Quiet Power of Grace and Chapter 10 A New Identity—Living as One Who Has Been Changed"
+        },
+        {
+          "startTime": 2211.566167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 A New Identity—Living as One Who Has Been Changed and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1678",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary, serious (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T05:56:19.185Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1904",
+  "timestamp": "2025-07-08T23:55:17.010Z",
+  "success": false,
+  "processingTime": -1752017891031,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4932,
+    "totalAudioFiles": 12,
+    "totalDuration": 2287.424501
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2287.424501
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1904/optimized_text/1904.md",
+    "fileSize": 648,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1904.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1904/metadata/1904_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2287.43,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1904/metadata/1904_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1904/metadata/1904_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1904/1904_complete.wav",
+    "duration": 2287.4245,
+    "fileSize": 109796454,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1904/introduction.wav",
+          "duration": 95.355125,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.355125,
+          "startTime": 0,
+          "endTime": 95.355125
+        },
+        {
+          "path": "Audio/output/1904/chapter_01.wav",
+          "duration": 217.488583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Everyday Struggle of Making Art",
+          "actualDuration": 217.488583,
+          "startTime": 96.855125,
+          "endTime": 314.343708
+        },
+        {
+          "path": "Audio/output/1904/chapter_02.wav",
+          "duration": 218.35375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Myths About Artists and the Reality of Creative Work",
+          "actualDuration": 218.35375,
+          "startTime": 315.843708,
+          "endTime": 534.197458
+        },
+        {
+          "path": "Audio/output/1904/chapter_03.wav",
+          "duration": 233.275625,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Facing Fear, Doubt, and the Risk of Failure",
+          "actualDuration": 233.275625,
+          "startTime": 535.697458,
+          "endTime": 768.973083
+        },
+        {
+          "path": "Audio/output/1904/chapter_04.wav",
+          "duration": 234.018667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Importance of Process Over Perfection",
+          "actualDuration": 234.018667,
+          "startTime": 770.473083,
+          "endTime": 1004.4917499999999
+        },
+        {
+          "path": "Audio/output/1904/chapter_05.wav",
+          "duration": 196.23325,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Resilience and Finding Community",
+          "actualDuration": 196.23325,
+          "startTime": 1005.9917499999999,
+          "endTime": 1202.225
+        },
+        {
+          "path": "Audio/output/1904/chapter_06.wav",
+          "duration": 206.199917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Artist’s Relationship with the Outside World",
+          "actualDuration": 206.199917,
+          "startTime": 1203.725,
+          "endTime": 1409.9249169999998
+        },
+        {
+          "path": "Audio/output/1904/chapter_07.wav",
+          "duration": 213.509917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Lifelong Journey of Creative Growth",
+          "actualDuration": 213.509917,
+          "startTime": 1411.4249169999998,
+          "endTime": 1624.934834
+        },
+        {
+          "path": "Audio/output/1904/chapter_08.wav",
+          "duration": 185.655792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Uncertainty and Embracing Change",
+          "actualDuration": 185.655792,
+          "startTime": 1626.434834,
+          "endTime": 1812.090626
+        },
+        {
+          "path": "Audio/output/1904/chapter_09.wav",
+          "duration": 175.466292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Art, Meaning, and the Search for Purpose",
+          "actualDuration": 175.466292,
+          "startTime": 1813.590626,
+          "endTime": 1989.056918
+        },
+        {
+          "path": "Audio/output/1904/chapter_10.wav",
+          "duration": 188.683833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Rewards of Artmaking: Joy, Connection, and Self-Discovery",
+          "actualDuration": 188.683833,
+          "startTime": 1990.556918,
+          "endTime": 2179.240751
+        },
+        {
+          "path": "Audio/output/1904/conclusion.wav",
+          "duration": 123.18375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.18375,
+          "startTime": 2180.740751,
+          "endTime": 2303.924501
+        }
+      ],
+      "totalDuration": 2303.924501,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.36,
+          "actualStart": 0,
+          "actualEnd": 95.355125,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Everyday Struggle of Making Art",
+          "expectedStart": 95.36,
+          "expectedEnd": 312.85,
+          "actualStart": 96.855125,
+          "actualEnd": 314.343708,
+          "timeDifference": 1.4951250000000016
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Myths About Artists and the Reality of Creative Work",
+          "expectedStart": 312.85,
+          "expectedEnd": 531.2,
+          "actualStart": 315.843708,
+          "actualEnd": 534.197458,
+          "timeDifference": 2.9937079999999696
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Facing Fear, Doubt, and the Risk of Failure",
+          "expectedStart": 531.2,
+          "expectedEnd": 764.48,
+          "actualStart": 535.697458,
+          "actualEnd": 768.973083,
+          "timeDifference": 4.497457999999938
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Importance of Process Over Perfection",
+          "expectedStart": 764.48,
+          "expectedEnd": 998.5,
+          "actualStart": 770.473083,
+          "actualEnd": 1004.4917499999999,
+          "timeDifference": 5.993082999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Resilience and Finding Community",
+          "expectedStart": 998.5,
+          "expectedEnd": 1194.73,
+          "actualStart": 1005.9917499999999,
+          "actualEnd": 1202.225,
+          "timeDifference": 7.491749999999911
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Artist’s Relationship with the Outside World",
+          "expectedStart": 1194.73,
+          "expectedEnd": 1400.93,
+          "actualStart": 1203.725,
+          "actualEnd": 1409.9249169999998,
+          "timeDifference": 8.99499999999989
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Lifelong Journey of Creative Growth",
+          "expectedStart": 1400.93,
+          "expectedEnd": 1614.44,
+          "actualStart": 1411.4249169999998,
+          "actualEnd": 1624.934834,
+          "timeDifference": 10.49491699999976
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Uncertainty and Embracing Change",
+          "expectedStart": 1614.44,
+          "expectedEnd": 1800.1,
+          "actualStart": 1626.434834,
+          "actualEnd": 1812.090626,
+          "timeDifference": 11.994833999999855
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Art, Meaning, and the Search for Purpose",
+          "expectedStart": 1800.1,
+          "expectedEnd": 1975.57,
+          "actualStart": 1813.590626,
+          "actualEnd": 1989.056918,
+          "timeDifference": 13.49062600000002
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Rewards of Artmaking: Joy, Connection, and Self-Discovery",
+          "expectedStart": 1975.57,
+          "expectedEnd": 2164.25,
+          "actualStart": 1990.556918,
+          "actualEnd": 2179.240751,
+          "timeDifference": 14.98691800000006
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2164.25,
+          "expectedEnd": 2287.43,
+          "actualStart": 2180.740751,
+          "actualEnd": 2303.924501,
+          "timeDifference": 16.49075099999982
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.355125,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Everyday Struggle of Making Art"
+        },
+        {
+          "startTime": 314.343708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Everyday Struggle of Making Art and Chapter 2 Myths About Artists and the Reality of Creative Work"
+        },
+        {
+          "startTime": 534.197458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Myths About Artists and the Reality of Creative Work and Chapter 3 Facing Fear, Doubt, and the Risk of Failure"
+        },
+        {
+          "startTime": 768.973083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Facing Fear, Doubt, and the Risk of Failure and Chapter 4 The Importance of Process Over Perfection"
+        },
+        {
+          "startTime": 1004.4917499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Importance of Process Over Perfection and Chapter 5 Building Resilience and Finding Community"
+        },
+        {
+          "startTime": 1202.225,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Resilience and Finding Community and Chapter 6 The Artist’s Relationship with the Outside World"
+        },
+        {
+          "startTime": 1409.9249169999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Artist’s Relationship with the Outside World and Chapter 7 The Lifelong Journey of Creative Growth"
+        },
+        {
+          "startTime": 1624.934834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Lifelong Journey of Creative Growth and Chapter 8 Navigating Uncertainty and Embracing Change"
+        },
+        {
+          "startTime": 1812.090626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Uncertainty and Embracing Change and Chapter 9 Art, Meaning, and the Search for Purpose"
+        },
+        {
+          "startTime": 1989.056918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Art, Meaning, and the Search for Purpose and Chapter 10 The Rewards of Artmaking: Joy, Connection, and Self-Discovery"
+        },
+        {
+          "startTime": 2179.240751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Rewards of Artmaking: Joy, Connection, and Self-Discovery and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1904",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T23:38:12.335Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "1889",
+  "timestamp": "2025-07-08T22:27:23.927Z",
+  "success": false,
+  "processingTime": -1752013087277,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4272,
+    "totalAudioFiles": 12,
+    "totalDuration": 1867.4748339999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1867.4748339999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1889/optimized_text/1889.md",
+    "fileSize": 741,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "1889.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1889/metadata/1889_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1867.48,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1889/metadata/1889_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1889/metadata/1889_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1889/1889_complete.wav",
+    "duration": 1867.474833,
+    "fileSize": 89638870,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1889/introduction.wav",
+          "duration": 84.430083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.430083,
+          "startTime": 0,
+          "endTime": 84.430083
+        },
+        {
+          "path": "Audio/output/1889/chapter_01.wav",
+          "duration": 205.838292,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Starting Out: The First Steps Toward Business and Money",
+          "actualDuration": 205.838292,
+          "startTime": 85.930083,
+          "endTime": 291.768375
+        },
+        {
+          "path": "Audio/output/1889/chapter_02.wav",
+          "duration": 212.673917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning to Weigh Risks and Rewards in Real Life",
+          "actualDuration": 212.673917,
+          "startTime": 293.268375,
+          "endTime": 505.94229199999995
+        },
+        {
+          "path": "Audio/output/1889/chapter_03.wav",
+          "duration": 179.16975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Integrity and Reputation in Business",
+          "actualDuration": 179.16975,
+          "startTime": 507.44229199999995,
+          "endTime": 686.612042
+        },
+        {
+          "path": "Audio/output/1889/chapter_04.wav",
+          "duration": 185.187833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Innovation and the Balance Between Creativity and Caution",
+          "actualDuration": 185.187833,
+          "startTime": 688.112042,
+          "endTime": 873.2998749999999
+        },
+        {
+          "path": "Audio/output/1889/chapter_05.wav",
+          "duration": 171.337292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Personal Values and Their Impact on Business Choices",
+          "actualDuration": 171.337292,
+          "startTime": 874.7998749999999,
+          "endTime": 1046.1371669999999
+        },
+        {
+          "path": "Audio/output/1889/chapter_06.wav",
+          "duration": 180.018958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Financial Planning: Building a Foundation for the Future",
+          "actualDuration": 180.018958,
+          "startTime": 1047.6371669999999,
+          "endTime": 1227.656125
+        },
+        {
+          "path": "Audio/output/1889/chapter_07.wav",
+          "duration": 136.17225,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Weathering Change: Adaptability in a Shifting World",
+          "actualDuration": 136.17225,
+          "startTime": 1229.156125,
+          "endTime": 1365.328375
+        },
+        {
+          "path": "Audio/output/1889/chapter_08.wav",
+          "duration": 141.49125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Power of Community: Building Networks and Giving Back",
+          "actualDuration": 141.49125,
+          "startTime": 1366.828375,
+          "endTime": 1508.319625
+        },
+        {
+          "path": "Audio/output/1889/chapter_09.wav",
+          "duration": 121.597625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Growth: Scaling Up Without Losing Your Soul",
+          "actualDuration": 121.597625,
+          "startTime": 1509.819625,
+          "endTime": 1631.41725
+        },
+        {
+          "path": "Audio/output/1889/chapter_10.wav",
+          "duration": 131.732292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long View: Legacy, Succession, and Letting Go",
+          "actualDuration": 131.732292,
+          "startTime": 1632.91725,
+          "endTime": 1764.6495419999999
+        },
+        {
+          "path": "Audio/output/1889/conclusion.wav",
+          "duration": 117.825292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 117.825292,
+          "startTime": 1766.1495419999999,
+          "endTime": 1883.9748339999999
+        }
+      ],
+      "totalDuration": 1883.9748339999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.43,
+          "actualStart": 0,
+          "actualEnd": 84.430083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Starting Out: The First Steps Toward Business and Money",
+          "expectedStart": 84.43,
+          "expectedEnd": 290.27,
+          "actualStart": 85.930083,
+          "actualEnd": 291.768375,
+          "timeDifference": 1.5000829999999894
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning to Weigh Risks and Rewards in Real Life",
+          "expectedStart": 290.27,
+          "expectedEnd": 502.94,
+          "actualStart": 293.268375,
+          "actualEnd": 505.94229199999995,
+          "timeDifference": 2.99837500000001
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Integrity and Reputation in Business",
+          "expectedStart": 502.94,
+          "expectedEnd": 682.11,
+          "actualStart": 507.44229199999995,
+          "actualEnd": 686.612042,
+          "timeDifference": 4.502291999999954
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Innovation and the Balance Between Creativity and Caution",
+          "expectedStart": 682.11,
+          "expectedEnd": 867.3,
+          "actualStart": 688.112042,
+          "actualEnd": 873.2998749999999,
+          "timeDifference": 6.00204199999996
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Personal Values and Their Impact on Business Choices",
+          "expectedStart": 867.3,
+          "expectedEnd": 1038.64,
+          "actualStart": 874.7998749999999,
+          "actualEnd": 1046.1371669999999,
+          "timeDifference": 7.4998749999999745
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Financial Planning: Building a Foundation for the Future",
+          "expectedStart": 1038.64,
+          "expectedEnd": 1218.66,
+          "actualStart": 1047.6371669999999,
+          "actualEnd": 1227.656125,
+          "timeDifference": 8.997166999999763
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Weathering Change: Adaptability in a Shifting World",
+          "expectedStart": 1218.66,
+          "expectedEnd": 1354.83,
+          "actualStart": 1229.156125,
+          "actualEnd": 1365.328375,
+          "timeDifference": 10.496124999999893
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Power of Community: Building Networks and Giving Back",
+          "expectedStart": 1354.83,
+          "expectedEnd": 1496.32,
+          "actualStart": 1366.828375,
+          "actualEnd": 1508.319625,
+          "timeDifference": 11.998375000000124
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Growth: Scaling Up Without Losing Your Soul",
+          "expectedStart": 1496.32,
+          "expectedEnd": 1617.92,
+          "actualStart": 1509.819625,
+          "actualEnd": 1631.41725,
+          "timeDifference": 13.499625000000151
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long View: Legacy, Succession, and Letting Go",
+          "expectedStart": 1617.92,
+          "expectedEnd": 1749.65,
+          "actualStart": 1632.91725,
+          "actualEnd": 1764.6495419999999,
+          "timeDifference": 14.997249999999894
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1749.65,
+          "expectedEnd": 1867.48,
+          "actualStart": 1766.1495419999999,
+          "actualEnd": 1883.9748339999999,
+          "timeDifference": 16.499541999999792
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.430083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Starting Out: The First Steps Toward Business and Money"
+        },
+        {
+          "startTime": 291.768375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Starting Out: The First Steps Toward Business and Money and Chapter 2 Learning to Weigh Risks and Rewards in Real Life"
+        },
+        {
+          "startTime": 505.94229199999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning to Weigh Risks and Rewards in Real Life and Chapter 3 The Role of Integrity and Reputation in Business"
+        },
+        {
+          "startTime": 686.612042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Integrity and Reputation in Business and Chapter 4 Innovation and the Balance Between Creativity and Caution"
+        },
+        {
+          "startTime": 873.2998749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Innovation and the Balance Between Creativity and Caution and Chapter 5 Personal Values and Their Impact on Business Choices"
+        },
+        {
+          "startTime": 1046.1371669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Personal Values and Their Impact on Business Choices and Chapter 6 The Art of Financial Planning: Building a Foundation for the Future"
+        },
+        {
+          "startTime": 1227.656125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Financial Planning: Building a Foundation for the Future and Chapter 7 Weathering Change: Adaptability in a Shifting World"
+        },
+        {
+          "startTime": 1365.328375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Weathering Change: Adaptability in a Shifting World and Chapter 8 The Power of Community: Building Networks and Giving Back"
+        },
+        {
+          "startTime": 1508.319625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Power of Community: Building Networks and Giving Back and Chapter 9 Navigating Growth: Scaling Up Without Losing Your Soul"
+        },
+        {
+          "startTime": 1631.41725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Growth: Scaling Up Without Losing Your Soul and Chapter 10 The Long View: Legacy, Succession, and Letting Go"
+        },
+        {
+          "startTime": 1764.6495419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long View: Legacy, Succession, and Letting Go and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1889",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T22:18:07.797Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

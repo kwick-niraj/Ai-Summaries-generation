@@ -1,0 +1,456 @@
+{
+  "bookId": "2259",
+  "timestamp": "2025-07-10T04:49:05.127Z",
+  "success": false,
+  "processingTime": -1752122407680,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4495,
+    "totalAudioFiles": 12,
+    "totalDuration": 2140.8653750000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2140.8653750000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2259/optimized_text/2259.md",
+    "fileSize": 752,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2259.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2259/metadata/2259_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2140.87,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2259/metadata/2259_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2259/metadata/2259_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2259/2259_complete.wav",
+    "duration": 2140.865375,
+    "fileSize": 102761616,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2259/introduction.wav",
+          "duration": 86.882292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.882292,
+          "startTime": 0,
+          "endTime": 86.882292
+        },
+        {
+          "path": "Audio/output/2259/chapter_01.wav",
+          "duration": 213.655167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Mind-Body Connection and the Roots of Healing",
+          "actualDuration": 213.655167,
+          "startTime": 88.382292,
+          "endTime": 302.037459
+        },
+        {
+          "path": "Audio/output/2259/chapter_02.wav",
+          "duration": 228.341167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Beliefs and the Role of Self-Talk",
+          "actualDuration": 228.341167,
+          "startTime": 303.537459,
+          "endTime": 531.878626
+        },
+        {
+          "path": "Audio/output/2259/chapter_03.wav",
+          "duration": 213.652667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Releasing Guilt, Criticism, and the Burden of the Past",
+          "actualDuration": 213.652667,
+          "startTime": 533.378626,
+          "endTime": 747.031293
+        },
+        {
+          "path": "Audio/output/2259/chapter_04.wav",
+          "duration": 210.650708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Cultivating Self-Love and Acceptance as the Foundation for Change",
+          "actualDuration": 210.650708,
+          "startTime": 748.531293,
+          "endTime": 959.182001
+        },
+        {
+          "path": "Audio/output/2259/chapter_05.wav",
+          "duration": 221.787083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Using Affirmations and Daily Practice to Create Lasting Change",
+          "actualDuration": 221.787083,
+          "startTime": 960.682001,
+          "endTime": 1182.469084
+        },
+        {
+          "path": "Audio/output/2259/chapter_06.wav",
+          "duration": 196.625375,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Addressing Resistance and Navigating Setbacks with Compassion",
+          "actualDuration": 196.625375,
+          "startTime": 1183.969084,
+          "endTime": 1380.5944590000001
+        },
+        {
+          "path": "Audio/output/2259/chapter_07.wav",
+          "duration": 166.953833,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Healing Relationships and Creating Supportive Connections",
+          "actualDuration": 166.953833,
+          "startTime": 1382.0944590000001,
+          "endTime": 1549.0482920000002
+        },
+        {
+          "path": "Audio/output/2259/chapter_08.wav",
+          "duration": 170.26275,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Change and the Power of New Stories",
+          "actualDuration": 170.26275,
+          "startTime": 1550.5482920000002,
+          "endTime": 1720.8110420000003
+        },
+        {
+          "path": "Audio/output/2259/chapter_09.wav",
+          "duration": 154.78975,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Mind-Body Practices for Holistic Well-Being",
+          "actualDuration": 154.78975,
+          "startTime": 1722.3110420000003,
+          "endTime": 1877.1007920000002
+        },
+        {
+          "path": "Audio/output/2259/chapter_10.wav",
+          "duration": 129.22575,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth and Living with Purpose",
+          "actualDuration": 129.22575,
+          "startTime": 1878.6007920000002,
+          "endTime": 2007.8265420000002
+        },
+        {
+          "path": "Audio/output/2259/conclusion.wav",
+          "duration": 148.038833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 148.038833,
+          "startTime": 2009.3265420000002,
+          "endTime": 2157.3653750000003
+        }
+      ],
+      "totalDuration": 2157.3653750000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.88,
+          "actualStart": 0,
+          "actualEnd": 86.882292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Mind-Body Connection and the Roots of Healing",
+          "expectedStart": 86.88,
+          "expectedEnd": 300.54,
+          "actualStart": 88.382292,
+          "actualEnd": 302.037459,
+          "timeDifference": 1.5022920000000113
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Beliefs and the Role of Self-Talk",
+          "expectedStart": 300.54,
+          "expectedEnd": 528.88,
+          "actualStart": 303.537459,
+          "actualEnd": 531.878626,
+          "timeDifference": 2.997458999999992
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Releasing Guilt, Criticism, and the Burden of the Past",
+          "expectedStart": 528.88,
+          "expectedEnd": 742.53,
+          "actualStart": 533.378626,
+          "actualEnd": 747.031293,
+          "timeDifference": 4.498626000000058
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Cultivating Self-Love and Acceptance as the Foundation for Change",
+          "expectedStart": 742.53,
+          "expectedEnd": 953.18,
+          "actualStart": 748.531293,
+          "actualEnd": 959.182001,
+          "timeDifference": 6.001293000000032
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Using Affirmations and Daily Practice to Create Lasting Change",
+          "expectedStart": 953.18,
+          "expectedEnd": 1174.97,
+          "actualStart": 960.682001,
+          "actualEnd": 1182.469084,
+          "timeDifference": 7.502001000000064
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Addressing Resistance and Navigating Setbacks with Compassion",
+          "expectedStart": 1174.97,
+          "expectedEnd": 1371.6,
+          "actualStart": 1183.969084,
+          "actualEnd": 1380.5944590000001,
+          "timeDifference": 8.999084000000039
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Healing Relationships and Creating Supportive Connections",
+          "expectedStart": 1371.6,
+          "expectedEnd": 1538.55,
+          "actualStart": 1382.0944590000001,
+          "actualEnd": 1549.0482920000002,
+          "timeDifference": 10.494459000000234
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Change and the Power of New Stories",
+          "expectedStart": 1538.55,
+          "expectedEnd": 1708.81,
+          "actualStart": 1550.5482920000002,
+          "actualEnd": 1720.8110420000003,
+          "timeDifference": 11.99829200000022
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Mind-Body Practices for Holistic Well-Being",
+          "expectedStart": 1708.81,
+          "expectedEnd": 1863.6,
+          "actualStart": 1722.3110420000003,
+          "actualEnd": 1877.1007920000002,
+          "timeDifference": 13.501042000000325
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth and Living with Purpose",
+          "expectedStart": 1863.6,
+          "expectedEnd": 1992.83,
+          "actualStart": 1878.6007920000002,
+          "actualEnd": 2007.8265420000002,
+          "timeDifference": 15.000792000000274
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1992.83,
+          "expectedEnd": 2140.87,
+          "actualStart": 2009.3265420000002,
+          "actualEnd": 2157.3653750000003,
+          "timeDifference": 16.496542000000318
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.882292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Mind-Body Connection and the Roots of Healing"
+        },
+        {
+          "startTime": 302.037459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Mind-Body Connection and the Roots of Healing and Chapter 2 The Power of Beliefs and the Role of Self-Talk"
+        },
+        {
+          "startTime": 531.878626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Beliefs and the Role of Self-Talk and Chapter 3 Releasing Guilt, Criticism, and the Burden of the Past"
+        },
+        {
+          "startTime": 747.031293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Releasing Guilt, Criticism, and the Burden of the Past and Chapter 4 Cultivating Self-Love and Acceptance as the Foundation for Change"
+        },
+        {
+          "startTime": 959.182001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Cultivating Self-Love and Acceptance as the Foundation for Change and Chapter 5 Using Affirmations and Daily Practice to Create Lasting Change"
+        },
+        {
+          "startTime": 1182.469084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Using Affirmations and Daily Practice to Create Lasting Change and Chapter 6 Addressing Resistance and Navigating Setbacks with Compassion"
+        },
+        {
+          "startTime": 1380.5944590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Addressing Resistance and Navigating Setbacks with Compassion and Chapter 7 Healing Relationships and Creating Supportive Connections"
+        },
+        {
+          "startTime": 1549.0482920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Healing Relationships and Creating Supportive Connections and Chapter 8 Embracing Change and the Power of New Stories"
+        },
+        {
+          "startTime": 1720.8110420000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Change and the Power of New Stories and Chapter 9 Integrating Mind-Body Practices for Holistic Well-Being"
+        },
+        {
+          "startTime": 1877.1007920000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Mind-Body Practices for Holistic Well-Being and Chapter 10 Sustaining Growth and Living with Purpose"
+        },
+        {
+          "startTime": 2007.8265420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth and Living with Purpose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2259",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T04:40:08.883Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

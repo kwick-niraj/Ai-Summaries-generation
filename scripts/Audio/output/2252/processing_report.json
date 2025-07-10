@@ -1,0 +1,456 @@
+{
+  "bookId": "2252",
+  "timestamp": "2025-07-10T04:17:15.777Z",
+  "success": false,
+  "processingTime": -1752120431042,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3738,
+    "totalAudioFiles": 12,
+    "totalDuration": 1979.734458
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1979.734458
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2252/optimized_text/2252.md",
+    "fileSize": 826,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "2252.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2252/metadata/2252_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1979.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2252/metadata/2252_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2252/metadata/2252_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 84,
+    "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2252/2252_complete.wav",
+    "duration": 1979.734458,
+    "fileSize": 95027332,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2252/introduction.wav",
+          "duration": 85.840542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.840542,
+          "startTime": 0,
+          "endTime": 85.840542
+        },
+        {
+          "path": "Audio/output/2252/chapter_01.wav",
+          "duration": 189.092792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Startup Path—Letting Go of Silicon Valley Myths",
+          "actualDuration": 189.092792,
+          "startTime": 87.340542,
+          "endTime": 276.433334
+        },
+        {
+          "path": "Audio/output/2252/chapter_02.wav",
+          "duration": 200.88625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Defining Success on Personal Terms—Clarity Before Action",
+          "actualDuration": 200.88625,
+          "startTime": 277.933334,
+          "endTime": 478.81958399999996
+        },
+        {
+          "path": "Audio/output/2252/chapter_03.wav",
+          "duration": 186.509542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Embracing Bootstrapping—Building with What’s Available",
+          "actualDuration": 186.509542,
+          "startTime": 480.31958399999996,
+          "endTime": 666.829126
+        },
+        {
+          "path": "Audio/output/2252/chapter_04.wav",
+          "duration": 173.702,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Prioritizing Well-Being—Balancing Ambition and Health",
+          "actualDuration": 173.702,
+          "startTime": 668.329126,
+          "endTime": 842.031126
+        },
+        {
+          "path": "Audio/output/2252/chapter_05.wav",
+          "duration": 206.503458,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Leading with Authenticity—Creating a Healthy Company Culture",
+          "actualDuration": 206.503458,
+          "startTime": 843.531126,
+          "endTime": 1050.034584
+        },
+        {
+          "path": "Audio/output/2252/chapter_06.wav",
+          "duration": 166.706958,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Practicing Iterative Learning—Adapting Through Feedback and Experimentation",
+          "actualDuration": 166.706958,
+          "startTime": 1051.534584,
+          "endTime": 1218.241542
+        },
+        {
+          "path": "Audio/output/2252/chapter_07.wav",
+          "duration": 175.006958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Building Relationships, Not Just Transactions—The Power of Community",
+          "actualDuration": 175.006958,
+          "startTime": 1219.741542,
+          "endTime": 1394.7485
+        },
+        {
+          "path": "Audio/output/2252/chapter_08.wav",
+          "duration": 161.329583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Navigating Growth with Intention—Scaling What Matters",
+          "actualDuration": 161.329583,
+          "startTime": 1396.2485,
+          "endTime": 1557.5780829999999
+        },
+        {
+          "path": "Audio/output/2252/chapter_09.wav",
+          "duration": 148.281833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Embracing Adaptability—Thriving Amid Change and Uncertainty",
+          "actualDuration": 148.281833,
+          "startTime": 1559.0780829999999,
+          "endTime": 1707.3599159999999
+        },
+        {
+          "path": "Audio/output/2252/chapter_10.wav",
+          "duration": 165.664292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining the Mindset—Continuous Renewal and Personal Growth",
+          "actualDuration": 165.664292,
+          "startTime": 1708.8599159999999,
+          "endTime": 1874.5242079999998
+        },
+        {
+          "path": "Audio/output/2252/conclusion.wav",
+          "duration": 120.21025,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.21025,
+          "startTime": 1876.0242079999998,
+          "endTime": 1996.234458
+        }
+      ],
+      "totalDuration": 1996.234458,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.84,
+          "actualStart": 0,
+          "actualEnd": 85.840542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Startup Path—Letting Go of Silicon Valley Myths",
+          "expectedStart": 85.84,
+          "expectedEnd": 274.93,
+          "actualStart": 87.340542,
+          "actualEnd": 276.433334,
+          "timeDifference": 1.5005419999999958
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Defining Success on Personal Terms—Clarity Before Action",
+          "expectedStart": 274.93,
+          "expectedEnd": 475.82,
+          "actualStart": 277.933334,
+          "actualEnd": 478.81958399999996,
+          "timeDifference": 3.0033339999999953
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Embracing Bootstrapping—Building with What’s Available",
+          "expectedStart": 475.82,
+          "expectedEnd": 662.33,
+          "actualStart": 480.31958399999996,
+          "actualEnd": 666.829126,
+          "timeDifference": 4.49958399999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Prioritizing Well-Being—Balancing Ambition and Health",
+          "expectedStart": 662.33,
+          "expectedEnd": 836.03,
+          "actualStart": 668.329126,
+          "actualEnd": 842.031126,
+          "timeDifference": 5.999125999999933
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Leading with Authenticity—Creating a Healthy Company Culture",
+          "expectedStart": 836.03,
+          "expectedEnd": 1042.53,
+          "actualStart": 843.531126,
+          "actualEnd": 1050.034584,
+          "timeDifference": 7.501125999999999
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Practicing Iterative Learning—Adapting Through Feedback and Experimentation",
+          "expectedStart": 1042.53,
+          "expectedEnd": 1209.24,
+          "actualStart": 1051.534584,
+          "actualEnd": 1218.241542,
+          "timeDifference": 9.004584000000023
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Building Relationships, Not Just Transactions—The Power of Community",
+          "expectedStart": 1209.24,
+          "expectedEnd": 1384.25,
+          "actualStart": 1219.741542,
+          "actualEnd": 1394.7485,
+          "timeDifference": 10.501541999999972
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Navigating Growth with Intention—Scaling What Matters",
+          "expectedStart": 1384.25,
+          "expectedEnd": 1545.58,
+          "actualStart": 1396.2485,
+          "actualEnd": 1557.5780829999999,
+          "timeDifference": 11.998499999999922
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Embracing Adaptability—Thriving Amid Change and Uncertainty",
+          "expectedStart": 1545.58,
+          "expectedEnd": 1693.86,
+          "actualStart": 1559.0780829999999,
+          "actualEnd": 1707.3599159999999,
+          "timeDifference": 13.498082999999951
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining the Mindset—Continuous Renewal and Personal Growth",
+          "expectedStart": 1693.86,
+          "expectedEnd": 1859.52,
+          "actualStart": 1708.8599159999999,
+          "actualEnd": 1874.5242079999998,
+          "timeDifference": 14.999915999999985
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1859.52,
+          "expectedEnd": 1979.73,
+          "actualStart": 1876.0242079999998,
+          "actualEnd": 1996.234458,
+          "timeDifference": 16.504207999999835
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.840542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Startup Path—Letting Go of Silicon Valley Myths"
+        },
+        {
+          "startTime": 276.433334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Startup Path—Letting Go of Silicon Valley Myths and Chapter 2 Defining Success on Personal Terms—Clarity Before Action"
+        },
+        {
+          "startTime": 478.81958399999996,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Defining Success on Personal Terms—Clarity Before Action and Chapter 3 Embracing Bootstrapping—Building with What’s Available"
+        },
+        {
+          "startTime": 666.829126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Embracing Bootstrapping—Building with What’s Available and Chapter 4 Prioritizing Well-Being—Balancing Ambition and Health"
+        },
+        {
+          "startTime": 842.031126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Prioritizing Well-Being—Balancing Ambition and Health and Chapter 5 Leading with Authenticity—Creating a Healthy Company Culture"
+        },
+        {
+          "startTime": 1050.034584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Leading with Authenticity—Creating a Healthy Company Culture and Chapter 6 Practicing Iterative Learning—Adapting Through Feedback and Experimentation"
+        },
+        {
+          "startTime": 1218.241542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Practicing Iterative Learning—Adapting Through Feedback and Experimentation and Chapter 7 Building Relationships, Not Just Transactions—The Power of Community"
+        },
+        {
+          "startTime": 1394.7485,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Building Relationships, Not Just Transactions—The Power of Community and Chapter 8 Navigating Growth with Intention—Scaling What Matters"
+        },
+        {
+          "startTime": 1557.5780829999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Navigating Growth with Intention—Scaling What Matters and Chapter 9 Embracing Adaptability—Thriving Amid Change and Uncertainty"
+        },
+        {
+          "startTime": 1707.3599159999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Embracing Adaptability—Thriving Amid Change and Uncertainty and Chapter 10 Sustaining the Mindset—Continuous Renewal and Personal Growth"
+        },
+        {
+          "startTime": 1874.5242079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining the Mindset—Continuous Renewal and Personal Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2252",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 84,
+      "reasoning": "Hybrid: Genre match: business, professional, corporate (+24); Audience match (+10) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T04:07:12.250Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

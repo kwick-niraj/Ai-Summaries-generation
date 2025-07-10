@@ -1,0 +1,456 @@
+{
+  "bookId": "1677",
+  "timestamp": "2025-07-08T05:56:17.009Z",
+  "success": false,
+  "processingTime": -1751953384056,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4880,
+    "totalAudioFiles": 12,
+    "totalDuration": 2265.169001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2265.169001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1677/optimized_text/1677.md",
+    "fileSize": 614,
+    "wordCount": 89,
+    "format": "markdown",
+    "filename": "1677.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1677/metadata/1677_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2265.17,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1677/metadata/1677_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1677/metadata/1677_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1677/1677_complete.wav",
+    "duration": 2265.169,
+    "fileSize": 108728190,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1677/introduction.wav",
+          "duration": 101.55725,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.55725,
+          "startTime": 0,
+          "endTime": 101.55725
+        },
+        {
+          "path": "Audio/output/1677/chapter_01.wav",
+          "duration": 256.225375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Everyday Dilemmas and the Search for Fairness",
+          "actualDuration": 256.225375,
+          "startTime": 103.05725,
+          "endTime": 359.282625
+        },
+        {
+          "path": "Audio/output/1677/chapter_02.wav",
+          "duration": 253.984958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Promise and Limits of Maximizing Happiness",
+          "actualDuration": 253.984958,
+          "startTime": 360.782625,
+          "endTime": 614.7675830000001
+        },
+        {
+          "path": "Audio/output/1677/chapter_03.wav",
+          "duration": 230.096042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Freedom, Rights, and the Boundaries of Choice",
+          "actualDuration": 230.096042,
+          "startTime": 616.2675830000001,
+          "endTime": 846.3636250000001
+        },
+        {
+          "path": "Audio/output/1677/chapter_04.wav",
+          "duration": 221.101792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Duty, Respect, and the Value of Persons",
+          "actualDuration": 221.101792,
+          "startTime": 847.8636250000001,
+          "endTime": 1068.9654170000001
+        },
+        {
+          "path": "Audio/output/1677/chapter_05.wav",
+          "duration": 208.725792,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Fairness, Equality, and the Social Contract",
+          "actualDuration": 208.725792,
+          "startTime": 1070.4654170000001,
+          "endTime": 1279.191209
+        },
+        {
+          "path": "Audio/output/1677/chapter_06.wav",
+          "duration": 172.254708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Moral Limits of Markets",
+          "actualDuration": 172.254708,
+          "startTime": 1280.691209,
+          "endTime": 1452.945917
+        },
+        {
+          "path": "Audio/output/1677/chapter_07.wav",
+          "duration": 170.996875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Community, Loyalty, and the Bonds That Shape Us",
+          "actualDuration": 170.996875,
+          "startTime": 1454.445917,
+          "endTime": 1625.442792
+        },
+        {
+          "path": "Audio/output/1677/chapter_08.wav",
+          "duration": 178.688292,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Justice and the Challenge of Pluralism",
+          "actualDuration": 178.688292,
+          "startTime": 1626.942792,
+          "endTime": 1805.631084
+        },
+        {
+          "path": "Audio/output/1677/chapter_09.wav",
+          "duration": 143.022292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Civic Virtue and the Good Life",
+          "actualDuration": 143.022292,
+          "startTime": 1807.131084,
+          "endTime": 1950.1533760000002
+        },
+        {
+          "path": "Audio/output/1677/chapter_10.wav",
+          "duration": 183.512917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Justice, Reason, and the Art of Public Disagreement",
+          "actualDuration": 183.512917,
+          "startTime": 1951.6533760000002,
+          "endTime": 2135.166293
+        },
+        {
+          "path": "Audio/output/1677/conclusion.wav",
+          "duration": 145.002708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.002708,
+          "startTime": 2136.666293,
+          "endTime": 2281.669001
+        }
+      ],
+      "totalDuration": 2281.669001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.56,
+          "actualStart": 0,
+          "actualEnd": 101.55725,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Everyday Dilemmas and the Search for Fairness",
+          "expectedStart": 101.56,
+          "expectedEnd": 357.79,
+          "actualStart": 103.05725,
+          "actualEnd": 359.282625,
+          "timeDifference": 1.497249999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Promise and Limits of Maximizing Happiness",
+          "expectedStart": 357.79,
+          "expectedEnd": 611.77,
+          "actualStart": 360.782625,
+          "actualEnd": 614.7675830000001,
+          "timeDifference": 2.9926249999999754
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Freedom, Rights, and the Boundaries of Choice",
+          "expectedStart": 611.77,
+          "expectedEnd": 841.87,
+          "actualStart": 616.2675830000001,
+          "actualEnd": 846.3636250000001,
+          "timeDifference": 4.497583000000077
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Duty, Respect, and the Value of Persons",
+          "expectedStart": 841.87,
+          "expectedEnd": 1062.97,
+          "actualStart": 847.8636250000001,
+          "actualEnd": 1068.9654170000001,
+          "timeDifference": 5.9936250000000655
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Fairness, Equality, and the Social Contract",
+          "expectedStart": 1062.97,
+          "expectedEnd": 1271.7,
+          "actualStart": 1070.4654170000001,
+          "actualEnd": 1279.191209,
+          "timeDifference": 7.495417000000089
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Moral Limits of Markets",
+          "expectedStart": 1271.7,
+          "expectedEnd": 1443.95,
+          "actualStart": 1280.691209,
+          "actualEnd": 1452.945917,
+          "timeDifference": 8.991209000000026
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Community, Loyalty, and the Bonds That Shape Us",
+          "expectedStart": 1443.95,
+          "expectedEnd": 1614.95,
+          "actualStart": 1454.445917,
+          "actualEnd": 1625.442792,
+          "timeDifference": 10.495916999999963
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Justice and the Challenge of Pluralism",
+          "expectedStart": 1614.95,
+          "expectedEnd": 1793.64,
+          "actualStart": 1626.942792,
+          "actualEnd": 1805.631084,
+          "timeDifference": 11.992792000000009
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Civic Virtue and the Good Life",
+          "expectedStart": 1793.64,
+          "expectedEnd": 1936.66,
+          "actualStart": 1807.131084,
+          "actualEnd": 1950.1533760000002,
+          "timeDifference": 13.491084
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Justice, Reason, and the Art of Public Disagreement",
+          "expectedStart": 1936.66,
+          "expectedEnd": 2120.17,
+          "actualStart": 1951.6533760000002,
+          "actualEnd": 2135.166293,
+          "timeDifference": 14.993376000000126
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2120.17,
+          "expectedEnd": 2265.17,
+          "actualStart": 2136.666293,
+          "actualEnd": 2281.669001,
+          "timeDifference": 16.49629300000015
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.55725,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Everyday Dilemmas and the Search for Fairness"
+        },
+        {
+          "startTime": 359.282625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Everyday Dilemmas and the Search for Fairness and Chapter 2 The Promise and Limits of Maximizing Happiness"
+        },
+        {
+          "startTime": 614.7675830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Promise and Limits of Maximizing Happiness and Chapter 3 Freedom, Rights, and the Boundaries of Choice"
+        },
+        {
+          "startTime": 846.3636250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Freedom, Rights, and the Boundaries of Choice and Chapter 4 Duty, Respect, and the Value of Persons"
+        },
+        {
+          "startTime": 1068.9654170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Duty, Respect, and the Value of Persons and Chapter 5 Fairness, Equality, and the Social Contract"
+        },
+        {
+          "startTime": 1279.191209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Fairness, Equality, and the Social Contract and Chapter 6 The Moral Limits of Markets"
+        },
+        {
+          "startTime": 1452.945917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Moral Limits of Markets and Chapter 7 Community, Loyalty, and the Bonds That Shape Us"
+        },
+        {
+          "startTime": 1625.442792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Community, Loyalty, and the Bonds That Shape Us and Chapter 8 Justice and the Challenge of Pluralism"
+        },
+        {
+          "startTime": 1805.631084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Justice and the Challenge of Pluralism and Chapter 9 Civic Virtue and the Good Life"
+        },
+        {
+          "startTime": 1950.1533760000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Civic Virtue and the Good Life and Chapter 10 Justice, Reason, and the Art of Public Disagreement"
+        },
+        {
+          "startTime": 2135.166293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Justice, Reason, and the Art of Public Disagreement and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1677",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T05:43:05.220Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

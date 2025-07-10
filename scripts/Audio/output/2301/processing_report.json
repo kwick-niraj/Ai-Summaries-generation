@@ -1,0 +1,456 @@
+{
+  "bookId": "2301",
+  "timestamp": "2025-07-10T10:55:55.243Z",
+  "success": false,
+  "processingTime": -1752144703017,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3755,
+    "totalAudioFiles": 12,
+    "totalDuration": 1898.181292
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1898.181292
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2301/optimized_text/2301.md",
+    "fileSize": 776,
+    "wordCount": 97,
+    "format": "markdown",
+    "filename": "2301.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2301/metadata/2301_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1898.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2301/metadata/2301_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2301/metadata/2301_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2301/2301_complete.wav",
+    "duration": 1898.181292,
+    "fileSize": 91112780,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2301/introduction.wav",
+          "duration": 104.319167,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 104.319167,
+          "startTime": 0,
+          "endTime": 104.319167
+        },
+        {
+          "path": "Audio/output/2301/chapter_01.wav",
+          "duration": 185.722083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding the Mind’s Two Parts and Their Roles in Daily Life",
+          "actualDuration": 185.722083,
+          "startTime": 105.819167,
+          "endTime": 291.54125
+        },
+        {
+          "path": "Audio/output/2301/chapter_02.wav",
+          "duration": 179.186292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Engrams Form and Shape Behavior",
+          "actualDuration": 179.186292,
+          "startTime": 293.04125,
+          "endTime": 472.22754199999997
+        },
+        {
+          "path": "Audio/output/2301/chapter_03.wav",
+          "duration": 223.231292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Path to Self-Healing—Auditing and the Process of Recall",
+          "actualDuration": 223.231292,
+          "startTime": 473.72754199999997,
+          "endTime": 696.958834
+        },
+        {
+          "path": "Audio/output/2301/chapter_04.wav",
+          "duration": 168.099875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Achieving the State of Clear—Freedom from the Reactive Mind",
+          "actualDuration": 168.099875,
+          "startTime": 698.458834,
+          "endTime": 866.558709
+        },
+        {
+          "path": "Audio/output/2301/chapter_05.wav",
+          "duration": 160.665917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Broader Impact—Dianetics as a Universal Approach to Well-Being",
+          "actualDuration": 160.665917,
+          "startTime": 868.058709,
+          "endTime": 1028.724626
+        },
+        {
+          "path": "Audio/output/2301/chapter_06.wav",
+          "duration": 154.746333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Deepening the Practice—Advanced Auditing Techniques and Self-Application",
+          "actualDuration": 154.746333,
+          "startTime": 1030.224626,
+          "endTime": 1184.970959
+        },
+        {
+          "path": "Audio/output/2301/chapter_07.wav",
+          "duration": 158.874375,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Common Challenges and Misconceptions",
+          "actualDuration": 158.874375,
+          "startTime": 1186.470959,
+          "endTime": 1345.345334
+        },
+        {
+          "path": "Audio/output/2301/chapter_08.wav",
+          "duration": 152.840917,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating the Framework into Daily Life",
+          "actualDuration": 152.840917,
+          "startTime": 1346.845334,
+          "endTime": 1499.686251
+        },
+        {
+          "path": "Audio/output/2301/chapter_09.wav",
+          "duration": 138.721833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Extending the Benefits—Relationships, Work, and Community",
+          "actualDuration": 138.721833,
+          "startTime": 1501.186251,
+          "endTime": 1639.9080840000001
+        },
+        {
+          "path": "Audio/output/2301/chapter_10.wav",
+          "duration": 133.02075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Growth—Lifelong Learning and the Ongoing Journey",
+          "actualDuration": 133.02075,
+          "startTime": 1641.4080840000001,
+          "endTime": 1774.428834
+        },
+        {
+          "path": "Audio/output/2301/conclusion.wav",
+          "duration": 138.752458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.752458,
+          "startTime": 1775.928834,
+          "endTime": 1914.681292
+        }
+      ],
+      "totalDuration": 1914.681292,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 104.32,
+          "actualStart": 0,
+          "actualEnd": 104.319167,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding the Mind’s Two Parts and Their Roles in Daily Life",
+          "expectedStart": 104.32,
+          "expectedEnd": 290.04,
+          "actualStart": 105.819167,
+          "actualEnd": 291.54125,
+          "timeDifference": 1.499167
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Engrams Form and Shape Behavior",
+          "expectedStart": 290.04,
+          "expectedEnd": 469.23,
+          "actualStart": 293.04125,
+          "actualEnd": 472.22754199999997,
+          "timeDifference": 3.0012499999999704
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Path to Self-Healing—Auditing and the Process of Recall",
+          "expectedStart": 469.23,
+          "expectedEnd": 692.46,
+          "actualStart": 473.72754199999997,
+          "actualEnd": 696.958834,
+          "timeDifference": 4.497541999999953
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Achieving the State of Clear—Freedom from the Reactive Mind",
+          "expectedStart": 692.46,
+          "expectedEnd": 860.56,
+          "actualStart": 698.458834,
+          "actualEnd": 866.558709,
+          "timeDifference": 5.998833999999988
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Broader Impact—Dianetics as a Universal Approach to Well-Being",
+          "expectedStart": 860.56,
+          "expectedEnd": 1021.23,
+          "actualStart": 868.058709,
+          "actualEnd": 1028.724626,
+          "timeDifference": 7.498709000000076
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Deepening the Practice—Advanced Auditing Techniques and Self-Application",
+          "expectedStart": 1021.23,
+          "expectedEnd": 1175.98,
+          "actualStart": 1030.224626,
+          "actualEnd": 1184.970959,
+          "timeDifference": 8.994625999999926
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Common Challenges and Misconceptions",
+          "expectedStart": 1175.98,
+          "expectedEnd": 1334.85,
+          "actualStart": 1186.470959,
+          "actualEnd": 1345.345334,
+          "timeDifference": 10.490958999999975
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating the Framework into Daily Life",
+          "expectedStart": 1334.85,
+          "expectedEnd": 1487.69,
+          "actualStart": 1346.845334,
+          "actualEnd": 1499.686251,
+          "timeDifference": 11.995334000000184
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Extending the Benefits—Relationships, Work, and Community",
+          "expectedStart": 1487.69,
+          "expectedEnd": 1626.41,
+          "actualStart": 1501.186251,
+          "actualEnd": 1639.9080840000001,
+          "timeDifference": 13.49625100000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Growth—Lifelong Learning and the Ongoing Journey",
+          "expectedStart": 1626.41,
+          "expectedEnd": 1759.43,
+          "actualStart": 1641.4080840000001,
+          "actualEnd": 1774.428834,
+          "timeDifference": 14.998084000000063
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1759.43,
+          "expectedEnd": 1898.18,
+          "actualStart": 1775.928834,
+          "actualEnd": 1914.681292,
+          "timeDifference": 16.498833999999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 104.319167,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding the Mind’s Two Parts and Their Roles in Daily Life"
+        },
+        {
+          "startTime": 291.54125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding the Mind’s Two Parts and Their Roles in Daily Life and Chapter 2 How Engrams Form and Shape Behavior"
+        },
+        {
+          "startTime": 472.22754199999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Engrams Form and Shape Behavior and Chapter 3 The Path to Self-Healing—Auditing and the Process of Recall"
+        },
+        {
+          "startTime": 696.958834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Path to Self-Healing—Auditing and the Process of Recall and Chapter 4 Achieving the State of Clear—Freedom from the Reactive Mind"
+        },
+        {
+          "startTime": 866.558709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Achieving the State of Clear—Freedom from the Reactive Mind and Chapter 5 The Broader Impact—Dianetics as a Universal Approach to Well-Being"
+        },
+        {
+          "startTime": 1028.724626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Broader Impact—Dianetics as a Universal Approach to Well-Being and Chapter 6 Deepening the Practice—Advanced Auditing Techniques and Self-Application"
+        },
+        {
+          "startTime": 1184.970959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Deepening the Practice—Advanced Auditing Techniques and Self-Application and Chapter 7 Navigating Common Challenges and Misconceptions"
+        },
+        {
+          "startTime": 1345.345334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Common Challenges and Misconceptions and Chapter 8 Integrating the Framework into Daily Life"
+        },
+        {
+          "startTime": 1499.686251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating the Framework into Daily Life and Chapter 9 Extending the Benefits—Relationships, Work, and Community"
+        },
+        {
+          "startTime": 1639.9080840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Extending the Benefits—Relationships, Work, and Community and Chapter 10 Sustaining Growth—Lifelong Learning and the Ongoing Journey"
+        },
+        {
+          "startTime": 1774.428834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Growth—Lifelong Learning and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2301",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:51:43.519Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

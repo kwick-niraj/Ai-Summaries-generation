@@ -1,0 +1,456 @@
+{
+  "bookId": "2333",
+  "timestamp": "2025-07-10T12:45:28.257Z",
+  "success": false,
+  "processingTime": -1752151254682,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4331,
+    "totalAudioFiles": 12,
+    "totalDuration": 2032.3485420000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2032.3485420000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2333/optimized_text/2333.md",
+    "fileSize": 540,
+    "wordCount": 76,
+    "format": "markdown",
+    "filename": "2333.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2333/metadata/2333_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2032.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2333/metadata/2333_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2333/metadata/2333_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2333/2333_complete.wav",
+    "duration": 2032.348542,
+    "fileSize": 97552808,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2333/introduction.wav",
+          "duration": 85.820875,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.820875,
+          "startTime": 0,
+          "endTime": 85.820875
+        },
+        {
+          "path": "Audio/output/2333/chapter_01.wav",
+          "duration": 245.256917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Loneliness Feels Like the Only Companion",
+          "actualDuration": 245.256917,
+          "startTime": 87.320875,
+          "endTime": 332.577792
+        },
+        {
+          "path": "Audio/output/2333/chapter_02.wav",
+          "duration": 220.764917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Hidden Power of Sharing Struggles",
+          "actualDuration": 220.764917,
+          "startTime": 334.077792,
+          "endTime": 554.842709
+        },
+        {
+          "path": "Audio/output/2333/chapter_03.wav",
+          "duration": 208.897875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Finding Strength in Asking for Help",
+          "actualDuration": 208.897875,
+          "startTime": 556.342709,
+          "endTime": 765.240584
+        },
+        {
+          "path": "Audio/output/2333/chapter_04.wav",
+          "duration": 200.580833,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Hope in the Darkest Moments",
+          "actualDuration": 200.580833,
+          "startTime": 766.740584,
+          "endTime": 967.321417
+        },
+        {
+          "path": "Audio/output/2333/chapter_05.wav",
+          "duration": 196.206833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Value of Every Story",
+          "actualDuration": 196.206833,
+          "startTime": 968.821417,
+          "endTime": 1165.02825
+        },
+        {
+          "path": "Audio/output/2333/chapter_06.wav",
+          "duration": 160.518292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Quiet Work of Reaching Out",
+          "actualDuration": 160.518292,
+          "startTime": 1166.52825,
+          "endTime": 1327.046542
+        },
+        {
+          "path": "Audio/output/2333/chapter_07.wav",
+          "duration": 163.504708,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Healing Power of Listening",
+          "actualDuration": 163.504708,
+          "startTime": 1328.546542,
+          "endTime": 1492.05125
+        },
+        {
+          "path": "Audio/output/2333/chapter_08.wav",
+          "duration": 156.540042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building New Circles of Belonging",
+          "actualDuration": 156.540042,
+          "startTime": 1493.55125,
+          "endTime": 1650.091292
+        },
+        {
+          "path": "Audio/output/2333/chapter_09.wav",
+          "duration": 143.242,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Setbacks and Disappointments",
+          "actualDuration": 143.242,
+          "startTime": 1651.591292,
+          "endTime": 1794.833292
+        },
+        {
+          "path": "Audio/output/2333/chapter_10.wav",
+          "duration": 118.649167,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey Toward Connection",
+          "actualDuration": 118.649167,
+          "startTime": 1796.333292,
+          "endTime": 1914.982459
+        },
+        {
+          "path": "Audio/output/2333/conclusion.wav",
+          "duration": 132.366083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 132.366083,
+          "startTime": 1916.482459,
+          "endTime": 2048.848542
+        }
+      ],
+      "totalDuration": 2048.848542,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.82,
+          "actualStart": 0,
+          "actualEnd": 85.820875,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Loneliness Feels Like the Only Companion",
+          "expectedStart": 85.82,
+          "expectedEnd": 331.08,
+          "actualStart": 87.320875,
+          "actualEnd": 332.577792,
+          "timeDifference": 1.5008750000000077
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Hidden Power of Sharing Struggles",
+          "expectedStart": 331.08,
+          "expectedEnd": 551.84,
+          "actualStart": 334.077792,
+          "actualEnd": 554.842709,
+          "timeDifference": 2.997792000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Finding Strength in Asking for Help",
+          "expectedStart": 551.84,
+          "expectedEnd": 760.74,
+          "actualStart": 556.342709,
+          "actualEnd": 765.240584,
+          "timeDifference": 4.502708999999982
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Hope in the Darkest Moments",
+          "expectedStart": 760.74,
+          "expectedEnd": 961.32,
+          "actualStart": 766.740584,
+          "actualEnd": 967.321417,
+          "timeDifference": 6.0005840000000035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Value of Every Story",
+          "expectedStart": 961.32,
+          "expectedEnd": 1157.53,
+          "actualStart": 968.821417,
+          "actualEnd": 1165.02825,
+          "timeDifference": 7.501416999999947
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Quiet Work of Reaching Out",
+          "expectedStart": 1157.53,
+          "expectedEnd": 1318.05,
+          "actualStart": 1166.52825,
+          "actualEnd": 1327.046542,
+          "timeDifference": 8.998250000000098
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Healing Power of Listening",
+          "expectedStart": 1318.05,
+          "expectedEnd": 1481.55,
+          "actualStart": 1328.546542,
+          "actualEnd": 1492.05125,
+          "timeDifference": 10.49654200000009
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building New Circles of Belonging",
+          "expectedStart": 1481.55,
+          "expectedEnd": 1638.09,
+          "actualStart": 1493.55125,
+          "actualEnd": 1650.091292,
+          "timeDifference": 12.001250000000027
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Setbacks and Disappointments",
+          "expectedStart": 1638.09,
+          "expectedEnd": 1781.33,
+          "actualStart": 1651.591292,
+          "actualEnd": 1794.833292,
+          "timeDifference": 13.501292000000149
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey Toward Connection",
+          "expectedStart": 1781.33,
+          "expectedEnd": 1899.98,
+          "actualStart": 1796.333292,
+          "actualEnd": 1914.982459,
+          "timeDifference": 15.003292000000101
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1899.98,
+          "expectedEnd": 2032.35,
+          "actualStart": 1916.482459,
+          "actualEnd": 2048.848542,
+          "timeDifference": 16.502459000000044
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.820875,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Loneliness Feels Like the Only Companion"
+        },
+        {
+          "startTime": 332.577792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Loneliness Feels Like the Only Companion and Chapter 2 The Hidden Power of Sharing Struggles"
+        },
+        {
+          "startTime": 554.842709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Hidden Power of Sharing Struggles and Chapter 3 Finding Strength in Asking for Help"
+        },
+        {
+          "startTime": 765.240584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Finding Strength in Asking for Help and Chapter 4 Hope in the Darkest Moments"
+        },
+        {
+          "startTime": 967.321417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Hope in the Darkest Moments and Chapter 5 The Value of Every Story"
+        },
+        {
+          "startTime": 1165.02825,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Value of Every Story and Chapter 6 The Quiet Work of Reaching Out"
+        },
+        {
+          "startTime": 1327.046542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Quiet Work of Reaching Out and Chapter 7 The Healing Power of Listening"
+        },
+        {
+          "startTime": 1492.05125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Healing Power of Listening and Chapter 8 Building New Circles of Belonging"
+        },
+        {
+          "startTime": 1650.091292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building New Circles of Belonging and Chapter 9 Navigating Setbacks and Disappointments"
+        },
+        {
+          "startTime": 1794.833292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Setbacks and Disappointments and Chapter 10 The Ongoing Journey Toward Connection"
+        },
+        {
+          "startTime": 1914.982459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey Toward Connection and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2333",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:40:56.172Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

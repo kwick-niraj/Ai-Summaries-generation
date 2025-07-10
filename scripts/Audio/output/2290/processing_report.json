@@ -1,0 +1,456 @@
+{
+  "bookId": "2290",
+  "timestamp": "2025-07-10T10:31:55.504Z",
+  "success": false,
+  "processingTime": -1752143246741,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4387,
+    "totalAudioFiles": 12,
+    "totalDuration": 1975.5518319999999
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1975.5518319999999
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2290/optimized_text/2290.md",
+    "fileSize": 672,
+    "wordCount": 91,
+    "format": "markdown",
+    "filename": "2290.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2290/metadata/2290_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1975.56,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2290/metadata/2290_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2290/metadata/2290_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2290/2290_complete.wav",
+    "duration": 1975.551833,
+    "fileSize": 94826566,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2290/introduction.wav",
+          "duration": 94.141583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.141583,
+          "startTime": 0,
+          "endTime": 94.141583
+        },
+        {
+          "path": "Audio/output/2290/chapter_01.wav",
+          "duration": 180.084375,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Trustworthy Guidance in Everyday Life",
+          "actualDuration": 180.084375,
+          "startTime": 95.641583,
+          "endTime": 275.725958
+        },
+        {
+          "path": "Audio/output/2290/chapter_02.wav",
+          "duration": 188.038458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Traditions Shape Law and Daily Practice",
+          "actualDuration": 188.038458,
+          "startTime": 277.225958,
+          "endTime": 465.264416
+        },
+        {
+          "path": "Audio/output/2290/chapter_03.wav",
+          "duration": 219.329458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Art of Verifying Stories and Building Trust",
+          "actualDuration": 219.329458,
+          "startTime": 466.764416,
+          "endTime": 686.0938739999999
+        },
+        {
+          "path": "Audio/output/2290/chapter_04.wav",
+          "duration": 196.672,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Living the Sunnah—Faith in Action",
+          "actualDuration": 196.672,
+          "startTime": 687.5938739999999,
+          "endTime": 884.2658739999999
+        },
+        {
+          "path": "Audio/output/2290/chapter_05.wav",
+          "duration": 180.281208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Differences and Embracing Diversity in Practice",
+          "actualDuration": 180.281208,
+          "startTime": 885.7658739999999,
+          "endTime": 1066.047082
+        },
+        {
+          "path": "Audio/output/2290/chapter_06.wav",
+          "duration": 155.479083,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Heart of Intention—Why Actions Begin Within",
+          "actualDuration": 155.479083,
+          "startTime": 1067.547082,
+          "endTime": 1223.026165
+        },
+        {
+          "path": "Audio/output/2290/chapter_07.wav",
+          "duration": 168.275,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Mercy and Forgiveness—The Gentle Core of Law",
+          "actualDuration": 168.275,
+          "startTime": 1224.526165,
+          "endTime": 1392.801165
+        },
+        {
+          "path": "Audio/output/2290/chapter_08.wav",
+          "duration": 145.77525,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Role of Women—Voices, Rights, and Dignity",
+          "actualDuration": 145.77525,
+          "startTime": 1394.301165,
+          "endTime": 1540.076415
+        },
+        {
+          "path": "Audio/output/2290/chapter_09.wav",
+          "duration": 146.146167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Wealth, Charity, and the Ethics of Earning",
+          "actualDuration": 146.146167,
+          "startTime": 1541.576415,
+          "endTime": 1687.7225819999999
+        },
+        {
+          "path": "Audio/output/2290/chapter_10.wav",
+          "duration": 155.685833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Enduring Relevance—Tradition in a Changing World",
+          "actualDuration": 155.685833,
+          "startTime": 1689.2225819999999,
+          "endTime": 1844.9084149999999
+        },
+        {
+          "path": "Audio/output/2290/conclusion.wav",
+          "duration": 145.643417,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 145.643417,
+          "startTime": 1846.4084149999999,
+          "endTime": 1992.0518319999999
+        }
+      ],
+      "totalDuration": 1992.0518319999999,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.14,
+          "actualStart": 0,
+          "actualEnd": 94.141583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Trustworthy Guidance in Everyday Life",
+          "expectedStart": 94.14,
+          "expectedEnd": 274.22,
+          "actualStart": 95.641583,
+          "actualEnd": 275.725958,
+          "timeDifference": 1.5015829999999966
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Traditions Shape Law and Daily Practice",
+          "expectedStart": 274.22,
+          "expectedEnd": 462.26,
+          "actualStart": 277.225958,
+          "actualEnd": 465.264416,
+          "timeDifference": 3.005957999999964
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Art of Verifying Stories and Building Trust",
+          "expectedStart": 462.26,
+          "expectedEnd": 681.59,
+          "actualStart": 466.764416,
+          "actualEnd": 686.0938739999999,
+          "timeDifference": 4.504415999999992
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Living the Sunnah—Faith in Action",
+          "expectedStart": 681.59,
+          "expectedEnd": 878.26,
+          "actualStart": 687.5938739999999,
+          "actualEnd": 884.2658739999999,
+          "timeDifference": 6.0038739999998825
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Differences and Embracing Diversity in Practice",
+          "expectedStart": 878.26,
+          "expectedEnd": 1058.54,
+          "actualStart": 885.7658739999999,
+          "actualEnd": 1066.047082,
+          "timeDifference": 7.505873999999949
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Heart of Intention—Why Actions Begin Within",
+          "expectedStart": 1058.54,
+          "expectedEnd": 1214.02,
+          "actualStart": 1067.547082,
+          "actualEnd": 1223.026165,
+          "timeDifference": 9.007082000000082
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Mercy and Forgiveness—The Gentle Core of Law",
+          "expectedStart": 1214.02,
+          "expectedEnd": 1382.3,
+          "actualStart": 1224.526165,
+          "actualEnd": 1392.801165,
+          "timeDifference": 10.50616500000001
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Role of Women—Voices, Rights, and Dignity",
+          "expectedStart": 1382.3,
+          "expectedEnd": 1528.08,
+          "actualStart": 1394.301165,
+          "actualEnd": 1540.076415,
+          "timeDifference": 12.001165000000128
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Wealth, Charity, and the Ethics of Earning",
+          "expectedStart": 1528.08,
+          "expectedEnd": 1674.23,
+          "actualStart": 1541.576415,
+          "actualEnd": 1687.7225819999999,
+          "timeDifference": 13.49641500000007
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Enduring Relevance—Tradition in a Changing World",
+          "expectedStart": 1674.23,
+          "expectedEnd": 1829.92,
+          "actualStart": 1689.2225819999999,
+          "actualEnd": 1844.9084149999999,
+          "timeDifference": 14.992581999999857
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1829.92,
+          "expectedEnd": 1975.56,
+          "actualStart": 1846.4084149999999,
+          "actualEnd": 1992.0518319999999,
+          "timeDifference": 16.488414999999804
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.141583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Trustworthy Guidance in Everyday Life"
+        },
+        {
+          "startTime": 275.725958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Trustworthy Guidance in Everyday Life and Chapter 2 How Traditions Shape Law and Daily Practice"
+        },
+        {
+          "startTime": 465.264416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Traditions Shape Law and Daily Practice and Chapter 3 The Art of Verifying Stories and Building Trust"
+        },
+        {
+          "startTime": 686.0938739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Art of Verifying Stories and Building Trust and Chapter 4 Living the Sunnah—Faith in Action"
+        },
+        {
+          "startTime": 884.2658739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Living the Sunnah—Faith in Action and Chapter 5 Navigating Differences and Embracing Diversity in Practice"
+        },
+        {
+          "startTime": 1066.047082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Differences and Embracing Diversity in Practice and Chapter 6 The Heart of Intention—Why Actions Begin Within"
+        },
+        {
+          "startTime": 1223.026165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Heart of Intention—Why Actions Begin Within and Chapter 7 Mercy and Forgiveness—The Gentle Core of Law"
+        },
+        {
+          "startTime": 1392.801165,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Mercy and Forgiveness—The Gentle Core of Law and Chapter 8 The Role of Women—Voices, Rights, and Dignity"
+        },
+        {
+          "startTime": 1540.076415,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Role of Women—Voices, Rights, and Dignity and Chapter 9 Wealth, Charity, and the Ethics of Earning"
+        },
+        {
+          "startTime": 1687.7225819999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Wealth, Charity, and the Ethics of Earning and Chapter 10 Enduring Relevance—Tradition in a Changing World"
+        },
+        {
+          "startTime": 1844.9084149999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Enduring Relevance—Tradition in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2290",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Tone match (+4) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:27:27.250Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

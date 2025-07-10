@@ -1,0 +1,504 @@
+{
+  "bookId": "1975",
+  "timestamp": "2025-07-09T06:00:11.336Z",
+  "success": false,
+  "processingTime": -1752040039804,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5273,
+    "totalAudioFiles": 14,
+    "totalDuration": 2666.924583
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2666.924583
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1975/optimized_text/1975.md",
+    "fileSize": 822,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "1975.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1975/metadata/1975_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2666.91,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1975/metadata/1975_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1975/metadata/1975_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1975/1975_complete.wav",
+    "duration": 2666.924583,
+    "fileSize": 128012458,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1975/introduction.wav",
+          "duration": 94.0065,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 94.0065,
+          "startTime": 0,
+          "endTime": 94.0065
+        },
+        {
+          "path": "Audio/output/1975/chapter_01.wav",
+          "duration": 294.173333,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Roots of Western Thought and the Search for Meaning",
+          "actualDuration": 294.173333,
+          "startTime": 95.5065,
+          "endTime": 389.67983300000003
+        },
+        {
+          "path": "Audio/output/1975/chapter_02.wav",
+          "duration": 250.623917,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Plato’s Vision of Reality and the Power of Ideas",
+          "actualDuration": 250.623917,
+          "startTime": 391.17983300000003,
+          "endTime": 641.80375
+        },
+        {
+          "path": "Audio/output/1975/chapter_03.wav",
+          "duration": 249.265167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Aristotle’s Practical Wisdom and the Foundations of Science",
+          "actualDuration": 249.265167,
+          "startTime": 643.30375,
+          "endTime": 892.568917
+        },
+        {
+          "path": "Audio/output/1975/chapter_04.wav",
+          "duration": 245.567958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Rise of Reason and the Challenge of Doubt",
+          "actualDuration": 245.567958,
+          "startTime": 894.068917,
+          "endTime": 1139.6368750000001
+        },
+        {
+          "path": "Audio/output/1975/chapter_05.wav",
+          "duration": 208.790125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Enlightenment, Revolution, and the Promise of Progress",
+          "actualDuration": 208.790125,
+          "startTime": 1141.1368750000001,
+          "endTime": 1349.9270000000001
+        },
+        {
+          "path": "Audio/output/1975/chapter_06.wav",
+          "duration": 217.266333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Age of Doubt and the Birth of the Modern Self",
+          "actualDuration": 217.266333,
+          "startTime": 1351.4270000000001,
+          "endTime": 1568.6933330000002
+        },
+        {
+          "path": "Audio/output/1975/chapter_07.wav",
+          "duration": 222.083917,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Rise of Science and the Limits of Knowledge",
+          "actualDuration": 222.083917,
+          "startTime": 1570.1933330000002,
+          "endTime": 1792.27725
+        },
+        {
+          "path": "Audio/output/1975/chapter_08.wav",
+          "duration": 188.874792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Existentialism and the Courage to Be",
+          "actualDuration": 188.874792,
+          "startTime": 1793.77725,
+          "endTime": 1982.6520420000002
+        },
+        {
+          "path": "Audio/output/1975/chapter_09.wav",
+          "duration": 180.785208,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Justice, Equality, and the Struggle for a Better World",
+          "actualDuration": 180.785208,
+          "startTime": 1984.1520420000002,
+          "endTime": 2164.93725
+        },
+        {
+          "path": "Audio/output/1975/chapter_10.wav",
+          "duration": 164.433833,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Mind, Consciousness, and the Mystery of Being",
+          "actualDuration": 164.433833,
+          "startTime": 2166.43725,
+          "endTime": 2330.871083
+        },
+        {
+          "path": "Audio/output/1975/chapter_11.wav",
+          "duration": 119.685,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Global Conversation and the Wisdom of Many Traditions",
+          "actualDuration": 119.685,
+          "startTime": 2332.371083,
+          "endTime": 2452.056083
+        },
+        {
+          "path": "Audio/output/1975/chapter_12.wav",
+          "duration": 90.824667,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 The Ongoing Search for Meaning",
+          "actualDuration": 90.824667,
+          "startTime": 2453.556083,
+          "endTime": 2544.38075
+        },
+        {
+          "path": "Audio/output/1975/conclusion.wav",
+          "duration": 140.543833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 140.543833,
+          "startTime": 2545.88075,
+          "endTime": 2686.424583
+        }
+      ],
+      "totalDuration": 2686.424583,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 94.01,
+          "actualStart": 0,
+          "actualEnd": 94.0065,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Roots of Western Thought and the Search for Meaning",
+          "expectedStart": 94.01,
+          "expectedEnd": 388.18,
+          "actualStart": 95.5065,
+          "actualEnd": 389.67983300000003,
+          "timeDifference": 1.4964999999999975
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Plato’s Vision of Reality and the Power of Ideas",
+          "expectedStart": 388.18,
+          "expectedEnd": 638.8,
+          "actualStart": 391.17983300000003,
+          "actualEnd": 641.80375,
+          "timeDifference": 2.9998330000000237
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Aristotle’s Practical Wisdom and the Foundations of Science",
+          "expectedStart": 638.8,
+          "expectedEnd": 888.07,
+          "actualStart": 643.30375,
+          "actualEnd": 892.568917,
+          "timeDifference": 4.503750000000082
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Rise of Reason and the Challenge of Doubt",
+          "expectedStart": 888.07,
+          "expectedEnd": 1133.64,
+          "actualStart": 894.068917,
+          "actualEnd": 1139.6368750000001,
+          "timeDifference": 5.998917000000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Enlightenment, Revolution, and the Promise of Progress",
+          "expectedStart": 1133.64,
+          "expectedEnd": 1342.43,
+          "actualStart": 1141.1368750000001,
+          "actualEnd": 1349.9270000000001,
+          "timeDifference": 7.4968750000000455
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Age of Doubt and the Birth of the Modern Self",
+          "expectedStart": 1342.43,
+          "expectedEnd": 1559.7,
+          "actualStart": 1351.4270000000001,
+          "actualEnd": 1568.6933330000002,
+          "timeDifference": 8.997000000000071
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Rise of Science and the Limits of Knowledge",
+          "expectedStart": 1559.7,
+          "expectedEnd": 1781.78,
+          "actualStart": 1570.1933330000002,
+          "actualEnd": 1792.27725,
+          "timeDifference": 10.49333300000012
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Existentialism and the Courage to Be",
+          "expectedStart": 1781.78,
+          "expectedEnd": 1970.65,
+          "actualStart": 1793.77725,
+          "actualEnd": 1982.6520420000002,
+          "timeDifference": 11.997250000000122
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Justice, Equality, and the Struggle for a Better World",
+          "expectedStart": 1970.65,
+          "expectedEnd": 2151.44,
+          "actualStart": 1984.1520420000002,
+          "actualEnd": 2164.93725,
+          "timeDifference": 13.502042000000074
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Mind, Consciousness, and the Mystery of Being",
+          "expectedStart": 2151.44,
+          "expectedEnd": 2315.87,
+          "actualStart": 2166.43725,
+          "actualEnd": 2330.871083,
+          "timeDifference": 14.997249999999894
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Global Conversation and the Wisdom of Many Traditions",
+          "expectedStart": 2315.87,
+          "expectedEnd": 2435.55,
+          "actualStart": 2332.371083,
+          "actualEnd": 2452.056083,
+          "timeDifference": 16.501083000000108
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 The Ongoing Search for Meaning",
+          "expectedStart": 2435.55,
+          "expectedEnd": 2526.37,
+          "actualStart": 2453.556083,
+          "actualEnd": 2544.38075,
+          "timeDifference": 18.006082999999762
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2526.37,
+          "expectedEnd": 2666.91,
+          "actualStart": 2545.88075,
+          "actualEnd": 2686.424583,
+          "timeDifference": 19.510749999999916
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 94.0065,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Roots of Western Thought and the Search for Meaning"
+        },
+        {
+          "startTime": 389.67983300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Roots of Western Thought and the Search for Meaning and Chapter 2 Plato’s Vision of Reality and the Power of Ideas"
+        },
+        {
+          "startTime": 641.80375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Plato’s Vision of Reality and the Power of Ideas and Chapter 3 Aristotle’s Practical Wisdom and the Foundations of Science"
+        },
+        {
+          "startTime": 892.568917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Aristotle’s Practical Wisdom and the Foundations of Science and Chapter 4 The Rise of Reason and the Challenge of Doubt"
+        },
+        {
+          "startTime": 1139.6368750000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Rise of Reason and the Challenge of Doubt and Chapter 5 Enlightenment, Revolution, and the Promise of Progress"
+        },
+        {
+          "startTime": 1349.9270000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Enlightenment, Revolution, and the Promise of Progress and Chapter 6 The Age of Doubt and the Birth of the Modern Self"
+        },
+        {
+          "startTime": 1568.6933330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Age of Doubt and the Birth of the Modern Self and Chapter 7 The Rise of Science and the Limits of Knowledge"
+        },
+        {
+          "startTime": 1792.27725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Rise of Science and the Limits of Knowledge and Chapter 8 Existentialism and the Courage to Be"
+        },
+        {
+          "startTime": 1982.6520420000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Existentialism and the Courage to Be and Chapter 9 Justice, Equality, and the Struggle for a Better World"
+        },
+        {
+          "startTime": 2164.93725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Justice, Equality, and the Struggle for a Better World and Chapter 10 Mind, Consciousness, and the Mystery of Being"
+        },
+        {
+          "startTime": 2330.871083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Mind, Consciousness, and the Mystery of Being and Chapter 11 The Global Conversation and the Wisdom of Many Traditions"
+        },
+        {
+          "startTime": 2452.056083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Global Conversation and the Wisdom of Many Traditions and Chapter 12 The Ongoing Search for Meaning"
+        },
+        {
+          "startTime": 2544.38075,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 The Ongoing Search for Meaning and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1975",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T05:47:21.004Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2127",
+  "timestamp": "2025-07-09T20:51:34.889Z",
+  "success": false,
+  "processingTime": -1752093911017,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4135,
+    "totalAudioFiles": 12,
+    "totalDuration": 2253.834666
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2253.834666
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2127/optimized_text/2127.md",
+    "fileSize": 813,
+    "wordCount": 106,
+    "format": "markdown",
+    "filename": "2127.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2127/metadata/2127_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2253.84,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2127/metadata/2127_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2127/metadata/2127_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2127/2127_complete.wav",
+    "duration": 2253.834667,
+    "fileSize": 108184142,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2127/introduction.wav",
+          "duration": 110.348083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 110.348083,
+          "startTime": 0,
+          "endTime": 110.348083
+        },
+        {
+          "path": "Audio/output/2127/chapter_01.wav",
+          "duration": 218.993833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Building a Foundation—Mindset, Myths, and the Power of Small Steps",
+          "actualDuration": 218.993833,
+          "startTime": 111.848083,
+          "endTime": 330.84191599999997
+        },
+        {
+          "path": "Audio/output/2127/chapter_02.wav",
+          "duration": 209.688458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Setting Up the Right Accounts—The Architecture of a Simple Financial System",
+          "actualDuration": 209.688458,
+          "startTime": 332.34191599999997,
+          "endTime": 542.0303739999999
+        },
+        {
+          "path": "Audio/output/2127/chapter_03.wav",
+          "duration": 211.241583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Automating Finances—Letting Systems Do the Heavy Lifting",
+          "actualDuration": 211.241583,
+          "startTime": 543.5303739999999,
+          "endTime": 754.7719569999999
+        },
+        {
+          "path": "Audio/output/2127/chapter_04.wav",
+          "duration": 215.971708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Conscious Spending—Enjoying Life While Staying on Track",
+          "actualDuration": 215.971708,
+          "startTime": 756.2719569999999,
+          "endTime": 972.243665
+        },
+        {
+          "path": "Audio/output/2127/chapter_05.wav",
+          "duration": 204.719417,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Mastering Credit—Using Cards as Tools, Not Traps",
+          "actualDuration": 204.719417,
+          "startTime": 973.743665,
+          "endTime": 1178.463082
+        },
+        {
+          "path": "Audio/output/2127/chapter_06.wav",
+          "duration": 202.031125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Investing Made Simple—Growing Wealth for the Long Term",
+          "actualDuration": 202.031125,
+          "startTime": 1179.963082,
+          "endTime": 1381.994207
+        },
+        {
+          "path": "Audio/output/2127/chapter_07.wav",
+          "duration": 187.78825,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Art of Negotiation—Earning More and Paying Less",
+          "actualDuration": 187.78825,
+          "startTime": 1383.494207,
+          "endTime": 1571.282457
+        },
+        {
+          "path": "Audio/output/2127/chapter_08.wav",
+          "duration": 199.329375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Planning for Big Goals—Buying a Car, a Home, or Starting a Family",
+          "actualDuration": 199.329375,
+          "startTime": 1572.782457,
+          "endTime": 1772.111832
+        },
+        {
+          "path": "Audio/output/2127/chapter_09.wav",
+          "duration": 185.836375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Protecting Your Future—Insurance, Wills, and Financial Safety Nets",
+          "actualDuration": 185.836375,
+          "startTime": 1773.611832,
+          "endTime": 1959.4482070000001
+        },
+        {
+          "path": "Audio/output/2127/chapter_10.wav",
+          "duration": 154.559417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Wealth—Habits, Mindfulness, and Giving Back",
+          "actualDuration": 154.559417,
+          "startTime": 1960.9482070000001,
+          "endTime": 2115.5076240000003
+        },
+        {
+          "path": "Audio/output/2127/conclusion.wav",
+          "duration": 153.327042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 153.327042,
+          "startTime": 2117.0076240000003,
+          "endTime": 2270.334666
+        }
+      ],
+      "totalDuration": 2270.334666,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 110.35,
+          "actualStart": 0,
+          "actualEnd": 110.348083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Building a Foundation—Mindset, Myths, and the Power of Small Steps",
+          "expectedStart": 110.35,
+          "expectedEnd": 329.34,
+          "actualStart": 111.848083,
+          "actualEnd": 330.84191599999997,
+          "timeDifference": 1.4980830000000083
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Setting Up the Right Accounts—The Architecture of a Simple Financial System",
+          "expectedStart": 329.34,
+          "expectedEnd": 539.03,
+          "actualStart": 332.34191599999997,
+          "actualEnd": 542.0303739999999,
+          "timeDifference": 3.0019159999999943
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Automating Finances—Letting Systems Do the Heavy Lifting",
+          "expectedStart": 539.03,
+          "expectedEnd": 750.27,
+          "actualStart": 543.5303739999999,
+          "actualEnd": 754.7719569999999,
+          "timeDifference": 4.500373999999965
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Conscious Spending—Enjoying Life While Staying on Track",
+          "expectedStart": 750.27,
+          "expectedEnd": 966.24,
+          "actualStart": 756.2719569999999,
+          "actualEnd": 972.243665,
+          "timeDifference": 6.001956999999948
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Mastering Credit—Using Cards as Tools, Not Traps",
+          "expectedStart": 966.24,
+          "expectedEnd": 1170.96,
+          "actualStart": 973.743665,
+          "actualEnd": 1178.463082,
+          "timeDifference": 7.503664999999955
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Investing Made Simple—Growing Wealth for the Long Term",
+          "expectedStart": 1170.96,
+          "expectedEnd": 1372.99,
+          "actualStart": 1179.963082,
+          "actualEnd": 1381.994207,
+          "timeDifference": 9.00308199999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Art of Negotiation—Earning More and Paying Less",
+          "expectedStart": 1372.99,
+          "expectedEnd": 1560.78,
+          "actualStart": 1383.494207,
+          "actualEnd": 1571.282457,
+          "timeDifference": 10.504206999999951
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Planning for Big Goals—Buying a Car, a Home, or Starting a Family",
+          "expectedStart": 1560.78,
+          "expectedEnd": 1760.11,
+          "actualStart": 1572.782457,
+          "actualEnd": 1772.111832,
+          "timeDifference": 12.00245700000005
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Protecting Your Future—Insurance, Wills, and Financial Safety Nets",
+          "expectedStart": 1760.11,
+          "expectedEnd": 1945.95,
+          "actualStart": 1773.611832,
+          "actualEnd": 1959.4482070000001,
+          "timeDifference": 13.50183200000015
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Wealth—Habits, Mindfulness, and Giving Back",
+          "expectedStart": 1945.95,
+          "expectedEnd": 2100.51,
+          "actualStart": 1960.9482070000001,
+          "actualEnd": 2115.5076240000003,
+          "timeDifference": 14.998207000000093
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2100.51,
+          "expectedEnd": 2253.84,
+          "actualStart": 2117.0076240000003,
+          "actualEnd": 2270.334666,
+          "timeDifference": 16.497624000000087
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 110.348083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Building a Foundation—Mindset, Myths, and the Power of Small Steps"
+        },
+        {
+          "startTime": 330.84191599999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Building a Foundation—Mindset, Myths, and the Power of Small Steps and Chapter 2 Setting Up the Right Accounts—The Architecture of a Simple Financial System"
+        },
+        {
+          "startTime": 542.0303739999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Setting Up the Right Accounts—The Architecture of a Simple Financial System and Chapter 3 Automating Finances—Letting Systems Do the Heavy Lifting"
+        },
+        {
+          "startTime": 754.7719569999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Automating Finances—Letting Systems Do the Heavy Lifting and Chapter 4 Conscious Spending—Enjoying Life While Staying on Track"
+        },
+        {
+          "startTime": 972.243665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Conscious Spending—Enjoying Life While Staying on Track and Chapter 5 Mastering Credit—Using Cards as Tools, Not Traps"
+        },
+        {
+          "startTime": 1178.463082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Mastering Credit—Using Cards as Tools, Not Traps and Chapter 6 Investing Made Simple—Growing Wealth for the Long Term"
+        },
+        {
+          "startTime": 1381.994207,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Investing Made Simple—Growing Wealth for the Long Term and Chapter 7 The Art of Negotiation—Earning More and Paying Less"
+        },
+        {
+          "startTime": 1571.282457,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Art of Negotiation—Earning More and Paying Less and Chapter 8 Planning for Big Goals—Buying a Car, a Home, or Starting a Family"
+        },
+        {
+          "startTime": 1772.111832,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Planning for Big Goals—Buying a Car, a Home, or Starting a Family and Chapter 9 Protecting Your Future—Insurance, Wills, and Financial Safety Nets"
+        },
+        {
+          "startTime": 1959.4482070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Protecting Your Future—Insurance, Wills, and Financial Safety Nets and Chapter 10 Sustaining Wealth—Habits, Mindfulness, and Giving Back"
+        },
+        {
+          "startTime": 2115.5076240000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Wealth—Habits, Mindfulness, and Giving Back and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2127",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T20:45:12.355Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "bookId": "1994",
+  "timestamp": "2025-07-09T07:51:30.873Z",
+  "success": false,
+  "processingTime": -1752047116406,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4622,
+    "totalAudioFiles": 11,
+    "totalDuration": 1787.536085
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1787.536085
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1994/optimized_text/1994.md",
+    "fileSize": 3873,
+    "wordCount": 633,
+    "format": "markdown",
+    "filename": "1994.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1994/metadata/1994_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1787.55,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1994/metadata/1994_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1994/metadata/1994_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": false,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1994/1994_complete.wav",
+    "duration": 1787.536083,
+    "fileSize": 85801810,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1994/introduction.wav",
+          "duration": 99.799792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 99.799792,
+          "startTime": 0,
+          "endTime": 99.799792
+        },
+        {
+          "path": "Audio/output/1994/chapter_01.wav",
+          "duration": 252.135917,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Quiet Night Shattered",
+          "actualDuration": 252.135917,
+          "startTime": 101.299792,
+          "endTime": 353.435709
+        },
+        {
+          "path": "Audio/output/1994/chapter_02.wav",
+          "duration": 259.399417,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Behind the Facade: The Life and Personality of a Troubled Mother",
+          "actualDuration": 259.399417,
+          "startTime": 354.935709,
+          "endTime": 614.335126
+        },
+        {
+          "path": "Audio/output/1994/chapter_03.wav",
+          "duration": 233.1285,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Investigation: Piecing Together a Shattered Story",
+          "actualDuration": 233.1285,
+          "startTime": 615.835126,
+          "endTime": 848.963626
+        },
+        {
+          "path": "Audio/output/1994/chapter_04.wav",
+          "duration": 193.226167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Courtroom Battle: Justice, Manipulation, and the Power of Community",
+          "actualDuration": 193.226167,
+          "startTime": 850.463626,
+          "endTime": 1043.689793
+        },
+        {
+          "path": "Audio/output/1994/chapter_05.wav",
+          "duration": 135.443625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Ripple Effect: Trauma, Recovery, and Lessons Learned",
+          "actualDuration": 135.443625,
+          "startTime": 1045.189793,
+          "endTime": 1180.633418
+        },
+        {
+          "path": "Audio/output/1994/chapter_06.wav",
+          "duration": 165.988333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "actualDuration": 165.988333,
+          "startTime": 1182.133418,
+          "endTime": 1348.121751
+        },
+        {
+          "path": "Audio/output/1994/chapter_07.wav",
+          "duration": 149.565875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Search for Meaning: Why Did This Happen?",
+          "actualDuration": 149.565875,
+          "startTime": 1349.621751,
+          "endTime": 1499.187626
+        },
+        {
+          "path": "Audio/output/1994/chapter_08.wav",
+          "duration": 172.637042,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Long Shadow: How Trauma Lingers",
+          "actualDuration": 172.637042,
+          "startTime": 1500.687626,
+          "endTime": 1673.324668
+        },
+        {
+          "path": "Audio/output/1994/chapter_09.wav",
+          "duration": 126.211417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Story in the Mirror: Public Memory and the Media",
+          "actualDuration": 126.211417,
+          "startTime": 1674.824668,
+          "endTime": 1801.036085
+        }
+      ],
+      "totalDuration": 1801.036085,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 99.8,
+          "actualStart": 0,
+          "actualEnd": 99.799792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Quiet Night Shattered",
+          "expectedStart": 99.8,
+          "expectedEnd": 351.94,
+          "actualStart": 101.299792,
+          "actualEnd": 353.435709,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Behind the Facade: The Life and Personality of a Troubled Mother",
+          "expectedStart": 351.94,
+          "expectedEnd": 611.34,
+          "actualStart": 354.935709,
+          "actualEnd": 614.335126,
+          "timeDifference": 2.9957089999999766
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Investigation: Piecing Together a Shattered Story",
+          "expectedStart": 611.34,
+          "expectedEnd": 844.47,
+          "actualStart": 615.835126,
+          "actualEnd": 848.963626,
+          "timeDifference": 4.495125999999914
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Courtroom Battle: Justice, Manipulation, and the Power of Community",
+          "expectedStart": 844.47,
+          "expectedEnd": 1037.7,
+          "actualStart": 850.463626,
+          "actualEnd": 1043.689793,
+          "timeDifference": 5.993625999999949
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Ripple Effect: Trauma, Recovery, and Lessons Learned",
+          "expectedStart": 1037.7,
+          "expectedEnd": 1173.14,
+          "actualStart": 1045.189793,
+          "actualEnd": 1180.633418,
+          "timeDifference": 7.489792999999963
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Aftermath: Picking Up the Pieces",
+          "expectedStart": 1173.14,
+          "expectedEnd": 1339.13,
+          "actualStart": 1182.133418,
+          "actualEnd": 1348.121751,
+          "timeDifference": 8.993417999999792
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Search for Meaning: Why Did This Happen?",
+          "expectedStart": 1339.13,
+          "expectedEnd": 1488.7,
+          "actualStart": 1349.621751,
+          "actualEnd": 1499.187626,
+          "timeDifference": 10.491750999999795
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Long Shadow: How Trauma Lingers",
+          "expectedStart": 1488.7,
+          "expectedEnd": 1661.34,
+          "actualStart": 1500.687626,
+          "actualEnd": 1673.324668,
+          "timeDifference": 11.987625999999864
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Story in the Mirror: Public Memory and the Media",
+          "expectedStart": 1661.34,
+          "expectedEnd": 1787.55,
+          "actualStart": 1674.824668,
+          "actualEnd": 1801.036085,
+          "timeDifference": 13.484668000000056
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 99.799792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Quiet Night Shattered"
+        },
+        {
+          "startTime": 353.435709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Quiet Night Shattered and Chapter 2 Behind the Facade: The Life and Personality of a Troubled Mother"
+        },
+        {
+          "startTime": 614.335126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Behind the Facade: The Life and Personality of a Troubled Mother and Chapter 3 The Investigation: Piecing Together a Shattered Story"
+        },
+        {
+          "startTime": 848.963626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Investigation: Piecing Together a Shattered Story and Chapter 4 The Courtroom Battle: Justice, Manipulation, and the Power of Community"
+        },
+        {
+          "startTime": 1043.689793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Courtroom Battle: Justice, Manipulation, and the Power of Community and Chapter 5 The Ripple Effect: Trauma, Recovery, and Lessons Learned"
+        },
+        {
+          "startTime": 1180.633418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Ripple Effect: Trauma, Recovery, and Lessons Learned and Chapter 6 Aftermath: Picking Up the Pieces"
+        },
+        {
+          "startTime": 1348.121751,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Aftermath: Picking Up the Pieces and Chapter 7 The Search for Meaning: Why Did This Happen?"
+        },
+        {
+          "startTime": 1499.187626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Search for Meaning: Why Did This Happen? and Chapter 8 The Long Shadow: How Trauma Lingers"
+        },
+        {
+          "startTime": 1673.324668,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Long Shadow: How Trauma Lingers and Chapter 9 The Story in the Mirror: Public Memory and the Media"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1994",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T07:45:16.680Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "bookId": "1951",
+  "timestamp": "2025-07-09T04:25:31.847Z",
+  "success": false,
+  "processingTime": -1752034318822,
+  "stats": {
+    "totalSections": 14,
+    "totalWords": 5874,
+    "totalAudioFiles": 14,
+    "totalDuration": 2629.0580410000002
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 12,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 14,
+    "successful": 14,
+    "failed": 0,
+    "duration": 2629.0580410000002
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1951/optimized_text/1951.md",
+    "fileSize": 890,
+    "wordCount": 125,
+    "format": "markdown",
+    "filename": "1951.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1951/metadata/1951_chapters.json",
+    "totalChapters": 14,
+    "totalDuration": 2629.06,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1951/metadata/1951_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1951/metadata/1951_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 14,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 12
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1951/1951_complete.wav",
+    "duration": 2629.058042,
+    "fileSize": 126194864,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1951/introduction.wav",
+          "duration": 103.021208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.021208,
+          "startTime": 0,
+          "endTime": 103.021208
+        },
+        {
+          "path": "Audio/output/1951/chapter_01.wav",
+          "duration": 242.047083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Meeting the Sword: Where Zen and Action Intertwine",
+          "actualDuration": 242.047083,
+          "startTime": 104.521208,
+          "endTime": 346.568291
+        },
+        {
+          "path": "Audio/output/1951/chapter_02.wav",
+          "duration": 228.271792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Letting Go of Attachments: The Heart of Spontaneous Action",
+          "actualDuration": 228.271792,
+          "startTime": 348.068291,
+          "endTime": 576.340083
+        },
+        {
+          "path": "Audio/output/1951/chapter_03.wav",
+          "duration": 238.296042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Dance of Thought and Action: Moving Beyond Ego",
+          "actualDuration": 238.296042,
+          "startTime": 577.840083,
+          "endTime": 816.136125
+        },
+        {
+          "path": "Audio/output/1951/chapter_04.wav",
+          "duration": 209.613667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mindfulness in Motion: Presence Amidst Chaos",
+          "actualDuration": 209.613667,
+          "startTime": 817.636125,
+          "endTime": 1027.249792
+        },
+        {
+          "path": "Audio/output/1951/chapter_05.wav",
+          "duration": 227.983917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Path to Mastery: Harmonizing Mind and Body",
+          "actualDuration": 227.983917,
+          "startTime": 1028.749792,
+          "endTime": 1256.733709
+        },
+        {
+          "path": "Audio/output/1951/chapter_06.wav",
+          "duration": 180.457917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Facing the Shadow: Meeting Fear Without Resistance",
+          "actualDuration": 180.457917,
+          "startTime": 1258.233709,
+          "endTime": 1438.691626
+        },
+        {
+          "path": "Audio/output/1951/chapter_07.wav",
+          "duration": 208.776208,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Subtle Obstacles: Doubt, Distraction, and the Lure of Comparison",
+          "actualDuration": 208.776208,
+          "startTime": 1440.191626,
+          "endTime": 1648.967834
+        },
+        {
+          "path": "Audio/output/1951/chapter_08.wav",
+          "duration": 169.175083,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Unfettered Mind in Daily Life: Ordinary Actions, Extraordinary Presence",
+          "actualDuration": 169.175083,
+          "startTime": 1650.467834,
+          "endTime": 1819.6429170000001
+        },
+        {
+          "path": "Audio/output/1951/chapter_09.wav",
+          "duration": 206.270958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Paradox of Effort: Doing Without Forcing",
+          "actualDuration": 206.270958,
+          "startTime": 1821.1429170000001,
+          "endTime": 2027.4138750000002
+        },
+        {
+          "path": "Audio/output/1951/chapter_10.wav",
+          "duration": 192.99425,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Advanced Path: Emptiness, Spontaneity, and the Mirror Mind",
+          "actualDuration": 192.99425,
+          "startTime": 2028.9138750000002,
+          "endTime": 2221.9081250000004
+        },
+        {
+          "path": "Audio/output/1951/chapter_11.wav",
+          "duration": 155.295708,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Teacher and the Student: Transmission Beyond Words",
+          "actualDuration": 155.295708,
+          "startTime": 2223.4081250000004,
+          "endTime": 2378.7038330000005
+        },
+        {
+          "path": "Audio/output/1951/chapter_12.wav",
+          "duration": 146.38,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Returning to the Beginning: The Circle of Practice",
+          "actualDuration": 146.38,
+          "startTime": 2380.2038330000005,
+          "endTime": 2526.5838330000006
+        },
+        {
+          "path": "Audio/output/1951/conclusion.wav",
+          "duration": 120.474208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 120.474208,
+          "startTime": 2528.0838330000006,
+          "endTime": 2648.5580410000007
+        }
+      ],
+      "totalDuration": 2648.5580410000007,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.02,
+          "actualStart": 0,
+          "actualEnd": 103.021208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Meeting the Sword: Where Zen and Action Intertwine",
+          "expectedStart": 103.02,
+          "expectedEnd": 345.07,
+          "actualStart": 104.521208,
+          "actualEnd": 346.568291,
+          "timeDifference": 1.5012080000000054
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Letting Go of Attachments: The Heart of Spontaneous Action",
+          "expectedStart": 345.07,
+          "expectedEnd": 573.34,
+          "actualStart": 348.068291,
+          "actualEnd": 576.340083,
+          "timeDifference": 2.9982909999999947
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Dance of Thought and Action: Moving Beyond Ego",
+          "expectedStart": 573.34,
+          "expectedEnd": 811.64,
+          "actualStart": 577.840083,
+          "actualEnd": 816.136125,
+          "timeDifference": 4.500083000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mindfulness in Motion: Presence Amidst Chaos",
+          "expectedStart": 811.64,
+          "expectedEnd": 1021.25,
+          "actualStart": 817.636125,
+          "actualEnd": 1027.249792,
+          "timeDifference": 5.996125000000006
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Path to Mastery: Harmonizing Mind and Body",
+          "expectedStart": 1021.25,
+          "expectedEnd": 1249.23,
+          "actualStart": 1028.749792,
+          "actualEnd": 1256.733709,
+          "timeDifference": 7.49979200000007
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Facing the Shadow: Meeting Fear Without Resistance",
+          "expectedStart": 1249.23,
+          "expectedEnd": 1429.69,
+          "actualStart": 1258.233709,
+          "actualEnd": 1438.691626,
+          "timeDifference": 9.003709000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Subtle Obstacles: Doubt, Distraction, and the Lure of Comparison",
+          "expectedStart": 1429.69,
+          "expectedEnd": 1638.47,
+          "actualStart": 1440.191626,
+          "actualEnd": 1648.967834,
+          "timeDifference": 10.501625999999987
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Unfettered Mind in Daily Life: Ordinary Actions, Extraordinary Presence",
+          "expectedStart": 1638.47,
+          "expectedEnd": 1807.65,
+          "actualStart": 1650.467834,
+          "actualEnd": 1819.6429170000001,
+          "timeDifference": 11.997834000000012
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Paradox of Effort: Doing Without Forcing",
+          "expectedStart": 1807.65,
+          "expectedEnd": 2013.92,
+          "actualStart": 1821.1429170000001,
+          "actualEnd": 2027.4138750000002,
+          "timeDifference": 13.492917000000034
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Advanced Path: Emptiness, Spontaneity, and the Mirror Mind",
+          "expectedStart": 2013.92,
+          "expectedEnd": 2206.91,
+          "actualStart": 2028.9138750000002,
+          "actualEnd": 2221.9081250000004,
+          "timeDifference": 14.993875000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Teacher and the Student: Transmission Beyond Words",
+          "expectedStart": 2206.91,
+          "expectedEnd": 2362.21,
+          "actualStart": 2223.4081250000004,
+          "actualEnd": 2378.7038330000005,
+          "timeDifference": 16.498125000000528
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Returning to the Beginning: The Circle of Practice",
+          "expectedStart": 2362.21,
+          "expectedEnd": 2508.59,
+          "actualStart": 2380.2038330000005,
+          "actualEnd": 2526.5838330000006,
+          "timeDifference": 17.99383300000045
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2508.59,
+          "expectedEnd": 2629.06,
+          "actualStart": 2528.0838330000006,
+          "actualEnd": 2648.5580410000007,
+          "timeDifference": 19.49383300000045
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.021208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Meeting the Sword: Where Zen and Action Intertwine"
+        },
+        {
+          "startTime": 346.568291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Meeting the Sword: Where Zen and Action Intertwine and Chapter 2 Letting Go of Attachments: The Heart of Spontaneous Action"
+        },
+        {
+          "startTime": 576.340083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Letting Go of Attachments: The Heart of Spontaneous Action and Chapter 3 The Dance of Thought and Action: Moving Beyond Ego"
+        },
+        {
+          "startTime": 816.136125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Dance of Thought and Action: Moving Beyond Ego and Chapter 4 Mindfulness in Motion: Presence Amidst Chaos"
+        },
+        {
+          "startTime": 1027.249792,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mindfulness in Motion: Presence Amidst Chaos and Chapter 5 The Path to Mastery: Harmonizing Mind and Body"
+        },
+        {
+          "startTime": 1256.733709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Path to Mastery: Harmonizing Mind and Body and Chapter 6 Facing the Shadow: Meeting Fear Without Resistance"
+        },
+        {
+          "startTime": 1438.691626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Facing the Shadow: Meeting Fear Without Resistance and Chapter 7 The Subtle Obstacles: Doubt, Distraction, and the Lure of Comparison"
+        },
+        {
+          "startTime": 1648.967834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Subtle Obstacles: Doubt, Distraction, and the Lure of Comparison and Chapter 8 The Unfettered Mind in Daily Life: Ordinary Actions, Extraordinary Presence"
+        },
+        {
+          "startTime": 1819.6429170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Unfettered Mind in Daily Life: Ordinary Actions, Extraordinary Presence and Chapter 9 The Paradox of Effort: Doing Without Forcing"
+        },
+        {
+          "startTime": 2027.4138750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Paradox of Effort: Doing Without Forcing and Chapter 10 The Advanced Path: Emptiness, Spontaneity, and the Mirror Mind"
+        },
+        {
+          "startTime": 2221.9081250000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Advanced Path: Emptiness, Spontaneity, and the Mirror Mind and Chapter 11 The Teacher and the Student: Transmission Beyond Words"
+        },
+        {
+          "startTime": 2378.7038330000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Teacher and the Student: Transmission Beyond Words and Chapter 12 Returning to the Beginning: The Circle of Practice"
+        },
+        {
+          "startTime": 2526.5838330000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Returning to the Beginning: The Circle of Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 14
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1951",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T04:12:00.117Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

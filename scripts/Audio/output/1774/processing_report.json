@@ -1,0 +1,456 @@
+{
+  "bookId": "1774",
+  "timestamp": "2025-07-08T13:45:09.158Z",
+  "success": false,
+  "processingTime": -1751981644224,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4971,
+    "totalAudioFiles": 12,
+    "totalDuration": 2282.6559580000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2282.6559580000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1774/optimized_text/1774.md",
+    "fileSize": 761,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1774.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1774/metadata/1774_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2282.67,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1774/metadata/1774_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1774/metadata/1774_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1774/1774_complete.wav",
+    "duration": 2282.655958,
+    "fileSize": 109567564,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1774/introduction.wav",
+          "duration": 100.415208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.415208,
+          "startTime": 0,
+          "endTime": 100.415208
+        },
+        {
+          "path": "Audio/output/1774/chapter_01.wav",
+          "duration": 256.5505,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Curiosity and the First Steps into Newsrooms",
+          "actualDuration": 256.5505,
+          "startTime": 101.915208,
+          "endTime": 358.465708
+        },
+        {
+          "path": "Audio/output/1774/chapter_02.wav",
+          "duration": 240.235542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Breaking Barriers and Finding a Place in the Newsroom",
+          "actualDuration": 240.235542,
+          "startTime": 359.965708,
+          "endTime": 600.2012500000001
+        },
+        {
+          "path": "Audio/output/1774/chapter_03.wav",
+          "duration": 242.329417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Realities of Reporting—Ethics, Mistakes, and Responsibility",
+          "actualDuration": 242.329417,
+          "startTime": 601.7012500000001,
+          "endTime": 844.0306670000001
+        },
+        {
+          "path": "Audio/output/1774/chapter_04.wav",
+          "duration": 231.001708,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Adapting to Change—Technology, Culture, and the Shifting Media Landscape",
+          "actualDuration": 231.001708,
+          "startTime": 845.5306670000001,
+          "endTime": 1076.5323750000002
+        },
+        {
+          "path": "Audio/output/1774/chapter_05.wav",
+          "duration": 212.048083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Storytelling and the Lasting Impact of Journalism",
+          "actualDuration": 212.048083,
+          "startTime": 1078.0323750000002,
+          "endTime": 1290.0804580000001
+        },
+        {
+          "path": "Audio/output/1774/chapter_06.wav",
+          "duration": 192.929583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Mentorship, Guidance, and the Quiet Power of Encouragement",
+          "actualDuration": 192.929583,
+          "startTime": 1291.5804580000001,
+          "endTime": 1484.5100410000002
+        },
+        {
+          "path": "Audio/output/1774/chapter_07.wav",
+          "duration": 192.515875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Crisis—Reporting in Times of Upheaval",
+          "actualDuration": 192.515875,
+          "startTime": 1486.0100410000002,
+          "endTime": 1678.5259160000003
+        },
+        {
+          "path": "Audio/output/1774/chapter_08.wav",
+          "duration": 179.192625,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Legacy, Reflection, and the Changing Face of Journalism",
+          "actualDuration": 179.192625,
+          "startTime": 1680.0259160000003,
+          "endTime": 1859.2185410000002
+        },
+        {
+          "path": "Audio/output/1774/chapter_09.wav",
+          "duration": 164.120667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Future—Hope, Uncertainty, and the Next Chapter",
+          "actualDuration": 164.120667,
+          "startTime": 1860.7185410000002,
+          "endTime": 2024.839208
+        },
+        {
+          "path": "Audio/output/1774/chapter_10.wav",
+          "duration": 159.7085,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Wisdom Gathered—Lessons for Life and Work",
+          "actualDuration": 159.7085,
+          "startTime": 2026.339208,
+          "endTime": 2186.047708
+        },
+        {
+          "path": "Audio/output/1774/conclusion.wav",
+          "duration": 111.60825,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 111.60825,
+          "startTime": 2187.547708,
+          "endTime": 2299.1559580000003
+        }
+      ],
+      "totalDuration": 2299.1559580000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.42,
+          "actualStart": 0,
+          "actualEnd": 100.415208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Curiosity and the First Steps into Newsrooms",
+          "expectedStart": 100.42,
+          "expectedEnd": 356.97,
+          "actualStart": 101.915208,
+          "actualEnd": 358.465708,
+          "timeDifference": 1.4952080000000052
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Breaking Barriers and Finding a Place in the Newsroom",
+          "expectedStart": 356.97,
+          "expectedEnd": 597.21,
+          "actualStart": 359.965708,
+          "actualEnd": 600.2012500000001,
+          "timeDifference": 2.995707999999979
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Realities of Reporting—Ethics, Mistakes, and Responsibility",
+          "expectedStart": 597.21,
+          "expectedEnd": 839.54,
+          "actualStart": 601.7012500000001,
+          "actualEnd": 844.0306670000001,
+          "timeDifference": 4.491250000000036
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Adapting to Change—Technology, Culture, and the Shifting Media Landscape",
+          "expectedStart": 839.54,
+          "expectedEnd": 1070.54,
+          "actualStart": 845.5306670000001,
+          "actualEnd": 1076.5323750000002,
+          "timeDifference": 5.990667000000144
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Storytelling and the Lasting Impact of Journalism",
+          "expectedStart": 1070.54,
+          "expectedEnd": 1282.59,
+          "actualStart": 1078.0323750000002,
+          "actualEnd": 1290.0804580000001,
+          "timeDifference": 7.492375000000266
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Mentorship, Guidance, and the Quiet Power of Encouragement",
+          "expectedStart": 1282.59,
+          "expectedEnd": 1475.52,
+          "actualStart": 1291.5804580000001,
+          "actualEnd": 1484.5100410000002,
+          "timeDifference": 8.990458000000217
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Crisis—Reporting in Times of Upheaval",
+          "expectedStart": 1475.52,
+          "expectedEnd": 1668.04,
+          "actualStart": 1486.0100410000002,
+          "actualEnd": 1678.5259160000003,
+          "timeDifference": 10.490041000000247
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Legacy, Reflection, and the Changing Face of Journalism",
+          "expectedStart": 1668.04,
+          "expectedEnd": 1847.23,
+          "actualStart": 1680.0259160000003,
+          "actualEnd": 1859.2185410000002,
+          "timeDifference": 11.985916000000316
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Future—Hope, Uncertainty, and the Next Chapter",
+          "expectedStart": 1847.23,
+          "expectedEnd": 2011.35,
+          "actualStart": 1860.7185410000002,
+          "actualEnd": 2024.839208,
+          "timeDifference": 13.488541000000168
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Wisdom Gathered—Lessons for Life and Work",
+          "expectedStart": 2011.35,
+          "expectedEnd": 2171.06,
+          "actualStart": 2026.339208,
+          "actualEnd": 2186.047708,
+          "timeDifference": 14.98920800000019
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2171.06,
+          "expectedEnd": 2282.67,
+          "actualStart": 2187.547708,
+          "actualEnd": 2299.1559580000003,
+          "timeDifference": 16.48770800000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.415208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Curiosity and the First Steps into Newsrooms"
+        },
+        {
+          "startTime": 358.465708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Curiosity and the First Steps into Newsrooms and Chapter 2 Breaking Barriers and Finding a Place in the Newsroom"
+        },
+        {
+          "startTime": 600.2012500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Breaking Barriers and Finding a Place in the Newsroom and Chapter 3 The Realities of Reporting—Ethics, Mistakes, and Responsibility"
+        },
+        {
+          "startTime": 844.0306670000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Realities of Reporting—Ethics, Mistakes, and Responsibility and Chapter 4 Adapting to Change—Technology, Culture, and the Shifting Media Landscape"
+        },
+        {
+          "startTime": 1076.5323750000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Adapting to Change—Technology, Culture, and the Shifting Media Landscape and Chapter 5 The Power of Storytelling and the Lasting Impact of Journalism"
+        },
+        {
+          "startTime": 1290.0804580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Storytelling and the Lasting Impact of Journalism and Chapter 6 Mentorship, Guidance, and the Quiet Power of Encouragement"
+        },
+        {
+          "startTime": 1484.5100410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Mentorship, Guidance, and the Quiet Power of Encouragement and Chapter 7 Facing Crisis—Reporting in Times of Upheaval"
+        },
+        {
+          "startTime": 1678.5259160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Crisis—Reporting in Times of Upheaval and Chapter 8 Legacy, Reflection, and the Changing Face of Journalism"
+        },
+        {
+          "startTime": 1859.2185410000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Legacy, Reflection, and the Changing Face of Journalism and Chapter 9 The Future—Hope, Uncertainty, and the Next Chapter"
+        },
+        {
+          "startTime": 2024.839208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Future—Hope, Uncertainty, and the Next Chapter and Chapter 10 Wisdom Gathered—Lessons for Life and Work"
+        },
+        {
+          "startTime": 2186.047708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Wisdom Gathered—Lessons for Life and Work and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1774",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Audience match (+8) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T13:34:05.708Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

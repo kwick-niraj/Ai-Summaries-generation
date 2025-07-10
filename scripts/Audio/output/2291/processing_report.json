@@ -1,0 +1,456 @@
+{
+  "bookId": "2291",
+  "timestamp": "2025-07-10T10:37:29.400Z",
+  "success": false,
+  "processingTime": -1752143516508,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3819,
+    "totalAudioFiles": 12,
+    "totalDuration": 2092.292707
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2092.292707
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2291/optimized_text/2291.md",
+    "fileSize": 702,
+    "wordCount": 87,
+    "format": "markdown",
+    "filename": "2291.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2291/metadata/2291_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2092.29,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2291/metadata/2291_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2291/metadata/2291_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "calm",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2291/2291_complete.wav",
+    "duration": 2092.292708,
+    "fileSize": 100430128,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2291/introduction.wav",
+          "duration": 98.81225,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.81225,
+          "startTime": 0,
+          "endTime": 98.81225
+        },
+        {
+          "path": "Audio/output/2291/chapter_01.wav",
+          "duration": 242.638458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Mindfulness: The Foundation of Present-Moment Awareness",
+          "actualDuration": 242.638458,
+          "startTime": 100.31225,
+          "endTime": 342.950708
+        },
+        {
+          "path": "Audio/output/2291/chapter_02.wav",
+          "duration": 205.81025,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Letting Go of Judgment and Self-Criticism",
+          "actualDuration": 205.81025,
+          "startTime": 344.450708,
+          "endTime": 550.2609580000001
+        },
+        {
+          "path": "Audio/output/2291/chapter_03.wav",
+          "duration": 205.673208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Observing Thoughts and Emotions Without Getting Caught Up",
+          "actualDuration": 205.673208,
+          "startTime": 551.7609580000001,
+          "endTime": 757.434166
+        },
+        {
+          "path": "Audio/output/2291/chapter_04.wav",
+          "duration": 169.04925,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Using the Breath as an Anchor to the Present",
+          "actualDuration": 169.04925,
+          "startTime": 758.934166,
+          "endTime": 927.983416
+        },
+        {
+          "path": "Audio/output/2291/chapter_05.wav",
+          "duration": 187.831125,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Bringing Mindfulness into Everyday Activities",
+          "actualDuration": 187.831125,
+          "startTime": 929.483416,
+          "endTime": 1117.314541
+        },
+        {
+          "path": "Audio/output/2291/chapter_06.wav",
+          "duration": 196.00725,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Cultivating Compassion and Kindness Toward Yourself",
+          "actualDuration": 196.00725,
+          "startTime": 1118.814541,
+          "endTime": 1314.8217909999998
+        },
+        {
+          "path": "Audio/output/2291/chapter_07.wav",
+          "duration": 171.985333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Accepting What Is: The Power of Allowing",
+          "actualDuration": 171.985333,
+          "startTime": 1316.3217909999998,
+          "endTime": 1488.307124
+        },
+        {
+          "path": "Audio/output/2291/chapter_08.wav",
+          "duration": 153.769458,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Establishing a Regular Mindfulness Practice",
+          "actualDuration": 153.769458,
+          "startTime": 1489.807124,
+          "endTime": 1643.576582
+        },
+        {
+          "path": "Audio/output/2291/chapter_09.wav",
+          "duration": 200.424083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Meeting Life’s Challenges with Mindfulness",
+          "actualDuration": 200.424083,
+          "startTime": 1645.076582,
+          "endTime": 1845.500665
+        },
+        {
+          "path": "Audio/output/2291/chapter_10.wav",
+          "duration": 140.613417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Mindfulness: Integrating Presence into Everyday Living",
+          "actualDuration": 140.613417,
+          "startTime": 1847.000665,
+          "endTime": 1987.614082
+        },
+        {
+          "path": "Audio/output/2291/conclusion.wav",
+          "duration": 119.678625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 119.678625,
+          "startTime": 1989.114082,
+          "endTime": 2108.792707
+        }
+      ],
+      "totalDuration": 2108.792707,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.81,
+          "actualStart": 0,
+          "actualEnd": 98.81225,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Mindfulness: The Foundation of Present-Moment Awareness",
+          "expectedStart": 98.81,
+          "expectedEnd": 341.45,
+          "actualStart": 100.31225,
+          "actualEnd": 342.950708,
+          "timeDifference": 1.5022500000000036
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Letting Go of Judgment and Self-Criticism",
+          "expectedStart": 341.45,
+          "expectedEnd": 547.26,
+          "actualStart": 344.450708,
+          "actualEnd": 550.2609580000001,
+          "timeDifference": 3.0007080000000315
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Observing Thoughts and Emotions Without Getting Caught Up",
+          "expectedStart": 547.26,
+          "expectedEnd": 752.93,
+          "actualStart": 551.7609580000001,
+          "actualEnd": 757.434166,
+          "timeDifference": 4.500958000000082
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Using the Breath as an Anchor to the Present",
+          "expectedStart": 752.93,
+          "expectedEnd": 921.98,
+          "actualStart": 758.934166,
+          "actualEnd": 927.983416,
+          "timeDifference": 6.004166000000055
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Bringing Mindfulness into Everyday Activities",
+          "expectedStart": 921.98,
+          "expectedEnd": 1109.81,
+          "actualStart": 929.483416,
+          "actualEnd": 1117.314541,
+          "timeDifference": 7.503416000000016
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Cultivating Compassion and Kindness Toward Yourself",
+          "expectedStart": 1109.81,
+          "expectedEnd": 1305.82,
+          "actualStart": 1118.814541,
+          "actualEnd": 1314.8217909999998,
+          "timeDifference": 9.004541000000017
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Accepting What Is: The Power of Allowing",
+          "expectedStart": 1305.82,
+          "expectedEnd": 1477.81,
+          "actualStart": 1316.3217909999998,
+          "actualEnd": 1488.307124,
+          "timeDifference": 10.501790999999912
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Establishing a Regular Mindfulness Practice",
+          "expectedStart": 1477.81,
+          "expectedEnd": 1631.58,
+          "actualStart": 1489.807124,
+          "actualEnd": 1643.576582,
+          "timeDifference": 11.997123999999985
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Meeting Life’s Challenges with Mindfulness",
+          "expectedStart": 1631.58,
+          "expectedEnd": 1832,
+          "actualStart": 1645.076582,
+          "actualEnd": 1845.500665,
+          "timeDifference": 13.49658199999999
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Mindfulness: Integrating Presence into Everyday Living",
+          "expectedStart": 1832,
+          "expectedEnd": 1972.61,
+          "actualStart": 1847.000665,
+          "actualEnd": 1987.614082,
+          "timeDifference": 15.000665000000026
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1972.61,
+          "expectedEnd": 2092.29,
+          "actualStart": 1989.114082,
+          "actualEnd": 2108.792707,
+          "timeDifference": 16.504082000000153
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.81225,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Mindfulness: The Foundation of Present-Moment Awareness"
+        },
+        {
+          "startTime": 342.950708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Mindfulness: The Foundation of Present-Moment Awareness and Chapter 2 Letting Go of Judgment and Self-Criticism"
+        },
+        {
+          "startTime": 550.2609580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Letting Go of Judgment and Self-Criticism and Chapter 3 Observing Thoughts and Emotions Without Getting Caught Up"
+        },
+        {
+          "startTime": 757.434166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Observing Thoughts and Emotions Without Getting Caught Up and Chapter 4 Using the Breath as an Anchor to the Present"
+        },
+        {
+          "startTime": 927.983416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Using the Breath as an Anchor to the Present and Chapter 5 Bringing Mindfulness into Everyday Activities"
+        },
+        {
+          "startTime": 1117.314541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Bringing Mindfulness into Everyday Activities and Chapter 6 Cultivating Compassion and Kindness Toward Yourself"
+        },
+        {
+          "startTime": 1314.8217909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Cultivating Compassion and Kindness Toward Yourself and Chapter 7 Accepting What Is: The Power of Allowing"
+        },
+        {
+          "startTime": 1488.307124,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Accepting What Is: The Power of Allowing and Chapter 8 Establishing a Regular Mindfulness Practice"
+        },
+        {
+          "startTime": 1643.576582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Establishing a Regular Mindfulness Practice and Chapter 9 Meeting Life’s Challenges with Mindfulness"
+        },
+        {
+          "startTime": 1845.500665,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Meeting Life’s Challenges with Mindfulness and Chapter 10 Sustaining Mindfulness: Integrating Presence into Everyday Living"
+        },
+        {
+          "startTime": 1987.614082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Mindfulness: Integrating Presence into Everyday Living and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2291",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:31:57.018Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "calm",
+        "pacing": "steady"
+      }
+    }
+  }
+}

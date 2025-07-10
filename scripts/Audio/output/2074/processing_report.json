@@ -1,0 +1,456 @@
+{
+  "bookId": "2074",
+  "timestamp": "2025-07-09T16:53:04.359Z",
+  "success": false,
+  "processingTime": -1752079201255,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4267,
+    "totalAudioFiles": 12,
+    "totalDuration": 2199.40975
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2199.40975
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2074/optimized_text/2074.md",
+    "fileSize": 705,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "2074.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2074/metadata/2074_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2199.4,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2074/metadata/2074_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2074/metadata/2074_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2074/2074_complete.wav",
+    "duration": 2199.40975,
+    "fileSize": 105571746,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2074/introduction.wav",
+          "duration": 93.614708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.614708,
+          "startTime": 0,
+          "endTime": 93.614708
+        },
+        {
+          "path": "Audio/output/2074/chapter_01.wav",
+          "duration": 212.293833,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Attention as a Limited Resource",
+          "actualDuration": 212.293833,
+          "startTime": 95.114708,
+          "endTime": 307.408541
+        },
+        {
+          "path": "Audio/output/2074/chapter_02.wav",
+          "duration": 243.254375,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power and Practice of Hyperfocus",
+          "actualDuration": 243.254375,
+          "startTime": 308.908541,
+          "endTime": 552.162916
+        },
+        {
+          "path": "Audio/output/2074/chapter_03.wav",
+          "duration": 220.329958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Scatterfocus and Creative Mind-Wandering",
+          "actualDuration": 220.329958,
+          "startTime": 553.662916,
+          "endTime": 773.992874
+        },
+        {
+          "path": "Audio/output/2074/chapter_04.wav",
+          "duration": 249.153167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Managing Distractions and Building Focus-Friendly Habits",
+          "actualDuration": 249.153167,
+          "startTime": 775.492874,
+          "endTime": 1024.646041
+        },
+        {
+          "path": "Audio/output/2074/chapter_05.wav",
+          "duration": 195.920625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Balancing Focus and Mind-Wandering for Sustainable Productivity",
+          "actualDuration": 195.920625,
+          "startTime": 1026.146041,
+          "endTime": 1222.066666
+        },
+        {
+          "path": "Audio/output/2074/chapter_06.wav",
+          "duration": 194.266125,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Strategies for Deep Work in a Distracted World",
+          "actualDuration": 194.266125,
+          "startTime": 1223.566666,
+          "endTime": 1417.8327909999998
+        },
+        {
+          "path": "Audio/output/2074/chapter_07.wav",
+          "duration": 191.497875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating Technology—Friend or Foe of Focus?",
+          "actualDuration": 191.497875,
+          "startTime": 1419.3327909999998,
+          "endTime": 1610.8306659999998
+        },
+        {
+          "path": "Audio/output/2074/chapter_08.wav",
+          "duration": 177.975833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Focus Principles into Daily Life",
+          "actualDuration": 177.975833,
+          "startTime": 1612.3306659999998,
+          "endTime": 1790.3064989999998
+        },
+        {
+          "path": "Audio/output/2074/chapter_09.wav",
+          "duration": 134.132667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Focus, Relationships, and Emotional Well-Being",
+          "actualDuration": 134.132667,
+          "startTime": 1791.8064989999998,
+          "endTime": 1925.939166
+        },
+        {
+          "path": "Audio/output/2074/chapter_10.wav",
+          "duration": 154.997792,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Focus—Growth, Setbacks, and Lifelong Practice",
+          "actualDuration": 154.997792,
+          "startTime": 1927.439166,
+          "endTime": 2082.436958
+        },
+        {
+          "path": "Audio/output/2074/conclusion.wav",
+          "duration": 131.972792,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 131.972792,
+          "startTime": 2083.936958,
+          "endTime": 2215.90975
+        }
+      ],
+      "totalDuration": 2215.90975,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.61,
+          "actualStart": 0,
+          "actualEnd": 93.614708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Attention as a Limited Resource",
+          "expectedStart": 93.61,
+          "expectedEnd": 305.9,
+          "actualStart": 95.114708,
+          "actualEnd": 307.408541,
+          "timeDifference": 1.5047079999999937
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power and Practice of Hyperfocus",
+          "expectedStart": 305.9,
+          "expectedEnd": 549.15,
+          "actualStart": 308.908541,
+          "actualEnd": 552.162916,
+          "timeDifference": 3.0085410000000365
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Scatterfocus and Creative Mind-Wandering",
+          "expectedStart": 549.15,
+          "expectedEnd": 769.48,
+          "actualStart": 553.662916,
+          "actualEnd": 773.992874,
+          "timeDifference": 4.512916000000018
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Managing Distractions and Building Focus-Friendly Habits",
+          "expectedStart": 769.48,
+          "expectedEnd": 1018.63,
+          "actualStart": 775.492874,
+          "actualEnd": 1024.646041,
+          "timeDifference": 6.012874000000011
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Balancing Focus and Mind-Wandering for Sustainable Productivity",
+          "expectedStart": 1018.63,
+          "expectedEnd": 1214.55,
+          "actualStart": 1026.146041,
+          "actualEnd": 1222.066666,
+          "timeDifference": 7.516040999999973
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Strategies for Deep Work in a Distracted World",
+          "expectedStart": 1214.55,
+          "expectedEnd": 1408.82,
+          "actualStart": 1223.566666,
+          "actualEnd": 1417.8327909999998,
+          "timeDifference": 9.016665999999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating Technology—Friend or Foe of Focus?",
+          "expectedStart": 1408.82,
+          "expectedEnd": 1600.32,
+          "actualStart": 1419.3327909999998,
+          "actualEnd": 1610.8306659999998,
+          "timeDifference": 10.51279099999988
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Focus Principles into Daily Life",
+          "expectedStart": 1600.32,
+          "expectedEnd": 1778.3,
+          "actualStart": 1612.3306659999998,
+          "actualEnd": 1790.3064989999998,
+          "timeDifference": 12.010665999999901
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Focus, Relationships, and Emotional Well-Being",
+          "expectedStart": 1778.3,
+          "expectedEnd": 1912.43,
+          "actualStart": 1791.8064989999998,
+          "actualEnd": 1925.939166,
+          "timeDifference": 13.506498999999849
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Focus—Growth, Setbacks, and Lifelong Practice",
+          "expectedStart": 1912.43,
+          "expectedEnd": 2067.43,
+          "actualStart": 1927.439166,
+          "actualEnd": 2082.436958,
+          "timeDifference": 15.009165999999823
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2067.43,
+          "expectedEnd": 2199.4,
+          "actualStart": 2083.936958,
+          "actualEnd": 2215.90975,
+          "timeDifference": 16.50695799999994
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.614708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Attention as a Limited Resource"
+        },
+        {
+          "startTime": 307.408541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Attention as a Limited Resource and Chapter 2 The Power and Practice of Hyperfocus"
+        },
+        {
+          "startTime": 552.162916,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power and Practice of Hyperfocus and Chapter 3 The Role of Scatterfocus and Creative Mind-Wandering"
+        },
+        {
+          "startTime": 773.992874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Scatterfocus and Creative Mind-Wandering and Chapter 4 Managing Distractions and Building Focus-Friendly Habits"
+        },
+        {
+          "startTime": 1024.646041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Managing Distractions and Building Focus-Friendly Habits and Chapter 5 Balancing Focus and Mind-Wandering for Sustainable Productivity"
+        },
+        {
+          "startTime": 1222.066666,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Balancing Focus and Mind-Wandering for Sustainable Productivity and Chapter 6 Advanced Strategies for Deep Work in a Distracted World"
+        },
+        {
+          "startTime": 1417.8327909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Strategies for Deep Work in a Distracted World and Chapter 7 Navigating Technology—Friend or Foe of Focus?"
+        },
+        {
+          "startTime": 1610.8306659999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating Technology—Friend or Foe of Focus? and Chapter 8 Integrating Focus Principles into Daily Life"
+        },
+        {
+          "startTime": 1790.3064989999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Focus Principles into Daily Life and Chapter 9 Focus, Relationships, and Emotional Well-Being"
+        },
+        {
+          "startTime": 1925.939166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Focus, Relationships, and Emotional Well-Being and Chapter 10 Sustaining Focus—Growth, Setbacks, and Lifelong Practice"
+        },
+        {
+          "startTime": 2082.436958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Focus—Growth, Setbacks, and Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2074",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T16:40:02.454Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

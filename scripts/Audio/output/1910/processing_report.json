@@ -1,0 +1,575 @@
+{
+  "bookId": "1910",
+  "timestamp": "2025-07-09T00:34:46.679Z",
+  "success": false,
+  "processingTime": -1752020741615,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 5695,
+    "totalAudioFiles": 17,
+    "totalDuration": 2490.729541
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2490.729541
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1910/optimized_text/1910.md",
+    "fileSize": 857,
+    "wordCount": 116,
+    "format": "markdown",
+    "filename": "1910.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1910/metadata/1910_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2490.73,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1910/metadata/1910_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1910/metadata/1910_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1910/1910_complete.wav",
+    "duration": 2490.729542,
+    "fileSize": 119555096,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1910/introduction.wav",
+          "duration": 85.228958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.228958,
+          "startTime": 0,
+          "endTime": 85.228958
+        },
+        {
+          "path": "Audio/output/1910/chapter_01.wav",
+          "duration": 191.612542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Finding Strength in Everyday Struggles",
+          "actualDuration": 191.612542,
+          "startTime": 86.728958,
+          "endTime": 278.3415
+        },
+        {
+          "path": "Audio/output/1910/chapter_02.wav",
+          "duration": 178.191708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Courage to Dream and Act",
+          "actualDuration": 178.191708,
+          "startTime": 279.8415,
+          "endTime": 458.033208
+        },
+        {
+          "path": "Audio/output/1910/chapter_03.wav",
+          "duration": 180.682417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Learning from Diverse Voices and Experiences",
+          "actualDuration": 180.682417,
+          "startTime": 459.533208,
+          "endTime": 640.215625
+        },
+        {
+          "path": "Audio/output/1910/chapter_04.wav",
+          "duration": 168.842333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Building Character and Leading with Integrity",
+          "actualDuration": 168.842333,
+          "startTime": 641.715625,
+          "endTime": 810.5579580000001
+        },
+        {
+          "path": "Audio/output/1910/chapter_05.wav",
+          "duration": 165.898625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Daily Reflection and Positive Habits",
+          "actualDuration": 165.898625,
+          "startTime": 812.0579580000001,
+          "endTime": 977.9565830000001
+        },
+        {
+          "path": "Audio/output/1910/chapter_06.wav",
+          "duration": 163.74925,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Embracing Change and Uncertainty",
+          "actualDuration": 163.74925,
+          "startTime": 979.4565830000001,
+          "endTime": 1143.2058330000002
+        },
+        {
+          "path": "Audio/output/1910/chapter_07.wav",
+          "duration": 152.440667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Importance of Connection and Community",
+          "actualDuration": 152.440667,
+          "startTime": 1144.7058330000002,
+          "endTime": 1297.1465000000003
+        },
+        {
+          "path": "Audio/output/1910/chapter_08.wav",
+          "duration": 144.839667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Fear and Self-Doubt",
+          "actualDuration": 144.839667,
+          "startTime": 1298.6465000000003,
+          "endTime": 1443.4861670000003
+        },
+        {
+          "path": "Audio/output/1910/chapter_09.wav",
+          "duration": 143.713333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Role of Gratitude and Generosity",
+          "actualDuration": 143.713333,
+          "startTime": 1444.9861670000003,
+          "endTime": 1588.6995000000002
+        },
+        {
+          "path": "Audio/output/1910/chapter_10.wav",
+          "duration": 132.472583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating Failure and Finding Resilience",
+          "actualDuration": 132.472583,
+          "startTime": 1590.1995000000002,
+          "endTime": 1722.6720830000002
+        },
+        {
+          "path": "Audio/output/1910/chapter_11.wav",
+          "duration": 141.047875,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Value of Curiosity and Lifelong Learning",
+          "actualDuration": 141.047875,
+          "startTime": 1724.1720830000002,
+          "endTime": 1865.2199580000001
+        },
+        {
+          "path": "Audio/output/1910/chapter_12.wav",
+          "duration": 122.817417,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Living with Purpose and Meaning",
+          "actualDuration": 122.817417,
+          "startTime": 1866.7199580000001,
+          "endTime": 1989.537375
+        },
+        {
+          "path": "Audio/output/1910/chapter_13.wav",
+          "duration": 132.976125,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Art of Listening and Empathy",
+          "actualDuration": 132.976125,
+          "startTime": 1991.037375,
+          "endTime": 2124.0135
+        },
+        {
+          "path": "Audio/output/1910/chapter_14.wav",
+          "duration": 140.217958,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Balancing Ambition with Contentment",
+          "actualDuration": 140.217958,
+          "startTime": 2125.5135,
+          "endTime": 2265.731458
+        },
+        {
+          "path": "Audio/output/1910/chapter_15.wav",
+          "duration": 123.261958,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 Leaving a Legacy and Inspiring Others",
+          "actualDuration": 123.261958,
+          "startTime": 2267.231458,
+          "endTime": 2390.4934160000003
+        },
+        {
+          "path": "Audio/output/1910/conclusion.wav",
+          "duration": 122.736125,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 122.736125,
+          "startTime": 2391.9934160000003,
+          "endTime": 2514.729541
+        }
+      ],
+      "totalDuration": 2514.729541,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.23,
+          "actualStart": 0,
+          "actualEnd": 85.228958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Finding Strength in Everyday Struggles",
+          "expectedStart": 85.23,
+          "expectedEnd": 276.84,
+          "actualStart": 86.728958,
+          "actualEnd": 278.3415,
+          "timeDifference": 1.4989580000000018
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Courage to Dream and Act",
+          "expectedStart": 276.84,
+          "expectedEnd": 455.03,
+          "actualStart": 279.8415,
+          "actualEnd": 458.033208,
+          "timeDifference": 3.0015000000000214
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Learning from Diverse Voices and Experiences",
+          "expectedStart": 455.03,
+          "expectedEnd": 635.71,
+          "actualStart": 459.533208,
+          "actualEnd": 640.215625,
+          "timeDifference": 4.503208000000029
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Building Character and Leading with Integrity",
+          "expectedStart": 635.71,
+          "expectedEnd": 804.55,
+          "actualStart": 641.715625,
+          "actualEnd": 810.5579580000001,
+          "timeDifference": 6.005625000000009
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Daily Reflection and Positive Habits",
+          "expectedStart": 804.55,
+          "expectedEnd": 970.45,
+          "actualStart": 812.0579580000001,
+          "actualEnd": 977.9565830000001,
+          "timeDifference": 7.507958000000144
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Embracing Change and Uncertainty",
+          "expectedStart": 970.45,
+          "expectedEnd": 1134.2,
+          "actualStart": 979.4565830000001,
+          "actualEnd": 1143.2058330000002,
+          "timeDifference": 9.006583000000091
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Importance of Connection and Community",
+          "expectedStart": 1134.2,
+          "expectedEnd": 1286.64,
+          "actualStart": 1144.7058330000002,
+          "actualEnd": 1297.1465000000003,
+          "timeDifference": 10.505833000000166
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Fear and Self-Doubt",
+          "expectedStart": 1286.64,
+          "expectedEnd": 1431.48,
+          "actualStart": 1298.6465000000003,
+          "actualEnd": 1443.4861670000003,
+          "timeDifference": 12.006500000000187
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Role of Gratitude and Generosity",
+          "expectedStart": 1431.48,
+          "expectedEnd": 1575.19,
+          "actualStart": 1444.9861670000003,
+          "actualEnd": 1588.6995000000002,
+          "timeDifference": 13.506167000000232
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating Failure and Finding Resilience",
+          "expectedStart": 1575.19,
+          "expectedEnd": 1707.66,
+          "actualStart": 1590.1995000000002,
+          "actualEnd": 1722.6720830000002,
+          "timeDifference": 15.009500000000116
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Value of Curiosity and Lifelong Learning",
+          "expectedStart": 1707.66,
+          "expectedEnd": 1848.71,
+          "actualStart": 1724.1720830000002,
+          "actualEnd": 1865.2199580000001,
+          "timeDifference": 16.512083000000075
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Living with Purpose and Meaning",
+          "expectedStart": 1848.71,
+          "expectedEnd": 1971.53,
+          "actualStart": 1866.7199580000001,
+          "actualEnd": 1989.537375,
+          "timeDifference": 18.009958000000097
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Art of Listening and Empathy",
+          "expectedStart": 1971.53,
+          "expectedEnd": 2104.51,
+          "actualStart": 1991.037375,
+          "actualEnd": 2124.0135,
+          "timeDifference": 19.50737500000014
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Balancing Ambition with Contentment",
+          "expectedStart": 2104.51,
+          "expectedEnd": 2244.73,
+          "actualStart": 2125.5135,
+          "actualEnd": 2265.731458,
+          "timeDifference": 21.003499999999804
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 Leaving a Legacy and Inspiring Others",
+          "expectedStart": 2244.73,
+          "expectedEnd": 2367.99,
+          "actualStart": 2267.231458,
+          "actualEnd": 2390.4934160000003,
+          "timeDifference": 22.501458000000184
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2367.99,
+          "expectedEnd": 2490.73,
+          "actualStart": 2391.9934160000003,
+          "actualEnd": 2514.729541,
+          "timeDifference": 24.00341600000047
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.228958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Finding Strength in Everyday Struggles"
+        },
+        {
+          "startTime": 278.3415,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Finding Strength in Everyday Struggles and Chapter 2 The Courage to Dream and Act"
+        },
+        {
+          "startTime": 458.033208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Courage to Dream and Act and Chapter 3 Learning from Diverse Voices and Experiences"
+        },
+        {
+          "startTime": 640.215625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Learning from Diverse Voices and Experiences and Chapter 4 Building Character and Leading with Integrity"
+        },
+        {
+          "startTime": 810.5579580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Building Character and Leading with Integrity and Chapter 5 The Power of Daily Reflection and Positive Habits"
+        },
+        {
+          "startTime": 977.9565830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Daily Reflection and Positive Habits and Chapter 6 Embracing Change and Uncertainty"
+        },
+        {
+          "startTime": 1143.2058330000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Embracing Change and Uncertainty and Chapter 7 The Importance of Connection and Community"
+        },
+        {
+          "startTime": 1297.1465000000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Importance of Connection and Community and Chapter 8 Overcoming Fear and Self-Doubt"
+        },
+        {
+          "startTime": 1443.4861670000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Fear and Self-Doubt and Chapter 9 The Role of Gratitude and Generosity"
+        },
+        {
+          "startTime": 1588.6995000000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Role of Gratitude and Generosity and Chapter 10 Navigating Failure and Finding Resilience"
+        },
+        {
+          "startTime": 1722.6720830000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating Failure and Finding Resilience and Chapter 11 The Value of Curiosity and Lifelong Learning"
+        },
+        {
+          "startTime": 1865.2199580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Value of Curiosity and Lifelong Learning and Chapter 12 Living with Purpose and Meaning"
+        },
+        {
+          "startTime": 1989.537375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Living with Purpose and Meaning and Chapter 13 The Art of Listening and Empathy"
+        },
+        {
+          "startTime": 2124.0135,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Art of Listening and Empathy and Chapter 14 Balancing Ambition with Contentment"
+        },
+        {
+          "startTime": 2265.731458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Balancing Ambition with Contentment and Chapter 15 Leaving a Legacy and Inspiring Others"
+        },
+        {
+          "startTime": 2390.4934160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 Leaving a Legacy and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1910",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T00:25:42.776Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

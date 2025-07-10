@@ -1,0 +1,456 @@
+{
+  "bookId": "1777",
+  "timestamp": "2025-07-08T14:21:27.614Z",
+  "success": false,
+  "processingTime": -1751984163156,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3887,
+    "totalAudioFiles": 12,
+    "totalDuration": 2053.241126
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2053.241126
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1777/optimized_text/1777.md",
+    "fileSize": 764,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "1777.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1777/metadata/1777_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2053.24,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1777/metadata/1777_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1777/metadata/1777_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1777/1777_complete.wav",
+    "duration": 2053.241125,
+    "fileSize": 98555652,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1777/introduction.wav",
+          "duration": 96.535292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 96.535292,
+          "startTime": 0,
+          "endTime": 96.535292
+        },
+        {
+          "path": "Audio/output/1777/chapter_01.wav",
+          "duration": 193.621167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking Healing: Beyond Treating Symptoms",
+          "actualDuration": 193.621167,
+          "startTime": 98.035292,
+          "endTime": 291.65645900000004
+        },
+        {
+          "path": "Audio/output/1777/chapter_02.wav",
+          "duration": 204.076625,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Understanding Pain and Suffering: The Mind-Body Connection",
+          "actualDuration": 204.076625,
+          "startTime": 293.15645900000004,
+          "endTime": 497.2330840000001
+        },
+        {
+          "path": "Audio/output/1777/chapter_03.wav",
+          "duration": 224.299708,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Limits of the Biomedical Model and the Need for a Holistic Approach",
+          "actualDuration": 224.299708,
+          "startTime": 498.7330840000001,
+          "endTime": 723.0327920000001
+        },
+        {
+          "path": "Audio/output/1777/chapter_04.wav",
+          "duration": 191.916125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Compassion, Empathy, and Self-Kindness as Tools for Relief",
+          "actualDuration": 191.916125,
+          "startTime": 724.5327920000001,
+          "endTime": 916.448917
+        },
+        {
+          "path": "Audio/output/1777/chapter_05.wav",
+          "duration": 188.489917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Building Daily Habits for Long-Term Well-Being",
+          "actualDuration": 188.489917,
+          "startTime": 917.948917,
+          "endTime": 1106.438834
+        },
+        {
+          "path": "Audio/output/1777/chapter_06.wav",
+          "duration": 174.360208,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Navigating Setbacks: Embracing Fluctuations and Uncertainty",
+          "actualDuration": 174.360208,
+          "startTime": 1107.938834,
+          "endTime": 1282.299042
+        },
+        {
+          "path": "Audio/output/1777/chapter_07.wav",
+          "duration": 167.804417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Power of Meaning and Purpose in Recovery",
+          "actualDuration": 167.804417,
+          "startTime": 1283.799042,
+          "endTime": 1451.6034590000002
+        },
+        {
+          "path": "Audio/output/1777/chapter_08.wav",
+          "duration": 184.35125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Integrating Mind-Body Practices: Tools for Everyday Healing",
+          "actualDuration": 184.35125,
+          "startTime": 1453.1034590000002,
+          "endTime": 1637.454709
+        },
+        {
+          "path": "Audio/output/1777/chapter_09.wav",
+          "duration": 157.142333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Healing in Community: The Role of Relationships and Support",
+          "actualDuration": 157.142333,
+          "startTime": 1638.954709,
+          "endTime": 1796.097042
+        },
+        {
+          "path": "Audio/output/1777/chapter_10.wav",
+          "duration": 146.841917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Sustaining Healing: Growth, Acceptance, and the Ongoing Journey",
+          "actualDuration": 146.841917,
+          "startTime": 1797.597042,
+          "endTime": 1944.438959
+        },
+        {
+          "path": "Audio/output/1777/conclusion.wav",
+          "duration": 123.802167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 123.802167,
+          "startTime": 1945.938959,
+          "endTime": 2069.741126
+        }
+      ],
+      "totalDuration": 2069.741126,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 96.54,
+          "actualStart": 0,
+          "actualEnd": 96.535292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking Healing: Beyond Treating Symptoms",
+          "expectedStart": 96.54,
+          "expectedEnd": 290.16,
+          "actualStart": 98.035292,
+          "actualEnd": 291.65645900000004,
+          "timeDifference": 1.495291999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Understanding Pain and Suffering: The Mind-Body Connection",
+          "expectedStart": 290.16,
+          "expectedEnd": 494.24,
+          "actualStart": 293.15645900000004,
+          "actualEnd": 497.2330840000001,
+          "timeDifference": 2.9964590000000157
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Limits of the Biomedical Model and the Need for a Holistic Approach",
+          "expectedStart": 494.24,
+          "expectedEnd": 718.54,
+          "actualStart": 498.7330840000001,
+          "actualEnd": 723.0327920000001,
+          "timeDifference": 4.493084000000067
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Compassion, Empathy, and Self-Kindness as Tools for Relief",
+          "expectedStart": 718.54,
+          "expectedEnd": 910.46,
+          "actualStart": 724.5327920000001,
+          "actualEnd": 916.448917,
+          "timeDifference": 5.992792000000122
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Building Daily Habits for Long-Term Well-Being",
+          "expectedStart": 910.46,
+          "expectedEnd": 1098.95,
+          "actualStart": 917.948917,
+          "actualEnd": 1106.438834,
+          "timeDifference": 7.488917000000015
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Navigating Setbacks: Embracing Fluctuations and Uncertainty",
+          "expectedStart": 1098.95,
+          "expectedEnd": 1273.31,
+          "actualStart": 1107.938834,
+          "actualEnd": 1282.299042,
+          "timeDifference": 8.988833999999997
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Power of Meaning and Purpose in Recovery",
+          "expectedStart": 1273.31,
+          "expectedEnd": 1441.11,
+          "actualStart": 1283.799042,
+          "actualEnd": 1451.6034590000002,
+          "timeDifference": 10.489042000000154
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Integrating Mind-Body Practices: Tools for Everyday Healing",
+          "expectedStart": 1441.11,
+          "expectedEnd": 1625.46,
+          "actualStart": 1453.1034590000002,
+          "actualEnd": 1637.454709,
+          "timeDifference": 11.993459000000257
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Healing in Community: The Role of Relationships and Support",
+          "expectedStart": 1625.46,
+          "expectedEnd": 1782.6,
+          "actualStart": 1638.954709,
+          "actualEnd": 1796.097042,
+          "timeDifference": 13.494709000000057
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Sustaining Healing: Growth, Acceptance, and the Ongoing Journey",
+          "expectedStart": 1782.6,
+          "expectedEnd": 1929.44,
+          "actualStart": 1797.597042,
+          "actualEnd": 1944.438959,
+          "timeDifference": 14.997042000000192
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1929.44,
+          "expectedEnd": 2053.24,
+          "actualStart": 1945.938959,
+          "actualEnd": 2069.741126,
+          "timeDifference": 16.498959000000013
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 96.535292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking Healing: Beyond Treating Symptoms"
+        },
+        {
+          "startTime": 291.65645900000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking Healing: Beyond Treating Symptoms and Chapter 2 Understanding Pain and Suffering: The Mind-Body Connection"
+        },
+        {
+          "startTime": 497.2330840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Understanding Pain and Suffering: The Mind-Body Connection and Chapter 3 The Limits of the Biomedical Model and the Need for a Holistic Approach"
+        },
+        {
+          "startTime": 723.0327920000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Limits of the Biomedical Model and the Need for a Holistic Approach and Chapter 4 Compassion, Empathy, and Self-Kindness as Tools for Relief"
+        },
+        {
+          "startTime": 916.448917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Compassion, Empathy, and Self-Kindness as Tools for Relief and Chapter 5 Building Daily Habits for Long-Term Well-Being"
+        },
+        {
+          "startTime": 1106.438834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Building Daily Habits for Long-Term Well-Being and Chapter 6 Navigating Setbacks: Embracing Fluctuations and Uncertainty"
+        },
+        {
+          "startTime": 1282.299042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Navigating Setbacks: Embracing Fluctuations and Uncertainty and Chapter 7 The Power of Meaning and Purpose in Recovery"
+        },
+        {
+          "startTime": 1451.6034590000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Power of Meaning and Purpose in Recovery and Chapter 8 Integrating Mind-Body Practices: Tools for Everyday Healing"
+        },
+        {
+          "startTime": 1637.454709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Integrating Mind-Body Practices: Tools for Everyday Healing and Chapter 9 Healing in Community: The Role of Relationships and Support"
+        },
+        {
+          "startTime": 1796.097042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Healing in Community: The Role of Relationships and Support and Chapter 10 Sustaining Healing: Growth, Acceptance, and the Ongoing Journey"
+        },
+        {
+          "startTime": 1944.438959,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Sustaining Healing: Growth, Acceptance, and the Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1777",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T14:16:04.348Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

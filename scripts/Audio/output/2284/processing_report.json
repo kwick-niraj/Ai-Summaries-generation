@@ -1,0 +1,456 @@
+{
+  "bookId": "2284",
+  "timestamp": "2025-07-10T10:22:29.897Z",
+  "success": false,
+  "processingTime": -1752142638393,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5447,
+    "totalAudioFiles": 12,
+    "totalDuration": 2555.744878
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2555.744878
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2284/optimized_text/2284.md",
+    "fileSize": 865,
+    "wordCount": 118,
+    "format": "markdown",
+    "filename": "2284.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2284/metadata/2284_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2555.74,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2284/metadata/2284_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2284/metadata/2284_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2284/2284_complete.wav",
+    "duration": 2555.744875,
+    "fileSize": 122675832,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2284/introduction.wav",
+          "duration": 95.579542,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 95.579542,
+          "startTime": 0,
+          "endTime": 95.579542
+        },
+        {
+          "path": "Audio/output/2284/chapter_01.wav",
+          "duration": 248.943792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 A Troubled Beginning: Childhood Shadows and the Seeds of Fragmentation",
+          "actualDuration": 248.943792,
+          "startTime": 97.079542,
+          "endTime": 346.023334
+        },
+        {
+          "path": "Audio/output/2284/chapter_02.wav",
+          "duration": 303.681542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Emergence of Many Selves: Living with Dissociative Identity Disorder",
+          "actualDuration": 303.681542,
+          "startTime": 347.523334,
+          "endTime": 651.204876
+        },
+        {
+          "path": "Audio/output/2284/chapter_03.wav",
+          "duration": 286.736917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Crime, Confession, and the Legal System’s Dilemma",
+          "actualDuration": 286.736917,
+          "startTime": 652.704876,
+          "endTime": 939.441793
+        },
+        {
+          "path": "Audio/output/2284/chapter_04.wav",
+          "duration": 258.432125,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Life Inside Institutions: Treatment, Stigma, and the Search for Healing",
+          "actualDuration": 258.432125,
+          "startTime": 940.941793,
+          "endTime": 1199.373918
+        },
+        {
+          "path": "Audio/output/2284/chapter_05.wav",
+          "duration": 238.460375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Struggle for Understanding: Society, Science, and the Limits of Empathy",
+          "actualDuration": 238.460375,
+          "startTime": 1200.873918,
+          "endTime": 1439.334293
+        },
+        {
+          "path": "Audio/output/2284/chapter_06.wav",
+          "duration": 247.325042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Long Road to Integration: Therapy, Setbacks, and Small Victories",
+          "actualDuration": 247.325042,
+          "startTime": 1440.834293,
+          "endTime": 1688.1593349999998
+        },
+        {
+          "path": "Audio/output/2284/chapter_07.wav",
+          "duration": 221.321417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Outside World: Freedom, Relapse, and the Challenge of Reintegration",
+          "actualDuration": 221.321417,
+          "startTime": 1689.6593349999998,
+          "endTime": 1910.980752
+        },
+        {
+          "path": "Audio/output/2284/chapter_08.wav",
+          "duration": 189.763792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Search for Identity: Memory, Meaning, and the Question of Self",
+          "actualDuration": 189.763792,
+          "startTime": 1912.480752,
+          "endTime": 2102.244544
+        },
+        {
+          "path": "Audio/output/2284/chapter_09.wav",
+          "duration": 177.467917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ripple Effect: Family, Relationships, and the Cost of Survival",
+          "actualDuration": 177.467917,
+          "startTime": 2103.744544,
+          "endTime": 2281.212461
+        },
+        {
+          "path": "Audio/output/2284/chapter_10.wav",
+          "duration": 158.653875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Legacy and Lessons: Changing Minds, Changing Systems",
+          "actualDuration": 158.653875,
+          "startTime": 2282.712461,
+          "endTime": 2441.366336
+        },
+        {
+          "path": "Audio/output/2284/conclusion.wav",
+          "duration": 129.378542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.378542,
+          "startTime": 2442.866336,
+          "endTime": 2572.244878
+        }
+      ],
+      "totalDuration": 2572.244878,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 95.58,
+          "actualStart": 0,
+          "actualEnd": 95.579542,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 A Troubled Beginning: Childhood Shadows and the Seeds of Fragmentation",
+          "expectedStart": 95.58,
+          "expectedEnd": 344.52,
+          "actualStart": 97.079542,
+          "actualEnd": 346.023334,
+          "timeDifference": 1.4995420000000053
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Emergence of Many Selves: Living with Dissociative Identity Disorder",
+          "expectedStart": 344.52,
+          "expectedEnd": 648.2,
+          "actualStart": 347.523334,
+          "actualEnd": 651.204876,
+          "timeDifference": 3.0033339999999953
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Crime, Confession, and the Legal System’s Dilemma",
+          "expectedStart": 648.2,
+          "expectedEnd": 934.94,
+          "actualStart": 652.704876,
+          "actualEnd": 939.441793,
+          "timeDifference": 4.5048759999999675
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Life Inside Institutions: Treatment, Stigma, and the Search for Healing",
+          "expectedStart": 934.94,
+          "expectedEnd": 1193.37,
+          "actualStart": 940.941793,
+          "actualEnd": 1199.373918,
+          "timeDifference": 6.001792999999907
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Struggle for Understanding: Society, Science, and the Limits of Empathy",
+          "expectedStart": 1193.37,
+          "expectedEnd": 1431.83,
+          "actualStart": 1200.873918,
+          "actualEnd": 1439.334293,
+          "timeDifference": 7.503918000000112
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Long Road to Integration: Therapy, Setbacks, and Small Victories",
+          "expectedStart": 1431.83,
+          "expectedEnd": 1679.16,
+          "actualStart": 1440.834293,
+          "actualEnd": 1688.1593349999998,
+          "timeDifference": 9.004292999999961
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Outside World: Freedom, Relapse, and the Challenge of Reintegration",
+          "expectedStart": 1679.16,
+          "expectedEnd": 1900.48,
+          "actualStart": 1689.6593349999998,
+          "actualEnd": 1910.980752,
+          "timeDifference": 10.499334999999746
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Search for Identity: Memory, Meaning, and the Question of Self",
+          "expectedStart": 1900.48,
+          "expectedEnd": 2090.24,
+          "actualStart": 1912.480752,
+          "actualEnd": 2102.244544,
+          "timeDifference": 12.00075199999992
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ripple Effect: Family, Relationships, and the Cost of Survival",
+          "expectedStart": 2090.24,
+          "expectedEnd": 2267.71,
+          "actualStart": 2103.744544,
+          "actualEnd": 2281.212461,
+          "timeDifference": 13.504544000000351
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Legacy and Lessons: Changing Minds, Changing Systems",
+          "expectedStart": 2267.71,
+          "expectedEnd": 2426.36,
+          "actualStart": 2282.712461,
+          "actualEnd": 2441.366336,
+          "timeDifference": 15.00246100000004
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2426.36,
+          "expectedEnd": 2555.74,
+          "actualStart": 2442.866336,
+          "actualEnd": 2572.244878,
+          "timeDifference": 16.50633599999992
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 95.579542,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 A Troubled Beginning: Childhood Shadows and the Seeds of Fragmentation"
+        },
+        {
+          "startTime": 346.023334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 A Troubled Beginning: Childhood Shadows and the Seeds of Fragmentation and Chapter 2 The Emergence of Many Selves: Living with Dissociative Identity Disorder"
+        },
+        {
+          "startTime": 651.204876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Emergence of Many Selves: Living with Dissociative Identity Disorder and Chapter 3 Crime, Confession, and the Legal System’s Dilemma"
+        },
+        {
+          "startTime": 939.441793,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Crime, Confession, and the Legal System’s Dilemma and Chapter 4 Life Inside Institutions: Treatment, Stigma, and the Search for Healing"
+        },
+        {
+          "startTime": 1199.373918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Life Inside Institutions: Treatment, Stigma, and the Search for Healing and Chapter 5 The Struggle for Understanding: Society, Science, and the Limits of Empathy"
+        },
+        {
+          "startTime": 1439.334293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Struggle for Understanding: Society, Science, and the Limits of Empathy and Chapter 6 The Long Road to Integration: Therapy, Setbacks, and Small Victories"
+        },
+        {
+          "startTime": 1688.1593349999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Long Road to Integration: Therapy, Setbacks, and Small Victories and Chapter 7 The Outside World: Freedom, Relapse, and the Challenge of Reintegration"
+        },
+        {
+          "startTime": 1910.980752,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Outside World: Freedom, Relapse, and the Challenge of Reintegration and Chapter 8 The Search for Identity: Memory, Meaning, and the Question of Self"
+        },
+        {
+          "startTime": 2102.244544,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Search for Identity: Memory, Meaning, and the Question of Self and Chapter 9 The Ripple Effect: Family, Relationships, and the Cost of Survival"
+        },
+        {
+          "startTime": 2281.212461,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ripple Effect: Family, Relationships, and the Cost of Survival and Chapter 10 Legacy and Lessons: Changing Minds, Changing Systems"
+        },
+        {
+          "startTime": 2441.366336,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Legacy and Lessons: Changing Minds, Changing Systems and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2284",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:17:19.541Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

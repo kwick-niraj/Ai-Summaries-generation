@@ -1,0 +1,480 @@
+{
+  "bookId": "2280",
+  "timestamp": "2025-07-10T10:05:55.277Z",
+  "success": false,
+  "processingTime": -1752141103250,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 6420,
+    "totalAudioFiles": 13,
+    "totalDuration": 2755.333668
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2755.333668
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2280/optimized_text/2280.md",
+    "fileSize": 773,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2280.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2280/metadata/2280_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2755.34,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2280/metadata/2280_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2280/metadata/2280_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2280/2280_complete.wav",
+    "duration": 2755.333667,
+    "fileSize": 132256094,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2280/introduction.wav",
+          "duration": 103.191292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 103.191292,
+          "startTime": 0,
+          "endTime": 103.191292
+        },
+        {
+          "path": "Audio/output/2280/chapter_01.wav",
+          "duration": 270.805042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rethinking the Purpose of Relationships and Human Connection",
+          "actualDuration": 270.805042,
+          "startTime": 104.691292,
+          "endTime": 375.49633400000005
+        },
+        {
+          "path": "Audio/output/2280/chapter_02.wav",
+          "duration": 257.641792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Questioning Old Beliefs and Discovering Personal Truth",
+          "actualDuration": 257.641792,
+          "startTime": 376.99633400000005,
+          "endTime": 634.638126
+        },
+        {
+          "path": "Audio/output/2280/chapter_03.wav",
+          "duration": 234.980375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Society’s Structures and the Possibility of Transformation",
+          "actualDuration": 234.980375,
+          "startTime": 636.138126,
+          "endTime": 871.118501
+        },
+        {
+          "path": "Audio/output/2280/chapter_04.wav",
+          "duration": 227.297417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Nature of God, the Soul, and the Universe",
+          "actualDuration": 227.297417,
+          "startTime": 872.618501,
+          "endTime": 1099.9159180000001
+        },
+        {
+          "path": "Audio/output/2280/chapter_05.wav",
+          "duration": 225.721667,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Fear, Limitation, and the Path to Abundance",
+          "actualDuration": 225.721667,
+          "startTime": 1101.4159180000001,
+          "endTime": 1327.1375850000002
+        },
+        {
+          "path": "Audio/output/2280/chapter_06.wav",
+          "duration": 256.707292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Evolution of Humanity and the Power of Collective Choice",
+          "actualDuration": 256.707292,
+          "startTime": 1328.6375850000002,
+          "endTime": 1585.3448770000002
+        },
+        {
+          "path": "Audio/output/2280/chapter_07.wav",
+          "duration": 219.377958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Spiritual Community and the Practice of Belonging",
+          "actualDuration": 219.377958,
+          "startTime": 1586.8448770000002,
+          "endTime": 1806.2228350000003
+        },
+        {
+          "path": "Audio/output/2280/chapter_08.wav",
+          "duration": 210.099125,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Living the Insights: Bringing Spiritual Wisdom into Daily Life",
+          "actualDuration": 210.099125,
+          "startTime": 1807.7228350000003,
+          "endTime": 2017.8219600000002
+        },
+        {
+          "path": "Audio/output/2280/chapter_09.wav",
+          "duration": 177.290333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Dance of Free Will and Destiny",
+          "actualDuration": 177.290333,
+          "startTime": 2019.3219600000002,
+          "endTime": 2196.612293
+        },
+        {
+          "path": "Audio/output/2280/chapter_10.wav",
+          "duration": 228.801417,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Death, Loss, and the Continuity of Life",
+          "actualDuration": 228.801417,
+          "startTime": 2198.112293,
+          "endTime": 2426.9137100000003
+        },
+        {
+          "path": "Audio/output/2280/chapter_11.wav",
+          "duration": 198.635125,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Creating a New World: Vision, Action, and Hope",
+          "actualDuration": 198.635125,
+          "startTime": 2428.4137100000003,
+          "endTime": 2627.048835
+        },
+        {
+          "path": "Audio/output/2280/conclusion.wav",
+          "duration": 144.784833,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.784833,
+          "startTime": 2628.548835,
+          "endTime": 2773.333668
+        }
+      ],
+      "totalDuration": 2773.333668,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 103.19,
+          "actualStart": 0,
+          "actualEnd": 103.191292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rethinking the Purpose of Relationships and Human Connection",
+          "expectedStart": 103.19,
+          "expectedEnd": 374,
+          "actualStart": 104.691292,
+          "actualEnd": 375.49633400000005,
+          "timeDifference": 1.5012920000000065
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Questioning Old Beliefs and Discovering Personal Truth",
+          "expectedStart": 374,
+          "expectedEnd": 631.64,
+          "actualStart": 376.99633400000005,
+          "actualEnd": 634.638126,
+          "timeDifference": 2.996334000000047
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Society’s Structures and the Possibility of Transformation",
+          "expectedStart": 631.64,
+          "expectedEnd": 866.62,
+          "actualStart": 636.138126,
+          "actualEnd": 871.118501,
+          "timeDifference": 4.49812600000007
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Nature of God, the Soul, and the Universe",
+          "expectedStart": 866.62,
+          "expectedEnd": 1093.92,
+          "actualStart": 872.618501,
+          "actualEnd": 1099.9159180000001,
+          "timeDifference": 5.998501000000033
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Fear, Limitation, and the Path to Abundance",
+          "expectedStart": 1093.92,
+          "expectedEnd": 1319.64,
+          "actualStart": 1101.4159180000001,
+          "actualEnd": 1327.1375850000002,
+          "timeDifference": 7.495918000000074
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Evolution of Humanity and the Power of Collective Choice",
+          "expectedStart": 1319.64,
+          "expectedEnd": 1576.35,
+          "actualStart": 1328.6375850000002,
+          "actualEnd": 1585.3448770000002,
+          "timeDifference": 8.997585000000072
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Spiritual Community and the Practice of Belonging",
+          "expectedStart": 1576.35,
+          "expectedEnd": 1795.73,
+          "actualStart": 1586.8448770000002,
+          "actualEnd": 1806.2228350000003,
+          "timeDifference": 10.494877000000315
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Living the Insights: Bringing Spiritual Wisdom into Daily Life",
+          "expectedStart": 1795.73,
+          "expectedEnd": 2005.83,
+          "actualStart": 1807.7228350000003,
+          "actualEnd": 2017.8219600000002,
+          "timeDifference": 11.992835000000241
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Dance of Free Will and Destiny",
+          "expectedStart": 2005.83,
+          "expectedEnd": 2183.12,
+          "actualStart": 2019.3219600000002,
+          "actualEnd": 2196.612293,
+          "timeDifference": 13.49196000000029
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Death, Loss, and the Continuity of Life",
+          "expectedStart": 2183.12,
+          "expectedEnd": 2411.92,
+          "actualStart": 2198.112293,
+          "actualEnd": 2426.9137100000003,
+          "timeDifference": 14.992293000000245
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Creating a New World: Vision, Action, and Hope",
+          "expectedStart": 2411.92,
+          "expectedEnd": 2610.56,
+          "actualStart": 2428.4137100000003,
+          "actualEnd": 2627.048835,
+          "timeDifference": 16.493710000000192
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2610.56,
+          "expectedEnd": 2755.34,
+          "actualStart": 2628.548835,
+          "actualEnd": 2773.333668,
+          "timeDifference": 17.98883500000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 103.191292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rethinking the Purpose of Relationships and Human Connection"
+        },
+        {
+          "startTime": 375.49633400000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rethinking the Purpose of Relationships and Human Connection and Chapter 2 Questioning Old Beliefs and Discovering Personal Truth"
+        },
+        {
+          "startTime": 634.638126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Questioning Old Beliefs and Discovering Personal Truth and Chapter 3 Society’s Structures and the Possibility of Transformation"
+        },
+        {
+          "startTime": 871.118501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Society’s Structures and the Possibility of Transformation and Chapter 4 The Nature of God, the Soul, and the Universe"
+        },
+        {
+          "startTime": 1099.9159180000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Nature of God, the Soul, and the Universe and Chapter 5 Fear, Limitation, and the Path to Abundance"
+        },
+        {
+          "startTime": 1327.1375850000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Fear, Limitation, and the Path to Abundance and Chapter 6 The Evolution of Humanity and the Power of Collective Choice"
+        },
+        {
+          "startTime": 1585.3448770000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Evolution of Humanity and the Power of Collective Choice and Chapter 7 Spiritual Community and the Practice of Belonging"
+        },
+        {
+          "startTime": 1806.2228350000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Spiritual Community and the Practice of Belonging and Chapter 8 Living the Insights: Bringing Spiritual Wisdom into Daily Life"
+        },
+        {
+          "startTime": 2017.8219600000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Living the Insights: Bringing Spiritual Wisdom into Daily Life and Chapter 9 The Dance of Free Will and Destiny"
+        },
+        {
+          "startTime": 2196.612293,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Dance of Free Will and Destiny and Chapter 10 Death, Loss, and the Continuity of Life"
+        },
+        {
+          "startTime": 2426.9137100000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Death, Loss, and the Continuity of Life and Chapter 11 Creating a New World: Vision, Action, and Hope"
+        },
+        {
+          "startTime": 2627.048835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Creating a New World: Vision, Action, and Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2280",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T09:51:44.437Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

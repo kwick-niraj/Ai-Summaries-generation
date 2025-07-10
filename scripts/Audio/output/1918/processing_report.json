@@ -1,0 +1,456 @@
+{
+  "bookId": "1918",
+  "timestamp": "2025-07-09T01:12:03.127Z",
+  "success": false,
+  "processingTime": -1752023143032,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4260,
+    "totalAudioFiles": 12,
+    "totalDuration": 2019.4722919999997
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2019.4722919999997
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1918/optimized_text/1918.md",
+    "fileSize": 743,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "1918.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1918/metadata/1918_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2019.47,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1918/metadata/1918_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1918/metadata/1918_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1918/1918_complete.wav",
+    "duration": 2019.472292,
+    "fileSize": 96934748,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1918/introduction.wav",
+          "duration": 93.264583,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 93.264583,
+          "startTime": 0,
+          "endTime": 93.264583
+        },
+        {
+          "path": "Audio/output/1918/chapter_01.wav",
+          "duration": 218.302,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Family Roots and Early Curiosity: The Foundations of Imagination",
+          "actualDuration": 218.302,
+          "startTime": 94.764583,
+          "endTime": 313.066583
+        },
+        {
+          "path": "Audio/output/1918/chapter_02.wav",
+          "duration": 199.6855,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Schoolyard Adventures and the Challenge of Authority",
+          "actualDuration": 199.6855,
+          "startTime": 314.566583,
+          "endTime": 514.252083
+        },
+        {
+          "path": "Audio/output/1918/chapter_03.wav",
+          "duration": 192.175042,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Family Traditions, Summer Escapes, and the Power of Belonging",
+          "actualDuration": 192.175042,
+          "startTime": 515.752083,
+          "endTime": 707.9271249999999
+        },
+        {
+          "path": "Audio/output/1918/chapter_04.wav",
+          "duration": 182.68525,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Boarding School Hardships and the Seeds of Resilience",
+          "actualDuration": 182.68525,
+          "startTime": 709.4271249999999,
+          "endTime": 892.1123749999999
+        },
+        {
+          "path": "Audio/output/1918/chapter_05.wav",
+          "duration": 179.541583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Sweet Shops, Mischief, and the Birth of Storytelling",
+          "actualDuration": 179.541583,
+          "startTime": 893.6123749999999,
+          "endTime": 1073.1539579999999
+        },
+        {
+          "path": "Audio/output/1918/chapter_06.wav",
+          "duration": 180.248667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Hazards of Health and the Unpredictability of Fate",
+          "actualDuration": 180.248667,
+          "startTime": 1074.6539579999999,
+          "endTime": 1254.902625
+        },
+        {
+          "path": "Audio/output/1918/chapter_07.wav",
+          "duration": 195.982167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Tyranny of Authority and the Quiet Acts of Defiance",
+          "actualDuration": 195.982167,
+          "startTime": 1256.402625,
+          "endTime": 1452.3847919999998
+        },
+        {
+          "path": "Audio/output/1918/chapter_08.wav",
+          "duration": 158.272667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Allure of Adventure and the Call of the Unknown",
+          "actualDuration": 158.272667,
+          "startTime": 1453.8847919999998,
+          "endTime": 1612.1574589999998
+        },
+        {
+          "path": "Audio/output/1918/chapter_09.wav",
+          "duration": 145.318167,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Imagination and the Birth of Dreams",
+          "actualDuration": 145.318167,
+          "startTime": 1613.6574589999998,
+          "endTime": 1758.9756259999997
+        },
+        {
+          "path": "Audio/output/1918/chapter_10.wav",
+          "duration": 145.852333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The End of Childhood and the Beginning of Becoming",
+          "actualDuration": 145.852333,
+          "startTime": 1760.4756259999997,
+          "endTime": 1906.3279589999997
+        },
+        {
+          "path": "Audio/output/1918/conclusion.wav",
+          "duration": 128.144333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.144333,
+          "startTime": 1907.8279589999997,
+          "endTime": 2035.9722919999997
+        }
+      ],
+      "totalDuration": 2035.9722919999997,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 93.26,
+          "actualStart": 0,
+          "actualEnd": 93.264583,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Family Roots and Early Curiosity: The Foundations of Imagination",
+          "expectedStart": 93.26,
+          "expectedEnd": 311.56,
+          "actualStart": 94.764583,
+          "actualEnd": 313.066583,
+          "timeDifference": 1.5045829999999967
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Schoolyard Adventures and the Challenge of Authority",
+          "expectedStart": 311.56,
+          "expectedEnd": 511.25,
+          "actualStart": 314.566583,
+          "actualEnd": 514.252083,
+          "timeDifference": 3.006582999999978
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Family Traditions, Summer Escapes, and the Power of Belonging",
+          "expectedStart": 511.25,
+          "expectedEnd": 703.43,
+          "actualStart": 515.752083,
+          "actualEnd": 707.9271249999999,
+          "timeDifference": 4.5020829999999705
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Boarding School Hardships and the Seeds of Resilience",
+          "expectedStart": 703.43,
+          "expectedEnd": 886.12,
+          "actualStart": 709.4271249999999,
+          "actualEnd": 892.1123749999999,
+          "timeDifference": 5.997124999999983
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Sweet Shops, Mischief, and the Birth of Storytelling",
+          "expectedStart": 886.12,
+          "expectedEnd": 1065.66,
+          "actualStart": 893.6123749999999,
+          "actualEnd": 1073.1539579999999,
+          "timeDifference": 7.4923749999999245
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Hazards of Health and the Unpredictability of Fate",
+          "expectedStart": 1065.66,
+          "expectedEnd": 1245.91,
+          "actualStart": 1074.6539579999999,
+          "actualEnd": 1254.902625,
+          "timeDifference": 8.993957999999793
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Tyranny of Authority and the Quiet Acts of Defiance",
+          "expectedStart": 1245.91,
+          "expectedEnd": 1441.89,
+          "actualStart": 1256.402625,
+          "actualEnd": 1452.3847919999998,
+          "timeDifference": 10.492624999999862
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Allure of Adventure and the Call of the Unknown",
+          "expectedStart": 1441.89,
+          "expectedEnd": 1600.16,
+          "actualStart": 1453.8847919999998,
+          "actualEnd": 1612.1574589999998,
+          "timeDifference": 11.994791999999734
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Imagination and the Birth of Dreams",
+          "expectedStart": 1600.16,
+          "expectedEnd": 1745.48,
+          "actualStart": 1613.6574589999998,
+          "actualEnd": 1758.9756259999997,
+          "timeDifference": 13.497458999999708
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The End of Childhood and the Beginning of Becoming",
+          "expectedStart": 1745.48,
+          "expectedEnd": 1891.33,
+          "actualStart": 1760.4756259999997,
+          "actualEnd": 1906.3279589999997,
+          "timeDifference": 14.995625999999675
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1891.33,
+          "expectedEnd": 2019.47,
+          "actualStart": 1907.8279589999997,
+          "actualEnd": 2035.9722919999997,
+          "timeDifference": 16.49795899999981
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 93.264583,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Family Roots and Early Curiosity: The Foundations of Imagination"
+        },
+        {
+          "startTime": 313.066583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Family Roots and Early Curiosity: The Foundations of Imagination and Chapter 2 Schoolyard Adventures and the Challenge of Authority"
+        },
+        {
+          "startTime": 514.252083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Schoolyard Adventures and the Challenge of Authority and Chapter 3 Family Traditions, Summer Escapes, and the Power of Belonging"
+        },
+        {
+          "startTime": 707.9271249999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Family Traditions, Summer Escapes, and the Power of Belonging and Chapter 4 Boarding School Hardships and the Seeds of Resilience"
+        },
+        {
+          "startTime": 892.1123749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Boarding School Hardships and the Seeds of Resilience and Chapter 5 Sweet Shops, Mischief, and the Birth of Storytelling"
+        },
+        {
+          "startTime": 1073.1539579999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Sweet Shops, Mischief, and the Birth of Storytelling and Chapter 6 The Hazards of Health and the Unpredictability of Fate"
+        },
+        {
+          "startTime": 1254.902625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Hazards of Health and the Unpredictability of Fate and Chapter 7 The Tyranny of Authority and the Quiet Acts of Defiance"
+        },
+        {
+          "startTime": 1452.3847919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Tyranny of Authority and the Quiet Acts of Defiance and Chapter 8 The Allure of Adventure and the Call of the Unknown"
+        },
+        {
+          "startTime": 1612.1574589999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Allure of Adventure and the Call of the Unknown and Chapter 9 The Power of Imagination and the Birth of Dreams"
+        },
+        {
+          "startTime": 1758.9756259999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Imagination and the Birth of Dreams and Chapter 10 The End of Childhood and the Beginning of Becoming"
+        },
+        {
+          "startTime": 1906.3279589999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The End of Childhood and the Beginning of Becoming and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1918",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T01:05:44.194Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

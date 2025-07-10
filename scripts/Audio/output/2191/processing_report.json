@@ -1,0 +1,456 @@
+{
+  "bookId": "2191",
+  "timestamp": "2025-07-09T23:56:04.553Z",
+  "success": false,
+  "processingTime": -1752105101132,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4407,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.048876
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.048876
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2191/optimized_text/2191.md",
+    "fileSize": 671,
+    "wordCount": 99,
+    "format": "markdown",
+    "filename": "2191.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2191/metadata/2191_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2191/metadata/2191_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2191/metadata/2191_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2191/2191_complete.wav",
+    "duration": 1995.048875,
+    "fileSize": 95762424,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2191/introduction.wav",
+          "duration": 91.9575,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 91.9575,
+          "startTime": 0,
+          "endTime": 91.9575
+        },
+        {
+          "path": "Audio/output/2191/chapter_01.wav",
+          "duration": 245.018042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 When Ordinary Life Collides with the Unthinkable",
+          "actualDuration": 245.018042,
+          "startTime": 93.4575,
+          "endTime": 338.475542
+        },
+        {
+          "path": "Audio/output/2191/chapter_02.wav",
+          "duration": 194.974167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 A Child’s Perspective on the Unseen",
+          "actualDuration": 194.974167,
+          "startTime": 339.975542,
+          "endTime": 534.949709
+        },
+        {
+          "path": "Audio/output/2191/chapter_03.wav",
+          "duration": 211.925417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Faith Tested and Transformed by Crisis",
+          "actualDuration": 211.925417,
+          "startTime": 536.449709,
+          "endTime": 748.375126
+        },
+        {
+          "path": "Audio/output/2191/chapter_04.wav",
+          "duration": 205.249958,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Power of Story to Heal and Connect",
+          "actualDuration": 205.249958,
+          "startTime": 749.875126,
+          "endTime": 955.125084
+        },
+        {
+          "path": "Audio/output/2191/chapter_05.wav",
+          "duration": 176.301583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Innocence, Insight, and the Mystery of the Afterlife",
+          "actualDuration": 176.301583,
+          "startTime": 956.625084,
+          "endTime": 1132.926667
+        },
+        {
+          "path": "Audio/output/2191/chapter_06.wav",
+          "duration": 181.658667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Ripples Beyond the Family: When a Private Story Becomes Public",
+          "actualDuration": 181.658667,
+          "startTime": 1134.426667,
+          "endTime": 1316.0853339999999
+        },
+        {
+          "path": "Audio/output/2191/chapter_07.wav",
+          "duration": 154.943542,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Wrestling with Doubt and the Limits of Understanding",
+          "actualDuration": 154.943542,
+          "startTime": 1317.5853339999999,
+          "endTime": 1472.5288759999999
+        },
+        {
+          "path": "Audio/output/2191/chapter_08.wav",
+          "duration": 145.373375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ongoing Journey: Growing Up with a Miracle",
+          "actualDuration": 145.373375,
+          "startTime": 1474.0288759999999,
+          "endTime": 1619.402251
+        },
+        {
+          "path": "Audio/output/2191/chapter_09.wav",
+          "duration": 146.422333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Faith, Hope, and the Questions That Remain",
+          "actualDuration": 146.422333,
+          "startTime": 1620.902251,
+          "endTime": 1767.324584
+        },
+        {
+          "path": "Audio/output/2191/chapter_10.wav",
+          "duration": 124.94475,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Mystery: The Legacy of a Child’s Vision",
+          "actualDuration": 124.94475,
+          "startTime": 1768.824584,
+          "endTime": 1893.769334
+        },
+        {
+          "path": "Audio/output/2191/conclusion.wav",
+          "duration": 116.279542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.279542,
+          "startTime": 1895.269334,
+          "endTime": 2011.548876
+        }
+      ],
+      "totalDuration": 2011.548876,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 91.96,
+          "actualStart": 0,
+          "actualEnd": 91.9575,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 When Ordinary Life Collides with the Unthinkable",
+          "expectedStart": 91.96,
+          "expectedEnd": 336.98,
+          "actualStart": 93.4575,
+          "actualEnd": 338.475542,
+          "timeDifference": 1.4975000000000023
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 A Child’s Perspective on the Unseen",
+          "expectedStart": 336.98,
+          "expectedEnd": 531.95,
+          "actualStart": 339.975542,
+          "actualEnd": 534.949709,
+          "timeDifference": 2.9955420000000004
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Faith Tested and Transformed by Crisis",
+          "expectedStart": 531.95,
+          "expectedEnd": 743.88,
+          "actualStart": 536.449709,
+          "actualEnd": 748.375126,
+          "timeDifference": 4.499708999999939
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Power of Story to Heal and Connect",
+          "expectedStart": 743.88,
+          "expectedEnd": 949.13,
+          "actualStart": 749.875126,
+          "actualEnd": 955.125084,
+          "timeDifference": 5.9951260000000275
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Innocence, Insight, and the Mystery of the Afterlife",
+          "expectedStart": 949.13,
+          "expectedEnd": 1125.43,
+          "actualStart": 956.625084,
+          "actualEnd": 1132.926667,
+          "timeDifference": 7.49508400000002
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Ripples Beyond the Family: When a Private Story Becomes Public",
+          "expectedStart": 1125.43,
+          "expectedEnd": 1307.09,
+          "actualStart": 1134.426667,
+          "actualEnd": 1316.0853339999999,
+          "timeDifference": 8.996666999999889
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Wrestling with Doubt and the Limits of Understanding",
+          "expectedStart": 1307.09,
+          "expectedEnd": 1462.03,
+          "actualStart": 1317.5853339999999,
+          "actualEnd": 1472.5288759999999,
+          "timeDifference": 10.495333999999957
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ongoing Journey: Growing Up with a Miracle",
+          "expectedStart": 1462.03,
+          "expectedEnd": 1607.4,
+          "actualStart": 1474.0288759999999,
+          "actualEnd": 1619.402251,
+          "timeDifference": 11.998875999999882
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Faith, Hope, and the Questions That Remain",
+          "expectedStart": 1607.4,
+          "expectedEnd": 1753.82,
+          "actualStart": 1620.902251,
+          "actualEnd": 1767.324584,
+          "timeDifference": 13.502250999999887
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Mystery: The Legacy of a Child’s Vision",
+          "expectedStart": 1753.82,
+          "expectedEnd": 1878.76,
+          "actualStart": 1768.824584,
+          "actualEnd": 1893.769334,
+          "timeDifference": 15.004584000000023
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1878.76,
+          "expectedEnd": 1995.04,
+          "actualStart": 1895.269334,
+          "actualEnd": 2011.548876,
+          "timeDifference": 16.50933400000008
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 91.9575,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 When Ordinary Life Collides with the Unthinkable"
+        },
+        {
+          "startTime": 338.475542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 When Ordinary Life Collides with the Unthinkable and Chapter 2 A Child’s Perspective on the Unseen"
+        },
+        {
+          "startTime": 534.949709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 A Child’s Perspective on the Unseen and Chapter 3 Faith Tested and Transformed by Crisis"
+        },
+        {
+          "startTime": 748.375126,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Faith Tested and Transformed by Crisis and Chapter 4 The Power of Story to Heal and Connect"
+        },
+        {
+          "startTime": 955.125084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Power of Story to Heal and Connect and Chapter 5 Innocence, Insight, and the Mystery of the Afterlife"
+        },
+        {
+          "startTime": 1132.926667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Innocence, Insight, and the Mystery of the Afterlife and Chapter 6 Ripples Beyond the Family: When a Private Story Becomes Public"
+        },
+        {
+          "startTime": 1316.0853339999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Ripples Beyond the Family: When a Private Story Becomes Public and Chapter 7 Wrestling with Doubt and the Limits of Understanding"
+        },
+        {
+          "startTime": 1472.5288759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Wrestling with Doubt and the Limits of Understanding and Chapter 8 The Ongoing Journey: Growing Up with a Miracle"
+        },
+        {
+          "startTime": 1619.402251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ongoing Journey: Growing Up with a Miracle and Chapter 9 Faith, Hope, and the Questions That Remain"
+        },
+        {
+          "startTime": 1767.324584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Faith, Hope, and the Questions That Remain and Chapter 10 Living with Mystery: The Legacy of a Child’s Vision"
+        },
+        {
+          "startTime": 1893.769334,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Mystery: The Legacy of a Child’s Vision and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2191",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T23:51:41.662Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

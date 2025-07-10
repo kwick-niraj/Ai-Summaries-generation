@@ -1,0 +1,480 @@
+{
+  "bookId": "2134",
+  "timestamp": "2025-07-09T21:22:25.124Z",
+  "success": false,
+  "processingTime": -1752095755172,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5128,
+    "totalAudioFiles": 13,
+    "totalDuration": 2201.511499
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2201.511499
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2134/optimized_text/2134.md",
+    "fileSize": 818,
+    "wordCount": 119,
+    "format": "markdown",
+    "filename": "2134.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2134/metadata/2134_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2201.51,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2134/metadata/2134_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2134/metadata/2134_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2134/2134_complete.wav",
+    "duration": 2201.5115,
+    "fileSize": 105672630,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2134/introduction.wav",
+          "duration": 97.091333,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 97.091333,
+          "startTime": 0,
+          "endTime": 97.091333
+        },
+        {
+          "path": "Audio/output/2134/chapter_01.wav",
+          "duration": 308.522167,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Weight of Trying to Be Good Enough",
+          "actualDuration": 308.522167,
+          "startTime": 98.591333,
+          "endTime": 407.11350000000004
+        },
+        {
+          "path": "Audio/output/2134/chapter_02.wav",
+          "duration": 254.0005,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Parable of the Bicycle: Understanding Grace in Everyday Life",
+          "actualDuration": 254.0005,
+          "startTime": 408.61350000000004,
+          "endTime": 662.614
+        },
+        {
+          "path": "Audio/output/2134/chapter_03.wav",
+          "duration": 236.184958,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Moving Beyond Belief About Christ to Trusting Him Personally",
+          "actualDuration": 236.184958,
+          "startTime": 664.114,
+          "endTime": 900.2989580000001
+        },
+        {
+          "path": "Audio/output/2134/chapter_04.wav",
+          "duration": 207.4515,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Partnership of Effort and Grace in Salvation",
+          "actualDuration": 207.4515,
+          "startTime": 901.7989580000001,
+          "endTime": 1109.250458
+        },
+        {
+          "path": "Audio/output/2134/chapter_05.wav",
+          "duration": 176.881875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Joy and Hope in the Promises of the Gospel",
+          "actualDuration": 176.881875,
+          "startTime": 1110.750458,
+          "endTime": 1287.632333
+        },
+        {
+          "path": "Audio/output/2134/chapter_06.wav",
+          "duration": 166.86925,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Grace in the Messy Middle: Living with Imperfection",
+          "actualDuration": 166.86925,
+          "startTime": 1289.132333,
+          "endTime": 1456.001583
+        },
+        {
+          "path": "Audio/output/2134/chapter_07.wav",
+          "duration": 137.955958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Doubt, Discouragement, and the Quiet Power of Believing",
+          "actualDuration": 137.955958,
+          "startTime": 1457.501583,
+          "endTime": 1595.457541
+        },
+        {
+          "path": "Audio/output/2134/chapter_08.wav",
+          "duration": 144.107792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Transforming Power of Accepting Christ’s Help",
+          "actualDuration": 144.107792,
+          "startTime": 1596.957541,
+          "endTime": 1741.065333
+        },
+        {
+          "path": "Audio/output/2134/chapter_09.wav",
+          "duration": 160.888417,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Grace in Relationships: Forgiving, Accepting, and Loving Others",
+          "actualDuration": 160.888417,
+          "startTime": 1742.565333,
+          "endTime": 1903.4537500000001
+        },
+        {
+          "path": "Audio/output/2134/chapter_10.wav",
+          "duration": 125.650458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living the Gospel with Hope: Practical Faith in Daily Life",
+          "actualDuration": 125.650458,
+          "startTime": 1904.9537500000001,
+          "endTime": 2030.6042080000002
+        },
+        {
+          "path": "Audio/output/2134/chapter_11.wav",
+          "duration": 89.280833,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ongoing Invitation: Returning to Christ Again and Again",
+          "actualDuration": 89.280833,
+          "startTime": 2032.1042080000002,
+          "endTime": 2121.385041
+        },
+        {
+          "path": "Audio/output/2134/conclusion.wav",
+          "duration": 96.626458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 96.626458,
+          "startTime": 2122.885041,
+          "endTime": 2219.511499
+        }
+      ],
+      "totalDuration": 2219.511499,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 97.09,
+          "actualStart": 0,
+          "actualEnd": 97.091333,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Weight of Trying to Be Good Enough",
+          "expectedStart": 97.09,
+          "expectedEnd": 405.61,
+          "actualStart": 98.591333,
+          "actualEnd": 407.11350000000004,
+          "timeDifference": 1.5013330000000025
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Parable of the Bicycle: Understanding Grace in Everyday Life",
+          "expectedStart": 405.61,
+          "expectedEnd": 659.61,
+          "actualStart": 408.61350000000004,
+          "actualEnd": 662.614,
+          "timeDifference": 3.003500000000031
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Moving Beyond Belief About Christ to Trusting Him Personally",
+          "expectedStart": 659.61,
+          "expectedEnd": 895.79,
+          "actualStart": 664.114,
+          "actualEnd": 900.2989580000001,
+          "timeDifference": 4.504000000000019
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Partnership of Effort and Grace in Salvation",
+          "expectedStart": 895.79,
+          "expectedEnd": 1103.24,
+          "actualStart": 901.7989580000001,
+          "actualEnd": 1109.250458,
+          "timeDifference": 6.008958000000121
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Joy and Hope in the Promises of the Gospel",
+          "expectedStart": 1103.24,
+          "expectedEnd": 1280.12,
+          "actualStart": 1110.750458,
+          "actualEnd": 1287.632333,
+          "timeDifference": 7.510457999999971
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Grace in the Messy Middle: Living with Imperfection",
+          "expectedStart": 1280.12,
+          "expectedEnd": 1446.99,
+          "actualStart": 1289.132333,
+          "actualEnd": 1456.001583,
+          "timeDifference": 9.012333000000126
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Doubt, Discouragement, and the Quiet Power of Believing",
+          "expectedStart": 1446.99,
+          "expectedEnd": 1584.95,
+          "actualStart": 1457.501583,
+          "actualEnd": 1595.457541,
+          "timeDifference": 10.511582999999973
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Transforming Power of Accepting Christ’s Help",
+          "expectedStart": 1584.95,
+          "expectedEnd": 1729.06,
+          "actualStart": 1596.957541,
+          "actualEnd": 1741.065333,
+          "timeDifference": 12.007540999999947
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Grace in Relationships: Forgiving, Accepting, and Loving Others",
+          "expectedStart": 1729.06,
+          "expectedEnd": 1889.95,
+          "actualStart": 1742.565333,
+          "actualEnd": 1903.4537500000001,
+          "timeDifference": 13.505333000000064
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living the Gospel with Hope: Practical Faith in Daily Life",
+          "expectedStart": 1889.95,
+          "expectedEnd": 2015.6,
+          "actualStart": 1904.9537500000001,
+          "actualEnd": 2030.6042080000002,
+          "timeDifference": 15.003750000000082
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ongoing Invitation: Returning to Christ Again and Again",
+          "expectedStart": 2015.6,
+          "expectedEnd": 2104.88,
+          "actualStart": 2032.1042080000002,
+          "actualEnd": 2121.385041,
+          "timeDifference": 16.50420800000029
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2104.88,
+          "expectedEnd": 2201.51,
+          "actualStart": 2122.885041,
+          "actualEnd": 2219.511499,
+          "timeDifference": 18.005040999999892
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 97.091333,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Weight of Trying to Be Good Enough"
+        },
+        {
+          "startTime": 407.11350000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Weight of Trying to Be Good Enough and Chapter 2 The Parable of the Bicycle: Understanding Grace in Everyday Life"
+        },
+        {
+          "startTime": 662.614,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Parable of the Bicycle: Understanding Grace in Everyday Life and Chapter 3 Moving Beyond Belief About Christ to Trusting Him Personally"
+        },
+        {
+          "startTime": 900.2989580000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Moving Beyond Belief About Christ to Trusting Him Personally and Chapter 4 The Partnership of Effort and Grace in Salvation"
+        },
+        {
+          "startTime": 1109.250458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Partnership of Effort and Grace in Salvation and Chapter 5 Finding Joy and Hope in the Promises of the Gospel"
+        },
+        {
+          "startTime": 1287.632333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Joy and Hope in the Promises of the Gospel and Chapter 6 Grace in the Messy Middle: Living with Imperfection"
+        },
+        {
+          "startTime": 1456.001583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Grace in the Messy Middle: Living with Imperfection and Chapter 7 Doubt, Discouragement, and the Quiet Power of Believing"
+        },
+        {
+          "startTime": 1595.457541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Doubt, Discouragement, and the Quiet Power of Believing and Chapter 8 The Transforming Power of Accepting Christ’s Help"
+        },
+        {
+          "startTime": 1741.065333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Transforming Power of Accepting Christ’s Help and Chapter 9 Grace in Relationships: Forgiving, Accepting, and Loving Others"
+        },
+        {
+          "startTime": 1903.4537500000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Grace in Relationships: Forgiving, Accepting, and Loving Others and Chapter 10 Living the Gospel with Hope: Practical Faith in Daily Life"
+        },
+        {
+          "startTime": 2030.6042080000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living the Gospel with Hope: Practical Faith in Daily Life and Chapter 11 The Ongoing Invitation: Returning to Christ Again and Again"
+        },
+        {
+          "startTime": 2121.385041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ongoing Invitation: Returning to Christ Again and Again and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2134",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T21:15:56.369Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

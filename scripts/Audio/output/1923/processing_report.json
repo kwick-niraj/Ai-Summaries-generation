@@ -1,0 +1,456 @@
+{
+  "bookId": "1923",
+  "timestamp": "2025-07-09T01:39:11.394Z",
+  "success": false,
+  "processingTime": -1752024800387,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4639,
+    "totalAudioFiles": 12,
+    "totalDuration": 2158.848457
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2158.848457
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1923/optimized_text/1923.md",
+    "fileSize": 662,
+    "wordCount": 93,
+    "format": "markdown",
+    "filename": "1923.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1923/metadata/1923_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2158.83,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1923/metadata/1923_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1923/metadata/1923_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1923/1923_complete.wav",
+    "duration": 2158.848458,
+    "fileSize": 103624804,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1923/introduction.wav",
+          "duration": 89.739708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 89.739708,
+          "startTime": 0,
+          "endTime": 89.739708
+        },
+        {
+          "path": "Audio/output/1923/chapter_01.wav",
+          "duration": 239.832625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Power of Virtue in Everyday Life",
+          "actualDuration": 239.832625,
+          "startTime": 91.239708,
+          "endTime": 331.072333
+        },
+        {
+          "path": "Audio/output/1923/chapter_02.wav",
+          "duration": 224.127,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Foundation of Love and Compassion",
+          "actualDuration": 224.127,
+          "startTime": 332.572333,
+          "endTime": 556.699333
+        },
+        {
+          "path": "Audio/output/1923/chapter_03.wav",
+          "duration": 211.443417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Honesty and Integrity: The Cornerstones of Trust",
+          "actualDuration": 211.443417,
+          "startTime": 558.199333,
+          "endTime": 769.64275
+        },
+        {
+          "path": "Audio/output/1923/chapter_04.wav",
+          "duration": 203.932792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Healing Power of Forgiveness and Gratitude",
+          "actualDuration": 203.932792,
+          "startTime": 771.14275,
+          "endTime": 975.075542
+        },
+        {
+          "path": "Audio/output/1923/chapter_05.wav",
+          "duration": 221.892208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Civility, Respect, and the Restoration of Decency",
+          "actualDuration": 221.892208,
+          "startTime": 976.575542,
+          "endTime": 1198.46775
+        },
+        {
+          "path": "Audio/output/1923/chapter_06.wav",
+          "duration": 182.625333,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Duty, Responsibility, and the Quiet Strength of Commitment",
+          "actualDuration": 182.625333,
+          "startTime": 1199.96775,
+          "endTime": 1382.593083
+        },
+        {
+          "path": "Audio/output/1923/chapter_07.wav",
+          "duration": 151.071958,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Faith, Hope, and the Light That Guides Us",
+          "actualDuration": 151.071958,
+          "startTime": 1384.093083,
+          "endTime": 1535.165041
+        },
+        {
+          "path": "Audio/output/1923/chapter_08.wav",
+          "duration": 176.013792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Self-Discipline and the Freedom of Restraint",
+          "actualDuration": 176.013792,
+          "startTime": 1536.665041,
+          "endTime": 1712.678833
+        },
+        {
+          "path": "Audio/output/1923/chapter_09.wav",
+          "duration": 165.363333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Learning, Curiosity, and the Courage to Grow",
+          "actualDuration": 165.363333,
+          "startTime": 1714.178833,
+          "endTime": 1879.542166
+        },
+        {
+          "path": "Audio/output/1923/chapter_10.wav",
+          "duration": 153.393583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Service, Generosity, and the Joy of Giving",
+          "actualDuration": 153.393583,
+          "startTime": 1881.042166,
+          "endTime": 2034.435749
+        },
+        {
+          "path": "Audio/output/1923/conclusion.wav",
+          "duration": 139.412708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 139.412708,
+          "startTime": 2035.935749,
+          "endTime": 2175.348457
+        }
+      ],
+      "totalDuration": 2175.348457,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 89.74,
+          "actualStart": 0,
+          "actualEnd": 89.739708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Power of Virtue in Everyday Life",
+          "expectedStart": 89.74,
+          "expectedEnd": 329.57,
+          "actualStart": 91.239708,
+          "actualEnd": 331.072333,
+          "timeDifference": 1.4997079999999983
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Foundation of Love and Compassion",
+          "expectedStart": 329.57,
+          "expectedEnd": 553.7,
+          "actualStart": 332.572333,
+          "actualEnd": 556.699333,
+          "timeDifference": 3.0023330000000215
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Honesty and Integrity: The Cornerstones of Trust",
+          "expectedStart": 553.7,
+          "expectedEnd": 765.14,
+          "actualStart": 558.199333,
+          "actualEnd": 769.64275,
+          "timeDifference": 4.499332999999979
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Healing Power of Forgiveness and Gratitude",
+          "expectedStart": 765.14,
+          "expectedEnd": 969.07,
+          "actualStart": 771.14275,
+          "actualEnd": 975.075542,
+          "timeDifference": 6.002749999999992
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Civility, Respect, and the Restoration of Decency",
+          "expectedStart": 969.07,
+          "expectedEnd": 1190.96,
+          "actualStart": 976.575542,
+          "actualEnd": 1198.46775,
+          "timeDifference": 7.505541999999991
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Duty, Responsibility, and the Quiet Strength of Commitment",
+          "expectedStart": 1190.96,
+          "expectedEnd": 1373.59,
+          "actualStart": 1199.96775,
+          "actualEnd": 1382.593083,
+          "timeDifference": 9.007749999999987
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Faith, Hope, and the Light That Guides Us",
+          "expectedStart": 1373.59,
+          "expectedEnd": 1524.66,
+          "actualStart": 1384.093083,
+          "actualEnd": 1535.165041,
+          "timeDifference": 10.50308300000006
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Self-Discipline and the Freedom of Restraint",
+          "expectedStart": 1524.66,
+          "expectedEnd": 1700.67,
+          "actualStart": 1536.665041,
+          "actualEnd": 1712.678833,
+          "timeDifference": 12.005040999999892
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Learning, Curiosity, and the Courage to Grow",
+          "expectedStart": 1700.67,
+          "expectedEnd": 1866.03,
+          "actualStart": 1714.178833,
+          "actualEnd": 1879.542166,
+          "timeDifference": 13.508832999999868
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Service, Generosity, and the Joy of Giving",
+          "expectedStart": 1866.03,
+          "expectedEnd": 2019.42,
+          "actualStart": 1881.042166,
+          "actualEnd": 2034.435749,
+          "timeDifference": 15.01216599999998
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2019.42,
+          "expectedEnd": 2158.83,
+          "actualStart": 2035.935749,
+          "actualEnd": 2175.348457,
+          "timeDifference": 16.515748999999914
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 89.739708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Power of Virtue in Everyday Life"
+        },
+        {
+          "startTime": 331.072333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Power of Virtue in Everyday Life and Chapter 2 The Foundation of Love and Compassion"
+        },
+        {
+          "startTime": 556.699333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Foundation of Love and Compassion and Chapter 3 Honesty and Integrity: The Cornerstones of Trust"
+        },
+        {
+          "startTime": 769.64275,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Honesty and Integrity: The Cornerstones of Trust and Chapter 4 The Healing Power of Forgiveness and Gratitude"
+        },
+        {
+          "startTime": 975.075542,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Healing Power of Forgiveness and Gratitude and Chapter 5 Civility, Respect, and the Restoration of Decency"
+        },
+        {
+          "startTime": 1198.46775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Civility, Respect, and the Restoration of Decency and Chapter 6 Duty, Responsibility, and the Quiet Strength of Commitment"
+        },
+        {
+          "startTime": 1382.593083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Duty, Responsibility, and the Quiet Strength of Commitment and Chapter 7 Faith, Hope, and the Light That Guides Us"
+        },
+        {
+          "startTime": 1535.165041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Faith, Hope, and the Light That Guides Us and Chapter 8 Self-Discipline and the Freedom of Restraint"
+        },
+        {
+          "startTime": 1712.678833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Self-Discipline and the Freedom of Restraint and Chapter 9 Learning, Curiosity, and the Courage to Grow"
+        },
+        {
+          "startTime": 1879.542166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Learning, Curiosity, and the Courage to Grow and Chapter 10 Service, Generosity, and the Joy of Giving"
+        },
+        {
+          "startTime": 2034.435749,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Service, Generosity, and the Joy of Giving and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1923",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T01:33:21.678Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

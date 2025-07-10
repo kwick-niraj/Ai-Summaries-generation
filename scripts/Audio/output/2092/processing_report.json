@@ -1,0 +1,456 @@
+{
+  "bookId": "2092",
+  "timestamp": "2025-07-09T17:53:14.000Z",
+  "success": false,
+  "processingTime": -1752082973539,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4765,
+    "totalAudioFiles": 12,
+    "totalDuration": 2357.4058740000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2357.4058740000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2092/optimized_text/2092.md",
+    "fileSize": 953,
+    "wordCount": 120,
+    "format": "markdown",
+    "filename": "2092.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2092/metadata/2092_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2357.39,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2092/metadata/2092_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2092/metadata/2092_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2092/2092_complete.wav",
+    "duration": 2357.405875,
+    "fileSize": 113155560,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2092/introduction.wav",
+          "duration": 98.944792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 98.944792,
+          "startTime": 0,
+          "endTime": 98.944792
+        },
+        {
+          "path": "Audio/output/2092/chapter_01.wav",
+          "duration": 244.991083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Self-Control: The Marshmallow Test and Its Surprising Lessons",
+          "actualDuration": 244.991083,
+          "startTime": 100.444792,
+          "endTime": 345.435875
+        },
+        {
+          "path": "Audio/output/2092/chapter_02.wav",
+          "duration": 243.089792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Self-Control Develops: Nature, Nurture, and the Power of Early Experiences",
+          "actualDuration": 243.089792,
+          "startTime": 346.935875,
+          "endTime": 590.025667
+        },
+        {
+          "path": "Audio/output/2092/chapter_03.wav",
+          "duration": 247.384583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Long Reach of Willpower: How Delayed Gratification Shapes Life Outcomes",
+          "actualDuration": 247.384583,
+          "startTime": 591.525667,
+          "endTime": 838.91025
+        },
+        {
+          "path": "Audio/output/2092/chapter_04.wav",
+          "duration": 300.164208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Strategies for Strengthening Self-Control: Tools, Mindsets, and Everyday Practices",
+          "actualDuration": 300.164208,
+          "startTime": 840.41025,
+          "endTime": 1140.574458
+        },
+        {
+          "path": "Audio/output/2092/chapter_05.wav",
+          "duration": 238.473833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Role of Environment and Social Support in Self-Control",
+          "actualDuration": 238.473833,
+          "startTime": 1142.074458,
+          "endTime": 1380.548291
+        },
+        {
+          "path": "Audio/output/2092/chapter_06.wav",
+          "duration": 193.904917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Advanced Strategies: Mental Contrasting, Implementation Intentions, and the Power of “If-Then” Plans",
+          "actualDuration": 193.904917,
+          "startTime": 1382.048291,
+          "endTime": 1575.9532080000001
+        },
+        {
+          "path": "Audio/output/2092/chapter_07.wav",
+          "duration": 159.836583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Science of Mindset: Beliefs About Willpower and Their Impact",
+          "actualDuration": 159.836583,
+          "startTime": 1577.4532080000001,
+          "endTime": 1737.2897910000002
+        },
+        {
+          "path": "Audio/output/2092/chapter_08.wav",
+          "duration": 190.790583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Applying Self-Control in Everyday Life: Work, Relationships, and Health",
+          "actualDuration": 190.790583,
+          "startTime": 1738.7897910000002,
+          "endTime": 1929.5803740000001
+        },
+        {
+          "path": "Audio/output/2092/chapter_09.wav",
+          "duration": 177.906542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Teaching and Spreading Self-Control: Families, Schools, and Communities",
+          "actualDuration": 177.906542,
+          "startTime": 1931.0803740000001,
+          "endTime": 2108.9869160000003
+        },
+        {
+          "path": "Audio/output/2092/chapter_10.wav",
+          "duration": 151.017333,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Navigating Setbacks and Sustaining Change: The Long Game of Self-Control",
+          "actualDuration": 151.017333,
+          "startTime": 2110.4869160000003,
+          "endTime": 2261.5042490000005
+        },
+        {
+          "path": "Audio/output/2092/conclusion.wav",
+          "duration": 110.901625,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 110.901625,
+          "startTime": 2263.0042490000005,
+          "endTime": 2373.9058740000005
+        }
+      ],
+      "totalDuration": 2373.9058740000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 98.94,
+          "actualStart": 0,
+          "actualEnd": 98.944792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Self-Control: The Marshmallow Test and Its Surprising Lessons",
+          "expectedStart": 98.94,
+          "expectedEnd": 343.93,
+          "actualStart": 100.444792,
+          "actualEnd": 345.435875,
+          "timeDifference": 1.504792000000009
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Self-Control Develops: Nature, Nurture, and the Power of Early Experiences",
+          "expectedStart": 343.93,
+          "expectedEnd": 587.02,
+          "actualStart": 346.935875,
+          "actualEnd": 590.025667,
+          "timeDifference": 3.005875000000003
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Long Reach of Willpower: How Delayed Gratification Shapes Life Outcomes",
+          "expectedStart": 587.02,
+          "expectedEnd": 834.4,
+          "actualStart": 591.525667,
+          "actualEnd": 838.91025,
+          "timeDifference": 4.505667000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Strategies for Strengthening Self-Control: Tools, Mindsets, and Everyday Practices",
+          "expectedStart": 834.4,
+          "expectedEnd": 1134.56,
+          "actualStart": 840.41025,
+          "actualEnd": 1140.574458,
+          "timeDifference": 6.010250000000042
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Role of Environment and Social Support in Self-Control",
+          "expectedStart": 1134.56,
+          "expectedEnd": 1373.03,
+          "actualStart": 1142.074458,
+          "actualEnd": 1380.548291,
+          "timeDifference": 7.514458000000104
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Advanced Strategies: Mental Contrasting, Implementation Intentions, and the Power of “If-Then” Plans",
+          "expectedStart": 1373.03,
+          "expectedEnd": 1566.93,
+          "actualStart": 1382.048291,
+          "actualEnd": 1575.9532080000001,
+          "timeDifference": 9.01829100000009
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Science of Mindset: Beliefs About Willpower and Their Impact",
+          "expectedStart": 1566.93,
+          "expectedEnd": 1726.77,
+          "actualStart": 1577.4532080000001,
+          "actualEnd": 1737.2897910000002,
+          "timeDifference": 10.523208000000068
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Applying Self-Control in Everyday Life: Work, Relationships, and Health",
+          "expectedStart": 1726.77,
+          "expectedEnd": 1917.56,
+          "actualStart": 1738.7897910000002,
+          "actualEnd": 1929.5803740000001,
+          "timeDifference": 12.019791000000168
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Teaching and Spreading Self-Control: Families, Schools, and Communities",
+          "expectedStart": 1917.56,
+          "expectedEnd": 2095.47,
+          "actualStart": 1931.0803740000001,
+          "actualEnd": 2108.9869160000003,
+          "timeDifference": 13.520374000000174
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Navigating Setbacks and Sustaining Change: The Long Game of Self-Control",
+          "expectedStart": 2095.47,
+          "expectedEnd": 2246.49,
+          "actualStart": 2110.4869160000003,
+          "actualEnd": 2261.5042490000005,
+          "timeDifference": 15.016916000000492
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2246.49,
+          "expectedEnd": 2357.39,
+          "actualStart": 2263.0042490000005,
+          "actualEnd": 2373.9058740000005,
+          "timeDifference": 16.514249000000746
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 98.944792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Self-Control: The Marshmallow Test and Its Surprising Lessons"
+        },
+        {
+          "startTime": 345.435875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Self-Control: The Marshmallow Test and Its Surprising Lessons and Chapter 2 How Self-Control Develops: Nature, Nurture, and the Power of Early Experiences"
+        },
+        {
+          "startTime": 590.025667,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Self-Control Develops: Nature, Nurture, and the Power of Early Experiences and Chapter 3 The Long Reach of Willpower: How Delayed Gratification Shapes Life Outcomes"
+        },
+        {
+          "startTime": 838.91025,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Long Reach of Willpower: How Delayed Gratification Shapes Life Outcomes and Chapter 4 Strategies for Strengthening Self-Control: Tools, Mindsets, and Everyday Practices"
+        },
+        {
+          "startTime": 1140.574458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Strategies for Strengthening Self-Control: Tools, Mindsets, and Everyday Practices and Chapter 5 The Role of Environment and Social Support in Self-Control"
+        },
+        {
+          "startTime": 1380.548291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Role of Environment and Social Support in Self-Control and Chapter 6 Advanced Strategies: Mental Contrasting, Implementation Intentions, and the Power of “If-Then” Plans"
+        },
+        {
+          "startTime": 1575.9532080000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Advanced Strategies: Mental Contrasting, Implementation Intentions, and the Power of “If-Then” Plans and Chapter 7 The Science of Mindset: Beliefs About Willpower and Their Impact"
+        },
+        {
+          "startTime": 1737.2897910000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Science of Mindset: Beliefs About Willpower and Their Impact and Chapter 8 Applying Self-Control in Everyday Life: Work, Relationships, and Health"
+        },
+        {
+          "startTime": 1929.5803740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Applying Self-Control in Everyday Life: Work, Relationships, and Health and Chapter 9 Teaching and Spreading Self-Control: Families, Schools, and Communities"
+        },
+        {
+          "startTime": 2108.9869160000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Teaching and Spreading Self-Control: Families, Schools, and Communities and Chapter 10 Navigating Setbacks and Sustaining Change: The Long Game of Self-Control"
+        },
+        {
+          "startTime": 2261.5042490000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Navigating Setbacks and Sustaining Change: The Long Game of Self-Control and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2092",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T17:42:54.044Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

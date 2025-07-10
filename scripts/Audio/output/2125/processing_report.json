@@ -1,0 +1,456 @@
+{
+  "bookId": "2125",
+  "timestamp": "2025-07-09T20:45:10.013Z",
+  "success": false,
+  "processingTime": -1752093115240,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4370,
+    "totalAudioFiles": 12,
+    "totalDuration": 2180.296001
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2180.296001
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2125/optimized_text/2125.md",
+    "fileSize": 792,
+    "wordCount": 111,
+    "format": "markdown",
+    "filename": "2125.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2125/metadata/2125_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2180.31,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2125/metadata/2125_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2125/metadata/2125_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2125/2125_complete.wav",
+    "duration": 2180.296,
+    "fileSize": 104654286,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2125/introduction.wav",
+          "duration": 113.547083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 113.547083,
+          "startTime": 0,
+          "endTime": 113.547083
+        },
+        {
+          "path": "Audio/output/2125/chapter_01.wav",
+          "duration": 235.829792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Search for Truth: How Prophetic Traditions Shape Everyday Life",
+          "actualDuration": 235.829792,
+          "startTime": 115.047083,
+          "endTime": 350.876875
+        },
+        {
+          "path": "Audio/output/2125/chapter_02.wav",
+          "duration": 217.085458,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Weighing Words: The Art of Authenticating Prophetic Teachings",
+          "actualDuration": 217.085458,
+          "startTime": 352.376875,
+          "endTime": 569.462333
+        },
+        {
+          "path": "Audio/output/2125/chapter_03.wav",
+          "duration": 201.240667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Living Faith: How Prophetic Teachings Guide Worship and Daily Practice",
+          "actualDuration": 201.240667,
+          "startTime": 570.962333,
+          "endTime": 772.203
+        },
+        {
+          "path": "Audio/output/2125/chapter_04.wav",
+          "duration": 216.268292,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Heart of the Law: How Hadith Informs Justice and Ethics",
+          "actualDuration": 216.268292,
+          "startTime": 773.703,
+          "endTime": 989.971292
+        },
+        {
+          "path": "Audio/output/2125/chapter_05.wav",
+          "duration": 182.941,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Many Paths: Embracing Diversity in Islamic Practice",
+          "actualDuration": 182.941,
+          "startTime": 991.471292,
+          "endTime": 1174.412292
+        },
+        {
+          "path": "Audio/output/2125/chapter_06.wav",
+          "duration": 191.655792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Gentle Touch: Compassion and Mercy in Prophetic Tradition",
+          "actualDuration": 191.655792,
+          "startTime": 1175.912292,
+          "endTime": 1367.568084
+        },
+        {
+          "path": "Audio/output/2125/chapter_07.wav",
+          "duration": 184.533125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Light of Knowledge: Learning, Teaching, and the Pursuit of Wisdom",
+          "actualDuration": 184.533125,
+          "startTime": 1369.068084,
+          "endTime": 1553.601209
+        },
+        {
+          "path": "Audio/output/2125/chapter_08.wav",
+          "duration": 181.477,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Trials and Triumphs: Facing Hardship with Faith",
+          "actualDuration": 181.477,
+          "startTime": 1555.101209,
+          "endTime": 1736.578209
+        },
+        {
+          "path": "Audio/output/2125/chapter_09.wav",
+          "duration": 191.91925,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Bonds That Last: Family, Friendship, and Community",
+          "actualDuration": 191.91925,
+          "startTime": 1738.078209,
+          "endTime": 1929.997459
+        },
+        {
+          "path": "Audio/output/2125/chapter_10.wav",
+          "duration": 148.539042,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Legacy: Carrying the Light Forward",
+          "actualDuration": 148.539042,
+          "startTime": 1931.497459,
+          "endTime": 2080.036501
+        },
+        {
+          "path": "Audio/output/2125/conclusion.wav",
+          "duration": 115.2595,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 115.2595,
+          "startTime": 2081.536501,
+          "endTime": 2196.796001
+        }
+      ],
+      "totalDuration": 2196.796001,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 113.55,
+          "actualStart": 0,
+          "actualEnd": 113.547083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Search for Truth: How Prophetic Traditions Shape Everyday Life",
+          "expectedStart": 113.55,
+          "expectedEnd": 349.38,
+          "actualStart": 115.047083,
+          "actualEnd": 350.876875,
+          "timeDifference": 1.4970830000000035
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Weighing Words: The Art of Authenticating Prophetic Teachings",
+          "expectedStart": 349.38,
+          "expectedEnd": 566.47,
+          "actualStart": 352.376875,
+          "actualEnd": 569.462333,
+          "timeDifference": 2.9968749999999886
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Living Faith: How Prophetic Teachings Guide Worship and Daily Practice",
+          "expectedStart": 566.47,
+          "expectedEnd": 767.71,
+          "actualStart": 570.962333,
+          "actualEnd": 772.203,
+          "timeDifference": 4.492332999999917
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Heart of the Law: How Hadith Informs Justice and Ethics",
+          "expectedStart": 767.71,
+          "expectedEnd": 983.98,
+          "actualStart": 773.703,
+          "actualEnd": 989.971292,
+          "timeDifference": 5.992999999999938
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Many Paths: Embracing Diversity in Islamic Practice",
+          "expectedStart": 983.98,
+          "expectedEnd": 1166.92,
+          "actualStart": 991.471292,
+          "actualEnd": 1174.412292,
+          "timeDifference": 7.49129199999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Gentle Touch: Compassion and Mercy in Prophetic Tradition",
+          "expectedStart": 1166.92,
+          "expectedEnd": 1358.58,
+          "actualStart": 1175.912292,
+          "actualEnd": 1367.568084,
+          "timeDifference": 8.992291999999907
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Light of Knowledge: Learning, Teaching, and the Pursuit of Wisdom",
+          "expectedStart": 1358.58,
+          "expectedEnd": 1543.11,
+          "actualStart": 1369.068084,
+          "actualEnd": 1553.601209,
+          "timeDifference": 10.488084000000072
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Trials and Triumphs: Facing Hardship with Faith",
+          "expectedStart": 1543.11,
+          "expectedEnd": 1724.59,
+          "actualStart": 1555.101209,
+          "actualEnd": 1736.578209,
+          "timeDifference": 11.991209000000026
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Bonds That Last: Family, Friendship, and Community",
+          "expectedStart": 1724.59,
+          "expectedEnd": 1916.51,
+          "actualStart": 1738.078209,
+          "actualEnd": 1929.997459,
+          "timeDifference": 13.488209000000097
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Legacy: Carrying the Light Forward",
+          "expectedStart": 1916.51,
+          "expectedEnd": 2065.05,
+          "actualStart": 1931.497459,
+          "actualEnd": 2080.036501,
+          "timeDifference": 14.987458999999944
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2065.05,
+          "expectedEnd": 2180.31,
+          "actualStart": 2081.536501,
+          "actualEnd": 2196.796001,
+          "timeDifference": 16.486500999999862
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 113.547083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Search for Truth: How Prophetic Traditions Shape Everyday Life"
+        },
+        {
+          "startTime": 350.876875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Search for Truth: How Prophetic Traditions Shape Everyday Life and Chapter 2 Weighing Words: The Art of Authenticating Prophetic Teachings"
+        },
+        {
+          "startTime": 569.462333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Weighing Words: The Art of Authenticating Prophetic Teachings and Chapter 3 Living Faith: How Prophetic Teachings Guide Worship and Daily Practice"
+        },
+        {
+          "startTime": 772.203,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Living Faith: How Prophetic Teachings Guide Worship and Daily Practice and Chapter 4 The Heart of the Law: How Hadith Informs Justice and Ethics"
+        },
+        {
+          "startTime": 989.971292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Heart of the Law: How Hadith Informs Justice and Ethics and Chapter 5 The Many Paths: Embracing Diversity in Islamic Practice"
+        },
+        {
+          "startTime": 1174.412292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Many Paths: Embracing Diversity in Islamic Practice and Chapter 6 The Gentle Touch: Compassion and Mercy in Prophetic Tradition"
+        },
+        {
+          "startTime": 1367.568084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Gentle Touch: Compassion and Mercy in Prophetic Tradition and Chapter 7 The Light of Knowledge: Learning, Teaching, and the Pursuit of Wisdom"
+        },
+        {
+          "startTime": 1553.601209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Light of Knowledge: Learning, Teaching, and the Pursuit of Wisdom and Chapter 8 Trials and Triumphs: Facing Hardship with Faith"
+        },
+        {
+          "startTime": 1736.578209,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Trials and Triumphs: Facing Hardship with Faith and Chapter 9 The Bonds That Last: Family, Friendship, and Community"
+        },
+        {
+          "startTime": 1929.997459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Bonds That Last: Family, Friendship, and Community and Chapter 10 The Enduring Legacy: Carrying the Light Forward"
+        },
+        {
+          "startTime": 2080.036501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Legacy: Carrying the Light Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2125",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T20:31:56.995Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

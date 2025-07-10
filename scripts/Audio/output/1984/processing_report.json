@@ -1,0 +1,455 @@
+{
+  "bookId": "1984",
+  "timestamp": "2025-07-09T06:37:13.827Z",
+  "success": false,
+  "processingTime": -1752042745956,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4228,
+    "totalAudioFiles": 12,
+    "totalDuration": 1805.948167
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1805.948167
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1984/optimized_text/1984.md",
+    "fileSize": 598,
+    "wordCount": 82,
+    "format": "markdown",
+    "filename": "1984.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1984/metadata/1984_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1805.94,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1984/metadata/1984_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1984/metadata/1984_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1984/1984_complete.wav",
+    "duration": 1805.948167,
+    "fileSize": 86685590,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1984/introduction.wav",
+          "duration": 85.812417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.812417,
+          "startTime": 0,
+          "endTime": 85.812417
+        },
+        {
+          "path": "Audio/output/1984/chapter_01.wav",
+          "duration": 232.602417,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Searching for Meaning in Ancient Instructions",
+          "actualDuration": 232.602417,
+          "startTime": 87.312417,
+          "endTime": 319.914834
+        },
+        {
+          "path": "Audio/output/1984/chapter_02.wav",
+          "duration": 227.847792,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Challenge of Literal Obedience in Modern Life",
+          "actualDuration": 227.847792,
+          "startTime": 321.414834,
+          "endTime": 549.262626
+        },
+        {
+          "path": "Audio/output/1984/chapter_03.wav",
+          "duration": 180.448542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Wrestling with Tradition, Doubt, and Community",
+          "actualDuration": 180.448542,
+          "startTime": 550.762626,
+          "endTime": 731.2111679999999
+        },
+        {
+          "path": "Audio/output/1984/chapter_04.wav",
+          "duration": 163.198167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Humor, Humility, and the Limits of Literalism",
+          "actualDuration": 163.198167,
+          "startTime": 732.7111679999999,
+          "endTime": 895.9093349999999
+        },
+        {
+          "path": "Audio/output/1984/chapter_05.wav",
+          "duration": 145.269833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reimagining Womanhood and Faith for Today",
+          "actualDuration": 145.269833,
+          "startTime": 897.4093349999999,
+          "endTime": 1042.679168
+        },
+        {
+          "path": "Audio/output/1984/chapter_06.wav",
+          "duration": 159.879167,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Season of Hospitality and Generosity",
+          "actualDuration": 159.879167,
+          "startTime": 1044.179168,
+          "endTime": 1204.058335
+        },
+        {
+          "path": "Audio/output/1984/chapter_07.wav",
+          "duration": 136.581083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Weight of Proverbs 31",
+          "actualDuration": 136.581083,
+          "startTime": 1205.558335,
+          "endTime": 1342.139418
+        },
+        {
+          "path": "Audio/output/1984/chapter_08.wav",
+          "duration": 129.65375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Practice of Silence and Sabbath",
+          "actualDuration": 129.65375,
+          "startTime": 1343.639418,
+          "endTime": 1473.293168
+        },
+        {
+          "path": "Audio/output/1984/chapter_09.wav",
+          "duration": 114.486958,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Power of Lament and Celebration",
+          "actualDuration": 114.486958,
+          "startTime": 1474.793168,
+          "endTime": 1589.2801259999999
+        },
+        {
+          "path": "Audio/output/1984/chapter_10.wav",
+          "duration": 104.764458,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integration: Living with Questions",
+          "actualDuration": 104.764458,
+          "startTime": 1590.7801259999999,
+          "endTime": 1695.544584
+        },
+        {
+          "path": "Audio/output/1984/conclusion.wav",
+          "duration": 125.403583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.403583,
+          "startTime": 1697.044584,
+          "endTime": 1822.448167
+        }
+      ],
+      "totalDuration": 1822.448167,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.81,
+          "actualStart": 0,
+          "actualEnd": 85.812417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Searching for Meaning in Ancient Instructions",
+          "expectedStart": 85.81,
+          "expectedEnd": 318.41,
+          "actualStart": 87.312417,
+          "actualEnd": 319.914834,
+          "timeDifference": 1.5024169999999941
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Challenge of Literal Obedience in Modern Life",
+          "expectedStart": 318.41,
+          "expectedEnd": 546.26,
+          "actualStart": 321.414834,
+          "actualEnd": 549.262626,
+          "timeDifference": 3.00483399999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Wrestling with Tradition, Doubt, and Community",
+          "expectedStart": 546.26,
+          "expectedEnd": 726.71,
+          "actualStart": 550.762626,
+          "actualEnd": 731.2111679999999,
+          "timeDifference": 4.502625999999964
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Humor, Humility, and the Limits of Literalism",
+          "expectedStart": 726.71,
+          "expectedEnd": 889.91,
+          "actualStart": 732.7111679999999,
+          "actualEnd": 895.9093349999999,
+          "timeDifference": 6.001167999999893
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reimagining Womanhood and Faith for Today",
+          "expectedStart": 889.91,
+          "expectedEnd": 1035.18,
+          "actualStart": 897.4093349999999,
+          "actualEnd": 1042.679168,
+          "timeDifference": 7.499334999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Season of Hospitality and Generosity",
+          "expectedStart": 1035.18,
+          "expectedEnd": 1195.06,
+          "actualStart": 1044.179168,
+          "actualEnd": 1204.058335,
+          "timeDifference": 8.999167999999827
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Weight of Proverbs 31",
+          "expectedStart": 1195.06,
+          "expectedEnd": 1331.64,
+          "actualStart": 1205.558335,
+          "actualEnd": 1342.139418,
+          "timeDifference": 10.498334999999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Practice of Silence and Sabbath",
+          "expectedStart": 1331.64,
+          "expectedEnd": 1461.29,
+          "actualStart": 1343.639418,
+          "actualEnd": 1473.293168,
+          "timeDifference": 11.999417999999878
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Power of Lament and Celebration",
+          "expectedStart": 1461.29,
+          "expectedEnd": 1575.78,
+          "actualStart": 1474.793168,
+          "actualEnd": 1589.2801259999999,
+          "timeDifference": 13.50316799999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integration: Living with Questions",
+          "expectedStart": 1575.78,
+          "expectedEnd": 1680.54,
+          "actualStart": 1590.7801259999999,
+          "actualEnd": 1695.544584,
+          "timeDifference": 15.00012599999991
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1680.54,
+          "expectedEnd": 1805.94,
+          "actualStart": 1697.044584,
+          "actualEnd": 1822.448167,
+          "timeDifference": 16.504584000000023
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.812417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Searching for Meaning in Ancient Instructions"
+        },
+        {
+          "startTime": 319.914834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Searching for Meaning in Ancient Instructions and Chapter 2 The Challenge of Literal Obedience in Modern Life"
+        },
+        {
+          "startTime": 549.262626,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Challenge of Literal Obedience in Modern Life and Chapter 3 Wrestling with Tradition, Doubt, and Community"
+        },
+        {
+          "startTime": 731.2111679999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Wrestling with Tradition, Doubt, and Community and Chapter 4 Humor, Humility, and the Limits of Literalism"
+        },
+        {
+          "startTime": 895.9093349999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Humor, Humility, and the Limits of Literalism and Chapter 5 Reimagining Womanhood and Faith for Today"
+        },
+        {
+          "startTime": 1042.679168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reimagining Womanhood and Faith for Today and Chapter 6 The Season of Hospitality and Generosity"
+        },
+        {
+          "startTime": 1204.058335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Season of Hospitality and Generosity and Chapter 7 The Weight of Proverbs 31"
+        },
+        {
+          "startTime": 1342.139418,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Weight of Proverbs 31 and Chapter 8 The Practice of Silence and Sabbath"
+        },
+        {
+          "startTime": 1473.293168,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Practice of Silence and Sabbath and Chapter 9 The Power of Lament and Celebration"
+        },
+        {
+          "startTime": 1589.2801259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Power of Lament and Celebration and Chapter 10 Integration: Living with Questions"
+        },
+        {
+          "startTime": 1695.544584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integration: Living with Questions and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1984",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T06:32:27.593Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

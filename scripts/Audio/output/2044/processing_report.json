@@ -1,0 +1,456 @@
+{
+  "bookId": "2044",
+  "timestamp": "2025-07-09T13:46:16.574Z",
+  "success": false,
+  "processingTime": -1752068263189,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4688,
+    "totalAudioFiles": 12,
+    "totalDuration": 2105.088127
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2105.088127
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2044/optimized_text/2044.md",
+    "fileSize": 708,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2044.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2044/metadata/2044_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2105.09,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2044/metadata/2044_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2044/metadata/2044_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2044/2044_complete.wav",
+    "duration": 2105.088125,
+    "fileSize": 101044308,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2044/introduction.wav",
+          "duration": 101.220792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 101.220792,
+          "startTime": 0,
+          "endTime": 101.220792
+        },
+        {
+          "path": "Audio/output/2044/chapter_01.wav",
+          "duration": 227.806667,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Aftermath of Defeat and the Drive to Return",
+          "actualDuration": 227.806667,
+          "startTime": 102.720792,
+          "endTime": 330.527459
+        },
+        {
+          "path": "Audio/output/2044/chapter_02.wav",
+          "duration": 217.512583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Reinventing Identity and Building a New Image",
+          "actualDuration": 217.512583,
+          "startTime": 332.027459,
+          "endTime": 549.5400420000001
+        },
+        {
+          "path": "Audio/output/2044/chapter_03.wav",
+          "duration": 239.459917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Art of Organization and the Machinery of Power",
+          "actualDuration": 239.459917,
+          "startTime": 551.0400420000001,
+          "endTime": 790.4999590000001
+        },
+        {
+          "path": "Audio/output/2044/chapter_04.wav",
+          "duration": 199.202375,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The 1948 Senate Race and the Limits of Fair Play",
+          "actualDuration": 199.202375,
+          "startTime": 791.9999590000001,
+          "endTime": 991.2023340000001
+        },
+        {
+          "path": "Audio/output/2044/chapter_05.wav",
+          "duration": 195.425042,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Moral Cost of Ambition and the Transformation of the South",
+          "actualDuration": 195.425042,
+          "startTime": 992.7023340000001,
+          "endTime": 1188.1273760000001
+        },
+        {
+          "path": "Audio/output/2044/chapter_06.wav",
+          "duration": 175.098792,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Victory and the Burden of Scrutiny",
+          "actualDuration": 175.098792,
+          "startTime": 1189.6273760000001,
+          "endTime": 1364.7261680000001
+        },
+        {
+          "path": "Audio/output/2044/chapter_07.wav",
+          "duration": 198.01875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Consolidating Power and Navigating the Senate",
+          "actualDuration": 198.01875,
+          "startTime": 1366.2261680000001,
+          "endTime": 1564.244918
+        },
+        {
+          "path": "Audio/output/2044/chapter_08.wav",
+          "duration": 172.350667,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Human Cost—Family, Friendship, and the Price of Ambition",
+          "actualDuration": 172.350667,
+          "startTime": 1565.744918,
+          "endTime": 1738.095585
+        },
+        {
+          "path": "Audio/output/2044/chapter_09.wav",
+          "duration": 150.61375,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Legacy of Power—Shaping the South and the Nation",
+          "actualDuration": 150.61375,
+          "startTime": 1739.595585,
+          "endTime": 1890.209335
+        },
+        {
+          "path": "Audio/output/2044/chapter_10.wav",
+          "duration": 134.750292,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflection, Regret, and the Unfinished Story",
+          "actualDuration": 134.750292,
+          "startTime": 1891.709335,
+          "endTime": 2026.459627
+        },
+        {
+          "path": "Audio/output/2044/conclusion.wav",
+          "duration": 93.6285,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 93.6285,
+          "startTime": 2027.959627,
+          "endTime": 2121.588127
+        }
+      ],
+      "totalDuration": 2121.588127,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 101.22,
+          "actualStart": 0,
+          "actualEnd": 101.220792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Aftermath of Defeat and the Drive to Return",
+          "expectedStart": 101.22,
+          "expectedEnd": 329.03,
+          "actualStart": 102.720792,
+          "actualEnd": 330.527459,
+          "timeDifference": 1.5007920000000041
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Reinventing Identity and Building a New Image",
+          "expectedStart": 329.03,
+          "expectedEnd": 546.54,
+          "actualStart": 332.027459,
+          "actualEnd": 549.5400420000001,
+          "timeDifference": 2.997459000000049
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Art of Organization and the Machinery of Power",
+          "expectedStart": 546.54,
+          "expectedEnd": 786,
+          "actualStart": 551.0400420000001,
+          "actualEnd": 790.4999590000001,
+          "timeDifference": 4.500042000000121
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The 1948 Senate Race and the Limits of Fair Play",
+          "expectedStart": 786,
+          "expectedEnd": 985.2,
+          "actualStart": 791.9999590000001,
+          "actualEnd": 991.2023340000001,
+          "timeDifference": 5.9999590000001035
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Moral Cost of Ambition and the Transformation of the South",
+          "expectedStart": 985.2,
+          "expectedEnd": 1180.63,
+          "actualStart": 992.7023340000001,
+          "actualEnd": 1188.1273760000001,
+          "timeDifference": 7.502334000000019
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Victory and the Burden of Scrutiny",
+          "expectedStart": 1180.63,
+          "expectedEnd": 1355.73,
+          "actualStart": 1189.6273760000001,
+          "actualEnd": 1364.7261680000001,
+          "timeDifference": 8.997376000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Consolidating Power and Navigating the Senate",
+          "expectedStart": 1355.73,
+          "expectedEnd": 1553.75,
+          "actualStart": 1366.2261680000001,
+          "actualEnd": 1564.244918,
+          "timeDifference": 10.496168000000125
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Human Cost—Family, Friendship, and the Price of Ambition",
+          "expectedStart": 1553.75,
+          "expectedEnd": 1726.1,
+          "actualStart": 1565.744918,
+          "actualEnd": 1738.095585,
+          "timeDifference": 11.994918000000098
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Legacy of Power—Shaping the South and the Nation",
+          "expectedStart": 1726.1,
+          "expectedEnd": 1876.71,
+          "actualStart": 1739.595585,
+          "actualEnd": 1890.209335,
+          "timeDifference": 13.49558500000012
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflection, Regret, and the Unfinished Story",
+          "expectedStart": 1876.71,
+          "expectedEnd": 2011.46,
+          "actualStart": 1891.709335,
+          "actualEnd": 2026.459627,
+          "timeDifference": 14.999334999999974
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2011.46,
+          "expectedEnd": 2105.09,
+          "actualStart": 2027.959627,
+          "actualEnd": 2121.588127,
+          "timeDifference": 16.49962699999992
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 101.220792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Aftermath of Defeat and the Drive to Return"
+        },
+        {
+          "startTime": 330.527459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Aftermath of Defeat and the Drive to Return and Chapter 2 Reinventing Identity and Building a New Image"
+        },
+        {
+          "startTime": 549.5400420000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Reinventing Identity and Building a New Image and Chapter 3 The Art of Organization and the Machinery of Power"
+        },
+        {
+          "startTime": 790.4999590000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Art of Organization and the Machinery of Power and Chapter 4 The 1948 Senate Race and the Limits of Fair Play"
+        },
+        {
+          "startTime": 991.2023340000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The 1948 Senate Race and the Limits of Fair Play and Chapter 5 The Moral Cost of Ambition and the Transformation of the South"
+        },
+        {
+          "startTime": 1188.1273760000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Moral Cost of Ambition and the Transformation of the South and Chapter 6 The Weight of Victory and the Burden of Scrutiny"
+        },
+        {
+          "startTime": 1364.7261680000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Victory and the Burden of Scrutiny and Chapter 7 Consolidating Power and Navigating the Senate"
+        },
+        {
+          "startTime": 1564.244918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Consolidating Power and Navigating the Senate and Chapter 8 The Human Cost—Family, Friendship, and the Price of Ambition"
+        },
+        {
+          "startTime": 1738.095585,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Human Cost—Family, Friendship, and the Price of Ambition and Chapter 9 The Legacy of Power—Shaping the South and the Nation"
+        },
+        {
+          "startTime": 1890.209335,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Legacy of Power—Shaping the South and the Nation and Chapter 10 Reflection, Regret, and the Unfinished Story"
+        },
+        {
+          "startTime": 2026.459627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflection, Regret, and the Unfinished Story and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2044",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T13:37:44.724Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

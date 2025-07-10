@@ -1,0 +1,456 @@
+{
+  "bookId": "1758",
+  "timestamp": "2025-07-08T12:16:36.325Z",
+  "success": false,
+  "processingTime": -1751976447699,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4255,
+    "totalAudioFiles": 12,
+    "totalDuration": 2026.765791
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2026.765791
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1758/optimized_text/1758.md",
+    "fileSize": 633,
+    "wordCount": 80,
+    "format": "markdown",
+    "filename": "1758.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1758/metadata/1758_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2026.78,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1758/metadata/1758_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1758/metadata/1758_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "nova-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: motivational, educational (+16); Tone match (+3) (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1758/1758_complete.wav",
+    "duration": 2026.765792,
+    "fileSize": 97284836,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1758/introduction.wav",
+          "duration": 68.862208,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 68.862208,
+          "startTime": 0,
+          "endTime": 68.862208
+        },
+        {
+          "path": "Audio/output/1758/chapter_01.wav",
+          "duration": 182.095042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Dyslexia as a Different Way of Thinking",
+          "actualDuration": 182.095042,
+          "startTime": 70.362208,
+          "endTime": 252.45725
+        },
+        {
+          "path": "Audio/output/1758/chapter_02.wav",
+          "duration": 203.126167,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Confidence and a Positive Self-Image",
+          "actualDuration": 203.126167,
+          "startTime": 253.95725,
+          "endTime": 457.083417
+        },
+        {
+          "path": "Audio/output/1758/chapter_03.wav",
+          "duration": 196.96975,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Family and Support Systems",
+          "actualDuration": 196.96975,
+          "startTime": 458.583417,
+          "endTime": 655.553167
+        },
+        {
+          "path": "Audio/output/1758/chapter_04.wav",
+          "duration": 217.160208,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Strategies for Learning Success",
+          "actualDuration": 217.160208,
+          "startTime": 657.053167,
+          "endTime": 874.213375
+        },
+        {
+          "path": "Audio/output/1758/chapter_05.wav",
+          "duration": 186.97775,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Developing Resilience and a Growth Mindset",
+          "actualDuration": 186.97775,
+          "startTime": 875.713375,
+          "endTime": 1062.691125
+        },
+        {
+          "path": "Audio/output/1758/chapter_06.wav",
+          "duration": 148.757708,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Turning Dyslexic Strengths into Superpowers",
+          "actualDuration": 148.757708,
+          "startTime": 1064.191125,
+          "endTime": 1212.9488330000001
+        },
+        {
+          "path": "Audio/output/1758/chapter_07.wav",
+          "duration": 179.666417,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Navigating School and Work with Dyslexia",
+          "actualDuration": 179.666417,
+          "startTime": 1214.4488330000001,
+          "endTime": 1394.11525
+        },
+        {
+          "path": "Audio/output/1758/chapter_08.wav",
+          "duration": 171.712583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Lifelong Coping Skills and Self-Advocacy",
+          "actualDuration": 171.712583,
+          "startTime": 1395.61525,
+          "endTime": 1567.327833
+        },
+        {
+          "path": "Audio/output/1758/chapter_09.wav",
+          "duration": 167.833125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Fostering Creativity, Innovation, and Purpose",
+          "actualDuration": 167.833125,
+          "startTime": 1568.827833,
+          "endTime": 1736.660958
+        },
+        {
+          "path": "Audio/output/1758/chapter_10.wav",
+          "duration": 164.93675,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Creating a Dyslexic-Friendly World",
+          "actualDuration": 164.93675,
+          "startTime": 1738.160958,
+          "endTime": 1903.097708
+        },
+        {
+          "path": "Audio/output/1758/conclusion.wav",
+          "duration": 138.668083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.668083,
+          "startTime": 1904.597708,
+          "endTime": 2043.265791
+        }
+      ],
+      "totalDuration": 2043.265791,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 68.86,
+          "actualStart": 0,
+          "actualEnd": 68.862208,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Dyslexia as a Different Way of Thinking",
+          "expectedStart": 68.86,
+          "expectedEnd": 250.96,
+          "actualStart": 70.362208,
+          "actualEnd": 252.45725,
+          "timeDifference": 1.502207999999996
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Confidence and a Positive Self-Image",
+          "expectedStart": 250.96,
+          "expectedEnd": 454.09,
+          "actualStart": 253.95725,
+          "actualEnd": 457.083417,
+          "timeDifference": 2.9972499999999798
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Family and Support Systems",
+          "expectedStart": 454.09,
+          "expectedEnd": 651.06,
+          "actualStart": 458.583417,
+          "actualEnd": 655.553167,
+          "timeDifference": 4.493417000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Strategies for Learning Success",
+          "expectedStart": 651.06,
+          "expectedEnd": 868.22,
+          "actualStart": 657.053167,
+          "actualEnd": 874.213375,
+          "timeDifference": 5.993167000000085
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Developing Resilience and a Growth Mindset",
+          "expectedStart": 868.22,
+          "expectedEnd": 1055.2,
+          "actualStart": 875.713375,
+          "actualEnd": 1062.691125,
+          "timeDifference": 7.4933750000000146
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Turning Dyslexic Strengths into Superpowers",
+          "expectedStart": 1055.2,
+          "expectedEnd": 1203.96,
+          "actualStart": 1064.191125,
+          "actualEnd": 1212.9488330000001,
+          "timeDifference": 8.991125000000011
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Navigating School and Work with Dyslexia",
+          "expectedStart": 1203.96,
+          "expectedEnd": 1383.63,
+          "actualStart": 1214.4488330000001,
+          "actualEnd": 1394.11525,
+          "timeDifference": 10.488833000000113
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Lifelong Coping Skills and Self-Advocacy",
+          "expectedStart": 1383.63,
+          "expectedEnd": 1555.34,
+          "actualStart": 1395.61525,
+          "actualEnd": 1567.327833,
+          "timeDifference": 11.98524999999995
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Fostering Creativity, Innovation, and Purpose",
+          "expectedStart": 1555.34,
+          "expectedEnd": 1723.17,
+          "actualStart": 1568.827833,
+          "actualEnd": 1736.660958,
+          "timeDifference": 13.487833000000137
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Creating a Dyslexic-Friendly World",
+          "expectedStart": 1723.17,
+          "expectedEnd": 1888.11,
+          "actualStart": 1738.160958,
+          "actualEnd": 1903.097708,
+          "timeDifference": 14.990957999999864
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1888.11,
+          "expectedEnd": 2026.78,
+          "actualStart": 1904.597708,
+          "actualEnd": 2043.265791,
+          "timeDifference": 16.48770800000011
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 68.862208,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Dyslexia as a Different Way of Thinking"
+        },
+        {
+          "startTime": 252.45725,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Dyslexia as a Different Way of Thinking and Chapter 2 Building Confidence and a Positive Self-Image"
+        },
+        {
+          "startTime": 457.083417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Confidence and a Positive Self-Image and Chapter 3 The Role of Family and Support Systems"
+        },
+        {
+          "startTime": 655.553167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Family and Support Systems and Chapter 4 Practical Strategies for Learning Success"
+        },
+        {
+          "startTime": 874.213375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Strategies for Learning Success and Chapter 5 Developing Resilience and a Growth Mindset"
+        },
+        {
+          "startTime": 1062.691125,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Developing Resilience and a Growth Mindset and Chapter 6 Turning Dyslexic Strengths into Superpowers"
+        },
+        {
+          "startTime": 1212.9488330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Turning Dyslexic Strengths into Superpowers and Chapter 7 Navigating School and Work with Dyslexia"
+        },
+        {
+          "startTime": 1394.11525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Navigating School and Work with Dyslexia and Chapter 8 Building Lifelong Coping Skills and Self-Advocacy"
+        },
+        {
+          "startTime": 1567.327833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Lifelong Coping Skills and Self-Advocacy and Chapter 9 Fostering Creativity, Innovation, and Purpose"
+        },
+        {
+          "startTime": 1736.660958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Fostering Creativity, Innovation, and Purpose and Chapter 10 Creating a Dyslexic-Friendly World"
+        },
+        {
+          "startTime": 1903.097708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Creating a Dyslexic-Friendly World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1758",
+      "selectedVoice": "nova-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-NovaTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "energetic",
+        "style": "dynamic",
+        "personality": "engaging",
+        "bestFor": [
+          "motivational",
+          "dynamic",
+          "educational",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: motivational, educational (+16); Tone match (+3) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T12:07:28.970Z",
+      "ssmlConfig": {
+        "voice": "nova-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

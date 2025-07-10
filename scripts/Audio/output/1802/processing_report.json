@@ -1,0 +1,433 @@
+{
+  "bookId": "1802",
+  "timestamp": "2025-07-08T17:03:28.225Z",
+  "success": false,
+  "processingTime": -1751993299900,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4183,
+    "totalAudioFiles": 12,
+    "totalDuration": 2101.35371
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 11,
+    "failed": 1,
+    "duration": 2101.35371
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1802/optimized_text/1802.md",
+    "fileSize": 752,
+    "wordCount": 85,
+    "format": "markdown",
+    "filename": "1802.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1802/metadata/1802_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2101.35,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1802/metadata/1802_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1802/metadata/1802_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1802/1802_complete.wav",
+    "duration": 2101.353708,
+    "fileSize": 100865056,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1802/chapter_01.wav",
+          "duration": 232.96175,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding What Happiness Really Means",
+          "actualDuration": 232.96175,
+          "startTime": 0,
+          "endTime": 232.96175
+        },
+        {
+          "path": "Audio/output/1802/chapter_02.wav",
+          "duration": 247.453875,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Science and Philosophy Behind Well-Being",
+          "actualDuration": 247.453875,
+          "startTime": 234.46175,
+          "endTime": 481.915625
+        },
+        {
+          "path": "Audio/output/1802/chapter_03.wav",
+          "duration": 219.530667,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Building the Foundations—Values, Purpose, and Self-Awareness",
+          "actualDuration": 219.530667,
+          "startTime": 483.415625,
+          "endTime": 702.946292
+        },
+        {
+          "path": "Audio/output/1802/chapter_04.wav",
+          "duration": 233.593167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Practical Habits for Cultivating Lasting Happiness",
+          "actualDuration": 233.593167,
+          "startTime": 704.446292,
+          "endTime": 938.039459
+        },
+        {
+          "path": "Audio/output/1802/chapter_05.wav",
+          "duration": 221.029625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Overcoming Barriers—Challenging Negative Thinking and Limiting Beliefs",
+          "actualDuration": 221.029625,
+          "startTime": 939.539459,
+          "endTime": 1160.569084
+        },
+        {
+          "path": "Audio/output/1802/chapter_06.wav",
+          "duration": 195.956917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Sustaining Happiness—The Power of Habits and Routines",
+          "actualDuration": 195.956917,
+          "startTime": 1162.069084,
+          "endTime": 1358.026001
+        },
+        {
+          "path": "Audio/output/1802/chapter_07.wav",
+          "duration": 184.023,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Measuring Progress—Tracking Growth and Celebrating Small Wins",
+          "actualDuration": 184.023,
+          "startTime": 1359.526001,
+          "endTime": 1543.5490009999999
+        },
+        {
+          "path": "Audio/output/1802/chapter_08.wav",
+          "duration": 166.869375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Deepening Connection—Relationships as the Heart of Well-Being",
+          "actualDuration": 166.869375,
+          "startTime": 1545.0490009999999,
+          "endTime": 1711.9183759999999
+        },
+        {
+          "path": "Audio/output/1802/chapter_09.wav",
+          "duration": 154.006542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Integrating Happiness Practices into Everyday Life",
+          "actualDuration": 154.006542,
+          "startTime": 1713.4183759999999,
+          "endTime": 1867.424918
+        },
+        {
+          "path": "Audio/output/1802/chapter_10.wav",
+          "duration": 107.79075,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Ongoing Journey—Embracing Change and Growth",
+          "actualDuration": 107.79075,
+          "startTime": 1868.924918,
+          "endTime": 1976.7156679999998
+        },
+        {
+          "path": "Audio/output/1802/conclusion.wav",
+          "duration": 138.138042,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 138.138042,
+          "startTime": 1978.2156679999998,
+          "endTime": 2116.35371
+        }
+      ],
+      "totalDuration": 2116.35371,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding What Happiness Really Means",
+          "expectedStart": 0,
+          "expectedEnd": 232.96,
+          "actualStart": 0,
+          "actualEnd": 232.96175,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Science and Philosophy Behind Well-Being",
+          "expectedStart": 232.96,
+          "expectedEnd": 480.41,
+          "actualStart": 234.46175,
+          "actualEnd": 481.915625,
+          "timeDifference": 1.501749999999987
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Building the Foundations—Values, Purpose, and Self-Awareness",
+          "expectedStart": 480.41,
+          "expectedEnd": 699.94,
+          "actualStart": 483.415625,
+          "actualEnd": 702.946292,
+          "timeDifference": 3.0056249999999523
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Practical Habits for Cultivating Lasting Happiness",
+          "expectedStart": 699.94,
+          "expectedEnd": 933.53,
+          "actualStart": 704.446292,
+          "actualEnd": 938.039459,
+          "timeDifference": 4.506291999999917
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Overcoming Barriers—Challenging Negative Thinking and Limiting Beliefs",
+          "expectedStart": 933.53,
+          "expectedEnd": 1154.56,
+          "actualStart": 939.539459,
+          "actualEnd": 1160.569084,
+          "timeDifference": 6.009458999999993
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Sustaining Happiness—The Power of Habits and Routines",
+          "expectedStart": 1154.56,
+          "expectedEnd": 1350.52,
+          "actualStart": 1162.069084,
+          "actualEnd": 1358.026001,
+          "timeDifference": 7.50908400000003
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Measuring Progress—Tracking Growth and Celebrating Small Wins",
+          "expectedStart": 1350.52,
+          "expectedEnd": 1534.54,
+          "actualStart": 1359.526001,
+          "actualEnd": 1543.5490009999999,
+          "timeDifference": 9.00600099999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Deepening Connection—Relationships as the Heart of Well-Being",
+          "expectedStart": 1534.54,
+          "expectedEnd": 1701.41,
+          "actualStart": 1545.0490009999999,
+          "actualEnd": 1711.9183759999999,
+          "timeDifference": 10.509000999999898
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Integrating Happiness Practices into Everyday Life",
+          "expectedStart": 1701.41,
+          "expectedEnd": 1855.42,
+          "actualStart": 1713.4183759999999,
+          "actualEnd": 1867.424918,
+          "timeDifference": 12.008375999999771
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Ongoing Journey—Embracing Change and Growth",
+          "expectedStart": 1855.42,
+          "expectedEnd": 1963.21,
+          "actualStart": 1868.924918,
+          "actualEnd": 1976.7156679999998,
+          "timeDifference": 13.504917999999861
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1963.21,
+          "expectedEnd": 2101.35,
+          "actualStart": 1978.2156679999998,
+          "actualEnd": 2116.35371,
+          "timeDifference": 15.005667999999787
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 232.96175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding What Happiness Really Means and Chapter 2 The Science and Philosophy Behind Well-Being"
+        },
+        {
+          "startTime": 481.915625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Science and Philosophy Behind Well-Being and Chapter 3 Building the Foundations—Values, Purpose, and Self-Awareness"
+        },
+        {
+          "startTime": 702.946292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Building the Foundations—Values, Purpose, and Self-Awareness and Chapter 4 Practical Habits for Cultivating Lasting Happiness"
+        },
+        {
+          "startTime": 938.039459,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Practical Habits for Cultivating Lasting Happiness and Chapter 5 Overcoming Barriers—Challenging Negative Thinking and Limiting Beliefs"
+        },
+        {
+          "startTime": 1160.569084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Overcoming Barriers—Challenging Negative Thinking and Limiting Beliefs and Chapter 6 Sustaining Happiness—The Power of Habits and Routines"
+        },
+        {
+          "startTime": 1358.026001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Sustaining Happiness—The Power of Habits and Routines and Chapter 7 Measuring Progress—Tracking Growth and Celebrating Small Wins"
+        },
+        {
+          "startTime": 1543.5490009999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Measuring Progress—Tracking Growth and Celebrating Small Wins and Chapter 8 Deepening Connection—Relationships as the Heart of Well-Being"
+        },
+        {
+          "startTime": 1711.9183759999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Deepening Connection—Relationships as the Heart of Well-Being and Chapter 9 Integrating Happiness Practices into Everyday Life"
+        },
+        {
+          "startTime": 1867.424918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Integrating Happiness Practices into Everyday Life and Chapter 10 The Ongoing Journey—Embracing Change and Growth"
+        },
+        {
+          "startTime": 1976.7156679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Ongoing Journey—Embracing Change and Growth and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 11
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1802",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T16:48:21.171Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "bookId": "1972",
+  "timestamp": "2025-07-09T05:47:18.800Z",
+  "success": false,
+  "processingTime": -1752039586168,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4815,
+    "totalAudioFiles": 12,
+    "totalDuration": 2152.142125
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2152.142125
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1972/optimized_text/1972.md",
+    "fileSize": 545,
+    "wordCount": 76,
+    "format": "markdown",
+    "filename": "1972.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1972/metadata/1972_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2152.14,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1972/metadata/1972_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1972/metadata/1972_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1972/1972_complete.wav",
+    "duration": 2152.142125,
+    "fileSize": 103302900,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1972/introduction.wav",
+          "duration": 81.336,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 81.336,
+          "startTime": 0,
+          "endTime": 81.336
+        },
+        {
+          "path": "Audio/output/1972/chapter_01.wav",
+          "duration": 223.700708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Finding Meaning in Overlooked Spaces",
+          "actualDuration": 223.700708,
+          "startTime": 82.836,
+          "endTime": 306.536708
+        },
+        {
+          "path": "Audio/output/1972/chapter_02.wav",
+          "duration": 216.992583,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Margins as Sites of Resistance and Renewal",
+          "actualDuration": 216.992583,
+          "startTime": 308.036708,
+          "endTime": 525.029291
+        },
+        {
+          "path": "Audio/output/1972/chapter_03.wav",
+          "duration": 192.600417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Identity and Belonging in a Changing World",
+          "actualDuration": 192.600417,
+          "startTime": 526.529291,
+          "endTime": 719.1297079999999
+        },
+        {
+          "path": "Audio/output/1972/chapter_04.wav",
+          "duration": 202.148667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Listening to Voices from the Edges",
+          "actualDuration": 202.148667,
+          "startTime": 720.6297079999999,
+          "endTime": 922.7783749999999
+        },
+        {
+          "path": "Audio/output/1972/chapter_05.wav",
+          "duration": 200.488583,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Everyday Acts of Adaptation and Resilience",
+          "actualDuration": 200.488583,
+          "startTime": 924.2783749999999,
+          "endTime": 1124.766958
+        },
+        {
+          "path": "Audio/output/1972/chapter_06.wav",
+          "duration": 204.025458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Building Bridges Across Difference",
+          "actualDuration": 204.025458,
+          "startTime": 1126.266958,
+          "endTime": 1330.292416
+        },
+        {
+          "path": "Audio/output/1972/chapter_07.wav",
+          "duration": 181.624875,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Quiet Power of Mutual Aid",
+          "actualDuration": 181.624875,
+          "startTime": 1331.792416,
+          "endTime": 1513.417291
+        },
+        {
+          "path": "Audio/output/1972/chapter_08.wav",
+          "duration": 181.931,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Creativity at the Margins",
+          "actualDuration": 181.931,
+          "startTime": 1514.917291,
+          "endTime": 1696.848291
+        },
+        {
+          "path": "Audio/output/1972/chapter_09.wav",
+          "duration": 179.758,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Navigating Conflict and Disagreement",
+          "actualDuration": 179.758,
+          "startTime": 1698.348291,
+          "endTime": 1878.106291
+        },
+        {
+          "path": "Audio/output/1972/chapter_10.wav",
+          "duration": 153.784917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Long Arc of Change",
+          "actualDuration": 153.784917,
+          "startTime": 1879.606291,
+          "endTime": 2033.391208
+        },
+        {
+          "path": "Audio/output/1972/conclusion.wav",
+          "duration": 133.750917,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 133.750917,
+          "startTime": 2034.891208,
+          "endTime": 2168.642125
+        }
+      ],
+      "totalDuration": 2168.642125,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 81.34,
+          "actualStart": 0,
+          "actualEnd": 81.336,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Finding Meaning in Overlooked Spaces",
+          "expectedStart": 81.34,
+          "expectedEnd": 305.04,
+          "actualStart": 82.836,
+          "actualEnd": 306.536708,
+          "timeDifference": 1.4959999999999951
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Margins as Sites of Resistance and Renewal",
+          "expectedStart": 305.04,
+          "expectedEnd": 522.03,
+          "actualStart": 308.036708,
+          "actualEnd": 525.029291,
+          "timeDifference": 2.9967079999999555
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Identity and Belonging in a Changing World",
+          "expectedStart": 522.03,
+          "expectedEnd": 714.63,
+          "actualStart": 526.529291,
+          "actualEnd": 719.1297079999999,
+          "timeDifference": 4.499290999999971
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Listening to Voices from the Edges",
+          "expectedStart": 714.63,
+          "expectedEnd": 916.78,
+          "actualStart": 720.6297079999999,
+          "actualEnd": 922.7783749999999,
+          "timeDifference": 5.999707999999941
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Everyday Acts of Adaptation and Resilience",
+          "expectedStart": 916.78,
+          "expectedEnd": 1117.27,
+          "actualStart": 924.2783749999999,
+          "actualEnd": 1124.766958,
+          "timeDifference": 7.498374999999896
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Building Bridges Across Difference",
+          "expectedStart": 1117.27,
+          "expectedEnd": 1321.3,
+          "actualStart": 1126.266958,
+          "actualEnd": 1330.292416,
+          "timeDifference": 8.99695799999995
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Quiet Power of Mutual Aid",
+          "expectedStart": 1321.3,
+          "expectedEnd": 1502.92,
+          "actualStart": 1331.792416,
+          "actualEnd": 1513.417291,
+          "timeDifference": 10.492416000000048
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Creativity at the Margins",
+          "expectedStart": 1502.92,
+          "expectedEnd": 1684.85,
+          "actualStart": 1514.917291,
+          "actualEnd": 1696.848291,
+          "timeDifference": 11.997290999999905
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Navigating Conflict and Disagreement",
+          "expectedStart": 1684.85,
+          "expectedEnd": 1864.61,
+          "actualStart": 1698.348291,
+          "actualEnd": 1878.106291,
+          "timeDifference": 13.498291000000108
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Long Arc of Change",
+          "expectedStart": 1864.61,
+          "expectedEnd": 2018.39,
+          "actualStart": 1879.606291,
+          "actualEnd": 2033.391208,
+          "timeDifference": 14.996291000000156
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2018.39,
+          "expectedEnd": 2152.14,
+          "actualStart": 2034.891208,
+          "actualEnd": 2168.642125,
+          "timeDifference": 16.501207999999906
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 81.336,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Finding Meaning in Overlooked Spaces"
+        },
+        {
+          "startTime": 306.536708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Finding Meaning in Overlooked Spaces and Chapter 2 Margins as Sites of Resistance and Renewal"
+        },
+        {
+          "startTime": 525.029291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Margins as Sites of Resistance and Renewal and Chapter 3 Identity and Belonging in a Changing World"
+        },
+        {
+          "startTime": 719.1297079999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Identity and Belonging in a Changing World and Chapter 4 Listening to Voices from the Edges"
+        },
+        {
+          "startTime": 922.7783749999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Listening to Voices from the Edges and Chapter 5 Everyday Acts of Adaptation and Resilience"
+        },
+        {
+          "startTime": 1124.766958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Everyday Acts of Adaptation and Resilience and Chapter 6 Building Bridges Across Difference"
+        },
+        {
+          "startTime": 1330.292416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Building Bridges Across Difference and Chapter 7 The Quiet Power of Mutual Aid"
+        },
+        {
+          "startTime": 1513.417291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Quiet Power of Mutual Aid and Chapter 8 Creativity at the Margins"
+        },
+        {
+          "startTime": 1696.848291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Creativity at the Margins and Chapter 9 Navigating Conflict and Disagreement"
+        },
+        {
+          "startTime": 1878.106291,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Navigating Conflict and Disagreement and Chapter 10 The Long Arc of Change"
+        },
+        {
+          "startTime": 2033.391208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Long Arc of Change and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1972",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T05:39:46.196Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

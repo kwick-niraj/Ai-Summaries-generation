@@ -1,0 +1,480 @@
+{
+  "bookId": "1839",
+  "timestamp": "2025-07-08T19:49:02.429Z",
+  "success": false,
+  "processingTime": -1752003666275,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 6090,
+    "totalAudioFiles": 13,
+    "totalDuration": 2837.009041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2837.009041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1839/optimized_text/1839.md",
+    "fileSize": 699,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1839.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1839/metadata/1839_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2837.02,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1839/metadata/1839_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1839/metadata/1839_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1839/1839_complete.wav",
+    "duration": 2837.009042,
+    "fileSize": 136176512,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1839/introduction.wav",
+          "duration": 86.155792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 86.155792,
+          "startTime": 0,
+          "endTime": 86.155792
+        },
+        {
+          "path": "Audio/output/1839/chapter_01.wav",
+          "duration": 274.9755,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Waking Up to the Patterns That Shape Life",
+          "actualDuration": 274.9755,
+          "startTime": 87.655792,
+          "endTime": 362.63129200000003
+        },
+        {
+          "path": "Audio/output/1839/chapter_02.wav",
+          "duration": 298.327833,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 How Beliefs Shape Reality and Limit Possibility",
+          "actualDuration": 298.327833,
+          "startTime": 364.13129200000003,
+          "endTime": 662.4591250000001
+        },
+        {
+          "path": "Audio/output/1839/chapter_03.wav",
+          "duration": 309.715458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Mind-Body Connection and the Path to Wellbeing",
+          "actualDuration": 309.715458,
+          "startTime": 663.9591250000001,
+          "endTime": 973.6745830000001
+        },
+        {
+          "path": "Audio/output/1839/chapter_04.wav",
+          "duration": 277.878,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Breaking Free from Social Conditioning and Finding Authenticity",
+          "actualDuration": 277.878,
+          "startTime": 975.1745830000001,
+          "endTime": 1253.0525830000001
+        },
+        {
+          "path": "Audio/output/1839/chapter_05.wav",
+          "duration": 217.053083,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Will and the Journey Toward Self-Mastery",
+          "actualDuration": 217.053083,
+          "startTime": 1254.5525830000001,
+          "endTime": 1471.6056660000002
+        },
+        {
+          "path": "Audio/output/1839/chapter_06.wav",
+          "duration": 232.8865,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Inner Critic and the Art of Self-Compassion",
+          "actualDuration": 232.8865,
+          "startTime": 1473.1056660000002,
+          "endTime": 1705.9921660000002
+        },
+        {
+          "path": "Audio/output/1839/chapter_07.wav",
+          "duration": 212.974167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Presence and Mindful Awareness",
+          "actualDuration": 212.974167,
+          "startTime": 1707.4921660000002,
+          "endTime": 1920.4663330000003
+        },
+        {
+          "path": "Audio/output/1839/chapter_08.wav",
+          "duration": 216.32225,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Spiritual Dimension: Beyond the Ego",
+          "actualDuration": 216.32225,
+          "startTime": 1921.9663330000003,
+          "endTime": 2138.2885830000005
+        },
+        {
+          "path": "Audio/output/1839/chapter_09.wav",
+          "duration": 178.690792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Practice of Letting Go",
+          "actualDuration": 178.690792,
+          "startTime": 2139.7885830000005,
+          "endTime": 2318.4793750000003
+        },
+        {
+          "path": "Audio/output/1839/chapter_10.wav",
+          "duration": 192.119875,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Purpose and Meaning",
+          "actualDuration": 192.119875,
+          "startTime": 2319.9793750000003,
+          "endTime": 2512.09925
+        },
+        {
+          "path": "Audio/output/1839/chapter_11.wav",
+          "duration": 183.977083,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Integrating Change: The Ongoing Journey",
+          "actualDuration": 183.977083,
+          "startTime": 2513.59925,
+          "endTime": 2697.576333
+        },
+        {
+          "path": "Audio/output/1839/conclusion.wav",
+          "duration": 155.932708,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 155.932708,
+          "startTime": 2699.076333,
+          "endTime": 2855.009041
+        }
+      ],
+      "totalDuration": 2855.009041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 86.16,
+          "actualStart": 0,
+          "actualEnd": 86.155792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Waking Up to the Patterns That Shape Life",
+          "expectedStart": 86.16,
+          "expectedEnd": 361.14,
+          "actualStart": 87.655792,
+          "actualEnd": 362.63129200000003,
+          "timeDifference": 1.4957920000000087
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 How Beliefs Shape Reality and Limit Possibility",
+          "expectedStart": 361.14,
+          "expectedEnd": 659.47,
+          "actualStart": 364.13129200000003,
+          "actualEnd": 662.4591250000001,
+          "timeDifference": 2.991292000000044
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Mind-Body Connection and the Path to Wellbeing",
+          "expectedStart": 659.47,
+          "expectedEnd": 969.19,
+          "actualStart": 663.9591250000001,
+          "actualEnd": 973.6745830000001,
+          "timeDifference": 4.489125000000058
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Breaking Free from Social Conditioning and Finding Authenticity",
+          "expectedStart": 969.19,
+          "expectedEnd": 1247.07,
+          "actualStart": 975.1745830000001,
+          "actualEnd": 1253.0525830000001,
+          "timeDifference": 5.984583000000043
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Will and the Journey Toward Self-Mastery",
+          "expectedStart": 1247.07,
+          "expectedEnd": 1464.12,
+          "actualStart": 1254.5525830000001,
+          "actualEnd": 1471.6056660000002,
+          "timeDifference": 7.482583000000204
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Inner Critic and the Art of Self-Compassion",
+          "expectedStart": 1464.12,
+          "expectedEnd": 1697.01,
+          "actualStart": 1473.1056660000002,
+          "actualEnd": 1705.9921660000002,
+          "timeDifference": 8.985666000000265
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Presence and Mindful Awareness",
+          "expectedStart": 1697.01,
+          "expectedEnd": 1909.98,
+          "actualStart": 1707.4921660000002,
+          "actualEnd": 1920.4663330000003,
+          "timeDifference": 10.482166000000234
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Spiritual Dimension: Beyond the Ego",
+          "expectedStart": 1909.98,
+          "expectedEnd": 2126.3,
+          "actualStart": 1921.9663330000003,
+          "actualEnd": 2138.2885830000005,
+          "timeDifference": 11.986333000000286
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Practice of Letting Go",
+          "expectedStart": 2126.3,
+          "expectedEnd": 2304.99,
+          "actualStart": 2139.7885830000005,
+          "actualEnd": 2318.4793750000003,
+          "timeDifference": 13.48858300000029
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Purpose and Meaning",
+          "expectedStart": 2304.99,
+          "expectedEnd": 2497.11,
+          "actualStart": 2319.9793750000003,
+          "actualEnd": 2512.09925,
+          "timeDifference": 14.989375000000564
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Integrating Change: The Ongoing Journey",
+          "expectedStart": 2497.11,
+          "expectedEnd": 2681.09,
+          "actualStart": 2513.59925,
+          "actualEnd": 2697.576333,
+          "timeDifference": 16.489250000000084
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2681.09,
+          "expectedEnd": 2837.02,
+          "actualStart": 2699.076333,
+          "actualEnd": 2855.009041,
+          "timeDifference": 17.98633299999983
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 86.155792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Waking Up to the Patterns That Shape Life"
+        },
+        {
+          "startTime": 362.63129200000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Waking Up to the Patterns That Shape Life and Chapter 2 How Beliefs Shape Reality and Limit Possibility"
+        },
+        {
+          "startTime": 662.4591250000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 How Beliefs Shape Reality and Limit Possibility and Chapter 3 The Mind-Body Connection and the Path to Wellbeing"
+        },
+        {
+          "startTime": 973.6745830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Mind-Body Connection and the Path to Wellbeing and Chapter 4 Breaking Free from Social Conditioning and Finding Authenticity"
+        },
+        {
+          "startTime": 1253.0525830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Breaking Free from Social Conditioning and Finding Authenticity and Chapter 5 The Power of Will and the Journey Toward Self-Mastery"
+        },
+        {
+          "startTime": 1471.6056660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Will and the Journey Toward Self-Mastery and Chapter 6 The Inner Critic and the Art of Self-Compassion"
+        },
+        {
+          "startTime": 1705.9921660000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Inner Critic and the Art of Self-Compassion and Chapter 7 The Role of Presence and Mindful Awareness"
+        },
+        {
+          "startTime": 1920.4663330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Presence and Mindful Awareness and Chapter 8 The Spiritual Dimension: Beyond the Ego"
+        },
+        {
+          "startTime": 2138.2885830000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Spiritual Dimension: Beyond the Ego and Chapter 9 The Practice of Letting Go"
+        },
+        {
+          "startTime": 2318.4793750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Practice of Letting Go and Chapter 10 Living with Purpose and Meaning"
+        },
+        {
+          "startTime": 2512.09925,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Purpose and Meaning and Chapter 11 Integrating Change: The Ongoing Journey"
+        },
+        {
+          "startTime": 2697.576333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Integrating Change: The Ongoing Journey and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1839",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T19:41:06.773Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

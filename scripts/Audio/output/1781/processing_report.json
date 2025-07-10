@@ -1,0 +1,456 @@
+{
+  "bookId": "1781",
+  "timestamp": "2025-07-08T14:40:51.869Z",
+  "success": false,
+  "processingTime": -1751985190193,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4370,
+    "totalAudioFiles": 12,
+    "totalDuration": 2097.668165
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2097.668165
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1781/optimized_text/1781.md",
+    "fileSize": 673,
+    "wordCount": 86,
+    "format": "markdown",
+    "filename": "1781.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1781/metadata/1781_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2097.68,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1781/metadata/1781_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1781/metadata/1781_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1781/1781_complete.wav",
+    "duration": 2097.668167,
+    "fileSize": 100688150,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1781/introduction.wav",
+          "duration": 65.069458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 65.069458,
+          "startTime": 0,
+          "endTime": 65.069458
+        },
+        {
+          "path": "Audio/output/1781/chapter_01.wav",
+          "duration": 201.727708,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Puzzle of Men’s Health and Longevity",
+          "actualDuration": 201.727708,
+          "startTime": 66.569458,
+          "endTime": 268.297166
+        },
+        {
+          "path": "Audio/output/1781/chapter_02.wav",
+          "duration": 246.405,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Biology’s Role in Shaping Male Vulnerability",
+          "actualDuration": 246.405,
+          "startTime": 269.797166,
+          "endTime": 516.202166
+        },
+        {
+          "path": "Audio/output/1781/chapter_03.wav",
+          "duration": 252.364125,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Evolution’s Trade-Offs and the Cost of Competition",
+          "actualDuration": 252.364125,
+          "startTime": 517.702166,
+          "endTime": 770.0662910000001
+        },
+        {
+          "path": "Audio/output/1781/chapter_04.wav",
+          "duration": 210.357583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Weight of Social Expectations and Masculinity",
+          "actualDuration": 210.357583,
+          "startTime": 771.5662910000001,
+          "endTime": 981.9238740000001
+        },
+        {
+          "path": "Audio/output/1781/chapter_05.wav",
+          "duration": 205.767208,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Interplay of Culture, Behavior, and Health",
+          "actualDuration": 205.767208,
+          "startTime": 983.4238740000001,
+          "endTime": 1189.191082
+        },
+        {
+          "path": "Audio/output/1781/chapter_06.wav",
+          "duration": 181.993625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Hidden Struggle—Men’s Mental Health in the Shadows",
+          "actualDuration": 181.993625,
+          "startTime": 1190.691082,
+          "endTime": 1372.6847070000001
+        },
+        {
+          "path": "Audio/output/1781/chapter_07.wav",
+          "duration": 189.948083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Changing Roles, Shifting Expectations",
+          "actualDuration": 189.948083,
+          "startTime": 1374.1847070000001,
+          "endTime": 1564.13279
+        },
+        {
+          "path": "Audio/output/1781/chapter_08.wav",
+          "duration": 162.617375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Building Healthier Lives—Strategies for Change",
+          "actualDuration": 162.617375,
+          "startTime": 1565.63279,
+          "endTime": 1728.2501650000002
+        },
+        {
+          "path": "Audio/output/1781/chapter_09.wav",
+          "duration": 152.088792,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Toward Equity—A Shared Responsibility",
+          "actualDuration": 152.088792,
+          "startTime": 1729.7501650000002,
+          "endTime": 1881.8389570000002
+        },
+        {
+          "path": "Audio/output/1781/chapter_10.wav",
+          "duration": 98.94975,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Rewriting the Story—A New Vision for Men and Health",
+          "actualDuration": 98.94975,
+          "startTime": 1883.3389570000002,
+          "endTime": 1982.2887070000002
+        },
+        {
+          "path": "Audio/output/1781/conclusion.wav",
+          "duration": 130.379458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 130.379458,
+          "startTime": 1983.7887070000002,
+          "endTime": 2114.168165
+        }
+      ],
+      "totalDuration": 2114.168165,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 65.07,
+          "actualStart": 0,
+          "actualEnd": 65.069458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Puzzle of Men’s Health and Longevity",
+          "expectedStart": 65.07,
+          "expectedEnd": 266.8,
+          "actualStart": 66.569458,
+          "actualEnd": 268.297166,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Biology’s Role in Shaping Male Vulnerability",
+          "expectedStart": 266.8,
+          "expectedEnd": 513.21,
+          "actualStart": 269.797166,
+          "actualEnd": 516.202166,
+          "timeDifference": 2.997165999999993
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Evolution’s Trade-Offs and the Cost of Competition",
+          "expectedStart": 513.21,
+          "expectedEnd": 765.57,
+          "actualStart": 517.702166,
+          "actualEnd": 770.0662910000001,
+          "timeDifference": 4.492165999999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Weight of Social Expectations and Masculinity",
+          "expectedStart": 765.57,
+          "expectedEnd": 975.93,
+          "actualStart": 771.5662910000001,
+          "actualEnd": 981.9238740000001,
+          "timeDifference": 5.996291000000042
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Interplay of Culture, Behavior, and Health",
+          "expectedStart": 975.93,
+          "expectedEnd": 1181.7,
+          "actualStart": 983.4238740000001,
+          "actualEnd": 1189.191082,
+          "timeDifference": 7.493874000000119
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Hidden Struggle—Men’s Mental Health in the Shadows",
+          "expectedStart": 1181.7,
+          "expectedEnd": 1363.69,
+          "actualStart": 1190.691082,
+          "actualEnd": 1372.6847070000001,
+          "timeDifference": 8.991082000000006
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Changing Roles, Shifting Expectations",
+          "expectedStart": 1363.69,
+          "expectedEnd": 1553.64,
+          "actualStart": 1374.1847070000001,
+          "actualEnd": 1564.13279,
+          "timeDifference": 10.494707000000062
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Building Healthier Lives—Strategies for Change",
+          "expectedStart": 1553.64,
+          "expectedEnd": 1716.26,
+          "actualStart": 1565.63279,
+          "actualEnd": 1728.2501650000002,
+          "timeDifference": 11.992790000000014
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Toward Equity—A Shared Responsibility",
+          "expectedStart": 1716.26,
+          "expectedEnd": 1868.35,
+          "actualStart": 1729.7501650000002,
+          "actualEnd": 1881.8389570000002,
+          "timeDifference": 13.490165000000161
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Rewriting the Story—A New Vision for Men and Health",
+          "expectedStart": 1868.35,
+          "expectedEnd": 1967.3,
+          "actualStart": 1883.3389570000002,
+          "actualEnd": 1982.2887070000002,
+          "timeDifference": 14.988957000000255
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1967.3,
+          "expectedEnd": 2097.68,
+          "actualStart": 1983.7887070000002,
+          "actualEnd": 2114.168165,
+          "timeDifference": 16.488707000000204
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 65.069458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Puzzle of Men’s Health and Longevity"
+        },
+        {
+          "startTime": 268.297166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Puzzle of Men’s Health and Longevity and Chapter 2 Biology’s Role in Shaping Male Vulnerability"
+        },
+        {
+          "startTime": 516.202166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Biology’s Role in Shaping Male Vulnerability and Chapter 3 Evolution’s Trade-Offs and the Cost of Competition"
+        },
+        {
+          "startTime": 770.0662910000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Evolution’s Trade-Offs and the Cost of Competition and Chapter 4 The Weight of Social Expectations and Masculinity"
+        },
+        {
+          "startTime": 981.9238740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Weight of Social Expectations and Masculinity and Chapter 5 The Interplay of Culture, Behavior, and Health"
+        },
+        {
+          "startTime": 1189.191082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Interplay of Culture, Behavior, and Health and Chapter 6 The Hidden Struggle—Men’s Mental Health in the Shadows"
+        },
+        {
+          "startTime": 1372.6847070000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Hidden Struggle—Men’s Mental Health in the Shadows and Chapter 7 Changing Roles, Shifting Expectations"
+        },
+        {
+          "startTime": 1564.13279,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Changing Roles, Shifting Expectations and Chapter 8 Building Healthier Lives—Strategies for Change"
+        },
+        {
+          "startTime": 1728.2501650000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Building Healthier Lives—Strategies for Change and Chapter 9 Toward Equity—A Shared Responsibility"
+        },
+        {
+          "startTime": 1881.8389570000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Toward Equity—A Shared Responsibility and Chapter 10 Rewriting the Story—A New Vision for Men and Health"
+        },
+        {
+          "startTime": 1982.2887070000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Rewriting the Story—A New Vision for Men and Health and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1781",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T14:33:11.483Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "1917",
+  "timestamp": "2025-07-09T01:05:42.027Z",
+  "success": false,
+  "processingTime": -1752022640004,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5195,
+    "totalAudioFiles": 12,
+    "totalDuration": 2270.226708
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2270.226708
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1917/optimized_text/1917.md",
+    "fileSize": 756,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1917.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1917/metadata/1917_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2270.23,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1917/metadata/1917_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1917/metadata/1917_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "amanda-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: educational, professional (+16) (Gender: female)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1917/1917_complete.wav",
+    "duration": 2270.226708,
+    "fileSize": 108970960,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1917/introduction.wav",
+          "duration": 83.516917,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.516917,
+          "startTime": 0,
+          "endTime": 83.516917
+        },
+        {
+          "path": "Audio/output/1917/chapter_01.wav",
+          "duration": 254.284625,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Hidden World of Early Childhood",
+          "actualDuration": 254.284625,
+          "startTime": 85.016917,
+          "endTime": 339.30154200000004
+        },
+        {
+          "path": "Audio/output/1917/chapter_02.wav",
+          "duration": 245.162208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Power of Sensitive Periods and the Child’s Inner Guide",
+          "actualDuration": 245.162208,
+          "startTime": 340.80154200000004,
+          "endTime": 585.96375
+        },
+        {
+          "path": "Audio/output/1917/chapter_03.wav",
+          "duration": 234.77875,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Creating Environments That Nurture Growth and Independence",
+          "actualDuration": 234.77875,
+          "startTime": 587.46375,
+          "endTime": 822.2425000000001
+        },
+        {
+          "path": "Audio/output/1917/chapter_04.wav",
+          "duration": 218.825875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Freedom, Discipline, and the Path to Self-Mastery",
+          "actualDuration": 218.825875,
+          "startTime": 823.7425000000001,
+          "endTime": 1042.568375
+        },
+        {
+          "path": "Audio/output/1917/chapter_05.wav",
+          "duration": 234.903333,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Transformative Power of Observation and Understanding",
+          "actualDuration": 234.903333,
+          "startTime": 1044.068375,
+          "endTime": 1278.971708
+        },
+        {
+          "path": "Audio/output/1917/chapter_06.wav",
+          "duration": 200.9735,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Social Life of the Child—Learning to Belong",
+          "actualDuration": 200.9735,
+          "startTime": 1280.471708,
+          "endTime": 1481.445208
+        },
+        {
+          "path": "Audio/output/1917/chapter_07.wav",
+          "duration": 192.015583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Formation of Character—Building the Person Within",
+          "actualDuration": 192.015583,
+          "startTime": 1482.945208,
+          "endTime": 1674.960791
+        },
+        {
+          "path": "Audio/output/1917/chapter_08.wav",
+          "duration": 153.920167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Lasting Impact of Early Childhood—Roots That Shape a Lifetime",
+          "actualDuration": 153.920167,
+          "startTime": 1676.460791,
+          "endTime": 1830.380958
+        },
+        {
+          "path": "Audio/output/1917/chapter_09.wav",
+          "duration": 179.316125,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Adult’s Journey—Growing Alongside the Child",
+          "actualDuration": 179.316125,
+          "startTime": 1831.880958,
+          "endTime": 2011.197083
+        },
+        {
+          "path": "Audio/output/1917/chapter_10.wav",
+          "duration": 163.11675,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Embracing the Secret—A New Vision for Childhood and Beyond",
+          "actualDuration": 163.11675,
+          "startTime": 2012.697083,
+          "endTime": 2175.813833
+        },
+        {
+          "path": "Audio/output/1917/conclusion.wav",
+          "duration": 109.412875,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 109.412875,
+          "startTime": 2177.313833,
+          "endTime": 2286.726708
+        }
+      ],
+      "totalDuration": 2286.726708,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.52,
+          "actualStart": 0,
+          "actualEnd": 83.516917,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Hidden World of Early Childhood",
+          "expectedStart": 83.52,
+          "expectedEnd": 337.8,
+          "actualStart": 85.016917,
+          "actualEnd": 339.30154200000004,
+          "timeDifference": 1.4969170000000105
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Power of Sensitive Periods and the Child’s Inner Guide",
+          "expectedStart": 337.8,
+          "expectedEnd": 582.96,
+          "actualStart": 340.80154200000004,
+          "actualEnd": 585.96375,
+          "timeDifference": 3.001542000000029
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Creating Environments That Nurture Growth and Independence",
+          "expectedStart": 582.96,
+          "expectedEnd": 817.74,
+          "actualStart": 587.46375,
+          "actualEnd": 822.2425000000001,
+          "timeDifference": 4.503749999999968
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Freedom, Discipline, and the Path to Self-Mastery",
+          "expectedStart": 817.74,
+          "expectedEnd": 1036.57,
+          "actualStart": 823.7425000000001,
+          "actualEnd": 1042.568375,
+          "timeDifference": 6.002500000000055
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Transformative Power of Observation and Understanding",
+          "expectedStart": 1036.57,
+          "expectedEnd": 1271.47,
+          "actualStart": 1044.068375,
+          "actualEnd": 1278.971708,
+          "timeDifference": 7.498375000000124
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Social Life of the Child—Learning to Belong",
+          "expectedStart": 1271.47,
+          "expectedEnd": 1472.44,
+          "actualStart": 1280.471708,
+          "actualEnd": 1481.445208,
+          "timeDifference": 9.001708000000008
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Formation of Character—Building the Person Within",
+          "expectedStart": 1472.44,
+          "expectedEnd": 1664.46,
+          "actualStart": 1482.945208,
+          "actualEnd": 1674.960791,
+          "timeDifference": 10.505208000000039
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Lasting Impact of Early Childhood—Roots That Shape a Lifetime",
+          "expectedStart": 1664.46,
+          "expectedEnd": 1818.38,
+          "actualStart": 1676.460791,
+          "actualEnd": 1830.380958,
+          "timeDifference": 12.000790999999936
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Adult’s Journey—Growing Alongside the Child",
+          "expectedStart": 1818.38,
+          "expectedEnd": 1997.7,
+          "actualStart": 1831.880958,
+          "actualEnd": 2011.197083,
+          "timeDifference": 13.500957999999855
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Embracing the Secret—A New Vision for Childhood and Beyond",
+          "expectedStart": 1997.7,
+          "expectedEnd": 2160.82,
+          "actualStart": 2012.697083,
+          "actualEnd": 2175.813833,
+          "timeDifference": 14.997082999999975
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2160.82,
+          "expectedEnd": 2270.23,
+          "actualStart": 2177.313833,
+          "actualEnd": 2286.726708,
+          "timeDifference": 16.493832999999995
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.516917,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Hidden World of Early Childhood"
+        },
+        {
+          "startTime": 339.30154200000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Hidden World of Early Childhood and Chapter 2 The Power of Sensitive Periods and the Child’s Inner Guide"
+        },
+        {
+          "startTime": 585.96375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Power of Sensitive Periods and the Child’s Inner Guide and Chapter 3 Creating Environments That Nurture Growth and Independence"
+        },
+        {
+          "startTime": 822.2425000000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Creating Environments That Nurture Growth and Independence and Chapter 4 Freedom, Discipline, and the Path to Self-Mastery"
+        },
+        {
+          "startTime": 1042.568375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Freedom, Discipline, and the Path to Self-Mastery and Chapter 5 The Transformative Power of Observation and Understanding"
+        },
+        {
+          "startTime": 1278.971708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Transformative Power of Observation and Understanding and Chapter 6 The Social Life of the Child—Learning to Belong"
+        },
+        {
+          "startTime": 1481.445208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Social Life of the Child—Learning to Belong and Chapter 7 The Formation of Character—Building the Person Within"
+        },
+        {
+          "startTime": 1674.960791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Formation of Character—Building the Person Within and Chapter 8 The Lasting Impact of Early Childhood—Roots That Shape a Lifetime"
+        },
+        {
+          "startTime": 1830.380958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Lasting Impact of Early Childhood—Roots That Shape a Lifetime and Chapter 9 The Adult’s Journey—Growing Alongside the Child"
+        },
+        {
+          "startTime": 2011.197083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Adult’s Journey—Growing Alongside the Child and Chapter 10 Embracing the Secret—A New Vision for Childhood and Beyond"
+        },
+        {
+          "startTime": 2175.813833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Embracing the Secret—A New Vision for Childhood and Beyond and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1917",
+      "selectedVoice": "amanda-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AmandaMultilingualNeural",
+        "gender": "female",
+        "tone": "professional",
+        "style": "clear",
+        "personality": "articulate",
+        "bestFor": [
+          "business",
+          "educational",
+          "professional",
+          "corporate"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: educational, professional (+16) (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T00:57:21.180Z",
+      "ssmlConfig": {
+        "voice": "amanda-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2247",
+  "timestamp": "2025-07-10T03:35:45.687Z",
+  "success": false,
+  "processingTime": -1752118198574,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3780,
+    "totalAudioFiles": 12,
+    "totalDuration": 1995.451042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1995.451042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2247/optimized_text/2247.md",
+    "fileSize": 849,
+    "wordCount": 107,
+    "format": "markdown",
+    "filename": "2247.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2247/metadata/2247_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1995.46,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2247/metadata/2247_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2247/metadata/2247_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "authoritative",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2247/2247_complete.wav",
+    "duration": 1995.451042,
+    "fileSize": 95781728,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2247/introduction.wav",
+          "duration": 83.246417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 83.246417,
+          "startTime": 0,
+          "endTime": 83.246417
+        },
+        {
+          "path": "Audio/output/2247/chapter_01.wav",
+          "duration": 183.203875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Laying the Foundation: Defining Purpose and Igniting Desire",
+          "actualDuration": 183.203875,
+          "startTime": 84.746417,
+          "endTime": 267.950292
+        },
+        {
+          "path": "Audio/output/2247/chapter_02.wav",
+          "duration": 179.364542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building Belief: The Role of Faith and Autosuggestion",
+          "actualDuration": 179.364542,
+          "startTime": 269.450292,
+          "endTime": 448.814834
+        },
+        {
+          "path": "Audio/output/2247/chapter_03.wav",
+          "duration": 224.25725,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Harnessing the Mind: The Subconscious, Imagination, and Specialized Knowledge",
+          "actualDuration": 224.25725,
+          "startTime": 450.314834,
+          "endTime": 674.572084
+        },
+        {
+          "path": "Audio/output/2247/chapter_04.wav",
+          "duration": 233.227417,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Turning Ideas into Action: Planning, Decision, and Persistence",
+          "actualDuration": 233.227417,
+          "startTime": 676.072084,
+          "endTime": 909.299501
+        },
+        {
+          "path": "Audio/output/2247/chapter_05.wav",
+          "duration": 189.7965,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Collaboration: Mastermind Alliances and Shared Success",
+          "actualDuration": 189.7965,
+          "startTime": 910.799501,
+          "endTime": 1100.596001
+        },
+        {
+          "path": "Audio/output/2247/chapter_06.wav",
+          "duration": 160.438583,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Channeling Energy: The Principle of Transmutation and Focused Drive",
+          "actualDuration": 160.438583,
+          "startTime": 1102.096001,
+          "endTime": 1262.534584
+        },
+        {
+          "path": "Audio/output/2247/chapter_07.wav",
+          "duration": 146.145083,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Subconscious and Intuition: Tapping Inner Guidance",
+          "actualDuration": 146.145083,
+          "startTime": 1264.034584,
+          "endTime": 1410.1796669999999
+        },
+        {
+          "path": "Audio/output/2247/chapter_08.wav",
+          "duration": 156.04525,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Overcoming Barriers: Facing Fear, Doubt, and Negative Influences",
+          "actualDuration": 156.04525,
+          "startTime": 1411.6796669999999,
+          "endTime": 1567.724917
+        },
+        {
+          "path": "Audio/output/2247/chapter_09.wav",
+          "duration": 162.101083,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Sustaining Progress: The Role of Habits, Environment, and Continuous Learning",
+          "actualDuration": 162.101083,
+          "startTime": 1569.224917,
+          "endTime": 1731.326
+        },
+        {
+          "path": "Audio/output/2247/chapter_10.wav",
+          "duration": 141.6515,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integration and Legacy: Living the Principles and Inspiring Others",
+          "actualDuration": 141.6515,
+          "startTime": 1732.826,
+          "endTime": 1874.4775
+        },
+        {
+          "path": "Audio/output/2247/conclusion.wav",
+          "duration": 135.973542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 135.973542,
+          "startTime": 1875.9775,
+          "endTime": 2011.951042
+        }
+      ],
+      "totalDuration": 2011.951042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 83.25,
+          "actualStart": 0,
+          "actualEnd": 83.246417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Laying the Foundation: Defining Purpose and Igniting Desire",
+          "expectedStart": 83.25,
+          "expectedEnd": 266.45,
+          "actualStart": 84.746417,
+          "actualEnd": 267.950292,
+          "timeDifference": 1.496416999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building Belief: The Role of Faith and Autosuggestion",
+          "expectedStart": 266.45,
+          "expectedEnd": 445.81,
+          "actualStart": 269.450292,
+          "actualEnd": 448.814834,
+          "timeDifference": 3.0002920000000017
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Harnessing the Mind: The Subconscious, Imagination, and Specialized Knowledge",
+          "expectedStart": 445.81,
+          "expectedEnd": 670.07,
+          "actualStart": 450.314834,
+          "actualEnd": 674.572084,
+          "timeDifference": 4.504834000000017
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Turning Ideas into Action: Planning, Decision, and Persistence",
+          "expectedStart": 670.07,
+          "expectedEnd": 903.3,
+          "actualStart": 676.072084,
+          "actualEnd": 909.299501,
+          "timeDifference": 6.002083999999968
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Collaboration: Mastermind Alliances and Shared Success",
+          "expectedStart": 903.3,
+          "expectedEnd": 1093.1,
+          "actualStart": 910.799501,
+          "actualEnd": 1100.596001,
+          "timeDifference": 7.499501000000009
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Channeling Energy: The Principle of Transmutation and Focused Drive",
+          "expectedStart": 1093.1,
+          "expectedEnd": 1253.54,
+          "actualStart": 1102.096001,
+          "actualEnd": 1262.534584,
+          "timeDifference": 8.996000999999978
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Subconscious and Intuition: Tapping Inner Guidance",
+          "expectedStart": 1253.54,
+          "expectedEnd": 1399.69,
+          "actualStart": 1264.034584,
+          "actualEnd": 1410.1796669999999,
+          "timeDifference": 10.494584000000032
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Overcoming Barriers: Facing Fear, Doubt, and Negative Influences",
+          "expectedStart": 1399.69,
+          "expectedEnd": 1555.74,
+          "actualStart": 1411.6796669999999,
+          "actualEnd": 1567.724917,
+          "timeDifference": 11.989666999999827
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Sustaining Progress: The Role of Habits, Environment, and Continuous Learning",
+          "expectedStart": 1555.74,
+          "expectedEnd": 1717.84,
+          "actualStart": 1569.224917,
+          "actualEnd": 1731.326,
+          "timeDifference": 13.484916999999996
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integration and Legacy: Living the Principles and Inspiring Others",
+          "expectedStart": 1717.84,
+          "expectedEnd": 1859.49,
+          "actualStart": 1732.826,
+          "actualEnd": 1874.4775,
+          "timeDifference": 14.986000000000104
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1859.49,
+          "expectedEnd": 1995.46,
+          "actualStart": 1875.9775,
+          "actualEnd": 2011.951042,
+          "timeDifference": 16.487499999999955
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 83.246417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Laying the Foundation: Defining Purpose and Igniting Desire"
+        },
+        {
+          "startTime": 267.950292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Laying the Foundation: Defining Purpose and Igniting Desire and Chapter 2 Building Belief: The Role of Faith and Autosuggestion"
+        },
+        {
+          "startTime": 448.814834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building Belief: The Role of Faith and Autosuggestion and Chapter 3 Harnessing the Mind: The Subconscious, Imagination, and Specialized Knowledge"
+        },
+        {
+          "startTime": 674.572084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Harnessing the Mind: The Subconscious, Imagination, and Specialized Knowledge and Chapter 4 Turning Ideas into Action: Planning, Decision, and Persistence"
+        },
+        {
+          "startTime": 909.299501,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Turning Ideas into Action: Planning, Decision, and Persistence and Chapter 5 The Power of Collaboration: Mastermind Alliances and Shared Success"
+        },
+        {
+          "startTime": 1100.596001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Collaboration: Mastermind Alliances and Shared Success and Chapter 6 Channeling Energy: The Principle of Transmutation and Focused Drive"
+        },
+        {
+          "startTime": 1262.534584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Channeling Energy: The Principle of Transmutation and Focused Drive and Chapter 7 The Subconscious and Intuition: Tapping Inner Guidance"
+        },
+        {
+          "startTime": 1410.1796669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Subconscious and Intuition: Tapping Inner Guidance and Chapter 8 Overcoming Barriers: Facing Fear, Doubt, and Negative Influences"
+        },
+        {
+          "startTime": 1567.724917,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Overcoming Barriers: Facing Fear, Doubt, and Negative Influences and Chapter 9 Sustaining Progress: The Role of Habits, Environment, and Continuous Learning"
+        },
+        {
+          "startTime": 1731.326,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Sustaining Progress: The Role of Habits, Environment, and Continuous Learning and Chapter 10 Integration and Legacy: Living the Principles and Inspiring Others"
+        },
+        {
+          "startTime": 1874.4775,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integration and Legacy: Living the Principles and Inspiring Others and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2247",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T03:29:59.799Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "authoritative",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "bookId": "2295",
+  "timestamp": "2025-07-10T10:47:26.735Z",
+  "success": false,
+  "processingTime": -1752144190181,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 3910,
+    "totalAudioFiles": 12,
+    "totalDuration": 1775.024875
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 10,
+    "failed": 2,
+    "duration": 1775.024875
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2295/optimized_text/2295.md",
+    "fileSize": 552,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "2295.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2295/metadata/2295_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1775.04,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2295/metadata/2295_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2295/metadata/2295_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2295/2295_complete.wav",
+    "duration": 1775.024875,
+    "fileSize": 85201272,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2295/chapter_01.wav",
+          "duration": 233.62525,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Struggles and the Seeds of Endurance",
+          "actualDuration": 233.62525,
+          "startTime": 0,
+          "endTime": 233.62525
+        },
+        {
+          "path": "Audio/output/2295/chapter_02.wav",
+          "duration": 216.040083,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Discovering the World of Ultramarathons",
+          "actualDuration": 216.040083,
+          "startTime": 235.12525,
+          "endTime": 451.16533300000003
+        },
+        {
+          "path": "Audio/output/2295/chapter_03.wav",
+          "duration": 204.134,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Plant-Based Nutrition",
+          "actualDuration": 204.134,
+          "startTime": 452.66533300000003,
+          "endTime": 656.799333
+        },
+        {
+          "path": "Audio/output/2295/chapter_04.wav",
+          "duration": 208.49625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Mental Toughness and Breaking Through Limits",
+          "actualDuration": 208.49625,
+          "startTime": 658.299333,
+          "endTime": 866.7955830000001
+        },
+        {
+          "path": "Audio/output/2295/chapter_05.wav",
+          "duration": 173.507625,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Community, Humility, and the Spirit of the Trail",
+          "actualDuration": 173.507625,
+          "startTime": 868.2955830000001,
+          "endTime": 1041.803208
+        },
+        {
+          "path": "Audio/output/2295/chapter_06.wav",
+          "duration": 160.0905,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Purpose Beyond the Finish Line",
+          "actualDuration": 160.0905,
+          "startTime": 1043.303208,
+          "endTime": 1203.393708
+        },
+        {
+          "path": "Audio/output/2295/chapter_07.wav",
+          "duration": 169.051125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Integrating Mind, Body, and Spirit",
+          "actualDuration": 169.051125,
+          "startTime": 1204.893708,
+          "endTime": 1373.944833
+        },
+        {
+          "path": "Audio/output/2295/chapter_08.wav",
+          "duration": 151.035583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Lessons from the Edge",
+          "actualDuration": 151.035583,
+          "startTime": 1375.444833,
+          "endTime": 1526.480416
+        },
+        {
+          "path": "Audio/output/2295/chapter_09.wav",
+          "duration": 151.867917,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Giving Back and Building Legacy",
+          "actualDuration": 151.867917,
+          "startTime": 1527.980416,
+          "endTime": 1679.8483330000001
+        },
+        {
+          "path": "Audio/output/2295/chapter_10.wav",
+          "duration": 107.176542,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Endurance as a Way of Life",
+          "actualDuration": 107.176542,
+          "startTime": 1681.3483330000001,
+          "endTime": 1788.524875
+        }
+      ],
+      "totalDuration": 1788.524875,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Struggles and the Seeds of Endurance",
+          "expectedStart": 0,
+          "expectedEnd": 233.63,
+          "actualStart": 0,
+          "actualEnd": 233.62525,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Discovering the World of Ultramarathons",
+          "expectedStart": 233.63,
+          "expectedEnd": 449.67,
+          "actualStart": 235.12525,
+          "actualEnd": 451.16533300000003,
+          "timeDifference": 1.4952499999999986
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Plant-Based Nutrition",
+          "expectedStart": 449.67,
+          "expectedEnd": 653.8,
+          "actualStart": 452.66533300000003,
+          "actualEnd": 656.799333,
+          "timeDifference": 2.9953330000000165
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Mental Toughness and Breaking Through Limits",
+          "expectedStart": 653.8,
+          "expectedEnd": 862.3,
+          "actualStart": 658.299333,
+          "actualEnd": 866.7955830000001,
+          "timeDifference": 4.499333000000092
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Community, Humility, and the Spirit of the Trail",
+          "expectedStart": 862.3,
+          "expectedEnd": 1035.81,
+          "actualStart": 868.2955830000001,
+          "actualEnd": 1041.803208,
+          "timeDifference": 5.995583000000124
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Purpose Beyond the Finish Line",
+          "expectedStart": 1035.81,
+          "expectedEnd": 1195.9,
+          "actualStart": 1043.303208,
+          "actualEnd": 1203.393708,
+          "timeDifference": 7.493208000000095
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Integrating Mind, Body, and Spirit",
+          "expectedStart": 1195.9,
+          "expectedEnd": 1364.95,
+          "actualStart": 1204.893708,
+          "actualEnd": 1373.944833,
+          "timeDifference": 8.99370799999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Lessons from the Edge",
+          "expectedStart": 1364.95,
+          "expectedEnd": 1515.99,
+          "actualStart": 1375.444833,
+          "actualEnd": 1526.480416,
+          "timeDifference": 10.494832999999971
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Giving Back and Building Legacy",
+          "expectedStart": 1515.99,
+          "expectedEnd": 1667.86,
+          "actualStart": 1527.980416,
+          "actualEnd": 1679.8483330000001,
+          "timeDifference": 11.990416000000096
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Endurance as a Way of Life",
+          "expectedStart": 1667.86,
+          "expectedEnd": 1775.04,
+          "actualStart": 1681.3483330000001,
+          "actualEnd": 1788.524875,
+          "timeDifference": 13.488333000000239
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 233.62525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Struggles and the Seeds of Endurance and Chapter 2 Discovering the World of Ultramarathons"
+        },
+        {
+          "startTime": 451.16533300000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Discovering the World of Ultramarathons and Chapter 3 The Power of Plant-Based Nutrition"
+        },
+        {
+          "startTime": 656.799333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Plant-Based Nutrition and Chapter 4 Mental Toughness and Breaking Through Limits"
+        },
+        {
+          "startTime": 866.7955830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Mental Toughness and Breaking Through Limits and Chapter 5 Community, Humility, and the Spirit of the Trail"
+        },
+        {
+          "startTime": 1041.803208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Community, Humility, and the Spirit of the Trail and Chapter 6 Purpose Beyond the Finish Line"
+        },
+        {
+          "startTime": 1203.393708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Purpose Beyond the Finish Line and Chapter 7 Integrating Mind, Body, and Spirit"
+        },
+        {
+          "startTime": 1373.944833,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Integrating Mind, Body, and Spirit and Chapter 8 Lessons from the Edge"
+        },
+        {
+          "startTime": 1526.480416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Lessons from the Edge and Chapter 9 Giving Back and Building Legacy"
+        },
+        {
+          "startTime": 1679.8483330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Giving Back and Building Legacy and Chapter 10 Endurance as a Way of Life"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2295",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T10:43:11.413Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

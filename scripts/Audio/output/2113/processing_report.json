@@ -1,0 +1,456 @@
+{
+  "bookId": "2113",
+  "timestamp": "2025-07-09T19:53:35.092Z",
+  "success": false,
+  "processingTime": -1752090311705,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4518,
+    "totalAudioFiles": 12,
+    "totalDuration": 2336.7970410000003
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2336.7970410000003
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2113/optimized_text/2113.md",
+    "fileSize": 779,
+    "wordCount": 102,
+    "format": "markdown",
+    "filename": "2113.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2113/metadata/2113_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2336.81,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2113/metadata/2113_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2113/metadata/2113_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2113/2113_complete.wav",
+    "duration": 2336.797042,
+    "fileSize": 112166336,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2113/introduction.wav",
+          "duration": 84.555,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 84.555,
+          "startTime": 0,
+          "endTime": 84.555
+        },
+        {
+          "path": "Audio/output/2113/chapter_01.wav",
+          "duration": 237.840458,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Understanding Happiness: The Brain’s Role in Well-Being",
+          "actualDuration": 237.840458,
+          "startTime": 86.055,
+          "endTime": 323.895458
+        },
+        {
+          "path": "Audio/output/2113/chapter_02.wav",
+          "duration": 246.226292,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Evolutionary Roots of Positive Emotions",
+          "actualDuration": 246.226292,
+          "startTime": 325.395458,
+          "endTime": 571.62175
+        },
+        {
+          "path": "Audio/output/2113/chapter_03.wav",
+          "duration": 251.379167,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Genetics, Environment, and the Shaping of Well-Being",
+          "actualDuration": 251.379167,
+          "startTime": 573.12175,
+          "endTime": 824.5009170000001
+        },
+        {
+          "path": "Audio/output/2113/chapter_04.wav",
+          "duration": 250.940667,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 The Myths and Realities of What Makes Us Happy",
+          "actualDuration": 250.940667,
+          "startTime": 826.0009170000001,
+          "endTime": 1076.9415840000001
+        },
+        {
+          "path": "Audio/output/2113/chapter_05.wav",
+          "duration": 240.876833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Practical Habits and Mental Strategies for Greater Happiness",
+          "actualDuration": 240.876833,
+          "startTime": 1078.4415840000001,
+          "endTime": 1319.3184170000002
+        },
+        {
+          "path": "Audio/output/2113/chapter_06.wav",
+          "duration": 199.050417,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Relationships: Social Connection as a Foundation for Happiness",
+          "actualDuration": 199.050417,
+          "startTime": 1320.8184170000002,
+          "endTime": 1519.868834
+        },
+        {
+          "path": "Audio/output/2113/chapter_07.wav",
+          "duration": 165.274583,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Meaning, Purpose, and the Deeper Dimensions of Well-Being",
+          "actualDuration": 165.274583,
+          "startTime": 1521.368834,
+          "endTime": 1686.6434170000002
+        },
+        {
+          "path": "Audio/output/2113/chapter_08.wav",
+          "duration": 170.05,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Community, Contribution, and the Ripple Effect of Happiness",
+          "actualDuration": 170.05,
+          "startTime": 1688.1434170000002,
+          "endTime": 1858.1934170000002
+        },
+        {
+          "path": "Audio/output/2113/chapter_09.wav",
+          "duration": 203.106458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Advanced Strategies: Sustaining Happiness Through Change and Challenge",
+          "actualDuration": 203.106458,
+          "startTime": 1859.6934170000002,
+          "endTime": 2062.799875
+        },
+        {
+          "path": "Audio/output/2113/chapter_10.wav",
+          "duration": 162.207708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Integrating the Science of Happiness: A Lifelong Practice",
+          "actualDuration": 162.207708,
+          "startTime": 2064.299875,
+          "endTime": 2226.507583
+        },
+        {
+          "path": "Audio/output/2113/conclusion.wav",
+          "duration": 125.289458,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 125.289458,
+          "startTime": 2228.007583,
+          "endTime": 2353.2970410000003
+        }
+      ],
+      "totalDuration": 2353.2970410000003,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 84.56,
+          "actualStart": 0,
+          "actualEnd": 84.555,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Understanding Happiness: The Brain’s Role in Well-Being",
+          "expectedStart": 84.56,
+          "expectedEnd": 322.4,
+          "actualStart": 86.055,
+          "actualEnd": 323.895458,
+          "timeDifference": 1.4950000000000045
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Evolutionary Roots of Positive Emotions",
+          "expectedStart": 322.4,
+          "expectedEnd": 568.63,
+          "actualStart": 325.395458,
+          "actualEnd": 571.62175,
+          "timeDifference": 2.995458000000042
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Genetics, Environment, and the Shaping of Well-Being",
+          "expectedStart": 568.63,
+          "expectedEnd": 820.01,
+          "actualStart": 573.12175,
+          "actualEnd": 824.5009170000001,
+          "timeDifference": 4.491750000000025
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 The Myths and Realities of What Makes Us Happy",
+          "expectedStart": 820.01,
+          "expectedEnd": 1070.95,
+          "actualStart": 826.0009170000001,
+          "actualEnd": 1076.9415840000001,
+          "timeDifference": 5.990917000000081
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Practical Habits and Mental Strategies for Greater Happiness",
+          "expectedStart": 1070.95,
+          "expectedEnd": 1311.83,
+          "actualStart": 1078.4415840000001,
+          "actualEnd": 1319.3184170000002,
+          "timeDifference": 7.491584000000103
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Relationships: Social Connection as a Foundation for Happiness",
+          "expectedStart": 1311.83,
+          "expectedEnd": 1510.88,
+          "actualStart": 1320.8184170000002,
+          "actualEnd": 1519.868834,
+          "timeDifference": 8.988417000000254
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Meaning, Purpose, and the Deeper Dimensions of Well-Being",
+          "expectedStart": 1510.88,
+          "expectedEnd": 1676.15,
+          "actualStart": 1521.368834,
+          "actualEnd": 1686.6434170000002,
+          "timeDifference": 10.488833999999997
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Community, Contribution, and the Ripple Effect of Happiness",
+          "expectedStart": 1676.15,
+          "expectedEnd": 1846.2,
+          "actualStart": 1688.1434170000002,
+          "actualEnd": 1858.1934170000002,
+          "timeDifference": 11.993417000000136
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Advanced Strategies: Sustaining Happiness Through Change and Challenge",
+          "expectedStart": 1846.2,
+          "expectedEnd": 2049.31,
+          "actualStart": 1859.6934170000002,
+          "actualEnd": 2062.799875,
+          "timeDifference": 13.493417000000136
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Integrating the Science of Happiness: A Lifelong Practice",
+          "expectedStart": 2049.31,
+          "expectedEnd": 2211.52,
+          "actualStart": 2064.299875,
+          "actualEnd": 2226.507583,
+          "timeDifference": 14.989875000000211
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2211.52,
+          "expectedEnd": 2336.81,
+          "actualStart": 2228.007583,
+          "actualEnd": 2353.2970410000003,
+          "timeDifference": 16.487583000000086
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 84.555,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Understanding Happiness: The Brain’s Role in Well-Being"
+        },
+        {
+          "startTime": 323.895458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Understanding Happiness: The Brain’s Role in Well-Being and Chapter 2 The Evolutionary Roots of Positive Emotions"
+        },
+        {
+          "startTime": 571.62175,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Evolutionary Roots of Positive Emotions and Chapter 3 Genetics, Environment, and the Shaping of Well-Being"
+        },
+        {
+          "startTime": 824.5009170000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Genetics, Environment, and the Shaping of Well-Being and Chapter 4 The Myths and Realities of What Makes Us Happy"
+        },
+        {
+          "startTime": 1076.9415840000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 The Myths and Realities of What Makes Us Happy and Chapter 5 Practical Habits and Mental Strategies for Greater Happiness"
+        },
+        {
+          "startTime": 1319.3184170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Practical Habits and Mental Strategies for Greater Happiness and Chapter 6 The Power of Relationships: Social Connection as a Foundation for Happiness"
+        },
+        {
+          "startTime": 1519.868834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Relationships: Social Connection as a Foundation for Happiness and Chapter 7 Meaning, Purpose, and the Deeper Dimensions of Well-Being"
+        },
+        {
+          "startTime": 1686.6434170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Meaning, Purpose, and the Deeper Dimensions of Well-Being and Chapter 8 Community, Contribution, and the Ripple Effect of Happiness"
+        },
+        {
+          "startTime": 1858.1934170000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Community, Contribution, and the Ripple Effect of Happiness and Chapter 9 Advanced Strategies: Sustaining Happiness Through Change and Challenge"
+        },
+        {
+          "startTime": 2062.799875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Advanced Strategies: Sustaining Happiness Through Change and Challenge and Chapter 10 Integrating the Science of Happiness: A Lifelong Practice"
+        },
+        {
+          "startTime": 2226.507583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Integrating the Science of Happiness: A Lifelong Practice and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2113",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T19:45:13.017Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2012",
+  "timestamp": "2025-07-09T09:21:51.838Z",
+  "success": false,
+  "processingTime": -1752052288934,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5213,
+    "totalAudioFiles": 12,
+    "totalDuration": 2496.137792
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2496.137792
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2012/optimized_text/2012.md",
+    "fileSize": 569,
+    "wordCount": 78,
+    "format": "markdown",
+    "filename": "2012.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2012/metadata/2012_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2496.13,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2012/metadata/2012_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2012/metadata/2012_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2012/2012_complete.wav",
+    "duration": 2496.137792,
+    "fileSize": 119814692,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2012/introduction.wav",
+          "duration": 100.729417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 100.729417,
+          "startTime": 0,
+          "endTime": 100.729417
+        },
+        {
+          "path": "Audio/output/2012/chapter_01.wav",
+          "duration": 314.360042,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in Brooklyn’s Tough Corners",
+          "actualDuration": 314.360042,
+          "startTime": 102.229417,
+          "endTime": 416.58945900000003
+        },
+        {
+          "path": "Audio/output/2012/chapter_02.wav",
+          "duration": 315.980958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Escape in Music and Laughter",
+          "actualDuration": 315.980958,
+          "startTime": 418.08945900000003,
+          "endTime": 734.070417
+        },
+        {
+          "path": "Audio/output/2012/chapter_03.wav",
+          "duration": 267.911292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The First Steps into Show Business",
+          "actualDuration": 267.911292,
+          "startTime": 735.570417,
+          "endTime": 1003.481709
+        },
+        {
+          "path": "Audio/output/2012/chapter_04.wav",
+          "duration": 293.996875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Encounters with Fame and the Realities of Celebrity",
+          "actualDuration": 293.996875,
+          "startTime": 1004.981709,
+          "endTime": 1298.978584
+        },
+        {
+          "path": "Audio/output/2012/chapter_05.wav",
+          "duration": 229.00025,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Navigating Business, Opportunity, and Setbacks",
+          "actualDuration": 229.00025,
+          "startTime": 1300.478584,
+          "endTime": 1529.478834
+        },
+        {
+          "path": "Audio/output/2012/chapter_06.wav",
+          "duration": 187.98225,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Shifting Tides of Success",
+          "actualDuration": 187.98225,
+          "startTime": 1530.978834,
+          "endTime": 1718.961084
+        },
+        {
+          "path": "Audio/output/2012/chapter_07.wav",
+          "duration": 178.390792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Family, Roots, and the Cost of Ambition",
+          "actualDuration": 178.390792,
+          "startTime": 1720.461084,
+          "endTime": 1898.851876
+        },
+        {
+          "path": "Audio/output/2012/chapter_08.wav",
+          "duration": 182.638833,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Reinvention and Staying Relevant",
+          "actualDuration": 182.638833,
+          "startTime": 1900.351876,
+          "endTime": 2082.990709
+        },
+        {
+          "path": "Audio/output/2012/chapter_09.wav",
+          "duration": 162.644292,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Giving Back and Finding Purpose",
+          "actualDuration": 162.644292,
+          "startTime": 2084.490709,
+          "endTime": 2247.135001
+        },
+        {
+          "path": "Audio/output/2012/chapter_10.wav",
+          "duration": 140.739583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Looking Back, Moving Forward",
+          "actualDuration": 140.739583,
+          "startTime": 2248.635001,
+          "endTime": 2389.374584
+        },
+        {
+          "path": "Audio/output/2012/conclusion.wav",
+          "duration": 121.763208,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.763208,
+          "startTime": 2390.874584,
+          "endTime": 2512.637792
+        }
+      ],
+      "totalDuration": 2512.637792,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 100.73,
+          "actualStart": 0,
+          "actualEnd": 100.729417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in Brooklyn’s Tough Corners",
+          "expectedStart": 100.73,
+          "expectedEnd": 415.09,
+          "actualStart": 102.229417,
+          "actualEnd": 416.58945900000003,
+          "timeDifference": 1.499416999999994
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Escape in Music and Laughter",
+          "expectedStart": 415.09,
+          "expectedEnd": 731.07,
+          "actualStart": 418.08945900000003,
+          "actualEnd": 734.070417,
+          "timeDifference": 2.9994590000000585
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The First Steps into Show Business",
+          "expectedStart": 731.07,
+          "expectedEnd": 998.98,
+          "actualStart": 735.570417,
+          "actualEnd": 1003.481709,
+          "timeDifference": 4.50041699999997
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Encounters with Fame and the Realities of Celebrity",
+          "expectedStart": 998.98,
+          "expectedEnd": 1292.98,
+          "actualStart": 1004.981709,
+          "actualEnd": 1298.978584,
+          "timeDifference": 6.001709000000005
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Navigating Business, Opportunity, and Setbacks",
+          "expectedStart": 1292.98,
+          "expectedEnd": 1521.98,
+          "actualStart": 1300.478584,
+          "actualEnd": 1529.478834,
+          "timeDifference": 7.498583999999937
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Shifting Tides of Success",
+          "expectedStart": 1521.98,
+          "expectedEnd": 1709.96,
+          "actualStart": 1530.978834,
+          "actualEnd": 1718.961084,
+          "timeDifference": 8.998833999999988
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Family, Roots, and the Cost of Ambition",
+          "expectedStart": 1709.96,
+          "expectedEnd": 1888.35,
+          "actualStart": 1720.461084,
+          "actualEnd": 1898.851876,
+          "timeDifference": 10.501083999999992
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Reinvention and Staying Relevant",
+          "expectedStart": 1888.35,
+          "expectedEnd": 2070.99,
+          "actualStart": 1900.351876,
+          "actualEnd": 2082.990709,
+          "timeDifference": 12.001876000000038
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Giving Back and Finding Purpose",
+          "expectedStart": 2070.99,
+          "expectedEnd": 2233.63,
+          "actualStart": 2084.490709,
+          "actualEnd": 2247.135001,
+          "timeDifference": 13.50070900000037
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Looking Back, Moving Forward",
+          "expectedStart": 2233.63,
+          "expectedEnd": 2374.37,
+          "actualStart": 2248.635001,
+          "actualEnd": 2389.374584,
+          "timeDifference": 15.005000999999993
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2374.37,
+          "expectedEnd": 2496.13,
+          "actualStart": 2390.874584,
+          "actualEnd": 2512.637792,
+          "timeDifference": 16.50458400000025
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 100.729417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in Brooklyn’s Tough Corners"
+        },
+        {
+          "startTime": 416.58945900000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in Brooklyn’s Tough Corners and Chapter 2 Finding Escape in Music and Laughter"
+        },
+        {
+          "startTime": 734.070417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Escape in Music and Laughter and Chapter 3 The First Steps into Show Business"
+        },
+        {
+          "startTime": 1003.481709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The First Steps into Show Business and Chapter 4 Encounters with Fame and the Realities of Celebrity"
+        },
+        {
+          "startTime": 1298.978584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Encounters with Fame and the Realities of Celebrity and Chapter 5 Navigating Business, Opportunity, and Setbacks"
+        },
+        {
+          "startTime": 1529.478834,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Navigating Business, Opportunity, and Setbacks and Chapter 6 The Shifting Tides of Success"
+        },
+        {
+          "startTime": 1718.961084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Shifting Tides of Success and Chapter 7 Family, Roots, and the Cost of Ambition"
+        },
+        {
+          "startTime": 1898.851876,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Family, Roots, and the Cost of Ambition and Chapter 8 Reinvention and Staying Relevant"
+        },
+        {
+          "startTime": 2082.990709,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Reinvention and Staying Relevant and Chapter 9 Giving Back and Finding Purpose"
+        },
+        {
+          "startTime": 2247.135001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Giving Back and Finding Purpose and Chapter 10 Looking Back, Moving Forward"
+        },
+        {
+          "startTime": 2389.374584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Looking Back, Moving Forward and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2012",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T09:11:30.249Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

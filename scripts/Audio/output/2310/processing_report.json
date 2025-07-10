@@ -1,0 +1,552 @@
+{
+  "bookId": "2310",
+  "timestamp": "2025-07-10T11:27:52.325Z",
+  "success": false,
+  "processingTime": -1752146396635,
+  "stats": {
+    "totalSections": 16,
+    "totalWords": 5892,
+    "totalAudioFiles": 16,
+    "totalDuration": 2998.647664
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 14,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 16,
+    "successful": 16,
+    "failed": 0,
+    "duration": 2998.647664
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2310/optimized_text/2310.md",
+    "fileSize": 811,
+    "wordCount": 104,
+    "format": "markdown",
+    "filename": "2310.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2310/metadata/2310_chapters.json",
+    "totalChapters": 16,
+    "totalDuration": 2998.66,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2310/metadata/2310_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2310/metadata/2310_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 16,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 14
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 78,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2310/2310_complete.wav",
+    "duration": 2998.647667,
+    "fileSize": 143935166,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2310/introduction.wav",
+          "duration": 85.239458,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.239458,
+          "startTime": 0,
+          "endTime": 85.239458
+        },
+        {
+          "path": "Audio/output/2310/chapter_01.wav",
+          "duration": 261.98575,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 The Ongoing Journey of Personal Change",
+          "actualDuration": 261.98575,
+          "startTime": 86.739458,
+          "endTime": 348.725208
+        },
+        {
+          "path": "Audio/output/2310/chapter_02.wav",
+          "duration": 233.877208,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Building a Foundation with Positive Thinking",
+          "actualDuration": 233.877208,
+          "startTime": 350.225208,
+          "endTime": 584.102416
+        },
+        {
+          "path": "Audio/output/2310/chapter_03.wav",
+          "duration": 242.504458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Setting Goals and Taking Steady Steps Forward",
+          "actualDuration": 242.504458,
+          "startTime": 585.602416,
+          "endTime": 828.106874
+        },
+        {
+          "path": "Audio/output/2310/chapter_04.wav",
+          "duration": 243.775083,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Facing Obstacles and Building Resilience",
+          "actualDuration": 243.775083,
+          "startTime": 829.606874,
+          "endTime": 1073.381957
+        },
+        {
+          "path": "Audio/output/2310/chapter_05.wav",
+          "duration": 222.990917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Finding Balance and Inner Contentment",
+          "actualDuration": 222.990917,
+          "startTime": 1074.881957,
+          "endTime": 1297.8728740000001
+        },
+        {
+          "path": "Audio/output/2310/chapter_06.wav",
+          "duration": 180.411917,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Power of Self-Compassion",
+          "actualDuration": 180.411917,
+          "startTime": 1299.3728740000001,
+          "endTime": 1479.784791
+        },
+        {
+          "path": "Audio/output/2310/chapter_07.wav",
+          "duration": 169.728125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Role of Relationships in Growth",
+          "actualDuration": 169.728125,
+          "startTime": 1481.284791,
+          "endTime": 1651.0129160000001
+        },
+        {
+          "path": "Audio/output/2310/chapter_08.wav",
+          "duration": 199.210333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Embracing Change and Letting Go",
+          "actualDuration": 199.210333,
+          "startTime": 1652.5129160000001,
+          "endTime": 1851.7232490000001
+        },
+        {
+          "path": "Audio/output/2310/chapter_09.wav",
+          "duration": 189.537333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Cultivating Mindfulness and Presence",
+          "actualDuration": 189.537333,
+          "startTime": 1853.2232490000001,
+          "endTime": 2042.760582
+        },
+        {
+          "path": "Audio/output/2310/chapter_10.wav",
+          "duration": 188.323708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Discovering Purpose and Meaning",
+          "actualDuration": 188.323708,
+          "startTime": 2044.260582,
+          "endTime": 2232.5842900000002
+        },
+        {
+          "path": "Audio/output/2310/chapter_11.wav",
+          "duration": 172.025792,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 Creativity and the Courage to Express",
+          "actualDuration": 172.025792,
+          "startTime": 2234.0842900000002,
+          "endTime": 2406.110082
+        },
+        {
+          "path": "Audio/output/2310/chapter_12.wav",
+          "duration": 154.796333,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Service, Generosity, and the Ripple Effect",
+          "actualDuration": 154.796333,
+          "startTime": 2407.610082,
+          "endTime": 2562.4064150000004
+        },
+        {
+          "path": "Audio/output/2310/chapter_13.wav",
+          "duration": 177.801958,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 Navigating Uncertainty and Trusting the Process",
+          "actualDuration": 177.801958,
+          "startTime": 2563.9064150000004,
+          "endTime": 2741.7083730000004
+        },
+        {
+          "path": "Audio/output/2310/chapter_14.wav",
+          "duration": 146.648958,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 Integrating Growth—Living with Authenticity",
+          "actualDuration": 146.648958,
+          "startTime": 2743.2083730000004,
+          "endTime": 2889.857331
+        },
+        {
+          "path": "Audio/output/2310/conclusion.wav",
+          "duration": 129.790333,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 129.790333,
+          "startTime": 2891.357331,
+          "endTime": 3021.147664
+        }
+      ],
+      "totalDuration": 3021.147664,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.24,
+          "actualStart": 0,
+          "actualEnd": 85.239458,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 The Ongoing Journey of Personal Change",
+          "expectedStart": 85.24,
+          "expectedEnd": 347.23,
+          "actualStart": 86.739458,
+          "actualEnd": 348.725208,
+          "timeDifference": 1.4994580000000042
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Building a Foundation with Positive Thinking",
+          "expectedStart": 347.23,
+          "expectedEnd": 581.11,
+          "actualStart": 350.225208,
+          "actualEnd": 584.102416,
+          "timeDifference": 2.995207999999991
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Setting Goals and Taking Steady Steps Forward",
+          "expectedStart": 581.11,
+          "expectedEnd": 823.61,
+          "actualStart": 585.602416,
+          "actualEnd": 828.106874,
+          "timeDifference": 4.492415999999935
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Facing Obstacles and Building Resilience",
+          "expectedStart": 823.61,
+          "expectedEnd": 1067.39,
+          "actualStart": 829.606874,
+          "actualEnd": 1073.381957,
+          "timeDifference": 5.996873999999934
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Finding Balance and Inner Contentment",
+          "expectedStart": 1067.39,
+          "expectedEnd": 1290.38,
+          "actualStart": 1074.881957,
+          "actualEnd": 1297.8728740000001,
+          "timeDifference": 7.491956999999957
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Power of Self-Compassion",
+          "expectedStart": 1290.38,
+          "expectedEnd": 1470.79,
+          "actualStart": 1299.3728740000001,
+          "actualEnd": 1479.784791,
+          "timeDifference": 8.992874000000029
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Role of Relationships in Growth",
+          "expectedStart": 1470.79,
+          "expectedEnd": 1640.52,
+          "actualStart": 1481.284791,
+          "actualEnd": 1651.0129160000001,
+          "timeDifference": 10.494791000000077
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Embracing Change and Letting Go",
+          "expectedStart": 1640.52,
+          "expectedEnd": 1839.73,
+          "actualStart": 1652.5129160000001,
+          "actualEnd": 1851.7232490000001,
+          "timeDifference": 11.99291600000015
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Cultivating Mindfulness and Presence",
+          "expectedStart": 1839.73,
+          "expectedEnd": 2029.27,
+          "actualStart": 1853.2232490000001,
+          "actualEnd": 2042.760582,
+          "timeDifference": 13.493249000000105
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Discovering Purpose and Meaning",
+          "expectedStart": 2029.27,
+          "expectedEnd": 2217.59,
+          "actualStart": 2044.260582,
+          "actualEnd": 2232.5842900000002,
+          "timeDifference": 14.990582000000131
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 Creativity and the Courage to Express",
+          "expectedStart": 2217.59,
+          "expectedEnd": 2389.62,
+          "actualStart": 2234.0842900000002,
+          "actualEnd": 2406.110082,
+          "timeDifference": 16.494290000000092
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Service, Generosity, and the Ripple Effect",
+          "expectedStart": 2389.62,
+          "expectedEnd": 2544.42,
+          "actualStart": 2407.610082,
+          "actualEnd": 2562.4064150000004,
+          "timeDifference": 17.990082000000257
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 Navigating Uncertainty and Trusting the Process",
+          "expectedStart": 2544.42,
+          "expectedEnd": 2722.22,
+          "actualStart": 2563.9064150000004,
+          "actualEnd": 2741.7083730000004,
+          "timeDifference": 19.486415000000306
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 Integrating Growth—Living with Authenticity",
+          "expectedStart": 2722.22,
+          "expectedEnd": 2868.87,
+          "actualStart": 2743.2083730000004,
+          "actualEnd": 2889.857331,
+          "timeDifference": 20.988373000000593
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2868.87,
+          "expectedEnd": 2998.66,
+          "actualStart": 2891.357331,
+          "actualEnd": 3021.147664,
+          "timeDifference": 22.487331000000268
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.239458,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 The Ongoing Journey of Personal Change"
+        },
+        {
+          "startTime": 348.725208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 The Ongoing Journey of Personal Change and Chapter 2 Building a Foundation with Positive Thinking"
+        },
+        {
+          "startTime": 584.102416,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Building a Foundation with Positive Thinking and Chapter 3 Setting Goals and Taking Steady Steps Forward"
+        },
+        {
+          "startTime": 828.106874,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Setting Goals and Taking Steady Steps Forward and Chapter 4 Facing Obstacles and Building Resilience"
+        },
+        {
+          "startTime": 1073.381957,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Facing Obstacles and Building Resilience and Chapter 5 Finding Balance and Inner Contentment"
+        },
+        {
+          "startTime": 1297.8728740000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Finding Balance and Inner Contentment and Chapter 6 The Power of Self-Compassion"
+        },
+        {
+          "startTime": 1479.784791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Power of Self-Compassion and Chapter 7 The Role of Relationships in Growth"
+        },
+        {
+          "startTime": 1651.0129160000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Role of Relationships in Growth and Chapter 8 Embracing Change and Letting Go"
+        },
+        {
+          "startTime": 1851.7232490000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Embracing Change and Letting Go and Chapter 9 Cultivating Mindfulness and Presence"
+        },
+        {
+          "startTime": 2042.760582,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Cultivating Mindfulness and Presence and Chapter 10 Discovering Purpose and Meaning"
+        },
+        {
+          "startTime": 2232.5842900000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Discovering Purpose and Meaning and Chapter 11 Creativity and the Courage to Express"
+        },
+        {
+          "startTime": 2406.110082,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 Creativity and the Courage to Express and Chapter 12 Service, Generosity, and the Ripple Effect"
+        },
+        {
+          "startTime": 2562.4064150000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Service, Generosity, and the Ripple Effect and Chapter 13 Navigating Uncertainty and Trusting the Process"
+        },
+        {
+          "startTime": 2741.7083730000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 Navigating Uncertainty and Trusting the Process and Chapter 14 Integrating Growth—Living with Authenticity"
+        },
+        {
+          "startTime": 2889.857331,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 Integrating Growth—Living with Authenticity and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 16
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2310",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 78,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:19:57.138Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

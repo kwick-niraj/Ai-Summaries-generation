@@ -1,0 +1,455 @@
+{
+  "bookId": "1880",
+  "timestamp": "2025-07-08T22:06:39.356Z",
+  "success": false,
+  "processingTime": -1752012014414,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4501,
+    "totalAudioFiles": 12,
+    "totalDuration": 1907.031041
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 1907.031041
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1880/optimized_text/1880.md",
+    "fileSize": 837,
+    "wordCount": 121,
+    "format": "markdown",
+    "filename": "1880.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1880/metadata/1880_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 1907.05,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1880/metadata/1880_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1880/metadata/1880_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1880/1880_complete.wav",
+    "duration": 1907.031042,
+    "fileSize": 91537568,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1880/introduction.wav",
+          "duration": 87.695292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 87.695292,
+          "startTime": 0,
+          "endTime": 87.695292
+        },
+        {
+          "path": "Audio/output/1880/chapter_01.wav",
+          "duration": 174.675083,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up with Purpose: Family, Roots, and Early Lessons",
+          "actualDuration": 174.675083,
+          "startTime": 89.195292,
+          "endTime": 263.87037499999997
+        },
+        {
+          "path": "Audio/output/1880/chapter_02.wav",
+          "duration": 194.24575,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Finding Her Voice: Education, Music, and Early Activism",
+          "actualDuration": 194.24575,
+          "startTime": 265.37037499999997,
+          "endTime": 459.61612499999995
+        },
+        {
+          "path": "Audio/output/1880/chapter_03.wav",
+          "duration": 201.390917,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Partnership and Purpose: Building a Life with Martin Luther King Jr.",
+          "actualDuration": 201.390917,
+          "startTime": 461.11612499999995,
+          "endTime": 662.507042
+        },
+        {
+          "path": "Audio/output/1880/chapter_04.wav",
+          "duration": 166.918583,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Standing Strong Alone: Loss, Grief, and Renewed Activism",
+          "actualDuration": 166.918583,
+          "startTime": 664.007042,
+          "endTime": 830.925625
+        },
+        {
+          "path": "Audio/output/1880/chapter_05.wav",
+          "duration": 177.81225,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Expanding the Dream: Broader Activism and Lasting Legacy",
+          "actualDuration": 177.81225,
+          "startTime": 832.425625,
+          "endTime": 1010.237875
+        },
+        {
+          "path": "Audio/output/1880/chapter_06.wav",
+          "duration": 151.057,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Carrying the Torch: Motherhood, Memory, and the Next Generation",
+          "actualDuration": 151.057,
+          "startTime": 1011.737875,
+          "endTime": 1162.794875
+        },
+        {
+          "path": "Audio/output/1880/chapter_07.wav",
+          "duration": 182.568333,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Struggle Continues: Facing New Challenges in a Changing World",
+          "actualDuration": 182.568333,
+          "startTime": 1164.294875,
+          "endTime": 1346.863208
+        },
+        {
+          "path": "Audio/output/1880/chapter_08.wav",
+          "duration": 167.441542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 A Voice for Peace: Global Advocacy and the Power of Nonviolence",
+          "actualDuration": 167.441542,
+          "startTime": 1348.363208,
+          "endTime": 1515.80475
+        },
+        {
+          "path": "Audio/output/1880/chapter_09.wav",
+          "duration": 156.990625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Honoring the Past, Shaping the Future: The Fight for Martin Luther King Jr. Day",
+          "actualDuration": 156.990625,
+          "startTime": 1517.30475,
+          "endTime": 1674.295375
+        },
+        {
+          "path": "Audio/output/1880/chapter_10.wav",
+          "duration": 143.569583,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Final Years: Reflection, Recognition, and the Enduring Power of Hope",
+          "actualDuration": 143.569583,
+          "startTime": 1675.795375,
+          "endTime": 1819.364958
+        },
+        {
+          "path": "Audio/output/1880/conclusion.wav",
+          "duration": 102.666083,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 102.666083,
+          "startTime": 1820.864958,
+          "endTime": 1923.531041
+        }
+      ],
+      "totalDuration": 1923.531041,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 87.7,
+          "actualStart": 0,
+          "actualEnd": 87.695292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up with Purpose: Family, Roots, and Early Lessons",
+          "expectedStart": 87.7,
+          "expectedEnd": 262.38,
+          "actualStart": 89.195292,
+          "actualEnd": 263.87037499999997,
+          "timeDifference": 1.495291999999992
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Finding Her Voice: Education, Music, and Early Activism",
+          "expectedStart": 262.38,
+          "expectedEnd": 456.63,
+          "actualStart": 265.37037499999997,
+          "actualEnd": 459.61612499999995,
+          "timeDifference": 2.990374999999972
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Partnership and Purpose: Building a Life with Martin Luther King Jr.",
+          "expectedStart": 456.63,
+          "expectedEnd": 658.02,
+          "actualStart": 461.11612499999995,
+          "actualEnd": 662.507042,
+          "timeDifference": 4.486124999999959
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Standing Strong Alone: Loss, Grief, and Renewed Activism",
+          "expectedStart": 658.02,
+          "expectedEnd": 824.94,
+          "actualStart": 664.007042,
+          "actualEnd": 830.925625,
+          "timeDifference": 5.987041999999974
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Expanding the Dream: Broader Activism and Lasting Legacy",
+          "expectedStart": 824.94,
+          "expectedEnd": 1002.75,
+          "actualStart": 832.425625,
+          "actualEnd": 1010.237875,
+          "timeDifference": 7.485624999999914
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Carrying the Torch: Motherhood, Memory, and the Next Generation",
+          "expectedStart": 1002.75,
+          "expectedEnd": 1153.81,
+          "actualStart": 1011.737875,
+          "actualEnd": 1162.794875,
+          "timeDifference": 8.987875000000031
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Struggle Continues: Facing New Challenges in a Changing World",
+          "expectedStart": 1153.81,
+          "expectedEnd": 1336.38,
+          "actualStart": 1164.294875,
+          "actualEnd": 1346.863208,
+          "timeDifference": 10.484875000000102
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 A Voice for Peace: Global Advocacy and the Power of Nonviolence",
+          "expectedStart": 1336.38,
+          "expectedEnd": 1503.82,
+          "actualStart": 1348.363208,
+          "actualEnd": 1515.80475,
+          "timeDifference": 11.983207999999877
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Honoring the Past, Shaping the Future: The Fight for Martin Luther King Jr. Day",
+          "expectedStart": 1503.82,
+          "expectedEnd": 1660.81,
+          "actualStart": 1517.30475,
+          "actualEnd": 1674.295375,
+          "timeDifference": 13.484750000000076
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Final Years: Reflection, Recognition, and the Enduring Power of Hope",
+          "expectedStart": 1660.81,
+          "expectedEnd": 1804.38,
+          "actualStart": 1675.795375,
+          "actualEnd": 1819.364958,
+          "timeDifference": 14.985374999999976
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1804.38,
+          "expectedEnd": 1907.05,
+          "actualStart": 1820.864958,
+          "actualEnd": 1923.531041,
+          "timeDifference": 16.48495799999978
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 87.695292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up with Purpose: Family, Roots, and Early Lessons"
+        },
+        {
+          "startTime": 263.87037499999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up with Purpose: Family, Roots, and Early Lessons and Chapter 2 Finding Her Voice: Education, Music, and Early Activism"
+        },
+        {
+          "startTime": 459.61612499999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Finding Her Voice: Education, Music, and Early Activism and Chapter 3 Partnership and Purpose: Building a Life with Martin Luther King Jr."
+        },
+        {
+          "startTime": 662.507042,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Partnership and Purpose: Building a Life with Martin Luther King Jr. and Chapter 4 Standing Strong Alone: Loss, Grief, and Renewed Activism"
+        },
+        {
+          "startTime": 830.925625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Standing Strong Alone: Loss, Grief, and Renewed Activism and Chapter 5 Expanding the Dream: Broader Activism and Lasting Legacy"
+        },
+        {
+          "startTime": 1010.237875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Expanding the Dream: Broader Activism and Lasting Legacy and Chapter 6 Carrying the Torch: Motherhood, Memory, and the Next Generation"
+        },
+        {
+          "startTime": 1162.794875,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Carrying the Torch: Motherhood, Memory, and the Next Generation and Chapter 7 The Struggle Continues: Facing New Challenges in a Changing World"
+        },
+        {
+          "startTime": 1346.863208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Struggle Continues: Facing New Challenges in a Changing World and Chapter 8 A Voice for Peace: Global Advocacy and the Power of Nonviolence"
+        },
+        {
+          "startTime": 1515.80475,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 A Voice for Peace: Global Advocacy and the Power of Nonviolence and Chapter 9 Honoring the Past, Shaping the Future: The Fight for Martin Luther King Jr. Day"
+        },
+        {
+          "startTime": 1674.295375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Honoring the Past, Shaping the Future: The Fight for Martin Luther King Jr. Day and Chapter 10 The Final Years: Reflection, Recognition, and the Enduring Power of Hope"
+        },
+        {
+          "startTime": 1819.364958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Final Years: Reflection, Recognition, and the Enduring Power of Hope and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1880",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: female)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T22:00:15.694Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

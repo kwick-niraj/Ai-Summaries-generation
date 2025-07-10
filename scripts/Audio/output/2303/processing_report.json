@@ -1,0 +1,575 @@
+{
+  "bookId": "2303",
+  "timestamp": "2025-07-10T11:10:50.982Z",
+  "success": false,
+  "processingTime": -1752145445539,
+  "stats": {
+    "totalSections": 17,
+    "totalWords": 7288,
+    "totalAudioFiles": 17,
+    "totalDuration": 2956.1852500000005
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 15,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 17,
+    "successful": 17,
+    "failed": 0,
+    "duration": 2956.1852500000005
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2303/optimized_text/2303.md",
+    "fileSize": 1155,
+    "wordCount": 169,
+    "format": "markdown",
+    "filename": "2303.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2303/metadata/2303_chapters.json",
+    "totalChapters": 17,
+    "totalDuration": 2956.18,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2303/metadata/2303_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2303/metadata/2303_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 17,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 15
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "alloy-turbo-multilingual",
+    "confidence": 75,
+    "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2303/2303_complete.wav",
+    "duration": 2956.18525,
+    "fileSize": 141896970,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2303/introduction.wav",
+          "duration": 88.518708,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.518708,
+          "startTime": 0,
+          "endTime": 88.518708
+        },
+        {
+          "path": "Audio/output/2303/chapter_01.wav",
+          "duration": 226.296208,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Rediscovering the Father’s Heart in Worship",
+          "actualDuration": 226.296208,
+          "startTime": 90.018708,
+          "endTime": 316.31491600000004
+        },
+        {
+          "path": "Audio/output/2303/chapter_02.wav",
+          "duration": 219.904667,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Heart of the Father: A New Focus in Catholic Devotion",
+          "actualDuration": 219.904667,
+          "startTime": 317.81491600000004,
+          "endTime": 537.7195830000001
+        },
+        {
+          "path": "Audio/output/2303/chapter_03.wav",
+          "duration": 254.917583,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Prayers, Readings, and Rituals: The Shape of the Votive Mass",
+          "actualDuration": 254.917583,
+          "startTime": 539.2195830000001,
+          "endTime": 794.1371660000001
+        },
+        {
+          "path": "Audio/output/2303/chapter_04.wav",
+          "duration": 228.566,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Reparation and Renewal: Healing Wounds Through the Father’s Love",
+          "actualDuration": 228.566,
+          "startTime": 795.6371660000001,
+          "endTime": 1024.203166
+        },
+        {
+          "path": "Audio/output/2303/chapter_05.wav",
+          "duration": 209.057375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Father’s Primacy: Honoring the Source of All Love",
+          "actualDuration": 209.057375,
+          "startTime": 1025.703166,
+          "endTime": 1234.760541
+        },
+        {
+          "path": "Audio/output/2303/chapter_06.wav",
+          "duration": 203.061042,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Living the Father’s Heart: Everyday Encounters and Quiet Transformations",
+          "actualDuration": 203.061042,
+          "startTime": 1236.260541,
+          "endTime": 1439.3215830000001
+        },
+        {
+          "path": "Audio/output/2303/chapter_07.wav",
+          "duration": 197.442667,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Theological Depth: Entering the Mystery of the Trinity",
+          "actualDuration": 197.442667,
+          "startTime": 1440.8215830000001,
+          "endTime": 1638.2642500000002
+        },
+        {
+          "path": "Audio/output/2303/chapter_08.wav",
+          "duration": 173.573875,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Spiritual Fruits: Signs of the Father’s Love",
+          "actualDuration": 173.573875,
+          "startTime": 1639.7642500000002,
+          "endTime": 1813.3381250000002
+        },
+        {
+          "path": "Audio/output/2303/chapter_09.wav",
+          "duration": 144.467,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Challenges and Questions: Walking the Path with Honesty",
+          "actualDuration": 144.467,
+          "startTime": 1814.8381250000002,
+          "endTime": 1959.3051250000003
+        },
+        {
+          "path": "Audio/output/2303/chapter_10.wav",
+          "duration": 190.558708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Votive Mass in the Wider Church: Seeds of Renewal",
+          "actualDuration": 190.558708,
+          "startTime": 1960.8051250000003,
+          "endTime": 2151.3638330000003
+        },
+        {
+          "path": "Audio/output/2303/chapter_11.wav",
+          "duration": 153.202,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Father’s Heart in Suffering: Finding Light in Darkness",
+          "actualDuration": 153.202,
+          "startTime": 2152.8638330000003,
+          "endTime": 2306.0658330000006
+        },
+        {
+          "path": "Audio/output/2303/chapter_12.wav",
+          "duration": 149.8545,
+          "section": "chapter",
+          "chapterIndex": 11,
+          "title": "Chapter 12 Passing on the Devotion: Teaching the Next Generation",
+          "actualDuration": 149.8545,
+          "startTime": 2307.5658330000006,
+          "endTime": 2457.4203330000005
+        },
+        {
+          "path": "Audio/output/2303/chapter_13.wav",
+          "duration": 148.411542,
+          "section": "chapter",
+          "chapterIndex": 12,
+          "title": "Chapter 13 The Heart of the Father and the World: A Call to Justice and Mercy",
+          "actualDuration": 148.411542,
+          "startTime": 2458.9203330000005,
+          "endTime": 2607.3318750000003
+        },
+        {
+          "path": "Audio/output/2303/chapter_14.wav",
+          "duration": 144.578875,
+          "section": "chapter",
+          "chapterIndex": 13,
+          "title": "Chapter 14 The Father’s Heart and Personal Vocation: Listening for the Call",
+          "actualDuration": 144.578875,
+          "startTime": 2608.8318750000003,
+          "endTime": 2753.4107500000005
+        },
+        {
+          "path": "Audio/output/2303/chapter_15.wav",
+          "duration": 102.133208,
+          "section": "chapter",
+          "chapterIndex": 14,
+          "title": "Chapter 15 The Ongoing Journey: A Heart That Never Stops Giving",
+          "actualDuration": 102.133208,
+          "startTime": 2754.9107500000005,
+          "endTime": 2857.0439580000007
+        },
+        {
+          "path": "Audio/output/2303/conclusion.wav",
+          "duration": 121.641292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.641292,
+          "startTime": 2858.5439580000007,
+          "endTime": 2980.1852500000005
+        }
+      ],
+      "totalDuration": 2980.1852500000005,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.52,
+          "actualStart": 0,
+          "actualEnd": 88.518708,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Rediscovering the Father’s Heart in Worship",
+          "expectedStart": 88.52,
+          "expectedEnd": 314.82,
+          "actualStart": 90.018708,
+          "actualEnd": 316.31491600000004,
+          "timeDifference": 1.4987080000000077
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Heart of the Father: A New Focus in Catholic Devotion",
+          "expectedStart": 314.82,
+          "expectedEnd": 534.72,
+          "actualStart": 317.81491600000004,
+          "actualEnd": 537.7195830000001,
+          "timeDifference": 2.994916000000046
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Prayers, Readings, and Rituals: The Shape of the Votive Mass",
+          "expectedStart": 534.72,
+          "expectedEnd": 789.64,
+          "actualStart": 539.2195830000001,
+          "actualEnd": 794.1371660000001,
+          "timeDifference": 4.49958300000003
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Reparation and Renewal: Healing Wounds Through the Father’s Love",
+          "expectedStart": 789.64,
+          "expectedEnd": 1018.21,
+          "actualStart": 795.6371660000001,
+          "actualEnd": 1024.203166,
+          "timeDifference": 5.997166000000107
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Father’s Primacy: Honoring the Source of All Love",
+          "expectedStart": 1018.21,
+          "expectedEnd": 1227.27,
+          "actualStart": 1025.703166,
+          "actualEnd": 1234.760541,
+          "timeDifference": 7.493165999999974
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Living the Father’s Heart: Everyday Encounters and Quiet Transformations",
+          "expectedStart": 1227.27,
+          "expectedEnd": 1430.33,
+          "actualStart": 1236.260541,
+          "actualEnd": 1439.3215830000001,
+          "timeDifference": 8.990541000000121
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Theological Depth: Entering the Mystery of the Trinity",
+          "expectedStart": 1430.33,
+          "expectedEnd": 1627.77,
+          "actualStart": 1440.8215830000001,
+          "actualEnd": 1638.2642500000002,
+          "timeDifference": 10.491583000000219
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Spiritual Fruits: Signs of the Father’s Love",
+          "expectedStart": 1627.77,
+          "expectedEnd": 1801.34,
+          "actualStart": 1639.7642500000002,
+          "actualEnd": 1813.3381250000002,
+          "timeDifference": 11.994250000000193
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Challenges and Questions: Walking the Path with Honesty",
+          "expectedStart": 1801.34,
+          "expectedEnd": 1945.81,
+          "actualStart": 1814.8381250000002,
+          "actualEnd": 1959.3051250000003,
+          "timeDifference": 13.4981250000003
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Votive Mass in the Wider Church: Seeds of Renewal",
+          "expectedStart": 1945.81,
+          "expectedEnd": 2136.37,
+          "actualStart": 1960.8051250000003,
+          "actualEnd": 2151.3638330000003,
+          "timeDifference": 14.995125000000371
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Father’s Heart in Suffering: Finding Light in Darkness",
+          "expectedStart": 2136.37,
+          "expectedEnd": 2289.57,
+          "actualStart": 2152.8638330000003,
+          "actualEnd": 2306.0658330000006,
+          "timeDifference": 16.49383300000045
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Chapter 12 Passing on the Devotion: Teaching the Next Generation",
+          "expectedStart": 2289.57,
+          "expectedEnd": 2439.42,
+          "actualStart": 2307.5658330000006,
+          "actualEnd": 2457.4203330000005,
+          "timeDifference": 17.995833000000403
+        },
+        {
+          "chapterIndex": 13,
+          "chapterTitle": "Chapter 13 The Heart of the Father and the World: A Call to Justice and Mercy",
+          "expectedStart": 2439.42,
+          "expectedEnd": 2587.83,
+          "actualStart": 2458.9203330000005,
+          "actualEnd": 2607.3318750000003,
+          "timeDifference": 19.50033300000041
+        },
+        {
+          "chapterIndex": 14,
+          "chapterTitle": "Chapter 14 The Father’s Heart and Personal Vocation: Listening for the Call",
+          "expectedStart": 2587.83,
+          "expectedEnd": 2732.41,
+          "actualStart": 2608.8318750000003,
+          "actualEnd": 2753.4107500000005,
+          "timeDifference": 21.001875000000382
+        },
+        {
+          "chapterIndex": 15,
+          "chapterTitle": "Chapter 15 The Ongoing Journey: A Heart That Never Stops Giving",
+          "expectedStart": 2732.41,
+          "expectedEnd": 2834.54,
+          "actualStart": 2754.9107500000005,
+          "actualEnd": 2857.0439580000007,
+          "timeDifference": 22.500750000000608
+        },
+        {
+          "chapterIndex": 16,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2834.54,
+          "expectedEnd": 2956.18,
+          "actualStart": 2858.5439580000007,
+          "actualEnd": 2980.1852500000005,
+          "timeDifference": 24.003958000000694
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.518708,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Rediscovering the Father’s Heart in Worship"
+        },
+        {
+          "startTime": 316.31491600000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Rediscovering the Father’s Heart in Worship and Chapter 2 The Heart of the Father: A New Focus in Catholic Devotion"
+        },
+        {
+          "startTime": 537.7195830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Heart of the Father: A New Focus in Catholic Devotion and Chapter 3 Prayers, Readings, and Rituals: The Shape of the Votive Mass"
+        },
+        {
+          "startTime": 794.1371660000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Prayers, Readings, and Rituals: The Shape of the Votive Mass and Chapter 4 Reparation and Renewal: Healing Wounds Through the Father’s Love"
+        },
+        {
+          "startTime": 1024.203166,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Reparation and Renewal: Healing Wounds Through the Father’s Love and Chapter 5 The Father’s Primacy: Honoring the Source of All Love"
+        },
+        {
+          "startTime": 1234.760541,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Father’s Primacy: Honoring the Source of All Love and Chapter 6 Living the Father’s Heart: Everyday Encounters and Quiet Transformations"
+        },
+        {
+          "startTime": 1439.3215830000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Living the Father’s Heart: Everyday Encounters and Quiet Transformations and Chapter 7 Theological Depth: Entering the Mystery of the Trinity"
+        },
+        {
+          "startTime": 1638.2642500000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Theological Depth: Entering the Mystery of the Trinity and Chapter 8 Spiritual Fruits: Signs of the Father’s Love"
+        },
+        {
+          "startTime": 1813.3381250000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Spiritual Fruits: Signs of the Father’s Love and Chapter 9 Challenges and Questions: Walking the Path with Honesty"
+        },
+        {
+          "startTime": 1959.3051250000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Challenges and Questions: Walking the Path with Honesty and Chapter 10 The Votive Mass in the Wider Church: Seeds of Renewal"
+        },
+        {
+          "startTime": 2151.3638330000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Votive Mass in the Wider Church: Seeds of Renewal and Chapter 11 The Father’s Heart in Suffering: Finding Light in Darkness"
+        },
+        {
+          "startTime": 2306.0658330000006,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Father’s Heart in Suffering: Finding Light in Darkness and Chapter 12 Passing on the Devotion: Teaching the Next Generation"
+        },
+        {
+          "startTime": 2457.4203330000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 12 Passing on the Devotion: Teaching the Next Generation and Chapter 13 The Heart of the Father and the World: A Call to Justice and Mercy"
+        },
+        {
+          "startTime": 2607.3318750000003,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 13 The Heart of the Father and the World: A Call to Justice and Mercy and Chapter 14 The Father’s Heart and Personal Vocation: Listening for the Call"
+        },
+        {
+          "startTime": 2753.4107500000005,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 14 The Father’s Heart and Personal Vocation: Listening for the Call and Chapter 15 The Ongoing Journey: A Heart That Never Stops Giving"
+        },
+        {
+          "startTime": 2857.0439580000007,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 15 The Ongoing Journey: A Heart That Never Stops Giving and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 17
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2303",
+      "selectedVoice": "alloy-turbo-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AlloyTurboMultilingualNeural",
+        "gender": "female",
+        "tone": "versatile",
+        "style": "adaptive",
+        "personality": "flexible",
+        "bestFor": [
+          "storytelling",
+          "multilingual",
+          "popular"
+        ]
+      },
+      "confidence": 75,
+      "reasoning": "Hybrid: Default voice for unknown author gender (Gender: unknown)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T11:04:06.838Z",
+      "ssmlConfig": {
+        "voice": "alloy-turbo-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

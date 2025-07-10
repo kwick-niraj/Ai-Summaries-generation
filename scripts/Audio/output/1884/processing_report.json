@@ -1,0 +1,408 @@
+{
+  "bookId": "1884",
+  "timestamp": "2025-07-08T22:18:06.273Z",
+  "success": false,
+  "processingTime": -1752012843876,
+  "stats": {
+    "totalSections": 11,
+    "totalWords": 3892,
+    "totalAudioFiles": 11,
+    "totalDuration": 1569.248919
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 9,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 11,
+    "successful": 10,
+    "failed": 1,
+    "duration": 1569.248919
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1884/optimized_text/1884.md",
+    "fileSize": 650,
+    "wordCount": 94,
+    "format": "markdown",
+    "filename": "1884.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1884/metadata/1884_chapters.json",
+    "totalChapters": 11,
+    "totalDuration": 1569.25,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1884/metadata/1884_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1884/metadata/1884_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 11,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 9
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1884/1884_complete.wav",
+    "duration": 1569.248917,
+    "fileSize": 75324026,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1884/introduction.wav",
+          "duration": 77.556292,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 77.556292,
+          "startTime": 0,
+          "endTime": 77.556292
+        },
+        {
+          "path": "Audio/output/1884/chapter_01.wav",
+          "duration": 171.723792,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Why Fairy Tales Matter to Children’s Inner Worlds",
+          "actualDuration": 171.723792,
+          "startTime": 79.056292,
+          "endTime": 250.780084
+        },
+        {
+          "path": "Audio/output/1884/chapter_03.wav",
+          "duration": 181.409417,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Role of Fantasy and Symbolism in Growing Up",
+          "actualDuration": 181.409417,
+          "startTime": 252.280084,
+          "endTime": 433.68950099999995
+        },
+        {
+          "path": "Audio/output/1884/chapter_04.wav",
+          "duration": 147.593625,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Fairy Tales and the Journey Toward Independence",
+          "actualDuration": 147.593625,
+          "startTime": 435.18950099999995,
+          "endTime": 582.7831259999999
+        },
+        {
+          "path": "Audio/output/1884/chapter_05.wav",
+          "duration": 192.577917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Facing Inner Conflicts and Finding Identity Through Stories",
+          "actualDuration": 192.577917,
+          "startTime": 584.2831259999999,
+          "endTime": 776.8610429999999
+        },
+        {
+          "path": "Audio/output/1884/chapter_06.wav",
+          "duration": 189.021875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Fairy Tales as Guides for Emotional and Moral Growth",
+          "actualDuration": 189.021875,
+          "startTime": 778.3610429999999,
+          "endTime": 967.3829179999999
+        },
+        {
+          "path": "Audio/output/1884/chapter_07.wav",
+          "duration": 167.21325,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Hidden Language of Dreams: Psychoanalytic Insights",
+          "actualDuration": 167.21325,
+          "startTime": 968.8829179999999,
+          "endTime": 1136.0961679999998
+        },
+        {
+          "path": "Audio/output/1884/chapter_08.wav",
+          "duration": 153.425792,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Classic Tales Revisited: What Lies Beneath the Surface",
+          "actualDuration": 153.425792,
+          "startTime": 1137.5961679999998,
+          "endTime": 1291.0219599999998
+        },
+        {
+          "path": "Audio/output/1884/chapter_09.wav",
+          "duration": 160.159667,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Enduring Value of Fantasy in a Changing World",
+          "actualDuration": 160.159667,
+          "startTime": 1292.5219599999998,
+          "endTime": 1452.681627
+        },
+        {
+          "path": "Audio/output/1884/conclusion.wav",
+          "duration": 128.567292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.567292,
+          "startTime": 1454.181627,
+          "endTime": 1582.748919
+        }
+      ],
+      "totalDuration": 1582.748919,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 77.56,
+          "actualStart": 0,
+          "actualEnd": 77.556292,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Why Fairy Tales Matter to Children’s Inner Worlds",
+          "expectedStart": 77.56,
+          "expectedEnd": 249.28,
+          "actualStart": 79.056292,
+          "actualEnd": 250.780084,
+          "timeDifference": 1.4962919999999968
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Role of Fantasy and Symbolism in Growing Up",
+          "expectedStart": 249.28,
+          "expectedEnd": 430.69,
+          "actualStart": 252.280084,
+          "actualEnd": 433.68950099999995,
+          "timeDifference": 3.000083999999987
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Fairy Tales and the Journey Toward Independence",
+          "expectedStart": 430.69,
+          "expectedEnd": 578.28,
+          "actualStart": 435.18950099999995,
+          "actualEnd": 582.7831259999999,
+          "timeDifference": 4.4995009999999525
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Facing Inner Conflicts and Finding Identity Through Stories",
+          "expectedStart": 578.28,
+          "expectedEnd": 770.86,
+          "actualStart": 584.2831259999999,
+          "actualEnd": 776.8610429999999,
+          "timeDifference": 6.003125999999952
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Fairy Tales as Guides for Emotional and Moral Growth",
+          "expectedStart": 770.86,
+          "expectedEnd": 959.88,
+          "actualStart": 778.3610429999999,
+          "actualEnd": 967.3829179999999,
+          "timeDifference": 7.501042999999868
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Hidden Language of Dreams: Psychoanalytic Insights",
+          "expectedStart": 959.88,
+          "expectedEnd": 1127.09,
+          "actualStart": 968.8829179999999,
+          "actualEnd": 1136.0961679999998,
+          "timeDifference": 9.002917999999909
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Classic Tales Revisited: What Lies Beneath the Surface",
+          "expectedStart": 1127.09,
+          "expectedEnd": 1280.52,
+          "actualStart": 1137.5961679999998,
+          "actualEnd": 1291.0219599999998,
+          "timeDifference": 10.506167999999889
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Enduring Value of Fantasy in a Changing World",
+          "expectedStart": 1280.52,
+          "expectedEnd": 1440.68,
+          "actualStart": 1292.5219599999998,
+          "actualEnd": 1452.681627,
+          "timeDifference": 12.001959999999826
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1440.68,
+          "expectedEnd": 1569.25,
+          "actualStart": 1454.181627,
+          "actualEnd": 1582.748919,
+          "timeDifference": 13.501626999999871
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 77.556292,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Why Fairy Tales Matter to Children’s Inner Worlds"
+        },
+        {
+          "startTime": 250.780084,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Why Fairy Tales Matter to Children’s Inner Worlds and Chapter 3 The Role of Fantasy and Symbolism in Growing Up"
+        },
+        {
+          "startTime": 433.68950099999995,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Role of Fantasy and Symbolism in Growing Up and Chapter 4 Fairy Tales and the Journey Toward Independence"
+        },
+        {
+          "startTime": 582.7831259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Fairy Tales and the Journey Toward Independence and Chapter 5 Facing Inner Conflicts and Finding Identity Through Stories"
+        },
+        {
+          "startTime": 776.8610429999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Facing Inner Conflicts and Finding Identity Through Stories and Chapter 6 Fairy Tales as Guides for Emotional and Moral Growth"
+        },
+        {
+          "startTime": 967.3829179999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Fairy Tales as Guides for Emotional and Moral Growth and Chapter 7 The Hidden Language of Dreams: Psychoanalytic Insights"
+        },
+        {
+          "startTime": 1136.0961679999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Hidden Language of Dreams: Psychoanalytic Insights and Chapter 8 Classic Tales Revisited: What Lies Beneath the Surface"
+        },
+        {
+          "startTime": 1291.0219599999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Classic Tales Revisited: What Lies Beneath the Surface and Chapter 9 The Enduring Value of Fantasy in a Changing World"
+        },
+        {
+          "startTime": 1452.681627,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Enduring Value of Fantasy in a Changing World and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 10
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1884",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T22:14:05.346Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

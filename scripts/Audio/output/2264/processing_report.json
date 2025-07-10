@@ -1,0 +1,456 @@
+{
+  "bookId": "2264",
+  "timestamp": "2025-07-10T05:24:42.177Z",
+  "success": false,
+  "processingTime": -1752124654151,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 5155,
+    "totalAudioFiles": 12,
+    "totalDuration": 2241.974042
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2241.974042
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2264/optimized_text/2264.md",
+    "fileSize": 758,
+    "wordCount": 108,
+    "format": "markdown",
+    "filename": "2264.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2264/metadata/2264_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2241.99,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2264/metadata/2264_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2264/metadata/2264_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2264/2264_complete.wav",
+    "duration": 2241.974042,
+    "fileSize": 107614832,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2264/introduction.wav",
+          "duration": 78.599958,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 78.599958,
+          "startTime": 0,
+          "endTime": 78.599958
+        },
+        {
+          "path": "Audio/output/2264/chapter_01.wav",
+          "duration": 243.257542,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Early Life in a Remote Land and the Weight of Unexpected Destiny",
+          "actualDuration": 243.257542,
+          "startTime": 80.099958,
+          "endTime": 323.3575
+        },
+        {
+          "path": "Audio/output/2264/chapter_02.wav",
+          "duration": 246.760708,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning to Lead and Facing the Shadows of Change",
+          "actualDuration": 246.760708,
+          "startTime": 324.8575,
+          "endTime": 571.618208
+        },
+        {
+          "path": "Audio/output/2264/chapter_03.wav",
+          "duration": 227.092292,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Invasion and the Struggle to Preserve Identity",
+          "actualDuration": 227.092292,
+          "startTime": 573.118208,
+          "endTime": 800.2104999999999
+        },
+        {
+          "path": "Audio/output/2264/chapter_04.wav",
+          "duration": 263.699042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Life in Exile and the Challenge of Rebuilding",
+          "actualDuration": 263.699042,
+          "startTime": 801.7104999999999,
+          "endTime": 1065.4095419999999
+        },
+        {
+          "path": "Audio/output/2264/chapter_05.wav",
+          "duration": 193.726875,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Power of Nonviolence and the Global Search for Justice",
+          "actualDuration": 193.726875,
+          "startTime": 1066.9095419999999,
+          "endTime": 1260.636417
+        },
+        {
+          "path": "Audio/output/2264/chapter_06.wav",
+          "duration": 210.525875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The World as a Classroom—Learning from Exile",
+          "actualDuration": 210.525875,
+          "startTime": 1262.136417,
+          "endTime": 1472.662292
+        },
+        {
+          "path": "Audio/output/2264/chapter_07.wav",
+          "duration": 171.80525,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Inner Journey—Spiritual Growth Amidst Turmoil",
+          "actualDuration": 171.80525,
+          "startTime": 1474.162292,
+          "endTime": 1645.9675419999999
+        },
+        {
+          "path": "Audio/output/2264/chapter_08.wav",
+          "duration": 190.626583,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Encounters with the World—Dialogue, Science, and the Search for Common Ground",
+          "actualDuration": 190.626583,
+          "startTime": 1647.4675419999999,
+          "endTime": 1838.0941249999998
+        },
+        {
+          "path": "Audio/output/2264/chapter_09.wav",
+          "duration": 155.086625,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Ongoing Struggle—Hope, Disappointment, and the Long View",
+          "actualDuration": 155.086625,
+          "startTime": 1839.5941249999998,
+          "endTime": 1994.6807499999998
+        },
+        {
+          "path": "Audio/output/2264/chapter_10.wav",
+          "duration": 131.929625,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Reflections on Freedom, Forgiveness, and the Future",
+          "actualDuration": 131.929625,
+          "startTime": 1996.1807499999998,
+          "endTime": 2128.1103749999997
+        },
+        {
+          "path": "Audio/output/2264/conclusion.wav",
+          "duration": 128.863667,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 128.863667,
+          "startTime": 2129.6103749999997,
+          "endTime": 2258.474042
+        }
+      ],
+      "totalDuration": 2258.474042,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 78.6,
+          "actualStart": 0,
+          "actualEnd": 78.599958,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Early Life in a Remote Land and the Weight of Unexpected Destiny",
+          "expectedStart": 78.6,
+          "expectedEnd": 321.86,
+          "actualStart": 80.099958,
+          "actualEnd": 323.3575,
+          "timeDifference": 1.4999580000000066
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning to Lead and Facing the Shadows of Change",
+          "expectedStart": 321.86,
+          "expectedEnd": 568.62,
+          "actualStart": 324.8575,
+          "actualEnd": 571.618208,
+          "timeDifference": 2.9975000000000023
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Invasion and the Struggle to Preserve Identity",
+          "expectedStart": 568.62,
+          "expectedEnd": 795.71,
+          "actualStart": 573.118208,
+          "actualEnd": 800.2104999999999,
+          "timeDifference": 4.498207999999977
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Life in Exile and the Challenge of Rebuilding",
+          "expectedStart": 795.71,
+          "expectedEnd": 1059.41,
+          "actualStart": 801.7104999999999,
+          "actualEnd": 1065.4095419999999,
+          "timeDifference": 6.0004999999998745
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Power of Nonviolence and the Global Search for Justice",
+          "expectedStart": 1059.41,
+          "expectedEnd": 1253.14,
+          "actualStart": 1066.9095419999999,
+          "actualEnd": 1260.636417,
+          "timeDifference": 7.499541999999792
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The World as a Classroom—Learning from Exile",
+          "expectedStart": 1253.14,
+          "expectedEnd": 1463.67,
+          "actualStart": 1262.136417,
+          "actualEnd": 1472.662292,
+          "timeDifference": 8.996416999999838
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Inner Journey—Spiritual Growth Amidst Turmoil",
+          "expectedStart": 1463.67,
+          "expectedEnd": 1635.48,
+          "actualStart": 1474.162292,
+          "actualEnd": 1645.9675419999999,
+          "timeDifference": 10.492291999999907
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Encounters with the World—Dialogue, Science, and the Search for Common Ground",
+          "expectedStart": 1635.48,
+          "expectedEnd": 1826.11,
+          "actualStart": 1647.4675419999999,
+          "actualEnd": 1838.0941249999998,
+          "timeDifference": 11.987541999999848
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Ongoing Struggle—Hope, Disappointment, and the Long View",
+          "expectedStart": 1826.11,
+          "expectedEnd": 1981.2,
+          "actualStart": 1839.5941249999998,
+          "actualEnd": 1994.6807499999998,
+          "timeDifference": 13.484124999999949
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Reflections on Freedom, Forgiveness, and the Future",
+          "expectedStart": 1981.2,
+          "expectedEnd": 2113.13,
+          "actualStart": 1996.1807499999998,
+          "actualEnd": 2128.1103749999997,
+          "timeDifference": 14.980749999999716
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2113.13,
+          "expectedEnd": 2241.99,
+          "actualStart": 2129.6103749999997,
+          "actualEnd": 2258.474042,
+          "timeDifference": 16.48037499999964
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 78.599958,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Early Life in a Remote Land and the Weight of Unexpected Destiny"
+        },
+        {
+          "startTime": 323.3575,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Early Life in a Remote Land and the Weight of Unexpected Destiny and Chapter 2 Learning to Lead and Facing the Shadows of Change"
+        },
+        {
+          "startTime": 571.618208,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning to Lead and Facing the Shadows of Change and Chapter 3 The Invasion and the Struggle to Preserve Identity"
+        },
+        {
+          "startTime": 800.2104999999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Invasion and the Struggle to Preserve Identity and Chapter 4 Life in Exile and the Challenge of Rebuilding"
+        },
+        {
+          "startTime": 1065.4095419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Life in Exile and the Challenge of Rebuilding and Chapter 5 The Power of Nonviolence and the Global Search for Justice"
+        },
+        {
+          "startTime": 1260.636417,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Power of Nonviolence and the Global Search for Justice and Chapter 6 The World as a Classroom—Learning from Exile"
+        },
+        {
+          "startTime": 1472.662292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The World as a Classroom—Learning from Exile and Chapter 7 The Inner Journey—Spiritual Growth Amidst Turmoil"
+        },
+        {
+          "startTime": 1645.9675419999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Inner Journey—Spiritual Growth Amidst Turmoil and Chapter 8 Encounters with the World—Dialogue, Science, and the Search for Common Ground"
+        },
+        {
+          "startTime": 1838.0941249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Encounters with the World—Dialogue, Science, and the Search for Common Ground and Chapter 9 The Ongoing Struggle—Hope, Disappointment, and the Long View"
+        },
+        {
+          "startTime": 1994.6807499999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Ongoing Struggle—Hope, Disappointment, and the Long View and Chapter 10 Reflections on Freedom, Forgiveness, and the Future"
+        },
+        {
+          "startTime": 2128.1103749999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Reflections on Freedom, Forgiveness, and the Future and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2264",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T05:17:35.795Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

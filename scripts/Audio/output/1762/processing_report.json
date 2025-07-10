@@ -1,0 +1,480 @@
+{
+  "bookId": "1762",
+  "timestamp": "2025-07-08T12:39:22.153Z",
+  "success": false,
+  "processingTime": -1751977788858,
+  "stats": {
+    "totalSections": 13,
+    "totalWords": 5326,
+    "totalAudioFiles": 13,
+    "totalDuration": 2587.3690020000004
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 11,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 13,
+    "successful": 13,
+    "failed": 0,
+    "duration": 2587.3690020000004
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1762/optimized_text/1762.md",
+    "fileSize": 864,
+    "wordCount": 114,
+    "format": "markdown",
+    "filename": "1762.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1762/metadata/1762_chapters.json",
+    "totalChapters": 13,
+    "totalDuration": 2587.36,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1762/metadata/1762_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1762/metadata/1762_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 13,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 11
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "steffan-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1762/1762_complete.wav",
+    "duration": 2587.369,
+    "fileSize": 124193790,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1762/introduction.wav",
+          "duration": 85.151792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 85.151792,
+          "startTime": 0,
+          "endTime": 85.151792
+        },
+        {
+          "path": "Audio/output/1762/chapter_01.wav",
+          "duration": 246.789583,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering the Power of Everyday Stories",
+          "actualDuration": 246.789583,
+          "startTime": 86.651792,
+          "endTime": 333.441375
+        },
+        {
+          "path": "Audio/output/1762/chapter_02.wav",
+          "duration": 224.168,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Small Towns, Big Impact—How Local Heroes Shape Communities",
+          "actualDuration": 224.168,
+          "startTime": 334.941375,
+          "endTime": 559.109375
+        },
+        {
+          "path": "Audio/output/1762/chapter_03.wav",
+          "duration": 249.522208,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Acts of Kindness and the Quiet Strength of Compassion",
+          "actualDuration": 249.522208,
+          "startTime": 560.609375,
+          "endTime": 810.131583
+        },
+        {
+          "path": "Audio/output/1762/chapter_04.wav",
+          "duration": 265.485792,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Innovation and Perseverance—Building a Better Future from the Ground Up",
+          "actualDuration": 265.485792,
+          "startTime": 811.631583,
+          "endTime": 1077.117375
+        },
+        {
+          "path": "Audio/output/1762/chapter_05.wav",
+          "duration": 250.542917,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Art of Listening—How Storytelling Connects and Heals",
+          "actualDuration": 250.542917,
+          "startTime": 1078.617375,
+          "endTime": 1329.160292
+        },
+        {
+          "path": "Audio/output/1762/chapter_06.wav",
+          "duration": 207.241292,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Bridges Across Divides—Finding Unity in Unexpected Places",
+          "actualDuration": 207.241292,
+          "startTime": 1330.660292,
+          "endTime": 1537.901584
+        },
+        {
+          "path": "Audio/output/1762/chapter_07.wav",
+          "duration": 209.610792,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Courage to Speak—Voices That Change the Conversation",
+          "actualDuration": 209.610792,
+          "startTime": 1539.401584,
+          "endTime": 1749.012376
+        },
+        {
+          "path": "Audio/output/1762/chapter_08.wav",
+          "duration": 183.892542,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Generations in Conversation—Learning from the Past, Shaping the Future",
+          "actualDuration": 183.892542,
+          "startTime": 1750.512376,
+          "endTime": 1934.404918
+        },
+        {
+          "path": "Audio/output/1762/chapter_09.wav",
+          "duration": 192.172542,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Gift of Service—How Giving Transforms Givers and Receivers",
+          "actualDuration": 192.172542,
+          "startTime": 1935.904918,
+          "endTime": 2128.07746
+        },
+        {
+          "path": "Audio/output/1762/chapter_10.wav",
+          "duration": 201.242917,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Resilience in the Face of Loss—Finding Hope After Hardship",
+          "actualDuration": 201.242917,
+          "startTime": 2129.57746,
+          "endTime": 2330.820377
+        },
+        {
+          "path": "Audio/output/1762/chapter_11.wav",
+          "duration": 136.657458,
+          "section": "chapter",
+          "chapterIndex": 10,
+          "title": "Chapter 11 The Ripple Effect—How One Life Touches Many",
+          "actualDuration": 136.657458,
+          "startTime": 2332.320377,
+          "endTime": 2468.977835
+        },
+        {
+          "path": "Audio/output/1762/conclusion.wav",
+          "duration": 134.891167,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.891167,
+          "startTime": 2470.477835,
+          "endTime": 2605.3690020000004
+        }
+      ],
+      "totalDuration": 2605.3690020000004,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 85.15,
+          "actualStart": 0,
+          "actualEnd": 85.151792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering the Power of Everyday Stories",
+          "expectedStart": 85.15,
+          "expectedEnd": 331.94,
+          "actualStart": 86.651792,
+          "actualEnd": 333.441375,
+          "timeDifference": 1.5017919999999947
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Small Towns, Big Impact—How Local Heroes Shape Communities",
+          "expectedStart": 331.94,
+          "expectedEnd": 556.11,
+          "actualStart": 334.941375,
+          "actualEnd": 559.109375,
+          "timeDifference": 3.001374999999996
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Acts of Kindness and the Quiet Strength of Compassion",
+          "expectedStart": 556.11,
+          "expectedEnd": 805.63,
+          "actualStart": 560.609375,
+          "actualEnd": 810.131583,
+          "timeDifference": 4.499374999999986
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Innovation and Perseverance—Building a Better Future from the Ground Up",
+          "expectedStart": 805.63,
+          "expectedEnd": 1071.12,
+          "actualStart": 811.631583,
+          "actualEnd": 1077.117375,
+          "timeDifference": 6.001582999999982
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Art of Listening—How Storytelling Connects and Heals",
+          "expectedStart": 1071.12,
+          "expectedEnd": 1321.66,
+          "actualStart": 1078.617375,
+          "actualEnd": 1329.160292,
+          "timeDifference": 7.497375000000147
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Bridges Across Divides—Finding Unity in Unexpected Places",
+          "expectedStart": 1321.66,
+          "expectedEnd": 1528.9,
+          "actualStart": 1330.660292,
+          "actualEnd": 1537.901584,
+          "timeDifference": 9.000291999999945
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Courage to Speak—Voices That Change the Conversation",
+          "expectedStart": 1528.9,
+          "expectedEnd": 1738.51,
+          "actualStart": 1539.401584,
+          "actualEnd": 1749.012376,
+          "timeDifference": 10.501583999999866
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Generations in Conversation—Learning from the Past, Shaping the Future",
+          "expectedStart": 1738.51,
+          "expectedEnd": 1922.4,
+          "actualStart": 1750.512376,
+          "actualEnd": 1934.404918,
+          "timeDifference": 12.002375999999913
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Gift of Service—How Giving Transforms Givers and Receivers",
+          "expectedStart": 1922.4,
+          "expectedEnd": 2114.57,
+          "actualStart": 1935.904918,
+          "actualEnd": 2128.07746,
+          "timeDifference": 13.504917999999861
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Resilience in the Face of Loss—Finding Hope After Hardship",
+          "expectedStart": 2114.57,
+          "expectedEnd": 2315.81,
+          "actualStart": 2129.57746,
+          "actualEnd": 2330.820377,
+          "timeDifference": 15.00745999999981
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Chapter 11 The Ripple Effect—How One Life Touches Many",
+          "expectedStart": 2315.81,
+          "expectedEnd": 2452.47,
+          "actualStart": 2332.320377,
+          "actualEnd": 2468.977835,
+          "timeDifference": 16.510377000000062
+        },
+        {
+          "chapterIndex": 12,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2452.47,
+          "expectedEnd": 2587.36,
+          "actualStart": 2470.477835,
+          "actualEnd": 2605.3690020000004,
+          "timeDifference": 18.00783500000034
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 85.151792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering the Power of Everyday Stories"
+        },
+        {
+          "startTime": 333.441375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering the Power of Everyday Stories and Chapter 2 Small Towns, Big Impact—How Local Heroes Shape Communities"
+        },
+        {
+          "startTime": 559.109375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Small Towns, Big Impact—How Local Heroes Shape Communities and Chapter 3 Acts of Kindness and the Quiet Strength of Compassion"
+        },
+        {
+          "startTime": 810.131583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Acts of Kindness and the Quiet Strength of Compassion and Chapter 4 Innovation and Perseverance—Building a Better Future from the Ground Up"
+        },
+        {
+          "startTime": 1077.117375,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Innovation and Perseverance—Building a Better Future from the Ground Up and Chapter 5 The Art of Listening—How Storytelling Connects and Heals"
+        },
+        {
+          "startTime": 1329.160292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Art of Listening—How Storytelling Connects and Heals and Chapter 6 Bridges Across Divides—Finding Unity in Unexpected Places"
+        },
+        {
+          "startTime": 1537.901584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Bridges Across Divides—Finding Unity in Unexpected Places and Chapter 7 The Courage to Speak—Voices That Change the Conversation"
+        },
+        {
+          "startTime": 1749.012376,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Courage to Speak—Voices That Change the Conversation and Chapter 8 Generations in Conversation—Learning from the Past, Shaping the Future"
+        },
+        {
+          "startTime": 1934.404918,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Generations in Conversation—Learning from the Past, Shaping the Future and Chapter 9 The Gift of Service—How Giving Transforms Givers and Receivers"
+        },
+        {
+          "startTime": 2128.07746,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Gift of Service—How Giving Transforms Givers and Receivers and Chapter 10 Resilience in the Face of Loss—Finding Hope After Hardship"
+        },
+        {
+          "startTime": 2330.820377,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Resilience in the Face of Loss—Finding Hope After Hardship and Chapter 11 The Ripple Effect—How One Life Touches Many"
+        },
+        {
+          "startTime": 2468.977835,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 11 The Ripple Effect—How One Life Touches Many and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 13
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1762",
+      "selectedVoice": "steffan-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-SteffanMultilingualNeural",
+        "gender": "male",
+        "tone": "smooth",
+        "style": "conversational",
+        "personality": "narrator",
+        "bestFor": [
+          "audiobooks",
+          "narration",
+          "storytelling",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+15) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T12:29:50.028Z",
+      "ssmlConfig": {
+        "voice": "steffan-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "bookId": "2111",
+  "timestamp": "2025-07-09T19:38:28.492Z",
+  "success": false,
+  "processingTime": -1752089606869,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4599,
+    "totalAudioFiles": 12,
+    "totalDuration": 2073.752874
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2073.752874
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2111/optimized_text/2111.md",
+    "fileSize": 677,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2111.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2111/metadata/2111_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2073.76,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2111/metadata/2111_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2111/metadata/2111_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 86,
+    "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2111/2111_complete.wav",
+    "duration": 2073.752875,
+    "fileSize": 99540216,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2111/introduction.wav",
+          "duration": 88.808833,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 88.808833,
+          "startTime": 0,
+          "endTime": 88.808833
+        },
+        {
+          "path": "Audio/output/2111/chapter_01.wav",
+          "duration": 202.699875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Discovering Joy in Everyday Moments by the Sea",
+          "actualDuration": 202.699875,
+          "startTime": 90.308833,
+          "endTime": 293.008708
+        },
+        {
+          "path": "Audio/output/2111/chapter_02.wav",
+          "duration": 209.631542,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Learning from Mistakes and Misadventures on the Water",
+          "actualDuration": 209.631542,
+          "startTime": 294.508708,
+          "endTime": 504.14025000000004
+        },
+        {
+          "path": "Audio/output/2111/chapter_03.wav",
+          "duration": 172.296375,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 The Power of Connection with Nature, Family, and Community",
+          "actualDuration": 172.296375,
+          "startTime": 505.64025000000004,
+          "endTime": 677.936625
+        },
+        {
+          "path": "Audio/output/2111/chapter_04.wav",
+          "duration": 197.003875,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Resilience and Perspective in the Face of Adversity",
+          "actualDuration": 197.003875,
+          "startTime": 679.436625,
+          "endTime": 876.4405
+        },
+        {
+          "path": "Audio/output/2111/chapter_05.wav",
+          "duration": 175.196958,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Savoring Simple Pleasures and the Gift of Presence",
+          "actualDuration": 175.196958,
+          "startTime": 877.9405,
+          "endTime": 1053.1374580000002
+        },
+        {
+          "path": "Audio/output/2111/chapter_06.wav",
+          "duration": 198.268875,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Art of Letting Go and Embracing Change",
+          "actualDuration": 198.268875,
+          "startTime": 1054.6374580000002,
+          "endTime": 1252.9063330000001
+        },
+        {
+          "path": "Audio/output/2111/chapter_07.wav",
+          "duration": 169.389125,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Finding Humor in the Unexpected",
+          "actualDuration": 169.389125,
+          "startTime": 1254.4063330000001,
+          "endTime": 1423.795458
+        },
+        {
+          "path": "Audio/output/2111/chapter_08.wav",
+          "duration": 193.663333,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Wisdom of Elders and the Gift of Storytelling",
+          "actualDuration": 193.663333,
+          "startTime": 1425.295458,
+          "endTime": 1618.958791
+        },
+        {
+          "path": "Audio/output/2111/chapter_09.wav",
+          "duration": 184.301458,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Generosity, Gratitude, and the Spirit of Giving",
+          "actualDuration": 184.301458,
+          "startTime": 1620.458791,
+          "endTime": 1804.760249
+        },
+        {
+          "path": "Audio/output/2111/chapter_10.wav",
+          "duration": 165.94525,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living with Intention and the Courage to Choose",
+          "actualDuration": 165.94525,
+          "startTime": 1806.260249,
+          "endTime": 1972.205499
+        },
+        {
+          "path": "Audio/output/2111/conclusion.wav",
+          "duration": 116.547375,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 116.547375,
+          "startTime": 1973.705499,
+          "endTime": 2090.252874
+        }
+      ],
+      "totalDuration": 2090.252874,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 88.81,
+          "actualStart": 0,
+          "actualEnd": 88.808833,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Discovering Joy in Everyday Moments by the Sea",
+          "expectedStart": 88.81,
+          "expectedEnd": 291.51,
+          "actualStart": 90.308833,
+          "actualEnd": 293.008708,
+          "timeDifference": 1.4988330000000047
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Learning from Mistakes and Misadventures on the Water",
+          "expectedStart": 291.51,
+          "expectedEnd": 501.14,
+          "actualStart": 294.508708,
+          "actualEnd": 504.14025000000004,
+          "timeDifference": 2.998708000000022
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 The Power of Connection with Nature, Family, and Community",
+          "expectedStart": 501.14,
+          "expectedEnd": 673.44,
+          "actualStart": 505.64025000000004,
+          "actualEnd": 677.936625,
+          "timeDifference": 4.500250000000051
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Resilience and Perspective in the Face of Adversity",
+          "expectedStart": 673.44,
+          "expectedEnd": 870.44,
+          "actualStart": 679.436625,
+          "actualEnd": 876.4405,
+          "timeDifference": 5.9966249999999945
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Savoring Simple Pleasures and the Gift of Presence",
+          "expectedStart": 870.44,
+          "expectedEnd": 1045.64,
+          "actualStart": 877.9405,
+          "actualEnd": 1053.1374580000002,
+          "timeDifference": 7.500499999999988
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Art of Letting Go and Embracing Change",
+          "expectedStart": 1045.64,
+          "expectedEnd": 1243.91,
+          "actualStart": 1054.6374580000002,
+          "actualEnd": 1252.9063330000001,
+          "timeDifference": 8.997458000000051
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Finding Humor in the Unexpected",
+          "expectedStart": 1243.91,
+          "expectedEnd": 1413.3,
+          "actualStart": 1254.4063330000001,
+          "actualEnd": 1423.795458,
+          "timeDifference": 10.49633300000005
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Wisdom of Elders and the Gift of Storytelling",
+          "expectedStart": 1413.3,
+          "expectedEnd": 1606.96,
+          "actualStart": 1425.295458,
+          "actualEnd": 1618.958791,
+          "timeDifference": 11.995458000000099
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Generosity, Gratitude, and the Spirit of Giving",
+          "expectedStart": 1606.96,
+          "expectedEnd": 1791.26,
+          "actualStart": 1620.458791,
+          "actualEnd": 1804.760249,
+          "timeDifference": 13.498790999999983
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living with Intention and the Courage to Choose",
+          "expectedStart": 1791.26,
+          "expectedEnd": 1957.21,
+          "actualStart": 1806.260249,
+          "actualEnd": 1972.205499,
+          "timeDifference": 15.00024899999994
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1957.21,
+          "expectedEnd": 2073.76,
+          "actualStart": 1973.705499,
+          "actualEnd": 2090.252874,
+          "timeDifference": 16.49549899999988
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 88.808833,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Discovering Joy in Everyday Moments by the Sea"
+        },
+        {
+          "startTime": 293.008708,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Discovering Joy in Everyday Moments by the Sea and Chapter 2 Learning from Mistakes and Misadventures on the Water"
+        },
+        {
+          "startTime": 504.14025000000004,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Learning from Mistakes and Misadventures on the Water and Chapter 3 The Power of Connection with Nature, Family, and Community"
+        },
+        {
+          "startTime": 677.936625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 The Power of Connection with Nature, Family, and Community and Chapter 4 Resilience and Perspective in the Face of Adversity"
+        },
+        {
+          "startTime": 876.4405,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Resilience and Perspective in the Face of Adversity and Chapter 5 Savoring Simple Pleasures and the Gift of Presence"
+        },
+        {
+          "startTime": 1053.1374580000002,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Savoring Simple Pleasures and the Gift of Presence and Chapter 6 The Art of Letting Go and Embracing Change"
+        },
+        {
+          "startTime": 1252.9063330000001,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Art of Letting Go and Embracing Change and Chapter 7 Finding Humor in the Unexpected"
+        },
+        {
+          "startTime": 1423.795458,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Finding Humor in the Unexpected and Chapter 8 The Wisdom of Elders and the Gift of Storytelling"
+        },
+        {
+          "startTime": 1618.958791,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Wisdom of Elders and the Gift of Storytelling and Chapter 9 Generosity, Gratitude, and the Spirit of Giving"
+        },
+        {
+          "startTime": 1804.760249,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Generosity, Gratitude, and the Spirit of Giving and Chapter 10 Living with Intention and the Courage to Choose"
+        },
+        {
+          "startTime": 1972.205499,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living with Intention and the Courage to Choose and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2111",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 86,
+      "reasoning": "Hybrid: Genre match: self-help, personal-development (+16); Style match (+20) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T19:33:28.088Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

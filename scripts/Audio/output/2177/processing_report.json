@@ -1,0 +1,456 @@
+{
+  "bookId": "2177",
+  "timestamp": "2025-07-09T23:17:12.593Z",
+  "success": false,
+  "processingTime": -1752102466458,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4601,
+    "totalAudioFiles": 12,
+    "totalDuration": 2091.4038739999996
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2091.4038739999996
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2177/optimized_text/2177.md",
+    "fileSize": 720,
+    "wordCount": 110,
+    "format": "markdown",
+    "filename": "2177.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2177/metadata/2177_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2091.41,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2177/metadata/2177_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2177/metadata/2177_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "adam-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2177/2177_complete.wav",
+    "duration": 2091.403875,
+    "fileSize": 100387464,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2177/introduction.wav",
+          "duration": 92.543083,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 92.543083,
+          "startTime": 0,
+          "endTime": 92.543083
+        },
+        {
+          "path": "Audio/output/2177/chapter_01.wav",
+          "duration": 228.845958,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World on the Edge of Change",
+          "actualDuration": 228.845958,
+          "startTime": 94.043083,
+          "endTime": 322.889041
+        },
+        {
+          "path": "Audio/output/2177/chapter_02.wav",
+          "duration": 244.726042,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Struggle for Independence and the Cost of Conviction",
+          "actualDuration": 244.726042,
+          "startTime": 324.389041,
+          "endTime": 569.115083
+        },
+        {
+          "path": "Audio/output/2177/chapter_03.wav",
+          "duration": 200.605542,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Diplomacy, Sacrifice, and the Art of Building Alliances",
+          "actualDuration": 200.605542,
+          "startTime": 570.615083,
+          "endTime": 771.220625
+        },
+        {
+          "path": "Audio/output/2177/chapter_04.wav",
+          "duration": 223.873333,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Shaping a New Government and Facing the Realities of Power",
+          "actualDuration": 223.873333,
+          "startTime": 772.720625,
+          "endTime": 996.593958
+        },
+        {
+          "path": "Audio/output/2177/chapter_05.wav",
+          "duration": 184.219375,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Presidency and the Burden of Unpopular Decisions",
+          "actualDuration": 184.219375,
+          "startTime": 998.093958,
+          "endTime": 1182.313333
+        },
+        {
+          "path": "Audio/output/2177/chapter_06.wav",
+          "duration": 172.093625,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 Return to Private Life and the Quiet Struggle for Relevance",
+          "actualDuration": 172.093625,
+          "startTime": 1183.813333,
+          "endTime": 1355.906958
+        },
+        {
+          "path": "Audio/output/2177/chapter_07.wav",
+          "duration": 176.153625,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Reconciliation, Reflection, and the Power of Friendship",
+          "actualDuration": 176.153625,
+          "startTime": 1357.406958,
+          "endTime": 1533.560583
+        },
+        {
+          "path": "Audio/output/2177/chapter_08.wav",
+          "duration": 164.510167,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Family, Legacy, and the Unfolding of a New Generation",
+          "actualDuration": 164.510167,
+          "startTime": 1535.060583,
+          "endTime": 1699.5707499999999
+        },
+        {
+          "path": "Audio/output/2177/chapter_09.wav",
+          "duration": 143.696833,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 The Final Years and the Meaning of a Life Well Lived",
+          "actualDuration": 143.696833,
+          "startTime": 1701.0707499999999,
+          "endTime": 1844.7675829999998
+        },
+        {
+          "path": "Audio/output/2177/chapter_10.wav",
+          "duration": 138.638708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 The Enduring Lessons of John Adams",
+          "actualDuration": 138.638708,
+          "startTime": 1846.2675829999998,
+          "endTime": 1984.9062909999998
+        },
+        {
+          "path": "Audio/output/2177/conclusion.wav",
+          "duration": 121.497583,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 121.497583,
+          "startTime": 1986.4062909999998,
+          "endTime": 2107.9038739999996
+        }
+      ],
+      "totalDuration": 2107.9038739999996,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 92.54,
+          "actualStart": 0,
+          "actualEnd": 92.543083,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World on the Edge of Change",
+          "expectedStart": 92.54,
+          "expectedEnd": 321.39,
+          "actualStart": 94.043083,
+          "actualEnd": 322.889041,
+          "timeDifference": 1.5030829999999895
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Struggle for Independence and the Cost of Conviction",
+          "expectedStart": 321.39,
+          "expectedEnd": 566.12,
+          "actualStart": 324.389041,
+          "actualEnd": 569.115083,
+          "timeDifference": 2.999041000000034
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Diplomacy, Sacrifice, and the Art of Building Alliances",
+          "expectedStart": 566.12,
+          "expectedEnd": 766.73,
+          "actualStart": 570.615083,
+          "actualEnd": 771.220625,
+          "timeDifference": 4.495083000000022
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Shaping a New Government and Facing the Realities of Power",
+          "expectedStart": 766.73,
+          "expectedEnd": 990.6,
+          "actualStart": 772.720625,
+          "actualEnd": 996.593958,
+          "timeDifference": 5.990625000000023
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Presidency and the Burden of Unpopular Decisions",
+          "expectedStart": 990.6,
+          "expectedEnd": 1174.82,
+          "actualStart": 998.093958,
+          "actualEnd": 1182.313333,
+          "timeDifference": 7.4939580000000205
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 Return to Private Life and the Quiet Struggle for Relevance",
+          "expectedStart": 1174.82,
+          "expectedEnd": 1346.91,
+          "actualStart": 1183.813333,
+          "actualEnd": 1355.906958,
+          "timeDifference": 8.99333300000012
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Reconciliation, Reflection, and the Power of Friendship",
+          "expectedStart": 1346.91,
+          "expectedEnd": 1523.06,
+          "actualStart": 1357.406958,
+          "actualEnd": 1533.560583,
+          "timeDifference": 10.49695799999995
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Family, Legacy, and the Unfolding of a New Generation",
+          "expectedStart": 1523.06,
+          "expectedEnd": 1687.57,
+          "actualStart": 1535.060583,
+          "actualEnd": 1699.5707499999999,
+          "timeDifference": 12.000583000000006
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 The Final Years and the Meaning of a Life Well Lived",
+          "expectedStart": 1687.57,
+          "expectedEnd": 1831.27,
+          "actualStart": 1701.0707499999999,
+          "actualEnd": 1844.7675829999998,
+          "timeDifference": 13.500749999999925
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 The Enduring Lessons of John Adams",
+          "expectedStart": 1831.27,
+          "expectedEnd": 1969.91,
+          "actualStart": 1846.2675829999998,
+          "actualEnd": 1984.9062909999998,
+          "timeDifference": 14.99758299999985
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1969.91,
+          "expectedEnd": 2091.41,
+          "actualStart": 1986.4062909999998,
+          "actualEnd": 2107.9038739999996,
+          "timeDifference": 16.4962909999997
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 92.543083,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World on the Edge of Change"
+        },
+        {
+          "startTime": 322.889041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World on the Edge of Change and Chapter 2 The Struggle for Independence and the Cost of Conviction"
+        },
+        {
+          "startTime": 569.115083,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Struggle for Independence and the Cost of Conviction and Chapter 3 Diplomacy, Sacrifice, and the Art of Building Alliances"
+        },
+        {
+          "startTime": 771.220625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Diplomacy, Sacrifice, and the Art of Building Alliances and Chapter 4 Shaping a New Government and Facing the Realities of Power"
+        },
+        {
+          "startTime": 996.593958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Shaping a New Government and Facing the Realities of Power and Chapter 5 The Presidency and the Burden of Unpopular Decisions"
+        },
+        {
+          "startTime": 1182.313333,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Presidency and the Burden of Unpopular Decisions and Chapter 6 Return to Private Life and the Quiet Struggle for Relevance"
+        },
+        {
+          "startTime": 1355.906958,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 Return to Private Life and the Quiet Struggle for Relevance and Chapter 7 Reconciliation, Reflection, and the Power of Friendship"
+        },
+        {
+          "startTime": 1533.560583,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Reconciliation, Reflection, and the Power of Friendship and Chapter 8 Family, Legacy, and the Unfolding of a New Generation"
+        },
+        {
+          "startTime": 1699.5707499999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Family, Legacy, and the Unfolding of a New Generation and Chapter 9 The Final Years and the Meaning of a Life Well Lived"
+        },
+        {
+          "startTime": 1844.7675829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 The Final Years and the Meaning of a Life Well Lived and Chapter 10 The Enduring Lessons of John Adams"
+        },
+        {
+          "startTime": 1984.9062909999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 The Enduring Lessons of John Adams and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2177",
+      "selectedVoice": "adam-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AdamMultilingualNeural",
+        "gender": "male",
+        "tone": "deep",
+        "style": "serious",
+        "personality": "authoritative",
+        "bestFor": [
+          "documentary",
+          "serious",
+          "biography",
+          "history"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Genre match: documentary (+8) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-09T23:07:47.653Z",
+      "ssmlConfig": {
+        "voice": "adam-multilingual",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}

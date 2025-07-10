@@ -1,0 +1,456 @@
+{
+  "bookId": "2324",
+  "timestamp": "2025-07-10T12:19:00.628Z",
+  "success": false,
+  "processingTime": -1752149642224,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4955,
+    "totalAudioFiles": 12,
+    "totalDuration": 2503.228333
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2503.228333
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/2324/optimized_text/2324.md",
+    "fileSize": 684,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "2324.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/2324/metadata/2324_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2503.22,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/2324/metadata/2324_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/2324/metadata/2324_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "andrew-dragon-hd-latest",
+    "confidence": 70,
+    "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+    "analysis": {
+      "complexity": "high",
+      "tone": "balanced",
+      "pacing": "steady"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/2324/2324_complete.wav",
+    "duration": 2503.228333,
+    "fileSize": 120155038,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/2324/introduction.wav",
+          "duration": 105.109792,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 105.109792,
+          "startTime": 0,
+          "endTime": 105.109792
+        },
+        {
+          "path": "Audio/output/2324/chapter_01.wav",
+          "duration": 287.450875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Facing Mortality in Everyday Life",
+          "actualDuration": 287.450875,
+          "startTime": 106.609792,
+          "endTime": 394.06066699999997
+        },
+        {
+          "path": "Audio/output/2324/chapter_02.wav",
+          "duration": 298.0465,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 The Roots of Death Anxiety and the Birth of the Hero",
+          "actualDuration": 298.0465,
+          "startTime": 395.56066699999997,
+          "endTime": 693.6071669999999
+        },
+        {
+          "path": "Audio/output/2324/chapter_03.wav",
+          "duration": 256.684458,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 How Culture and Religion Help Us Cope",
+          "actualDuration": 256.684458,
+          "startTime": 695.1071669999999,
+          "endTime": 951.7916249999998
+        },
+        {
+          "path": "Audio/output/2324/chapter_04.wav",
+          "duration": 262.102167,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Repression, Denial, and the Struggle for Mental Health",
+          "actualDuration": 262.102167,
+          "startTime": 953.2916249999998,
+          "endTime": 1215.3937919999998
+        },
+        {
+          "path": "Audio/output/2324/chapter_05.wav",
+          "duration": 232.866833,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 The Search for Meaning and the Cost of Denial",
+          "actualDuration": 232.866833,
+          "startTime": 1216.8937919999998,
+          "endTime": 1449.760625
+        },
+        {
+          "path": "Audio/output/2324/chapter_06.wav",
+          "duration": 201.463458,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Double-Edged Sword of Heroism",
+          "actualDuration": 201.463458,
+          "startTime": 1451.260625,
+          "endTime": 1652.7240829999998
+        },
+        {
+          "path": "Audio/output/2324/chapter_07.wav",
+          "duration": 203.30025,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 The Shadow Side of Denial—Violence, Scapegoating, and the Need for Enemies",
+          "actualDuration": 203.30025,
+          "startTime": 1654.2240829999998,
+          "endTime": 1857.5243329999998
+        },
+        {
+          "path": "Audio/output/2324/chapter_08.wav",
+          "duration": 170.043375,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 Love, Intimacy, and the Fear of Loss",
+          "actualDuration": 170.043375,
+          "startTime": 1859.0243329999998,
+          "endTime": 2029.0677079999998
+        },
+        {
+          "path": "Audio/output/2324/chapter_09.wav",
+          "duration": 167.754333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Creativity, Art, and the Quest for Immortality",
+          "actualDuration": 167.754333,
+          "startTime": 2030.5677079999998,
+          "endTime": 2198.322041
+        },
+        {
+          "path": "Audio/output/2324/chapter_10.wav",
+          "duration": 173.701,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Living Authentically—Freedom, Responsibility, and the Courage to Be",
+          "actualDuration": 173.701,
+          "startTime": 2199.822041,
+          "endTime": 2373.523041
+        },
+        {
+          "path": "Audio/output/2324/conclusion.wav",
+          "duration": 144.705292,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 144.705292,
+          "startTime": 2375.023041,
+          "endTime": 2519.728333
+        }
+      ],
+      "totalDuration": 2519.728333,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 105.11,
+          "actualStart": 0,
+          "actualEnd": 105.109792,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Facing Mortality in Everyday Life",
+          "expectedStart": 105.11,
+          "expectedEnd": 392.56,
+          "actualStart": 106.609792,
+          "actualEnd": 394.06066699999997,
+          "timeDifference": 1.4997919999999993
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 The Roots of Death Anxiety and the Birth of the Hero",
+          "expectedStart": 392.56,
+          "expectedEnd": 690.61,
+          "actualStart": 395.56066699999997,
+          "actualEnd": 693.6071669999999,
+          "timeDifference": 3.0006669999999644
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 How Culture and Religion Help Us Cope",
+          "expectedStart": 690.61,
+          "expectedEnd": 947.29,
+          "actualStart": 695.1071669999999,
+          "actualEnd": 951.7916249999998,
+          "timeDifference": 4.497166999999877
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Repression, Denial, and the Struggle for Mental Health",
+          "expectedStart": 947.29,
+          "expectedEnd": 1209.39,
+          "actualStart": 953.2916249999998,
+          "actualEnd": 1215.3937919999998,
+          "timeDifference": 6.001624999999876
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 The Search for Meaning and the Cost of Denial",
+          "expectedStart": 1209.39,
+          "expectedEnd": 1442.26,
+          "actualStart": 1216.8937919999998,
+          "actualEnd": 1449.760625,
+          "timeDifference": 7.503791999999748
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Double-Edged Sword of Heroism",
+          "expectedStart": 1442.26,
+          "expectedEnd": 1643.72,
+          "actualStart": 1451.260625,
+          "actualEnd": 1652.7240829999998,
+          "timeDifference": 9.0006249999999
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 The Shadow Side of Denial—Violence, Scapegoating, and the Need for Enemies",
+          "expectedStart": 1643.72,
+          "expectedEnd": 1847.02,
+          "actualStart": 1654.2240829999998,
+          "actualEnd": 1857.5243329999998,
+          "timeDifference": 10.50408299999981
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 Love, Intimacy, and the Fear of Loss",
+          "expectedStart": 1847.02,
+          "expectedEnd": 2017.06,
+          "actualStart": 1859.0243329999998,
+          "actualEnd": 2029.0677079999998,
+          "timeDifference": 12.00433299999986
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Creativity, Art, and the Quest for Immortality",
+          "expectedStart": 2017.06,
+          "expectedEnd": 2184.81,
+          "actualStart": 2030.5677079999998,
+          "actualEnd": 2198.322041,
+          "timeDifference": 13.507707999999866
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Living Authentically—Freedom, Responsibility, and the Courage to Be",
+          "expectedStart": 2184.81,
+          "expectedEnd": 2358.51,
+          "actualStart": 2199.822041,
+          "actualEnd": 2373.523041,
+          "timeDifference": 15.012040999999954
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 2358.51,
+          "expectedEnd": 2503.22,
+          "actualStart": 2375.023041,
+          "actualEnd": 2519.728333,
+          "timeDifference": 16.513040999999703
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 105.109792,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Facing Mortality in Everyday Life"
+        },
+        {
+          "startTime": 394.06066699999997,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Facing Mortality in Everyday Life and Chapter 2 The Roots of Death Anxiety and the Birth of the Hero"
+        },
+        {
+          "startTime": 693.6071669999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 The Roots of Death Anxiety and the Birth of the Hero and Chapter 3 How Culture and Religion Help Us Cope"
+        },
+        {
+          "startTime": 951.7916249999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 How Culture and Religion Help Us Cope and Chapter 4 Repression, Denial, and the Struggle for Mental Health"
+        },
+        {
+          "startTime": 1215.3937919999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Repression, Denial, and the Struggle for Mental Health and Chapter 5 The Search for Meaning and the Cost of Denial"
+        },
+        {
+          "startTime": 1449.760625,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 The Search for Meaning and the Cost of Denial and Chapter 6 The Double-Edged Sword of Heroism"
+        },
+        {
+          "startTime": 1652.7240829999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Double-Edged Sword of Heroism and Chapter 7 The Shadow Side of Denial—Violence, Scapegoating, and the Need for Enemies"
+        },
+        {
+          "startTime": 1857.5243329999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 The Shadow Side of Denial—Violence, Scapegoating, and the Need for Enemies and Chapter 8 Love, Intimacy, and the Fear of Loss"
+        },
+        {
+          "startTime": 2029.0677079999998,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 Love, Intimacy, and the Fear of Loss and Chapter 9 Creativity, Art, and the Quest for Immortality"
+        },
+        {
+          "startTime": 2198.322041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Creativity, Art, and the Quest for Immortality and Chapter 10 Living Authentically—Freedom, Responsibility, and the Courage to Be"
+        },
+        {
+          "startTime": 2373.523041,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Living Authentically—Freedom, Responsibility, and the Courage to Be and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "2324",
+      "selectedVoice": "andrew-dragon-hd-latest",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-AndrewDragonHDNeural",
+        "gender": "male",
+        "tone": "natural",
+        "style": "authentic",
+        "personality": "engaging",
+        "bestFor": [
+          "chat",
+          "podcasts",
+          "audiobooks",
+          "general"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Gender-based selection (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-10T12:14:02.706Z",
+      "ssmlConfig": {
+        "voice": "andrew-dragon-hd-latest",
+        "baseSettings": {
+          "rate": "0.95",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "high",
+        "tone": "balanced",
+        "pacing": "steady"
+      }
+    }
+  }
+}

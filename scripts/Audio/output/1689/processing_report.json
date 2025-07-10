@@ -1,0 +1,456 @@
+{
+  "bookId": "1689",
+  "timestamp": "2025-07-08T07:10:22.814Z",
+  "success": false,
+  "processingTime": -1751957710051,
+  "stats": {
+    "totalSections": 12,
+    "totalWords": 4367,
+    "totalAudioFiles": 12,
+    "totalDuration": 2096.114709
+  },
+  "sections": {
+    "introduction": true,
+    "chapters": 10,
+    "conclusion": true
+  },
+  "audioFiles": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "duration": 2096.114709
+  },
+  "optimizedText": {
+    "saved": true,
+    "path": "Audio/output/1689/optimized_text/1689.md",
+    "fileSize": 712,
+    "wordCount": 100,
+    "format": "markdown",
+    "filename": "1689.md",
+    "preservedOriginalFormat": true
+  },
+  "chapterTimestamps": {
+    "generated": true,
+    "path": "Audio/output/1689/metadata/1689_chapters.json",
+    "totalChapters": 12,
+    "totalDuration": 2096.1,
+    "navigationReady": true,
+    "seekingSupported": true
+  },
+  "textOptimization": {
+    "headerPreservation": {
+      "enabled": true,
+      "verificationPassed": true,
+      "fallbackUsed": false
+    },
+    "audioOptimization": {
+      "applied": true,
+      "naturalSpeechEnhanced": true,
+      "abbreviationsExpanded": true
+    }
+  },
+  "metadata": {
+    "playlist": {
+      "generated": true,
+      "path": "Audio/output/1689/metadata/1689_playlist.m3u",
+      "format": "M3U"
+    },
+    "webvttChapters": {
+      "generated": true,
+      "path": "Audio/output/1689/metadata/1689_chapters.vtt",
+      "format": "WebVTT"
+    },
+    "chapterNavigation": {
+      "totalChapters": 12,
+      "hasIntroduction": true,
+      "hasConclusion": true,
+      "chapterCount": 10
+    }
+  },
+  "voiceSelection": {
+    "selectedVoice": "brandon-multilingual",
+    "confidence": 70,
+    "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+    "analysis": {
+      "complexity": "medium",
+      "tone": "balanced",
+      "pacing": "varied"
+    },
+    "ssmlEnabled": true,
+    "intelligentSelection": true
+  },
+  "combinedAudio": {
+    "success": true,
+    "outputPath": "Audio/output/1689/1689_complete.wav",
+    "duration": 2096.114708,
+    "fileSize": 100613584,
+    "validation": {
+      "valid": true,
+      "warnings": [],
+      "errors": [],
+      "durationMatch": true,
+      "timingAccuracy": "excellent"
+    },
+    "mergePlan": {
+      "files": [
+        {
+          "path": "Audio/output/1689/introduction.wav",
+          "duration": 82.094417,
+          "section": "introduction",
+          "title": "Introduction",
+          "actualDuration": 82.094417,
+          "startTime": 0,
+          "endTime": 82.094417
+        },
+        {
+          "path": "Audio/output/1689/chapter_01.wav",
+          "duration": 235.013875,
+          "section": "chapter",
+          "chapterIndex": 0,
+          "title": "Chapter 1 Growing Up in a World of Contradictions and Curiosity",
+          "actualDuration": 235.013875,
+          "startTime": 83.594417,
+          "endTime": 318.608292
+        },
+        {
+          "path": "Audio/output/1689/chapter_02.wav",
+          "duration": 242.716958,
+          "section": "chapter",
+          "chapterIndex": 1,
+          "title": "Chapter 2 Chasing Dreams and Learning the Cost of Conformity",
+          "actualDuration": 242.716958,
+          "startTime": 320.108292,
+          "endTime": 562.82525
+        },
+        {
+          "path": "Audio/output/1689/chapter_03.wav",
+          "duration": 229.059,
+          "section": "chapter",
+          "chapterIndex": 2,
+          "title": "Chapter 3 Breaking the Mold and Finding a True Voice",
+          "actualDuration": 229.059,
+          "startTime": 564.32525,
+          "endTime": 793.38425
+        },
+        {
+          "path": "Audio/output/1689/chapter_04.wav",
+          "duration": 189.101042,
+          "section": "chapter",
+          "chapterIndex": 3,
+          "title": "Chapter 4 Comedy as a Tool for Truth and Social Critique",
+          "actualDuration": 189.101042,
+          "startTime": 794.88425,
+          "endTime": 983.985292
+        },
+        {
+          "path": "Audio/output/1689/chapter_05.wav",
+          "duration": 186.377292,
+          "section": "chapter",
+          "chapterIndex": 4,
+          "title": "Chapter 5 Reinvention, Resilience, and the Power of Unfiltered Honesty",
+          "actualDuration": 186.377292,
+          "startTime": 985.485292,
+          "endTime": 1171.862584
+        },
+        {
+          "path": "Audio/output/1689/chapter_06.wav",
+          "duration": 176.743667,
+          "section": "chapter",
+          "chapterIndex": 5,
+          "title": "Chapter 6 The Weight of Legacy and the Search for Meaning",
+          "actualDuration": 176.743667,
+          "startTime": 1173.362584,
+          "endTime": 1350.106251
+        },
+        {
+          "path": "Audio/output/1689/chapter_07.wav",
+          "duration": 183.307167,
+          "section": "chapter",
+          "chapterIndex": 6,
+          "title": "Chapter 7 Facing Mortality and Embracing Vulnerability",
+          "actualDuration": 183.307167,
+          "startTime": 1351.606251,
+          "endTime": 1534.9134179999999
+        },
+        {
+          "path": "Audio/output/1689/chapter_08.wav",
+          "duration": 190.453708,
+          "section": "chapter",
+          "chapterIndex": 7,
+          "title": "Chapter 8 The Ripple Effect—Influence, Imitation, and the Next Generation",
+          "actualDuration": 190.453708,
+          "startTime": 1536.4134179999999,
+          "endTime": 1726.8671259999999
+        },
+        {
+          "path": "Audio/output/1689/chapter_09.wav",
+          "duration": 122.392333,
+          "section": "chapter",
+          "chapterIndex": 8,
+          "title": "Chapter 9 Final Reflections—Laughter, Loss, and the Unfinished Story",
+          "actualDuration": 122.392333,
+          "startTime": 1728.3671259999999,
+          "endTime": 1850.7594589999999
+        },
+        {
+          "path": "Audio/output/1689/chapter_10.wav",
+          "duration": 123.894708,
+          "section": "chapter",
+          "chapterIndex": 9,
+          "title": "Chapter 10 Last Words—Letting Go and Leaving a Mark",
+          "actualDuration": 123.894708,
+          "startTime": 1852.2594589999999,
+          "endTime": 1976.154167
+        },
+        {
+          "path": "Audio/output/1689/conclusion.wav",
+          "duration": 134.960542,
+          "section": "conclusion",
+          "title": "Conclusion",
+          "actualDuration": 134.960542,
+          "startTime": 1977.654167,
+          "endTime": 2112.614709
+        }
+      ],
+      "totalDuration": 2112.614709,
+      "chapterAlignment": [
+        {
+          "chapterIndex": 0,
+          "chapterTitle": "Introduction",
+          "expectedStart": 0,
+          "expectedEnd": 82.09,
+          "actualStart": 0,
+          "actualEnd": 82.094417,
+          "timeDifference": 0
+        },
+        {
+          "chapterIndex": 1,
+          "chapterTitle": "Chapter 1 Growing Up in a World of Contradictions and Curiosity",
+          "expectedStart": 82.09,
+          "expectedEnd": 317.1,
+          "actualStart": 83.594417,
+          "actualEnd": 318.608292,
+          "timeDifference": 1.5044170000000037
+        },
+        {
+          "chapterIndex": 2,
+          "chapterTitle": "Chapter 2 Chasing Dreams and Learning the Cost of Conformity",
+          "expectedStart": 317.1,
+          "expectedEnd": 559.82,
+          "actualStart": 320.108292,
+          "actualEnd": 562.82525,
+          "timeDifference": 3.008291999999983
+        },
+        {
+          "chapterIndex": 3,
+          "chapterTitle": "Chapter 3 Breaking the Mold and Finding a True Voice",
+          "expectedStart": 559.82,
+          "expectedEnd": 788.88,
+          "actualStart": 564.32525,
+          "actualEnd": 793.38425,
+          "timeDifference": 4.505249999999933
+        },
+        {
+          "chapterIndex": 4,
+          "chapterTitle": "Chapter 4 Comedy as a Tool for Truth and Social Critique",
+          "expectedStart": 788.88,
+          "expectedEnd": 977.98,
+          "actualStart": 794.88425,
+          "actualEnd": 983.985292,
+          "timeDifference": 6.004249999999956
+        },
+        {
+          "chapterIndex": 5,
+          "chapterTitle": "Chapter 5 Reinvention, Resilience, and the Power of Unfiltered Honesty",
+          "expectedStart": 977.98,
+          "expectedEnd": 1164.36,
+          "actualStart": 985.485292,
+          "actualEnd": 1171.862584,
+          "timeDifference": 7.50529199999994
+        },
+        {
+          "chapterIndex": 6,
+          "chapterTitle": "Chapter 6 The Weight of Legacy and the Search for Meaning",
+          "expectedStart": 1164.36,
+          "expectedEnd": 1341.1,
+          "actualStart": 1173.362584,
+          "actualEnd": 1350.106251,
+          "timeDifference": 9.00258400000007
+        },
+        {
+          "chapterIndex": 7,
+          "chapterTitle": "Chapter 7 Facing Mortality and Embracing Vulnerability",
+          "expectedStart": 1341.1,
+          "expectedEnd": 1524.41,
+          "actualStart": 1351.606251,
+          "actualEnd": 1534.9134179999999,
+          "timeDifference": 10.50625100000002
+        },
+        {
+          "chapterIndex": 8,
+          "chapterTitle": "Chapter 8 The Ripple Effect—Influence, Imitation, and the Next Generation",
+          "expectedStart": 1524.41,
+          "expectedEnd": 1714.86,
+          "actualStart": 1536.4134179999999,
+          "actualEnd": 1726.8671259999999,
+          "timeDifference": 12.003417999999783
+        },
+        {
+          "chapterIndex": 9,
+          "chapterTitle": "Chapter 9 Final Reflections—Laughter, Loss, and the Unfinished Story",
+          "expectedStart": 1714.86,
+          "expectedEnd": 1837.25,
+          "actualStart": 1728.3671259999999,
+          "actualEnd": 1850.7594589999999,
+          "timeDifference": 13.507125999999971
+        },
+        {
+          "chapterIndex": 10,
+          "chapterTitle": "Chapter 10 Last Words—Letting Go and Leaving a Mark",
+          "expectedStart": 1837.25,
+          "expectedEnd": 1961.14,
+          "actualStart": 1852.2594589999999,
+          "actualEnd": 1976.154167,
+          "timeDifference": 15.009458999999879
+        },
+        {
+          "chapterIndex": 11,
+          "chapterTitle": "Conclusion",
+          "expectedStart": 1961.14,
+          "expectedEnd": 2096.1,
+          "actualStart": 1977.654167,
+          "actualEnd": 2112.614709,
+          "timeDifference": 16.514166999999816
+        }
+      ],
+      "silenceSegments": [
+        {
+          "startTime": 82.094417,
+          "duration": 1.5,
+          "reason": "Gap between Introduction and Chapter 1 Growing Up in a World of Contradictions and Curiosity"
+        },
+        {
+          "startTime": 318.608292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 1 Growing Up in a World of Contradictions and Curiosity and Chapter 2 Chasing Dreams and Learning the Cost of Conformity"
+        },
+        {
+          "startTime": 562.82525,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 2 Chasing Dreams and Learning the Cost of Conformity and Chapter 3 Breaking the Mold and Finding a True Voice"
+        },
+        {
+          "startTime": 793.38425,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 3 Breaking the Mold and Finding a True Voice and Chapter 4 Comedy as a Tool for Truth and Social Critique"
+        },
+        {
+          "startTime": 983.985292,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 4 Comedy as a Tool for Truth and Social Critique and Chapter 5 Reinvention, Resilience, and the Power of Unfiltered Honesty"
+        },
+        {
+          "startTime": 1171.862584,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 5 Reinvention, Resilience, and the Power of Unfiltered Honesty and Chapter 6 The Weight of Legacy and the Search for Meaning"
+        },
+        {
+          "startTime": 1350.106251,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 6 The Weight of Legacy and the Search for Meaning and Chapter 7 Facing Mortality and Embracing Vulnerability"
+        },
+        {
+          "startTime": 1534.9134179999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 7 Facing Mortality and Embracing Vulnerability and Chapter 8 The Ripple Effect—Influence, Imitation, and the Next Generation"
+        },
+        {
+          "startTime": 1726.8671259999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 8 The Ripple Effect—Influence, Imitation, and the Next Generation and Chapter 9 Final Reflections—Laughter, Loss, and the Unfinished Story"
+        },
+        {
+          "startTime": 1850.7594589999999,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 9 Final Reflections—Laughter, Loss, and the Unfinished Story and Chapter 10 Last Words—Letting Go and Leaving a Mark"
+        },
+        {
+          "startTime": 1976.154167,
+          "duration": 1.5,
+          "reason": "Gap between Chapter 10 Last Words—Letting Go and Leaving a Mark and Conclusion"
+        }
+      ]
+    },
+    "audioFileCount": 12
+  },
+  "errors": [],
+  "features": {
+    "optimizedTextInOriginalFormat": true,
+    "chapterHeaderPreservation": true,
+    "enhancedChapterTimestamps": true,
+    "audioNavigationSupport": true,
+    "seekingBarCompatible": true,
+    "intelligentVoiceSelection": true,
+    "ssmlGeneration": true,
+    "expressiveAudio": {
+      "bookId": "1689",
+      "selectedVoice": "brandon-multilingual",
+      "voiceCharacteristics": {
+        "azureVoiceId": "en-US-BrandonMultilingualNeural",
+        "gender": "male",
+        "tone": "warm",
+        "style": "friendly",
+        "personality": "conversational",
+        "bestFor": [
+          "storytelling",
+          "casual",
+          "self-help",
+          "personal-development"
+        ]
+      },
+      "confidence": 70,
+      "reasoning": "Hybrid: Style match (+12) (Gender: male)",
+      "provider": "Hybrid Voice Selector (Ollama + Smart)",
+      "timestamp": "2025-07-08T06:55:10.552Z",
+      "ssmlConfig": {
+        "voice": "brandon-multilingual",
+        "baseSettings": {
+          "rate": "1.0",
+          "pitch": "medium"
+        },
+        "sectionSettings": {
+          "introduction": {
+            "rate": "1",
+            "emphasis": "moderate",
+            "pauseAfter": "1.5s"
+          },
+          "chapter": {
+            "rate": "1.0",
+            "emphasis": "moderate",
+            "pauseAfter": "1.0s"
+          },
+          "conclusion": {
+            "rate": "1",
+            "emphasis": "strong",
+            "pauseAfter": "2.0s"
+          }
+        },
+        "emphasisSettings": {
+          "keyTerms": {
+            "level": "moderate",
+            "pauseAfter": "0.3s"
+          },
+          "quotes": {
+            "rate": "0.98",
+            "emphasis": "moderate"
+          }
+        }
+      },
+      "analysis": {
+        "complexity": "medium",
+        "tone": "balanced",
+        "pacing": "varied"
+      }
+    }
+  }
+}
