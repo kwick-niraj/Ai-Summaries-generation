@@ -69,7 +69,7 @@ async function main() {
   const eligibleBookIds = allFolders
     .filter((folder) => /^\d+$/.test(folder))
     .map(Number)
-    .filter((id) => id < 1444 && (!tracker[id] || !tracker[id].isUploaded))
+    .filter((id) => id < 2702 && (!tracker[id] || !tracker[id].isUploaded))
     .sort((a, b) => a - b);
 
   const batches = [];

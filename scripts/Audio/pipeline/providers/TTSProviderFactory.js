@@ -32,13 +32,13 @@ export class TTSProviderFactory {
       }
 
       // Initialize Azure OpenAI provider (legacy/fallback)
-      if (this.config.tts?.azureOpenAI) {
-        const azureOpenAIProvider = new AzureOpenAITTSProvider(this.config.tts.azureOpenAI);
-        this.providers.set('azure-openai', azureOpenAIProvider);
-        console.log('✅ Azure OpenAI TTS provider initialized (fallback)');
-      } else {
-        console.warn('⚠️  Azure OpenAI configuration not found in config.tts.azureOpenAI');
-      }
+      // if (this.config.tts?.azureOpenAI) {
+      //   const azureOpenAIProvider = new AzureOpenAITTSProvider(this.config.tts.azureOpenAI);
+      //   this.providers.set('azure-openai', azureOpenAIProvider);
+      //   console.log('✅ Azure OpenAI TTS provider initialized (fallback)');
+      // } else {
+      //   console.warn('⚠️  Azure OpenAI configuration not found in config.tts.azureOpenAI');
+      // }
 
       console.log(`🔧 TTS Factory: ${this.providers.size} providers available`);
       console.log(`🎯 Primary: ${this.primaryProvider}, Fallback: ${this.fallbackProvider}`);

@@ -1,5 +1,5 @@
 import { AzureOpenAI } from 'openai';
-import { DefaultAzureCredential, getBearerTokenProvider } from '@azure/identity';
+import { AzureCliCredential, getBearerTokenProvider } from '@azure/identity';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -16,7 +16,7 @@ export class TextOptimizer {
     const deployment = process.env.AZURE_OPENAI_CHAT_DEPLOYMENT_ID || 'gpt-4.1';
 
     // Initialize Azure Credential (same as your existing code)
-    const credential = new DefaultAzureCredential();
+    const credential = new AzureCliCredential(); 
     const scope = 'https://cognitiveservices.azure.com/.default';
     const azureADTokenProvider = getBearerTokenProvider(credential, scope);
 
